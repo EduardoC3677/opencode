@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Lỗi nội bộ của các công cụ cài đặt ROM khác không được liệt kê.",
+        "suggest": "Thử cài đặt lại ROM. Nếu sự cố tương tự xảy ra nhiều lần, hãy liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để báo cáo sự cố cho nhóm bảo trì công cụ."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "Không thể phân bổ dung lượng bộ nhớ đệm mà thao tác yêu cầu do không đủ bộ nhớ PC.",
+        "suggest": "1. Tắt các ứng dụng bạn không sử dụng và thử cài đặt lại.\n2. Khởi động lại máy tính và thử cài đặt lại."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Lỗi trả về giao diện hệ thống Windows: {1} đã trả về {2}.",
+        "suggest": "Máy tính đang dùng bị lỗi. Vui lòng thử cài đặt lại thiết bị. Nếu sự cố vẫn tiếp diễn sau nhiều lần thử, vui lòng báo cáo sự cố cho nhóm bảo trì công cụ để phân tích và xử lý thông qua một đại diện hỗ trợ kỹ thuật sau bán hàng."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "Đã phát hiện thấy một trình gỡ lỗi phần mềm đang chạy trên máy tính.",
+        "suggest": "Vui lòng đóng tất cả các trình gỡ lỗi phần mềm đang mở rồi thử lại."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "Đã phát hiện thấy rằng dịch vụ công cụ flash ROM đang chạy trên máy ảo.",
+        "suggest": "Vui lòng chạy công cụ flash ROM trên máy tính thực."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "Dữ liệu gói cài đặt ROM bị hỏng.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thửsao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "Tệp hay thư mục ROM đã nhập không hợp lệ hoặc gói cài đặt ROM bịhỏng.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, hãy đảm bảo gói này ở định dạng OFP hoặc có tệp version_info.txt ở bên trong gói. Nếu lại xảy ra lỗi sau khi xác nhận, vui lòng thử sao chép lại gói cài đặt ROM từ phương tiện nguồn và tải lại gói này."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "Gói cài đặt ROM đã tải không thể áp dụng cho thiết bị cần được cài đặt hoặc dữ liệu trong gói cài đặt ROM bị hỏng.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, hãy đảm bảo rằng gói này phù hợp với model của thiết bị cần được cài đặt. Hãy tải xuống lại đúng gói cài đặt ROM và thử tải lại gói này.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, hãy đảm bảo rằng gói đó phù hợp với model của thiết bị cần được cài đặt. Sao chép lại gói từ phương tiện nguồn và thử tải lại gói."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "Gói cài đặt ROM đã tải không thể áp dụng cho thiết bị cần được cài đặt hoặc dữ liệu trong gói cài đặt ROM bị hỏng.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, hãy đảm bảo rằng gói này phù hợp với model của thiết bị cần được cài đặt. Hãy tải xuống lại đúng gói cài đặt ROM và thử tải lại gói này.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, hãy đảm bảo rằng gói đó phù hợp với model của thiết bị cần được cài đặt. Sao chép lại gói từ phương tiện nguồn và thử tải lại gói."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "Không thể nhấp nháy thiết bị vì mã mục {1} của thiết bị không khớp với mã mục {2} trong gói phần mềm.",
+        "suggest": "Kiểm tra model thiết bị của người dùng, tải xuống đúng gói cài đặt ROM rồi cài đặt ROM."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "Bảng phân vùng trong thiết bị của người dùng không thống nhất với bảng phân vùng trong gói cài đặt ROM.",
+        "suggest": "Sử dụng \"Chế độ bắt buộc\" trong công cụ cài đặt ROM để cài đặt ROM. Sau khi cài đặt xong và bật thiết bị, hãy tiến hành kiểm tra toàn bộ chức năng. Nếu không thể bật thiết bị sau khi cài đặt hoặc nếu phát hiện thấy bất kỳ vấn đề nào trong quá trình kiểm tra chức năng, hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Không thể đọc số mục từ điện thoại.",
+        "suggest": "1. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n2. Thử sử dụng một cáp USB khác hoặc một cổng USB khác trên máy tính để cài đặt lại ROM.\n3. Nếu vấn đề lại xảy ra sau khi thực hiện các biện pháp trên, hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "Không thể phân bổ dung lượng bộ nhớ đệm mà thao tác yêu cầu do không đủ bộ nhớ PC.",
+        "suggest": "1. Tắt các ứng dụng bạn không sử dụng và thử cài đặt lại.\n2. Khởi động lại máy tính và thử cài đặt lại."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Định dạng tệp của trình tải trước không hợp lệ.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thửsao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "Tệp xác thực không hợp lệ.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thửsao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "Tệp bảng phân vùng không tồn tại.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thửsao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "Lỗi giao tiếp DA.",
+        "suggest": "1. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n2. Thử sử dụng một cáp USB khác hoặc một cổng USB khác trên máy tính để cài đặt lại ROM.\n3. Nếu vấn đề lại xảy ra sau khi thực hiện các biện pháp trên, hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "USB bị ngắt kết nối bất ngờ.",
+        "suggest": "1. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n2. Thử sử dụng một cáp USB khác hoặc một cổng USB khác trên máy tính để cài đặt lại ROM.\n3. Nếu vấn đề lại xảy ra sau khi thực hiện các biện pháp trên, hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "Kết nối DA không thành công do RAM ngoài gặp bất thường.",
+        "suggest": "Thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Bộ nhớ không khớp với dữ liệu DA.",
+        "suggest": "Thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "Số lượng chip DDR bên trong thiết bị vượt quá giới hạn của nền tảng.",
+        "suggest": "Thử cài đặt lại ROM. Nếu sự cố tương tự xảy ra nhiều lần, hãy liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để báo cáo sự cố cho nhóm bảo trì công cụ."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "Tải xuống DA không thành công.",
+        "suggest": "1. Kiểm tra model của thiết bị, tải xuống đúng gói cài đặt ROM và thử cài đặt lại.\n2. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n3. Nếu lỗi đã xảy ra nhiều lần trong quá trình thử cài đặt ROM khi đang sử dụng đúng gói cho thiết bị và pin còn đủ, hãy thay thê bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Lỗi phần cứng hoặc phần mềm của các cấu phần DDR thuộc về thiết bị.",
+        "suggest": "Thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Lỗi phần cứng hoặc phần mềm của các cấu phần SOC hoặc DDR thuộc về thiết bị.",
+        "suggest": "Thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Lỗi xác minh tải xuống tệp.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Lỗi nội bộ trong nền tảng MTK.",
+        "suggest": "Thử cài đặt lại ROM. Nếu sự cố tương tự xảy ra nhiều lần, hãy liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để báo cáo sự cố cho nhóm bảo trì công cụ."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "Không thể cài đặt ROM vì không thể tìm thấy thông tin mã quốc gia của thiết bị trong bộ nhớ thiết bị hoặc nền dịch vụ.",
+        "suggest": "Vui lòng liên hệ với bộ phận dịch vụ IT6000 để báo cáo sự cố được tìm thấy trên thiết bị này."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "Gói ROM đã chọn không hỗ trợ mã quốc gia {1} của thiết bị.",
+        "suggest": "Hãy dùng gói ROM cho đúng khu vực và thử lại."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "Lỗi máy chủ điều khiển đám mây O+: {1} {2}.",
+        "suggest": "1. Đảm bảo có thể truy cập các dịch vụ Đám mây O+ qua mạng của bạn. Nếu không thể truy cập, hãy liên hệ với nhóm hỗ trợ kỹ thuật sau bán hàng để biết các cài đặt cấu hình chính xác.\n2. Thử cài đặt lại ROM. Nếu sự cố xảy ra nhiều lần, hãy liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để báo cáo sự cố cho nhóm vận hành và bảo trì Dịch vụ Đám mây O+."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "Dịch vụ Đám mây O+ không trả về kết quả yêu cầu xử lý,API được yêu cầu: {1}.",
+        "suggest": "Dịch vụ Đám mây O+ bị lỗi. Nếu sự cố vẫn tiếp diễn sau nhiều lần thử, vui lòng báo cáo sự cố cho nhóm bảo trì công cụ để phân tích và xử lý thông qua một đại diện hỗ trợ kỹ thuật dưới nền."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "Lỗi xác thực nền tảng điều khiển đám mây O+: {2}.",
+        "suggest": "Xin quyền tương ứng hoặc thực hiện các thao tác khác dựa trên mô tả lỗi trong nền. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ kỹ thuật sau bán hàng."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "Lỗi xác thực nền tảng điều khiển đám mây O+: {2} {3}.",
+        "suggest": "Xin quyền tương ứng hoặc thực hiện các thao tác khác dựa trên mô tả lỗi trong nền. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ kỹ thuật sau bán hàng."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "Lỗi xác thực nền tảng điều khiển đám mây O+.",
+        "suggest": "Xin quyền tương ứng hoặc thực hiện các thao tác khác dựa trên mô tả lỗi trong nền. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ kỹ thuật sau bán hàng."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Phiên bản phần mềm đã lỗi thời.",
+        "suggest": "Vui lòng tải về bản ROM mới nhất cho model thiết bị này và flash nó."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "Tài khoản người dùng này không có quyền cài đặt ROM nâng cao.",
+        "suggest": "Hãy xin cấp quyền trong hệ thống UPM và thử lại."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "Giao diện dịch vụ Đám mây O+ {1} không trả về trường dữ liệu được chỉ định: {2}.",
+        "suggest": "Dịch vụ Đám mây O+ bị lỗi. Nếu sự cố vẫn tiếp diễn sau nhiều lần thử, vui lòng báo cáo sự cố cho nhóm bảo trì công cụ để phân tích và xử lý thông qua một đại diện hỗ trợ kỹ thuật dưới nền."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "Không thể mở tệp {1}.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "Không thể đọc dữ liệu trong tệp {1}.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "Không thể định vị dữ liệu trong tệp {1}.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "Không thể mở tệp {1}.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "Không thể định vị dữ liệu trong tệp {1}.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Không đóng được tệp {1}. Mã lỗi {2}.",
+        "suggest": "Lỗi nội bộ của hệ điều hành Windows. Vui lòng thử cài đặt lại thiết bị. Nếu sự cố vẫn tiếp diễn sau nhiều lần thử, vui lòng báo cáo sự cố cho nhóm bảo trì công cụ để phân tích và xử lý thông qua một đại diện hỗ trợ kỹ thuật sau bán hàng."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "Không thể đọc dữ liệu trong tệp {1}.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "Thiết bị không thể thực thi lệnh {1}: {2}.",
+        "suggest": "1. Kiểm tra model của thiết bị, tải xuống đúng gói cài đặt ROM và thử cài đặt lại.\n2. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n3. Nếu lỗi đã xảy ra nhiều lần trong quá trình thử cài đặt ROM khi đang sử dụng đúng gói cho thiết bị và pin còn đủ, hãy thay thê bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "Không thể nhấp nháy thiết bị vì mã mục {1} của thiết bị không khớp với mã mục {2} trong gói phần mềm.",
+        "suggest": "Kiểm tra model thiết bị của người dùng, tải xuống đúng gói cài đặt ROM rồi cài đặt ROM."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Khởi tạo thiết bị không thành công.",
+        "suggest": "1. Kiểm tra model của thiết bị, tải xuống đúng gói cài đặt ROM và thử cài đặt lại.\n2. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n3. Nếu lỗi đã xảy ra nhiều lần trong quá trình thử cài đặt ROM khi đang sử dụng đúng gói cho thiết bị và pin còn đủ, hãy thay thê bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "Không cài đặt được ROM.",
+        "suggest": "Tải xuống gói ROM mới và thử lại."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "Không cài đặt được ROM.",
+        "suggest": "Tải xuống gói ROM mới và thử lại."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "Không cài đặt được ROM.",
+        "suggest": "Tải xuống gói ROM mới và thử lại."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Không thể xác nhận mã quốc gia của thiết bị được nhấp nháy.",
+        "suggest": "1. Liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để xem liệu có thể dùng chức năng \"NV mặc định\" trong công cụ cài đặt ROM để cài đặt ROM không. Nếu được cho phép, hãy sử dụng chức năng này để cài đặt ROM và tiến hành kiểm tra toàn bộ chức năng trên điện thoại của người dùng.\n2. Nếu không thể dùng chức năng \"NV mặc định\" để cài đặt ROM của thiết bị hoặc có bất kỳ vấn đề nào xảy ra sau khi cài đặt ROM (ví dụ: không thể bật thiết bị hoặc phát hiện thấy bất kỳ vấn đề nào trong quá trình kiểm tra chức năng), hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Mã quốc gia không được phần mềm hỗ trợ.",
+        "suggest": "1. Hãy đảm bảo rằng khu vực của gói cài đặt ROM được thu nhận từ công cụ cài đặt ROM đang dùng là dành cho khu vực địa phương của thiết bị. Xóa gói cài đặt ROM và tải xuống lại gói này bằng phiên bản chính xác của công cụ.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, hãy sao chép lại gói dành cho đúng model và khu vực từ phương tiện nguồn rồi tải lại gói."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "Thiếu dữ liệu xác minh trong gói ROM.",
+        "suggest": "Tải xuống gói ROM mới và thử lại."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "Bảng phân vùng trong thiết bị của người dùng không thống nhất với bảng phân vùng trong gói cài đặt ROM.",
+        "suggest": "Sử dụng \"Chế độ bắt buộc\" trong công cụ cài đặt ROM để cài đặt ROM. Sau khi cài đặt xong và bật thiết bị, hãy tiến hành kiểm tra toàn bộ chức năng. Nếu không thể bật thiết bị sau khi cài đặt hoặc nếu phát hiện thấy bất kỳ vấn đề nào trong quá trình kiểm tra chức năng, hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "Tệp bị thiếu trong gói ROM: {1}.",
+        "suggest": "Gói cài đặt ROM bị hỏng. Hãy tải xuống gói mới và thử lại."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Định dạng tệp thưa không hợp lệ.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "Không xác minh được danh sách tệp trong gói ROM.",
+        "suggest": "Gói cài đặt ROM bị hỏng. Hãy tải gói mới xuống rồi thử lại."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "Tệp trong gói ROM bị hỏng: {1}",
+        "suggest": "Hãy tải gói ROM mới xuống rồi thử lại."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "Không xác minh được danh sách tệp trong gói ROM.",
+        "suggest": "Gói cài đặt ROM bị hỏng. Hãy tải gói mới xuống rồi thử lại."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "Tệp trong gói ROM bị hỏng: {1}",
+        "suggest": "Hãy tải gói ROM mới xuống rồi thử lại."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "Tệp hay thư mục ROM đã nhập không hợp lệ hoặc gói cài đặt ROM bị hỏng.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, hãy đảm bảo gói này ở định dạng OFP hoặc có tệp version_info.txt ở bên trong gói. Nếu lại xảy ra lỗi sau khi xác nhận, vui lòng thử sao chép lại gói cài đặt ROM từ phương tiện nguồn và tải lại gói này."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "Tệp bị thiếu trong gói ROM: {1}.",
+        "suggest": "Gói cài đặt ROM bị hỏng. Hãy tải xuống gói mới và thử lại."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "Không thể đọc dữ liệu trong tệp {1}.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "Tệp hay thư mục ROM đã nhập không hợp lệ hoặc gói cài đặt ROM bị hỏng.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, hãy đảm bảo gói này ở định dạng OFP hoặc có tệp version_info.txt ở bên trong gói. Nếu lại xảy ra lỗi sau khi xác nhận, vui lòng thử sao chép lại gói cài đặt ROM từ phương tiện nguồn và tải lại gói này."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "Nội dung tệp trong gói cài đặt ROM không đáp ứng mong đợi.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "Nội dung tệp trong gói cài đặt ROM không đáp ứng mong đợi.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "Thiếu dữ liệu xác minh trong gói ROM.",
+        "suggest": "Tải xuống gói ROM mới và thử lại."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "Tệp bị thiếu trong gói ROM: {1}.",
+        "suggest": "Gói cài đặt ROM bị hỏng. Hãy tải xuống gói mới và thử lại."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "Không thể đọc dữ liệu trong tệp {1}.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "Tệp hay thư mục ROM đã nhập không hợp lệ hoặc gói cài đặt ROM bị hỏng.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, hãy đảm bảo gói này ở định dạng OFP hoặc có tệp version_info.txt ở bên trong gói. Nếu lại xảy ra lỗi sau khi xác nhận, vui lòng thử sao chép lại gói cài đặt ROM từ phương tiện nguồn và tải lại gói này."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "Nội dung tệp trong gói cài đặt ROM không đáp ứng mong đợi.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "Nội dung tệp trong gói cài đặt ROM không đáp ứng mong đợi.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "Tệp bảng phân vùng không tồn tại.",
+        "suggest": "1. Nếu đã tải xuống gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất. Sau đó, thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thửsao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "Không xác minh được danh sách tệp trong gói ROM.",
+        "suggest": "Gói cài đặt ROM bị hỏng. Hãy tải gói mới xuống rồi thử lại."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "Tệp trong gói ROM bị hỏng: {1}",
+        "suggest": "Hãy tải gói ROM mới xuống rồi thử lại."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Lỗi khi mở trình xử lý thiết bị.",
+        "suggest": "1. Tắt mọi phiên bản cũ của công cụ cài đặt ROM, công cụ đọc lại và công cụ gỡ lỗi do nhà sản xuất chip cung cấp rồi thử cài đặt lại.\n2. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n3. Thử sử dụng một cáp USB khác hoặc một cổng USB khác trên máy tính để cài đặt lại ROM.\n4. Nếu vấn đề lại xảy ra sau khi thực hiện các biện pháp trên, hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Lỗi khi mở trình xử lý thiết bị.",
+        "suggest": "1. Tắt mọi phiên bản cũ của công cụ cài đặt ROM, công cụ đọc lại và công cụ gỡ lỗi do nhà sản xuất chip cung cấp rồi thử cài đặt lại.\n2. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n3. Thử sử dụng một cáp USB khác hoặc một cổng USB khác trên máy tính để cài đặt lại ROM.\n4. Nếu vấn đề lại xảy ra sau khi thực hiện các biện pháp trên, hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Không định cấu hình được {1}. Mã lỗi {2}.",
+        "suggest": "Thiết bị có thể đã bị vô hiệu hóa hoặc ngắt kết nối. Vui lòng một thử cổng và cáp USB khác, khởi động lại thiết bị về Chế độ EDL rồi thử lại."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Không thể đọc dữ liệu từ tệp hoặc thiết bị.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói.\n3. Nếu sự cố tiếp diễn sau nhiều lần thử, bạn nên lưu gói cài đặt ROM vào ổ cứng hoặc phân vùng khác trước khi thử cài đặt lại."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Không thể đọc dữ liệu từ tệp hoặc thiết bị.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói.\n3. Nếu sự cố tiếp diễn sau nhiều lần thử, bạn nên lưu gói cài đặt ROM vào ổ cứng hoặc phân vùng khác trước khi thử cài đặt lại."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Không thể ghi dữ liệu vào tệp hoặc thiết bị.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói.\n3. Nếu sự cố tiếp diễn sau nhiều lần thử, bạn nên lưu gói cài đặt ROM vào ổ cứng hoặc phân vùng khác trước khi thử cài đặt lại."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Không thể ghi dữ liệu vào tệp hoặc thiết bị.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói.\n3. Nếu sự cố tiếp diễn sau nhiều lần thử, bạn nên lưu gói cài đặt ROM vào ổ cứng hoặc phân vùng khác trước khi thử cài đặt lại."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "Thiết bị không thể thực thi lệnh {1}: {2}.",
+        "suggest": "1. Kiểm tra model của thiết bị, tải xuống đúng gói cài đặt ROM và thử cài đặt lại.\n2. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n3. Nếu lỗi đã xảy ra nhiều lần trong quá trình thử cài đặt ROM khi đang sử dụng đúng gói cho thiết bị và pin còn đủ, hãy thay thê bo mạch chính cho người dùng."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "Lệnh giao thức không thể thực thi trên thiết bị và trả về lỗi: {2}.",
+        "suggest": "Liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để báo cáo sự cố cho nhóm bảo trì công cụ."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "Không thể nhấp nháy thiết bị vì mã mục {1} của thiết bị không khớp với mã mục {2} trong gói phần mềm.",
+        "suggest": "Kiểm tra model thiết bị của người dùng, tải xuống đúng gói cài đặt ROM rồi cài đặt ROM."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Không thể xác nhận mã quốc gia của thiết bị được nhấp nháy.",
+        "suggest": "1. Liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để xem liệu có thể dùng chức năng \"NV mặc định\" trong công cụ cài đặt ROM để cài đặt ROM không. Nếu được cho phép, hãy sử dụng chức năng này để cài đặt ROM và tiến hành kiểm tra toàn bộ chức năng trên điện thoại của người dùng.\n2. Nếu không thể dùng chức năng \"NV mặc định\" để cài đặt ROM của thiết bị hoặc có bất kỳ vấn đề nào xảy ra sau khi cài đặt ROM (ví dụ: không thể bật thiết bị hoặc phát hiện thấy bất kỳ vấn đề nào trong quá trình kiểm tra chức năng), hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "Khu vực của điện thoại khác với khu vực phát hành gói nhấp nháy.",
+        "suggest": "1. Hãy đảm bảo rằng khu vực của gói cài đặt ROM được thu nhận từ công cụ cài đặt ROM đang dùng là dành cho khu vực địa phương của thiết bị. Xóa gói cài đặt ROM và tải xuống lại gói này bằng phiên bản chính xác của công cụ.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, hãy sao chép lại gói dành cho đúng model và khu vực từ phương tiện nguồn rồi tải lại gói."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "Người dùng đã dừng quá trình cài đặt.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "Nền tảng hiện không hỗ trợ nhấp nháy.",
+        "suggest": "Thử cài đặt lại ROM. Nếu sự cố tương tự xảy ra nhiều lần, hãy liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để báo cáo sự cố cho nhóm bảo trì công cụ."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Mã loại thiết bị bộ nhớ không được hỗ trợ {1}.",
+        "suggest": "Thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "Gói cài đặt ROM không thể tìm thấy phân vùng logic.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Lỗi xác minh tải xuống tệp.",
+        "suggest": "1. Nếu đã tải xuống trực tiếp gói cài đặt ROM bằng công cụ cài đặt ROM, vui lòng xóa gói này và tải xuống phiên bản mới nhất, sau đó thử tải lại gói.\n2. Nếu đã nhập gói cài đặt ROM từ nguồn bên ngoài, vui lòng thử sao chép lại gói này từ phương tiện nguồn và tải lại gói."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "USB bị ngắt kết nối bất ngờ.",
+        "suggest": "1. Đảm bảo rằng mức pin còn lại của thiết bị không thấp hơn 20%. Hãy sạc thiết bị trước khi thử cài đặt lại ROM.\n2. Thử sử dụng một cáp USB khác hoặc một cổng USB khác trên máy tính để cài đặt lại ROM.\n3. Nếu vấn đề lại xảy ra sau khi thực hiện các biện pháp trên, hãy thay thế bo mạch chính cho người dùng."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "Không thực hiện được thao tác do lỗi thiết bị bộ nhớ.",
+        "suggest": "Hãy đảm bảo bạn chọn đúng loại thiết bị bộ nhớ trong các cài đặt về cài đặt ROM (ví dụ: nếu thiết bị được trang bị thiết bị eMMC, bạn không thể chọn tùy chọn UFS). Nếu bạn xác nhận rằng lựa chọn của mình không có vấn đề gì, thiết bị UFS có thể bị hỏng. Hãy cân nhắc thay thế bo mạch chủ."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "Nền tảng hiện không hỗ trợ nhấp nháy.",
+        "suggest": "Thử cài đặt lại ROM. Nếu sự cố tương tự xảy ra nhiều lần, hãy liên hệ với đại diện hỗ trợ kỹ thuật sau bán hàng để báo cáo sự cố cho nhóm bảo trì công cụ."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "Gói ROM cũ hơn phiên bản xuất xưởng. Tình trạng nhấp nháy sẽ khiến số sê-ri (SN) thay đổi.",
+        "suggest": "Vui lòng thông báo cho người dùng rằng thiết bị này đã áp dụng SN theo thông số kỹ thuật mới. Việc hạ cấp xuống phiên bản trước khi xuất xưởng sẽ làm thay đổi SN của máy, có thể gây ra những hậu quả như ảnh hưởng đến quyền và lợi ích bảo vệ sau bán hàng. Người quản trị không khuyến khích người dùng hạ cấp thiết bị của họ."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "Không thực hiện được thao tác trả về trên thiết bị. Mã lỗi: {1}; thông báo lỗi: {2}",
+        "suggest": "Vui lòng thử lại quá trình flash. Nếu lỗi này vẫn tiếp diễn, vui lòng liên hệ với nhóm bảo trì công cụ flash của chúng tôi để báo cáo sự cố này."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Vui lòng thông báo cho người dùng rằng thiết bị này đã bật tính năng \"Gọi để khóa\". Hãy vào \"Cài đặt - Bảo mật và quyền riêng tư - Mở khóa thiết bị - Chống trộm\" rồi tắt tính năng \"Gọi để khóa\" trước khi flash. Nếu bạn không thể bật thiết bị này, hãy gọi đến bộ phận dịch vụ khách hàng của chúng tôi để xác minh thông tin cá nhân của bạn và yêu cầu mở khóa thiết bị trước khi flash.",
+        "suggest": "Người dùng đã bật tính năng \"Gọi để khóa\" và back end của công cụ flash đã đánh dấu là thiết bị đang ở chế độ Khóa bảo mật. (Nếu người dùng làm mất thiết bị và gọi đến bộ phận dịch vụ khách hàng của chúng tôi để yêu cầu khóa thiết bị, chế độ này sẽ được kích hoạt.) Không thể flash thiết bị ở chế độ Khóa bảo mật. Vui lòng tắt tính năng \"Gọi để khóa\" trước khi flash."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "Địa chỉ offset của phân vùng userdata trong gói ROM không khớp với phân vùng tương ứng trên điện thoại, khiến thao tác flash (nạp ROM) không thể thực hiện được nếu không xóa phân vùng này.",
+        "suggest": "Vui lòng sao lưu toàn bộ dữ liệu trong phân vùng userdata trước khi tiến hành flash ở chế độ tiêu chuẩn."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Phiên bản này có chứa các lỗ hổng bảo mật đã biết. Hoạt động flash bị hạn chế.",
+        "suggest": "Vui lòng tải về bản ROM mới nhất cho model thiết bị này và flash nó."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

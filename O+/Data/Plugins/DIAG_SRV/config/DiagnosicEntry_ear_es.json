@@ -1,0 +1,171 @@
+{
+  "t0": {
+    "ExpAdvice": "",
+    "ExpDetail": "Normal",
+    "ResultLevel": 0
+  },
+  "t2": {
+    "ExpAdvice": "<br>1. Es posible que el diagnóstico se haya interrumpido durante el examen con los auriculares.<br>\n2. Es posible que los auriculares actuales no admitan este elemento de diagnóstico.",
+    "ExpDetail": "No se ha realizado ningún diagnóstico",
+    "ResultLevel": 6
+  },
+  "t11": {
+    "ExpAdvice": "nombre:%1 <br> color: %2 <br> electricidad:L-R-Box: %3 <br>",
+    "ExpDetail": "%1"
+  },
+  "t10610101": {
+    "ExpAdvice": "Dile al cliente que actualice a la última versión, que es más estable.",
+    "ExpDetail": "Versión obsoleta del firmware de los auriculares",
+    "ResultLevel": 8
+  },
+  "t10610102": {
+    "ExpAdvice": "Error de información de firmware del auricular. Sugiere restaurar los ajustes de fábrica de los auriculares.",
+    "ExpDetail": "Error de información de firmware del auricular %1",
+    "ResultLevel": 10
+  },
+  "t10610103": {
+    "ExpAdvice": "Comprueba si la función de favoritos funciona con normalidad y envía la información de los auriculares al equipo de posventa para su confirmación.",
+    "ExpDetail": "Error de la función de favoritos del auricular %1",
+    "ResultLevel": 10
+  },
+  "t10610104": {
+    "ExpAdvice": "Error de SN del caso. Envía tus comentarios al representante de posventa.",
+    "ExpDetail": "Error de SN del caso",
+    "ResultLevel": 10
+  },
+  "t10610201": {
+    "ExpAdvice": "<br>1. Este problema puede producirse cuando los auriculares se cargan después de una exposición prolongada a temperaturas excesivamente altas o bajas. <br>\n2. Deja los auriculares a temperatura ambiente durante 10 minutos antes de cargarlos.",
+    "ExpDetail": "Temperatura anómala de la batería de los auriculares %1",
+    "ResultLevel": 10
+  },
+  "t10610301": {
+    "ExpAdvice": "<br>1. Si se informa de un problema de carga, comprueba si ha ocurrido antes según este criterio. <br>\n2. No cargues los auriculares a temperaturas excesivamente altas o bajas.",
+    "ExpDetail": "Temperatura anómala previa de la batería de los auriculares %1",
+    "ResultLevel": 10
+  },
+  "t10610401": {
+    "ExpAdvice": "<br>1. Comprueba si ambos auriculares están en el estuche de carga. De lo contrario, se mostrará un error de carga. <br>\n2. Comprueba si los pines de carga o las clavijas dentro del estuche de carga están deformados o rotos. <br>\n3. Comprueba si los pines de carga de los auriculares y los pines de carga o las clavijas del estuche están manchados de grasa, sudor, etc. Si es así, límpialos con un bastoncillo de algodón sin pelusa humedecido en etanol.",
+    "ExpDetail": "Carga anómala de los auriculares %1",
+    "ResultLevel": 10
+  },
+  "t10610501": {
+    "ExpAdvice": "Comprueba si el auricular funciona con normalidad y envía la información de los auriculares y el código de error al equipo de posventa.",
+    "ExpDetail": "Parámetros de fábrica anómalos para los auriculares %1 con código de error %2",
+    "ResultLevel": 10
+  },
+  "t10610601": {
+    "ExpAdvice": "Esto puede provocar que el auricular no detecte cuándo se inserta en el oído del usuario y que los controles táctiles dejen de responder. Restaura los ajustes de fábrica de los auriculares.",
+    "ExpDetail": "Parámetros de usuario anómalos para auriculares %1 con código de error %2",
+    "ResultLevel": 10
+  },
+  "t10610701": {
+    "ExpAdvice": "Comprueba si el usuario ha estado usando los auriculares en entornos con fuentes de interferencia intensas (como routers Wi-Fi o estaciones base). En tales entornos, la desconexión ocasional es inevitable. Sugiere restaurar los ajustes de fábrica de los auriculares.",
+    "ExpDetail": "Los auriculares %1 se han bloqueado",
+    "ResultLevel": 10
+  },
+  "t10610801": {
+    "ExpAdvice": "Comprueba si este problema ocurre en entornos de usuario comunes y registra su frecuencia. Comprueba si hay una fuente de interferencias intensas cerca, como routers Wi-Fi y estaciones base, y restaura los ajustes de fábrica de los auriculares.",
+    "ExpDetail": "Desconexión de cualquiera de los auriculares",
+    "ResultLevel": 10
+  },
+  "t10610901": {
+    "ExpAdvice": "<br>1. Mantén los auriculares y el teléfono cerca para obtener una mejor calidad de señal. <br>\n2. Comprueba si este problema ocurre en entornos de usuario comunes y registra su frecuencia. Comprueba si hay una fuente de interferencias intensas cerca, como routers Wi-Fi y estaciones base, y restaura los ajustes de fábrica de los auriculares.",
+    "ExpDetail": "Desconexión entre los auriculares %1 y el teléfono",
+    "ResultLevel": 10
+  },
+  "t10611001": {
+    "ExpAdvice": "<br>1. Comprueba si hay algo especial sobre los recursos de audio utilizados por los auriculares. Si es así, envía información sobre los auriculares y los recursos al desarrollador para su análisis. <br>\n2. Comprueba si se producen retrasos o posibilidades de retrasos en entornos de usuario comunes. Comprueba si hay una fuente de interferencias intensas cerca, como routers Wi-Fi y estaciones base, y restaura los ajustes de fábrica de los auriculares.",
+    "ExpDetail": "Retraso de audio en el auricular %1",
+    "ResultLevel": 10
+  },
+  "t10611002": {
+    "ExpAdvice": "Comprueba si se producen retrasos o posibilidades de retrasos en entornos de usuario comunes. Comprueba si hay una fuente de interferencias intensas cerca, como routers Wi-Fi y estaciones base, y restaura los ajustes de fábrica de los auriculares.",
+    "ExpDetail": "Retraso de llamada en el auricular %1",
+    "ResultLevel": 10
+  },
+  "t10611101": {
+    "ExpAdvice": "<br>1. Si realizas el diagnóstico con un solo auricular, este resultado es normal. <br>\n2. Busca fuentes de interferencia en el entorno inmediato, como routers Wi-Fi y estaciones base. Después de descartar esta posibilidad, intenta restaurar los ajustes de fábrica de los auriculares.",
+    "ExpDetail": "Conexión débil entre los dos auriculares",
+    "ResultLevel": 10
+  },
+  "t10611201": {
+    "ExpAdvice": "<br>1. Carga el estuche de carga con un cable USB para el diagnóstico. <br>\n2. Comprueba si el puerto USB del estuche de carga está sucio o tiene mal contacto. Si es así, limpia los puntos de contacto con un bastoncillo de algodón sin pelusa humedecido en etanol.",
+    "ExpDetail": "Error de carga del estuche",
+    "ResultLevel": 10
+  },
+  "t10611301": {
+    "ExpAdvice": "<br>1. Este problema puede producirse cuando los auriculares se cargan después de una exposición prolongada a temperaturas excesivamente altas o bajas. <br>\n2. Deja los auriculares a temperatura ambiente durante 10 minutos antes de cargarlos.",
+    "ExpDetail": "Temperatura anómala de la batería para el estuche de carga",
+    "ResultLevel": 10
+  },
+  "t10611401": {
+    "ExpAdvice": "<br>1. Si se informa de un problema de carga, comprueba si ha ocurrido antes según este criterio. <br>\n2. Comprueba si la temperatura ambiente es demasiado alta o demasiado baja, o si hay algún fallo de carga. No cargues el estuche de carga a temperaturas excesivamente altas o bajas.",
+    "ExpDetail": "Temperatura anómala anterior de la batería para el estuche de carga",
+    "ResultLevel": 10
+  },
+  "t10611501": {
+    "ExpAdvice": "Comprueba si el puerto USB del estuche de carga está sucio o tiene mal contacto. Si es así, limpia los puntos de contacto con un bastoncillo de algodón sin pelusa humedecido en etanol.",
+    "ExpDetail": "Temperatura anómala del puerto USB para el estuche de carga",
+    "ResultLevel": 10
+  },
+  "t10611601": {
+    "ExpAdvice": "<br>1. Si se informa de un problema de carga, comprueba si ha ocurrido antes según este criterio. <br>\n2. Comprueba si la temperatura ambiente es demasiado alta o demasiado baja, o si hay algún fallo de carga. No cargues el estuche de carga a temperaturas excesivamente altas o bajas.",
+    "ExpDetail": "Temperatura anómala anterior del puerto USB para el estuche de carga",
+    "ResultLevel": 10
+  },
+  "t10615001": {
+    "ExpAdvice": "Comprueba si algún residuo u objeto extraño han obstruido el orificio del micrófono. Si es así, limpia los puntos de contacto con un bastoncillo de algodón sin pelusa humedecido en etanol.",
+    "ExpDetail": "El micrófono del auricular %1 suena mal.",
+    "ResultLevel": 10
+        },
+  "t10615101": {
+    "ExpAdvice": "<br>1.Comprueba si algún residuo u objeto extraño han obstruido la malla del altavoz. Si es así, retira la cubierta del oído, limpia la malla con un bastoncillo de algodón sin pelusa humedecido en etanol y luego usa un palillo u otra herramienta especial para raspar la suciedad de la malla.<br>2. Busca fuentes de interferencia en el entorno, como routers Wi-Fi y estaciones base. Después de descartar esta posibilidad, vuelve a realizar la prueba.",
+    "ExpDetail": "El audio del auricular %1 es de baja calidad.",
+    "ResultLevel": 10
+        },
+  "t10615102": {
+    "ExpAdvice": "<br>1.Comprueba si algún residuo u objeto extraño han obstruido la malla del altavoz. Si es así, retira la cubierta del oído, limpia la malla con un bastoncillo de algodón sin pelusa humedecido en etanol y luego usa un palillo u otra herramienta especial para raspar la suciedad de la malla.<br>2. Busca fuentes de interferencia en el entorno, como routers Wi-Fi y estaciones base. Después de descartar esta posibilidad, vuelve a realizar la prueba.",
+    "ExpDetail": "Cuando la cancelación de ruido está activada, la reproducción de audio en los auriculares es anómala.",
+    "ResultLevel": 10
+        },
+  "t10615103": {
+    "ExpAdvice": "<br>1.Comprueba si algún residuo u objeto extraño han obstruido la malla del altavoz. Si es así, retira la cubierta del oído, limpia la malla con un bastoncillo de algodón sin pelusa humedecido en etanol y luego usa un palillo u otra herramienta especial para raspar la suciedad de la malla.<br>2. Busca fuentes de interferencia en el entorno, como routers Wi-Fi y estaciones base. Después de descartar esta posibilidad, vuelve a realizar la prueba.",
+    "ExpDetail": "Cuando la cancelación de ruido está desactivada, la reproducción de audio en los auriculares es anómala.",
+    "ResultLevel": 10
+        },
+  "t10615201": {
+    "ExpAdvice": "Comprueba si algún residuo u objeto extraño han obstruido la malla del altavoz. Si es así, retira la cubierta del oído, limpia la malla con un bastoncillo de algodón sin pelusa humedecido en etanol y luego usa un palillo u otra herramienta especial para raspar la suciedad de la malla.",
+    "ExpDetail": "Volumen de sonido inesperado en el auricular %1.",
+    "ResultLevel": 10
+        },
+  "t10615301": {
+    "ExpAdvice": "<br>1. Asegúrate de que los auriculares estén en el estuche y que la tapa del estuche esté correctamente cerrada o abierta. Si no es así, es normal que aparezca un mensaje de error. <br>\n2. Comprueba si las clavijas o pines de carga dentro del estuche de carga están deformados o rotos. <br>\n3. Comprueba si los puntos de contacto de carga, así como los pines y las clavijas de carga dentro del estuche de carga están manchadas de aceite, sudor o suciedad. Si es así, límpialos con un bastoncillo de algodón sin pelusa humedecido en etanol.",
+    "ExpDetail": "Error al detectar la tapa del estuche de los auriculares.",
+    "ResultLevel": 10
+        },
+  "t10615401": {
+    "ExpAdvice": "<br>1. Asegúrate de que el auricular se use según lo previsto. Si el auricular no está en los oídos, es normal que aparezca un mensaje de error. <br>\n2. Ajusta el auricular para que encaje en la oreja y asegúrate de que esté insertado correctamente. <br>\n3. Comprueba que el auricular no tenga sustancias como agua o aceite. Si las tiene, limpia el auricular antes de realizar la prueba.",
+    "ExpDetail": "Error en la detección intraural del auricular %1.",
+    "ResultLevel": 10
+        },
+  "t10615402": {
+    "ExpAdvice": "<br>1. Asegúrate de pellizcar los puntos correctos. Si no pellizcaste el auricular, es normal que aparezca un mensaje de error. <br>\n2. Ajusta la ubicación y la fuerza del pellizco y asegúrate de pellizcarlo correctamente. <br>\n3. Comprueba que el auricular no tenga sustancias como agua o aceite. Si las tiene, limpia el auricular antes de realizar la prueba.",
+    "ExpDetail": "Error de control de doble toque (pellizco) del auricular %1.",
+    "ResultLevel": 10
+        },
+  "t10615403": {
+    "ExpAdvice": "<br>1. Asegúrate de que los auriculares estén en el estuche. Si no es así, es normal que aparezca un mensaje de error. <br>\n2. Comprueba si las clavijas o pines de carga dentro del estuche de carga están deformados o rotos. <br>\n3. Comprueba si los puntos de contacto de carga, así como los pines y las clavijas de carga dentro del estuche de carga están manchadas de aceite, sudor o suciedad. Si es así, límpialos con un bastoncillo de algodón sin pelusa humedecido en etanol.",
+    "ExpDetail": "Error al detectar la introducción del auricular %1 en el estuche.",
+    "ResultLevel": 10
+        },
+  "t10615501": {
+    "ExpAdvice": "Asegúrate de que los auriculares estén en el estuche. Si no es así, es normal que aparezca un mensaje de error.",
+    "ExpDetail": "Error al detectar la luz de estado del estuche de los auriculares.",
+    "ResultLevel": 10
+        },
+  "t10615601": {
+    "ExpAdvice": "<br>1. Asegúrate de que los auriculares estén en el estuche. Si no es así, es normal que aparezca un mensaje de error. <br>\n2. Comprueba si las clavijas o pines de carga dentro del estuche de carga están deformados o rotos. <br>\n3. Comprueba si los puntos de contacto de carga, así como los pines y las clavijas de carga dentro del estuche de carga están manchadas de aceite, sudor o suciedad. Si es así, límpialos con un bastoncillo de algodón sin pelusa humedecido en etanol.",
+    "ExpDetail": "Error al detectar el botón del estuche de los auriculares.",
+    "ResultLevel": 10
+        }
+}

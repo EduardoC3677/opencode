@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Błąd wewnętrzny innych narzędzi do flashowania, które nie są wymienione na liście.",
+        "suggest": "Spróbuj ponownie sflashować urządzenie. Jeżeli problem nadal występuje po wielokrotnych próbach, prosimy o zgłoszenie go zespołowi zajmującemu się konserwacją narzędzi za pośrednictwem przedstawiciela wsparcia technicznego w celu analizy i rozpatrzenia sprawy."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "Nie można przydzielić pamięci podręcznej wymaganej do operacji ze względu na niewystarczającą ilość miejsca w pamięci komputera.",
+        "suggest": "1. Wyłącz aplikacje, których nie używasz i spróbuj przeprogramować ponownie.\n2. Uruchom ponownie komputer i spróbuj przeprogramować ponownie."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Błąd zwracany w interfejsie systemu Windows: {1} zwraca błąd {2}.",
+        "suggest": "Używany komputer jest wadliwy. Spróbuj ponownie przeprogramować urządzenie. Jeśli po kilku próbach problem będzie nadal występował, zgłoś go zespołowi ds. konserwacji narzędzia w celu umożliwienia mu przeprowadzenia jego analizy oraz jego przetworzenia przez przedstawiciela działu obsługi posprzedażowej ds. pomocy technicznej."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "Wykryto, że na komputerze jest uruchomiony debugger oprogramowania.",
+        "suggest": "Zamknij wszystkie uruchomione debuggery oprogramowania i spróbuj ponownie."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "Wykryto, że usługa narzędzia przeprogramowywania pamięci ROM jest uruchomiona na maszynie wirtualnej.",
+        "suggest": "Uruchom narzędzie przeprogramowywania pamięci ROM na komputerze fizycznym."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "Dane pakietu do programowania pamięci ROM są uszkodzone.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz\njego najnowszą wersję. Następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "Zaimportowany plik lub folder ROM jest nieprawidłowy lub pakiet do programowania pamięci ROM jest uszkodzony.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, upewnij się, że pakiet jest w formacie OFP\ni plik version_info.txt jest dołączony. Jeśli błąd pojawi się ponownie po\npotwierdzeniu, spróbuj ponownie skopiować pakiet do programowania pamięci ROM ze źródła\ni załadować ponownie."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "Załadowany pakiet do programowania pamięci ROM nie jest odpowiedni dla urządzenia, które ma być programowane, lub dane w pakiecie do programowania pamięci ROM.\nsą uszkodzone.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, upewnij się, że\npakiet jest zgodny z modelem urządzenia, które ma być programowane. Pobierz ponownie poprawny\npakiet do programowania pamięci ROM i spróbuj załadować go ponownie.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, upewnij się, że pakiet jest zgodny z\nmodelem urządzenia, które ma być programowane. Skopiuj ponownie pakiet z nośnika źródłowego\ni spróbuj załadować go ponownie."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "Załadowany pakiet do programowania pamięci ROM nie jest odpowiedni dla urządzenia, które ma być programowane, lub dane w pakiecie do programowania pamięci ROM.\nsą uszkodzone.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, upewnij się, że\npakiet jest zgodny z modelem urządzenia, które ma być programowane. Pobierz ponownie poprawny\npakiet do programowania pamięci ROM i spróbuj załadować go ponownie.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, upewnij się, że pakiet jest zgodny z\nmodelem urządzenia, które ma być programowane. Skopiuj ponownie pakiet z nośnika źródłowego\ni spróbuj załadować go ponownie."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "Nie można przeprogramować urządzenia, ponieważ jego kod artykułu {1} jest niezgodny z kodem artykułu {2} w pakiecie oprogramowania.",
+        "suggest": "Sprawdź model urządzenia, pobierz odpowiedni pakiet do programowania pamięci ROM, a następnie przeprogramuj ROM."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "Tabela partycji w urządzeniu użytkownika jest niezgodna z tabelą partycji w pakiecie flash.",
+        "suggest": "Użyj funkcji „Forced Flash Mode” narzędzia do flashowania, aby sflashować urządzenie klienta, a po włączeniu sflashowanego urządzenia przeprowadź kompleksową kontrolę funkcjonalną. Jeżeli urządzenie nie uruchamia się po flashowaniu lub jeżeli występują problemy podczas sprawdzania działania, należy wymienić płytę główną użytkownika."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Nie udało się odczytać numeru artykułu z telefonu.",
+        "suggest": "1. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n2. Spróbuj użyć innego kabla USB lub innego portu USB w komputerze, aby ponownie spróbować przeprogramować pamięć ROM.\n3. Jeżeli po podjęciu powyższych działań problem wystąpi ponownie, należy wymienić płytę główną."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "Nie można przydzielić pamięci podręcznej wymaganej do operacji ze względu na niewystarczającą ilość miejsca w pamięci komputera.",
+        "suggest": "1. Wyłącz aplikacje, których nie używasz i spróbuj przeprogramować ponownie.\n2. Uruchom ponownie komputer i spróbuj przeprogramować ponownie."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Nieprawidłowy format pliku modułu wstępnego ładowania.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz\njego najnowszą wersję. Następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "Nieprawidłowy plik uwierzytelniający.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz\njego najnowszą wersję. Następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "Plik tabeli partycji nie istnieje.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz\njego najnowszą wersję. Następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "Błąd komunikacji DA.",
+        "suggest": "1. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n2. Spróbuj użyć innego kabla USB lub innego portu USB w komputerze, aby ponownie spróbować przeprogramować pamięć ROM.\n3. Jeżeli po podjęciu powyższych działań problem wystąpi ponownie, należy wymienić płytę główną."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "Nieoczekiwane rozłączenie USB.",
+        "suggest": "1. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n2. Spróbuj użyć innego kabla USB lub innego portu USB w komputerze, aby ponownie spróbować przeprogramować pamięć ROM.\n3. Jeżeli po podjęciu powyższych działań problem wystąpi ponownie, należy wymienić płytę główną."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "Połączenie DA nie powiodło się z powodu wyjątku zewnętrznej pamięci RAM.",
+        "suggest": "Wymień płytę główną."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Niezgodność pamięci z danymi DA.",
+        "suggest": "Wymień płytę główną."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "Liczba kości DDR w urządzeniu przekracza limit platformy.",
+        "suggest": "Spróbuj flashować ponownie. Jeżeli problem nadal występuje po wielokrotnych próbach, prosimy o zgłoszenie go zespołowi zajmującemu się konserwacją narzędzi za pośrednictwem przedstawiciela wsparcia technicznego w celu analizy i rozpatrzenia sprawy."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "Nie udało się pobrać DA.",
+        "suggest": "1. Sprawdź model urządzenia, pobierz odpowiedni pakiet do programowania pamięci ROM i spróbuj przeprogramować ponownie.\n2. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n3. Jeśli błąd występował wielokrotnie podczas prób programowania pamięci ROM, gdy używany jest właściwy pakiet\ndla urządzenia i poziom naładowania baterii jest wystarczający, należy wymienić płytę\ngłówną."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Awaria sprzętu lub oprogramowania komponentów DDR urządzenia.",
+        "suggest": "Wymień płytę główną."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Awaria sprzętu lub oprogramowania komponentów SOC lub DDR urządzenia.",
+        "suggest": "Wymień płytę główną."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Błąd weryfikacji pobrania pliku.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Błąd wewnętrzny platformy MTK.",
+        "suggest": "Spróbuj flashować ponownie. Jeżeli problem nadal występuje po wielokrotnych próbach, prosimy o zgłoszenie go zespołowi zajmującemu się konserwacją narzędzi za pośrednictwem przedstawiciela wsparcia technicznego w celu analizy i rozpatrzenia sprawy."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "Nie można sflashować pamięci ROM, ponieważ informacji o kodzie kraju urządzenia nie można znaleźć ani w pamięci urządzenia, ani w tle usługi.",
+        "suggest": "Prosimy o kontakt z działem obsługi IT6000 w celu zgłoszenia problemów z tym urządzeniem."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "Kod kraju urządzenia {1} nie jest obsługiwany przez wybrany pakiet ROM.",
+        "suggest": "Użyj pakietu ROM dla właściwego regionu i spróbuj ponownie."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "Błąd serwera kontroli O+ Cloud: {1} {2}.",
+        "suggest": "1. Upewnij się, że dostęp do usług O+ Cloud w Twojej sieci jest możliwy. Jeśli nie możesz uzyskać dostępu, skontaktuj się z\ndziałem obsługi posprzedażowej ds. pomocy technicznej w celu uzyskania prawidłowych ustawień konfiguracyjnych.\n2. Spróbuj ponownie przeprogramować pamięć ROM. Jeżeli błąd będzie się powtarzał, skontaktuj się z przedstawicielem\ndziału obsługi posprzedażowej ds. pomocy technicznej, aby zgłosił problem zespołowi ds. obsługi i konserwacji\nusług O+ Cloud."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "Usługi O+ Cloud nie zwróciły wyniku żądania przetwarzania,Żądany interfejs API: {1}.",
+        "suggest": "Niepowodzenie usług O+ Cloud. Jeśli po kilku próbach problem będzie nadal występował, zgłoś go zespołowi ds. konserwacji narzędzia w celu umożliwienia mu przeprowadzenia jego analizy oraz jego przetworzenia przez przedstawiciela działu pomocy technicznej realizowanej w tle."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "Błąd uwierzytelnienia platformy kontroli O+ Cloud: {2}.",
+        "suggest": "Złóż wniosek o odpowiednie uprawnienie lub wykonaj inne operacje w oparciu o opis błędu w\ntle. Jeżeli problem będzie się powtarzał, skontaktuj się z działem obsługi posprzedażowej ds. pomocy\ntechnicznej."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "Błąd uwierzytelnienia platformy kontroli O+ Cloud: {2} {3}.",
+        "suggest": "Złóż wniosek o odpowiednie uprawnienie lub wykonaj inne operacje w oparciu o opis błędu w\ntle. Jeżeli problem będzie się powtarzał, skontaktuj się z działem obsługi posprzedażowej ds. pomocy\ntechnicznej."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "Błąd uwierzytelniania platformy sterowania chmurą O+.",
+        "suggest": "Proszę wystąpić o odpowiednie uprawnienia zgodnie z instrukcjami dotyczącymi błędów na platformie sterowania w chmurze O+. Jeżeli problemu nie można rozwiązać, prosimy o kontakt z działem pomocy technicznej."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Wersja oprogramowania jest nieaktualna.",
+        "suggest": "Pobierz najnowszą pamięć ROM dla tego modelu urządzenia i przeprogramuj ją."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "To konto użytkownika nie ma dostępu do zaawansowanych uprawnień flashowania pamięci ROM.",
+        "suggest": "Złóż wniosek o zezwolenie w systemie UPM i spróbuj ponownie."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "Interfejs usługi O+ Cloud {1} nie zwrócił wyznaczonego pola danych: {2}.",
+        "suggest": "Niepowodzenie usług O+ Cloud. Jeśli po kilku próbach problem będzie nadal występował, zgłoś go zespołowi ds. konserwacji narzędzia w celu umożliwienia mu przeprowadzenia jego analizy oraz jego przetworzenia przez przedstawiciela działu pomocy technicznej realizowanej w tle."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "Nie można otworzyć pliku {1}.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "Nie można odczytać danych z pliku {1}.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "Nie można zlokalizować danych w pliku {1}.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "Nie można otworzyć pliku {1}.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "Nie można zlokalizować danych w pliku {1}.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Niepowodzenie zamykania pliku {1}. Kod błędu {2}.",
+        "suggest": "Wewnętrzny błąd systemu operacyjnego Windows. Spróbuj ponownie przeprogramować urządzenie. Jeśli po kilku próbach problem będzie nadal występował, zgłoś go zespołowi ds. konserwacji narzędzia w celu umożliwienia mu przeprowadzenia jego analizy oraz jego przetworzenia przez przedstawiciela działu obsługi posprzedażowej ds. pomocy technicznej."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "Nie można odczytać danych z pliku {1}.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "Urządzenie nie wykonało polecenia {1}: {2}.",
+        "suggest": "1. Sprawdź model urządzenia, pobierz odpowiedni pakiet do programowania pamięci ROM i spróbuj przeprogramować ponownie.\n2. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n3. Jeśli błąd występował wielokrotnie podczas prób programowania pamięci ROM, gdy używany jest właściwy pakiet\ndla urządzenia i poziom naładowania baterii jest wystarczający, należy wymienić płytę\ngłówną."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "Nie można przeprogramować urządzenia, ponieważ jego kod artykułu {1} jest niezgodny z kodem artykułu {2} w pakiecie oprogramowania.",
+        "suggest": "Sprawdź model urządzenia, pobierz odpowiedni pakiet do programowania pamięci ROM, a następnie przeprogramuj ROM."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Inicjalizacja urządzenia nie powiodła się.",
+        "suggest": "1. Sprawdź model urządzenia, pobierz odpowiedni pakiet do programowania pamięci ROM i spróbuj przeprogramować ponownie.\n2. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n3. Jeśli błąd występował wielokrotnie podczas prób programowania pamięci ROM, gdy używany jest właściwy pakiet\ndla urządzenia i poziom naładowania baterii jest wystarczający, należy wymienić płytę\ngłówną."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "Niepowodzenie przeprogramowywania pamięci ROM.",
+        "suggest": "Pobierz nowy pakiet ROM i spróbuj ponownie."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "Niepowodzenie przeprogramowywania pamięci ROM.",
+        "suggest": "Pobierz nowy pakiet ROM i spróbuj ponownie."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "Niepowodzenie przeprogramowywania pamięci ROM.",
+        "suggest": "Pobierz nowy pakiet ROM i spróbuj ponownie."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Nie udało się potwierdzić kodu kraju urządzenia, które ma być programowane.",
+        "suggest": "1. Skontaktuj się z przedstawicielem działu obsługi posprzedażowej ds. pomocy technicznej, aby sprawdzić, czy funkcja „Domyślny NV” w\nnarzędziu do programowania pamięci ROM może być użyta do przeprogramowania ROM. Jeśli jest to dozwolone, użyj tej\nfunkcji do przeprogramowania pamięci ROM i przeprowadzania kompleksowej kontroli działania na\ntelefonie.\n2. Jeśli nie można użyć funkcji „Domyślny NV” do przeprogramowania pamięci ROM urządzenia lub wystąpi inny problem\npo przeprogramowaniu pamięci ROM (na przykład nie można włączyć urządzenia lub\nzostanie wykryty inny problem podczas kontroli działania), należy wymienić płytę\ngłówną."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Kod kraju nie jest obsługiwany przez oprogramowanie.",
+        "suggest": "1. Upewnij się, że region pakietu do programowania pamięci ROM uzyskany z używanego narzędzia do programowania pamięci ROM jest zgodny z\nlokalnym regionem urządzenia. Usuń pakiet do programowania pamięci ROM i pobierz\ngo ponownie, używając właściwej wersji narzędzia.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, ponownie skopiuj pakiet dla właściwego modelu\ni regionu z nośnika źródłowego i załaduj go ponownie."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "Brak danych weryfikacyjnych w pakiecie ROM.",
+        "suggest": "Pobierz nowy pakiet ROM i spróbuj ponownie."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "Tabela partycji w urządzeniu użytkownika jest niezgodna z tabelą partycji w pakiecie flash.",
+        "suggest": "Użyj funkcji „Forced Flash Mode” narzędzia do flashowania, aby sflashować urządzenie klienta, a po włączeniu sflashowanego urządzenia przeprowadź kompleksową kontrolę funkcjonalną. Jeśli po flashowaniu nie można włączyć urządzenia lub wystąpiły problemy podczas sprawdzania jego działania, należy wymienić płytę główną."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "Brak pliku w pakiecie ROM: {1}.",
+        "suggest": "Pakiet ROM jest uszkodzony. Pobierz nowy i spróbuj ponownie."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Nieprawidłowy format pliku rozrzedzonego.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "Nie udało się zweryfikować listy plików w pakiecie ROM.",
+        "suggest": "Pakiet ROM jest uszkodzony. Pobierz nowy i spróbuj ponownie."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "Plik w pakiecie ROM jest uszkodzony: {1}",
+        "suggest": "Pobierz nowy pakiet ROM i spróbuj ponownie."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "Nie udało się zweryfikować listy plików w pakiecie ROM.",
+        "suggest": "Pakiet ROM jest uszkodzony. Pobierz nowy i spróbuj ponownie."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "Plik w pakiecie ROM jest uszkodzony: {1}",
+        "suggest": "Pobierz nowy pakiet ROM i spróbuj ponownie."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "Zaimportowany plik lub folder ROM jest nieprawidłowy lub pakiet do programowania pamięci ROM jest uszkodzony.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, upewnij się, że pakiet jest w formacie OFP\ni plik version_info.txt jest dołączony. Jeśli błąd pojawi się ponownie po\npotwierdzeniu, spróbuj ponownie skopiować pakiet do programowania pamięci ROM ze źródła\ni załadować ponownie."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "Brak pliku w pakiecie ROM: {1}.",
+        "suggest": "Pakiet ROM jest uszkodzony. Pobierz nowy i spróbuj ponownie."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "Nie można odczytać danych z pliku {1}.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "Zaimportowany plik lub folder ROM jest nieprawidłowy lub pakiet do programowania pamięci ROM jest uszkodzony.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, upewnij się, że pakiet jest w formacie OFP\ni plik version_info.txt jest dołączony. Jeśli błąd pojawi się ponownie po\npotwierdzeniu, spróbuj ponownie skopiować pakiet do programowania pamięci ROM ze źródła\ni załadować ponownie."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "Zawartość plików w pakiecie do programowania pamięci ROM nie spełnia oczekiwań.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz\njego najnowszą wersję. Następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "Zawartość plików w pakiecie do programowania pamięci ROM nie spełnia oczekiwań.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz\njego najnowszą wersję. Następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "Brak danych weryfikacyjnych w pakiecie ROM.",
+        "suggest": "Pobierz nowy pakiet ROM i spróbuj ponownie."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "Brak pliku w pakiecie ROM: {1}.",
+        "suggest": "Pakiet ROM jest uszkodzony. Pobierz nowy i spróbuj ponownie."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "Nie można odczytać danych z pliku {1}.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "Zaimportowany plik lub folder ROM jest nieprawidłowy lub pakiet do programowania pamięci ROM jest uszkodzony.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, upewnij się, że pakiet jest w formacie OFP\ni plik version_info.txt jest dołączony. Jeśli błąd pojawi się ponownie po\npotwierdzeniu, spróbuj ponownie skopiować pakiet do programowania pamięci ROM ze źródła\ni załadować ponownie."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "Zawartość plików w pakiecie do programowania pamięci ROM nie spełnia oczekiwań.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "Zawartość plików w pakiecie do programowania pamięci ROM nie spełnia oczekiwań.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "Plik tabeli partycji nie istnieje.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz\njego najnowszą wersję. Następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "Nie udało się zweryfikować listy plików w pakiecie ROM.",
+        "suggest": "Pakiet ROM jest uszkodzony. Pobierz nowy i spróbuj ponownie."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "Plik w pakiecie ROM jest uszkodzony: {1}",
+        "suggest": "Pobierz nowy pakiet ROM i spróbuj ponownie."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Błąd podczas otwierania modułu obsługi urządzenia.",
+        "suggest": "1. Wyłącz wszystkie stare wersje narzędzia do programowania pamięci ROM, narzędzia do odczytu i narzędzia do debugowania dostarczonego przez producenta\nukładu i spróbuj przeprogramować ponownie.\n2. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n3. Spróbuj użyć innego kabla USB lub innego portu USB w komputerze, aby ponownie spróbować przeprogramować pamięć ROM.\n4. Jeżeli po podjęciu powyższych działań problem wystąpi ponownie, należy wymienić płytę główną."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Błąd podczas otwierania modułu obsługi urządzenia.",
+        "suggest": "1. Wyłącz wszystkie stare wersje narzędzia do programowania pamięci ROM, narzędzia do odczytu i narzędzia do debugowania dostarczonego przez producenta\nukładu i spróbuj przeprogramować ponownie.\n2. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n3. Spróbuj użyć innego kabla USB lub innego portu USB w komputerze, aby ponownie spróbować przeprogramować pamięć ROM.\n4. Jeżeli po podjęciu powyższych działań problem wystąpi ponownie, należy wymienić płytę główną."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Nie udało się skonfigurować {1}. Kod błędu {2}.",
+        "suggest": "Urządzenie mogło zostać odłączone lub jego potwierdzenia zostały unieważnione. Wypróbuj inny port USB i kabel, uruchom ponownie urządzenie w trybie EDL, a następnie spróbuj ponownie."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Nie można odczytać danych z pliku lub urządzenia.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie.\n3. Jeśli problem będzie się powtarzał po wielu próbach, zaleca się zapisanie pakietu do programowania pamięci ROM\nna innym dysku twardym lub partycji przed podjęciem kolejnej próby przeprogramowania."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Nie można odczytać danych z pliku lub urządzenia.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie.\n3. Jeśli problem będzie się powtarzał po wielu próbach, zaleca się zapisanie pakietu do programowania pamięci ROM\nna innym dysku twardym lub partycji przed podjęciem kolejnej próby przeprogramowania."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Nie można zapisać danych do pliku lub na urządzeniu.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie.\n3. Jeśli problem będzie się powtarzał po wielu próbach, zaleca się zapisanie pakietu do programowania pamięci ROM\nna innym dysku twardym lub partycji przed podjęciem kolejnej próby przeprogramowania."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Nie można zapisać danych do pliku lub na urządzeniu.",
+        "suggest": "1. Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i\npobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego\ni załadować ponownie.\n3. Jeśli problem będzie się powtarzał po wielu próbach, zaleca się zapisanie pakietu do programowania pamięci ROM\nna innym dysku twardym lub partycji przed podjęciem kolejnej próby przeprogramowania."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "Urządzenie nie wykonało polecenia {1}: {2}.",
+        "suggest": "1. Sprawdź model urządzenia, pobierz odpowiedni pakiet do programowania pamięci ROM i spróbuj przeprogramować ponownie.\n2. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n3. Jeśli błąd występował wielokrotnie podczas prób programowania pamięci ROM, gdy używany jest właściwy pakiet\ndla urządzenia i poziom naładowania baterii jest wystarczający, należy wymienić płytę\ngłówną."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "Polecenie protokołu nie zostało wykonane na urządzeniu i zwróciło błąd: {2}.",
+        "suggest": "Skontaktuj się z przedstawicielem działu obsługi posprzedażowej ds. pomocy technicznej, aby zgłosił problem zespołowi ds. konserwacji narzędzia."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "Nie można przeprogramować urządzenia, ponieważ jego kod artykułu {1} jest niezgodny z kodem artykułu {2} w pakiecie oprogramowania.",
+        "suggest": "Sprawdź model urządzenia, pobierz odpowiedni pakiet do programowania pamięci ROM, a następnie przeprogramuj ROM."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Nie udało się potwierdzić kodu kraju urządzenia, które ma być programowane.",
+        "suggest": "1. Skontaktuj się z przedstawicielem działu obsługi posprzedażowej ds. pomocy technicznej, aby sprawdzić, czy funkcja „Domyślny NV” w\nnarzędziu do programowania pamięci ROM może być użyta do przeprogramowania ROM. Jeśli jest to dozwolone, użyj tej\nfunkcji do przeprogramowania pamięci ROM i przeprowadzania kompleksowej kontroli działania na\ntelefonie.\n2. Jeśli nie można użyć funkcji „Domyślny NV” do przeprogramowania pamięci ROM urządzenia lub wystąpi inny problem\npo przeprogramowaniu pamięci ROM (na przykład nie można włączyć urządzenia lub\nzostanie wykryty inny problem podczas kontroli działania), należy wymienić płytę\ngłówną."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "Regiony obsługiwane przez telefon różnią się od regionów, dla których wydano pakiet do programowania.",
+        "suggest": "1. Upewnij się, że region pakietu do programowania pamięci ROM uzyskany z używanego narzędzia do programowania pamięci ROM jest zgodny z\nlokalnym regionem urządzenia. Usuń pakiet do programowania pamięci ROM i pobierz\ngo ponownie, używając właściwej wersji narzędzia.\n2. Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, ponownie skopiuj pakiet dla właściwego modelu\ni regionu z nośnika źródłowego i załaduj go ponownie."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "Przeprogramowywanie zostało zatrzymane przez użytkownika.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "Ta platforma nie obsługuje jeszcze flashowania.",
+        "suggest": "Spróbuj ponownie sflashować urządzenie. Jeżeli problem nadal występuje po wielokrotnych próbach, prosimy o zgłoszenie go zespołowi zajmującemu się konserwacją narzędzi za pośrednictwem przedstawiciela wsparcia technicznego w celu analizy i rozpatrzenia sprawy."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Nieobsługiwany kod typu urządzenia pamięci {1}.",
+        "suggest": "Wymień płytę główną."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "Pakiet do programowania pamięci ROM nie może znaleźć partycji logicznej.",
+        "suggest": "1.Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2.Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego i załadować ponownie."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Błąd weryfikacji pobrania pliku.",
+        "suggest": "1.Jeśli pakiet do programowania pamięci ROM został pobrany bezpośrednio za pomocą narzędzia do programowania pamięci ROM, usuń go i pobierz jego najnowszą wersję, a następnie spróbuj ponownie załadować pakiet.\n2.Jeśli pakiet do programowania pamięci ROM został zaimportowany z zewnętrznego źródła, spróbuj go ponownie skopiować z nośnika źródłowego i załadować ponownie."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "Nieoczekiwane rozłączenie USB.",
+        "suggest": "1. Upewnij się, że pozostały poziom naładowania baterii urządzenia wynosi przynajmniej 20%. Naładuj urządzenie przed\nponowną próbą programowania pamięci ROM.\n2. Spróbuj użyć innego kabla USB lub innego portu USB w komputerze, aby ponownie spróbować przeprogramować pamięć ROM.\n3. Jeżeli po podjęciu powyższych działań problem wystąpi ponownie, należy wymienić płytę główną."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "Nie można wykonać operacji z powodu błędów urządzenia pamięci.",
+        "suggest": "Upewnij się, że wybrałeś prawidłowy typ urządzenia pamięci w ustawieniach flashowania ROM (np. jeśli urządzenie jest wyposażone w urządzenie eMMC, nie można wybrać opcji UFS). Jeśli potwierdzisz, że nie ma problemu z wyborem, urządzenie UFS może być uszkodzone. Rozważ wymianę płyty głównej."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "Platforma na razie nie obsługuje programowania.",
+        "suggest": "Spróbuj ponownie przeprogramować pamięć ROM. Jeżeli ten sam problem będzie się powtarzał, skontaktuj się z przedstawicielem działu obsługi posprzedażowej ds. pomocy technicznej, aby zgłosił problem zespołowi ds. konserwacji narzędzia."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "Pakiet ROM jest starszy niż domyślna wersja fabryczna. Przeprogramowanie go spowoduje zmianę numeru SN.",
+        "suggest": "Należy poinformować użytkownika, że to urządzenie przyjęło nową specyfikację SN. Obniżenie wersji urządzenia do wersji fabrycznej spowoduje zmianę jego SN, co może mieć konsekwencje, takie jak naruszenie praw i interesów związanych z ochroną posprzedażną. Producent nie zaleca użytkownikom obniżania wersji swoich urządzeń."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "Operacja powrotu na urządzeniu nie powiodła się. Kod błędu: {1}; komunikat o błędzie: {2}",
+        "suggest": "Spróbuj przeprogramować ponownie. Jeśli ten błąd będzie się powtarzał, należy skontaktować się z zespołem ds. obsługi technicznej narzędzia przeprogramowywania, aby zgłosić ten problem."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Należy poinformować użytkownika, że to urządzenie ma już włączoną funkcję „Zadzwoń, aby zablokować”. Przejdź do obszaru „Ustawienia — Bezpieczeństwo i prywatność — Odblokowanie urządzenia — Ochrona przed kradzieżą” i wyłącz opcję „Zadzwoń, aby zablokować” przed przeprogramowaniem. Jeśli urządzenia nie można włączyć, należy skontaktować się z naszym działem obsługi klienta w celu zweryfikowania danych osobowych i z prośbą o odblokowanie urządzenia przed przeprogramowaniem.",
+        "suggest": "Użytkownik włączył opcję „Zadzwoń, aby zablokować”, a system zaplecza narzędzia przeprogramowywania oznaczył urządzenie jako zablokowane w trybie blokady bezpieczeństwa. (Jeśli użytkownik zgubi urządzenie i skontaktuje się z naszym działem obsługi klienta z prośbą o jego zablokowanie, tryb ten zostanie aktywowany). Nie można przeprogramowywać urządzeń w trybie blokady bezpieczeństwa. Przed rozpoczęciem przeprogramowania należy wyłączyć funkcję „Zadzwoń, aby zablokować”."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "Adres offsetu partycji danych użytkownika w pakiecie ROM nie odpowiada powiązanej partycji w telefonie, co uniemożliwia przeprogramowanie bez usunięcia tej partycji.",
+        "suggest": "Przed rozpoczęciem pracy w trybie standardowym należy wykonać kopię zapasową wszystkich danych partycji danych użytkownika."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Ta wersja zawiera dotychczas rozpoznane luki w zabezpieczeniach. Przeprogramowywanie jest zablokowane.",
+        "suggest": "Pobierz najnowszą pamięć ROM dla tego modelu urządzenia i przeprogramuj ją."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

@@ -1,0 +1,171 @@
+{
+  "t0": {
+    "ExpAdvice": "",
+    "ExpDetail": "Normal",
+    "ResultLevel": 0
+  },
+  "t2": {
+    "ExpAdvice": "<br>1. Kulak içi kulaklığın incelenmesi sırasında tanılamaya devam edilmemiş olabilir.<br>2. Mevcut kulak içi kulaklık bu tanılamayı desteklemeyebilir.",
+    "ExpDetail": "Tanılama yapılmadı",
+    "ResultLevel": 6
+  },
+  "t11": {
+    "ExpAdvice": "isim:%1 <br> renk: %2 <br> elektrik:L-R-Box: %3 <br>",
+    "ExpDetail": "%1"
+  },
+  "t10610101": {
+    "ExpAdvice": "Müşteriye daha kararlı olan son sürüme güncellemesini söyleyin.",
+    "ExpDetail": "Kulak içi kulaklık ürün yazılımının sürümü eski",
+    "ResultLevel": 8
+  },
+  "t10610102": {
+    "ExpAdvice": "Kulak içi kulaklık ürün yazılımı bilgi hatası. Kulak içi kulaklıklarda fabrika ayarlarının geri yüklenmesi önerilir.",
+    "ExpDetail": "Kulak içi kulaklık %1 ürün yazılımı bilgi hatası",
+    "ResultLevel": 10
+  },
+  "t10610103": {
+    "ExpAdvice": "Lütfen favoriler işlevinin normal çalışıp çalışmadığını kontrol edin ve kulak içi kulaklık bilgilerini onay için satış sonrası ekibine gönderin.",
+    "ExpDetail": "Kulak içi kulaklık %1 favori işlev hatası",
+    "ResultLevel": 10
+  },
+  "t10610104": {
+    "ExpAdvice": "Vaka SN hatası. Lütfen satış sonrası temsilcisine geri bildirim sağlayın.",
+    "ExpDetail": "Vaka SN hatası",
+    "ResultLevel": 10
+  },
+  "t10610201": {
+    "ExpAdvice": "<br>1. Bu sorun, kulaklık aşırı yüksek veya düşük sıcaklıklara uzun süre maruz kaldıktan sonra şarj edildiğinde ortaya çıkabilir. <br>\n2. Kulaklığı şarj etmeden önce 10 dakika oda sıcaklığında bırakın.",
+    "ExpDetail": "%1 kulaklık için anormal pil sıcaklığı",
+    "ResultLevel": 10
+  },
+  "t10610301": {
+    "ExpAdvice": "<br>1. Bir şarj sorunu rapor edilirse bunun bu ölçüte göre daha önce olup olmadığını kontrol edin. <br>\n2. Kulaklıkları aşırı yüksek veya düşük sıcaklıklarda şarj etmeyin.",
+    "ExpDetail": "%1 kulaklık için pil sıcaklığı daha önce anormaldi",
+    "ResultLevel": 10
+  },
+  "t10610401": {
+    "ExpAdvice": "<br>1. Her iki kulaklığın şarj kutusunda olup olmadığını kontrol edin. Değilse bir şarj hatası görüntülenir. <br>\n2. Şarj kutusunun içindeki şarj pimlerinin veya uçlarının deforme olup olmadığını ya da kırılıp kırılmadığını kontrol edin. <br>\n3. Kulaklıkların şarj pimlerinin ve kutudaki şarj pimlerinin veya uçlarının yağ/ter lekesi içerip içermediğini veya başka bir şekilde kirli olup olmadığını kontrol edin. Lekeli veya kirliyse bunları etanole batırılmış, tüy bırakmayan bir pamuklu çubukla temizleyin.",
+    "ExpDetail": "%1 kulaklıkları için anormal şarj etme",
+    "ResultLevel": 10
+  },
+  "t10610501": {
+    "ExpAdvice": "Lütfen kulak içi kulaklığın normal çalışıp çalışmadığını kontrol edin ve kulak içi kulaklık bilgilerini ve hata kodunu satış sonrası ekibine gönderin.",
+    "ExpDetail": "%1 kulaklıklar için %2 hata kodu ile anormal fabrika parametreleri",
+    "ResultLevel": 10
+  },
+  "t10610601": {
+    "ExpAdvice": "Bu durum, kulak içi kulaklığın kullanıcının kulağına takıldığını algılayamamasına ve dokunmatik kumandaların yanıt vermemesine neden olabilir. Lütfen kulak içi kulaklıklarda fabrika ayarlarını geri yükleyin.",
+    "ExpDetail": "%1 kulaklıklar için %2 hata kodu ile anormal kullanıcı parametreleri",
+    "ResultLevel": 10
+  },
+  "t10610701": {
+    "ExpAdvice": "Lütfen kullanıcının kulak içi kulaklıkları güçlü parazit kaynaklarının (Wi-Fi yönlendiriciler veya baz istasyonları gibi) bulunduğu ortamlarda kullanıp kullanmadığını kontrol edin. Bu tür ortamlarda zaman zaman bağlantının kesilmesi kaçınılmazdır. Kulak içi kulaklıklarda fabrika ayarlarının geri yüklenmesi önerilir.",
+    "ExpDetail": "%1 kulaklıklar dondu",
+    "ResultLevel": 10
+  },
+  "t10610801": {
+    "ExpAdvice": "Bu sorunun genel kullanıcı ortamlarında oluşup oluşmadığını kontrol edin ve sıklığını kaydedin. Yakınlarda Wi-Fi yönlendiriciler ve baz istasyonları gibi güçlü bir parazit kaynağı olup olmadığını kontrol edin ve kulaklığı fabrika ayarlarına döndürün.",
+    "ExpDetail": "İki kulaklıktan birinin bağlantısının kesilmesi",
+    "ResultLevel": 10
+  },
+  "t10610901": {
+    "ExpAdvice": "<br>1. Daha iyi sinyal kalitesi için kulaklık ve telefonu birbirine yakın tutun. <br>\n2. Bu sorunun genel kullanıcı ortamlarında oluşup oluşmadığını kontrol edin ve sıklığını kaydedin. Yakınlarda Wi-Fi yönlendiriciler ve baz istasyonları gibi güçlü bir parazit kaynağı olup olmadığını kontrol edin ve kulaklığı fabrika ayarlarına döndürün.",
+    "ExpDetail": "%1 kulaklıklar ve telefon arasında bağlantının kesilmesi",
+    "ResultLevel": 10
+  },
+  "t10611001": {
+    "ExpAdvice": "<br>1. Kulak içi kulaklığın kullandığı ses kaynaklarıyla ilgili özel bir durum olup olmadığını kontrol edin. Varsa, analiz için geliştiriciye kulak içi kulaklık ve kaynaklar hakkında bilgi gönderin. <br>2. Gecikmelerin ya da gecikme olasılıklarının yaygın kullanıcı ortamlarında olup olmadığını kontrol edin. Yakınlarda Wi-Fi yönlendiriciler ve baz istasyonları gibi güçlü bir parazit kaynağı olup olmadığını kontrol edin ve kulak içi kulaklığı fabrika ayarlarına döndürün.",
+    "ExpDetail": "%1 kulak içi kulaklıkta ses gecikmesi",
+    "ResultLevel": 10
+  },
+  "t10611002": {
+    "ExpAdvice": "Gecikmelerin ya da gecikme olasılıklarının yaygın kullanıcı ortamlarında olup olmadığını kontrol edin. Yakınlarda Wi-Fi yönlendiriciler ve baz istasyonları gibi güçlü bir parazit kaynağı olup olmadığını kontrol edin ve kulak içi kulaklığı fabrika ayarlarına döndürün.",
+    "ExpDetail": "%1 kulak içi kulaklıkta arama gecikmesi",
+    "ResultLevel": 10
+  },
+  "t10611101": {
+    "ExpAdvice": "<br>1. Arıza teşhisini sadece bir kulak içi kulaklıkla gerçekleştiriyorsanız bu sonuç beklenmelidir. <br>\n2. Yakın çevrenizde Wi-Fi yönlendiriciler ve baz istasyonları gibi parazit kaynakları olup olmadığını kontrol edin. Bu olasılığı eledikten sonra kulak içi kulaklıklarda fabrika ayarlarını geri yüklemeyi deneyin.",
+    "ExpDetail": "İki kulak içi kulaklık arasında zayıf bağlantı",
+    "ResultLevel": 10
+  },
+  "t10611201": {
+    "ExpAdvice": "<br>1. Tanılama için şarj kutusunu USB kablosu ile şarj edin. <br>\n2. Şarj kutusunun USB bağlantı noktasında kirlilik veya temassızlık olup olmadığını kontrol edin. Varsa temas noktalarını etanole batırılmış, tüy bırakmayan bir pamuklu çubukla temizleyin.",
+    "ExpDetail": "Kutu şarj etme hatası",
+    "ResultLevel": 10
+  },
+  "t10611301": {
+    "ExpAdvice": "<br>1. Bu sorun, kulaklık aşırı yüksek veya düşük sıcaklıklara uzun süre maruz kaldıktan sonra şarj edildiğinde ortaya çıkabilir. <br>\n2. Kulaklığı şarj etmeden önce 10 dakika oda sıcaklığında bırakın.",
+    "ExpDetail": "Şarj kutusu için anormal pil sıcaklığı",
+    "ResultLevel": 10
+  },
+  "t10611401": {
+    "ExpAdvice": "<br>1. Bir şarj sorunu rapor edilirse bunun bu ölçüte göre daha önce olup olmadığını kontrol edin. <br>\n2. Ortam sıcaklığının çok yüksek veya çok düşük olup olmadığını veya herhangi bir şarj hatası olup olmadığını kontrol edin. Şarj kutusunu aşırı yüksek veya düşük sıcaklıklarda şarj etmeyin.",
+    "ExpDetail": "Şarj kutusu için pil sıcaklığı daha önce anormaldi",
+    "ResultLevel": 10
+  },
+  "t10611501": {
+    "ExpAdvice": "Şarj kutusunun USB bağlantı noktasında kirlilik veya temassızlık olup olmadığını kontrol edin. Varsa temas noktalarını etanole batırılmış, tüy bırakmayan bir pamuklu çubukla temizleyin.",
+    "ExpDetail": "Şarj kutusu için anormal USB bağlantı noktası sıcaklığı",
+    "ResultLevel": 10
+  },
+  "t10611601": {
+    "ExpAdvice": "<br>1. Bir şarj sorunu rapor edilirse bunun bu ölçüte göre daha önce olup olmadığını kontrol edin. <br>\n2. Ortam sıcaklığının çok yüksek veya çok düşük olup olmadığını veya herhangi bir şarj hatası olup olmadığını kontrol edin. Şarj kutusunu aşırı yüksek veya düşük sıcaklıklarda şarj etmeyin.",
+    "ExpDetail": "Şarj kutusu için USB bağlantı noktası sıcaklığı daha önce anormaldi",
+    "ResultLevel": 10
+  },
+  "t10615001": {
+    "ExpAdvice": "Lütfen Mikrofon deliğinin herhangi bir kalıntı veya yabancı cisimle tıkanıp tıkanmadığını kontrol edin. Delik tıkalıysa etanolle ıslatılmış tiftiksiz bir pamuklu çubuk ile temas noktalarını temizleyin.",
+    "ExpDetail": "Kulak içi kulaklık %1 Mikrofon sesi kötü geliyor.",
+    "ResultLevel": 10
+        },
+  "t10615101": {
+    "ExpAdvice": "<br>1.Lütfen hoparlör ızgarasının herhangi bir kalıntı veya yabancı cisimle tıkanıp tıkanmadığını kontrol edin. Izgara tıkalıysa kulak kapağını çıkarın, etanolle ıslatılmış tiftiksiz bir pamuklu çubukla ızgarayı temizleyin ve ızgaradaki kiri kazıyarak temizlemek için kürdan veya başka bir özel alet kullanın.<br>2. Çevrenizde Wi-Fi yönlendiriciler ve baz istasyonları gibi parazit kaynakları olup olmadığını kontrol edin. Bu olasılığı eledikten sonra testi tekrarlayın.",
+    "ExpDetail": "Kulak içi kulaklık %1 ses kalitesi düşük.",
+    "ResultLevel": 10
+        },
+  "t10615102": {
+    "ExpAdvice": "<br>1.Lütfen hoparlör ızgarasının herhangi bir kalıntı veya yabancı cisimle tıkanıp tıkanmadığını kontrol edin. Izgara tıkalıysa kulak kapağını çıkarın, etanolle ıslatılmış tiftiksiz bir pamuklu çubukla ızgarayı temizleyin ve ızgaradaki kiri kazıyarak temizlemek için kürdan veya başka bir özel alet kullanın.<br>2. Çevrenizde Wi-Fi yönlendiriciler ve baz istasyonları gibi parazit kaynakları olup olmadığını kontrol edin. Bu olasılığı eledikten sonra testi tekrarlayın.",
+    "ExpDetail": "Gürültü giderme açıldığında, kulaklıkta anormal ses oynatması var.",
+    "ResultLevel": 10
+        },
+  "t10615103": {
+    "ExpAdvice": "<br>1.Lütfen hoparlör ızgarasının herhangi bir kalıntı veya yabancı cisimle tıkanıp tıkanmadığını kontrol edin. Izgara tıkalıysa kulak kapağını çıkarın, etanolle ıslatılmış tiftiksiz bir pamuklu çubukla ızgarayı temizleyin ve ızgaradaki kiri kazıyarak temizlemek için kürdan veya başka bir özel alet kullanın.<br>2. Çevrenizde Wi-Fi yönlendiriciler ve baz istasyonları gibi parazit kaynakları olup olmadığını kontrol edin. Bu olasılığı eledikten sonra testi tekrarlayın.",
+    "ExpDetail": "Gürültü giderme kapatıldığında, kulaklıkta anormal ses oynatması var.",
+    "ResultLevel": 10
+        },
+  "t10615201": {
+    "ExpAdvice": "Lütfen hoparlör ızgarasının herhangi bir kalıntı veya yabancı cisimle tıkanıp tıkanmadığını kontrol edin. Izgara tıkalıysa kulak kapağını çıkarın, etanolle ıslatılmış tiftiksiz bir pamuklu çubukla ızgarayı temizleyin ve ızgaradaki kiri kazıyarak temizlemek için kürdan veya başka bir özel alet kullanın.",
+    "ExpDetail": "Beklenmeyen kulak içi kulaklık %1 ses seviyesi.",
+    "ResultLevel": 10
+        },
+  "t10615301": {
+    "ExpAdvice": "<br>1. Kulak içi kulaklıkların kutunun içinde olduğundan ve kutu kapağının doğru şekilde kapatıldığından veya açıldığından emin olun. Değilse hata mesajı görmeniz normaldir. <br>2. Şarj kutusundaki şarj problarının veya pimlerinin deforme olup olmadığını ya da kırılıp kırılmadığını kontrol edin. <br>3. Şarj temas noktalarının yanı sıra şarj kutusundaki şarj pimleri ve problarının yağ, ter veya kirle lekelenip lekelenmediğini kontrol edin. Lekeliyse etanolle ıslatılmış tiftiksiz bir pamuklu çubuk ile bunları temizleyin.",
+    "ExpDetail": "Kulak içi kulaklık kutusunun kapağı algılanamıyor.",
+    "ResultLevel": 10
+        },
+  "t10615401": {
+    "ExpAdvice": "<br>1. Kulak içi kulaklığın amaçlandığı gibi takıldığından emin olun. Kulak içi kulaklık kulağınızda değilse hata mesajı görmeniz normaldir. <br>2. Kulak içi kulaklığı kulağınıza uyacak şekilde ayarlayın ve doğru takıldığından emin olun. <br>3. Kulak içi kulaklıkta su veya yağ gibi maddelerin bulunup bulunmadığını kontrol edin. Bu tür maddeler varsa test etmeden önce kulak içi kulaklığı silin.",
+    "ExpDetail": "Kulak içi kulaklık %1 kulak içi algılaması başarısız oluyor.",
+    "ResultLevel": 10
+        },
+  "t10615402": {
+    "ExpAdvice": "<br>1. Doğru noktaları sıkıştırdığınızdan emin olun. Kulak içi kulaklığı sıkıştırmadıysanız hata mesajı görmeniz normaldir. <br>2. Sıkıştırma konumu ve gücünü ayarlayarak doğru şekilde sıkıştırdığınızdan emin olun. <br>3. Kulak içi kulaklıkta su veya yağ gibi maddelerin bulunup bulunmadığını kontrol edin. Bu tür maddeler varsa test etmeden önce kulak içi kulaklığı silin.",
+    "ExpDetail": "Kulak içi kulaklık %1 iki kez dokunma (çimdikleme) kontrolü başarısız oluyor.",
+    "ResultLevel": 10
+        },
+  "t10615403": {
+    "ExpAdvice": "<br>1. Kulak içi kulaklıkların kutunun içinde olduğundan emin olun. Bunlar kutunun içinde değilse hata mesajı görmeniz normaldir. <br>2. Şarj kutusundaki şarj problarının veya pimlerinin deforme olup olmadığını ya da kırılıp kırılmadığını kontrol edin. <br>3. Şarj temas noktalarının yanı sıra şarj kutusundaki şarj pimleri ve problarının yağ, ter veya kirle lekelenip lekelenmediğini kontrol edin. Lekeliyse etanolle ıslatılmış tiftiksiz bir pamuklu çubuk ile bunları temizleyin.",
+    "ExpDetail": "Kulak içi kulaklık %1 için kutuya giriş algılanamıyor.",
+    "ResultLevel": 10
+        },
+  "t10615501": {
+    "ExpAdvice": "Kulak içi kulaklıkların kutunun içinde olduğundan emin olun. Bunlar kutunun içinde değilse hata mesajı görmeniz normaldir.",
+    "ExpDetail": "Kulak içi kulaklık kutusu durum ışığı algılanamıyor.",
+    "ResultLevel": 10
+        },
+  "t10615601": {
+    "ExpAdvice": "<br>1. Kulak içi kulaklıkların kutunun içinde olduğundan emin olun. Bunlar kutunun içinde değilse hata mesajı görmeniz normaldir. <br>2. Şarj kutusundaki şarj problarının veya pimlerinin deforme olup olmadığını ya da kırılıp kırılmadığını kontrol edin. <br>3. Şarj temas noktalarının yanı sıra şarj kutusundaki şarj pimleri ve problarının yağ, ter veya kirle lekelenip lekelenmediğini kontrol edin. Lekeliyse etanolle ıslatılmış tiftiksiz bir pamuklu çubuk ile bunları temizleyin.",
+    "ExpDetail": "Kulak içi kulaklık kutusunun düğmesi algılanamıyor.",
+    "ResultLevel": 10
+        }
+}

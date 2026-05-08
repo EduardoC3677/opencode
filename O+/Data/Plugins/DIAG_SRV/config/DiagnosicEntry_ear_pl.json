@@ -1,0 +1,171 @@
+{
+        "t0": {
+            "ExpAdvice": "",
+            "ExpDetail": "Normalny",
+            "ResultLevel": 0
+        },
+        "t2": {
+            "ExpAdvice": "1. Diagnostyka mogła zostać przerwana podczas sprawdzania słuchawek dousznych.<br>2. Aktualnie wykorzystywane słuchawki douszne mogą nie obsługiwać tego elementu diagnostycznego.",
+            "ExpDetail": "Nie przeprowadzono diagnostyki",
+            "ResultLevel": 6
+        },
+        "t11": {
+            "ExpAdvice": "nazwa:%1 <br> kolor: %2 <br> elektryczność:lewa-prawa-pudełko: %3 <br>",
+            "ExpDetail": "%1"
+        },
+        "t10610101": {
+            "ExpAdvice": "Zaktualizuj do najnowszej wersji w celu zwiększenia stabilności.",
+            "ExpDetail": "Nieaktualne oprogramowanie sprzętowe słuchawek",
+            "ResultLevel": 8
+        },
+        "t10610102": {
+            "ExpAdvice": "Błąd informacji dotyczących oprogramowania sprzętowego słuchawki %1. Zasugeruj przywrócenie ustawień fabrycznych słuchawek.",
+            "ExpDetail": "Błąd informacji dotyczących oprogramowania sprzętowego słuchawki %1",
+            "ResultLevel": 10
+        },
+        "t10610103": {
+            "ExpAdvice": "Sprawdź, czy funkcja ulubionych działa prawidłowo i wyślij informacje dotyczące słuchawek do zespołu obsługi posprzedażowej w celu potwierdzenia.",
+            "ExpDetail": "Błąd funkcji ulubionych słuchawki %1",
+            "ResultLevel": 10
+        },
+        "t10610104": {
+            "ExpAdvice": "Błąd numeru seryjnego etui. Przekaż opinię przedstawicielowi obsługi posprzedażowej.",
+            "ExpDetail": "Błąd numeru seryjnego etui",
+            "ResultLevel": 10
+        },
+        "t10610201": {
+            "ExpAdvice": "<br>1. Ten problem może wystąpić w przypadku, gdy słuchawki są ładowane po tym, jak zostały wystawione na działanie bardzo wysokich lub bardzo niskich temperatur. <br>2. Przed rozpoczęciem ładowania pozostaw słuchawki na 10 minut w temperaturze pokojowej.",
+            "ExpDetail": "Nieprawidłowa temperatura baterii słuchawek %1",
+            "ResultLevel": 10
+        },
+        "t10610301": {
+            "ExpAdvice": "<br>1. W przypadku zgłoszenia problemu związanego z ładowaniem należy sprawdzić, czy problem występował wcześniej, opierając się na tym kryterium. <br>2. Nie należy ładować słuchawek w bardzo wysokich ani bardzo niskich temperaturach.",
+            "ExpDetail": "Poprzednia nieprawidłowa temperatura baterii słuchawek %1",
+            "ResultLevel": 10
+        },
+        "t10610401": {
+            "ExpAdvice": "<br>1. Sprawdź, czy obie słuchawki znajdują się w etui ładującym. Jeśli nie, zostanie wyświetlony błąd ładowania. <br>2. Sprawdź styki ładowania lub sondy wewnątrz etui ładującego pod kątem deformacji i uszkodzeń. <br>3. Sprawdź, czy styki ładowania słuchawek oraz styki ładowania lub sondy w etui nie są zabrudzone ani zawilgocone. Jeśli tak jest, przetrzyj je niestrzępiącym się wacikiem bawełnianym zwilżonym etanolem.",
+            "ExpDetail": "Nieprawidłowe ładowanie słuchawek %1",
+            "ResultLevel": 10
+        },
+        "t10610501": {
+            "ExpAdvice": "Sprawdź, czy słuchawki działają prawidłowo i wyślij informacje dotyczące słuchawek oraz kod błędu do zespołu obsługi posprzedażowej.",
+            "ExpDetail": "Nieprawidłowe parametry fabryczne słuchawek %1 z kodem błędu %2",
+            "ResultLevel": 10
+        },
+        "t10610601": {
+            "ExpAdvice": "Taki stan może spowodować, ze słuchawki nie będą wykrywać, że użytkownik włożył je do ucha, przez co elementy sterowania dotykowego nie będą reagować. Przywróć ustawienia fabryczne słuchawek.",
+            "ExpDetail": "Nieprawidłowe parametry użytkownika słuchawek %1 z kodem błędu %2",
+            "ResultLevel": 10
+        },
+        "t10610701": {
+            "ExpAdvice": "Zapytaj, czy użytkownik nie używał słuchawek w pobliżu źródeł silnych zakłóceń (takich jak routery Wi-Fi lub stacje bazowe). W takich środowiskach utrata połączenia jest czasem nieunikniona. Zasugeruj przywrócenie ustawień fabrycznych słuchawek.",
+            "ExpDetail": "Słuchawki %1 przestały działać",
+            "ResultLevel": 10
+        },
+        "t10610801": {
+            "ExpAdvice": "Sprawdź, czy ten problem występuje w zwykłym środowisku użytkowania i zwróć uwagę na częstotliwość jego występowania. Sprawdź, czy w pobliżu nie znajduje się źródło silnych zakłóceń, takie jak routery Wi-Fi i stacje bazowe, i przywróć ustawienia fabryczne słuchawek.",
+            "ExpDetail": "Utrata połączenia z dowolną ze słuchawek",
+            "ResultLevel": 10
+        },
+        "t10610901": {
+            "ExpAdvice": "<br>1. Trzymaj słuchawki blisko telefonu w celu zapewnienia lepszej jakości sygnału. <br>2. Sprawdź, czy ten problem występuje w zwykłym środowisku użytkowania i zwróć uwagę na częstotliwość jego występowania. Sprawdź, czy w pobliżu nie znajduje się źródło silnych zakłóceń, takie jak routery Wi-Fi i stacje bazowe, i przywróć ustawienia fabryczne słuchawek.",
+            "ExpDetail": "Utrata połączenia między słuchawkami %1 a telefonem",
+            "ResultLevel": 10
+        },
+        "t10611001": {
+            "ExpAdvice": "<br>1. Sprawdź, czy zasoby dźwiękowe odtwarzane w słuchawkach dousznych nie mają nietypowej charakterystyki. Jeśli tak, wyślij informacje na temat słuchawek dousznych oraz zasobów do dewelopera w celu umożliwienia ich analizy. <br>2. Sprawdź, czy opóźnienie lub ryzyko opóźnienia występuje w typowym środowisku użytkowania. Sprawdź, czy w pobliżu nie znajduje się źródło silnych zakłóceń, takie jak routery Wi-Fi i stacje bazowe, i przywróć ustawienia fabryczne słuchawek dousznych.",
+            "ExpDetail": "Opóźnienie dźwięku w słuchawce dousznej %1",
+            "ResultLevel": 10
+        },
+        "t10611002": {
+            "ExpAdvice": "Sprawdź, czy opóźnienie lub ryzyko opóźnienia występuje w typowym środowisku użytkowania. Sprawdź, czy w pobliżu nie znajduje się źródło silnych zakłóceń, takie jak routery Wi-Fi i stacje bazowe, i przywróć ustawienia fabryczne słuchawek dousznych.",
+            "ExpDetail": "Opóźnienie połączenia w słuchawce dousznej %1",
+            "ResultLevel": 10
+        },
+        "t10611101": {
+            "ExpAdvice": "<br>1. Jeśli przeprowadzasz diagnozę z użyciem tylko jednej słuchawki, jest to wynik, którego można się spodziewać.<br> 2. Sprawdź, czy w bezpośrednim otoczeniu nie ma źródeł zakłóceń, takich jak routery Wi-Fi i stacje bazowe. Po wykluczeniu tej możliwości spróbuj przywrócić ustawienia fabryczne słuchawek.",
+            "ExpDetail": "Słabe połączenie między dwoma słuchawkami",
+            "ResultLevel": 10
+        },
+        "t10611201": {
+            "ExpAdvice": "<br>1. Naładuj etui ładujące za pomocą kabla USB w celu przeprowadzenia diagnostyki. <br>2. Sprawdź, czy gniazdo USB etui ładującego nie jest brudne i czy nie przylega słabo do złącza. Jeśli tak jest, przetrzyj punkty styku niestrzępiącym się wacikiem bawełnianym zwilżonym etanolem.",
+            "ExpDetail": "Błąd ładowania etui",
+            "ResultLevel": 10
+        },
+        "t10611301": {
+            "ExpAdvice": "<br>1. Ten problem może wystąpić w przypadku, gdy słuchawki są ładowane po tym, jak zostały wystawione na działanie bardzo wysokich lub bardzo niskich temperatur. <br>2. Przed rozpoczęciem ładowania pozostaw słuchawki na 10 minut w temperaturze pokojowej.",
+            "ExpDetail": "Nieprawidłowa temperatura baterii etui ładującego",
+            "ResultLevel": 10
+        },
+        "t10611401": {
+            "ExpAdvice": "<br>1. W przypadku zgłoszenia problemu związanego z ładowaniem należy sprawdzić, czy problem występował wcześniej, opierając się na tym kryterium. <br>2. Sprawdź, czy temperatura otoczenia nie jest zbyt wysoka ani zbyt niska i czy nie występują żadne usterki ładowania. Nie ładuj etui ładującego w bardzo wysokich ani bardzo niskich temperaturach.",
+            "ExpDetail": "Wcześniejsza nieprawidłowa temperatura baterii etui ładującego",
+            "ResultLevel": 10
+        },
+        "t10611501": {
+            "ExpAdvice": "Sprawdź, czy gniazdo USB etui ładującego nie jest brudne i czy nie przylega słabo do złącza. Jeśli tak jest, przetrzyj punkty styku niestrzępiącym się wacikiem bawełnianym zwilżonym etanolem.",
+            "ExpDetail": "Nieprawidłowa temperatura gniazda USB etui ładującego",
+            "ResultLevel": 10
+        },
+        "t10611601": {
+            "ExpAdvice": "<br>1. W przypadku zgłoszenia problemu związanego z ładowaniem należy sprawdzić, czy problem występował wcześniej, opierając się na tym kryterium. <br>2. Sprawdź, czy temperatura otoczenia nie jest zbyt wysoka ani zbyt niska i czy nie występują żadne usterki ładowania. Nie ładuj etui ładującego w bardzo wysokich ani bardzo niskich temperaturach.",
+            "ExpDetail": "Wcześniejsza nieprawidłowa temperatura gniazda USB etui ładującego",
+            "ResultLevel": 10
+        },
+        "t10615001": {
+            "ExpAdvice": "Sprawdź, czy w otworze mikrofonu nie znajdują się zanieczyszczenia i czy nie utknęły w nim żadne ciała obce. Jeśli tak jest, wyczyść punkty styku niestrzępiącym się wacikiem bawełnianym nasączonym etanolem.",
+            "ExpDetail": "Dźwięk z mikrofonu słuchawek %1 brzmi źle.",
+            "ResultLevel": 10
+        },
+        "t10615101": {
+            "ExpAdvice": "<br>1.Sprawdź, czy siateczka głośnika nie jest zapchana przez zanieczyszczenia lub ciała obce. Jeśli tak jest, usuń osłonę uszną, przetrzyj siateczkę do czysta niestrzępiącym się wacikiem bawełnianym nasączonym etanolem, a następnie użyj wykałaczki lub innego specjalnego narzędzia, aby zdrapać brud z siateczki.<br>2. Sprawdź, czy w otoczeniu nie ma źródeł zakłóceń, takich jak routery Wi-Fi i stacje bazowe. Po wykluczeniu tej możliwości spróbuj ponownie przeprowadzić test.",
+            "ExpDetail": "Dźwięk ze słuchawki %1 ma niską jakość.",
+            "ResultLevel": 10
+        },
+        "t10615102": {
+            "ExpAdvice": "<br>1.Sprawdź, czy siateczka głośnika nie jest zapchana przez zanieczyszczenia lub ciała obce. Jeśli tak jest, usuń osłonę uszną, przetrzyj siateczkę do czysta niestrzępiącym się wacikiem bawełnianym nasączonym etanolem, a następnie użyj wykałaczki lub innego specjalnego narzędzia, aby zdrapać brud z siateczki.<br>2. Sprawdź, czy w otoczeniu nie ma źródeł zakłóceń, takich jak routery Wi-Fi i stacje bazowe. Po wykluczeniu tej możliwości spróbuj ponownie przeprowadzić test.",
+            "ExpDetail": "Po włączeniu funkcji eliminacji hałasu dźwięk odtwarzany w słuchawkach jest nieprawidłowy.",
+            "ResultLevel": 10
+        },
+        "t10615103": {
+            "ExpAdvice": "<br>1.Sprawdź, czy siateczka głośnika nie jest zapchana przez zanieczyszczenia lub ciała obce. Jeśli tak jest, usuń osłonę uszną, przetrzyj siateczkę do czysta niestrzępiącym się wacikiem bawełnianym nasączonym etanolem, a następnie użyj wykałaczki lub innego specjalnego narzędzia, aby zdrapać brud z siateczki.<br>2. Sprawdź, czy w otoczeniu nie ma źródeł zakłóceń, takich jak routery Wi-Fi i stacje bazowe. Po wykluczeniu tej możliwości spróbuj ponownie przeprowadzić test.",
+            "ExpDetail": "Po wyłączeniu funkcji eliminacji hałasu dźwięk odtwarzany w słuchawkach jest nieprawidłowy.",
+            "ResultLevel": 10
+        },
+        "t10615201": {
+            "ExpAdvice": "Sprawdź, czy siateczka głośnika nie jest zapchana przez zanieczyszczenia lub ciała obce. Jeśli tak jest, usuń osłonę uszną, przetrzyj siateczkę do czysta niestrzępiącym się wacikiem bawełnianym nasączonym etanolem, a następnie użyj wykałaczki lub innego specjalnego narzędzia, aby zdrapać brud z siateczki.",
+            "ExpDetail": "Nieoczekiwana głośność dźwięku słuchawki %1.",
+            "ResultLevel": 10
+        },
+        "t10615301": {
+            "ExpAdvice": "<br>1. Upewnij się, że słuchawki znajdują się w etui, a pokrywa etui jest prawidłowo otwierana i zamykana. Jeśli nie, wystąpienie komunikatu o błędzie jest normalnym zjawiskiem. <br>2. Sprawdź sondy lub styki ładowania w etui ładującym pod kątem deformacji i uszkodzeń. <br>3. Sprawdź, czy punkty styku ładowania oraz styki ładowania lub sondy etui ładującego nie są zabrudzone olejem, potem ani ziemią. Jeśli są, wyczyść je. ",
+            "ExpDetail": "Wykrywanie pokrywy etui na słuchawki nie działa.",
+            "ResultLevel": 10
+        },
+        "t10615401": {
+            "ExpAdvice": "<br>1. Upewnij się, że słuchawka jest noszona w prawidłowy sposób. Jeśli słuchawka nie znajduje się w uchu, wystąpienie komunikatu o błędzie jest normalnym zjawiskiem. <br>2. Wyreguluj położenie słuchawki tak, aby dobrze leżała w uchu, i upewnij się, że jest ona prawidłowo włożona. <br>3. Sprawdź, czy słuchawka nie jest zabrudzona wodą, olejem ani innymi substancjami. W razie potrzeby przetrzyj słuchawkę przed przeprowadzeniem testów.",
+            "ExpDetail": "Włożenie słuchawki %1 do ucha nie zostaje wykryte.",
+            "ResultLevel": 10
+        },
+        "t10615402": {
+            "ExpAdvice": "<br>1. Upewnij się, że użytkownik ściska słuchawkę we właściwych miejscach. Jeśli obszar dotykowy słuchawki nie zostaje ściśnięty, wystąpienie komunikatu o błędzie jest normalnym zjawiskiem. <br>2. Dostosuj lokalizację obszaru dotykowego i siłę nacisku, aby upewnić się, że obsługa przez ściskanie obszaru dotykowego przebiega prawidłowo.<br>3. Sprawdź, czy słuchawka nie jest zabrudzona wodą, olejem ani innymi substancjami. W razie potrzeby przetrzyj słuchawkę przed przeprowadzeniem testów. ",
+            "ExpDetail": "Sterowanie poprzez dwukrotne dotknięcie (ściśnięcie) słuchawki %1 nie działa.",
+            "ResultLevel": 10
+        },
+        "t10615403": {
+            "ExpAdvice": "<br>1. Upewnij się, że słuchawki znajdują się w etui. Jeśli słuchawki nie znajdują się w etui, wystąpienie komunikatu o błędzie jest normalnym zjawiskiem.  <br>2. Sprawdź sondy lub styki ładowania w etui ładującym pod kątem deformacji i uszkodzeń. <br>3. Sprawdź, czy punkty styku ładowania oraz styki ładowania lub sondy etui ładującego nie są zabrudzone olejem, potem ani ziemią. Jeśli tak jest, wyczyść je niestrzępiącym się wacikiem bawełnianym nasączonym etanolem.",
+            "ExpDetail": "Wykrywanie włożenia słuchawki %1 do etui nie działa.",
+            "ResultLevel": 10
+        },
+        "t10615501": {
+            "ExpAdvice": "Upewnij się, że słuchawki znajdują się w etui. Jeśli słuchawki nie znajdują się w etui, wystąpienie komunikatu o błędzie jest normalnym zjawiskiem.",
+            "ExpDetail": "Wykrywanie wskaźnika stanu etui na słuchawki nie działa.",
+            "ResultLevel": 10
+        },
+        "t10615601": {
+            "ExpAdvice": "<br>1. Upewnij się, że słuchawki znajdują się w etui. Jeśli słuchawki nie znajdują się w etui, wystąpienie komunikatu o błędzie jest normalnym zjawiskiem. <br>2. Sprawdź sondy lub styki ładowania w etui ładującym pod kątem deformacji i uszkodzeń. <br>3. Sprawdź, czy punkty styku ładowania oraz styki ładowania lub sondy etui ładującego nie są zabrudzone olejem, potem ani ziemią. Jeśli tak jest, wyczyść je niestrzępiącym się wacikiem bawełnianym nasączonym etanolem.",
+            "ExpDetail": "Wykrywanie przycisku etui na słuchawki nie działa.",
+            "ResultLevel": 10
+        }
+}

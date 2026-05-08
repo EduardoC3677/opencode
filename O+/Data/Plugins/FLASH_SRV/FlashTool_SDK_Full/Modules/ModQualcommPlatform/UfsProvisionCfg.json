@@ -1,0 +1,12 @@
+[
+    {
+        "vendor": "SKhynix",
+        "model": "*",
+        "provision_file": "provision_hynix.xml"
+    },
+    {
+        "vendor": "WDC",
+        "model": "*",
+        "provision_file": "provision_sandisk.xml"
+    }
+]

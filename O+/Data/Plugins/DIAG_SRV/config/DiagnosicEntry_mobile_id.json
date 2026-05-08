@@ -1,0 +1,2811 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "Beri tahu pelanggan untuk memperbarui ke versi terbaru yang lebih stabil.",
+        "ExpDetail": "Pembaruan tersedia: %1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "IMEI telah diubah atau tidak ada IMEI yang dituliskan setelah penggantian motherboard. Kembalikan IMEI asli dan beri tahu pelanggan bahwa IMEI ilegal dapat mengakibatkan kesalahan jaringan.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "Gagal memulai tes. Konfirmasikan bahwa kartu SIM telah dilepaskan.",
+        "ExpDetail": "Kartu SIM tidak dilepas"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Frekuensi buka kunci:%1<br>Status buka kunci:Dibuka kuncinya"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Frekuensi buka kunci:%1<br>Status buka kunci:Tidak dibuka kuncinya"
+    },
+    "t01010101": {
+        "ExpAdvice": "Penyebab bisa jadi karena masalah kompabilitas yang terjadi pada aplikasi pihak ketiga dengan sistem. Saran untuk melakukan pembaruan ke versi terbaru, dan juga memperbarui versi aplikasi ke versi terbaru. Hal ini merupakan masalah pada perangkat lunak, bukan perangkat keras.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "Ponsel mungkin berulang kali dihidupkan ulang ketika terjadi eksepsi pada layanan perangkat lunak utama sistem Android atau bila CPU atau RAM berjalan tidak stabil. Direkomendasikan agar mengatasinya sebagai masalah perangkat keras.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "Ini adalah masalah aplikasi. Jika aplikasi itu versi beta, bukan versi resmi, atau buka versi resmi terbaru, unduh dan instal versi terbaru dari App Market.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "Masalah mungkin terjadi bila ada masalah kompatibilitas perangkat lunak atau bila ponsel jatuh ke permukaan tanah atau digunakan di lingkungan yang bersuhu tinggi atau rendah. Lakukan flash pada ROM baru dan beri tahu pelanggan untuk menggunakan ponsel di lingkungan yang sesuai.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "Catu daya ke ponsel tidak stabil. Direkomendasikan agar mengatasinya sebagai masalah perangkat keras.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "Disarankan untuk mengganti modul sensor fingerprint",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "Tanyakan kepada pelanggan apakah ada tombol yang ditekan secara tidak sengaja.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "Tanyakan kepada pelanggan apakah ponsel gagal merespons dan dihidupkan ulang menggunakan tombol fisik.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "Penyebab: CPU beroperasi pada beban tinggi untuk jangka waktu lama yang menyebabkan telepon memanas. Untuk mencegah panas berlebihan, CPU akan melindungi dirinya sendiri kemungkinan dengan harga penurunan kinerja.<br> \nRekomendasi: ① Matikan Mode hemat daya. ② Hindari penggunaan CPU pada beban tinggi untuk waktu yang lama. ③ Turunkan suhu telepon dengan cara menggesek permukaannya dengan alkohol atau tisu basah, dan pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami hang: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "Penyebab: Frekuensi CPU yang rendah dapat memengaruhi kinerja sistem, memperlambat kecepatan pemrosesannya dan waktu respons aplikasi.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Matikan Mode hemat daya. ③ Pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami hang: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "Penyebab: Penyimpanan yang tersedia kurang dari 10% karena terlalu banyak aplikasi yang berjalan di latar belakang.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Aktifkan fungsi Ekspansi RAM melalui \"Pengaturan - Pengaturan sistem - RAM\" jika telepon mendukung fungsi ini. ③ Mulai ulang telepon secara teratur.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami hang: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "Penyebab: Tidak ada ruang untuk cache aplikasi karena penyimpanan rendah. Dalam kasus ini, aplikasi mungkin lambat, membeku, atau macet.<br>\nRekomendasi: Bersihkan penyimpanan dengan Pengelola Telepon terintegrasi di telepon dengan cara menghapus foto, video, dan aplikasi yang tidak diinginkan, atau salin item ini ke komputer atau drive USB.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami hang: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "Penyebab: Versi OS tidak resmi dan dapat menyebabkan ketidakstabilan.<br> \nRekomendasi: Instal versi OS resmi atau tunggu versi beta diperbarui.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami hang: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "Penyebab: Telepon diinstal dengan aplikasi pengelolaan telepon pihak ketiga atau aplikasi optimasi sistem (seperti Tencent Mobile Manager dan 360 Mobile Safe). Aplikasi tersebut dapat menyebabkan telepon lambat.<br>\nRekomendasi: Hapus instalasi setiap aplikasi pengoptimalan sistem pihak ketiga dan gunakan Pengelola Telepon terintegrasi di telepon untuk mengoptimalkan telepon.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami hang: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "Penyebab: Gestur pembesaran telah diaktifkan sehingga dapat menyebabkan beberapa aplikasi mengalami kelambatan.<br> \nRekomendasi: Nonaktifkan fungsi gestur pembesaran melalui \"Pengaturan - Pengaturan tambahan - Aksesibilitas - Gestur pembesaran\".",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami hang: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "\n1. Konfirmasikan apakah detail diagnostik konsisten dengan deskripsi pengguna; jika ya, minta pengguna untuk membersihkan cache aplikasi ini dan melakukan upgrade aplikasi tersebut ke versi terbaru.<br>\n2. Sarankan agar pengguna menghidupkan ulang teleponnya.<br>\n3. Sarankan agar pengguna membersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu.<br>\n4. Sarankan agar pengguna melakukan upgrade ke OS terbaru.<br>\n5. Peroleh log pengguna tentang kelambatan dan minta teknisi untuk melakukan analisis.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami hang: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "\n1. Konfirmasikan apakah detail diagnostik konsisten dengan deskripsi pengguna; jika ya, minta pengguna untuk membersihkan cache aplikasi ini dan melakukan upgrade aplikasi tersebut ke versi terbaru.<br>\n2. Sarankan agar pengguna menghidupkan ulang teleponnya.<br>\n3. Sarankan agar pengguna membersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu.<br>\n4. Sarankan agar pengguna melakukan upgrade ke OS terbaru.<br>\n5. Peroleh log pengguna tentang kelambatan dan minta teknisi untuk melakukan analisis.",
+        "ExpDetail": "Histori 5 aplikasi teratas yang paling banyak menempati memori RAM ponsel: &lt;br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "Penyebab: CPU beroperasi pada beban tinggi untuk jangka waktu lama yang menyebabkan telepon memanas. Untuk mencegah panas berlebihan, CPU akan melindungi dirinya sendiri kemungkinan dengan harga penurunan kinerja.<br> \nRekomendasi: ① Matikan Mode hemat daya. ② Hindari penggunaan CPU pada beban tinggi untuk waktu yang lama. ③ Turunkan suhu telepon dengan cara menggesek permukaannya dengan alkohol atau tisu basah, dan pertahankan disipasi panas yang baik.",
+        "ExpDetail": "5 aplikasi teratas dengan waktu penyalaan paling lambat:&lt;br>%1&lt;br>5 penyebab teratas waktu penyalaan yang lambat:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "Penyebab: Frekuensi CPU yang rendah dapat memengaruhi kinerja sistem, memperlambat kecepatan pemrosesannya dan waktu respons aplikasi.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Matikan Mode hemat daya. ③ Pertahankan disipasi panas yang baik.",
+        "ExpDetail": "5 aplikasi teratas dengan waktu penyalaan paling lambat:&lt;br>%1&lt;br>5 penyebab teratas waktu penyalaan yang lambat:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "Penyebab: Penyimpanan yang tersedia kurang dari 10% karena terlalu banyak aplikasi yang berjalan di latar belakang.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Aktifkan fungsi Ekspansi RAM melalui \"Pengaturan - Pengaturan sistem - RAM\" jika telepon mendukung fungsi ini. ③ Mulai ulang telepon secara teratur.",
+        "ExpDetail": "5 aplikasi teratas dengan waktu penyalaan paling lambat:&lt;br>%1&lt;br>5 penyebab teratas waktu penyalaan yang lambat:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "Penyebab: Tidak ada ruang untuk cache aplikasi karena penyimpanan rendah. Dalam kasus ini, aplikasi mungkin lambat, membeku, atau macet.<br>\nRekomendasi: Bersihkan penyimpanan dengan Pengelola Telepon terintegrasi di telepon dengan cara menghapus foto, video, dan aplikasi yang tidak diinginkan, atau salin item ini ke komputer atau drive USB.",
+        "ExpDetail": "5 aplikasi teratas dengan waktu penyalaan paling lambat:&lt;br>%1&lt;br>5 penyebab teratas waktu penyalaan yang lambat:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "Penyebab: Versi OS tidak resmi dan dapat menyebabkan ketidakstabilan.<br> \nRekomendasi: Instal versi OS resmi atau tunggu versi beta diperbarui.",
+        "ExpDetail": "5 aplikasi teratas dengan waktu penyalaan paling lambat:&lt;br>%1&lt;br>5 penyebab teratas waktu penyalaan yang lambat:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "Penyebab: Telepon diinstal dengan aplikasi pengelolaan telepon pihak ketiga atau aplikasi optimasi sistem (seperti Tencent Mobile Manager dan 360 Mobile Safe). Aplikasi tersebut dapat menyebabkan telepon lambat.<br>\nRekomendasi: Hapus instalasi setiap aplikasi pengoptimalan sistem pihak ketiga dan gunakan Pengelola Telepon terintegrasi di telepon untuk mengoptimalkan telepon.",
+        "ExpDetail": "5 aplikasi teratas dengan waktu penyalaan paling lambat:&lt;br>%1&lt;br>5 penyebab teratas waktu penyalaan yang lambat:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "Penyebab: Gestur pembesaran telah diaktifkan sehingga dapat menyebabkan beberapa aplikasi mengalami kelambatan.<br> \nRekomendasi: Nonaktifkan fungsi gestur pembesaran melalui \"Pengaturan - Pengaturan tambahan - Aksesibilitas - Gestur pembesaran\".",
+        "ExpDetail": "5 aplikasi teratas dengan waktu penyalaan paling lambat:&lt;br>%1&lt;br>5 penyebab teratas waktu penyalaan yang lambat:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "\n1. Konfirmasikan apakah detail diagnostik konsisten dengan deskripsi pengguna; jika ya, minta pengguna untuk membersihkan cache aplikasi ini dan melakukan upgrade aplikasi tersebut ke versi terbaru.<br>\n2. Sarankan agar pengguna menghidupkan ulang teleponnya.<br>\n3. Sarankan agar pengguna membersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu.<br>\n4. Sarankan agar pengguna melakukan upgrade ke OS terbaru.<br>\n5. Peroleh log pengguna tentang kelambatan dan minta teknisi untuk melakukan analisis.",
+        "ExpDetail": "Alasan belum diketahui",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "Penyebab: Penyimpanan yang tersedia kurang dari 10% karena terlalu banyak aplikasi yang berjalan di latar belakang.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Aktifkan fungsi Ekspansi RAM melalui \"Pengaturan - Pengaturan sistem - RAM\" jika telepon mendukung fungsi ini. ③ Mulai ulang telepon secara teratur.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "Penyebab: Tidak ada ruang untuk cache aplikasi karena penyimpanan rendah. Dalam kasus ini, aplikasi mungkin lambat, membeku, atau macet.<br>\nRekomendasi: Bersihkan penyimpanan dengan Pengelola Telepon terintegrasi di telepon dengan cara menghapus foto, video, dan aplikasi yang tidak diinginkan, atau salin item ini ke komputer atau drive USB.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "Penyebab: CPU beroperasi pada beban tinggi untuk jangka waktu lama yang menyebabkan telepon memanas. Untuk mencegah panas berlebihan, CPU akan melindungi dirinya sendiri kemungkinan dengan harga penurunan kinerja.<br> \nRekomendasi: ① Matikan Mode hemat daya. ② Hindari penggunaan CPU pada beban tinggi untuk waktu yang lama. ③ Turunkan suhu telepon dengan cara menggesek permukaannya dengan alkohol atau tisu basah, dan pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami stuck pada tampilan antarmuka: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "Penyebab: Frekuensi CPU yang rendah dapat memengaruhi kinerja sistem, memperlambat kecepatan pemrosesannya dan waktu respons aplikasi.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Matikan Mode hemat daya. ③ Pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami stuck pada tampilan antarmuka: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "Penyebab: Penyimpanan yang tersedia kurang dari 10% karena terlalu banyak aplikasi yang berjalan di latar belakang.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Aktifkan fungsi Ekspansi RAM melalui \"Pengaturan - Pengaturan sistem - RAM\" jika telepon mendukung fungsi ini. ③ Mulai ulang telepon secara teratur.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami stuck pada tampilan antarmuka: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "Penyebab: Tidak ada ruang untuk cache aplikasi karena penyimpanan rendah. Dalam kasus ini, aplikasi mungkin lambat, membeku, atau macet.<br>\nRekomendasi: Bersihkan penyimpanan dengan Pengelola Telepon terintegrasi di telepon dengan cara menghapus foto, video, dan aplikasi yang tidak diinginkan, atau salin item ini ke komputer atau drive USB.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami stuck pada tampilan antarmuka: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "Penyebab: Versi OS tidak resmi dan dapat menyebabkan ketidakstabilan.<br> \nRekomendasi: Instal versi OS resmi atau tunggu versi beta diperbarui.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami stuck pada tampilan antarmuka: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "Penyebab: Telepon diinstal dengan aplikasi pengelolaan telepon pihak ketiga atau aplikasi optimasi sistem (seperti Tencent Mobile Manager dan 360 Mobile Safe). Aplikasi tersebut dapat menyebabkan telepon lambat.<br>\nRekomendasi: Hapus instalasi setiap aplikasi pengoptimalan sistem pihak ketiga dan gunakan Pengelola Telepon terintegrasi di telepon untuk mengoptimalkan telepon.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami stuck pada tampilan antarmuka: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "Penyebab: Gestur pembesaran telah diaktifkan sehingga dapat menyebabkan beberapa aplikasi mengalami kelambatan.<br> \nRekomendasi: Nonaktifkan fungsi gestur pembesaran melalui \"Pengaturan - Pengaturan tambahan - Aksesibilitas - Gestur pembesaran\".",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami stuck pada tampilan antarmuka: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "\n1. Konfirmasikan apakah detail diagnostik konsisten dengan deskripsi pengguna; jika ya, minta pengguna untuk membersihkan cache aplikasi ini dan melakukan upgrade aplikasi tersebut ke versi terbaru.<br>\n2. Sarankan agar pengguna menghidupkan ulang teleponnya.<br>\n3. Sarankan agar pengguna membersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu.<br>\n4. Sarankan agar pengguna melakukan upgrade ke OS terbaru.<br>\n5. Peroleh log pengguna tentang kelambatan dan minta teknisi untuk melakukan analisis.",
+        "ExpDetail": "Alasan belum diketahui",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "Penyebab: Aplikasi dengan peluncuran otomatis perlu menggunakan sumber daya sistem seperti penyimpanan dan CPU. Terlalu banyak aplikasi dengan peluncuran otomatis akan menyebabkan tidak cukupnya sumber daya sistem sehingga memengaruhi kecepatan dan kinerja aplikasi lainnya.<br>\nRekomendasi: Tutup aplikasi dengan peluncuran otomatis yang tidak diinginkan melalui \"Pengaturan - Pengelolaan aplikasi - Aplikasi dengan peluncuran otomatis\".",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "Penyebab: CPU beroperasi pada beban tinggi untuk jangka waktu lama yang menyebabkan telepon memanas. Untuk mencegah panas berlebihan, CPU akan melindungi dirinya sendiri kemungkinan dengan harga penurunan kinerja.<br> \nRekomendasi: ① Matikan Mode hemat daya. ② Hindari penggunaan CPU pada beban tinggi untuk waktu yang lama. ③ Turunkan suhu telepon dengan cara menggesek permukaannya dengan alkohol atau tisu basah, dan pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami respon lambat: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "Penyebab: Frekuensi CPU yang rendah dapat memengaruhi kinerja sistem, memperlambat kecepatan pemrosesannya dan waktu respons aplikasi.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Matikan Mode hemat daya. ③ Pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami respon lambat: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "Penyebab: Penyimpanan yang tersedia kurang dari 10% karena terlalu banyak aplikasi yang berjalan di latar belakang.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Aktifkan fungsi Ekspansi RAM melalui \"Pengaturan - Pengaturan sistem - RAM\" jika telepon mendukung fungsi ini. ③ Mulai ulang telepon secara teratur.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami respon lambat: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "Penyebab: Tidak ada ruang untuk cache aplikasi karena penyimpanan rendah. Dalam kasus ini, aplikasi mungkin lambat, membeku, atau macet.<br>\nRekomendasi: Bersihkan penyimpanan dengan Pengelola Telepon terintegrasi di telepon dengan cara menghapus foto, video, dan aplikasi yang tidak diinginkan, atau salin item ini ke komputer atau drive USB.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami respon lambat: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "Penyebab: Versi OS tidak resmi dan dapat menyebabkan ketidakstabilan.<br> \nRekomendasi: Instal versi OS resmi atau tunggu versi beta diperbarui.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami respon lambat: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "Penyebab: Telepon diinstal dengan aplikasi pengelolaan telepon pihak ketiga atau aplikasi optimasi sistem (seperti Tencent Mobile Manager dan 360 Mobile Safe). Aplikasi tersebut dapat menyebabkan telepon lambat.<br>\nRekomendasi: Hapus instalasi setiap aplikasi pengoptimalan sistem pihak ketiga dan gunakan Pengelola Telepon terintegrasi di telepon untuk mengoptimalkan telepon.",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami respon lambat: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "Penyebab: Gestur pembesaran telah diaktifkan sehingga dapat menyebabkan beberapa aplikasi mengalami kelambatan.<br> \nRekomendasi: Nonaktifkan fungsi gestur pembesaran melalui \"Pengaturan - Pengaturan tambahan - Aksesibilitas - Gestur pembesaran\".",
+        "ExpDetail": "Histori 5 aplikasi yang paling sering mengalami respon lambat: &lt;br>%1&lt;br>. 5 alasan teratas penyebabnya: &lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "Penyebab: CPU beroperasi pada beban tinggi untuk jangka waktu lama yang menyebabkan telepon memanas. Untuk mencegah panas berlebihan, CPU akan melindungi dirinya sendiri kemungkinan dengan harga penurunan kinerja.<br> \nRekomendasi: ① Matikan Mode hemat daya. ② Hindari penggunaan CPU pada beban tinggi untuk waktu yang lama. ③ Turunkan suhu telepon dengan cara menggesek permukaannya dengan alkohol atau tisu basah, dan pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Suhu CPU terlalu tinggi",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "Penyebab: Frekuensi CPU yang rendah dapat memengaruhi kinerja sistem, memperlambat kecepatan pemrosesannya dan waktu respons aplikasi.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Matikan Mode hemat daya. ③ Pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Frekuensi CPU rendah",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "Penyebab: Penyimpanan yang tersedia kurang dari 10% karena terlalu banyak aplikasi yang berjalan di latar belakang.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Aktifkan fungsi Ekspansi RAM melalui \"Pengaturan - Pengaturan sistem - RAM\" jika telepon mendukung fungsi ini. ③ Mulai ulang telepon secara teratur.",
+        "ExpDetail": "Memori RAM rendah",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "Penyebab: Tidak ada ruang untuk cache aplikasi karena penyimpanan rendah. Dalam kasus ini, aplikasi mungkin lambat, membeku, atau macet.<br>\nRekomendasi: Bersihkan penyimpanan dengan Pengelola Telepon terintegrasi di telepon dengan cara menghapus foto, video, dan aplikasi yang tidak diinginkan, atau salin item ini ke komputer atau drive USB.",
+        "ExpDetail": "Memori ROM rendah",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "Penyebab: Versi OS tidak resmi dan dapat menyebabkan ketidakstabilan.<br> \nRekomendasi: Instal versi OS resmi atau tunggu versi beta diperbarui.",
+        "ExpDetail": "Versi Beta",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "Penyebab: Telepon diinstal dengan aplikasi pengelolaan telepon pihak ketiga atau aplikasi optimasi sistem (seperti Tencent Mobile Manager dan 360 Mobile Safe). Aplikasi tersebut dapat menyebabkan telepon lambat.<br>\nRekomendasi: Hapus instalasi setiap aplikasi pengoptimalan sistem pihak ketiga dan gunakan Pengelola Telepon terintegrasi di telepon untuk mengoptimalkan telepon.",
+        "ExpDetail": "Instal aplikasi yang bersifat merusak",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "Penyebab: Gestur pembesaran telah diaktifkan sehingga dapat menyebabkan beberapa aplikasi mengalami kelambatan.<br> \nRekomendasi: Nonaktifkan fungsi gestur pembesaran melalui \"Pengaturan - Pengaturan tambahan - Aksesibilitas - Gestur pembesaran\".",
+        "ExpDetail": "Mengaktifkan pilihan gestur memperbesar pada Opsi Pengembang",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "\n1. Konfirmasikan apakah detail diagnostik konsisten dengan deskripsi pengguna; jika ya, minta pengguna untuk membersihkan cache aplikasi ini dan melakukan upgrade aplikasi tersebut ke versi terbaru.<br>\n2. Sarankan agar pengguna menghidupkan ulang teleponnya.<br>\n3. Sarankan agar pengguna membersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu.<br>\n4. Sarankan agar pengguna melakukan upgrade ke OS terbaru.<br>\n5. Peroleh log pengguna tentang kelambatan dan minta teknisi untuk melakukan analisis.",
+        "ExpDetail": "Alasan belum diketahui",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "Penyebab respons lambat saat membangunkan atau mematikan layar",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "Penyebab: CPU beroperasi pada beban tinggi untuk jangka waktu lama yang menyebabkan telepon memanas. Untuk mencegah panas berlebihan, CPU akan melindungi dirinya sendiri kemungkinan dengan harga penurunan kinerja.<br> \nRekomendasi: ① Matikan Mode hemat daya. ② Hindari penggunaan CPU pada beban tinggi untuk waktu yang lama. ③ Turunkan suhu telepon dengan cara menggesek permukaannya dengan alkohol atau tisu basah, dan pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Suhu CPU terlalu tinggi",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "Penyebab: Frekuensi CPU yang rendah dapat memengaruhi kinerja sistem, memperlambat kecepatan pemrosesannya dan waktu respons aplikasi.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Matikan Mode hemat daya. ③ Pertahankan disipasi panas yang baik.",
+        "ExpDetail": "Frekuensi CPU rendah",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "Penyebab: Penyimpanan yang tersedia kurang dari 10% karena terlalu banyak aplikasi yang berjalan di latar belakang.<br>\nRekomendasi: ① Bersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu. ② Aktifkan fungsi Ekspansi RAM melalui \"Pengaturan - Pengaturan sistem - RAM\" jika telepon mendukung fungsi ini. ③ Mulai ulang telepon secara teratur.",
+        "ExpDetail": "Memori RAM rendah",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "Penyebab: Tidak ada ruang untuk cache aplikasi karena penyimpanan rendah. Dalam kasus ini, aplikasi mungkin lambat, membeku, atau macet.<br>\nRekomendasi: Bersihkan penyimpanan dengan Pengelola Telepon terintegrasi di telepon dengan cara menghapus foto, video, dan aplikasi yang tidak diinginkan, atau salin item ini ke komputer atau drive USB.",
+        "ExpDetail": "Memori ROM rendah",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "Penyebab: Versi OS tidak resmi dan dapat menyebabkan ketidakstabilan.<br> \nRekomendasi: Instal versi OS resmi atau tunggu versi beta diperbarui.",
+        "ExpDetail": "Versi Beta",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "Penyebab: Telepon diinstal dengan aplikasi pengelolaan telepon pihak ketiga atau aplikasi optimasi sistem (seperti Tencent Mobile Manager dan 360 Mobile Safe). Aplikasi tersebut dapat menyebabkan telepon lambat.<br>\nRekomendasi: Hapus instalasi setiap aplikasi pengoptimalan sistem pihak ketiga dan gunakan Pengelola Telepon terintegrasi di telepon untuk mengoptimalkan telepon.",
+        "ExpDetail": "Instal aplikasi yang bersifat merusak",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "Penyebab: Terlalu banyak aplikasi dapat menyebabkan penyimpanan tidak cukup sehingga mengurangi kinerja telepon dan menyebabkan respons yang lambat dan keterlambatan. \nRekomendasi: Hapus instalasi aplikasi yang tidak diperlukan dan bersihkan perangkat secara teratur untuk mempertahankan kinerja optimalnya.",
+        "ExpDetail": "Terlalu banyak Aplikasi Pihak Ketiga",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "Penyebab: Aplikasi dengan peluncuran otomatis perlu menggunakan sumber daya sistem seperti penyimpanan dan CPU. Terlalu banyak aplikasi dengan peluncuran otomatis akan menyebabkan tidak cukupnya sumber daya sistem sehingga memengaruhi kecepatan dan kinerja aplikasi lainnya.<br>\nRekomendasi: Tutup aplikasi dengan peluncuran otomatis yang tidak diinginkan melalui \"Pengaturan - Pengelolaan aplikasi - Aplikasi dengan peluncuran otomatis\".",
+        "ExpDetail": "Terlalu banyak aplikasi yang otomatis terbuka",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "\n1. Konfirmasikan apakah detail diagnostik konsisten dengan deskripsi pengguna; jika ya, minta pengguna untuk membersihkan cache aplikasi ini dan melakukan upgrade aplikasi tersebut ke versi terbaru.<br>\n2. Sarankan agar pengguna menghidupkan ulang teleponnya.<br>\n3. Sarankan agar pengguna membersihkan aplikasi yang berjalan di latar belakang dengan tepat waktu.<br>\n4. Sarankan agar pengguna melakukan upgrade ke OS terbaru.<br>\n5. Peroleh log pengguna tentang kelambatan dan minta teknisi untuk melakukan analisis.",
+        "ExpDetail": "Alasan belum diketahui",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Alasan terjadinya tundaan saat ponsel dinyalakan:",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "Beban CPU terlalu tinggi di ponsel. Tutup aplikasi yang berjalan di latar belakang.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "Beban CPU terlalu tinggi di ponsel. Tutup aplikasi yang berjalan di latar belakang.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "Beban CPU terlalu tinggi di ponsel. Tutup aplikasi yang berjalan di latar belakang.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "Beban CPU terlalu tinggi di ponsel. Tutup aplikasi yang berjalan di latar belakang.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "Beban CPU terlalu tinggi di ponsel. Tutup aplikasi yang berjalan di latar belakang.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "Telepon terlalu panas. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan biarkan telepon selama 5 menit.",
+        "ExpDetail": "Kamera lambat dimulai – terlalu panas",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "Penyimpanan yang tersedia rendah. Periksa jumlah aplikasi yang berjalan di latar belakang dan minta pengguna untuk membersihkan aplikasi.",
+        "ExpDetail": "Kamera lambat dimulai – penyimpanan rendah",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "Beban terlalu tinggi. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang.",
+        "ExpDetail": "Kamera lambat dimulai – beban tinggi",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "Minta pengguna untuk memulai ulang telepon dan mencoba lagi.",
+        "ExpDetail": "Kamera macet – dump sesi dipicu",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "Telepon terlalu panas. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan biarkan telepon selama 5 menit.",
+        "ExpDetail": "Kamera memanas – telepon sudah terlalu panas sebelum kamera dimulai",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "Masalah ini disebabkan oleh penggunaan kamera dalam waktu yang lama. Minta pengguna untuk mengurangi penggunaan kamera dalam waktu yang lama.",
+        "ExpDetail": "Kamera memanas – kamera terlalu panas",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "Telepon terlalu panas. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan biarkan telepon selama 5 menit.",
+        "ExpDetail": "Pratinjau kamera lambat – frekuensi dibatasi karena panas berlebihan",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "Penyimpanan yang tersedia rendah. Periksa jumlah aplikasi yang berjalan di latar belakang dan minta pengguna untuk membersihkan aplikasi.",
+        "ExpDetail": "Pratinjau kamera lambat – penyimpanan rendah",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "Minta pengguna untuk pindah ke lingkungan yang lebih cerah.",
+        "ExpDetail": "Pratinjau kamera lambat – laju bingkai berkurang di lingkungan gelap",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "Kamera terlalu dekat ke subjek. Minta pengguna untuk menjaga jarak dari subjek.",
+        "ExpDetail": "Kamera kabur selama pratinjau foto – tidak fokus",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "Telepon terlalu panas. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan biarkan telepon selama 5 menit.",
+        "ExpDetail": "Kamera lambat saat pratinjau foto berlangsung – frekuensi dibatasi karena terlalu panas",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "Penyimpanan yang tersedia rendah. Periksa jumlah aplikasi yang berjalan di latar belakang dan minta pengguna untuk membersihkan aplikasi.",
+        "ExpDetail": "Kamera lambat saat pengambilan foto berlangsung – penyimpanan rendah",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "Kamera terlalu dekat ke subjek. Minta pengguna untuk menjaga jarak dari subjek.",
+        "ExpDetail": "Foto yang diambil dengan kamera terlihat kabur",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan menghidupkan ulang kamera.",
+        "ExpDetail": "Layar berubah hitam pengambilan foto berlangsung – penyimpanan rendah",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "Minta pekerja layanan purnajual untuk menangkap log rekaman, dan kirimkan kembali bersama kode kesalahan algoritma.",
+        "ExpDetail": "Layar terlihat kabur pengambilan foto berlangsung – kode kesalahan algoritma: %1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "Telepon terlalu panas. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan biarkan telepon selama 5 menit.",
+        "ExpDetail": "Tidak dapat mengambil foto – terlalu panas",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan menghidupkan ulang kamera.",
+        "ExpDetail": "Tidak dapat mengambil foto – penyimpanan rendah",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan menghidupkan ulang kamera.",
+        "ExpDetail": "Tidak dapat mengambil foto – sumber daya suara tidak dimuatkan",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "Telepon terlalu panas. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan biarkan telepon selama 5 menit.",
+        "ExpDetail": "Video yang direkam mengalami kelambatan saat pratinjau berlangsung – frekuensi dibatasi karena terlalu panas",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "Penyimpanan yang tersedia rendah. Periksa jumlah aplikasi yang berjalan di latar belakang dan minta pengguna untuk membersihkan aplikasi.",
+        "ExpDetail": "Video yang direkam mengalami kelambatan saat pratinjau berlangsung – penyimpanan rendah",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "Telepon terlalu panas. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan biarkan telepon selama 5 menit.",
+        "ExpDetail": "Penundaan dalam pengambilan foto – terlalu panas",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "Penyimpanan yang tersedia rendah. Periksa jumlah aplikasi yang berjalan di latar belakang dan minta pengguna untuk membersihkan aplikasi.",
+        "ExpDetail": "Penundaan dalam pengambilan foto – penyimpanan rendah",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "Beban terlalu tinggi. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang.",
+        "ExpDetail": "Penundaan dalam pengambilan foto – beban tinggi",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "Telepon terlalu panas. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang dan biarkan telepon selama 5 menit.",
+        "ExpDetail": "Waktu tunggu habis ketika menyimpan file rekaman – terlalu panas",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "Penyimpanan yang tersedia rendah. Periksa jumlah aplikasi yang berjalan di latar belakang dan minta pengguna untuk membersihkan aplikasi.",
+        "ExpDetail": "Waktu tunggu habis ketika menyimpan file rekaman – penyimpanan rendah",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "Beban terlalu tinggi. Minta pengguna untuk membersihkan aplikasi yang berjalan di latar belakang.",
+        "ExpDetail": "Waktu tunggu habis ketika menyimpan file rekaman – beban tinggi",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "Penyebab kendala bukan dari jaringan internet",
+        "ExpDetail": "Terjadinya kegagalan pemutaran, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "Sistem Anda lambat. Tutup aplikasi yang berjalan di latar belakang atau hidupkan ulang perangkat Anda.",
+        "ExpDetail": "Terjadinya kegagalan pemutaran, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, dan ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan pemutaran, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, dan ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan pemutaran, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut dan kirimkan kepada pengembang untuk dianalisis. Jika pemutaran lewat speaker tidak normal, periksa apakah pemutaran dapat berfungsi lewat earphone. Jika ya, ganti speaker. Jika terjadi masalah yang sama, ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan pemutaran, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, dan ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan pemutaran, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, dan ganti speaker. Jika masalah berlanjut, ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan pemutaran, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "Rekam dan simpan log audio untuk mengulang masalah tersebut dan kirimkan kepada pengembang untuk dianalisis, serta perbarui ke versi terbaru. Jika masalah berlanjut, ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan pemutaran, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "Penyebab kendala bukan dari jaringan internet",
+        "ExpDetail": "Terjadinya kegagalan perekaman, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "Sistem Anda lambat. Tutup aplikasi yang berjalan di latar belakang atau hidupkan ulang perangkat Anda.",
+        "ExpDetail": "Terjadinya kegagalan perekaman, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, dan ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan perekaman, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut dan kirimkan kepada pengembang untuk dianalisis. Periksa apakah perekaman dengan earphone normal. Jika ya, ganti mikrofon ponsel. Jika terjadi masalah yang sama, ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan perekaman, ketertinggalan, atau hilangnya audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "Terjadi karena kondisi sambungan internet menyebabkan pemutaran video tersendat ataupun gagal. Silakan periksa koneksi internet",
+        "ExpDetail": "Terjadinya kegagalan pemutaran atau ketertinggalan: %1",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "Tidak terkait dengan jaringan. Periksa pengaturan aplikasi.",
+        "ExpDetail": "Terjadinya kegagalan pemutaran atau ketertinggalan: %1",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "Untuk tipe masalah yang tidak dapat dianalisis secara otomatis, Anda direkomendasikan untuk menggunakan versi terbaru yang tersedia di App Market atau membersihkan cache aplikasi serta data dan coba lagi.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "Disebabkan oleh aplikasi ini sendiri.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "Untuk tipe masalah yang tidak dapat dianalisis secara otomatis, Anda direkomendasikan untuk menggunakan versi terbaru yang tersedia di App Market atau membersihkan cache aplikasi serta data dan coba lagi.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "Aplikasi tidak diunduh dari App Market resmi. Anda direkomendasikan untuk mengunduh aplikasi dari App Market resmi.",
+        "ExpDetail": "Total kejadian: %1 (untuk rujukan)",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "Aplikasi tidak diunduh dari App Market resmi. Anda direkomendasikan untuk mengunduh aplikasi dari App Market resmi.",
+        "ExpDetail": "Total kejadian: %1 (untuk rujukan)",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "Penggunaan di sejumlah aplikasi pihak ketiga mungkin terlihat tidak seperti biasanya, termasuk (%1), sebaiknya perbarui ke versi terkini",
+        "ExpDetail": "1. Pengecualian kompatibilitas;<br>aplikasi 2. 32 bit",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Terjadinya kegagalan panggilan video atau suara, ketertinggalan, atau hilangnya audio pada aplikasi pihak ketiga: %1",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "Penyebab kendala bukan dari jaringan internet",
+        "ExpDetail": "Terjadinya kegagalan panggilan video atau suara, ketertinggalan, atau hilangnya audio pada aplikasi pihak ketiga: %1",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "Lakukan pemeriksaan terhadap komponen pemutar dan perekam audio, seperti komponen speaker dan mikrofon pada ponsel",
+        "ExpDetail": "Terjadinya kegagalan panggilan video atau suara, ketertinggalan, atau hilangnya audio pada aplikasi pihak ketiga: %1",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "Sistem Anda lambat. Tutup aplikasi yang berjalan di latar belakang atau hidupkan ulang perangkat Anda.",
+        "ExpDetail": "Terjadinya kegagalan panggilan video atau suara, ketertinggalan, atau hilangnya audio pada aplikasi pihak ketiga: %1",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, dan ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan panggilan video atau suara, ketertinggalan, atau hilangnya audio pada aplikasi pihak ketiga: %1",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, dan ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan panggilan video atau suara, ketertinggalan, atau hilangnya audio pada aplikasi pihak ketiga: %1",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "Rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, serta perbarui ke versi terbaru. Jika masalah berlanjut, ganti motherboard untuk validasi silang.",
+        "ExpDetail": "Terjadinya kegagalan panggilan video atau suara, ketertinggalan, atau hilangnya audio pada aplikasi pihak ketiga: %1",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "Coba jaringan lain. Jika masalah tersebut masih ada, tangkap layar log audio dan log jaringan lalu kirim kepada pengembang untuk dianalisis.",
+        "ExpDetail": "%1 kejadian panggilan WeChat senyap karena kesalahan jaringan",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. Jika masalah terjadi di lokasi yang serupa, bandingkan ponsel Anda dengan ponsel lain dari operator yang sama. Jika ponsel-ponsel tersebut memiliki masalah yang sama, hubungi operator untuk mengatasinya.<br>2. Jika masalah terjadi pada waktu yang serupa, periksa apakah Anda berada di ruang bawah tanah, garasi, area dengan populasi yang padat, atau mobil yang sedang melaju, yaitu tempat dengan sinyal yang buruk.<br>3. Jika WeChat telah menampilkan pesan bahwa jaringan Anda atau pihak lainnya tidak stabil saat panggilan berlangsung, gambar dikaburkan sesuai dengan strategi yang didesain oleh WeChat.",
+        "ExpDetail": "%1 kejadian panggilan video WeChat yang kabur karena kesalahan jaringan",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. Perbarui aplikasi WeChat lalu mulai ulang ponsel Anda dan aplikasi.<br> 2. Jika WeChat telah memperingatkan bahwa jaringan pihak lainnya tidak stabil selama panggilan, gambar dikaburkan karena ponsel pihak lainnya terhubung ke jaringan yang buruk.",
+        "ExpDetail": "%1 kejadian panggilan video WeChat yang kabur karena kesalahan jaringan",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "Beri tahu pelanggan agar tidak menggunakan ponsel sambil mengisi daya.",
+        "ExpDetail": "Terlalu lama menggunakan ponsel sambil mengisi daya: %1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "Beri tahu pelanggan agar tidak mengisi daya di suhu dingin.",
+        "ExpDetail": "Pengisian daya melambat untuk melindungi baterai karena suhu sekitar terlalu rendah: %1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "Pengisian daya berjalan lambat. Gunakan pengisi daya dan kabel yang disertakan bersama perangkat agar pengisian daya lebih cepat.",
+        "ExpDetail": "Pengisian daya USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "Pengisian daya lebih lambat pada tingkat daya baterai yang lebih tinggi untuk menjaga kesehatan baterai.",
+        "ExpDetail": "Pengisian otomatis terus menerus atau trickle-charging dapat menyebabkan kecepatan pengisian daya yang lambat karena tingkat daya baterai awal sudah terlalu tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "Adapter menggunakan voltase yang lebih tinggi dari voltase yang dirancang untuk perangkat. Gunakan pengisi daya yang benar.",
+        "ExpDetail": "Voltase adaptor terlalu tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "Terdeteksi adanya sambungan baterai yang longgar. Periksa konektor BTB dan baterai.",
+        "ExpDetail": "Kontak baterai buruk: %1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "Baterai tidak resmi. Gunakan baterai asli dari produsen perangkat.",
+        "ExpDetail": "Baterai tidak asli: %1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "Suhu perangkat terlalu rendah. Pengisian daya akan dijeda sebelum baterai penuh agar kondisinya tetap bagus.",
+        "ExpDetail": "Tidak dapat mengisi daya sampai penuh karena suhu yang rendah: %1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "Cabut dan pasang kembali kabel pengisian daya untuk melanjutkan pengisian",
+        "ExpDetail": "Terus menerus mengisi daya dalam waktu lama: %1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "Adapter menggunakan voltase yang lebih tinggi dari voltase yang dirancang untuk perangkat. Gunakan pengisi daya yang benar.",
+        "ExpDetail": "Voltase adaptor terlalu tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "Suhu perangkat terlalu tinggi. Pengisian daya dijeda demi keselamatan Anda.",
+        "ExpDetail": "Pengisian daya berhenti karena suhu yang tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "Suhu perangkat terlalu tinggi. Demi keselamatan Anda, baterai tidak akan diisi daya hingga kapasitas penuh.",
+        "ExpDetail": "Tidak dapat mengisi daya sampai penuh karena suhu yang tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "Suhu perangkat terlalu rendah. Pengisian daya dijeda untuk melindungi baterai.",
+        "ExpDetail": "Pengisian daya berhenti karena suhu yang rendah: %1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "Terisi penuh: %1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "Coba adapter, kabel, atau perangkat yang berbeda untuk mengetahui mana yang menyebabkan masalah. Jika masalah tersebut disebabkan oleh kabel atau adapter, ganti aksesori yang rusak. Jika disebabkan oleh perangkat, coba hubungkan kembali konektor BTB untuk baterai dan port USB. Jika masalah berlanjut, kembalikan ke pabrik untuk diperbaiki. Perbarui perangkat lunak jika itu bukan masalah perangkat keras.",
+        "ExpDetail": "Tidak dapat mengisi daya: %1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "Coba adapter, kabel, atau perangkat yang berbeda untuk mengetahui mana yang menyebabkan masalah. Jika masalah tersebut disebabkan oleh kabel atau adapter, ganti aksesori yang rusak. Jika disebabkan oleh perangkat, coba hubungkan kembali konektor BTB untuk baterai dan port USB. Jika masalah berlanjut, kembalikan ke pabrik untuk diperbaiki. Perbarui perangkat lunak jika itu bukan masalah perangkat keras.",
+        "ExpDetail": "Pengisian daya terputus-putus: %1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "Kalibrasikan baterai pada suhu ruangan: Biarkan steker perangkat tetap terpasang selama 2 jam setelah terisi penuh.",
+        "ExpDetail": "Hasil pengukuran voltmeter yang cepat berubah: %1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "Kalibrasikan baterai pada suhu ruangan: Biarkan steker perangkat tetap terpasang selama 2 jam setelah terisi penuh.",
+        "ExpDetail": "Hasil pengukuran voltmeter yang cepat berubah: %1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "Kalibrasikan baterai pada suhu ruangan: Biarkan steker perangkat tetap terpasang selama 2 jam setelah terisi penuh.",
+        "ExpDetail": "Hasil pengukuran voltmeter yang cepat berubah: %1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "Gunakan baterai asli",
+        "ExpDetail": "Pengisian daya melambat karena baterai tidak asli: %1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "Gunakan adapter asli",
+        "ExpDetail": "Pengisian daya melambat karena adaptor tidak asli: %1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "Periksa apakah kabel sudah tua. Coba kabel lain.",
+        "ExpDetail": "Pengisian daya melambat karena masalah kabel: %1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "Periksa apakah adapter pengisian daya cepat berfungsi. Coba adapter lain.",
+        "ExpDetail": "Pengisian daya melambat karena pengisian daya kilat tidak digunakan: %1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "Gunakan adapter asli",
+        "ExpDetail": "Pengisian daya melambat karena adaptor daya maksimal tidak asli: %1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "Pastikan perangkat Anda pada suhu ruangan sebelum mengisi daya",
+        "ExpDetail": "Pengisian daya melambat untuk melindungi baterai karena suhu ponsel terlalu rendah: %1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "Pastikan perangkat Anda pada suhu ruangan sebelum mengisi daya",
+        "ExpDetail": "Pengisian daya melambat untuk melindungi baterai karena suhu ponsel terlalu tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "Silakan letakkan ponsel pada tempat atau lingkungan dengan suhu yang normal dan lakukan pengisian daya",
+        "ExpDetail": "Pengisian daya melambat karena suhu baterai terlalu tinggi/rendah: %1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "Gunakan adapter asli",
+        "ExpDetail": "Pengisian daya melambat karena ponsel dihubungkan ke PC melalui USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "Jangan gunakan ponsel saat pengisian daya",
+        "ExpDetail": "Pengisian daya melambat karena penggunaan daya ponsel terlalu tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "Periksa bagian soket pengisian daya pada ponsel apakah ada kotoran atau benda asing, apakah ada masalah pada konektornya. Selain itu, coba ganti adaptor, kabel USB, PCB bawah untuk memastikan penyebab masalah",
+        "ExpDetail": "Pengisian daya melambat karena arus tidak normal: %1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "Jangan gunakan ponsel saat pengisian daya",
+        "ExpDetail": "Pengisian daya melambat karena terlalu lama menyalakan layar: %1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "Jangan gunakan ponsel saat pengisian daya",
+        "ExpDetail": "Pengisian daya melambat karena terlalu lama menggunakan kamera: %1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "Jangan gunakan ponsel saat pengisian daya",
+        "ExpDetail": "Pengisian daya melambat karena panggilan telepon yang lama: %1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "Jangan gunakan ponsel saat pengisian daya",
+        "ExpDetail": "Suhu atau penggunaan daya selalu terlalu tinggi atau terlalu lama: %1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "Beri tahu User untuk mengisi daya Ponsel mereka dengan layar mati di lingkungan dengan suhu 15℃ hingga 35. Setelah Ponsel terisi penuh, jangan gunakan Ponsel dan tetap terhubung ke pengisi daya selama 2 jam untuk mengkalibrasi penghitung coulomb.",
+        "ExpDetail": "Tampilan Error pada Kapasitas Baterai: %1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "Beri tahu User untuk mengisi daya Ponsel mereka dengan layar mati di lingkungan dengan suhu 15℃ hingga 35. Setelah Ponsel terisi penuh, jangan gunakan Ponsel dan tetap terhubung ke pengisi daya selama 2 jam untuk mengkalibrasi penghitung coulomb.",
+        "ExpDetail": "Tampilan Error pada Kapasitas Baterai: %1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "Beri tahu User untuk mengisi daya Ponsel mereka dengan layar mati di lingkungan dengan suhu 15℃ hingga 35. Setelah Ponsel terisi penuh, jangan gunakan Ponsel dan tetap terhubung ke pengisi daya selama 2 jam untuk mengkalibrasi penghitung coulomb.",
+        "ExpDetail": "Tampilan Error pada Kapasitas Baterai: %1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "Beri tahu User untuk mengisi daya Ponsel mereka dengan layar mati di lingkungan dengan suhu 15℃ hingga 35. Setelah Ponsel terisi penuh, jangan gunakan Ponsel dan tetap terhubung ke pengisi daya selama 2 jam untuk mengkalibrasi penghitung coulomb.",
+        "ExpDetail": "Tampilan Error pada Kapasitas Baterai: %1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "Beri tahu User untuk mengisi daya Ponsel mereka dengan layar mati di lingkungan dengan suhu 15℃ hingga 35. Mengisi daya Ponsel di tempat dengan suhu sekitar yang tinggi atau bermain game besar saat mengisi daya akan menyebabkan Ponsel menjadi panas. Ketika suhunya naik ke 38℃ atau lebih tinggi, sistem akan secara otomatis mengurangi arus dan kecepatan pengisian.",
+        "ExpDetail": "Suhu Terlalu Tinggi pada Baterai: %1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "Beri tahu User untuk mengisi daya Ponsel mereka di lingkungan dengan suhu 15℃ hingga 35℃. Jika suhu sekitar di bawah 15 , mekanisme perlindungan akan dipicu untuk mengurangi arus dan kecepatan pengisian.",
+        "ExpDetail": "Suhu Terlalu Rendah pada Baterai: %1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1. Masuk ke mode Engineering dan periksa apakah arus pengisian normal (889 - Debug perangkat - Tes pengisian daya).&lt;br>2. Jika arus pengisian normal, masalah ini mungkin disebabkan oleh konsumsi daya yang tinggi (seperti saat bermain game besar).",
+        "ExpDetail": "Pengisian Lambat akibat Arus Kecil: %1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1. Periksa dengan User apakah mereka mengisi daya Ponsel mereka melalui PC. Jika demikian, beri tahu mereka untuk menggunakan adaptor asli untuk mengisi daya Ponsel. &lt;br>2. Jika tidak, periksa apakah kabel pengisi daya rusak atau kontaknya buruk.",
+        "ExpDetail": "Pengisian via PC: %1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1. Gunakan adaptor asli dan kabel pengisi daya asli sebagai alternatif untuk verifikasi. &lt;br>2. Jika pengisian daya Flash tersedia, beri tahu User untuk mengisi daya menggunakan adaptor asli. &lt;br>3. Jika masalah berlanjut, periksa sirkuit pengisian daya di port pengisian daya Ponsel.",
+        "ExpDetail": "Tidak Bisa Pengisian Flash: %1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1. Masalah ini disebabkan oleh pengisian daya menggunakan adaptor yang tidak asli. &lt;br>2. Beri tahu User untuk mengisi daya menggunakan adaptor asli.",
+        "ExpDetail": "Tidak Gunakan Adaptor Non Standar: %1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "Beri tahu User untuk mengisi daya Ponsel mereka di lingkungan dengan suhu 15℃ hingga 35℃ dan tidak bermain game besar saat mengisi daya. Memainkan game besar saat mengisi daya akan menyebabkan Ponsel menjadi panas. Ketika suhunya naik ke 38℃ atau lebih tinggi, sistem akan secara otomatis mengurangi arus dan kecepatan pengisian.",
+        "ExpDetail": "Kecepatan Pengisian Lambat akibat Kontrol Suhu atau Arus Tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "Terlalu banyak aplikasi yang berjalan di latar belakang. Beri tahu User untuk menutup tugas latar belakang yang tidak digunakan.",
+        "ExpDetail": "Kecepatan Pengisian Lambat akibat Penggunaan Daya Sistem Tinggi: %1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "Beri tahu User untuk tidak bermain game saat mengisi daya karena ini akan mengurangi arus pengisian daya.",
+        "ExpDetail": "Kecepatan Pengisian Lambat akibat Pengisian sambil Main Ponsel: %1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1. Gunakan adapter asli dan kabel pengisian daya asli secara bergantian untuk verifikasi. &lt;br>2. Jika tersedia pengisian daya kilat, beri tahu pelanggan agar mengisi daya menggunakan adapter asli. &lt;br>3. Jika masalah berlanjut, periksa sirkuit pengisian daya di port pengisian daya ponsel.",
+        "ExpDetail": "Putus Sambung Pengisian Ketika Pakai VOOC: %1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1. Gunakan adaptor asli dan kabel pengisi daya asli sebagai alternatif untuk verifikasi. &lt;br>2. Jika masalah teratasi, beri tahu User untuk mengisi daya menggunakan adaptor asli. &lt;br>3. Jika masalah berlanjut, periksa sirkuit pengisian daya di port pengisian daya Ponsel.",
+        "ExpDetail": "Putus Sambung Pengisian Ketika Pakai Charger Umum: %1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1. Isi daya Ponsel dengan adaptor untuk melihat apakah ada konfirmasi yang menunjukkan bahwa baterai tidak asli. &lt;br>2. Bongkar Ponsel dan periksa apakah baterainya asli atau terpasang dengan benar.",
+        "ExpDetail": "Pemasangan Baterai Yang Tidak Benar atau Pakai Baterai Tidak Asli: %1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "Jika tidak normal artinya sirkuit pengisian daya tidak menghasilkan aliran listrik, silakan periksa port USB dan perangkat keras modul pengisian daya.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "Periksalah:&lt;br>1. Apakah ponsel telah terisi penuh.&lt;br>2. Arus pengisian daya yang terdeteksi oleh komputer relatif rendah. Periksalah jika ponsel menguras baterai.",
+        "ExpDetail": "Pengujian gagal",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='Bagus';}else if(result>=excellent){resultText+='Sedang';}else{resultText+='Buruk';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Bagus：'+good+'-100%，Sedang：'+excellent+'-'+good+'%，Buruk：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1. Bila kapasitas baterai berkurang, masa pakai baterai ponsel akan berkurang. Anda dapat memilih untuk mengganti baterai.<br>2. Coba isi daya ponsel begitu Anda mengetahui baterai tinggal sedikit untuk memaksimalkan masa pakai baterai.",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = 'Gagal: ';if(result>=good){resultText+='Bagus';}else if(result>excellent){resultText+='Sedang';}else{resultText+='Buruk';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Bagus：'+good+'-100%，Sedang：'+excellent+'-'+good+'%，Buruk：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a.Saran untuk konsultasi dengan provider jaringan setempat, atau staf provider untuk melakukan test lapangan.&lt;br>b.Dalam kondisi ponsel Siaga, aktifkan mode Pesawat, untuk menghindari jaringan tidak stabil menjadi boros daya.",
+        "ExpDetail": "Sering diskoneksi dan rekoneksi data seluler karena lingkungan jaringan yang kompleks/buruk",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a.Saran untuk konsultasi dengan provider jaringan setempat, atau staf provider untuk melakukan test lapangan.&lt;br>b.Dalam kondisi ponsel Siaga, aktifkan mode Pesawat, untuk menghindari jaringan tidak stabil menjadi boros daya.",
+        "ExpDetail": "Tidak ada layanan karena sinyal jaringan lemah",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a.Saran untuk konsultasi dengan provider jaringan setempat, atau staf provider untuk melakukan test lapangan.&lt;br>b.Dalam kondisi ponsel Siaga, aktifkan mode Pesawat, untuk menghindari jaringan tidak stabil menjadi boros daya.",
+        "ExpDetail": "Pemilihan ulang jaringan seluler karena lingkungan jaringan yang kompleks/sinyal yang buruk",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a.Saran untuk konsultasi dengan provider jaringan setempat, atau staf provider untuk melakukan test lapangan.&lt;br>b.Dalam kondisi ponsel Siaga, aktifkan mode Pesawat, untuk menghindari jaringan tidak stabil menjadi boros daya.",
+        "ExpDetail": "CPU sering beroperasi karena lingkungan jaringan yang kompleks/sinyal yang tidak stabil",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a.Saran untuk konsultasi dengan provider jaringan setempat, atau staf provider untuk melakukan test lapangan.&lt;br>b.Dalam kondisi ponsel Siaga, aktifkan mode Pesawat, untuk menghindari jaringan tidak stabil menjadi boros daya.",
+        "ExpDetail": "Modem sering beroperasi karena lingkungan jaringan yang kompleks/sinyal yang tidak stabil",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a.Saran untuk konsultasi dengan provider jaringan setempat, atau staf provider untuk melakukan test lapangan.&lt;br>b.Dalam kondisi ponsel Siaga, aktifkan mode Pesawat, untuk menghindari jaringan tidak stabil menjadi boros daya.",
+        "ExpDetail": "Modem gagal memasuki mode tidur lingkungan jaringan yang kompleks/sinyal yang tidak stabil",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.",
+        "ExpDetail": "Wi-Fi terus menerus membangunkan CPU untuk menerima pesan aplikasi",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. Direkomendasikan untuk mematikan koneksi jaringan seluler saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Hubungkan ke Wi-Fi saat siaga.&lt;br>c. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.",
+        "ExpDetail": "Modem terus menerus membangunkan CPU untuk menerima pesan aplikasi",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. Direkomendasikan untuk mematikan koneksi jaringan seluler saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Hubungkan ke Wi-Fi saat siaga.&lt;br>c. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.",
+        "ExpDetail": "Modem terus menerus beroperasi karena sering ada pesan aplikasi",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "a. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>b. Hapus aplikasi yang tidak perlu secara teratur. Direkomendasikan agar mengunduh aplikasi dari app market bawaan.",
+        "ExpDetail": "Aktivitas aplikasi latar belakang yang sering terjadi membuat CPU terus terbangun",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "a. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>b. Hapus aplikasi yang tidak perlu secara teratur. Direkomendasikan agar mengunduh aplikasi dari app market bawaan.",
+        "ExpDetail": "Aktivitas aplikasi latar belakang yang sering terjadi membuat CPU terus bekerja terlalu lama",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. Direkomendasikan untuk menggunakan bandwidth Wi-Fi 5 GHz.&lt;br>b. Matikan Wi-Fi saat siaga atau matikan \"Pemindaian selalu tersedia\" di halaman pengaturan Wi-Fi.",
+        "ExpDetail": "Saling interferensi antara sinyal 4G, 2,4G, dan Wi-Fi karena lingkungan jaringan yang kompleks",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. Lingkungan Wi-Fi buruk. Hubungkan ke koneksi Wi-Fi yang lebih baik.&lt;br>b. Direkomendasikan menggunakan jaringan seluler.&lt;br>c. Matikan Wi-Fi saat siaga.",
+        "ExpDetail": "Sering Pemindaian Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. Lingkungan Wi-Fi buruk. Hubungkan ke koneksi Wi-Fi yang lebih baik.&lt;br>b. Direkomendasikan menggunakan jaringan seluler.&lt;br>c. Matikan Wi-Fi saat siaga.",
+        "ExpDetail": "Perpanjangan IP Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. Lingkungan Wi-Fi buruk. Hubungkan ke koneksi Wi-Fi yang lebih baik.&lt;br>b. Direkomendasikan menggunakan jaringan seluler.&lt;br>c. Matikan Wi-Fi saat siaga.",
+        "ExpDetail": "Pembaruan Kunci Multicast Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. Lingkungan Wi-Fi buruk. Hubungkan ke koneksi Wi-Fi yang lebih baik.&lt;br>b. Direkomendasikan menggunakan jaringan seluler.&lt;br>c. Matikan Wi-Fi saat siaga.",
+        "ExpDetail": "Wi-Fi sering terputus dan terhubung kembali karena lingkungan Wi-Fi yang buruk",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "Gunakan power supply arus searah untuk mengecek apakah arus listrik ponsel normal saat siaga",
+        "ExpDetail": "Kemungkinan kebocoran daya perangkat keras",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Pengiriman ulang SMS",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Sinkronisasi waktu otomatis lewat jaringan",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Kesalahan pada audio dan sensor sub sistem",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Subsistem sensor dan audio sering terbangun",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Modem terus menerus membangunkan CPU untuk menerima pesan aplikasi",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Alarm utama sering terbangun",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Kernel terus bekerja terlalu lama",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Sensor sering membangunkan CPU",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Penghitung coulomb sering terbangun",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. Matikan koneksi jaringan seluler dan Wi-Fi saat siaga agar tidak sering membangunkan CPU.&lt;br>b. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>c. Hapus secara teratur aplikasi yang tidak perlu. Direkomendasikan agar mengunduh aplikasi dari OPPO App Market.",
+        "ExpDetail": "Alasan belum diketahui",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "Wajar jika perangkat Anda menggunakan banyak daya setelah memutar musik dalam waktu lama.",
+        "ExpDetail": "Musik berjalan di latar belakang",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. Periksa apakah ada perangkat lunak yang sedang diunduh di latar belakang. b. Periksa apakah sinkronisasi otomatis, layanan cloud, dan fungsi lainnya telah diaktifkan.",
+        "ExpDetail": "Unduhan",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "Penggunaan hotspot Wi-Fi akan meningkatkan konsumsi daya ponsel. Matikan bila tidak digunakan.",
+        "ExpDetail": "Pengguna mengaktifkan hotspot Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "Berdasarkan kebiasaan penggunaan Anda, baterai ponsel Anda dapat bertahan sekitar %1, %2 dengan layar menyala, dan %3 dengan layar mati. Ketuk untuk melihat detail baterai selengkapnya.",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "Aktifkan kecerahan otomatis dan hindari penggunaan ponsel di bawah cahaya yang sangat terang dalam waktu lama.",
+        "ExpDetail": "Konsumsi daya yang cepat karena kecerahan yang tinggi",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "a. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>b. Hapus aplikasi yang tidak perlu secara teratur. Direkomendasikan agar mengunduh aplikasi dari app market bawaan.",
+        "ExpDetail": "Baterai cepat habis karena aplikasi terus menggunakan CPU. 5 aplikasi yang paling banyak menggunakan CPU: %1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "a. Tutup aplikasi latar belakang secara teratur. Ketuk \"Tutup semua\" di layar Terbaru sebelum menempatkan perangkat dalam keadaan siaga.&lt;br>b. Hapus aplikasi yang tidak perlu secara teratur. Direkomendasikan agar mengunduh aplikasi dari app market bawaan.",
+        "ExpDetail": "Konsumsi daya yang cepat saat siaga karena arus yang tinggi",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "Pelanggan telah menggunakan ponsel mereka pada tingkat kecerahan layar yang tinggi dalam jangka waktu lama. Beri tahu mereka untuk menurunkan kecerahan saat menggunakan ponsel.",
+        "ExpDetail": "Terlalu lama pemakaian Kecerahan yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "Pelanggan telah menggunakan ponsel mereka pada kecepatan refresh yang tinggi dalam jangka waktu lama. Beri tahu mereka untuk memilih &amp;quot;Standar&amp;quot; di &amp;quot;Pengaturan - Tampilan &amp;amp; kecerahan - Lainnya - Kecepatan refresh layar&amp;quot;. Catatan: Hal ini dapat membuat layar beroperasi kurang mulus.",
+        "ExpDetail": "Terlalu lama pemakaian Refresh Rate yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "User telah menggunakan Ponsel mereka pada resolusi tinggi untuk waktu yang lama. Beri tahu mereka untuk memilih &amp;quot;Pilih otomatis&amp;quot; di &amp;quot;Pengaturan - Layar &amp;amp; kecerahan - Lainnya - Resolusi layar&amp;quot;. Ini mungkin membuat konten di layar menjadi kurang jelas.",
+        "ExpDetail": "Terlalu lama pemakaian Resolusi yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "Penggunaan CPU tinggi karena aplikasi %1. Beritahu User untuk mengurangi penggunaan %2",
+        "ExpDetail": "Terlalu lama penggunaan CPU yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "Aplikasi %1 telah menggunakan CPU selama %2 jam. Tanyakan kepada User apakah mereka perlu terus menjalankan aplikasi ini sepanjang waktu.",
+        "ExpDetail": "Terlalu lama penggunaan Aplikasi yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "User telah menggunakan Ponsel mereka pada volume suara yang tinggi untuk waktu yang lama. Volume tinggi dapat merusak pendengaran dan menguras baterai. Beritahu User untuk mengecilkan volume.",
+        "ExpDetail": "Terlalu lama penggunaan suara Volume yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "Ponsel sering kehilangan sinyal. Beri tahu User untuk menghubungi operator seluler mereka.",
+        "ExpDetail": "Sering tidak ada jaringan data yang tersedia",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "Ponsel terus mencari jaringan. Beri tahu User untuk menghubungi operator seluler mereka.",
+        "ExpDetail": "Sering terjadi pencarian jaringan",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "Anda telah menggunakan banyak data seluler. Anda dapat mengunduh file melalui Wi-Fi untuk memperpanjang masa pakai baterai.",
+        "ExpDetail": "Penggunaan jaringan data seluler yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "Anda menggunakan %1 GB data melalui Wi-Fi selama 24 jam terakhir. Anda mungkin perlu meninjau penggunaan data Anda.",
+        "ExpDetail": "Penggunaan jaringan Wi-Fi yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "Aplikasi %1 menguras baterai. Harap laporkan masalah ini ke pengembang aplikasi.",
+        "ExpDetail": "Aplikasi boros baterai",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "Aplikasi %1 telah berjalan selama %2 jam. Anda mungkin perlu mengurangi penggunaan aplikasi ini.",
+        "ExpDetail": "Terlalu lama penggunaan Aplikasi yang tinggi",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "Aplikasi %1 terus berjalan di latar belakang. Anda dapat menutup aplikasi saat tidak digunakan lagi.",
+        "ExpDetail": "Aplikasi terus berjalan di latar belakang",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "Aplikasi %1 terus membangunkan Ponsel. Anda dapat menutup aplikasi sebelum mengunci perangkat Anda.",
+        "ExpDetail": "Aplikasi terus membangunkan ponsel",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "Aplikasi %1 terus menggunakan CPU saat layar mati. Anda dapat menutup aplikasi sebelum mengunci perangkat Anda.",
+        "ExpDetail": "Aplikasi terus menggunakan CPU meskipun layar dalam kondisi mati",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "Aplikasi %1 terus menggunakan jaringan saat layar mati. Anda dapat menutup aplikasi sebelum mengunci perangkat Anda.",
+        "ExpDetail": "Aplikasi terus menggunakan jaringan saat layar mati",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "Ketika ponsel sedang melakukan pengisian daya cepat, pengisi dayanya akan mengubah tegangan tinggi menjadi tegangan rendah. Saat ini berlangsung, akan ada sejumlah besar konversi energi sehingga menyebabkan timbulnya panas. Kami sarankan agar mengisi daya ponsel di lingkungan dengan disipasi panas yang bagus.",
+        "ExpDetail": "Pengisian daya baterai ponsel",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "Menggunakan pengisian daya cepat untuk waktu yang lama akan menghasilkan panas. Jangan gunakan pengisian daya cepat untuk periode yang lama agar tidak merusak pengisian daya cepat tersebut.",
+        "ExpDetail": "Lampu kilat menyala",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "Penggunaan dengan kecerahan tinggi dalam waktu lama. Kurangi kecerahan layar atau tetapkan ke kecerahan otomatis.",
+        "ExpDetail": "Tingkat kecerahan latar belakang (backlight) terlalu tinggi",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "Ponsel memanas karena sinyal jaringan buruk. Di lokasi dengan sinyal yang buruk, antena ponsel harus meningkatkan dayanya untuk mencari sinyal di area yang lebih luas, sehingga menghasilkan lebih banyak panas. Buka \"Pengaturan - Jaringan seluler - Pengaturan lainnya\" dan aktifkan 5G Pintar. Jika Anda tidak dapat menentukan status sinyal saat ini, berkonsultasilah dengan operator jaringan lokal.",
+        "ExpDetail": "Sinyal ponsel buruk",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "Ponsel memanas karena sinyal jaringan buruk. Di lokasi dengan sinyal yang buruk, antena ponsel harus meningkatkan dayanya untuk mencari sinyal di area yang lebih luas, sehingga menghasilkan lebih banyak panas. Jika Anda tidak dapat menentukan status sinyal saat ini, berkonsultasilah dengan operator jaringan lokal.",
+        "ExpDetail": "Jaringan internet ponsel buruk",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "Ponsel memanas karena aplikasi yang berjalan di latar belakang, %1, menggunakan terlalu banyak CPU. Jika Wi-Fi, GPS, NFC, Bluetooth, dan fungsi lainnya dihidupkan secara bersamaan untuk mencari sinyal di latar belakang, ponsel akan menjadi lebih panas. Sebaiknya bersihkan aplikasi yang berjalan di latar belakang dan matikan fungsi yang tidak digunakan. Anda dapat membersihkan aplikasi yang berjalan di latar belakang atau mulai ulang ponsel.",
+        "ExpDetail": "Aplikasi latar belakang %1 menggunakan CPU secara berlebihan",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "%1 merupakan aplikasi dengan beban tinggi sehingga menggunakan CPU yang banyak dan menyebabkan ponsel memanas. Hindari penggunaan ponsel berat untuk waktu yang lama. Tunggu sampai suhu ponsel turun agar tidak merusak komponennya.",
+        "ExpDetail": "Aplikasi latar depan %1 menggunakan CPU secara berlebihan",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "GPS ponsel sedang digunakan. Ponsel mungkin memanas jika mencari dan mengirim sinyal satelit untuk jangka waktu lama guna memperbarui informasi lokasi.\nTanya pengguna apakah mereka telah menghidupkan navigasi atau aplikasi berbasis lokasi pihak ketiga secara otomatis memperoleh informasi lokasi.",
+        "ExpDetail": "Pemosisian GPS yang terus menerus",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "Ponsel memanas karena beberapa aplikasi berjalan secara bersamaan di latar belakang. Sebaiknya bersihkan cache latar belakang secara teratur.\n① Periksa apakah ada perangkat lunak yang sedang diunduh di latar belakang.\n② Periksa apakah sinkronisasi, Layanan Cloud, dan fungsi lainnya dihidupkan.",
+        "ExpDetail": "Sinkronisasi %1 di latar belakang",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "Ponsel memanas karena aplikasi %1 berjalan secara bersamaan di latar belakang. Sebaiknya bersihkan cache latar belakang secara teratur.\n① Periksa apakah ada perangkat lunak yang sedang diunduh di latar belakang.\n② Periksa apakah sinkronisasi, Layanan Cloud, dan fungsi lainnya dihidupkan.",
+        "ExpDetail": "Sinkronisasi %1 di latar belakang",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "Terdeteksi panggilan yang lama. Penumpukan panas merupakan hal yang normal ketika ponsel sedang dalam panggilan yang lama karena antena sinyal ponsel, mikrofon, dan pengeras suara terus bekerja saat panggilan tersebut berlangsung.\n Untuk kiat mengenai cara menurunkan suhu ponsel, lihat basis pengetahuan \"Ponsel memanas saat panggilan telepon berlangsung\".",
+        "ExpDetail": "Ponsel selalu terhubung dengan panggilan",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "Terdeteksi penggunaan kamera yang lama/sering. Ketika mengambil gambar atau video, maka kamera, CPU, GPU, dan perangkat lainnya dari telepon seluler tersebut akan berfungsi secara bersamaan, dan telepon seluler berjalan pada beban yang tinggi sehingga akan menyebabkan naiknya suhu telepon seluler tersebut.\n Untuk kiat mengenai cara menurunkan suhu ponsel ketika kameranya sedang digunakan, lihat basis pengetahuan \"Ponsel memanas saat mengambil foto dan video\".",
+        "ExpDetail": "Aplikasi kamera sedang berjalan",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "Minta pengguna untuk tidak menggunakan ponsel di lingkungan bersuhu tinggi dan gunakan catu daya DC untuk memeriksa kebocoran daya di ponsel.",
+        "ExpDetail": "Suhu ponsel panas disebabkan lingkungan atau perangkat keras",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "Tanya pengguna mengenai bagaimana ponsel tersebut digunakan, dan gunakan hal tersebut dalam kombinasi dengan aplikasi yang boros daya dan diagnosis konsumsi daya untuk menginvestigasi masalah tersebut. Jika tidak ada yang tidak normal, sarankan pengguna untuk memeriksakan ponsel di pusat layanan untuk melihat apakah terjadi kebocoran daya.",
+        "ExpDetail": "Penyebab tidak diketahui",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "%1-hari suhu maksimal: %2 ℃. Waktu kejadian: %3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "Ponsel memanas karena ponsel digunakan sambil mengisi daya. Merupakan hal yang normal jika baterai atau pengisi daya memanas saat mengisi daya, dan menggunakan ponsel Anda saat mengisi daya akan menghasilkan lebih banyak panas.",
+        "ExpDetail": "Panas disebabkan oleh penggunaan sambil mengisi daya",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "Panas yang dihasilkan selama pengisian adalah normal. Disarankan agar Anda mengisi daya ponsel di tempat yang berventilasi baik, di mana panas mudah hilang. Jangan mengisi daya ponsel Anda di atas sofa, di atas pakaian, atau di bawah sinar matahari.",
+        "ExpDetail": "Panas ketika mengisi daya (Layar nyala ketika mengisi daya: %1; aplikasi latar depan ketika mengisi daya: %2",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "Ponsel memanas secara signifikan ketika bermain game %1. Saat bermain game, cip seperti CPU dan GPU ponsel Anda harus berjalan pada kinerja tinggi untuk memastikan kualitas gambar dan kelancaran. Beban yang berat tersebut akan menyebabkan ponsel menjadi lebih panas. Untuk mengatasi masalah ini, turunkan pengaturan (resolusi dan laju bingkai), kurangi kecerahan layar, dan perkecil volume untuk game.",
+        "ExpDetail": "Panas ketika bermain game (Game: %1; Kualitas Gambar: %2; Resolusi: %3; Mode Game: %4)",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "Ponsel memanas karena Anda bermain game sambil mengisi daya. Konversi energi yang terjadi saat pengisian daya berlangsung akan menimbulkan panas. Ketika Anda bermain game sambil mengisi daya, cip ponsel seperti CPU dan GPU harus berjalan pada kinerja tinggi untuk memastikan kualitas gambar dan kelancaran, yang akan menghasilkan lebih banyak panas. Sebisa mungkin jangan menggunakan ponsel sambil mengisi daya.",
+        "ExpDetail": "Bermain game sambil mengisi daya",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "Anda sedang bermain game di tempat dengan sinyal yang buruk di mana pemancar sinyal harus bekerja sepanjang waktu untuk mencari koneksi sehingga dapat menyebabkan ponsel mudah panas. Di samping itu, cip ponsel seperti CPU dan GPU harus berjalan pada kinerja tinggi saat game dimainkan untuk memastikan kualitas gambar dan kelancaran, yang akan menghasilkan lebih banyak panas. Pindahlah ke lokasi dengan jaringan yang bagus, jika memungkinkan.",
+        "ExpDetail": "Panas terjadi saat bermain game disebabkan oleh jaringan data yang lemah/jelek/buruk",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "Suhu lingkungan tinggi saat bermain game. Ini artinya ponsel Anda harus berjalan pada kinerja tinggi dan akan menghasilkan panas. Suhu lingkungan yang tinggi juga akan memperlambat disipasi panas dan menyebabkan lebih banyak panas.",
+        "ExpDetail": "Bermain game di tempat panas",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Kecerahan otomatis\" telah dimatikan untuk ponsel Anda. Untuk memungkinkan kontrol kecerahan pintar dan mengurangi penggunaan daya, masuklah ke \"Pengaturan - Tampilan &amp; kecerahan - Kecerahan otomatis\".",
+        "ExpDetail": "Matikan"
+    },
+    "t04030201": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Layanan lokasi\" telah diaktifkan untuk ponsel Anda. Menjalankan GPS di latar belakang akan menambah penggunaan daya. Anda dapat mematikan fungsi untuk mengurangi penggunaan daya bila tidak membutuhkannya. Caranya, usap ke bawah bilah status dan ketuk \"Lokasi\" atau masuklah ke \"Pengaturan - Privasi - Lokasi - Layanan lokasi\".",
+        "ExpDetail": "Aktifkan"
+    },
+    "t04030301": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa Bluetooth telah diaktifkan untuk ponsel Anda. Menjalankan Bluetooth di latar belakang akan menambah penggunaan daya. Anda dapat mematikan fungsi untuk mengurangi penggunaan daya bila tidak membutuhkannya. Caranya, masuklah ke \"Pengaturan - Bluetooth\".",
+        "ExpDetail": "Aktifkan"
+    },
+    "t04030401": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Hotspot pribadi\" telah diaktifkan untuk ponsel Anda. Menjalankan hotspot di latar belakang akan menambah penggunaan daya. Anda dapat mematikan fungsi untuk mengurangi penggunaan daya bila tidak membutuhkannya. Caranya, masuklah ke \"Pengaturan - Koneksi &amp; berbagi - Hotspot pribadi\".",
+        "ExpDetail": "Aktifkan"
+    },
+    "t04030501": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa NFC telah diaktifkan untuk ponsel Anda. Menjalankan NFC di latar belakang akan menambah penggunaan daya. Anda dapat mematikan fungsi untuk mengurangi penggunaan daya bila tidak membutuhkannya. Caranya, masuklah ke \"Pengaturan - Koneksi &amp; berbagi - NFC\".",
+        "ExpDetail": "Aktifkan"
+    },
+    "t04030601": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa mode performa tinggi telah diaktifkan untuk ponsel Anda. Mode ini akan menambah konsumsi daya. Untuk mematikan fungsi dan mengurangi penggunaan daya, masuklah ke \"Pengaturan - Baterai - Lainnya - Mode performa tinggi\".",
+        "ExpDetail": "Aktifkan"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Analisis log gagal karena jumlah panggilan masuk atau keluar kurang dari 10.",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. Aktifkan fungsi VoLTE operator dan aktifkan panggilan definisi tinggi di Pengaturan.&lt;br>2. Periksa performa titik akses ponsel Anda untuk memastikan transmisi RF dan bahwa performa penerimaan normal (termasuk semua band 2G, 3G, dan 4G).&lt;br>3. Jangkauan sinyal jaringan seluler berfluktuasi sesuai lingkungan. Jika sinyal jaringan buruk, konsultasikan dengan operator jaringan lokal.&lt;br>4. Sinyal jaringan mungkin lemah di basement, garasi tertutup, dan area yang padat. Kualitas sinyal yang buruk memengaruhi panggilan. Pindahlah ke ruang terbuka dan kualitas panggilan akan meningkat.&lt;br>5. Perbarui versi perangkat lunak.",
+        "ExpDetail": "1. Panggilan terputus: %1, persentase: %2&lt;br>2. Kesalahan panggilan keluar: %3, persentase: %4&lt;br>3. Kesalahan panggilan masuk: %5, persentase: %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "Jaringan menerima permintaan akses dari ponsel tetapi tidak memberikan respon atas hal tersebut",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "Tidak bisa mengakses internet ketika tersambung ke jaringan",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "Layanan IMS tidak dapat dihubungi",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "Kesalahan server",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "Panggilan terputus CDMA telekomunikasi dan penghubung utama 2G kehabisan waktu.",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "Domain sirkuit tidak tersedia",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "Tidak ada layanan",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "Nomor yang dipanggil tidak valid",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "Kemacetan jaringan. Panggil lagi nomor itu nanti.",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "(Panggilan terputus non-IMS) Kesalahan penghubung utama berkaitan erat dengan kekuatan jaringan.",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. Aktifkan fungsi VoLTE operator dan aktifkan panggilan definisi tinggi di Pengaturan.&lt;br>2. Periksa performa titik akses ponsel Anda untuk memastikan transmisi RF dan bahwa performa penerimaan normal (termasuk semua band 2G, 3G, dan 4G).&lt;br>3. Jangkauan sinyal jaringan seluler berfluktuasi sesuai lingkungan. Jika sinyal jaringan buruk, konsultasikan dengan operator jaringan lokal.&lt;br>4. Sinyal jaringan mungkin lemah di basement, garasi tertutup, dan area yang padat. Kualitas sinyal yang buruk memengaruhi panggilan. Pindahlah ke ruang terbuka dan kualitas panggilan akan meningkat.&lt;br>5. Perbarui versi perangkat lunak.",
+        "ExpDetail": "1. Kesalahan panggilan keluar: %1&lt;br>2. Kesalahan panggilan masuk: %2&lt;br>3. Panggilan terputus: %3",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "Kartu SIM di ponsel tidak kompatibel dengan jaringan. Beri tahu pelanggan untuk menggantinya dengan kartu SIM baru.",
+        "ExpDetail": "1. Kesalahan panggilan keluar: %1&lt;br>2. Kesalahan panggilan masuk: %2&lt;br>3. Panggilan terputus: %3",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "Pembaruan Tersedia",
+        "ExpDetail": "1. Kesalahan panggilan keluar: %1&lt;br>2. Kesalahan panggilan masuk: %2&lt;br>3. Panggilan terputus: %3",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "Mungkin ada masalah dengan kompatibilitas jaringan. Hubungi penyedia jaringan untuk memeriksa apakah lingkungan jaringan normal, atau hubungi teknisi kami untuk reproduksi masalah dan pengambilan log.",
+        "ExpDetail": "1. Kesalahan panggilan keluar: %1&lt;br>2. Kesalahan panggilan masuk: %2&lt;br>3. Panggilan terputus: %3",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "Ini merupakan masalah jaringan sementara. Ponsel tetap berfungsi seperti biasa",
+        "ExpDetail": "1. Kesalahan panggilan keluar: %1&lt;br>2. Kesalahan panggilan masuk: %2&lt;br>3. Panggilan terputus: %3",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "Pembaruan Tersedia",
+        "ExpDetail": "1. Kesalahan panggilan keluar: %1&lt;br>2. Kesalahan panggilan masuk: %2&lt;br>3. Panggilan terputus: %3",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "Mungkin ada masalah dengan kompatibilitas jaringan. Hubungi penyedia jaringan untuk memeriksa apakah lingkungan jaringan normal, atau hubungi teknisi kami untuk reproduksi masalah dan pengambilan log.",
+        "ExpDetail": "1. Kesalahan panggilan keluar: %1&lt;br>2. Kesalahan panggilan masuk: %2&lt;br>3. Panggilan terputus: %3",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "Mungkin ada masalah dengan kompatibilitas jaringan. Hubungi penyedia jaringan untuk memeriksa apakah lingkungan jaringan normal, atau hubungi teknisi kami untuk reproduksi masalah dan pengambilan log.",
+        "ExpDetail": "1. Kesalahan panggilan keluar: %1&lt;br>2. Kesalahan panggilan masuk: %2&lt;br>3. Panggilan terputus: %3",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. Coba dengan ponsel lain untuk operator yang sama. Jika masalah tetap terjadi, hubungi operator untuk memprosesnya.&lt;br>2. Jika ini biasanya terjadi selama periode serupa, konfirmasikan lokasi tersebut pada pelanggan. Wajar saja jika sinyal buruk di basement, garasi, area publik yang padat lalu lintas, dan kendaraan yang bergerak.&lt;br>3. Tanyakan kepada pelanggan apakah mereka menggunakan casing pelindung dari logam atau berlapis logam.&lt;br>4. Periksa performa titik akses ponsel Anda untuk memastikan transmisi RF dan bahwa performa penerimaan normal (termasuk semua band 2G, 3G, dan 4G).",
+        "ExpDetail": "Dalam %1 hari lalu terjadi titik fokus pada lokasi yang sinyal lemah",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. Periksa apakah pemuatan SIM berhasil.\n2. Konfirmasikan apakah jaringan operator stabil dan apakah masalah hanya terjadi di area tertentu.\n3. Periksa apakah masalah tersebut terjadi di perangkat lain.\n4. Hidupkan ulang perangkat Anda atau aktifkan mode Pesawat untuk memeriksa masalah.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1. Tanyakan kepada pelanggan apakah mereka menggunakan casing pelindung dari logam atau berlapis logam.&lt;br>2. Apakah mereka menggunakan ponsel di tempat yang buruk sinyalnya, seperti di basement, garasi, area publik yang padat lalu lintas, dan kendaraan yang bergerak.&lt;br>3. Apakah sinyal lemah terjadi dalam jangka waktu lama dan selalu di tempat yang sama, maka ini mungkin disebabkan oleh masalah sinyal.&lt;br>4. Periksa performa titik akses ponsel Anda dengan alat untuk mengetes performa penerimaan titik akses (termasuk semua band 2G, 3G, dan 4G).",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. Pastikan Anda tidak menyentuh ponsel selama pengetesan.&lt;br>2. Jika masalah berlanjut, ganti perangkat keras karena beberapa band frekuensi mungkin bermasalah.",
+        "ExpDetail": "Frekuensi terjadinya kerusakan : %1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "Gagal memulai tes. Konfirmasikan bahwa kartu SIM telah dilepaskan.",
+        "ExpDetail": "Kartu SIM tidak dilepas"
+    },
+    "t05050104": {
+        "ExpAdvice": "Gagal memulai tes. Konfirmasikan mode Pesawat telah dimatikan.",
+        "ExpDetail": "Mode Pesawat aktif"
+    },
+    "t05050105": {
+        "ExpAdvice": "Gagal menyelesaikan tes. Hidupkan ulang ponsel Anda dan tes lagi fitur ini. Jika kesalahan terus terjadi, gantilah komponen yang rusak dengan yang baru.",
+        "ExpDetail": "Kesalahan mode modem"
+    },
+    "t05050106": {
+        "ExpAdvice": "Gagal menyelesaikan tes. Hidupkan ulang ponsel Anda dan tes lagi fitur ini. Jika kesalahan terus terjadi, gantilah komponen yang rusak dengan yang baru.",
+        "ExpDetail": "Kesalahan urutan tes"
+    },
+    "t05050107": {
+        "ExpAdvice": "Pastikan ponsel Anda cukup terisi daya dan tes lagi fitur ini.",
+        "ExpDetail": "Baterai lemah"
+    },
+    "t05050108": {
+        "ExpAdvice": "Tes RF selesai. Ponsel Anda akan dihidupkan ulang secara otomatis untuk memastikan semua fungsi bekerja dengan benar.",
+        "ExpDetail": "Tes RF selesai."
+    },
+    "t05070101": {
+        "ExpAdvice": "Penyebab yang mungkin:&lt;br>1. Konfirmasikan jaringan dan kualitas sinyal di lingkungan saat ini. Jika kualitas sinyal buruk, maka kemungkinan besar akan ada masalah jaringan sementara.&lt;br>2. Konfirmasikan apakah masalah ini ada pada aplikasi pihak ketiga.&lt;br>Saran:&lt;br> Jika merupakan masalah jaringan, minta pelanggan untuk menangani sendiri masalah tersebut, seperti mengaktifkan dan mematikan mode Pesawat dan data seluler, mereset pengaturan APN, mengeluarkan kemudian memasukkan kembali kartu SIM tanpa mematikan ponsel, dll. Hubungilah operator.",
+        "ExpDetail": "Diskoneksi data otomatis; uplink dibuat tanpa downlink (tipe koneksi jaringan); kesalahan terkait APN selama proses dial-up; diskoneksi jaringan karena pembayaran terlambat; kecepatan jaringan data dibatasi karena telah mencapai batas data; koneksi dial-up gagal",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "APN ditambahkan secara manual oleh pelanggan. Reset ke APN default.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. Pastikan kartu SIM telah dimasukkan dengan benar.&lt;br>2. Periksa apakah data seluler telah ditangguhkan karena tagihan tidak dibayar atau kelebihan penggunaan data.&lt;br>3. Aktifkan dan nonaktifkan data seluler dan mode Pesawat, atau hidupkan ulang perangkat.&lt;br>4. Periksa apakah ada masalah pada jaringan operator.",
+        "ExpDetail": "Kesalahan jaringan data terdeteksi. Hal ini mungkin disebabkan oleh masalah koneksi jaringan.",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. Periksa apakah Ponsel memiliki tagihan pulsa/data yang jatuh tempo atau apakah batas kecepatan berlaku.&lt;br>2. Lakukan tes PA untuk memeriksa apakah frekuensi radio normal.&lt;br>3. Jika frekuensi radio normal, hubungi staf pengoptimalan jaringan lokal untuk mereproduksi masalah dan merekam log.&lt;br>4. Jika staf pengoptimalan jaringan tidak tersedia atau User tidak setuju untuk mereproduksi masalah, lakukan flashing ke software terbaru.&lt;br>5. Periksa apakah masalah masih ada 10 hari setelah flashing software. Jika masih ada, Lebih disarankan untuk memperbaiki masalah ini dengan pergantian perangkat keras.",
+        "ExpDetail": "Kesalahan jaringan data terdeteksi. Hal ini mungkin disebabkan oleh masalah ponsel.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "APN ditambahkan secara manual oleh pelanggan. Reset ke APN default.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "Kecepatan data telah dibatasi oleh operator. Tanyakan kepada operator untuk mengetahui lebih detail.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "Jaringan lokal tidak stabil. Bandingkan lingkungan jaringan dengan tempat lainnya, dan jika telah dikonfirmasi, konsultasikan dengan operator Anda untuk menyempurnakan lingkungan jaringan.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. Pastikan Anda tidak memiliki tagihan yang belum dibayar untuk kartu SIM.&lt;br>2. Periksa apakah izin jaringan telah diaktifkan untuk aplikasi.&lt;br>3. Masukkan kartu SIM ke perangkat lain dan periksa apakah berfungsi dengan benar.&lt;br>4. Aktifkan dan nonaktifkan data seluler dan mode Pesawat, atau hidupkan ulang perangkat.&lt;br>5. Periksa apakah ada masalah pada jaringan operator.",
+        "ExpDetail": "Kesalahan jaringan data terdeteksi. Hal ini mungkin disebabkan oleh masalah koneksi jaringan.",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "APN ditambahkan secara manual oleh pelanggan. Reset ke APN default.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "Kecepatan data telah dibatasi oleh operator. Tanyakan kepada operator untuk mengetahui lebih detail.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "Menyalakan mode hemat data akan berpengaruh pada pengalaman internet pengguna",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "Jaringan lokal tidak stabil. Bandingkan lingkungan jaringan dengan tempat lainnya, dan jika telah dikonfirmasi, konsultasikan dengan operator Anda untuk menyempurnakan lingkungan jaringan.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1. Pastikan Anda tidak memiliki tagihan yang belum dibayar untuk kartu SIM.&lt;br>2. Periksa apakah izin jaringan telah diaktifkan untuk aplikasi.&lt;br>3. Aktifkan dan nonaktifkan data seluler dan Mode Pesawat, atau hidupkan ulang perangkat.&lt;br>4. Periksa apakah ada masalah pada jaringan operator.",
+        "ExpDetail": "Kesalahan jaringan data terdeteksi. Hal ini mungkin disebabkan oleh masalah koneksi jaringan.",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "Periksa apakah frekuensi radio normal.",
+        "ExpDetail": "Tidak dapat membuat panggilan telepon",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "Dengan bantuan earphone, periksa apakah masalah ada pada penerima (speaker telinga). Jika demikian, periksa adanya kerusakan pada penerima (speaker telinga) dan apakah komponen penerima telah dihubungkan dengan benar; jika tidak, maka periksa komponen audio pada motherboard.",
+        "ExpDetail": "Tidak ada bunyi selama panggilan",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. Periksa apakah ada debu atau cairan dalam penerima (speaker telinga). Ganti komponen tersebut dan tes lagi.&lt;br>2. Periksa pemrosesan sinyal pada motherboard.",
+        "ExpDetail": "Ada derau dalam panggilan",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "Jika ada masalah perangkat keras yang sesuai dengan keterangan pelanggan, maka perlakukan sebagai masalah perangkat keras.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "Jika ada masalah perangkat keras yang sesuai dengan keterangan pelanggan, maka perlakukan sebagai masalah perangkat keras.",
+        "ExpDetail": "Total kejadian : %1",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "Bawa ponsel ke area terbuka untuk melakukan tes pencarian satelit. Biasanya, kekuatan sinyal GPS akan melebihi 30; jika tidak, maka periksa perangkat keras GPS.",
+        "ExpDetail": "Sinyal satelit buruk",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "Periksa apakah GPS sistem dimatikan. Tanyakan kepada pelanggan aplikasi mana yang tidak dapat menggunakan GPS dan periksa izinnya.",
+        "ExpDetail": "GPS atau izin terkait tidak diaktifkan",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Analisis log gagal karena data GPS tidak cukup.",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostik gagal karena GPS tidak digunakan akhir-akhir ini. Layanan Lokasi yang terlalu lama dibiarkan nonaktif dapat menjadi penyebab kegagalan pemosisian.",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "Bawa ponsel ke area terbuka untuk melakukan tes pencarian satelit. Biasanya, kekuatan sinyal GPS akan melebihi 30; jika tidak, maka periksa perangkat keras GPS.",
+        "ExpDetail": "Kemungkinan penyebabnya antara lain masalah perangkat keras GPS atau GPS sedang digunakan di lingkungan dalam ruangan",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostik gagal karena penggunaan GPS tidak cukup.",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "Bawa ponsel ke area terbuka untuk melakukan tes pencarian satelit. Biasanya, kekuatan sinyal GPS akan melebihi 30; jika tidak, maka periksa perangkat keras GPS.",
+        "ExpDetail": "GPS berfungsi normal. Mungkin ada interferensi bila pelanggan melakukan navigasi sambil berjalan kaki.",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "Bawa ponsel ke area terbuka untuk melakukan tes pencarian satelit. Biasanya, kekuatan sinyal GPS akan melebihi 30; jika tidak, maka periksa perangkat keras GPS.",
+        "ExpDetail": "GPS berfungsi normal. Interferensi dapat terjadi bila pelanggan melakukan navigasi di kendaraan.",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "Periksa apakah antena GPS rusak, berubah bentuk, atau memiliki kontak yang buruk.",
+        "ExpDetail": "Masalah antena GPS",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostik gagal karena GPS tidak digunakan akhir-akhir ini.",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "Lepaskan casing pelindung lalu periksa lagi",
+        "ExpDetail": "Menggunakan casing pelindung dari logam",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "&amp;quot;Pemindaian Wi-Fi selalu tersedia&amp;quot; dimatikan karena jika terlalu lama pemakaian dapat menyebabkan kegagalan pemosisian atau pemosisian yang tidak akurat dalam skenario dalam ruangan. Periksa apakah fitur ini diaktifkan.",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "\"Keakuratan pemosisian jaringan\" yang terlalu lama dimatikan dapat menyebabkan kegagalan pemosisian atau pemosisian yang tidak akurat di skenario dalam ruangan. Ketuk \"Perbaiki\" untuk mengaktifkannya agar pemosisian lebih akurat. Jika Anda menggunakan ponsel yang dirancang untuk pengguna di luar Tiongkok Daratan, sentuh dan tahan ikon Lokasi di Pengaturan Cepat untuk masuk ke halaman \"Akurasi Lokasi Google\", dan aktifkan \"Tingkatkan Akurasi Lokasi\".",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "Masalah ini disebabkan oleh lingkungan GPS pengguna dan tidak dapat diatas dengan penggantian. Jauhkan ponsel Anda dari sumber eksternal interferensi seperti sistem navigasi otomotif, konsol pusat, dan perangkat elektronik lainnya.",
+        "ExpDetail": "Interferensi dengan lingkungan GPS pengguna"
+    },
+    "t06020101": {
+        "ExpAdvice": "Penyebab Kemungkinan :&lt;br>(Proses loading firmware tidak normal;Instalasi driver tidak normal;proses loading terpisah tidak normal;penyebab lain-lain)&lt;br>Saran :&lt;br>1.Restart perangkat.&lt;br>2.Lakukan pembaruan versi ke yang terbaru.",
+        "ExpDetail": "Gagal mengaktifkan %1 kali",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "Kemungkinan penyebab: &lt;br/>(Kesalahan pemuatan firmware; kesalahan pemuatan drive; kesalahan pemasangan partisi; penyebab lain; kesalahan pemuatan chip Wi-Fi; kesalahan menjalankan perangkat lunak Wi-Fi; file konfigurasi saluran sistem perangkat lunak Wi-Fi gagal dimuat ; file frekuensi radio sistem perangkat lunak Wi-Fi gagal dimuat; file konfigurasi firmware sistem perangkat lunak Wi-Fi gagal dimuat; sub sistem macet/mogok)&lt;br/>Saran:&lt;br/>1. Restart perangkat. &lt;br/>2. Perbarui ke versi terbaru. 3. Minta User untuk me-restart Ponsel mereka. &lt;br/>4. Jika masalah berlanjut, lakukan flashing ke software terbaru atau instal pembaruan OTA. &lt;br/>5. Jika merupakan kerusakan pasti, maka itu adalah kerusakan perangkat keras. &lt;br/>3. Jika masalah dapat direproduksi, coba sambungkan ke internet dan lakukan panggilan melalui kartu SIM. Jika Anda tidak dapat melakukan 2 hal ini, Modem modul jaringan harus direstart. &lt;br/>4. Minta User untuk me-restart Ponsel mereka. &lt;br/>5. Jika masalah berlanjut, lakukan flashing ke software terbaru atau instal pembaruan OTA. &lt;br/>6. Jika merupakan kerusakan pasti, maka itu adalah kerusakan perangkat keras.",
+        "ExpDetail": "Gagal mengaktifkan %1 kali",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "Direkomendasikan untuk mem-flash ke versi terbaru.",
+        "ExpDetail": "Titik akses yang sering digunakan: %1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1. Koneksi jaringan tidak stabil yang disebabkan oleh ponsel itu sendiri: Perbarui ke versi terbaru dan coba lagi.&lt;br>2. Kesalahan DNS: Periksa apakah DNS privat telah diatur. Jika ya, hapus DNS privat dan periksa router jika tidak.&lt;br>3.  Penyebab lainnya: 1. Hidupkan ulang router.&lt;br>2. Jika ponsel lainnya yang menggunakan router yang sama juga memiliki masalah yang sama, maka direkomendasikan untuk mengganti router.&lt;br>3. Ganti saluran routing default. Coba gunakan saluran 5G. Gunakan penganalisis Wi-Fi dan alat lainnya untuk menemukan saluran yang minim interferensi.",
+        "ExpDetail": "Titik akses yang sering digunakan: %1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostik gagal karena data tidak cukup.",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "Pengaturan Wi-Fi",
+        "ExpDetail": "Pengaturan Wireless",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "Perangkat lunak koneksi pihak ketiga mungkin telah mencoba namun gagal meretas kata sandi hotspot Wi-Fi dan mengakibatkan koneksi gagal. Direkomendasikan agar menghubungkan ke Wi-Fi di aplikasi Pengaturan.",
+        "ExpDetail": "Aplikasi yang sering digunakan: %1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "Analisis log gagal karena koneksi pihak ketiga tidak cukup",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "Hidupkan ulang router atau gunakan perangkat lainnya untuk menghubungkan ke router ini guna memeriksa apakah ada masalah pada titik akses. Jika tidak ada, matikan dan aktifkan Wi-Fi atau hidupkan ulang ponsel. Jika masalah berlanjut, kirimkan ponsel untuk pengetesan lebih lanjut.&lt;br>(Pastikan kata sandi Anda sudah benar. Ganti Wi-Fi sebelum koneksi dan pastikan titik akses ditemukan. Periksa pengaturan rute atau hubungkan ke titik akses lainnya. Direkomendasikan melakukan koneksi di lingkungan yang memiliki sinyal lebih kuat. Konfirmasikan apakah IP sudah benar atau semua IP telah digunakan.)",
+        "ExpDetail": "Kesalahan pengaturan Wi-Fi: &lt;br>(Kata sandi salah; titik akses tidak ditemukan; kesalahan pengaturan router atau kelebihan beban; sinyal lemah; alamat IP statis)",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "Periksa antena dan chip Wifi",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "Titik akses yang sering digunakan: %1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "Periksa apakah semua alamat IP dari server DHCP router telah digunakan.",
+        "ExpDetail": "Gagal memperoleh alamat IP",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Autentikasi gagal karena kesalahan deteksi router.",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "Periksa apakah ponsel sudah lama tidak digunakan setelah menghubungkan ke Wi-Fi.",
+        "ExpDetail": "Koneksi tidak aktif. Tidak ada transmisi data dalam waktu lama.",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "Periksa apakah router telah dihubungkan ke perangkat yang terlalu banyak. Coba putuskan sebagian koneksi.",
+        "ExpDetail": "Koneksi router terbatas",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Tidak ada autentikasi karena kesalahan deteksi router",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Tidak ada koneksi karena kesalahan deteksi router",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Ponsel terputus dari jaringan",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Autentikasi koneksi gagal",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "Tidak perlu tindakan karena hal ini normal.",
+        "ExpDetail": "Router menjalankan roaming",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Gagal memverifikasi kelengkapan pesan",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Waktu jabat-tangan habis",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Waktu pembaruan kunci habis karena kesalahan deteksi router",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Kunci tidak valid",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Konfirmasikan kehilangan bingkai yang serius",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Roaming telepon gagal",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Modul telepon memulihkan secara otomatis",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Router tidak aktif",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Waktu suar habis",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Gagal mengalihkan saluran komunikasi",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Gagal menghubungkan karena waktu suar habis",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Waktu suar habis. Ponsel gagal memperoleh alamat router.",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. Perbarui ke versi terbaru terlebih dahulu.&lt;br>b. Jika masalah berlanjut, hidupkan ulang router atau periksa apakah router berfungsi dengan benar dengan menghubungkan menggunakan perangkat lain.&lt;br>c. Jika router tidak memiliki masalah, matikan dan aktifkan koneksi Wi-Fi, hubungkan kembali ke router, atau matikan dan nyalakan ponsel untuk mencoba lagi.&lt;br>d. Jika masalah masih belum teratasi, rekam log-nya.",
+        "ExpDetail": "Alasan belum diketahui",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. Beri tahu User untuk menghidupkan ulang Ponselnya.&lt;br>2. Jika masalah berlanjut, lakukan flashing ke software terbaru atau perbarui ke versi sistem terbaru.&lt;br>3. Jika masalah berlanjut, Lebih disarankan untuk memperbaiki masalah ini dengan pergantian perangkat keras.",
+        "ExpDetail": "Masalah Firmware Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "Masuk ke &amp;quot;Pengaturan - Koneksi &amp;amp; berbagi - Hotspot pribadi - Pengaturan hotspot&amp;quot;. Setel &amp;quot;Keamanan&amp;quot; ke &amp;quot;WPA2 PSK&amp;quot; dan &amp;quot;pita AP&amp;quot; ke &amp;quot;pita 2,4 GHz&amp;quot;, aktifkan &amp;quot;Terlihat oleh perangkat lain&amp;quot;, dan matikan &amp;quot;Wi-Fi 6 hotspot&amp;quot;. Kemudian, aktifkan &amp;quot;Hospot pribadi&amp;quot;.",
+        "ExpDetail": "Penyebab lain untuk Kerusakan Hotspot Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "Masuk ke &amp;quot;Pengaturan - Koneksi &amp;amp; berbagi - Hotspot pribadi - Pengaturan hotspot&amp;quot;. Setel &amp;quot;Keamanan&amp;quot; ke &amp;quot;WPA2 PSK&amp;quot; dan &amp;quot;pita AP&amp;quot; ke &amp;quot;pita 2,4 GHz&amp;quot;, aktifkan &amp;quot;Terlihat oleh perangkat lain&amp;quot;, dan matikan &amp;quot;Wi-Fi 6 hotspot&amp;quot;. Kemudian, aktifkan &amp;quot;Hospot pribadi&amp;quot;.",
+        "ExpDetail": "Penyebab lain untuk Kerusakan Hotspot Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "Masalah ini mungkin disebabkan oleh gangguan sinyal LTE. Masuk ke &amp;quot;Pengaturan - Koneksi &amp;amp; berbagi - Hotspot pribadi - Pengaturan hotspot&amp;quot;. Setel &amp;quot;Keamanan&amp;quot; ke &amp;quot;WPA2 PSK&amp;quot; dan &amp;quot;pita AP&amp;quot; ke &amp;quot;pita 2,4 GHz&amp;quot;, aktifkan &amp;quot;Terlihat oleh perangkat lain&amp;quot;, dan matikan &amp;quot;Wi-Fi 6 hotspot&amp;quot;. Kemudian, aktifkan &amp;quot;Hospot pribadi&amp;quot;.",
+        "ExpDetail": "Tidak ada saluran yang tersedia",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "Masuk ke &amp;quot;Pengaturan - Koneksi &amp;amp; berbagi - Hotspot pribadi - Pengaturan hotspot&amp;quot;. Setel &amp;quot;Keamanan&amp;quot; ke &amp;quot;WPA2 PSK&amp;quot; dan &amp;quot;pita AP&amp;quot; ke &amp;quot;pita 2,4 GHz&amp;quot;, aktifkan &amp;quot;Terlihat oleh perangkat lain&amp;quot;, dan matikan &amp;quot;Wi-Fi 6 hotspot&amp;quot;. Kemudian, aktifkan &amp;quot;Hospot pribadi&amp;quot;.",
+        "ExpDetail": "Konfigurasi Hotspot tidak dukung",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. Beri tahu User untuk menghidupkan ulang Ponselnya.&lt;br>2. Jika masalah berlanjut, lakukan flashing ke software terbaru atau perbarui ke versi sistem terbaru.&lt;br>3. Jika masalah berlanjut, Lebih disarankan untuk memperbaiki masalah ini dengan pergantian perangkat keras.",
+        "ExpDetail": "Masalah Firmware Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "Jika User tidak dapat mengakses jaringan di rumah, hal itu mungkin disebabkan oleh pengaturan yang salah atau masalah koneksi dengan modem optik dan router. Beri tahu User untuk mengubah konfigurasi DHCP router atau untuk menghubungi penyedia jaringan mereka untuk mendapatkan bantuan",
+        "ExpDetail": "Konflik Status Router Dinamik Pembagian IP (DHCP)",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "Jika User tidak dapat mengakses jaringan di rumah, hal itu mungkin disebabkan oleh pengaturan yang salah atau masalah koneksi dengan modem optik dan router. Beri tahu User untuk mengubah konfigurasi gateway router atau untuk menghubungi penyedia jaringan mereka untuk mendapatkan bantuan.",
+        "ExpDetail": "Konflik pada Gateway",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "Beri tahu User untuk menghubungkan Ponsel mereka ke jaringan Wi-Fi 5 GHz dan hindari penggunaan earphone Bluetooth saat Ponsel mereka terhubung ke jaringan Wi-Fi 2,4 GHz.",
+        "ExpDetail": "Kecepatan jaringan lambat akibat konflik Bluetooth/Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "Alamat IP statis salah. Harap atur yang benar.",
+        "ExpDetail": "Alamat IP Static tidak benar",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "Alamat DNS pribadi salah. Harap atur yang benar.",
+        "ExpDetail": "DNS Pribadi tidak benar",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "Pengaturan VPN salah. Harap atur yang benar.",
+        "ExpDetail": "Pengaturan VPN tidak benar",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "Maka lanjut ke pengecekan antena Bluetooth dan Chipset Bluetooth",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. Jika masalah dapat diatasi dengan restart Ponsel, lakukan flashing ke software terbaru atau perbarui ke versi sistem terbaru.&lt;br>2. Jika User menggunakan fungsi multi-pengguna, beri tahu mereka untuk mematikan Bluetooth sebelum beralih ke pengguna lain.&lt;br>3. Jika masalah berlanjut setelah Ponsel direset atau baru flashing software, kirimkan umpan balik terkait masalah perangkat keras.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gagal mengaktifkan Bluetooth (BT)",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gagal mengaktifkan Layanan Bluetooth",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gagal mengaktifkan Bluetooth Low Energy (BLE)",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "Periksa detail masalah.",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. Jika masalah terjadi di tempat dengan banyak perangkat nirkabel (seperti bandara atau stasiun kereta api), beri tahu User untuk menggunakan Ponsel mereka di tempat yang memiliki lebih sedikit perangkat nirkabel.&lt;br>2. Beri tahu User untuk menghubungkan Ponsel mereka ke jaringan Wi-Fi 5 GHz atau lebih tinggi karena jaringan Wi-Fi 2,4 GHz akan memengaruhi koneksi Bluetooth. Jika perlu, tunjukkan kepada User cara menyetel router mereka ke pita frekuensi 5 GHz.",
+        "ExpDetail": "Interferensi lingkungan yang tinggi atau dampak Wi-Fi&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "Buat koneksi Bluetooth dari sisi %1 dan pastikan perangkat rekan memiliki baterai yang cukup. (Mode master/slave dapat berubah untuk beberapa earphone saat baterai lemah, menyebabkan masalah koneksi.)&lt;br>",
+        "ExpDetail": "Kerusakan peralihan peran Bluetooth&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. Putuskan pemasangan perangkat dari Ponsel. Kemudian, tekan dan tahan tombol pada perangkat untuk memasangkan kembali.&lt;br>2. Setel ulang perangkat.&lt;br>3. Perbarui ke versi sistem terbaru.&lt;br>4. Jika masalah tidak terjadi pada Ponsel lain dengan model yang sama dan masalah tetap ada setelah flashing software terbaru, kirimkan umpan balik masalah perangkat keras.&lt;br>",
+        "ExpDetail": "Lain&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "Periksa apakah ada antena NFC yang hilang, kesalahan pada modul NFC",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Gagal mengaktifkan",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Layar tidak jelas atau kabur saat pengambilan foto",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Warnanya salah",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera utama depan",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera sekunder depan",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Gagal mengaktifkan",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Layar tidak jelas atau kabur saat pengambilan foto",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Warnanya salah",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera utama belakang",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera sudut lebar",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera telefoto",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera utama belakang atau kamera sudut lebar belakang",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera utama belakang atau kamera telefoto belakang",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera sudut lebar belakang atau kamera telefoto belakang",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "Periksa soket BTB kamera atau ganti kamera dan lakukan pengujian",
+        "ExpDetail": "Tidak dapat menggunakan kamera utama belakang, kamera sudut lebar belakang, atau kamera telefoto belakang",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Parameter kamera tidak normal. Hubungkan ponsel Anda dan kalibrasi serta perbaiki parameter tersebut.",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "Periksa apakah receiver kemasukan debu, kotoran atau cairan. Ganti dengan komponen baru lalu lakukan pengecekan ulang untuk memastikan penyebabnya",
+        "ExpDetail": "Volume suara kecil",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "Periksa apakah receiver kemasukan debu, kotoran atau cairan. Ganti dengan komponen baru lalu lakukan pengecekan ulang untuk memastikan penyebabnya",
+        "ExpDetail": "Ada suara bising/ noise",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "Alihkan suara ke speaker untuk memastikan apakah masalah ada pada bagian receiver atau bukan. Jika receiver bermasalah periksa apakah ada kerusakan fisik atau fungsi, koneksi apakah sudah terhubung dengan baik dan benar. Jika receiver tidak ada masalah silakan periksa bagian audio pada PCB Atas",
+        "ExpDetail": "Tidak ada suara",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "Periksa apakah receiver kemasukan debu, kotoran atau cairan. Ganti dengan komponen baru lalu lakukan pengecekan ulang untuk memastikan penyebabnya",
+        "ExpDetail": "Volume suara kecil",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "Periksa apakah receiver kemasukan debu, kotoran atau cairan. Ganti dengan komponen baru lalu lakukan pengecekan ulang untuk memastikan penyebabnya",
+        "ExpDetail": "Ada suara bising/ noise",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "Alihkan suara ke receiver untuk memastikan apakah masalah ada pada bagian speaker atau bukan. Jika speaker bermasalah periksa apakah ada kerusakan fisik atau fungsi, koneksi apakah sudah terhubung dengan baik dan benar. Jika speaker tidak ada masalah silakan periksa bagian audio pada PCB Atas",
+        "ExpDetail": "Tidak ada suara",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "Periksa apakah mikrofon kemasukan debu, kotoran atau cairan. Ganti dengan komponen baru lalu lakukan pengecekan ulang untuk memastikan penyebabnya",
+        "ExpDetail": "Volume suara kecil",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "Periksa apakah mikrofon kemasukan debu, kotoran atau cairan. Ganti dengan komponen baru lalu lakukan pengecekan ulang untuk memastikan penyebabnya",
+        "ExpDetail": "Ada suara bising/ noise",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat, pastikan dengan mencoba menggantinya dengan mikrofon baru",
+        "ExpDetail": "Suara terputus",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat oleh abu atau cairan. Jika suaranya begitu rendah hingga hampir senyap, ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Volume suara kecil",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "Ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Ada suara bising/ noise",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "Ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Tidak ada suara",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat oleh abu atau cairan. Jika suaranya begitu rendah hingga hampir senyap, ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat oleh abu atau cairan. Jika suaranya begitu rendah hingga hampir senyap, ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Volume suara kecil",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "Ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Ada suara bising/ noise",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "Ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Tidak ada suara",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat oleh abu atau cairan. Jika suaranya begitu rendah hingga hampir senyap, ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat oleh abu atau cairan. Jika suaranya begitu rendah hingga hampir senyap, ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Volume suara kecil",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "Ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Ada suara bising/ noise",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "Ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Tidak ada suara",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat oleh abu atau cairan. Jika suaranya begitu rendah hingga hampir senyap, ganti mikrofon dan uji lagi.",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "Periksa apakah ada kotoran atau benda asing yang menyumbat pada soket earphone atau ada indikasi kemasukan cairan",
+        "ExpDetail": "Ikon earphone tidak ditampilkan",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "Periksa apakah ada kotoran atau benda asing yang menyumbat pada soket earphone atau ada indikasi kemasukan cairan",
+        "ExpDetail": "Tidak cocok dengan Uji Earphone",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "Periksa jack earphone dan komponen lainnya",
+        "ExpDetail": "Earphone tidak dapat dikenali atau tidak didukung",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "Periksa impedansi mikrofon untuk mengetahui apakah magnitudo mencapai beberapa miliohm",
+        "ExpDetail": "Resistensi tinggi pada Earphone",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "Periksa apakah pelanggan menggunakan earphone peredam bising",
+        "ExpDetail": "Earphone Jenis Noise Canceling",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "Perbarui ke versi terbaru. Jika masalah berlanjut, periksa apakah set earphone lain dapat dikenali. Jika terjadinya masalah yang sama, rekam dan simpan log audio untuk mengulang masalah tersebut, kirimkan kepada pengembang untuk dianalisis, dan ganti board yang terdapat jack USB untuk validasi silang.",
+        "ExpDetail": "Terjadi eksepsi saat berganti chip (hanya berlaku pada model yang memiliki jack earphone Tipe-C) atau modul USB",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "Periksa apakah kendala masih dalam cakupan standar yang ditentukan oleh pabrik, jika melebihi standar yang ada maka lakukan pergantian layar untuk ponsel pengguna",
+        "ExpDetail": "Dot / bintik pixel",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "Periksa soket BTB layar atau ganti komponen layar",
+        "ExpDetail": "Layar kabur",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "Periksa soket BTB layar atau ganti komponen layar",
+        "ExpDetail": "Warnanya salah",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "Bersihkan semua aplikasi yang berjalan di latar belakang dan periksa koneksi jaringan",
+        "ExpDetail": "Muncul %1 kali terjadinya fenomena layar hitam, layar berkedip atau tampilan tidak normal",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "Periksa apakah tampilan rusak atau terganggu oleh listrik statis",
+        "ExpDetail": "Muncul %1 kali terjadinya fenomena layar hitam, layar berkedip atau tampilan tidak normal",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "Periksa chip GPU",
+        "ExpDetail": "Muncul %1 kali terjadinya fenomena layar hitam, layar berkedip atau tampilan tidak normal",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "Periksa chip GPU",
+        "ExpDetail": "Muncul %1 kali terjadinya fenomena layar hitam, layar berkedip atau tampilan tidak normal",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "Periksa chip GPU",
+        "ExpDetail": "Muncul %1 kali terjadinya fenomena layar hitam, layar berkedip atau tampilan tidak normal",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "Ketuk tombol untuk mengunggah log untuk dianalisis oleh teknisi",
+        "ExpDetail": "Terjadinya kemacetan layar yang mengakibatkan perangkat dihidupkan ulang: %1",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "Eksepsi perangkat keras. Unggah log kepada pengembang untuk dianalisis. Jika ponsel gagal dinyalakan, kembalilan untuk dianalisis.",
+        "ExpDetail": "Terjadinya kemacetan layar yang mengakibatkan perangkat dihidupkan ulang: %1",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "Efek tampilan layar tidak normal. Sebaiknya ponsel dihubungkan secara tepat waktu dan dikalibrasi untuk memperbaiki masalah ini.",
+        "ExpDetail": "Tampilan layar tidak normal",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lulus",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "Semua aplikasi",
+        "ExpDetail": "Matikan"
+    },
+    "t10010101": {
+        "ExpAdvice": "Periksa antarmuka fingerprint atau ganti komponen fingerprint",
+        "ExpDetail": "Sensor fingerprint tidak berfungsi dan tidak akurat",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "Sebaiknya pengguna mengembalikan perangkat ke pengaturan pabrik, jika tidak, penggunaan fungsi sidik jari akan terpengaruh.",
+        "ExpDetail": "Pengecualian kunci OEM",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "Sebaiknya ganti sensor sidik jari.",
+        "ExpDetail": "Pengecualian sensor sidik jari",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "Kalibrasikan ulang sensor sidik jari",
+        "ExpDetail": "Ketidakcocokan data kalibrasi sidik jari",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "Periksa modul sensor infrared atau PCB/mainboard/motherboard",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "Periksa modul sensor intensitas cahaya atau PCB/mainboard/motherboard",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "Periksa modul sensor gravitasi pada PCB/mainboard/motherboard",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "Sebaiknya kunjungi pusat layanan dan lakukan \"Pemeriksaan mandiri dan kalibrasi sensor\" dalam mode Teknik untuk mengkalibrasi akselerometer. Jika kalibrasi gagal, akselerometer mungkin rusak dan perlu diganti.",
+        "ExpDetail": "Data akselerasi tidak akurat",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "Periksa modul sensor geomagnetik pada PCB/mainboard/motherboard",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "Periksa modul giroskop pada PCB/mainboard/motherboard",
+        "ExpDetail": "Gagal",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "Sebaiknya kunjungi pusat layanan dan lakukan \"Pemeriksaan mandiri dan kalibrasi sensor\" dalam mode Teknik untuk mengkalibrasi giroskop. Jika kalibrasi gagal, giroskop mungkin rusak dan perlu diganti.",
+        "ExpDetail": "Data giroskop tidak akurat",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gagal memuat driver"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gagal mengirim kode"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya"
+    },
+    "t11010101": {
+        "ExpAdvice": "Tes setiap tombol samping untuk mengetahui adanya korsleting atau kesalahan sirkuit terbuka.",
+        "ExpDetail": "Tombol tidak berfungsi",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "Tes setiap tombol samping untuk mengetahui adanya korsleting atau kesalahan sirkuit terbuka.",
+        "ExpDetail": "Fungsi tombol salah",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "Tes setiap tombol samping untuk mengetahui adanya korsleting atau kesalahan sirkuit terbuka.",
+        "ExpDetail": "Sensitivitas sentuhan buruk",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Senter tidak berfungsi"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kecerahan rendah"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Warnanya salah"
+    },
+    "t12010201": {
+        "ExpAdvice": "Lakukan pergantian part (Lampu Flash/Senter) atau periksa jalur sirkuit driver lampu Flash/Senter",
+        "ExpDetail": "Senter tidak berfungsi",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "Lakukan pergantian part (Lampu Flash/Senter) atau periksa jalur sirkuit driver lampu Flash/Senter",
+        "ExpDetail": "Kecerahan layar rendah",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "Ganti motor atau periksa sirkuit penggerak motor.",
+        "ExpDetail": "Getar tidak berfungsi",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "Ganti motor atau periksa sirkuit penggerak motor.",
+        "ExpDetail": "Masalah getaran",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "Sebaiknya ganti motor.",
+        "ExpDetail": "Kerusakan perangkat keras motor",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "Harap dinginkan ponsel terlebih dahulu, pastikan panas terbuang dengan baik, dan mainkan game hanya setelah suhu perangkat normal.",
+        "ExpDetail": "Ponsel terlalu panas selama gameplay",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "Masalah keterlambatan diakibatkan oleh hilangnya bingkai dalam game. Pastikan panas terbuang dengan baik dan koneksi jaringan Anda stabil.",
+        "ExpDetail": "Ketertinggalan dan penurunan laju bingkai selama gameplay",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "Jaringan tidak stabil selama bermain game. Mainkan game dalam kondisi jaringan yang stabil.",
+        "ExpDetail": "Jaringan tidak stabil selama gameplay",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa notifikasi dimatikan untuk aplikasi %1. Untuk menerima notifikasinya, sentuh dan tahan ikon aplikasi, masuklah ke \"Info aplikasi - Kelola notifikasi\", dan aktifkan kenopnya.",
+        "ExpDetail": "Tidak diaktifkan untuk aplikasi"
+    },
+    "t17010102": {
+        "ExpAdvice": "\"Notifikasi\" telah dinonaktifkan untuk beberapa aplikasi, termasuk %1, jadi beberapa pesan penting mungkin tidak\n  diterima. Sebaiknya aktifkan notifikasi di pengaturan aplikasi pihak ketiga.",
+        "ExpDetail": "Matikan"
+    },
+    "t17010201": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa notifikasi senyap diaktifkan untuk aplikasi %1. Itu berarti semua notifikasinya hanya akan muncul di bagian bawah bilah notifikasi. Untuk mematikan fungsi tersebut, lakukan berikut ini: \n① ColorOS 11: Sentuh dan tahan ikon aplikasi, masuklah ke \"Info aplikasi - Kelola notifikasi - Notifikasi pesan baru (notifikasi mengenai undangan panggilan suara atau video)\", dan nonaktifkan \"Aktifkan notifikasi senyap\".\n② ColorOS 7.2: Sentuh dan tahan ikon aplikasi, masuklah ke \"Info aplikasi - Kelola notifikasi\" dan nonaktifkan \"Pindah ke bawah\".",
+        "ExpDetail": "Notifikasi senyap diaktifkan untuk aplikasi"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Tampilkan judul dan isi"
+    },
+    "t17010302": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Notifikasi layar kunci\" diatur ke \"Hanya tampilkan judul\". Untuk menampilkan isi notifikasi, masuklah ke \"Pengaturan - Notifikasi &amp; bilah status - Kelola notifikasi - Notifikasi layar kunci\" dan ubah pengaturan ke \"Tampilkan judul dan isi\".",
+        "ExpDetail": "Tampilkan judul saja"
+    },
+    "t17010303": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Notifikasi layar kunci\" diatur ke \"Jangan tampilkan\". Untuk menampilkan notifikasi layar kunci, masuklah ke \"Pengaturan - Notifikasi &amp; bilah status - Kelola notifikasi - Notifikasi layar kunci\" dan ubah pengaturan ke \"Tampilkan judul dan isi\" atau \"Hanya tampilkan judul\".",
+        "ExpDetail": "Jangan tampilkan"
+    },
+    "t17010401": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Bungkam notifikasi\" telah diaktifkan. Untuk memantau pesan penting, usap ke bawah bilah status, ketuk \"Bungkam notifikasi\", dan nonaktifkan sakelarnya.",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17010501": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Bangunkan layar bila notifikasi diterima di layar kunci\" telah dimatikan. Untuk mengaktifkan sakelarnya, masuklah ke \"Pengaturan - Notifikasi &amp; bilah status - Kelola notifikasi - Lainnya - Bangunkan layar bila notifikasi diterima\".",
+        "ExpDetail": "Matikan"
+    },
+    "t17010502": {
+        "ExpAdvice": "\"Bangunkan layar bila notifikasi diterima\" telah dinonaktifkan. Notifikasi mungkin tidak segera diterima\n  saat layar dikunci. Pertimbangkan untuk mengaktifkannya.",
+        "ExpDetail": "Matikan"
+    },
+    "t17010601": {
+        "ExpAdvice": "\"Kurangi masukan notifikasi\" aktif. Bila Anda menggunakan aplikasi dalam layar penuh (misalnya saat menonton video\n  atau memainkan game, atau dalam panggilan konferensi), bunyi notifikasi\n  menjadi lebih lembut dan getaran menjadi kurang kuat. Pertimbangkan untuk\n  mematikannya.",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17010701": {
+        "ExpAdvice": "\"Optimalisasi siaga tidur\" aktif. Ponsel Anda menghabiskan sedikit daya baterai dan\n  mengurangi notifikasi saat Anda tertidur. Pertimbangkan untuk mematikannya.",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17010801": {
+        "ExpAdvice": "\"Lencana ikon aplikasi\" telah dimatikan untuk beberapa aplikasi. Karena tidak ada lencana yang akan ditampilkan di\n  sudut kanan atas aplikasi itu, Anda mungkin akan melewatkan notifikasi\n  penting. Pertimbangkan untuk mengaktifkannya.",
+        "ExpDetail": "Matikan"
+    },
+    "t17020101": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Penghematan data\" telah diaktifkan untuk ponsel Anda. Itu berarti aplikasi latar belakang tidak akan menerima notifikasi. Untuk menerima notifikasi, masuklah ke \"Pengaturan - Kartu SIM &amp; data seluler - Penggunaan data - Penghematan data\" dan nonaktifkan sakelarnya.",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17020201": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Wi-Fi\" maupun \"Data seluler\" keduanya telah dimatikan untuk aplikasi %1. Itu berarti tidak ada notifikasi yang dapat diterima. Untuk mengaktifkan kedua sakelar, sentuh dan tahan ikon aplikasi serta masuklah ke \"Info aplikasi - Detail penggunaan data\".",
+        "ExpDetail": "Tidak diaktifkan untuk aplikasi"
+    },
+    "t17020301": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Data latar belakang\" telah dimatikan untuk aplikasi %1. Itu berarti aplikasi tidak akan menerima notifikasi saat berjalan di latar belakang. Untuk mengaktifkan sakelarnya, sentuh dan tahan ikon aplikasi serta masuklah ke \"Info aplikasi - Detail penggunaan data\".",
+        "ExpDetail": "Tidak diaktifkan untuk aplikasi"
+    },
+    "t17030101": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa notifikasi aplikasi dibatasi oleh pengaturan penggunaan daya untuk aplikasi %1. Untuk mengaktifkan \"Izinkan aktivitas latar depan\", sentuh dan tahan ikon aplikasi serta masuklah ke \"Info aplikasi - Penggunaan daya\".",
+        "ExpDetail": "Matikan"
+    },
+    "t17030201": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa notifikasi aplikasi dibatasi oleh pengaturan penggunaan daya untuk aplikasi %1. Untuk mengaktifkan \"Izinkan aktivitas latar belakang\", sentuh dan tahan ikon aplikasi serta masuklah ke \"Info aplikasi - Penggunaan daya\".",
+        "ExpDetail": "Matikan"
+    },
+    "t17030301": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa notifikasi aplikasi dibatasi oleh pengaturan penggunaan daya untuk aplikasi %1. Untuk mengaktifkan \"Izinkan buka otomatis\", sentuh dan tahan ikon aplikasi serta masuklah ke \"Info aplikasi - Penggunaan daya\".",
+        "ExpDetail": "Matikan"
+    },
+    "t17030401": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa notifikasi aplikasi dibatasi oleh pengaturan penggunaan daya untuk aplikasi %1. Untuk mengaktifkan \"Izinkan pembukaan terkait\", sentuh dan tahan ikon aplikasi serta masuklah ke \"Info aplikasi - Penggunaan daya\".",
+        "ExpDetail": "Matikan"
+    },
+    "t17040101": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Kunci aplikasi\" telah diatur aktif di ponsel Anda namun tidak dapat mendeteksi detail penguncian. Karena tidak ada pesan yang ditampilkan untuk aplikasi %1, masuklah ke \"Pengaturan - Privasi - Kunci aplikasi\" dan periksa apakah aplikasi telah dikunci.",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17040201": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Kunci aplikasi\" telah diatur aktif di ponsel Anda namun tidak dapat mendeteksi detail penguncian. Karena tidak ada pesan yang ditampilkan untuk aplikasi %1, masuklah ke \"Pengaturan - Privasi - Sembunyikan aplikasi\" dan periksa apakah aplikasi telah disembunyikan.",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17050101": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa ponsel Anda telah dibungkam. Itu berarti tidak ada nada pesan yang akan terdengar saat pesan masuk. Untuk membunyikan ponsel Anda, masuklah ke \"Pengaturan - Bunyi &amp; getaran - Bungkam\".",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17050201": {
+        "ExpAdvice": "Sistem telah mendeteksi bahwa \"Jangan Ganggu\" telah diaktifkan untuk ponsel Anda. Itu berarti Anda tidak akan diperingatkan saat pesan masuk. Untuk mematikan fungsi, masuklah ke \"Pengaturan - Bunyi &amp; getaran - Jangan Ganggu\".",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17050202": {
+        "ExpAdvice": "\"Jangan Ganggu\" telah diaktifkan. Karena Anda hanya akan mendapatkan notifikasi dari alarm, timer, dan acara kalender,\n  Anda mungkin melewatkan beberapa notifikasi dan pengingat lainnya. Sebaiknya\n  nonaktifkan notifikasi.",
+        "ExpDetail": "Aktifkan"
+    },
+    "t17060101": {
+        "ExpAdvice": "\"Pengganda Aplikasi\" telah dinonaktifkan untuk beberapa aplikasi, termasuk %1. Untuk beralih akun pada aplikasi yang\n  sama dengan mudah, cari \"Pengganda Aplikasi\" di Pengaturan dan\n  aktifkan fungsi ini.",
+        "ExpDetail": "Matikan"
+    },
+    "t17060201": {
+        "ExpAdvice": "\"Pengganda aplikasi\" telah diaktifkan untuk beberapa aplikasi. Walau demikian, \"Saat menggunakan fungsi\n  cepat\" telah diatur ke \"Buka aplikasi utama\". Pertimbangkan\n  untuk mengubahnya ke \"Selalu tanya\".",
+        "ExpDetail": "Matikan"
+    },
+    "t17060301": {
+        "ExpAdvice": "\"Perbaiki penampilan di panggilan video\" nonaktif, jadi pemercantik real-time tidak tersedia dalam panggilan video\n  WeChat. Pertimbangkan untuk mengaktifkannya.",
+        "ExpDetail": "Matikan"
+    },
+    "t26010101": {
+        "ExpAdvice": "Keadaan penggeser peringatan saat ini terdeteksi sebagai: senyap, berdering, dan bergetar, yang tidak cocok dengan posisi sakelar. Sebaiknya kalibrasi dan perbaiki perangkat.",
+        "ExpDetail": "Posisi sakelar dan keadaan tampilan tidak cocok"
+    },
+    "t26010102": {
+        "ExpAdvice": "Keadaan penggeser peringatan saat ini terdeteksi sebagai: senyap, berdering, dan bergetar. Sistem gagal mengenali semua keadaan setelah sakelar dialihkan. Sebaiknya kalibrasi dan perbaiki perangkat. Jika perbaikan gagal, ganti perangkat tersebut.",
+        "ExpDetail": "Tidak semua keadaan tampilan menyala"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lainnya"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Tidak dukung",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "Tidak dapat menganalisis karena data tidak cukup",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "Terjadi pengecualian, tidak ada hasil",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "Tidak ada hasil yang dikembalikan setelah waktu habis, tes lagi!",
+        "ExpDetail": "Gagal"
+    },
+    "t6": {
+        "ExpAdvice": "Terjadi pengecualian, tidak ada hasil",
+        "ExpDetail": "Gagal"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Aktifkan"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Matikan"
+    },
+    "t9": {
+        "ExpAdvice": "Semua aplikasi",
+        "ExpDetail": "Aktifkan"
+    },
+    "t05050109": {
+        "ExpDetail": "Kesalahan pita frekuensi seluler: %1",
+        "ExpAdvice": "1. Pastikan Anda tidak menyentuh ponsel selama pengetesan.&lt;br>2. Jika masalah berlanjut, ganti perangkat keras karena beberapa band frekuensi mungkin bermasalah."
+    },
+    "t05050110": {
+        "ExpDetail": "Kesalahan pita frekuensi satelit: %1",
+        "ExpAdvice": "1. Pastikan Anda tidak menyentuh ponsel selama pengetesan.&lt;br>2. Jika masalah berlanjut, ganti perangkat keras karena beberapa band frekuensi mungkin bermasalah."
+    },
+    "t05050111": {
+        "ExpDetail": "Kesalahan pita frekuensi seluler dan satelit: %1",
+        "ExpAdvice": "1. Pastikan Anda tidak menyentuh ponsel selama pengetesan.&lt;br>2. Jika masalah berlanjut, ganti perangkat keras karena beberapa band frekuensi mungkin bermasalah."
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diperbaiki",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gagal diperbaiki"
+    },
+    "t08040104": {
+        "ExpDetail": "Lainnya",
+        "ExpAdvice": ""
+    },
+    "t07110101": {
+        "ExpDetail": "Kesalahan sensor magnetik efek Hall",
+        "ExpAdvice": "Sebaiknya ganti sensor."
+    },
+    "t07010201": {
+        "ExpDetail": "Tekan kesalahan kontrol",
+        "ExpAdvice": "Periksa apakah konektor BTB terpasang pada tempatnya, apakah papan FPC modul rusak, dan apakah papan antena, motherboard, dan papan FPC berfungsi dengan baik."
+    },
+    "t22140101": {
+        "ExpDetail": "Kecepatan kipas tidak normal",
+        "ExpAdvice": "Kecepatan kipas tidak normal. Periksa hal berikut:\n1. Periksa dan bersihkan debu yang terkumpul dari bilah kipas.\n2. Jika masalah berlanjut setelah dibersihkan, ganti kipas.\n3. Jika masalah berlanjut setelah penggantian kipas, ganti motherboard."
+    },
+    "t08030501": {
+        "ExpDetail": "Volume suara kecil",
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat oleh abu atau cairan. Jika suaranya begitu rendah hingga hampir senyap, ganti mikrofon dan uji lagi."
+    },
+    "t08030504": {
+        "ExpDetail": "Lainnya",
+        "ExpAdvice": "Periksa apakah lubang mikrofon tersumbat oleh abu atau cairan. Jika suaranya begitu rendah hingga hampir senyap, ganti mikrofon dan uji lagi."
+    },
+    "t08030502": {
+        "ExpDetail": "Ada suara bising/ noise",
+        "ExpAdvice": "Ganti mikrofon dan uji lagi."
+    },
+    "t08030503": {
+        "ExpDetail": "Tidak ada suara",
+        "ExpAdvice": "Ganti mikrofon dan uji lagi."
+    }
+}

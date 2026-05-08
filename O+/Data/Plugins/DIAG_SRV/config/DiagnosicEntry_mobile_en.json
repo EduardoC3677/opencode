@@ -1,0 +1,2822 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "Tell the customer to update to the latest version which is more stable.",
+        "ExpDetail": "Update available: %1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "IMEI was changed or no IMEI was written after changing the motherboard. Restore the original IMEI and inform the customer that an illegal IMEI may result in network errors.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "Failed to start the test. Please confirm the SIM card has been removed.",
+        "ExpDetail": "SIM card not removed"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Number of times unlocked:%1<br>Unlock status:Unlocked"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Number of times unlocked:%1<br>Unlock status:Not unlocked"
+    },
+    "t01010101": {
+        "ExpAdvice": "May be caused by incompatibility between third-party apps and the system. It is recommended to flash the device to the latest version and update apps to the latest version. This is a software issue and is not linked to hardware.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "The phone may repeatedly restart when an exception occurs to the underlying software service of the Android system or when the CPU or RAM running is unstable. Fixing the issue as a hardware one is recommended.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "This is an app issue. If the app is a beta version, not an official version, or not the latest official version, download and install the latest version from App Market.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "This issue might occur when there are software compatibility issues or when the phone drops to the ground or is used in a high- or low- temperature environment. Please flash a new ROM and tell the customer to use the phone in a proper environment.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "The power supply to the phone is unstable. Fixing the issue as a hardware one is recommended.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "Change the fingerprint sensor module.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "Check with the customer if any button was pressed by accident.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "Check with the customer whether the phone failed to respond and was restarted using physical buttons.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "Cause: The CPU operates under high load for long periods of time, causing the phone to heat up. To prevent overheating, the CPU will protect itself probably at the price of reduced performance.<br> \nRecommendations: ① Turn off Power saving mode. ② Avoid the prolonged usage of the CPU under high load. ③ Cool down the phone by wiping its surface with alcohol or a wet tissue, and maintain good heat dissipation.",
+        "ExpDetail": "Top 5 apps with the most lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "Cause: Low CPU frequency may affect system performance, slowing down its processing speed and app response time. <br>\nRecommendations: ① Clean up background apps in a timely manner. ② Turn off Power saving mode. ③ Maintain good heat dissipation.",
+        "ExpDetail": "Top 5 apps with the most lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "Cause: The available storage falls below 10% due to too many apps running in the background.<br>\nRecommendations: ① Clean up background apps in a timely manner. ② Enable the RAM expansion function through \"Settings - System settings - RAM\" if the phone supports this function. ③ Restart the phone regularly.",
+        "ExpDetail": "Top 5 apps with the most lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "Cause: There is no room for app caches because of low storage. In this case, apps may lag, freeze, or crash. <br>\nRecommendations: Clean up storage with the phone's built-in Phone Manager by deleting unwanted photos, videos, and apps, or copy these items to a computer or USB drive.",
+        "ExpDetail": "Top 5 apps with the most lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "Cause: The OS version is not official and may become unstable.<br> \nRecommendations: Install the official version of the OS or wait for the beta version to update.",
+        "ExpDetail": "Top 5 apps with the most lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "Cause: The phone is installed with a third-party phone management app or system optimization app (such as Tencent Mobile Manager and 360 Mobile Safe). Such apps may cause the phone to lag. <br>\nRecommendations: Uninstall any third-party system optimization app and use the phone's built-in Phone Manager to optimize the phone.",
+        "ExpDetail": "Top 5 apps with the most lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "Cause: Magnification gestures have been enabled, which may cause some apps to lag.<br> \nRecommendations: Disable the magnification gestures function through \"Settings - Additional settings - Accessibility - Magnification gestures\".",
+        "ExpDetail": "Top 5 apps with the most lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "\n1. Confirm if diagnostic details are consistent with the user's description; if yes, ask the user to clear the cache of these apps and upgrade them to the latest versions. <br>\n2. Recommend that the user restart their phone.<br>\n3. Recommend that the user clean up their background apps in a timely manner.<br>\n4. Recommend that the user upgrade to the latest OS.<br>\n5. Obtain the user's logs about lagging and ask technicians for analysis.",
+        "ExpDetail": "Top 5 apps with the most lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "\n1. Confirm if diagnostic details are consistent with the user's description; if yes, ask the user to clear the cache of these apps and upgrade them to the latest versions. <br>\n2. Recommend that the user restart their phone.<br>\n3. Recommend that the user clean up their background apps in a timely manner.<br>\n4. Recommend that the user upgrade to the latest OS.<br>\n5. Obtain the user's logs about lagging and ask technicians for analysis.",
+        "ExpDetail": "Top 5 apps with highest RAM usage:<br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "Cause: The CPU operates under high load for long periods of time, causing the phone to heat up. To prevent overheating, the CPU will protect itself probably at the price of reduced performance.<br> \nRecommendations: ① Turn off Power saving mode. ② Avoid the prolonged usage of the CPU under high load. ③ Cool down the phone by wiping its surface with alcohol or a wet tissue, and maintain good heat dissipation.",
+        "ExpDetail": "Top 5 apps with the slowest startup:<br>%1<br>Top 5 causes for slow startup:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "Cause: Low CPU frequency may affect system performance, slowing down its processing speed and app response time. <br>\nRecommendations: ① Clean up background apps in a timely manner. ② Turn off Power saving mode. ③ Maintain good heat dissipation.",
+        "ExpDetail": "Top 5 apps with the slowest startup:<br>%1<br>Top 5 causes for slow startup:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "Cause: The available storage falls below 10% due to too many apps running in the background.<br>\nRecommendations: ① Clean up background apps in a timely manner. ② Enable the RAM expansion function through \"Settings - System settings - RAM\" if the phone supports this function. ③ Restart the phone regularly.",
+        "ExpDetail": "Top 5 apps with the slowest startup:<br>%1<br>Top 5 causes for slow startup:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "Cause: There is no room for app caches because of low storage. In this case, apps may lag, freeze, or crash. <br>\nRecommendations: Clean up storage with the phone's built-in Phone Manager by deleting unwanted photos, videos, and apps, or copy these items to a computer or USB drive.",
+        "ExpDetail": "Top 5 apps with the slowest startup:<br>%1<br>Top 5 causes for slow startup:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "Cause: The OS version is not official and may become unstable.<br> \nRecommendations: Install the official version of the OS or wait for the beta version to update.",
+        "ExpDetail": "Top 5 apps with the slowest startup:<br>%1<br>Top 5 causes for slow startup:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "Cause: The phone is installed with a third-party phone management app or system optimization app (such as Tencent Mobile Manager and 360 Mobile Safe). Such apps may cause the phone to lag. <br>\nRecommendations: Uninstall any third-party system optimization app and use the phone's built-in Phone Manager to optimize the phone.",
+        "ExpDetail": "Top 5 apps with the slowest startup:<br>%1<br>Top 5 causes for slow startup:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "Cause: Magnification gestures have been enabled, which may cause some apps to lag.<br> \nRecommendations: Disable the magnification gestures function through \"Settings - Additional settings - Accessibility - Magnification gestures\".",
+        "ExpDetail": "Top 5 apps with the slowest startup:<br>%1<br>Top 5 causes for slow startup:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "\n1. Confirm if diagnostic details are consistent with the user's description; if yes, ask the user to clear the cache of these apps and upgrade them to the latest versions. <br>\n2. Recommend that the user restart their phone.<br>\n3. Recommend that the user clean up their background apps in a timely manner.<br>\n4. Recommend that the user upgrade to the latest OS.<br>\n5. Obtain the user's logs about lagging and ask technicians for analysis.",
+        "ExpDetail": "Unknown cause",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "Cause: The available storage falls below 10% due to too many apps running in the background.<br>\nRecommendations: ① Clean up background apps in a timely manner. ② Enable the RAM expansion function through \"Settings - System settings - RAM\" if the phone supports this function. ③ Restart the phone regularly.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "Cause: There is no room for app caches because of low storage. In this case, apps may lag, freeze, or crash. <br>\nRecommendations: Clean up storage with the phone's built-in Phone Manager by deleting unwanted photos, videos, and apps, or copy these items to a computer or USB drive.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "Cause: The CPU operates under high load for long periods of time, causing the phone to heat up. To prevent overheating, the CPU will protect itself probably at the price of reduced performance.<br> \nRecommendations: ① Turn off Power saving mode. ② Avoid the prolonged usage of the CPU under high load. ③ Cool down the phone by wiping its surface with alcohol or a wet tissue, and maintain good heat dissipation.",
+        "ExpDetail": "Top 5 apps with the most interface lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "Cause: Low CPU frequency may affect system performance, slowing down its processing speed and app response time. <br>\nRecommendations: ① Clean up background apps in a timely manner. ② Turn off Power saving mode. ③ Maintain good heat dissipation.",
+        "ExpDetail": "Top 5 apps with the most interface lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "Cause: The available storage falls below 10% due to too many apps running in the background.<br>\nRecommendations: ① Clean up background apps in a timely manner. ② Enable the RAM expansion function through \"Settings - System settings - RAM\" if the phone supports this function. ③ Restart the phone regularly.",
+        "ExpDetail": "Top 5 apps with the most interface lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "Cause: There is no room for app caches because of low storage. In this case, apps may lag, freeze, or crash. <br>\nRecommendations: Clean up storage with the phone's built-in Phone Manager by deleting unwanted photos, videos, and apps, or copy these items to a computer or USB drive.",
+        "ExpDetail": "Top 5 apps with the most interface lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "Cause: The OS version is not official and may become unstable.<br> \nRecommendations: Install the official version of the OS or wait for the beta version to update.",
+        "ExpDetail": "Top 5 apps with the most interface lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "Cause: The phone is installed with a third-party phone management app or system optimization app (such as Tencent Mobile Manager and 360 Mobile Safe). Such apps may cause the phone to lag. <br>\nRecommendations: Uninstall any third-party system optimization app and use the phone's built-in Phone Manager to optimize the phone.",
+        "ExpDetail": "Top 5 apps with the most interface lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "Cause: Magnification gestures have been enabled, which may cause some apps to lag.<br> \nRecommendations: Disable the magnification gestures function through \"Settings - Additional settings - Accessibility - Magnification gestures\".",
+        "ExpDetail": "Top 5 apps with the most interface lag:<br>%1<br>Top 5 reasons for lag:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "\n1. Confirm if diagnostic details are consistent with the user's description; if yes, ask the user to clear the cache of these apps and upgrade them to the latest versions. <br>\n2. Recommend that the user restart their phone.<br>\n3. Recommend that the user clean up their background apps in a timely manner.<br>\n4. Recommend that the user upgrade to the latest OS.<br>\n5. Obtain the user's logs about lagging and ask technicians for analysis.",
+        "ExpDetail": "Unknown cause",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "Cause: Auto-launch apps have to take up system resources such as storage and CPU. Too many auto-launch apps will lead to insufficient system resources, affecting the speed and performance of other apps. <br>\nRecommendations: Close unwanted auto-launch apps through \"Settings - App management - Auto-launch apps\".",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "Cause: The CPU operates under high load for long periods of time, causing the phone to heat up. To prevent overheating, the CPU will protect itself probably at the price of reduced performance.<br> \nRecommendations: ① Turn off Power saving mode. ② Avoid the prolonged usage of the CPU under high load. ③ Cool down the phone by wiping its surface with alcohol or a wet tissue, and maintain good heat dissipation.",
+        "ExpDetail": "Top 5 apps with the slowest response:<br>%1<br>Top 5 reasons for slow responsiveness:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "Cause: Low CPU frequency may affect system performance, slowing down its processing speed and app response time. <br>\nRecommendations: ① Clean up background apps in a timely manner. ② Turn off Power saving mode. ③ Maintain good heat dissipation.",
+        "ExpDetail": "Top 5 apps with the slowest response:<br>%1<br>Top 5 reasons for slow responsiveness:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "Cause: The available storage falls below 10% due to too many apps running in the background.<br>\nRecommendations: ① Clean up background apps in a timely manner. ② Enable the RAM expansion function through \"Settings - System settings - RAM\" if the phone supports this function. ③ Restart the phone regularly.",
+        "ExpDetail": "Top 5 apps with the slowest response:<br>%1<br>Top 5 reasons for slow responsiveness:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "Cause: There is no room for app caches because of low storage. In this case, apps may lag, freeze, or crash. <br>\nRecommendations: Clean up storage with the phone's built-in Phone Manager by deleting unwanted photos, videos, and apps, or copy these items to a computer or USB drive.",
+        "ExpDetail": "Top 5 apps with the slowest response:<br>%1<br>Top 5 reasons for slow responsiveness:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "Cause: The OS version is not official and may become unstable.<br> \nRecommendations: Install the official version of the OS or wait for the beta version to update.",
+        "ExpDetail": "Top 5 apps with the slowest response:<br>%1<br>Top 5 reasons for slow responsiveness:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "Cause: The phone is installed with a third-party phone management app or system optimization app (such as Tencent Mobile Manager and 360 Mobile Safe). Such apps may cause the phone to lag. <br>\nRecommendations: Uninstall any third-party system optimization app and use the phone's built-in Phone Manager to optimize the phone.",
+        "ExpDetail": "Top 5 apps with the slowest response:<br>%1<br>Top 5 reasons for slow responsiveness:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "Cause: Magnification gestures have been enabled, which may cause some apps to lag.<br> \nRecommendations: Disable the magnification gestures function through \"Settings - Additional settings - Accessibility - Magnification gestures\".",
+        "ExpDetail": "Top 5 apps with the slowest response:<br>%1<br>Top 5 reasons for slow responsiveness:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "Cause: The CPU operates under high load for long periods of time, causing the phone to heat up. To prevent overheating, the CPU will protect itself probably at the price of reduced performance.<br> \nRecommendations: ① Turn off Power saving mode. ② Avoid the prolonged usage of the CPU under high load. ③ Cool down the phone by wiping its surface with alcohol or a wet tissue, and maintain good heat dissipation.",
+        "ExpDetail": "CPU overheating",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "Cause: Low CPU frequency may affect system performance, slowing down its processing speed and app response time. <br>\nRecommendations: ① Clean up background apps in a timely manner. ② Turn off Power saving mode. ③ Maintain good heat dissipation.",
+        "ExpDetail": "CPU frequency low",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "Cause: The available storage falls below 10% due to too many apps running in the background.<br>\nRecommendations: ① Clean up background apps in a timely manner. ② Enable the RAM expansion function through \"Settings - System settings - RAM\" if the phone supports this function. ③ Restart the phone regularly.",
+        "ExpDetail": "Low memory",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "Cause: There is no room for app caches because of low storage. In this case, apps may lag, freeze, or crash. <br>\nRecommendations: Clean up storage with the phone's built-in Phone Manager by deleting unwanted photos, videos, and apps, or copy these items to a computer or USB drive.",
+        "ExpDetail": "Low storage",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "Cause: The OS version is not official and may become unstable.<br> \nRecommendations: Install the official version of the OS or wait for the beta version to update.",
+        "ExpDetail": "Beta version",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "Cause: The phone is installed with a third-party phone management app or system optimization app (such as Tencent Mobile Manager and 360 Mobile Safe). Such apps may cause the phone to lag. <br>\nRecommendations: Uninstall any third-party system optimization app and use the phone's built-in Phone Manager to optimize the phone.",
+        "ExpDetail": "Performance-killing apps",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "Cause: Magnification gestures have been enabled, which may cause some apps to lag.<br> \nRecommendations: Disable the magnification gestures function through \"Settings - Additional settings - Accessibility - Magnification gestures\".",
+        "ExpDetail": "Magnification gesture enabled (developer option)",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "\n1. Confirm if diagnostic details are consistent with the user's description; if yes, ask the user to clear the cache of these apps and upgrade them to the latest versions. <br>\n2. Recommend that the user restart their phone.<br>\n3. Recommend that the user clean up their background apps in a timely manner.<br>\n4. Recommend that the user upgrade to the latest OS.<br>\n5. Obtain the user's logs about lagging and ask technicians for analysis.",
+        "ExpDetail": "Unknown cause",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "Reasons for slow response when waking up or turning off screen",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "Cause: The CPU operates under high load for long periods of time, causing the phone to heat up. To prevent overheating, the CPU will protect itself probably at the price of reduced performance.<br> \nRecommendations: ① Turn off Power saving mode. ② Avoid the prolonged usage of the CPU under high load. ③ Cool down the phone by wiping its surface with alcohol or a wet tissue, and maintain good heat dissipation.",
+        "ExpDetail": "CPU overheating",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "Cause: Low CPU frequency may affect system performance, slowing down its processing speed and app response time. <br>\nRecommendations: ① Clean up background apps in a timely manner. ② Turn off Power saving mode. ③ Maintain good heat dissipation.",
+        "ExpDetail": "CPU frequency low",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "Cause: The available storage falls below 10% due to too many apps running in the background.<br>\nRecommendations: ① Clean up background apps in a timely manner. ② Enable the RAM expansion function through \"Settings - System settings - RAM\" if the phone supports this function. ③ Restart the phone regularly.",
+        "ExpDetail": "Low memory",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "Cause: There is no room for app caches because of low storage. In this case, apps may lag, freeze, or crash. <br>\nRecommendations: Clean up storage with the phone's built-in Phone Manager by deleting unwanted photos, videos, and apps, or copy these items to a computer or USB drive.",
+        "ExpDetail": "Low storage",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "Cause: The OS version is not official and may become unstable.<br> \nRecommendations: Install the official version of the OS or wait for the beta version to update.",
+        "ExpDetail": "Beta version",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "Cause: The phone is installed with a third-party phone management app or system optimization app (such as Tencent Mobile Manager and 360 Mobile Safe). Such apps may cause the phone to lag. <br>\nRecommendations: Uninstall any third-party system optimization app and use the phone's built-in Phone Manager to optimize the phone.",
+        "ExpDetail": "Performance-killing apps",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "Cause: Too many apps may lead to insufficient storage, reducing the phone's performance and causing slow responses and lags. \nRecommendations: Uninstall unnecessary apps and clean up the device regularly to maintain its optimal performance.",
+        "ExpDetail": "Too many third party apps",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "Cause: Auto-launch apps have to take up system resources such as storage and CPU. Too many auto-launch apps will lead to insufficient system resources, affecting the speed and performance of other apps. <br>\nRecommendations: Close unwanted auto-launch apps through \"Settings - App management - Auto-launch apps\".",
+        "ExpDetail": "Too many auto-launch apps",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "\n1. Confirm if diagnostic details are consistent with the user's description; if yes, ask the user to clear the cache of these apps and upgrade them to the latest versions. <br>\n2. Recommend that the user restart their phone.<br>\n3. Recommend that the user clean up their background apps in a timely manner.<br>\n4. Recommend that the user upgrade to the latest OS.<br>\n5. Obtain the user's logs about lagging and ask technicians for analysis.",
+        "ExpDetail": "Unknown cause",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Reasons for delay in phone startup:",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "CPU load too high on the phone. Close apps running in the background.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "CPU load too high on the phone. Close apps running in the background.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "CPU load too high on the phone. Close apps running in the background.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "CPU load too high on the phone. Close apps running in the background.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "CPU load too high on the phone. Close apps running in the background.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "The phone is overheated. Ask the user to clean up background apps and leave the phone for 5 minutes.",
+        "ExpDetail": "Camera is slow to start – overheating",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "Low available storage. Check the number of background apps and ask the user to clean up the apps.",
+        "ExpDetail": "Camera is slow to start – low storage",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "Load too high. Ask the user to clean up background apps.",
+        "ExpDetail": "Camera is slow to start – high load",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "Ask the user to restart the phone and try again.",
+        "ExpDetail": "Camera crashes – session dump triggered",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "The phone is overheated. Ask the user to clean up background apps and leave the phone for 5 minutes.",
+        "ExpDetail": "Camera heats up – phone already overheats before the camera starts",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "This problem is caused by prolonged camera usage. Ask the user to reduce prolonged camera usage.",
+        "ExpDetail": "Camera heats up – camera overheating",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "The phone is overheated. Ask the user to clean up background apps and leave the phone for 5 minutes.",
+        "ExpDetail": "Camera preview lags – frequency limited due to overheating",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "Low available storage. Check the number of background apps and ask the user to clean up the apps.",
+        "ExpDetail": "Camera preview lags – low storage",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "Ask the user to move to a brighter environment.",
+        "ExpDetail": "Camera preview lags – reduced frame rate in dark environments",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "The camera is too close to the subject. Ask the user to keep a distance from the subject.",
+        "ExpDetail": "Camera blurs during photo preview – out of focus",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "The phone is overheated. Ask the user to clean up background apps and leave the phone for 5 minutes.",
+        "ExpDetail": "Camera lags during photo preview – frequency limited due to overheating",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "Low available storage. Check the number of background apps and ask the user to clean up the apps.",
+        "ExpDetail": "Camera lags during photo taking – low storage",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "The camera is too close to the subject. Ask the user to keep a distance from the subject.",
+        "ExpDetail": "Photos taken by the camera are blurry",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "Ask the user to clean up background apps and restart the camera.",
+        "ExpDetail": "Screen turns black during photo taking – low storage",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "Ask the after-sales service worker to capture recording logs, and send them back with the algorithm error code.",
+        "ExpDetail": "Screen turns blurry during photo taking – algorithm error code: %1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "The phone is overheated. Ask the user to clean up background apps and leave the phone for 5 minutes.",
+        "ExpDetail": "Cannot take photos – overheating",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "Ask the user to clean up background apps and restart the camera.",
+        "ExpDetail": "Cannot take photos – low storage",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "Ask the user to clean up background apps and restart the camera.",
+        "ExpDetail": "Unable to take photos – sound resources not loaded",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "The phone is overheated. Ask the user to clean up background apps and leave the phone for 5 minutes.",
+        "ExpDetail": "Recorded video lags during preview – frequency limited due to overheating",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "Low available storage. Check the number of background apps and ask the user to clean up the apps.",
+        "ExpDetail": "Recorded video lags during preview – low storage",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "The phone is overheated. Ask the user to clean up background apps and leave the phone for 5 minutes.",
+        "ExpDetail": "Delay in photo taking – overheating",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "Low available storage. Check the number of background apps and ask the user to clean up the apps.",
+        "ExpDetail": "Delay in photo taking – low storage",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "Load too high. Ask the user to clean up background apps.",
+        "ExpDetail": "Delay in photo taking – high load",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "The phone is overheated. Ask the user to clean up background apps and leave the phone for 5 minutes.",
+        "ExpDetail": "Timed out when saving a recording file – overheating",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "Low available storage. Check the number of background apps and ask the user to clean up the apps.",
+        "ExpDetail": "Timed out when saving a recording file – low storage",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "Load too high. Ask the user to clean up background apps.",
+        "ExpDetail": "Timed out when saving a recording file – high load",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "Not related to network issues",
+        "ExpDetail": "Occurrences of playback failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "Your system is slow. Close apps running in the background or restart your device.",
+        "ExpDetail": "Occurrences of playback failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem, send them to the developer for analysis, and replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of playback failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem, send them to the developer for analysis, and replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of playback failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem and send them to the developer for analysis. If playback via the speaker is abnormal, check whether playback works via earphones. If so, replace the speaker. If the same issue occurs, replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of playback failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem, send them to the developer for analysis, and replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of playback failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem, send them to the developer for analysis, and replace the speaker. If the problem persists, replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of playback failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "Capture and save audio logs that reproduce the problem and send them to the developer for analysis, and update to the latest version. If the problem persists, replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of playback failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "Not related to network issues",
+        "ExpDetail": "Occurrences of recording failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "Your system is slow. Close apps running in the background or restart your device.",
+        "ExpDetail": "Occurrences of recording failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem, send them to the developer for analysis, and replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of recording failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem and send them to the developer for analysis. Check whether recording with earphones is normal. If so, replace the phone's microphone. If the same issue occurs, replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of recording failure, lag, or audio loss: %1",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "Caused by network issues. Check the network connection.",
+        "ExpDetail": "Occurrences of playback failure or lag: %1",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "Not related to the network. Check app settings.",
+        "ExpDetail": "Occurrences of playback failure or lag: %1",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "For issue types that cannot be automatically analyzed, it is recommended that you use the latest version available in App Market or clear the app cache and data and try again.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "Caused by this app itself.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "For issue types that cannot be automatically analyzed, it is recommended that you use the latest version available in App Market or clear the app cache and data and try again.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "The app was not downloaded from the official App Market. It is recommended that you download the app from the official App Market.",
+        "ExpDetail": "Total occurrences: %1 (for reference)",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "The app was not downloaded from the official App Market. It is recommended that you download the app from the official App Market.",
+        "ExpDetail": "Total occurrences: %1 (for reference)",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "Some third party applications may appear abnormal in use, including (%1), it is recommended to update to the latest version",
+        "ExpDetail": "1、Compatibility exception；<br>2、32 bit application",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Occurrences of voice or video call failure, lag, or audio loss on third-party apps: %1",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "Not related to network issues",
+        "ExpDetail": "Occurrences of voice or video call failure, lag, or audio loss on third-party apps: %1",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "Troubleshoot components related to audio playback and recording (e.g. speaker and microphone)",
+        "ExpDetail": "Occurrences of voice or video call failure, lag, or audio loss on third-party apps: %1",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "Your system is slow. Close apps running in the background or restart your device.",
+        "ExpDetail": "Occurrences of voice or video call failure, lag, or audio loss on third-party apps: %1",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem, send them to the developer for analysis, and replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of voice or video call failure, lag, or audio loss on third-party apps: %1",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, capture and save audio logs that reproduce the problem, send them to the developer for analysis, and replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of voice or video call failure, lag, or audio loss on third-party apps: %1",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "Capture and save audio logs that reproduce the problem, send them to the developer for analysis, and update to the latest version. If the problem persists, replace the motherboard for cross validation.",
+        "ExpDetail": "Occurrences of voice or video call failure, lag, or audio loss on third-party apps: %1",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "Try another network. If the issue still exists, capture and send an audio log and a network log to the developer for analysis.",
+        "ExpDetail": "%1 instances of silent WeChat calls due to network errors",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. If the issue occurs in similar locations, compare your phone with other phones of the same carrier. If these phones have the same issue, contact the carrier to deal with it.<br>2. If the issue occurs at similar times, check if you are in a basement, garage, densely populated area, or running car, where the signal can be poor.<br>3. If WeChat has prompted that your or the other party's network is unstable during the calls, the image is blurred due to strategies designed by WeChat.",
+        "ExpDetail": "%1 instances of blurred WeChat video calls due to network errors",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. Please update the WeChat app and then restart your phone and the app.<br> 2. If WeChat has prompted that the other party's network is unstable during calls, the image is blurred because the other party's phone is connected to a poor network.",
+        "ExpDetail": "WeChat video calls have been blurred due to% 1 network exceptions",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "Tell the customer not to use their phone while it is charging.",
+        "ExpDetail": "Prolonged usage of phone while charging: %1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "Tell the customer not to charge their phone in the cold.",
+        "ExpDetail": "Charging slows down to protect the battery as the ambient temperature is too low: %1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "Charging slowly. Use the charger and cable that come with the device for faster charging.",
+        "ExpDetail": "USB charging: %1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "Charging is slower at higher battery levels to preserve battery health.",
+        "ExpDetail": "Trickle charging leads to slow charging speed as the initial battery level is too high: %1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "The adapter uses a higher voltage than the device is designed for. Use the correct charger.",
+        "ExpDetail": "Adapter voltage too high: %1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "Loose battery connection detected. Check the battery and BTB connectors.",
+        "ExpDetail": "Poor battery contact: %1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "Battery not authorized. Use a genuine battery from the device manufacturer.",
+        "ExpDetail": "Non-genuine battery: %1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "Device temperature too low. Charging will pause before your battery is full to keep it in good condition.",
+        "ExpDetail": "Unable to fully charge due to low temperature: %1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "Unplug and replug the charging cable to continue charging",
+        "ExpDetail": "Prolonged continuous charging: %1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "The adapter uses a higher voltage than the device is designed for. Use the correct charger.",
+        "ExpDetail": "Adapter voltage too high: %1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "Device temperature too high. Charging is paused for your safety.",
+        "ExpDetail": "Charging stops due to high temperature: %1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "Device temperature too high. For your safety, battery will not be charged to full capacity.",
+        "ExpDetail": "Unable to fully charge due to high temperature: %1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "Device temperature too low. Charging is paused to protect the battery.",
+        "ExpDetail": "Charging stops due to low temperature: %1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "Fully charged: %1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "Try a different adapter, cable or the device to find out which one causes the issue. If the issue is caused by the cable or adapter, replace the faulty accessory. If it's caused by the device, try to reconnect the BTB connectors for the battery and the USB port. If the issue persists, return to the factory for repair. Update the software if it's not a hardware issue.",
+        "ExpDetail": "Unable to charge: %1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "Try a different adapter, cable or the device to find out which one causes the issue. If the issue is caused by the cable or adapter, replace the faulty accessory. If it's caused by the device, try to reconnect the BTB connectors for the battery and the USB port. If the issue persists, return to the factory for repair. Update the software if it's not a hardware issue.",
+        "ExpDetail": "Intermittent charging: %1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "Calibrate the battery at room temperature: Keep the device plugged in for 2 hours after it's fully charged.",
+        "ExpDetail": "Rapid change in voltmeter reading: %1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "Calibrate the battery at room temperature: Keep the device plugged in for 2 hours after it's fully charged.",
+        "ExpDetail": "Rapid change in voltmeter reading: %1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "Calibrate the battery at room temperature: Keep the device plugged in for 2 hours after it's fully charged.",
+        "ExpDetail": "Rapid change in voltmeter reading: %1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "Use a genuine battery",
+        "ExpDetail": "Charging slows down due to a non-genuine battery: %1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "Use a genuine adapter",
+        "ExpDetail": "Charging slows down due to a non-genuine adapter: %1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "Check if the cable is aging. Try another cable.",
+        "ExpDetail": "Charging slows down due to cable issues: %1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "Check if the fast charging adapter is working. Try another adapter.",
+        "ExpDetail": "Charging slows down as flash charging is not used: %1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "Use a genuine adapter",
+        "ExpDetail": "Charging slows down due to a non-genuine maximum power adapter: %1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "Make sure your device is at room temperature before charging",
+        "ExpDetail": "Charging slows down to protect the battery as the phone temperature is too low: %1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "Make sure your device is at room temperature before charging",
+        "ExpDetail": "Charging slows down to protect the battery as the phone temperature is too high: %1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "Charge the device at a suitable temperature",
+        "ExpDetail": "Charging slows down as the battery temperature is too high/low: %1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "Use a genuine adapter",
+        "ExpDetail": "Charging slows down as the phone is connected to the PC via USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "Don't use the phone while charging",
+        "ExpDetail": "Charging slows down as the phone power usage is too high: %1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "Check if the port is dusted or if it has poor contact. If the port is fine, check the adapter, cable and the USB PCB.",
+        "ExpDetail": "Charging slows down due to abnormal current: %1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "Don't use the phone while charging",
+        "ExpDetail": "Charging slows down as the screen is turned on for too long: %1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "Don't use the phone while charging",
+        "ExpDetail": "Charging slows down as the camera is used for too long: %1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "Don't use the phone while charging",
+        "ExpDetail": "Charging slows down due to prolonged phone calls: %1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "Don't use the phone while charging",
+        "ExpDetail": "Temperature or power usage stays too high for too long: %1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "Tell the customer to charge their phone with the screen off in an environment with a temperature of 15℃ to 35℃. After the phone is fully charged, do not use the phone and keep it connected to the charger for 2 hours to calibrate the coulomb counter.",
+        "ExpDetail": "Battery capacity display error: %1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "Tell the customer to charge their phone with the screen off in an environment with a temperature of 15℃ to 35℃. After the phone is fully charged, do not use the phone and keep it connected to the charger for 2 hours to calibrate the coulomb counter.",
+        "ExpDetail": "Battery capacity display error: %1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "Tell the customer to charge their phone with the screen off in an environment with a temperature of 15℃ to 35℃. After the phone is fully charged, do not use the phone and keep it connected to the charger for 2 hours to calibrate the coulomb counter.",
+        "ExpDetail": "Battery capacity display error: %1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "Tell the customer to charge their phone with the screen off in an environment with a temperature of 15℃ to 35℃. After the phone is fully charged, do not use the phone and keep it connected to the charger for 2 hours to calibrate the coulomb counter.",
+        "ExpDetail": "Battery capacity display error: %1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "Tell the customer to charge their phone with the screen off in an environment with a temperature of 15℃ to 35℃. Charging the phone in places with a high ambient temperature or playing large games while charging will cause the phone to heat up. When its temperature rises to 38℃ or higher, the system will automatically reduce the charging current and speed.",
+        "ExpDetail": "Battery overheated: %1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "Tell the customer to charge their phone in an environment with a temperature of 15℃ to 35℃. If the ambient temperature is below 15℃, the protection mechanism will be triggered to reduce the charging current and speed.",
+        "ExpDetail": "Low battery temperature: %1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1. Make the phone enter the engineering mode and check whether the charging current is normal (889 - Device debug - Charging test).<br>2. If the charging current is normal, this issue is probably caused by high power consumption (such as when playing large games).",
+        "ExpDetail": "Slow charging speed due to low current: %1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1. Check with the customer whether they charged their phone via a PC. If so, tell them to use a genuine adapter to charge the phone instead. <br>2. If not, check whether the charging cable is damaged or in poor contact.",
+        "ExpDetail": "Charging via a PC: %1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1. Use a genuine adapter and a genuine charging cable alternatively for verification. <br>2. If flash charging is available, tell the customer to charge using a genuine adapter. <br>3. If the issue persists, check the charging circuit in the charging port of the phone.",
+        "ExpDetail": "Flash charging fails to work: %1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1. This issue is caused by charging using a non-genuine adapter. <br>2. Tell the customer to charge using a genuine adapter.",
+        "ExpDetail": "Non-genuine adapter: %1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "Tell the customer to charge their phone in an environment with a temperature of 15℃ to 35℃ and not to play large games while charging. Playing large games while charging will cause the phone to heat up. When its temperature rises to 38℃ or higher, the system will automatically reduce the charging current and speed.",
+        "ExpDetail": "Slow charging speed due to temperature control or high current: %1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "Too many apps are running in the background. Tell the customer to close background tasks that are not in use.",
+        "ExpDetail": "Slow charging speed due to high system power usage: %1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "Tell the customer not to play games while charging as this will reduce the charging current.",
+        "ExpDetail": "Slow charging speed due to using while charging: %1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1. Use a genuine adapter and a genuine charging cable alternatively for verification. <br>2. If flash charging is available, tell the customer to charge using a genuine adapter. <br>3.If the issue persists, check the charging circuit in the charging port of the phone.",
+        "ExpDetail": "Intermittent charging when using VOOC: %1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1. Use a genuine adapter and a genuine charging cable alternatively for verification. <br>2. If the issue is resolved, tell the customer to charge using a genuine adapter. <br>3. If the issue persists, check the charging circuit in the charging port of the phone.",
+        "ExpDetail": "Intermittent charging when using a general charger: %1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1. Charge the phone with an adapter to see if there is any prompt indicating that the battery is not genuine. <br>2. Disassemble the phone and check whether the battery is a genuine one or whether it is properly installed.",
+        "ExpDetail": "Improper installation of the battery or using a non-genuine battery: %1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "If there is an error indicating that no current is generated in the charging circuit, check the USB interface and the charging hardware module.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "Please check:<br>1. Whether the phone is fully charged.<br>2. The charging current detected by the computer is relatively low. Please check if the phone is draining battery.",
+        "ExpDetail": "Test failed",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='Excellent';}else if(result>=excellent){resultText+='Good';}else{resultText+='Poor';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Excellent：'+good+'-100%，Good：'+excellent+'-'+good+'%，Poor：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1.When the battery capacity drops, the phone's battery life will shorten. You can choose to replace the battery.<br>2. Try to charge the phone as soon as you notice the battery becomes low to maximize battery lifespan.",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = 'Fail:';if(result>=good){resultText+='Excellent';}else if(result>excellent){resultText+='Good';}else{resultText+='Poor';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Excellent：'+good+'-100%，Good：'+excellent+'-'+good+'%，Poor：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a.It is recommended to ask the local carrier or local network optimizer to perform a field test.<br>b. Turn on Airplane mode while on standby to prevent power consumption due to network instability.",
+        "ExpDetail": "Frequent disconnections and reconnections of cellular data due to complex/poor network environment",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a.It is recommended to ask the local carrier or local network optimizer to perform a field test.<br>b. Turn on Airplane mode while on standby to prevent power consumption due to network instability.",
+        "ExpDetail": "No service due to weak network signal",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a.It is recommended to ask the local carrier or local network optimizer to perform a field test.<br>b. Turn on Airplane mode while on standby to prevent power consumption due to network instability.",
+        "ExpDetail": "Cell reselection due to complex network environment/poor signal",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a.It is recommended to ask the local carrier or local network optimizer to perform a field test.<br>b. Turn on Airplane mode while on standby to prevent power consumption due to network instability.",
+        "ExpDetail": "Frequent CPU operations due to complex network environment/unstable signal",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a.It is recommended to ask the local carrier or local network optimizer to perform a field test.<br>b. Turn on Airplane mode while on standby to prevent power consumption due to network instability.",
+        "ExpDetail": "Frequent modem operations due to complex network environment/unstable signal",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a.It is recommended to ask the local carrier or local network optimizer to perform a field test.<br>b. Turn on Airplane mode while on standby to prevent power consumption due to network instability.",
+        "ExpDetail": "Modem fails to enter sleep mode due to complex network environment/unstable signal",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.",
+        "ExpDetail": "Wi-Fi constantly awakens the CPU to receive app messages",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. It is recommended to turn off mobile network connections while on standby to prevent frequent wakeup of the CPU.<br>b. Connect to Wi-Fi while on standby.<br>c. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.",
+        "ExpDetail": "Modem constantly awakens the CPU to receive app messages",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. It is recommended to turn off mobile network connections while on standby to prevent frequent wakeup of the CPU.<br>b. Connect to Wi-Fi while on standby.<br>c. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.",
+        "ExpDetail": "Constant modem operation due to frequent app messages",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "a. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>b. Delete unnecessary apps regularly. Downloading apps from the built-in app market is recommended.",
+        "ExpDetail": "Frequent background app activities keep awaking the CPU",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "a. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>b. Delete unnecessary apps regularly. Downloading apps from the built-in app market is recommended.",
+        "ExpDetail": "Frequent background app activities keep the CPU working for too long",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. It is recommended to use the 5 GHz Wi-Fi bandwidth.<br>b. Turn off Wi-Fi while on standby or turn off the \"Scanning always available\" in Wi-Fi settings page.",
+        "ExpDetail": "Mutual interference between 4G, 2.4G, and Wi-Fi signals due to complex network environment",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. The Wi-Fi environment is poor. Connect to a better Wi-Fi connection.<br>b. Using mobile network is recommended.<br>c. Turn off Wi-Fi while on standby.",
+        "ExpDetail": "Frequent Wi-Fi scanning",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. The Wi-Fi environment is poor. Connect to a better Wi-Fi connection.<br>b. Using mobile network is recommended.<br>c. Turn off Wi-Fi while on standby.",
+        "ExpDetail": "Wi-Fi IP renewal",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. The Wi-Fi environment is poor. Connect to a better Wi-Fi connection.<br>b. Using mobile network is recommended.<br>c. Turn off Wi-Fi while on standby.",
+        "ExpDetail": "Wi-Fi multicast key update",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. The Wi-Fi environment is poor. Connect to a better Wi-Fi connection.<br>b. Using mobile network is recommended.<br>c. Turn off Wi-Fi while on standby.",
+        "ExpDetail": "Wi-Fi frequently disconnects and reconnects due to poor Wi-Fi environment",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "Use a DC power supply to detect whether the standby current is normal.",
+        "ExpDetail": "Possible hardware power leakage",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "SMS retransmission",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Auto time sync via network",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Audio and sensor subsystem error",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Frequent wake-ups of audio and sensor subsystem",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Modem constantly awakens the CPU to receive app messages",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Frequent wake-ups of underlying alarm",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Kernel keeps working for too long",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Sensors awaken the CPU frequently",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Frequent wake-ups of coulomb counter",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. Turn off the mobile network and Wi-Fi connections while on standby to prevent frequent wakeup of the CPU.<br>b. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>c. Regularly delete unnecessary apps. Downloading apps from OPPO App Market is recommended.",
+        "ExpDetail": "Unknown cause",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "It is normal if your device consumes a lot of power after playing music for a long time.",
+        "ExpDetail": "Background music",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. Check if any software is being downloaded in the background. b. Check if auto sync, cloud services, and other functions are turned on.",
+        "ExpDetail": "Downloads",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "Using a Wi-Fi hotspot will increase the power consumption of the phone. Turn it off when it is not in use.",
+        "ExpDetail": "User turns on Wi-Fi hotspot",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "Based on your usage habits, your phone battery can last about %1, %2 with the screen on, and %3 with the screen off. Tap to view more battery details.",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "Turn on auto brightness and avoid using your phone under strong light for a long time.",
+        "ExpDetail": "Fast power consumption due to high brightness",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "a. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>b. Delete unnecessary apps regularly. Downloading apps from the built-in app market is recommended.",
+        "ExpDetail": "Battery is draining fast as apps keep using CPU. Top 5 apps using CPU: %1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "a. Close background apps regularly. Tap \"Close all\" in the Recents screen before putting the device on standby.<br>b. Delete unnecessary apps regularly. Downloading apps from the built-in app market is recommended.",
+        "ExpDetail": "Fast power consumption at standby due to high current",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "The customer has been using their phone at a high screen brightness level for extended periods of time. Tell them to lower the brightness when using the phone.",
+        "ExpDetail": "Prolonged high screen brightness",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "The customer has been using their phone at a high refresh rate for extended periods of time. Tell them to choose &amp;quot;Standard&amp;quot; in &amp;quot;Settings - Display &amp;amp; brightness - More - Screen refresh rate&amp;quot;. Note: This may make the screen less smooth.",
+        "ExpDetail": "Prolonged high refresh rate",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "The customer has been using their phone at a high resolution for extended periods of time. Tell them to choose &amp;quot;Auto select&amp;quot; in &amp;quot;Settings - Display &amp;amp; brightness - More - Screen resolution&amp;quot;. This may make onscreen content less clear.",
+        "ExpDetail": "Prolonged high resolution",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "The CPU usage has been high due to the %1 app. Tell the customer to reduce the use of %2.",
+        "ExpDetail": "Prolonged high CPU usage",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "The %1 app has used the CPU for %2 hours. Check with the customer whether they need to keep this app running all the time.",
+        "ExpDetail": "Prolonged app usage",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "The customer has been using their phone at a high sound volume for extended periods of time. A high volume can hurt the hearing and drain the battery. Tell the customer to turn down the volume.",
+        "ExpDetail": "Prolonged high sound volume",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "The phone frequently loses signal. Tell the customer to contact their mobile carrier.",
+        "ExpDetail": "No service constantly",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "The phone constantly searches for networks. Tell the customer to contact their mobile carrier.",
+        "ExpDetail": "Constantly searching for network",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "You have used a lot of mobile data. You can download files over Wi-Fi to extend battery life.",
+        "ExpDetail": "High mobile data usage",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "You used %1 GB of data over Wi-Fi over the last 24 hours. You may want to review your data usage.",
+        "ExpDetail": "High Wi-Fi data usage",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "The %1 app is draining the battery. Please report the issue to the app developer.",
+        "ExpDetail": "Battery-draining app",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "The %1 app has been running for %2 hours. You may want to cut back your usage of this app.",
+        "ExpDetail": "Prolonged app usage",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "The %1 app keeps running in the background. You can close the app when you no longer use it.",
+        "ExpDetail": "App keeps running in the background",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "The %1 app keeps waking up the phone. You can close the app before locking your device.",
+        "ExpDetail": "App keeps waking up phone",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "The %1 app keeps using the CPU when the screen is off. You can close the app before locking your device.",
+        "ExpDetail": "App keeps using CPU when screen is off",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "The %1 app keeps using the network when the screen is off. You can close the app before locking your device.",
+        "ExpDetail": "App keeps using the network when screen is off",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "When the phone is flash charging, its charger will transform high voltage into low voltage. During this time, there will be a large amount of energy conversion, thereby causing heat. We recommend charging the phone in an environment with good heat dissipation.",
+        "ExpDetail": "Phone charging",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "Using the flash for a long time generates heat. Do not use the flash for a long period to avoid damage to the flash.",
+        "ExpDetail": "Flash on",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "Prolonged high-brightness usage. Reduce the screen brightness or set it to auto brightness.",
+        "ExpDetail": "Backlight too strong",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "The phone heats up due to poor network signal. In a location with poor signal, the phone antenna has to increase its power to search for signals in a wider area, thereby generating more heat. Go to \"Settings - Mobile network - More settings\" and enable Smart 5G. If you cannot determine the current signal status, consult the local network carrier.",
+        "ExpDetail": "Poor phone signal",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "The phone heats up due to poor network signal. In a location with poor signal, the phone antenna has to increase its power to search for signals in a wider area, thereby generating more heat. If you cannot determine the current signal status, consult the local network carrier.",
+        "ExpDetail": "Poor phone network signal",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "The phone heats up because background app %1 occupies too much CPU. If Wi-Fi, GPS, NFC, Bluetooth and other functions are turned on at the same time to search for signals in the background, the phone will get hotter. It is recommended to clear background apps and turn off unused functions. You may clear background apps or restart the phone.",
+        "ExpDetail": "Background app %1 using excessive CPU",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "%1 is a high-load app, which takes up much CPU and causes the phone to heat up. Avoid prolonged heavy phone usage. Wait until it cools down to avoid damage to its components.",
+        "ExpDetail": "Foreground app %1 using excessive CPU",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "The phone's GPS is in use. The phone may get hot if it searches for and sends satellite signals for an extend period of time to update location information.<br>Check with the user whether they have turned on navigation or any third-party location-based app is automatically obtaining location information.",
+        "ExpDetail": "Constant GPS positioning",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "The phone heats up because some apps run concurrently in the background. It is recommended to regularly clear background caches.<br>① Please check if any software is being downloaded in the background.<br>② Check if sync, Cloud Service, and other functions are turned on.",
+        "ExpDetail": "Background %1 sync",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "The phone heats up because the app %1 runs concurrently in the background. It is recommended to regularly clear background caches.<br>① Please check if any software is being downloaded in the background.<br>② Check if sync, Cloud Service, and other functions are turned on.",
+        "ExpDetail": "Background %1 sync",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "Lengthy call detected The buildup of heat is normal when the phone is on a prolonged call as the phone's signal antenna, microphone, and speaker continue working during the call.<br> For tips on how to cool a phone down, please refer to the knowledge base \"Phone heats up during phone calls\".",
+        "ExpDetail": "Phone always on call",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "Prolonged/frequent camera usage detected When taking pictures or videos, the camera, CPU, GPU, and other devices of the mobile phone will work at the same time, and the mobile phone is running under high load, which will cause the temperature of the mobile phone to rise.<br> For tips on how to cool a phone down when using its camera, please refer to the knowledge base \"Phone heats up when taking photos and videos\".",
+        "ExpDetail": "Camera app is running",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "Ask the user not to use the phone in a high temperature environment and use a DC power supply to check the phone for power leakage.",
+        "ExpDetail": "Heating caused by the environment or hardware",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "Please ask the user on how the phone is used, and use that in combination with the power-consuming apps and power consumption diagnosis to investigate the issue. If nothing is abnormal, advise the user to check the phone for power leakage at a service center.",
+        "ExpDetail": "Unknown cause",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "%1-day maximum temperature: %2℃. Time of occurrence: %3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "The phone heats up because it is used while being charged. It is normal for batteries or chargers to heat up while charging, and using your phone while charging will generate even more heat.",
+        "ExpDetail": "Overheating caused by using while charging",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "Heat generation during charging is normal. It is recommended that you charge your phone in a well-ventilated place, where heat gets dissipated easily. Do not charge your phone on a sofa, on clothes, or in the sun.",
+        "ExpDetail": "Overheating while charging (Screen on when charging: %1; Foreground app when charging: %2)",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "The phone heats up significantly when playing the game %1. During gaming, chips such as the CPU and GPU of your phone have to run at high performance to ensure picture quality and fluency. Such a heavy load will cause the phone to get hotter. To improve this issue, lower settings (resolution and frame rate), reduce screen brightness, and turn down the volume for games.",
+        "ExpDetail": "Overheating during gameplay (Game: %1; Image quality: %2; Resolution: %3; Gaming mode: %4)",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "The phone heats up because you play games while charging. Energy conversion that occurs during charging will cause heat. When you are playing a game while charging, phone chips such as the CPU and GPU have to run at high performance to ensure picture quality and fluency, which will generate even more heat. Please avoid using your phone while charging whenever possible.",
+        "ExpDetail": "Playing games while charging",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "You are playing games in a place with poor signals where the signal transmitter has to work overtime searching for a connection, which can easily cause the phone to heat up. In addition, phone chips such as the CPU and GPU have to run at high performance during gaming to ensure picture quality and fluency, which will generate even more heat. Please move to a location with a good network if possible.",
+        "ExpDetail": "Overheating during gameplay caused by weak mobile signal",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "The ambient temperature is high during gaming. This means that your phone has to run at high performance and will generate heat. High ambient temperatures will also slow down heat dissipation and cause more heat.",
+        "ExpDetail": "Playing games in hot places",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "The system has detected that \"Auto brightness\" is turned off for your phone. To allow intelligent brightness control and reduce power usage, go to \"Settings - Display &amp; brightness - Auto brightness\".",
+        "ExpDetail": "Turn off"
+    },
+    "t04030201": {
+        "ExpAdvice": "The system has detected that \"Location service\" is turned on for your phone. Having GPS run in the background will increase power usage. You may turn the function off to reduce power usage when you do not need it. To do so, swipe down the status bar and tap \"Location\" or go to \"Settings - Privacy - Location - Location service\".",
+        "ExpDetail": "Turn on"
+    },
+    "t04030301": {
+        "ExpAdvice": "The system has detected that Bluetooth is turned on for your phone. Having Bluetooth run in the background will increase power usage. You may turn the function off to reduce power usage when you do not need it. To do so, go to \"Settings - Bluetooth\".",
+        "ExpDetail": "Turn on"
+    },
+    "t04030401": {
+        "ExpAdvice": "The system has detected that \"Personal hotspot\" is turned on for you phone. Having the hotspot run in the background will increase power usage. You may turn the function off to reduce power usage when you do not need it. To do so, go to \"Settings - Connection &amp; sharing - Personal hotspot\".",
+        "ExpDetail": "Turn on"
+    },
+    "t04030501": {
+        "ExpAdvice": "The system has detected that NFC is turned on for your phone. Having NFC run in the background will increase power usage. You may turn the function off to reduce power usage when you do not need it. To do so, go to \"Settings - Connection &amp; sharing - NFC\".",
+        "ExpDetail": "Turn on"
+    },
+    "t04030601": {
+        "ExpAdvice": "The system has detected that high performance mode is turned on for your phone. This mode will increase power usage. To turn the function off and reduce power usage, go to \"Settings - Battery - More - High performance mode\".",
+        "ExpDetail": "Turn on"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Log analysis failed as the number of outgoing or incoming calls is less than 10.",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. Activate the carrier's VoLTE function and turn on high definition call in Settings.<br>2. Check the phone's PA performance to ensure the RF transmission and receiving performance are normal (including all bands of 2G, 3G, and 4G).<br>3. Mobile network signal coverage fluctuates with the environment. If the network signal is poor, consult the local network carrier.<br>4. Network signal might be weak in basements, closed garages, and crowded areas. Poor signal quality affects calls. Go to an open space and the call quality will improve.<br>5. Update the software version.",
+        "ExpDetail": "1. Dropped calls: %1, percentage: %2<br>2. Outgoing call errors: %3, percentage: %4<br>3. Incoming call errors: %5, percentage: %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "Network received the phone's request but did not respond.",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "Network did not respond.",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "IMS service unreachable",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "Server error",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "Telecom CDMA dropped calls and 2G underlying link timed out.",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "Circuit domain unavailable",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "No service",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "Number dialed is invalid",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "Network congestion. Dial again later.",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "(Non-IMS dropped calls) Underlying link error is strongly related to the network strength.",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. Activate the carrier's VoLTE function and turn on high definition call in Settings.<br>2. Check the phone's PA performance to ensure the RF transmission and receiving performance are normal (including all bands of 2G, 3G, and 4G).<br>3. Mobile network signal coverage fluctuates with the environment. If the network signal is poor, consult the local network carrier.<br>4. Network signal might be weak in basements, closed garages, and crowded areas. Poor signal quality affects calls. Go to an open space and the call quality will improve.<br>5. Update the software version.",
+        "ExpDetail": "1. Outgoing call errors: %1<br>2. Incoming call errors: %2<br>3. Dropped calls: %3",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "The SIM card on the phone is incompatible with the network. Tell the customer to change for a new SIM card.",
+        "ExpDetail": "1. Outgoing call errors: %1<br>2. Incoming call errors: %2<br>3. Dropped calls: %3",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "Update available",
+        "ExpDetail": "1. Outgoing call errors: %1<br>2. Incoming call errors: %2<br>3. Dropped calls: %3",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "There might be an issue with the network compatibility. Contact the network provider to check if the network environment is normal, or contact our engineers for issue reproduction and log capturing.",
+        "ExpDetail": "1. Outgoing call errors: %1<br>2. Incoming call errors: %2<br>3. Dropped calls: %3",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "There is a temporary network issue. The phone is functioning properly.",
+        "ExpDetail": "1. Outgoing call errors: %1<br>2. Incoming call errors: %2<br>3. Dropped calls: %3",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "Update available",
+        "ExpDetail": "1. Outgoing call errors: %1<br>2. Incoming call errors: %2<br>3. Dropped calls: %3",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "There might be an issue with the network compatibility. Contact the network provider to check if the network environment is normal, or contact our engineers for issue reproduction and log capturing.",
+        "ExpDetail": "1. Outgoing call errors: %1<br>2. Incoming call errors: %2<br>3. Dropped calls: %3",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "There might be an issue with the network compatibility. Contact the network provider to check if the network environment is normal, or contact our engineers for issue reproduction and log capturing.",
+        "ExpDetail": "1. Outgoing call errors: %1<br>2. Incoming call errors: %2<br>3. Dropped calls: %3",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. Try with other phones of the same carriers. If the issue still occurs, contact the carrier for process.<br>2. If this usually happens during the similar period, confirm with customer for their locations. It is normal if the signal is poor in basements, garages, high-traffic public areas, and moving vehicles.<br>3. Ask the customer if they use a metallic or plated protective case.<br>4. Check the phone's PA performance to ensure the RF transmission and receiving performance are normal (including all bands of 2G, 3G, and 4G).",
+        "ExpDetail": "The location of the weak signal in the past %1 days is more concentrated",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. Check if the SIM loading is successful.<br>2. Confirm that the carrier's network is stable and whether the issue occurs only in specific areas.<br>3. Check whether the issue occurs on another device.<br>4. Restart your device, or turn on Airplane mode to check for issues.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1. Ask the customer if they use a metallic or plated protective case.<br>2. If they are using phones in places with poor signal, such as basements, garages, high-traffic public areas, and moving vehicles.<br>3. If weak signal existed for an extended period of time and consistently so in the same places, then this may be caused signal problems.<br>4. Check the phone's PA performance with tools to test the PA receiving performance (including all bands of 2G, 3G, and 4G).",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. Make sure you have not touch the phone during testing.<br>2. If the issue persists, replace the hardware because some frequency bands may have issues.",
+        "ExpDetail": "Error band: %1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "Failed to start the test. Please confirm the SIM card has been removed.",
+        "ExpDetail": "SIM card not removed"
+    },
+    "t05050104": {
+        "ExpAdvice": "Failed to start the test. Please confirm Airplane mode is turned off.",
+        "ExpDetail": "Airplane mode on"
+    },
+    "t05050105": {
+        "ExpAdvice": "Failed to complete the test. Please restart your phone and test this feature again.",
+        "ExpDetail": "Modem mode error"
+    },
+    "t05050106": {
+        "ExpAdvice": "Failed to complete the test. Please restart your phone and test this feature again.",
+        "ExpDetail": "Test sequence error"
+    },
+    "t05050107": {
+        "ExpAdvice": "Make sure your phone is sufficiently charged and test this feature again.",
+        "ExpDetail": "Low battery"
+    },
+    "t05050108": {
+        "ExpAdvice": "RF test completed. Your phone will restart automatically to ensure all functions work properly.",
+        "ExpDetail": "RF test passed."
+    },
+    "t05070101": {
+        "ExpAdvice": "Possible causes:<br>1. Confirm the network and signal quality of the current environment. If the signal quality is poor, there will be high probability of temporary network issues.<br>2. Confirm whether it is an issue with a third-party app.<br>Suggestions:<br> In case of network issue, ask the customer to address the issue by themself, such as by turning Airplane mode and mobile data on and off, resetting APN settings, taking out and then putting in the SIM card without turning off the phone, etc. Please contact the carrier.",
+        "ExpDetail": "Automatic data disconnection; uplink generated with no downlink (a type of network congestion); APN-related errors during the dial-up process; network disconnection due to overdue payment; data network speed is restricted as the data limit is reached; dial-up connection failed",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "APN is manually added by the customer. Reset to the default APN.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. Make sure SIM card is properly inserted.<br>2. Check if mobile data has been suspended because of unpaid bills or data overages.<br>3. Switch mobile data and Airplane mode on and off, or restart the device.<br>4. Check if there's an issue with the carrier's network.",
+        "ExpDetail": "Data network error detected. This may be caused by network connection issues.",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. Check whether the phone has any overdue phone bills or whether a speed limit is in effect.<br>2. Perform a PA test to check whether the radio frequency is normal.<br>3. If the radio frequency is normal, contact local network optimization personnel to reproduce the issue and capture logs.<br>4. If network optimization personnel are unavailable or the customer does not agree to reproduce the issue, flash a new ROM.<br>5. Check whether the issue still exists 10 days after the ROM is flashed. If it still exists, fix the issue as a hardware one.",
+        "ExpDetail": "Data network error detected. This may be caused by phone issues.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "APN is manually added by the customer. Reset to the default APN.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "Data speeds has been restricted by the carrier. Consult the carrier for more details.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "Local network is unstable. Compare the network environment with other places, and if that's confirmed, consult your carrier to enhance network environment.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. Make sure you do not have any unpaid bills for the SIM cards.<br>2. Check if network permission is turned on for apps.<br>3. Insert the SIM card to a another device and check if it's working properly.<br>4. Switch mobile data and Airplane mode on and off, or restart the device.<br>5. Check if there are any issues with the carrier's network.",
+        "ExpDetail": "Data network error detected. This may be caused by network connection issues.",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "APN is manually added by the customer. Reset to the default APN.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "Data speeds has been restricted by the carrier. Consult the carrier for more details.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "Turning on Data saving mode may affect your network experience.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "Local network is unstable. Compare the network environment with other places, and if that's confirmed, consult your carrier to enhance network environment.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1. Make sure you do not have any unpaid bills for the SIM cards.<br>2. Check if network permission is turned on for apps.<br>3. Switch mobile data and Airplane mode on and off, or restart the device.<br>4. Check if there are any issues with the carrier's network.",
+        "ExpDetail": "Data network error detected. This may be caused by network connection issues.",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "Check whether the radio frequency is normal.",
+        "ExpDetail": "Unable to make phone calls",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "With the help of earphones, check whether the problem has to do with the receiver (ear speaker). If it is, check the receiver (ear speaker) for damage and whether the receiver components are properly connected; otherwise, check the audio component of the motherboard.",
+        "ExpDetail": "No sound during calls",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. Check if the receiver (ear speaker) has dust or liquid in it. Replace the part and test again.<br>2. Check the signal processing of the motherboard.",
+        "ExpDetail": "Noise in calls",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "If there are hardware issues consistent with customer's description, treat them as hardware issues.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "If there are hardware issues consistent with customer's description, treat them as hardware issues.",
+        "ExpDetail": "Total occurrence: %1",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "Move to an open area with the phone to perform a satellite search test. Normally, the GPS signal strength should exceed 30; otherwise, check the GPS hardware.",
+        "ExpDetail": "Poor satellite signal",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "Check whether the system's GPS is turned off. Ask the customer which app cannot use the GPS and check its permissions.",
+        "ExpDetail": "GPS or related permission not turned on",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Log analysis failed due to insufficient GPS data.",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostics failed as GPS has not been used recently. The Location service being kept off for too long might be the cause for failed positioning.",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "Move to an open area with the phone to perform a satellite search test. Normally, the GPS signal strength should exceed 30; otherwise, check the GPS hardware.",
+        "ExpDetail": "No satellite signal received within 3 days, possibly due to indoor use of positioning. Please go outdoors for on-site verification.",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostics failed due to insufficient usage of GPS.",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "Move to an open area with the phone to perform a satellite search test. Normally, the GPS signal strength should exceed 30; otherwise, check the GPS hardware.",
+        "ExpDetail": "GPS functions normally. There might be interferences when the customer navigates while walking.",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "Move to an open area with the phone to perform a satellite search test. Normally, the GPS signal strength should exceed 30; otherwise, check the GPS hardware.",
+        "ExpDetail": "GPS functions normally. Interference might occur when the customer is navigating in a vehicle.",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "Check whether the GPS antenna is damaged, deformed, or in poor contact.",
+        "ExpDetail": "GPS antenna issue",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostics failed as GPS has not been used recently.",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "Remove the protective case and try again",
+        "ExpDetail": "A metal protective case is used",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "&amp;quot;Wi-Fi scanning always available&amp;quot; being turned off for too long might lead to positioning failure or inaccurate positioning in indoor scenarios. Check whether this feature is turned on.",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "\"Network positioning accuracy\" being turned off for too long might lead to positioning failure or inaccurate positioning in indoor scenarios. Tap \"Fix\" to turn it on for more accurate positioning. If you are using a phone designed for users outside the Chinese Mainland, touch and hold the Location icon in Quick Settings to enter the \"Google Location Accuracy\" page, and turn on \"Improve Location Accuracy\".",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "This problem is caused by the user's GPS environment and cannot be resolved by replacement. Keep your phone away from external sources of interference such as automotive navigation systems, center consoles, and other electronic devices.",
+        "ExpDetail": "Interference with the user's GPS environment"
+    },
+    "t06020101": {
+        "ExpAdvice": "Possible causes:<br>(Firmware loading error; driver loading error; partition mounting error; other causes)<br>Suggestions:<br>1. Restart the device.<br>2. Update to the latest version to check the issue.",
+        "ExpDetail": "Failed to turn on %1 times",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "Possible causes: <br/>(Firmware loading error; drive loading error; partition mounting error; other causes; Wi-Fi chip loading error; Wi-Fi software running error; the configuration files of Wi-Fi software system channel failed to load; the radio frequency files of Wi-Fi software system failed to load; the the configuration files of Wi-Fi software system firmware failed to load; sub system crashed)<br/>Suggestions:<br/>1. Restart the device. <br/>2. Update to the latest version. 3. Ask the customer to restart their phone. <br/>4. If the issue persists, flash a ROM or install an OTA update. <br/>5. Take it as a hardware failure if it&amp;apos;s a dead fault. <br/>3. If the issue can be reproduced, try to connect to the internet and make a call via the SIM card. If you cannot perform these 2 tasks, the Modem of network module needs to be restarted. <br/>4. Ask the customer to restart their phone. <br/>5. If the issue persists, flash a ROM or install an OTA update. <br/>6. Take it as a hardware failure if it&amp;apos;s a dead fault.",
+        "ExpDetail": "Failed to turn on %1 times",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "Flashing to the latest version is recommended.",
+        "ExpDetail": "Frequently-used AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1. Unstable network connection caused by the phone itself: Update to the latest version and try again.<br>2. DNS error: Check if a private DNS is set. Delete the private DNS if yes and check the router if no.<br>3.  Other causes: 1. Restart the router.<br>2. If other phones using the same router also have the same issue, it is recommended to replace the router.<br>3. Switch the default routing channel. Try to use the 5G channel. Use the Wi-Fi analyzer and other tools to find a channel with less interference.",
+        "ExpDetail": "Frequently-used AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostics failed due to insufficient data.",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "Wi-Fi Settings",
+        "ExpDetail": "Wireless settings",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "Third-party connection software may try but fail to hack Wi-Fi hotspot password and result in failed connection. Connecting to Wi-Fi in the Settings app is recommended.",
+        "ExpDetail": "Frequently-used apps: %1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "Log analysis failed due to insufficient third-party connections",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "Restart the router or use other devices to connect to this router to check whether the is an issue with AP. If none, turn Wi-Fi off and on or restart the phone. If the issue persist, send it for further testing.<br>(Make sure your password is correct. Switch Wi-Fi before connection and make sure AP is found. Check route settings or connect to other APs. Connection in environment with stronger signal is recommended. Confirm whether IPs are correctly or all IPs have been used up.)",
+        "ExpDetail": "Wi-Fi settings errors: <br>(Wrong password; AP not found; router settings error or overload; weak signals; static IP address)",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "Check the Wi-Fi antenna and Wi-Fi chip.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "Frequently-used AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "Check if all IP addresses from the router's DHCP server have been used.",
+        "ExpDetail": "Failed to obtain IP address",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Authentication failed due to router detection error",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "Check if the phone was not used for a long time after connecting to Wi-Fi.",
+        "ExpDetail": "Inactive connection. No data transmission during a long time.",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "Check if the router has been connected to too many devices. Try disconnecting some.",
+        "ExpDetail": "Limited router connection",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "No authentication due to router detection error",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "No connection due to router detection error",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Phone is off network",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Connection authentication failed",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "No actions needed as this is a normal case.",
+        "ExpDetail": "Router launches roaming",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Failed to verify message completeness",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Handshake timed out",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Key update timed out due to router detection error",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Invalid key",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Confirm serious frame loss",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Phone roaming failed",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Phone modules automatically recover",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Inactive router",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Beacon timed out",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Failed to switch communication channel",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Failed to connect as beacon timed out",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Beacon timed out. Phone failed to obtain router address.",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. Update to the latest version first.<br>b. If the issue persists, restart the router or check whether the router is working properly by connecting using another device.<br>c. If the router has no problems, turn off and on the Wi-Fi connection, reconnect to the router, or power the phone off and on to try again.<br>d. If the issue is still not fixed, capture the log.",
+        "ExpDetail": "Unknown cause",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. Tell the customer to restart their phone.<br>2. If the issue persists, flash a new ROM or update to the latest system version.<br>3. If the issue persists, fix it as a hardware issue.",
+        "ExpDetail": "Wi-Fi firmware issues",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "Go to &amp;quot;Settings - Connection &amp;amp; sharing - Personal hotspot - Hotspot settings&amp;quot;. Set &amp;quot;Security&amp;quot; to &amp;quot;WPA2 PSK&amp;quot; and &amp;quot;AP band&amp;quot; to &amp;quot;2.4 GHz band&amp;quot;, turn on &amp;quot;Visible to other devices&amp;quot;, and turn off &amp;quot;Wi-Fi 6 hotspot&amp;quot;. Then, turn on &amp;quot;Personal hotspot&amp;quot;.",
+        "ExpDetail": "Other causes for Wi-Fi hotspot error",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "Go to &amp;quot;Settings - Connection &amp;amp; sharing - Personal hotspot - Hotspot settings&amp;quot;. Set &amp;quot;Security&amp;quot; to &amp;quot;WPA2 PSK&amp;quot; and &amp;quot;AP band&amp;quot; to &amp;quot;2.4 GHz band&amp;quot;, turn on &amp;quot;Visible to other devices&amp;quot;, and turn off &amp;quot;Wi-Fi 6 hotspot&amp;quot;. Then, turn on &amp;quot;Personal hotspot&amp;quot;.",
+        "ExpDetail": "Other causes for Wi-Fi hotspot error",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "This issue might be caused by LTE signal interferences. Go to &amp;quot;Settings - Connection &amp;amp; sharing - Personal hotspot - Hotspot settings&amp;quot;. Set &amp;quot;Security&amp;quot; to &amp;quot;WPA2 PSK&amp;quot; and &amp;quot;AP band&amp;quot; to &amp;quot;2.4 GHz band&amp;quot;, turn on &amp;quot;Visible to other devices&amp;quot;, and turn off &amp;quot;Wi-Fi 6 hotspot&amp;quot;. Then, turn on &amp;quot;Personal hotspot&amp;quot;.",
+        "ExpDetail": "No available channels",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "Go to &amp;quot;Settings - Connection &amp;amp; sharing - Personal hotspot - Hotspot settings&amp;quot;. Set &amp;quot;Security&amp;quot; to &amp;quot;WPA2 PSK&amp;quot; and &amp;quot;AP band&amp;quot; to &amp;quot;2.4 GHz band&amp;quot;, turn on &amp;quot;Visible to other devices&amp;quot;, and turn off &amp;quot;Wi-Fi 6 hotspot&amp;quot;. Then, turn on &amp;quot;Personal hotspot&amp;quot;.",
+        "ExpDetail": "Hotspot configuration not supported",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. Tell the customer to restart their phone.<br>2. If the issue persists, flash a new ROM or update to the latest system version.<br>3. If the issue persists, fix it as a hardware issue.",
+        "ExpDetail": "Wi-Fi firmware issues",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "If the customer cannot access the network at home, it is probably caused by incorrect settings of or connection issues with the optical modem and the router. Tell the customer to modify the router’s DHCP configuration or to contact their network provider for help.",
+        "ExpDetail": "Router dynamic IP assigning (DHCP) conflict",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "If the customer cannot access the network at home, it is probably caused by incorrect settings of or connection issues with the optical modem and the router. Tell the customer to modify the router’s gateway configuration or to contact their network provider for help.",
+        "ExpDetail": "Gateway conflict",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "Tell the customer to connect their phone to a 5 GHz Wi-Fi network and avoid the use of Bluetooth earphones when their phone is connected to a 2.4 GHz Wi-Fi network.",
+        "ExpDetail": "Slow network speed due to Bluetooth/Wi-Fi conflict",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "The static IP address is incorrect. Please set a correct one.",
+        "ExpDetail": "Incorrect static IP address",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "The private DNS address is incorrect. Please set a correct one.",
+        "ExpDetail": "Incorrect private DNS",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "The VPN setting is incorrect. Please set a correct one.",
+        "ExpDetail": "Incorrect VPN settings",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "Then check the Bluetooth antenna and Bluetooth chip.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. If the issue can be resolved by restarting the phone, flash a new ROM or update to the latest system version.<br>2. If the customer uses the multi-user function, tell them to turn off Bluetooth before switching to another user.<br>3. If the issue persists after the phone is reset or a new ROM is flashed, please submit a hardware trouble ticket.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed to turn on Bluetooth (BT)",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed to turn on Bluetooth services",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed to turn on Bluetooth Low Energy (BLE)",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "Check the issue details.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. If the issue occurs in a place with many wireless devices (such as airports or train stations), tell the customer to use their phone in places with fewer wireless devices around.<br>2. Tell the customer to connect their phone to a 5 GHz Wi-Fi network or higher as the 2.4 GHz Wi-Fi network will affect Bluetooth connections. If necessary, show the customer how to set their router to the 5 GHz frequency band.",
+        "ExpDetail": "High environmental interferences or Wi-Fi impact<br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "Establish a Bluetooth connection from the %1 side and make sure the peer device has enough battery. (The master/slave mode may change for some earphones when the battery is low, causing connection issues.)<br>",
+        "ExpDetail": "Bluetooth role switching error<br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. Unpair the device from the phone. Then, press and hold the button on the device to pair again.<br>2. Reset the device.<br>3. Update to the latest system version.<br>4. If the issue does not occur on other phones of the same model and the issue persists after a new ROM is flashed, please submit a hardware trouble ticket.<br>",
+        "ExpDetail": "Other<br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "Check if the NFC antenna is missing, or if the NFC module is invalid.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Failed to turn on",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Fuzzy or blurry screens when taking photos",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Incorrect colors",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the front main camera",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the front secondary camera",
+        "ResultLevel": 10
+    },
+    "t07020112": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Failed to turn on",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Fuzzy or blurry screens when taking photos",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Incorrect colors",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the rear main camera",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the rear wide-angle camera",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the rear telephoto camera",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the rear main camera or the rear wide-angle camera",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the rear main camera or the rear telephoto camera",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the rear wide-angle camera or the rear telephoto camera",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "Cannot use the rear main camera, the rear wide-angle camera, or the rear telephoto camera",
+        "ResultLevel": 10
+    },
+    "t07020212": {
+        "ExpAdvice": "Check the camera BTB socket or replace the camera and test.",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Abnormal camera parameters. Connect your phone and calibrate and fix the parameters.",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "Please check if the receiver has dust or liquid in it. Replace the part and test again.",
+        "ExpDetail": "Low volume",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "Please check if the receiver has dust or liquid in it. Replace the part and test again.",
+        "ExpDetail": "Noise",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "Please switch to the speaker to check whether the problem is to do with the receiver. If it is, please check the receiver for damage and whether the interface is connected; otherwise, check the audio component of the motherboard.",
+        "ExpDetail": "No sound",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "Please check if the receiver has dust or liquid in it. Replace the part and test again.",
+        "ExpDetail": "Low volume",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "Please check if the receiver has dust or liquid in it. Replace the part and test again.",
+        "ExpDetail": "Noise",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "Please switch to the receiver to check whether the problem is to do with the speaker. If it is, please check the speaker for damage and whether the interface is connected; otherwise, check the audio component of the motherboard.",
+        "ExpDetail": "No sound",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "Please check if the microphone has dust or liquid in it. Replace the part and test again.",
+        "ExpDetail": "Low volume",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "Please check if the microphone has dust or liquid in it. Replace the part and test again.",
+        "ExpDetail": "Noise",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "Please check if the microphone is blocked. Replace the microphone and check if the issue is solved.",
+        "ExpDetail": "Intermittent sound",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "Check whether the microphone hole is blocked by ash or liquid. If the sound is so low that it is almost silent, replace the microphone and test again.",
+        "ExpDetail": "Low volume",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "Replace the microphone and test again.",
+        "ExpDetail": "Noise",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "Replace the microphone and test again.",
+        "ExpDetail": "No sound",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "Check whether the microphone hole is blocked by ash or liquid. If the sound is so low that it is almost silent, replace the microphone and test again.",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "Check whether the microphone hole is blocked by ash or liquid. If the sound is so low that it is almost silent, replace the microphone and test again.",
+        "ExpDetail": "Low volume",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "Replace the microphone and test again.",
+        "ExpDetail": "Noise",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "Replace the microphone and test again.",
+        "ExpDetail": "No sound",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "Check whether the microphone hole is blocked by ash or liquid. If the sound is so low that it is almost silent, replace the microphone and test again.",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "Check whether the microphone hole is blocked by ash or liquid. If the sound is so low that it is almost silent, replace the microphone and test again.",
+        "ExpDetail": "Low volume",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "Replace the microphone and test again.",
+        "ExpDetail": "Noise",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "Replace the microphone and test again.",
+        "ExpDetail": "No sound",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "Check whether the microphone hole is blocked by ash or liquid. If the sound is so low that it is almost silent, replace the microphone and test again.",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "Please check if the earphone jack is blocked and whether there is liquid in it.",
+        "ExpDetail": "Earphone icon not shown",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "Please check if the earphone jack is blocked and whether there is liquid in it.",
+        "ExpDetail": "Not compatible with test earphones",
+        "ResultLevel": 10
+    },
+    "t08040104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "Check the earphone jack and other components",
+        "ExpDetail": "Earphones cannot be recognized or are not supported",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "Check the microphone impedance to see if it reaches a magnitude of several milliohms",
+        "ExpDetail": "High impedance headphones",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "Check if the customer is using noise canceling earphones",
+        "ExpDetail": "Noise canceling headphones",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "Update to the latest version. If the problem persists, check whether another set of earphones can be recognized. If the same issue occurs, capture and save audio logs that reproduce the problem, send them to the developer for analysis, and replace the board where the USB jack is located for cross validation.",
+        "ExpDetail": "Exceptions occurred when switching between the switch chips (only applicable to models with a Type-C earphone jack) or USB modules",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "Confirm whether it is within standard range; if not, replace the display component.",
+        "ExpDetail": "Dead pixels",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "Check the display BTB socket or replace the display component.",
+        "ExpDetail": "Blurry screens",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "Check the display BTB socket or replace the display component.",
+        "ExpDetail": "Incorrect colors",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "Close apps running in the background and check network connection",
+        "ExpDetail": "Occurrences of black screens, flashing screens, and blurry screens: %1",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "Check if the display is damaged or disturbed by static electricity",
+        "ExpDetail": "Occurrences of black screens, flashing screens, and blurry screens: %1",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "Check GPU chip",
+        "ExpDetail": "Occurrences of black screens, flashing screens, and blurry screens: %1",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "Check GPU chip",
+        "ExpDetail": "Occurrences of black screens, flashing screens, and blurry screens: %1",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "Check GPU chip",
+        "ExpDetail": "Occurrences of black screens, flashing screens, and blurry screens: %1",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "Tap the button to upload logs for engineers to analyze",
+        "ExpDetail": "Occurrences of frozen screens resulting in device restarting: %1",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "Hardware exception. Upload logs to the developer for analysis. If the phone fails to switch on, return it for analysis.",
+        "ExpDetail": "Occurrences of frozen screens resulting in device restarting: %1",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "The screen display effect is abnormal. It is recommended that the phone be connected in a timely manner and calibrated to fix this issue.",
+        "ExpDetail": "Abnormal screen display",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "All apps",
+        "ExpDetail": "Turn off"
+    },
+    "t10010101": {
+        "ExpAdvice": "Check the fingerprint interface or replace the fingerprint component.",
+        "ExpDetail": "Fingerprint sensor not working or is insensitive",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "It is recommended that the user restore the device to factory settings, otherwise the use of fingerprint functions will be affected.",
+        "ExpDetail": "OEM lock exception",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "It is recommended that you have the fingerprint sensor replaced.",
+        "ExpDetail": "Fingerprint sensor exception",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "Recalibrate the fingerprint sensor",
+        "ExpDetail": "Fingerprint calibration data mismatch",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "Check the infrared sensor module or motherboard.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "Check the light intensity sensor module or motherboard.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "Check the motherboard's gravity sensor module.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "It is recommended that you visit the service center and perform \"Sensor self-check and calibration\" in Engineering mode to calibrate the accelerometer. If the calibration fails, the accelerometer may be damaged and would need to be replaced.",
+        "ExpDetail": "Acceleration data inaccurate",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "Check the motherboard's geomagnetic sensor module.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "Check the motherboard's gyroscope module.",
+        "ExpDetail": "Failed",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "It is recommended that you visit the service center and perform \"Sensor self-check and calibration\" in Engineering mode to calibrate the gyroscope. If the calibration fails, the gyroscope may be damaged and would need to be replaced.",
+        "ExpDetail": "Gyroscope data inaccurate",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed to load driver"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed to send code"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other"
+    },
+    "t11010101": {
+        "ExpAdvice": "Test every side button for short circuit or open circuit errors.",
+        "ExpDetail": "Unresponsive button",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "Test every side button for short circuit or open circuit errors.",
+        "ExpDetail": "Incorrect button functions",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "Test every side button for short circuit or open circuit errors.",
+        "ExpDetail": "Poor touch sensitivity",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Flashlight not working"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Low brightness"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Incorrect colors"
+    },
+    "t12010201": {
+        "ExpAdvice": "Replace the flash or check the flash driver circuit.",
+        "ExpDetail": "Flashlight not working",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "Replace the flash or check the flash driver circuit.",
+        "ExpDetail": "Low screen brightness",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "Replace the motor or check the motor driver circuit.",
+        "ExpDetail": "No vibration",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "Replace the motor or check the motor driver circuit.",
+        "ExpDetail": "Vibration issue",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "It is recommended that you have the motor replaced.",
+        "ExpDetail": "Motor hardware damage",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "Cool down the phone, make sure heat dissipates well, and play games only after the device temperature is normal.",
+        "ExpDetail": "Phone is overheating when playing games",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "The lag issue is due to frame loss in games. Make sure heat dissipates well and that your network connection is stable.",
+        "ExpDetail": "Lag and frame drop when playing games",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "Network is unstable during gaming. Play games in stable network conditions.",
+        "ExpDetail": "Network unstable",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "The system has detected that notifications are turned off for the %1 app. To receive its notifications, touch and hold the app icon, go to \"App info - Manage notifications\", and toggle on the switch.",
+        "ExpDetail": "Not turned on for an app"
+    },
+    "t17010102": {
+        "ExpAdvice": "\"Notifications\" has been turned off for some apps, including %1, so some important messages may not be received. Consider turning it on in third party app settings.",
+        "ExpDetail": "Turn off"
+    },
+    "t17010201": {
+        "ExpAdvice": "The system has detected that silent notifications are turned on for the %1 app. That means all its notifications will appear only at the bottom of the notification bar. To turn the function off, operate as follows: <br>① ColorOS 11: Touch and hold the app icon, go to \"App info - Manage notifications - New message notifications (notifications on voice or video call invitations)\", and toggle off \"Enable silent notifications\".<br>② ColorOS 7.2: Touch and hold the app icon, go to \"App info - Manage notifications\" and toggle off \"Move to bottom\".",
+        "ExpDetail": "Silent notifications turned on for an app"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Show title and body"
+    },
+    "t17010302": {
+        "ExpAdvice": "The system has detected that \"Lock screen notifications\" are set to \"Display title only\". To show notification content, go to \"Settings - Notifications &amp; status bar - Manage notifications - Lock screen notifications\" and change the setting to \"Show title and body\".",
+        "ExpDetail": "Display title only"
+    },
+    "t17010303": {
+        "ExpAdvice": "The system has detected that \"Lock screen notifications\" is set to \"Do not show\". To show lock screen notifications, go to \"Settings - Notifications &amp; status bar - Manage notifications - Lock screen notifications\" and change the setting to \"Show title and body\" or \"Display title only\".",
+        "ExpDetail": "Do not show"
+    },
+    "t17010401": {
+        "ExpAdvice": "The system has detected that \"Mute notifications\" is turned on. To stay updated on important messages, swipe down the status bar, tap \"Mute notifications\", and toggle off the switch.",
+        "ExpDetail": "Turn on"
+    },
+    "t17010501": {
+        "ExpAdvice": "The system has detected that \"Wake screen when notifications received on lock screen\" is turned off. To toggle on the switch, go to\"Settings - Notifications &amp; status bar - Manage notifications - More - Wake screen when a notification is received\".",
+        "ExpDetail": "Turn off"
+    },
+    "t17010502": {
+        "ExpAdvice": "\"Wake screen when a notification is received\" has been turned off. Notifications may not be promptly received when your screen is locked. Consider turning it on.",
+        "ExpDetail": "Turn off"
+    },
+    "t17010601": {
+        "ExpAdvice": "\"Reduce notification feedback\" is on. When you use an app in full screen (such as when watching videos or playing games, or in conference calls), notification sounds are softer and vibration is less strong. Consider turning it off.",
+        "ExpDetail": "Turn on"
+    },
+    "t17010701": {
+        "ExpAdvice": "\"Sleep standby optimization\" is on. Your phone consumes less power and reduces notifications when you are asleep. Consider turning it off.",
+        "ExpDetail": "Turn on"
+    },
+    "t17010801": {
+        "ExpAdvice": "\"App icon badges\" has been turned off for some apps. Because no badge will be displayed in the upper right corner of those apps, you might miss important notifications. Consider turning it on.",
+        "ExpDetail": "Turn off"
+    },
+    "t17020101": {
+        "ExpAdvice": "The system has detected that \"Data saving\" is turned on for your phone. That means background apps will not receive any notifications. To receive notifications, go to \"Settings - SIM card &amp; mobile data - Data usage - Data saving\" and toggle off the switch.",
+        "ExpDetail": "Turn on"
+    },
+    "t17020201": {
+        "ExpAdvice": "The system has detected that both \"Wi-Fi\" and \"Mobile data\" are turned off for the %1 app. That means no notifications can be received. To toggle on the two switches, touch and hold the app icon and go to \"App info - Data usage details\".",
+        "ExpDetail": "Not turned on for an app"
+    },
+    "t17020301": {
+        "ExpAdvice": "The system has detected that \"Background data\" is turned off for the %1 app. That means the app will not receive any notifications when running in the background. To toggle on the switch, touch and hold the app icon and go to \"App info - Data usage details\".",
+        "ExpDetail": "Not turned on for an app"
+    },
+    "t17030101": {
+        "ExpAdvice": "The system has detected that app notifications are limited by power usage settings for the %1 app. To turn on \"Allow foreground activity\", touch and hold the app icon and go to \"App info - Power usage\".",
+        "ExpDetail": "Turn off"
+    },
+    "t17030201": {
+        "ExpAdvice": "The system has detected that app notifications are limited by power usage settings for the %1 app. To turn on \"Allow background activity\", touch and hold the app icon and go to \"App info - Power usage\".",
+        "ExpDetail": "Turn off"
+    },
+    "t17030301": {
+        "ExpAdvice": "The system has detected that app notifications are limited by power usage settings for the %1 app. To turn on \"Allow auto launch\", touch and hold the app icon and go to \"App info - Power usage\".",
+        "ExpDetail": "Turn off"
+    },
+    "t17030401": {
+        "ExpAdvice": "The system has detected that app notifications are limited by power usage settings for the %1 app. To turn on \"Allow associated launch\", touch and hold the app icon and go to \"App info - Power usage\".",
+        "ExpDetail": "Turn off"
+    },
+    "t17040101": {
+        "ExpAdvice": "The system has detected that \"App lock\" is set on your phone but cannot detect your lock details. Since no messages are displayed for the %1 app, go to \"Settings - Privacy - App lock\" and check if the app has been locked.",
+        "ExpDetail": "Turn on"
+    },
+    "t17040201": {
+        "ExpAdvice": "The system has detected that \"App lock\" is set on your phone but cannot detect your lock details. Since no messages are displayed for the %1 app, go to \"Settings - Privacy - Hide apps\" and check if the app has been hidden.",
+        "ExpDetail": "Turn on"
+    },
+    "t17050101": {
+        "ExpAdvice": "The system has detected that your phone is muted. That means no message tone will be heard on incoming messages. To unmute your phone, go to \"Settings - Sound &amp; vibration - Mute\".",
+        "ExpDetail": "Turn on"
+    },
+    "t17050201": {
+        "ExpAdvice": "The system has detected that \"Do Not Disturb\" is turned on for your phone. That means you will not be alerted for incoming messages. To turn the function off, go to \"Settings - Sound &amp; vibration - Do Not Disturb\".",
+        "ExpDetail": "Turn on"
+    },
+    "t17050202": {
+        "ExpAdvice": "\"Do Not Disturb\" has been turned on. As you will only get notified by alarms, timers, and calendar events, you may miss some other notifications and reminders. Consider turning if off.",
+        "ExpDetail": "Turn on"
+    },
+    "t17060101": {
+        "ExpAdvice": "\"App cloner\" has been turned off for some apps, including %1. To easily switch between accounts on the same app, search for \"App cloner\" in Settings and enable this function.",
+        "ExpDetail": "Turn off"
+    },
+    "t17060201": {
+        "ExpAdvice": "\"App cloner\" has been turned on for some apps. However, \"When using quick functions\" has been set to \"Open main app\". Consider changing it to \"Always ask\".",
+        "ExpDetail": "Turn off"
+    },
+    "t17060301": {
+        "ExpAdvice": "\"Retouch appearance in video calls\" is off, so real-time beautification is not available in WeChat video calls. Consider turning it on.",
+        "ExpDetail": "Turn off"
+    },
+    "t26010101": {
+        "ExpAdvice": "States of the current alert slider are detected as: silent, ring, and vibrate, which do not match the switch positions. It is recommended to calibrate and repair the device.",
+        "ExpDetail": "Mismatched switch positions and display states"
+    },
+    "t26010102": {
+        "ExpAdvice": "States of the current alert slider are detected as: silent, ring, and vibrate. The system fails to recognize all the states after the switch is toggled. It is recommended to calibrate and repair the device. If the repair fails, replace the device.",
+        "ExpDetail": "Not all display states are lit up"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Not supported",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "Unable to analyze due to insufficient data",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "An exception occurred, no results",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "No result is returned after timeout, please test again!",
+        "ExpDetail": "Failed"
+    },
+    "t6": {
+        "ExpAdvice": "An exception occurred, no results",
+        "ExpDetail": "Failed"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Turn on"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Turn off"
+    },
+    "t9": {
+        "ExpAdvice": "All apps",
+        "ExpDetail": "Turn on"
+    },
+    "t05050109": {
+        "ExpDetail": "Cellular frequency band error: %1",
+        "ExpAdvice": "Cellular frequency band abnormality: %1"
+    },
+    "t05050110": {
+        "ExpDetail": "Satellite frequency band error: %1",
+        "ExpAdvice": "Satellite frequency band anomaly: %1"
+    },
+    "t05050111": {
+        "ExpDetail": "Cellular and satellite frequency band error: %1",
+        "ExpAdvice": "Cellular and satellite frequency band anomalies: %1"
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "Fixed",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed to fix"
+    },
+    "t07110101": {
+        "ExpDetail": "Hall effect magnetic sensor error",
+        "ExpAdvice": "It is recommended that you have the sensor replaced."
+    },
+    "t07010201": {
+        "ExpDetail": "Press control error",
+        "ExpAdvice": "Check whether the BTB connectors are fastened in place, whether the module FPC board is torn, and whether the antenna board, the motherboard, and the FPC board are working properly."
+    },
+    "t22140101": {
+        "ExpDetail": "Abnormal fan speed",
+        "ExpAdvice": "Abnormal fan speed. Check the following:\n1. Inspect and remove any dust accumulation from the fan blades.\n2. If the issue persists after cleaning, replace the fan.\n3. If the issue persists after fan replacement, replace the motherboard."
+    },
+    "t08030501": {
+        "ExpDetail": "Low volume",
+        "ExpAdvice": "Check whether the microphone hole is blocked by ash or liquid. If the sound is so low that it is almost silent, replace the microphone and test again."
+    },
+    "t08030504": {
+        "ExpDetail": "Other",
+        "ExpAdvice": "Check whether the microphone hole is blocked by ash or liquid. If the sound is so low that it is almost silent, replace the microphone and test again."
+    },
+    "t08030502": {
+        "ExpDetail": "Noise",
+        "ExpAdvice": "Replace the microphone and test again."
+    },
+    "t08030503": {
+        "ExpDetail": "No sound",
+        "ExpAdvice": "Replace the microphone and test again."
+    }
+}

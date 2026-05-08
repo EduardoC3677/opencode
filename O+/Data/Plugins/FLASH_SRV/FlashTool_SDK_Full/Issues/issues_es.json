@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Error interno de otras herramientas de actualización de la ROM que no figuran en la lista.",
+        "suggest": "Prueba a actualizar la ROM de nuevo. Si el mismo problema se produce de forma reiterada, ponte en contacto con un representante de soporte técnico\n  posventa para informar del problema al equipo de mantenimiento de la\n  herramienta."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "El espacio de caché necesario para la operación no se puede asignar debido a que la memoria del PC es insuficiente.",
+        "suggest": "1. Desactiva las aplicaciones que no estés utilizando y prueba a descargar de nuevo.\n2. Reinicia el ordenador y prueba a descargar de nuevo."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Error de devolución de la interfaz del sistema de Windows: {1} devuelto {2}.",
+        "suggest": "El ordenador utilizado está defectuoso. Intenta actualizar el dispositivo nuevamente. Si el problema continúa después de varios intentos, informa del problema al equipo de mantenimiento de herramientas para su análisis y procesamiento mediante un representante de soporte técnico posventa."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "Se ha detectado que se está ejecutando en el ordenador un depurador de software.",
+        "suggest": "Cierra todos los depuradores de software que se encuentren abiertos y vuelve a intentarlo."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "Se ha detectado que se está ejecutando el servicio de la herramienta flash ROM en la máquina virtual.",
+        "suggest": "Ejecuta la herramienta flash ROM en un ordenador físico."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "Los datos del paquete de actualización de la ROM están dañados.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más\n  reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a\n  cargarlo."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "El archivo o la carpeta ROM importados no son válidos o el paquete de actualización de la ROM está dañado.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la\n  versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, asegúrate de que el paquete esté en formato OFP o que se incluya una\n  version_info.txt. Si el error vuelve a repetirse después de la confirmación,\n  intenta volver a copiar el paquete de actualización de la ROM desde el medio\n  de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "El paquete de actualización de la ROM cargado no se puede aplicar al dispositivo que se va a actualizar o los datos en el paquete de\n  actualización de la ROM están dañados.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, asegúrate de que el paquete\n  coincida con el modelo del dispositivo que se va a actualizar. Vuelve a\n  descargar el paquete de actualización de la ROM correcto e intenta cargarlo\n  de nuevo.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, asegúrate de que el paquete coincida con el modelo del dispositivo\n  que se va a actualizar. Vuelve a copiar el paquete del medio de origen e\n  intenta cargarlo de nuevo."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "El paquete de actualización de la ROM cargado no se puede aplicar al dispositivo que se va a actualizar o los datos en el paquete de\n  actualización de la ROM están dañados.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, asegúrate de que el paquete\n  coincida con el modelo del dispositivo que se va a actualizar. Vuelve a\n  descargar el paquete de actualización de la ROM correcto e intenta cargarlo\n  de nuevo.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, asegúrate de que el paquete coincida con el modelo del dispositivo\n  que se va a actualizar. Vuelve a copiar el paquete del medio de origen e\n  intenta cargarlo de nuevo."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "El dispositivo no se puede flashear porque su código de elemento {1} no coincide con el código de elemento {2} en el paquete de\n  software.",
+        "suggest": "Consulta el modelo del dispositivo del usuario, descarga el paquete de actualización de la ROM correcto y, después, actualiza la ROM."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "La tabla de particiones en el dispositivo del usuario no coincide con la tabla de particiones en el paquete de actualización de la ROM.",
+        "suggest": "Utiliza el \"Modo forzado\" en la herramienta de actualización de la ROM para actualizar la ROM. Una vez que se complete la actualización, realiza una comprobación funcional integral después de encender el dispositivo. Si el dispositivo no se puede encender después de la actualización o si se detecta algún problema durante la comprobación funcional, sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "No se pudo leer el número de elemento del teléfono.",
+        "suggest": "1. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de\n  nuevo.\n2. Prueba a usar otro cable USB u otro puerto USB en el ordenador para volver a actualizar la ROM.\n3. Si el problema vuelve a ocurrir después de tomar las medidas anteriores, sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "El espacio de caché necesario para la operación no se puede asignar debido a que la memoria del PC es insuficiente.",
+        "suggest": "1. Desactiva las aplicaciones que no estés utilizando y prueba a descargar de nuevo.\n2. Reinicia el ordenador y prueba a descargar de nuevo."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "El formato de archivo cargado previamente no es válido.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más\n  reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a\n  cargarlo."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "Archivo de autenticación no válido.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más\n  reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a\n  cargarlo."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "El archivo de tabla de particiones no existe.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más\n  reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a\n  cargarlo."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "Error de comunicación del agente de descarga.",
+        "suggest": "1. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de\n  nuevo.\n2. Prueba a usar otro cable USB u otro puerto USB en el ordenador para volver a actualizar la ROM.\n3. Si el problema vuelve a ocurrir después de tomar las medidas anteriores, sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "Desconexión de USB inesperada.",
+        "suggest": "1. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de\n  nuevo.\n2. Prueba a usar otro cable USB u otro puerto USB en el ordenador para volver a actualizar la ROM.\n3. Si el problema vuelve a ocurrir después de tomar las medidas anteriores, sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "Se produjo un error de conexión del agente de descarga debido a una excepción de RAM externa.",
+        "suggest": "Sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Error de coincidencia de memoria con los datos del agente de descarga.",
+        "suggest": "Sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "El número de chips DDR dentro del dispositivo supera el límite de la plataforma.",
+        "suggest": "Prueba a actualizar la ROM de nuevo. Si el mismo problema se produce de forma reiterada, ponte en contacto con un representante de soporte técnico posventa para informar del problema al equipo de mantenimiento de la herramienta."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "Error de descarga del agente de descarga.",
+        "suggest": "1. Comprueba el modelo del dispositivo, descarga el paquete de actualización de la ROM correcto y prueba a actualizar de nuevo.\n2. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de nuevo.\n3. Si el error se ha producido repetidamente durante los intentos de actualización de la ROM cuando se está usando el paquete correcto para el dispositivo y hay suficiente batería, sustituya la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Error de hardware o software de los componentes DDR del dispositivo.",
+        "suggest": "Sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Error de hardware o software de los componentes SOC o DDR del dispositivo.",
+        "suggest": "Sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Error de verificación de descarga del archivo.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Error interno en la plataforma MTK.",
+        "suggest": "Prueba a actualizar la ROM de nuevo. Si el mismo problema se produce de forma reiterada, ponte en contacto con un representante de soporte técnico posventa para informar del problema al equipo de mantenimiento de la herramienta."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "No se puede instalar la ROM porque no se encuentra la información del código de país del dispositivo en el almacenamiento del dispositivo ni en el segundo plano del servicio.",
+        "suggest": "Ponte en contacto con el servicio de asistencia de IT6000 para notificar los problemas que has encontrado en este dispositivo."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "El código de país del dispositivo {1} no es compatible con el paquete ROM seleccionado.",
+        "suggest": "Utiliza el paquete ROM para la región correcta y vuelve a intentarlo."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "Error del servidor de control de nube de O+: {1} {2}.",
+        "suggest": "1. Asegúrate de que se pueda acceder a los servicios en la nube de O+ a través de tu red. Si no puedes acceder, ponte en contacto con el equipo de soporte técnico posventa para obtener los ajustes de configuración correctos.\n2. Prueba a actualizar la ROM de nuevo. Si el error se produce de forma reiterada, ponte en contacto con un representante de soporte técnico posventa para informar del problema al equipo de funcionamiento y mantenimiento delos servicios en la nube de O+."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "Los servicios de en la nube de O+ no devolvieron el resultado de la solicitud de procesamiento,API solicitada: {1}.",
+        "suggest": "Se produjo un error en los servicios en la nube de O+. Si el problema continúa después de varios intentos, informa del problema al equipo de mantenimiento de herramientas para su análisis y procesamiento mediante un representante de soporte técnico en segundo plano."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "Error de autenticación de la plataforma de control de nube de O+: {2}.",
+        "suggest": "Solicita el permiso correspondiente o realiza otras operaciones en función de la descripción del error en segundo plano. Si el problema no se soluciona, ponte en contacto con el soporte técnico de posventa."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "Error de autenticación de la plataforma de control de nube de O+: {2} {3}.",
+        "suggest": "Solicita el permiso correspondiente o realiza otras operaciones en función de la descripción del error en segundo plano. Si el problema no se soluciona, ponte en contacto con el soporte técnico de posventa."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "Error de autenticación de la plataforma de control de nube de O+.",
+        "suggest": "Solicita el permiso correspondiente o realiza otras operaciones en función de la descripción del error en segundo plano. Si el problema no se soluciona, ponte en contacto con el soporte técnico de posventa."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Versión de software obsoleta.",
+        "suggest": "Descarga la última ROM para este modelo de dispositivo e instálala."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "Esta cuenta de usuario no tiene acceso al permiso de actualización avanzada de ROM.",
+        "suggest": "Solicita el permiso en el sistema UPM y vuelve a intentarlo."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "La interfaz del Servicio en la nube de O+ {1} no devolvió el campo de datos designado: {2}.",
+        "suggest": "Se produjo un error en los servicios en la nube de O+. Si el problema continúa después de varios intentos, informa del problema al equipo de mantenimiento de herramientas para su análisis y procesamiento mediante un representante de soporte técnico en segundo plano."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "No se puede abrir el archivo {1}.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "No se pueden leer los datos en el archivo {1}.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "No se pueden localizar datos en el archivo {1}.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "No se puede abrir el archivo {1}.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "No se pueden localizar datos en el archivo {1}.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Error al cerrar el archivo {1}. Código de error {2}.",
+        "suggest": "Error interno del sistema operativo de Windows. Intenta actualizar el dispositivo nuevamente. Si el problema continúa después de varios intentos, informa del problema al equipo de mantenimiento de herramientas para su análisis y procesamiento mediante un representante de soporte técnico posventa."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "No se pueden leer los datos en el archivo {1}.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "El dispositivo no pudo ejecutar el comando {1}: {2}.",
+        "suggest": "1. Comprueba el modelo del dispositivo, descarga el paquete de actualización de la ROM correcto y prueba a actualizar de nuevo.\n2. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de nuevo.\n3. Si el error se ha producido repetidamente durante los intentos de actualización de la ROM cuando se está usando el paquete correcto para el dispositivo y hay suficiente batería, sustituya la placa base para el usuario."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "El dispositivo no se puede flashear porque su código de elemento {1} no coincide con el código de elemento {2} en el paquete de\n  software.",
+        "suggest": "Consulta el modelo del dispositivo del usuario, descarga el paquete de actualización de la ROM correcto y, después, actualiza la ROM."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Error de inicialización del dispositivo.",
+        "suggest": "1. Comprueba el modelo del dispositivo, descarga el paquete de actualización de la ROM correcto y prueba a actualizar de nuevo.\n2. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de nuevo.\n3. Si el error se ha producido repetidamente durante los intentos de actualización de la ROM cuando se está usando el paquete correcto para el dispositivo y hay suficiente batería, sustituya la placa base para el usuario."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "Error al actualizar la ROM.",
+        "suggest": "Descarga un nuevo paquete ROM y vuelve a intentarlo."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "Error al actualizar la ROM.",
+        "suggest": "Descarga un nuevo paquete ROM y vuelve a intentarlo."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "Error al actualizar la ROM.",
+        "suggest": "Descarga un nuevo paquete ROM y vuelve a intentarlo."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "No se pudo confirmar el código de país del dispositivo que se va a flashear.",
+        "suggest": "1. Ponte en contacto con un representante de soporte técnico posventa para ver si la función \"NV predeterminada\" en la herramienta de actualización de la ROM se puede usar para actualizar la ROM. Si está permitido, usa la función para actualizar la ROM y realiza una comprobación funcional integral en el teléfono del usuario.\n2. Si la función \"NV predeterminada\" no se puede utilizar para actualizar la ROM del dispositivo o si surge algún problema después de actualizar la ROM (por ejemplo, el dispositivo no se puede encender o se detecta un problema en la comprobación funcional), sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "El código de país no es compatible con el software.",
+        "suggest": "1. Asegúrate de que la región del paquete de actualización de la ROM obtenido de la herramienta de actualización de la ROM que se utiliza sea para la región local del dispositivo. Elimina el paquete de actualización de la ROM y vuelve a descargarlo usando la versión correcta de la herramienta.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, vuelve a copiar el paquete para el modelo y la región correctos desde el medio de origen y cárgalo de nuevo."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "Faltan datos de verificación en el paquete ROM.",
+        "suggest": "Descarga un nuevo paquete ROM y vuelve a intentarlo."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "La tabla de particiones en el dispositivo del usuario no coincide con la tabla de particiones en el paquete de actualización de la ROM.",
+        "suggest": "Utiliza el \"Modo forzado\" en la herramienta de actualización de la ROM para actualizar la ROM. Una vez que se complete la actualización, realiza una comprobación funcional integral después de encender el dispositivo. Si el dispositivo no se puede encender después de la actualización o si se detecta algún problema durante la comprobación funcional, sustituye la placa base para el usuario."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "Falta un archivo en el paquete ROM: {1}.",
+        "suggest": "El paquete ROM está dañado. Descarga uno nuevo e inténtalo de nuevo."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Formato de archivo disperso no válido.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "No se ha podido verificar la lista de archivos en el paquete ROM.",
+        "suggest": "El paquete ROM está dañado. Descarga uno nuevo e inténtalo de nuevo."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "El archivo en el paquete ROM está dañado: {1}",
+        "suggest": "Descarga un nuevo paquete ROM y vuelve a intentarlo."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "No se ha podido verificar la lista de archivos en el paquete ROM.",
+        "suggest": "El paquete ROM está dañado. Descarga uno nuevo e inténtalo de nuevo."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "El archivo en el paquete ROM está dañado: {1}",
+        "suggest": "Descarga un nuevo paquete ROM y vuelve a intentarlo."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "El archivo o la carpeta ROM importados no son válidos o el paquete de actualización de la ROM está dañado.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, asegúrate de que el paquete esté en formato OFP o que se incluya una version_info.txt. Si el error vuelve a repetirse después de la confirmación, intenta volver a copiar el paquete de actualización de la ROM desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "Falta un archivo en el paquete ROM: {1}.",
+        "suggest": "El paquete ROM está dañado. Descarga uno nuevo e inténtalo de nuevo."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "No se pueden leer los datos en el archivo {1}.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "El archivo o la carpeta ROM importados no son válidos o el paquete de actualización de la ROM está dañado.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, asegúrate de que el paquete esté en formato OFP o que se incluya una version_info.txt. Si el error vuelve a repetirse después de la confirmación, intenta volver a copiar el paquete de actualización de la ROM desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "El contenido del archivo en el paquete de actualización de la ROM no cumple con las expectativas.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "El contenido del archivo en el paquete de actualización de la ROM no cumple con las expectativas.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "Faltan datos de verificación en el paquete ROM.",
+        "suggest": "Descarga un nuevo paquete ROM y vuelve a intentarlo."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "Falta un archivo en el paquete ROM: {1}.",
+        "suggest": "El paquete ROM está dañado. Descarga uno nuevo e inténtalo de nuevo."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "No se pueden leer los datos en el archivo {1}.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "El archivo o la carpeta ROM importados no son válidos o el paquete de actualización de la ROM está dañado.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, asegúrate de que el paquete esté en formato OFP o que se incluya una version_info.txt. Si el error vuelve a repetirse después de la confirmación, intenta volver a copiar el paquete de actualización de la ROM desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "El contenido del archivo en el paquete de actualización de la ROM no cumple con las expectativas.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "El contenido del archivo en el paquete de actualización de la ROM no cumple con las expectativas.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "El archivo de tabla de particiones no existe.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más\n  reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a\n  cargarlo."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "No se ha podido verificar la lista de archivos en el paquete ROM.",
+        "suggest": "El paquete ROM está dañado. Descarga uno nuevo e inténtalo de nuevo."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "El archivo en el paquete ROM está dañado: {1}",
+        "suggest": "Descarga un nuevo paquete ROM y vuelve a intentarlo."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Error al abrir el controlador del dispositivo.",
+        "suggest": "1. Desactiva las versiones anteriores de la herramienta de actualización de la ROM, la herramienta de lectura posterior y la herramienta de depuración proporcionadas por el fabricante del chip y prueba a actualizar de nuevo.\n2. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de nuevo.\n3. Prueba a usar otro cable USB u otro puerto USB en el ordenador para volver a actualizar la ROM.\n4. Si el problema vuelve a ocurrir después de tomar las medidas anteriores, sustituye la placa base para el usuario."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Error al abrir el controlador del dispositivo.",
+        "suggest": "1. Desactiva las versiones anteriores de la herramienta de actualización de la ROM, la herramienta de lectura posterior y la herramienta de depuración proporcionadas por el fabricante del chip y prueba a actualizar de nuevo.\n2. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de nuevo.\n3. Prueba a usar otro cable USB u otro puerto USB en el ordenador para volver a actualizar la ROM.\n4. Si el problema vuelve a ocurrir después de tomar las medidas anteriores, sustituye la placa base para el usuario."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Error al configurar {1}. Código de error {2}.",
+        "suggest": "Es posible que se haya invalidado o desconectado el dispositivo. Prueba con otro puerto y cable USB, reinicia el dispositivo al Modo EDL y vuelve a intentarlo."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "No se pueden leer los datos del archivo o del dispositivo.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo.\n3. Si el problema continúa después de varios intentos, se sugiere guardar el paquete de actualización de la ROM en otro disco duro o partición antes de intentar actualizar de nuevo."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "No se pueden leer los datos del archivo o del dispositivo.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo.\n3. Si el problema continúa después de varios intentos, se sugiere guardar el paquete de actualización de la ROM en otro disco duro o partición antes de intentar actualizar de nuevo."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "No se pueden escribir datos en el archivo o en el dispositivo.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo.\n3. Si el problema continúa después de varios intentos, se sugiere guardar el paquete de actualización de la ROM en otro disco duro o partición antes de intentar actualizar de nuevo."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "No se pueden escribir datos en el archivo o en el dispositivo.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo.\n3. Si el problema continúa después de varios intentos, se sugiere guardar el paquete de actualización de la ROM en otro disco duro o partición antes de intentar actualizar de nuevo."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "El dispositivo no pudo ejecutar el comando {1}: {2}.",
+        "suggest": "1. Comprueba el modelo del dispositivo, descarga el paquete de actualización de la ROM correcto y prueba a actualizar de nuevo.\n2. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de nuevo.\n3. Si el error se ha producido repetidamente durante los intentos de actualización de la ROM cuando se está usando el paquete correcto para el dispositivo y hay suficiente batería, sustituya la placa base para el usuario."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "El comando de protocolo no se pudo ejecutar en el dispositivo y devolvió un error: {2}.",
+        "suggest": "Ponte en contacto con un representante de soporte técnico posventa para informar del problema al equipo de mantenimiento de la herramienta."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "El dispositivo no se puede flashear porque su código de elemento {1} no coincide con el código de elemento {2} en el paquete de\n  software.",
+        "suggest": "Consulta el modelo del dispositivo del usuario, descarga el paquete de actualización de la ROM correcto y, después, actualiza la ROM."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "No se pudo confirmar el código de país del dispositivo que se va a flashear.",
+        "suggest": "1. Ponte en contacto con un representante de soporte técnico posventa para ver si la función \"NV predeterminada\" en la herramienta de actualización de la ROM se puede usar para actualizar la ROM. Si está permitido, usa la función para actualizar la ROM y realiza una comprobación funcional integral en el teléfono del usuario.\n2. Si la función \"NV predeterminada\" no se puede utilizar para actualizar la ROM del dispositivo o si surge algún problema después de actualizar la ROM (por ejemplo, el dispositivo no se puede encender o se detecta un problema en la comprobación funcional), sustituye la placa base para el usuario."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "Las regiones compatibles con el teléfono son distintas de las regiones para las que el paquete flash se ha publicado.",
+        "suggest": "1. Asegúrate de que la región del paquete de actualización de la ROM obtenido de la herramienta de actualización de la ROM que se utiliza sea para la región local del dispositivo. Elimina el paquete de actualización de la ROM y vuelve a descargarlo usando la versión correcta de la herramienta.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, vuelve a copiar el paquete para el modelo y la región correctos desde el medio de origen y cárgalo de nuevo."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "El usuario detuvo la actualización.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "La plataforma no es compatible con el flasheo por ahora.",
+        "suggest": "Prueba a actualizar la ROM de nuevo. Si el mismo problema se produce de forma reiterada, ponte en contacto con un representante de soporte técnico posventa para informar del problema al equipo de mantenimiento de la herramienta."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Código de tipo de dispositivo de memoria {1} no compatible.",
+        "suggest": "Sustituye la placa base para el usuario."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "El paquete de actualización de la ROM no puede encontrar la partición lógica.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Error de verificación de descarga del archivo.",
+        "suggest": "1. Si el paquete de actualización de la ROM se descargó directamente utilizando la herramienta de actualización de la ROM, elimínalo y descarga la versión más reciente. Después intenta volver a cargar el paquete.\n2. Si el paquete de actualización de la ROM se importó desde una fuente externa, intenta volver a copiarlo desde el medio de origen y vuelve a cargarlo."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "Desconexión de USB inesperada.",
+        "suggest": "1. Asegúrate de que el nivel de la batería restante del dispositivo no sea inferior al 20 %. Carga el dispositivo antes de intentar actualizar la ROM de\n  nuevo.\n2. Prueba a usar otro cable USB u otro puerto USB en el ordenador para volver a actualizar la ROM.\n3. Si el problema vuelve a ocurrir después de tomar las medidas anteriores, sustituye la placa base para el usuario."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "No se ha podido realizar la operación debido a errores del dispositivo de memoria.",
+        "suggest": "Asegúrate de seleccionar el tipo de dispositivo de memoria correcto en la configuración de actualización de ROM (por ejemplo, si el dispositivo está equipado con un dispositivo eMMC, no se puede seleccionar la opción UFS). Si confirmas que no hay ningún problema con la opción seleccionada, puede que el dispositivo UFS esté dañado. Sustituye la placa base."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "La plataforma no es compatible con el flasheo por ahora.",
+        "suggest": "Prueba a actualizar la ROM de nuevo. Si el mismo problema se produce de forma reiterada, ponte en contacto con un representante de soporte técnico posventa para informar del problema al equipo de mantenimiento de la herramienta."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "El paquete ROM es anterior a la versión predeterminada de fábrica. Si se alterna se provocará un cambio en el SN.",
+        "suggest": "Informa al usuario que este dispositivo ha adoptado un nuevo SN de especificación. Al migrarlo a una versión anterior de fábrica se cambiará su SN, lo que puede traer consecuencias como daños a los derechos e intereses de protección posventa. La comunidad oficial no recomienda que los usuarios migren a una versión anterior de sus dispositivos."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "Se ha producido un error en la operación de retorno del dispositivo. Código de error: {1}; mensaje de error: {2}",
+        "suggest": "Intenta volver a alternar. Si este error persiste, ponte en contacto con el equipo de mantenimiento de la herramienta flash para informar este problema."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Informa al usuario que este dispositivo ya tiene activada la función \"Llamar para bloquear\" . Ve a \"Ajustes - Seguridad y privacidad - Desbloqueo del dispositivo - Protección antirrobo\" y desactiva \"Llamar para bloquear\" antes de alternar. Si no puedes encender este dispositivo, llama a nuestro servicio de atención al cliente para verificar tu información personal y solicitar el desbloqueo del dispositivo antes de alternar.",
+        "suggest": "El usuario ha activado \"Llamar para bloquear\" y el back-end de la herramienta flash ha marcado el dispositivo como en modo de bloqueo de seguridad. (Se activará este modo si el usuario pierde el dispositivo y llama a nuestro servicio de atención al cliente para solicitar que se bloquee). No es posible alternar los dispositivos en el modo de bloqueo de seguridad. Desactiva \"Llamar para bloquear\" antes de alternar."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "La dirección de desplazamiento de la partición de los datos de usuario en el paquete ROM no coincide con la partición correspondiente en el teléfono, lo que hace que sea imposible realizar la actualización sin borrar esta partición.",
+        "suggest": "Haz una copia de seguridad de todos los datos en la partición de los datos de usuario antes de continuar con una actualización en el Modo estándar."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Esta versión contiene vulnerabilidades de seguridad conocidas. Las actualizaciones están restringidas.",
+        "suggest": "Descarga la última ROM para este modelo de dispositivo e instálala."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

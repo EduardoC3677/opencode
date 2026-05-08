@@ -1,0 +1,957 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal"
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Pass"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Not supported",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "Unable to analyze due to insufficient data",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "An exception occurred, no results",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "No result is returned after timeout, please test again!",
+        "ExpDetail": "Failed"
+    },
+    "t6": {
+        "ExpAdvice": "An exception occurred, no results",
+        "ExpDetail": "Failed"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Turn on"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Turn off"
+    },
+    "t9": {
+        "ExpAdvice": "All apps",
+        "ExpDetail": "Turn on"
+    },
+    "t00000101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Update available: %1"
+    },
+    "t00010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed"
+    },
+    "t01010101": {
+        "ExpAdvice": "There may be compatibility issues with third-party applications and systems. It is recommended to upgrade to the latest version.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010102": {
+        "ExpAdvice": "There may be compatibility issues with third-party applications and systems. It is recommended to upgrade to the latest version.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010103": {
+        "ExpAdvice": "If the underlying software service encounters an abnormality, or the CPU/memory is unstable, it may cause multiple abnormal restarts. It is recommended to flash to the latest version before using it. If the phenomenon persists, it is recommended to replace the watch motherboard.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010104": {
+        "ExpAdvice": "Occasional underlying restarts may be due to compatibility issues with third-party applications and systems. It is recommended to upgrade or flash to the latest version.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010105": {
+        "ExpAdvice": "If the bottom layer restarts and the upper layer software restarts at the same time, it may be a compatibility issue with third-party applications and systems. It is recommended to upgrade to the latest version.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010106": {
+        "ExpAdvice": "Frequent bottom-layer restarts and upper-layer software restarts occur at the same time. It may be caused by an abnormality in the underlying software service or CPU/memory instability. It is recommended to flash the machine to the latest version before using it. If the problem persists, it is recommended to send it to an advanced maintenance center.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010601": {
+        "ExpAdvice": "Ask the user whether they have installed third-party applications that are not in the software store. If so, suggest the user to uninstall these third-party applications. Otherwise, users are advised to upgrade to the latest version. If the subsequent phenomenon still exists, it may be caused by the user's machine being used for a long time and the application occupying too much memory. It is recommended that the user restart the watch or re-flash to the latest version. (The flash will clear user data, please consult the user’s wishes in advance).",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010701": {
+        "ExpAdvice": "",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010702": {
+        "ExpAdvice": "",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01010901": {
+        "ExpAdvice": "If the system is stuck at startup, it may be due to abnormal system files or compatibility issues between third-party applications and the system. It is recommended to flash to the latest version.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01020101": {
+        "ExpAdvice": "Ask the user if they pressed the button or the crown by mistake. Pressing the crown for a long time will vibrate. If the user presses the crown by mistake and a hard restart occurs, the user can be guided to wear the watch strap loosely or move the watch slightly toward the arm. Some; if the user actively long-presses the button or the crown to trigger a hard restart, the user will be asked whether it is caused by system lag, and asked whether the user has installed applications from non-software stores. If so, the user can be advised to uninstall these non-software stores. application. Otherwise, it is recommended to flash to the latest version.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t01020102": {
+        "ExpAdvice": "Ask the user if they pressed the button or the crown by mistake. Pressing the crown for a long time will vibrate. If the user presses the crown by mistake and a hard restart occurs, the user can be guided to wear the watch strap loosely or move the watch slightly toward the arm. Some; if the user actively long-presses the button or the crown to trigger a hard restart, the user will be asked whether it is caused by system lag, and asked whether the user has installed applications from non-software stores. If so, the user can be advised to uninstall these non-software stores. application. Otherwise, it is recommended to flash to the latest version.",
+        "ExpDetail": "Total occurrence: %1"
+    },
+    "t04020101": {
+        "ExpAdvice": "When the watch is being charged, some electrical energy is converted into heat, and it is normal to generate heat.",
+        "ExpDetail": "Watch charging."
+    },
+    "t04020102": {
+        "ExpAdvice": "Users are reminded not to play music in a charging environment.",
+        "ExpDetail": "Prolonged music playback while the watch is charging."
+    },
+    "t04020103": {
+        "ExpAdvice": "Users are reminded not to play music with the screen turned on for long periods of time.",
+        "ExpDetail": "Prolonged music playback with the watch while the screen on."
+    },
+    "t04020104": {
+        "ExpAdvice": "Users are reminded not to make calls while charging.",
+        "ExpDetail": "Prolonged call on the watch while charging."
+    },
+    "t04020105": {
+        "ExpAdvice": "Users are reminded not to make calls while the screen is on for a long time.",
+        "ExpDetail": "Prolonged call on the watch with the screen on."
+    },
+    "t04020106": {
+        "ExpAdvice": "Users are reminded to turn off the screen when charging.",
+        "ExpDetail": "Watch screen kept on for too long while charging."
+    },
+    "t04020107": {
+        "ExpAdvice": "Users are reminded not to perform download operations in a charging environment.",
+        "ExpDetail": "Prolonged data download on the watch while charging."
+    },
+    "t04020108": {
+        "ExpAdvice": "Users are reminded not to perform downloading operations with the screen turned on for a long time.",
+        "ExpDetail": "Prolonged data download on the watch with the screen on."
+    },
+    "t04020109": {
+        "ExpAdvice": "Poor watch network signal will cause power consumption. Please consult the local network operator, or contact the local network operator for on-site testing.",
+        "ExpDetail": "weak network signal"
+    },
+    "t04020110": {
+        "ExpAdvice": "Upload the log to the background for analysis.",
+        "ExpDetail": "Background app %1 using excessive CPU."
+    },
+    "t04020111": {
+        "ExpAdvice": "The application is a high-load application, and it is normal for the machine to heat up due to long-term use.",
+        "ExpDetail": "Foreground app %1 using excessive CPU."
+    },
+    "t04020112": {
+        "ExpAdvice": "Ask the user whether they actively turn on navigation, use third-party software that uses navigation for a long time, or do frequent outdoor sports (running, walking, etc.). If so, it is a normal fever phenomenon. Otherwise, please upload the log to the background for analysis.",
+        "ExpDetail": "Constant GPS positioning"
+    },
+    "t04020113": {
+        "ExpAdvice": "It is normal for the phone to become hot due to prolonged phone calls.",
+        "ExpDetail": "Watch always on call"
+    },
+    "t04020114": {
+        "ExpAdvice": "Calling when the watch network signal is poor will cause power consumption. Please ask the user whether the call quality is stable.",
+        "ExpDetail": "calls under weak signal."
+    },
+    "t04020115": {
+        "ExpAdvice": "Please consult the user's usage scenarios, combine power-consuming applications and power-consuming diagnosis and troubleshooting, and use a DC regulated power supply to detect whether the watch hardware is leaking.",
+        "ExpDetail": "Unknown cause"
+    },
+    "t04020116": {
+        "ExpAdvice": "The watch will download data for a long time when performing OTA upgrades, downloading and installing applications, etc., and the resulting heat is normal.",
+        "ExpDetail": "Prolonged data download on the watch."
+    },
+    "t05010101": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. Consult the local network operator, or contact the local network operator for on-site testing. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "Making calls is abnormal."
+    },
+    "t05010102": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. Consult the local network operator, or contact the local network operator for on-site testing. <br>3. Refer to the \"No Service Percentage\" diagnostic item to see if there are any abnormalities. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "Unusual call reception."
+    },
+    "t05010103": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. Consult the local network operator, or contact the local network operator for on-site testing. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "Making and receiving calls is abnormal."
+    },
+    "t05010104": {
+        "ExpAdvice": "1. Refer to the \"Signal Quality\" diagnostic item to see if there is a high proportion of weak signals. <br>2. Consult the local network operator, or contact the local network operator for on-site testing.",
+        "ExpDetail": "More dropped calls."
+    },
+    "t05010105": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. Consult the local network operator, or contact the local network operator for on-site testing. <br>3. Refer to the \"Signal Quality\" diagnostic item to see if there is a high proportion of weak signals.",
+        "ExpDetail": "There are a lot of abnormal calls and dropped calls."
+    },
+    "t05010106": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. Consult the local network operator, or contact the local network operator for on-site testing. <br>3. Refer to the \"Signal Quality\" diagnostic item to see if there is a high proportion of weak signals.",
+        "ExpDetail": "There are many abnormal calls and dropped calls."
+    },
+    "t05010107": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. Consult the local network operator, or contact the local network operator for on-site testing. <br>3. Refer to the \"Signal Quality\" diagnostic item to see if there is a high proportion of weak signals.",
+        "ExpDetail": "Making calls is abnormal, receiving calls is abnormal, and there are many dropped calls."
+    },
+    "t05010108": {
+        "ExpAdvice": "1. Please confirm the problem scenario with the user and confirm whether it can be reproduced on site. If it cannot be reproduced, the user can be advised to continue using it and observe whether the problem still exists.",
+        "ExpDetail": "Diagnostics failed due to insufficient data."
+    },
+    "t05010151": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. If users have reported this problem, please confirm whether there is a problem with the \"analog call\" diagnostic item. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "There may be anomalies in making calls."
+    },
+    "t05010152": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. If users have reported this problem, please confirm whether there is a problem with the \"analog call\" diagnostic item. <br>3. Refer to the \"No Service Percentage\" diagnostic item to see if there are any abnormalities. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "There may be anomalies in answering the phone."
+    },
+    "t05010153": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. If users have reported this problem, please confirm whether there is a problem with the \"analog call\" diagnostic item. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "There may be anomalies in making and receiving calls."
+    },
+    "t05010154": {
+        "ExpAdvice": "1. Refer to the \"Signal Quality\" diagnostic item to see if there is a high proportion of weak signals. <br>2. If users have reported this problem, please confirm whether there is a problem with the \"analog call\" diagnostic item.",
+        "ExpDetail": "There may be an abnormality if there are a few dropped calls."
+    },
+    "t05010155": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. If users have reported this problem, please confirm whether there is a problem with the \"analog call\" diagnostic item. <br>3. Refer to the \"Signal Quality\" diagnostic item to see if there is a high proportion of weak signals.",
+        "ExpDetail": "There may be abnormalities in slightly more dropped calls and making calls."
+    },
+    "t05010156": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. If users have reported this problem, please confirm whether there is a problem with the \"analog call\" diagnostic item. <br>3. Refer to the \"Signal Quality\" diagnostic item to see if there is a high proportion of weak signals.",
+        "ExpDetail": "There may be abnormalities in slightly more dropped calls and making calls."
+    },
+    "t05010157": {
+        "ExpAdvice": "1. If the user subscribes to China Unicom eSIM, please go to \"Settings-eSIM Management\" to confirm whether VoLTE is turned on. <br>2. If users have reported this problem, please confirm whether there is a problem with the analog call\" diagnostic item. <br>3. Refer to the \"Signal Quality\" diagnostic item to see if there is a high proportion of weak signals.",
+        "ExpDetail": "There are slightly more dropped calls, and there may be abnormalities in making and receiving calls."
+    },
+    "t05020101": {
+        "ExpAdvice": "1. It is recommended that users connect to their mobile phones to use it. <br>2. Consult the local network operator for the reason for poor signal, or contact the local network operator for on-site testing. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "The proportion of weak signals is high."
+    },
+    "t05020102": {
+        "ExpAdvice": "The usage data is small and no exceptions.",
+        "ExpDetail": "Diagnostics failed due to insufficient data."
+    },
+    "t05020151": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the network registration is normal, whether there is no signal tower or the signal is poor for a long time. If so, it is recommended that users connect to their mobile phones to use it. <br>2. Consult the local network operator for the reason for poor signal, or contact the local network operator for on-site testing. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "The proportion of weak signals is slightly higher."
+    },
+    "t05020201": {
+        "ExpAdvice": "1. Consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "No service for a long time."
+    },
+    "t05020202": {
+        "ExpAdvice": "1. Consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is an abnormality in answering calls, please make sure to set up - eSIM Management and turn off \"Communication Abnormality Optimization\". <br>4. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "Modem abnormality accounts for a high proportion."
+    },
+    "t05020203": {
+        "ExpAdvice": "1. Consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is an abnormality in answering calls, please make sure to set up - eSIM Management and turn off \"Communication Abnormality Optimization\". <br>4. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "Long periods of no service and modem abnormalities account for a high proportion."
+    },
+    "t05020204": {
+        "ExpAdvice": "1. This item is a normal item. If there is abnormality in answering calls, it is recommended that the user select \"Continuous Enablement\" in Settings-eSIM Management-eSIM Activation Mode. <br>2. Taking the watch off the wrist to enter sleep mode to save power, connecting to Bluetooth for a long time, or high temperature protection will cause the modem to shut down, informing the user that abnormal listening is normal.",
+        "ExpDetail": "The modem is shut down for a long time."
+    },
+    "t05020205": {
+        "ExpAdvice": "1. Consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is abnormality in answering calls, it is recommended that the user select \"Continuous Enablement\" in Settings-eSIM Management-eSIM Activation Mode. <br>3. Taking the watch off the wrist to enter sleep mode to save power, connecting to Bluetooth for a long time, or high temperature protection will cause the modem to shut down, informing the user that abnormal listening is normal.",
+        "ExpDetail": "There is no service for a long time and the modem is shut down for a long time."
+    },
+    "t05020206": {
+        "ExpAdvice": "1. It is recommended to consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is an abnormality in answering calls, please make sure to set up - eSIM Management and turn off \"Communication Abnormality Optimization\". <br>4. If there is abnormality in answering calls, it is recommended that the user select \"Continuous Enablement\" in Settings-eSIM Management-eSIM Activation Mode. <br>3. Taking the watch off the wrist to enter sleep mode to save power, connecting to Bluetooth for a long time, or high temperature protection will cause the modem to shut down, informing the user that abnormal listening is normal.",
+        "ExpDetail": "The modem accounts for a high abnormality and the modem is shut down for a long time."
+    },
+    "t05020207": {
+        "ExpAdvice": "1. It is recommended to consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is an abnormality in answering calls, please make sure to set up - eSIM Management and turn off \"Communication Abnormality Optimization\". <br>4. If there is an abnormality in answering calls, it is recommended that the user select \"continuous activation\" in Settings-eSIM Management-eSIM Activation Mode. <br>3. Taking the watch off the wrist to enter sleep mode to save power, connecting to Bluetooth for a long time, or high temperature protection will cause the modem to shut down, informing the user that abnormal listening is normal.",
+        "ExpDetail": "There is no service for a long time, a high proportion of modem abnormalities, and the modem is closed for a long time."
+    },
+    "t05020208": {
+        "ExpAdvice": "1. Please confirm the problem scenario with the user and confirm whether it can be reproduced on site. If it cannot be reproduced, the user can be advised to continue using it and observe whether the problem still exists.",
+        "ExpDetail": "Diagnostics failed due to insufficient data."
+    },
+    "t05020251": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the network registration is normal, whether there is no signal tower or the signal is poor for a long time. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "No service during part of the day."
+    },
+    "t05020252": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the network registration is normal, whether there is no signal tower or the signal is poor for a long time. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is an abnormality in answering calls, please make sure to set up - eSIM Management and turn off \"Communication Abnormality Optimization\".",
+        "ExpDetail": "The proportion of modem exceptions is slightly higher."
+    },
+    "t05020253": {
+        "ExpAdvice": "1. If users report this problem, please use it for a few more days and observe whether there are still problems. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is an abnormality in answering calls, please make sure to set up - eSIM Management and turn off \"Communication Abnormality Optimization\".",
+        "ExpDetail": "There is a slightly higher proportion of no service and modem abnormalities during part of the time."
+    },
+    "t05020254": {
+        "ExpAdvice": "1. This item is a normal item. If there is abnormality in answering calls, it is recommended that the user select \"Continuous Enablement\" in Settings-eSIM Management-eSIM Activation Mode. <br>2. Taking the watch off the wrist to enter sleep mode to save power, connecting to Bluetooth for a long time, or high temperature protection will cause the modem to shut down, informing the user that abnormal listening is normal.",
+        "ExpDetail": "The modem is turned off part of the time."
+    },
+    "t05020255": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the network registration is normal, whether there is no signal tower or the signal is poor for a long time. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is abnormality in answering calls, it is recommended that the user select \"Continuous Enablement\" in Settings-eSIM Management-eSIM Activation Mode. <br>4. Taking the watch off the wrist to enter sleep mode to save power, connecting to Bluetooth for a long time, or high temperature protection will cause the modem to shut down, informing the user that abnormal listening is normal.",
+        "ExpDetail": "There is no service part of the time and the modem is turned off part of the time."
+    },
+    "t05020256": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the network registration is normal, whether there is no signal tower or the signal is poor for a long time. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is an abnormality in answering calls, please make sure to set up - eSIM Management and turn off \"Communication Abnormality Optimization\". <br>4. If there is abnormality in answering calls, it is recommended that the user select \"Continuous Enablement\" in Settings-eSIM Management-eSIM Activation Mode. <br>5. Taking the watch off the wrist to enter sleep mode to save power, connecting to Bluetooth for a long time, or high temperature protection will cause the modem to shut down, informing the user that abnormal listening is normal.",
+        "ExpDetail": "The modem abnormality ratio is slightly higher and the modem is closed part of the time."
+    },
+    "t05020257": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the network registration is normal, whether there is no signal tower or the signal is poor for a long time. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. If there is an abnormality in answering calls, please make sure to set up - eSIM Management and turn off \"Communication Abnormality Optimization\". <br>4. If there is abnormality in answering calls, it is recommended that the user select \"Continuous Enablement\" in Settings-eSIM Management-eSIM Activation Mode. <br>5. Taking the watch off the wrist to enter sleep mode to save power, connecting to Bluetooth for a long time, or high temperature protection will cause the modem to shut down, informing the user that abnormal listening is normal.",
+        "ExpDetail": "There is no service part of the time, the modem abnormality ratio is slightly higher, and the modem is turned off part of the time."
+    },
+    "t05030100": {
+        "ExpAdvice": "",
+        "ExpDetail": "The watch has a record of successfully opening eSIM."
+    },
+    "t05030101": {
+        "ExpAdvice": "Please confirm with the customer whether the eSIM has been successfully activated. If it has not been activated, guide the user to activate esim; if it has been activated, check on site whether there are any problems reported by users.",
+        "ExpDetail": "No eSIM activation record."
+    },
+    "t05030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Too little data to diagnose."
+    },
+    "t05030103": {
+        "ExpAdvice": "Please confirm whether the watch model supports eSIM.",
+        "ExpDetail": "The device does not support eSIM activation."
+    },
+    "t05050100": {
+        "ExpAdvice": "The RF transmission path has been completed. To ensure the normal use of watch functions, the diagnostic tool will automatically restart the watch.",
+        "ExpDetail": "RF transmit path testing has been completed."
+    },
+    "t05050103": {
+        "ExpAdvice": "Please stop using the watch eSIM and test again. Method: Mobile Health App - Device - eSIM Management - Settings - Suspend eSIM.",
+        "ExpDetail": "Watch eSIM in use."
+    },
+    "t05050106": {
+        "ExpAdvice": "The test cannot be repeated, please restart and test again.",
+        "ExpDetail": "Repeat test"
+    },
+    "t05050107": {
+        "ExpAdvice": "Please make sure the watch has sufficient power before trying the test again.",
+        "ExpDetail": "Battery is less than 10%."
+    },
+    "t05050108": {
+        "ExpAdvice": "The watch is fetching logs, please stop fetching logs and retest. Method: Watch dial - enter *#800# - click to stop grabbing.",
+        "ExpDetail": "Fetching watch logs."
+    },
+    "t05050102": {
+        "ExpAdvice": "1. Please confirm whether the watch is accidentally touched during the test. <br>2. Testing again is still abnormal, which means there is a problem with some frequency bands. Please replace the watch motherboard.",
+        "ExpDetail": "RF pathway abnormality.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. Switch airplane mode or restart to confirm whether it can be restored. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "No internet access."
+    },
+    "t05071202": {
+        "ExpAdvice": "1. Please confirm the problem scenario with the user and confirm whether it can be reproduced on site. If it cannot be reproduced, the user can be advised to continue using it and observe whether the problem still exists. <br>2. Part of this diagnostic item cannot be recognized in the scenario of being unable to access the Internet. If the user emphasizes this abnormality, please open the software store to see if there is a problem of being unable to access the Internet.",
+        "ExpDetail": "Diagnostics failed due to insufficient data."
+    },
+    "t05071251": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. Switch airplane mode or restart to confirm whether it can be restored. <br>3. Part of this diagnostic item cannot be recognized in the scenario of being unable to access the Internet. If the user emphasizes this abnormality, please open the software store to see if there is any problem of being unable to access the Internet.",
+        "ExpDetail": "Unable to access the Internet part of the time."
+    },
+    "t05071301": {
+        "ExpAdvice": "1. Consult the local network operator, or contact the local network operator for on-site testing. <br>2. Switch airplane mode or restart to confirm whether it can be restored. <br>3. Confirm whether the \"Signal Quality\" diagnostic item has a high proportion of weak signals.",
+        "ExpDetail": "Slow network speed."
+    },
+    "t05071302": {
+        "ExpAdvice": "The usage data is small and no exceptions.",
+        "ExpDetail": "Diagnostics failed due to insufficient dat1."
+    },
+    "t05071351": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. Switch airplane mode or restart to confirm whether it can be restored. <br>3. Confirm whether the \"Signal Quality\" diagnostic item has a high proportion of weak signals.",
+        "ExpDetail": "Internet speed is slow part of the time."
+    },
+    "t05071401": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method. <br>4. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "Data connection failed."
+    },
+    "t05071402": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method. <br>4. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "There's up and there's no down."
+    },
+    "t05071403": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method. <br>4. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "The data connection fails and there is uplink but no downlink."
+    },
+    "t05071404": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "Abnormal disconnection."
+    },
+    "t05071405": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "Data connection failure and abnormal disconnection."
+    },
+    "t05071406": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "Abnormal disconnection and uplink but no downlink."
+    },
+    "t05071407": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "The data connection fails, there is uplink but no downlink, and the connection is abnormally disconnected."
+    },
+    "t05071408": {
+        "ExpAdvice": "1. Please confirm the problem scenario with the user and confirm whether it can be reproduced on site. If it cannot be reproduced, the user can be advised to continue using it and observe whether the problem still exists.",
+        "ExpDetail": "Diagnostics failed due to insufficient data."
+    },
+    "t05071451": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "The data connection fails part of the time."
+    },
+    "t05071452": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "Data access to the Internet is uplink but not downlink during part of the time."
+    },
+    "t05071453": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "The data connection fails some of the time and the data Internet sometimes has uplink but not downlink."
+    },
+    "t05071454": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "The data connection is abnormally disconnected for part of the time."
+    },
+    "t05071455": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "The data connection fails and is abnormally disconnected part of the time."
+    },
+    "t05071456": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "The data connection is abnormally disconnected for part of the time and there is uplink but no downlink."
+    },
+    "t05071457": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. It is recommended that users connect to their mobile phones to use it. <br>3. It is recommended that users select \"Smart Enablement\" in Settings-eSIM Management-eSIM Enablement Method.",
+        "ExpDetail": "The data connection fails and is disconnected abnormally some of the time, and data access sometimes goes up but not down."
+    },
+    "t05071601": {
+        "ExpAdvice": "1. Confirm whether the payment is in arrears, otherwise consult the local network operator, or contact the local network operator for on-site testing. <br>2. Switch airplane mode or restart to confirm whether it can be restored. <br>3. Guide users to log out and re-activate esim or activate esim of other operators.",
+        "ExpDetail": "The data network icon is not displayed.。"
+    },
+    "t05071602": {
+        "ExpAdvice": "The usage data is small and no exceptions.",
+        "ExpDetail": "Diagnostics failed due to insufficient data."
+    },
+    "t05071651": {
+        "ExpAdvice": "1. If users report this problem, please check on site whether the data icon frequently disappears or is not displayed, and open the software store to see if there is any problem of being unable to access the Internet. <br>2. Switch airplane mode or restart to confirm whether it can be restored.",
+        "ExpDetail": "The data network icon is not displayed sometimes."
+    },
+    "t05110101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Unable to make phone calls.",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "",
+        "ExpDetail": "No sound during calls.",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Noise in calls.",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Other",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "1. Ask the user if they have feedback on call or signal problems. If so, it is recommended to send it to an advanced maintenance center for testing or replacement of the motherboard. Otherwise, there is no need to diagnose this item. <br>2. It is recommended to flash the machine to the latest version and use it according to the scenario described by the user. If the phenomenon still exists, it is recommended to send it to an advanced maintenance center for testing or replacement of the motherboard.",
+        "ExpDetail": "RF hardware channel abnormality"
+    },
+    "t05120102": {
+        "ExpAdvice": "The usage data is small and no exceptions.",
+        "ExpDetail": "The usage data is small and no exceptions.."
+    },
+    "t05120201": {
+        "ExpAdvice": "1. Ask the user if they have feedback on call or signal problems. If so, it is recommended to send it to an advanced maintenance center for testing or replacement of the motherboard. Otherwise, there is no need to diagnose this item. <br>2. It is recommended to flash the machine to the latest version and use it according to the scenario described by the user. If the phenomenon still exists, it is recommended to send it to an advanced maintenance center for testing or replacement of the motherboard.",
+        "ExpDetail": "If the esim chip cannot be detected, you may not be able to activate and use esim."
+    },
+    "t05120202": {
+        "ExpAdvice": "The usage data is small and no exceptions.",
+        "ExpDetail": "Diagnostics failed due to insufficient data."
+    },
+    "t05120203": {
+        "ExpAdvice": "",
+        "ExpDetail": "This model does not support eSIM"
+    },
+    "t06010001": {
+        "ExpAdvice": "Check whether the system positioning switch is turned off.",
+        "ExpDetail": "There is too little GPS data to diagnose. The positioning may not be possible because the positioning switch is turned off."
+    },
+    "t06010101": {
+        "ExpAdvice": "Try to do it in an open environment (there are no high-rise buildings within 50 meters nearby, please do not do it in the building if you have no conditions). When the watch is not worn, enter *#802# on the dial to check the star search results. If no less than 4 are found, satellites and the average signal of the 4 satellites with the largest signal value is not less than 30. The equipment is normal;<br>Otherwise *#*#700# upgrade the GPS and then conduct the signal test; if it still fails, please inspect the GPS hardware.",
+        "ExpDetail": "Using GPS in an environment where high-rise buildings are densely packed and blocked causes poor star search signals."
+    },
+    "t06010102": {
+        "ExpAdvice": "Detect whether the system positioning switch is turned off; ask the user which application cannot be located, and check the positioning permission of the application.",
+        "ExpDetail": "GPS is not turned on or application permissions are not turned on."
+    },
+    "t06010103": {
+        "ExpAdvice": "Check whether the system positioning switch is turned off.",
+        "ExpDetail": "There is too little GPS data to diagnose. The positioning may not be possible because the positioning switch is turned off."
+    },
+    "t06010104": {
+        "ExpAdvice": "Try to use it in an open environment (there are no high-rise buildings within 50 meters nearby, please do not do it in the building if you have no conditions). When the watch is not worn, enter *#802# on the dial to view the star search results. No less than 4 can be found. satellites and the average signal of the four satellites with the largest signal value is not less than 30;<br>Otherwise *#*#700# After upgrading the GPS, perform the signal test again; the GPS hardware still fails to be repaired.",
+        "ExpDetail": "GPS hardware problems or caused by using GPS indoors."
+    },
+    "t06010105": {
+        "ExpAdvice": "Please check whether the GPS antenna is damaged, deformed, or has poor contact, etc.",
+        "ExpDetail": "GPS antenna abnormality."
+    },
+    "t06020101": {
+        "ExpAdvice": "",
+        "ExpDetail": "wifi unable to turn on."
+    },
+    "t06020201": {
+        "ExpAdvice": "",
+        "ExpDetail": "wifi no network connection."
+    },
+    "t06020301": {
+        "ExpAdvice": "",
+        "ExpDetail": "wifi connection error."
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnostics failed due to insufficient data."
+    },
+    "t06020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "wifi disconnected."
+    },
+    "t06030201": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed"
+    },
+    "t06030300": {
+        "ExpAdvice": "Please provide corresponding diagnostic suggestions based on the proportion of disconnection causes per day in the chart:<br>1. The mobile phone watch is not compatible with Bluetooth. Diagnosis suggestions: Please upload diagnostic logs to feedback to engineers for follow-up.<br>2. The mobile phone and watch are too far away/blocked by walls. Diagnosis suggestion: This is a normal phenomenon. Please keep your phone and watch within the Bluetooth connection range.<br>3. The pairing information of the mobile phone and watch is lost. Diagnosis suggestion: Please ignore the watch device in \"Mobile Settings - Bluetooth\", click \"Reconnect\" in \"Health App - Device\" (above the watch face), and click \"Confirm\" in the pop-up pairing confirmation box.<br>4. There are too many Bluetooth devices bound to the mobile phone. Diagnostic advice: Unpair unused devices as needed.<br>5. The mobile watch connection already exists. Diagnosis suggestion: Please turn off the Bluetooth of your phone and try to connect again.<br>6. The mobile phone refused to connect. Diagnosis suggestion: Some brands of mobile phones have a Bluetooth blacklist function. Please remove the watch from the Bluetooth blacklist of the mobile phone.<br>7. The reconnection parameter is not supported. Diagnosis suggestions: Please upload diagnostic logs to feedback to engineers for follow-up.<br>8. Turn off the mobile phone’s Bluetooth. Diagnosis suggestion: Please keep the Bluetooth of your mobile phone turned on.<br>9. The watch Bluetooth is turned off. Diagnosis suggestion: Please keep the watch Bluetooth turned on.<br>10. The mobile health app was cleaned in the background. Diagnosis suggestion: Please follow the tutorial in \"Health - Device - More Functions - Anti-disconnection Settings\" to keep alive.<br>11. Bluetooth stability problem. Diagnosis suggestion: Please flash to the latest version. If the problem still exists if you continue to use it, please upload logs and feedback to engineers for follow-up.<br>12. The problem of small core stability. Diagnosis suggestion: Please flash to the latest version. If the problem still exists if you continue to use it, please upload logs and feedback to engineers for follow-up.",
+        "ExpDetail": "Normal"
+    },
+    "t06030301": {
+        "ExpAdvice": "Please provide corresponding diagnostic suggestions based on the proportion of disconnection causes per day in the chart:<br>1. The mobile phone watch is not compatible with Bluetooth. Diagnosis suggestions: Please upload diagnostic logs to feedback to engineers for follow-up.<br>2. The mobile phone and watch are too far away/blocked by walls. Diagnosis suggestion: This is a normal phenomenon. Please keep your phone and watch within the Bluetooth connection range.<br>3. The pairing information of the mobile phone and watch is lost. Diagnosis suggestion: Please ignore the watch device in \"Mobile Settings - Bluetooth\", click \"Reconnect\" in \"Health App - Device\" (above the watch face), and click \"Confirm\" in the pop-up pairing confirmation box.<br>4. There are too many Bluetooth devices bound to the mobile phone. Diagnostic advice: Unpair unused devices as needed.<br>5. The mobile watch connection already exists. Diagnosis suggestion: Please turn off the Bluetooth of your phone and try to connect again.<br>6. The mobile phone refused to connect. Diagnosis suggestion: Some brands of mobile phones have a Bluetooth blacklist function. Please remove the watch from the Bluetooth blacklist of the mobile phone.<br>7. The reconnection parameter is not supported. Diagnosis suggestions: Please upload diagnostic logs to feedback to engineers for follow-up.<br>8. Turn off the mobile phone’s Bluetooth. Diagnosis suggestion: Please keep the Bluetooth of your mobile phone turned on.<br>9. The watch Bluetooth is turned off. Diagnosis suggestion: Please keep the watch Bluetooth turned on.<br>10. The mobile health app was cleaned in the background. Diagnosis suggestion: Please follow the tutorial in \"Health - Device - More Functions - Anti-disconnection Settings\" to keep alive.<br>11. Bluetooth stability problem. Diagnosis suggestion: Please flash to the latest version. If the problem still exists if you continue to use it, please upload logs and feedback to engineers for follow-up.<br>12. The problem of small core stability. Diagnosis suggestion: Please flash to the latest version. If the problem still exists if you continue to use it, please upload logs and feedback to engineers for follow-up.",
+        "ExpDetail": "Bluetooth disconnects frequently."
+    },
+    "t06030401": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed"
+    },
+    "t06030501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed"
+    },
+    "t06030601": {
+        "ExpAdvice": "",
+        "ExpDetail": "Failed"
+    },
+    "t03010401": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010401'></p><script>var result=%1;var good=80;var excellent=90;var resultText = '';if(result>=excellent){resultText+='Excellent';}else if(result>good){resultText+='Good';}else{resultText+='Poor';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>  Excellent: Remaining battery capacity ≥ 90%, Good: 80% ≤ Remaining battery capacity ≤ 90%; Poor: Remaining battery capacity < 80%</span>';$('#t03010401').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010402": {
+        "ExpAdvice": "Your battery is in poor condition. We recommend replacing it as soon as you can.",
+        "ExpDetail": "<p id='t03010402'></p><script>var result=%1;var good=80;var excellent=90;var resultText = '';if(result>=excellent){resultText+='Excellent';}else if(result>good){resultText+='Good';}else{resultText+='Poor';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>  Excellent: Remaining battery capacity ≥ 90%, Good: 80% ≤ Remaining battery capacity ≤ 90%; Poor: Remaining battery capacity < 80%</span>';$('#t03010402').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t04010101'></p><script>var percent=%1;var params='%2';var powerAnalyze = '%3';var paramMax = '%4';var resultText='';if (params == 'WatchBatteryLife'){var lifeMin = parseFloat(powerAnalyze); var lifeMax = parseFloat(paramMax);resultText+='<p style=\\\\'font-size:18px;font-weight:bold;\\\\'>Battery life parameters: Smart Mode ' + lifeMin + ' days/Power Saver ' + lifeMax +' days</p>'; resultText+='<p style=\\\\'font-size:14px;\\\\'><br>How to switch between Smart Mode and Power Saver: In Settings-Modes click Smart Mode or Power Saver to switch.</p>';params = '%5';powerAnalyze = '%6';} if (params.length > 20) {resultText+='<p style=\\\\'font-size:18px;font-weight:bold;\\\\'><br>Battery Report</p>'; resultText+='<p style=\\\\'font-size:16px;font-weight:bold;\\\\'><br>Past 7 days</p>';resultText+=powerAnalyze;resultText+='<p style=\\\\'font-size:16px;font-weight:bold;\\\\'><br>Past 7 days</p>';var datas=params.split('|'); var flag = false; for (var i=0;i<datas.length;i+=3) { if (i+3 > datas.length)  break; resultText += datas[i]; if (parseInt(datas[i+1])>percent) { resultText+='Heavy use'; resultText+= datas[i+2]; } else {resultText+='Normal'; }}}$('#t04010101').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t09010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Touch screen sensor sampling is normal."
+    },
+    "t09010102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - Manual test - Equipment debugging - TouchScreen - Touch screen automatic test and re-test. After clicking to enter, the watch will automatically test. Wait for about 10 seconds to display Pass, which means it is normal; If the result is not Pass, please follow the steps below to continue<br>1. Flash your phone to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Touch screen sensor sampling diagnostic instructions"
+    },
+    "t09010201": {
+        "ExpAdvice": "",
+        "ExpDetail": "Small core touch function is normal."
+    },
+    "t09010202": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Xiaohe TP test and re-test. After clicking, the watch will automatically test and give the result; if the result is not Pass, please follow the steps below to continue. <br>1. Flash your phone to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Diagnostic instructions for small core touch function."
+    },
+    "t09060101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Touch function is normal."
+    },
+    "t09060102": {
+        "ExpAdvice": "Please make sure to use the skin of your palm to fully and directly contact the screen for testing. If the problem persists, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Touch function diagnostic instructions."
+    },
+    "t09020101": {
+        "ExpAdvice": "",
+        "ExpDetail": "The screen displays is normal."
+    },
+    "t09020102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - LCD Test and Small Core LCD Test to retest, click on the screen to switch samples and observe the screen color, select the corresponding one based on the observation results on the final option page If the result is abnormal, please follow the steps below to continue<br>1. Flash the machine to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": ""
+    },
+    "t09020201": {
+        "ExpAdvice": "",
+        "ExpDetail": "The screen displays is normal."
+    },
+    "t09020202": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - LCD Test and Small Core LCD Test to retest, click on the screen to switch samples and observe the screen color, select the corresponding one based on the observation results on the final option page If the result is abnormal, please follow the steps below to continue<br>1. Flash the machine to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "On-screen diagnostic instructions"
+    },
+    "t10030101": {
+        "ExpAdvice": "",
+        "ExpDetail": "The light sensor is normal."
+    },
+    "t10030102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - after-sales tools - light intensity test and re-test. In a bright light environment, the screen value can be greater than 15, and then cover and touch the screen with your palm to make the screen value less than 5. The Pass result will be automatically returned (there is a green check mark before the name of the test item); otherwise, follow the steps below to continue<br>1. Flash the machine to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Light sensor diagnostic instructions."
+    },
+    "t10040101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gravity sensor is normal."
+    },
+    "t10040102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Gravity Sensing Test and retest. Shake the watch to a large extent. If it automatically returns and displays a green check mark, it is normal; otherwise, continue with the steps below. Operation<br>1. Flash the machine to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Gravity Sensor Diagnostic Instructions."
+    },
+    "t10060101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Gyroscope is normal."
+    },
+    "t10060102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - after-sales tools - gyroscope test and re-test. Hold the watch with your hand and keep turning your wrist. If it automatically returns and displays a green check mark, it is normal; otherwise Follow the steps below to continue<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Gyroscope Diagnostic Instructions."
+    },
+    "t30010100": {
+        "ExpAdvice": "1. Wearing the watch too loosely will cause the watch to shake while sleeping or running, causing the wrist to fall off for a very short period of time, causing the screen to lock, which is normal.<br>2. When the body temperature is low at the beginning of running, the sensor signal quality is poor and the heart rate may be inaccurate, which is normal.<br>3. Sweating during exercise causes the watch to slip or the watch is worn too loosely, resulting in poor sensor signal quality and possibly inaccurate heart rate, which is normal.<br>4. Blood oxygen/heart rate measurement is affected by many factors such as the tightness and position of the watch, wrist hair, tattoos, wrist circumference, external temperature, etc. Inaccuracies may occur, which is normal.",
+        "ExpDetail": "Software and hardware are normal."
+    },
+    "t30010101": {
+        "ExpAdvice": "1. Restart the watch and try again; <br>2. Flash to the latest version; <br>3. If the problem still exists, please enter \"*#899#\" to detect the PPG sensor.",
+        "ExpDetail": "System lag leads to a high rate of PPG sensor loss, which may lead to abnormalities in wear, heart rate, and blood oxygen."
+    },
+    "t30020100": {
+        "ExpAdvice": "1. The watch performs step counting and recognition based on arm swing movements. If the arm swing is too small when walking, the step counting may be inaccurate.<br>2. Taking various means of transportation may affect the accuracy of step counting.<br>3. Affected by swimming movements, recognition errors may occur, which is normal.",
+        "ExpDetail": "Hardware is normal"
+    },
+    "t30020101": {
+        "ExpAdvice": "1. Restart the watch and try again; 2. Flash to the latest version; 3. If the problem still exists, please enter \"*#899#\" to detect the gyroscope.",
+        "ExpDetail": "System lagging causes a high rate of ACC point loss, which may lead to abnormal performance in step counting, heart rate, mileage, swimming, and ball sports."
+    },
+    "t30030100": {
+        "ExpAdvice": "Affected by swimming movements, recognition errors may occur, which is normal.",
+        "ExpDetail": "Hardware is normal."
+    },
+    "t30030101": {
+        "ExpAdvice": "1. Restart the watch and try again;<br>2. Upgrade the watch to the latest version;<br>3. If the problem still exists, please use the tool model to further measure whether the hardware is normal.",
+        "ExpDetail": "ystem lags cause a high rate of air pressure loss, which may cause abnormal performance in mountain climbing, altitude, swimming, and sports counting."
+    },
+    "t30040100": {
+        "ExpAdvice": "Affected by factors such as external magnetic fields, the magnetometer may be inaccurate, resulting in inaccurate trajectory and swimming. This is a normal phenomenon.",
+        "ExpDetail": "Hardware is normal."
+    },
+    "t30040101": {
+        "ExpAdvice": "1. Restart the watch and try again;<br> 2. Upgrade the watch to the latest version;<br>3. If the problem still exists, please enter \"*#899#\" to detect geomagnetism.",
+        "ExpDetail": "ystem lag causes the magnetometer to lose points at a high rate, which may lead to abnormal pace and trajectory performance."
+    },
+    "t30050100": {
+        "ExpAdvice": "Due to factors such as high-rise buildings, glass curtain walls, trees, and dark clouds, GPS positioning may be inaccurate, resulting in inaccurate trajectory and mileage. This is a normal phenomenon.",
+        "ExpDetail": "Hardware is normal."
+    },
+    "t30050101": {
+        "ExpAdvice": "1. Restart the watch and try again; <br>2. Upgrade the watch to the latest version; <br>3. If the problem still exists, please check GPS for diagnosis.",
+        "ExpDetail": "System lag causes a high GPS point loss rate, which may lead to abnormal pace, mileage, and trajectory performance."
+    },
+    "t08020101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Speaker is normal."
+    },
+    "t08020102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Speaker Test again. Click to enter and the watch will automatically play the alarm sound in a loop. Select the corresponding option on the page based on your hearing; if the result is abnormal , please follow the steps below to continue<br>1. Flash your phone to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Speaker diagnostic instructions."
+    },
+    "t08030101": {
+        "ExpAdvice": "",
+        "ExpDetail": "MIC is normal."
+    },
+    "t08030102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Main MIC test and secondary MIC test and re-test, follow the step prompts to record and play, and select the corresponding option on the page according to your hearing; as shown in the result If it is abnormal, please follow the steps below to continue<br>1. Flash the machine to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Microphone diagnostic instructions."
+    },
+    "t06031001": {
+        "ExpAdvice": "",
+        "ExpDetail": "Bluetooth audio device is normal."
+    },
+    "t06031002": {
+        "ExpAdvice": "There may be errors in the audio loopback test, and it is recommended to conduct the diagnosis at least 3 times. If the abnormality probability is high, it is recommended to send it to an advanced maintenance center.",
+        "ExpDetail": "There may be abnormalities in the Bluetooth audio device."
+    },
+    "t06031101": {
+        "ExpAdvice": "",
+        "ExpDetail": "The basic functions of Bluetooth are normal and the Bluetooth switch is normal."
+    },
+    "t06031102": {
+        "ExpAdvice": "Re-test after flashing to the latest version. If there is still a switch failure, it is recommended to send it to an advanced maintenance center.",
+        "ExpDetail": "There may be abnormalities in the basic Bluetooth hardware"
+    },
+    
+    "t06040501": {
+        "ExpAdvice": "If users have feedback issues, please follow the steps below to continue troubleshooting.<br>1. Confirm whether the NFC switch is turned on (Settings - Connection & Sharing - NFC).<br>2. Check whether the current card type in the user's watch wallet is consistent with the target card swiping type. For example, the first card currently opened by the watch wallet is an access control card, but it needs to be swiped at the bus or subway gate.<br>3. If the user reports that the bus card swiping fails, it is recommended that the user retry the card swiping or change the gate to swipe the card. If the card still cannot be swiped, please confirm with the subway manual customer service.<br>4. If the user reports that the access control card fails to be swiped, please confirm whether the access control is blocked. You can try swiping the card at different angles and distances.",
+        "ExpDetail": "NFC card swiping is normal."
+    },
+    "t06040502": {
+        "ExpAdvice": "1. Confirm whether a useful card (bus card, access card, or the camera position of an OPPO mobile phone with a card) is placed against the watch during the diagnosis process<br>2. Restart the watch and test again. <br>3. It is recommended to flash to the latest version and retest. <br>4. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "NFC card swipe diagnostic instructions."
+    },
+    "t06040101": {
+        "ExpAdvice": "1. Guide the user to record the card according to the optimal card reading position as prompted by the card recording tutorial of the Health App.<br>2. Please confirm whether the user's card works in the NFC band (try to use the OPPO mobile wallet app to record the card to verify).<br>3. Restart the watch and try recording again.",
+        "ExpDetail": "NFC card reading is normal."
+    },
+    "t06040102": {
+        "ExpAdvice": "1. The detection times out and confirm whether the card is close to the watch (please keep the card close to the watch according to the optimal card reading position indicated in the card recording tutorial of the Health App).<br>2. Restart the watch and test again.<br>3. It is recommended to flash the watch to the latest version, upgrade the mobile health app to the latest version and then test again.<br>4. If the problem still cannot be solved, the watch NFC antenna needs to be replaced.",
+        "ExpDetail": "NFC card reading diagnostic instructions."
+    },
+    "t09090101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Touch accuracy is normal."
+    },
+    "t09090102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - TP line drawing test and re-test. After clicking to enter, slide your finger along the red display area of the screen. When the green area being moved covers all red The area is normal; if it cannot be covered, please follow the steps below to continue<br>1. Flash your phone to the latest version. <br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Touch Accuracy Diagnosis Instructions."
+    },
+    "t10050101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Geomagnetic sensor is normal."
+    },
+    "t10050102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Geomagnetic Test to re-test. After clicking, the watch will automatically test. If it returns and displays a green check mark, it is normal; otherwise, follow the steps below to continue < br>1. Flash the phone to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Geomagnetic Sensor Diagnostic Instructions."
+    },
+    "t12020101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal."
+    },
+    "t12020102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Big Core Motor Test and re-test. After clicking, the watch will automatically vibrate. If the vibration is normal, please click the success button at the bottom left of the screen; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Android CPU motor diagnostic instructions."
+    },
+    "t12020301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal."
+    },
+    "t12020302": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Big Core Motor Test and re-test. After clicking, the watch will automatically vibrate. If the vibration is normal, please click the success button at the bottom left of the screen; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "MCU motor diagnostic instructions."
+    },
+    "t08099901": {
+        "ExpAdvice": "How to deal with speaker noise:<br>1. Check the watch audio hardware<br>Please connect the after-sales diagnostic tool to check whether the speakers, microphones and Bluetooth audio devices are normal, and perform diagnostic and repair according to the after-sales tool diagnostic recommendations.<br>2. Probabilistic noise from the watch<br>If the audio hardware of the watch detects normally, but probabilistic noise occurs, you can troubleshoot as follows:<br>2.1 Detection of clogging of watch balance film<br>- Detection method:<br>Place the watch on the heating table at 40-50 degrees Celsius and heat it for 5 minutes. If there is no heating table, play music continuously for 30 minutes, and then use the watch to play music again. If the speaker is abnormal at this time, it is judged that the speaker balance film is blocked.<br>- Repair method for speaker balance diaphragm plugging:<br>(1) Clean the watch body according to the SOP for square meters, and then check the effect; if the problem of blocked holes and noise cannot be solved, replace the middle frame;<br>(2) Please replace the back cover of the round watch.<br>2.2 Abnormal watch software or signal<br>Software or signal noise problems are complicated and the reasons cannot be given directly. Please capture the watch audio log and submit the problem feedback to the engineers for processing.",
+        "ExpDetail": ""
+    },
+    "t06040701": {
+        "ExpAdvice": "1. If there is a return value and FAIL, please check whether the watch is placed on a magnetic base or there are magnetic substances around it. If not, you need to disassemble the watch and check the antenna connection.<br>2. No return value and FAIL, please restart the watch and test.",
+        "ExpDetail": ""
+    },
+    "t10900101": {
+        "ExpAdvice": "1. Remove the back shell for cleaning, reinstall the back shell and retest.<br>2. If there is still a problem in the first step of testing, please replace the back shell. And install the problematic back case to other normal watches to cross-check to confirm whether the back case is faulty.<br>3. Send the problematic rear shell back to the headquarters for analysis.",
+        "ExpDetail": ""
+    },
+    "t10910101": {
+        "ExpAdvice": "1. If only the ECG sensor lead test is abnormal, please cross-test whether the bottom case electrodes, side electrodes and bottom case shrapnel are in normal contact with the leaking copper in the middle frame, and determine to replace the faulty hardware.<br>2. If only the ECG path test is abnormal, the bottom case needs to be replaced.<br>3. If only the ECG short-circuit test is abnormal, you can first wipe the electric shock and electric shock gap on the bottom case with an alcohol cloth, dry it and then test again. If the problem is still abnormal, the bottom case needs to be replaced.<br>4. If multiple problems are detected above, please cross-verify to determine the number of problems and proceed accordingly.",
+        "ExpDetail": ""
+    },
+    "t06010500": {
+        "ExpAdvice": "",
+        "ExpDetail": "GPS hardware is normal."
+    },
+    "t06010501": {
+        "ExpAdvice": "1. If the GPS firmware is normal, please replace the hardware.<br>2. If the GPS firmware is abnormal, flash to the latest version.",
+        "ExpDetail": "GPS hardware is abnormal."
+    },
+    "t06010502": {
+        "ExpAdvice": "Ask the user whether they use GPS-related applications, such as sports, weather, etc.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06010600": {
+        "ExpAdvice": "",
+        "ExpDetail": "GPS firmware is normal."
+    },
+    "t06010601": {
+        "ExpAdvice": "It is recommended to flash to the latest version.",
+        "ExpDetail": "GPS firmware abnormality."
+    },
+    "t06010602": {
+        "ExpAdvice": "GPS firmware information is not recorded, it is recommended to upgrade to the latest version.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06010700": {
+        "ExpAdvice": "",
+        "ExpDetail": "Ephemeris update is normal."
+    },
+    "t06010701": {
+        "ExpAdvice": "1.Please flash your watch to the latest version;<br>2.Please upgrade the health app to the latest version;<br>3.Please maintain a stable connection between the watch and the paired mobile phone;<br>4.If the user is paired with a third-party mobile phone, it is recommended that the user complete the anti-disconnection settings to ensure a stable connection between the mobile phone and the watch and a stable transmission of GPS auxiliary information;<br>5.The path to anti-disconnection settings: Go to \"Health App - Device - More Functions - Anti-disconnection Settings\" on your phone;",
+        "ExpDetail": "Ephemeris expired, resulting in slow positioning (>5 minutes)."
+    },
+    "t06010702": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06010703": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "Data is less than 7 days."
+    },
+    "t06010800": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lonospheric update normal"
+    },
+    "t06010801": {
+        "ExpAdvice": "1.Please flash your watch to the latest version;<br>2.Please upgrade the health app to the latest version;<br>3.Please maintain a stable connection between the watch and the paired mobile phone;<br>4.If the user is paired with a third-party mobile phone, it is recommended that the user complete the anti-disconnection settings to ensure a stable connection between the mobile phone and the watch and a stable transmission of GPS auxiliary information;<br>5.The path to anti-disconnection settings: Go to \"Health App - Device - More Functions - Anti-disconnection Settings\" on your phone;",
+        "ExpDetail": "The ionosphere is expired, positioning accuracy is reduced, and movement trajectory deviation is large."
+    },
+    "t06010802": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06010803": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "Data is less than 7 days."
+    },
+    "t06010900": {
+        "ExpAdvice": "",
+        "ExpDetail": "The watch system time is normal."
+    },
+    "t06010901": {
+        "ExpAdvice": "1.Please flash your watch to the latest version;<br>2.Please upgrade the health app to the latest version;<br>3.Please maintain a stable connection between the watch and the paired mobile phone;<br>4.If the user is paired with a third-party mobile phone, it is recommended that the user complete the anti-disconnection settings to ensure a stable connection between the mobile phone and the watch and a stable transmission of GPS auxiliary information;<br>5.The path to anti-disconnection settings: Go to \"Health App - Device - More Functions - Anti-disconnection Settings\" on your phone;",
+        "ExpDetail": "There is a deviation between the watch system and the satellite time, resulting in slow positioning (>5 minutes)."
+    },
+    "t06010902": {
+        "ExpAdvice": "Ask the user whether they use GPS-related applications, such as sports, weather, etc.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06010903": {
+        "ExpAdvice": "Ask the user whether they use GPS-related applications, such as sports, weather, etc.",
+        "ExpDetail": "Data is less than 7 days."
+    },
+    "t06011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Auxiliary data is normal."
+    },
+    "t06011001": {
+        "ExpAdvice": "1.Please flash your watch to the latest version;<br>2.Please upgrade the health app to the latest version;<br>3.Please maintain a stable connection between the watch and the paired mobile phone;<br>4.If the user is paired with a third-party mobile phone, it is recommended that the user complete the anti-disconnection settings to ensure a stable connection between the mobile phone and the watch and a stable transmission of GPS auxiliary information;<br>5.The path to anti-disconnection settings: Go to \"Health App - Device - More Functions - Anti-disconnection Settings\" on your phone;",
+        "ExpDetail": "Auxiliary data is not valid."
+    },
+    "t06011002": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06011003": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "Data is less than 7 days."
+    },
+    "t06011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Mobile phone GPS usage frequency is normal."
+    },
+    "t06011101": {
+        "ExpAdvice": "1.Please flash your watch to the latest version;<br>2.Please upgrade the health app to the latest version;<br>3.Please maintain a stable connection between the watch and the paired mobile phone;<br>4.If the user is paired with a third-party mobile phone, it is recommended that the user complete the anti-disconnection settings to ensure a stable connection between the mobile phone and the watch and a stable transmission of GPS auxiliary information;<br>5.The path to anti-disconnection settings: Go to \"Health App - Device - More Functions - Anti-disconnection Settings\" on your phone;",
+        "ExpDetail": "Mobile phone GPS usage is low."
+    },
+    "t06011102": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06011103": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "Data is less than 7 days."
+    },
+    "t06011200": {
+        "ExpAdvice": "When the watch is connected to a mobile phone, it can obtain auxiliary positioning information from the mobile phone to achieve faster positioning speed and more accurate positioning trajectory.",
+        "ExpDetail": "GPS star search function is normal."
+    },
+    "t06011201": {
+        "ExpAdvice": "1. Perform the following tests: first connect to the Android phone and wait 30 seconds to ensure that the phone can connect to the Internet.<br>Enter *#802#, take the watch to an open area for positioning, and observe the number of star searches and CN0. <br>(1) If it continues to be less than 4, or CN0 is less than 20db, refresh the latest watch version, connect to the mobile phone and test again<br> (2) If the positioning can be successful, and the number of searched stars is greater than 8, and CN0 is greater than 20db, the GPS function is normal.<br>Please explain to users: When the watch is connected to a mobile phone, it can obtain auxiliary positioning information from the mobile phone to achieve faster positioning speed and more accurate positioning trajectory.",
+        "ExpDetail": "The number of star searches is too small, which may be due to abnormal auxiliary data, weak GPS environment, or damaged hardware."
+    },
+    "t06011202": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06011203": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "Data is less than 7 days."
+    },
+    "t06011300": {
+        "ExpAdvice": "When the watch is connected to a mobile phone, it can obtain auxiliary positioning information from the mobile phone to achieve faster positioning speed and more accurate positioning trajectory.",
+        "ExpDetail": "GPS signal function is normal."
+    },
+    "t06011301": {
+        "ExpAdvice": "1. First connect the Android phone and wait 30 seconds to ensure that the phone can connect to the Internet. Enter *#802#, take the watch to an open area for positioning, and observe the number of star searches and CN0.<br>       A. If it continues to be less than 4, or CN0 is less than 20db, re-flash the version, connect to the mobile phone and test again. If it still exists, replace the hardware.<br>        B. If the positioning can be successful, the number of searched stars is greater than 8, and the CN0 is greater than 20db, then the GPS function is normal.<br> Please explain to users: When the watch is connected to a mobile phone, it can obtain auxiliary positioning information from the mobile phone to achieve faster positioning speed and more accurate positioning trajectory.",
+        "ExpDetail": "Maybe the GPS environment is poor or the hardware is damaged."
+    },
+    "t06011302": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "No recorded data."
+    },
+    "t06011303": {
+        "ExpAdvice": "Users have insufficient GPS data and are advised to use more GPS applications.",
+        "ExpDetail": "Data is less than 7 days."
+    },
+    "t06011400": {
+        "ExpAdvice": "The user has not turned off the location service switch.",
+        "ExpDetail": "GPS function is normal."
+    },
+    "t06011401": {
+        "ExpAdvice": "Please turn on location services in the watch \"Settings - Permissions and Privacy\".",
+        "ExpDetail": "Location services turned off."
+    },
+    "t06011402": {
+        "ExpAdvice": "If the application GPS fails to open, please turn on the location service in the watch \"Settings - Permissions and Privacy\".",
+        "ExpDetail": "Insufficient data to diagnose."
+    },
+    "t06011403": {
+        "ExpAdvice": "If the application GPS fails to open, please turn on the location service in the watch \"Settings - Permissions and Privacy\".",
+        "ExpDetail": "Insufficient data to diagnose."
+    },
+    "t01050101": {
+        "ExpAdvice": "<p id='t01050101'></p><script>;var text='Screen density is abnormal. The current screen density of the watch is <span style=\\\\'font-weight:bold;color:rgb(227,46,39);\\\\'>%1</span>, and the factory standard screen density is <span style=\\\\'font-weight:bold;color:rgb(65,137,255);\\\\'>%2</span>. Manually modifying the screen density may cause the watch face interface to be offset or incompletely displayed, and other application interfaces to be offset or incompletely displayed. It can return to normal after flashing or restoring factory settings.';$('#t01050101').html(text);</script>",
+        "ExpDetail": "Abnormal screen display density."
+    },
+    "t01060101": {
+        "ExpAdvice": "Installing unofficial third-party applications may cause system lags, unsmooth operations, brief black screens, and unresponsive operations. It can return to normal after flashing or restoring factory settings.",
+        "ExpDetail": "Unofficial third-party applications cause system lag or instability."
+    },
+    "t11010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal"
+    },
+    "t11010102": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Keypad Test and re-test. Follow the steps to click the button, click the crown, and turn the crown.; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Clicking the crown does not respond."
+    },
+    "t11010103": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Keypad Test and re-test. Follow the steps to click the button, click the crown, and turn the crown.; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Rotating crown does not respondc."
+    },
+    "t11010104": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Keypad Test and re-test. Follow the steps to click the button, click the crown, and turn the crown.; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Clicking the down key does not respond."
+    },
+    "t11010105": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Keypad Test and re-test. Follow the steps to click the button, click the crown, and turn the crown.; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Clicking the crown and turning the crown are not responsive."
+    },
+    "t11010106": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Keypad Test and re-test. Follow the steps to click the button, click the crown, and turn the crown.; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Clicking the crown and clicking the down key are not responsive."
+    },
+    "t11010107": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Keypad Test and re-test. Follow the steps to click the button, click the crown, and turn the crown.; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Rotating crown and clicking the down key are not responsive."
+    },
+    "t11010108": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Keypad Test and re-test. Follow the steps to click the button, click the crown, and turn the crown.; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "Clicking the crown, rotating crown , and clicking the down key are not responsive."
+    },
+    "t11010109": {
+        "ExpAdvice": "If the diagnosis result is not normal, please enter *#899# on the watch dial - After-sales Tools - Keypad Test and re-test. Follow the steps to click the button, click the crown, and turn the crown.; otherwise, follow the steps below Continue the operation<br>1. Flash to the latest version<br>2. If the watch system is already the latest version, please restart the watch and retest. If the problem still cannot be solved, it is recommended to send it to an advanced maintenance center for testing.",
+        "ExpDetail": "The manual judgment results are inconsistent with the test results."
+    }
+}

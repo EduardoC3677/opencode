@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Erro interno de outras ferramentas de gravação de ROM que não estão listadas.",
+        "suggest": "Tente fazer o flash de ROM novamente. Se o mesmo problema ocorrer repetidamente, entre em contato com um representante do suporte técnico\n  pós-venda para relatar o problema à equipe de manutenção da ferramenta."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "O espaço de cache exigido pela operação não pode ser alocado devido à memória insuficiente do PC.",
+        "suggest": "1. Desative os aplicativos que não estiver usando e tente fazer o flash novamente.\n2. Reinicie o computador e tente fazer o flash novamente."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Erro de retorno da interface do sistema Windows: {1} retornou {2}.",
+        "suggest": "O computador usado está com defeito. Tente regravar o dispositivo. Se o problema persistir após várias tentativas, informe-o à equipe de manutenção da ferramenta para análise e processamento por meio de um representante de suporte técnico pós-venda."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "Foi detectado que um depurador de software está sendo executado no computador.",
+        "suggest": "Feche todos os depuradores de software abertos e tente novamente."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "Foi detectado que o serviço da ferramenta de atualização de ROM está em execução na máquina virtual.",
+        "suggest": "Execute a ferramenta de atualização de ROM em um computador físico."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "Os dados do pacote de gravação de ROM estão danificados.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em\n  seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "O arquivo ou a pasta da ROM importada é inválido ou o pacote de gravação de ROM está danificado.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente\n  e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, certifique-se de que o pacote esteja no formato OFP ou que um\n  version_info.txt esteja incluído. Se o erro ocorrer novamente após a\n  confirmação, tente recopiar o pacote de gravação de ROM da mídia de origem e\n  carregue-o novamente."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "O pacote de gravação de ROM carregado não se aplica ao dispositivo a ser gravado ou os dados no pacote de gravação de ROM estão\n  danificados.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, verifique se o pacote corresponde ao modelo\n  do dispositivo a ser gravado. Baixe novamente o pacote de reinstalação de ROM\n  correto e tente carregá-lo novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, verifique se o pacote corresponde ao modelo do dispositivo a ser\n  gravado. Copie novamente o pacote da mídia de origem e tente carregá-lo\n  novamente."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "O pacote de gravação de ROM carregado não se aplica ao dispositivo a ser gravado ou os dados no pacote de gravação de ROM estão\n  danificados.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, verifique se o pacote corresponde ao modelo\n  do dispositivo a ser gravado. Baixe novamente o pacote de reinstalação de ROM\n  correto e tente carregá-lo novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, verifique se o pacote corresponde ao modelo do dispositivo a ser\n  gravado. Copie novamente o pacote da mídia de origem e tente carregá-lo\n  novamente."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "O dispositivo não pode ser reinstalado porque seu código de item {1} é inconsistente com o código de item {2} no pacote de software.",
+        "suggest": "Verifique o modelo do dispositivo do usuário, transfira o pacote correto de gravação de ROM e, em seguida, faça o flash de ROM."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "A tabela de partição no dispositivo do usuário é inconsistente com a tabela de partição no pacote de gravação de ROM.",
+        "suggest": "Use o \"Modo forçado\" na ferramenta de gravação de ROM para fazer o flash de ROM. Após a conclusão da gravação, execute uma verificação funcional abrangente depois que o dispositivo for ligado. Se o dispositivo não puder ser ligado após a gravação ou se algum problema for detectado durante a verificação funcional, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Falha ao ler o número do item do telefone.",
+        "suggest": "1. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash\n  de ROM novamente.\n2. Tente usar outro cabo USB ou outra porta USB no computador para fazer o flash de ROM novamente.\n3. Se o problema voltar a ocorrer depois de tomar as medidas acima, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "O espaço de cache exigido pela operação não pode ser alocado devido à memória insuficiente do PC.",
+        "suggest": "1. Desative os aplicativos que não estiver usando e tente fazer o flash novamente.\n2. Reinicie o computador e tente fazer o flash novamente."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Formato de arquivo de pré-carregador inválido.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em\n  seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "Arquivo de autenticação inválido.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em\n  seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "O arquivo de partição da tabela não existe.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em\n  seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "Erro de comunicação DA.",
+        "suggest": "1. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash\n  de ROM novamente.\n2. Tente usar outro cabo USB ou outra porta USB no computador para fazer o flash de ROM novamente.\n3. Se o problema voltar a ocorrer depois de tomar as medidas acima, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "Desconexão inesperada do USB.",
+        "suggest": "1. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash\n  de ROM novamente.\n2. Tente usar outro cabo USB ou outra porta USB no computador para fazer o flash de ROM novamente.\n3. Se o problema voltar a ocorrer depois de tomar as medidas acima, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "A conexão DA falhou devido a uma exceção de RAM externa.",
+        "suggest": "Substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Incompatibilidade de memória com dados DA.",
+        "suggest": "Substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "O número de chips DDR dentro do dispositivo excede o limite da plataforma.",
+        "suggest": "Tente fazer o flash de ROM novamente. Se o mesmo problema ocorrer repetidamente, entre em contato com um representante do suporte técnico pós-venda para relatar o problema à equipe de manutenção da ferramenta."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "Falha na transferência do DA.",
+        "suggest": "1. Verifique o modelo do dispositivo, faça a transferência do pacote correto de gravação de ROM e tente fazer o flash novamente.\n2. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash de ROM novamente.\n3. Se o erro ocorrer repetidamente durante as tentativas de flash de ROM quando o pacote correto estiver sendo usado para o dispositivo e a bateria for suficiente, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Falha de hardware ou software dos componentes DDR do dispositivo.",
+        "suggest": "Substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Falha de hardware ou software dos componentes SOC ou DDR do dispositivo.",
+        "suggest": "Substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Erro de verificação de transferência de arquivo.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Erro interno na plataforma MTK.",
+        "suggest": "Tente fazer o flash de ROM novamente. Se o mesmo problema ocorrer repetidamente, entre em contato com um representante do suporte técnico pós-venda para relatar o problema à equipe de manutenção da ferramenta."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "Não é possível executar o flash na ROM porque as informações do código do país não podem ser encontradas nem no armazenamento do dispositivo, nem no segundo plano do serviço.",
+        "suggest": "Contate o serviço de assistência IT6000 para comunicar os problemas encontrados neste dispositivo."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "O código do país deste dispositivo {1} não é compatível com o pacote ROM selecionado.",
+        "suggest": "Use o pacote ROM da região correta e tente novamente."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "Erro do servidor de controle de nuvem do O+: {1} {2}.",
+        "suggest": "1. Certifique-se de que os serviços do O+ Cloud possam ser acessados pela sua rede. Se não conseguir acessar, entre em contato com a equipe de suporte técnico pós-venda para obter as definições de configuração corretas.\n2. Tente fazer o flash de ROM novamente. Se o erro ocorrer repetidamente, entre em contato com um representante do suporte técnico pós-venda para relatar o problema à equipe de operação e manutenção do O+ Cloud Services."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "Os serviços de nuvem O+ não retornaram o resultado da solicitação de processamento,API solicitada: {1}.",
+        "suggest": "Os serviços de nuvem O+ falharam. Se o problema persistir após várias tentativas, informe-o à equipe de manutenção da ferramenta para análise e processamento por meio de um representante de suporte técnico em segundo plano."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "Erro de autenticação da plataforma de controle de nuvem O+: {2}.",
+        "suggest": "Aplique a permissão correspondente ou realize outras operações com base na descrição do erro em segundo plano. Se o problema persistir, entre em contato com o suporte técnico pós-venda."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "Erro de autenticação da plataforma de controle de nuvem O+: {2} {3}.",
+        "suggest": "Aplique a permissão correspondente ou realize outras operações com base na descrição do erro em segundo plano. Se o problema persistir, entre em contato com o suporte técnico pós-venda."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "Erro de autenticação da plataforma de controle de nuvem O+.",
+        "suggest": "Aplique a permissão correspondente ou realize outras operações com base na descrição do erro em segundo plano. Se o problema persistir, entre em contato com o suporte técnico pós-venda."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Versão do software desatualizada.",
+        "suggest": "Transfira a ROM mais recente deste modelo de dispositivo e execute o flash."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "Esta conta de usuário não tem acesso à permissão de reprogramação avançada de ROM.",
+        "suggest": "Solicite a permissão no sistema UPM e tente novamente."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "A interface do serviço de nuvem O+ {1} não retornou o campo de dados designado: {2}.",
+        "suggest": "Os serviços de nuvem O+ falharam. Se o problema persistir após várias tentativas, informe-o à equipe de manutenção da ferramenta para análise e processamento por meio de um representante de suporte técnico em segundo plano."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "Não foi possível abrir o arquivo {1}.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "Não foi possível ler os dados no arquivo {1}.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "Não foi possível localizar os dados no arquivo {1}.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "Não foi possível abrir o arquivo {1}.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "Não foi possível localizar os dados no arquivo {1}.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Falha ao fechar o arquivo {1}. Código de erro {2}.",
+        "suggest": "Erro interno do sistema operacional Windows. Tente regravar o dispositivo. Se o problema persistir após várias tentativas, informe-o à equipe de manutenção da ferramenta para análise e processamento por meio de um representante de suporte técnico pós-venda."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "Não foi possível ler os dados no arquivo {1}.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "O dispositivo falhou ao executar o comando {1}: {2}.",
+        "suggest": "1. Verifique o modelo do dispositivo, faça a transferência do pacote correto de gravação de ROM e tente fazer o flash novamente.\n2. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash de ROM novamente.\n3. Se o erro ocorrer repetidamente durante as tentativas de flash de ROM quando o pacote correto estiver sendo usado para o dispositivo e a bateria for suficiente, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "O dispositivo não pode ser reinstalado porque seu código de item {1} é inconsistente com o código de item {2} no pacote de software.",
+        "suggest": "Verifique o modelo do dispositivo do usuário, transfira o pacote correto de gravação de ROM e, em seguida, faça o flash de ROM."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Falha na inicialização do dispositivo.",
+        "suggest": "1. Verifique o modelo do dispositivo, faça a transferência do pacote correto de gravação de ROM e tente fazer o flash novamente.\n2. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash de ROM novamente.\n3. Se o erro ocorrer repetidamente durante as tentativas de flash de ROM quando o pacote correto estiver sendo usado para o dispositivo e a bateria for suficiente, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "Falha ao fazer a gravação da ROM.",
+        "suggest": "Faça a transferência de um novo pacote de ROM e tente novamente."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "Falha ao fazer a gravação da ROM.",
+        "suggest": "Faça a transferência de um novo pacote de ROM e tente novamente."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "Falha ao fazer a gravação da ROM.",
+        "suggest": "Faça a transferência de um novo pacote de ROM e tente novamente."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Falha ao confirmar o código do país do dispositivo a ser atualizado.",
+        "suggest": "1. Entre em contato com um representante do suporte técnico pós-venda para verificar se a função \"Default NV\" da ferramenta de gravação de ROM pode ser usada para fazer o flash de ROM. Se for permitido, use a função para fazer o flash de ROM e execute uma verificação funcional abrangente no telefone do usuário.\n2. Se a função \"Default NV\" não puder ser usada para fazer o flash de ROM do dispositivo ou se ocorrer algum problema após a gravação de ROM (por exemplo, o dispositivo não pode ser ligado ou algum problema é detectado na verificação funcional), substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Código do país não suportado pelo software.",
+        "suggest": "1. Certifique-se de que a região do pacote de gravação de ROM obtido da ferramenta de gravação de ROM que está sendo usada seja para a região local do dispositivo. Apague o pacote de gravação de ROM e faça a transferência novamente usando a versão correta da ferramenta.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, recopie o pacote para o modelo e a região corretos da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "Os dados de verificação estão faltando no pacote ROM.",
+        "suggest": "Transfira um novo pacote de ROM e tente novamente."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "A tabela de partição no dispositivo do usuário é inconsistente com a tabela de partição no pacote de gravação de ROM.",
+        "suggest": "Use o \"Modo forçado\" na ferramenta de gravação de ROM para fazer o flash de ROM. Após a conclusão da gravação, execute uma verificação funcional abrangente depois que o dispositivo for ligado. Se o dispositivo não puder ser ligado após a gravação ou se algum problema for detectado durante a verificação funcional, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "Arquivo ausente no pacote de ROM: {1}.",
+        "suggest": "O pacote de ROM está danificado. Transfira um novo e tente novamente."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Formato de arquivo disperso inválido.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "Falha ao verificar a lista de arquivos no pacote ROM.",
+        "suggest": "O pacote ROM está danificado. Baixe um novo e tente novamente."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "O arquivo no pacote ROM está danificado: {1}",
+        "suggest": "Baixe um novo pacote ROM e tente novamente."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "Falha ao verificar a lista de arquivos no pacote ROM.",
+        "suggest": "O pacote ROM está danificado. Baixe um novo e tente novamente."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "O arquivo no pacote ROM está danificado: {1}",
+        "suggest": "Baixe um novo pacote ROM e tente novamente."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "O arquivo ou a pasta da ROM importada é inválido ou o pacote de gravação de ROM está danificado.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, certifique-se de que o pacote esteja no formato OFP ou que um version_info.txt esteja incluído. Se o erro ocorrer novamente após a confirmação, tente recopiar o pacote de gravação de ROM da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "Arquivo ausente no pacote de ROM: {1}.",
+        "suggest": "O pacote de ROM está danificado. Transfira um novo e tente novamente."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "Não foi possível ler os dados no arquivo {1}.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "O arquivo ou a pasta da ROM importada é inválido ou o pacote de gravação de ROM está danificado.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, certifique-se de que o pacote esteja no formato OFP ou que um version_info.txt esteja incluído. Se o erro ocorrer novamente após a confirmação, tente recopiar o pacote de gravação de ROM da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "O conteúdo do arquivo no pacote de gravação de ROM não atende às expectativas.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "O conteúdo do arquivo no pacote de gravação de ROM não atende às expectativas.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "Os dados de verificação estão faltando no pacote ROM.",
+        "suggest": "Transfira um novo pacote de ROM e tente novamente."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "Arquivo ausente no pacote de ROM: {1}.",
+        "suggest": "O pacote de ROM está danificado. Transfira um novo e tente novamente."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "Não foi possível ler os dados no arquivo {1}.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "O arquivo ou a pasta da ROM importada é inválido ou o pacote de gravação de ROM está danificado.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, certifique-se de que o pacote esteja no formato OFP ou que um version_info.txt esteja incluído. Se o erro ocorrer novamente após a confirmação, tente recopiar o pacote de gravação de ROM da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "O conteúdo do arquivo no pacote de gravação de ROM não atende às expectativas.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "O conteúdo do arquivo no pacote de gravação de ROM não atende às expectativas.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "O arquivo de partição da tabela não existe.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente. Em\n  seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "Falha ao verificar a lista de arquivos no pacote ROM.",
+        "suggest": "O pacote ROM está danificado. Baixe um novo e tente novamente."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "O arquivo no pacote ROM está danificado: {1}",
+        "suggest": "Baixe um novo pacote ROM e tente novamente."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Erro ao abrir o manipulador de dispositivo.",
+        "suggest": "1. Desative todas as versões antigas da ferramenta de gravação de ROM, da ferramenta de releitura e da ferramenta de depuração fornecidas pelo fabricante do chip e tente fazer o flash novamente.\n2. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash de ROM novamente.\n3. Tente usar outro cabo USB ou outra porta USB no computador para fazer o flash de ROM novamente.\n4. Se o problema voltar a ocorrer depois de tomar as medidas acima, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Erro ao abrir o manipulador de dispositivo.",
+        "suggest": "1. Desative todas as versões antigas da ferramenta de gravação de ROM, da ferramenta de releitura e da ferramenta de depuração fornecidas pelo fabricante do chip e tente fazer o flash novamente.\n2. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash de ROM novamente.\n3. Tente usar outro cabo USB ou outra porta USB no computador para fazer o flash de ROM novamente.\n4. Se o problema voltar a ocorrer depois de tomar as medidas acima, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Falha ao configurar {1}. Código de erro {2}.",
+        "suggest": "O dispositivo pode ter sido invalidado ou desconectado. Tente usar outra porta e outro cabo USB, reinicie o dispositivo no modo EDL e tente novamente."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Não é possível ler dados do arquivo ou do dispositivo.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente.\n3. Se o problema persistir após várias tentativas, é recomendável salvar o pacote de gravação de ROM em outro disco rígido ou partição antes de tentar fazer o flash novamente."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Não é possível ler dados do arquivo ou do dispositivo.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente.\n3. Se o problema persistir após várias tentativas, é recomendável salvar o pacote de gravação de ROM em outro disco rígido ou partição antes de tentar fazer o flash novamente."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Não é possível gravar dados do arquivo ou do dispositivo.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente.\n3. Se o problema persistir após várias tentativas, é recomendável salvar o pacote de gravação de ROM em outro disco rígido ou partição antes de tentar fazer o flash novamente."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Não é possível gravar dados do arquivo ou do dispositivo.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente.\n3. Se o problema persistir após várias tentativas, é recomendável salvar o pacote de gravação de ROM em outro disco rígido ou partição antes de tentar fazer o flash novamente."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "O dispositivo falhou ao executar o comando {1}: {2}.",
+        "suggest": "1. Verifique o modelo do dispositivo, faça a transferência do pacote correto de gravação de ROM e tente fazer o flash novamente.\n2. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash de ROM novamente.\n3. Se o erro ocorrer repetidamente durante as tentativas de flash de ROM quando o pacote correto estiver sendo usado para o dispositivo e a bateria for suficiente, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "O comando de protocolo falhou ao ser executado no dispositivo e retornou um erro: {2}.",
+        "suggest": "Entre em contato com um representante do suporte técnico pós-venda para relatar o problema à equipe de manutenção da ferramenta."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "O dispositivo não pode ser reinstalado porque seu código de item {1} é inconsistente com o código de item {2} no pacote de software.",
+        "suggest": "Verifique o modelo do dispositivo do usuário, transfira o pacote correto de gravação de ROM e, em seguida, faça o flash de ROM."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Falha ao confirmar o código do país do dispositivo a ser atualizado.",
+        "suggest": "1. Entre em contato com um representante do suporte técnico pós-venda para verificar se a função \"Default NV\" da ferramenta de gravação de ROM pode ser usada para fazer o flash de ROM. Se for permitido, use a função para fazer o flash de ROM e execute uma verificação funcional abrangente no telefone do usuário.\n2. Se a função \"Default NV\" não puder ser usada para fazer o flash de ROM do dispositivo ou se ocorrer algum problema após a gravação de ROM (por exemplo, o dispositivo não pode ser ligado ou algum problema é detectado na verificação funcional), substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "As regiões suportadas pelo telefone são diferentes das regiões para as quais o pacote de flash foi lançado.",
+        "suggest": "1. Certifique-se de que a região do pacote de gravação de ROM obtido da ferramenta de gravação de ROM que está sendo usada seja para a região local do dispositivo. Apague o pacote de gravação de ROM e faça a transferência novamente usando a versão correta da ferramenta.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, recopie o pacote para o modelo e a região corretos da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "A gravação foi interrompida pelo usuário.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "Por enquanto, a plataforma não oferece suporte à gravação.",
+        "suggest": "Tente fazer o flash de ROM novamente. Se o mesmo problema ocorrer repetidamente, entre em contato com um representante do suporte técnico pós-venda para relatar o problema à equipe de manutenção da ferramenta."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Código de tipo de dispositivo de memória não suportado {1}.",
+        "suggest": "Substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "O pacote de gravação de ROM não consegue localizar a partição lógica.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Erro de verificação de transferência de arquivo.",
+        "suggest": "1. Se o pacote de gravação de ROM tiver sido transferido diretamente usando a ferramenta de gravação de ROM, apague-o e transfira a versão mais recente e, em seguida, tente carregar o pacote novamente.\n2. Se o pacote de gravação de ROM tiver sido importado de uma fonte externa, tente copiá-lo novamente da mídia de origem e carregue-o novamente."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "Desconexão inesperada do USB.",
+        "suggest": "1. Certifique-se de que o nível de bateria restante do dispositivo não esteja inferior a 20%. Carregue o dispositivo antes de tentar fazer o flash\n  de ROM novamente.\n2. Tente usar outro cabo USB ou outra porta USB no computador para fazer o flash de ROM novamente.\n3. Se o problema voltar a ocorrer depois de tomar as medidas acima, substitua a placa-mãe para o usuário."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "Falha ao executar operação devida a erros no dispositivo de memória.",
+        "suggest": "Certifique-se de que você selecionou o tipo de dispositivo de memória correto nas configurações de reprogramação de ROM (ex.: se o dispositivo for equipado com um dispositivo eMMC, não será possível selecionar opção UFS). Se você confirmar que não há nenhum problema na sua seleção, é possível que o dispositivo UFS esteja danificado. Pense em substituir a placa-mãe."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "Por enquanto, a plataforma não oferece suporte à gravação.",
+        "suggest": "Tente fazer o flash de ROM novamente. Se o mesmo problema ocorrer repetidamente, entre em contato com um representante do suporte técnico pós-venda para relatar o problema à equipe de manutenção da ferramenta."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "O pacote ROM é anterior à versão padrão de fábrica. Atualizá-lo causará uma alteração no NS.",
+        "suggest": "Informe ao usuário que este dispositivo adotou um NS de nova especificação. Fazer downgrade para a versão anterior à de fábrica alterará o NS, o que pode trazer consequências, como danos aos direitos e interesses de proteção pós-venda. Não é recomendado que os usuários façam downgrade de seus dispositivos."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "A operação de retorno no dispositivo falhou. Código de erro: {1}; mensagem de erro: {2}",
+        "suggest": "Tente atualizar novamente. Se o erro persistir, entre em contato com a equipe de manutenção da ferramenta de atualização para relatar o problema."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Informe ao usuário que o recurso \"Chamada para bloquear\" já está ativado neste dispositivo. Acesse \"Configurações - Segurança e privacidade - Desbloqueio do dispositivo - Proteção contra roubos\" e desative o recurso \"Chamada para bloquear\" antes de atualizar. Se não for possível ligar o dispositivo, ligue para o nosso serviço de atendimento ao cliente para verificar suas informações pessoais e solicitar o desbloqueio do dispositivo antes de atualizá-lo.",
+        "suggest": "O usuário ativou o recurso \"Chamada para bloquear\" e o back-end da ferramenta de atualização marcou o dispositivo como estando no modo Bloqueio de segurança. (Se o usuário perder o dispositivo e ligar para o nosso serviço de atendimento ao cliente para solicitar o bloqueio, esse modo será ativado.) Não é possível atualizar dispositivos que estão no modo Bloqueio de segurança. Desative o recurso \"Chamada para bloquear\" antes de atualizar."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "O endereço de deslocamento da partição de dados do usuário no pacote ROM não corresponde à partição correspondente no telefone, tornando impossível executar o flash sem limpar essa partição.",
+        "suggest": "Faça backup de todos os dados na partição de dados do usuário antes de prosseguir com o flash no modo padrão."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Esta versão contém vulnerabilidades de segurança conhecidas. O flash é restrito.",
+        "suggest": "Transfira a ROM mais recente deste modelo de dispositivo e execute o flash."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

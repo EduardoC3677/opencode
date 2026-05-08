@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Internal error of other ROM flashing tools that are not listed.",
+        "suggest": "Try to flash the ROM again. If the same problem occurs repeatedly, contact an after-sales technical support representative to report the issue to the\n  tool maintenance team."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "The cache space required by the operation cannot be allocated due to insufficient PC memory.",
+        "suggest": "1. Turn off the applications that you are not using, and try to flash again.\n2. Restart your computer and try to flash again."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Windows system interface return error: {1} returned {2}.",
+        "suggest": "The computer being used is faulty. Please try flashing the device again. If the issue persists after multiple attempts, please report the issue to the tool maintenance team for analysis and processing through an after-sales technical support representative."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "It has been detected that a software debugger is running on the computer.",
+        "suggest": "Please close all the opened software debuggers and try again."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "It has been detected that the flash ROM tool service is running on the virtual machine.",
+        "suggest": "Please run the flash ROM tool on a physical computer."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "The ROM flashing package data is damaged.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the\n  package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "The imported ROM file or folder is invalid, or the ROM flashing package is damaged.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to\n  load the package again.\n2. If the ROM flashing package was imported from an external source, please make sure the package is in the OFP format or a version_info.txt is included.\n  If the error reoccurs after confirmation, please try to recopy the ROM\n  flashing package from the source media and load it again."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "The loaded ROM flashing package is not applicable to the device to be flashed, or the data in the ROM flashing package is damaged.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please make sure that the package matches the model of the\n  device to be flashed. Redownload the correct ROM flashing package, and try to\n  load it again.\n2. If the ROM flashing package was imported from an external source, please make sure that the package matches the model of the device to be flashed.\n  Recopy the package from the source media, and try to load it again."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "The loaded ROM flashing package is not applicable to the device to be flashed, or the data in the ROM flashing package is damaged.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please make sure that the package matches the model of the\n  device to be flashed. Redownload the correct ROM flashing package, and try to\n  load it again.\n2. If the ROM flashing package was imported from an external source, please make sure that the package matches the model of the device to be flashed.\n  Recopy the package from the source media, and try to load it again."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "Device cannot be flashed as its item code {1} is inconsistent with the item code {2} in the software package.",
+        "suggest": "Check the model of the user's device, download the correct ROM flashing package, and then flash the ROM."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "The partition table in the user's device is inconsistent with the partition table in the ROM flashing package.",
+        "suggest": "Use \"Forced Mode\" in the ROM flashing tool to flash the ROM. Once the flashing is completed, perform a comprehensive functional check after the device is turned on. If the device cannot be turned on after the flashing, or if any problem is detected during the functional check, replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Failed to read item number from phone.",
+        "suggest": "1. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n2. Try using another USB cable or another USB port on the computer to flash the ROM again.\n3. If the problem reoccurs after taking the above measures, replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "The cache space required by the operation cannot be allocated due to insufficient PC memory.",
+        "suggest": "1. Turn off the applications that you are not using, and try to flash again.\n2. Restart your computer and try to flash again."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Invalid preloader file format.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the\n  package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "Invalid authentication file.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the\n  package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "Partition table file does not exist.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the\n  package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "DA communication error.",
+        "suggest": "1. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n2. Try using another USB cable or another USB port on the computer to flash the ROM again.\n3. If the problem reoccurs after taking the above measures, replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "Unexpected USB disconnection.",
+        "suggest": "1. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n2. Try using another USB cable or another USB port on the computer to flash the ROM again.\n3. If the problem reoccurs after taking the above measures, replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "DA connection failed due to an external RAM exception.",
+        "suggest": "Replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Memory mismatch with DA data.",
+        "suggest": "Replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "The number of DDR chips inside the device exceeds the platform limit.",
+        "suggest": "Try to flash the ROM again. If the same problem occurs repeatedly, contact an after-sales technical support representative to report the issue to the tool maintenance team."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "DA download failed.",
+        "suggest": "1. Check the model of the device, download the correct ROM flashing package, and try to flash again.\n2. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n3. If the error has occurred repeatedly during attempts to flash the ROM when the correct package is being used for the device and the battery is sufficient, replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Hardware or software failure of the device's DDR components.",
+        "suggest": "Replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Hardware or software failure of the device's SOC or DDR components.",
+        "suggest": "Replace the mainboard for the user."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "File download verification error.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Internal error in MTK platform.",
+        "suggest": "Try to flash the ROM again. If the same problem occurs repeatedly, contact an after-sales technical support representative to report the issue to the tool maintenance team."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "Cannot flash the ROM as the country code information of the device cannot be found in either device storage or the service background.",
+        "suggest": "Please contact the IT6000 service desk to report the issues found on this device."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "The device's country code {1} is not supported by the selected ROM package.",
+        "suggest": "Use the ROM package for the correct region and try again."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "O+ cloud control server error: {1} {2}.",
+        "suggest": "1. Make sure that O+ Cloud services can be accessed over your network. If unable to access, contact the after-sales technical support team for the correct configuration settings.\n2. Try to flash the ROM again. If the error occurs repeatedly, contact an after-sales technical support representative to report the issue to the operation and maintenance team of O+ Cloud Services."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "The O+ Cloud services did not return the processing request result,Requested API: {1}.",
+        "suggest": "The O+ Cloud services failed. If the issue persists after multiple attempts, please report the issue to the tool maintenance team for analysis and processing through a background technical support representative."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "O+ cloud control platform authentication error: {2}.",
+        "suggest": "Apply for the corresponding permission or perform other operations based on the error description in the background. If the problem persists, please contact after-sales technical support."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "O+ cloud control platform authentication error: {2} {3}.",
+        "suggest": "Apply for the corresponding permission or perform other operations based on the error description in the background. If the problem persists, please contact after-sales technical support."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "O+ cloud control platform authentication error.",
+        "suggest": "Apply for the corresponding permission or perform other operations based on the error description in the background. If the problem persists, please contact after-sales technical support."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Software version outdated.",
+        "suggest": "Please download the latest ROM for this device model and flash it."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "This user account has no access to the advanced ROM flashing permission.",
+        "suggest": "Apply for the permission in the UPM system and try again."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "The O+ Cloud service interface {1} did not return the designated data field: {2}.",
+        "suggest": "The O+ Cloud services failed. If the issue persists after multiple attempts, please report the issue to the tool maintenance team for analysis and processing through a background technical support representative."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "Unable to open file {1}.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "Unable to read data in file {1}.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "Unable to locate data in file {1}.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "Unable to open file {1}.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "Unable to locate data in file {1}.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Failed to close the file {1}. Error code {2}.",
+        "suggest": "Windows OS internal error. Please try flashing the device again. If the issue persists after multiple attempts, please report the issue to the tool maintenance team for analysis and processing through an after-sales technical support representative."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "Unable to read data in file {1}.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "The device failed to execute command {1}: {2}.",
+        "suggest": "1. Check the model of the device, download the correct ROM flashing package, and try to flash again.\n2. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n3. If the error has occurred repeatedly during attempts to flash the ROM when the correct package is being used for the device and the battery is sufficient, replace the mainboard for the user."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "Device cannot be flashed as its item code {1} is inconsistent with the item code {2} in the software package.",
+        "suggest": "Check the model of the user's device, download the correct ROM flashing package, and then flash the ROM."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Device initialization failed.",
+        "suggest": "1. Check the model of the device, download the correct ROM flashing package, and try to flash again.\n2. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n3. If the error has occurred repeatedly during attempts to flash the ROM when the correct package is being used for the device and the battery is sufficient, replace the mainboard for the user."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "ROM flashing failed.",
+        "suggest": "Download a new ROM package and try again."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "ROM flashing failed.",
+        "suggest": "Download a new ROM package and try again."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "ROM flashing failed.",
+        "suggest": "Download a new ROM package and try again."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Failed to confirm the country code of the device to be flashed.",
+        "suggest": "1. Contact an after-sales technical support representative to see if the \"Default NV\" function in the ROM flashing tool can be used to flash the ROM. If permitted, use the function to flash the ROM, and perform a comprehensive functional check on the user's phone.\n2. If the \"Default NV\" function cannot be used to flash the ROM of the device, or any problem occurs after flashing the ROM (for example, the device cannot be turned on or any problem is detected in the functional check), replace the mainboard for the user."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Country code not supported by software.",
+        "suggest": "1. Make sure that the region of the ROM flashing package obtained from the ROM flashing tool being used is for the local region of the device. Delete the ROM flashing package and download it again using the correct version of the tool.\n2. If the ROM flashing package was imported from an external source, recopy the package for the correct model and region from the source media, and load it again."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "Verification data is missing from the ROM package.",
+        "suggest": "Download a new ROM package and try again."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "The partition table in the user's device is inconsistent with the partition table in the ROM flashing package.",
+        "suggest": "Use \"Forced Mode\" in the ROM flashing tool to flash the ROM. Once the flashing is completed, perform a comprehensive functional check after the device is turned on. If the device cannot be turned on after the flashing, or if any problem is detected during the functional check, replace the mainboard for the user."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "File missing from the ROM package: {1}.",
+        "suggest": "The ROM package is damaged. Download a new one and try again."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Invalid sparse file format.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "Failed to verify the file list in the ROM package.",
+        "suggest": "The ROM package is damaged. Download a new one and try again."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "The file in the ROM package is damaged: {1}",
+        "suggest": "Download a new ROM package and try again."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "Failed to verify the file list in the ROM package.",
+        "suggest": "The ROM package is damaged. Download a new one and try again."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "The file in the ROM package is damaged: {1}",
+        "suggest": "Download a new ROM package and try again."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "The imported ROM file or folder is invalid, or the ROM flashing package is damaged.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please make sure the package is in the OFP format or a version_info.txt is included. If the error reoccurs after confirmation, please try to recopy the ROM flashing package from the source media and load it again."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "File missing from the ROM package: {1}.",
+        "suggest": "The ROM package is damaged. Download a new one and try again."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "Unable to read data in file {1}.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "The imported ROM file or folder is invalid, or the ROM flashing package is damaged.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please make sure the package is in the OFP format or a version_info.txt is included. If the error reoccurs after confirmation, please try to recopy the ROM flashing package from the source media and load it again."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "File content in the ROM flashing package does not meet expectations.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "File content in the ROM flashing package does not meet expectations.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "Verification data is missing from the ROM package.",
+        "suggest": "Download a new ROM package and try again."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "File missing from the ROM package: {1}.",
+        "suggest": "The ROM package is damaged. Download a new one and try again."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "Unable to read data in file {1}.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "The imported ROM file or folder is invalid, or the ROM flashing package is damaged.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please make sure the package is in the OFP format or a version_info.txt is included. If the error reoccurs after confirmation, please try to recopy the ROM flashing package from the source media and load it again."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "File content in the ROM flashing package does not meet expectations.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "File content in the ROM flashing package does not meet expectations.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "Partition table file does not exist.",
+        "suggest": "1. If the ROM flashing package was downloaded using the ROM flashing tool, please delete it and download the latest version. Then try to load the\n  package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "Failed to verify the file list in the ROM package.",
+        "suggest": "The ROM package is damaged. Download a new one and try again."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "The file in the ROM package is damaged: {1}",
+        "suggest": "Download a new ROM package and try again."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Error when opening device handler.",
+        "suggest": "1. Turn off any old versions of the ROM flashing tool, read-back tool, and debugging tool provided by the chip manufacturer, and try to flash again.\n2. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n3. Try using another USB cable or another USB port on the computer to flash the ROM again.\n4. If the problem reoccurs after taking the above measures, replace the mainboard for the user."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Error when opening device handler.",
+        "suggest": "1. Turn off any old versions of the ROM flashing tool, read-back tool, and debugging tool provided by the chip manufacturer, and try to flash again.\n2. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n3. Try using another USB cable or another USB port on the computer to flash the ROM again.\n4. If the problem reoccurs after taking the above measures, replace the mainboard for the user."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Failed to configure {1}. Error code {2}.",
+        "suggest": "The device may have been invalidated or disconnected. Please try another USB port and cable, reboot the device to EDL mode, and then try again."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Unable to read data from file or device.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again.\n3. If the problem persists after multiple attempts, it is suggested to save the ROM flashing package to another hard drive or partition before trying to flash again."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Unable to read data from file or device.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again.\n3. If the problem persists after multiple attempts, it is suggested to save the ROM flashing package to another hard drive or partition before trying to flash again."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Unable to write data to file or device.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again.\n3. If the problem persists after multiple attempts, it is suggested to save the ROM flashing package to another hard drive or partition before trying to flash again."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Unable to write data to file or device.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again.\n3. If the problem persists after multiple attempts, it is suggested to save the ROM flashing package to another hard drive or partition before trying to flash again."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "The device failed to execute command {1}: {2}.",
+        "suggest": "1. Check the model of the device, download the correct ROM flashing package, and try to flash again.\n2. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n3. If the error has occurred repeatedly during attempts to flash the ROM when the correct package is being used for the device and the battery is sufficient, replace the mainboard for the user."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "The protocol command failed to execute on the device and returned an error: {2}.",
+        "suggest": "Contact an after-sales technical support representative to report the issue to the tool maintenance team."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "Device cannot be flashed as its item code {1} is inconsistent with the item code {2} in the software package.",
+        "suggest": "Check the model of the user's device, download the correct ROM flashing package, and then flash the ROM."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Failed to confirm the country code of the device to be flashed.",
+        "suggest": "1. Contact an after-sales technical support representative to see if the \"Default NV\" function in the ROM flashing tool can be used to flash the ROM. If permitted, use the function to flash the ROM, and perform a comprehensive functional check on the user's phone.\n2. If the \"Default NV\" function cannot be used to flash the ROM of the device, or any problem occurs after flashing the ROM (for example, the device cannot be turned on or any problem is detected in the functional check), replace the mainboard for the user."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "The regions supported by the phone are different from the regions for which the flash package is released.",
+        "suggest": "1. Make sure that the region of the ROM flashing package obtained from the ROM flashing tool being used is for the local region of the device. Delete the ROM flashing package and download it again using the correct version of the tool.\n2. If the ROM flashing package was imported from an external source, recopy the package for the correct model and region from the source media, and load it again."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "The flashing was stopped by the user.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "The platform does not support flashing for now.",
+        "suggest": "Try to flash the ROM again. If the same problem occurs repeatedly, contact an after-sales technical support representative to report the issue to the tool maintenance team."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Unsupported memory device type code {1}.",
+        "suggest": "Replace the mainboard for the user."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "The ROM flashing package cannot find the logical partition.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "File download verification error.",
+        "suggest": "1. If the ROM flashing package was directly downloaded using the ROM flashing tool, please delete it and download the latest version, then try to load the package again.\n2. If the ROM flashing package was imported from an external source, please try to recopy it from the source media and load it again."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "Unexpected USB disconnection.",
+        "suggest": "1. Make sure that the remaining battery level of the device is no less than 20%. Charge the device before trying to flash the ROM again.\n2. Try using another USB cable or another USB port on the computer to flash the ROM again.\n3. If the problem reoccurs after taking the above measures, replace the mainboard for the user."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "Failed to perform operation due to memory device errors.",
+        "suggest": "Make sure you select the correct memory device type in the ROM flashing settings (e.g., if the device is equipped with an eMMC device, the UFS option cannot be selected). If you confirm that there is no problem with your selection, the UFS device may be damaged. Consider replacing the motherboard."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "The platform does not support flashing for now.",
+        "suggest": "Try to flash the ROM again. If the same problem occurs repeatedly, contact an after-sales technical support representative to report the issue to the tool maintenance team."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "The ROM package is earlier than the factory default version. Flashing it will cause a change in the SN.",
+        "suggest": "Please inform the user that this device has adopted a new-specification SN. Downgrading it to the pre-factory version will change its SN, which may bring consequences such as damage to after-sales protection rights and interests. The official does not recommend that users downgrade their devices."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "Return operation on the device failed. Error code: {1}; error message: {2}",
+        "suggest": "Please try flashing again. If this error persists, please contact the maintenance team of the flash tool to report this issue."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "The offset address of the userdata partition in the ROM package doesn't match the corresponding partition on the phone, making it impossible to flash without wiping this partition.",
+        "suggest": "Please back up all data in the userdata partition before proceeding with a standard mode flashing."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "This version contains known security vulnerabilities. Flashing is restricted.",
+        "suggest": "Please download the latest ROM for this device model and flash it."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Please inform the user that this device already has \"Call to lock\" turned on. Go to \"Settings - Security & privacy - Device unlock - Theft protection\" and turn off \"Call to lock\" before flashing. If this device cannot be powered on, call our customer service to verify your personal information and request to unlock the device before flashing.",
+        "suggest": "The user has turned on \"Call to lock\", and the flash tool's back end has marked the device as being in the Security lockout mode. (If the user loses the device and calls our customer service to request it be locked, this mode will be activated.) Devices in the Security lockout mode cannot be flashed. Please turn off \"Call to lock\" before flashing."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

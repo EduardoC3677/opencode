@@ -1,0 +1,206 @@
+{
+    "cn": [
+        {
+            "attrKey": "AnrAndCrashLimit",
+            "attrValue": "24,3"
+        },
+        {
+            "attrKey": "FeverFaultVersion",
+            "attrValue": "PEPM00_11.A.13_0130_202105250507,PEPM00_11.A.12_0120_202105130521,PENM00_11.A.12_0120_202105201031,PENM00_11.A.11_0110_202105130053,PENM00_11.A.10_0100_202105030237"
+        },
+        {
+            "attrKey": "remainingBatteryCapacity",
+            "attrValue": "{\"default\":{\"good\":80,\"excellent\":60},\"special\":[{\"modelList\":\"20031,20061,19815,19525\",\"good\":70,\"excellent\":60}]}"
+        },
+        {
+            "attrKey": "NoPublishDiagnosticItems",
+            "attrValue": "{}"
+        },
+        {
+            "attrKey": "remainingWatchBatteryCapacity",
+            "attrValue": "{\"default\":{\"good\":80}}"
+        },
+        {
+            "attrKey": "WatchBatteryLife",
+            "attrValue": "{\"default\":{\"smartMode\":-1,\"powerSaver\":-1},\"batteryLife\":[{\"modelList\":\"20905,20909\",\"smartMode\":2.5,\"powerSaver\":10},{\"modelList\":\"20903,20907\",\"smartMode\":4,\"powerSaver\":16},{\"modelList\":\"21909\",\"smartMode\":3,\"powerSaver\":10},{\"modelList\":\"21905\",\"smartMode\":4,\"powerSaver\":10},{\"modelList\":\"21907\",\"smartMode\":5,\"powerSaver\":15},{\"modelList\":\"22907\",\"smartMode\":5,\"powerSaver\":14},{\"modelList\":\"23912,24909,23911,24960,23902\",\"smartMode\":4,\"powerSaver\":12},{\"modelList\":\"24908,24965,24966\",\"smartMode\":5,\"powerSaver\":18},{\"modelList\":\"24913,24967,24968\",\"smartMode\":3,\"powerSaver\":7}]}"
+        },
+        {
+            "attrKey": "powerConsumptionFilter",
+            "attrValue": "{\"default\":{\"percent\":40},\"special\":[{\"modelList\":\"21907,22907,24908,24965,24966\",\"percent\":40},{\"modelList\":\"21905,20905,20909\",\"percent\":70},{\"modelList\":\"20903,20907,23912,23911,23902,24960,24909,24913,24967,24968\",\"percent\":50},{\"modelList\":\"21909\",\"percent\":35}]}"
+        },
+        {
+            "attrKey": "SpecialSupport",
+            "attrValue": "{\"id\": [\"050501,090101,090102,090601,090201,090202,100301,100401,100601,080201,080301,060310,060311,060405,060401,060311,090901,100501,120201,120203,080999,060407,109001,109101,110101\"]}"
+        },
+        {
+            "attrKey": "PATestDelayedRebootTime",
+            "attrValue": "3000"
+        },
+        {
+            "attrKey": "WorkOrderNotJudgeDiagResultItem",
+            "attrValue": "060204,060401,030102,030103,000001,150101"
+        },
+        {
+            "attrKey": "EnableAdbLogcat",
+            "attrValue": "true"
+        },
+        {
+            "attrKey": "DiagRepairOverTime",
+            "attrValue": "120"
+        },
+        {
+            "attrKey": "DiagnosticItemsProjectNoFilter",
+            "attrValue": "{\"mobile\":{},\"tablet\":{},\"watch\":{},\"ear\":{}}"
+        },
+        {
+            "attrKey": "AutoDiagRepairItems",
+            "attrValue": "{\"AfterRepair\":\"t070205,\",\"BeforeRepair\":\"\"}"
+        }
+    ],
+    "in": [
+        {
+            "attrKey": "WorkOrderNotJudgeDiagResultItem",
+            "attrValue": "060204,060401,030102,030103,000001,150101"
+        },
+        {
+            "attrKey": "remainingBatteryCapacity",
+            "attrValue": "{\"default\":{\"good\":80,\"excellent\":60},\"special\":[{\"modelList\":\"20031,20061,19815\",\"good\":70,\"excellent\":60}]}"
+        },
+        {
+            "attrKey": "NoPublishDiagnosticItems",
+            "attrValue": "{}"
+        },
+        {
+            "attrKey": "WatchBatteryLife",
+            "attrValue": "{\"default\":{\"smartMode\":-1,\"powerSaver\":-1},\"batteryLife\":[{\"modelList\":\"20905,20909\",\"smartMode\":2.5,\"powerSaver\":10},{\"modelList\":\"20903,20907\",\"smartMode\":4,\"powerSaver\":16},{\"modelList\":\"21909\",\"smartMode\":3,\"powerSaver\":10},{\"modelList\":\"21905\",\"smartMode\":4,\"powerSaver\":10},{\"modelList\":\"21907\",\"smartMode\":5,\"powerSaver\":15},{\"modelList\":\"22907\",\"smartMode\":5,\"powerSaver\":14},{\"modelList\":\"23912,24909,23911,24960,23902\",\"smartMode\":4,\"powerSaver\":12},{\"modelList\":\"24908,24965,24966\",\"smartMode\":5,\"powerSaver\":18},{\"modelList\":\"24913,24967,24968\",\"smartMode\":3,\"powerSaver\":7}]}"
+        },
+        {
+            "attrKey": "powerConsumptionFilter",
+            "attrValue": "{\"default\":{\"percent\":40},\"special\":[{\"modelList\":\"21907,22907,24908,24965,24966\",\"percent\":40},{\"modelList\":\"21905,20905,20909\",\"percent\":70},{\"modelList\":\"20903,20907,23912,23911,23902,24960,24909,24913,24967,24968\",\"percent\":50},{\"modelList\":\"21909\",\"percent\":35}]}"
+        },
+        {
+            "attrKey": "SpecialSupport",
+            "attrValue": "{\"id\": [\"050501,090101,090102,090601,090201,090202,100301,100401,100601,080201,080301,060310,060311,060405,060401,060311,090901,100501,120201,120203,080999,060407,109001,109101,110101\"]}"
+        },
+        {
+            "attrKey": "PATestDelayedRebootTime",
+            "attrValue": "3000"
+        },
+        {
+            "attrKey": "EnableAdbLogcat",
+            "attrValue": "false"
+        }
+    ],
+    "sg": [
+        {
+            "attrKey": "WorkOrderNotJudgeDiagResultItem",
+            "attrValue": "060204,060401,030102,030103,000001,150101"
+        },
+        {
+            "attrKey": "remainingBatteryCapacity",
+            "attrValue": "{\"default\":{\"good\":80,\"excellent\":60},\"special\":[{\"modelList\":\"20031,20061,19815\",\"good\":70,\"excellent\":60}]}"
+        },
+        {
+            "attrKey": "NoPublishDiagnosticItems",
+            "attrValue": "{}"
+        },
+        {
+            "attrKey": "WatchBatteryLife",
+            "attrValue": "{\"default\":{\"smartMode\":-1,\"powerSaver\":-1},\"batteryLife\":[{\"modelList\":\"20905,20909\",\"smartMode\":2.5,\"powerSaver\":10},{\"modelList\":\"20903,20907\",\"smartMode\":4,\"powerSaver\":16},{\"modelList\":\"21909\",\"smartMode\":3,\"powerSaver\":10},{\"modelList\":\"21905\",\"smartMode\":4,\"powerSaver\":10},{\"modelList\":\"21907\",\"smartMode\":5,\"powerSaver\":15},{\"modelList\":\"22907\",\"smartMode\":5,\"powerSaver\":14},{\"modelList\":\"23912,24909,23911,24960,23902\",\"smartMode\":4,\"powerSaver\":12},{\"modelList\":\"24908,24965,24966\",\"smartMode\":5,\"powerSaver\":18},{\"modelList\":\"24913,24967,24968\",\"smartMode\":3,\"powerSaver\":7}]}"
+        },
+        {
+            "attrKey": "powerConsumptionFilter",
+            "attrValue": "{\"default\":{\"percent\":40},\"special\":[{\"modelList\":\"21907,22907,24908,24965,24966\",\"percent\":40},{\"modelList\":\"21905,20905,20909\",\"percent\":70},{\"modelList\":\"20903,20907,23912,23911,23902,24960,24909,24913,24967,24968\",\"percent\":50},{\"modelList\":\"21909\",\"percent\":35}]}"
+        },
+        {
+            "attrKey": "SpecialSupport",
+            "attrValue": "{\"id\": [\"050501,090101,090102,090601,090201,090202,100301,100401,100601,080201,080301,060310,060311,060405,060401,060311,090901,100501,120201,120203,080999,060407,109001,109101,110101\"]}"
+        },
+        {
+            "attrKey": "PATestDelayedRebootTime",
+            "attrValue": "3000"
+        },
+        {
+            "attrKey": "EnableAdbLogcat",
+            "attrValue": "false"
+        }
+    ],
+    "eu": [
+        {
+            "attrKey": "WorkOrderNotJudgeDiagResultItem",
+            "attrValue": "060204,060401,030102,030103,000001,150101"
+        },
+        {
+            "attrKey": "remainingBatteryCapacity",
+            "attrValue": "{\"default\":{\"good\":80,\"excellent\":60},\"special\":[{\"modelList\":\"20031,20061,19815\",\"good\":70,\"excellent\":60}]}"
+        },
+        {
+            "attrKey": "WatchBatteryLife",
+            "attrValue": "{\"default\":{\"smartMode\":-1,\"powerSaver\":-1},\"batteryLife\":[{\"modelList\":\"20905,20909\",\"smartMode\":2.5,\"powerSaver\":10},{\"modelList\":\"20903,20907\",\"smartMode\":4,\"powerSaver\":16},{\"modelList\":\"21909\",\"smartMode\":3,\"powerSaver\":10},{\"modelList\":\"21905\",\"smartMode\":4,\"powerSaver\":10},{\"modelList\":\"21907\",\"smartMode\":5,\"powerSaver\":15},{\"modelList\":\"22907\",\"smartMode\":5,\"powerSaver\":14},{\"modelList\":\"23912,24909,23911,24960,23902\",\"smartMode\":4,\"powerSaver\":12},{\"modelList\":\"24908,24965,24966\",\"smartMode\":5,\"powerSaver\":18},{\"modelList\":\"24913,24967,24968\",\"smartMode\":3,\"powerSaver\":7}]}"
+        },
+        {
+            "attrKey": "powerConsumptionFilter",
+            "attrValue": "{\"default\":{\"percent\":40},\"special\":[{\"modelList\":\"21907,22907,24908,24965,24966\",\"percent\":40},{\"modelList\":\"21905,20905,20909\",\"percent\":70},{\"modelList\":\"20903,20907,23912,23911,23902,24960,24909,24913,24967,24968\",\"percent\":50},{\"modelList\":\"21909\",\"percent\":35}]}"
+        },
+        {
+            "attrKey": "SpecialSupport",
+            "attrValue": "{\"id\": [\"050501,090101,090102,090601,090201,090202,100301,100401,100601,080201,080301,060310,060311,060405,060401,060311,090901,100501,120201,120203,080999,060407,109001,109101,110101\"]}"
+        },
+        {
+            "attrKey": "NoPublishDiagnosticItems",
+            "attrValue": "{\"mobile\":\"051101\"}"
+        },
+        {
+            "attrKey": "PATestDelayedRebootTime",
+            "attrValue": "3000"
+        },
+        {
+            "attrKey": "EnableAdbLogcat",
+            "attrValue": "false"
+        }
+    ],
+    "na": [
+        {
+            "attrKey": "WorkOrderNotJudgeDiagResultItem",
+            "attrValue": "060204,060401,030102,030103,000001,150101"
+        },
+        {
+            "attrKey": "remainingBatteryCapacity",
+            "attrValue": "{\"default\":{\"good\":80,\"excellent\":60},\"special\":[{\"modelList\":\"20031,20061,19815\",\"good\":70,\"excellent\":60}]}"
+        },
+        {
+            "attrKey": "NoPublishDiagnosticItems",
+            "attrValue": "{\"mobile\":\"051101\"}"
+        },
+        {
+            "attrKey": "PATestDelayedRebootTime",
+            "attrValue": "3000"
+        },
+        {
+            "attrKey": "EnableAdbLogcat",
+            "attrValue": "false"
+        }
+    ],
+    "common": [
+        {
+            "attrKey": "WorkOrderNotJudgeDiagResultItem",
+            "attrValue": "060204,060401,030102,030103,000001,150101"
+        },
+        {
+            "attrKey": "NoPublishDiagnosticItems",
+            "attrValue": "{\"mobile\":\"051101\"}"
+        },
+        {
+            "attrKey": "remainingBatteryCapacity",
+            "attrValue": "{\"default\":{\"good\":80,\"excellent\":60},\"special\":[{\"modelList\":\"20031,20061,19815\",\"good\":70,\"excellent\":60}]}"
+        },
+        {
+            "attrKey": "PATestDelayedRebootTime",
+            "attrValue": "3000"
+        },
+        {
+            "attrKey": "EnableAdbLogcat",
+            "attrValue": "false"
+        }
+    ]
+}

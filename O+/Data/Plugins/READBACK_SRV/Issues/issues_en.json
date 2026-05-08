@@ -1,0 +1,34 @@
+[
+    {
+        "code": "OPC0001",
+        "text": "O+ cloud control server error: {1} {2}\n1. Make sure that O+ Cloud services can be accessed over your network. If unable to access, contact the after-sales technical support team for the correct configuration settings.\n2. Try to flash the ROM again. If the error occurs repeatedly, contact an after-sales technical support representative to report the issue to the operation and maintenance team of O+ Cloud Services."
+    },
+    {
+        "code": "OPC0002",
+        "text": "The O+ Cloud services did not return the processing request result \nRequested API: {1} \nThe O+ Cloud services failed. If the issue persists after multiple attempts, please report the issue to the tool maintenance team for analysis and processing through a background technical support representative."
+    },
+    {
+        "code": "OPC0003",
+        "text": "O+ cloud control platform authentication error: {2}:\nApply for the corresponding permission or perform other operations based on the error description in the background. If the problem persists, please contact after-sales technical support."
+    },
+    {
+        "code": "OPC0004",
+        "text": "O+ cloud control platform authentication error: {2} {3}:\nApply for the corresponding permission or perform other operations based on the error description in the background. If the problem persists, please contact after-sales technical support."
+    },
+    {
+        "code": "OPC0005",
+        "text": "O+ cloud control platform authentication error\nApply for the corresponding permission or perform other operations based on the error description in the background. If the problem persists, please contact after-sales technical support."
+    },
+    {
+        "code": "OPC0006",
+        "text": "Software version outdated \nDownload the latest ROM for this device model and flash it."
+    },
+    {
+        "code": "OPC0007",
+        "text": "This user account has no access to the advanced ROM flashing permission. \nApply for the permission in the UPM system and try again."
+    },
+    {
+        "code": "OPF0001",
+        "text": "The O+ Cloud service interface {1} did not return the designated data field: {2} \nThe O+ Cloud services failed. If the issue persists after multiple attempts, please report the issue to the tool maintenance team for analysis and processing through a background technical support representative."
+    }
+]

@@ -1,0 +1,2822 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "Spuneți-i clientului să actualizeze la cea mai recentă versiune, care este mai stabilă.",
+        "ExpDetail": "Actualizare disponibilă: %1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "IMEI a fost schimbat sau nu a fost scris niciun IMEI după schimbarea plăcii de bază. Restaurați IMEI-ul original și informați clientul că un IMEI ilegal poate duce la erori de rețea.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "Nu a reușit să înceapă testul. Vă rugăm să confirmați că a fost scoasă cartela SIM.",
+        "ExpDetail": "Cartela SIM nu a fost scoasă"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Număr de deblocări: %1<br>Stare de deblocare: deblocat"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Număr de deblocări: %1<br>Stare de deblocare: Nu este deblocat"
+    },
+    "t01010101": {
+        "ExpAdvice": "Poate fi cauzată de incompatibilitatea dintre aplicațiile terților și sistem. Se recomandă să actualizați dispozitivul la cea mai recentă versiune și să actualizați aplicațiile la cea mai recentă versiune. Aceasta este o problemă de software și nu este legată de hardware.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "Este posibil ca telefonul să repornească în mod repetat atunci când apare o excepție la serviciul software de bază al sistemului Android sau atunci când funcționarea procesorului sau a memoriei RAM este instabilă. Se recomandă remedierea problemei ca fiind una de tip hardware.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "Aceasta este o problemă a aplicației. Dacă aplicația este o versiune beta, nu este o versiune oficială sau nu este cea mai recentă versiune oficială, descărcați și instalați cea mai recentă versiune de pe App Market.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "Această problemă poate apărea atunci când există probleme de compatibilitate software sau când telefonul cade la pământ sau este utilizat într-un mediu cu temperaturi ridicate sau scăzute. Vă rugăm să introduceți un nou ROM și să-i spuneți clientului să utilizeze telefonul într-un mediu adecvat.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "Alimentarea cu energie a telefonului este instabilă. Se recomandă remedierea problemei ca fiind una de tip hardware.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "Schimbați modulul senzorului de amprentă digitală.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "Verificați cu clientul dacă vreun buton a fost apăsat din greșeală.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "Verificați împreună cu clientul dacă telefonul nu a răspuns și a fost repornit cu ajutorul butoanelor fizice.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "Cauză: Unitatea centrală de procesare funcționează sub o sarcină ridicată pentru perioade lungi de timp, ceea ce face ca telefonul să se încălzească. Pentru a preveni supraîncălzirea, procesorul se va proteja singur, probabil cu prețul unei performanțe reduse.<br> \nRecomandări: ① Dezactivați modul de economisire a energiei. ② Evitați utilizarea prelungită a procesorului în condiții de sarcină ridicată. ③ Răciți telefonul ștergându-i suprafața cu alcool sau cu un șervețel umed și mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "Cauză: Frecvența scăzută a procesorului poate afecta performanța sistemului, încetinind viteza de procesare și timpul de răspuns al aplicației. C<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Dezactivați modul de economisire a energiei. ③ Mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "Cauză: Spațiul de stocare disponibil scade sub 10% din cauza prea multor aplicații care rulează în fundal.<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Activați funcția de expansiune a memoriei RAM prin „Setări - Setări sistem - RAM”, dacă telefonul acceptă această funcție. ③ Reporniți telefonul în mod regulat.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "Cauză: Nu există spațiu pentru memoria cache a aplicațiilor din cauza spațiului de stocare redus. În acest caz, aplicațiile pot avea întârzieri, pot îngheța sau se pot bloca. <br>\nRecomandări: Curățați spațiul de stocare cu Managerul telefonului încorporat în telefon, ștergând fotografiile, clipurile video și aplicațiile nedorite, sau copiați aceste elemente pe un computer sau pe o unitate USB.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "Cauză: Versiunea sistemului de operare nu este oficială și poate deveni instabilă.<br> \nRecomandări: Instalați versiunea oficială a sistemului de operare sau așteptați actualizarea versiunii beta.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "Cauză: Telefonul este instalat cu o aplicație terță de gestionare a telefonului sau o aplicație de optimizare a sistemului (cum ar fi Tencent Mobile Manager și 360 Mobile Safe). Astfel de aplicații pot cauza întârzieri ale telefonului. <br>\nRecomandări: Dezinstalați orice aplicație de optimizare a sistemului de la terți și utilizați Managerul telefonului încorporat în telefon pentru a optimiza telefonul.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "Cauză: Gesturile de mărire au fost activate, ceea ce poate cauza întârzieri ale unor aplicații.<br> \nRecomandări: Dezactivați funcția gesturilor de mărire prin „Setări - Setări suplimentare - Accesibilitate - Gesturi de mărire”.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "\n1. Confirmați dacă detaliile de diagnosticare sunt în concordanță cu descrierea utilizatorului; în caz afirmativ, rugați utilizatorul să șteargă memoria cache a acestor aplicații și să le actualizeze la cele mai recente versiuni. <br>\n2. Recomandați utilizatorului să își repornească telefonul.<br>\n3. Recomandați utilizatorului să își curețe aplicațiile din fundal în timp util.<br>\n4. Recomandați utilizatorului să treacă la cel mai recent sistem de operare.<br>\n5. Obțineți jurnalele utilizatorului privind întârzierile și cereți tehnicienilor să le analizeze.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "\n1. Confirmați dacă detaliile de diagnosticare sunt în concordanță cu descrierea utilizatorului; în caz afirmativ, rugați utilizatorul să șteargă memoria cache a acestor aplicații și să le actualizeze la cele mai recente versiuni. <br>\n2. Recomandați utilizatorului să își repornească telefonul.<br>\n3. Recomandați utilizatorului să își curețe aplicațiile din fundal în timp util.<br>\n4. Recomandați utilizatorului să treacă la cel mai recent sistem de operare.<br>\n5. Obțineți jurnalele utilizatorului privind întârzierile și cereți tehnicienilor să le analizeze.",
+        "ExpDetail": "Top 5 aplicații cu cea mai mare utilizare a RAM:<br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "Cauză: Unitatea centrală de procesare funcționează sub o sarcină ridicată pentru perioade lungi de timp, ceea ce face ca telefonul să se încălzească. Pentru a preveni supraîncălzirea, procesorul se va proteja singur, probabil cu prețul unei performanțe reduse.<br> \nRecomandări: ① Dezactivați modul de economisire a energiei. ② Evitați utilizarea prelungită a procesorului în condiții de sarcină ridicată. ③ Răciți telefonul ștergându-i suprafața cu alcool sau cu un șervețel umed și mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Top 5 aplicații cu cea mai lentă pornire:<br>%1<br>Top 5 cauze pentru pornire lentă:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "Cauză: Frecvența scăzută a procesorului poate afecta performanța sistemului, încetinind viteza de procesare și timpul de răspuns al aplicației. C<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Dezactivați modul de economisire a energiei. ③ Mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Top 5 aplicații cu cea mai lentă pornire:<br>%1<br>Top 5 cauze pentru pornire lentă:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "Cauză: Spațiul de stocare disponibil scade sub 10% din cauza prea multor aplicații care rulează în fundal.<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Activați funcția de expansiune a memoriei RAM prin „Setări - Setări sistem - RAM”, dacă telefonul acceptă această funcție. ③ Reporniți telefonul în mod regulat.",
+        "ExpDetail": "Top 5 aplicații cu cea mai lentă pornire:<br>%1<br>Top 5 cauze pentru pornire lentă:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "Cauză: Nu există spațiu pentru memoria cache a aplicațiilor din cauza spațiului de stocare redus. În acest caz, aplicațiile pot avea întârzieri, pot îngheța sau se pot bloca. <br>\nRecomandări: Curățați spațiul de stocare cu Managerul telefonului încorporat în telefon, ștergând fotografiile, clipurile video și aplicațiile nedorite, sau copiați aceste elemente pe un computer sau pe o unitate USB.",
+        "ExpDetail": "Top 5 aplicații cu cea mai lentă pornire:<br>%1<br>Top 5 cauze pentru pornire lentă:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "Cauză: Versiunea sistemului de operare nu este oficială și poate deveni instabilă.<br> \nRecomandări: Instalați versiunea oficială a sistemului de operare sau așteptați actualizarea versiunii beta.",
+        "ExpDetail": "Top 5 aplicații cu cea mai lentă pornire:<br>%1<br>Top 5 cauze pentru pornire lentă:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "Cauză: Telefonul este instalat cu o aplicație terță de gestionare a telefonului sau o aplicație de optimizare a sistemului (cum ar fi Tencent Mobile Manager și 360 Mobile Safe). Astfel de aplicații pot cauza întârzieri ale telefonului. <br>\nRecomandări: Dezinstalați orice aplicație de optimizare a sistemului de la terți și utilizați Managerul telefonului încorporat în telefon pentru a optimiza telefonul.",
+        "ExpDetail": "Top 5 aplicații cu cea mai lentă pornire:<br>%1<br>Top 5 cauze pentru pornire lentă:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "Cauză: Gesturile de mărire au fost activate, ceea ce poate cauza întârzieri ale unor aplicații.<br> \nRecomandări: Dezactivați funcția gesturilor de mărire prin „Setări - Setări suplimentare - Accesibilitate - Gesturi de mărire”.",
+        "ExpDetail": "Top 5 aplicații cu cea mai lentă pornire:<br>%1<br>Top 5 cauze pentru pornire lentă:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "\n1. Confirmați dacă detaliile de diagnosticare sunt în concordanță cu descrierea utilizatorului; în caz afirmativ, rugați utilizatorul să șteargă memoria cache a acestor aplicații și să le actualizeze la cele mai recente versiuni. <br>\n2. Recomandați utilizatorului să își repornească telefonul.<br>\n3. Recomandați utilizatorului să își curețe aplicațiile din fundal în timp util.<br>\n4. Recomandați utilizatorului să treacă la cel mai recent sistem de operare.<br>\n5. Obțineți jurnalele utilizatorului privind întârzierile și cereți tehnicienilor să le analizeze.",
+        "ExpDetail": "Cauză necunoscută",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "Cauză: Spațiul de stocare disponibil scade sub 10% din cauza prea multor aplicații care rulează în fundal.<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Activați funcția de expansiune a memoriei RAM prin „Setări - Setări sistem - RAM”, dacă telefonul acceptă această funcție. ③ Reporniți telefonul în mod regulat.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "Cauză: Nu există spațiu pentru memoria cache a aplicațiilor din cauza spațiului de stocare redus. În acest caz, aplicațiile pot avea întârzieri, pot îngheța sau se pot bloca. <br>\nRecomandări: Curățați spațiul de stocare cu Managerul telefonului încorporat în telefon, ștergând fotografiile, clipurile video și aplicațiile nedorite, sau copiați aceste elemente pe un computer sau pe o unitate USB.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "Cauză: Unitatea centrală de procesare funcționează sub o sarcină ridicată pentru perioade lungi de timp, ceea ce face ca telefonul să se încălzească. Pentru a preveni supraîncălzirea, procesorul se va proteja singur, probabil cu prețul unei performanțe reduse.<br> \nRecomandări: ① Dezactivați modul de economisire a energiei. ② Evitați utilizarea prelungită a procesorului în condiții de sarcină ridicată. ③ Răciți telefonul ștergându-i suprafața cu alcool sau cu un șervețel umed și mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj de interfață:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "Cauză: Frecvența scăzută a procesorului poate afecta performanța sistemului, încetinind viteza de procesare și timpul de răspuns al aplicației. C<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Dezactivați modul de economisire a energiei. ③ Mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj de interfață:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "Cauză: Spațiul de stocare disponibil scade sub 10% din cauza prea multor aplicații care rulează în fundal.<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Activați funcția de expansiune a memoriei RAM prin „Setări - Setări sistem - RAM”, dacă telefonul acceptă această funcție. ③ Reporniți telefonul în mod regulat.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj de interfață:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "Cauză: Nu există spațiu pentru memoria cache a aplicațiilor din cauza spațiului de stocare redus. În acest caz, aplicațiile pot avea întârzieri, pot îngheța sau se pot bloca. <br>\nRecomandări: Curățați spațiul de stocare cu Managerul telefonului încorporat în telefon, ștergând fotografiile, clipurile video și aplicațiile nedorite, sau copiați aceste elemente pe un computer sau pe o unitate USB.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj de interfață:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "Cauză: Versiunea sistemului de operare nu este oficială și poate deveni instabilă.<br> \nRecomandări: Instalați versiunea oficială a sistemului de operare sau așteptați actualizarea versiunii beta.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj de interfață:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "Cauză: Telefonul este instalat cu o aplicație terță de gestionare a telefonului sau o aplicație de optimizare a sistemului (cum ar fi Tencent Mobile Manager și 360 Mobile Safe). Astfel de aplicații pot cauza întârzieri ale telefonului. <br>\nRecomandări: Dezinstalați orice aplicație de optimizare a sistemului de la terți și utilizați Managerul telefonului încorporat în telefon pentru a optimiza telefonul.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj de interfață:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "Cauză: Gesturile de mărire au fost activate, ceea ce poate cauza întârzieri ale unor aplicații.<br> \nRecomandări: Dezactivați funcția gesturilor de mărire prin „Setări - Setări suplimentare - Accesibilitate - Gesturi de mărire”.",
+        "ExpDetail": "Top 5 aplicații cu cel mai mare decalaj de interfață:<br>%1<br>Top 5 motive pentru decalaj:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "\n1. Confirmați dacă detaliile de diagnosticare sunt în concordanță cu descrierea utilizatorului; în caz afirmativ, rugați utilizatorul să șteargă memoria cache a acestor aplicații și să le actualizeze la cele mai recente versiuni. <br>\n2. Recomandați utilizatorului să își repornească telefonul.<br>\n3. Recomandați utilizatorului să își curețe aplicațiile din fundal în timp util.<br>\n4. Recomandați utilizatorului să treacă la cel mai recent sistem de operare.<br>\n5. Obțineți jurnalele utilizatorului privind întârzierile și cereți tehnicienilor să le analizeze.",
+        "ExpDetail": "Cauză necunoscută",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "Cauză: Aplicațiile de lansare automată trebuie să ocupe resurse de sistem, cum ar fi spațiul de stocare și CPU. Prea multe aplicații de lansare automată vor duce la resurse de sistem insuficiente, afectând viteza și performanța altor aplicații. <br>\nRecomandări: Închideți aplicațiile de lansare automată nedorite prin „Settings - App management - Auto-launch apps” (Setări - Gestionare aplicații - Lansare automată aplicații).",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "Cauză: Unitatea centrală de procesare funcționează sub o sarcină ridicată pentru perioade lungi de timp, ceea ce face ca telefonul să se încălzească. Pentru a preveni supraîncălzirea, procesorul se va proteja singur, probabil cu prețul unei performanțe reduse.<br> \nRecomandări: ① Dezactivați modul de economisire a energiei. ② Evitați utilizarea prelungită a procesorului în condiții de sarcină ridicată. ③ Răciți telefonul ștergându-i suprafața cu alcool sau cu un șervețel umed și mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Top 5 aplicații cu cel mai lent răspuns:<br>%1<br>Top 5 motive pentru un răspuns lent:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "Cauză: Frecvența scăzută a procesorului poate afecta performanța sistemului, încetinind viteza de procesare și timpul de răspuns al aplicației. C<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Dezactivați modul de economisire a energiei. ③ Mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Top 5 aplicații cu cel mai lent răspuns:<br>%1<br>Top 5 motive pentru un răspuns lent:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "Cauză: Spațiul de stocare disponibil scade sub 10% din cauza prea multor aplicații care rulează în fundal.<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Activați funcția de expansiune a memoriei RAM prin „Setări - Setări sistem - RAM”, dacă telefonul acceptă această funcție. ③ Reporniți telefonul în mod regulat.",
+        "ExpDetail": "Top 5 aplicații cu cel mai lent răspuns:<br>%1<br>Top 5 motive pentru un răspuns lent:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "Cauză: Nu există spațiu pentru memoria cache a aplicațiilor din cauza spațiului de stocare redus. În acest caz, aplicațiile pot avea întârzieri, pot îngheța sau se pot bloca. <br>\nRecomandări: Curățați spațiul de stocare cu Managerul telefonului încorporat în telefon, ștergând fotografiile, clipurile video și aplicațiile nedorite, sau copiați aceste elemente pe un computer sau pe o unitate USB.",
+        "ExpDetail": "Top 5 aplicații cu cel mai lent răspuns:<br>%1<br>Top 5 motive pentru un răspuns lent:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "Cauză: Versiunea sistemului de operare nu este oficială și poate deveni instabilă.<br> \nRecomandări: Instalați versiunea oficială a sistemului de operare sau așteptați actualizarea versiunii beta.",
+        "ExpDetail": "Top 5 aplicații cu cel mai lent răspuns:<br>%1<br>Top 5 motive pentru un răspuns lent:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "Cauză: Telefonul este instalat cu o aplicație terță de gestionare a telefonului sau o aplicație de optimizare a sistemului (cum ar fi Tencent Mobile Manager și 360 Mobile Safe). Astfel de aplicații pot cauza întârzieri ale telefonului. <br>\nRecomandări: Dezinstalați orice aplicație de optimizare a sistemului de la terți și utilizați Managerul telefonului încorporat în telefon pentru a optimiza telefonul.",
+        "ExpDetail": "Top 5 aplicații cu cel mai lent răspuns:<br>%1<br>Top 5 motive pentru un răspuns lent:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "Cauză: Gesturile de mărire au fost activate, ceea ce poate cauza întârzieri ale unor aplicații.<br> \nRecomandări: Dezactivați funcția gesturilor de mărire prin „Setări - Setări suplimentare - Accesibilitate - Gesturi de mărire”.",
+        "ExpDetail": "Top 5 aplicații cu cel mai lent răspuns:<br>%1<br>Top 5 motive pentru un răspuns lent:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "Cauză: Unitatea centrală de procesare funcționează sub o sarcină ridicată pentru perioade lungi de timp, ceea ce face ca telefonul să se încălzească. Pentru a preveni supraîncălzirea, procesorul se va proteja singur, probabil cu prețul unei performanțe reduse.<br> \nRecomandări: ① Dezactivați modul de economisire a energiei. ② Evitați utilizarea prelungită a procesorului în condiții de sarcină ridicată. ③ Răciți telefonul ștergându-i suprafața cu alcool sau cu un șervețel umed și mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Supraîncălzirea procesorului",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "Cauză: Frecvența scăzută a procesorului poate afecta performanța sistemului, încetinind viteza de procesare și timpul de răspuns al aplicației. C<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Dezactivați modul de economisire a energiei. ③ Mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Frecvența CPU scăzută",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "Cauză: Spațiul de stocare disponibil scade sub 10% din cauza prea multor aplicații care rulează în fundal.<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Activați funcția de expansiune a memoriei RAM prin „Setări - Setări sistem - RAM”, dacă telefonul acceptă această funcție. ③ Reporniți telefonul în mod regulat.",
+        "ExpDetail": "Memorie redusă",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "Cauză: Nu există spațiu pentru memoria cache a aplicațiilor din cauza spațiului de stocare redus. În acest caz, aplicațiile pot avea întârzieri, pot îngheța sau se pot bloca. <br>\nRecomandări: Curățați spațiul de stocare cu Managerul telefonului încorporat în telefon, ștergând fotografiile, clipurile video și aplicațiile nedorite, sau copiați aceste elemente pe un computer sau pe o unitate USB.",
+        "ExpDetail": "Spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "Cauză: Versiunea sistemului de operare nu este oficială și poate deveni instabilă.<br> \nRecomandări: Instalați versiunea oficială a sistemului de operare sau așteptați actualizarea versiunii beta.",
+        "ExpDetail": "Versiune beta",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "Cauză: Telefonul este instalat cu o aplicație terță de gestionare a telefonului sau o aplicație de optimizare a sistemului (cum ar fi Tencent Mobile Manager și 360 Mobile Safe). Astfel de aplicații pot cauza întârzieri ale telefonului. <br>\nRecomandări: Dezinstalați orice aplicație de optimizare a sistemului de la terți și utilizați Managerul telefonului încorporat în telefon pentru a optimiza telefonul.",
+        "ExpDetail": "Aplicații de scădere a performanței",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "Cauză: Gesturile de mărire au fost activate, ceea ce poate cauza întârzieri ale unor aplicații.<br> \nRecomandări: Dezactivați funcția gesturilor de mărire prin „Setări - Setări suplimentare - Accesibilitate - Gesturi de mărire”.",
+        "ExpDetail": "Gestul de mărire activat (opțiune pentru dezvoltatori)",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "\n1. Confirmați dacă detaliile de diagnosticare sunt în concordanță cu descrierea utilizatorului; în caz afirmativ, rugați utilizatorul să șteargă memoria cache a acestor aplicații și să le actualizeze la cele mai recente versiuni. <br>\n2. Recomandați utilizatorului să își repornească telefonul.<br>\n3. Recomandați utilizatorului să își curețe aplicațiile din fundal în timp util.<br>\n4. Recomandați utilizatorului să treacă la cel mai recent sistem de operare.<br>\n5. Obțineți jurnalele utilizatorului privind întârzierile și cereți tehnicienilor să le analizeze.",
+        "ExpDetail": "Cauză necunoscută",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "Motive pentru un răspuns lent la trezire sau la închiderea ecranului",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "Cauză: Unitatea centrală de procesare funcționează sub o sarcină ridicată pentru perioade lungi de timp, ceea ce face ca telefonul să se încălzească. Pentru a preveni supraîncălzirea, procesorul se va proteja singur, probabil cu prețul unei performanțe reduse.<br> \nRecomandări: ① Dezactivați modul de economisire a energiei. ② Evitați utilizarea prelungită a procesorului în condiții de sarcină ridicată. ③ Răciți telefonul ștergându-i suprafața cu alcool sau cu un șervețel umed și mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Supraîncălzirea procesorului",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "Cauză: Frecvența scăzută a procesorului poate afecta performanța sistemului, încetinind viteza de procesare și timpul de răspuns al aplicației. C<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Dezactivați modul de economisire a energiei. ③ Mențineți o bună disipare a căldurii.",
+        "ExpDetail": "Frecvența CPU scăzută",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "Cauză: Spațiul de stocare disponibil scade sub 10% din cauza prea multor aplicații care rulează în fundal.<br>\nRecomandări: ① Curățați aplicațiile din fundal în timp util. ② Activați funcția de expansiune a memoriei RAM prin „Setări - Setări sistem - RAM”, dacă telefonul acceptă această funcție. ③ Reporniți telefonul în mod regulat.",
+        "ExpDetail": "Memorie redusă",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "Cauză: Nu există spațiu pentru memoria cache a aplicațiilor din cauza spațiului de stocare redus. În acest caz, aplicațiile pot avea întârzieri, pot îngheța sau se pot bloca. <br>\nRecomandări: Curățați spațiul de stocare cu Managerul telefonului încorporat în telefon, ștergând fotografiile, clipurile video și aplicațiile nedorite, sau copiați aceste elemente pe un computer sau pe o unitate USB.",
+        "ExpDetail": "Spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "Cauză: Versiunea sistemului de operare nu este oficială și poate deveni instabilă.<br> \nRecomandări: Instalați versiunea oficială a sistemului de operare sau așteptați actualizarea versiunii beta.",
+        "ExpDetail": "Versiune beta",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "Cauză: Telefonul este instalat cu o aplicație terță de gestionare a telefonului sau o aplicație de optimizare a sistemului (cum ar fi Tencent Mobile Manager și 360 Mobile Safe). Astfel de aplicații pot cauza întârzieri ale telefonului. <br>\nRecomandări: Dezinstalați orice aplicație de optimizare a sistemului de la terți și utilizați Managerul telefonului încorporat în telefon pentru a optimiza telefonul.",
+        "ExpDetail": "Aplicații de scădere a performanței",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "Cauză: Prea multe aplicații pot duce la o stocare insuficientă, reducând performanța telefonului și provocând răspunsuri lente și întârzieri. \nRecomandări: Dezinstalați aplicațiile inutile și curățați dispozitivul în mod regulat pentru a-i menține performanța optimă.",
+        "ExpDetail": "Prea multe aplicații terță parte",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "Cauză: Aplicațiile de lansare automată trebuie să ocupe resurse de sistem, cum ar fi spațiul de stocare și CPU. Prea multe aplicații de lansare automată vor duce la resurse de sistem insuficiente, afectând viteza și performanța altor aplicații. <br>\nRecomandări: Închideți aplicațiile de lansare automată nedorite prin „Settings - App management - Auto-launch apps” (Setări - Gestionare aplicații - Lansare automată aplicații).",
+        "ExpDetail": "Prea multe aplicații cu lansare automată",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "\n1. Confirmați dacă detaliile de diagnosticare sunt în concordanță cu descrierea utilizatorului; în caz afirmativ, rugați utilizatorul să șteargă memoria cache a acestor aplicații și să le actualizeze la cele mai recente versiuni. <br>\n2. Recomandați utilizatorului să își repornească telefonul.<br>\n3. Recomandați utilizatorului să își curețe aplicațiile din fundal în timp util.<br>\n4. Recomandați utilizatorului să treacă la cel mai recent sistem de operare.<br>\n5. Obțineți jurnalele utilizatorului privind întârzierile și cereți tehnicienilor să le analizeze.",
+        "ExpDetail": "Cauză necunoscută",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Motive pentru întârzierea pornirii telefonului:",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "Încărcarea CPU prea mare pe telefon. Închideți aplicațiile care rulează în fundal.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "Încărcarea CPU prea mare pe telefon. Închideți aplicațiile care rulează în fundal.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "Încărcarea CPU prea mare pe telefon. Închideți aplicațiile care rulează în fundal.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "Încărcarea CPU prea mare pe telefon. Închideți aplicațiile care rulează în fundal.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "Încărcarea CPU prea mare pe telefon. Închideți aplicațiile care rulează în fundal.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "Telefonul s-a supraîncălzit. Cereți utilizatorului să curețe aplicațiile din fundal și să lase telefonul timp de 5 minute.",
+        "ExpDetail": "Camera foto pornește greu - supraîncălzire",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "Spațiu de stocare disponibil redus. Verificați numărul de aplicații din fundal și solicitați utilizatorului să le curețe.",
+        "ExpDetail": "Camera foto pornește greu - spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "Sarcina este prea mare. Cereți utilizatorului să curețe aplicațiile din fundal.",
+        "ExpDetail": "Camera foto pornește greu - sarcină mare",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "Cereți utilizatorului să repornească telefonul și să încerce din nou.",
+        "ExpDetail": "Camera se blochează - se declanșează descărcarea sesiunii",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "Telefonul s-a supraîncălzit. Cereți utilizatorului să curețe aplicațiile din fundal și să lase telefonul timp de 5 minute.",
+        "ExpDetail": "Camera se încălzește - telefonul se supraîncălzește deja înainte de a porni camera foto",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "Această problemă este cauzată de utilizarea prelungită a camerei. Cereți utilizatorului să reducă utilizarea prelungită a camerei.",
+        "ExpDetail": "Camera se încălzește - supraîncălzirea camerei",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "Telefonul s-a supraîncălzit. Cereți utilizatorului să curețe aplicațiile din fundal și să lase telefonul timp de 5 minute.",
+        "ExpDetail": "Previzualizarea camerei întârzie - frecvență limitată din cauza supraîncălzirii",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "Spațiu de stocare disponibil redus. Verificați numărul de aplicații din fundal și solicitați utilizatorului să le curețe.",
+        "ExpDetail": "Previzualizarea camerei întârzie - spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "Cereți utilizatorului să se mute într-un mediu mai luminos.",
+        "ExpDetail": "Previzualizarea camerei întârzie - rata de cadre redusă în mediile întunecate",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "Camera foto este prea aproape de subiect. Cereți utilizatorului să păstreze o distanță față de subiect.",
+        "ExpDetail": "Camera se estompează în timpul previzualizării fotografiei - nu este focalizată",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "Telefonul s-a supraîncălzit. Cereți utilizatorului să curețe aplicațiile din fundal și să lase telefonul timp de 5 minute.",
+        "ExpDetail": "Camera foto întârzie în timpul previzualizării fotografiilor - frecvență limitată din cauza supraîncălzirii",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "Spațiu de stocare disponibil redus. Verificați numărul de aplicații din fundal și solicitați utilizatorului să le curețe.",
+        "ExpDetail": "Camera întârzie în timpul realizării fotografiilor - spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "Camera foto este prea aproape de subiect. Cereți utilizatorului să păstreze o distanță față de subiect.",
+        "ExpDetail": "Fotografiile realizate de camera foto sunt neclare",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "Cereți utilizatorului să curețe aplicațiile din fundal și să repornească camera foto.",
+        "ExpDetail": "Ecranul devine negru în timpul realizării fotografiilor - spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "Cereți-i lucrătorului de la serviciul post-vânzare să captureze jurnalele de înregistrare și trimiteți-le înapoi cu codul de eroare al algoritmului.",
+        "ExpDetail": "Ecranul devine neclar în timpul realizării fotografiei - cod de eroare algoritm: %1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "Telefonul s-a supraîncălzit. Cereți utilizatorului să curețe aplicațiile din fundal și să lase telefonul timp de 5 minute.",
+        "ExpDetail": "Nu se pot face fotografii - supraîncălzire",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "Cereți utilizatorului să curețe aplicațiile din fundal și să repornească camera foto.",
+        "ExpDetail": "Nu se pot face fotografii - spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "Cereți utilizatorului să curețe aplicațiile din fundal și să repornească camera foto.",
+        "ExpDetail": "Imposibilitatea de a face fotografii - resursele de sunet nu sunt încărcate",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "Telefonul s-a supraîncălzit. Cereți utilizatorului să curețe aplicațiile din fundal și să lase telefonul timp de 5 minute.",
+        "ExpDetail": "Înregistrarea video întârzie în timpul previzualizării - frecvență limitată din cauza supraîncălzirii",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "Spațiu de stocare disponibil redus. Verificați numărul de aplicații din fundal și solicitați utilizatorului să le curețe.",
+        "ExpDetail": "Înregistrarea video întârzie în timpul previzualizării - spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "Telefonul s-a supraîncălzit. Cereți utilizatorului să curețe aplicațiile din fundal și să lase telefonul timp de 5 minute.",
+        "ExpDetail": "Întârziere în realizarea fotografiilor - supraîncălzire",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "Spațiu de stocare disponibil redus. Verificați numărul de aplicații din fundal și solicitați utilizatorului să le curețe.",
+        "ExpDetail": "Întârziere în realizarea fotografiilor - spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "Sarcina este prea mare. Cereți utilizatorului să curețe aplicațiile din fundal.",
+        "ExpDetail": "Întârziere în realizarea fotografiilor - sarcină mare",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "Telefonul s-a supraîncălzit. Cereți utilizatorului să curețe aplicațiile din fundal și să lase telefonul timp de 5 minute.",
+        "ExpDetail": "A expirat la salvarea unui fișier de înregistrare - supraîncălzire",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "Spațiu de stocare disponibil redus. Verificați numărul de aplicații din fundal și solicitați utilizatorului să le curețe.",
+        "ExpDetail": "A expirat la salvarea unui fișier de înregistrare - spațiu de stocare redus",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "Sarcina este prea mare. Cereți utilizatorului să curețe aplicațiile din fundal.",
+        "ExpDetail": "A expirat la salvarea unui fișier de înregistrare - sarcină mare",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "Nu este legat de probleme de rețea",
+        "ExpDetail": "Apariție eșec de redare, întârziere sau pierdere sunet: %1",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "Sistemul dumneavoastră este lent. Închideți aplicațiile care rulează în fundal sau reporniți dispozitivul.",
+        "ExpDetail": "Apariție eșec de redare, întârziere sau pierdere sunet: %1",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și înlocuiți placa de bază pentru validare încrucișată.",
+        "ExpDetail": "Apariție eșec de redare, întârziere sau pierdere sunet: %1",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și înlocuiți placa de bază pentru validare încrucișată.",
+        "ExpDetail": "Apariție eșec de redare, întârziere sau pierdere sunet: %1",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema și trimiteți-le dezvoltatorului pentru analiză. Dacă redarea prin intermediul difuzorului este anormală, verificați dacă redarea funcționează prin intermediul căștilor. Dacă da, înlocuiți difuzorul. Dacă apare aceeași problemă, înlocuiți placa de bază pentru o validare încrucișată.",
+        "ExpDetail": "Apariție eșec de redare, întârziere sau pierdere sunet: %1",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și înlocuiți placa de bază pentru validare încrucișată.",
+        "ExpDetail": "Apariție eșec de redare, întârziere sau pierdere sunet: %1",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și înlocuiți difuzorul. Dacă problema persistă, înlocuiți placa de bază pentru o validare încrucișată.",
+        "ExpDetail": "Apariție eșec de redare, întârziere sau pierdere sunet: %1",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "Capturați și salvați jurnalele audio care reproduc problema și trimiteți-le dezvoltatorului pentru analiză și actualizați-le la cea mai recentă versiune. Dacă problema persistă, înlocuiți placa de bază pentru o validare încrucișată.",
+        "ExpDetail": "Apariție eșec de redare, întârziere sau pierdere sunet: %1",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "Nu este legat de probleme de rețea",
+        "ExpDetail": "Apariție eșec de înregistrare, întârziere sau pierdere audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "Sistemul dumneavoastră este lent. Închideți aplicațiile care rulează în fundal sau reporniți dispozitivul.",
+        "ExpDetail": "Apariție eșec de înregistrare, întârziere sau pierdere audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și înlocuiți placa de bază pentru validare încrucișată.",
+        "ExpDetail": "Apariție eșec de înregistrare, întârziere sau pierdere audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema și trimiteți-le dezvoltatorului pentru analiză. Verificați dacă înregistrarea cu căști este normală. În acest caz, înlocuiți microfonul telefonului. Dacă apare aceeași problemă, înlocuiți placa de bază pentru o validare încrucișată.",
+        "ExpDetail": "Apariție eșec de înregistrare, întârziere sau pierdere audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "Cauzat de probleme de rețea. Verificați conexiunea la rețea.",
+        "ExpDetail": "Apariții eșec sau întârziere a redării: %1",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "Nu are legătură cu rețeaua. Verificați setările aplicației.",
+        "ExpDetail": "Apariții eșec sau întârziere a redării: %1",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "Pentru tipurile de probleme care nu pot fi analizate automat, se recomandă să utilizați cea mai recentă versiune disponibilă în App Market sau să ștergeți memoria cache și datele aplicației și să încercați din nou.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "Cauzat de această aplicație în sine.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "Pentru tipurile de probleme care nu pot fi analizate automat, se recomandă să utilizați cea mai recentă versiune disponibilă în App Market sau să ștergeți memoria cache și datele aplicației și să încercați din nou.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "Aplicația nu a fost descărcată de pe piața oficială de aplicații App Market. Se recomandă să descărcați aplicația de pe piața oficială de aplicații App market.",
+        "ExpDetail": "Numărul total de apariții: %1 (pentru referință)",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "Aplicația nu a fost descărcată de pe piața oficială de aplicații App Market. Se recomandă să descărcați aplicația de pe piața oficială de aplicații App market.",
+        "ExpDetail": "Numărul total de apariții: %1 (pentru referință)",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "Unele aplicații terțe pot apărea anormale în utilizare, inclusiv (%1), se recomandă actualizarea la cea mai recentă versiune",
+        "ExpDetail": "1、Excepție de compatibilitate；<br>2、Aplicație pe 32 de biți",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Apariții de eșecuri ale apelurilor vocale sau video, întârzieri sau pierderi de sunet în aplicațiile terțe: %1",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "Nu este legat de probleme de rețea",
+        "ExpDetail": "Apariții de eșecuri ale apelurilor vocale sau video, întârzieri sau pierderi de sunet în aplicațiile terțe: %1",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "Depanarea componentelor legate de redarea și înregistrarea audio (de exemplu, difuzor și microfon)",
+        "ExpDetail": "Apariții de eșecuri ale apelurilor vocale sau video, întârzieri sau pierderi de sunet în aplicațiile terțe: %1",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "Sistemul dumneavoastră este lent. Închideți aplicațiile care rulează în fundal sau reporniți dispozitivul.",
+        "ExpDetail": "Apariții de eșecuri ale apelurilor vocale sau video, întârzieri sau pierderi de sunet în aplicațiile terțe: %1",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și înlocuiți placa de bază pentru validare încrucișată.",
+        "ExpDetail": "Apariții de eșecuri ale apelurilor vocale sau video, întârzieri sau pierderi de sunet în aplicațiile terțe: %1",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și înlocuiți placa de bază pentru validare încrucișată.",
+        "ExpDetail": "Apariții de eșecuri ale apelurilor vocale sau video, întârzieri sau pierderi de sunet în aplicațiile terțe: %1",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "Capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și actualizați-le la cea mai recentă versiune. Dacă problema persistă, înlocuiți placa de bază pentru o validare încrucișată.",
+        "ExpDetail": "Apariții de eșecuri ale apelurilor vocale sau video, întârzieri sau pierderi de sunet în aplicațiile terțe: %1",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "Încercați o altă rețea. Dacă problema persistă, capturați și trimiteți un jurnal audio și un jurnal de rețea către dezvoltator pentru analiză.",
+        "ExpDetail": "%1 cazuri de apeluri WeChat silențioase din cauza erorilor de rețea",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. Dacă problema apare în locații similare, comparați telefonul dvs. cu alte telefoane ale aceluiași operator. Dacă aceste telefoane au aceeași problemă, contactați operatorul pentru a rezolva problema.<br>2. Dacă problema apare în momente similare, verificați dacă vă aflați într-un subsol, garaj, într-o zonă dens populată sau într-o mașină în funcțiune, unde semnalul poate fi slab.<br>3. În cazul în care WeChat a indicat că rețeaua dvs. sau a celeilalte părți este instabilă în timpul apelurilor, imaginea este neclară datorită strategiilor concepute de WeChat.",
+        "ExpDetail": "%1 cazuri de apeluri video WeChat neclare din cauza erorilor de rețea",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. Vă rugăm să actualizați aplicația WeChat și apoi să reporniți telefonul și aplicația.<br>2. Dacă WeChat a indicat că rețeaua celeilalte părți este instabilă în timpul apelurilor, imaginea este neclară deoarece telefonul celeilalte părți este conectat la o rețea slabă.",
+        "ExpDetail": "%1 cazuri de apeluri video WeChat neclare din cauza erorilor de rețea",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "Spuneți-i clientului să nu-și folosească telefonul în timp ce acesta se încarcă.",
+        "ExpDetail": "Utilizarea prelungită a telefonului în timpul încărcării: %1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "Spuneți-i clientului să nu-și încarce telefonul în frig.",
+        "ExpDetail": "Încărcarea încetinește pentru a proteja bateria deoarece temperatura ambiantă este prea scăzută: %1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "Se încarcă încet. Folosiți încărcătorul și cablul furnizate împreună cu dispozitivul pentru o încărcare mai rapidă.",
+        "ExpDetail": "Încărcare USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "Încărcarea este mai lentă la niveluri mai ridicate ale bateriei pentru a păstra sănătatea acesteia.",
+        "ExpDetail": "Încărcarea intermitentă duce la o viteză de încărcare lentă, deoarece nivelul inițial al bateriei este prea mare: %1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "Adaptorul utilizează o tensiune mai mare decât cea pentru care este proiectat dispozitivul. Utilizați încărcătorul corect.",
+        "ExpDetail": "Tensiunea adaptorului este prea mare: %1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "A fost detectată o conexiune slabă a bateriei. Verificați bateria și conectorii BTB.",
+        "ExpDetail": "Contact slab cu bateria: %1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "Baterie neautorizată. Utilizați o baterie originală de la producătorul dispozitivului.",
+        "ExpDetail": "Baterie neoriginală: %1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "Temperatura dispozitivului este prea scăzută. Încărcarea se va întrerupe înainte ca bateria să fie plină pentru a o menține în stare bună.",
+        "ExpDetail": "Nu se poate încărca complet din cauza temperaturii scăzute: %1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "Deconectați și reconectați cablul de încărcare pentru a continua încărcarea",
+        "ExpDetail": "Încărcare continuă prelungită: %1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "Adaptorul utilizează o tensiune mai mare decât cea pentru care este proiectat dispozitivul. Utilizați încărcătorul corect.",
+        "ExpDetail": "Tensiunea adaptorului este prea mare: %1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "Temperatura dispozitivului este prea ridicată. Încărcarea este întreruptă pentru siguranța dumneavoastră.",
+        "ExpDetail": "Încărcarea se oprește din cauza temperaturii ridicate: %1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "Temperatura dispozitivului este prea ridicată. Pentru siguranța dumneavoastră, bateria nu va fi încărcată la capacitate maximă.",
+        "ExpDetail": "Nu se poate încărca complet din cauza temperaturii ridicate: %1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "Temperatura dispozitivului este prea scăzută. Încărcarea este întreruptă pentru a proteja bateria.",
+        "ExpDetail": "Încărcarea se oprește din cauza temperaturii scăzute: %1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "Încărcat complet: %1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "Încercați un alt adaptor, cablu sau dispozitiv pentru a afla care dintre ele cauzează problema. Dacă problema este cauzată de cablu sau de adaptor, înlocuiți accesoriul defect. Dacă este cauzată de dispozitiv, încercați să reconectați conectorii BTB pentru baterie și portul USB. Dacă problema persistă, returnați produsul la fabrică pentru reparații. Actualizați software-ul dacă nu este vorba de o problemă hardware.",
+        "ExpDetail": "Nu se poate încărca: %1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "Încercați un alt adaptor, cablu sau dispozitiv pentru a afla care dintre ele cauzează problema. Dacă problema este cauzată de cablu sau de adaptor, înlocuiți accesoriul defect. Dacă este cauzată de dispozitiv, încercați să reconectați conectorii BTB pentru baterie și portul USB. Dacă problema persistă, returnați produsul la fabrică pentru reparații. Actualizați software-ul dacă nu este vorba de o problemă hardware.",
+        "ExpDetail": "Încărcare intermitentă: %1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "Calibrați bateria la temperatura camerei: Țineți dispozitivul conectat la priză timp de 2 ore după ce este complet încărcat.",
+        "ExpDetail": "Schimbare rapidă în citirea voltmetrului: %1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "Calibrați bateria la temperatura camerei: Țineți dispozitivul conectat la priză timp de 2 ore după ce este complet încărcat.",
+        "ExpDetail": "Schimbare rapidă în citirea voltmetrului: %1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "Calibrați bateria la temperatura camerei: Țineți dispozitivul conectat la priză timp de 2 ore după ce este complet încărcat.",
+        "ExpDetail": "Schimbare rapidă în citirea voltmetrului: %1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "Utilizați o baterie originală",
+        "ExpDetail": "Încărcarea încetinește din cauza unei baterii neoriginale: %1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "Utilizați un adaptor original",
+        "ExpDetail": "Încărcarea încetinește din cauza unui adaptor neoriginal: %1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "Verificați dacă cablul este îmbătrânit. Încercați un alt cablu.",
+        "ExpDetail": "Încărcarea încetinește din cauza problemelor legate de cablu: %1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "Verificați dacă adaptorul de încărcare rapidă funcționează. Încercați un alt adaptor.",
+        "ExpDetail": "Încărcarea încetinește deoarece nu se utilizează încărcarea flash: %1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "Utilizați un adaptor original",
+        "ExpDetail": "Încărcarea încetinește din cauza unui adaptor neoriginal de putere maximă: %1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "Asigurați-vă că dispozitivul este la temperatura camerei înainte de încărcare",
+        "ExpDetail": "Încărcarea încetinește pentru a proteja telefonul deoarece temperatura telefonului este prea scăzută: %1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "Asigurați-vă că dispozitivul este la temperatura camerei înainte de încărcare",
+        "ExpDetail": "Încărcarea încetinește pentru a proteja telefonul deoarece temperatura telefonului este prea ridicată: %1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "Încărcați dispozitivul la o temperatură adecvată",
+        "ExpDetail": "Încărcarea încetinește deoarece temperatura bateriei este prea ridicată/scăzută: %1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "Utilizați un adaptor original",
+        "ExpDetail": "Încărcarea încetinește pe măsură ce telefonul este conectat la PC prin USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "Nu folosiți telefonul în timpul încărcării",
+        "ExpDetail": "Încărcarea încetinește deoarece consumul de energie al telefonului este prea mare: %1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "Verificați dacă portul este prăfuit sau dacă are un contact slab. Dacă portul este în regulă, verificați adaptorul, cablul și PCB-ul USB.",
+        "ExpDetail": "Încărcarea încetinește din cauza unui curent anormal: %1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "Nu folosiți telefonul în timpul încărcării",
+        "ExpDetail": "Încărcarea încetinește pe măsură ce ecranul este activat prea mult timp: %1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "Nu folosiți telefonul în timpul încărcării",
+        "ExpDetail": "Încărcarea încetinește pe măsură ce camera este utilizată prea mult timp: %1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "Nu folosiți telefonul în timpul încărcării",
+        "ExpDetail": "Încărcarea încetinește din cauza convorbirilor telefonice prelungite: %1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "Nu folosiți telefonul în timpul încărcării",
+        "ExpDetail": "Temperatura sau consumul de energie rămâne prea mare pentru prea mult timp: %1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "Spuneți clientului să își încarce telefonul cu ecranul închis într-un mediu cu o temperatură cuprinsă între 15℃ și 35 ℃. După ce telefonul este complet încărcat, nu îl utilizați și păstrați-l conectat la încărcător timp de 2 ore pentru a calibra contorul coulombian.",
+        "ExpDetail": "Eroare de afișare a capacității bateriei: %1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "Spuneți clientului să își încarce telefonul cu ecranul închis într-un mediu cu o temperatură cuprinsă între 15℃ și 35 ℃. După ce telefonul este complet încărcat, nu îl utilizați și păstrați-l conectat la încărcător timp de 2 ore pentru a calibra contorul coulombian.",
+        "ExpDetail": "Eroare de afișare a capacității bateriei: %1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "Spuneți clientului să își încarce telefonul cu ecranul închis într-un mediu cu o temperatură cuprinsă între 15℃ și 35 ℃. După ce telefonul este complet încărcat, nu îl utilizați și păstrați-l conectat la încărcător timp de 2 ore pentru a calibra contorul coulombian.",
+        "ExpDetail": "Eroare de afișare a capacității bateriei: %1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "Spuneți clientului să își încarce telefonul cu ecranul închis într-un mediu cu o temperatură cuprinsă între 15℃ și 35 ℃. După ce telefonul este complet încărcat, nu îl utilizați și păstrați-l conectat la încărcător timp de 2 ore pentru a calibra contorul coulombian.",
+        "ExpDetail": "Eroare de afișare a capacității bateriei: %1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "Spuneți clientului să își încarce telefonul cu ecranul închis într-un mediu cu o temperatură cuprinsă între 15 ℃ și 35 ℃. Încărcarea telefonului în locuri cu o temperatură ambiantă ridicată sau jucarea unor jocuri mari în timpul încărcării va duce la încălzirea telefonului. Atunci când temperatura crește la 38 ℃ sau mai mult, sistemul va reduce automat curentul și viteza de încărcare.",
+        "ExpDetail": "Baterie supraîncălzită: %1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "Spuneți clientului să își încarce telefonul într-un mediu cu o temperatură cuprinsă între 15 ℃ și 35 ℃. Dacă temperatura ambiantă este sub 15 ℃, mecanismul de protecție va fi declanșat pentru a reduce curentul și viteza de încărcare.",
+        "ExpDetail": "Temperatură scăzută a bateriei: %1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1. Faceți ca telefonul să intre în modul de inginerie și verificați dacă curentul de încărcare este normal (889 - Depanare dispozitiv - Test încărcare).<br>2. Dacă curentul de încărcare este normal, această problemă este probabil cauzată de un consum mare de energie (de exemplu, atunci când jucați jocuri de mari dimensiuni).",
+        "ExpDetail": "Viteză de încărcare lentă din cauza curentului scăzut: %1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1. Verificați cu clientul dacă și-a încărcat telefonul prin intermediul unui PC. În caz afirmativ, spuneți-i să folosească un adaptor autentic pentru a încărca telefonul. <br>2. În caz contrar, verificați dacă nu cumva cablul de încărcare este deteriorat sau dacă are un contact slab.",
+        "ExpDetail": "Încărcare prin intermediul unui PC: %1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1. Utilizați alternativ un adaptor original și un cablu de încărcare original pentru verificare.<br> 2. În cazul în care este disponibilă încărcarea flash, spuneți-i clientului să încarce cu ajutorul unui adaptor original.<br> 3. Dacă problema persistă, verificați circuitul de încărcare din portul de încărcare al telefonului.",
+        "ExpDetail": "Încărcarea flash nu funcționează: %1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1. Această problemă este cauzată de încărcarea folosind un adaptor care nu este original.<br>2. Spuneți-i clientului să încarce folosind un adaptor original.",
+        "ExpDetail": "Adaptor neoriginal: %1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "Spuneți clienților să își încarce telefonul într-un mediu cu o temperatură cuprinsă între 15 și 35 de grade Celsius și să nu joace jocuri mari în timpul încărcării. Dacă jucați jocuri mari în timp ce încărcați telefonul, acesta se va încălzi. Atunci când temperatura crește la 38 ℃ sau mai mult, sistemul va reduce automat curentul și viteza de încărcare.",
+        "ExpDetail": "Viteză de încărcare lentă din cauza controlului temperaturii sau a curentului ridicat: %1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "Prea multe aplicații rulează în fundal. Spuneți-i clientului să închidă sarcinile din fundal care nu sunt utilizate.",
+        "ExpDetail": "Viteză de încărcare lentă din cauza utilizării mari a energiei sistemului: %1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "Spuneți-i clientului să nu se joace în timpul încărcării, deoarece acest lucru va reduce curentul de încărcare.",
+        "ExpDetail": "Viteză de încărcare lentă din cauza utilizării în timpul încărcării: %1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1. Utilizați alternativ un adaptor original și un cablu de încărcare original pentru verificare.<br> 2. Dacă este disponibilă încărcarea flash, spuneți-i clientului să încarce folosind un adaptor original.<br>3.Dacă problema persistă, verificați circuitul de încărcare din portul de încărcare al telefonului.",
+        "ExpDetail": "Încărcare intermitentă atunci când se utilizează VOOC: %1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1. Utilizați alternativ un adaptor original și un cablu de încărcare original pentru verificare.<br> 2. În cazul în care problema s-a rezolvat, spuneți-i clientului să încarce cu ajutorul unui adaptor original.<br> 3. Dacă problema persistă, verificați circuitul de încărcare din portul de încărcare al telefonului.",
+        "ExpDetail": "Încărcare intermitentă atunci când se utilizează un încărcător general: %1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1. Încărcați telefonul cu un adaptor pentru a vedea dacă apare vreun mesaj care indică faptul că bateria nu este autentică.<br> 2. Dezasamblați telefonul și verificați dacă bateria este una originală sau dacă este instalată corect.",
+        "ExpDetail": "Instalarea necorespunzătoare a bateriei sau utilizarea unei baterii care nu este originală: %1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "Dacă apare o eroare care indică faptul că nu este generat niciun curent în circuitul de încărcare, verificați interfața USB și modulul hardware de încărcare.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "Vă rugăm să verificați:<br>1. Dacă telefonul este complet încărcat.<br>2. Curentul de încărcare detectat de computer este relativ scăzut. Vă rugăm să verificați dacă telefonul consumă bateria.",
+        "ExpDetail": "Test eșuat",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='Excelent';}else if(result>=excellent){resultText+='Bun';}else{resultText+='Slab';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Excelent：'+good+'-100%，Bun：'+excellent+'-'+good+'%，Slab：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1.Când capacitatea bateriei scade, durata de viață a bateriei telefonului se va scurta. Puteți alege să înlocuiți bateria.<br>2. Încercați să încărcați telefonul imediat ce observați că bateria este descărcată pentru a maximiza durata de viață a acesteia.",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = 'Eșuat：';if(result>=good){resultText+='Excelent';}else if(result>excellent){resultText+='Bun';}else{resultText+='Slab';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Excelent：'+good+'-100%，Bun：'+excellent+'-'+good+'%，Slab：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a.Se recomandă să solicitați operatorului local sau optimizatorului de rețea locală să efectueze un test pe teren.<br>b. Activați modul Avion în timp ce se află în modul de așteptare pentru a preveni consumul de energie din cauza instabilității rețelei.",
+        "ExpDetail": "Deconectări și reconectări frecvente ale datelor celulare din cauza unui mediu de rețea complex/slabă",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a.Se recomandă să solicitați operatorului local sau optimizatorului de rețea locală să efectueze un test pe teren.<br>b. Activați modul Avion în timp ce se află în modul de așteptare pentru a preveni consumul de energie din cauza instabilității rețelei.",
+        "ExpDetail": "Fără serviciu din cauza semnalului slab al rețelei",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a.Se recomandă să solicitați operatorului local sau optimizatorului de rețea locală să efectueze un test pe teren.<br>b. Activați modul Avion în timp ce se află în modul de așteptare pentru a preveni consumul de energie din cauza instabilității rețelei.",
+        "ExpDetail": "Reselecția celulelor din cauza mediului complex al rețelei/semnal slab",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a.Se recomandă să solicitați operatorului local sau optimizatorului de rețea locală să efectueze un test pe teren.<br>b. Activați modul Avion în timp ce se află în modul de așteptare pentru a preveni consumul de energie din cauza instabilității rețelei.",
+        "ExpDetail": "Operațiuni frecvente ale CPU din cauza mediului complex de rețea/semnal instabil",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a.Se recomandă să solicitați operatorului local sau optimizatorului de rețea locală să efectueze un test pe teren.<br>b. Activați modul Avion în timp ce se află în modul de așteptare pentru a preveni consumul de energie din cauza instabilității rețelei.",
+        "ExpDetail": "Operațiuni frecvente ale modemului din cauza mediului complex de rețea/semnal instabil",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a.Se recomandă să solicitați operatorului local sau optimizatorului de rețea locală să efectueze un test pe teren.<br>b. Activați modul Avion în timp ce se află în modul de așteptare pentru a preveni consumul de energie din cauza instabilității rețelei.",
+        "ExpDetail": "Modemul nu reușește să intre în modul somn din cauza unui mediu de rețea complex/semnal instabil",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.",
+        "ExpDetail": "Wi-Fi trezește în mod constant procesorul pentru a primi mesaje din aplicații",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. Se recomandă să dezactivați conexiunile la rețeaua mobilă în timpul stării de așteptare pentru a preveni trezirea frecventă a procesorului.a.<br>b. Conectați-vă la Wi-Fi în timp ce sunteți în așteptare.<br>c. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.",
+        "ExpDetail": "Modemul trezește în mod constant procesorul pentru a primi mesaje din aplicații",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. Se recomandă să dezactivați conexiunile la rețeaua mobilă în timpul stării de așteptare pentru a preveni trezirea frecventă a procesorului.a.<br>b. Conectați-vă la Wi-Fi în timp ce sunteți în așteptare.<br>c. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.",
+        "ExpDetail": "Funcționarea constantă a modemului din cauza mesajelor frecvente din aplicație",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "a. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>b. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații integrată.",
+        "ExpDetail": "Activitățile frecvente ale aplicațiilor din fundal continuă să trezească CPU-ul",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "a. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>b. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații integrată.",
+        "ExpDetail": "Activitățile frecvente ale aplicațiilor din fundal mențin CPU-ul în funcțiune prea mult timp",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. Se recomandă să utilizați lățimea de bandă Wi-Fi de 5 GHz.<br>b. Dezactivați funcția Wi-Fi în modul de așteptare sau dezactivați opțiunea „Scanare întotdeauna disponibilă” din pagina de setări Wi-Fi.",
+        "ExpDetail": "Interferențe reciproce între semnalele 4G, 2.4G și Wi-Fi din cauza mediului complex al rețelei",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. Mediul Wi-Fi este slab. Conectați-vă la o conexiune Wi-Fi mai bună.<br>b. Se recomandă utilizarea rețelei mobile.<br>c. Dezactivați Wi-Fi în modul de așteptare.",
+        "ExpDetail": "Scanare frecventă Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. Mediul Wi-Fi este slab. Conectați-vă la o conexiune Wi-Fi mai bună.<br>b. Se recomandă utilizarea rețelei mobile.<br>c. Dezactivați Wi-Fi în modul de așteptare.",
+        "ExpDetail": "Reînnoirea IP Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. Mediul Wi-Fi este slab. Conectați-vă la o conexiune Wi-Fi mai bună.<br>b. Se recomandă utilizarea rețelei mobile.<br>c. Dezactivați Wi-Fi în modul de așteptare.",
+        "ExpDetail": "Actualizarea cheii de multicast Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. Mediul Wi-Fi este slab. Conectați-vă la o conexiune Wi-Fi mai bună.<br>b. Se recomandă utilizarea rețelei mobile.<br>c. Dezactivați Wi-Fi în modul de așteptare.",
+        "ExpDetail": "Wi-Fi se deconectează și se reconectează frecvent din cauza unui mediu Wi-Fi necorespunzător",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "Utilizați o sursă de alimentare de curent continuu pentru a detecta dacă curentul de așteptare este normal.",
+        "ExpDetail": "Posibile scurgeri de energie hardware",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "retransmiterea SMS",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Sincronizare automată a timpului prin rețea",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Eroare a subsistemului audio și a senzorilor",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Trezirea frecventă a subsistemului audio și a senzorilor",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Modemul trezește în mod constant procesorul pentru a primi mesaje din aplicații",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Trezirea frecventă a alarmei subiacente",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Kernelul continuă să lucreze prea mult timp",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Senzorii trezesc frecvent CPU-ul",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Trezirea frecventă a contorului coulombian",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. Dezactivați conexiunile la rețeaua mobilă și Wi-Fi în timp ce sunteți în modul de așteptare pentru a preveni trezirea frecventă a procesorului.<br>b. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>c. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații OPPO App Market.",
+        "ExpDetail": "Cauză necunoscută",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "Este normal ca dispozitivul dvs. să consume multă energie după o perioadă lungă de timp de redare a muzicii.",
+        "ExpDetail": "Muzică în fundal",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. Verificați dacă se descarcă vreun software în fundal. b. Verificați dacă sincronizarea automată, serviciile cloud și alte funcții sunt activate.",
+        "ExpDetail": "Descărcări",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "Utilizarea unui hotspot Wi-Fi va crește consumul de energie al telefonului. Opriți-l atunci când nu este utilizat.",
+        "ExpDetail": "Utilizatorul activează hotspotul Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "În funcție de obiceiurile de utilizare, bateria telefonului dumneavoastră poate dura aproximativ %1, %2 cu ecranul pornit și %3 cu ecranul oprit. Atingeți ușor pentru a vizualiza mai multe detalii despre baterie.",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "Activați luminozitatea automată și evitați utilizarea telefonului sub o lumină puternică pentru o perioadă lungă de timp.",
+        "ExpDetail": "Consum rapid de energie datorită luminozității ridicate",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "a. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>b. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații integrată.",
+        "ExpDetail": "Bateria se consumă rapid deoarece aplicațiile continuă să utilizeze CPU. Top 5 aplicații care utilizează CPU: %1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "a. Închideți în mod regulat aplicațiile din fundal. Atingeți ușor „Close all” (Închide toate) în ecranul Recents (Recente) înainte de a pune dispozitivul în modul de așteptare.<br>b. Ștergeți în mod regulat aplicațiile inutile. Se recomandă descărcarea aplicațiilor de pe piața de aplicații integrată.",
+        "ExpDetail": "Consum rapid de energie în standby datorită curentului ridicat",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "Clientul a folosit telefonul la un nivel ridicat de luminozitate a ecranului pentru perioade lungi de timp. Spuneți-le să reducă luminozitatea atunci când folosesc telefonul.",
+        "ExpDetail": "Luminozitate ridicată prelungită a ecranului",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "Clientul a folosit telefonul la o rată de reîmprospătare ridicată a ecranului pentru perioade lungi de timp. Spuneți-le să aleagă „Standard” în „Setări - Afișaj &amp; luminozitate - Mai multe - Rata de reîmprospătare a ecranului”. Notă: Acest lucru poate face ca ecranul să fie mai puțin fluid.",
+        "ExpDetail": "Rată înaltă de reîmprospătare prelungită",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "Clientul a folosit telefonul la o rezoluție ridicată a ecranului pentru perioade lungi de timp. Spuneți-le să aleagă „Auto select” în „Setări - Afișaj &amp; luminozitate - Mai multe - Rezoluția ecranului”. Acest lucru poate face conținutul ecranul să fie mai puțin clar.",
+        "ExpDetail": "Rezoluție înaltă prelungită",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "Utilizarea CPU a fost ridicată din cauza aplicației %1. Spuneți-i clientului să reducă utilizarea de %2.",
+        "ExpDetail": "Utilizare ridicată și prelungită a CPU",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "Aplicația %1 a folosit CPU timp de %2 ore. Verificați cu clientul dacă trebuie să mențină această aplicație în funcțiune tot timpul.",
+        "ExpDetail": "Utilizarea prelungită a aplicației",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "Clientul a folosit telefonul la volum al sunetului ridicat pentru perioade lungi de timp. Un volum ridicat poate afecta auzul și consuma bateria. Spuneți-i clientului să dea volumul mai încet.",
+        "ExpDetail": "Volum sonor ridicat prelungit",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "Telefonul pierde frecvent semnalul. Spuneți-i clientului să își contacteze operatorul de telefonie mobilă.",
+        "ExpDetail": "Nici un serviciu în mod constant",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "Telefonul caută în mod constant rețele. Spuneți-i clientului să își contacteze operatorul de telefonie mobilă.",
+        "ExpDetail": "Căutarea constantă a rețelei",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "Ați utilizat o cantitate mare de date mobile. Puteți descărca fișiere prin Wi-Fi pentru a prelungi durata de viață a bateriei.",
+        "ExpDetail": "Utilizare înaltă de date mobile",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "Ați utilizat %1 GB de date prin Wi-Fi în ultimele 24 de ore. Este posibil să doriți să vă revizuiți utilizarea datelor.",
+        "ExpDetail": "Utilizare înaltă de date prin Wi-Fi",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "Aplicația %1 consumă bateria. Vă rugăm să raportați problema dezvoltatorului aplicației.",
+        "ExpDetail": "Aplicație care consumă baterie",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "Aplicația %1 rulează de %2 ore. Este posibil să doriți să reduceți utilizarea acestei aplicații.",
+        "ExpDetail": "Utilizarea prelungită a aplicației",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "Aplicația %1 continuă să ruleze în fundal. Puteți închide aplicația atunci când nu o mai utilizați.",
+        "ExpDetail": "Aplicația continuă să ruleze în fundal",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "Aplicația %1 continuă să trezească telefonul. Puteți închide aplicația înainte de a vă bloca dispozitivul.",
+        "ExpDetail": "Aplicația continuă să trezească telefonul",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "Aplicația %1 continuă să utilizeze procesorul când ecranul este oprit. Puteți închide aplicația înainte de a vă bloca dispozitivul.",
+        "ExpDetail": "Aplicația continuă să utilizeze CPU atunci când ecranul este oprit",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "Aplicația %1 continuă să utilizeze rețeaua când ecranul este oprit. Puteți închide aplicația înainte de a vă bloca dispozitivul.",
+        "ExpDetail": "Aplicația continuă să utilizeze rețeaua atunci când ecranul este oprit",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "Atunci când telefonul se încarcă intermitent, încărcătorul său va transforma tensiunea înaltă în tensiune joasă. În acest timp, va exista o cantitate mare de conversie de energie, ceea ce va cauza căldură. Vă recomandăm să încărcați telefonul într-un mediu cu o bună disipare a căldurii.",
+        "ExpDetail": "Încărcarea telefonului",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "Utilizarea blițului pentru o perioadă lungă de timp generează căldură. Nu utilizați blițul pentru o perioadă lungă de timp pentru a evita deteriorarea acestuia.",
+        "ExpDetail": "Bliț aprins",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "Utilizare ridicată și prelungită cu luminozitate. Reduceți luminozitatea ecranului sau setați-l la luminozitate automată.",
+        "ExpDetail": "Lumina de fundal prea puternică",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "Telefonul se încălzește din cauza semnalului de rețea slab. Într-o locație cu semnal slab, antena telefonului trebuie să își mărească puterea pentru a căuta semnale într-o zonă mai largă, generând astfel mai multă căldură. Accesați „Settings - Mobile network - More settings” (Setări - Rețea mobilă - Mai multe setări) și activați Smart 5G. Dacă nu puteți determina starea actuală a semnalului, consultați operatorul de rețea local.",
+        "ExpDetail": "Semnal telefonic slab",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "Telefonul se încălzește din cauza semnalului de rețea slab. Într-o locație cu semnal slab, antena telefonului trebuie să își mărească puterea pentru a căuta semnale într-o zonă mai largă, generând astfel mai multă căldură. Dacă nu puteți determina starea actuală a semnalului, consultați operatorul de rețea local.",
+        "ExpDetail": "Semnal rețea telefon slab",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "Telefonul se încălzește deoarece aplicația de fundal %1 ocupă prea mult CPU. Dacă Wi-Fi, GPS, NFC, Bluetooth și alte funcții sunt pornite în același timp pentru a căuta semnale în fundal, telefonul se va încălzi și mai mult. Se recomandă să ștergeți aplicațiile din fundal și să dezactivați funcțiile neutilizate. Puteți șterge aplicațiile din fundal sau puteți reporni telefonul.",
+        "ExpDetail": "Aplicația de fundal %1 utilizează excesiv CPU",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "%1 este o aplicație cu încărcare mare, care consumă mult procesor și provoacă încălzirea telefonului. Evitați utilizarea prelungită și intensă a telefonului. Așteptați până se răcește pentru a evita deteriorarea componentelor sale.",
+        "ExpDetail": "Aplicația de prim plan %1 utilizează excesiv CPU",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "GPS-ul telefonului este în curs de utilizare. Este posibil ca telefonul să se încingă dacă caută și trimite semnale de satelit pentru o perioadă de timp îndelungată pentru a actualiza informațiile de localizare.<br>Verificați împreună cu utilizatorul dacă a activat navigația sau dacă orice aplicație terță bazată pe localizare obține automat informații de localizare.",
+        "ExpDetail": "Poziționare GPS constantă",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "Telefonul se încălzește deoarece unele aplicații rulează simultan în fundal. Se recomandă să ștergeți periodic memoria cache din fundal.<br>① Vă rugăm să verificați dacă este descărcat vreun software în fundal.<br>② Verificați dacă sincronizarea, Serviciul Cloud și alte funcții sunt activate.",
+        "ExpDetail": "Sincronizare fundal %1",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "Telefonul se încălzește deoarece aplicația %1 rulează simultan în fundal. Se recomandă să ștergeți periodic memoria cache din fundal.<br>① Vă rugăm să verificați dacă este descărcat vreun software în fundal.<br>② Verificați dacă sincronizarea, Serviciul Cloud și alte funcții sunt activate.",
+        "ExpDetail": "Sincronizare fundal %1",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "Convorbire prelungită detectată Acumularea de căldură este normală atunci când telefonul este în timpul unei convorbiri prelungite, deoarece antena de semnal, microfonul și difuzorul telefonului continuă să funcționeze în timpul convorbirii.<br>Pentru sfaturi despre cum să răciți un telefon, consultați baza de cunoștințe „Telefonul se încălzește în timpul convorbirilor telefonice”.",
+        "ExpDetail": "Telefonul este mereu la apel",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "Utilizare prelungită/frecventă a aparatului foto detectată La realizarea de fotografii sau clipuri video, camera foto, CPU, GPU și alte dispozitive ale telefonului mobil vor funcționa în același timp, iar telefonul mobil funcționează sub o sarcină ridicată, ceea ce va determina creșterea temperaturii telefonului mobil.<br>Pentru sfaturi despre cum să răciți un telefon atunci când utilizați camera foto, consultați baza de cunoștințe „Telefonul se încălzește la realizarea de fotografii și clipuri video”.",
+        "ExpDetail": "Aplicația aparat de fotografiat este în funcțiune",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "Cereți utilizatorului să nu utilizeze telefonul într-un mediu cu temperaturi ridicate și să utilizeze o sursă de alimentare de curent continuu pentru a verifica dacă există scurgeri de energie în telefon.",
+        "ExpDetail": "Încălzirea cauzată de mediu sau de hardware",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "Vă rugăm să întrebați utilizatorul despre modul în care este utilizat telefonul și să utilizați acest lucru în combinație cu aplicațiile consumatoare de energie și cu diagnosticul consumului de energie pentru a investiga problema. Dacă nimic nu este anormal, sfătuiți utilizatorul să verifice dacă telefonul are pierderi de energie la un centru de service.",
+        "ExpDetail": "Cauză necunoscută",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "Temperatura maximă a zilei %1: %2℃. Ora de apariție: %3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "Telefonul se încălzește pentru că este folosit în timp ce este încărcat. Este normal ca bateriile sau încărcătoarele să se încălzească în timpul încărcării, iar utilizarea telefonului în timpul încărcării va genera și mai multă căldură.",
+        "ExpDetail": "Supraîncălzire cauzată de utilizarea în timpul încărcării",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "Atunci când telefonul se încarcă intermitent, încărcătorul său va transforma tensiunea înaltă în tensiune joasă. În acest timp, va exista o cantitate mare de conversie de energie, ceea ce va cauza căldură. Vă recomandăm să încărcați telefonul într-un mediu cu o bună disipare a căldurii.",
+        "ExpDetail": "Supraîncălzirea în timpul încărcării (Ecranul pornit la încărcare: %1; Aplicație de prim-plan la încărcare: %2)",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "Telefonul se încălzește semnificativ atunci când jucați jocul %1. În timpul jocurilor, cipuri precum CPU și GPU ale telefonului dvs. trebuie să funcționeze la performanțe ridicate pentru a asigura calitatea și fluența imaginii. O astfel de sarcină mare va face ca telefonul să se încălzească. Pentru a îmbunătăți această problemă, reduceți setările (rezoluția și frecvența cadrelor), reduceți luminozitatea ecranului și reduceți volumul jocurilor.",
+        "ExpDetail": "Supraîncălzire în timpul jocului (Joc: %1; Calitatea imaginii: %2; Rezoluție: %3; Mod de joc: %4)",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "Telefonul se încălzește pentru că vă jucați jocuri în timp ce îl încărcați. Conversia de energie care are loc în timpul încărcării va produce căldură. Atunci când jucați un joc în timp ce încărcați telefonul, cipurile telefonului, cum ar fi CPU și GPU, trebuie să funcționeze la performanțe ridicate pentru a asigura calitatea și fluența imaginii, ceea ce va genera și mai multă căldură. Vă rugăm să evitați, pe cât posibil, utilizarea telefonului în timpul încărcării.",
+        "ExpDetail": "Jocuri în timpul încărcării",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "Vă jucați într-un loc cu semnal slab, unde transmițătorul de semnal trebuie să lucreze peste program în căutarea unei conexiuni, ceea ce poate provoca cu ușurință încălzirea telefonului. În plus, cipurile telefonului, cum ar fi CPU și GPU, trebuie să funcționeze la performanțe ridicate în timpul jocurilor pentru a asigura calitatea și fluiditatea imaginii, ceea ce va genera și mai multă căldură. Vă rugăm să vă mutați într-o locație cu o rețea bună, dacă este posibil.",
+        "ExpDetail": "Supraîncălzirea în timpul jocului cauzată de semnalul slab de telefonie mobilă",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "Temperatura ambiantă este ridicată în timpul jocurilor. Acest lucru înseamnă că telefonul trebuie să funcționeze la performanțe ridicate și va genera căldură. Temperaturile ridicate ale mediului ambiant vor încetini, de asemenea, disiparea căldurii și vor cauza mai multă căldură.",
+        "ExpDetail": "Jocuri în locuri fierbinți",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "Sistemul a detectat că „Luminozitate automată” este dezactivată pentru telefonul dvs. Pentru a permite controlul inteligent al luminozității și a reduce consumul de energie, accesați „Settings - Display & brightness - Auto brightness” (Setări - Afișare și luminozitate - Luminozitate automată).",
+        "ExpDetail": "Dezactivare"
+    },
+    "t04030201": {
+        "ExpAdvice": "Sistemul a detectat că „Serviciu locație” este dezactivat pentru telefonul dvs. Funcționarea GPS în fundal va crește consumul de energie. Puteți dezactiva această funcție pentru a reduce consumul de energie atunci când nu aveți nevoie de ea. Pentru a face acest lucru, glisați în jos pe bara de stare și atingeți „Locație” sau accesați „Setări - Confidențialitate - Locație - Serviciul de locație”.",
+        "ExpDetail": "Activare"
+    },
+    "t04030301": {
+        "ExpAdvice": "Sistemul a detectat că Bluetooth este dezactivat pentru telefonul dvs. Funcționarea Bluetooth în fundal va crește consumul de energie. Puteți dezactiva această funcție pentru a reduce consumul de energie atunci când nu aveți nevoie de ea. Pentru a face acest lucru, accesați „Settings - Bluetooth” (Setări - Bluetooth).",
+        "ExpDetail": "Activare"
+    },
+    "t04030401": {
+        "ExpAdvice": "Sistemul a detectat că „Hotspot personal” este dezactivat pentru telefonul dvs. Funcționarea hotspot în fundal va crește consumul de energie. Puteți dezactiva această funcție pentru a reduce consumul de energie atunci când nu aveți nevoie de ea. Pentru a face acest lucru, accesați „Settings - Connection & sharing - Personal hotspot” (Setări - Conexiune și partajare - Hotspot personal).",
+        "ExpDetail": "Activare"
+    },
+    "t04030501": {
+        "ExpAdvice": "Sistemul a detectat că NFC este dezactivat pentru telefonul dvs. Funcționarea NFC în fundal va crește consumul de energie. Puteți dezactiva această funcție pentru a reduce consumul de energie atunci când nu aveți nevoie de ea. Pentru a face acest lucru, accesați „Settings - Connection & sharing - NFC” (Setări - Conexiune și partajare - NFC).",
+        "ExpDetail": "Activare"
+    },
+    "t04030601": {
+        "ExpAdvice": "Sistemul a detectat că Modul Performanță ridicată este dezactivat pentru telefonul dvs. Acest mod va crește consumul de energie. Pentru a dezactiva această funcție și a reduce consumul de energie, accesați „Settings - Battery - More - High performance mode” (Setări - Baterie - Mai multe - Modul Performanță ridicată).",
+        "ExpDetail": "Activare"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Analiza jurnalului a eșuat deoarece numărul de apeluri efectuate sau primite este mai mic de 10.",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. Activați funcția VoLTE a operatorului și activați apelul de înaltă definiție în Settings.<br>2. Verificați performanțele PA ale telefonului pentru a vă asigura că performanțele de transmisie și recepție RF sunt normale (inclusiv toate benzile 2G, 3G și 4G).<br>3. Acoperirea semnalului de rețea mobilă fluctuează în funcție de mediul înconjurător. Dacă semnalul de rețea este slab, consultați operatorul de rețea local.<br>4. Semnalul de rețea poate fi slab în subsoluri, garaje închise și zone aglomerate. Calitatea slabă a semnalului afectează apelurile. Mergeți într-un spațiu deschis și calitatea apelului se va îmbunătăți.<br>5. Actualizați versiunea de software.",
+        "ExpDetail": "1. Apeluri pierdute: %1, procent: %2<br>2. Erori de apeluri de ieșire: %3, procent: %4<br>3. Erori de apeluri de intrare: %5, procent: %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "Rețeaua a primit solicitarea telefonului, dar nu a răspuns.",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "Rețeaua nu a răspuns.",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "Serviciu IMS inaccesibil",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "Eroare server",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "Telecom CDMA a renunțat la apeluri și legătura de bază 2G s-a întrerupt.",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "Domeniul circuitului indisponibil",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "Nici un serviciu",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "Numărul apelat este incorect",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "Congestia rețelei. Apelați din nou mai târziu.",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "(Apeluri pierdute în afara serviciului IMS) Eroarea de legătură subiacentă este strâns legată de puterea rețelei.",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. Activați funcția VoLTE a operatorului și activați apelul de înaltă definiție în Settings.<br>2. Verificați performanțele PA ale telefonului pentru a vă asigura că performanțele de transmisie și recepție RF sunt normale (inclusiv toate benzile 2G, 3G și 4G).<br>3. Acoperirea semnalului de rețea mobilă fluctuează în funcție de mediul înconjurător. Dacă semnalul de rețea este slab, consultați operatorul de rețea local.<br>4. Semnalul de rețea poate fi slab în subsoluri, garaje închise și zone aglomerate. Calitatea slabă a semnalului afectează apelurile. Mergeți într-un spațiu deschis și calitatea apelului se va îmbunătăți.<br>5. Actualizați versiunea de software.",
+        "ExpDetail": "1. Erori de apeluri de ieșire: %1<br>2. Erori de apeluri de intrare: %2<br>3. Apeluri pierdute: %3",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "Cartela SIM de pe telefon este incompatibilă cu rețeaua. Spuneți-i clientului să schimbe cartela SIM cu una nouă.",
+        "ExpDetail": "1. Erori de apeluri de ieșire: %1<br>2. Erori de apeluri de intrare: %2<br>3. Apeluri pierdute: %3",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "Actualizare disponibilă",
+        "ExpDetail": "1. Erori de apeluri de ieșire: %1<br>2. Erori de apeluri de intrare: %2<br>3. Apeluri pierdute: %3",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "Este posibil să existe o problemă de compatibilitate cu rețeaua. Contactați furnizorul de rețea pentru a verifica dacă mediul de rețea este normal sau contactați inginerii noștri pentru reproducerea problemei și capturarea jurnalelor.",
+        "ExpDetail": "1. Erori de apeluri de ieșire: %1<br>2. Erori de apeluri de intrare: %2<br>3. Apeluri pierdute: %3",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "Există o problemă temporară de rețea. Telefonul funcționează corect.",
+        "ExpDetail": "1. Erori de apeluri de ieșire: %1<br>2. Erori de apeluri de intrare: %2<br>3. Apeluri pierdute: %3",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "Actualizare disponibilă",
+        "ExpDetail": "1. Erori de apeluri de ieșire: %1<br>2. Erori de apeluri de intrare: %2<br>3. Apeluri pierdute: %3",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "Este posibil să existe o problemă de compatibilitate cu rețeaua. Contactați furnizorul de rețea pentru a verifica dacă mediul de rețea este normal sau contactați inginerii noștri pentru reproducerea problemei și capturarea jurnalelor.",
+        "ExpDetail": "1. Erori de apeluri de ieșire: %1<br>2. Erori de apeluri de intrare: %2<br>3. Apeluri pierdute: %3",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "Este posibil să existe o problemă de compatibilitate cu rețeaua. Contactați furnizorul de rețea pentru a verifica dacă mediul de rețea este normal sau contactați inginerii noștri pentru reproducerea problemei și capturarea jurnalelor.",
+        "ExpDetail": "1. Erori de apeluri de ieșire: %1<br>2. Erori de apeluri de intrare: %2<br>3. Apeluri pierdute: %3",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. Încercați cu alte telefoane ale acelorași operatori. Dacă problema persistă, contactați operatorul de telefonie pentru procesare.<br>2. În cazul în care acest lucru se întâmplă de obicei în perioada similară, confirmați cu clientul pentru locațiile acestuia. Este normal ca semnalul să fie slab în subsoluri, garaje, zone publice cu trafic intens și vehicule în mișcare.<br>3. Întrebați clientul dacă utilizează o carcasă de protecție metalică sau placată.<br>4. Verificați performanțele PA ale telefonului pentru a vă asigura că performanțele de transmisie și recepție RF sunt normale (inclusiv toate benzile 2G, 3G și 4G).",
+        "ExpDetail": "Locația semnalului slab din ultimele %1 zile este mai concentrată.",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. Verificați dacă încărcarea SIM a fost efectuată cu succes.<br>2. Confirmați că rețeaua operatorului este stabilă și dacă problema apare numai în anumite zone.<br>3. Verificați dacă problema apare pe un alt dispozitiv.<br>4. Reporniți dispozitivul sau activați modul Avion pentru a verifica dacă există probleme.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1.Întrebați clientul dacă utilizează o carcasă de protecție metalică sau placată.<br>2. Dacă folosesc telefoanele în locuri cu semnal slab, cum ar fi subsolurile, garajele, zonele publice cu trafic intens și vehiculele în mișcare.<br>3. Dacă semnalul slab a existat pentru o perioadă lungă de timp și în mod constant în aceleași locuri, atunci aceasta poate fi cauza problemelor de semnal.<br>4. Verificați performanțele PA ale telefonului cu ajutorul instrumentelor de testare a performanțelor de recepție PA (inclusiv toate benzile 2G, 3G și 4G).",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. Asigurați-vă că nu ați atins telefonul în timpul testării.<br>2. Dacă problema persistă, înlocuiți hardware-ul, deoarece unele benzi de frecvență pot avea probleme.",
+        "ExpDetail": "Banda de eroare: %1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "Nu a reușit să înceapă testul. Vă rugăm să confirmați că a fost scoasă cartela SIM.",
+        "ExpDetail": "Cartela SIM nu a fost scoasă"
+    },
+    "t05050104": {
+        "ExpAdvice": "Nu a reușit să înceapă testul. Vă rugăm să confirmați că modul Avion este dezactivat.",
+        "ExpDetail": "Modul Avion activat"
+    },
+    "t05050105": {
+        "ExpAdvice": "Nu a reușit să finalizeze testul. Vă rugăm să reporniți telefonul și să testați din nou această funcție.",
+        "ExpDetail": "Eroare de mod modem"
+    },
+    "t05050106": {
+        "ExpAdvice": "Nu a reușit să finalizeze testul. Vă rugăm să reporniți telefonul și să testați din nou această funcție.",
+        "ExpDetail": "Eroare de secvență de testare"
+    },
+    "t05050107": {
+        "ExpAdvice": "Asigurați-vă că telefonul este suficient de încărcat și testați din nou această funcție.",
+        "ExpDetail": "Baterie aproape descărcată"
+    },
+    "t05050108": {
+        "ExpAdvice": "Testul RF a fost finalizat. Telefonul dvs. va reporni automat pentru a se asigura că toate funcțiile funcționează corect.",
+        "ExpDetail": "Testul RF a trecut."
+    },
+    "t05070101": {
+        "ExpAdvice": "Cauze posibile:<br>1. Confirmați calitatea rețelei și a semnalului din mediul actual. În cazul în care calitatea semnalului este slabă, există o probabilitate ridicată de apariție a unor probleme temporare de rețea.<br>2. Confirmați dacă este o problemă cu o aplicație terță.<br>Sugestii:<br>În cazul unei probleme de rețea, rugați clientul să rezolve singur problema, cum ar fi activarea și dezactivarea modului Avion și a datelor mobile, resetarea setărilor APN, scoaterea și apoi introducerea cartelei SIM fără a opri telefonul etc. Vă rugăm să contactați operatorul.",
+        "ExpDetail": "Deconectare automată a datelor; legătură ascendentă generată fără legătură descendentă (un tip de congestie a rețelei); erori legate de APN în timpul procesului de apelare; deconectare a rețelei din cauza plății întârziate; viteza rețelei de date este limitată pe măsură ce se atinge limita de date; conexiunea dial-up a eșuat",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "APN este adăugat manual de către client. Resetați la APN-ul implicit.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. Asigurați-vă că este introdusă corect cartela SIM.<br>2. Verificați dacă datele mobile au fost suspendate din cauza facturilor neplătite sau a depășirilor de date.<br>3. Activați și dezactivați datele mobile și modul Avion sau reporniți dispozitivul.<br>4. Verificați dacă există o problemă cu rețeaua operatorului.",
+        "ExpDetail": "A fost detectată o eroare de rețea de date. Acest lucru poate fi cauzat de probleme de conexiune la rețea.",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. Verificați dacă telefonul are facturi telefonice restante sau dacă este în vigoare o limită de viteză.<br>2. Efectuați un test PA pentru a verifica dacă frecvența radio este normală.<br>3. Dacă frecvența radio este normală, contactați personalul local de optimizare a rețelei pentru a reproduce problema și pentru a captura jurnalele.<br>4. Dacă personalul de optimizare a rețelei nu este disponibil sau dacă clientul nu este de acord să reproducă problema, introduceți un nou ROM.<br>5. Verificați dacă problema există în continuare la 10 zile după ce ROM-ul a fost programat prin flash. Dacă încă mai există, remediați problema ca fiind una de hardware.",
+        "ExpDetail": "A fost detectată o eroare de rețea de date. Acest lucru poate fi cauzat de probleme la telefon.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "APN este adăugat manual de către client. Resetați la APN-ul implicit.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "Vitezele de transfer de date au fost restricționate de către operatorul de telefonie. Consultați operatorul de transport pentru mai multe detalii.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "Rețeaua locală este instabilă. Comparați mediul de rețea cu cel din alte locuri și, dacă se confirmă, consultați operatorul dumneavoastră pentru a îmbunătăți mediul de rețea.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. Asigurați-vă că nu aveți nicio factură neplătită pentru cartelele SIM.<br>2. Verificați dacă permisiunea de rețea este activată pentru aplicații.<br>3. Introduceți cartela SIM într-un alt dispozitiv și verificați dacă funcționează corect.<br>4. Activați și dezactivați datele mobile și modul Avion sau reporniți dispozitivul.<br>5. Verificați dacă există probleme cu rețeaua operatorului.",
+        "ExpDetail": "A fost detectată o eroare de rețea de date. Acest lucru poate fi cauzat de probleme de conexiune la rețea.",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "APN este adăugat manual de către client. Resetați la APN-ul implicit.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "Vitezele de transfer de date au fost restricționate de către operatorul de telefonie. Consultați operatorul de transport pentru mai multe detalii.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "Activarea modului de economisire a datelor vă poate afecta experiența de utilizare a rețelei.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "Rețeaua locală este instabilă. Comparați mediul de rețea cu cel din alte locuri și, dacă se confirmă, consultați operatorul dumneavoastră pentru a îmbunătăți mediul de rețea.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1. Asigurați-vă că nu aveți nicio factură neplătită pentru cartelele SIM.<br>2. Verificați dacă permisiunea de rețea este activată pentru aplicații.<br>3. Activați și dezactivați datele mobile și modul Avion sau reporniți dispozitivul.<br>4. Verificați dacă există probleme cu rețeaua operatorului.",
+        "ExpDetail": "A fost detectată o eroare de rețea de date. Acest lucru poate fi cauzat de probleme de conexiune la rețea.",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "Verificați dacă frecvența radio este normală.",
+        "ExpDetail": "Nu se pot efectua apeluri telefonice",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "Cu ajutorul căștilor, verificați dacă problema are legătură cu receptorul (difuzorul urechii). Dacă da, verificați dacă receptorul (difuzorul pentru urechi) este deteriorat și dacă componentele receptorului sunt conectate corect; în caz contrar, verificați componenta audio a plăcii de bază.",
+        "ExpDetail": "Lipsă sunet în timpul apelurilor",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. Verificați dacă receptorul (difuzorul pentru urechi) are praf sau lichid în el. Înlocuiți piesa și testați din nou.<br>2. Verificați procesarea semnalului de pe placa de bază.",
+        "ExpDetail": "Zgomot în apeluri",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "În cazul în care există probleme hardware în concordanță cu descrierea clientului, tratați-le ca probleme hardware.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "În cazul în care există probleme hardware în concordanță cu descrierea clientului, tratați-le ca probleme hardware.",
+        "ExpDetail": "Apariție totală: %1",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "Deplasați-vă într-o zonă deschisă cu telefonul pentru a efectua un test de căutare prin satelit. În mod normal, intensitatea semnalului GPS ar trebui să depășească 30; în caz contrar, verificați hardware-ul GPS.",
+        "ExpDetail": "Semnal slab de satelit",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "Verificați dacă GPS-ul sistemului este dezactivat. Întrebați clientul ce aplicație nu poate utiliza GPS-ul și verificați permisiunile acesteia.",
+        "ExpDetail": "GPS sau permisiunea aferentă nu este activată",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Analiza jurnalului a eșuat din cauza datelor GPS insuficiente.",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnosticul a eșuat deoarece GPS-ul nu a fost utilizat recent. Faptul că serviciul de localizare a fost oprit prea mult timp ar putea fi cauza poziționării eșuate.",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "Deplasați-vă într-o zonă deschisă cu telefonul pentru a efectua un test de căutare prin satelit. În mod normal, intensitatea semnalului GPS ar trebui să depășească 30; în caz contrar, verificați hardware-ul GPS.",
+        "ExpDetail": "Niciun semnal de satelit recepționat în 3 zile, posibil din cauza utilizării poziționării în interior. Vă rugăm să mergeți în aer liber pentru verificarea la fața locului.",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnosticarea a eșuat din cauza utilizării insuficiente a GPS-ului.",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "Deplasați-vă într-o zonă deschisă cu telefonul pentru a efectua un test de căutare prin satelit. În mod normal, intensitatea semnalului GPS ar trebui să depășească 30; în caz contrar, verificați hardware-ul GPS.",
+        "ExpDetail": "GPS-ul funcționează normal. Ar putea exista interferențe atunci când clientul navighează în timp ce merge.",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "Deplasați-vă într-o zonă deschisă cu telefonul pentru a efectua un test de căutare prin satelit. În mod normal, intensitatea semnalului GPS ar trebui să depășească 30; în caz contrar, verificați hardware-ul GPS.",
+        "ExpDetail": "GPS-ul funcționează normal. Interferențele pot apărea atunci când clientul navighează într-un vehicul.",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "Verificați dacă antena GPS este deteriorată, deformată sau dacă are un contact slab.",
+        "ExpDetail": "Problema antenei GPS",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnosticul a eșuat deoarece GPS-ul nu a fost utilizat recent.",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "Îndepărtați carcasa de protecție și încercați din nou",
+        "ExpDetail": "Se utilizează o carcasă de protecție din metal",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "„Wi-Fi scanarea întotdeauna disponibilă” dacă este dezactivată pentru o perioadă prea lungă de timp, poate duce la eșecul poziționării sau la o poziționare inexactă în scenarii de interior. Verificați dacă această funcție este activată.",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "„Precizia poziționării în rețea” fiind dezactivată pentru o perioadă prea lungă de timp poate duce la eșecuri de poziționare sau la poziționare inexactă în scenarii de interior. Atingeți „Fix” pentru a o activa pentru o poziționare mai precisă. Dacă utilizați un telefon conceput pentru utilizatorii din afara Chinei continentale, atingeți continuu pictograma Locație din Setări rapide pentru a intra pe pagina „Precizia locației Google” și activați „Îmbunătățirea preciziei locației”.",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "Această problemă este cauzată de mediul GPS al utilizatorului și nu poate fi rezolvată prin înlocuire. Țineți telefonul departe de surse externe de interferențe, cum ar fi sistemele de navigație auto, consolele centrale și alte dispozitive electronice.",
+        "ExpDetail": "Interferențe cu mediul GPS al utilizatorului"
+    },
+    "t06020101": {
+        "ExpAdvice": "Cauze posibile:<br>(eroare de încărcare a firmware-ului; eroare de încărcare a driverului; eroare de montare a partiției; alte cauze)<br>Sugestii:<br>1. Reporniți dispozitivul.<br>2. Actualizați la cea mai recentă versiune pentru a verifica problema.",
+        "ExpDetail": "Activarea Bluetooth a eșuat de %1 ori",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "Cauze posibile: <br/>(eroare de încărcare firmware; eroare de încărcare a unității; eroare de montare a partiției; alte cauze; eroare de încărcare a cipului Wi-Fi; eroare de funcționare a software-ului Wi-Fi; nu s-a reușit încărcarea fișierelor de configurare a canalului sistemului software Wi-Fi; nu s-a reușit încărcarea fișierelor de radiofrecvență ale sistemului software Wi-Fi; nu s-a reușit încărcarea fișierelor de configurare a firmware-ului sistemului software Wi-Fi; s-a blocat subsistemul)<br/>Sugestii:<br/>1. Reporniți dispozitivul. <br/>2. Actualizați la cea mai recentă versiune. 3. Cereți clientului să repornească telefonul. <br/>4. În cazul în care problema persistă, flash-uiți un ROM sau instalați o actualizare OTA. <br/>5. Luați-o ca pe o defecțiune hardware dacă este o defecțiune moartă. <br/>3. Dacă problema poate fi reprodusă, încercați să vă conectați la internet și să efectuați un apel prin intermediul cartelei SIM. Dacă nu puteți efectua aceste 2 sarcini, este necesar să reporniți modemul modulului de rețea. <br/>4. Cereți clientului să repornească telefonul. <br/>5. În cazul în care problema persistă, flash-uiți un ROM sau instalați o actualizare OTA. <br/>6. Luați-o ca pe o defecțiune hardware dacă este o defecțiune moartă.",
+        "ExpDetail": "Activarea Bluetooth a eșuat de %1 ori",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "Se recomandă programarea prin flash la cea mai recentă versiune.",
+        "ExpDetail": "AP utilizat frecvent: %1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1. Conexiune de rețea instabilă cauzată chiar de telefon: Actualizați la cea mai recentă versiune și încercați din nou.<br>2. Eroare DNS: Verificați dacă este setat un DNS privat. Dacă da, ștergeți DNS-ul privat și dacă nu, verificați routerul.<br>3. Alte cauze: 1. Reporniți routerul.<br>2. Dacă și alte telefoane care utilizează același router au aceeași problemă, se recomandă înlocuirea routerului.<br>3. Comutați canalul de rutare implicit. Încercați să utilizați canalul 5G. Utilizați analizatorul Wi-Fi și alte instrumente pentru a găsi un canal cu mai puține interferențe.",
+        "ExpDetail": "AP utilizat frecvent: %1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnosticarea a eșuat din cauza datelor insuficiente.",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "Configurări Wi-Fi",
+        "ExpDetail": "Setări fără fir",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "Este posibil ca un software de conectare terță parte să încerce, dar să nu reușească să spargă parola hotspotului Wi-Fi și să ducă la o conexiune eșuată. Se recomandă conectarea la Wi-Fi în aplicația Setări.",
+        "ExpDetail": "Aplicații utilizate frecvent: %1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "Analiza jurnalului a eșuat din cauza conexiunilor insuficiente ale terților",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "Reporniți routerul sau utilizați alte dispozitive pentru a vă conecta la acest router pentru a verifica dacă există o problemă cu AP. Dacă nu există, dezactivați și porniți Wi-Fi sau reporniți telefonul. Dacă problema persistă, trimiteți-l pentru teste suplimentare.<br>(Asigurați-vă că parola dvs. este corectă. Comutați Wi-Fi înainte de conectare și asigurați-vă că AP este găsit. Verificați setările de rutare sau conectați-vă la alte AP-uri. Se recomandă conectarea într-un mediu cu un semnal mai puternic. Confirmați dacă IP-urile sunt corecte sau dacă toate IP-urile au fost utilizate).",
+        "ExpDetail": "Erorile de configurare Wi-Fi: <br>(Parolă greșită; AP nu a fost găsit; eroare de configurare a routerului sau supraîncărcare; semnale slabe; adresă IP statică)",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "Verificați antena Wi-Fi și cipul Wi-Fi.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "AP utilizat frecvent: %1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "Verificați dacă au fost utilizate toate adresele IP de la serverul DHCP al routerului.",
+        "ExpDetail": "Nu s-a reușit obținerea adresei IP",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Autentificarea a eșuat din cauza unei erori de detectare a routerului",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "Verificați dacă telefonul nu a fost utilizat pentru o perioadă lungă de timp după conectarea la Wi-Fi.",
+        "ExpDetail": "Conexiune inactivă. Nicio transmisie de date pe o perioadă lungă de timp.",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "Verificați dacă routerul a fost conectat la prea multe dispozitive. Încercați să deconectați unele.",
+        "ExpDetail": "Conexiune limitată la router",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Fără autentificare din cauza unei erori de detectare a routerului",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Fără conexiune din cauza unei erori de detectare a routerului",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Telefonul este în afara rețelei",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Autentificarea conexiunii a eșuat",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "Nu este nevoie de nicio acțiune, deoarece este un caz normal.",
+        "ExpDetail": "Routerul lansează roaming",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Nu a reușit să verifice completitudinea mesajului",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Handshake a expirat",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Actualizarea cheii a expirat din cauza unei erori de detectare a routerului",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Cheie invalidă",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Confirmați pierderea gravă de cadre",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Telefonul în roaming a eșuat",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Modulele telefonice se recuperează automat",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Router inactiv",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Baliza a expirat",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Nu a reușit să comute canalul de comunicare",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Nu a reușit să se conecteze deoarece baliza a expirat.",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Baliza a expirat. Telefonul nu a reușit să obțină adresa routerului.",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. Actualizați mai întâi la cea mai recentă versiune.a.<br>b. Dacă problema persistă, reporniți routerul sau verificați dacă routerul funcționează corect prin conectarea cu un alt dispozitiv.<br>c. Dacă routerul nu are probleme, opriți și porniți conexiunea Wi-Fi, reconectați-vă la router sau opriți și porniți telefonul pentru a încerca din nou.<br>d. Dacă problema tot nu este rezolvată, capturați jurnalul.",
+        "ExpDetail": "Cauză necunoscută",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. Cereți clientului să repornească telefonul. <br>2. În cazul în care problema persistă, introduceți un nou ROM sau actualizați la cea mai recentă versiune a sistemului.<br>3. Dacă problema persistă, remediați-o ca fiind o problemă hardware.",
+        "ExpDetail": "Probleme de firmware Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "Accesați „Setări - Conexiune &amp; partajare - Hotspot personal - Setări hotspot”. Setați „Securitate” pe „WPA2 PSK” și „andă AP” pe „2.4 GHz band”, activați „Vizibil de către alte dispozitive” și dezactivați „Wi-Fi 6 hotspot”. Apoi, activați „Hotspot personal”.",
+        "ExpDetail": "Alte cauze pentru eroarea de hotspot Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "Accesați „Setări - Conexiune &amp; partajare - Hotspot personal - Setări hotspot”. Setați „Securitate” pe „WPA2 PSK” și „andă AP” pe „2.4 GHz band”, activați „Vizibil de către alte dispozitive” și dezactivați „Wi-Fi 6 hotspot”. Apoi, activați „Hotspot personal”.",
+        "ExpDetail": "Alte cauze pentru eroarea de hotspot Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "Această problemă ar putea fi cauzată de interferențele semnalului LTE. Accesați „Setări - Conexiune &amp; partajare - Hotspot personal - Setări hotspot”. Setați „Securitate” pe „WPA2 PSK” și „bandă AP” pe „2.4 GHz band”, activați „Vizibil de către alte dispozitive” și dezactivați „Wi-Fi 6 hotspot”. Apoi, activați „Hotspot personal”.",
+        "ExpDetail": "Nu există canale disponibile",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "Accesați „Setări - Conexiune &amp; partajare - Hotspot personal - Setări hotspot”. Setați „Securitate” pe „WPA2 PSK” și „andă AP” pe „2.4 GHz band”, activați „Vizibil de către alte dispozitive” și dezactivați „Wi-Fi 6 hotspot”. Apoi, activați „Hotspot personal”.",
+        "ExpDetail": "Configurația Hotspot nu este acceptată",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. Cereți clientului să repornească telefonul. <br>2. În cazul în care problema persistă, introduceți un nou ROM sau actualizați la cea mai recentă versiune a sistemului.<br>3. Dacă problema persistă, remediați-o ca fiind o problemă hardware.",
+        "ExpDetail": "Probleme de firmware Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "În cazul în care clientul nu poate accesa rețeaua de acasă, probabil că acest lucru este cauzat de setări incorecte sau de probleme de conectare cu modemul optic și cu routerul. Spuneți-i clientului să modifice configurația DHCP a routerului sau să contacteze furnizorul de rețea pentru ajutor.",
+        "ExpDetail": "Conflict de atribuire dinamică a IP-ului la router (DHCP)",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "În cazul în care clientul nu poate accesa rețeaua de acasă, probabil că acest lucru este cauzat de setări incorecte sau de probleme de conectare cu modemul optic și cu routerul. Spuneți-i clientului să modifice configurația gateway a routerului sau să contacteze furnizorul de rețea pentru ajutor.",
+        "ExpDetail": "Conflict de gateway",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "Spuneți-i clientului să își conecteze telefonul la o rețea Wi-Fi de 5 GHz și să evite utilizarea căștilor Bluetooth atunci când telefonul este conectat la o rețea Wi-Fi de 2,4 GHz.",
+        "ExpDetail": "Viteză de rețea lentă din cauza conflictului Bluetooth/Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "Adresa IP statică este incorectă. Setați una corectă.",
+        "ExpDetail": "Adresa IP statică incorectă",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "Adresa DNS privată este incorectă. Setați una corectă.",
+        "ExpDetail": "DNS privat incorect",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "Setarea VPN este incorectă. Setați una corectă.",
+        "ExpDetail": "Setări VPN incorecte",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "Apoi verificați antena Bluetooth și cipul Bluetooth.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. În cazul în care problema poate fi rezolvată prin repornirea telefonului, flash un nou ROM sau actualizați la cea mai recentă versiune de sistem.<br>2. Dacă clientul utilizează funcția multi-utilizator, spuneți-i să oprească Bluetooth înainte de a trece la un alt utilizator.<br>3. Dacă problema persistă și după resetarea telefonului sau după ce a fost modificat un nou ROM, vă rugăm să trimiteți un bilet de problemă hardware.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "Activarea Bluetooth a eșuat (BT)",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Activarea serviciilor Bluetooth a eșuat",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nu s-a reușit activarea Bluetooth Low Energy (BLE)",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "Verificați detaliile problemei.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. Dacă problema apare într-un loc cu multe dispozitive wireless (cum ar fi aeroporturile sau gările), spuneți-i clientului să își folosească telefonul în locuri cu mai puține dispozitive wireless în jur.<br>2. Spuneți-i clientului să își conecteze telefonul la o rețea Wi-Fi de 5 GHz sau mai mare, deoarece rețeaua Wi-Fi de 2,4 GHz va afecta conexiunile Bluetooth. Dacă este necesar, arătați-i clientului cum să își seteze routerul pe banda de frecvență de 5 GHz.",
+        "ExpDetail": "Interferențe de mediu ridicate sau impact Wi-Fi<br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "Stabiliți o conexiune Bluetooth din partea %1 și asigurați-vă că dispozitivul omolog are suficientă baterie. (Modul master/slave se poate schimba pentru unele căști atunci când bateria este descărcată, cauzând probleme de conectare).<br>",
+        "ExpDetail": "Eroare de comutare a rolului Bluetooth<br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. Decuplați dispozitivul de la telefon. Apoi, apăsați și mențineți apăsat butonul de pe dispozitiv pentru a face din nou perechea.<br>2. Resetați dispozitivul.<br>3. Actualizați la cea mai recentă versiune a sistemului<br>4. În cazul în care problema nu apare pe alte telefoane de același model și problema persistă după ce a fost modificat un nou ROM, vă rugăm să trimiteți un bilet de problemă hardware.<br>",
+        "ExpDetail": "Altele<br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "Verificați dacă lipsește antena NFC sau dacă modulul NFC nu este valid.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Activarea nu a reușit",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Ecrane difuze sau neclare atunci când faceți fotografii",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Culori incorecte",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu se poate utiliza camera principală frontală",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu se poate utiliza camera secundară frontală",
+        "ResultLevel": 10
+    },
+    "t07020112": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Activarea nu a reușit",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Ecrane difuze sau neclare atunci când faceți fotografii",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Culori incorecte",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu se poate utiliza camera principală din spate",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu se poate utiliza camera cu unghi larg din spate",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu se poate utiliza camera telefoto din spate",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu puteți utiliza camera principală din spate sau camera cu unghi larg din spate",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu puteți utiliza camera principală din spate sau camera telefoto din spate",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu puteți utiliza camera cu unghi larg din spate sau camera telefoto din spate",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "Nu puteți utiliza camera principală din spate, camera cu unghi larg din spate sau camera telefoto din spate",
+        "ResultLevel": 10
+    },
+    "t07020212": {
+        "ExpAdvice": "Verificați mufa BTB a camerei sau înlocuiți camera și testați-o.",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Parametri anormali ai camerei. Conectați telefonul și calibrați și fixați parametrii.",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "Vă rugăm să verificați dacă receptorul are praf sau lichid în el. Înlocuiți piesa și testați din nou.",
+        "ExpDetail": "Volum redus",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "Vă rugăm să verificați dacă receptorul are praf sau lichid în el. Înlocuiți piesa și testați din nou.",
+        "ExpDetail": "Zgomot",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "Vă rugăm să comutați pe difuzor pentru a verifica dacă problema este legată de receptor. Dacă da, verificați dacă receptorul este deteriorat și dacă interfața este conectată; în caz contrar, verificați componenta audio a plăcii de bază.",
+        "ExpDetail": "Lipsă sunet",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "Vă rugăm să verificați dacă receptorul are praf sau lichid în el. Înlocuiți piesa și testați din nou.",
+        "ExpDetail": "Volum redus",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "Vă rugăm să verificați dacă receptorul are praf sau lichid în el. Înlocuiți piesa și testați din nou.",
+        "ExpDetail": "Zgomot",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "Vă rugăm să comutați pe receptor pentru a verifica dacă problema este legată de difuzor. Dacă da, verificați dacă difuzorul este deteriorat și dacă interfața este conectată; în caz contrar, verificați componenta audio a plăcii de bază.",
+        "ExpDetail": "Lipsă sunet",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "Vă rugăm să verificați dacă microfonul are praf sau lichid în el. Înlocuiți piesa și testați din nou.",
+        "ExpDetail": "Volum redus",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "Vă rugăm să verificați dacă microfonul are praf sau lichid în el. Înlocuiți piesa și testați din nou.",
+        "ExpDetail": "Zgomot",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "Vă rugăm să verificați dacă microfonul este blocat. Înlocuiți microfonul și verificați dacă problema este rezolvată.",
+        "ExpDetail": "Sunet intermitent",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "Verificați dacă orificiul microfonului este blocat de cenușă sau de lichid. Dacă sunetul este atât de slab încât aproape nu se aude, înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Volum redus",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "Înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Zgomot",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "Înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Lipsă sunet",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "Verificați dacă orificiul microfonului este blocat de cenușă sau de lichid. Dacă sunetul este atât de slab încât aproape nu se aude, înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "Verificați dacă orificiul microfonului este blocat de cenușă sau de lichid. Dacă sunetul este atât de slab încât aproape nu se aude, înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Volum redus",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "Înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Zgomot",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "Înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Lipsă sunet",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "Verificați dacă orificiul microfonului este blocat de cenușă sau de lichid. Dacă sunetul este atât de slab încât aproape nu se aude, înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "Verificați dacă orificiul microfonului este blocat de cenușă sau de lichid. Dacă sunetul este atât de slab încât aproape nu se aude, înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Volum redus",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "Înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Zgomot",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "Înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Lipsă sunet",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "Verificați dacă orificiul microfonului este blocat de cenușă sau de lichid. Dacă sunetul este atât de slab încât aproape nu se aude, înlocuiți microfonul și testați din nou.",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "Vă rugăm să verificați dacă mufa pentru căști este blocată și dacă există lichid în ea.",
+        "ExpDetail": "Pictograma căștilor nu este afișată",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "Vă rugăm să verificați dacă mufa pentru căști este blocată și dacă există lichid în ea.",
+        "ExpDetail": "Nu este compatibil cu căștile de test",
+        "ResultLevel": 10
+    },
+    "t08040104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "Verificați mufa pentru căști și alte componente",
+        "ExpDetail": "Căștile nu pot fi recunoscute sau nu sunt acceptate",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "Verificați impedanța microfonului pentru a vedea dacă aceasta atinge o magnitudine de câțiva miliohmi",
+        "ExpDetail": "Căști de înaltă impedanță",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "Verificați dacă clientul folosește căști cu anulare a zgomotului",
+        "ExpDetail": "Căști cu anulare a zgomotului",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "Actualizați la cea mai recentă versiune. Dacă problema persistă, verificați dacă poate fi recunoscut un alt set de căști. Dacă apare aceeași problemă, capturați și salvați jurnalele audio care reproduc problema, trimiteți-le dezvoltatorului pentru analiză și înlocuiți placa pe care se află mufa USB pentru validare încrucișată.",
+        "ExpDetail": "Au apărut excepții la comutarea între cipurile de comutare (aplicabil numai la modelele cu mufă pentru căști tip-C) sau modulele USB",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "Confirmați dacă se încadrează în intervalul standard; în caz contrar, înlocuiți componenta de afișare.",
+        "ExpDetail": "Pixeli morți",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "Verificați mufa BTB a afișajului sau înlocuiți componenta de afișaj.",
+        "ExpDetail": "Ecrane neclare",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "Verificați mufa BTB a afișajului sau înlocuiți componenta de afișaj.",
+        "ExpDetail": "Culori incorecte",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "Închideți aplicațiile care rulează în fundal și verificați conexiunea la rețea",
+        "ExpDetail": "Apariții de ecrane negre, ecrane intermitente și ecrane neclare: %1",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "Verificați dacă afișajul este deteriorat sau deranjat de electricitate statică",
+        "ExpDetail": "Apariții de ecrane negre, ecrane intermitente și ecrane neclare: %1",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "Verificați cipul GPU",
+        "ExpDetail": "Apariții de ecrane negre, ecrane intermitente și ecrane neclare: %1",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "Verificați cipul GPU",
+        "ExpDetail": "Apariții de ecrane negre, ecrane intermitente și ecrane neclare: %1",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "Verificați cipul GPU",
+        "ExpDetail": "Apariții de ecrane negre, ecrane intermitente și ecrane neclare: %1",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "Atingeți butonul de încărcare a jurnalelor pentru ca inginerii să le analizeze",
+        "ExpDetail": "Apariții de ecrane înghețate care au dus la repornirea dispozitivului: %1",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "Excepție hardware. Încărcați jurnalele către dezvoltator pentru analiză. Dacă telefonul nu reușește să pornească, returnați-l pentru analiză.",
+        "ExpDetail": "Apariții de ecrane înghețate care au dus la repornirea dispozitivului: %1",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "Efectul de afișare pe ecran este anormal. Pentru a remedia această problemă, se recomandă ca conectarea în timp util și calibrarea telefonului.",
+        "ExpDetail": "Afișare anormală pe ecran",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "Toate aplicațiile",
+        "ExpDetail": "Dezactivare"
+    },
+    "t10010101": {
+        "ExpAdvice": "Verificați interfața amprentei sau înlocuiți componenta amprentei.",
+        "ExpDetail": "Senzorul de amprentă digitală nu funcționează sau este insensibil",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "Se recomandă ca utilizatorul să restabilească dispozitivul la setările din fabricație, în caz contrar, utilizarea funcțiilor legate de amprentă va fi afectată.",
+        "ExpDetail": "Excepție de blocare OEM",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "Se recomandă să înlocuiți senzorul de amprentă.",
+        "ExpDetail": "Excepție senzor de amprentă",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "Recalibrați senzorul de amprentă",
+        "ExpDetail": "Nepotrivire date de calibrare amprentă",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "Verificați modulul senzorului de infraroșu sau placa de bază.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "Verificați modulul senzorului de intensitate a luminii sau placa de bază.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "Verificați modulul senzorului de gravitație al plăcii de bază.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "Se recomandă să vizitați centrul de servicii și să efectuați „Autoverificare și calibrare senzor” în modul Inginerie pentru a calibra accelerometrul. În cazul în care calibrarea eșuează, accelerometrul ar putea fi deteriorat și trebuie înlocuit.",
+        "ExpDetail": "Date de accelerare inexacte",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "Verificați modulul senzorului geomagnetic al plăcii de bază.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "Verificați modulul giroscop al plăcii de bază.",
+        "ExpDetail": "Eșuat",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "Se recomandă să vizitați centrul de servicii și să efectuați „Autoverificare și calibrare senzor” în modul Inginerie pentru a calibra giroscopul. În cazul în care calibrarea eșuează, giroscopul ar putea fi deteriorat și trebuie înlocuit.",
+        "ExpDetail": "Datele giroscopului sunt inexacte",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nu s-a reușit încărcarea driverului"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nu s-a reușit trimiterea codului"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele"
+    },
+    "t11010101": {
+        "ExpAdvice": "Testați fiecare buton lateral pentru erori de scurtcircuit sau de circuit deschis.",
+        "ExpDetail": "Buton care nu răspunde",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "Testați fiecare buton lateral pentru erori de scurtcircuit sau de circuit deschis.",
+        "ExpDetail": "Funcții incorecte ale butoanelor",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "Testați fiecare buton lateral pentru erori de scurtcircuit sau de circuit deschis.",
+        "ExpDetail": "Sensibilitate slabă la atingere",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lanterna nu funcționează"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Luminozitate scăzută"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Culori incorecte"
+    },
+    "t12010201": {
+        "ExpAdvice": "Înlocuiți blițul sau verificați circuitul de comandă al blițului.",
+        "ExpDetail": "Lanterna nu funcționează",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "Înlocuiți blițul sau verificați circuitul de comandă al blițului.",
+        "ExpDetail": "Luminozitate scăzută a ecranului",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "Înlocuiți motorul sau verificați circuitul de comandă al motorului.",
+        "ExpDetail": "Fără vibrații",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "Înlocuiți motorul sau verificați circuitul de comandă al motorului.",
+        "ExpDetail": "Problemă de vibrații",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "Se recomandă să înlocuiți motorul.",
+        "ExpDetail": "Daune hardware la motor",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "Răcoriți telefonul, asigurați-vă că se disipează bine căldura și jucați jocuri numai după ce temperatura dispozitivului este normală.",
+        "ExpDetail": "Telefonul se supraîncălzește atunci când se joacă jocuri",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "Problema decalajelor se datorează pierderii de cadre în jocuri. Asigurați-vă că se disipează bine căldura și că este stabilă conexiunea de rețea.",
+        "ExpDetail": "Decalaj și cădere a cadrelor atunci când jucați jocuri",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "Rețeaua este instabilă în timpul jocurilor. Jucați jocuri în condiții de rețea stabile.",
+        "ExpDetail": "Rețea instabilă",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "Sistemul a detectat că notificările sunt dezactivate pentru aplicația %1. Pentru a primi notificări de la aceasta, apăsați lung pictograma aplicației, accesați „Informații aplicații - Gestionare notificări” și activați comutatorul.",
+        "ExpDetail": "Nu este pornit pentru o aplicație"
+    },
+    "t17010102": {
+        "ExpAdvice": "Funcția „Notificări” a fost dezactivată pentru unele aplicații, inclusiv pentru %1, astfel încât este posibil ca unele mesaje importante să nu fie primite. Luați în considerare activarea acesteia în setările aplicațiilor terțe.",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17010201": {
+        "ExpAdvice": "Sistemul a detectat că notificările silențioase sunt activate pentru aplicația %1. Aceasta înseamnă că toate notificările vor apărea doar în partea de jos a barei de notificări. Pentru a dezactiva funcția, operați după cum urmează: <br>① ColorOS 11: Țineți apăsat pictograma aplicației, accesați „App info - Manage notifications - New message notifications (notifications on voice or video call invitations)” (Informații despre aplicație - Gestionare notificări - Notificări mesaje noi (notificări privind invitațiile la apeluri vocale sau video)) și dezactivați „Enable silent notifications” (Activare notificări silențioase).<br>② ColorOS 7.2: Țineți apăsat pictograma aplicației, accesați „App info - Manage notifications” (Informații despre aplicație - Gestionare notificări) și dezactivați „Move to bottom” (Mutarea în partea de jos).",
+        "ExpDetail": "Notificări silențioase activate pentru o aplicație"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Afișare titlu și conținut"
+    },
+    "t17010302": {
+        "ExpAdvice": "Sistemul a detectat că „Lock screen notifications” (Notificări pe ecranul de blocare) este setat la „Display title only” (Afișare numai titlu). Pentru a afișa conținutul notificării, accesați „Settings - Notifications & status bar - Manage notifications - Lock screen notifications” (Setări - Notificări și bara de stare - Gestionare notificări - Notificări pe ecranul de blocare) și modificați setarea la „Show title and body” (Afișare titlu și conținut).",
+        "ExpDetail": "Afișare numai titlu"
+    },
+    "t17010303": {
+        "ExpAdvice": "Sistemul a detectat că „Lock screen notifications” (Notificări pe ecranul de blocare) este setat la „Do not show” (Nu se afișează). Pentru a afișa notificările pe ecranul de blocare, accesați „Settings - Notifications & status bar - Manage notifications - Lock screen notifications” (Setări - Notificări și bara de stare - Gestionare notificări - Notificări pe ecranul de blocare) și modificați setarea la „Show title and body” (Afișare titlu și conținut) sau „Display title only” (Afișare numai titlu).",
+        "ExpDetail": "Fără afișare"
+    },
+    "t17010401": {
+        "ExpAdvice": "Sistemul a detectat că „Mute notifications” (Oprire sunet notificări) este activat. Pentru a fi la curent cu mesajele importante, glisați în jos pe bara de stare, atingeți „Mute notifications” (Oprire sunet notificări) și dezactivați comutatorul.",
+        "ExpDetail": "Activare"
+    },
+    "t17010501": {
+        "ExpAdvice": "Sistemul a detectat că „Wake screen when notifications received on lock screen” (Trezirea ecranului la primirea notificărilor pe ecranul de blocare) este dezactivată. Pentru a activa comutatorul, accesați „Settings - Notifications & status bar - Manage notifications - More - Wake screen when a notification is received” (Setări - Notificări și bara de stare - Mai multe - Trezirea ecranului la primirea unei notificări).",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17010502": {
+        "ExpAdvice": "„Wake screen when a notification is received” (Trezirea ecranului la primirea unei notificări) a fost dezactivată. Este posibil ca notificările să nu fie primite prompt atunci când ecranul este blocat. Luați în considerare activarea acesteia.",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17010601": {
+        "ExpAdvice": "„Reduce notification feedback” (Reduceți feedbackul notificărilor) este activat. Atunci când utilizați o aplicație pe ecranul complet (de exemplu la vizionarea videoclipurilor și în jocuri sau în apeluri de conferință), sunetele notificărilor sunt atenuate și vibrația este mai slabă. Luați în considerare dezactivarea acesteia.",
+        "ExpDetail": "Activare"
+    },
+    "t17010701": {
+        "ExpAdvice": "„Sleep standby optimization” (Optimizare repaus inactivitate) este activată. Telefonul dvs. consumă mai puțină energie și reduce notificările când dormiți. Luați în considerare dezactivarea acesteia.",
+        "ExpDetail": "Activare"
+    },
+    "t17010801": {
+        "ExpAdvice": "„App icon badges” (Embleme pictograme aplicații) au fost dezactivate pentru unele aplicații. Deoarece nu va fi afișată nicio emblemă în colțul din dreapta sus al acestor aplicații, s-ar putea să pierdeți notificări importante. Luați în considerare activarea acesteia.",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17020101": {
+        "ExpAdvice": "Sistemul a detectat că „Data saving” (Salvare date) este dezactivat pentru telefonul dvs. Aceasta înseamnă că aplicațiile din fundal nu vor primi nicio notificare. Pentru a primi notificări, accesați „Settings - SIM card & mobile data - Data usage - Data saving” (Setări - Cartelă SIM și date mobile - Utilizare date - Salvare date) și dezactivați comutatorul.",
+        "ExpDetail": "Activare"
+    },
+    "t17020201": {
+        "ExpAdvice": "Sistemul a detectat că atât „Wi-Fi”, cât și „Date mobile” sunt dezactivate pentru aplicația %1. Aceasta înseamnă că nu se poate primi nicio notificare. Pentru a activa cele două comutatoare, atingeți continuu pictograma aplicației și accesați „App info - Data usage details” (Informații despre aplicație - Detalii utilizare date).",
+        "ExpDetail": "Nu este pornit pentru o aplicație"
+    },
+    "t17020301": {
+        "ExpAdvice": "Sistemul a detectat că „Background data” (Date în fundal) sunt dezactivate pentru aplicația %1. Aceasta înseamnă că aplicația nu va primi nicio notificare atunci când rulează în fundal. Pentru a activa comutatorul, atingeți continuu pictograma aplicației și accesați „App info - Data usage details” (Informații despre aplicație - Detalii utilizare date).",
+        "ExpDetail": "Nu este pornit pentru o aplicație"
+    },
+    "t17030101": {
+        "ExpAdvice": "Sistemul a detectat că notificările aplicației sunt limitate de setările de utilizare a energiei pentru aplicația %1. Pentru a activa „Allow foreground activity” (Permite activitate în prim-plan), țineți apăsată pictograma aplicației și accesați „App info - Power usage” (Informații despre aplicație - Consum de energie).",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17030201": {
+        "ExpAdvice": "Sistemul a detectat că notificările aplicației sunt limitate de setările de utilizare a energiei pentru aplicația %1. Pentru a activa „Allow background activity” (Permite activitate în fundal), țineți apăsată pictograma aplicației și accesați „App info - Power usage” (Informații despre aplicație - Consum de energie).",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17030301": {
+        "ExpAdvice": "Sistemul a detectat că notificările aplicației sunt limitate de setările de utilizare a energiei pentru aplicația %1. Pentru a activa „Allow auto launch” (Permite lansare automată), țineți apăsată pictograma aplicației și accesați „App info - Power usage” (Informații despre aplicație - Consum de energie).",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17030401": {
+        "ExpAdvice": "Sistemul a detectat că notificările aplicației sunt limitate de setările de utilizare a energiei pentru aplicația %1. Pentru a activa „Allow auto associated launch” (Permite lansare asociată), țineți apăsată pictograma aplicației și accesați „App info - Power usage” (Informații despre aplicație - Consum de energie).",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17040101": {
+        "ExpAdvice": "Sistemul a detectat că „App lock” (Blocare aplicații) este setat pe telefon, dar nu poate detecta detaliile de blocare. Deoarece nu este afișat niciun mesaj pentru aplicația %1, accesați „Settings - Privacy - App lock” (Setări - Confidențialitate - Blocare aplicație) și verificați dacă aplicația a fost blocată.",
+        "ExpDetail": "Activare"
+    },
+    "t17040201": {
+        "ExpAdvice": "Sistemul a detectat că „App lock” (Blocare aplicații) este setat pe telefon, dar nu poate detecta detaliile de blocare. Deoarece nu este afișat niciun mesaj pentru aplicația %1, accesați „Settings - Privacy - Hide apps” (Setări - Confidențialitate - Ascundere aplicații) și verificați dacă aplicația a fost ascunsă.",
+        "ExpDetail": "Activare"
+    },
+    "t17050101": {
+        "ExpAdvice": "Sistemul a detectat faptul că telefonul dvs. este dezactivat. Aceasta înseamnă că nu se va auzi niciun ton de mesaj la mesajele primite. Pentru a dezactiva modul silențios al telefonului, accesați „Settings - Sound & vibration - Mute” (Setări Sunet și vibrații - Oprire sunet).",
+        "ExpDetail": "Activare"
+    },
+    "t17050201": {
+        "ExpAdvice": "Sistemul a detectat că „Do Not Disturb” (Nu deranjați) este dezactivat pentru telefonul dvs. Acest lucru înseamnă că nu veți fi avertizat de mesajele primite. Pentru a dezactiva această funcție, accesați „Settings - Sound & vibration - Do Not Disturb” (Setări - Sunet și vibrații - Nu deranjați).",
+        "ExpDetail": "Activare"
+    },
+    "t17050202": {
+        "ExpAdvice": "„Do Not Disturb” (Nu deranjați) a fost activată. Deoarece veți fi notificat doar de alarme, temporizatoare și evenimente din calendar, veți putea rata alte notificări și mementouri. Luați în considerare dezactivarea acesteia.",
+        "ExpDetail": "Activare"
+    },
+    "t17060101": {
+        "ExpAdvice": "„App cloner” (Clonare aplicații) a fost dezactivat pentru unele aplicații, inclusiv pentru %1. Pentru a comuta cu ușurință între conturi pe aceeași aplicație, căutați „App cloner” (Clonare aplicații) în Setări și activați această funcție.",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17060201": {
+        "ExpAdvice": "„Clonare aplicații” a fost activată pentru anumite aplicații. Cu toate acestea, „When using quick functions” (La utilizarea funcțiilor rapide) a fost setat la „Open main app” (Deschide aplicația principală). Luați în considerare posibilitatea de a o schimba în „Always ask” (Întrebați întotdeauna).",
+        "ExpDetail": "Dezactivare"
+    },
+    "t17060301": {
+        "ExpAdvice": "„Retouch appearance in video calls” (Retușarea aspectului în apelurile video) este dezactivată, astfel încât înfrumusețarea în timp real nu este disponibilă în apelurile video WeChat. Luați în considerare activarea acesteia.",
+        "ExpDetail": "Dezactivare"
+    },
+    "t26010101": {
+        "ExpAdvice": "Stările glisorului de alertă curent sunt detectate ca fiind: silențios, sonerie și vibrație, care nu corespund pozițiilor comutatorului. Se recomandă calibrarea și repararea dispozitivului.",
+        "ExpDetail": "Poziții de comutare și stări de afișare nepotrivite"
+    },
+    "t26010102": {
+        "ExpAdvice": "Stările glisorului de alertă curent sunt detectate ca: silențios, sonerie și vibrație. Sistemul nu reușește să recunoască toate stările după ce comutatorul este comutat. Se recomandă calibrarea și repararea dispozitivului. Dacă reparația eșuează, înlocuiți dispozitivul.",
+        "ExpDetail": "Nu toate stările afișajului sunt iluminate"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Altele"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nu se acceptă",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "Imposibilitate de a analiza din cauza datelor insuficiente",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "A apărut o excepție, nu există rezultate",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "Nici un rezultat nu este returnat după expirarea timpului de așteptare, vă rugăm să testați din nou!",
+        "ExpDetail": "Eșuat"
+    },
+    "t6": {
+        "ExpAdvice": "A apărut o excepție, nu există rezultate",
+        "ExpDetail": "Eșuat"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Activare"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Dezactivare"
+    },
+    "t9": {
+        "ExpAdvice": "Toate aplicațiile",
+        "ExpDetail": "Activare"
+    },
+    "t05050109": {
+        "ExpDetail": "Eroare de bandă de frecvență celulară: %1",
+        "ExpAdvice": "1. Asigurați-vă că nu ați atins telefonul în timpul testării.<br>2. Dacă problema persistă, înlocuiți hardware-ul, deoarece unele benzi de frecvență pot avea probleme."
+    },
+    "t05050110": {
+        "ExpDetail": "Eroare de bandă de frecvență satelit: %1",
+        "ExpAdvice": "1. Asigurați-vă că nu ați atins telefonul în timpul testării.<br>2. Dacă problema persistă, înlocuiți hardware-ul, deoarece unele benzi de frecvență pot avea probleme."
+    },
+    "t05050111": {
+        "ExpDetail": "Eroare de bandă de frecvență celulară și de satelit: %1",
+        "ExpAdvice": "1. Asigurați-vă că nu ați atins telefonul în timpul testării.<br>2. Dacă problema persistă, înlocuiți hardware-ul, deoarece unele benzi de frecvență pot avea probleme."
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "Reparat",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nu s-a reușit repararea"
+    },
+    "t07110101": {
+        "ExpDetail": "Eroarea senzorului magnetic cu efect Hall",
+        "ExpAdvice": "Se recomandă să înlocuiți senzorul."
+    },
+    "t07010201": {
+        "ExpDetail": "Eroare comenzi prin presiune",
+        "ExpAdvice": "Verificați dacă conectorii BTB sunt fixați la locul lor, dacă placa FPC a modulului este ruptă și dacă placa antenei, placa de bază și placa FPC funcționează corect."
+    },
+    "t22140101": {
+        "ExpDetail": "Viteză anormală a ventilatorului",
+        "ExpAdvice": "Viteză anormală a ventilatorului. Verificați următoarele:\n1. Inspectați și eliminați tot praful acumulat pe palele ventilatorului.\n2. Dacă problema persistă după curățare, înlocuiți ventilatorul.\n3. Dacă problema persistă după înlocuirea ventilatorului, înlocuiți placa de bază."
+    },
+    "t08030501": {
+        "ExpDetail": "Volum redus",
+        "ExpAdvice": "Verificați dacă orificiul microfonului este blocat de cenușă sau de lichid. Dacă sunetul este atât de slab încât aproape nu se aude, înlocuiți microfonul și testați din nou."
+    },
+    "t08030504": {
+        "ExpDetail": "Altele",
+        "ExpAdvice": "Verificați dacă orificiul microfonului este blocat de cenușă sau de lichid. Dacă sunetul este atât de slab încât aproape nu se aude, înlocuiți microfonul și testați din nou."
+    },
+    "t08030502": {
+        "ExpDetail": "Zgomot",
+        "ExpAdvice": "Înlocuiți microfonul și testați din nou."
+    },
+    "t08030503": {
+        "ExpDetail": "Lipsă sunet",
+        "ExpAdvice": "Înlocuiți microfonul și testați din nou."
+    }
+}

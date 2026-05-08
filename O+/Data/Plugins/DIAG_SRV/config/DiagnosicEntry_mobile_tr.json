@@ -1,0 +1,2811 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "Müşteriye daha kararlı olan son sürüme güncellemesini söyleyin.",
+        "ExpDetail": "Güncelleme mevcut: %1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "Anakart değiştirildikten sonra IMEI değiştirildi veya IMEI yazılmadı. Orijinal IMEI'yi geri yükleyin ve yasa dışı bir IMEI'nin ağ hataları ile sonuçlanabileceği konusunda müşteriyi bilgilendirin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "Test başlatılamadı. Lütfen SIM kartın çıkarıldığını onaylayın.",
+        "ExpDetail": "SIM kart çıkarılmadı"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kilit açma sayısı:%1<br>Kilit açma durumu:Kilidi açık"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kilit açma sayısı:%1<br>Kilit açma durumu:Kilidi açık değil"
+    },
+    "t01010101": {
+        "ExpAdvice": "Üçüncü taraf uygulamalar ve sistem arasındaki uyumsuzluktan kaynaklanıyor olabilir. Flash yazma ile cihazı son sürüme güncellemeniz ve ayrıca uygulamaları son sürüme güncellemeniz önerilir. Bu bir yazılım sorunudur ve donanımla ilişkili değildir.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "Android sisteminin temel yazılım hizmetinde bir istisna oluştuğunda ya da CPU veya RAM çalışması kararsız olduğunda telefon sürekli yeniden başlatılabilir. Sorunun bir donanım sorunu olarak düzeltilmesi önerilir.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "Bu bir uygulama sorunudur. Uygulama bir beta sürümüyse, resmi bir sürüm değilse veya son resmi sürüm değilse App Market'ten son sürümü indirip yükleyin.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "Bu sorun, yazılım uyumluluğu sorunları olduğunda veya telefon yere düştüğünde ya da yüksek veya düşük sıcaklıktaki bir ortamda kullanıldığında ortaya çıkabilir. Lütfen yeni bir ROM'u flash'layın ve müşteriye telefonu daha uygun bir ortamda kullanmasını söyleyin.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "Telefonun güç beslemesi kararsız. Sorunun bir donanım sorunu olarak düzeltilmesi önerilir.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "Parmak izi sensörü modülünü değiştirin.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "Müşteriye herhangi bir düğmeye yanlışlıkla basıp basmadığını sorun.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "Müşteri ile birlikte, telefonun yanıt verip vermediğini ve fiziksel düğmeler kullanılarak yeniden başlatılıp başlatılmadığını kontrol edin.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "Neden: CPU uzun süre yüksek iş yükü altında çalıştığından telefonun ısınmasına neden olur. Aşırı ısınmanın önlenmesi için CPU büyük olasılıkla performansın düşmesine neden olacak şekilde kendini koruyacaktır.<br>\nÖneriler: ① Güç tasarrufu modunu kapatın. ② CPU'yu yüksek iş yükü altında uzun süre kullanmaktan kaçının. ③ Aygıtın yüzeyini ıslak bir mendille silerek telefonu soğutun ve ısı dağılımının düzelmesini sağlayın.",
+        "ExpDetail": "En çok gecikme yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "Neden: Düşük CPU frekansı, işlem hızını ve uygulama yanıt süresini yavaşlatarak sistem performansını etkileyebilir.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Güç tasarrufu modunu kapatın. ③ Isının düzgün şekilde dağılmasını sağlayın.",
+        "ExpDetail": "En çok gecikme yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "Neden: Arka planda çok fazla uygulamanın çalışması nedeniyle kullanılabilir depolama alanı %10'un altına düşüyor.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Telefon bu işlevi destekliyorsa \"Ayarlar - Sistem ayarları - RAM\" aracılığıyla RAM genişletme işlevini etkinleştirin. ③ Telefonu düzenli aralıklarla yeniden başlatın.",
+        "ExpDetail": "En çok gecikme yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "Neden: Depolama alanının düşük olması nedeniyle uygulama önbellekleri için alan kalmıyor. Bu durumda uygulamalarda gecikmeler yaşanabilir, uygulamalar donabilir veya çökebilir.<br>\nÖneriler: İstenmeyen fotoğrafları, videoları ve uygulamaları silerek veya bu öğeleri bir bilgisayara veya USB sürücüsüne kopyalayarak telefondaki Telefon Yöneticisi ile depolama alanını temizleyin.",
+        "ExpDetail": "En çok gecikme yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "Neden: İşletim sistemi sürümü resmi değil ve kararsız hale gelebiliyor.<br>\nÖneriler: İşletim sisteminin resmi sürümünü yükleyin veya beta sürümünün güncellenmesini bekleyin.",
+        "ExpDetail": "En çok gecikme yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "Neden: Telefon, üçüncü taraf bir telefon yönetimi uygulaması veya sistem optimizasyon uygulaması (Tencent Mobile Manager ve 360 Mobile Safe gibi) ile yüklenmiş. Bu tür uygulamalar telefonda gecikmelere neden olabilir.<br>\nÖneriler: Üçüncü taraf sistem optimizasyonu uygulamalarını kaldırın ve telefonun yerleşik Telefon Yöneticisini kullanarak telefonu optimize edin.",
+        "ExpDetail": "En çok gecikme yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "Neden: Büyütme hareketleri etkindir; bu durum bazı uygulamaların gecikmesine neden olabilir.<br>\nÖneriler: Büyütme hareketleri işlevini \"Ayarlar - Ek ayarlar - Erişilebilirlik - Büyütme hareketleri\" yoluyla devre dışı bırakın.",
+        "ExpDetail": "En çok gecikme yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "\n1. Tanılama ayrıntılarının kullanıcının açıklamasıyla tutarlı olup olmadığını doğrulayın; tutarlıysa kullanıcıdan bu uygulamaların önbelleğini temizlemesini ve ilgili uygulamaları en son sürümlerine yükseltmesini isteyin.<br>\n2. Kullanıcıya telefonunu yeniden başlatmasını önerin.<br>\n3. Kullanıcıya arka plan uygulamalarını düzenli olarak temizlemesini önerin.<br>\n4. Kullanıcıya sistemini en son işletim sistemi sürümüne yükseltmesini önerin.<br>\n5. Kullanıcının gecikmeyle ilgili günlüklerini edinin ve teknisyenlerden bu günlükleri analiz etmelerini isteyin.",
+        "ExpDetail": "En çok gecikme yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "\n1. Tanılama ayrıntılarının kullanıcının açıklamasıyla tutarlı olup olmadığını doğrulayın; tutarlıysa kullanıcıdan bu uygulamaların önbelleğini temizlemesini ve ilgili uygulamaları en son sürümlerine yükseltmesini isteyin.<br>\n2. Kullanıcıya telefonunu yeniden başlatmasını önerin.<br>\n3. Kullanıcıya arka plan uygulamalarını düzenli olarak temizlemesini önerin.<br>\n4. Kullanıcıya sistemini en son işletim sistemi sürümüne yükseltmesini önerin.<br>\n5. Kullanıcının gecikmeyle ilgili günlüklerini edinin ve teknisyenlerden bu günlükleri analiz etmelerini isteyin.",
+        "ExpDetail": "En yüksek RAM kullanımına sahip ilk 5 uygulama:&lt;br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "Neden: CPU uzun süre yüksek iş yükü altında çalıştığından telefonun ısınmasına neden olur. Aşırı ısınmanın önlenmesi için CPU büyük olasılıkla performansın düşmesine neden olacak şekilde kendini koruyacaktır.<br>\nÖneriler: ① Güç tasarrufu modunu kapatın. ② CPU'yu yüksek iş yükü altında uzun süre kullanmaktan kaçının. ③ Aygıtın yüzeyini ıslak bir mendille silerek telefonu soğutun ve ısı dağılımının düzelmesini sağlayın.",
+        "ExpDetail": "En yavaş açılan ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş açılmanın ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "Neden: Düşük CPU frekansı, işlem hızını ve uygulama yanıt süresini yavaşlatarak sistem performansını etkileyebilir.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Güç tasarrufu modunu kapatın. ③ Isının düzgün şekilde dağılmasını sağlayın.",
+        "ExpDetail": "En yavaş açılan ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş açılmanın ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "Neden: Arka planda çok fazla uygulamanın çalışması nedeniyle kullanılabilir depolama alanı %10'un altına düşüyor.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Telefon bu işlevi destekliyorsa \"Ayarlar - Sistem ayarları - RAM\" aracılığıyla RAM genişletme işlevini etkinleştirin. ③ Telefonu düzenli aralıklarla yeniden başlatın.",
+        "ExpDetail": "En yavaş açılan ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş açılmanın ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "Neden: Depolama alanının düşük olması nedeniyle uygulama önbellekleri için alan kalmıyor. Bu durumda uygulamalarda gecikmeler yaşanabilir, uygulamalar donabilir veya çökebilir.<br>\nÖneriler: İstenmeyen fotoğrafları, videoları ve uygulamaları silerek veya bu öğeleri bir bilgisayara veya USB sürücüsüne kopyalayarak telefondaki Telefon Yöneticisi ile depolama alanını temizleyin.",
+        "ExpDetail": "En yavaş açılan ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş açılmanın ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "Neden: İşletim sistemi sürümü resmi değil ve kararsız hale gelebiliyor.<br>\nÖneriler: İşletim sisteminin resmi sürümünü yükleyin veya beta sürümünün güncellenmesini bekleyin.",
+        "ExpDetail": "En yavaş açılan ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş açılmanın ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "Neden: Telefon, üçüncü taraf bir telefon yönetimi uygulaması veya sistem optimizasyon uygulaması (Tencent Mobile Manager ve 360 Mobile Safe gibi) ile yüklenmiş. Bu tür uygulamalar telefonda gecikmelere neden olabilir.<br>\nÖneriler: Üçüncü taraf sistem optimizasyonu uygulamalarını kaldırın ve telefonun yerleşik Telefon Yöneticisini kullanarak telefonu optimize edin.",
+        "ExpDetail": "En yavaş açılan ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş açılmanın ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "Neden: Büyütme hareketleri etkindir; bu durum bazı uygulamaların gecikmesine neden olabilir.<br>\nÖneriler: Büyütme hareketleri işlevini \"Ayarlar - Ek ayarlar - Erişilebilirlik - Büyütme hareketleri\" yoluyla devre dışı bırakın.",
+        "ExpDetail": "En yavaş açılan ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş açılmanın ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "\n1. Tanılama ayrıntılarının kullanıcının açıklamasıyla tutarlı olup olmadığını doğrulayın; tutarlıysa kullanıcıdan bu uygulamaların önbelleğini temizlemesini ve ilgili uygulamaları en son sürümlerine yükseltmesini isteyin.<br>\n2. Kullanıcıya telefonunu yeniden başlatmasını önerin.<br>\n3. Kullanıcıya arka plan uygulamalarını düzenli olarak temizlemesini önerin.<br>\n4. Kullanıcıya sistemini en son işletim sistemi sürümüne yükseltmesini önerin.<br>\n5. Kullanıcının gecikmeyle ilgili günlüklerini edinin ve teknisyenlerden bu günlükleri analiz etmelerini isteyin.",
+        "ExpDetail": "Bilinmeyen neden",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "Neden: Arka planda çok fazla uygulamanın çalışması nedeniyle kullanılabilir depolama alanı %10'un altına düşüyor.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Telefon bu işlevi destekliyorsa \"Ayarlar - Sistem ayarları - RAM\" aracılığıyla RAM genişletme işlevini etkinleştirin. ③ Telefonu düzenli aralıklarla yeniden başlatın.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "Neden: Depolama alanının düşük olması nedeniyle uygulama önbellekleri için alan kalmıyor. Bu durumda uygulamalarda gecikmeler yaşanabilir, uygulamalar donabilir veya çökebilir.<br>\nÖneriler: İstenmeyen fotoğrafları, videoları ve uygulamaları silerek veya bu öğeleri bir bilgisayara veya USB sürücüsüne kopyalayarak telefondaki Telefon Yöneticisi ile depolama alanını temizleyin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "Neden: CPU uzun süre yüksek iş yükü altında çalıştığından telefonun ısınmasına neden olur. Aşırı ısınmanın önlenmesi için CPU büyük olasılıkla performansın düşmesine neden olacak şekilde kendini koruyacaktır.<br>\nÖneriler: ① Güç tasarrufu modunu kapatın. ② CPU'yu yüksek iş yükü altında uzun süre kullanmaktan kaçının. ③ Aygıtın yüzeyini ıslak bir mendille silerek telefonu soğutun ve ısı dağılımının düzelmesini sağlayın.",
+        "ExpDetail": "En çok arayüz gecikmesi yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "Neden: Düşük CPU frekansı, işlem hızını ve uygulama yanıt süresini yavaşlatarak sistem performansını etkileyebilir.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Güç tasarrufu modunu kapatın. ③ Isının düzgün şekilde dağılmasını sağlayın.",
+        "ExpDetail": "En çok arayüz gecikmesi yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "Neden: Arka planda çok fazla uygulamanın çalışması nedeniyle kullanılabilir depolama alanı %10'un altına düşüyor.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Telefon bu işlevi destekliyorsa \"Ayarlar - Sistem ayarları - RAM\" aracılığıyla RAM genişletme işlevini etkinleştirin. ③ Telefonu düzenli aralıklarla yeniden başlatın.",
+        "ExpDetail": "En çok arayüz gecikmesi yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "Neden: Depolama alanının düşük olması nedeniyle uygulama önbellekleri için alan kalmıyor. Bu durumda uygulamalarda gecikmeler yaşanabilir, uygulamalar donabilir veya çökebilir.<br>\nÖneriler: İstenmeyen fotoğrafları, videoları ve uygulamaları silerek veya bu öğeleri bir bilgisayara veya USB sürücüsüne kopyalayarak telefondaki Telefon Yöneticisi ile depolama alanını temizleyin.",
+        "ExpDetail": "En çok arayüz gecikmesi yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "Neden: İşletim sistemi sürümü resmi değil ve kararsız hale gelebiliyor.<br>\nÖneriler: İşletim sisteminin resmi sürümünü yükleyin veya beta sürümünün güncellenmesini bekleyin.",
+        "ExpDetail": "En çok arayüz gecikmesi yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "Neden: Telefon, üçüncü taraf bir telefon yönetimi uygulaması veya sistem optimizasyon uygulaması (Tencent Mobile Manager ve 360 Mobile Safe gibi) ile yüklenmiş. Bu tür uygulamalar telefonda gecikmelere neden olabilir.<br>\nÖneriler: Üçüncü taraf sistem optimizasyonu uygulamalarını kaldırın ve telefonun yerleşik Telefon Yöneticisini kullanarak telefonu optimize edin.",
+        "ExpDetail": "En çok arayüz gecikmesi yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "Neden: Büyütme hareketleri etkindir; bu durum bazı uygulamaların gecikmesine neden olabilir.<br>\nÖneriler: Büyütme hareketleri işlevini \"Ayarlar - Ek ayarlar - Erişilebilirlik - Büyütme hareketleri\" yoluyla devre dışı bırakın.",
+        "ExpDetail": "En çok arayüz gecikmesi yaşanan ilk 5 uygulama:&lt;br>%1&lt;br>Gecikmenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "\n1. Tanılama ayrıntılarının kullanıcının açıklamasıyla tutarlı olup olmadığını doğrulayın; tutarlıysa kullanıcıdan bu uygulamaların önbelleğini temizlemesini ve ilgili uygulamaları en son sürümlerine yükseltmesini isteyin.<br>\n2. Kullanıcıya telefonunu yeniden başlatmasını önerin.<br>\n3. Kullanıcıya arka plan uygulamalarını düzenli olarak temizlemesini önerin.<br>\n4. Kullanıcıya sistemini en son işletim sistemi sürümüne yükseltmesini önerin.<br>\n5. Kullanıcının gecikmeyle ilgili günlüklerini edinin ve teknisyenlerden bu günlükleri analiz etmelerini isteyin.",
+        "ExpDetail": "Bilinmeyen neden",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "Neden: Otomatik başlatılan uygulamaların, depolama alanı ve CPU gibi sistem kaynaklarını kullanması gerekir. Çok sayıda otomatik başlatılan uygulama olması, sistem kaynaklarının yetersiz kalmasına yol açarak diğer uygulamaların hızını ve performansını etkileyecektir.<br>\nÖneriler: İstenmeyen otomatik başlatılan uygulamaları \"Ayarlar - Uygulama yönetimi - Uygulamaları otomatik başlat\" yoluyla kapatın.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "Neden: CPU uzun süre yüksek iş yükü altında çalıştığından telefonun ısınmasına neden olur. Aşırı ısınmanın önlenmesi için CPU büyük olasılıkla performansın düşmesine neden olacak şekilde kendini koruyacaktır.<br>\nÖneriler: ① Güç tasarrufu modunu kapatın. ② CPU'yu yüksek iş yükü altında uzun süre kullanmaktan kaçının. ③ Aygıtın yüzeyini ıslak bir mendille silerek telefonu soğutun ve ısı dağılımının düzelmesini sağlayın.",
+        "ExpDetail": "En yavaş yanıt veren ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş yanıt vermenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "Neden: Düşük CPU frekansı, işlem hızını ve uygulama yanıt süresini yavaşlatarak sistem performansını etkileyebilir.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Güç tasarrufu modunu kapatın. ③ Isının düzgün şekilde dağılmasını sağlayın.",
+        "ExpDetail": "En yavaş yanıt veren ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş yanıt vermenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "Neden: Arka planda çok fazla uygulamanın çalışması nedeniyle kullanılabilir depolama alanı %10'un altına düşüyor.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Telefon bu işlevi destekliyorsa \"Ayarlar - Sistem ayarları - RAM\" aracılığıyla RAM genişletme işlevini etkinleştirin. ③ Telefonu düzenli aralıklarla yeniden başlatın.",
+        "ExpDetail": "En yavaş yanıt veren ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş yanıt vermenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "Neden: Depolama alanının düşük olması nedeniyle uygulama önbellekleri için alan kalmıyor. Bu durumda uygulamalarda gecikmeler yaşanabilir, uygulamalar donabilir veya çökebilir.<br>\nÖneriler: İstenmeyen fotoğrafları, videoları ve uygulamaları silerek veya bu öğeleri bir bilgisayara veya USB sürücüsüne kopyalayarak telefondaki Telefon Yöneticisi ile depolama alanını temizleyin.",
+        "ExpDetail": "En yavaş yanıt veren ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş yanıt vermenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "Neden: İşletim sistemi sürümü resmi değil ve kararsız hale gelebiliyor.<br>\nÖneriler: İşletim sisteminin resmi sürümünü yükleyin veya beta sürümünün güncellenmesini bekleyin.",
+        "ExpDetail": "En yavaş yanıt veren ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş yanıt vermenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "Neden: Telefon, üçüncü taraf bir telefon yönetimi uygulaması veya sistem optimizasyon uygulaması (Tencent Mobile Manager ve 360 Mobile Safe gibi) ile yüklenmiş. Bu tür uygulamalar telefonda gecikmelere neden olabilir.<br>\nÖneriler: Üçüncü taraf sistem optimizasyonu uygulamalarını kaldırın ve telefonun yerleşik Telefon Yöneticisini kullanarak telefonu optimize edin.",
+        "ExpDetail": "En yavaş yanıt veren ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş yanıt vermenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "Neden: Büyütme hareketleri etkindir; bu durum bazı uygulamaların gecikmesine neden olabilir.<br>\nÖneriler: Büyütme hareketleri işlevini \"Ayarlar - Ek ayarlar - Erişilebilirlik - Büyütme hareketleri\" yoluyla devre dışı bırakın.",
+        "ExpDetail": "En yavaş yanıt veren ilk 5 uygulama:&lt;br>%1&lt;br>Yavaş yanıt vermenin ilk 5 nedeni:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "Neden: CPU uzun süre yüksek iş yükü altında çalıştığından telefonun ısınmasına neden olur. Aşırı ısınmanın önlenmesi için CPU büyük olasılıkla performansın düşmesine neden olacak şekilde kendini koruyacaktır.<br>\nÖneriler: ① Güç tasarrufu modunu kapatın. ② CPU'yu yüksek iş yükü altında uzun süre kullanmaktan kaçının. ③ Aygıtın yüzeyini ıslak bir mendille silerek telefonu soğutun ve ısı dağılımının düzelmesini sağlayın.",
+        "ExpDetail": "CPU aşırı ısınması",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "Neden: Düşük CPU frekansı, işlem hızını ve uygulama yanıt süresini yavaşlatarak sistem performansını etkileyebilir.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Güç tasarrufu modunu kapatın. ③ Isının düzgün şekilde dağılmasını sağlayın.",
+        "ExpDetail": "CPU frekansı düşük",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "Neden: Arka planda çok fazla uygulamanın çalışması nedeniyle kullanılabilir depolama alanı %10'un altına düşüyor.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Telefon bu işlevi destekliyorsa \"Ayarlar - Sistem ayarları - RAM\" aracılığıyla RAM genişletme işlevini etkinleştirin. ③ Telefonu düzenli aralıklarla yeniden başlatın.",
+        "ExpDetail": "Düşük bellek",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "Neden: Depolama alanının düşük olması nedeniyle uygulama önbellekleri için alan kalmıyor. Bu durumda uygulamalarda gecikmeler yaşanabilir, uygulamalar donabilir veya çökebilir.<br>\nÖneriler: İstenmeyen fotoğrafları, videoları ve uygulamaları silerek veya bu öğeleri bir bilgisayara veya USB sürücüsüne kopyalayarak telefondaki Telefon Yöneticisi ile depolama alanını temizleyin.",
+        "ExpDetail": "Düşük saklama alanı",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "Neden: İşletim sistemi sürümü resmi değil ve kararsız hale gelebiliyor.<br>\nÖneriler: İşletim sisteminin resmi sürümünü yükleyin veya beta sürümünün güncellenmesini bekleyin.",
+        "ExpDetail": "Beta sürümü",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "Neden: Telefon, üçüncü taraf bir telefon yönetimi uygulaması veya sistem optimizasyon uygulaması (Tencent Mobile Manager ve 360 Mobile Safe gibi) ile yüklenmiş. Bu tür uygulamalar telefonda gecikmelere neden olabilir.<br>\nÖneriler: Üçüncü taraf sistem optimizasyonu uygulamalarını kaldırın ve telefonun yerleşik Telefon Yöneticisini kullanarak telefonu optimize edin.",
+        "ExpDetail": "Performans düşürücü uygulamalar",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "Neden: Büyütme hareketleri etkindir; bu durum bazı uygulamaların gecikmesine neden olabilir.<br>\nÖneriler: Büyütme hareketleri işlevini \"Ayarlar - Ek ayarlar - Erişilebilirlik - Büyütme hareketleri\" yoluyla devre dışı bırakın.",
+        "ExpDetail": "Büyütme el hareketi etkinleştirildi (geliştirici seçeneği)",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "\n1. Tanılama ayrıntılarının kullanıcının açıklamasıyla tutarlı olup olmadığını doğrulayın; tutarlıysa kullanıcıdan bu uygulamaların önbelleğini temizlemesini ve ilgili uygulamaları en son sürümlerine yükseltmesini isteyin.<br>\n2. Kullanıcıya telefonunu yeniden başlatmasını önerin.<br>\n3. Kullanıcıya arka plan uygulamalarını düzenli olarak temizlemesini önerin.<br>\n4. Kullanıcıya sistemini en son işletim sistemi sürümüne yükseltmesini önerin.<br>\n5. Kullanıcının gecikmeyle ilgili günlüklerini edinin ve teknisyenlerden bu günlükleri analiz etmelerini isteyin.",
+        "ExpDetail": "Bilinmeyen neden",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "Ekranı uyandırırken veya kapatırken yavaş yanıt verme nedenleri",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "Neden: CPU uzun süre yüksek iş yükü altında çalıştığından telefonun ısınmasına neden olur. Aşırı ısınmanın önlenmesi için CPU büyük olasılıkla performansın düşmesine neden olacak şekilde kendini koruyacaktır.<br>\nÖneriler: ① Güç tasarrufu modunu kapatın. ② CPU'yu yüksek iş yükü altında uzun süre kullanmaktan kaçının. ③ Aygıtın yüzeyini ıslak bir mendille silerek telefonu soğutun ve ısı dağılımının düzelmesini sağlayın.",
+        "ExpDetail": "CPU aşırı ısınması",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "Neden: Düşük CPU frekansı, işlem hızını ve uygulama yanıt süresini yavaşlatarak sistem performansını etkileyebilir.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Güç tasarrufu modunu kapatın. ③ Isının düzgün şekilde dağılmasını sağlayın.",
+        "ExpDetail": "CPU frekansı düşük",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "Neden: Arka planda çok fazla uygulamanın çalışması nedeniyle kullanılabilir depolama alanı %10'un altına düşüyor.<br>\nÖneriler: ① Arka plan uygulamalarını düzenli olarak temizleyin. ② Telefon bu işlevi destekliyorsa \"Ayarlar - Sistem ayarları - RAM\" aracılığıyla RAM genişletme işlevini etkinleştirin. ③ Telefonu düzenli aralıklarla yeniden başlatın.",
+        "ExpDetail": "Düşük bellek",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "Neden: Depolama alanının düşük olması nedeniyle uygulama önbellekleri için alan kalmıyor. Bu durumda uygulamalarda gecikmeler yaşanabilir, uygulamalar donabilir veya çökebilir.<br>\nÖneriler: İstenmeyen fotoğrafları, videoları ve uygulamaları silerek veya bu öğeleri bir bilgisayara veya USB sürücüsüne kopyalayarak telefondaki Telefon Yöneticisi ile depolama alanını temizleyin.",
+        "ExpDetail": "Düşük saklama alanı",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "Neden: İşletim sistemi sürümü resmi değil ve kararsız hale gelebiliyor.<br>\nÖneriler: İşletim sisteminin resmi sürümünü yükleyin veya beta sürümünün güncellenmesini bekleyin.",
+        "ExpDetail": "Beta sürümü",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "Neden: Telefon, üçüncü taraf bir telefon yönetimi uygulaması veya sistem optimizasyon uygulaması (Tencent Mobile Manager ve 360 Mobile Safe gibi) ile yüklenmiş. Bu tür uygulamalar telefonda gecikmelere neden olabilir.<br>\nÖneriler: Üçüncü taraf sistem optimizasyonu uygulamalarını kaldırın ve telefonun yerleşik Telefon Yöneticisini kullanarak telefonu optimize edin.",
+        "ExpDetail": "Performans düşürücü uygulamalar",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "Neden: Çok fazla uygulamadan kaynaklanan yetersiz depolama alanı nedeniyle telefonun performansı düşebilir ve bu durum telefonun yavaş yanıt vermesine ve gecikmelere neden olabilir. \nÖneriler: En iyi performansı sürdürmek için gereksiz uygulamaları kaldırın ve aygıtı düzenli olarak temizleyin.",
+        "ExpDetail": "Çok fazla üçüncü taraf uygulama",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "Neden: Otomatik başlatılan uygulamaların, depolama alanı ve CPU gibi sistem kaynaklarını kullanması gerekir. Çok sayıda otomatik başlatılan uygulama olması, sistem kaynaklarının yetersiz kalmasına yol açarak diğer uygulamaların hızını ve performansını etkileyecektir.<br>\nÖneriler: İstenmeyen otomatik başlatılan uygulamaları \"Ayarlar - Uygulama yönetimi - Uygulamaları otomatik başlat\" yoluyla kapatın.",
+        "ExpDetail": "Otomatik başlatılan çok fazla uygulama",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "\n1. Tanılama ayrıntılarının kullanıcının açıklamasıyla tutarlı olup olmadığını doğrulayın; tutarlıysa kullanıcıdan bu uygulamaların önbelleğini temizlemesini ve ilgili uygulamaları en son sürümlerine yükseltmesini isteyin.<br>\n2. Kullanıcıya telefonunu yeniden başlatmasını önerin.<br>\n3. Kullanıcıya arka plan uygulamalarını düzenli olarak temizlemesini önerin.<br>\n4. Kullanıcıya sistemini en son işletim sistemi sürümüne yükseltmesini önerin.<br>\n5. Kullanıcının gecikmeyle ilgili günlüklerini edinin ve teknisyenlerden bu günlükleri analiz etmelerini isteyin.",
+        "ExpDetail": "Bilinmeyen neden",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Telefon açılırken yaşanan gecikmenin nedenleri:",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "Telefondaki CPU yükü çok yüksek. Arka planda çalışan uygulamaları kapatın.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "Telefondaki CPU yükü çok yüksek. Arka planda çalışan uygulamaları kapatın.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "Telefondaki CPU yükü çok yüksek. Arka planda çalışan uygulamaları kapatın.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "Telefondaki CPU yükü çok yüksek. Arka planda çalışan uygulamaları kapatın.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "Telefondaki CPU yükü çok yüksek. Arka planda çalışan uygulamaları kapatın.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "Telefon aşırı ısınmıştır. Kullanıcıdan arka plandaki uygulamaları temizlemesini ve telefonu 5 dakika boyunca kullanmamasını isteyin.",
+        "ExpDetail": "Kamera yavaş başlatılıyor – aşırı ısınma",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "Düşük kullanılabilir depolama alanı. Arka planda açık olan uygulamaların sayısını öğrenin ve kullanıcıdan uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Kamera yavaş başlatılıyor – düşük depolama alanı",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "İş yükü çok yüksek. Kullanıcıdan arka plandaki uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Kamera yavaş başlatılıyor – yüksek iş yükü",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "Kullanıcıdan telefonu yeniden başlatmasını ve tekrar denemesini isteyin.",
+        "ExpDetail": "Kamera çöküyor – oturum dökümü tetiklendi",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "Telefon aşırı ısınmıştır. Kullanıcıdan arka plandaki uygulamaları temizlemesini ve telefonu 5 dakika boyunca kullanmamasını isteyin.",
+        "ExpDetail": "Kamera ısınıyor – telefon kamera başlatılmadan önce zaten aşırı ısınmış durumda",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "Bu sorun, uzun süreli kamera kullanımından kaynaklanır. Kullanıcıdan uzun süreli kamera kullanımını azaltmasını isteyin.",
+        "ExpDetail": "Kamera ısınıyor – kamera aşırı ısınması",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "Telefon aşırı ısınmıştır. Kullanıcıdan arka plandaki uygulamaları temizlemesini ve telefonu 5 dakika boyunca kullanmamasını isteyin.",
+        "ExpDetail": "Kamera önizlemesi gecikiyor – aşırı ısınma nedeniyle frekans sınırlaması",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "Düşük kullanılabilir depolama alanı. Arka planda açık olan uygulamaların sayısını öğrenin ve kullanıcıdan uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Kamera önizlemesi gecikiyor - düşük depolama alanı",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "Kullanıcıdan daha aydınlık bir ortama gitmesini isteyin.",
+        "ExpDetail": "Kamera önizlemesi gecikiyor - karanlık ortamlarda düşük kare hızı",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "Kamera konuya çok yakındır. Kullanıcının konudan uzaklaşmasını isteyin.",
+        "ExpDetail": "Fotoğraf önizlemesi sırasında kamera görüntüsü bulanık – odak net değil",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "Telefon aşırı ısınmıştır. Kullanıcıdan arka plandaki uygulamaları temizlemesini ve telefonu 5 dakika boyunca kullanmamasını isteyin.",
+        "ExpDetail": "Fotoğraf önizlemesi sırasında kamera gecikiyor – aşırı ısınma nedeniyle frekans sınırlaması",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "Düşük kullanılabilir depolama alanı. Arka planda açık olan uygulamaların sayısını öğrenin ve kullanıcıdan uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Fotoğraf çekerken kamera gecikiyor – düşük depolama alanı",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "Kamera konuya çok yakındır. Kullanıcının konudan uzaklaşmasını isteyin.",
+        "ExpDetail": "Kamera ile çekilen fotoğraflar bulanık",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "Kullanıcıdan arka plandaki uygulamaları temizlemesini ve kamerayı yeniden başlatmasını isteyin.",
+        "ExpDetail": "Fotoğraf çekerken ekran kararıyor – düşük depolama alanı",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "Satış sonrası servis çalışanından kayıt günlüklerini almasını ve algoritma hata kodu ile birlikte göndermesini isteyin.",
+        "ExpDetail": "Fotoğraf çekerken ekran bulanıklaşıyor – algoritma hata kodu: %1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "Telefon aşırı ısınmıştır. Kullanıcıdan arka plandaki uygulamaları temizlemesini ve telefonu 5 dakika boyunca kullanmamasını isteyin.",
+        "ExpDetail": "Fotoğraf çekilemiyor – aşırı ısınma",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "Kullanıcıdan arka plandaki uygulamaları temizlemesini ve kamerayı yeniden başlatmasını isteyin.",
+        "ExpDetail": "Fotoğraf çekilemiyor – düşük depolama alanı",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "Kullanıcıdan arka plandaki uygulamaları temizlemesini ve kamerayı yeniden başlatmasını isteyin.",
+        "ExpDetail": "Fotoğraf çekilemiyor – ses kaynakları yüklü değil",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "Telefon aşırı ısınmıştır. Kullanıcıdan arka plandaki uygulamaları temizlemesini ve telefonu 5 dakika boyunca kullanmamasını isteyin.",
+        "ExpDetail": "Kaydedilen video, önizleme sırasında gecikiyor – aşırı ısınma nedeniyle frekans sınırlaması",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "Düşük kullanılabilir depolama alanı. Arka planda açık olan uygulamaların sayısını öğrenin ve kullanıcıdan uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Kaydedilen video önizleme sırasında gecikiyor – düşük depolama alanı",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "Telefon aşırı ısınmıştır. Kullanıcıdan arka plandaki uygulamaları temizlemesini ve telefonu 5 dakika boyunca kullanmamasını isteyin.",
+        "ExpDetail": "Fotoğraf çekiminde gecikme – aşırı ısınma",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "Düşük kullanılabilir depolama alanı. Arka planda açık olan uygulamaların sayısını öğrenin ve kullanıcıdan uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Fotoğraf çekiminde gecikme – düşük depolama alanı",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "İş yükü çok yüksek. Kullanıcıdan arka plandaki uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Fotoğraf çekiminde gecikme – yüksek iş yükü",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "Telefon aşırı ısınmıştır. Kullanıcıdan arka plandaki uygulamaları temizlemesini ve telefonu 5 dakika boyunca kullanmamasını isteyin.",
+        "ExpDetail": "Kayıt dosyası kaydedilirken zaman aşımı – aşırı ısınma",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "Düşük kullanılabilir depolama alanı. Arka planda açık olan uygulamaların sayısını öğrenin ve kullanıcıdan uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Kayıt dosyası kaydedilirken zaman aşımı – düşük depolama alanı",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "İş yükü çok yüksek. Kullanıcıdan arka plandaki uygulamaları temizlemesini isteyin.",
+        "ExpDetail": "Kayıt dosyası kaydedilirken zaman aşımı – yüksek iş yükü",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "Ağ sorunları ile ilgili değil",
+        "ExpDetail": "Çalma hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "Sisteminiz yavaş. Arka planda çalışan uygulamaları kapatın veya cihazınızı yeniden başlatın.",
+        "ExpDetail": "Çalma hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve çapraz doğrulama yapmak üzere anakartı değiştirin.",
+        "ExpDetail": "Çalma hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve çapraz doğrulama yapmak üzere anakartı değiştirin.",
+        "ExpDetail": "Çalma hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse, sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin ve bunları analiz için geliştiriciye gönderin. Hoparlör aracılığıyla çalma anormal ise çalmanın kulaklıkla çalışıp çalışmadığını kontrol edin. Çalışıyorsa hoparlörü değiştirin. Aynı sorun oluşuyorsa çapraz doğrulama yapmak için anakartı değiştirin.",
+        "ExpDetail": "Çalma hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve çapraz doğrulama yapmak üzere anakartı değiştirin.",
+        "ExpDetail": "Çalma hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve hoparlörü değiştirin. Sorun devam ederse çapraz doğrulama yapmak için anakartı değiştirin.",
+        "ExpDetail": "Çalma hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "Sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve son sürüme güncelleyin. Sorun devam ederse çapraz doğrulama yapmak için anakartı değiştirin.",
+        "ExpDetail": "Çalma hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "Ağ sorunları ile ilgili değil",
+        "ExpDetail": "Kayıt hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "Sisteminiz yavaş. Arka planda çalışan uygulamaları kapatın veya cihazınızı yeniden başlatın.",
+        "ExpDetail": "Kayıt hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve çapraz doğrulama yapmak üzere anakartı değiştirin.",
+        "ExpDetail": "Kayıt hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse, sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin ve bunları analiz için geliştiriciye gönderin. Kulaklıkla normal kayıt yapılıp yapılamadığını kontrol edin. Yapılabiliyorsa telefonun mikrofonunu değiştirin. Aynı sorun oluşuyorsa çapraz doğrulama yapmak için anakartı değiştirin.",
+        "ExpDetail": "Kayıt hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "Ağ sorunlardan kaynaklanıyor. Ağ bağlantısını kontrol edin.",
+        "ExpDetail": "Oynatma hatası veya gecikme gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "Ağla ilgili değil. Uygulama ayarlarını kontrol edin.",
+        "ExpDetail": "Oynatma hatası veya gecikme gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "Otomatik olarak analiz edilemeyen sorun tipleri için App Market'te bulunan en son sürümü kullanmanız veya uygulama önbelleğini ve verilerini temizleyip tekrar denemeniz önerilir.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "Sorun, uygulamanın kendisinden kaynaklanıyor.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "Otomatik olarak analiz edilemeyen sorun tipleri için App Market'te bulunan en son sürümü kullanmanız veya uygulama önbelleğini ve verilerini temizleyip tekrar denemeniz önerilir.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "Uygulama, resmi App Market'ten indirilmedi. Uygulamayı resmi App Market'ten indirmeniz önerilir.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1 (referans olarak)",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "Uygulama, resmi App Market'ten indirilmedi. Uygulamayı resmi App Market'ten indirmeniz önerilir.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1 (referans olarak)",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "(%1) dahil bazı üçüncü taraf uygulamalar kullanım sırasında anormal görünebilir; en son sürüme güncellemeniz önerilir.",
+        "ExpDetail": "1. Uyumluluk istisnası；<br>2. 32 bit uygulama",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Üçüncü taraf uygulamalarda sesli veya görüntülü arama hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "Ağ sorunları ile ilgili değil",
+        "ExpDetail": "Üçüncü taraf uygulamalarda sesli veya görüntülü arama hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "Ses çalma ve kaydetmeyle ilgili bileşenlerde (ör. hoparlör ve mikrofon) sorun giderme işlemleri yapın",
+        "ExpDetail": "Üçüncü taraf uygulamalarda sesli veya görüntülü arama hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "Sisteminiz yavaş. Arka planda çalışan uygulamaları kapatın veya cihazınızı yeniden başlatın.",
+        "ExpDetail": "Üçüncü taraf uygulamalarda sesli veya görüntülü arama hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve çapraz doğrulama yapmak üzere anakartı değiştirin.",
+        "ExpDetail": "Üçüncü taraf uygulamalarda sesli veya görüntülü arama hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve çapraz doğrulama yapmak üzere anakartı değiştirin.",
+        "ExpDetail": "Üçüncü taraf uygulamalarda sesli veya görüntülü arama hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "Sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve son sürüme güncelleyin. Sorun devam ederse çapraz doğrulama yapmak için anakartı değiştirin.",
+        "ExpDetail": "Üçüncü taraf uygulamalarda sesli veya görüntülü arama hatası, gecikme veya ses kaybı gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "Farklı bir ağı deneyin. Sorun devam ederse ses ve ağ günlük kayıtlarını alarak analiz amacıyla geliştiriciye gönderin.",
+        "ExpDetail": "Ağ hataları nedeniyle %1 sessiz WeChat araması örneği",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. Sorun benzer konumlarda oluşuyorsa telefonunuzu aynı operatörü kullanan diğer telefonlarla karşılaştırın. Bu telefonlarda da aynı sorun varsa sorunu çözmek için operatör ile iletişime geçin.<br>2. Sorun benzer zamanlarda ortaya çıkıyorsa sinyalin zayıf olabileceği bir bodrum katında, garajda, kalabalık bir alanda veya hareket halindeki bir arabada olup olmadığınızı kontrol edin.<br>3. WeChat, aramalar sırasında sizin veya karşı tarafın ağının istikrarsız olduğunu bildirdiyse WeChat'in tasarım stratejileri nedeniyle görüntü bulanıklaşır.",
+        "ExpDetail": "Ağ hataları nedeniyle %1 bulanık WeChat görüntülü arama örneği",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. Lütfen WeChat uygulamasını güncelleyin ve ardından telefonunuzu ve uygulamayı yeniden başlatın.<br> 2. WeChat aramalar sırasında karşı tarafın ağının istikrarsız olduğunu bildirirse karşı tarafın telefonundaki ağ bağlantısı zayıf olduğu için görüntüde bulanıklık oluşur.",
+        "ExpDetail": "Ağ hataları nedeniyle %1 bulanık WeChat görüntülü arama örneği",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "Müşteriye telefonu şarj olurken kullanmamasını söyleyin.",
+        "ExpDetail": "Şarj sırasında uzun süreli telefon kullanımı: %1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "Müşteriye telefonu soğukta şarj etmemesini söyleyin.",
+        "ExpDetail": "Ortam sıcaklığının çok düşük olması nedeniyle pili korumak için şarj yavaşlıyor: %1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "Yavaş şarj oluyor. Daha hızlı şarj için cihaz ile birlikte gelen şarj cihazını ve kablosunu kullanın.",
+        "ExpDetail": "USB şarjı: %1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "Pilin iyi durumunu korumak için, yüksek pil seviyelerinde şarj işlemi daha yavaş gerçekleşir.",
+        "ExpDetail": "İlk pil seviyesi çok yüksek olduğundan, düşük oranda şarj etme yavaş şarj hızına neden oluyor: %1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "Şarj cihazı, cihazın tasarlandığından daha yüksek bir voltaj kullanıyor. Doğru şarj cihazını kullanın.",
+        "ExpDetail": "Adaptör gerilimi çok yüksek: %1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "Gevşek pil bağlantısı algılandı. Pil ve BTB konektörlerini kontrol edin.",
+        "ExpDetail": "Zayıf pil teması: %1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "Pil orijinal değil. Cihaz üreticisinin sağladığı, orijinal bir pil kullanın.",
+        "ExpDetail": "Orijinal olmayan pil: %1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "Cihaz sıcaklığı çok düşük. Pilinizi iyi durumda tutmak için tamamen dolmadan önce şarj duraklatılır.",
+        "ExpDetail": "Düşük sıcaklık nedeniyle tam şarj edememe: %1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "Şarja devam etmek için şarj kablosunu çıkarıp yeniden takın",
+        "ExpDetail": "Uzun süreli devamlı şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "Şarj cihazı, cihazın tasarlandığından daha yüksek bir voltaj kullanıyor. Doğru şarj cihazını kullanın.",
+        "ExpDetail": "Adaptör gerilimi çok yüksek: %1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "Cihaz sıcaklığı çok yüksek. Güvenliğiniz için şarj duraklatıldı.",
+        "ExpDetail": "Yüksek sıcaklık nedeniyle şarj etmenin yarım kalması: %1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "Cihaz sıcaklığı çok yüksek. Güvenliğiniz için pil tamamen şarj edilmeyecektir.",
+        "ExpDetail": "Yüksek sıcaklık nedeniyle tam şarj edememe: %1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "Cihaz sıcaklığı çok düşük. Pili korumak için şarj duraklatıldı.",
+        "ExpDetail": "Düşük sıcaklık nedeniyle şarj etmenin yarım kalması: %1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "Tam dolu: %1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "Hangisinin soruna neden olduğunu bulmak için farklı bir adaptör, kablo veya cihaz deneyin. Sorun kablo veya adaptörden kaynaklanıyorsa arızalı aksesuarı değiştirin. Sorun cihazdan kaynaklanıyorsa, pil ve USB bağlantı noktası için BTB konektörlerini yeniden bağlamayı deneyin. Sorun devam ederse cihazı onarım için fabrikaya gönderin. Bu bir donanım sorunu değilse yazılımı güncelleyin.",
+        "ExpDetail": "Şarj edilemiyor: %1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "Hangisinin soruna neden olduğunu bulmak için farklı bir adaptör, kablo veya cihaz deneyin. Sorun kablo veya adaptörden kaynaklanıyorsa arızalı aksesuarı değiştirin. Sorun cihazdan kaynaklanıyorsa, pil ve USB bağlantı noktası için BTB konektörlerini yeniden bağlamayı deneyin. Sorun devam ederse cihazı onarım için fabrikaya gönderin. Bu bir donanım sorunu değilse yazılımı güncelleyin.",
+        "ExpDetail": "Kesik kesik şarj olma: %1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "Pili oda sıcaklığında kalibre edin: Tamamen şarj olduktan sonra cihazı 2 saat fişte takılı tutun.",
+        "ExpDetail": "Voltmetre değerinde hızlı değişim: %1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "Pili oda sıcaklığında kalibre edin: Tamamen şarj olduktan sonra cihazı 2 saat fişte takılı tutun.",
+        "ExpDetail": "Voltmetre değerinde hızlı değişim: %1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "Pili oda sıcaklığında kalibre edin: Tamamen şarj olduktan sonra cihazı 2 saat fişte takılı tutun.",
+        "ExpDetail": "Voltmetre değerinde hızlı değişim: %1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "Orijinal pil kullanın",
+        "ExpDetail": "Orijinal olmayan pil nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "Orijinal adaptör kullanın",
+        "ExpDetail": "Orijinal olmayan adaptör nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "Kabloda eskime belirtileri olup olmadığını kontrol edin. Başka bir kabloyu deneyin.",
+        "ExpDetail": "Kablo sorunları nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "Hızlı şarj adaptörünün çalışıp çalışmadığını kontrol edin. Başka bir adaptörü deneyin.",
+        "ExpDetail": "Çok hızlı şarj etmenin kullanılmaması nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "Orijinal adaptör kullanın",
+        "ExpDetail": "Orijinal olmayan maksimum güç adaptörü nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "Şarjdan önce cihazınızın oda sıcaklığında olduğundan emin olun",
+        "ExpDetail": "Çok düşük telefon sıcaklığı nedeniyle pili korumak için yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "Şarjdan önce cihazınızın oda sıcaklığında olduğundan emin olun",
+        "ExpDetail": "Çok yüksek telefon sıcaklığı nedeniyle pili korumak için yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "Cihazı uygun bir sıcaklıkta şarj edin",
+        "ExpDetail": "Çok yüksek/düşük pil sıcaklığı nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "Orijinal adaptör kullanın",
+        "ExpDetail": "Telefon USB yoluyla bilgisayara bağlı olduğu için yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "Şarj olurken telefonu kullanmayın",
+        "ExpDetail": "Telefon güç kullanımı çok yüksek olduğu için yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "Bağlantı noktasında toz veya zayıf temas olup olmadığını kontrol edin. Bağlantı noktasında sorun yoksa adaptör, kablo ve USB PCB\\'sini kontrol edin.",
+        "ExpDetail": "Anormal akım nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "Şarj olurken telefonu kullanmayın",
+        "ExpDetail": "Ekran çok uzun süre açık kaldığı için yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "Şarj olurken telefonu kullanmayın",
+        "ExpDetail": "Kamera çok uzun süre kullanıldığı için yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "Şarj olurken telefonu kullanmayın",
+        "ExpDetail": "Uzun süreli telefon görüşmeleri nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "Şarj olurken telefonu kullanmayın",
+        "ExpDetail": "Sıcaklığın veya güç kullanımının çok uzun süre çok yüksek kalması: %1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "Müşteriye, 15 ℃ ila 35 ℃ sıcaklıktaki bir ortamda ekran kapalıyken telefonunu şarj etmesini söyleyin. Telefon tamamen şarj olduktan sonra, kulomb (amper saniye) sayacını kalibre etmek için telefonu kullanmayın ve 2 saat boyunca şarj cihazına bağlı tutun.",
+        "ExpDetail": "Pil kapasitesi görüntüleme hatası: %1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "Müşteriye, 15 ℃ ila 35 ℃ sıcaklıktaki bir ortamda ekran kapalıyken telefonunu şarj etmesini söyleyin. Telefon tamamen şarj olduktan sonra, kulomb (amper saniye) sayacını kalibre etmek için telefonu kullanmayın ve 2 saat boyunca şarj cihazına bağlı tutun.",
+        "ExpDetail": "Pil kapasitesi görüntüleme hatası: %1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "Müşteriye, 15 ℃ ila 35 ℃ sıcaklıktaki bir ortamda ekran kapalıyken telefonunu şarj etmesini söyleyin. Telefon tamamen şarj olduktan sonra, kulomb (amper saniye) sayacını kalibre etmek için telefonu kullanmayın ve 2 saat boyunca şarj cihazına bağlı tutun.",
+        "ExpDetail": "Pil kapasitesi görüntüleme hatası: %1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "Müşteriye, 15 ℃ ila 35 ℃ sıcaklıktaki bir ortamda ekran kapalıyken telefonunu şarj etmesini söyleyin. Telefon tamamen şarj olduktan sonra, kulomb (amper saniye) sayacını kalibre etmek için telefonu kullanmayın ve 2 saat boyunca şarj cihazına bağlı tutun.",
+        "ExpDetail": "Pil kapasitesi görüntüleme hatası: %1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "Müşteriye, 15 ℃ ila 35 ℃ sıcaklıktaki bir ortamda ekran kapalıyken telefonunu şarj etmesini söyleyin. Telefonu ortam sıcaklığının yüksek olduğu yerlerde şarj etmek veya şarj olurken büyük oyunlar oynamak telefonun ısınmasına neden olur. Sıcaklık 38 ℃ veya üstüne çıktığında sistem otomatik olarak şarj akımını ve hızını düşürür.",
+        "ExpDetail": "Pil aşırı ısındı: %1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "Müşteriye telefonunu 15 ℃ ila 35 ℃ sıcaklıktaki bir ortamda şarj etmesini söyleyin. Ortam sıcaklığı 15 ℃\\'nin altındaysa şarj akımını ve hızını azaltmak için koruma mekanizması tetiklenir.",
+        "ExpDetail": "Düşük pil sıcaklığı: %1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1. Telefonun mühendislik moduna girmesini sağlayın ve şarj akımının normal olup olmadığını kontrol edin (889 - Cihaz hata ayıklaması - Şarj testi).&lt;br>2. Şarj akımı normalse bu sorun muhtemelen yüksek güç tüketiminden kaynaklanmaktadır (örneğin büyük oyunlar oynarken).",
+        "ExpDetail": "Düşük akım nedeniyle yavaş şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1. Müşteriyle telefonunu bir bilgisayar aracılığıyla şarj edip etmediğini sorun. Öyle ise telefonu şarj etmek için orijinal bir adaptör kullanmasını söyleyin. &lt;br>2. Değilse şarj kablosunun hasarlı veya zayıf temaslı olup olmadığını kontrol edin.",
+        "ExpDetail": "Bilgisayar aracılığıyla şarj ediliyor: %1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1. Doğrulama için alternatif olarak orijinal bir adaptör ve orijinal bir şarj kablosu kullanın. &lt;br>2. Hızlı şarj özelliği mevcutsa müşteriye orijinal bir adaptör kullanarak şarj etmesini söyleyin. &lt;br>3. Sorun devam ederse telefonun şarj bağlantı noktasındaki şarj devresini kontrol edin.",
+        "ExpDetail": "Hızlı şarj etme başarısız oluyor: %1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1. Bu sorun, orijinal olmayan bir adaptör kullanarak şarj etmeden kaynaklanır. &lt;br>2. Müşteriye orijinal adaptör kullanarak şarj etmesini söyleyin.",
+        "ExpDetail": "Orijinal olmayan adaptör: %1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "Müşteriye telefonunu 15 ℃ ila 35 ℃ sıcaklıktaki bir ortamda şarj etmesini ve telefon şarj olurken büyük oyunlar oynamamasını söyleyin. Şarj olurken büyük oyunlar oynamak telefonun ısınmasına neden olur. Sıcaklık 38 ℃ veya üstüne çıktığında sistem otomatik olarak şarj akımını ve hızını düşürür.",
+        "ExpDetail": "Sıcaklık kontrolü veya yüksek akım nedeniyle yavaş şarj etme hızı: %1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "Arka planda çok fazla uygulama çalışıyor. Müşteriye kullanılmayan arka plan görevlerini kapatmasını söyleyin.",
+        "ExpDetail": "Yüksek sistem güç kullanımı nedeniyle yavaş şarj etme hızı: %1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "Müşteriye telefon şarj olurken oyun oynamamasını söyleyin, aksi halde şarj akımını azaltacaktır.",
+        "ExpDetail": "Şarj etme sırasında kullanım nedeniyle yavaş şarj etme hızı: %1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1. Doğrulama için alternatif olarak orijinal bir adaptör ve orijinal bir şarj kablosu kullanın. &lt;br>2. Hızlı şarj özelliği mevcutsa müşteriye orijinal bir adaptör kullanarak şarj etmesini söyleyin. &lt;br>3.Sorun devam ederse telefonun şarj bağlantı noktasındaki şarj devresini kontrol edin.",
+        "ExpDetail": "VOOC\\'yi kullanırken kesik kesik şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1. Doğrulama için alternatif olarak orijinal bir adaptör ve orijinal bir şarj kablosu kullanın. &lt;br>2. Sorun çözüldüyse müşteriye orijinal bir adaptör kullanarak şarj etmesini söyleyin. &lt;br>3. Sorun devam ederse telefonun şarj bağlantı noktasındaki şarj devresini kontrol edin.",
+        "ExpDetail": "Genel şarj cihazı kullanırken kesik kesik şarj etme: %1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1. Pilin orijinal olmadığını gösteren herhangi bir uyarı olup olmadığını görmek için telefonu bir adaptörle şarj edin. &lt;br>2. Telefonu sökün ve pilin orijinal olup olmadığını veya doğru takılıp takılmadığını kontrol edin.",
+        "ExpDetail": "Pilin yanlış takılması veya orijinal olmayan pil kullanılması: %1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "Şarj devresinde akım oluşmadığını gösteren bir hata varsa USB arabirimini ve şarj donanım modülünü kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "Lütfen şunları kontrol edin:&lt;br>1. Telefonun tam şarj olup olmadığını.&lt;br>2. Bilgisayar tarafından algılanan şarj akımı nispeten düşüktür. Lütfen telefonun pili boşaltıp boşaltmadığını kontrol edin.",
+        "ExpDetail": "Test başarısız oldu",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='Mükemmel';}else if(result>=excellent){resultText+='İyi';}else{resultText+='Kötü';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Mükemmel：'+good+'-100%，İyi：'+excellent+'-'+good+'%，Kötü：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1. Pil kapasitesi düştüğünde telefonun pil ömrü kısalır. Pili değiştirmeyi tercih edebilirsiniz.&lt;br>2. Pilin kullanım ömrünü uzatmak için pilin azaldığını fark ettiğinizde en kısa sürede telefonu şarj etmeye çalışın.",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = 'Başarısız:';if(result>=good){resultText+='Mükemmel';}else if(result>excellent){resultText+='İyi';}else{resultText+='Kötü';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Mükemmel：'+good+'-100%，İyi：'+excellent+'-'+good+'%，Kötü：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a.Yerel operatörden veya yerel ağ optimize ediciden bir saha testi gerçekleştirmesini istemeniz önerilir.&lt;br>b. Ağ kararsızlığı nedeniyle güç tüketimini önlemek için beklemedeyken Uçak modunu açın.",
+        "ExpDetail": "Karmaşık/zayıf ağ ortamı nedeniyle hücresel verilerin sık sık bağlantısının kesilmesi ve yeniden bağlanması",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a.Yerel operatörden veya yerel ağ optimize ediciden bir saha testi gerçekleştirmesini istemeniz önerilir.&lt;br>b. Ağ kararsızlığı nedeniyle güç tüketimini önlemek için beklemedeyken Uçak modunu açın.",
+        "ExpDetail": "Zayıf ağ sinyali nedeniyle hizmet yok",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a.Yerel operatörden veya yerel ağ optimize ediciden bir saha testi gerçekleştirmesini istemeniz önerilir.&lt;br>b. Ağ kararsızlığı nedeniyle güç tüketimini önlemek için beklemedeyken Uçak modunu açın.",
+        "ExpDetail": "Karmaşık ağ ortamı/zayıf sinyal nedeniyle hücre yeniden seçimi",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a.Yerel operatörden veya yerel ağ optimize ediciden bir saha testi gerçekleştirmesini istemeniz önerilir.&lt;br>b. Ağ kararsızlığı nedeniyle güç tüketimini önlemek için beklemedeyken Uçak modunu açın.",
+        "ExpDetail": "Karmaşık ağ ortamı/kararsız sinyal nedeniyle sık CPU işlemleri",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a.Yerel operatörden veya yerel ağ optimize ediciden bir saha testi gerçekleştirmesini istemeniz önerilir.&lt;br>b. Ağ kararsızlığı nedeniyle güç tüketimini önlemek için beklemedeyken Uçak modunu açın.",
+        "ExpDetail": "Karmaşık ağ ortamı/kararsız sinyal nedeniyle sık modem işlemleri",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a.Yerel operatörden veya yerel ağ optimize ediciden bir saha testi gerçekleştirmesini istemeniz önerilir.&lt;br>b. Ağ kararsızlığı nedeniyle güç tüketimini önlemek için beklemedeyken Uçak modunu açın.",
+        "ExpDetail": "Karmaşık ağ ortamı/kararsız sinyal nedeniyle modem uyku moduna giremiyor",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.",
+        "ExpDetail": "Wi-Fi ağı, uygulama mesajlarını almak için CPU'yu sürekli uyandırıyor",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, bekleme modundayken mobil ağ bağlantılarının kapatılması önerilir.&lt;br>b. Beklemedeyken Wi-Fi ağına bağlanın.&lt;br>c. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.",
+        "ExpDetail": "Modem, uygulama mesajlarını almak için CPU'yu sürekli uyandırıyor",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, bekleme modundayken mobil ağ bağlantılarının kapatılması önerilir.&lt;br>b. Beklemedeyken Wi-Fi ağına bağlanın.&lt;br>c. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.",
+        "ExpDetail": "Sık uygulama mesajları nedeniyle sürekli modem çalışması",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "a. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>b. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların dahili uygulama mağazasından indirilmesi önerilir.",
+        "ExpDetail": "Sık arka plan uygulaması etkinlikleri CPU'yu uyanık tutuyor",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "a. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>b. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların dahili uygulama mağazasından indirilmesi önerilir.",
+        "ExpDetail": "Sık arka plan uygulaması etkinlikleri CPU'yu çok uzun süre çalışır durumda tutuyor",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. 5 GHz Wi-Fi bant genişliğinin kullanılması önerilir.&lt;br>b. Beklemedeyken Wi-Fi'yi kapatın veya Wi-Fi ayarları sayfasındaki \"Tarama her zaman kullanılabilir\"i kapatın.",
+        "ExpDetail": "Karmaşık ağ ortamı nedeniyle 4G, 2.4G ve Wi-Fi sinyalleri arasında karşılıklı parazit oluyor",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. Wi-Fi ortamı zayıf. Daha iyi bir Wi-Fi ağına bağlanın.&lt;br>b. Mobil ağın kullanılması önerilir.&lt;br>c. Beklemedeyken Wi-Fi ağını kapatın.",
+        "ExpDetail": "Sık Wi-Fi taraması",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. Wi-Fi ortamı zayıf. Daha iyi bir Wi-Fi ağına bağlanın.&lt;br>b. Mobil ağın kullanılması önerilir.&lt;br>c. Beklemedeyken Wi-Fi ağını kapatın.",
+        "ExpDetail": "Wi-Fi IP yenilemesi",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. Wi-Fi ortamı zayıf. Daha iyi bir Wi-Fi ağına bağlanın.&lt;br>b. Mobil ağın kullanılması önerilir.&lt;br>c. Beklemedeyken Wi-Fi ağını kapatın.",
+        "ExpDetail": "Wi-Fi çoklu yayın anahtarı güncellemesi",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. Wi-Fi ortamı zayıf. Daha iyi bir Wi-Fi ağına bağlanın.&lt;br>b. Mobil ağın kullanılması önerilir.&lt;br>c. Beklemedeyken Wi-Fi ağını kapatın.",
+        "ExpDetail": "Zayıf Wi-Fi ortamı nedeniyle Wi-Fi bağlantısı sık sık kesiliyor ve yeniden bağlanıyor",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "Bekleme akımının normal olup olmadığını tespit etmek için bir DC güç kaynağı kullanın.",
+        "ExpDetail": "Donanımda olası elektrik kaçağı",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "SMS yeniden iletimi",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Ağ üzerinden otomatik saat eşitlemesi",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Ses ve sensör alt sistemi hatası",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Ses ve sensör alt sisteminin sık sık uyanması",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Modem, uygulama mesajlarını almak için CPU'yu sürekli uyandırıyor",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Temel alarmın sık sık uyanması",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Çekirdek çok uzun süredir çalışmaya devam ediyor",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Sensörler sık sık CPU'yu uyandırıyor",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Coulomb sayacı sık sık uyanıyor",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. CPU'nun sık sık uyanmasını önlemek için, beklemedeyken mobil ağ ve Wi-Fi bağlantılarını kapatın.&lt;br>b. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>c. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların OPPO App Market'ten indirilmesi önerilir.",
+        "ExpDetail": "Bilinmeyen neden",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "Uzun süre müzik çaldıktan sonra cihazınızın çok güç tüketmesi normaldir.",
+        "ExpDetail": "Arka plan müziği",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. Arka planda herhangi bir yazılımın indirilip indirilmediğini kontrol edin. b. Otomatik eşitleme, bulut hizmetleri ve diğer işlevlerin açık olup olmadığını kontrol edin.",
+        "ExpDetail": "İndirmeler",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "Wi-Fi erişim noktası kullanmak, telefonun güç tüketimini artırır. Kullanılmadığında kapatın.",
+        "ExpDetail": "Kullanıcı, Wi-Fi erişim noktasını açıyor",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kullanım alışkanlıklarınıza bağlı olarak telefonunuzun pili, ekran açık olarak yaklaşık %1, %2 ve ekran kapalı olarak %3 dayanabilir. Diğer pil ayrıntılarını görüntülemek için dokunun.",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "Otomatik parlaklığı açın ve telefonunuzu güçlü ışıkta çok uzun süre kullanmaktan kaçının.",
+        "ExpDetail": "Yüksek parlaklık nedeniyle hızlı güç tüketimi",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "a. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>b. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların dahili uygulama mağazasından indirilmesi önerilir.",
+        "ExpDetail": "Uygulamalar CPU kullanmaya devam ettiği için pil hızlı bitiyor. CPU kullanan ilk 5 uygulama: %1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "a. Arka plan uygulamalarını düzenli olarak kapatın. Cihazı beklemeye almadan önce Son Öğeler ekranında \"Tümünü kapat\"a dokunun.&lt;br>b. Gereksiz uygulamaları düzenli olarak silin. Uygulamaların dahili uygulama mağazasından indirilmesi önerilir.",
+        "ExpDetail": "Yüksek akım nedeniyle beklemede hızlı güç tüketimi",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "Müşteri, telefonunu uzun süredir yüksek seviyeli ekran parlaklığı ile kullanıyor. Müşteriden, telefonu kullanırken parlaklığı azaltmasını isteyin.",
+        "ExpDetail": "Uzun süreli yüksek ekran parlaklığı",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "Müşteri, telefonunu uzun süredir yüksek yenileme hızında kullanıyor. Müşteriye \"Ayarlar - Ekran ve parlaklık - Diğer - Ekran yenileme hızı\" menüsündeki \"Standart\" seçeneğini seçmesini söyleyin. Not: Bu seçenek kullanıldığında ekranın görüntü netliği azalabilir.",
+        "ExpDetail": "Uzun süreli yüksek yenileme hızı",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "Müşteri, telefonunu uzun süredir yüksek çözünürlükte kullanıyor. Müşteriden \\\"Ayarlar - Ekran ve parlaklık - Diğer - Ekran çözünürlüğü\\\" menüsünden \\\"Otomatik seç\\\"i seçmesini isteyin. Bu, ekrandaki içeriğin netliğini azaltabilir.",
+        "ExpDetail": "Uzun süreli yüksek çözünürlük",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "CPU kullanımı, %1 uygulaması nedeniyle yüksekti. Müşteriden %2 uygulamasını daha az kullanmasını isteyin.",
+        "ExpDetail": "Uzun süreli yüksek CPU kullanımı",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "%1 uygulaması, CPU\\'yu %2 saat kullandı. Müşteriye bu uygulamayı sürekli çalışır durumda tutmasının gerekip gerekmediğini sorun.",
+        "ExpDetail": "Uzun süreli uygulama kullanımı",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "Müşteri, telefonunu uzun süredir yüksek ses seviyesinde kullanıyor. Yüksek ses seviyesi işitme duyusuna zarar verebilir ve pili boşaltabilir. Müşteriden sesi kısmasını isteyin.",
+        "ExpDetail": "Uzun süreli yüksek ses seviyesi",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "Telefon sık sık sinyal kaybediyor. Müşteriden cep telefonu operatörü ile iletişime geçmesini isteyin.",
+        "ExpDetail": "Sürekli olarak hizmet yok",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "Telefon sürekli ağ arıyor. Müşteriden cep telefonu operatörü ile iletişime geçmesini isteyin.",
+        "ExpDetail": "Sürekli ağ aranıyor",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "Çok fazla mobil veri kullandınız. Pil ömrünü uzatmak için dosyaları Wi-Fi üzerinden indirebilirsiniz.",
+        "ExpDetail": "Yüksek mobil veri kullanımı",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "Son 24 saatte Wi-Fi üzerinden %1 GB veri kullandınız. Veri kullanımınızı gözden geçirmek isteyebilirsiniz.",
+        "ExpDetail": "Yüksek Wi-Fi veri kullanımı",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "%1 uygulaması pili boşaltıyor. Lütfen sorunu uygulama geliştiriciye bildirin.",
+        "ExpDetail": "Pili boşaltan uygulama",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "%1 uygulaması %2 saattir çalışıyor. Bu uygulamayı kullanmayı azaltmak isteyebilirsiniz.",
+        "ExpDetail": "Uzun süreli uygulama kullanımı",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "%1 uygulaması arka planda çalışmaya devam ediyor. Uygulamayı artık kullanmadığınızda kapatabilirsiniz.",
+        "ExpDetail": "Uygulama arka planda çalışmaya devam ediyor",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "%1 uygulaması telefonu sürekli uyandırıyor. Cihazınızı kilitlemeden önce uygulamayı kapatabilirsiniz.",
+        "ExpDetail": "Uygulama telefonu uyandırmaya devam ediyor",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "%1 uygulaması, ekran kapalıyken CPU\\'yu kullanmaya devam ediyor. Cihazınızı kilitlemeden önce uygulamayı kapatabilirsiniz.",
+        "ExpDetail": "Uygulama, ekran kapalıyken CPU\\'yu kullanıyor",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "%1 uygulaması, ekran kapalıyken ağı kullanmaya devam ediyor. Cihazınızı kilitlemeden önce uygulamayı kapatabilirsiniz.",
+        "ExpDetail": "Uygulama ekran kapalıyken ağı kullanmaya devam ediyor",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "Telefon hızlı şarj olurken, şarj cihazı yüksek voltajı düşük voltaja dönüştürür. Bu sırada büyük miktarda enerji dönüşümü olur ve bu da ısınmaya neden olacaktır. Telefonu ısı dağılımının iyi olduğu bir ortamda şarj etmenizi öneririz.",
+        "ExpDetail": "Telefon şarj oluyor",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "Flaşın uzun süre kullanılması ısı üretir. Flaşın zarar görmesini önlemek için flaşı uzun süre kullanmayın.",
+        "ExpDetail": "Flaş açık",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "Uzun süreli yüksek parlaklık kullanımı. Ekran parlaklığını azaltın veya otomatik parlaklığa ayarlayın.",
+        "ExpDetail": "Arka ışık çok güçlü",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "Zayıf ağ sinyali nedeniyle telefon ısınıyor. Sinyalin zayıf olduğu yerlerde telefon anteninin daha geniş bir alanda sinyal aramak için gücünü arttırması gerekir ve bu da daha fazla ısı üretmesine neden olur. \"Ayarlar - Mobil ağ - Diğer ayarlar\" bölümüne gidin ve Akıllı 5G seçeneğini etkinleştirin. Mevcut sinyal durumunu belirleyemiyorsanız yerel ağ operatörünüze danışın.",
+        "ExpDetail": "Zayıf telefon sinyali",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "Zayıf ağ sinyali nedeniyle telefon ısınıyor. Sinyalin zayıf olduğu yerlerde telefon anteninin daha geniş bir alanda sinyal aramak için gücünü arttırması gerekir ve bu da daha fazla ısı üretmesine neden olur. Mevcut sinyal durumunu belirleyemiyorsanız yerel ağ operatörünüze danışın.",
+        "ExpDetail": "Zayıf telefon ağı sinyali",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "Arka plan uygulaması %1 çok fazla CPU kullandığından telefon ısınıyor. Arka planda sinyal aramak için Wi-Fi, GPS, NFC, Bluetooth ve diğer işlevler aynı anda açılırsa telefon ısınacaktır. Arka plan uygulamalarını temizlemeniz ve kullanılmayan işlevleri kapatmanız önerilir. Arka plan uygulamalarını temizleyebilir veya telefonu yeniden başlatabilirsiniz.",
+        "ExpDetail": "Arka plan uygulaması %1 aşırı CPU kullanıyor",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "%1, çok fazla CPU kullanan ve telefonun ısınmasına neden olan yüksek yüklü bir uygulamadır. Telefonu uzun süreyle yoğun şekilde kullanmaktan kaçının. Bileşenlerine zarar gelmemesi için soğumasını bekleyin.",
+        "ExpDetail": "Ön plan uygulaması %1 aşırı CPU kullanıyor",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "Telefonun GPS'i kullanılıyor. Telefon konum bilgisini güncellemek için uzun süre uydu sinyali arayıp sinyal gönderirse ısınabilir.\nKullanıcının navigasyonu açıp açmadığını veya herhangi bir üçüncü taraf konum tabanlı uygulamanın otomatik olarak konum bilgisini alıp almadığını kontrol edin.",
+        "ExpDetail": "Sabit GPS konumlandırma",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "Bazı uygulamalar arka planda aynı anda çalıştığı için telefon ısınıyor. Arka plan önbelleklerinin düzenli olarak temizlenmesi önerilir.\n① Lütfen arka planda bir yazılım indirilip indirilmediğini kontrol edin.\n② Senkronizasyon, Bulut Hizmeti ve diğer işlevlerin açık olup olmadığını kontrol edin.",
+        "ExpDetail": "Arka planda %1 eşitlemesi",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "%1 uygulaması arka planda aynı anda çalıştığı için telefon ısınıyor. Arka plan önbelleklerinin düzenli olarak temizlenmesi önerilir.\n① Lütfen arka planda bir yazılım indirilip indirilmediğini kontrol edin.\n② Senkronizasyon, Bulut Hizmeti ve diğer işlevlerin açık olup olmadığını kontrol edin.",
+        "ExpDetail": "Arka planda %1 eşitlemesi",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "Uzun süren arama algılandı Telefonun sinyal anteni, mikrofonu ve hoparlörü arama sırasında çalışmaya devam ettiğinden telefonun uzun süren aramalar sırasında ısınması normaldir.\n Telefonun nasıl soğutulacağına ilişkin ipuçları için lütfen \"Telefon görüşmeleri sırasında telefon ısınıyor\" bilgi tabanına bakın.",
+        "ExpDetail": "Telefon her zaman aramada",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "Uzun süreli/sık kamera kullanımı tespit edildi Fotoğraf veya video çekerken cep telefonunun kamerası, CPU, GPU ve diğer cihazları aynı anda çalışır ve cep telefonu yüksek yük altında çalışır, bu da cep telefonunun ısınmasına neden olacaktır.\n Kamerayı kullanırken telefonun nasıl soğutulacağına ilişkin ipuçları için lütfen \"Fotoğraf ve video çekerken telefon ısınıyor\" bilgi tabanına bakın.",
+        "ExpDetail": "Kamera uygulaması çalışıyor",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "Kullanıcıdan telefonu sıcaklığın yüksek olduğu ortamlarda kullanmamasını ve telefonda elektrik kaçağı olup olmadığını kontrol etmek için bir DC güç kaynağı kullanmasını isteyin.",
+        "ExpDetail": "Ortamdan veya donanımdan kaynaklanan ısınma",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "Lütfen kullanıcıya telefonun nasıl kullanıldığını sorun ve sorunu araştırmak için bu bilgiyi güç tüketen uygulamalar ve güç tüketimi teşhisiyle birlikte değerlendirin. Anormal bir durum yoksa kullanıcıya telefonda elektrik kaçağı olup olmadığını bir servis merkezinde kontrol ettirmesini önerin.",
+        "ExpDetail": "Bilinmeyen neden",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "%1 gün maksimum sıcaklık: %2℃. Gerçekleşme sayısı: %3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "Telefon şarj edilirken kullanıldığı için ısınıyor. Pillerin veya şarj cihazlarının şarj sırasında ısınması normaldir ve telefonunuzu şarj sırasında kullanmak daha fazla ısı üretecektir.",
+        "ExpDetail": "Şarj etme sırasında kullanmaktan kaynaklanan aşırı ısınma",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "Şarj etme sırasında ısı oluşması normaldir. Telefonunuzu, iyi havalandırılan, ısının kolayca dağıldığı bir yerde şarj etmeniz önerilir. Telefonunuzu kanepede, giysiler üzerinde veya güneşte şarj etmeyin.",
+        "ExpDetail": "Şarj olurken aşırı ısınma (Şarj olurken ekran açık: %1; Şarj olurken ön plan uygulaması: %2)",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "%1 oyununu oynarken telefon ciddi ölçüde ısınıyor. Oyunlar sırasında, görüntü kalitesinin ve akıcılığın sağlanması için telefonunuzun CPU ve GPU gibi yongalarının yüksek performansta çalışması gerekir. Bu gibi ağır bir yük telefonun daha fazla ısınmasına neden olacaktır. Bu sorunu iyileştirmek için ayarları (çözünürlük ve kare hızı) düşürün, ekran parlaklığını azaltın ve oyunlar için ses seviyesini alçaltın.",
+        "ExpDetail": "Oyun sırasında aşırı ısınma (Oyun: %1; Görüntü kalitesi: %2; Çözünürlük: %3; Oyun modu: %4)",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "Şarj sırasında oyun oynadığınız için telefon ısınıyordur. Şarj sırasında meydana gelen enerji dönüşümü ısıya neden olur. Telefonu şarj ederken oyun oynadığınızda, görüntü kalitesinin ve akıcılığın sağlanması için CPU ve GPU gibi telefon yongalarının yüksek performansta çalışması gerekir, bu da daha fazla ısı üretecektir. Lütfen telefonunuzu şarj sırasında mümkün olduğunca kullanmaktan kaçının.",
+        "ExpDetail": "Şarj olurken oyun oynanıyor",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "Sinyal vericisinin bağlantı bulmak için fazla çalışması gereken zayıf sinyalli bir yerde oyun oynuyorsunuz ve bu da telefonun kolayca ısınmasına neden olabilir. Ayrıca CPU ve GPU gibi telefon yongalarının oyun sırasında görüntü kalitesinin ve akıcılığın sağlanması için yüksek performansta çalışması gerekir, bu da daha fazla ısı üretecektir. Lütfen mümkünse ağ bağlantısının iyi olduğu bir yere geçin.",
+        "ExpDetail": "Zayıf mobil sinyal nedeniyle oyun sırasında aşırı ısınma",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "Oyun oynadığınız sırada ortamdaki sıcaklık yüksektir. Bu, telefonunuzun yüksek performansta çalışması gerektiği ve ısı üreteceği anlamına gelir. Yüksek sıcaklık ısı dağılımını yavaşlatacak ve daha fazla ısıya neden olacaktır.",
+        "ExpDetail": "Sıcak yerlerde oyun oynanıyor",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "Sistem, telefonunuzda \\\"Otomatik parlaklık\\\" özelliğinin kapalı olduğunu algıladı. Akıllı parlaklık kontrolüne izin vermek ve güç kullanımını azaltmak için \\\"Ayarlar - Ekran ve parlaklık - Otomatik parlaklık\\\" menüsüne gidin.",
+        "ExpDetail": "Kapat"
+    },
+    "t04030201": {
+        "ExpAdvice": "Sistem, telefonunuzda \\\"Konum hizmeti\\\"nin açık olduğunu algıladı. GPS\\'in arka planda çalışması güç kullanımını artırır. İhtiyacınız olmadığında güç kullanımını azaltmak için işlevi kapatabilirsiniz. Bunun için durum çubuğunu aşağı kaydırın ve \\\"Konum\\\"a dokunun veya \\\"Ayarlar - Gizlilik - Konum - Konum hizmeti\\\"ne gidin.",
+        "ExpDetail": "Aç"
+    },
+    "t04030301": {
+        "ExpAdvice": "Sistem, telefonunuzda Bluetooth\\'un açık olduğunu algıladı. Bluetooth\\'un arka planda çalışması güç kullanımını artırır. İhtiyacınız olmadığında güç kullanımını azaltmak için işlevi kapatabilirsiniz. Bunun için \\\"Ayarlar - Bluetooth\\\"a gidin.",
+        "ExpDetail": "Aç"
+    },
+    "t04030401": {
+        "ExpAdvice": "Sistem, telefonunuzda \\\"Kişisel erişim noktası\\\"nın açık olduğunu algıladı. Erişim noktasının arka planda çalışması güç kullanımını artırır. İhtiyacınız olmadığında güç kullanımını azaltmak için işlevi kapatabilirsiniz. Bunun için \\\"Ayarlar - Bağlantı ve paylaşma - Kişisel erişim noktası\\\"na gidin.",
+        "ExpDetail": "Aç"
+    },
+    "t04030501": {
+        "ExpAdvice": "Sistem, telefonunuzda NFC\\'nin açık olduğunu algıladı. NFC\\'nin arka planda çalışması güç kullanımını artırır. İhtiyacınız olmadığında güç kullanımını azaltmak için işlevi kapatabilirsiniz. Bunun için \\\"Ayarlar - Bağlantı ve paylaşma - NFC\\\"ye gidin.",
+        "ExpDetail": "Aç"
+    },
+    "t04030601": {
+        "ExpAdvice": "Sistem, telefonunuzda yüksek performans modunun açık olduğunu algıladı. Bu mod güç kullanımını artırır. İşlevi kapatmak ve güç kullanımını azaltmak için \\\"Ayarlar - Pil - Diğer - Yüksek performans modu\\\"na gidin.",
+        "ExpDetail": "Aç"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Giden veya gelen aramaların sayısı 10'dan az olduğu için günlük analizi başarısız oldu.",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. Operatörün VoLTE işlevini etkinleştirin ve Ayarlar'da yüksek netlikte aramayı açın.&lt;br>2. RF iletiminin ve sinyal alma performansının normal olduğundan emin olmak için telefonun PA performansını kontrol edin (tüm 2G, 3G ve 4G bantları dahil).&lt;br>3. Mobil ağ sinyali kapsamı ortama göre değişiyor. Ağ sinyali zayıfsa yerel şebeke operatörüyle iletişime geçin.&lt;br>4. Bodrum katları, kapalı garajlar ve kalabalık alanlarda ağ sinyali zayıf olabilir. Zayıf sinyal kalitesi aramaları etkiler. Açık bir alana geçtiğinizde arama kalitesi iyileşecektir.&lt;br>5. Yazılım sürümünü güncelleyin.",
+        "ExpDetail": "1. Kesilen aramalar: %1, yüzde: %2&lt;br>2. Giden arama hataları: %3, yüzde: %4&lt;br>3. Gelen arama hataları: %5, yüzde: %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "Ağ, telefonun isteğini aldı ancak yanıt vermedi.",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "Ağ yanıt vermedi.",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "IMS hizmetine ulaşılamıyor",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "Sunucu hatası",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "Telekom CDMA aramaları kesintiye uğrattı ve 2G temel bağlantısı zaman aşımına uğradı.",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "Devre etki alanı kullanılamıyor",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "Hizmet yok",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "Aranan numara geçersiz",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "Ağda yoğunluk var. Daha sonra tekrar arayın.",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "(IMS dışı kesilen aramalar) Temel bağlantı hatası, ağ gücü ile güçlü bir şekilde ilişkilidir.",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. Operatörün VoLTE işlevini etkinleştirin ve Ayarlar'da yüksek netlikte aramayı açın.&lt;br>2. RF iletiminin ve sinyal alma performansının normal olduğundan emin olmak için telefonun PA performansını kontrol edin (tüm 2G, 3G ve 4G bantları dahil).&lt;br>3. Mobil ağ sinyali kapsamı ortama göre değişiyor. Ağ sinyali zayıfsa yerel şebeke operatörüyle iletişime geçin.&lt;br>4. Bodrum katları, kapalı garajlar ve kalabalık alanlarda ağ sinyali zayıf olabilir. Zayıf sinyal kalitesi aramaları etkiler. Açık bir alana geçtiğinizde arama kalitesi iyileşecektir.&lt;br>5. Yazılım sürümünü güncelleyin.",
+        "ExpDetail": "1. Giden arama hataları: %1&lt;br>2. Gelen arama hataları: %2&lt;br>3. Bağlantısı kesilen aramalar: %3",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "Telefondaki SIM kart, ağ ile uyumlu değil. Müşteriden yeni bir SIM kart almasını isteyin.",
+        "ExpDetail": "1. Giden arama hataları: %1&lt;br>2. Gelen arama hataları: %2&lt;br>3. Bağlantısı kesilen aramalar: %3",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "Güncelleme mevcut",
+        "ExpDetail": "1. Giden arama hataları: %1&lt;br>2. Gelen arama hataları: %2&lt;br>3. Bağlantısı kesilen aramalar: %3",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "Ağ uyumluluğu ile ilgili bir sorun olabilir. Ağ ortamının normal olup olmadığını kontrol etmek için ağ sağlayıcısıyla iletişime geçin veya sorunu yeniden oluşturma ve günlük yakalama için mühendislerimizle iletişim kurun.",
+        "ExpDetail": "1. Giden arama hataları: %1&lt;br>2. Gelen arama hataları: %2&lt;br>3. Bağlantısı kesilen aramalar: %3",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "Geçici bir ağ sorunu var. Telefon düzgün şekilde çalışıyor.",
+        "ExpDetail": "1. Giden arama hataları: %1&lt;br>2. Gelen arama hataları: %2&lt;br>3. Bağlantısı kesilen aramalar: %3",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "Güncelleme mevcut",
+        "ExpDetail": "1. Giden arama hataları: %1&lt;br>2. Gelen arama hataları: %2&lt;br>3. Bağlantısı kesilen aramalar: %3",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "Ağ uyumluluğu ile ilgili bir sorun olabilir. Ağ ortamının normal olup olmadığını kontrol etmek için ağ sağlayıcısıyla iletişime geçin veya sorunu yeniden oluşturma ve günlük yakalama için mühendislerimizle iletişim kurun.",
+        "ExpDetail": "1. Giden arama hataları: %1&lt;br>2. Gelen arama hataları: %2&lt;br>3. Bağlantısı kesilen aramalar: %3",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "Ağ uyumluluğu ile ilgili bir sorun olabilir. Ağ ortamının normal olup olmadığını kontrol etmek için ağ sağlayıcısıyla iletişime geçin veya sorunu yeniden oluşturma ve günlük yakalama için mühendislerimizle iletişim kurun.",
+        "ExpDetail": "1. Giden arama hataları: %1&lt;br>2. Gelen arama hataları: %2&lt;br>3. Bağlantısı kesilen aramalar: %3",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. Aynı operatöre ait diğer telefonlarla deneyin. Sorun oluşmaya devam ediyorsa yapılacak işlemler için operatörle iletişime geçin.&lt;br>2. Bu durum genellikle benzer zaman aralığında gerçekleşiyorsa müşteriden konumlarını öğrenin. Bodrum katlar, garajlar, trafiğin yoğun olduğu, halka açık alanlar ve hareket halindeki araçlarda sinyalin zayıf olması normaldir.&lt;br>3. Müşteriye metalik veya kaplamalı koruyucu kılıf kullanıp kullanmadığını sorun.&lt;br>4. RF iletiminin ve sinyal alma performansının normal olduğundan emin olmak için telefonun PA performansını kontrol edin (tüm 2G, 3G ve 4G bantları dahil).",
+        "ExpDetail": "Zayıf sinyalin yeri, son %1 günde daha yoğun",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. SIM yüklemesinin başarılı olup olmadığını kontrol edin.\n2. Operatör şebekesinin kararlı olduğunu ve sorunun yalnızca belirli alanlarda oluşup oluşmadığını kontrol edin.\n3. Sorunun başka bir cihazda oluşup oluşmadığını kontrol edin.\n4. Sorunları kontrol etmek için cihazınızı yeniden başlatın veya Uçak modu'nu açın.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1. Müşteriye metalik veya kaplamalı koruyucu kılıf kullanıp kullanmadığını sorun.&lt;br>2. Müşteriye telefonları bodrum, garaj, trafiğin yoğun olduğu, halka açık alan ve hareket halindeki araçlar gibi sinyalin zayıf olduğu yerlerde kullanıp kullanmadığını sorun.&lt;br>3. Zayıf sinyal uzun bir süre boyunca ve sürekli olarak aynı yerlerde oluyorsa bu durumun nedeni sinyal sorunları olabilir.&lt;br>4. PA sinyal alma performansını saptamak için gerekli araçları kullanarak telefonun PA performansını kontrol edin (tüm 2G, 3G ve 4G bantları dahil).",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. Test sırasında telefona dokunmadığınızdan emin olun.&lt;br>2. Sorun devam ederse bazı frekans bantlarında sorunlar olabileceği için donanımı değiştirin.",
+        "ExpDetail": "Hata bandı: %1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "Test başlatılamadı. Lütfen SIM kartın çıkarıldığını onaylayın.",
+        "ExpDetail": "SIM kart çıkarılmadı"
+    },
+    "t05050104": {
+        "ExpAdvice": "Test başlatılamadı. Lütfen Uçak modunun kapatıldığını onaylayın.",
+        "ExpDetail": "Uçak modu açık"
+    },
+    "t05050105": {
+        "ExpAdvice": "Test tamamlanamadı. Lütfen telefonunuzu yeniden başlatın ve bu özelliği tekrar test edin. Sorun devam ederse lütfen bu arızalı parçayı yenisiyle değiştirin.",
+        "ExpDetail": "Modem modu hatası"
+    },
+    "t05050106": {
+        "ExpAdvice": "Test tamamlanamadı. Lütfen telefonunuzu yeniden başlatın ve bu özelliği tekrar test edin. Sorun devam ederse lütfen bu arızalı parçayı yenisiyle değiştirin.",
+        "ExpDetail": "Test sırası hatası"
+    },
+    "t05050107": {
+        "ExpAdvice": "Telefonunuzun yeterince şarj edildiğinden emin olun ve bu özelliği tekrar test edin.",
+        "ExpDetail": "Düşük pil"
+    },
+    "t05050108": {
+        "ExpAdvice": "RF testi tamamlandı. Tüm işlevlerin düzgün çalıştığından emin olmak için telefonunuz otomatik olarak yeniden başlatılacaktır.",
+        "ExpDetail": "RF testi tamamlandı."
+    },
+    "t05070101": {
+        "ExpAdvice": "Olası nedenler:&lt;br>1. Mevcut ortamın ağ ve sinyal kalitesini doğrulayın. Sinyal zayıfsa büyük olasılıkla geçici ağ sorunları vardır.&lt;br>2. Sorunun bir üçüncü taraf uygulama ile ilgili olup olmadığını doğrulayın.&lt;br>Öneriler:&lt;br> Ağ sorunu olması durumunda, müşteriden Uçak modu'nu ve mobil veriyi açıp kapatmak, APN ayarlarını sıfırlamak, telefonu kapatmadan SIM kartı çıkarıp takmak gibi yöntemleri deneyerek sorunu kendi başına çözmesini isteyin. Lütfen operatör ile iletişime geçin.",
+        "ExpDetail": "Otomatik veri bağlantısı kesilmesi; aşağı bağlantısız oluşturulan yukarı bağlantı (bir tür ağ tıkanıklığı); Çevirmeli bağlantı işlemi sırasında APN ile ilgili hatalar; gecikmiş ödeme nedeniyle ağ bağlantısının kesilmesi; veri sınırına ulaşıldığı için veri ağı hızı kısıtlandı; çevirmeli bağlantı başarısız oldu",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "APN, müşteri tarafından manuel olarak eklenir. Varsayılan APN'ye sıfırlayın.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. SIM kartın doğru takıldığından emin olun.&lt;br>2. Ödenmemiş faturalar veya fazla veri kullanımı nedeniyle mobil veri hizmetinin sonlandırılıp sonlandırılmadığını kontrol edin.&lt;br>3. Mobil veriyi ve Uçak modu'nu kapatıp tekrar açın veya cihazı yeniden başlatın.&lt;br>4. Operatörün ağında sorun olup olmadığını kontrol edin.",
+        "ExpDetail": "Veri ağı hatası algılandı. Bunun nedeni ağ bağlantısı sorunları olabilir.",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. Telefonun gecikmiş telefon faturası olup olmadığını veya bir hız sınırının geçerli olup olmadığını kontrol edin.&lt;br>2. Radyo frekansının normal olup olmadığını kontrol etmek için PA testi yapın.&lt;br>3. Radyo frekansı normalse sorunu yeniden oluşturmak ve günlükleri yakalamak için yerel ağ optimizasyon personeli ile iletişime geçin.&lt;br>4. Ağ optimizasyon personeli uygun değilse veya müşteri sorunu yeniden oluşturmayı kabul etmiyorsa flash yazma ile yeni bir ROM yükleyin.&lt;br>5. Flash yazma ile ROM güncellendikten 10 gün sonra sorunun devam edip etmediğini kontrol edin. Devam ediyorsa sorunu bir donanım sorunu olarak giderin.",
+        "ExpDetail": "Veri ağı hatası algılandı. Bunun nedeni telefon sorunları olabilir.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "APN, müşteri tarafından manuel olarak eklenir. Varsayılan APN'ye sıfırlayın.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "Veri hızları operatör tarafından kısıtlandı. Daha ayrıntılı bilgi edinmek için operatör ile iletişime geçin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "Yerel ağ kararsız. Ağ ortamını diğer yerlerle karşılaştırın ve onaylanırsa operatörünüze ağ ortamını geliştirmesi için başvurun.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. SIM kartlar için ödenmemiş faturalarınızın olmadığından emin olun.&lt;br>2. Uygulamalar için ağ izinlerinin açık olduğunu kontrol edin.&lt;br>3. SIM kartı başka bir cihaza takın ve doğru çalışıp çalışmadığını kontrol edin.&lt;br>4. Mobil veriyi ve Uçak modu'nu kapatıp tekrar açın veya cihazı yeniden başlatın.&lt;br>5. Operatör ağında herhangi bir sorun olup olmadığını kontrol edin.",
+        "ExpDetail": "Veri ağı hatası algılandı. Bunun nedeni ağ bağlantısı sorunları olabilir.",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "APN, müşteri tarafından manuel olarak eklenir. Varsayılan APN'ye sıfırlayın.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "Veri hızları operatör tarafından kısıtlandı. Daha ayrıntılı bilgi edinmek için operatör ile iletişime geçin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "Veri tasarrufu modu\\'nun açılması, ağ deneyiminizi etkileyebilir.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "Yerel ağ kararsız. Ağ ortamını diğer yerlerle karşılaştırın ve onaylanırsa operatörünüze ağ ortamını geliştirmesi için başvurun.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1. SIM kartlar için ödenmemiş faturalarınızın olmadığından emin olun.&lt;br>2. Uygulamalar için ağ izinlerinin açık olduğunu kontrol edin.&lt;br>3. Mobil veriyi ve Uçak modu'nu kapatıp tekrar açın veya cihazı yeniden başlatın.&lt;br>4. Operatör şebekesinde herhangi bir sorun olup olmadığını kontrol edin.",
+        "ExpDetail": "Veri ağı hatası algılandı. Bunun nedeni ağ bağlantısı sorunları olabilir.",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "Radyo frekansının normal olup olmadığını kontrol edin.",
+        "ExpDetail": "Telefon aramaları yapılamıyor",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "Kulaklık yardımıyla sorunun alıcı (kulaklık hoparlörü) ile ilgili olup olmadığını kontrol edin. Öyle ise alıcıda (kulaklık hoparlörü) hasar olup olmadığını ve alıcı bileşenlerinin düzgün bağlanıp bağlanmadığını kontrol edin ya da ana kartın ses bileşenlerini kontrol edin.",
+        "ExpDetail": "Aramalar sırasında ses yok",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. Alıcının (kulaklık hoparlörü) içine toz veya sıvı girip girmediğini kontrol edin. Parçayı değiştirip tekrar test edin.&lt;br>2. Anakartın sinyal işlemesini kontrol edin.",
+        "ExpDetail": "Aramalarda gürültü var",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "Müşterinin açıklamasıyla uyumlu donanım sorunları varsa bunları donanım sorunları olarak ele alın.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "Müşterinin açıklamasıyla uyumlu donanım sorunları varsa bunları donanım sorunları olarak ele alın.",
+        "ExpDetail": "Toplam gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "Uydu arama testi yapmak için telefonla açık bir alana gidin. Normalde GPS sinyal gücü 30'u geçmelidir; aksi halde GPS donanımını kontrol edin.",
+        "ExpDetail": "Zayıf uydu sinyali",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "Sistemin GPS'inin kapalı olup olmadığını kontrol edin. Müşteriye hangi uygulamanın GPS'i kullanamadığını sorun ve uygulama izinlerini kontrol edin.",
+        "ExpDetail": "GPS veya ilgili izin açık değil",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Yetersiz GPS verisi nedeniyle günlük analizi başarısız oldu.",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "GPS yakın zamanda kullanılmadığı için Tanılama başarısız oldu. Konum hizmetinin çok uzun süre kapalı tutulması, başarısız konumlandırmanın nedeni olabilir.",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "Uydu arama testi yapmak için telefonla açık bir alana gidin. Normalde GPS sinyal gücü 30'u geçmelidir; aksi halde GPS donanımını kontrol edin.",
+        "ExpDetail": "Olası nedenler arasında GPS donanım sorunları veya GPS'in kapalı ortamlarda kullanılması yer alır",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "Yetersiz GPS kullanımı nedeniyle Tanılama başarısız oldu.",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "Uydu arama testi yapmak için telefonla açık bir alana gidin. Normalde GPS sinyal gücü 30'u geçmelidir; aksi halde GPS donanımını kontrol edin.",
+        "ExpDetail": "GPS normal çalışıyor. Müşteri yürürken navigasyonu kullandığında parazit olabilir.",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "Uydu arama testi yapmak için telefonla açık bir alana gidin. Normalde GPS sinyal gücü 30'u geçmelidir; aksi halde GPS donanımını kontrol edin.",
+        "ExpDetail": "GPS normal çalışıyor. Müşteri araç içinde navigasyonu kullandığında parazit olabilir.",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "GPS anteninin hasarlı, deforme veya temasının kötü olup olmadığını kontrol edin.",
+        "ExpDetail": "GPS anten sorunu",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "GPS yakın zamanda kullanılmadığı için Tanılama başarısız oldu.",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "Koruyucu kılıfı çıkarıp tekrar deneyin",
+        "ExpDetail": "Metal bir koruyucu kılıf kullanılıyor",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "\\\"Wi-Fi taraması her zaman kullanılabilir\\\" özelliğinin çok uzun süre kapalı kalması, iç mekan senaryolarında konumlandırma hatasına veya yanlış konumlandırmaya neden olabilir. Bu özelliğin açık olup olmadığını kontrol edin.",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "\"Ağ konumlandırma doğruluğu\" özelliğinin çok uzun süre kapalı kalması, iç mekan senaryolarında konumlandırma hatasına veya yanlış konumlandırmaya neden olabilir. Daha doğru konumlandırma için bu özelliği açmak üzere \"Düzelt\"e dokunun. Çin Anakarası dışındaki kullanıcılar için tasarlanmış bir telefon kullanıyorsanız, \"Google Konum Doğruluğu\" sayfasına girmek için Hızlı Ayarlar'daki Konum simgesini basılı tutun ve \"Konum Doğruluğunu İyileştir\" işlevini açın\".",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "Bu sorun, kullanıcının GPS ortamından kaynaklanır ve değiştirme yoluyla çözülemez. Telefonunuzu otomotiv navigasyon sistemleri, orta konsollar ve diğer elektronik cihazlar gibi harici parazit kaynaklarından uzak tutun.",
+        "ExpDetail": "Kullanıcının GPS ortamı ile girişim"
+    },
+    "t06020101": {
+        "ExpAdvice": "Olası nedenler:&lt;br>(Cihaz yazılımı yükleme hatası; sürücü yükleme hatası; bölme takma hatası; diğer nedenler)&lt;br>Öneriler:&lt;br>1. Cihazı yeniden başlatın.&lt;br>2. Sorunu kontrol etmek için son sürüme güncelleyin.",
+        "ExpDetail": "%1 kez açılamadı",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "Olası nedenler: &lt;br/>(Cihaz yazılımı yükleme hatası; sürücü yükleme hatası; bölme takma hatası; diğer nedenler; Wi-Fi çip yükleme hatası; Wi-Fi yazılım çalıştırma hatası; Wi-Fi yazılım sistem kanalının yapılandırma dosyaları yüklenemedi; Wi-Fi yazılım sisteminin radyo frekansı dosyaları yüklenemedi; Wi-Fi yazılım sistemi cihaz yazılımının yapılandırma dosyaları yüklenemedi; alt sistem çöktü)&lt;br/>Öneriler:&lt;br/>1. Cihazı yeniden başlatın. &lt;br/>2. Son sürüme güncelleyin. 3. Müşteriden telefonunu yeniden başlatmasını isteyin. &lt;br/>4. Sorun devam ederse flash yazma ile bir ROM yükleyin veya bir OTA güncellemesi yükleyin. &lt;br/>5. Bu \\\"ölü\\\" bir arıza ise bir donanım sorunu olarak ele alın. &lt;br/>3. Sorun yeniden oluşturulabiliyorsa internete bağlanmayı ve SIM kart üzerinden arama yapmayı deneyin. Bu 2 görevi gerçekleştiremezseniz ağ modülü Modeminin yeniden başlatılması gerekir. &lt;br/>4. Müşteriden telefonunu yeniden başlatmasını isteyin. &lt;br/>5. Sorun devam ederse flash yazma ile bir ROM yükleyin veya bir OTA güncellemesi yükleyin. &lt;br/>6. Bu \\\"ölü\\\" bir arıza ise bir donanım sorunu olarak ele alın.",
+        "ExpDetail": "%1 kez açılamadı",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "Son sürüme flash'lama önerilir.",
+        "ExpDetail": "Sık kullanılan AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1. Telefonun neden olduğu kararsız ağ bağlantısı: Son sürüme güncelleyin ve tekrar deneyin.&lt;br>2. DNS hatası: Özel bir DNS'in ayarlanıp ayarlanmadığını kontrol edin. Ayarlıysa özel DNS'i silin, ayarlı değilse yönlendiriciyi kontrol edin.&lt;br>3. Diğer nedenler: 1. Yönlendiriciyi yeniden başlatın.&lt;br>2. Aynı yönlendiriciyi kullanan diğer telefonlarda da aynı sorun varsa yönlendiricinin değiştirilmesi önerilir.&lt;br>3. Varsayılan yönlendirici kanalına geçiş yapın. 5G kanalını kullanmayı deneyin. Daha az parazit olan bir kanal bulmak için Wi-Fi analiz cihazı ve diğer araçları kullanın.",
+        "ExpDetail": "Sık kullanılan AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Yetersiz veri nedeniyle Tanılama başarısız oldu.",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "Wi-Fi Ayarları",
+        "ExpDetail": "Kablosuz ayarları",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "Üçüncü taraf bağlantı yazılımı, Wi-Fi erişim noktası şifresini kırmayı deneyip başarısız olabilir ve bu da bağlantının başarısız olmasına neden olabilir. Ayarlar uygulamasında Wi-Fi ağına bağlanmanız önerilir.",
+        "ExpDetail": "Sık kullanılan uygulamalar: %1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "Yetersiz üçüncü taraf bağlantıları nedeniyle günlük analizi başarısız oldu",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "Yönlendiriciyi yeniden başlatın veya AP ile ilgili sorun olup olmadığını kontrol etmek için bu yönlendiriciye bağlayarak diğer cihazları kullanın. Hiçbir sorun yoksa Wi-Fi ağını kapatıp açın veya telefonu yeniden başlatın. Sorun devam ediyorsa daha fazla test için cihazı gönderin.&lt;br>(Şifrenizin doğru olduğundan emin olun. Bağlanmadan önce Wi-Fi ağına geçin ve AP'nin bulunduğundan emin olun. Yönlendirici ayarlarını kontrol edin veya diğer AP'lere bağlanın. Daha güçlü sinyal alınan bir ortamda bağlantı yapılması önerilir. IP'lerin doğru olup olmadığını veya tüm IP'lerin kullanılıp kullanılmadığını kontrol edin.)",
+        "ExpDetail": "Wi-Fi ayarı hataları: &lt;br>(Yanlış şifre; AP bulunamadı; yönlendirici ayarları hatası veya aşırı yük; zayıf sinyaller; statik IP adresi)",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "Wi-Fi antenini ve Wi-Fi çipini kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "Sık kullanılan AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "Yönlendiricinin DHCP sunucusundaki tüm IP adreslerinin kullanılıp kullanılmadığını kontrol edin.",
+        "ExpDetail": "IP adresi alınamadı",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Yönlendirici algılama hatası nedeniyle kimlik doğrulama başarısız oldu",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "Wi-Fi ağına bağlandıktan sonra telefonun uzun süre kullanılıp kullanılmadığını kontrol edin.",
+        "ExpDetail": "Etkin olmayan bağlantı. Uzun süre boyunca veri aktarımı olmadı.",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "Yönlendiricinin çok fazla cihaza bağlı olup olmadığını kontrol edin. Bazı cihazlar ile bağlantıyı kesmeyi deneyin.",
+        "ExpDetail": "Sınırlı yönlendirici bağlantısı",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Yönlendirici algılama hatası nedeniyle kimlik doğrulaması yok",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Yönlendirici algılama hatası nedeniyle bağlantı yok",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Telefon ağ dışında",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Bağlantı kimlik doğrulaması başarısız oldu",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "Bu normal bir durum olduğu için herhangi bir işlem yapılmasına gerek yoktur.",
+        "ExpDetail": "Yönlendirici, dolaşımı başlatıyor",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Mesajın tamlığı doğrulanamadı",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Veri alışverişi zaman aşımına uğradı",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Yönlendirici algılama hatası nedeniyle anahtar güncellemesi zaman aşımına uğradı",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Geçersiz anahtar",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Ciddi kare kaybını onaylayın",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Telefon dolaşımı başarısız oldu",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Telefon modülleri otomatik olarak kurtarılır",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Etkin olmayan yönlendirici",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "İşaretçi zaman aşımına uğradı",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "İletişim kanalına geçiş yapılamadı",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "İşaretçi zaman aşımına uğradığı için bağlantı başarısız oldu",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "İşaretçi zaman aşımına uğradı. Telefon yönlendirici adresini alamadı.",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. Önce son sürüme güncelleyin.&lt;br>b. Sorun devam ederse yönlendiriciyi yeniden başlatın veya başka bir cihazı kullanıp bağlanarak yönlendiricinin düzgün çalışıp çalışmadığını kontrol edin.&lt;br>c. Yönlendiricide sorun yoksa tekrar denemek için Wi-Fi bağlantısını kapatıp açın, yönlendiriciyi yeniden bağlayın veya telefonu kapatıp açın.&lt;br>d. Sorun hala düzeltilmediyse günlük kaydı yapın.",
+        "ExpDetail": "Bilinmeyen neden",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. Müşteriye telefonunu yeniden başlatmasını söyleyin.&lt;br>2. Sorun devam ederse flash yazma ile yeni bir ROM yükleyin veya son sistem sürümüne güncelleyin.&lt;br>3. Sorun devam ederse bunu bir donanım sorunu olarak çözün.",
+        "ExpDetail": "Wi-Fi cihaz yazılımı sorunları",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "\\\"Ayarlar - Bağlantı ve paylaşma - Kişisel erişim noktası - Erişim noktası ayarları\\\"na gidin. \\\"Güvenlik\\\"i \\\"WPA2 PSK\\\" olarak ve \\\"AP bandı\\\"nı \\\"2,4 GHz bandı\\\" olarak ayarlayın, \\\"Diğer cihazlara görünür\\\"ü açın ve \\\"Wi-Fi 6 erişim noktası\\\"nı kapatın. Ardından \\\"Kişisel erişim noktası\\\"nı açın.",
+        "ExpDetail": "Wi-Fi erişim noktası hatası için diğer nedenler",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "\\\"Ayarlar - Bağlantı ve paylaşma - Kişisel erişim noktası - Erişim noktası ayarları\\\"na gidin. \\\"Güvenlik\\\"i \\\"WPA2 PSK\\\" olarak ve \\\"AP bandı\\\"nı \\\"2,4 GHz bandı\\\" olarak ayarlayın, \\\"Diğer cihazlara görünür\\\"ü açın ve \\\"Wi-Fi 6 erişim noktası\\\"nı kapatın. Ardından \\\"Kişisel erişim noktası\\\"nı açın.",
+        "ExpDetail": "Wi-Fi erişim noktası hatası için diğer nedenler",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "Bu sorun, LTE sinyal parazitlerinden kaynaklanabilir. \\\"Ayarlar - Bağlantı ve paylaşma - Kişisel erişim noktası - Erişim noktası ayarları\\\"na gidin. \\\"Güvenlik\\\"i \\\"WPA2 PSK\\\" olarak ve \\\"AP bandı\\\"nı \\\"2,4 GHz bandı\\\" olarak ayarlayın, \\\"Diğer cihazlara görünür\\\"ü açın ve \\\"Wi-Fi 6 erişim noktası\\\"nı kapatın. Ardından \\\"Kişisel erişim noktası\\\"nı açın.",
+        "ExpDetail": "Kullanılabilir kanal yok",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "\\\"Ayarlar - Bağlantı ve paylaşma - Kişisel erişim noktası - Erişim noktası ayarları\\\"na gidin. \\\"Güvenlik\\\"i \\\"WPA2 PSK\\\" olarak ve \\\"AP bandı\\\"nı \\\"2,4 GHz bandı\\\" olarak ayarlayın, \\\"Diğer cihazlara görünür\\\"ü açın ve \\\"Wi-Fi 6 erişim noktası\\\"nı kapatın. Ardından \\\"Kişisel erişim noktası\\\"nı açın.",
+        "ExpDetail": "Erişim noktası yapılandırması desteklenmiyor",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. Müşteriye telefonunu yeniden başlatmasını söyleyin.&lt;br>2. Sorun devam ederse flash yazma ile yeni bir ROM yükleyin veya son sistem sürümüne güncelleyin.&lt;br>3. Sorun devam ederse bunu bir donanım sorunu olarak çözün.",
+        "ExpDetail": "Wi-Fi cihaz yazılımı sorunları",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "Müşteri evde ağa erişemiyorsa, bunun nedeni büyük olasılıkla optik modem ve yönlendiricinin yanlış ayarlarından veya bağlantı sorunlarından kaynaklanmaktadır. Müşteriye yönlendiricinin DHCP yapılandırmasını değiştirmesini veya yardım için ağ sağlayıcısı ile iletişime geçmesini söyleyin.",
+        "ExpDetail": "Yönlendirici dinamik IP atama (DHCP) uyuşmazlığı",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "Müşteri evde ağa erişemiyorsa, bunun nedeni büyük olasılıkla optik modem ve yönlendiricinin yanlış ayarlarından veya bağlantı sorunlarından kaynaklanmaktadır. Müşteriye yönlendiricinin ağ geçidi yapılandırmasını değiştirmesini veya yardım için ağ sağlayıcısı ile iletişime geçmesini söyleyin.",
+        "ExpDetail": "Ağ geçidi uyuşmazlığı",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "Müşteriye, telefonunu 5 GHz Wi-Fi ağına bağlamasını ve telefonu 2,4 GHz Wi-Fi ağına bağlıyken Bluetooth kulaklık kullanmaktan kaçınmasını söyleyin.",
+        "ExpDetail": "Bluetooth/Wi-Fi uyuşmazlığı nedeniyle yavaş ağ hızı",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "Statik IP adresi yanlış. Lütfen doğru bir adres ayarlayın.",
+        "ExpDetail": "Yanlış statik IP adresi",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "Özel DNS adresi yanlış. Lütfen doğru bir adres ayarlayın.",
+        "ExpDetail": "Yanlış özel DNS",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "VPN ayarı yanlış. Lütfen doğru bir adres ayarlayın.",
+        "ExpDetail": "Yanlış VPN ayarları",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "Sonra Bluetooth antenini ve Bluetooth çipini kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. Sorun, telefonu yeniden başlatarak çözülebilirse flash yazma ile yeni bir ROM yükleyin veya son sistem sürümüne güncelleyin.&lt;br>2. Müşteri çoklu kullanıcı işlevini kullanıyorsa başka bir kullanıcıya geçmeden önce Bluetooth\\'u kapatmasını söyleyin.&lt;br>3. Telefon sıfırlandıktan veya flash yazma ile yeni bir ROM yüklendikten sonra sorun devam ederse lütfen bir donanım sorunu bileti gönderin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "Bluetooth açılamadı (BT)",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Bluetooth hizmetleri açılamadı",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Bluetooth Düşük Enerji (BLE) açılamadı",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "Sorun ayrıntılarını inceleyin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. Sorun, çok sayıda kablosuz cihazın (havaalanları veya tren istasyonları gibi) olduğu bir yerde ortaya çıkıyorsa, müşteriye telefonunu daha az kablosuz cihazın olduğu yerlerde kullanmasını söyleyin.&lt;br>2. 2,4 GHz Wi-Fi ağı Bluetooth bağlantılarını etkileyeceğinden, müşteriye telefonunu 5 GHz veya daha yüksek bir Wi-Fi ağına bağlamasını söyleyin. Gerekirse müşteriye yönlendiricisini 5 GHz frekans bandına nasıl ayarlayacağını gösterin.",
+        "ExpDetail": "Yüksek ortam parazitleri veya Wi-Fi etkisi&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "%1 tarafında bir Bluetooth bağlantısı kurun ve eş cihazda yeterli pil gücü olduğundan emin olun. (Bazı kulaklıklar için pil seviyesi düşükken ana/yedek modu değişerek bağlantı sorunlarına neden olabilir.)&lt;br>",
+        "ExpDetail": "Bluetooth rol değiştirme hatası&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. Cihazın telefon ile eşleşmesini kaldırın. Sonra cihazdaki düğmeyi basılı tutup yeniden eşleştirmeyi deneyin.&lt;br>2. Cihazı sıfırlayın.&lt;br>3. Son sistem sürümüne güncelleyin.&lt;br>4. Aynı modeldeki diğer telefonlarda sorun oluşmuyorsa ve flash yazma ile yeni bir ROM yükledikten sonra sorun devam ediyorsa lütfen bir donanım sorunu bileti gönderin.&lt;br>",
+        "ExpDetail": "Diğer&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "NFC anteninin eksik veya NFC modülünün geçersiz olup olmadığını kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Açılamadı",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Fotoğraf çekerken puslu veya bulanık ekranlar",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Yanlış renkler",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Ön ana kamera kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Ön ikincil kamera kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Açılamadı",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Fotoğraf çekerken puslu veya bulanık ekranlar",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Yanlış renkler",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Arka ana kamera kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Arka geniş açılı kamera kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Arka telefoto kamerası kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Arka ana kamera veya arka geniş açılı kamera kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Arka ana kamera veya arka telefoto kamerası kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Arka geniş açılı kamera veya arka telefoto kamerası kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "Kamera BTB soketini kontrol edin veya kamerayı değiştirin ve test edin.",
+        "ExpDetail": "Arka ana kamera, arka geniş açılı kamera veya arka telefoto kamerası kullanılamıyor",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Anormal kamera parametreleri. Telefonunuzu bağlayın ve kalibre edin, ardından parametreleri düzeltin.",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "Lütfen alıcının içinde toz veya sıvı olup olmadığını kontrol edin. Parçayı değiştirip tekrar test edin.",
+        "ExpDetail": "Düşük ses seviyesi",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "Lütfen alıcının içinde toz veya sıvı olup olmadığını kontrol edin. Parçayı değiştirip tekrar test edin.",
+        "ExpDetail": "Gürültü",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "Sorunun alıcıyla ilgili olup olmadığını kontrol etmek için lütfen hoparlöre geçin. Sorun alıcıdan kaynaklanıyorsa lütfen alıcıda hasar olup olmadığını ve arabirimin bağlı olup olmadığını kontrol edin; aksi halde ana kartın ses bileşenini kontrol edin.",
+        "ExpDetail": "Ses yok",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "Lütfen alıcının içinde toz veya sıvı olup olmadığını kontrol edin. Parçayı değiştirip tekrar test edin.",
+        "ExpDetail": "Düşük ses seviyesi",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "Lütfen alıcının içinde toz veya sıvı olup olmadığını kontrol edin. Parçayı değiştirip tekrar test edin.",
+        "ExpDetail": "Gürültü",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "Sorunun hoparlörle ilgili olup olmadığını kontrol etmek için lütfen alıcıya geçin. Sorun hoparlörden kaynaklanıyorsa lütfen hoparlörde hasar olup olmadığını ve arabirimin bağlı olup olmadığını kontrol edin; aksi halde ana kartın ses bileşenini kontrol edin.",
+        "ExpDetail": "Ses yok",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "Lütfen mikrofonun içinde toz veya sıvı olup olmadığını kontrol edin. Parçayı değiştirip tekrar test edin.",
+        "ExpDetail": "Düşük ses seviyesi",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "Lütfen mikrofonun içinde toz veya sıvı olup olmadığını kontrol edin. Parçayı değiştirip tekrar test edin.",
+        "ExpDetail": "Gürültü",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "Lütfen mikrofonun tıkalı olup olmadığını kontrol edin. Lütfen mikrofonu değiştirin ve sorunun çözülüp çözülmediğini kontrol edin.",
+        "ExpDetail": "Kesik kesik ses",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "Mikrofon deliğinin kül veya sıvı tarafından tıkanıp tıkanmadığını kontrol edin. Ses seviyesi neredeyse sessiz olacak kadar düşükse, mikrofonu değiştirin ve tekrar test edin.",
+        "ExpDetail": "Düşük ses seviyesi",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "Mikrofonu değiştirip tekrar test edin.",
+        "ExpDetail": "Gürültü",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "Mikrofonu değiştirip tekrar test edin.",
+        "ExpDetail": "Ses yok",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "Mikrofon deliğinin kül veya sıvı tarafından tıkanıp tıkanmadığını kontrol edin. Ses seviyesi neredeyse sessiz olacak kadar düşükse, mikrofonu değiştirin ve tekrar test edin.",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "Mikrofon deliğinin kül veya sıvı tarafından tıkanıp tıkanmadığını kontrol edin. Ses seviyesi neredeyse sessiz olacak kadar düşükse, mikrofonu değiştirin ve tekrar test edin.",
+        "ExpDetail": "Düşük ses seviyesi",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "Mikrofonu değiştirip tekrar test edin.",
+        "ExpDetail": "Gürültü",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "Mikrofonu değiştirip tekrar test edin.",
+        "ExpDetail": "Ses yok",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "Mikrofon deliğinin kül veya sıvı tarafından tıkanıp tıkanmadığını kontrol edin. Ses seviyesi neredeyse sessiz olacak kadar düşükse, mikrofonu değiştirin ve tekrar test edin.",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "Mikrofon deliğinin kül veya sıvı tarafından tıkanıp tıkanmadığını kontrol edin. Ses seviyesi neredeyse sessiz olacak kadar düşükse, mikrofonu değiştirin ve tekrar test edin.",
+        "ExpDetail": "Düşük ses seviyesi",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "Mikrofonu değiştirip tekrar test edin.",
+        "ExpDetail": "Gürültü",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "Mikrofonu değiştirip tekrar test edin.",
+        "ExpDetail": "Ses yok",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "Mikrofon deliğinin kül veya sıvı tarafından tıkanıp tıkanmadığını kontrol edin. Ses seviyesi neredeyse sessiz olacak kadar düşükse, mikrofonu değiştirin ve tekrar test edin.",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "Lütfen kulaklık jakının tıkalı olup olmadığını ve içinde sıvı olup olmadığını kontrol edin.",
+        "ExpDetail": "Kulaklık simgesi gösterilmiyor",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "Lütfen kulaklık jakının tıkalı olup olmadığını ve içinde sıvı olup olmadığını kontrol edin.",
+        "ExpDetail": "Test kulaklıkları ile uyumlu değil",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "Kulaklık jakını ve diğer bileşenleri kontrol edin",
+        "ExpDetail": "Kulaklıklar tanınamıyor veya desteklenmiyor",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "Birkaç miliohm büyüklüğüne ulaşıp ulaşmadığını görmek için mikrofon empedansını kontrol edin",
+        "ExpDetail": "Yüksek empedanslı kulaklıklar",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "Müşterinin gürültü önleyici kulaklıklar kullanıp kullanmadığını kontrol edin",
+        "ExpDetail": "Gürültü engelleyici kulaklıklar",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "Son sürüme güncelleyin. Sorun devam ederse başka bir kulaklık setinin tanınıp tanınmadığını kontrol edin. Aynı sorun ortaya çıkarsa, sorunu yeniden oluşturan ses günlüklerini yakalayıp kaydedin, bunları analiz için geliştiriciye gönderin ve çapraz doğrulama için USB jakının bulunduğu kartı değiştirin.",
+        "ExpDetail": "Anahtar çipleri (yalnızca Type-C kulaklık jakı olan modellerde geçerlidir) veya USB modülleri arasında geçiş yaparken istisnalar oluştu",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "Standart aralıkta olup olmadığını onaylayın; değilse ekran bileşenini değiştirin.",
+        "ExpDetail": "Ölü pikseller",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "Ekran BTB soketini kontrol edin veya ekran bileşenini değiştirin.",
+        "ExpDetail": "Bulanık ekranlar",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "Ekran BTB soketini kontrol edin veya ekran bileşenini değiştirin.",
+        "ExpDetail": "Yanlış renkler",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "Arka planda çalışan uygulamaları kapatın ve ağ bağlantısını kontrol edin",
+        "ExpDetail": "Siyah ekran, yanıp sönen ekran ve bulanık ekran gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "Ekranın statik elektrik nedeniyle hasar görüp görmediğini veya bozulup bozulmadığını kontrol edin",
+        "ExpDetail": "Siyah ekran, yanıp sönen ekran ve bulanık ekran gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "GPU çipini kontrol edin",
+        "ExpDetail": "Siyah ekran, yanıp sönen ekran ve bulanık ekran gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "GPU çipini kontrol edin",
+        "ExpDetail": "Siyah ekran, yanıp sönen ekran ve bulanık ekran gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "GPU çipini kontrol edin",
+        "ExpDetail": "Siyah ekran, yanıp sönen ekran ve bulanık ekran gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "Mühendislerin analiz etmesi için günlükleri karşıya yüklemek üzere düğmeye dokunun",
+        "ExpDetail": "Cihazın yeniden başlatılmasıyla sonuçlanan ekran donması gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "Donanım istisnası. Günlükleri analiz için geliştiriciye yükleyin. Telefon açılmıyorsa analiz için iade edin.",
+        "ExpDetail": "Cihazın yeniden başlatılmasıyla sonuçlanan ekran donması gerçekleşme sayısı: %1",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "Ekran görüntü efekti anormal. Bu sorunu gidermek için telefonun zamanında bağlanması ve kalibre edilmesi önerilir.",
+        "ExpDetail": "Anormal ekran görüntüsü",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Atla",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "Tüm uygulamalar",
+        "ExpDetail": "Kapat"
+    },
+    "t10010101": {
+        "ExpAdvice": "Parmak izi arayüzünü kontrol edin veya parmak izi bileşenini değiştirin.",
+        "ExpDetail": "Parmak izi sensörü çalışmıyor veya hassas değil",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "Kullanıcının cihazı fabrika ayarlarına geri yüklemesi önerilir; aksi takdirde parmak izi işlevlerinin kullanımı etkilenecektir.",
+        "ExpDetail": "OEM kilit özel durumu",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "Parmak izi sensörünü değiştirtmeniz önerilir.",
+        "ExpDetail": "Parmak izi sensörü özel durumu",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "Parmak izi sensörünün yeniden kalibre edin",
+        "ExpDetail": "Parmak izi kalibrasyon verisi uyuşmazlığı",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "Kızılötesi sensör modülünü veya anakartı kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "Işık yoğunluğu sensör modülünü veya anakartı kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "Anakartın yer çekimi sensör modülünü kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "İvmeölçeri kalibre etmek için Hizmet merkezini ziyaret etmeniz ve Mühendislik modunda \"Sensör kendi kendini kontrol ve kalibrasyon\" işlemini gerçekleştirmeniz önerilir. Kalibrasyon başarısız olursa, ivmeölçer hasar görebilir ve değiştirilmesi gerekebilir.",
+        "ExpDetail": "Hızlandırma verileri doğru değil",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "Anakartın jeomanyetik sensör modülünü kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "Anakartın jiroskop modülünü kontrol edin.",
+        "ExpDetail": "Başarısız",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "Jiroskopu kalibre etmek için Hizmet merkezini ziyaret etmeniz ve Mühendislik modunda \"Sensör kendi kendini kontrol ve kalibrasyon\" işlemini gerçekleştirmeniz önerilir. Kalibrasyon başarısız olursa, jiroskop hasar görebilir ve değiştirilmesi gerekebilir.",
+        "ExpDetail": "Jiroskop verileri doğru değil",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Sürücü yüklenemedi"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kod gönderilemedi"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer"
+    },
+    "t11010101": {
+        "ExpAdvice": "Kısa devre veya açık devre hataları için her yan düğmeyi test edin.",
+        "ExpDetail": "Düğme yanıt vermiyor",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "Kısa devre veya açık devre hataları için her yan düğmeyi test edin.",
+        "ExpDetail": "Yanlış düğme işlevleri",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "Kısa devre veya açık devre hataları için her yan düğmeyi test edin.",
+        "ExpDetail": "Zayıf dokunma duyarlılığı",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Fener çalışmıyor"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Düşük parlaklık"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Yanlış renkler"
+    },
+    "t12010201": {
+        "ExpAdvice": "Flaşı değiştirin veya flaş sürücü devresini kontrol edin.",
+        "ExpDetail": "Fener çalışmıyor",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "Flaşı değiştirin veya flaş sürücü devresini kontrol edin.",
+        "ExpDetail": "Düşük ekran parlaklığı",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "Motoru değiştirin veya motor tahrik devresini kontrol edin.",
+        "ExpDetail": "Titreşim yok",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "Motoru değiştirin veya motor tahrik devresini kontrol edin.",
+        "ExpDetail": "Titreşim sorunu",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "Motoru değiştirtmeniz önerilir.",
+        "ExpDetail": "Motor donanım hasarı",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "Telefonu soğutun, ısının iyi dağıldığından emin olun ve sadece cihaz sıcaklığı normale döndükten sonra oyun oynayın.",
+        "ExpDetail": "Oyun sırasında telefonun aşırı ısınması",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "Gecikme sorunu, oyunlardaki kare kaybından kaynaklanmaktadır. Isının iyi dağıldığından ve ağ bağlantınızın kararlı olduğundan emin olun.",
+        "ExpDetail": "Oyun sırasında gecikmeler ve kare düşmeleri",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "Oyun oynarken ağ kararsız. Kararlı ağ koşullarında oyun oynayın.",
+        "ExpDetail": "Oyun sırasında kararsız ağ",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "Sistem, bildirimlerin %1 uygulaması için kapatıldığını tespit etti. Uygulama bildirimlerini almak için uygulama simgesine basılı tutun, \"Uygulama bilgileri - Bildirimleri yönet\" menüsüne gidin ve düğmeyi açık konuma getirin.",
+        "ExpDetail": "Bir uygulama için açılmadı"
+    },
+    "t17010102": {
+        "ExpAdvice": "\"Bildirimler\" %1 dahil bazı uygulamalar için kapatıldı, bu yüzden bazı önemli mesajları alamayabilirsiniz. Bu ayarı,\n  üçüncü taraf uygulama ayarlarından açabilirsiniz.",
+        "ExpDetail": "Kapat"
+    },
+    "t17010201": {
+        "ExpAdvice": "Sistem, sessiz bildirimlerin %1 uygulaması için açıldığını tespit etti. Bu, uygulamanın tüm bildirimlerinin sadece bildirim çubuğunun altında görüneceği anlamına gelir. İşlevi kapatmak için aşağıdaki işlemleri yapın: \n① ColorOS 11: Uygulama simgesine basılı tutun, \"Uygulama bilgileri - Bildirimleri yönet - Yeni mesaj bildirimleri (sesli veya görüntülü arama davetleriyle ilgili bildirimler)\" menüsüne gidin ve \"Sessiz bildirimleri etkinleştir\" düğmesini kapalı konuma getirin.\n② ColorOS 7.2: Uygulama simgesini basılı tutun, \"Uygulama bilgileri - Bildirimleri yönet\" menüsüne gidin ve \"Alta taşı\" düğmesini kapalı konuma getirin.",
+        "ExpDetail": "Bir uygulama için sessiz bildirimler açıldı"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Başlığı ve gövdeyi görüntüle"
+    },
+    "t17010302": {
+        "ExpAdvice": "Sistem, \"Kilit ekranı bildirimleri\"nin \"Sadece başlığı göster\" olarak ayarlandığını algıladı. Bildirim içeriğini göstermek için \"Ayarlar - Bildirimler ve durum çubuğu - Bildirimleri yönet - Kilit ekranı bildirimleri\" menüsüne gidin ve ayarı \"Başlık ve gövde metnini göster\" olarak değiştirin.",
+        "ExpDetail": "Sadece başlığı görüntüle"
+    },
+    "t17010303": {
+        "ExpAdvice": "Sistem, \"Kilit ekranı bildirimleri\"nin \"Gösterme\" olarak ayarlandığını algıladı. Kilit ekranı bildirimlerini göstermek için \"Ayarlar - Bildirimler ve durum çubuğu - Bildirimleri yönet - Kilit ekranı bildirimleri\" menüsüne gidin ve ayarı \"Başlık ve gövde metnini göster\" veya \"Sadece başlığı göster\" olarak değiştirin.",
+        "ExpDetail": "Gösterme"
+    },
+    "t17010401": {
+        "ExpAdvice": "Sistem, \\\"Bildirimleri sessize al\\\"ın açıldığını algıladı. Önemli mesajlarla ilgili güncel bilgileri almak için durum çubuğunda aşağı kaydırın, \\\"Bildirimleri sessize al\\\"a dokunun ve anahtarı kapatın.",
+        "ExpDetail": "Aç"
+    },
+    "t17010501": {
+        "ExpAdvice": "Sistem, \\\"Kilit ekranında bildirim alındığında ekranı uyandır\\\" seçeneğinin kapalı olduğunu algıladı. Anahtarı açmak için \\\"Ayarlar - Bildirimler ve durum çubuğu - Bildirimleri yönet - Diğer - Bir bildirim alındığında ekranı uyandır\\\" seçeneğine gidin.",
+        "ExpDetail": "Kapat"
+    },
+    "t17010502": {
+        "ExpAdvice": "\"Bildirim alındığında ekranı uyandır\" kapatıldı. Ekranınız kilitliyken bildirimler hemen alınmayabilir. Bu özelliği\n  açabilirsiniz.",
+        "ExpDetail": "Kapat"
+    },
+    "t17010601": {
+        "ExpAdvice": "\"Geri bildirimi azalt\" açık. Bir uygulamayı tam ekranda kullanırken (ör. video izlerken veya oyun oynarken ya\n  da konferans görüşmesi sırasında) bildirim sesleri daha kısık ve titreşim\n  şiddeti daha az olur. Bu özelliği kapatabilirsiniz.",
+        "ExpDetail": "Aç"
+    },
+    "t17010701": {
+        "ExpAdvice": "\"Uykuda bekleme optimizasyonu\" açık. Siz uykudayken telefonunuz daha az pil harcar ve\n  bildirimleri azaltır. Bu özelliği kapatabilirsiniz.",
+        "ExpDetail": "Aç"
+    },
+    "t17010801": {
+        "ExpAdvice": "\"Uygulama simgesi rozetleri\" bazı uygulamalar için kapatıldı. Bu uygulamaların sağ üst köşesinde hiçbir rozet\n  gösterilmediği için önemli bildirimleri kaçırabilirsiniz. Bu özelliği\n  açabilirsiniz.",
+        "ExpDetail": "Kapat"
+    },
+    "t17020101": {
+        "ExpAdvice": "Sistem, telefonunuzda \\\"Veri tasarrufu\\\"nun açık olduğunu algıladı. Bu, arka plandaki uygulamaların hiçbir bildirim almayacağı anlamına gelir. Bildirimleri almak için \\\"Ayarlar - SIM kart ve mobil veri - Veri kullanımı - Veri tasarrufu\\\" seçeneğine gidin ve anahtarı kapatın.",
+        "ExpDetail": "Aç"
+    },
+    "t17020201": {
+        "ExpAdvice": "Sistem, %1 uygulaması için hem \\\"Wi-Fi\\\" hem de \\\"Mobil veri\\\"nin kapalı olduğunu algıladı. Bu, hiçbir bildirim alınamayacağı anlamına gelir. İki anahtar arasında geçiş yapmak için uygulama simgesini basılı tutun ve \\\"Uygulama bilgisi - Veri kullanımı ayrıntıları\\\"na gidin.",
+        "ExpDetail": "Bir uygulama için açılmadı"
+    },
+    "t17020301": {
+        "ExpAdvice": "Sistem, %1 uygulaması için \\\"Arka plan verileri\\\"nin kapalı olduğunu algıladı. Bu, uygulamanın arka planda çalışırken herhangi bir bildirim almayacağı anlamına gelir. Anahtarı açmak için uygulama simgesini basılı tutun ve \\\"Uygulama bilgisi - Veri kullanımı ayrıntıları\\\"na gidin.",
+        "ExpDetail": "Bir uygulama için açılmadı"
+    },
+    "t17030101": {
+        "ExpAdvice": "Sistem, %1 uygulaması için uygulama bildirimlerinin güç kullanım ayarları tarafından sınırlandığını algıladı. \\\"Ön plan etkinliğine izin ver\\\"i açmak için uygulama simgesini basılı tutun ve \\\"Uygulama bilgisi - Güç kullanımı\\\"na gidin.",
+        "ExpDetail": "Kapat"
+    },
+    "t17030201": {
+        "ExpAdvice": "Sistem, %1 uygulaması için uygulama bildirimlerinin güç kullanım ayarları tarafından sınırlandığını algıladı. \"Arka plan etkinliğine izin ver\"i açmak için uygulama simgesini basılı tutun ve \"Uygulama bilgisi - Güç kullanımı\"na gidin.",
+        "ExpDetail": "Kapat"
+    },
+    "t17030301": {
+        "ExpAdvice": "Sistem, %1 uygulaması için uygulama bildirimlerinin güç kullanım ayarları tarafından sınırlandığını algıladı. \"Otomatik başlatmaya izin ver\"i açmak için uygulama simgesini basılı tutun ve \"Uygulama bilgisi - Güç kullanımı\"na gidin.",
+        "ExpDetail": "Kapat"
+    },
+    "t17030401": {
+        "ExpAdvice": "Sistem, %1 uygulaması için uygulama bildirimlerinin güç kullanım ayarları tarafından sınırlandığını algıladı. \\\"İlişkili başlatmaya izin ver\\\"i açmak için uygulama simgesini basılı tutun ve \\\"Uygulama bilgisi - Güç kullanımı\\\"na gidin.",
+        "ExpDetail": "Kapat"
+    },
+    "t17040101": {
+        "ExpAdvice": "Sistem, telefonunuzda \\\"Uygulama kilidi\\\"nin ayarlandığını algıladı ancak kilit ayrıntılarınızı algılayamıyor. %1 uygulaması için hiçbir mesaj görüntülenmediğinden, \\\"Ayarlar - Gizlilik - Uygulama kilidi\\\"ne giderek uygulamanın kilitlenip kilitlenmediğini kontrol edin.",
+        "ExpDetail": "Aç"
+    },
+    "t17040201": {
+        "ExpAdvice": "Sistem, telefonunuzda \\\"Uygulama kilidi\\\"nin ayarlandığını algıladı ancak kilit ayrıntılarınızı algılayamıyor. %1 uygulaması için hiçbir mesaj görüntülenmediğinden, \\\"Ayarlar - Gizlilik - Uygulamaları gizle\\\"ye giderek uygulamanın gizlenip gizlenmediğini kontrol edin.",
+        "ExpDetail": "Aç"
+    },
+    "t17050101": {
+        "ExpAdvice": "Sistem, telefonunuzun sessize alındığını algıladı. Bu, gelen mesajlarda hiçbir mesaj sesi duyulmayacağı anlamına gelir. Telefonunuzun sesini açmak için \\\"Ayarlar - Ses ve titreşim - Sessize al\\\" seçeneğine gidin.",
+        "ExpDetail": "Aç"
+    },
+    "t17050201": {
+        "ExpAdvice": "Sistem, telefonunuzda \\\"Rahatsız Etmeyin\\\"in açık olduğunu algıladı. Bu, gelen mesajlar için uyarılmayacağınız anlamına gelir. İşlevi kapatmak için \\\"Ayarlar - Ses ve titreşim - Rahatsız Etmeyin\\\" seçeneğine gidin.",
+        "ExpDetail": "Aç"
+    },
+    "t17050202": {
+        "ExpAdvice": "\"Rahatsız Etmeyin\" özelliği açıldı. Sadece alarmlar, zamanlayıcılar ve takvim etkinlikleri tarafından\n  bilgilendirileceğiniz için diğer bazı bildirimleri ve anımsatıcıları\n  kaçırabilirsiniz. Bu özelliği kapatabilirsiniz.",
+        "ExpDetail": "Aç"
+    },
+    "t17060101": {
+        "ExpAdvice": "\"Uygulama kopyalayıcı\" %1 dahil bazı uygulamalar için kapatıldı. Aynı uygulamada hesaplar arasında kolayca geçiş\n  yapmak için Ayarlar'da \"Uygulama kopyalayıcı\"yı arayın ve bu işlevi\n  etkinleştirin.",
+        "ExpDetail": "Kapat"
+    },
+    "t17060201": {
+        "ExpAdvice": "\"Uygulama kopyalayıcı\" bazı uygulamalar için kapatıldı. Ancak \"Hızlı işlevleri kullanırken\" ayarı \"Ana\n  uygulamayı aç\" olarak ayarlandı. Bu ayarı \"Her zaman sor\"\n  olarak değiştirebilirsiniz.",
+        "ExpDetail": "Kapat"
+    },
+    "t17060301": {
+        "ExpAdvice": "\"Görüntülü aramalarda rötuşlu görünüm\" kapalı, bu yüzden gerçek zamanlı güzelleştirme işlevi WeChat görüntülü\n  aramalarda kullanılamaz. Bu özelliği açabilirsiniz.",
+        "ExpDetail": "Kapat"
+    },
+    "t26010101": {
+        "ExpAdvice": "Geçerli uyarı kaydırıcısının durumları şu şekillerde algılanıyor: sessiz, çal ve titret; fakat anahtar konumları bu durumlarla eşleşmiyor. Cihazı kalibre etmeniz ve onarmanız önerilir.",
+        "ExpDetail": "Eşleşmeyen anahtar konumları ve ekran durumları"
+    },
+    "t26010102": {
+        "ExpAdvice": "Geçerli uyarı kaydırıcısının durumları şu şekillerde algılanıyor: sessiz, çal ve titret. Anahtar değiştirildikten sonra sistem tüm durumları tanıyamıyor. Cihazı kalibre etmeniz ve onarmanız önerilir. Onarım başarısız olursa cihazı yenisiyle değiştirin.",
+        "ExpDetail": "Tüm ekran durumları yanmıyor"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diğer"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Desteklenmiyor",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "Yetersiz veri nedeniyle analiz yapılamıyor",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "Bir istisna oluştu, sonuç yok",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "Zaman aşımından sonra hiçbir sonuç getirilmedi, lütfen testi tekrar yapın!",
+        "ExpDetail": "Başarısız"
+    },
+    "t6": {
+        "ExpAdvice": "Bir istisna oluştu, sonuç yok",
+        "ExpDetail": "Başarısız"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Aç"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kapat"
+    },
+    "t9": {
+        "ExpAdvice": "Tüm uygulamalar",
+        "ExpDetail": "Aç"
+    },
+    "t05050109": {
+        "ExpDetail": "Hücresel frekans bandı hatası: %1",
+        "ExpAdvice": "1. Test sırasında telefona dokunmadığınızdan emin olun.&lt;br>2. Sorun devam ederse bazı frekans bantlarında sorunlar olabileceği için donanımı değiştirin."
+    },
+    "t05050110": {
+        "ExpDetail": "Uydu frekans bandı hatası: %1",
+        "ExpAdvice": "1. Test sırasında telefona dokunmadığınızdan emin olun.&lt;br>2. Sorun devam ederse bazı frekans bantlarında sorunlar olabileceği için donanımı değiştirin."
+    },
+    "t05050111": {
+        "ExpDetail": "Hücresel ve uydu frekans bandı hatası: %1",
+        "ExpAdvice": "1. Test sırasında telefona dokunmadığınızdan emin olun.&lt;br>2. Sorun devam ederse bazı frekans bantlarında sorunlar olabileceği için donanımı değiştirin."
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "Düzeltildi",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "Düzeltilemedi"
+    },
+    "t08040104": {
+        "ExpDetail": "Diğer",
+        "ExpAdvice": ""
+    },
+    "t07110101": {
+        "ExpDetail": "Salon etkili manyetik sensör hatası",
+        "ExpAdvice": "Sensörü değiştirtmeniz önerilir."
+    },
+    "t07010201": {
+        "ExpDetail": "Basım kontrol hatası",
+        "ExpAdvice": "BTB konektörlerinin yerine sabitlenip sabitlenmediğini, modül FPC kartının yırtılıp yırtılmadığını ve anten kartının, anakartın ve FPC kartının düzgün çalışıp çalışmadığını kontrol edin."
+    },
+    "t22140101": {
+        "ExpDetail": "Anormal fan hızı",
+        "ExpAdvice": "Anormal fan hızı. Aşağıdakileri kontrol edin:\n1. Fan kanatlarında biriken tozları kontrol edip temizleyin.\n2. Temizlikten sonra sorun devam ederse fanı değiştirin.\n3. Fan değiştirildikten sonra sorun devam ederse anakartı değiştirin."
+    },
+    "t08030501": {
+        "ExpDetail": "Düşük ses seviyesi",
+        "ExpAdvice": "Mikrofon deliğinin kül veya sıvı tarafından tıkanıp tıkanmadığını kontrol edin. Ses seviyesi neredeyse sessiz olacak kadar düşükse, mikrofonu değiştirin ve tekrar test edin."
+    },
+    "t08030504": {
+        "ExpDetail": "Diğer",
+        "ExpAdvice": "Mikrofon deliğinin kül veya sıvı tarafından tıkanıp tıkanmadığını kontrol edin. Ses seviyesi neredeyse sessiz olacak kadar düşükse, mikrofonu değiştirin ve tekrar test edin."
+    },
+    "t08030502": {
+        "ExpDetail": "Gürültü",
+        "ExpAdvice": "Mikrofonu değiştirip tekrar test edin."
+    },
+    "t08030503": {
+        "ExpDetail": "Ses yok",
+        "ExpAdvice": "Mikrofonu değiştirip tekrar test edin."
+    }
+}

@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Errore interno ad altri strumenti di flashing ROM non in elenco.",
+        "suggest": "Prova a flashare di nuovo la ROM. Se lo stesso problema si verifica ripetutamente, contatta un rappresentante dell'assistenza tecnica di post-vendita per segnalare il problema al team di manutenzione dello strumento."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "Lo spazio di cache richiesto per l'operazione non può essere allocato a causa di memoria del PC insufficiente.",
+        "suggest": "1. Disattiva le applicazioni che non usi e prova a flashare di nuovo.\n2. Riavvia il computer e prova a flashare di nuovo."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "L'interfaccia di sistema di Windows restituisce un errore: {1} ha restituito {2}.",
+        "suggest": "Il computer utilizzato è difettoso. Prova a far lampeggiare nuovamente il dispositivo. Se il problema persiste dopo vari tentativi, segnalalo al team di manutenzione dello strumento per l'analisi e l'elaborazione tramite un rappresentante dell'assistenza tecnica post-vendita."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "È stato rilevato che sul computer è in esecuzione un debugger software.",
+        "suggest": "Chiudi tutti i debugger software aperti e riprova."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "È stato rilevato che il servizio dello strumento flash ROM è in esecuzione sulla macchina virtuale.",
+        "suggest": "Esegui lo strumento flash ROM su un computer fisico."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "I dati del pacchetto di flashing ROM sono danneggiati.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione. Quindi prova a caricare di nuovo il pacchetto.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "Il file o la cartella del file ROM importato/a non sono validi, o il pacchetto di flashing ROM è danneggiato.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, verifica che il pacchetto sia in formato OFP o che sia incluso un file version_info.txt. Se l'errore si verifica di nuovo dopo la conferma, prova a ricopiare il pacchetto di flashing ROM dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "Il pacchetto di flashing ROM caricato non è applicabile al dispositivo da flashare, o i dati nel pacchetto di flashing ROM sono danneggiati.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, verifica che il pacchetto corrisponda al modello del dispositivo da flashare. Scarica nuovamente il corretto pacchetto di flashing ROM e prova a caricarlo di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, verifica che il pacchetto corrisponda al modello del dispositivo da flashare. Ricopia il pacchetto dal supporto della sorgente e prova a caricarlo di nuovo."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "Il pacchetto di flashing ROM caricato non è applicabile al dispositivo da flashare, o i dati nel pacchetto di flashing ROM sono danneggiati.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, verifica che il pacchetto corrisponda al modello del dispositivo da flashare. Scarica nuovamente il corretto pacchetto di flashing ROM e prova a caricarlo di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, verifica che il pacchetto corrisponda al modello del dispositivo da flashare. Ricopia il pacchetto dal supporto della sorgente e prova a caricarlo di nuovo."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "Il dispositivo non può essere flashato poiché il codice articolo {1} non corrisponde al codice articolo {2} nel pacchetto software.",
+        "suggest": "Controlla il modello del dispositivo dell'utente, scarica il corretto pacchetto di flashing ROM, e poi esegui il flashing della ROM."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "La tabella delle partizioni nel dispositivo dell'utente non corrisponde alla tabella delle partizioni nel pacchetto di flashing ROM.",
+        "suggest": "Usa \"Modalità forzata\" nello strumento di flashing ROM per flashare la ROM. Completato il flashing, esegui un controllo funzionale completo dopo aver attivato il dispositivo. Se il dispositivo non può essere attivato dopo il flashing, o se viene rilevato un problema durante il controllo funzionale, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Impossibile leggere il codice articolo dal telefono.",
+        "suggest": "1. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n2. Prova a usare un altro cavo USB o un'altra porta USB del computer per flashare di nuovo la ROM.\n3. Se il problema si verifica di nuovo nonostante le precedenti misure, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "Lo spazio di cache richiesto per l'operazione non può essere allocato a causa di memoria del PC insufficiente.",
+        "suggest": "1. Disattiva le applicazioni che non usi e prova a flashare di nuovo.\n2. Riavvia il computer e prova a flashare di nuovo."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Formato del Preloader file non valido.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione. Quindi prova a caricare di nuovo il pacchetto.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "File di autenticazione non valido.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione. Quindi prova a caricare di nuovo il pacchetto.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "Il file della tabella delle partizioni non esiste.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione. Quindi prova a caricare di nuovo il pacchetto.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "Errore di comunicazione DA.",
+        "suggest": "1. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n2. Prova a usare un altro cavo USB o un'altra porta USB del computer per flashare di nuovo la ROM.\n3. Se il problema si verifica di nuovo nonostante le precedenti misure, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "Disconnessione USB inaspettata.",
+        "suggest": "1. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n2. Prova a usare un altro cavo USB o un'altra porta USB del computer per flashare di nuovo la ROM.\n3. Se il problema si verifica di nuovo nonostante le precedenti misure, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "Impossibile connettersi al DA, anomalia della RAM esterna.",
+        "suggest": "Si prega di sostituire la scheda madre per il cliente."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Errore di corrispondenza della memoria con i dati DA.",
+        "suggest": "Sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "Il numero di chip DDR interni al dispositivo supera il limite della piattaforma.",
+        "suggest": "Prova a flashare di nuovo la ROM. Se lo stesso problema si verifica ripetutamente, contatta un rappresentante dell'assistenza tecnica di post-vendita per segnalare il problema al team di manutenzione dello strumento."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "Download DA non riuscito.",
+        "suggest": "1. Controlla il modello del dispositivo, scarica il corretto pacchetto di flashing ROM e prova ad eseguire di nuovo il flashing.\n2. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n3. Utilizzando il corretto pacchetto per il dispositivo e assicurando un livello di batteria sufficiente, se l'errore si verifica ripetutamente durante i tentativi di flashing della ROM, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Anomalia di hardware o software dei componenti DDR del dispositivo.",
+        "suggest": "Sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Anomalia di hardware o software dei componenti SOC o DDR del dispositivo.",
+        "suggest": "Sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Errore verifica download file.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Errore interno alla piattaforma MTK.",
+        "suggest": "Prova a flashare di nuovo la ROM. Se lo stesso problema si verifica ripetutamente, contatta un rappresentante dell'assistenza tecnica di post-vendita per segnalare il problema al team di manutenzione dello strumento."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "La ROM non può essere flashata perché le informazioni sul codice Paese del dispositivo non possono essere trovate né nella memoria del dispositivo né nel servizio in background.",
+        "suggest": "Contatta il service desk IT6000 per segnalare i problemi riscontrati su questo dispositivo."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "Il codice Paese {1} del dispositivo non è supportato dal pacchetto ROM selezionato.",
+        "suggest": "Usa il pacchetto ROM per la corrispondente regione e riprova."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "Errore server controllo O+ Cloud: {1} {2}.",
+        "suggest": "1. Verifica che i Servizi O+ Cloud siano accessibili tramite la tua rete. Se l'accesso non è possibile, contatta il team di assistenza tecnica di post-vendita per le corrette impostazioni di configurazione.\n2. Prova a flashare di nuovo la ROM. Se l'errore si verifica ripetutamente, contatta un rappresentante dell'assistenza tecnica di post-vendita per segnalare il problema al team di gestione e manutenzione dei Servizi O+ Cloud."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "I servizi O+ Cloud non hanno restituito il risultato della richiesta di elaborazione,API rchiesta: {1}.",
+        "suggest": "I servizi O+ Cloud non hanno funzionato. Se il problema persiste dopo vari tentativi, segnalalo al team di manutenzione dello strumento per l'analisi e l'elaborazione tramite un rappresentante dell'assistenza tecnica di background."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "Errore autenticazione piattaforma di controllo O+ Cloud: {2}.",
+        "suggest": "Richiedi la corrispondente autorizzazione o esegui altre operazioni in base alla descrizione dell'errore in background. Se il problema persiste, contatta l'assistenza tecnica di post-vendita."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "Errore autenticazione piattaforma di controllo O+ Cloud: {2} {3}.",
+        "suggest": "Richiedi la corrispondente autorizzazione o esegui altre operazioni in base alla descrizione dell'errore in background. Se il problema persiste, contatta l'assistenza tecnica di post-vendita."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "Errore autenticazione piattaforma di controllo O+ Cloud.",
+        "suggest": "Richiedi la corrispondente autorizzazione o esegui altre operazioni in base alla descrizione dell'errore in background. Se il problema persiste, contatta l'assistenza tecnica di post-vendita."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Versione del software obsoleta.",
+        "suggest": "Per favore, scarica l'ultima ROM per questo modello di dispositivo ed esegui il flashing."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "Questo account utente non ha accesso all'autorizzazione di flashing ROM avanzato.",
+        "suggest": "Richiedi l'autorizzazione nel sistema UPM e riprova."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "L'interfaccia del servizio O+ Cloud {1} non ha restituito il campo dati designato: {2}.",
+        "suggest": "I servizi O+ Cloud non hanno funzionato. Se il problema persiste dopo vari tentativi, segnalalo al team di manutenzione dello strumento per l'analisi e l'elaborazione tramite un rappresentante dell'assistenza tecnica di background."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "Impossibile aprire il file {1}.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "Impossibile leggere i dati nel file {1}.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "Impossibile localizzare i dati nel file {1}.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "Impossibile aprire il file {1}.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "Impossibile localizzare i dati nel file {1}.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Impossibile chiudere il file {1}. Codice di errore {2}.",
+        "suggest": "Errore interno OS Windows. Prova a far lampeggiare nuovamente il dispositivo. Se il problema persiste dopo vari tentativi, segnalalo al team di manutenzione dello strumento per l'analisi e l'elaborazione tramite un rappresentante dell'assistenza tecnica post-vendita."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "Impossibile leggere i dati nel file {1}.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "Il dispositivo non è riuscito a eseguire il comando {1}: {2}.",
+        "suggest": "1. Controlla il modello del dispositivo, scarica il corretto pacchetto di flashing ROM e prova ad eseguire di nuovo il flashing.\n2. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n3. Utilizzando il corretto pacchetto per il dispositivo e assicurando un livello di batteria sufficiente, se l'errore si verifica ripetutamente durante i tentativi di flashing della ROM, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "Il dispositivo non può essere flashato poiché il codice articolo {1} non corrisponde al codice articolo {2} nel pacchetto software.",
+        "suggest": "Controlla il modello del dispositivo dell'utente, scarica il corretto pacchetto di flashing ROM, e poi esegui il flashing della ROM."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Inizializzazione dispositivo non riuscita.",
+        "suggest": "1. Controlla il modello del dispositivo, scarica il corretto pacchetto di flashing ROM e prova ad eseguire di nuovo il flashing.\n2. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n3. Utilizzando il corretto pacchetto per il dispositivo e assicurando un livello di batteria sufficiente, se l'errore si verifica ripetutamente durante i tentativi di flashing della ROM, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "Lampeggiamento ROM non riuscito.",
+        "suggest": "Scarica un nuovo pacchetto ROM e riprova."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "Lampeggiamento ROM non riuscito.",
+        "suggest": "Scarica un nuovo pacchetto ROM e riprova."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "Lampeggiamento ROM non riuscito.",
+        "suggest": "Scarica un nuovo pacchetto ROM e riprova."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Impossibile confermare il codice Paese del dispositivo da flashare.",
+        "suggest": "1. Contatta un rappresentante dell'assistenza tecnica di post-vendita e verifica se la funzione \"Default NV\" nello strumento di flashing ROM può essere usata per flashare la ROM. Se consentito, utilizza la funzione per flashare la ROM ed esegui un controllo funzionale completo sul telefono dell'utente.\n2. Se la funzione \"Default NV\" non può essere usata per flashare la ROM del dispositivo, o se si verifica un problema dopo il flashing della ROM (ad esempio, il dispositivo non può essere attivato o viene rilevato un problema nel controllo funzionale), sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Codice Paese non supportato dal software.",
+        "suggest": "1. Verifica che la regione del pacchetto di flashing ROM ottenuto dallo strumento di flashing ROM in uso sia corretto per la regione del dispositivo. Elimina il pacchetto di flashing ROM e scaricalo di nuovo usando la corretta versione dello strumento.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, ricopia il pacchetto per i corrispondenti modello e regione dal supporto della sorgente e poi caricalo di nuovo."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "I dati di verifica non sono presenti nel pacchetto ROM.",
+        "suggest": "Scarica un nuovo pacchetto ROM e riprova."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "La tabella delle partizioni nel dispositivo dell'utente non corrisponde alla tabella delle partizioni nel pacchetto di flashing ROM.",
+        "suggest": "Usa \"Modalità forzata\" nello strumento di flashing ROM per flashare la ROM. Completato il flashing, esegui un controllo funzionale completo dopo aver attivato il dispositivo. Se il dispositivo non può essere attivato dopo il flashing, o se viene rilevato un problema durante il controllo funzionale, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "File mancante dal pacchetto ROM: {1}.",
+        "suggest": "Il pacchetto ROM è danneggiato. Scaricane uno nuovo e riprova."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Formato del file sparso non valido.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "Impossibile verificare l'elenco dei file nel pacchetto ROM.",
+        "suggest": "Il pacchetto ROM è danneggiato. Scaricane uno nuovo e riprova."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "Il file nel pacchetto ROM è danneggiato: {1}",
+        "suggest": "Scarica un nuovo pacchetto ROM e riprova."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "Impossibile verificare l'elenco dei file nel pacchetto ROM.",
+        "suggest": "Il pacchetto ROM è danneggiato. Scaricane uno nuovo e riprova."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "Il file nel pacchetto ROM è danneggiato: {1}",
+        "suggest": "Scarica un nuovo pacchetto ROM e riprova."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "Il file o la cartella del file ROM importato/a non sono validi, o il pacchetto di flashing ROM è danneggiato.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, verifica che il pacchetto sia in formato OFP o che sia incluso un file version_info.txt. Se l'errore si verifica di nuovo dopo la conferma, prova a ricopiare il pacchetto di flashing ROM dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "File mancante dal pacchetto ROM: {1}.",
+        "suggest": "Il pacchetto ROM è danneggiato. Scaricane uno nuovo e riprova."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "Impossibile leggere i dati nel file {1}.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "Il file o la cartella del file ROM importato/a non sono validi, o il pacchetto di flashing ROM è danneggiato.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, verifica che il pacchetto sia in formato OFP o che sia incluso un file version_info.txt. Se l'errore si verifica di nuovo dopo la conferma, prova a ricopiare il pacchetto di flashing ROM dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "Il contenuto dei file nel pacchetto di flashing ROM non soddisfa le aspettative.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione. Quindi prova a caricare di nuovo il pacchetto.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "Il contenuto dei file nel pacchetto di flashing ROM non soddisfa le aspettative.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione. Quindi prova a caricare di nuovo il pacchetto.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "I dati di verifica non sono presenti nel pacchetto ROM.",
+        "suggest": "Scarica un nuovo pacchetto ROM e riprova."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "File mancante dal pacchetto ROM: {1}.",
+        "suggest": "Il pacchetto ROM è danneggiato. Scaricane uno nuovo e riprova."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "Impossibile leggere i dati nel file {1}.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "Il file o la cartella del file ROM importato/a non sono validi, o il pacchetto di flashing ROM è danneggiato.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, verifica che il pacchetto sia in formato OFP o che sia incluso un file version_info.txt. Se l'errore si verifica di nuovo dopo la conferma, prova a ricopiare il pacchetto di flashing ROM dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "Il contenuto dei file nel pacchetto di flashing ROM non soddisfa le aspettative.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "Il contenuto dei file nel pacchetto di flashing ROM non soddisfa le aspettative.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "Il file della tabella delle partizioni non esiste.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione. Quindi prova a caricare di nuovo il pacchetto.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "Impossibile verificare l'elenco dei file nel pacchetto ROM.",
+        "suggest": "Il pacchetto ROM è danneggiato. Scaricane uno nuovo e riprova."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "Il file nel pacchetto ROM è danneggiato: {1}",
+        "suggest": "Scarica un nuovo pacchetto ROM e riprova."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Errore all'apertura del gestore dispositivi.",
+        "suggest": "1. Disattiva eventuali versioni precedenti dello strumento di flashing ROM, strumenti di lettura e strumenti di debugging forniti dal produttore del chip e poi riprova ad eseguire il flashing.\n2. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n3. Prova a usare un altro cavo USB o un'altra porta USB del computer per flashare di nuovo la ROM.\n4. Se il problema si verifica di nuovo nonostante le precedenti misure, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Errore all'apertura del gestore dispositivi.",
+        "suggest": "1. Disattiva eventuali versioni precedenti dello strumento di flashing ROM, strumenti di lettura e strumenti di debugging forniti dal produttore del chip e poi riprova ad eseguire il flashing.\n2. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n3. Prova a usare un altro cavo USB o un'altra porta USB del computer per flashare di nuovo la ROM.\n4. Se il problema si verifica di nuovo nonostante le precedenti misure, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Impossibile configurare {1}. Codice di errore {2}.",
+        "suggest": "Il dispositivo potrebbe essere stato invalidato o scollegato. Prova con un'altra porta e un altro cavo USB, riavvia il dispositivo in modalità EDL e riprova."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Impossibile leggere i dati dal file o dal dispositivo.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo.\n3. Se il problema persiste dopo diversi tentativi, è consigliato salvare il pacchetto di flashing ROM su un altro disco rigido o partizione prima di ritentare il flashing."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Impossibile leggere i dati dal file o dal dispositivo.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo.\n3. Se il problema persiste dopo diversi tentativi, è consigliato salvare il pacchetto di flashing ROM su un altro disco rigido o partizione prima di ritentare il flashing."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Impossibile scrivere dati sul file o sul dispositivo.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo.\n3. Se il problema persiste dopo diversi tentativi, è consigliato salvare il pacchetto di flashing ROM su un altro disco rigido o partizione prima di ritentare il flashing."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Impossibile scrivere dati sul file o sul dispositivo.",
+        "suggest": "1. Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo.\n3. Se il problema persiste dopo diversi tentativi, è consigliato salvare il pacchetto di flashing ROM su un altro disco rigido o partizione prima di ritentare il flashing."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "Il dispositivo non è riuscito a eseguire il comando {1}: {2}.",
+        "suggest": "1. Controlla il modello del dispositivo, scarica il corretto pacchetto di flashing ROM e prova ad eseguire di nuovo il flashing.\n2. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n3. Utilizzando il corretto pacchetto per il dispositivo e assicurando un livello di batteria sufficiente, se l'errore si verifica ripetutamente durante i tentativi di flashing della ROM, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "Esecuzione del comando di protocollo sul dispositivo non riuscita, con il risultato di un errore. {2}.",
+        "suggest": "Contatta un rappresentante dell'assistenza tecnica di post-vendita per segnalare il problema al team di manutenzione dello strumento."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "Contatta un rappresentante dell'assistenza tecnica di post-vendita per segnalare il problema al team di manutenzione dello strumento.",
+        "suggest": "Gebruik de functie \"Forced Flash Mode\" van de flashtool om het apparaat van de klant te flashen en voer een uitgebreide functionele inspectie uit nadat het geflashte apparaat is ingeschakeld. Als het apparaat na het flashen niet opstart of als er problemen optreden tijdens de functiecontrole, vervang dan het moederbord van de gebruiker."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Impossibile confermare il codice Paese del dispositivo da flashare.",
+        "suggest": "1. Contatta un rappresentante dell'assistenza tecnica di post-vendita e verifica se la funzione \"Default NV\" nello strumento di flashing ROM può essere usata per flashare la ROM. Se consentito, utilizza la funzione per flashare la ROM ed esegui un controllo funzionale completo sul telefono dell'utente. 2. Se la funzione \"Default NV\" non può essere usata per flashare la ROM del dispositivo, o se si verifica un problema dopo il flashing della ROM (ad esempio, il dispositivo non può essere attivato o viene rilevato un problema nel controllo funzionale), sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "Le regioni supportate dal telefono non corrispondono alle regioni di distribuzione del pacchetto di flashing.",
+        "suggest": "1. Verifica che la regione del pacchetto di flashing ROM ottenuto dallo strumento di flashing ROM in uso sia corretto per la regione del dispositivo. Elimina il pacchetto di flashing ROM e scaricalo di nuovo usando la corretta versione dello strumento.\n2. Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, ricopia il pacchetto per i corrispondenti modello e regione dal supporto della sorgente e poi caricalo di nuovo."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "Il lampeggiamento è stato interrotto dall'utente.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "Al momento la piattaforma non supporta il flashing.",
+        "suggest": "Prova a flashare di nuovo la ROM. Se lo stesso problema si verifica ripetutamente, contatta un rappresentante dell'assistenza tecnica di post-vendita per segnalare il problema al team di manutenzione dello strumento."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Codice di tipo del dispositivo di memoria non supportato {1}.",
+        "suggest": "Sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "Il pacchetto di flashing ROM non riesce a trovare la partizione logica.",
+        "suggest": "1.Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2.Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Errore verifica download file.",
+        "suggest": "1.Se il pacchetto di flashing ROM è stato scaricato direttamente utilizzando lo strumento di flashing ROM, eliminalo e scarica l'ultima versione, quindi prova a caricare il pacchetto di nuovo.\n2.Se il pacchetto di flashing ROM è stato importato da una sorgente esterna, prova a ricopiarlo dal supporto della sorgente e caricalo di nuovo."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "Disconnessione USB inaspettata.",
+        "suggest": "1. Verifica che il livello di batteria residuo del dispositivo non sia inferiore al 20%. Carica il dispositivo prima di provare a flashare di nuovo la ROM.\n2. Prova a usare un altro cavo USB o un'altra porta USB del computer per flashare di nuovo la ROM.\n3. Se il problema si verifica di nuovo nonostante le precedenti misure, sostituisci la scheda madre dell'utente."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "Operazione non riuscita a causa di errori del dispositivo di memoria.",
+        "suggest": "Seleziona il corretto tipo di dispositivo di memoria nelle impostazioni di flashing ROM (per es., se il dispositivo è dotato di un dispositivo eMMC, l'opzione UFS non può essere selezionata). Se confermi l'assenza di problemi con la selezione, il dispositivo UFS può subire danni. Considera di sostituire la scheda madre."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "Al momento la piattaforma non supporta il flashing.",
+        "suggest": "Prova a flashare di nuovo la ROM. Se lo stesso problema si verifica ripetutamente, contatta un rappresentante dell'assistenza tecnica di post-vendita per segnalare il problema al team di manutenzione dello strumento."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "La versione del pacchetto ROM è precedente a quella predefinita di fabbrica. Il flash comporterà una modifica nel numero di serie (NS).",
+        "suggest": "Informa l'utente che questo dispositivo ha adottato un NS di nuova specifica. Il declassamento alla versione pre-fabbrica ne modificherà il numero di serie, con possibili conseguenze quali danni ai diritti e agli interessi di tutela post-vendita. Il declassamento dei propri dispositivi non è consigliato."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "L'operazione di ritorno sul dispositivo non è riuscita. Codice di errore: {1}; messaggio di errore: {2}",
+        "suggest": "Riprova il flashing. Se l'errore persiste, contatta il team di manutenzione dello strumento flash per segnalare il problema."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Informa l'utente che su questo dispositivo la funzione \"Chiama per bloccare\" è già attiva. Vai su \"Impostazioni - Sicurezza e privacy - Sblocco dispositivo - Protezione antifurto\" e disattiva \"Chiama per bloccare\" prima di eseguire il flashing. Se il dispositivo non si accende, contatta il nostro servizio clienti per verificare i tuoi dati personali e richiedere di sbloccare il dispositivo prima di procedere con il flashing.",
+        "suggest": "L'utente ha attivato \"Chiama per bloccare\" e il back-end dello strumento flash ha contrassegnato il dispositivo come in modalità di blocco di sicurezza. (Se l'utente perde il dispositivo e chiama il nostro servizio clienti per richiederne il blocco, verrà attivata questa modalità). Non è possibile effettuare il flashing sui dispositivi in modalità Blocco di sicurezza. Disattiva \"Chiama per bloccare\" prima di eseguire il flashing."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "L'indirizzo di offset della partizione dei dati utente nel pacchetto ROM non coincide con la partizione corrispondente sul telefono, rendendo impossibile il flash senza cancellare questa partizione.",
+        "suggest": "Per favore eseguire il backup di tutti i dati nella partizione dei dati utente prima di procedere con il flashing in modalità standard."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Questa versione contiene vulnerabilità di sicurezza note. Il flashing è limitato.",
+        "suggest": "Per favore, scarica l'ultima ROM per questo modello di dispositivo ed esegui il flashing."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

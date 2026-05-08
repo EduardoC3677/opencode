@@ -1,0 +1,2822 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normalny",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "Poleć klientowi, aby przeprowadził aktualizację do najnowszej wersji, która jest stabilniejsza.",
+        "ExpDetail": "Dostępna aktualizacja: %1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "Numer IMEI został zmieniony lub nie zapisano numeru IMEI po wymianie płyty głównej. Przywróć oryginalny numer IMEI i poinformuj klienta, że nielegalny numer IMEI może skutkować błędami sieci.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "Nie udało się uruchomić testu. Upewnij się, że karta SIM została wyjęta.",
+        "ExpDetail": "Nie wyjęto karty SIM"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Liczba odblokowań: %1<br>Status odblokowania: Odblokowano"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Liczba odblokowań: %1<br>Status odblokowania: Nie odblokowano"
+    },
+    "t01010101": {
+        "ExpAdvice": "Problem może wynikać z braku zgodności aplikacji innych firm z systemem. Zaleca się przeprogramowanie urządzenia oraz zaktualizowanie aplikacji do najnowszej wersji. Ten problem dotyczy oprogramowania i nie jest związany ze sprzętem.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "Telefon może wielokrotnie uruchamiać się ponownie po wystąpieniu wyjątku w podstawowej usłudze oprogramowania systemu Android lub gdy działanie procesora lub pamięci RAM jest niestabilne. Zaleca się rozwiązanie tego problemu jako problemy sprzętowego.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "Ten problem dotyczy aplikacji. Jeśli aplikacja jest w wersji beta, nie jest wersją oficjalną lub najnowszą wersją oficjalną, pobierz i zainstaluj najnowszą wersję ze sklepu App Market.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "Ten problem może wystąpić w przypadku wystąpienia problemów ze zgodnością oprogramowania lub gdy telefon spadnie na ziemię bądź będzie używany w niskich lub wysokich temperaturach. Wgraj nową pamięć ROM i poleć klientowi, by używał telefonu w odpowiednim środowisku.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "Zasilanie telefonu jest niestabilne. Zaleca się rozwiązanie tego problemu jako problemy sprzętowego.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "Wymień moduł czytnika odcisku palca.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "Upewnij się, czy klient nie nacisnął przypadkiem żadnego przycisku.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "Zapytaj klienta, czy telefon przestał reagować i został ponownie uruchomiony z użyciem przycisków fizycznych.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "Przyczyna: Procesor działa pod dużym obciążeniem przez długi czas, co powoduje nagrzewanie się telefonu. Procesor będzie usiłował uniknąć przegrzania, prawdopodobnie kosztem obniżenia wydajności.<br> \nRekomendacje: ① Wyłącz tryb oszczędzania energii. ② Unikaj długotrwałego używania procesora pod dużym obciążeniem. ③ Przetrzyj powierzchnię telefonu chusteczką zwilżoną wodą lub spirytusem i dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "Przyczyna: Niska częstotliwość procesora może negatywnie wpływać na wydajność systemu, spowalniać jego prędkość przetwarzania i wydłużać czas reakcji aplikacji. <br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Wyłącz tryb oszczędzania energii. ③ Dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "Przyczyna: Ilość wolnego miejsca w pamięci spada poniżej 10% z powodu zbyt dużej liczby aplikacji działających w tle.<br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Jeśli telefon obsługuje funkcję rozszerzenia pamięci RAM, wybierz „Ustawienia - Ustawienia systemowe - RAM”, aby ją włączyć. ③ Regularnie restartuj telefon.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "Przyczyna: Nie ma miejsca na pamięci podręczne aplikacji z powodu zbyt małej ilości pamięci. W takiej sytuacji aplikacje mogą działać z opóźnieniem, blokować się lub zawieszać. <br>\nRekomendacje: Usuń niepotrzebne zdjęcia, filmy i aplikacje lub skopiuj je na komputer lub dysk USB za pomocą wbudowanego Menedżera telefonu, aby zwolnić miejsce w pamięci.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "Przyczyna: Wersja systemu operacyjnego nie jest oficjalna i może stać się niestabilna.<br> \nRekomendacje: Zainstaluj oficjalną wersję systemu operacyjnego lub poczekaj na aktualizację wersji beta.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "Przyczyna: Na telefonie zainstalowana jest aplikacja do zarządzania telefonem lub aplikacja do optymalizacji systemu innego dostawcy (taka jak Tencent Mobile Manager lub 360 Mobile Safe). Takie aplikacje mogą powodować opóźnienia w działaniu telefonu. <br>\nRekomendacje: Odinstaluj aplikację do optymalizacji systemu innego dostawcy i użyj wbudowanego Menedżera telefonu, aby zoptymalizować telefon.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "Przyczyna: Włączono gesty powiększenia, co może powodować opóźnienia w niektórych aplikacjach.<br> \nRekomendacje: Wybierz opcje „Ustawienia – Ustawienia dodatkowe – Ułatwienia dostępu – Gesty powiększenia” i wyłącz gesty powiększenia.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "\n1. Sprawdź, czy szczegółowe informacje diagnostyczne pokrywają się z opisem podanym przez użytkownika; jeśli tak, poproś użytkownika o wyczyszczenie pamięci wewnętrznej tych aplikacji oraz ich zaktualizowanie do najnowszych wersji. <br>\n2. Poleć użytkownikowi zrestartowanie telefonu.<br>\n3. Poleć użytkownikowi, aby często zamykał nieużywane aplikacje działające w tle.<br>\n4. Poleć użytkownikowi uaktualnienie systemu operacyjnego do najnowszej wersji.<br>\n5. Uzyskaj od użytkownika o dzienniki z informacjami o opóźnieniach i przekaż je technikom do analizy.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "\n1. Sprawdź, czy szczegółowe informacje diagnostyczne pokrywają się z opisem podanym przez użytkownika; jeśli tak, poproś użytkownika o wyczyszczenie pamięci wewnętrznej tych aplikacji oraz ich zaktualizowanie do najnowszych wersji. <br>\n2. Poleć użytkownikowi zrestartowanie telefonu.<br>\n3. Poleć użytkownikowi, aby często zamykał nieużywane aplikacje działające w tle.<br>\n4. Poleć użytkownikowi uaktualnienie systemu operacyjnego do najnowszej wersji.<br>\n5. Uzyskaj od użytkownika o dzienniki z informacjami o opóźnieniach i przekaż je technikom do analizy.",
+        "ExpDetail": "5 aplikacji o największym użyciu pamięci RAM:<br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "Przyczyna: Procesor działa pod dużym obciążeniem przez długi czas, co powoduje nagrzewanie się telefonu. Procesor będzie usiłował uniknąć przegrzania, prawdopodobnie kosztem obniżenia wydajności.<br> \nRekomendacje: ① Wyłącz tryb oszczędzania energii. ② Unikaj długotrwałego używania procesora pod dużym obciążeniem. ③ Przetrzyj powierzchnię telefonu chusteczką zwilżoną wodą lub spirytusem i dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "5 najwolniej uruchamiających się aplikacji:<br>%1<br>5 najważniejszych przyczyn powolnego uruchamiania się aplikacji:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "Przyczyna: Niska częstotliwość procesora może negatywnie wpływać na wydajność systemu, spowalniać jego prędkość przetwarzania i wydłużać czas reakcji aplikacji. <br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Wyłącz tryb oszczędzania energii. ③ Dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "5 najwolniej uruchamiających się aplikacji:<br>%1<br>5 najważniejszych przyczyn powolnego uruchamiania się aplikacji:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "Przyczyna: Ilość wolnego miejsca w pamięci spada poniżej 10% z powodu zbyt dużej liczby aplikacji działających w tle.<br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Jeśli telefon obsługuje funkcję rozszerzenia pamięci RAM, wybierz „Ustawienia - Ustawienia systemowe - RAM”, aby ją włączyć. ③ Regularnie restartuj telefon.",
+        "ExpDetail": "5 najwolniej uruchamiających się aplikacji:<br>%1<br>5 najważniejszych przyczyn powolnego uruchamiania się aplikacji:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "Przyczyna: Nie ma miejsca na pamięci podręczne aplikacji z powodu zbyt małej ilości pamięci. W takiej sytuacji aplikacje mogą działać z opóźnieniem, blokować się lub zawieszać. <br>\nRekomendacje: Usuń niepotrzebne zdjęcia, filmy i aplikacje lub skopiuj je na komputer lub dysk USB za pomocą wbudowanego Menedżera telefonu, aby zwolnić miejsce w pamięci.",
+        "ExpDetail": "5 najwolniej uruchamiających się aplikacji:<br>%1<br>5 najważniejszych przyczyn powolnego uruchamiania się aplikacji:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "Przyczyna: Wersja systemu operacyjnego nie jest oficjalna i może stać się niestabilna.<br> \nRekomendacje: Zainstaluj oficjalną wersję systemu operacyjnego lub poczekaj na aktualizację wersji beta.",
+        "ExpDetail": "5 najwolniej uruchamiających się aplikacji:<br>%1<br>5 najważniejszych przyczyn powolnego uruchamiania się aplikacji:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "Przyczyna: Na telefonie zainstalowana jest aplikacja do zarządzania telefonem lub aplikacja do optymalizacji systemu innego dostawcy (taka jak Tencent Mobile Manager lub 360 Mobile Safe). Takie aplikacje mogą powodować opóźnienia w działaniu telefonu. <br>\nRekomendacje: Odinstaluj aplikację do optymalizacji systemu innego dostawcy i użyj wbudowanego Menedżera telefonu, aby zoptymalizować telefon.",
+        "ExpDetail": "5 najwolniej uruchamiających się aplikacji:<br>%1<br>5 najważniejszych przyczyn powolnego uruchamiania się aplikacji:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "Przyczyna: Włączono gesty powiększenia, co może powodować opóźnienia w niektórych aplikacjach.<br> \nRekomendacje: Wybierz opcje „Ustawienia – Ustawienia dodatkowe – Ułatwienia dostępu – Gesty powiększenia” i wyłącz gesty powiększenia.",
+        "ExpDetail": "5 najwolniej uruchamiających się aplikacji:<br>%1<br>5 najważniejszych przyczyn powolnego uruchamiania się aplikacji:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "\n1. Sprawdź, czy szczegółowe informacje diagnostyczne pokrywają się z opisem podanym przez użytkownika; jeśli tak, poproś użytkownika o wyczyszczenie pamięci wewnętrznej tych aplikacji oraz ich zaktualizowanie do najnowszych wersji. <br>\n2. Poleć użytkownikowi zrestartowanie telefonu.<br>\n3. Poleć użytkownikowi, aby często zamykał nieużywane aplikacje działające w tle.<br>\n4. Poleć użytkownikowi uaktualnienie systemu operacyjnego do najnowszej wersji.<br>\n5. Uzyskaj od użytkownika o dzienniki z informacjami o opóźnieniach i przekaż je technikom do analizy.",
+        "ExpDetail": "Nieznana przyczyna",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "Przyczyna: Ilość wolnego miejsca w pamięci spada poniżej 10% z powodu zbyt dużej liczby aplikacji działających w tle.<br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Jeśli telefon obsługuje funkcję rozszerzenia pamięci RAM, wybierz „Ustawienia - Ustawienia systemowe - RAM”, aby ją włączyć. ③ Regularnie restartuj telefon.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "Przyczyna: Nie ma miejsca na pamięci podręczne aplikacji z powodu zbyt małej ilości pamięci. W takiej sytuacji aplikacje mogą działać z opóźnieniem, blokować się lub zawieszać. <br>\nRekomendacje: Usuń niepotrzebne zdjęcia, filmy i aplikacje lub skopiuj je na komputer lub dysk USB za pomocą wbudowanego Menedżera telefonu, aby zwolnić miejsce w pamięci.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "Przyczyna: Procesor działa pod dużym obciążeniem przez długi czas, co powoduje nagrzewanie się telefonu. Procesor będzie usiłował uniknąć przegrzania, prawdopodobnie kosztem obniżenia wydajności.<br> \nRekomendacje: ① Wyłącz tryb oszczędzania energii. ② Unikaj długotrwałego używania procesora pod dużym obciążeniem. ③ Przetrzyj powierzchnię telefonu chusteczką zwilżoną wodą lub spirytusem i dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu interfejsu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "Przyczyna: Niska częstotliwość procesora może negatywnie wpływać na wydajność systemu, spowalniać jego prędkość przetwarzania i wydłużać czas reakcji aplikacji. <br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Wyłącz tryb oszczędzania energii. ③ Dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu interfejsu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "Przyczyna: Ilość wolnego miejsca w pamięci spada poniżej 10% z powodu zbyt dużej liczby aplikacji działających w tle.<br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Jeśli telefon obsługuje funkcję rozszerzenia pamięci RAM, wybierz „Ustawienia - Ustawienia systemowe - RAM”, aby ją włączyć. ③ Regularnie restartuj telefon.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu interfejsu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "Przyczyna: Nie ma miejsca na pamięci podręczne aplikacji z powodu zbyt małej ilości pamięci. W takiej sytuacji aplikacje mogą działać z opóźnieniem, blokować się lub zawieszać. <br>\nRekomendacje: Usuń niepotrzebne zdjęcia, filmy i aplikacje lub skopiuj je na komputer lub dysk USB za pomocą wbudowanego Menedżera telefonu, aby zwolnić miejsce w pamięci.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu interfejsu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "Przyczyna: Wersja systemu operacyjnego nie jest oficjalna i może stać się niestabilna.<br> \nRekomendacje: Zainstaluj oficjalną wersję systemu operacyjnego lub poczekaj na aktualizację wersji beta.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu interfejsu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "Przyczyna: Na telefonie zainstalowana jest aplikacja do zarządzania telefonem lub aplikacja do optymalizacji systemu innego dostawcy (taka jak Tencent Mobile Manager lub 360 Mobile Safe). Takie aplikacje mogą powodować opóźnienia w działaniu telefonu. <br>\nRekomendacje: Odinstaluj aplikację do optymalizacji systemu innego dostawcy i użyj wbudowanego Menedżera telefonu, aby zoptymalizować telefon.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu interfejsu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "Przyczyna: Włączono gesty powiększenia, co może powodować opóźnienia w niektórych aplikacjach.<br> \nRekomendacje: Wybierz opcje „Ustawienia – Ustawienia dodatkowe – Ułatwienia dostępu – Gesty powiększenia” i wyłącz gesty powiększenia.",
+        "ExpDetail": "5 aplikacji z największymi opóźnieniami w działaniu interfejsu:<br>%1<br>5 najważniejszych przyczyn takiego spowolnienia:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "\n1. Sprawdź, czy szczegółowe informacje diagnostyczne pokrywają się z opisem podanym przez użytkownika; jeśli tak, poproś użytkownika o wyczyszczenie pamięci wewnętrznej tych aplikacji oraz ich zaktualizowanie do najnowszych wersji. <br>\n2. Poleć użytkownikowi zrestartowanie telefonu.<br>\n3. Poleć użytkownikowi, aby często zamykał nieużywane aplikacje działające w tle.<br>\n4. Poleć użytkownikowi uaktualnienie systemu operacyjnego do najnowszej wersji.<br>\n5. Uzyskaj od użytkownika o dzienniki z informacjami o opóźnieniach i przekaż je technikom do analizy.",
+        "ExpDetail": "Nieznana przyczyna",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "Przyczyna: Automatycznie uruchamiane aplikacje zajmują zasoby systemowe, jak pamięć i moc obliczeniowa. Zbyt duża liczba automatycznie uruchamianych aplikacji powoduje niedobór zasobów systemowych ze szkodą dla szybkości działania i wydajności innych aplikacji. <br>\nRekomendacje: Wybierz „Ustawienia - Menedżer aplikacji - Automatycznie uruchamiane aplikacje” i zamknij niepotrzebne automatycznie uruchamiane aplikacje.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "Przyczyna: Procesor działa pod dużym obciążeniem przez długi czas, co powoduje nagrzewanie się telefonu. Procesor będzie usiłował uniknąć przegrzania, prawdopodobnie kosztem obniżenia wydajności.<br> \nRekomendacje: ① Wyłącz tryb oszczędzania energii. ② Unikaj długotrwałego używania procesora pod dużym obciążeniem. ③ Przetrzyj powierzchnię telefonu chusteczką zwilżoną wodą lub spirytusem i dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "5 najwolniej reagujących aplikacji:<br>%1<br>5 najważniejszych przyczyn wolnego reagowania:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "Przyczyna: Niska częstotliwość procesora może negatywnie wpływać na wydajność systemu, spowalniać jego prędkość przetwarzania i wydłużać czas reakcji aplikacji. <br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Wyłącz tryb oszczędzania energii. ③ Dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "5 najwolniej reagujących aplikacji:<br>%1<br>5 najważniejszych przyczyn wolnego reagowania:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "Przyczyna: Ilość wolnego miejsca w pamięci spada poniżej 10% z powodu zbyt dużej liczby aplikacji działających w tle.<br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Jeśli telefon obsługuje funkcję rozszerzenia pamięci RAM, wybierz „Ustawienia - Ustawienia systemowe - RAM”, aby ją włączyć. ③ Regularnie restartuj telefon.",
+        "ExpDetail": "5 najwolniej reagujących aplikacji:<br>%1<br>5 najważniejszych przyczyn wolnego reagowania:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "Przyczyna: Nie ma miejsca na pamięci podręczne aplikacji z powodu zbyt małej ilości pamięci. W takiej sytuacji aplikacje mogą działać z opóźnieniem, blokować się lub zawieszać. <br>\nRekomendacje: Usuń niepotrzebne zdjęcia, filmy i aplikacje lub skopiuj je na komputer lub dysk USB za pomocą wbudowanego Menedżera telefonu, aby zwolnić miejsce w pamięci.",
+        "ExpDetail": "5 najwolniej reagujących aplikacji:<br>%1<br>5 najważniejszych przyczyn wolnego reagowania:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "Przyczyna: Wersja systemu operacyjnego nie jest oficjalna i może stać się niestabilna.<br> \nRekomendacje: Zainstaluj oficjalną wersję systemu operacyjnego lub poczekaj na aktualizację wersji beta.",
+        "ExpDetail": "5 najwolniej reagujących aplikacji:<br>%1<br>5 najważniejszych przyczyn wolnego reagowania:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "Przyczyna: Na telefonie zainstalowana jest aplikacja do zarządzania telefonem lub aplikacja do optymalizacji systemu innego dostawcy (taka jak Tencent Mobile Manager lub 360 Mobile Safe). Takie aplikacje mogą powodować opóźnienia w działaniu telefonu. <br>\nRekomendacje: Odinstaluj aplikację do optymalizacji systemu innego dostawcy i użyj wbudowanego Menedżera telefonu, aby zoptymalizować telefon.",
+        "ExpDetail": "5 najwolniej reagujących aplikacji:<br>%1<br>5 najważniejszych przyczyn wolnego reagowania:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "Przyczyna: Włączono gesty powiększenia, co może powodować opóźnienia w niektórych aplikacjach.<br> \nRekomendacje: Wybierz opcje „Ustawienia – Ustawienia dodatkowe – Ułatwienia dostępu – Gesty powiększenia” i wyłącz gesty powiększenia.",
+        "ExpDetail": "5 najwolniej reagujących aplikacji:<br>%1<br>5 najważniejszych przyczyn wolnego reagowania:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "Przyczyna: Procesor działa pod dużym obciążeniem przez długi czas, co powoduje nagrzewanie się telefonu. Procesor będzie usiłował uniknąć przegrzania, prawdopodobnie kosztem obniżenia wydajności.<br> \nRekomendacje: ① Wyłącz tryb oszczędzania energii. ② Unikaj długotrwałego używania procesora pod dużym obciążeniem. ③ Przetrzyj powierzchnię telefonu chusteczką zwilżoną wodą lub spirytusem i dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "Przegrzewanie procesora",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "Przyczyna: Niska częstotliwość procesora może negatywnie wpływać na wydajność systemu, spowalniać jego prędkość przetwarzania i wydłużać czas reakcji aplikacji. <br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Wyłącz tryb oszczędzania energii. ③ Dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "Niska częstotliwość procesora",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "Przyczyna: Ilość wolnego miejsca w pamięci spada poniżej 10% z powodu zbyt dużej liczby aplikacji działających w tle.<br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Jeśli telefon obsługuje funkcję rozszerzenia pamięci RAM, wybierz „Ustawienia - Ustawienia systemowe - RAM”, aby ją włączyć. ③ Regularnie restartuj telefon.",
+        "ExpDetail": "Mało pamięci",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "Przyczyna: Nie ma miejsca na pamięci podręczne aplikacji z powodu zbyt małej ilości pamięci. W takiej sytuacji aplikacje mogą działać z opóźnieniem, blokować się lub zawieszać. <br>\nRekomendacje: Usuń niepotrzebne zdjęcia, filmy i aplikacje lub skopiuj je na komputer lub dysk USB za pomocą wbudowanego Menedżera telefonu, aby zwolnić miejsce w pamięci.",
+        "ExpDetail": "Mało miejsca w pamięci",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "Przyczyna: Wersja systemu operacyjnego nie jest oficjalna i może stać się niestabilna.<br> \nRekomendacje: Zainstaluj oficjalną wersję systemu operacyjnego lub poczekaj na aktualizację wersji beta.",
+        "ExpDetail": "Wersja beta",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "Przyczyna: Na telefonie zainstalowana jest aplikacja do zarządzania telefonem lub aplikacja do optymalizacji systemu innego dostawcy (taka jak Tencent Mobile Manager lub 360 Mobile Safe). Takie aplikacje mogą powodować opóźnienia w działaniu telefonu. <br>\nRekomendacje: Odinstaluj aplikację do optymalizacji systemu innego dostawcy i użyj wbudowanego Menedżera telefonu, aby zoptymalizować telefon.",
+        "ExpDetail": "Aplikacje obniżające wydajność",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "Przyczyna: Włączono gesty powiększenia, co może powodować opóźnienia w niektórych aplikacjach.<br> \nRekomendacje: Wybierz opcje „Ustawienia – Ustawienia dodatkowe – Ułatwienia dostępu – Gesty powiększenia” i wyłącz gesty powiększenia.",
+        "ExpDetail": "Włączone gesty powiększania (opcja deweloperska)",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "\n1. Sprawdź, czy szczegółowe informacje diagnostyczne pokrywają się z opisem podanym przez użytkownika; jeśli tak, poproś użytkownika o wyczyszczenie pamięci wewnętrznej tych aplikacji oraz ich zaktualizowanie do najnowszych wersji. <br>\n2. Poleć użytkownikowi zrestartowanie telefonu.<br>\n3. Poleć użytkownikowi, aby często zamykał nieużywane aplikacje działające w tle.<br>\n4. Poleć użytkownikowi uaktualnienie systemu operacyjnego do najnowszej wersji.<br>\n5. Uzyskaj od użytkownika o dzienniki z informacjami o opóźnieniach i przekaż je technikom do analizy.",
+        "ExpDetail": "Nieznana przyczyna",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "Przyczyny wydłużonego czasu reakcji podczas wybudzania lub wyłączania ekranu",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "Przyczyna: Procesor działa pod dużym obciążeniem przez długi czas, co powoduje nagrzewanie się telefonu. Procesor będzie usiłował uniknąć przegrzania, prawdopodobnie kosztem obniżenia wydajności.<br> \nRekomendacje: ① Wyłącz tryb oszczędzania energii. ② Unikaj długotrwałego używania procesora pod dużym obciążeniem. ③ Przetrzyj powierzchnię telefonu chusteczką zwilżoną wodą lub spirytusem i dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "Przegrzewanie procesora",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "Przyczyna: Niska częstotliwość procesora może negatywnie wpływać na wydajność systemu, spowalniać jego prędkość przetwarzania i wydłużać czas reakcji aplikacji. <br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Wyłącz tryb oszczędzania energii. ③ Dbaj o dobre odprowadzanie ciepła.",
+        "ExpDetail": "Niska częstotliwość procesora",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "Przyczyna: Ilość wolnego miejsca w pamięci spada poniżej 10% z powodu zbyt dużej liczby aplikacji działających w tle.<br>\nRekomendacje: ① Regularnie zamykaj aplikacje działające w tle. ② Jeśli telefon obsługuje funkcję rozszerzenia pamięci RAM, wybierz „Ustawienia - Ustawienia systemowe - RAM”, aby ją włączyć. ③ Regularnie restartuj telefon.",
+        "ExpDetail": "Mało pamięci",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "Przyczyna: Nie ma miejsca na pamięci podręczne aplikacji z powodu zbyt małej ilości pamięci. W takiej sytuacji aplikacje mogą działać z opóźnieniem, blokować się lub zawieszać. <br>\nRekomendacje: Usuń niepotrzebne zdjęcia, filmy i aplikacje lub skopiuj je na komputer lub dysk USB za pomocą wbudowanego Menedżera telefonu, aby zwolnić miejsce w pamięci.",
+        "ExpDetail": "Mało miejsca w pamięci",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "Przyczyna: Wersja systemu operacyjnego nie jest oficjalna i może stać się niestabilna.<br> \nRekomendacje: Zainstaluj oficjalną wersję systemu operacyjnego lub poczekaj na aktualizację wersji beta.",
+        "ExpDetail": "Wersja beta",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "Przyczyna: Na telefonie zainstalowana jest aplikacja do zarządzania telefonem lub aplikacja do optymalizacji systemu innego dostawcy (taka jak Tencent Mobile Manager lub 360 Mobile Safe). Takie aplikacje mogą powodować opóźnienia w działaniu telefonu. <br>\nRekomendacje: Odinstaluj aplikację do optymalizacji systemu innego dostawcy i użyj wbudowanego Menedżera telefonu, aby zoptymalizować telefon.",
+        "ExpDetail": "Aplikacje obniżające wydajność",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "Przyczyna: Zbyt duża liczba aplikacji może powodować niedobór pamięci skutkujący obniżeniem wydajności telefonu, a w konsekwencji wydłużeniem czasu reakcji i opóźnieniami. \nRekomendacje: Odinstaluj niepotrzebne aplikacje i regularnie zwalniaj pamięć, aby utrzymać wydajność na optymalnym poziomie.",
+        "ExpDetail": "Zbyt wiele aplikacji innych dostawców",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "Przyczyna: Automatycznie uruchamiane aplikacje zajmują zasoby systemowe, jak pamięć i moc obliczeniowa. Zbyt duża liczba automatycznie uruchamianych aplikacji powoduje niedobór zasobów systemowych ze szkodą dla szybkości działania i wydajności innych aplikacji. <br>\nRekomendacje: Wybierz „Ustawienia - Menedżer aplikacji - Automatycznie uruchamiane aplikacje” i zamknij niepotrzebne automatycznie uruchamiane aplikacje.",
+        "ExpDetail": "Zbyt wiele automatycznie uruchamianych aplikacji",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "\n1. Sprawdź, czy szczegółowe informacje diagnostyczne pokrywają się z opisem podanym przez użytkownika; jeśli tak, poproś użytkownika o wyczyszczenie pamięci wewnętrznej tych aplikacji oraz ich zaktualizowanie do najnowszych wersji. <br>\n2. Poleć użytkownikowi zrestartowanie telefonu.<br>\n3. Poleć użytkownikowi, aby często zamykał nieużywane aplikacje działające w tle.<br>\n4. Poleć użytkownikowi uaktualnienie systemu operacyjnego do najnowszej wersji.<br>\n5. Uzyskaj od użytkownika o dzienniki z informacjami o opóźnieniach i przekaż je technikom do analizy.",
+        "ExpDetail": "Nieznana przyczyna",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Przyczyny opóźnień podczas uruchamiania telefonu:",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "Zbyt duże obciążenie procesora telefonu. Należy zamknąć aplikacje działające w tle.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "Zbyt duże obciążenie procesora telefonu. Należy zamknąć aplikacje działające w tle.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "Zbyt duże obciążenie procesora telefonu. Należy zamknąć aplikacje działające w tle.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "Zbyt duże obciążenie procesora telefonu. Należy zamknąć aplikacje działające w tle.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "Zbyt duże obciążenie procesora telefonu. Należy zamknąć aplikacje działające w tle.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "Telefon jest przegrzany. Poproś użytkownika o zamknięcie aplikacji działających w tle i pozostawienie telefonu na 5 minut.",
+        "ExpDetail": "Aparat długo się uruchamia — przegrzewanie",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "Mało wolnej pamięci. Sprawdź, ile aplikacji działa w tle, i poproś użytkownika o zamknięcie aplikacji.",
+        "ExpDetail": "Aparat długo się uruchamia — mało pamięci",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "Zbyt duże obciążenie. Poproś użytkownika o zamknięcie aplikacji działających w tle.",
+        "ExpDetail": "Aparat długo się uruchamia — duże obciążenie",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "Poproś użytkownika, aby zrestartował telefon i spróbował ponownie.",
+        "ExpDetail": "Aparat zawiesza się — wywołanie zrzutu sesji",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "Telefon jest przegrzany. Poproś użytkownika o zamknięcie aplikacji działających w tle i pozostawienie telefonu na 5 minut.",
+        "ExpDetail": "Aparat przegrzewa się — telefon był już przegrzany przed uruchomieniem aparatu",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "Przyczyną tego problemu jest długotrwałe korzystanie z aparatu. Poproś użytkownika o skrócenie czasu korzystania z aparatu.",
+        "ExpDetail": "Aparat przegrzewa się — przegrzanie aparatu",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "Telefon jest przegrzany. Poproś użytkownika o zamknięcie aplikacji działających w tle i pozostawienie telefonu na 5 minut.",
+        "ExpDetail": "Opóźnienia podglądu aparatu — obniżenie częstotliwości w związku z przegrzaniem",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "Mało wolnej pamięci. Sprawdź, ile aplikacji działa w tle, i poproś użytkownika o zamknięcie aplikacji.",
+        "ExpDetail": "Opóźnienia podglądu aparatu — mało pamięci",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "Poproś użytkownika o przeniesienie do jaśniejszego miejsca.",
+        "ExpDetail": "Opóźnienia podglądu aparatu — mniejsza szybkość klatek przy słabszym świetle",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "Aparat znajduje się zbyt blisko obiektu. Poproś użytkownika o oddalenie się od obiektu.",
+        "ExpDetail": "Podgląd zdjęcia z aparatu jest rozmyty — brak ostrości",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "Telefon jest przegrzany. Poproś użytkownika o zamknięcie aplikacji działających w tle i pozostawienie telefonu na 5 minut.",
+        "ExpDetail": "Opóźnienia podglądu zdjęcia z aparatu — obniżenie częstotliwości w związku z przegrzaniem",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "Mało wolnej pamięci. Sprawdź, ile aplikacji działa w tle, i poproś użytkownika o zamknięcie aplikacji.",
+        "ExpDetail": "Opóźnienia aparatu podczas fotografowania — mało pamięci",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "Aparat znajduje się zbyt blisko obiektu. Poproś użytkownika o oddalenie się od obiektu.",
+        "ExpDetail": "Zdjęcia robione aparatem są niewyraźne",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "Poproś użytkownika o zamknięcie aplikacji działających w tle i zrestartowanie aparatu.",
+        "ExpDetail": "Ekran robi się czarny podczas robienia zdjęć — mało pamięci",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "Poproś pracownika serwisu posprzedażowego o przechwycenie dzienników nagrań i odesłanie ich z kodem błędu algorytmu.",
+        "ExpDetail": "Ekran rozmywa się podczas robienia zdjęć — kod błędu algorytmu: %1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "Telefon jest przegrzany. Poproś użytkownika o zamknięcie aplikacji działających w tle i pozostawienie telefonu na 5 minut.",
+        "ExpDetail": "Nie można robić zdjęć — przegrzanie",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "Poproś użytkownika o zamknięcie aplikacji działających w tle i zrestartowanie aparatu.",
+        "ExpDetail": "Nie można robić zdjęć — mało pamięci",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "Poproś użytkownika o zamknięcie aplikacji działających w tle i zrestartowanie aparatu.",
+        "ExpDetail": "Nie można robić zdjęć — nie załadowano zasobów dźwiękowych",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "Telefon jest przegrzany. Poproś użytkownika o zamknięcie aplikacji działających w tle i pozostawienie telefonu na 5 minut.",
+        "ExpDetail": "Opóźnienia podglądu nagrywania wideo — obniżenie częstotliwości w związku z przegrzaniem",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "Mało wolnej pamięci. Sprawdź, ile aplikacji działa w tle, i poproś użytkownika o zamknięcie aplikacji.",
+        "ExpDetail": "Opóźnienia podglądu nagrywania wideo — mało pamięci",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "Telefon jest przegrzany. Poproś użytkownika o zamknięcie aplikacji działających w tle i pozostawienie telefonu na 5 minut.",
+        "ExpDetail": "Opóźnienie podczas fotografowania — przegrzanie",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "Mało wolnej pamięci. Sprawdź, ile aplikacji działa w tle, i poproś użytkownika o zamknięcie aplikacji.",
+        "ExpDetail": "Opóźnienie podczas fotografowania — mało pamięci",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "Zbyt duże obciążenie. Poproś użytkownika o zamknięcie aplikacji działających w tle.",
+        "ExpDetail": "Opóźnienie podczas fotografowania — duże obciążenie",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "Telefon jest przegrzany. Poproś użytkownika o zamknięcie aplikacji działających w tle i pozostawienie telefonu na 5 minut.",
+        "ExpDetail": "Przekroczenie limitu czasu podczas zapisywania pliku nagrania — przegrzanie",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "Mało wolnej pamięci. Sprawdź, ile aplikacji działa w tle, i poproś użytkownika o zamknięcie aplikacji.",
+        "ExpDetail": "Przekroczenie limitu czasu podczas zapisywania pliku nagrania — mało pamięci",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "Zbyt duże obciążenie. Poproś użytkownika o zamknięcie aplikacji działających w tle.",
+        "ExpDetail": "Przekroczenie limitu czasu podczas zapisywania pliku nagrania — duże obciążenie",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "Brak związku z problemami z siecią",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "System działa wolno. Zamknij aplikacje działające w tle lub zrestartuj urządzenie.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem będzie się powtarzał, przechwyć i zapisz dzienniki audio odtwarzające problem, wyślij je do programisty w celu analizy i wymień płytę główną w celu sprawdzenia krzyżowego.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem będzie się powtarzał, przechwyć i zapisz dzienniki audio odtwarzające problem, wyślij je do programisty w celu analizy i wymień płytę główną w celu sprawdzenia krzyżowego.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem występuje nadal, zarejestruj i zapisz dzienniki audio, które pozwolą odtworzyć problem, a następnie wyślij je do analizy deweloperowi. Jeśli odtwarzanie przez głośnik przebiega nieprawidłowo, sprawdź, czy odtwarzanie przebiega prawidłowo przez słuchawki. Jeśli tak, wymień głośnik. Jeśli wystąpi ten sam problem, wymień płytę główną w celu prowadzenia kontroli krzyżowej sprzętu.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem będzie się powtarzał, przechwyć i zapisz dzienniki audio odtwarzające problem, wyślij je do programisty w celu analizy i wymień płytę główną w celu sprawdzenia krzyżowego.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem występuje nadal, zarejestruj i zapisz dzienniki audio, które pozwolą odtworzyć problem, a następnie wyślij je do analizy deweloperowi i wymień głośnik. Jeśli problem będzie się powtarzał, wymień płytę główną w celu prowadzenia kontroli krzyżowej sprzętu.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "Przechwyć i zapisz dzienniki audio pozwalające odtworzyć problem, a następnie wyślij je do analizy deweloperowi i przeprowadź aktualizację do najnowszej wersji. Jeśli problem będzie się powtarzał, wymień płytę główną w celu prowadzenia kontroli krzyżowej sprzętu.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "Brak związku z problemami z siecią",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas nagrywania: %1",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "System działa wolno. Zamknij aplikacje działające w tle lub zrestartuj urządzenie.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas nagrywania: %1",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem będzie się powtarzał, przechwyć i zapisz dzienniki audio odtwarzające problem, wyślij je do programisty w celu analizy i wymień płytę główną w celu sprawdzenia krzyżowego.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas nagrywania: %1",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem występuje nadal, zarejestruj i zapisz dzienniki audio, które pozwolą odtworzyć problem, a następnie wyślij je do analizy deweloperowi. Sprawdź, czy nagrywanie przez słuchawki działa prawidłowo. Jeśli tak, wymień mikrofon telefonu. Jeśli wystąpi ten sam problem, wymień płytę główną w celu prowadzenia kontroli krzyżowej sprzętu.",
+        "ExpDetail": "Wystąpienia awarii, opóźnień lub utraty dźwięku podczas nagrywania: %1",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "Wynik problemów z siecią. Skontroluj połączenie z siecią.",
+        "ExpDetail": "Wystąpienia awarii lub opóźnień odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "Brak związku z siecią. Sprawdź ustawienia aplikacji.",
+        "ExpDetail": "Wystąpienia awarii lub opóźnień odtwarzania: %1",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "W przypadku wystąpienia problemów, które nie mogą zostać automatycznie przeanalizowane, zaleca się użyć najnowszej wersji dostępnej w sklepie App Market lub wyczyścić pamięć podręczną aplikacji oraz jej dane i spróbować ponownie.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "Przyczyną jest sama aplikacja.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "W przypadku wystąpienia problemów, które nie mogą zostać automatycznie przeanalizowane, zaleca się użyć najnowszej wersji dostępnej w sklepie App Market lub wyczyścić pamięć podręczną aplikacji oraz jej dane i spróbować ponownie.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "Aplikacja nie została pobrana z oficjalnego App Market. Wskazane jest pobranie aplikacji z oficjalnego App Market.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1 (orientacyjnie)",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "Aplikacja nie została pobrana z oficjalnego App Market. Wskazane jest pobranie aplikacji z oficjalnego App Market.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1 (orientacyjnie)",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "Niektóre aplikacje innych dostawców mogą wyglądać, jakby działały nieprawidłowo, w tym (%1), wskazane jest zainstalowanie najnowszej wersji",
+        "ExpDetail": "1. Wyjątek zgodności;<br>2. Aplikacja 32-bitowa",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Zrywanie połączeń głosowych lub wideo, opóźnienia lub utrata dźwięku w aplikacjach innych dostawców: %1",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "Brak związku z problemami z siecią",
+        "ExpDetail": "Zrywanie połączeń głosowych lub wideo, opóźnienia lub utrata dźwięku w aplikacjach innych dostawców: %1",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "Rozwiąż problemy dotyczące komponentów związanych z odtwarzaniem dźwięku oraz jego nagrywaniem (np. głośnik i mikrofon)",
+        "ExpDetail": "Zrywanie połączeń głosowych lub wideo, opóźnienia lub utrata dźwięku w aplikacjach innych dostawców: %1",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "System działa wolno. Zamknij aplikacje działające w tle lub zrestartuj urządzenie.",
+        "ExpDetail": "Zrywanie połączeń głosowych lub wideo, opóźnienia lub utrata dźwięku w aplikacjach innych dostawców: %1",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem będzie się powtarzał, przechwyć i zapisz dzienniki audio odtwarzające problem, wyślij je do programisty w celu analizy i wymień płytę główną w celu sprawdzenia krzyżowego.",
+        "ExpDetail": "Zrywanie połączeń głosowych lub wideo, opóźnienia lub utrata dźwięku w aplikacjach innych dostawców: %1",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem będzie się powtarzał, przechwyć i zapisz dzienniki audio odtwarzające problem, wyślij je do programisty w celu analizy i wymień płytę główną w celu sprawdzenia krzyżowego.",
+        "ExpDetail": "Zrywanie połączeń głosowych lub wideo, opóźnienia lub utrata dźwięku w aplikacjach innych dostawców: %1",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "Przechwyć i zapisz dzienniki audio pozwalające odtworzyć problem, wyślij je do analizy deweloperowi i przeprowadź aktualizację do najnowszej wersji. Jeśli problem będzie się powtarzał, wymień płytę główną w celu prowadzenia kontroli krzyżowej sprzętu.",
+        "ExpDetail": "Zrywanie połączeń głosowych lub wideo, opóźnienia lub utrata dźwięku w aplikacjach innych dostawców: %1",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "Spróbuj połączyć się z inną siecią. Jeśli problem występuje nadal, przechwyć dziennik audio oraz dziennik sieci i wyślij je do analizy deweloperowi.",
+        "ExpDetail": "%1 przypadków połączeń WeChat bez dźwięku z powodu błędów sieci",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. Jeśli problem występuje w podobnych lokalizacjach, porównaj działanie swojego telefonu z działaniem innych telefonów tego samego operatora. Jeśli w tych telefonach występuje ten sam problem, skontaktuj się z operatorem, aby go rozwiązać.<br>2. Jeśli problem występuje w podobnych sytuacjach, sprawdź, czy nie znajdujesz się w piwnicy, garażu, gęsto zaludnionym obszarze lub jadącym samochodzie, gdzie sygnał może być słaby.<br>3. Jeśli WeChat wyświetlił komunikat z ostrzeżeniem o niestabilności sieci Twojej lub rozmówcy podczas połączenia, obraz jest rozmyty ze względu na strategie opracowane przez WeChat.",
+        "ExpDetail": "%1 przypadków połączeń wideo WeChat z rozmytym obrazem z powodu błędów sieci",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. Zaktualizuj aplikację WeChat, a następnie uruchom ponownie telefon i aplikację.<br> 2. Jeśli podczas połączeń WeChat wyświetla komunikat z ostrzeżeniem o niestabilności sieci po stronie rozmówcy, obraz jest rozmyty, ponieważ telefon rozmówcy jest podłączony do słabej sieci.",
+        "ExpDetail": "%1 przypadków połączeń wideo WeChat z rozmytym obrazem z powodu błędów sieci",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "Poleć klientowi, aby nie korzystał z telefonu, gdy się ładuje.",
+        "ExpDetail": "Używanie telefonu przez dłuższy czas podczas ładowania: %1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "Poleć klientowi, aby nie ładował telefonu w niskich temperaturach.",
+        "ExpDetail": "W niskich temperaturach powietrza tempo ładowania jest zmniejszane, aby chronić baterię: %1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "Powolne ładowanie. Ładowanie będzie szybsze, jeśli użyjesz ładowarki i kabla otrzymanych w zestawie z urządzeniem.",
+        "ExpDetail": "Ładowanie USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "Ładowanie jest wolniejsze przy wyższym poziomie naładowania baterii, aby chronić baterię.",
+        "ExpDetail": "Ładowanie podtrzymujące powoduje niską prędkość ładowania, ponieważ początkowy poziom naładowania baterii jest zbyt wysoki: %1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "Ładowarka wykorzystuje napięcie wyższe od tego, z myślą o którym zostało zaprojektowane urządzenie. Należy używać właściwej ładowarki.",
+        "ExpDetail": "Zbyt wysokie napięcie zasilacza: %1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "Wykryto luźne połączenie baterii. Sprawdź złącza baterii i styki BTB.",
+        "ExpDetail": "Słabe połączenie styków baterii: %1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "Brak autoryzacji baterii. Należy użyć oryginalnej baterii od producenta urządzenia.",
+        "ExpDetail": "Nieoryginalna bateria: %1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "Temperatura urządzenia jest zbyt niska. W celu utrzymania dobrej kondycji baterii jej ładowanie zostanie wstrzymane przed pełnym naładowaniem.",
+        "ExpDetail": "Niska temperatura uniemożliwia pełne naładowanie: %1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "Odłącz i ponownie podłącz kabel ładowania, aby kontynuować ładowanie",
+        "ExpDetail": "Ciągłe ładowanie przez długi czas: %1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "Ładowarka wykorzystuje napięcie wyższe od tego, z myślą o którym zostało zaprojektowane urządzenie. Należy używać właściwej ładowarki.",
+        "ExpDetail": "Zbyt wysokie napięcie zasilacza: %1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "Temperatura urządzenia jest zbyt wysoka. Dla bezpieczeństwa użytkownika ładowanie zostaje wstrzymane.",
+        "ExpDetail": "Wysoka temperatura powoduje wstrzymanie ładowania: %1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "Temperatura urządzenia jest zbyt wysoka. Dla bezpieczeństwa użytkownika bateria nie zostanie naładowana do pełnej pojemności.",
+        "ExpDetail": "Wysoka temperatura uniemożliwia pełne naładowanie: %1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "Temperatura urządzenia jest zbyt niska. Ładowanie zostaje wstrzymane w celu zapewnienia ochrony baterii.",
+        "ExpDetail": "Niska temperatura powoduje wstrzymanie ładowania: %1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "Pełne naładowanie: %1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "Spróbuj użyć innego zasilacza, kabla lub urządzenia, aby ustalić, które z nich powoduje problem. Jeśli problem jest powodowany przez kabel lub zasilacz, wymień wadliwe akcesorium. Jeśli źródłem problemu jest urządzenie, spróbuj ponownie podłączyć się do złączy BTB i portu USB. Jeśli problem nie ustąpi, zwróć urządzenie do fabryki w celu przeprowadzenia naprawy. Jeśli problem nie ma natury sprzętowej, zaktualizuj oprogramowanie.",
+        "ExpDetail": "Ładowanie nie działa: %1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "Spróbuj użyć innego zasilacza, kabla lub urządzenia, aby ustalić, które z nich powoduje problem. Jeśli problem jest powodowany przez kabel lub zasilacz, wymień wadliwe akcesorium. Jeśli źródłem problemu jest urządzenie, spróbuj ponownie podłączyć się do złączy BTB i portu USB. Jeśli problem nie ustąpi, zwróć urządzenie do fabryki w celu przeprowadzenia naprawy. Jeśli problem nie ma natury sprzętowej, zaktualizuj oprogramowanie.",
+        "ExpDetail": "Ładowanie przerywane: %1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "Skalibruj baterię w temperaturze pokojowej: Pozostaw urządzenie podłączone na 2 godziny po jego pełnym naładowaniu.",
+        "ExpDetail": "Nagła zmiana wskazania woltomierza: %1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "Skalibruj baterię w temperaturze pokojowej: Pozostaw urządzenie podłączone na 2 godziny po jego pełnym naładowaniu.",
+        "ExpDetail": "Nagła zmiana wskazania woltomierza: %1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "Skalibruj baterię w temperaturze pokojowej: Pozostaw urządzenie podłączone na 2 godziny po jego pełnym naładowaniu.",
+        "ExpDetail": "Nagła zmiana wskazania woltomierza: %1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "Użyj oryginalnej baterii",
+        "ExpDetail": "Ładowanie jest wolniejsze z powodu włożenia nieoryginalnej baterii: %1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "Użyj oryginalnej ładowarki",
+        "ExpDetail": "Ładowanie jest wolniejsze z powodu podłączenia nieoryginalnego zasilacza: %1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "Sprawdź, czy nie są widoczne wyraźne ślady zużycia kabla. Spróbuj użyć innego kabla.",
+        "ExpDetail": "Ładowanie jest wolniejsze z powodu problemów z kablem: %1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "Sprawdź, czy ładowarka do szybkiego ładowania działa prawidłowo. Spróbuj użyć innej ładowarki.",
+        "ExpDetail": "Ładowanie jest wolniejsze, ponieważ nie jest używany tryb szybki ładowania: %1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "Użyj oryginalnej ładowarki",
+        "ExpDetail": "Ładowanie jest wolniejsze z powodu podłączenia do nieoryginalnego zasilacza o maksymalnej mocy: %1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "Przed przystąpieniem do ładowania upewnij się, że urządzenie ma temperaturę pokojową",
+        "ExpDetail": "Gdy temperatura telefonu jest niska, tempo ładowania jest zmniejszane, aby chronić baterię: %1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "Przed przystąpieniem do ładowania upewnij się, że urządzenie ma temperaturę pokojową",
+        "ExpDetail": "Gdy temperatura telefonu jest wysoka, tempo ładowania jest zmniejszane, aby chronić baterię: %1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "Należy ładować urządzenie w odpowiedniej temperaturze",
+        "ExpDetail": "Ładowanie staje się wolniejsze w miarę, jak temperatura baterii nadmiernie wzrasta lub spada: %1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "Użyj oryginalnej ładowarki",
+        "ExpDetail": "Gdy telefon jest podłączony do gniazda USB komputera, tempo ładowania jest zmniejszane: %1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "Nie używaj telefonu podczas ładowania",
+        "ExpDetail": "Ładowanie staje się wolniejsze w miarę, jak zużycie mocy telefonu nadmiernie przybiera na sile: %1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "Sprawdź, czy port nie jest zakurzony i czy styki nie przylegają słabo do złącza. Jeśli port jest w dobrym stanie, sprawdź ładowarkę, kabel oraz płytkę drukowaną złącza USB.",
+        "ExpDetail": "Jeśli wartość prądu wykracza poza dozwolony zakres, tempo ładowania jest zmniejszane: %1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "Nie używaj telefonu podczas ładowania",
+        "ExpDetail": "Ładowanie jest wolniejsze, gdy ekran pozostaje włączony przez zbyt długi czas: %1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "Nie używaj telefonu podczas ładowania",
+        "ExpDetail": "Ładowanie jest wolniejsze, gdy aparat jest w użyciu przez zbyt długi czas: %1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "Nie używaj telefonu podczas ładowania",
+        "ExpDetail": "Ładowanie jest wolniejsze, gdy rozmowy telefoniczne trwają zbyt długo: %1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "Nie używaj telefonu podczas ładowania",
+        "ExpDetail": "Temperatura lub zużycie energii utrzymują się na zbyt wysokim poziomie zbyt długo: %1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "Powiedz klientowi, aby ładował telefon przy wyłączonym ekranie, w środowisku o temperaturze od 15℃ do 35℃. Po całkowitym naładowaniu telefonu nie używaj telefonu i pozostaw go podłączonego do ładowarki przez 2 godziny, aby skalibrować licznik kulombów.",
+        "ExpDetail": "Błąd wskazania pojemności baterii: %1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "Powiedz klientowi, aby ładował telefon przy wyłączonym ekranie, w środowisku o temperaturze od 15℃ do 35℃. Po całkowitym naładowaniu telefonu nie używaj telefonu i pozostaw go podłączonego do ładowarki przez 2 godziny, aby skalibrować licznik kulombów.",
+        "ExpDetail": "Błąd wskazania pojemności baterii: %1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "Powiedz klientowi, aby ładował telefon przy wyłączonym ekranie, w środowisku o temperaturze od 15℃ do 35℃. Po całkowitym naładowaniu telefonu nie używaj telefonu i pozostaw go podłączonego do ładowarki przez 2 godziny, aby skalibrować licznik kulombów.",
+        "ExpDetail": "Błąd wskazania pojemności baterii: %1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "Powiedz klientowi, aby ładował telefon przy wyłączonym ekranie, w środowisku o temperaturze od 15℃ do 35℃. Po całkowitym naładowaniu telefonu nie używaj telefonu i pozostaw go podłączonego do ładowarki przez 2 godziny, aby skalibrować licznik kulombów.",
+        "ExpDetail": "Błąd wskazania pojemności baterii: %1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "Powiedz klientowi, aby ładował telefon przy wyłączonym ekranie, w środowisku o temperaturze od 15℃ do 35℃. Ładowanie telefonu w miejscach, w których panuje wysoka temperatura otoczenia, a także granie w duże gry podczas ładowania powoduje nagrzewanie się telefonu. Po przekroczeniu temperatury 38℃ system automatycznie zmniejsza prąd używany do ładowania oraz prędkość ładowania.",
+        "ExpDetail": "Przegrzanie baterii: %1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "Powiedz klientowi, aby ładował telefon w środowisku o temperaturze od 15℃ do 35℃. Jeśli temperatura otoczenia spadnie poniżej 15℃, zostanie uruchomiony mechanizm zabezpieczający w celu zmniejszenia prądu i prędkości ładowania.",
+        "ExpDetail": "Niska temperatura baterii: %1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1. Włącz w telefonie tryb inżynieryjny i sprawdź, czy prąd ładowania jest normalny (889 – Debugowanie urządzenia – Test ładowania).<br>2. Jeśli prąd ładowania jest normalny, problem jest prawdopodobnie spowodowany przez znaczne zużycie energii (na przykład granie w duże gry).",
+        "ExpDetail": "Niska prędkość ładowania z powodu niskiego prądu: %1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1. Zapytaj, czy klient nie ładował telefonu z komputera. Jeśli tak, powiedz mu, że lepiej ładować telefon przy użyciu oryginalnego zasilacza. <br>2. Jeśli nie, sprawdź, czy kabel ładowania jest uszkodzony lub czy słabo przylega do złącza.",
+        "ExpDetail": "Ładowanie z komputera: %1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1. Do weryfikacji użyj zamiennie oryginalnego zasilacza i oryginalnego kabla ładowania. <br>2. Jeśli tryb szybkiego ładowania jest dostępny, powiedz klientowi, aby używał do ładowania oryginalnego zasilacza. <br>3. Jeśli problem nadal występuje, skontroluj obwód ładowania w złączu ładowania telefonu.",
+        "ExpDetail": "Szybkie ładowanie nie działa: %1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1. Problem ten wynika z ładowania przy użyciu nieoryginalnego zasilacza. <br>2. Powiedz klientowi, aby ładował telefon przy użyciu oryginalnego zasilacza.",
+        "ExpDetail": "Nieoryginalny zasilacz: %1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "Poleć klientowi, aby ładował telefon w środowisku, w którym panuje temperatura od 15℃ do 35℃ oraz aby podczas ładowania telefonu unikał grania w gry mocno obciążające pamięć urządzenia. Granie w takie gry podczas ładowania będzie powodować nagrzewanie się telefonu. Po przekroczeniu temperatury 38℃ system automatycznie zmniejsza prąd używany do ładowania oraz prędkość ładowania.",
+        "ExpDetail": "Niska prędkość ładowania ze względu na kontrolę temperatury lub wysoki prąd: %1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "Zbyt wiele aplikacji działa w tle. Powiedz klientowi, aby zamknął działające w tle zadania, które nie są używane.",
+        "ExpDetail": "Niska prędkość ładowania ze względu na duże zużycie energii przez system: %1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "Poleć klientowi, aby nie grał w gry podczas ładowania telefonu, jako że może to spowodować zmniejszenie prądu ładowania.",
+        "ExpDetail": "Niska prędkość ładowania z powodu korzystania podczas ładowania: %1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1. Do weryfikacji użyj zamiennie oryginalnego zasilacza i oryginalnego kabla ładowania. <br>2. Jeśli tryb szybkiego ładowania jest dostępny, powiedz klientowi, aby używał do ładowania oryginalnego zasilacza. <br>3. Jeśli problem nadal występuje, skontroluj obwód ładowania w złączu ładowania telefonu.",
+        "ExpDetail": "Przerywane ładowanie podczas korzystania z VOOC: %1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1. Do weryfikacji użyj zamiennie oryginalnego zasilacza i oryginalnego kabla ładowania. <br>2. Jeśli problem został rozwiązany, poproś klienta o ładowanie przy użyciu oryginalnego zasilacza. <br>3. Jeśli problem nadal występuje, skontroluj obwód ładowania w złączu ładowania telefonu.",
+        "ExpDetail": "Przerywane ładowanie podczas korzystania z ładowarki do zastosowań ogólnych: %1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1. Naładuj telefon za pomocą ładowarki, aby sprawdzić, czy pojawi się komunikat wskazujący, że bateria nie jest oryginalna. <br>2. Rozłóż telefon i sprawdź, czy bateria jest oryginalna i czy została prawidłowo zainstalowana.",
+        "ExpDetail": "Źle włożona bateria lub włożona nieoryginalna bateria: %1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "W przypadku wystąpienia błędu, któremu towarzyszy informacja o braku prądu generowanego w obwodzie ładowania, sprawdź interfejs USB i moduł sprzętowy ładowania.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "Sprawdź:<br>1. Czy telefon jest w pełni naładowany.<br>2. Prąd ładowania wykryty przez komputer jest stosunkowo niski. Sprawdź, czy bateria telefonu nie rozładowuje się szybko.",
+        "ExpDetail": "Test zakończony niepowodzeniem",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='Znakomite';}else if(result>=excellent){resultText+='Dobra';}else{resultText+='差';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Znakomite：'+good+'-100%，Dobra：'+excellent+'-'+good+'%，差：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1. Wraz ze spadkiem pojemności baterii skraca się czas jej działania. Możesz wymienić baterię.<br>2. Aby maksymalnie wydłużyć czas działania baterii, postaraj się podłączać telefon do ładowarki, gdy tylko zauważysz, że poziom naładowania baterii jest niski.",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = 'Niepowodzenie：';if(result>=good){resultText+='Znakomite';}else if(result>excellent){resultText+='Dobra';}else{resultText+='Słaby';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Znakomite：'+good+'-100%，Dobra：'+excellent+'-'+good+'%，Słaby：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a. Zalecamy zgłoszenie się do lokalnego operatora lub optymalizatora sieci lokalnej w celu przeprowadzenia testu terenowego.<br>b. Na czas korzystania z trybu czuwania włącz tryb Samolot w celu zapobiegania poborowi mocy wynikającemu z niestabilności sieci.",
+        "ExpDetail": "Częste zaniki połączenia z komórkową transmisją danych z powodu skomplikowanej struktury sieci lub słabego sygnału",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a. Zalecamy zgłoszenie się do lokalnego operatora lub optymalizatora sieci lokalnej w celu przeprowadzenia testu terenowego.<br>b. Na czas korzystania z trybu czuwania włącz tryb Samolot w celu zapobiegania poborowi mocy wynikającemu z niestabilności sieci.",
+        "ExpDetail": "Brak usługi z powodu słabego sygnału sieci",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a. Zalecamy zgłoszenie się do lokalnego operatora lub optymalizatora sieci lokalnej w celu przeprowadzenia testu terenowego.<br>b. Na czas korzystania z trybu czuwania włącz tryb Samolot w celu zapobiegania poborowi mocy wynikającemu z niestabilności sieci.",
+        "ExpDetail": "Zmienianie wybranej komórki z powodu skomplikowanej struktury sieci lub słabego sygnału",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a. Zalecamy zgłoszenie się do lokalnego operatora lub optymalizatora sieci lokalnej w celu przeprowadzenia testu terenowego.<br>b. Na czas korzystania z trybu czuwania włącz tryb Samolot w celu zapobiegania poborowi mocy wynikającemu z niestabilności sieci.",
+        "ExpDetail": "Częste włączanie procesora z powodu skomplikowanej struktury sieci lub niestabilnego sygnału",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a. Zalecamy zgłoszenie się do lokalnego operatora lub optymalizatora sieci lokalnej w celu przeprowadzenia testu terenowego.<br>b. Na czas korzystania z trybu czuwania włącz tryb Samolot w celu zapobiegania poborowi mocy wynikającemu z niestabilności sieci.",
+        "ExpDetail": "Częste włączanie modemu z powodu skomplikowanej struktury sieci lub niestabilnego sygnału",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a. Zalecamy zgłoszenie się do lokalnego operatora lub optymalizatora sieci lokalnej w celu przeprowadzenia testu terenowego.<br>b. Na czas korzystania z trybu czuwania włącz tryb Samolot w celu zapobiegania poborowi mocy wynikającemu z niestabilności sieci.",
+        "ExpDetail": "Niemożność włączenia trybu uśpienia modemu z powodu skomplikowanej struktury sieci lub niestabilnego sygnału",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.",
+        "ExpDetail": "Wi-Fi stale budzi procesor, aby odbierać wiadomości aplikacji",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. Wskazane jest wyłączenie połączeń z sieciami komórkowymi w trybie czuwania, aby procesor nie był często wybudzany.<br>b. W trybie czuwania należy połączyć się z siecią Wi-Fi.<br>c. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.",
+        "ExpDetail": "Modem stale budzi procesor, aby odbierać wiadomości aplikacji",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. Wskazane jest wyłączenie połączeń z sieciami komórkowymi w trybie czuwania, aby procesor nie był często wybudzany.<br>b. W trybie czuwania należy połączyć się z siecią Wi-Fi.<br>c. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.",
+        "ExpDetail": "Częste wiadomości z aplikacji powodujące ciągłe działanie modemu",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "a. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>b. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji z wbudowanego sklepu z aplikacjami.",
+        "ExpDetail": "Aktywność aplikacji działających w tle powoduje, że procesor nie usypia",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "a. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>b. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji z wbudowanego sklepu z aplikacjami.",
+        "ExpDetail": "Długotrwałe działanie procesora wskutek częstej aktywności aplikacji działających w tle",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. Zaleca się korzystanie z pasma częstotliwości 5 GHz sieci Wi-Fi.<br>b. Wyłącz łączność Wi-Fi na czas korzystania z trybu czuwania lub wyłącz funkcję „Skanowanie zawsze dostępne” na stronie ustawień sieci Wi-Fi.",
+        "ExpDetail": "Skomplikowana struktura sieci powoduje wzajemne zakłócanie się sygnałów Wi-Fi, 4G i 2.4 G",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. Środowisko Wi-Fi charakteryzuje się słabą jakością sygnału. Połącz się z siecią Wi-Fi o lepszym sygnale.<br>b. Zaleca się korzystanie z sieci komórkowej.<br>c. Na czas korzystania z trybu czuwania wyłącz sieć Wi-Fi.",
+        "ExpDetail": "Częste skanowanie Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. Środowisko Wi-Fi charakteryzuje się słabą jakością sygnału. Połącz się z siecią Wi-Fi o lepszym sygnale.<br>b. Zaleca się korzystanie z sieci komórkowej.<br>c. Na czas korzystania z trybu czuwania wyłącz sieć Wi-Fi.",
+        "ExpDetail": "Odnowienie adresu IP Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. Środowisko Wi-Fi charakteryzuje się słabą jakością sygnału. Połącz się z siecią Wi-Fi o lepszym sygnale.<br>b. Zaleca się korzystanie z sieci komórkowej.<br>c. Na czas korzystania z trybu czuwania wyłącz sieć Wi-Fi.",
+        "ExpDetail": "Aktualizacja klucza Multicast Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. Środowisko Wi-Fi charakteryzuje się słabą jakością sygnału. Połącz się z siecią Wi-Fi o lepszym sygnale.<br>b. Zaleca się korzystanie z sieci komórkowej.<br>c. Na czas korzystania z trybu czuwania wyłącz sieć Wi-Fi.",
+        "ExpDetail": "Słaba jakość sygnału Wi-Fi powoduje częste zaniki połączenia z Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "Skorzystaj ze źródła zasilania prądem stałym w celu sprawdzenia, czy prąd doprowadzany w trybie czuwania jest prawidłowy.",
+        "ExpDetail": "Możliwe straty energii z powodu usterki sprzętowej",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Retransmisja SMS",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Automatyczna synchronizacja czasu w sieci",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Błąd podsystemu czujnika i audio",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Częste wybudzanie podsystemu dźwięku i czujnika",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Modem stale budzi procesor, aby odbierać wiadomości aplikacji",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Częste wywołania alarmu warstwy podstawowej",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Jądro działa zbyt długo",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Czujniki często budzą procesor",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Częste wybudzanie licznika kulombów",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. Wyłącz połączenia z sieciami komórkowymi i Wi-Fi na czas korzystania z trybu czuwania, aby procesor nie był często wybudzany.<br>b. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>c. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji ze sklepu OPPO App Market.",
+        "ExpDetail": "Nieznana przyczyna",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "Wysokie zużycie energii przez urządzenie, które przez długi czas odtwarza muzykę, jest normalnym zjawiskiem.",
+        "ExpDetail": "Muzyka w tle",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. Należy sprawdzić, czy w tle nie jest pobierane żadne oprogramowanie. b. Należy sprawdzić, czy nie jest włączona automatyczna synchronizacja, usługi w chmurze ani inne funkcje.",
+        "ExpDetail": "Pobrane",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "Korzystanie z hotspotu Wi-Fi zwiększa zużycie energii przez telefon. Należy go wyłączyć, gdy nie jest używany.",
+        "ExpDetail": "Użytkownik włącza hotspot Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "W zależności od Twoich nawyków użytkowania bateria telefonu może wystarczyć na około %1, %2 przy włączonym ekranie i %3 przy wyłączonym ekranie. Dotknij, aby wyświetlić więcej szczegółowych informacji o baterii.",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "Włącz automatyczną jasność i unikaj długotrwałego korzystania z telefonu w warunkach silnego oświetlenia.",
+        "ExpDetail": "Wysoki poziom jasności powoduje szybsze zużywanie energii",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "a. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>b. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji z wbudowanego sklepu z aplikacjami.",
+        "ExpDetail": "Bateria szybko się rozładowuje, ponieważ aplikacje nadal korzystają z procesora. 5 aplikacji najbardziej korzystających z procesora: %1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "a. Należy regularnie zamykać aplikacje uruchamiane w tle. Przed przeniesieniem urządzenia w tryb czuwania dotknij opcji „Zamknij wszystkie” na ekranie Ostatnie.<br>b. Regularnie usuwaj niepotrzebne aplikacje. Zaleca się pobieranie aplikacji z wbudowanego sklepu z aplikacjami.",
+        "ExpDetail": "Wysoki prąd doprowadzany w trybie czuwania przyspiesza zużycie energii",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "Klient przez dłuższy czas używał telefonu z ustawionym wysokim poziomem jasności ekranu. Powiedz klientowi, aby obniżył jasność na czas korzystania z telefonu.",
+        "ExpDetail": "Długotrwała wysoka jasność ekranu",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "Klient przez dłuższy czas używał telefonu z ustawioną wysoką częstotliwością odświeżania. Powiedz klientowi, aby wybrał opcję „Standardowa” w sekcji „Ustawienia – Ekran i jasność – Więcej – Częstotliwość odświeżania ekranu”. Uwaga: Wybór tej opcji może spowodować mniej płynne działanie ekranu.",
+        "ExpDetail": "Długotrwała wysoka częstotliwość odświeżania",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "Klient przez dłuższy czas używał telefonu z ustawioną wysoką rozdzielczością. Powiedz klientowi, aby wybrał opcję „Wybór automatyczny” w sekcji „Ustawienia – Ekran i jasność – Więcej – Rozdzielczość ekranu”. Wybór tej opcji może spowodować, że zawartość ekranu będzie mniej wyraźna.",
+        "ExpDetail": "Stosowanie przez długi czas wysokiej rozdzielczości",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "Użycie procesora było wysokie wskutek działania aplikacji %1. Powiedz klientowi, aby ograniczył użycie %2.",
+        "ExpDetail": "Długotrwałe znaczne użycie zasobów procesora",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "Aplikacja %1 używała zasobów procesora przez %2 godz. Zapytaj klienta, czy ta aplikacja musi być stale uruchomiona.",
+        "ExpDetail": "Długotrwałe korzystanie z aplikacji",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "Klient przez dłuższy czas używał telefonu z ustawionym wysokim poziomem głośności dźwięku. Wysoki poziom głośności może uszkodzić słuch użytkownika, a przy tym powoduje szybkie rozładowywanie się baterii. Poradź klientowi, aby zmniejszył poziom głośności.",
+        "ExpDetail": "Wysoki poziom głośności dźwięku przez długi czas",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "Telefon często gubi sygnał. Powiedz klientowi, aby skontaktował się ze swoim operatorem komórkowym.",
+        "ExpDetail": "Stały brak usług",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "Telefon stale wyszukuje sieci. Powiedz klientowi, aby skontaktował się ze swoim operatorem komórkowym.",
+        "ExpDetail": "Ciągłe szukanie sieci",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "Wykorzystano dużą ilość danych komórkowych. Pliki można pobierać przez sieć Wi-Fi, aby wydłużyć czas pracy baterii.",
+        "ExpDetail": "Znaczne użycie komórkowej transmisji danych",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "W ciągu ostatnich 24 godzin pobrano %1 GB danych za pośrednictwem sieci Wi-Fi. Warto rozważyć sprawdzenie wykorzystania danych.",
+        "ExpDetail": "Duże wykorzystanie danych w sieci Wi-Fi",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "Aplikacja %1 rozładowuje baterię. Należy zgłosić ten problem twórcy aplikacji.",
+        "ExpDetail": "Aplikacja powodująca nadmierne rozładowywanie się baterii",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "Aplikacja %1 działa od %2 godzin. Warto rozważyć ograniczenie korzystania z tej aplikacji.",
+        "ExpDetail": "Długotrwałe korzystanie z aplikacji",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "Aplikacja %1 wciąż działa w tle. Tę aplikację można zamknąć, jeśli nie jest w użyciu.",
+        "ExpDetail": "Aplikacja dalej działa w tle",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "Aplikacja %1 ciągle wybudza telefon. Możesz zamknąć tę aplikację przed zablokowaniem urządzenia.",
+        "ExpDetail": "Aplikacja ciągle wybudza telefon",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "Aplikacja %1 ciągle korzysta z zasobów procesora, gdy ekran jest wyłączony. Możesz zamknąć tę aplikację przed zablokowaniem urządzenia.",
+        "ExpDetail": "Aplikacja wciąż korzysta z procesora, gdy ekran jest wyłączony",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "Aplikacja %1 ciągle korzysta z sieci, gdy ekran jest wyłączony. Możesz zamknąć tę aplikację przed zablokowaniem urządzenia.",
+        "ExpDetail": "Aplikacja nadal korzysta z sieci, mimo że ekran jest wyłączony",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "Podczas szybkiego ładowania telefonu ładowarka przekształca wysokie napięcie na niskie napięcie. W czasie trwania tego procesu ma miejsce konwersja znacznych ilości energii, co z kolei powoduje powstawanie ciepła. Wskazane jest ładowanie telefonu w miejscu, w którym ciepło może być skutecznie odprowadzane.",
+        "ExpDetail": "Telefon się ładuje",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "Korzystanie z lampy błyskowej przez długi czas generuje ciepło. Nie należy korzystać z lampy błyskowej przez długi czas, aby jej nie uszkodzić.",
+        "ExpDetail": "Włączona lampa błyskowa",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "Korzystanie z wysokiej jasności przez długi czas. Zmniejsz poziom jasności ekranu lub zmień ustawienie na automatyczną jasność.",
+        "ExpDetail": "Zbyt duża jasność ekranu",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "Telefon nagrzewa się w związku ze słabym sygnałem sieciowym. W lokalizacji ze słabym sygnałem antena telefonu musi zwiększyć moc w celu skutecznego wyszukiwania sygnałów na większym obszarze, co powoduje generowanie większego ciepła. Przejdź do sekcji „Ustawienia – Sieć komórkowa – Więcej ustawień” i włącz Inteligentne 5G. Jeśli nie można ustalić bieżącej siły sygnału, skontaktuj się z lokalnym operatorem sieci.",
+        "ExpDetail": "Słaby sygnał telefonu",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "Telefon nagrzewa się w związku ze słabym sygnałem sieciowym. W lokalizacji ze słabym sygnałem antena telefonu musi zwiększyć moc w celu skutecznego wyszukiwania sygnałów na większym obszarze, co powoduje generowanie większego ciepła. Jeśli nie można ustalić bieżącej siły sygnału, skontaktuj się z lokalnym operatorem sieci.",
+        "ExpDetail": "Słaby sygnał sieciowy telefonu",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "Telefon nagrzewa się, ponieważ działająca w tle aplikacja %1 wykorzystuje zbyt dużo zasobów procesora. Jeśli funkcje Wi-Fi, GPS, NFC, Bluetooth i inne zostaną jednocześnie włączone, aby szukały sygnałów w tle, telefon będzie się nagrzewał. Wskazane jest zamknięcie aplikacji działających w tle i wyłączenie nieużywanych funkcji. Możesz zamknąć aplikacje działające w tle lub zrestartować telefon.",
+        "ExpDetail": "Aplikacja działająca w tle %1 nadmiernie korzysta z procesora",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "Aplikacja %1 powoduje duże obciążenie systemu, intensywne użycie procesora, a także nagrzewanie się telefonu. Należy unikać długotrwałego użytkowania telefonu na potrzeby aplikacji powodujących jego duże obciążenie. Aby uniknąć uszkodzenia komponentów telefonu, należy poczekać, aż telefon ostygnie.",
+        "ExpDetail": "Aplikacja działająca na pierwszym planie %1 nadmiernie korzysta z procesora",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "Moduł GPS telefonu jest w użyciu. Telefon może się nagrzać, jeśli przez dłuższy czas będzie odbierać i wysyłać sygnały satelitarne w celu aktualizowania informacji o lokalizacji.<br>Zapytaj użytkownika, czy włączył funkcję nawigacji lub czy dowolna aplikacja innego dostawcy wykorzystująca lokalizację uzyskuje informacje o lokalizacji.",
+        "ExpDetail": "Stałe wyznaczanie współrzędnych GPS",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "Telefon nagrzewa się, ponieważ pewne aplikacje działają równocześnie w tle. Zaleca się regularne czyszczenie pamięci podręcznej w tle.<br>① Sprawdź, czy w tle nie jest pobierane żadne oprogramowanie.<br>② Sprawdź, czy synchronizacja, usługa chmury i inne funkcje są włączone.",
+        "ExpDetail": "Synchronizacja %1 w tle",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "Telefon nagrzewa się, ponieważ aplikacja %1 działa jednocześnie w tle. Zaleca się regularne czyszczenie pamięci podręcznej w tle.<br>① Sprawdź, czy w tle nie jest pobierane żadne oprogramowanie.<br>② Sprawdź, czy synchronizacja, usługa chmury i inne funkcje są włączone.",
+        "ExpDetail": "Synchronizacja %1 w tle",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "Wykryto długie połączenie. Nagrzewanie się telefonu jest zjawiskiem normalnym podczas długotrwałej rozmowy, ponieważ podczas połączenia pracuje antena sygnałowa, mikrofon i głośnik telefonu.<br> Wskazówki dotyczące chłodzenia telefonu znajdziesz w bazie wiedzy „Telefon nagrzewa się podczas rozmów telefonicznych”.",
+        "ExpDetail": "Telefon jest nieustannie wykorzystywany do realizowania połączeń",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "Wykryto długotrwałe/częste używanie aparatu. Podczas robienia zdjęć lub nagrywania filmów aparat, procesor, procesor graficzny i inne urządzenia telefonu komórkowego będą pracować w tym samym czasie, a telefon komórkowy będzie działał pod dużym obciążeniem i nagrzewał się.<br> Wskazówki dotyczące chłodzenia telefonu podczas korzystania z aparatu znajdziesz w bazie wiedzy „Telefon nagrzewa się podczas robienia zdjęć i nagrywania filmów”.",
+        "ExpDetail": "Aplikacja aparatu jest uruchomiona",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "Poproś użytkownika, aby nie korzystał z telefonu w wysokiej temperaturze powietrza i podłączył telefon do zasilacza DC w celu skontrolowania strat energii.",
+        "ExpDetail": "Przegrzewanie się urządzenia spowodowane warunkami środowiskowymi lub sprzętem",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "Zapytaj użytkownika, w jaki sposób korzysta z telefonu, a następnie wykorzystaj uzyskane w ten sposób informacje w połączeniu z informacjami dotyczącymi aplikacji o dużym zużyciu energii oraz innymi danymi diagnostycznymi dotyczącymi życia energii w celu zbadania problemu. Jeśli wszystko wydaje się w porządku, poproś użytkownika, aby zaniósł telefon do serwisu w celu kontroli strat energii.",
+        "ExpDetail": "Nieznana przyczyna",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "Maksymalna temperatura w ciągu %1 dni: %2℃. Godzina wystąpienia: %3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "Telefon się nagrzewa, ponieważ jest używany podczas jego ładowania. Nagrzewanie się baterii lub ładowarek podczas ładowania jest zjawiskiem normalnym, a korzystanie z telefonu podczas ładowania powoduje, że nagrzewa się jeszcze bardziej.",
+        "ExpDetail": "Przegrzewanie spowodowane przez używanie podczas ładowania",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "Podczas szybkiego ładowania telefonu ładowarka przekształca wysokie napięcie na niskie napięcie. W czasie trwania tego procesu ma miejsce konwersja znacznych ilości energii, co z kolei powoduje powstawanie ciepła. Wskazane jest ładowanie telefonu w miejscu, w którym ciepło może być skutecznie odprowadzane.",
+        "ExpDetail": "Przegrzewanie się urządzenia podczas ładowania (ekran włączony podczas ładowania: %1; aplikacja na pierwszym planie podczas ładowania: %2)",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "Telefon mocno się nagrzewa w czasie, gdy klient gra w grę %1. Po uruchomieniu gry znajdujące się wewnątrz telefonu układy, tak jak procesor oraz układ graficzny GPU, muszą działać na wysokim poziomie wydajności, aby zapewnić odpowiednią jakość obrazu oraz płynność. Tak duże obciążenie powoduje, że telefon się nagrzewa. Aby zredukować ten problem, obniż ustawienia (rozdzielczość i szybkość klatek), zmniejsz jasność ekranu i zmniejsz głośność w grach.",
+        "ExpDetail": "Przegrzewanie się urządzenia podczas grania (gra: %1; jakość obrazu: %2; rozdzielczość: %3; tryb gier: %4)",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "Telefon nagrzewa się, ponieważ grasz w gry podczas jego ładowania. Konwersja energii mająca miejsce podczas ładowania powoduje wydzielanie się ciepła. Gdy grasz w gry podczas ładowania telefonu, znajdujące się wewnątrz telefonu układy, tak jak procesor oraz układ graficzny GPU, muszą działać na wysokim poziomie wydajności, aby zapewnić odpowiednią jakość obrazu oraz płynność, co z kolei generuje jeszcze większe ciepło. Nie należy używać telefonu podczas jego ładowania.",
+        "ExpDetail": "Granie w gry podczas ładowania",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "Grasz w gry w miejscu, w którym jest słaby sygnał, przez co przekaźniki sygnału muszą pracować dłużej i intensywniej, aby wyszukać połączenie, co z dużym prawdopodobieństwem może przełożyć się na wzrost temperatury telefonu. Poza tym znajdujące się wewnątrz telefonu układy, tak jak procesor oraz układ graficzny GPU, po uruchomieniu gry muszą działać na wysokim poziomie wydajności, aby zapewnić odpowiednią jakość obrazu oraz płynność, co z kolei generuje jeszcze większe ciepło. Jeśli to możliwe, przenieś się do lokalizacji z dobrym sygnałem sieci.",
+        "ExpDetail": "Przegrzewanie się urządzenia podczas gry spowodowane słabym sygnałem sieci komórkowej",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "Temperatura otoczenia jest wysoka podczas gry. To świadczy o dużym obciążeniu telefonu, w wyniku którego jest generowane ciepło. Wysoka temperatura otoczenia spowalnia także odprowadzanie ciepła i powoduje jeszcze większy wzrost temperatury.",
+        "ExpDetail": "Granie w gry w miejscach, w których panuje wysoka temperatura",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "System wykrył, że na telefonie jest wyłączona funkcja „Automatyczna jasność”. Aby umożliwić inteligentną kontrolę jasności i zmniejszyć zużycie energii, przejdź do sekcji „Ustawienia – Ekran i jasność – Automatyczna jasność”.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t04030201": {
+        "ExpAdvice": "System wykrył, że na telefonie jest włączona funkcja „Usługa lokalizacji”. Działanie modułu GPS w tle zwiększa zużycie energii. Możesz wyłączyć tę funkcję na czas, gdy jej nie potrzebujesz, aby zmniejszyć zużycie energii. W tym celu przeciągnij palcem w dół pasek stanu i dotknij opcji „Lokalizacja” lub przejdź do sekcji „Ustawienia – Prywatność – Lokalizacja – Usługa lokalizacji”.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t04030301": {
+        "ExpAdvice": "System wykrył, że na telefonie jest włączona funkcja „Bluetooth”. Działanie modułu Bluetooth w tle zwiększa zużycie energii. Możesz wyłączyć tę funkcję na czas, gdy jej nie potrzebujesz, aby zmniejszyć zużycie energii. Aby to zrobić, przejdź do sekcji „Ustawienia – Bluetooth”.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t04030401": {
+        "ExpAdvice": "System wykrył, że na telefonie jest włączona funkcja „Osobisty hotspot”. Działanie hotspotu w tle zwiększa zużycie energii. Możesz wyłączyć tę funkcję na czas, gdy jej nie potrzebujesz, aby zmniejszyć zużycie energii. Aby to zrobić, przejdź do sekcji „Ustawienia – Połączenie i udostępnianie – Osobisty hotspot”.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t04030501": {
+        "ExpAdvice": "System wykrył, że na telefonie jest włączona funkcja „NFC”. Działanie modułu NFC w tle zwiększa zużycie energii. Możesz wyłączyć tę funkcję na czas, gdy jej nie potrzebujesz, aby zmniejszyć zużycie energii. W tym celu przejdź do sekcji „Ustawienia – Połączenie i udostępnianie – NFC”.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t04030601": {
+        "ExpAdvice": "System wykrył, że na telefonie jest włączony tryb wysokiej wydajności. Zastosowanie tego trybu zwiększa zużycie energii. Aby wyłączyć tę funkcję i zmniejszyć zużycie energii, przejdź do sekcji „Ustawienia – Bateria – Więcej – Tryb wysokiej wydajności”.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie można przeprowadzić analizy dziennika, ponieważ liczba połączeń przychodzących lub wychodzących jest mniejsza niż 10.",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. Aktywuj funkcję VoLTE operatora i włącz połączenia w wysokiej rozdzielczości w menu Ustawienia.<br>2. Skontroluj wydajność wzmacniacza mocy telefonu, aby sprawdzić, czy nadawanie i odbieranie sygnałów radiowych działa prawidłowo (we wszystkich pasmach sieci 2G, 3G i 4G).<br>3. Zasięg sygnału sieci komórkowej zmienia się w zależności od środowiska. Jeśli sygnał sieci jest słaby, skontaktuj się z lokalnym operatorem sieci.<br>4. Sygnał sieciowy może być słaby w piwnicach, zamkniętych garażach i zatłoczonych miejscach. Słaba jakość sygnału wpływa na jakość połączeń. Wyjdź na otwartą przestrzeń, a jakość połączenia się poprawi.<br>5. Zaktualizuj wersję oprogramowania.",
+        "ExpDetail": "1. Zerwane połączenia: %1, procent: %2<br>2. Błędy połączeń wychodzących: %3, procent: %4<br>3. Błędy połączeń przychodzących: %5, procent: %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "Sieć odebrała żądanie telefonu, nie odpowiedziała na nie jednak.",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "Sieć nie odpowiedziała.",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "Usługa IMS jest nieosiągalna",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "Błąd serwera",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "Połączenia w sieci CDMA Telecom były zrywane, a limit czasu podstawowego łącza 2G przekraczany.",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "Domena obwodu niedostępna",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "Brak usługi",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "Wybierany numer jest niepoprawny",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "Przeciążenie sieci. Wybierz numer ponownie w późniejszym czasie.",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "(Zrywane połączenia wykonywane za pośrednictwem kanałów innych niż komunikatory) Podstawowy błąd połączenia jest w dużej mierze związany z mocą sieci.",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. Aktywuj funkcję VoLTE operatora i włącz połączenia w wysokiej rozdzielczości w menu Ustawienia.<br>2. Skontroluj wydajność wzmacniacza mocy telefonu, aby sprawdzić, czy nadawanie i odbieranie sygnałów radiowych działa prawidłowo (we wszystkich pasmach sieci 2G, 3G i 4G).<br>3. Zasięg sygnału sieci komórkowej zmienia się w zależności od środowiska. Jeśli sygnał sieci jest słaby, skontaktuj się z lokalnym operatorem sieci.<br>4. Sygnał sieciowy może być słaby w piwnicach, zamkniętych garażach i zatłoczonych miejscach. Słaba jakość sygnału wpływa na jakość połączeń. Wyjdź na otwartą przestrzeń, a jakość połączenia się poprawi.<br>5. Zaktualizuj wersję oprogramowania.",
+        "ExpDetail": "1. Błędy połączeń wychodzących: %1<br>2. Błędy połączeń przychodzących: %2<br>3. Zerwane połączenia: %3",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "Karta SIM w telefonie jest niezgodna z siecią. Powiedz klientowi, aby zmienił kartę SIM na nową.",
+        "ExpDetail": "1. Błędy połączeń wychodzących: %1<br>2. Błędy połączeń przychodzących: %2<br>3. Zerwane połączenia: %3",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "Dostępna aktualizacja",
+        "ExpDetail": "1. Błędy połączeń wychodzących: %1<br>2. Błędy połączeń przychodzących: %2<br>3. Zerwane połączenia: %3",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "Może występować problem ze zgodnością sieci. Skontaktuj się z dostawcą sieci, aby sprawdzić, czy środowisko sieciowe działa normalnie, lub skontaktuj się z naszymi inżynierami w celu odtworzenia problemu i przechwycenia dziennika.",
+        "ExpDetail": "1. Błędy połączeń wychodzących: %1<br>2. Błędy połączeń przychodzących: %2<br>3. Zerwane połączenia: %3",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "Wystąpił tymczasowy problem z siecią. Telefon działa prawidłowo.",
+        "ExpDetail": "1. Błędy połączeń wychodzących: %1<br>2. Błędy połączeń przychodzących: %2<br>3. Zerwane połączenia: %3",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "Dostępna aktualizacja",
+        "ExpDetail": "1. Błędy połączeń wychodzących: %1<br>2. Błędy połączeń przychodzących: %2<br>3. Zerwane połączenia: %3",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "Może występować problem ze zgodnością sieci. Skontaktuj się z dostawcą sieci, aby sprawdzić, czy środowisko sieciowe działa normalnie, lub skontaktuj się z naszymi inżynierami w celu odtworzenia problemu i przechwycenia dziennika.",
+        "ExpDetail": "1. Błędy połączeń wychodzących: %1<br>2. Błędy połączeń przychodzących: %2<br>3. Zerwane połączenia: %3",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "Może występować problem ze zgodnością sieci. Skontaktuj się z dostawcą sieci, aby sprawdzić, czy środowisko sieciowe działa normalnie, lub skontaktuj się z naszymi inżynierami w celu odtworzenia problemu i przechwycenia dziennika.",
+        "ExpDetail": "1. Błędy połączeń wychodzących: %1<br>2. Błędy połączeń przychodzących: %2<br>3. Zerwane połączenia: %3",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. Spróbuj użyć innych telefonów tych samych operatorów. Jeśli problem występuje nadal, skontaktuj się z operatorem w celu uzyskania informacji na temat zalecanej procedury działania.<br>2. Jeśli ten problem występuje zwykle w podobnym czasie, zapytaj o lokalizację klienta. To normalne, że sygnał jest słaby w piwnicach, garażach, miejscach ogólnodostępnych, w których występuje duży ruch, a także w poruszających się pojazdach.<br>3. Zapytaj klienta, czy używa etui ochronnego, które jest powlekane lub ma metaliczne wykończenie.<br>4. Sprawdź wydajność transmisji PA telefonu, aby upewnić się, że transmisja radiowa przebiega prawidłowo, podobnie jak odbiór (przeprowadź test z uwzględnieniem wszystkich pasm sieci 2G, 3G i 4G).",
+        "ExpDetail": "Lokalizacja słabego sygnału na przestrzeni minionych %1 dni jest bardziej zawężona",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. Sprawdź, czy karta SIM jest wczytywana.<br>2. Sprawdź, czy sieć operatora jest stabilna i czy problem występuje tylko w określonych obszarach.<br>3. Sprawdź, czy problem występuje na innym urządzeniu.<br>4. Zrestartuj urządzenie lub włącz tryb Samolot, aby sprawdzić, czy występują problemy.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1. Zapytaj klienta, czy używa etui ochronnego, które jest powlekane lub ma metaliczne wykończenie.<br>2. Jeśli klient używa telefonu w miejscach, w których występuje słaby sygnał, np. w piwnicach, garażach, miejscach ogólnodostępnych, w których występuje duży ruch, a także w poruszających się pojazdach.<br>3. Jeśli słaby sygnał występował przez dłuższy czas w tych samych miejscach, to może być przyczyną problemów z sygnałem.<br>4. Skontroluj wydajność wzmacniacza mocy telefonu narzędziami do testowania wydajności wzmacniacza mocy (we wszystkich pasmach sieci 2G, 3G i 4G).",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. Zwróć uwagę, aby podczas przeprowadzania testu nie dotykać telefonu.<br>2. Jeśli problem występuje nadal, wymień sprzęt — problemy mogą dotyczyć wybranych pasm częstotliwości.",
+        "ExpDetail": "Pasmo błędu: %1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "Nie udało się uruchomić testu. Upewnij się, że karta SIM została wyjęta.",
+        "ExpDetail": "Nie wyjęto karty SIM"
+    },
+    "t05050104": {
+        "ExpAdvice": "Nie udało się uruchomić testu. Upewnij się, że tryb Samolot jest wyłączony.",
+        "ExpDetail": "Tryb Samolot włączony"
+    },
+    "t05050105": {
+        "ExpAdvice": "Nie udało się zakończyć testu. Uruchom ponownie telefon i jeszcze raz przetestuj tę funkcję.",
+        "ExpDetail": "Błąd trybu modemu"
+    },
+    "t05050106": {
+        "ExpAdvice": "Nie udało się zakończyć testu. Uruchom ponownie telefon i jeszcze raz przetestuj tę funkcję.",
+        "ExpDetail": "Błąd sekwencji testowej"
+    },
+    "t05050107": {
+        "ExpAdvice": "Upewnij się, że telefon jest wystarczająco naładowany, a następnie ponownie przetestuj tę funkcję.",
+        "ExpDetail": "Niski poziom naładowania baterii"
+    },
+    "t05050108": {
+        "ExpAdvice": "Ukończono test RF. Nastąpi automatyczne ponowne uruchomienie telefonu w celu zapewnienia prawidłowego działania wszystkich funkcji.",
+        "ExpDetail": "Test częstotliwości radiowych zakończony powodzeniem."
+    },
+    "t05070101": {
+        "ExpAdvice": "Możliwe przyczyny:<br>1. Potwierdź jakość sygnału i sieci w bieżącym środowisku. W przypadku, gdy sygnał jest słaby, istnieje wysokie ryzyko występowania okresowych problemów z siecią.<br>2. Sprawdź, czy problem dotyczy aplikacji innego dostawcy.<br>Sugestie:<br> w przypadku problemu z siecią poproś klienta o samodzielne podjęcie próby rozwiązania problemu np. poprzez włączenie i wyłączenie trybu Samolot i danych komórkowych, zresetowanie ustawień APN, wyjęcie, a następnie włożenie karty SIM bez wyłączania telefonu itp. Należy skontaktować się z operatorem.",
+        "ExpDetail": "Automatyczne zakończenie połączenia danych; wygenerowano łącze w górę bez łącza w dół (typ przeciążania sieci); błędy dotyczące APN występujące podczas procesu ustanawiania połączenia wdzwanianego; odłączenie od sieci w następstwie zaległej płatności; prędkość sieci danych mobilnych jest ograniczona w związku z osiągnięciem limitu danych; nawiązywanie połączenia wdzwanianego zakończone niepowodzeniem",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "APN jest ręcznie dodawany przez klienta. Zresetuj ustawienia, aby przywrócić domyślny APN.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. Upewnij się, czy karta SIM została włożona poprawnie.<br>2. Upewnij się, czy komórkowa transmisja danych nie została zawieszona ze względu na niezapłacone rachunki lub przekroczenie limitu danych.<br>3. Włącz i wyłącz dane komórkowe i tryb Samolot, a następnie uruchom ponownie urządzenie.<br>4. Sprawdź, czy nie występuje problem z siecią operatora.",
+        "ExpDetail": "Wykryto błąd sieci danych. Może to wynikać z problemów z połączeniem z siecią.",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. Sprawdź, czy klient nie ma nieopłaconych rachunków po terminie płatności i czy nie ma zastosowania ograniczenie prędkości.<br>2. Przeprowadź test wzmacniacza mocy, aby sprawdzić, czy częstotliwość radiowa działa normalnie.<br>3. Jeśli częstotliwość radiowa działa prawidłowo, skontaktuj się z personelem ds. optymalizacji sieci lokalnej, aby powtórnie wywołać problem i zarejestrować pliki dziennika.<br>4. Jeśli personel ds. optymalizacji sieci lokalnej jest niedostępny lub jeśli klient nie zgadza się na ponowne wywołanie problemu, przeprogramuj pamięć ROM.<br>5. Sprawdź, czy problem występuje nadal po upływie 10 dni od momentu przeprogramowania pamięci ROM. Jeśli problem nadal występuje, rozwiąż go jako problem natury sprzętowej.",
+        "ExpDetail": "Wykryto błąd sieci danych. Jego przyczyną mogą być problemy z telefonem.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "APN jest ręcznie dodawany przez klienta. Zresetuj ustawienia, aby przywrócić domyślny APN.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "Prędkość przesyłania danych została ograniczona przez operatora. Więcej informacji można uzyskać u operatora.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "Niestabilna sieć lokalna. Porównaj swoje środowisko sieciowe ze środowiskami w innych lokalizacjach; w przypadku potwierdzenia tego przypuszczenia skonsultuj się z operatorem w celu poprawy środowiska sieciowego.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. Należy upewnić się, że przyczyną problemu nie są niezapłacone rachunki za karty SIM.<br>2. Upewnij się, że dla aplikacji włączono uprawnienie dostępu do sieci.<br>3. Włóż kartę SIM do innego urządzenia i sprawdź, czy działa poprawnie.<br>4. Włącz i wyłącz dane komórkowe i tryb Samolot, a następnie uruchom ponownie urządzenie.<br>5. Sprawdź, czy nie występują problemy z siecią operatora.",
+        "ExpDetail": "Wykryto błąd sieci danych. Może to wynikać z problemów z połączeniem z siecią.",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "APN jest ręcznie dodawany przez klienta. Zresetuj ustawienia, aby przywrócić domyślny APN.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "Prędkość przesyłania danych została ograniczona przez operatora. Więcej informacji można uzyskać u operatora.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "Włączenie trybu oszczędzania danych może wpłynąć na komfort korzystania z sieci.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "Niestabilna sieć lokalna. Porównaj swoje środowisko sieciowe ze środowiskami w innych lokalizacjach; w przypadku potwierdzenia tego przypuszczenia skonsultuj się z operatorem w celu poprawy środowiska sieciowego.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1. Należy upewnić się, że przyczyną problemu nie są niezapłacone rachunki za karty SIM.<br>2. Upewnij się, że dla aplikacji włączono uprawnienie dostępu do sieci.<br>3. Włącz i wyłącz dane komórkowe i tryb Samolot, a następnie uruchom ponownie urządzenie.<br>4. Sprawdź, czy nie występują problemy z siecią operatora.",
+        "ExpDetail": "Wykryto błąd sieci danych. Może to wynikać z problemów z połączeniem z siecią.",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "Sprawdź, czy częstotliwość radiowa działa normalnie.",
+        "ExpDetail": "Nie można wykonywać połączeń telefonicznych",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "Korzystając ze słuchawek, sprawdź, czy problem dotyczy słuchawki (głośnika dousznego). Jeśli tak, sprawdź słuchawkę (głośnik douszny) pod kątem uszkodzeń i sprawdź, czy komponenty słuchawki są prawidłowo podłączone; w przeciwnym razie sprawdź komponent audio płyty głównej.",
+        "ExpDetail": "Brak dźwięku w trakcie połączeń",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. Sprawdź, czy słuchawka (głośnik douszny) nie jest zabrudzona pyłem ani płynem. Wymień część i ponownie przeprowadź test.<br>2. Sprawdź przetwarzanie sygnału płyty głównej.",
+        "ExpDetail": "Hałas podczas połączeń",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "W przypadku wystąpienia problemów sprzętowych odpowiadających opisowi podanemu przez klienta należy wykryte problemy potraktować jako problemy natury sprzętowej.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "W przypadku wystąpienia problemów sprzętowych odpowiadających opisowi podanemu przez klienta należy wykryte problemy potraktować jako problemy natury sprzętowej.",
+        "ExpDetail": "Całkowita liczba wystąpień: %1",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "Aby przetestować wyszukiwanie sygnałów satelitarnych, przejdź z telefonem na otwartą przestrzeń. Siła sygnału GPS powinna zwykle przekraczać wartość 30; jeśli tak nie jest, należy sprawdzić sprzęt GPS.",
+        "ExpDetail": "Słaby sygnał satelitarny",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "Należy sprawdzić, czy moduł GPS systemu jest wyłączony. Zapytaj klienta, która z aplikacji nie może użyć danych GPS, i sprawdź uprawnienia wskazanej aplikacji.",
+        "ExpDetail": "Nie włączono GPS lub powiązanego uprawnienia",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie można przeanalizować dziennika z powodu niewystarczającej ilości danych GPS.",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie można przeprowadzić diagnostyki, ponieważ moduł GPS nie był ostatnio używany. Pozostawienie usługi lokalizacji wyłączonej przez zbyt długi czas może powodować utratę pozycji.",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "Aby przetestować wyszukiwanie sygnałów satelitarnych, przejdź z telefonem na otwartą przestrzeń. Siła sygnału GPS powinna zwykle przekraczać wartość 30; jeśli tak nie jest, należy sprawdzić sprzęt GPS.",
+        "ExpDetail": "W ciągu 3 dni nie odebrano żadnego sygnału satelitarnego, prawdopodobnie z powodu przebywania w pomieszczeniach zamkniętych. Należy wyjść na zewnątrz, aby przeprowadzić weryfikację na miejscu.",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie można przeprowadzić diagnostyki z powodu niewystarczającej intensywności korzystania z GPS.",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "Aby przetestować wyszukiwanie sygnałów satelitarnych, przejdź z telefonem na otwartą przestrzeń. Siła sygnału GPS powinna zwykle przekraczać wartość 30; jeśli tak nie jest, należy sprawdzić sprzęt GPS.",
+        "ExpDetail": "GPS działa normalnie. Jeśli klient chodzi w trakcie korzystania z nawigacji, mogą wystąpić zakłócenia.",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "Aby przetestować wyszukiwanie sygnałów satelitarnych, przejdź z telefonem na otwartą przestrzeń. Siła sygnału GPS powinna zwykle przekraczać wartość 30; jeśli tak nie jest, należy sprawdzić sprzęt GPS.",
+        "ExpDetail": "GPS działa normalnie. Jeśli klient jedzie samochodem w trakcie korzystania z nawigacji, mogą wystąpić zakłócenia.",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "Sprawdź, czy antena GPS nie jest uszkodzona ani zdeformowana oraz czy nie przylega słabo do złącza.",
+        "ExpDetail": "Problem z anteną GPS",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie można przeprowadzić diagnostyki, ponieważ moduł GPS nie był ostatnio używany.",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "Zdejmij etui ochronne i spróbuj ponownie",
+        "ExpDetail": "Jest używane metalowe etui ochronne",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "Wyłączenie funkcji „Skanowanie Wi-Fi zawsze dostępne” na długi czas może spowodować, że próby pozycjonowania będą kończyć się niepowodzeniem lub pozycjonowanie w budynkach będzie niedokładne. Sprawdź, czy ta funkcja jest włączona.",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "Wyłączenie funkcji „Dokładność pozycjonowania w oparciu o sieć” na długi czas może spowodować, że próby pozycjonowania będą kończyć się niepowodzeniem lub pozycjonowanie w budynkach będzie niedokładne. Dotknij opcji „Napraw”, aby włączyć tę funkcję w celu umożliwienia dokładniejszego pozycjonowania. Jeśli korzystasz z telefonu zaprojektowanego z myślą o użytkownikach poza regionu Chin kontynentalnych, przytrzymaj ikonę lokalizacji w Szybkich ustawieniach, aby przejść na stronę „Dokładność lokalizacji Google” i włącz opcję „Zwiększ dokładność usług lokalizacyjnych”.",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "Ten problem jest spowodowany przez środowisko GPS użytkownika i nie można go rozwiązać poprzez wymianę. Telefon należy trzymać z dala od zewnętrznych źródeł zakłóceń, takich jak samochodowe systemy nawigacji, konsole główne i inne urządzenia elektroniczne.",
+        "ExpDetail": "Zakłócenia działania środowiska GPS użytkownika"
+    },
+    "t06020101": {
+        "ExpAdvice": "Możliwe przyczyny:<br>(błąd ładowania oprogramowania sprzętowego; błąd ładowania sterownika; błąd montowania partycji; inne przyczyny)<br>Sugestie:<br>1. Zrestartuj urządzenie<br>.2. Zaktualizuj do najnowszej wersji w celu sprawdzenia problemu.",
+        "ExpDetail": "Nie udało się włączyć %1 raz(y)",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "Możliwe przyczyny: <br/>(błąd ładowania oprogramowania sprzętowego; błąd ładowania sterownika; błąd montowania partycji; inne przyczyny; niepowodzenie ładowania układu Wi-Fi; błędne działanie oprogramowania Wi-Fi; niewczytanie plików konfiguracji kanału systemu oprogramowania Wi-Fi; niewczytanie plików częstotliwości radiowej systemu oprogramowania Wi-Fi; niewczytanie plików konfiguracji oprogramowania sprzętowego systemu oprogramowania Wi-Fi; zawieszenie się podsystemu)<br/>Zalecenia:<br/>1. Zrestartuj urządzenie. <br/>2. Zaktualizuj do najnowszej wersji. 3. Poproś klienta, aby zrestartował swój telefon. <br/>4. Jeśli problem będzie nadal występował, przeprogramuj pamięć ROM lub zainstaluj aktualizację OTA. <br/>5. Przyjmij usterkę sprzętową, jeśli telefon nie reaguje. <br/>3. Jeśli problem może zostać odtworzony, spróbuj połączyć się z Internetem i nawiązać połączenie za pomocą karty SIM. Jeśli tych 2 czynności nie można wykonać, musi zostać zrestartowany modem modułu sieciowego. <br/>4. Poproś klienta, aby zrestartował swój telefon. <br/>5. Jeśli problem będzie nadal występował, przeprogramuj pamięć ROM lub zainstaluj aktualizację OTA. <br/>6. Przyjmij usterkę sprzętową, jeśli telefon nie reaguje.",
+        "ExpDetail": "Nie udało się włączyć %1 raz(y)",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "Zaleca się przeprogramowywanie do najnowszej wersji.",
+        "ExpDetail": "Często używany AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1. Niestabilność połączenia sieciowego spowodowana przez sam telefon: Zainstaluj najnowszą wersję i spróbuj ponownie.<br>2. Błąd serwera DNS: Sprawdź, czy ustawiono prywatny adres DNS. Jeśli tak, usuń go, a jeśli nie, skontroluj router.<br>3. Inne przyczyny: 1. Zrestartuj router.<br>2. Jeśli ten sam problem dotyczy innych telefonów łączących się z tym samym routerem, wskazana jest wymiana routera.<br>3. Zmień domyślny kanał routera. Spróbuj użyć kanału 5G. Za pomocą analizatora Wi-Fi i innych narzędzi znajdź kanał, na którym zakłócenia są mniejsze.",
+        "ExpDetail": "Często używany AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie można przeprowadzić diagnostyki z powodu niewystarczającej ilości danych.",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "Ustawienia Wi-Fi",
+        "ExpDetail": "Ustawienia sieci bezprzewodowej",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "Oprogramowanie połączeniowe innej firmy może próbować złamać hasło hotspotu Wi-Fi bez powodzenia, co spowoduje niepowodzenie połączenia. Zaleca się nawiązywanie połączenia z siecią Wi-Fi za pośrednictwem aplikacji Ustawienia.",
+        "ExpDetail": "Często używane aplikacje: %1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie można przeanalizować dziennika z powodu niewystarczającej ilości połączeń aplikacji innych dostawców",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "Zrestartuj router lub podłącz do tego routera inne urządzenia, aby sprawdzić, czy problem dotyczy AP. Jeśli nie, wyłącz i włącz Wi-Fi lub zrestartuj telefon. Jeśli problem będzie nadal występował, wyślij go do dalszych testów.<br>(Sprawdź, czy hasło jest prawidłowe. Zmień sieć Wi-Fi przed połączeniem i sprawdź, czy znaleziono AP. Skontroluj ustawienia routera lub połącz się z innymi AP. Zalecane jest połączenie w miejscu, gdzie sygnał jest silniejszy. Sprawdź, czy adresy IP są prawidłowe lub czy wykorzystano wszystkie adresy IP).",
+        "ExpDetail": "Błędy ustawień Wi-Fi: <br>(błędne hasło; nie znaleziono AP; błąd ustawień lub przeciążenie routera; słabe sygnały; statyczny adres IP)",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "Sprawdź antenę Wi-Fi i układ Wi-Fi.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "Często używany AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "Sprawdź, czy zostały użyte wszystkie adresy IP z serwera DHCP routera.",
+        "ExpDetail": "Nie udało się uzyskać adresu IP",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Odmowa uwierzytelnienia z powodu błędu wykrywania routera",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "Sprawdź, czy telefon był nieużywany przez dłuższy czas po podłączeniu do Wi-Fi.",
+        "ExpDetail": "Nieaktywne połączenie. Brak transmisji danych przez dłuższy czas.",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "Sprawdź, czy liczba urządzeń podłączonych do routera nie jest zbyt wysoka. Spróbuj odłączyć niektóre z nich.",
+        "ExpDetail": "Ograniczenia w połączeniu z routerem",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Brak uwierzytelnienia z powodu błędu wykrywania routera",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Brak połączenia z powodu błędu wykrywania routera",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Telefon jest poza siecią",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Odmowa uwierzytelnienia połączenia",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "Nie są wymagane żadne działania, ponieważ jest to normalna sytuacja.",
+        "ExpDetail": "Router uruchamia roaming",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Kompletność wiadomości nie została zweryfikowana",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Przekroczenie limitu czasu uzgadniania",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Przekroczenie limitu czasu aktualizacji klucza z powodu błędu wykrywania routera",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Niewłaściwy klucz",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Potwierdź poważny spadek liczby klatek",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Odmowa roamingu telefonu",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Automatyczne przywrócenie sprawności modułów telefonu",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Nieaktywny router",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Przekroczenie limitu czasu sygnalizatora",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Nie można zmienić kanału komunikacji",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Brak połączenia z powodu przekroczenia limitu czasu sygnalizatora",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Przekroczenie limitu czasu sygnalizatora. Telefon nie uzyskał adresu routera.",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. Najpierw zaktualizuj aplikację do najnowszej wersji.<br>b. Jeśli problem będzie się powtarzał, uruchom ponownie router lub sprawdź, czy router działa poprawnie, łącząc się za pomocą innego urządzenia.<br>c. Jeśli nie ma problemu z routerem, wyłącz i włącz połączenie Wi-Fi, ponownie połącz się z routerem lub wyłącz i włącz telefon, aby spróbować ponownie.<br>d. Jeśli problem nadal występuje, przechwyć dziennik.",
+        "ExpDetail": "Nieznana przyczyna",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. Poproś klienta, aby zrestartował swój telefon.<br>2. Jeśli problem występuje nadal, przeprogramuj pamięć ROM lub zainstaluj najnowszą wersję systemu.<br>3. Jeśli problem występuje nadal, rozwiąż go jako problem natury sprzętowej.",
+        "ExpDetail": "Problemy z oprogramowaniem sprzętowym Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "Wybierz kolejno opcje „Ustawienia - Połączenie i udostępnianie - Osobisty hotspot - Ustawienia hotspotu”. Zmień ustawienie „Zabezpieczenia” na „WPA2 PSK” i „Pasmo AP” na „Pasmo 2,4 GHz”, włącz opcję „Widoczne dla innych urządzeń” i wyłącz opcję „Hotspot Wi-Fi 6”. Następnie włącz „Hotspot osobisty”.",
+        "ExpDetail": "Inne przyczyny błędu hotspotu Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "Wybierz kolejno opcje „Ustawienia - Połączenie i udostępnianie - Osobisty hotspot - Ustawienia hotspotu”. Zmień ustawienie „Zabezpieczenia” na „WPA2 PSK” i „Pasmo AP” na „Pasmo 2,4 GHz”, włącz opcję „Widoczne dla innych urządzeń” i wyłącz opcję „Hotspot Wi-Fi 6”. Następnie włącz „Hotspot osobisty”.",
+        "ExpDetail": "Inne przyczyny błędu hotspotu Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "Przyczyną tego problemu mogą być zakłócenia sygnału LTE. Wybierz kolejno opcje „Ustawienia - Połączenie i udostępnianie - Osobisty hotspot - Ustawienia hotspotu”. Zmień ustawienie „Zabezpieczenia” na „WPA2 PSK” i „Pasmo AP” na „Pasmo 2,4 GHz”, włącz opcję „Widoczne dla innych urządzeń” i wyłącz opcję „Hotspot Wi-Fi 6”. Następnie włącz „Hotspot osobisty”.",
+        "ExpDetail": "Brak dostępnych kanałów",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "Wybierz kolejno opcje „Ustawienia - Połączenie i udostępnianie - Osobisty hotspot - Ustawienia hotspotu”. Zmień ustawienie „Zabezpieczenia” na „WPA2 PSK” i „Pasmo AP” na „Pasmo 2,4 GHz”, włącz opcję „Widoczne dla innych urządzeń” i wyłącz opcję „Hotspot Wi-Fi 6”. Następnie włącz „Hotspot osobisty”.",
+        "ExpDetail": "Konfiguracja hotspotu nie jest obsługiwana",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. Poproś klienta, aby zrestartował swój telefon.<br>2. Jeśli problem występuje nadal, przeprogramuj pamięć ROM lub zainstaluj najnowszą wersję systemu.<br>3. Jeśli problem występuje nadal, rozwiąż go jako problem natury sprzętowej.",
+        "ExpDetail": "Problemy z oprogramowaniem sprzętowym Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "Jeśli klient nie może uzyskać dostępu do sieci w domu, przyczyną są prawdopodobnie nieprawidłowe ustawienia optycznego modemu lub routera bądź problemy z połączeniem z tymi urządzeniami. Poleć klientowi, aby zmodyfikował konfigurację DHCP routera lub skontaktował się z dostawcą sieci w celu uzyskania pomocy.",
+        "ExpDetail": "Konflikt przypisywania dynamicznych adresów IP routera (DHCP)",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "Jeśli klient nie może uzyskać dostępu do sieci w domu, przyczyną są prawdopodobnie nieprawidłowe ustawienia optycznego modemu lub routera bądź problemy z połączeniem z tymi urządzeniami. Poleć klientowi, aby zmodyfikował konfigurację bramy routera lub skontaktował się z dostawcą sieci w celu uzyskania pomocy.",
+        "ExpDetail": "Konflikt bramy",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "Powiedz klientowi, aby połączył telefon z siecią Wi-Fi 5 GHz lub o wyższym standardzie i unikał używania słuchawek Bluetooth z telefonem, gdy jest on podłączony do sieci Wi-Fi 2,4 GHz.",
+        "ExpDetail": "Niska prędkość i działania szybki w związku z konfliktem Bluetooth/Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "Statyczny adres IP jest nieprawidłowy. Ustaw prawidłowe ustawienie.",
+        "ExpDetail": "Nieprawidłowy statyczny adres IP",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "Prywatny adres DNS jest nieprawidłowy. Ustaw prawidłowe ustawienie.",
+        "ExpDetail": "Nieprawidłowy prywatny DNS",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "Ustawienie VPN jest nieprawidłowe. Ustaw prawidłowe ustawienie.",
+        "ExpDetail": "Nieprawidłowe ustawienia VPN",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "Następnie należy sprawdzić antenę Bluetooth i układ Bluetooth.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. Jeśli zrestartowanie telefonu rozwiązuje problem, przeprogramuj pamięć ROM lub zainstaluj najnowszą wersję systemu.<br>2. Jeśli klient korzysta z funkcji wielu użytkowników, poleć mu, aby wyłączył funkcję Bluetooth przed przełączeniem na innego użytkownika.<br>3. Jeśli problem występuje nadal po zresetowaniu telefonu lub przeprogramowaniu pamięci ROM, zgłoś problem sprzętowy.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie udało się włączyć Bluetooth (BT)",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie udało się włączyć usług Bluetooth",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie udało się włączyć trybu Bluetooth Low Energy (BLE)",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "Sprawdź szczegóły problemu.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. Jeśli problem występuje w miejscu z wieloma urządzeniami bezprzewodowymi (takim jak lotnisko lub dworzec kolejowy), powiedz klientowi, aby używał telefonu w miejscach, w których jest mniej takich urządzeń.<br>2. Powiedz klientowi, aby połączył telefon z siecią Wi-Fi 5 GHz lub o wyższym standardzie, jako że sieć Wi-Fi 2,4 GHz będzie wpływać na połączenia Bluetooth. W razie potrzeby pokaż klientowi, jak ustawić router na pasmo częstotliwości 5 GHz.",
+        "ExpDetail": "Znaczne zakłócenia lub silny sygnał sieci Wi-Fi w otoczeniu<br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "Ustanów połączenie Bluetooth po stronie %1 i upewnij się, że drugie urządzenie ma wystarczająco naładowaną baterię. (Tryb połączenia urządzeń nadrzędnego i podrzędnego może w przypadku niektórych słuchawek zmieniać swoje działanie po spadku poziomu naładowania baterii, co z kolei może powodować problemy z połączeniem).<br>",
+        "ExpDetail": "Błąd przełączania roli Bluetooth<br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. Usuń sparowanie urządzenia z telefonem. Następnie przytrzymaj przycisk na urządzeniu, aby ponownie dokonać sparowania.<br>2. Zresetuj urządzenie.<br>3. Zaktualizuj system do najnowszej wersji.<br>4. Jeśli problem nie występuje na innych telefonach tego samego modelu, występuje jednak nadal po wgraniu nowej pamięci ROM, prześlij zgłoszenie dotyczące problemu sprzętowego.<br>",
+        "ExpDetail": "Inne<br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "Sprawdź, czy nie brakuje anteny NFC i czy moduł NFC nie jest nieprawidłowy.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Nie udało się włączyć",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Rozmyte ekrany podczas robienia zdjęć",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Niepoprawne kolory",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Przedni główny aparat nie działa",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Przedni dodatkowy aparat nie działa",
+        "ResultLevel": 10
+    },
+    "t07020112": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Nie udało się włączyć",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Rozmyte ekrany podczas robienia zdjęć",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Niepoprawne kolory",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Tylny główny aparat nie działa",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Tylny aparat szerokokątny nie działa",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Tylny aparat z teleobiektywem nie działa",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Tylny główny aparat lub tylny szerokokątny aparat nie działa",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Tylny główny aparat lub tylny aparat z teleobiektywem nie działa",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Tylny szerokokątny aparat lub tylny aparat z teleobiektywem nie działa",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "Tylny główny aparat, tylny szerokokątny aparat lub tylny aparat z teleobiektywem nie działa",
+        "ResultLevel": 10
+    },
+    "t07020212": {
+        "ExpAdvice": "Sprawdź gniazdo BTB aparatu lub wymień aparat i przeprowadź test.",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nieprawidłowe parametry aparatu. Podłącz telefon, skalibruj i popraw parametry.",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "Sprawdź, czy słuchawka nie jest zabrudzona pyłem ani płynem. Wymień część i ponownie przeprowadź test.",
+        "ExpDetail": "Niski poziom głośności",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "Sprawdź, czy słuchawka nie jest zabrudzona pyłem ani płynem. Wymień część i ponownie przeprowadź test.",
+        "ExpDetail": "Szum",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "Przełącz się na głośnik, aby upewnić się, czy problem dotyczy słuchawki. Jeśli tak, sprawdź słuchawkę pod kątem uszkodzeń i upewnij się, że interfejs jest podłączony; w przeciwnym razie sprawdź komponent audio płyty głównej.",
+        "ExpDetail": "Brak dźwięku",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "Sprawdź, czy słuchawka nie jest zabrudzona pyłem ani płynem. Wymień część i ponownie przeprowadź test.",
+        "ExpDetail": "Niski poziom głośności",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "Sprawdź, czy słuchawka nie jest zabrudzona pyłem ani płynem. Wymień część i ponownie przeprowadź test.",
+        "ExpDetail": "Szum",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "Przełącz się na słuchawkę, aby upewnić się, czy problem dotyczy głośnika. Jeśli tak, sprawdź głośnik pod kątem uszkodzeń i upewnij się, że interfejs jest podłączony; w przeciwnym razie sprawdź komponent audio płyty głównej.",
+        "ExpDetail": "Brak dźwięku",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "Sprawdź, czy mikrofon nie jest zabrudzony pyłem ani płynem. Wymień część i ponownie przeprowadź test.",
+        "ExpDetail": "Niski poziom głośności",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "Sprawdź, czy mikrofon nie jest zabrudzony pyłem ani płynem. Wymień część i ponownie przeprowadź test.",
+        "ExpDetail": "Szum",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "Sprawdź, czy mikrofon nie jest zablokowany. Wymień mikrofon i sprawdź, czy problem został rozwiązany.",
+        "ExpDetail": "Przerywany dźwięk",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "Sprawdź, czy otwór mikrofonu nie jest zablokowany przez pył lub płyn. Jeśli dźwięk jest tak cichy, że prawie go nie słychać, wymień mikrofon i powtórnie przeprowadź test.",
+        "ExpDetail": "Niski poziom głośności",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "Wymień mikrofon i ponownie przeprowadź test.",
+        "ExpDetail": "Szum",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "Wymień mikrofon i ponownie przeprowadź test.",
+        "ExpDetail": "Brak dźwięku",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "Sprawdź, czy otwór mikrofonu nie jest zablokowany przez pył lub płyn. Jeśli dźwięk jest tak cichy, że prawie go nie słychać, wymień mikrofon i powtórnie przeprowadź test.",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "Sprawdź, czy otwór mikrofonu nie jest zablokowany przez pył lub płyn. Jeśli dźwięk jest tak cichy, że prawie go nie słychać, wymień mikrofon i powtórnie przeprowadź test.",
+        "ExpDetail": "Niski poziom głośności",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "Wymień mikrofon i ponownie przeprowadź test.",
+        "ExpDetail": "Szum",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "Wymień mikrofon i ponownie przeprowadź test.",
+        "ExpDetail": "Brak dźwięku",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "Sprawdź, czy otwór mikrofonu nie jest zablokowany przez pył lub płyn. Jeśli dźwięk jest tak cichy, że prawie go nie słychać, wymień mikrofon i powtórnie przeprowadź test.",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "Sprawdź, czy otwór mikrofonu nie jest zablokowany przez pył lub płyn. Jeśli dźwięk jest tak cichy, że prawie go nie słychać, wymień mikrofon i powtórnie przeprowadź test.",
+        "ExpDetail": "Niski poziom głośności",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "Wymień mikrofon i ponownie przeprowadź test.",
+        "ExpDetail": "Szum",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "Wymień mikrofon i ponownie przeprowadź test.",
+        "ExpDetail": "Brak dźwięku",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "Sprawdź, czy otwór mikrofonu nie jest zablokowany przez pył lub płyn. Jeśli dźwięk jest tak cichy, że prawie go nie słychać, wymień mikrofon i powtórnie przeprowadź test.",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "Sprawdź, czy gniazdo słuchawki nie jest zablokowane i czy wewnątrz niego nie znajduje się płyn.",
+        "ExpDetail": "Ikona słuchawek nie jest widoczna",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "Sprawdź, czy gniazdo słuchawki nie jest zablokowane i czy wewnątrz niego nie znajduje się płyn.",
+        "ExpDetail": "Brak zgodności ze słuchawkami testowymi",
+        "ResultLevel": 10
+    },
+    "t08040104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "Sprawdź gniazdo słuchawek i inne komponenty",
+        "ExpDetail": "Nie rozpoznano słuchawek lub nie są obsługiwane",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "Sprawdź, czy impedancja mikrofonu osiąga magnitudę na poziomie kilku miliomów",
+        "ExpDetail": "Słuchawki charakteryzujące się wysoką impedancją",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "Sprawdź, czy klient korzysta ze słuchawek z funkcją tłumienia szumów",
+        "ExpDetail": "Słuchawki z funkcją tłumienia szumu",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "Zaktualizuj do najnowszej wersji. Jeśli problem będzie się powtarzał, sprawdź, czy inny zestaw słuchawek zostanie rozpoznany. Jeśli wystąpi ten sam problem, przechwyć i zapisz dzienniki audio pozwalające odtworzyć problem, wyślij je do analizy deweloperowi i wymień płytę, na której znajduje się gniazdo USB, w celu prowadzenia kontroli krzyżowej sprzętu.",
+        "ExpDetail": "Podczas przełączania między układami przełączającymi lub modułami USB wystąpiły wyjątki (dotyczy wyłącznie modeli z gniazdem słuchawek Type-C)",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "Potwierdź, czy urządzenie mieści się w standardowym zakresie; jeśli nie, wymień komponent ekranu.",
+        "ExpDetail": "Martwe piksele",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "Sprawdź gniazdo BTB ekranu lub wymień komponent ekranu.",
+        "ExpDetail": "Rozmyte ekrany",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "Sprawdź gniazdo BTB ekranu lub wymień komponent ekranu.",
+        "ExpDetail": "Niepoprawne kolory",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "Zamknij aplikacje działające w tle i sprawdź połączenie sieciowe",
+        "ExpDetail": "Wystąpienia czarnego, migającego lub rozmytego ekranu: %1",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "Sprawdź ekran pod kątem uszkodzeń lub zakłóceń spowodowanych przez ładunki elektrostatyczne",
+        "ExpDetail": "Wystąpienia czarnego, migającego lub rozmytego ekranu: %1",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "Sprawdź układ graficzny GPU",
+        "ExpDetail": "Wystąpienia czarnego, migającego lub rozmytego ekranu: %1",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "Sprawdź układ graficzny GPU",
+        "ExpDetail": "Wystąpienia czarnego, migającego lub rozmytego ekranu: %1",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "Sprawdź układ graficzny GPU",
+        "ExpDetail": "Wystąpienia czarnego, migającego lub rozmytego ekranu: %1",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "Dotknij przycisku, aby przesłać inżynierom dzienniki do przeanalizowania",
+        "ExpDetail": "Zawieszanie się ekranu powodujące restartowanie urządzenia: %1",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "Wyjątek dotyczący sprzętu. Prześlij deweloperowi dzienniki do analizy. Jeśli telefon się nie włączy, zwróć go do analizy.",
+        "ExpDetail": "Zawieszanie się ekranu powodujące restartowanie urządzenia: %1",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "Efekt wyświetlania na ekranie jest nietypowy. Zaleca się podłączenie telefonu w odpowiednim czasie i skalibrowanie go w celu rozwiązania tego problemu.",
+        "ExpDetail": "Nietypowe wyświetlanie na ekranie",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normalny",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "Wszystkie aplikacje",
+        "ExpDetail": "Wyłącz"
+    },
+    "t10010101": {
+        "ExpAdvice": "Sprawdź interfejs obsługi z użyciem odcisku palca lub wymień komponent do obsługi z użyciem odcisku palca.",
+        "ExpDetail": "Czytnik odcisku palca nie działa lub wykazuje zbyt małą czułość",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "Zaleca się, aby użytkownik przywrócił urządzenie do ustawień fabrycznych, w przeciwnym razie korzystanie z funkcji odcisków palców zostanie zakłócone.",
+        "ExpDetail": "Wyjątek blokady OEM",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "Zaleca się wymianę czujnika linii papilarnych.",
+        "ExpDetail": "Wyjątek czujnika odcisku palca",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "Ponowna kalibracja czujnika linii papilarnych",
+        "ExpDetail": "Niezgodność danych kalibracji odcisku palca",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "Sprawdź moduł czujnika podczerwieni lub płytę główną.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "Sprawdź moduł czujnika intensywności światła lub płytę główną.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "Zaleca się wizytę w centrum serwisowym i wykonanie „Samokontroli i kalibracji czujnika” w trybie inżynieryjnym w celu skalibrowania akcelerometru. Jeśli kalibracja nie powiedzie się, akcelerometr może być uszkodzony i będzie wymagał wymiany.",
+        "ExpDetail": "Niedokładne dane dotyczące przyspieszenia",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "Sprawdź moduł czujnika grawitacyjnego płyty głównej.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "Sprawdź moduł czujnika geomagnetycznego płyty głównej.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "Sprawdź moduł żyroskopowy płyty głównej.",
+        "ExpDetail": "Niepowodzenie",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "Zaleca się wizytę w centrum serwisowym i wykonanie „Samokontroli i kalibracji czujnika” w trybie inżynieryjnym w celu skalibrowania żyroskopu. Jeśli kalibracja nie powiedzie się, żyroskop może być uszkodzony i wymagać wymiany.",
+        "ExpDetail": "Niedokładne dane żyroskopu",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Sterownik nie został wczytany"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kod nie został wysłany"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne"
+    },
+    "t11010101": {
+        "ExpAdvice": "Sprawdź wszystkie przyciski boczne pod kątem zwarć lub błędów otwartego obwodu.",
+        "ExpDetail": "Przycisk nie reaguje",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "Sprawdź wszystkie przyciski boczne pod kątem zwarć lub błędów otwartego obwodu.",
+        "ExpDetail": "Nieprawidłowe funkcje przycisku",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "Sprawdź wszystkie przyciski boczne pod kątem zwarć lub błędów otwartego obwodu.",
+        "ExpDetail": "Niska wrażliwość na dotyk",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Latarka nie działa"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Niska jasność"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Niepoprawne kolory"
+    },
+    "t12010201": {
+        "ExpAdvice": "Wymień pamięć flash lub sprawdź obwód sterownika pamięci flash.",
+        "ExpDetail": "Latarka nie działa",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "Wymień pamięć flash lub sprawdź obwód sterownika pamięci flash.",
+        "ExpDetail": "Niska jasność ekranu",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "Wymień silnik lub sprawdź obwód sterownika silnika.",
+        "ExpDetail": "Brak wibracji",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "Wymień silnik lub sprawdź obwód sterownika silnika.",
+        "ExpDetail": "Problem z wibracjami",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "Zaleca się wymianę silnika.",
+        "ExpDetail": "Uszkodzenie osprzętu silnika",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "Należy poczekać, aż temperatura urządzenia spadnie, upewnić się, że ciepło jest prawidłowo odprowadzane, a w gry grać dopiero wtedy, gdy temperatura urządzenia będzie prawidłowa.",
+        "ExpDetail": "Telefon przegrzewa się podczas grania w gry",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "Problem dotyczący opóźnień wynika ze spadków liczby klatek w grach. Upewnij się, że ciepło jest sprawnie odprowadzane, a połączenie sieciowe jest stabilne.",
+        "ExpDetail": "Opóźnienia i spadki liczby klatek podczas grania w gry",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "Sieć jest niestabilna podczas gry. Graj w gry w stabilnych warunkach sieciowych.",
+        "ExpDetail": "Sieć jest niestabilna",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "System wykrył, że powiadomienia zostały wyłączone dla aplikacji %1. Aby otrzymywać z niej powiadomienia, przytrzymaj ikonę aplikacji, wybierz kolejno pozycje „Informacje o aplikacji – Zarządzaj powiadomieniami” i włącz przełącznik.",
+        "ExpDetail": "Nie włączono dla aplikacji"
+    },
+    "t17010102": {
+        "ExpAdvice": "Funkcja „Powiadomienia” została wyłączona dla niektórych aplikacji, w tym dla aplikacji %1, dlatego niektóre ważne wiadomości mogą nie zostać odebrane. Warto rozważyć włączenie jej w ustawieniach aplikacji innego dostawcy.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17010201": {
+        "ExpAdvice": "System wykrył, że dla aplikacji %1 są włączone ciche powiadomienia. Oznacza to, że wszystkie jej powiadomienia będą pojawiały się tylko u dołu paska powiadomień. Aby wyłączyć tę funkcję, wykonaj następujące operacje: <br>① ColorOS 11: Przytrzymaj ikonę aplikacji, wybierz kolejno „Informacje o aplikacji – Zarządzaj powiadomieniami – Powiadomienia o nowej wiadomości (powiadomienia o zaproszeniach do połączeń głosowych lub wideo)” i wyłącz opcję „Włącz ciche powiadomienia”.<br>② ColorOS 7.2: Przytrzymaj ikonę aplikacji, wybierz kolejno „Informacje o aplikacji – Zarządzaj powiadomieniami” i wyłącz opcję „Przenieś na spód”.",
+        "ExpDetail": "Włączono ciche powiadomienia dla aplikacji"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Pokazuj tytuł i treść"
+    },
+    "t17010302": {
+        "ExpAdvice": "System wykrył, że jako ustawienie opcji „Powiadomienia na ekranie blokady” wybrano „Wyświetl tylko tytuł”. Aby wyświetlać treść powiadomień, przejdź do sekcji „Ustawienia – Powiadomienia i pasek stanu – Zarządzaj powiadomieniami – Powiadomienia na ekranie blokady” i zmień ustawienie na „Pokazuj tytuł i treść”.",
+        "ExpDetail": "Wyświetl tylko tytuł"
+    },
+    "t17010303": {
+        "ExpAdvice": "System wykrył, że dla opcji „Powiadomienia na ekranie blokady” jest ustawiona wartość „Nie pokazuj”. Aby wyświetlać powiadomienia na ekranie blokady, przejdź do sekcji „Ustawienia – Powiadomienia i pasek stanu – Zarządzaj powiadomieniami – Powiadomienia na ekranie blokady” i zmień ustawienie na „Pokazuj tytuł i treść” lub „Wyświetl tylko tytuł”.",
+        "ExpDetail": "Nie pokazuj"
+    },
+    "t17010401": {
+        "ExpAdvice": "System wykrył, że opcja „Wycisz powiadomienia” jest włączona. Aby być na bieżąco z ważnymi wiadomościami, przeciągnij palcem w dół na pasku stanu, dotknij opcji „Wycisz powiadomienia” i ustaw przełącznik w położeniu Wyłączone.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17010501": {
+        "ExpAdvice": "System wykrył, że opcja „Wybudzanie ekranu po odebraniu powiadomienia na ekranie blokady” jest wyłączona. Aby ustawić przełącznik w położeniu Włączone, przejdź do sekcji „Ustawienia – Powiadomienia i pasek stanu – Zarządzaj powiadomieniami – Więcej – Wybudzanie ekranu po odebraniu powiadomienia”.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17010502": {
+        "ExpAdvice": "Funkcja „Wybudzanie ekranu po odebraniu powiadomienia” jest wyłączona. Gdy ekran jest zablokowany, powiadomienia mogą nie zostać natychmiast odebrane. Warto rozważyć włączenie tej funkcji.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17010601": {
+        "ExpAdvice": "Funkcja „Subtelne powiadomienia” jest włączona. Podczas korzystania z aplikacji w trybie pełnego ekranu (np. podczas oglądania filmów, grania w gry lub prowadzenia połączeń konferencyjnych) dźwięki powiadomień będą bardziej przytłumione, a wibracje słabsze. Rozważ wyłączenie tej funkcji.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17010701": {
+        "ExpAdvice": "Funkcja „Optymalizacja czuwania podczas snu” jest włączona. Telefon zużywa mniej energii i wyświetla mniej powiadomień w porze snu. Rozważ wyłączenie tej funkcji.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17010801": {
+        "ExpAdvice": "Funkcja „Plakietki na ikonach aplikacji” została wyłączona dla niektórych aplikacji. Jako że plakietki nie będą wyświetlane w prawym górnym rogu tych aplikacji, może się zdarzyć, że użytkownik nie odbierze ważnych powiadomień. Warto rozważyć włączenie tej funkcji.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17020101": {
+        "ExpAdvice": "System wykrył, że na telefonie jest włączona funkcja „Oszczędzanie danych”. Oznacza to, że aplikacje działające w tle nie będą odbierać żadnych powiadomień. Aby otrzymywać powiadomienia, przejdź do sekcji „Ustawienia – Karta SIM i dane komórkowe – Użycie danych – Oszczędzanie danych” i ustaw przełącznik w pozycji Wyłączone.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17020201": {
+        "ExpAdvice": "System wykrył, że dla aplikacji %1 jest wyłączona zarówno opcja „Wi-Fi”, jak i „Dane komórkowe”. Oznacza to, że odbieranie powiadomień nie będzie możliwe. Aby przełączać między dwoma przełącznikami, przytrzymaj ikonę aplikacji i wybierz kolejno pozycje „Informacje o aplikacji – Szczegóły użycia danych”.",
+        "ExpDetail": "Nie włączono dla aplikacji"
+    },
+    "t17020301": {
+        "ExpAdvice": "System wykrył, że opcja „Dane w tle” jest wyłączona dla aplikacji %1. Oznacza to, że aplikacja nie będzie odbierać żadnych powiadomień, gdy działa w tle. Aby przełączyć ustawienie przełącznika, przytrzymaj ikonę aplikacji i wybierz kolejno pozycje „Informacje o aplikacji – Szczegóły użycia danych”.",
+        "ExpDetail": "Nie włączono dla aplikacji"
+    },
+    "t17030101": {
+        "ExpAdvice": "System wykrył, że powiadomienia aplikacji są dla aplikacji %1 ograniczone ustawieniami użycia energii. Aby włączyć funkcję „Zezwalaj na aktywność na pierwszym planie”, przytrzymaj ikonę aplikacji i wybierz kolejno pozycje „Informacje o aplikacji – Zużycie energii”.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17030201": {
+        "ExpAdvice": "System wykrył, że powiadomienia aplikacji są dla aplikacji %1 ograniczone ustawieniami użycia energii. Aby włączyć funkcję „Zezwalaj na aktywność w tle”, przytrzymaj ikonę aplikacji i wybierz kolejno pozycje „Informacje o aplikacji – Zużycie energii”.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17030301": {
+        "ExpAdvice": "System wykrył, że powiadomienia aplikacji są dla aplikacji %1 ograniczone ustawieniami użycia energii. Aby włączyć funkcję „Pozwól na automatyczne uruchamianie”, przytrzymaj ikonę aplikacji i wybierz kolejno pozycje „Informacje o aplikacji – Zużycie energii”.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17030401": {
+        "ExpAdvice": "System wykrył, że powiadomienia aplikacji są dla aplikacji %1 ograniczone ustawieniami użycia energii. Aby włączyć funkcję „Zezwól na wywołanie”, przytrzymaj ikonę aplikacji i wybierz kolejno pozycje „Informacje o aplikacji – Zużycie energii”.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17040101": {
+        "ExpAdvice": "System wykrył, że na telefonie ustawiono opcję „Blokada aplikacji”, nie może jednak wykryć szczegółów blokady. Jako że dla aplikacji %1 nie są wyświetlane żadne komunikaty, przejdź do sekcji „Ustawienia – Prywatność – Blokada aplikacji” i sprawdź, czy aplikacja została zablokowana.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17040201": {
+        "ExpAdvice": "System wykrył, że na telefonie ustawiono opcję „Blokada aplikacji”, nie może jednak wykryć szczegółów blokady. Jako że dla aplikacji %1 nie są wyświetlane żadne komunikaty, przejdź do sekcji „Ustawienia – Prywatność – Ukrywanie aplikacji” i sprawdź, czy aplikacja została ukryta.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17050101": {
+        "ExpAdvice": "System wykrył, że telefon jest wyciszony. Oznacza to, że w przypadku nadejścia wiadomości przychodzących nie zostanie odtworzony żaden sygnał dźwiękowy. Aby wyłączyć wyciszenie telefonu, przejdź do sekcji „Ustawienia – Dźwięk i wibracje – Wycisz”.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17050201": {
+        "ExpAdvice": "System wykrył, że na telefonie jest włączona funkcja „Nie przeszkadzać”. Oznacza to, że nie będziesz otrzymywać powiadomień o wiadomościach przychodzących. Aby wyłączyć tę funkcję, przejdź do sekcji „Ustawienia – Dźwięk i wibracje – Nie przeszkadzać”.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17050202": {
+        "ExpAdvice": "Włączono tryb „Nie przeszkadzać”. W związku z tym będziesz otrzymywać tylko powiadomienia związane z alarmami, minutnikami i wydarzeniami z kalendarza, więc może się zdarzyć, że nie zauważysz innych powiadomień i przypomnień. Rozważ wyłączenie tej funkcji.",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t17060101": {
+        "ExpAdvice": "Funkcja „Klonowanie aplikacji” została wyłączona dla niektórych aplikacji w tym dla aplikacji %1. Aby przełączanie kont w tej samej aplikacji było łatwiejsze, należy wyszukać funkcję „Klonowanie aplikacji” w menu Ustawienia i ją włączyć.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17060201": {
+        "ExpAdvice": "Funkcja „Klonowanie aplikacji” została włączona dla niektórych aplikacji. Dla opcji „Przy korzystaniu z szybkich funkcji” wybrano jednak ustawienie „Otwieraj aplikację główną”. Warto rozważyć zmianę tego ustawienia na „Zawsze pytaj”.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t17060301": {
+        "ExpAdvice": "Opcja „Retusz wyglądu w połączeniach wideo” jest wyłączona, więc upiększanie w czasie rzeczywistym nie jest dostępne podczas rozmów wideo prowadzonych przez aplikację WeChat. Warto rozważyć włączenie tej funkcji.",
+        "ExpDetail": "Wyłącz"
+    },
+    "t26010101": {
+        "ExpAdvice": "Wykrywane są następujące stany bieżącego suwaka alertów: cisza, dzwonek i wibracja, które nie pokrywają się z pozycjami przełącznika. Zaleca się kalibrację i naprawę urządzenia.",
+        "ExpDetail": "Niezgodność między pozycjami przełącznika a stanami wskazania"
+    },
+    "t26010102": {
+        "ExpAdvice": "Wykrywane są następujące stany bieżącego suwaka alertów: cisza, dzwonek i wibracja. System nie rozpoznaje wszystkich stanów po zmianie położenia przełącznika. Zaleca się kalibrację i naprawę urządzenia. Jeśli naprawa nie poskutkuje, wymień urządzenie.",
+        "ExpDetail": "Nie wszystkie stany wskazania świecą"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inne"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nieobsługiwane",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie można przeanalizować z powodu niewystarczającej ilości danych",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "Wystąpił wyjątek, brak wyników",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "Po przekroczeniu limitu czasu połączenia nie jest zwracany żaden wynik. Ponownie przeprowadź test!",
+        "ExpDetail": "Niepowodzenie"
+    },
+    "t6": {
+        "ExpAdvice": "Wystąpił wyjątek, brak wyników",
+        "ExpDetail": "Niepowodzenie"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Wyłącz"
+    },
+    "t9": {
+        "ExpAdvice": "Wszystkie aplikacje",
+        "ExpDetail": "Włącz opcję"
+    },
+    "t05050109": {
+        "ExpDetail": "Błąd pasma częstotliwości komórkowej: %1",
+        "ExpAdvice": "1. Zwróć uwagę, aby podczas przeprowadzania testu nie dotykać telefonu.<br>2. Jeśli problem występuje nadal, wymień sprzęt — problemy mogą dotyczyć wybranych pasm częstotliwości."
+    },
+    "t05050110": {
+        "ExpDetail": "Błąd pasma częstotliwości satelitarnej: %1",
+        "ExpAdvice": "1. Zwróć uwagę, aby podczas przeprowadzania testu nie dotykać telefonu.<br>2. Jeśli problem występuje nadal, wymień sprzęt — problemy mogą dotyczyć wybranych pasm częstotliwości."
+    },
+    "t05050111": {
+        "ExpDetail": "Błąd pasma częstotliwości komórkowej i satelitarnej: %1",
+        "ExpAdvice": "1. Zwróć uwagę, aby podczas przeprowadzania testu nie dotykać telefonu.<br>2. Jeśli problem występuje nadal, wymień sprzęt — problemy mogą dotyczyć wybranych pasm częstotliwości."
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "Zablokowany",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nie naprawiono"
+    },
+    "t07110101": {
+        "ExpDetail": "Błąd czujnika magnetycznego wykorzystującego efekt Halla",
+        "ExpAdvice": "Zaleca się wymianę czujnika."
+    },
+    "t07010201": {
+        "ExpDetail": "Błąd sterowania z użyciem nacisku",
+        "ExpAdvice": "Sprawdź, czy złącza BTB są zablokowane na miejscu, płyta FPC nie jest zużyta, a płyta anteny, płyta główna i płyta FPC działają prawidłowo."
+    },
+    "t22140101": {
+        "ExpDetail": "Nieprawidłowa prędkość obrotu wentylatora",
+        "ExpAdvice": "Nieprawidłowa prędkość obrotu wentylatora. Sprawdź następujące elementy:\n1. Sprawdź i usuń kurz nagromadzony na łopatkach wentylatora.\n2. Jeśli problem nie ustąpi po czyszczeniu, wymień wentylator.\n3. Jeśli problem nie ustąpi po wymianie wentylatora, wymień płytę główną."
+    },
+    "t08030501": {
+        "ExpDetail": "Niski poziom głośności",
+        "ExpAdvice": "Sprawdź, czy otwór mikrofonu nie jest zablokowany przez pył lub płyn. Jeśli dźwięk jest tak cichy, że prawie go nie słychać, wymień mikrofon i powtórnie przeprowadź test."
+    },
+    "t08030504": {
+        "ExpDetail": "Inne",
+        "ExpAdvice": "Sprawdź, czy otwór mikrofonu nie jest zablokowany przez pył lub płyn. Jeśli dźwięk jest tak cichy, że prawie go nie słychać, wymień mikrofon i powtórnie przeprowadź test."
+    },
+    "t08030502": {
+        "ExpDetail": "Szum",
+        "ExpAdvice": "Wymień mikrofon i ponownie przeprowadź test."
+    },
+    "t08030503": {
+        "ExpDetail": "Brak dźwięku",
+        "ExpAdvice": "Wymień mikrofon i ponownie przeprowadź test."
+    }
+}

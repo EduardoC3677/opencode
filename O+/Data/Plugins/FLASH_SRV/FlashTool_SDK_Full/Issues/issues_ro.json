@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Eroare internă a altor instrumente de flash-uit ROM care nu sunt enumerate.",
+        "suggest": "Încercați să flash-uiți din nou ROM. Dacă aceeași problemă apare în mod repetat, contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a raporta problema echipei de întreținere a instrumentului."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "Spațiul cache necesar operației nu poate fi alocat din cauza memoriei insuficiente a computerului.",
+        "suggest": "1. Dezactivați aplicațiile pe care nu le utilizați și încercați să realizați din nou flash.\n2. Reporniți computerul și încercați din nou să realizați flash."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Eroare de returnare a interfeței sistemului Windows: {1} a returnat {2}.",
+        "suggest": "Computerul utilizat este defect. Vă rugăm să încercați din nou actualizarea sistemului de operare al dispozitivului. În cazul în care problema persistă după mai multe încercări, vă rugăm să o raportați echipei de întreținere a instrumentelor pentru analiză și procesare, prin intermediul unui reprezentant de asistență tehnică post-vânzare."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "S-a detectat că pe computer rulează un depanator de software.",
+        "suggest": "Închideți toate depanatoarele de software deschise și încercați din nou."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "S-a detectat că pe mașina virtuală rulează serviciul de instrumente de flash ROM.",
+        "suggest": "Rulați instrumentul de flash ROM pe un computer fizic."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "Datele pachetului de flashing ROM sunt deteriorate.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune. Apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "Fișierul sau folderul ROM importat nu este valabil sau pachetul de flashing ROM este deteriorat.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. În cazul în care pachetul de flashing ROM a fost importat dintr-o sursă externă, asigurați-vă că pachetul este în format OFP sau că este inclus un fișier version_info.txt. Dacă eroarea reapare după confirmare, încercați să copiați din nou pachetul de flashing ROM de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "Pachetul de flashing ROM încărcat nu este aplicabil dispozitivului la care urmează să fie realizat flash sau datele din pachetul de flashing ROM sunt deteriorate.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, asigurați-vă că pachetul corespunde modelului dispozitivului la care urmează să fie realizat flash. Descărcați din nou pachetul de flashing ROM corect și încercați să îl încărcați din nou.\n2. În cazul în care pachetul de flashing ROM a fost importat dintr-o sursă externă, asigurați-vă că pachetul corespunde modelului dispozitivului la care urmează să fie realizat flash. Recopiați pachetul de pe suportul sursă și încercați să îl încărcați din nou."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "Pachetul de flashing ROM încărcat nu este aplicabil dispozitivului la care urmează să fie realizat flash sau datele din pachetul de flashing ROM sunt deteriorate.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, asigurați-vă că pachetul corespunde modelului dispozitivului la care urmează să fie realizat flash. Descărcați din nou pachetul de flashing ROM corect și încercați să îl încărcați din nou.\n2. În cazul în care pachetul de flashing ROM a fost importat dintr-o sursă externă, asigurați-vă că pachetul corespunde modelului dispozitivului la care urmează să fie realizat flash. Recopiați pachetul de pe suportul sursă și încercați să îl încărcați din nou."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "La dispozitiv nu se poate realiza flash deoarece codul de element {1} nu corespunde cu codul de element {2} din pachetul de software.",
+        "suggest": "Verificați modelul dispozitivului utilizatorului, descărcați pachetul de flashing ROM corect și apoi flash-ui ROM."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "Tabelul de partiții din dispozitivul utilizatorului nu coincide cu tabelul de partiții din pachetul de flashing ROM.",
+        "suggest": "Folosiți „Forced Mode” (Mod forțat) pe instrumentul de flash-uit ROM pentru a flash-ui ROM. După ce realizarea flash a fost finalizată, efectuați o verificare funcțională completă după pornirea dispozitivului. În cazul în care dispozitivul nu poate fi pornit după realizarea flash sau în cazul în care se detectează orice problemă în timpul verificării funcționale, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Citirea numărului de element de pe telefon a eșuat.",
+        "suggest": "1. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n2. Încercați să folosiți un alt cablu USB sau un alt port USB de la computer pentru a flash-ui din nou ROM.\n3. Dacă problema reapare după ce ați luat măsurile de mai sus, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "Spațiul cache necesar operației nu poate fi alocat din cauza memoriei insuficiente a computerului.",
+        "suggest": "1. Dezactivați aplicațiile pe care nu le utilizați și încercați să realizați din nou flash.\n2. Reporniți computerul și încercați din nou să realizați flash."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Formatul fișierului de preîncărcare nevalabil.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune. Apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "Fișier de autentificare nevalabil.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune. Apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "Fișierul tabelului de partiții nu există.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune. Apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "Eroare de comunicare DA.",
+        "suggest": "1. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n2. Încercați să folosiți un alt cablu USB sau un alt port USB de la computer pentru a flash-ui din nou ROM.\n3. Dacă problema reapare după ce ați luat măsurile de mai sus, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "Deconectare USB neașteptată.",
+        "suggest": "1. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n2. Încercați să folosiți un alt cablu USB sau un alt port USB de la computer pentru a flash-ui din nou ROM.\n3. Dacă problema reapare după ce ați luat măsurile de mai sus, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "Conexiunea DA a eșuat din cauza unei excepții RAM externe.",
+        "suggest": "Înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Neconcordanță de memorie cu datele DA.",
+        "suggest": "Înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "Numărul de cipuri DDR din interiorul dispozitivului depășește limita platformei.",
+        "suggest": "Încercați să flash-uiți din nou ROM. Dacă aceeași problemă apare în mod repetat, contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a raporta problema echipei de întreținere a instrumentului."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "Descărcarea DA a eșuat.",
+        "suggest": "1. Verificați modelul dispozitivului, descărcați pachetul de flashing ROM corect și încercați din nou să realizați flash.\n2. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n3. Dacă eroarea a apărut în mod repetat în timpul încercărilor de flash-uire a ROM când se utilizează pachetul corect pentru dispozitiv și bateria este suficient de încărcată, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Defecțiune de hardware sau eroare de software ale componentelor DDR ale dispozitivului.",
+        "suggest": "Înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Defecțiune de hardware sau eroare de software ale componentelor SOC sau DDR ale dispozitivului.",
+        "suggest": "Înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Eroare de verificare a descărcării fișierului.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Eroare internă la platforma MTK.",
+        "suggest": "Încercați să flash-uiți din nou ROM. Dacă aceeași problemă apare în mod repetat, contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a raporta problema echipei de întreținere a instrumentului."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "Nu se poate instala unitatea ROM pe flash, deoarece informațiile despre codul țării pentru dispozitiv nu pot fi găsite nici în spațiul de stocare al dispozitivului, nici în fundalul serviciului.",
+        "suggest": "Vă rugăm să contactați biroul de asistență IT6000 pentru a raporta problemele găsite pe acest dispozitiv."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "Codul țării pentru dispozitivul {1} nu este acceptat de pachetul ROM selectat.",
+        "suggest": "Utilizați pachetul ROM pentru regiunea corectă și încercați din nou."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "Eroarea server-ului de control O+ cloud: {1} {2}.",
+        "suggest": "1. Asigurați-vă că serviciile O+ Cloud pot fi accesate prin rețeaua dvs. Dacă nu le puteți accesa, contactați echipa de asistență tehnică post-vânzare pentru a obține setările de configurare corecte.\n2. Încercați să flash-uiți din nou ROM. Dacă eroarea apare în mod repetat, contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a raporta problema echipei de operare și întreținere a serviciilor O+ Cloud."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "Serviciile cloud O+ nu au returnat rezultatul solicitării de procesare,API solicitat: {1}.",
+        "suggest": "Serviciile cloud O+ au eșuat. În cazul în care problema persistă după mai multe încercări, vă rugăm să o raportați echipei de întreținere a instrumentelor pentru analiză și procesare, prin intermediul unui reprezentant de asistență tehnică de fundal."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "Eroare de autentificare la platforma de control O+ cloud: {2}.",
+        "suggest": "Solicitați permisiunea corespunzătoare sau efectuați alte operații pe baza descrierii erorii în fundal. Dacă problema persistă, vă rugăm să contactați serviciul de asistență tehnică post-vânzare."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "Eroare de autentificare la platforma de control O+ cloud: {2} {3}.",
+        "suggest": "Solicitați permisiunea corespunzătoare sau efectuați alte operații pe baza descrierii erorii în fundal. Dacă problema persistă, vă rugăm să contactați serviciul de asistență tehnică post-vânzare."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "Eroare de autentificare la platforma de control O+ cloud.",
+        "suggest": "Solicitați permisiunea corespunzătoare sau efectuați alte operații pe baza descrierii erorii în fundal. Dacă problema persistă, vă rugăm să contactați serviciul de asistență tehnică post-vânzare."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Versiune de software perimată.",
+        "suggest": "Descărcați cel mai recent ROM pentru acest model de dispozitiv și rescrieți-i memoria flash."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "Acest cont de utilizator nu are acces la permisiunea avansată de instalare ROM pe flash.",
+        "suggest": "Solicitați permisiunea în sistemul UPM și încercați din nou."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "Interfața serviciului cloud O+ {1} nu a returnat câmpul de date desemnat: {2}.",
+        "suggest": "Serviciile cloud O+ au eșuat. În cazul în care problema persistă după mai multe încercări, vă rugăm să o raportați echipei de întreținere a instrumentelor pentru analiză și procesare, prin intermediul unui reprezentant de asistență tehnică de fundal."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "Nu se poate deschide fișierul {1}.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "Nu se pot citi datele din fișierul {1}.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "Nu se pot localiza datele din fișierul {1}.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "Nu se poate deschide fișierul {1}.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "Nu se pot localiza datele din fișierul {1}.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Nu s-a reușit închiderea fișierului {1}. Cod de eroare {2}.",
+        "suggest": "Eroare internă a sistemului de operare Windows. Vă rugăm să încercați din nou actualizarea sistemului de operare al dispozitivului. În cazul în care problema persistă după mai multe încercări, vă rugăm să o raportați echipei de întreținere a instrumentelor pentru analiză și procesare, prin intermediul unui reprezentant de asistență tehnică post-vânzare."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "Nu se pot citi datele din fișierul {1}.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "Dispozitivul nu a reușit să execute comanda {1}: {2}.",
+        "suggest": "1. Verificați modelul dispozitivului, descărcați pachetul de flashing ROM corect și încercați din nou să realizați flash.\n2. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n3. Dacă eroarea a apărut în mod repetat în timpul încercărilor de flash-uire a ROM când se utilizează pachetul corect pentru dispozitiv și bateria este suficient de încărcată, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "La dispozitiv nu se poate realiza flash deoarece codul de element {1} nu corespunde cu codul de element {2} din pachetul de software.",
+        "suggest": "Verificați modelul dispozitivului utilizatorului, descărcați pachetul de flashing ROM corect și apoi flash-ui ROM."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Inițializarea dispozitivului a eșuat.",
+        "suggest": "1. Verificați modelul dispozitivului, descărcați pachetul de flashing ROM corect și încercați din nou să realizați flash.\n2. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n3. Dacă eroarea a apărut în mod repetat în timpul încercărilor de flash-uire a ROM când se utilizează pachetul corect pentru dispozitiv și bateria este suficient de încărcată, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "Nu s-a reușit reactualizarea memoriei ROM.",
+        "suggest": "Descărcați un nou pachet ROM și încercați din nou."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "Nu s-a reușit reactualizarea memoriei ROM.",
+        "suggest": "Descărcați un nou pachet ROM și încercați din nou."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "Nu s-a reușit reactualizarea memoriei ROM.",
+        "suggest": "Descărcați un nou pachet ROM și încercați din nou."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Nu s-a reușit confirmarea codului de țară al dispozitivului care urmează să fie flash-uit.",
+        "suggest": "1. Contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a vedea dacă funcția „Default NV” din instrumentul de flash-uit ROM poate fi utilizată pentru a flash-ui ROM. Dacă se permite, utilizați funcția pentru a flash-ui ROM și efectuați o verificare funcțională completă a telefonului utilizatorului.\n2. Dacă funcția „Default NV” nu poate fi utilizată pentru a flash-ui ROM-ul dispozitivului sau dacă apare orice problemă după flash-uirea ROM (de exemplu dispozitivul nu poate fi pornit sau este detectată orice problemă la verificarea funcțională), înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Codul de țară nu este acceptat de software.",
+        "suggest": "1. Asigurați-vă că regiunea pachetului de flashing ROM obținut de la instrumentul de flash-uit ROM utilizat este pentru regiunea locală a dispozitivului. Ștergeți pachetul de flashing ROM și descărcați-l din nou utilizând versiunea corectă a instrumentului.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, copiați din nou pachetul pentru modelul și regiunea corecte de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "Datele de verificare lipsesc din pachetul ROM.",
+        "suggest": "Descărcați un nou pachet ROM și încercați din nou."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "Tabelul de partiții din dispozitivul utilizatorului nu coincide cu tabelul de partiții din pachetul de flashing ROM.",
+        "suggest": "Folosiți „Forced Mode” (Mod forțat) pe instrumentul de flash-uit ROM pentru a flash-ui ROM. După ce realizarea flash a fost finalizată, efectuați o verificare funcțională completă după pornirea dispozitivului. În cazul în care dispozitivul nu poate fi pornit după realizarea flash sau în cazul în care se detectează orice problemă în timpul verificării funcționale, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "Lipsește un fișier din pachetul ROM: {1}.",
+        "suggest": "Pachetul ROM este deteriorat. Descărcați un nou pachet și încercați din nou."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Formatul fișierului sparse (cu densitate scăzută a datelor) nevalabil.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "Lista de fișiere din pachetul ROM nu a putut fi verificată.",
+        "suggest": "Pachetul ROM este deteriorat. Descărcați altul nou și încercați din nou."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "Fișierul din pachetul ROM este deteriorat: {1}",
+        "suggest": "Descărcați un pachet ROM nou și încercați din nou."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "Lista de fișiere din pachetul ROM nu a putut fi verificată.",
+        "suggest": "Pachetul ROM este deteriorat. Descărcați altul nou și încercați din nou."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "Fișierul din pachetul ROM este deteriorat: {1}",
+        "suggest": "Descărcați un pachet ROM nou și încercați din nou."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "Fișierul sau folderul ROM importat nu este valabil sau pachetul de flashing ROM este deteriorat.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. În cazul în care pachetul de flashing ROM a fost importat dintr-o sursă externă, asigurați-vă că pachetul este în format OFP sau că este inclus un fișier version_info.txt. Dacă eroarea reapare după confirmare, încercați să copiați din nou pachetul de flashing ROM de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "Lipsește un fișier din pachetul ROM: {1}.",
+        "suggest": "Pachetul ROM este deteriorat. Descărcați un nou pachet și încercați din nou."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "Nu se pot citi datele din fișierul {1}.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "Fișierul sau folderul ROM importat nu este valabil sau pachetul de flashing ROM este deteriorat.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. În cazul în care pachetul de flashing ROM a fost importat dintr-o sursă externă, asigurați-vă că pachetul este în format OFP sau că este inclus un fișier version_info.txt. Dacă eroarea reapare după confirmare, încercați să copiați din nou pachetul de flashing ROM de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "Conținutul fișierelor din pachetul de flashing ROM nu corespunde așteptărilor.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune. Apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "Conținutul fișierelor din pachetul de flashing ROM nu corespunde așteptărilor.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune. Apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "Datele de verificare lipsesc din pachetul ROM.",
+        "suggest": "Descărcați un nou pachet ROM și încercați din nou."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "Lipsește un fișier din pachetul ROM: {1}.",
+        "suggest": "Pachetul ROM este deteriorat. Descărcați un nou pachet și încercați din nou."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "Nu se pot citi datele din fișierul {1}.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "Fișierul sau folderul ROM importat nu este valabil sau pachetul de flashing ROM este deteriorat.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. În cazul în care pachetul de flashing ROM a fost importat dintr-o sursă externă, asigurați-vă că pachetul este în format OFP sau că este inclus un fișier version_info.txt. Dacă eroarea reapare după confirmare, încercați să copiați din nou pachetul de flashing ROM de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "Conținutul fișierelor din pachetul de flashing ROM nu corespunde așteptărilor.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "Conținutul fișierelor din pachetul de flashing ROM nu corespunde așteptărilor.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "Fișierul tabelului de partiții nu există.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune. Apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "Lista de fișiere din pachetul ROM nu a putut fi verificată.",
+        "suggest": "Pachetul ROM este deteriorat. Descărcați altul nou și încercați din nou."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "Fișierul din pachetul ROM este deteriorat: {1}",
+        "suggest": "Descărcați un pachet ROM nou și încercați din nou."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Eroare la deschiderea managerului de gestionare de dispozitiv.",
+        "suggest": "1. Dezactivați toate versiunile vechi ale instrumentului de flash-uit ROM, a instrumentului de recitire și a instrumentului de depanare furnizate de producătorul cipului și încercați să realizați din nou flash.\n2. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n3. Încercați să folosiți un alt cablu USB sau un alt port USB de la computer pentru a flash-ui din nou ROM.\n4. Dacă problema reapare după ce ați luat măsurile de mai sus, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Eroare la deschiderea managerului de gestionare de dispozitiv.",
+        "suggest": "1. Dezactivați toate versiunile vechi ale instrumentului de flash-uit ROM, a instrumentului de recitire și a instrumentului de depanare furnizate de producătorul cipului și încercați să realizați din nou flash.\n2. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n3. Încercați să folosiți un alt cablu USB sau un alt port USB de la computer pentru a flash-ui din nou ROM.\n4. Dacă problema reapare după ce ați luat măsurile de mai sus, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Nu s-a reușit configurarea {1}. Cod de eroare {2}.",
+        "suggest": "Este posibil ca dispozitivul să fi fost invalidat sau deconectat. Încercați un alt port USB și un alt cablu, reporniți dispozitivul în modul EDL, apoi încercați din nou."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Nu se pot citi datele din fișier sau de pe dispozitiv.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou.\n3. În cazul în care problema persistă după mai multe încercări, se recomandă să salvați pachetul de flashing ROM pe un alt hard disk sau pe o altă partiție înainte de a încerca din nou flash-uirea."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Nu se pot citi datele din fișier sau de pe dispozitiv.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou.\n3. În cazul în care problema persistă după mai multe încercări, se recomandă să salvați pachetul de flashing ROM pe un alt hard disk sau pe o altă partiție înainte de a încerca din nou flash-uirea."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Nu se pot scrie datele în fișier sau pe dispozitiv.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou.\n3. În cazul în care problema persistă după mai multe încercări, se recomandă să salvați pachetul de flashing ROM pe un alt hard disk sau pe o altă partiție înainte de a încerca din nou flash-uirea."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Nu se pot scrie datele în fișier sau pe dispozitiv.",
+        "suggest": "1. În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou.\n3. În cazul în care problema persistă după mai multe încercări, se recomandă să salvați pachetul de flashing ROM pe un alt hard disk sau pe o altă partiție înainte de a încerca din nou flash-uirea."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "Dispozitivul nu a reușit să execute comanda {1}: {2}.",
+        "suggest": "1. Verificați modelul dispozitivului, descărcați pachetul de flashing ROM corect și încercați din nou să realizați flash.\n2. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n3. Dacă eroarea a apărut în mod repetat în timpul încercărilor de flash-uire a ROM când se utilizează pachetul corect pentru dispozitiv și bateria este suficient de încărcată, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "Executarea comenzii protocolului pe dispozitiv a eșuat și a returnat o eroare: {2}.",
+        "suggest": "Contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a raporta problema echipei de întreținere a instrumentului."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "La dispozitiv nu se poate realiza flash deoarece codul de element {1} nu corespunde cu codul de element {2} din pachetul de software.",
+        "suggest": "Verificați modelul dispozitivului utilizatorului, descărcați pachetul de flashing ROM corect și apoi flash-ui ROM."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Nu s-a reușit confirmarea codului de țară al dispozitivului care urmează să fie flash-uit.",
+        "suggest": "1. Contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a vedea dacă funcția „Default NV” din instrumentul de flash-uit ROM poate fi utilizată pentru a flash-ui ROM. Dacă se permite, utilizați funcția pentru a flash-ui ROM și efectuați o verificare funcțională completă a telefonului utilizatorului.\n2. Dacă funcția „Default NV” nu poate fi utilizată pentru a flash-ui ROM-ul dispozitivului sau dacă apare orice problemă după flash-uirea ROM (de exemplu dispozitivul nu poate fi pornit sau este detectată orice problemă la verificarea funcțională), înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "Regiunile acceptate de telefon sunt diferite de regiunile pentru care a fost lansat pachetul flash.",
+        "suggest": "1. Asigurați-vă că regiunea pachetului de flashing ROM obținut de la instrumentul de flash-uit ROM utilizat este pentru regiunea locală a dispozitivului. Ștergeți pachetul de flashing ROM și descărcați-l din nou utilizând versiunea corectă a instrumentului. 2. Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, copiați din nou pachetul pentru modelul și regiunea corecte de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "Actualizarea sistemului de operare a fost oprită de către utilizator.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "Deocamdată platforma nu acceptă realizarea flash.",
+        "suggest": "Încercați să flash-uiți din nou ROM. Dacă aceeași problemă apare în mod repetat, contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a raporta problema echipei de întreținere a instrumentului."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Memorie neacceptată pentru codul tipului de dispozitiv {1}.",
+        "suggest": "Înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "Pachetul de flashing ROM nu poate găsi partiția logică.",
+        "suggest": "1.În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2.Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Eroare de verificare a descărcării fișierului.",
+        "suggest": "1.În cazul în care pachetul de flashing ROM a fost descărcat direct cu ajutorul instrumentului de flash-uit ROM, ștergeți-l și descărcați cea mai recentă versiune, apoi încercați să încărcați din nou pachetul.\n2.Dacă pachetul de flashing ROM a fost importat dintr-o sursă externă, încercați să-l copiați din nou de pe suportul sursă și încărcați-l din nou."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "Deconectare USB neașteptată.",
+        "suggest": "1. Asigurați-vă că nivelul rămas al bateriei dispozitivului nu este mai mic de 20%. Încărcați dispozitivul înainte de a încerca din nou să flash-uiți ROM.\n2. Încercați să folosiți un alt cablu USB sau un alt port USB de la computer pentru a flash-ui din nou ROM.\n3. Dacă problema reapare după ce ați luat măsurile de mai sus, înlocuiți placa de bază pentru utilizator."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "Operațiunea a eșuat din cauza erorilor dispozitivului de memorie.",
+        "suggest": "Asigurați-vă că selectați tipul corect de dispozitiv de memorie în setările de instalare a unității ROM pe flash (de exemplu, dacă dispozitivul este echipat cu un dispozitiv eMMC, opțiunea UFS nu poate fi selectată). În cazul în care confirmați că nu există nicio problemă cu selecția dvs., dispozitivul UFS ar putea fi deteriorat. Luați în considerare înlocuirea plăcii de bază."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "Deocamdată platforma nu acceptă realizarea flash.",
+        "suggest": "Încercați să flash-uiți din nou ROM. Dacă aceeași problemă apare în mod repetat, contactați un reprezentant al serviciului de asistență tehnică post-vânzare pentru a raporta problema echipei de întreținere a instrumentului."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "Pachetul ROM este mai vechi decât versiunea implicită originală. Programarea prin flash va provoca modificarea numărului de serie.",
+        "suggest": "Informați utilizatorul că acest dispozitiv a adoptat un număr de serie cu specificații noi. Trecerea la o versiune mai veche decât cea originală îi va modifica numărul de serie, ceea ce poate avea consecințe, precum deteriorarea drepturilor de protecție și a intereselor post-vânzare. Reprezentantul oficial nu recomandă utilizatorilor să treacă la versiuni mai vechi pe dispozitivelor lor."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "Operațiunea de returnare a dispozitivului a eșuat. Cod de eroare: {1}; mesaj de eroare: {2}",
+        "suggest": "Încercați din nou programarea prin flash. Dacă această eroare persistă, contactați echipa de întreținere a instrumentului de flash, pentru a raporta problema."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Informați utilizatorul că acest dispozitiv are deja activată funcția „Apel pentru blocare”. Accesați „Setări - Securitate și confidențialitate - Deblocare dispozitiv - Protecție antifurt” și dezactivați „Apel pentru blocare” înainte de programarea prin flash. Dacă acest dispozitiv nu poate fi pornit, sunați la serviciul nostru pentru clienți pentru a vă verifica informațiile personale și solicita deblocarea dispozitivului înainte de programarea prin flash.",
+        "suggest": "Utilizatorul a activat „Apel pentru blocare”, iar back-endul instrumentului de flash a marcat dispozitivul ca fiind în modul Blocare de securitate. (Acest mod va fi activat dacă utilizatorul pierde dispozitivul și sună la serviciul nostru pentru clienți pentru a solicita blocarea acestuia.) Dispozitivele aflate în modul Blocare de securitate nu pot fi programate prin flash. Dezactivați funcția „Apel pentru blocare” înainte de programarea prin flash."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "Adresa de offset a partiției cu datele utilizatorului din pachetul ROM nu se potrivește cu partiția corespunzătoare de pe telefon, ceea ce face imposibilă rescrierea memoriei flash fără ștergerea partiției respective.",
+        "suggest": "Efectuați un backup pentru toate datele de pe partiția cu datele utilizatorului înainte de a continua să efectuați o rescriere a memoriei flash în modul standard."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Această versiune conține vulnerabilități de securitate cunoscute. Rescrierea memoriei flash este restricționată.",
+        "suggest": "Descărcați cel mai recent ROM pentru acest model de dispozitiv și rescrieți-i memoria flash."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

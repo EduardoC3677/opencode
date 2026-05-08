@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Kesalahan internal alat flashing ROM lain yang tidak terdaftar.",
+        "suggest": "Silakan coba flash lagi. Jika masalah terjadi setelah beberapa kali percobaan, harap laporkan masalah tersebut ke tim pemeliharaan alat melalui perwakilan dukungan teknis purnajual untuk dianalisis dan diproses."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "Ruang cache yang diperlukan untuk operasi tidak dapat dialokasikan karena memori PC tidak mencukupi.",
+        "suggest": "1. Nonaktifkan aplikasi yang tidak digunakan, lalu coba flash ulang.\n2. Aktifkan ulang komputer Anda dan coba flash lagi."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Kesalahan pengembalian antarmuka sistem Windows: {1} menghasilkan {2}.",
+        "suggest": "Komputer yang digunakan rusak. Coba mem-flash perangkat lagi. Jika masalah tetap ada setelah beberapa kali mencoba, laporkan masalah tersebut ke tim pemeliharaan alat untuk dianalisis dan diproses melalui perwakilan dukungan teknis purna jual."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "Debugger perangkat lunak telah terdeteksi sedang berjalan di komputer.",
+        "suggest": "Tutup semua debugger perangkat lunak yang terbuka, lalu coba lagi."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "Layanan alat flash ROM telah terdeteksi sedang berjalan pada mesin virtual.",
+        "suggest": "Jalankan alat flash ROM pada komputer fisik."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "Data paket flashing ROM rusak.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "File atau folder ROM yang diimpor tidak valid, atau paket flashing ROM rusak.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, pastikan paket tersebut dalam format OFP atau version_info.txt disertakan. Jika kesalahan\n  terulang kembali setelah konfirmasi, coba salin ulang paket flashing ROM dari\n  media sumber dan muat kembali."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "Paket flashing ROM yang dimuat tidak berlaku untuk perangkat yang akan di-flash, atau data dalam paket flashing ROM rusak.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, pastikan paket tersebut sesuai dengan model perangkat yang akan di-flash.\n  Unduh ulang paket flashing ROM yang benar dan coba muat lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, pastikan paket tersebut sesuai dengan model perangkat yang akan di-flash. Salin ulang paket\n  dari media sumber, lalu coba muat lagi."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "Paket flashing ROM yang dimuat tidak berlaku untuk perangkat yang akan di-flash, atau data dalam paket flashing ROM rusak.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, pastikan paket tersebut sesuai dengan model perangkat yang akan di-flash.\n  Unduh ulang paket flashing ROM yang benar dan coba muat lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, pastikan paket tersebut sesuai dengan model perangkat yang akan di-flash. Salin ulang paket\n  dari media sumber, lalu coba muat lagi."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "Perangkat tidak dapat dilakukan flashing karena kode itemnya {1} tidak konsisten dengan kode item {2} di paket perangkat lunak.",
+        "suggest": "Periksa model perangkat pengguna, unduh paket flashing ROM yang benar, lalu lakukan flash pada ROM tersebut."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "Tabel partisi pada perangkat pengguna tidak sesuai dengan tabel partisi pada paket flashing ROM.",
+        "suggest": "Gunakan \"Mode Paksa\" di alat flashing ROM untuk melakukan flash pada ROM. Setelah flashing selesai, lakukan pemeriksaan fungsi menyeluruh setelah perangkat diaktifkan. Jika perangkat tidak dapat dihidupkan setelah melakukan flash, atau jika ada masalah yang terdeteksi selama pemeriksaan fungsi, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Gagal membaca nomor item dari ponsel.",
+        "suggest": "1. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n2. Coba gunakan kabel USB lain atau port USB lain di komputer untuk melakukan flash pada ROM lagi.\n3. Jika masalah muncul kembali setelah melakukan tindakan di atas, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "Ruang cache yang diperlukan untuk operasi tidak dapat dialokasikan karena memori PC tidak mencukupi.",
+        "suggest": "1. Nonaktifkan aplikasi yang tidak digunakan, lalu coba flash ulang.\n2. Aktifkan ulang komputer Anda dan coba flash lagi."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Format file prapemuat tidak valid.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "File autentikasi tidak valid.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "File tabel partisi tidak ada.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "Kesalahan komunikasi DA.",
+        "suggest": "1. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n2. Coba gunakan kabel USB lain atau port USB lain di komputer untuk melakukan flash pada ROM lagi.\n3. Jika masalah muncul kembali setelah melakukan tindakan di atas, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "Pemutusan USB yang tidak terduga.",
+        "suggest": "1. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n2. Coba gunakan kabel USB lain atau port USB lain di komputer untuk melakukan flash pada ROM lagi.\n3. Jika masalah muncul kembali setelah melakukan tindakan di atas, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "Koneksi DA gagal karena adanya pengecualian RAM eksternal.",
+        "suggest": "Ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Ketidakcocokan memori dengan data DA.",
+        "suggest": "Ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "Jumlah chip DDR di dalam perangkat melebihi batas platform.",
+        "suggest": "Coba flash ROM lagi. Jika masalah yang sama terjadi berulang kali, hubungi perwakilan dukungan teknis purna jual untuk melaporkan masalah tersebut ke tim pemeliharaan alat."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "Pengunduhan DA gagal.",
+        "suggest": "1. Periksa model perangkat, unduh paket flashing ROM yang benar, lalu coba flash lagi.\n2. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n3. Jika kesalahan terjadi berulang kali saat mencoba melakukan flash pada ROM ketika paket yang benar digunakan untuk perangkat dan baterai mencukupi, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Kegagalan perangkat keras atau perangkat lunak pada komponen DDR perangkat.",
+        "suggest": "Ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Kegagalan perangkat keras atau perangkat lunak pada komponen SOC atau DDR perangkat.",
+        "suggest": "Ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Kesalahan verifikasi pengunduhan file.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Kesalahan internal dalam platform MTK.",
+        "suggest": "Coba flash ROM lagi. Jika masalah yang sama terjadi berulang kali, hubungi perwakilan dukungan teknis purna jual untuk melaporkan masalah tersebut ke tim pemeliharaan alat."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "Tidak dapat mem-flash ROM karena informasi kode negara perangkat tidak dapat ditemukan di penyimpanan di perangkat atau latar belakang layanan.",
+        "suggest": "Hubungi layanan pelanggan IT6000 untuk melaporkan masalah yang ditemukan pada perangkat ini."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "Kode negara {1} perangkat tidak didukung oleh paket ROM yang dipilih.",
+        "suggest": "Gunakan paket ROM untuk wilayah yang benar dan coba lagi."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "Kesalahan server kontrol cloud O+: {1} {2}.",
+        "suggest": "1. Pastikan layanan O+ Cloud dapat diakses melalui jaringan Anda. Jika tidak dapat mengakses, hubungi tim dukungan teknis purna jual untuk pengaturan konfigurasi yang benar.\n2. Coba flash ROM lagi. Jika kesalahan terjadi berulang kali, hubungi perwakilan dukungan teknis purna jual untuk melaporkan masalah tersebut ke tim operasi dan pemeliharaan Layanan O+ Cloud."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "Layanan O+ Cloud tidak mengembalikan hasil permintaan pemrosesan,API yang Diminta: {1}.",
+        "suggest": "Layanan O+ Cloud gagal. Jika masalah tetap ada setelah beberapa kali mencoba, laporkan masalah tersebut ke tim pemeliharaan alat untuk dianalisis dan diproses melalui perwakilan dukungan teknis latar belakang."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "Kesalahan autentikasi platform kontrol cloud O+: {2}.",
+        "suggest": "Ajukan izin yang sesuai atau lakukan operasi lainnya sesuai dengan deskripsi kesalahan di latar belakang. Jika masalah berlanjut, hubungi dukungan teknis purnajual."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "Kesalahan autentikasi platform kontrol cloud O+: {2} {3}.",
+        "suggest": "Ajukan izin yang sesuai atau lakukan operasi lainnya sesuai dengan deskripsi kesalahan di latar belakang. Jika masalah berlanjut, hubungi dukungan teknis purnajual."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "Kesalahan autentikasi platform kontrol cloud O+.",
+        "suggest": "Ajukan izin yang sesuai atau lakukan operasi lainnya sesuai dengan deskripsi kesalahan di latar belakang. Jika masalah berlanjut, hubungi dukungan teknis purnajual."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Versi perangkat lunak sudah kedaluwarsa.",
+        "suggest": "Unduh ROM terbaru untuk model perangkat ini dan lakukan flash."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "Akun pengguna ini tidak memiliki akses ke izin flashing ROM canggih.",
+        "suggest": "Ajukan izin di sistem UPM dan coba lagi."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "Antarmuka layanan O+ Cloud {1} tidak mengembalikan bidang data yang ditunjuk: {2}.",
+        "suggest": "Layanan O+ Cloud gagal. Jika masalah tetap ada setelah beberapa kali mencoba, laporkan masalah tersebut ke tim pemeliharaan alat untuk dianalisis dan diproses melalui perwakilan dukungan teknis latar belakang."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "Tidak dapat membuka file {1}.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "Tidak dapat membaca data di file {1}.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "Tidak dapat menemukan lokasi data di file {1}.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "Tidak dapat membuka file {1}.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "Tidak dapat menemukan lokasi data di file {1}.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Gagal menutup file {1}. Kode kesalahan {2}.",
+        "suggest": "Kesalahan internal OS Windows. Coba mem-flash perangkat lagi. Jika masalah tetap ada setelah beberapa kali mencoba, laporkan masalah tersebut ke tim pemeliharaan alat untuk dianalisis dan diproses melalui perwakilan dukungan teknis purna jual."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "Tidak dapat membaca data di file {1}.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "Perangkat gagal untuk melaksanakan perintah {1}: {2}.",
+        "suggest": "1. Periksa model perangkat, unduh paket flashing ROM yang benar, lalu coba flash lagi.\n2. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n3. Jika kesalahan terjadi berulang kali saat mencoba melakukan flash pada ROM ketika paket yang benar digunakan untuk perangkat dan baterai mencukupi, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "Perangkat tidak dapat dilakukan flashing karena kode itemnya {1} tidak konsisten dengan kode item {2} di paket perangkat lunak.",
+        "suggest": "Periksa model perangkat pengguna, unduh paket flashing ROM yang benar, lalu lakukan flash pada ROM tersebut."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Inisialisasi perangkat gagal.",
+        "suggest": "1. Periksa model perangkat, unduh paket flashing ROM yang benar, lalu coba flash lagi.\n2. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n3. Jika kesalahan terjadi berulang kali saat mencoba melakukan flash pada ROM ketika paket yang benar digunakan untuk perangkat dan baterai mencukupi, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "Flashing ROM gagal.",
+        "suggest": "Unduh paket ROM baru dan coba lagi."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "Flashing ROM gagal.",
+        "suggest": "Unduh paket ROM baru dan coba lagi."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "Flashing ROM gagal.",
+        "suggest": "Unduh paket ROM baru dan coba lagi."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Gagal mengonfirmasi kode negara perangkat yang akan dilakukan flashing.",
+        "suggest": "1. Hubungi perwakilan dukungan teknis purna jual untuk mengetahui apakah fungsi \"NV Default\" di alat flashing ROM dapat digunakan untuk melakukan flash pada ROM. Jika diizinkan, gunakan fungsi tersebut untuk melakukan flash pada ROM, dan lakukan pemeriksaan fungsi menyeluruh pada ponsel pengguna.\n2. Jika fungsi \"NV Default\" tidak dapat digunakan untuk melakukan flash pada ROM perangkat, atau terjadi masalah setelah melakukan flash pada ROM (misalnya, perangkat tidak dapat dihidupkan atau ada masalah terdeteksi dalam pemeriksaan fungsional), ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Kode negara tidak didukung oleh perangkat lunak.",
+        "suggest": "1. Pastikan wilayah paket flashing ROM yang diperoleh dari alat flashing ROM yang digunakan adalah untuk wilayah lokal perangkat. Hapus paket flashing ROM dan unduh lagi menggunakan versi alat yang benar.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, salin ulang paket untuk model dan wilayah yang benar dari media sumber, lalu muat kembali."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "Data verifikasi hilang dari paket ROM.",
+        "suggest": "Unduh paket ROM baru dan coba lagi."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "Tabel partisi pada perangkat pengguna tidak sesuai dengan tabel partisi pada paket flashing ROM.",
+        "suggest": "Gunakan \"Mode Paksa\" di alat flashing ROM untuk melakukan flash pada ROM. Setelah flashing selesai, lakukan pemeriksaan fungsi menyeluruh setelah perangkat diaktifkan. Jika perangkat tidak dapat dihidupkan setelah melakukan flash, atau jika ada masalah yang terdeteksi selama pemeriksaan fungsi, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "File hilang dari paket ROM: {1}.",
+        "suggest": "Paket ROM rusak. Unduh yang baru dan coba lagi."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Format file sparse tidak valid.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "Gagal memverifikasi daftar file dalam paket ROM.",
+        "suggest": "Paket ROM rusak. Unduh yang baru dan coba lagi."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "File dalam paket ROM rusak: {1}",
+        "suggest": "Unduh paket ROM baru dan coba lagi."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "Gagal memverifikasi daftar file dalam paket ROM.",
+        "suggest": "Paket ROM rusak. Unduh yang baru dan coba lagi."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "File dalam paket ROM rusak: {1}",
+        "suggest": "Unduh paket ROM baru dan coba lagi."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "File atau folder ROM yang diimpor tidak valid, atau paket flashing ROM rusak.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, pastikan paket tersebut dalam format OFP atau version_info.txt disertakan. Jika kesalahan terulang kembali setelah konfirmasi, coba salin ulang paket flashing ROM dari media sumber dan muat kembali."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "File hilang dari paket ROM: {1}.",
+        "suggest": "Paket ROM rusak. Unduh yang baru dan coba lagi."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "Tidak dapat membaca data di file {1}.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "File atau folder ROM yang diimpor tidak valid, atau paket flashing ROM rusak.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, pastikan paket tersebut dalam format OFP atau version_info.txt disertakan. Jika kesalahan terulang kembali setelah konfirmasi, coba salin ulang paket flashing ROM dari media sumber dan muat kembali."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "Isi file dalam paket flashing ROM tidak memenuhi ekspektasi.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "Isi file dalam paket flashing ROM tidak memenuhi ekspektasi.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "Data verifikasi hilang dari paket ROM.",
+        "suggest": "Unduh paket ROM baru dan coba lagi."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "File hilang dari paket ROM: {1}.",
+        "suggest": "Paket ROM rusak. Unduh yang baru dan coba lagi."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "Tidak dapat membaca data di file {1}.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "File atau folder ROM yang diimpor tidak valid, atau paket flashing ROM rusak.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, pastikan paket tersebut dalam format OFP atau version_info.txt disertakan. Jika kesalahan terulang kembali setelah konfirmasi, coba salin ulang paket flashing ROM dari media sumber dan muat kembali."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "Isi file dalam paket flashing ROM tidak memenuhi ekspektasi.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "Isi file dalam paket flashing ROM tidak memenuhi ekspektasi.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "File tabel partisi tidak ada.",
+        "suggest": "1. Jika paket flashing ROM diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru. Kemudian coba muat paket tersebut lagi.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "Gagal memverifikasi daftar file dalam paket ROM.",
+        "suggest": "Paket ROM rusak. Unduh yang baru dan coba lagi."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "File dalam paket ROM rusak: {1}",
+        "suggest": "Unduh paket ROM baru dan coba lagi."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Kesalahan ketika membuka penangan perangkat.",
+        "suggest": "1. Nonaktifkan semua versi lama alat flashing ROM, alat read-back, dan alat debugging yang disediakan oleh produsen chip, dan coba flash lagi.\n2. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n3. Coba gunakan kabel USB lain atau port USB lain di komputer untuk melakukan flash pada ROM lagi.\n4. Jika masalah muncul kembali setelah melakukan tindakan di atas, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Kesalahan ketika membuka penangan perangkat.",
+        "suggest": "1. Nonaktifkan semua versi lama alat flashing ROM, alat read-back, dan alat debugging yang disediakan oleh produsen chip, dan coba flash lagi.\n2. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n3. Coba gunakan kabel USB lain atau port USB lain di komputer untuk melakukan flash pada ROM lagi.\n4. Jika masalah muncul kembali setelah melakukan tindakan di atas, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Gagal mengonfigurasi {1}. Kode kesalahan {2}.",
+        "suggest": "Perangkat mungkin tidak valid atau terputus. Coba port dan kabel USB lain, boot ulang perangkat ke mode EDL, lalu coba lagi."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Tidak dapat membaca data dari file atau perangkat.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali.\n3. Jika masalah tetap ada setelah beberapa kali mencoba, sebaiknya simpan paket flashing ROM ke hard drive atau partisi lain sebelum mencoba melakukan flash lagi."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Tidak dapat membaca data dari file atau perangkat.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali.\n3. Jika masalah tetap ada setelah beberapa kali mencoba, sebaiknya simpan paket flashing ROM ke hard drive atau partisi lain sebelum mencoba melakukan flash lagi."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Tidak dapat menulis data ke file atau perangkat.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali.\n3. Jika masalah tetap ada setelah beberapa kali mencoba, sebaiknya simpan paket flashing ROM ke hard drive atau partisi lain sebelum mencoba melakukan flash lagi."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Tidak dapat menulis data ke file atau perangkat.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali.\n3. Jika masalah tetap ada setelah beberapa kali mencoba, sebaiknya simpan paket flashing ROM ke hard drive atau partisi lain sebelum mencoba melakukan flash lagi."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "Perangkat gagal untuk melaksanakan perintah {1}: {2}.",
+        "suggest": "1. Periksa model perangkat, unduh paket flashing ROM yang benar, lalu coba flash lagi.\n2. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n3. Jika kesalahan terjadi berulang kali saat mencoba melakukan flash pada ROM ketika paket yang benar digunakan untuk perangkat dan baterai mencukupi, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "Perintah protokol gagal dilakukan di perangkat dan menghasilkan kesalahan: {2}.",
+        "suggest": "Hubungi perwakilan dukungan teknis purna jual untuk melaporkan masalah ini ke tim pemeliharaan alat."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "Perangkat tidak dapat dilakukan flashing karena kode itemnya {1} tidak konsisten dengan kode item {2} di paket perangkat lunak.",
+        "suggest": "Periksa model perangkat pengguna, unduh paket flashing ROM yang benar, lalu lakukan flash pada ROM tersebut."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Gagal mengonfirmasi kode negara perangkat yang akan dilakukan flashing.",
+        "suggest": "1. Hubungi perwakilan dukungan teknis purna jual untuk mengetahui apakah fungsi \"NV Default\" di alat flashing ROM dapat digunakan untuk melakukan flash pada ROM. Jika diizinkan, gunakan fungsi tersebut untuk melakukan flash pada ROM, dan lakukan pemeriksaan fungsi menyeluruh pada ponsel pengguna.\n2. Jika fungsi \"NV Default\" tidak dapat digunakan untuk melakukan flash pada ROM perangkat, atau terjadi masalah setelah melakukan flash pada ROM (misalnya, perangkat tidak dapat dihidupkan atau ada masalah terdeteksi dalam pemeriksaan fungsional), ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "Kawasan yang didukung oleh ponsel berbeda dari kawasan rilis paket flashing tersebut.",
+        "suggest": "1. Pastikan wilayah paket flashing ROM yang diperoleh dari alat flashing ROM yang digunakan adalah untuk wilayah lokal perangkat. Hapus paket flashing ROM dan unduh lagi menggunakan versi alat yang benar.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, salin ulang paket untuk model dan wilayah yang benar dari media sumber, lalu muat kembali."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "Flashing dihentikan oleh pengguna.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "Platform tidak mendukung flashing untuk saat ini.",
+        "suggest": "Coba flash ROM lagi. Jika masalah yang sama terjadi berulang kali, hubungi perwakilan dukungan teknis purna jual untuk melaporkan masalah tersebut ke tim pemeliharaan alat."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Kode tipe perangkat memori tidak didukung {1}.",
+        "suggest": "Ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "Paket flashing ROM tidak dapat menemukan partisi logis.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Kesalahan verifikasi pengunduhan file.",
+        "suggest": "1. Jika paket flashing ROM langsung diunduh menggunakan alat flashing ROM, hapus dan unduh versi terbaru, lalu coba muat kembali paket tersebut.\n2. Jika paket flashing ROM diimpor dari sumber eksternal, coba salin ulang dari media sumber dan muat kembali."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "Pemutusan USB yang tidak terduga.",
+        "suggest": "1. Pastikan sisa daya baterai perangkat tidak kurang dari 20%. Isi daya perangkat sebelum mencoba melakukan flash pada ROM lagi.\n2. Coba gunakan kabel USB lain atau port USB lain di komputer untuk melakukan flash pada ROM lagi.\n3. Jika masalah muncul kembali setelah melakukan tindakan di atas, ganti mainboard untuk pengguna."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "Gagal melakukan operasi karena kesalahan perangkat memori.",
+        "suggest": "Pastikan Anda memilih jenis perangkat memori yang benar dalam pengaturan flashing ROM (misalnya, jika perangkat dilengkapi perangkat eMMC, opsi UFS tidak dapat dipilih). Jika Anda mengonfirmasi bahwa tidak ada masalah dengan pilihan Anda, perangkat UFS mungkin rusak. Pertimbangkan untuk mengganti motherboard."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "Platform tidak mendukung flashing untuk saat ini.",
+        "suggest": "Coba flash ROM lagi. Jika masalah yang sama terjadi berulang kali, hubungi perwakilan dukungan teknis purna jual untuk melaporkan masalah tersebut ke tim pemeliharaan alat."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "Paket ROM lebih lama dari versi default pabrik. Mem-flashnya akan menyebabkan perubahan pada SN.",
+        "suggest": "Beri tahu pengguna bahwa perangkat ini telah menerapkan SN spesifikasi baru. Menurunkannya ke versi pra-pabrik akan mengubah SN-nya, sehingga dapat berdampak pada konsekuensi seperti kerugian pada hak dan kepentingan perlindungan purnajual. Produsen resmi tidak merekomendasikan pengguna untuk menurunkan versi perangkat mereka."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "Operasi pengembalian pada perangkat gagal. Kode kesalahan: {1}; pesan kesalahan: {2}",
+        "suggest": "Coba melakukan flash lagi. Jika kesalahan ini berlanjut, hubungi tim pemeliharaan alat flash untuk melaporkan masalah ini."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Informasikan kepada pengguna bahwa perangkat ini telah mengaktifkan \"Panggilan untuk mengunci\". Buka \"Pengaturan - Keamanan & privasi - Buka kunci perangkat - Perlindungan pencurian\" dan nonaktifkan \"Panggilan untuk mengunci\" sebelum mem-flash. Jika perangkat ini tidak dapat diaktifkan, hubungi layanan pelanggan kami untuk memverifikasi informasi pribadi Anda dan meminta untuk membuka kunci perangkat sebelum melakukan flash.",
+        "suggest": "Pengguna telah mengaktifkan \"Panggilan untuk mengunci\" dan bagian belakang alat flash telah menandai perangkat tersebut berada dalam mode Penguncian keamanan. (Jika pengguna kehilangan perangkat dan menghubungi layanan pelanggan kami untuk meminta pengunciannya, mode ini akan diaktifkan.) Perangkat dalam Mode penguncian keamanan tidak dapat di-flash. Nonaktifkan \"Panggilan untuk mengunci\" sebelum melakukan flashing."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "Alamat offset partisi userdata dalam paket ROM tidak cocok dengan partisi terkait pada ponsel, sehingga Anda tidak dapat melakukan flash tanpa menghapus partisi ini.",
+        "suggest": "Cadangkan semua data di partisi userdata sebelum melanjutkan dengan flashing mode standar."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Versi ini berisi kerentanan keamanan yang diketahui. Flashing dibatasi.",
+        "suggest": "Unduh ROM terbaru untuk model perangkat ini dan lakukan flash."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

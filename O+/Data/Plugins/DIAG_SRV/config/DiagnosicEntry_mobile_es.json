@@ -1,0 +1,2811 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normal",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "Dile al cliente que actualice a la última versión, que es más estable.",
+        "ExpDetail": "Actualización disponible: %1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "Se ha cambiado el IMEI o no se ha escrito ningún IMEI después de cambiar la placa base. Restaura el IMEI original e informa al cliente que un IMEI ilegal puede provocar errores en la red.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "No se ha podido comenzar la prueba. Confirma que se ha extraído la tarjeta SIM.",
+        "ExpDetail": "Tarjeta SIM no extraída"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Número de veces desbloqueado:%1<br>estado de desbloqueo:Desbloqueado"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Número de veces desbloqueado:%1<br>estado de desbloqueo:No desbloqueado"
+    },
+    "t01010101": {
+        "ExpAdvice": "Puede deberse a una incompatibilidad entre las aplicaciones de terceros y el sistema. Se recomienda actualizar el dispositivo y las aplicaciones a la última versión. Este es un problema de software y no está relacionado con el hardware.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "El teléfono puede reiniciarse repetidamente cuando se produce una excepción en el servicio de software subyacente del sistema Android o cuando la ejecución de la CPU o la RAM es inestable. Se recomienda corregir el problema como un problema de hardware.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "Este es un problema de la aplicación. Si la aplicación es una versión beta, no una versión oficial o no es la última versión oficial, descarga e instala la última versión de App Market.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "Este problema puede ocurrir cuando hay problemas de compatibilidad de software o cuando el teléfono se cae al suelo o se usa en un entorno de temperatura alta o baja. Instala una nueva ROM y dile al cliente que use el teléfono en un entorno adecuado.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "La fuente de alimentación del teléfono es inestable. Se recomienda corregir el problema como un problema de hardware.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "Cambia el módulo del sensor de huellas.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "Comprueba con el cliente si se ha pulsado algún botón por accidente.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "Comprueba con el cliente si el teléfono no ha respondido y se ha reiniciado usando botones físicos.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "Causa: La CPU funciona bajo una alta carga durante periodos de tiempo prolongados, lo que provoca el sobrecalentamiento del teléfono. Para evitar el sobrecalentamiento, la CPU se autoprotege, lo que resulta en un menor rendimiento.<br> \nRecomendaciones: ① Desactiva el modo Ahorro de batería. ② Evita el funcionamiento prolongado de la CPU bajo una alta carga. ③ Enfría el teléfono; para ello, limpia la superficie con alcohol o una toallita húmeda y mantén una buena disipación del calor.",
+        "ExpDetail": "Las 5 aplicaciones principales con más retraso:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "Causa: La frecuencia baja de la CPU puede afectar al rendimiento del sistema, así como ralentizar la velocidad de procesamiento y el tiempo de respuesta de las aplicaciones.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Desactiva el modo Ahorro de batería. ③ Mantén una buena disipación del calor.",
+        "ExpDetail": "Las 5 aplicaciones principales con más retraso:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "Causa: El espacio de almacenamiento disponible es inferior al 10 % porque hay demasiadas aplicaciones en ejecución en segundo plano.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Activa la función de expansión de RAM en \"Ajustes > Ajustes del sistema > RAM\", si el teléfono es compatible con esta función. ③ Reinicia el teléfono cada cierto tiempo.",
+        "ExpDetail": "Las 5 aplicaciones principales con más retraso:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "Causa: No hay espacio para la caché de las aplicaciones porque queda poco espacio de almacenamiento. En este caso, es posible que las aplicaciones se retrasen, congelen o bloqueen.<br>\nRecomendaciones: Libera espacio de almacenamiento en el teléfono. Puedes utilizar la aplicación Administrador del teléfono integrada para eliminar fotos, vídeos y aplicaciones que ya no necesites, o para copiar estos archivos en un ordenador o unidad USB.",
+        "ExpDetail": "Las 5 aplicaciones principales con más retraso:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "Causa: La versión del SO no es oficial y puede volverse inestable.<br> \nRecomendaciones: Instala la versión oficial del SO o espera a que la versión beta se actualice.",
+        "ExpDetail": "Las 5 aplicaciones principales con más retraso:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "Causa: Se ha instalado una aplicación de administración de teléfonos o una aplicación de optimización del sistema de terceros (como Tencent Mobile Manager o 360 Mobile Safe) en el teléfono. Estas aplicaciones pueden provocar que el teléfono funcione con lentitud.<br>\nRecomendaciones: Desinstala cualquier aplicación de optimización del sistema de terceros y, en su lugar, utiliza la aplicación Administrador del teléfono integrada para optimizar el teléfono.",
+        "ExpDetail": "Las 5 aplicaciones principales con más retraso:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "Causa: La función Gestos de aumento está activada, lo que puede provocar el retraso de algunas aplicaciones.<br> \nRecomendaciones: Desactiva la función Gestos de aumento en \"Ajustes > Ajustes adicionales > Accesibilidad > Gestos de aumento\".",
+        "ExpDetail": "Las 5 aplicaciones principales con más retraso:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "\n1. Confirma si la información de diagnóstico coincide con la descripción del usuario. En caso afirmativo, indica al usuario que borre la caché de estas aplicaciones y las actualice a la versión más reciente<br>\n2. Recomienda al usuario que reinicie el teléfono.<br>\n3. Recomienda al usuario que cierre las aplicaciones en segundo plano de forma oportuna.<br>\n4. Recomienda al usuario que actualice el SO a la versión más reciente.<br>\n5. Obtén los registros del usuario relacionados con el retraso y envíalos a los técnicos para su análisis.",
+        "ExpDetail": "Las 5 aplicaciones principales con más retraso:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "\n1. Confirma si la información de diagnóstico coincide con la descripción del usuario. En caso afirmativo, indica al usuario que borre la caché de estas aplicaciones y las actualice a la versión más reciente<br>\n2. Recomienda al usuario que reinicie el teléfono.<br>\n3. Recomienda al usuario que cierre las aplicaciones en segundo plano de forma oportuna.<br>\n4. Recomienda al usuario que actualice el SO a la versión más reciente.<br>\n5. Obtén los registros del usuario relacionados con el retraso y envíalos a los técnicos para su análisis.",
+        "ExpDetail": "Las 5 aplicaciones principales con mayor uso de RAM:&lt;br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "Causa: La CPU funciona bajo una alta carga durante periodos de tiempo prolongados, lo que provoca el sobrecalentamiento del teléfono. Para evitar el sobrecalentamiento, la CPU se autoprotege, lo que resulta en un menor rendimiento.<br> \nRecomendaciones: ① Desactiva el modo Ahorro de batería. ② Evita el funcionamiento prolongado de la CPU bajo una alta carga. ③ Enfría el teléfono; para ello, limpia la superficie con alcohol o una toallita húmeda y mantén una buena disipación del calor.",
+        "ExpDetail": "Las 5 mejores aplicaciones con el inicio más lento:&lt;br>%1&lt;br>Las 5 causas principales del inicio lento:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "Causa: La frecuencia baja de la CPU puede afectar al rendimiento del sistema, así como ralentizar la velocidad de procesamiento y el tiempo de respuesta de las aplicaciones.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Desactiva el modo Ahorro de batería. ③ Mantén una buena disipación del calor.",
+        "ExpDetail": "Las 5 mejores aplicaciones con el inicio más lento:&lt;br>%1&lt;br>Las 5 causas principales del inicio lento:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "Causa: El espacio de almacenamiento disponible es inferior al 10 % porque hay demasiadas aplicaciones en ejecución en segundo plano.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Activa la función de expansión de RAM en \"Ajustes > Ajustes del sistema > RAM\", si el teléfono es compatible con esta función. ③ Reinicia el teléfono cada cierto tiempo.",
+        "ExpDetail": "Las 5 mejores aplicaciones con el inicio más lento:&lt;br>%1&lt;br>Las 5 causas principales del inicio lento:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "Causa: No hay espacio para la caché de las aplicaciones porque queda poco espacio de almacenamiento. En este caso, es posible que las aplicaciones se retrasen, congelen o bloqueen.<br>\nRecomendaciones: Libera espacio de almacenamiento en el teléfono. Puedes utilizar la aplicación Administrador del teléfono integrada para eliminar fotos, vídeos y aplicaciones que ya no necesites, o para copiar estos archivos en un ordenador o unidad USB.",
+        "ExpDetail": "Las 5 mejores aplicaciones con el inicio más lento:&lt;br>%1&lt;br>Las 5 causas principales del inicio lento:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "Causa: La versión del SO no es oficial y puede volverse inestable.<br> \nRecomendaciones: Instala la versión oficial del SO o espera a que la versión beta se actualice.",
+        "ExpDetail": "Las 5 mejores aplicaciones con el inicio más lento:&lt;br>%1&lt;br>Las 5 causas principales del inicio lento:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "Causa: Se ha instalado una aplicación de administración de teléfonos o una aplicación de optimización del sistema de terceros (como Tencent Mobile Manager o 360 Mobile Safe) en el teléfono. Estas aplicaciones pueden provocar que el teléfono funcione con lentitud.<br>\nRecomendaciones: Desinstala cualquier aplicación de optimización del sistema de terceros y, en su lugar, utiliza la aplicación Administrador del teléfono integrada para optimizar el teléfono.",
+        "ExpDetail": "Las 5 mejores aplicaciones con el inicio más lento:&lt;br>%1&lt;br>Las 5 causas principales del inicio lento:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "Causa: La función Gestos de aumento está activada, lo que puede provocar el retraso de algunas aplicaciones.<br> \nRecomendaciones: Desactiva la función Gestos de aumento en \"Ajustes > Ajustes adicionales > Accesibilidad > Gestos de aumento\".",
+        "ExpDetail": "Las 5 mejores aplicaciones con el inicio más lento:&lt;br>%1&lt;br>Las 5 causas principales del inicio lento:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "\n1. Confirma si la información de diagnóstico coincide con la descripción del usuario. En caso afirmativo, indica al usuario que borre la caché de estas aplicaciones y las actualice a la versión más reciente<br>\n2. Recomienda al usuario que reinicie el teléfono.<br>\n3. Recomienda al usuario que cierre las aplicaciones en segundo plano de forma oportuna.<br>\n4. Recomienda al usuario que actualice el SO a la versión más reciente.<br>\n5. Obtén los registros del usuario relacionados con el retraso y envíalos a los técnicos para su análisis.",
+        "ExpDetail": "Causa desconocida",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "Causa: El espacio de almacenamiento disponible es inferior al 10 % porque hay demasiadas aplicaciones en ejecución en segundo plano.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Activa la función de expansión de RAM en \"Ajustes > Ajustes del sistema > RAM\", si el teléfono es compatible con esta función. ③ Reinicia el teléfono cada cierto tiempo.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "Causa: No hay espacio para la caché de las aplicaciones porque queda poco espacio de almacenamiento. En este caso, es posible que las aplicaciones se retrasen, congelen o bloqueen.<br>\nRecomendaciones: Libera espacio de almacenamiento en el teléfono. Puedes utilizar la aplicación Administrador del teléfono integrada para eliminar fotos, vídeos y aplicaciones que ya no necesites, o para copiar estos archivos en un ordenador o unidad USB.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "Causa: La CPU funciona bajo una alta carga durante periodos de tiempo prolongados, lo que provoca el sobrecalentamiento del teléfono. Para evitar el sobrecalentamiento, la CPU se autoprotege, lo que resulta en un menor rendimiento.<br> \nRecomendaciones: ① Desactiva el modo Ahorro de batería. ② Evita el funcionamiento prolongado de la CPU bajo una alta carga. ③ Enfría el teléfono; para ello, limpia la superficie con alcohol o una toallita húmeda y mantén una buena disipación del calor.",
+        "ExpDetail": "Las 5 aplicaciones principales con el mayor retraso en la interfaz:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "Causa: La frecuencia baja de la CPU puede afectar al rendimiento del sistema, así como ralentizar la velocidad de procesamiento y el tiempo de respuesta de las aplicaciones.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Desactiva el modo Ahorro de batería. ③ Mantén una buena disipación del calor.",
+        "ExpDetail": "Las 5 aplicaciones principales con el mayor retraso en la interfaz:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "Causa: El espacio de almacenamiento disponible es inferior al 10 % porque hay demasiadas aplicaciones en ejecución en segundo plano.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Activa la función de expansión de RAM en \"Ajustes > Ajustes del sistema > RAM\", si el teléfono es compatible con esta función. ③ Reinicia el teléfono cada cierto tiempo.",
+        "ExpDetail": "Las 5 aplicaciones principales con el mayor retraso en la interfaz:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "Causa: No hay espacio para la caché de las aplicaciones porque queda poco espacio de almacenamiento. En este caso, es posible que las aplicaciones se retrasen, congelen o bloqueen.<br>\nRecomendaciones: Libera espacio de almacenamiento en el teléfono. Puedes utilizar la aplicación Administrador del teléfono integrada para eliminar fotos, vídeos y aplicaciones que ya no necesites, o para copiar estos archivos en un ordenador o unidad USB.",
+        "ExpDetail": "Las 5 aplicaciones principales con el mayor retraso en la interfaz:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "Causa: La versión del SO no es oficial y puede volverse inestable.<br> \nRecomendaciones: Instala la versión oficial del SO o espera a que la versión beta se actualice.",
+        "ExpDetail": "Las 5 aplicaciones principales con el mayor retraso en la interfaz:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "Causa: Se ha instalado una aplicación de administración de teléfonos o una aplicación de optimización del sistema de terceros (como Tencent Mobile Manager o 360 Mobile Safe) en el teléfono. Estas aplicaciones pueden provocar que el teléfono funcione con lentitud.<br>\nRecomendaciones: Desinstala cualquier aplicación de optimización del sistema de terceros y, en su lugar, utiliza la aplicación Administrador del teléfono integrada para optimizar el teléfono.",
+        "ExpDetail": "Las 5 aplicaciones principales con el mayor retraso en la interfaz:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "Causa: La función Gestos de aumento está activada, lo que puede provocar el retraso de algunas aplicaciones.<br> \nRecomendaciones: Desactiva la función Gestos de aumento en \"Ajustes > Ajustes adicionales > Accesibilidad > Gestos de aumento\".",
+        "ExpDetail": "Las 5 aplicaciones principales con el mayor retraso en la interfaz:&lt;br>%1&lt;br>Las 5 razones principales del retraso:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "\n1. Confirma si la información de diagnóstico coincide con la descripción del usuario. En caso afirmativo, indica al usuario que borre la caché de estas aplicaciones y las actualice a la versión más reciente<br>\n2. Recomienda al usuario que reinicie el teléfono.<br>\n3. Recomienda al usuario que cierre las aplicaciones en segundo plano de forma oportuna.<br>\n4. Recomienda al usuario que actualice el SO a la versión más reciente.<br>\n5. Obtén los registros del usuario relacionados con el retraso y envíalos a los técnicos para su análisis.",
+        "ExpDetail": "Causa desconocida",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "Causa: Las aplicaciones de inicio automático consumen demasiados recursos del sistema, como almacenamiento y CPU. Si hay demasiadas aplicaciones de inicio automático, puede que los recursos del sistema no sean suficientes, lo que afecta a la velocidad y al rendimiento de otras aplicaciones.<br>\nRecomendaciones: Desactivar el inicio automático de las aplicaciones innecesaria en \"Ajustes > Gestión de aplicaciones > Aplicaciones de inicio automático\".",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "Causa: La CPU funciona bajo una alta carga durante periodos de tiempo prolongados, lo que provoca el sobrecalentamiento del teléfono. Para evitar el sobrecalentamiento, la CPU se autoprotege, lo que resulta en un menor rendimiento.<br> \nRecomendaciones: ① Desactiva el modo Ahorro de batería. ② Evita el funcionamiento prolongado de la CPU bajo una alta carga. ③ Enfría el teléfono; para ello, limpia la superficie con alcohol o una toallita húmeda y mantén una buena disipación del calor.",
+        "ExpDetail": "Las 5 aplicaciones principales con la respuesta más lenta:&lt;br>%1&lt;br>Las 5 razones principales para la respuesta lenta:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "Causa: La frecuencia baja de la CPU puede afectar al rendimiento del sistema, así como ralentizar la velocidad de procesamiento y el tiempo de respuesta de las aplicaciones.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Desactiva el modo Ahorro de batería. ③ Mantén una buena disipación del calor.",
+        "ExpDetail": "Las 5 aplicaciones principales con la respuesta más lenta:&lt;br>%1&lt;br>Las 5 razones principales para la respuesta lenta:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "Causa: El espacio de almacenamiento disponible es inferior al 10 % porque hay demasiadas aplicaciones en ejecución en segundo plano.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Activa la función de expansión de RAM en \"Ajustes > Ajustes del sistema > RAM\", si el teléfono es compatible con esta función. ③ Reinicia el teléfono cada cierto tiempo.",
+        "ExpDetail": "Las 5 aplicaciones principales con la respuesta más lenta:&lt;br>%1&lt;br>Las 5 razones principales para la respuesta lenta:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "Causa: No hay espacio para la caché de las aplicaciones porque queda poco espacio de almacenamiento. En este caso, es posible que las aplicaciones se retrasen, congelen o bloqueen.<br>\nRecomendaciones: Libera espacio de almacenamiento en el teléfono. Puedes utilizar la aplicación Administrador del teléfono integrada para eliminar fotos, vídeos y aplicaciones que ya no necesites, o para copiar estos archivos en un ordenador o unidad USB.",
+        "ExpDetail": "Las 5 aplicaciones principales con la respuesta más lenta:&lt;br>%1&lt;br>Las 5 razones principales para la respuesta lenta:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "Causa: La versión del SO no es oficial y puede volverse inestable.<br> \nRecomendaciones: Instala la versión oficial del SO o espera a que la versión beta se actualice.",
+        "ExpDetail": "Las 5 aplicaciones principales con la respuesta más lenta:&lt;br>%1&lt;br>Las 5 razones principales para la respuesta lenta:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "Causa: Se ha instalado una aplicación de administración de teléfonos o una aplicación de optimización del sistema de terceros (como Tencent Mobile Manager o 360 Mobile Safe) en el teléfono. Estas aplicaciones pueden provocar que el teléfono funcione con lentitud.<br>\nRecomendaciones: Desinstala cualquier aplicación de optimización del sistema de terceros y, en su lugar, utiliza la aplicación Administrador del teléfono integrada para optimizar el teléfono.",
+        "ExpDetail": "Las 5 aplicaciones principales con la respuesta más lenta:&lt;br>%1&lt;br>Las 5 razones principales para la respuesta lenta:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "Causa: La función Gestos de aumento está activada, lo que puede provocar el retraso de algunas aplicaciones.<br> \nRecomendaciones: Desactiva la función Gestos de aumento en \"Ajustes > Ajustes adicionales > Accesibilidad > Gestos de aumento\".",
+        "ExpDetail": "Las 5 aplicaciones principales con la respuesta más lenta:&lt;br>%1&lt;br>Las 5 razones principales para la respuesta lenta:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "Causa: La CPU funciona bajo una alta carga durante periodos de tiempo prolongados, lo que provoca el sobrecalentamiento del teléfono. Para evitar el sobrecalentamiento, la CPU se autoprotege, lo que resulta en un menor rendimiento.<br> \nRecomendaciones: ① Desactiva el modo Ahorro de batería. ② Evita el funcionamiento prolongado de la CPU bajo una alta carga. ③ Enfría el teléfono; para ello, limpia la superficie con alcohol o una toallita húmeda y mantén una buena disipación del calor.",
+        "ExpDetail": "Sobrecalentamiento de la CPU",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "Causa: La frecuencia baja de la CPU puede afectar al rendimiento del sistema, así como ralentizar la velocidad de procesamiento y el tiempo de respuesta de las aplicaciones.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Desactiva el modo Ahorro de batería. ③ Mantén una buena disipación del calor.",
+        "ExpDetail": "Frecuencia de CPU baja",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "Causa: El espacio de almacenamiento disponible es inferior al 10 % porque hay demasiadas aplicaciones en ejecución en segundo plano.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Activa la función de expansión de RAM en \"Ajustes > Ajustes del sistema > RAM\", si el teléfono es compatible con esta función. ③ Reinicia el teléfono cada cierto tiempo.",
+        "ExpDetail": "Poca memoria",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "Causa: No hay espacio para la caché de las aplicaciones porque queda poco espacio de almacenamiento. En este caso, es posible que las aplicaciones se retrasen, congelen o bloqueen.<br>\nRecomendaciones: Libera espacio de almacenamiento en el teléfono. Puedes utilizar la aplicación Administrador del teléfono integrada para eliminar fotos, vídeos y aplicaciones que ya no necesites, o para copiar estos archivos en un ordenador o unidad USB.",
+        "ExpDetail": "Poco almacenamiento",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "Causa: La versión del SO no es oficial y puede volverse inestable.<br> \nRecomendaciones: Instala la versión oficial del SO o espera a que la versión beta se actualice.",
+        "ExpDetail": "Versión beta",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "Causa: Se ha instalado una aplicación de administración de teléfonos o una aplicación de optimización del sistema de terceros (como Tencent Mobile Manager o 360 Mobile Safe) en el teléfono. Estas aplicaciones pueden provocar que el teléfono funcione con lentitud.<br>\nRecomendaciones: Desinstala cualquier aplicación de optimización del sistema de terceros y, en su lugar, utiliza la aplicación Administrador del teléfono integrada para optimizar el teléfono.",
+        "ExpDetail": "Aplicaciones que reducen el rendimiento",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "Causa: La función Gestos de aumento está activada, lo que puede provocar el retraso de algunas aplicaciones.<br> \nRecomendaciones: Desactiva la función Gestos de aumento en \"Ajustes > Ajustes adicionales > Accesibilidad > Gestos de aumento\".",
+        "ExpDetail": "Gesto de aumento habilitado (opción de desarrollador)",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "\n1. Confirma si la información de diagnóstico coincide con la descripción del usuario. En caso afirmativo, indica al usuario que borre la caché de estas aplicaciones y las actualice a la versión más reciente<br>\n2. Recomienda al usuario que reinicie el teléfono.<br>\n3. Recomienda al usuario que cierre las aplicaciones en segundo plano de forma oportuna.<br>\n4. Recomienda al usuario que actualice el SO a la versión más reciente.<br>\n5. Obtén los registros del usuario relacionados con el retraso y envíalos a los técnicos para su análisis.",
+        "ExpDetail": "Causa desconocida",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "Motivos de respuesta lenta al activar o desactivar la pantalla",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "Causa: La CPU funciona bajo una alta carga durante periodos de tiempo prolongados, lo que provoca el sobrecalentamiento del teléfono. Para evitar el sobrecalentamiento, la CPU se autoprotege, lo que resulta en un menor rendimiento.<br> \nRecomendaciones: ① Desactiva el modo Ahorro de batería. ② Evita el funcionamiento prolongado de la CPU bajo una alta carga. ③ Enfría el teléfono; para ello, limpia la superficie con alcohol o una toallita húmeda y mantén una buena disipación del calor.",
+        "ExpDetail": "Sobrecalentamiento de la CPU",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "Causa: La frecuencia baja de la CPU puede afectar al rendimiento del sistema, así como ralentizar la velocidad de procesamiento y el tiempo de respuesta de las aplicaciones.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Desactiva el modo Ahorro de batería. ③ Mantén una buena disipación del calor.",
+        "ExpDetail": "Frecuencia de CPU baja",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "Causa: El espacio de almacenamiento disponible es inferior al 10 % porque hay demasiadas aplicaciones en ejecución en segundo plano.<br>\nRecomendaciones: ① Cierra las aplicaciones en segundo plano de forma oportuna. ② Activa la función de expansión de RAM en \"Ajustes > Ajustes del sistema > RAM\", si el teléfono es compatible con esta función. ③ Reinicia el teléfono cada cierto tiempo.",
+        "ExpDetail": "Poca memoria",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "Causa: No hay espacio para la caché de las aplicaciones porque queda poco espacio de almacenamiento. En este caso, es posible que las aplicaciones se retrasen, congelen o bloqueen.<br>\nRecomendaciones: Libera espacio de almacenamiento en el teléfono. Puedes utilizar la aplicación Administrador del teléfono integrada para eliminar fotos, vídeos y aplicaciones que ya no necesites, o para copiar estos archivos en un ordenador o unidad USB.",
+        "ExpDetail": "Poco almacenamiento",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "Causa: La versión del SO no es oficial y puede volverse inestable.<br> \nRecomendaciones: Instala la versión oficial del SO o espera a que la versión beta se actualice.",
+        "ExpDetail": "Versión beta",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "Causa: Se ha instalado una aplicación de administración de teléfonos o una aplicación de optimización del sistema de terceros (como Tencent Mobile Manager o 360 Mobile Safe) en el teléfono. Estas aplicaciones pueden provocar que el teléfono funcione con lentitud.<br>\nRecomendaciones: Desinstala cualquier aplicación de optimización del sistema de terceros y, en su lugar, utiliza la aplicación Administrador del teléfono integrada para optimizar el teléfono.",
+        "ExpDetail": "Aplicaciones que reducen el rendimiento",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "Causa: Si hay demasiadas aplicaciones, puede que no haya suficiente espacio de almacenamiento, lo que reduce el rendimiento del teléfono y provoca retrasos y lentitud de repuesta. \nRecomendaciones: Desinstala las aplicaciones que no necesites y libera espacio en el dispositivo cada cierto tiempo para mantener un rendimiento óptimo.",
+        "ExpDetail": "Demasiadas aplicaciones de terceros",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "Causa: Las aplicaciones de inicio automático consumen demasiados recursos del sistema, como almacenamiento y CPU. Si hay demasiadas aplicaciones de inicio automático, puede que los recursos del sistema no sean suficientes, lo que afecta a la velocidad y al rendimiento de otras aplicaciones.<br>\nRecomendaciones: Desactivar el inicio automático de las aplicaciones innecesaria en \"Ajustes > Gestión de aplicaciones > Aplicaciones de inicio automático\".",
+        "ExpDetail": "Demasiadas aplicaciones de inicio automático",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "\n1. Confirma si la información de diagnóstico coincide con la descripción del usuario. En caso afirmativo, indica al usuario que borre la caché de estas aplicaciones y las actualice a la versión más reciente<br>\n2. Recomienda al usuario que reinicie el teléfono.<br>\n3. Recomienda al usuario que cierre las aplicaciones en segundo plano de forma oportuna.<br>\n4. Recomienda al usuario que actualice el SO a la versión más reciente.<br>\n5. Obtén los registros del usuario relacionados con el retraso y envíalos a los técnicos para su análisis.",
+        "ExpDetail": "Causa desconocida",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Motivos del retraso en el inicio del teléfono:",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "Carga de CPU demasiado alta en el teléfono. Cierra las aplicaciones que se estén ejecutando en segundo plano.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "Carga de CPU demasiado alta en el teléfono. Cierra las aplicaciones que se estén ejecutando en segundo plano.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "Carga de CPU demasiado alta en el teléfono. Cierra las aplicaciones que se estén ejecutando en segundo plano.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "Carga de CPU demasiado alta en el teléfono. Cierra las aplicaciones que se estén ejecutando en segundo plano.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "Carga de CPU demasiado alta en el teléfono. Cierra las aplicaciones que se estén ejecutando en segundo plano.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "Sobrecalentamiento del teléfono. Pide al usuario que cierre las aplicaciones en segundo plano y deje de utilizar el teléfono durante 5 minutos.",
+        "ExpDetail": "Inicio lento de la cámara: sobrecalentamiento",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "Hay poco espacio de almacenamiento disponible. Comprueba cuántas aplicaciones hay en segundo plano y pide al usuario que las cierre.",
+        "ExpDetail": "Inicio lento de la cámara: poco espacio de almacenamiento",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "La carga es demasiado alta. Pide al usuario que cierre las aplicaciones en segundo plano.",
+        "ExpDetail": "Inicio lento de la cámara: alta carga",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "Pide al usuario que reinicie el teléfono y vuelva a intentarlo.",
+        "ExpDetail": "Bloqueos de la cámara: volcado de sesión activado",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "Sobrecalentamiento del teléfono. Pide al usuario que cierre las aplicaciones en segundo plano y deje de utilizar el teléfono durante 5 minutos.",
+        "ExpDetail": "Calentamiento de la cámara: sobrecalentamiento del teléfono antes del inicio de la cámara",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "Este problema se debe a un uso prolongado de la cámara. Pide al usuario que reduzca este uso.",
+        "ExpDetail": "Calentamiento de la cámara: sobrecalentamiento de la cámara",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "Sobrecalentamiento del teléfono. Pide al usuario que cierre las aplicaciones en segundo plano y deje de utilizar el teléfono durante 5 minutos.",
+        "ExpDetail": "Retraso en la vista previa de la cámara: frecuencia limitada debido al sobrecalentamiento",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "Hay poco espacio de almacenamiento disponible. Comprueba cuántas aplicaciones hay en segundo plano y pide al usuario que las cierre.",
+        "ExpDetail": "Retraso en la vista previa de la cámara: poco espacio de almacenamiento",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "Pide al usuario que cambie de ubicación a un entorno más luminoso.",
+        "ExpDetail": "Retraso en la vista previa de la cámara: velocidad de fotogramas reducida en entornos oscuros",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "La cámara está demasiado cerca del objeto. Pide al usuario que mantenga una distancia adecuada con respecto al objeto.",
+        "ExpDetail": "Cámara borrosa durante la vista previa de la foto: desenfocado",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "Sobrecalentamiento del teléfono. Pide al usuario que cierre las aplicaciones en segundo plano y deje de utilizar el teléfono durante 5 minutos.",
+        "ExpDetail": "Retraso de la cámara durante la vista previa de la foto: frecuencia limitada debido al sobrecalentamiento",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "Hay poco espacio de almacenamiento disponible. Comprueba cuántas aplicaciones hay en segundo plano y pide al usuario que las cierre.",
+        "ExpDetail": "Retraso de la cámara durante la vista previa de la foto: poco espacio de almacenamiento",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "La cámara está demasiado cerca del objeto. Pide al usuario que mantenga una distancia adecuada con respecto al objeto.",
+        "ExpDetail": "Las fotos capturadas por la cámara están borrosas",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "Pide al usuario que cierre las aplicaciones en segundo plano y reinicie la cámara.",
+        "ExpDetail": "La pantalla se vuelve negra al tomar fotos: poco espacio de almacenamiento",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "Pide al trabajador del servicio de posventa que capture los registros de grabación y los envíe junto con el código de error del algoritmo.",
+        "ExpDetail": "La pantalla se vuelve negra al tomar fotos: código de error de algoritmo %1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "Sobrecalentamiento del teléfono. Pide al usuario que cierre las aplicaciones en segundo plano y deje de utilizar el teléfono durante 5 minutos.",
+        "ExpDetail": "No se pueden tomar fotos: sobrecalentamiento",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "Pide al usuario que cierre las aplicaciones en segundo plano y reinicie la cámara.",
+        "ExpDetail": "No se pueden tomar fotos: poco espacio de almacenamiento",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "Pide al usuario que cierre las aplicaciones en segundo plano y reinicie la cámara.",
+        "ExpDetail": "No se pueden tomar fotos: recursos de sonido sin cargar",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "Sobrecalentamiento del teléfono. Pide al usuario que cierre las aplicaciones en segundo plano y deje de utilizar el teléfono durante 5 minutos.",
+        "ExpDetail": "Retraso de la grabadora de vídeo durante la vista previa: frecuencia limitada debido al sobrecalentamiento",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "Hay poco espacio de almacenamiento disponible. Comprueba cuántas aplicaciones hay en segundo plano y pide al usuario que las cierre.",
+        "ExpDetail": "Retraso de la grabadora de vídeo durante la vista previa: poco espacio de almacenamiento",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "Sobrecalentamiento del teléfono. Pide al usuario que cierre las aplicaciones en segundo plano y deje de utilizar el teléfono durante 5 minutos.",
+        "ExpDetail": "Retraso al tomar fotos: sobrecalentamiento",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "Hay poco espacio de almacenamiento disponible. Comprueba cuántas aplicaciones hay en segundo plano y pide al usuario que las cierre.",
+        "ExpDetail": "Retraso al tomar fotos: poco espacio de almacenamiento",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "La carga es demasiado alta. Pide al usuario que cierre las aplicaciones en segundo plano.",
+        "ExpDetail": "Retraso al tomar fotos: alta carga",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "Sobrecalentamiento del teléfono. Pide al usuario que cierre las aplicaciones en segundo plano y deje de utilizar el teléfono durante 5 minutos.",
+        "ExpDetail": "Tiempo de espera agotado al guardar un archivo de grabación: sobrecalentamiento",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "Hay poco espacio de almacenamiento disponible. Comprueba cuántas aplicaciones hay en segundo plano y pide al usuario que las cierre.",
+        "ExpDetail": "Tiempo de espera agotado al guardar un archivo de grabación: poco espacio de almacenamiento",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "La carga es demasiado alta. Pide al usuario que cierre las aplicaciones en segundo plano.",
+        "ExpDetail": "Tiempo de espera agotado al guardar un archivo de grabación: alta carga",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "No relacionado con problemas de red",
+        "ExpDetail": "Incidencias de fallo de reproducción, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "Tu sistema va lento. Cierra las aplicaciones que se ejecutan en segundo plano o reinicia el dispositivo.",
+        "ExpDetail": "Incidencias de fallo de reproducción, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo de reproducción, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo de reproducción, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema y envíalos al desarrollador para su análisis. Si la reproducción a través del altavoz no es normal, comprueba si funciona a través de los auriculares. Si es así, reemplaza el altavoz. Si ocurre el mismo problema, reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo de reproducción, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo de reproducción, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y reemplaza el altavoz. Si el problema persiste, reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo de reproducción, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "Captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y actualiza a la última versión. Si el problema persiste, reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo de reproducción, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "No relacionado con problemas de red",
+        "ExpDetail": "Incidencias de fallo de grabación, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "Tu sistema va lento. Cierra las aplicaciones que se ejecutan en segundo plano o reinicia el dispositivo.",
+        "ExpDetail": "Incidencias de fallo de grabación, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo de grabación, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema y envíalos al desarrollador para su análisis. Comprueba si la grabación con auriculares es normal. Si es así, reemplaza el micrófono del teléfono. Si ocurre el mismo problema, reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo de grabación, retraso o pérdida de audio: %1",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "Causado por problemas de red. Comprueba la conexión de red.",
+        "ExpDetail": "Incidencias de fallo de reproducción o retraso: %1",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "No relacionado con la red. Comprueba los ajustes de la aplicación.",
+        "ExpDetail": "Incidencias de fallo de reproducción o retraso: %1",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "Para los tipos de problemas que no se pueden analizar automáticamente, se recomienda utilizar la última versión disponible en el App Market o borrar la caché de la aplicación e intentarlo de nuevo.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "Causado por la propia aplicación.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "Para los tipos de problemas que no se pueden analizar automáticamente, se recomienda utilizar la última versión disponible en el App Market o borrar la caché de la aplicación e intentarlo de nuevo.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "La aplicación no se ha descargado del App Market oficial. Se recomienda descargar la aplicación del App Market oficial.",
+        "ExpDetail": "Total de incidencias: %1 (para referencia)",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "La aplicación no se ha descargado del App Market oficial. Se recomienda descargar la aplicación del App Market oficial.",
+        "ExpDetail": "Total de incidencias: %1 (para referencia)",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "Es posible que algunas aplicaciones de terceros parezcan que presentan un uso anormal, incluido (%1) y se recomienda actualizar a la última versión",
+        "ExpDetail": "1. Excepción de compatibilidad;<br>2. aplicación de 32 bits",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Incidencias de fallo, retraso o pérdida de audio en llamadas de voz o videollamadas en aplicaciones de terceros: %1",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "No relacionado con problemas de red",
+        "ExpDetail": "Incidencias de fallo, retraso o pérdida de audio en llamadas de voz o videollamadas en aplicaciones de terceros: %1",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "Solucionar problemas de componentes relacionados con la reproducción y grabación de audio (por ejemplo, altavoz y micrófono)",
+        "ExpDetail": "Incidencias de fallo, retraso o pérdida de audio en llamadas de voz o videollamadas en aplicaciones de terceros: %1",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "Tu sistema va lento. Cierra las aplicaciones que se ejecutan en segundo plano o reinicia el dispositivo.",
+        "ExpDetail": "Incidencias de fallo, retraso o pérdida de audio en llamadas de voz o videollamadas en aplicaciones de terceros: %1",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo, retraso o pérdida de audio en llamadas de voz o videollamadas en aplicaciones de terceros: %1",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo, retraso o pérdida de audio en llamadas de voz o videollamadas en aplicaciones de terceros: %1",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "Captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y actualiza a la última versión. Si el problema persiste, reemplaza la placa base para la validación cruzada.",
+        "ExpDetail": "Incidencias de fallo, retraso o pérdida de audio en llamadas de voz o videollamadas en aplicaciones de terceros: %1",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "Prueba con otra red. Si el problema continúa, captura un registro de audio y un registro de red, y envíalos al desarrollador para su análisis.",
+        "ExpDetail": "%1 llamadas de WeChat sin sonido debido a errores de red",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. Si el problema se produce en ubicaciones similares, compara tu teléfono con otros teléfonos del mismo operador. Si los teléfonos presentan el mismo problema, ponte en contacto con el operador para solucionarlo.<br>2. Si el problema se produce en momentos similares, comprueba si te encuentras en un sótano, garaje, área densamente poblada o vehículo en marcha. Puede que en estos casos la señal sea deficiente.<br>3. Si WeChat indica durante la llamada que tu red o la del interlocutor es inestable, la imagen se muestra borrosa debido a estrategias diseñadas por WeChat.",
+        "ExpDetail": "%1 videollamadas de WeChat borrosas debido a errores de red",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. Actualiza la aplicación WeChat y, a continuación, reinicia el teléfono y la aplicación.<br> 2. Si WeChat indica durante la llamada que la red del interlocutor es inestable, la imagen se muestra borrosa debido a que el teléfono del interlocutor está conectado a una red deficiente.",
+        "ExpDetail": "%1 videollamadas de WeChat borrosas debido a errores de red",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "Dile al cliente que no use el teléfono mientras se está cargando.",
+        "ExpDetail": "Uso prolongado del teléfono mientras se carga: %1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "Dile al cliente que no cargue el teléfono en un lugar frío.",
+        "ExpDetail": "La carga se ralentiza para proteger la batería ya que la temperatura ambiente es demasiado baja: %1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "Cargando lentamente. Usa el cargador y el cable que vienen con el dispositivo para que la carga sea más rápida.",
+        "ExpDetail": "Carga USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "La carga es más lenta a niveles de batería más altos para preservar la salud de la batería.",
+        "ExpDetail": "La carga lenta conduce a una velocidad de carga lenta ya que el nivel inicial de la batería es demasiado alto: %1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "El adaptador utiliza un voltaje superior al que se diseñó para el dispositivo. Usa el cargador correcto.",
+        "ExpDetail": "Voltaje del adaptador demasiado alto: %1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "Se ha detectado una conexión de batería suelta. Comprueba la batería y los conectores BTB.",
+        "ExpDetail": "Mal contacto de la batería: %1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "Batería no autorizada. Usa la batería original del fabricante del dispositivo.",
+        "ExpDetail": "Batería no original: %1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "Temperatura del dispositivo demasiado baja. La carga se pausará antes de que la batería esté llena para mantenerla en buen estado.",
+        "ExpDetail": "No se puede cargar completamente debido a la baja temperatura: %1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "Desenchufa y enchufa el cable de carga para seguir cargando",
+        "ExpDetail": "Carga continua prolongada: %1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "El adaptador utiliza un voltaje superior al que se diseñó para el dispositivo. Usa el cargador correcto.",
+        "ExpDetail": "Voltaje del adaptador demasiado alto: %1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "Temperatura del dispositivo demasiado alta. La carga se pausa para tu seguridad.",
+        "ExpDetail": "La carga se detiene debido a la alta temperatura: %1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "Temperatura del dispositivo demasiado alta. Para tu seguridad, la batería no se cargará al máximo de su capacidad.",
+        "ExpDetail": "No se puede cargar completamente debido a la alta temperatura: %1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "Temperatura del dispositivo demasiado baja. La carga se pausa para proteger la batería.",
+        "ExpDetail": "La carga se detiene debido a la baja temperatura: %1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "Completamente cargado: %1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "Prueba un adaptador, cable o dispositivo distinto para averiguar cuál es la causa del problema. Si el problema lo está provocando el cable o el adaptador, reemplaza el accesorio defectuoso. Si lo está provocando el dispositivo, intenta volver a conectar los conectores BTB entre la batería y el puerto USB. Si el problema persiste, devuelve el dispositivo a la fábrica para su reparación. Actualiza el software si no es un problema de hardware.",
+        "ExpDetail": "No se puede cargar: %1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "Prueba un adaptador, cable o dispositivo distinto para averiguar cuál es la causa del problema. Si el problema lo está provocando el cable o el adaptador, reemplaza el accesorio defectuoso. Si lo está provocando el dispositivo, intenta volver a conectar los conectores BTB entre la batería y el puerto USB. Si el problema persiste, devuelve el dispositivo a la fábrica para su reparación. Actualiza el software si no es un problema de hardware.",
+        "ExpDetail": "Carga intermitente: %1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "Calibra la batería a temperatura ambiente: Mantén el dispositivo enchufado durante 2 horas después de que se haya cargado del todo.",
+        "ExpDetail": "Cambio rápido en la lectura del voltímetro: %1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "Calibra la batería a temperatura ambiente: Mantén el dispositivo enchufado durante 2 horas después de que se haya cargado del todo.",
+        "ExpDetail": "Cambio rápido en la lectura del voltímetro: %1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "Calibra la batería a temperatura ambiente: Mantén el dispositivo enchufado durante 2 horas después de que se haya cargado del todo.",
+        "ExpDetail": "Cambio rápido en la lectura del voltímetro: %1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "Usa una batería original",
+        "ExpDetail": "La carga se ralentiza debido a una batería que no es original: %1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "Usa un adaptador original",
+        "ExpDetail": "La carga se ralentiza debido a un adaptador que no es original: %1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "Comprueba si el cable es viejo. Prueba con otro cable.",
+        "ExpDetail": "La carga se ralentiza debido a problemas con el cable: %1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "Comprueba si el adaptador de carga rápida funciona. Prueba con otro adaptador.",
+        "ExpDetail": "La carga se ralentiza porque no se utiliza la carga flash: %1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "Usa un adaptador original",
+        "ExpDetail": "La carga se ralentiza debido a un adaptador de batería máxima no original: %1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "Asegúrate de que el dispositivo esté a temperatura ambiente antes de cargarlo",
+        "ExpDetail": "La carga se ralentiza para proteger la batería ya que la temperatura del teléfono es demasiado baja: %1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "Asegúrate de que el dispositivo esté a temperatura ambiente antes de cargarlo",
+        "ExpDetail": "La carga se ralentiza para proteger la batería ya que la temperatura del teléfono es demasiado alta: %1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "Carga el dispositivo a una temperatura adecuada",
+        "ExpDetail": "La carga se ralentiza porque la temperatura de la batería es demasiado alta/baja: %1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "Usa un adaptador original",
+        "ExpDetail": "La carga se ralentiza cuando el teléfono está conectado a la PC a través de USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "No uses el teléfono mientras se está cargando",
+        "ExpDetail": "La carga se ralentiza porque el uso de batería del teléfono es demasiado alto: %1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "Comprueba si el puerto tiene polvo o si hace mal contacto. Si el puerto está bien, comprueba el adaptador, el cable y la placa USB PBC.",
+        "ExpDetail": "La carga se ralentiza debido a una corriente anormal: %1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "No uses el teléfono mientras se está cargando",
+        "ExpDetail": "La carga se ralentiza cuando la pantalla está encendida durante demasiado tiempo: %1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "No uses el teléfono mientras se está cargando",
+        "ExpDetail": "La carga se ralentiza cuando la cámara se usa durante demasiado tiempo: %1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "No uses el teléfono mientras se está cargando",
+        "ExpDetail": "La carga se ralentiza debido a llamadas telefónicas prolongadas: %1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "No uses el teléfono mientras se está cargando",
+        "ExpDetail": "La temperatura o el consumo de batería se mantienen demasiado altos durante demasiado tiempo: %1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "Dile al cliente que cargue el teléfono con la pantalla apagada a una temperatura ambiente de 15 ℃ a 35 ℃. Una vez que el teléfono esté completamente cargado, no debe usarse y debe seguir conectado al cargador durante 2 horas para calibrar el contador de culombios.",
+        "ExpDetail": "Error de visualización de la capacidad de la batería: %1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "Dile al cliente que cargue el teléfono con la pantalla apagada a una temperatura ambiente de 15 ℃ a 35 ℃. Una vez que el teléfono esté completamente cargado, no debe usarse y debe seguir conectado al cargador durante 2 horas para calibrar el contador de culombios.",
+        "ExpDetail": "Error de visualización de la capacidad de la batería: %1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "Dile al cliente que cargue el teléfono con la pantalla apagada a una temperatura ambiente de 15 ℃ a 35 ℃. Una vez que el teléfono esté completamente cargado, no debe usarse y debe seguir conectado al cargador durante 2 horas para calibrar el contador de culombios.",
+        "ExpDetail": "Error de visualización de la capacidad de la batería: %1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "Dile al cliente que cargue el teléfono con la pantalla apagada a una temperatura ambiente de 15 ℃ a 35 ℃. Una vez que el teléfono esté completamente cargado, no debe usarse y debe seguir conectado al cargador durante 2 horas para calibrar el contador de culombios.",
+        "ExpDetail": "Error de visualización de la capacidad de la batería: %1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "Dile al cliente que cargue el teléfono con la pantalla apagada a una temperatura ambiente de 15 ℃ a 35 ℃. Cargar el teléfono en lugares con una temperatura ambiente alta o jugar a juegos de gran tamaño durante la carga hará que el teléfono se caliente. Cuando su temperatura sube a 38 ℃ o más, el sistema reduce automáticamente la corriente y la velocidad de carga.",
+        "ExpDetail": "Batería sobrecalentada: %1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "Dile al cliente que cargue el teléfono en un ambiente con una temperatura de 15 ℃ a 35 ℃. Si la temperatura ambiente es inferior a 15 ℃, el mecanismo de protección se activará para reducir la corriente y la velocidad de carga.",
+        "ExpDetail": "Baja temperatura de la batería: %1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1. Pon el teléfono en el modo de ingeniería y comprueba si la corriente de carga es normal (889 - Depuración del dispositivo - Prueba de carga).&lt;br>2. Si la corriente de carga es normal, este problema probablemente se deba al alto consumo de batería (como cuando se juega a juegos de gran tamaño).",
+        "ExpDetail": "Velocidad de carga lenta debido a corriente baja: %1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1. Comprueba con el cliente si ha cargado el teléfono a través de un PC. Si es así, dile que use un adaptador original para cargar el teléfono. &lt;br>2. De lo contrario, comprueba si el cable de carga está dañado o hace mal contacto.",
+        "ExpDetail": "Carga a través de un PC: %1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1. Usa un adaptador original y un cable de carga original alternativamente para la verificación. &lt;br>2. Si la carga flash está disponible, dile al cliente que cargue con un adaptador original. &lt;br>3. Si el problema persiste, comprueba el circuito de carga en el puerto de carga del teléfono.",
+        "ExpDetail": "La carga del flash no funciona: %1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1. Este problema se debe a que se carga usando un adaptador que no es original. &lt;br>2. Dile al cliente que cargue usando un adaptador original.",
+        "ExpDetail": "Adaptador no original: %1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "Dile al cliente que cargue el teléfono a una temperatura ambiente de 15 ℃ a 35 ℃ y que no juegue a juegos de gran tamaño durante la carga. Jugar a juegos de gran tamaño durante la carga hará que el teléfono se caliente. Cuando su temperatura sube a 38 ℃ o más, el sistema reduce automáticamente la corriente y la velocidad de carga.",
+        "ExpDetail": "Velocidad de carga lenta debido al control de temperatura o a corriente alta: %1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "Hay demasiadas aplicaciones ejecutándose en segundo plano. Dile al cliente que cierre las tareas en segundo plano que no estén en uso.",
+        "ExpDetail": "Velocidad de carga lenta debido al elevado uso de la batería del sistema: %1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "Dile al cliente que no juegue mientras carga, ya que esto reducirá la corriente de carga.",
+        "ExpDetail": "Velocidad de carga lenta debido al uso durante la carga: %1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1. Usa un adaptador original y un cable de carga original alternativamente para la verificación. &lt;br>2. Si la carga flash está disponible, dile al cliente que cargue con un adaptador original. &lt;br>3. Si el problema persiste, comprueba el circuito de carga en el puerto de carga del teléfono.",
+        "ExpDetail": "Carga intermitente cuando se usa VOOC: %1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1. Usa un adaptador original y un cable de carga original alternativamente para la verificación. &lt;br>2. Si se resuelve el problema, dile al cliente que cargue con un adaptador original. &lt;br>3. Si el problema persiste, comprueba el circuito de carga en el puerto de carga del teléfono.",
+        "ExpDetail": "Carga intermitente cuando se usa un cargador general: %1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1. Carga el teléfono con un adaptador para ver si hay algún mensaje que indique que la batería no es original. &lt;br>2. Desmonta el teléfono y comprueba si la batería es original o si está instalada correctamente.",
+        "ExpDetail": "Instalación incorrecta de la batería o uso de una batería no original: %1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "Si hay un error que indica que no se genera corriente en el circuito de carga, comprueba la interfaz USB y el módulo de hardware de carga.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "Realiza las comprobaciones necesarias:&lt;br>1. Si el teléfono está completamente cargado.&lt;br>2. La corriente de carga detectada por el ordenador es relativamente baja. Comprueba si el teléfono está agotando la batería.",
+        "ExpDetail": "Error en la prueba",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='Excelente';}else if(result>=excellent){resultText+='Bueno';}else{resultText+='Diferencia';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Excelente：'+good+'-100%，Bueno：'+excellent+'-'+good+'%，Diferencia：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1. Cuando la capacidad de la batería disminuya, la duración de la batería del teléfono se acortará. Puedes optar por reemplazar la batería.&lt;br>2. Intenta cargar el teléfono en cuanto notes que la batería está baja para maximizar su duración.",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = 'Fail:';if(result>=good){resultText+='Excellent';}else if(result>excellent){resultText+='Good';}else{resultText+='Poor';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Excellent：'+good+'-100%，Good：'+excellent+'-'+good+'%，Poor：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a. Se recomienda pedirle al operador local o al optimizador de red local que realice una prueba de campo.&lt;br>b. Activa el Modo avión mientras estás en espera para evitar el consumo de batería debido a la inestabilidad de la red.",
+        "ExpDetail": "Desconexiones y reconexiones frecuentes de datos móviles debido a un entorno de red complejo o deficiente",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a. Se recomienda pedirle al operador local o al optimizador de red local que realice una prueba de campo.&lt;br>b. Activa el Modo avión mientras estás en espera para evitar el consumo de batería debido a la inestabilidad de la red.",
+        "ExpDetail": "Sin servicio debido a una señal de red débil",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a. Se recomienda pedirle al operador local o al optimizador de red local que realice una prueba de campo.&lt;br>b. Activa el Modo avión mientras estás en espera para evitar el consumo de batería debido a la inestabilidad de la red.",
+        "ExpDetail": "Reselección de móvil debido a un entorno de red complejo/señal deficiente",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a. Se recomienda pedirle al operador local o al optimizador de red local que realice una prueba de campo.&lt;br>b. Activa el Modo avión mientras estás en espera para evitar el consumo de batería debido a la inestabilidad de la red.",
+        "ExpDetail": "Operaciones frecuentes de la CPU debido a un entorno de red complejo/señal inestable",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a. Se recomienda pedirle al operador local o al optimizador de red local que realice una prueba de campo.&lt;br>b. Activa el Modo avión mientras estás en espera para evitar el consumo de batería debido a la inestabilidad de la red.",
+        "ExpDetail": "Operaciones frecuentes de módem debido a un entorno de red complejo/señal inestable",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a. Se recomienda pedirle al operador local o al optimizador de red local que realice una prueba de campo.&lt;br>b. Activa el Modo avión mientras estás en espera para evitar el consumo de batería debido a la inestabilidad de la red.",
+        "ExpDetail": "El módem no puede entrar en Modo reposo debido a un entorno de red complejo/señal inestable",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.",
+        "ExpDetail": "La Wi-Fi activa constantemente la CPU para recibir mensajes de aplicaciones",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. Se recomienda desactivar las conexiones de red móvil mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Conéctate al Wi-Fi mientras estás en espera.&lt;br>c. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.",
+        "ExpDetail": "El módem activa constantemente la CPU para recibir mensajes de aplicaciones",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. Se recomienda desactivar las conexiones de red móvil mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Conéctate al Wi-Fi mientras estás en espera.&lt;br>c. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.",
+        "ExpDetail": "Operación constante del módem debido a los frecuentes mensajes de la aplicación",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "A. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>b. Elimina las aplicaciones innecesarias con regularidad. Se recomienda descargar las aplicaciones del App Market integrado.",
+        "ExpDetail": "Actividades frecuentes de la aplicación en segundo plano siguen activando la CPU",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "A. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>b. Elimina las aplicaciones innecesarias con regularidad. Se recomienda descargar las aplicaciones del App Market integrado.",
+        "ExpDetail": "Actividades frecuentes de la aplicación en segundo plano hacen que la CPU funcione durante demasiado tiempo",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. Se recomienda utilizar el ancho de banda Wi-Fi de 5 GHz.&lt;br>b. Desactiva la red Wi-Fi mientras estás en espera o desactiva \"Escaneo siempre disponible\" en la página de ajustes de Wi-Fi..",
+        "ExpDetail": "Interferencia mutua entre señales 4G, 2,4G y Wi-Fi debido a un entorno de red complejo",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. El entorno Wi-Fi es deficiente. Conéctate a una conexión Wi-Fi que sea mejor.&lt;br>b. Se recomienda usar la red móvil.&lt;br>c. Desactiva la red Wi-Fi mientras estás en espera.",
+        "ExpDetail": "Escaneo frecuente de Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. El entorno Wi-Fi es deficiente. Conéctate a una conexión Wi-Fi que sea mejor.&lt;br>b. Se recomienda usar la red móvil.&lt;br>c. Desactiva la red Wi-Fi mientras estás en espera.",
+        "ExpDetail": "Renovación de la IP de Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. El entorno Wi-Fi es deficiente. Conéctate a una conexión Wi-Fi que sea mejor.&lt;br>b. Se recomienda usar la red móvil.&lt;br>c. Desactiva la red Wi-Fi mientras estás en espera.",
+        "ExpDetail": "Actualización de clave de multidifusión Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. El entorno Wi-Fi es deficiente. Conéctate a una conexión Wi-Fi que sea mejor.&lt;br>b. Se recomienda usar la red móvil.&lt;br>c. Desactiva la red Wi-Fi mientras estás en espera.",
+        "ExpDetail": "La Wi-Fi se desconecta y se vuelve a conectar con frecuencia debido a un entorno Wi-Fi deficiente",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "Utiliza una fuente de alimentación de CC para detectar si la corriente en espera es normal.",
+        "ExpDetail": "Posible fuga de batería del hardware",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "Retransmisión de SMS",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "Sincronización automática de tiempo a través de la red",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "Error de subsistema de sensor y audio",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "Activaciones frecuentes del subsistema de audio y sensor",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "El módem activa constantemente la CPU para recibir mensajes de aplicaciones",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "Activaciones frecuentes de la alarma subyacente",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "El Kernel sigue funcionando durante demasiado tiempo",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "Los sensores activan la CPU con frecuencia",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "Activaciones frecuentes del contador de culombios",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. Desactiva la red móvil y las conexiones Wi-Fi mientras estás en espera para evitar que la CPU se active con frecuencia.&lt;br>b. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>c. Elimina regularmente las aplicaciones innecesarias. Se recomienda descargar aplicaciones de App Market de OPPO.",
+        "ExpDetail": "Causa desconocida",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "Es normal que tu dispositivo consuma mucha batería después de reproducir música durante mucho tiempo.",
+        "ExpDetail": "Música en segundo plano",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. Comprueba si se está descargando algún software en segundo plano. b. Comprueba si la sincronización automática, los servicios en la nube y otras funciones están activadas.",
+        "ExpDetail": "Descargas",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "El uso de un punto de acceso Wi-Fi aumentará el consumo de batería del teléfono. Desactívalo cuando no esté en uso.",
+        "ExpDetail": "El usuario activa el punto de acceso Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "Según tus hábitos de uso, la batería del teléfono puede durar alrededor de %1, %2 con la pantalla encendida y %3 con la pantalla apagada. Toca para ver más detalles de la batería.",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "Activa el brillo automático y evita usar el teléfono bajo una luz intensa durante mucho tiempo.",
+        "ExpDetail": "Rápido consumo de batería debido al alto brillo",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "A. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>b. Elimina las aplicaciones innecesarias con regularidad. Se recomienda descargar las aplicaciones del App Market integrado.",
+        "ExpDetail": "La batería se está agotando rápidamente ya que las aplicaciones siguen usando la CPU. Las 5 aplicaciones principales que usan CPU: %1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "A. Cierra las aplicaciones en segundo plano con regularidad. Toca \"Cerrar todo\" en la pantalla Recientes antes de poner el dispositivo en espera.&lt;br>b. Elimina las aplicaciones innecesarias con regularidad. Se recomienda descargar las aplicaciones del App Market integrado.",
+        "ExpDetail": "Rápido consumo de batería en espera debido a la alta corriente",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "El cliente ha estado usando su teléfono con un nivel de brillo de pantalla alto durante largos períodos de tiempo. Dile que baje el brillo cuando use el teléfono.",
+        "ExpDetail": "Brillo de pantalla alto prolongado",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "El cliente ha estado usando su teléfono a una frecuencia de actualización alta durante largos períodos de tiempo. Dile que elija &amp;quot;Estándar&amp;quot; en &amp;quot;Ajustes - Pantalla y brillo - Más - Frecuencia de actualización de la pantalla&amp;quot;. Nota: Esto puede hacer que la pantalla sea menos lisa.",
+        "ExpDetail": "Frecuencia de actualización alta prolongada",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "El cliente ha estado usando su teléfono a una resolución alta durante largos períodos de tiempo. Dile que elija &amp;quot;Selección automática&amp;quot; en &amp;quot;Ajustes - Pantalla y brillo - Más - Resolución de la pantalla&amp;quot;. Esto puede hacer que el contenido en pantalla sea menos claro.",
+        "ExpDetail": "Resolución alta prolongada",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "El uso de la CPU ha sido alto debido a la aplicación %1. Dile al cliente que reduzca el uso de %2.",
+        "ExpDetail": "Uso de CPU alto prolongado",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "La aplicación %1 ha usado la CPU durante %2 horas. Consulta con el cliente si necesita mantener esta aplicación funcionando todo el tiempo.",
+        "ExpDetail": "Uso de aplicaciones alto prolongado",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "El cliente ha estado usando el teléfono con un volumen de sonido alto durante largos períodos de tiempo. Un volumen alto puede dañar la audición y agotar la batería. Dile al cliente que baje el volumen.",
+        "ExpDetail": "Volumen de sonido alto prolongado",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "El teléfono pierde señal con frecuencia. Dile al cliente que se ponga en contacto con su operador de telefonía móvil.",
+        "ExpDetail": "Sin servicio constantemente",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "El teléfono busca redes constantemente. Dile al cliente que se ponga en contacto con su operador de telefonía móvil.",
+        "ExpDetail": "Buscando red constantemente",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "Has usado muchos datos móviles. Puedes descargar archivos a través de Wi-Fi para prolongar la duración de la batería.",
+        "ExpDetail": "Uso de datos móviles alto",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "Has usado %1 GB de datos a través de Wi-Fi durante las últimas 24 horas. Es posible que desees revisar tu uso de datos.",
+        "ExpDetail": "Uso de datos Wi-Fi alto",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "La aplicación %1 está agotando la batería. Informa del problema al desarrollador de la aplicación.",
+        "ExpDetail": "Aplicación que agota la batería",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "La aplicación %1 se ha estado ejecutando durante %2 horas. Es posible que desees reducir el uso de esta aplicación.",
+        "ExpDetail": "Uso de aplicaciones alto prolongado",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "La aplicación %1 continúa ejecutándose en segundo plano. Puedes cerrar la aplicación cuando ya no la uses.",
+        "ExpDetail": "La aplicación continúa ejecutándose en segundo plano",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "La aplicación %1 sigue activando el teléfono. Puedes cerrar la aplicación antes de bloquear el dispositivo.",
+        "ExpDetail": "La aplicación sigue activando el teléfono",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "La aplicación %1 sigue usando la CPU cuando la pantalla está apagada. Puedes cerrar la aplicación antes de bloquear el dispositivo.",
+        "ExpDetail": "La aplicación sigue usando la CPU cuando la pantalla está apagada",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "La aplicación %1 sigue usando la red cuando la pantalla está apagada. Puedes cerrar la aplicación antes de bloquear el dispositivo.",
+        "ExpDetail": "La aplicación sigue usando la red cuando la pantalla está apagada",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "Cuando el teléfono se carga rápidamente, el cargador transforma alta tensión en baja tensión. Durante este periodo, habrá una gran cantidad de conversión de energía que provocará calor. Se recomienda colocar el teléfono en un entorno con una buena disipación térmica.",
+        "ExpDetail": "Teléfono cargando",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "El uso prolongado del flash genera calor. No utilices el flash de forma prolongada para evitar que se dañe.",
+        "ExpDetail": "Flash activado",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "Uso prolongado de brillo alto. Reduce el brillo de la pantalla o configúralo en Brillo automático.",
+        "ExpDetail": "Luz de fondo demasiado fuerte",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "El teléfono se calienta debido a una señal de red deficiente. En ubicaciones con mala señal, la antena del teléfono tiene que aumentar la potencia para buscar señales en un área mayor, lo que genera más calor. Ve a \"Ajustes - Red móvil - Más ajustes\" y activa 5G inteligente. Si no puedes determinar el estado actual de la señal, consulta al operador de red local.",
+        "ExpDetail": "Mala señal de teléfono",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "El teléfono se calienta debido a una señal de red deficiente. En ubicaciones con mala señal, la antena del teléfono tiene que aumentar la potencia para buscar señales en un área mayor, lo que genera más calor. Si no puedes determinar el estado actual de la señal, consulta al operador de red local.",
+        "ExpDetail": "Mala señal de red del teléfono",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "El teléfono se calienta debido a un uso intensivo de la CPU por parte de la aplicación %1 en segundo plano. Si Wi-Fi, GPS, NFC, Bluetooth y otras funciones están activadas simultáneamente para detectar señales en segundo plano, el teléfono se calentará más. Se recomienda cerrar las aplicaciones en segundo plano y apagar las funciones que no se utilicen. Puedes cerrar aplicaciones en segundo plano o reiniciar el teléfono.",
+        "ExpDetail": "La aplicación en segundo plano %1 tiene un uso excesivo de CPU",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "%1 es una aplicación de alta carga que hace un uso intensivo de la CPU y provoca que el teléfono se caliente. Evita el uso intensivo y prolongado del teléfono. Espera hasta que se enfríe para evitar que los componentes se dañen.",
+        "ExpDetail": "La aplicación en primer plano %1 tiene un uso excesivo de CPU",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "El GPS del teléfono está en uso. Puede que el teléfono se caliente si busca y envía señales de satélite durante un periodo prolongado para actualizar la información de ubicación.\nPregunta al usuario si ha activado la navegación o si alguna aplicación de terceros basada en la ubicación obtiene la información de ubicación automáticamente.",
+        "ExpDetail": "Posicionamiento de GPS constante",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "El teléfono se calienta debido a la ejecución simultánea de varias aplicaciones en segundo plano. Se recomienda borrar la caché en segundo plano con frecuencia.\n① Comprueba si hay alguna descarga de software en segundo plano.\n② Comprueba si la sincronización, el servicio de nube y otras funciones están activadas.",
+        "ExpDetail": "Sincronización de %1 en segundo plano",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "El teléfono se calienta debido a la ejecución simultánea de la aplicación %1 en segundo plano. Se recomienda borrar la caché en segundo plano con frecuencia.\n① Comprueba si hay alguna descarga de software en segundo plano.\n② Comprueba si la sincronización, el servicio de nube y otras funciones están activadas.",
+        "ExpDetail": "Sincronización de %1 en segundo plano",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "Se detectó una llamada de larga duración. La acumulación de calor durante una llamada prolongada es normal, ya que la antena de señal, el micrófono y el altavoz del teléfono están en uso durante la llamada.\n Para obtener consejos sobre cómo enfriar el teléfono, consulta la base de conocimientos \"El teléfono se calienta durante las llamadas\".",
+        "ExpDetail": "Teléfono siempre disponible",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "Se detectó un uso frecuente o prolongado de la cámara. Al tomar fotos o grabar vídeos, la cámara, la CPU, la GPU y otros dispositivos del teléfono móvil funcionarán simultáneamente, lo que supone un uso intensivo del teléfono móvil y provoca un aumento de la temperatura del teléfono.\n Para obtener consejos sobre cómo enfriar el teléfono al utilizar la cámara, consulta la base de conocimientos \"El teléfono se calienta al tomar fotos y grabar vídeos\".",
+        "ExpDetail": "Aplicación de Cámara ejecutándose",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "Solicita al usuario que no utilice el teléfono en entornos con altas temperaturas y que utilice una fuente de alimentación de CC para comprobar si el teléfono tiene fugas de energía.",
+        "ExpDetail": "Calentamiento causado por el entorno o el hardware",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "Pregunta al usuario cómo utiliza el teléfono y básate en esa información y en el diagnóstico del consumo de energía y las aplicaciones con un alto consumo de energía para investigar el problema. Si no hay ninguna anomalía, recomienda al usuario que lleve el teléfono a un centro de servicio para comprobar si tiene fugas de energía.",
+        "ExpDetail": "Causa desconocida",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "Temperatura máxima de %1 día: %2℃. Hora de la incidencia: %3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "El teléfono se calienta debido al uso durante la carga. Es normal que las baterías o los cargadores se calienten durante la carga y, si el teléfono se utiliza durante la carga, se calentará aún más.",
+        "ExpDetail": "Sobrecalentamiento causado por el uso durante la carga",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "La generación de calor durante la carga es normal. Se recomienda cargar el teléfono en un lugar bien ventilado, donde el calor se disipe fácilmente. No cargues el teléfono en un sofá, sobre prendas de ropa o al sol.",
+        "ExpDetail": "Sobrecalentamiento durante la carga (pantalla encendida durante la carga: %1; aplicación en primer plano al cargar: %2)",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "El teléfono se calienta mucho al jugar al juego %1. Al jugar, los chips como la CPU y la GPU del teléfono tienen que funcionar a un alto rendimiento para garantizar la calidad de imagen y la fluidez. Este uso intensivo provoca que el teléfono se caliente. Para mejorar este problema, utiliza una configuración menor (resolución y velocidad de fotogramas), reduce el brillo de la pantalla y baja el volumen para los juegos.",
+        "ExpDetail": "Sobrecalentamiento durante el juego (juego: %1; calidad de imagen: %2; resolución: %3; modo de juego: %4)",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "El teléfono se calienta debido al juego durante la carga. La conversión de energía que tiene lugar durante la carga puede provocar calor. Si utilizas el teléfono para jugar mientras se carga, los chips como la CPU y la GPU del teléfono tienen que funcionar a un alto rendimiento para garantizar la calidad de imagen y la fluidez, lo que genera aún más calor. Siempre que sea posible, evita utilizar el teléfono durante la carga.",
+        "ExpDetail": "Jugar durante la carga",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "Estás utilizando el teléfono para jugar en una ubicación con mala señal; esto provoca un uso intensivo del transmisor de señal para buscar una conexión, lo que puede provocar el calentamiento del teléfono. Además, los chips como la CPU y la GPU del teléfono tienen que funcionar a alto rendimiento para garantizar la calidad de imagen y la fluidez durante el juego, lo que genera aún más calor. Si es posible, muévete a una ubicación con buena señal de red.",
+        "ExpDetail": "Sobrecalentamiento durante el juego causado por una señal móvil débil",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "La temperatura ambiente es alta durante el uso del teléfono para jugar. Esto provoca que el teléfono funcione a alto rendimiento, lo que genera calor. Una temperatura ambiente elevada también ralentizará la disipación térmica y provocará más calor.",
+        "ExpDetail": "Jugar en lugares calientes",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "El sistema ha detectado que \"Brillo automático\" está desactivado en el teléfono. Para permitir el control inteligente del brillo y reducir el uso de batería, ve a \"Ajustes - Pantalla y brillo - Brillo automático\".",
+        "ExpDetail": "Desactivar"
+    },
+    "t04030201": {
+        "ExpAdvice": "El sistema ha detectado que \"Servicio de ubicación\" está activado en el teléfono. Ejecutar el GPS en segundo plano aumenta el consumo de batería. Cuando no necesites la función, puedes desactivarla para reducir el consumo de batería. Para hacerlo, desliza hacia abajo la barra de estado y toca \"Ubicación\" o ve a \"Ajustes - Privacidad - Ubicación - Servicio de ubicación\".",
+        "ExpDetail": "Activar"
+    },
+    "t04030301": {
+        "ExpAdvice": "El sistema ha detectado que el Bluetooth está activado en el teléfono. Ejecutar el Bluetooth en segundo plano aumenta el consumo de batería. Cuando no necesites la función, puedes desactivarla para reducir el consumo de batería. Para ello, ve a \"Ajustes - Bluetooth\".",
+        "ExpDetail": "Activar"
+    },
+    "t04030401": {
+        "ExpAdvice": "El sistema ha detectado que \"Punto de acceso personal\" está activado en el teléfono. Ejecutar el punto de acceso en segundo plano aumenta el consumo de batería. Cuando no necesites la función, puedes desactivarla para reducir el consumo de batería. Para hacerlo, ve a \"Ajustes - Conexión y compartición - Punto de acceso personal\".",
+        "ExpDetail": "Activar"
+    },
+    "t04030501": {
+        "ExpAdvice": "El sistema ha detectado que NFC está activado en el teléfono. Ejecutar la NFC en segundo plano aumenta el consumo de batería. Cuando no necesites la función, puedes desactivarla para reducir el consumo de batería. Para hacerlo, ve a \"Ajustes - Conexión y compartición - NFC\".",
+        "ExpDetail": "Activar"
+    },
+    "t04030601": {
+        "ExpAdvice": "El sistema ha detectado que el modo de alto rendimiento está activado en el teléfono. Este modo aumenta el consumo de batería. Para desactivar la función y reducir el uso de la batería, ve a \"Ajustes - Batería - Más - Modo de alto rendimiento\".",
+        "ExpDetail": "Activar"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "El análisis de registro ha fallado porque el número de llamadas salientes o entrantes es inferior a 10.",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. Activa la función VoLTE del operador y la llamada de alta definición en Ajustes.&lt;br>2. Comprueba el rendimiento del amplificador de señal del teléfono para asegurarte de que el rendimiento de transmisión y recepción de RF sea normal (incluidas todas las bandas de 2G, 3G y 4G).&lt;br>3. La cobertura de la señal de la red móvil fluctúa con el entorno. Si la señal de la red es mala, consulta al operador de red local.&lt;br>4. La señal de la red puede ser débil en sótanos, garajes cerrados y áreas abarrotadas. Una mala calidad de la señal afecta a las llamadas. Ve a un espacio abierto y la calidad de la llamada mejorará.&lt;br>5. Actualiza la versión del software.",
+        "ExpDetail": "1. Llamadas interrumpidas: %1, porcentaje: %2&lt;br>2. Errores de llamadas salientes: %3, porcentaje: %4&lt;br>3. Errores de llamadas entrantes: %5, porcentaje: %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "La red ha recibido la solicitud del teléfono pero no ha respondido.",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "La red no ha respondido.",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "Servicio IMS no disponible",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "Error del servidor",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "Telecom CDMA ha interrumpido las llamadas y se ha agotado el tiempo de espera del enlace subyacente 2G.",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "Dominio de circuito no disponible",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "Sin servicio",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "El número marcado no es válido",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "Congestión en la red. Vuelve a marcar más tarde.",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "(Llamadas interrumpidas que no son de IMS) El error del enlace subyacente está estrechamente relacionado con la intensidad de la red.",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. Activa la función VoLTE del operador y la llamada de alta definición en Ajustes.&lt;br>2. Comprueba el rendimiento del amplificador de señal del teléfono para asegurarte de que el rendimiento de transmisión y recepción de RF sea normal (incluidas todas las bandas de 2G, 3G y 4G).&lt;br>3. La cobertura de la señal de la red móvil fluctúa con el entorno. Si la señal de la red es mala, consulta al operador de red local.&lt;br>4. La señal de la red puede ser débil en sótanos, garajes cerrados y áreas abarrotadas. Una mala calidad de la señal afecta a las llamadas. Ve a un espacio abierto y la calidad de la llamada mejorará.&lt;br>5. Actualiza la versión del software.",
+        "ExpDetail": "1. Errores de llamadas salientes: %1&lt;br>2. Errores de llamadas entrantes: %2&lt;br>3. Llamadas interrumpidas: %3",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "La tarjeta SIM del teléfono no es compatible con la red. Dile al cliente que la cambie por una nueva tarjeta SIM.",
+        "ExpDetail": "1. Errores de llamadas salientes: %1&lt;br>2. Errores de llamadas entrantes: %2&lt;br>3. Llamadas interrumpidas: %3",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "Actualización disponible",
+        "ExpDetail": "1. Errores de llamadas salientes: %1&lt;br>2. Errores de llamadas entrantes: %2&lt;br>3. Llamadas interrumpidas: %3",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "Puede haber un problema con la compatibilidad de la red. Ponte en contacto con el proveedor de la red para comprobar si el entorno de la red es normal o ponte en contacto con nuestros ingenieros para reproducir el problema y hacer una captura del registro.",
+        "ExpDetail": "1. Errores de llamadas salientes: %1&lt;br>2. Errores de llamadas entrantes: %2&lt;br>3. Llamadas interrumpidas: %3",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "Hay un problema de red temporal. El teléfono está funcionando correctamente.",
+        "ExpDetail": "1. Errores de llamadas salientes: %1&lt;br>2. Errores de llamadas entrantes: %2&lt;br>3. Llamadas interrumpidas: %3",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "Actualización disponible",
+        "ExpDetail": "1. Errores de llamadas salientes: %1&lt;br>2. Errores de llamadas entrantes: %2&lt;br>3. Llamadas interrumpidas: %3",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "Puede haber un problema con la compatibilidad de la red. Ponte en contacto con el proveedor de la red para comprobar si el entorno de la red es normal o ponte en contacto con nuestros ingenieros para reproducir el problema y hacer una captura del registro.",
+        "ExpDetail": "1. Errores de llamadas salientes: %1&lt;br>2. Errores de llamadas entrantes: %2&lt;br>3. Llamadas interrumpidas: %3",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "Puede haber un problema con la compatibilidad de la red. Ponte en contacto con el proveedor de la red para comprobar si el entorno de la red es normal o ponte en contacto con nuestros ingenieros para reproducir el problema y hacer una captura del registro.",
+        "ExpDetail": "1. Errores de llamadas salientes: %1&lt;br>2. Errores de llamadas entrantes: %2&lt;br>3. Llamadas interrumpidas: %3",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. Prueba con otros teléfonos de los mismos operadores. Si el problema persiste, ponte en contacto con el operador para procesarlo.&lt;br>2. Si esto suele suceder durante períodos similares, confirma con el cliente sus ubicaciones. Es normal si la señal es mala en sótanos, garajes, áreas públicas de alto tráfico y vehículos en movimiento.&lt;br>3. Pregunta al cliente si utiliza funda de protección metálica o cromada.&lt;br>4. Comprueba el rendimiento del amplificador de señal del teléfono para asegurarte de que el rendimiento de transmisión y recepción de RF sea normal (incluidas todas las bandas de 2G, 3G y 4G).",
+        "ExpDetail": "La ubicación de la señal débil en los últimos %1 días está más concentrada",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. Comprueba si la carga de la SIM es correcta.\n2. Confirma que la red del operador es estable y si el problema ocurre solo en áreas específicas.\n3. Comprueba si el problema se produce en otro dispositivo.\n4. Reinicia el dispositivo o activa el Modo avión para comprobar si hay problemas.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1. Pregunta al cliente si utiliza funda de protección metálica o cromada.&lt;br>2. Si está usando el teléfono en lugares con poca señal, como sótanos, garajes, áreas públicas de alto tráfico y vehículos en movimiento.&lt;br>3. Si ha habido una señal débil durante un período de tiempo prolongado y de manera constante en los mismos lugares, puede deberse a problemas de señal.&lt;br>4. Comprueba el rendimiento del amplificador de señal del teléfono con herramientas para probar el rendimiento de recepción del amplificador de señal (incluidas todas las bandas de 2G, 3G y 4G).",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. No toques el teléfono durante la prueba.&lt;br>2. Si el problema persiste, sustituye el hardware porque algunas bandas de frecuencia pueden tener problemas.",
+        "ExpDetail": "Banda de error: %1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "No se ha podido comenzar la prueba. Confirma que se ha extraído la tarjeta SIM.",
+        "ExpDetail": "Tarjeta SIM no extraída"
+    },
+    "t05050104": {
+        "ExpAdvice": "No se ha podido comenzar la prueba. Confirma que se ha desactivado el Modo avión.",
+        "ExpDetail": "Modo avión activado"
+    },
+    "t05050105": {
+        "ExpAdvice": "No se ha podido completar la prueba. Reinicia el teléfono y vuelve a probar esta función. Si el error persiste, sustituye esta pieza defectuosa por una nueva.",
+        "ExpDetail": "Error de modo de módem"
+    },
+    "t05050106": {
+        "ExpAdvice": "No se ha podido completar la prueba. Reinicia el teléfono y vuelve a probar esta función. Si el error persiste, sustituye esta pieza defectuosa por una nueva.",
+        "ExpDetail": "Error de secuencia de prueba"
+    },
+    "t05050107": {
+        "ExpAdvice": "Asegúrate de que el teléfono está suficientemente cargado y vuelve a probar esta función.",
+        "ExpDetail": "Batería baja"
+    },
+    "t05050108": {
+        "ExpAdvice": "Prueba de radiofrecuencia completada. El teléfono se reiniciará automáticamente para garantizar que todo funciona correctamente.",
+        "ExpDetail": "Prueba de radiofrecuencia completada."
+    },
+    "t05070101": {
+        "ExpAdvice": "Posibles causas:&lt;br>1. Confirma la red y la calidad de la señal del entorno actual. Si la calidad de la señal es mala, habrá una alta probabilidad de problemas de red temporales.&lt;br>2. Confirma si se trata de un problema con una aplicación de terceros.&lt;br>Sugerencias:&lt;br> En caso de problemas de red, pídele al cliente que aborde el problema por sí mismo, por ejemplo, activando y desactivando el Modo avión y los datos móviles, restableciendo los ajustes de APN, extrayendo y volviendo a introducir la tarjeta SIM sin apagar el teléfono, etc. Ponte en contacto con el operador.",
+        "ExpDetail": "Desconexión automática de datos; enlace ascendente generado sin enlace descendente (un tipo de congestión de red); errores relacionados con APN durante el proceso de acceso telefónico; desconexión de la red por pago atrasado; la velocidad de la red de datos se restringe a medida que se alcanza el límite de datos; error de la conexión de acceso telefónico",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "El cliente añade el APN de forma manual. Restablece al APN predeterminado.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. Asegúrate de que la tarjeta SIM esté correctamente insertada.&lt;br>2. Comprueba si se han suspendido los datos móviles debido a facturas no pagadas o a excedentes de datos.&lt;br>3. Activa y desactiva los datos móviles y el Modo avión, o reinicia el dispositivo.&lt;br>4. Comprueba si hay un problema con la red del operador.",
+        "ExpDetail": "Error de red de datos detectado. Esto puede deberse a problemas de conexión a la red.",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. Comprueba si el teléfono tiene facturas vencidas o si hay un límite de velocidad en vigor.&lt;br>2. Realiza una prueba del amplificador de red para comprobar si la frecuencia de radio es normal.&lt;br>3. Si la frecuencia de radio es normal, ponte en contacto con el personal de optimización de la red local para reproducir el problema y capturar registros.&lt;br>4. Si el personal de optimización de la red no está disponible o el cliente no acepta reproducir el problema, flashea una nueva ROM.&lt;br>5. Comprueba si el problema persiste 10 días después de instalar la ROM. Si aún existe, soluciona el problema como un problema de hardware.",
+        "ExpDetail": "Error de red de datos detectado. Esto puede deberse a problemas con el teléfono.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "El cliente añade el APN de forma manual. Restablece al APN predeterminado.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "El operador ha restringido las velocidades de los datos. Consulta al operador para obtener más información.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "La red local es inestable. Compara el entorno de red con otros lugares y, si se confirma, consulta a tu operador para mejorar el entorno de red.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. Asegúrate de no tener facturas impagadas de las tarjetas SIM.&lt;br>2. Comprueba si el permiso de red está activado para las aplicaciones.&lt;br>3. Inserta la tarjeta SIM en otro dispositivo y comprueba si funciona correctamente.&lt;br>4. Activa y desactiva los datos móviles y el Modo avión, o reinicia el dispositivo.&lt;br>5. Comprueba si hay problemas con la red del operador.",
+        "ExpDetail": "Error de red de datos detectado. Esto puede deberse a problemas de conexión a la red.",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "El cliente añade el APN de forma manual. Restablece al APN predeterminado.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "El operador ha restringido las velocidades de los datos. Consulta al operador para obtener más información.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "Activar el Modo de ahorro de datos puede afectar a tu experiencia de red.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "La red local es inestable. Compara el entorno de red con otros lugares y, si se confirma, consulta a tu operador para mejorar el entorno de red.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1. Asegúrate de no tener facturas impagadas de las tarjetas SIM.&lt;br>2. Comprueba si el permiso de red está activado para las aplicaciones.&lt;br>3. Activa y desactiva los datos móviles y el Modo avión, o reinicia el dispositivo.&lt;br>4. Comprueba si hay problemas con la red del operador.",
+        "ExpDetail": "Error de red de datos detectado. Esto puede deberse a problemas de conexión a la red.",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "Comprueba si la frecuencia de radio es normal.",
+        "ExpDetail": "No es posible hacer llamadas de teléfono",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "Con la ayuda de unos auriculares, comprueba si el problema tiene que ver con el receptor (altavoz para el oído). Si es así, comprueba si el receptor (altavoz para el oído) está dañado y si los componentes del receptor están correctamente conectados; de lo contrario, comprueba el componente de audio de la placa base.",
+        "ExpDetail": "Sin sonido durante las llamadas",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. Comprueba si el receptor (altavoz para el oído) tiene polvo o líquido. Sustituye la pieza y vuelve a probar.&lt;br>2. Comprueba el procesamiento de la señal de la placa base.",
+        "ExpDetail": "Ruido en las llamadas",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "Si hay problemas de hardware coherentes con la descripción del cliente, trátalos como problemas de hardware.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "Si hay problemas de hardware coherentes con la descripción del cliente, trátalos como problemas de hardware.",
+        "ExpDetail": "Total de incidencias: %1",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "Muévete a un espacio abierto con el teléfono para realizar una prueba de búsqueda de satélite. Normalmente, la intensidad de la señal GPS debe ser superior a 30; de lo contrario, comprueba el hardware del GPS.",
+        "ExpDetail": "Mala señal de satélite",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "Comprueba si el GPS del sistema está desactivado. Pregunta al cliente qué aplicación no puede usar el GPS y comprueba sus permisos.",
+        "ExpDetail": "GPS o permiso relacionado no activado",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "El análisis de registro ha fallado debido a datos GPS insuficientes.",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "El diagnóstico ha fallado porque no se ha usado el GPS recientemente. El servicio de ubicación que se mantiene desactivado durante demasiado tiempo puede ser la causa del error de posicionamiento.",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "Muévete a un espacio abierto con el teléfono para realizar una prueba de búsqueda de satélite. Normalmente, la intensidad de la señal GPS debe ser superior a 30; de lo contrario, comprueba el hardware del GPS.",
+        "ExpDetail": "Las causas posibles incluyen problemas con el hardware del GPS o el uso del GPS en ambientes interiores",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "El diagnóstico ha fallado debido a un uso insuficiente del GPS.",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "Muévete a un espacio abierto con el teléfono para realizar una prueba de búsqueda de satélite. Normalmente, la intensidad de la señal GPS debe ser superior a 30; de lo contrario, comprueba el hardware del GPS.",
+        "ExpDetail": "El GPS funciona normalmente. Puede haber interferencias cuando el cliente navega mientras camina.",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "Muévete a un espacio abierto con el teléfono para realizar una prueba de búsqueda de satélite. Normalmente, la intensidad de la señal GPS debe ser superior a 30; de lo contrario, comprueba el hardware del GPS.",
+        "ExpDetail": "El GPS funciona normalmente. La interferencia puede producirse cuando el cliente está navegando en un vehículo.",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "Comprueba si la antena GPS está dañada, deformada o hace mal contacto.",
+        "ExpDetail": "Problema con la antena GPS",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "El diagnóstico ha fallado porque no se ha usado el GPS recientemente.",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "Retira la funda de protección y vuelve a intentarlo",
+        "ExpDetail": "Se utiliza una funda de protección de metal",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "&amp;quot;Escaneo Wi-Fi siempre disponible&amp;quot; si se desactiva durante demasiado tiempo puede provocar un fallo de posicionamiento o un posicionamiento inexacto en escenarios en interiores. Comprueba si esta función está activada.",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "La desactivación de la \"precisión de posicionamiento de la red\" durante demasiado tiempo puede provocar un fallo de posicionamiento o un posicionamiento inexacto en escenarios en interiores. Toca \"Solucionar\" para activarlo y lograr un posicionamiento más preciso. Si estás utilizando un teléfono diseñado para usuarios fuera de la China continental, mantén pulsado el icono de ubicación en Ajustes rápidos para entrar en la página \"Precisión de ubicación de Google\" y activa \"Mejorar la precisión de ubicación\".",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "Este problema lo provoca el entorno de GPS del usuario y no se puede resolver mediante el reemplazo. Mantén el teléfono alejado de fuentes externas de interferencia, como los sistemas de navegación de los automóviles, consolas centrales y otros dispositivos electrónicos.",
+        "ExpDetail": "Interferencia con el entorno GPS del usuario"
+    },
+    "t06020101": {
+        "ExpAdvice": "Posibles causas:&lt;br>(Error de carga del firmware; error de carga del controlador; error de montaje de partición; otras causas)&lt;br>Sugerencias:&lt;br>1. Reinicia el dispositivo.&lt;br>2. Actualiza a la última versión para comprobar el problema.",
+        "ExpDetail": "Error al activar %1 veces",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "Posibles causas: &lt;br/>(Error de carga del firmware; error de carga de la unidad; error de montaje de la partición; otras causas; error de carga del chip Wi-Fi; error de ejecución del software del Wi-Fi; los archivos de configuración del canal del sistema de software del Wi-Fi no se cargaron; los archivos de radiofrecuencia del sistema de software del Wi-Fi no se cargaron; los archivos de configuración del firmware del sistema de software del Wi-Fi no se cargaron; subsistema bloqueado)&lt;br/>Sugerencias:&lt;br/>1. Reinicia el dispositivo. &lt;br/>2. Actualiza a la última versión. 3. Pide al cliente que reinicie el teléfono. &lt;br/>4. Si el problema persiste, flashea una ROM o instala una actualización de OTA. &lt;br/>5. Trátalo como un fallo de hardware si es un fallo de inactividad. &lt;br/>3. Si el problema se puede reproducir, intenta conectarte a Internet y haz una llamada a través de la tarjeta SIM. Si no puedes realizar estas 2 tareas, es necesario reiniciar el módem del módulo de red. &lt;br/>4. Pide al cliente que reinicie el teléfono. &lt;br/>5. Si el problema persiste, flashea una ROM o instala una actualización de OTA. &lt;br/>6. Trátalo como un fallo de hardware si es un fallo de inactividad.",
+        "ExpDetail": "Error al activar %1 veces",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "Se recomienda actualizar a la versión más reciente.",
+        "ExpDetail": "AP usado con frecuencia: %1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1. Conexión de red inestable causada por el propio teléfono: Actualiza a la versión más reciente e inténtalo de nuevo.&lt;br>2. Error de DNS: Comprueba que hay una DNS privada configurada. Si es así, elimina la DNS privada y comprueba el router en caso contrario.&lt;br>3.  Otras causas: 1. Reinicia el router.&lt;br>2. Si otros teléfonos que usan el mismo router también tienen el mismo problema, se recomienda sustituir el router.&lt;br>3. Cambia al canal de enrutamiento predeterminado. Intenta usar el canal de 5G. Utiliza un analizador de Wi-Fi y otras herramientas para encontrar un canal con menos interferencias.",
+        "ExpDetail": "AP usado con frecuencia: %1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "El diagnóstico ha fallado debido a datos insuficientes.",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "Ajustes Wi-Fi",
+        "ExpDetail": "Ajustes inalámbricos",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "El software de conexión de terceros puede intentar hackear la contraseña del punto de acceso Wi-Fi, pero falla y da como resultado un error de conexión. Se recomienda conectarse al Wi-Fi en la aplicación Ajustes.",
+        "ExpDetail": "Aplicaciones usadas con frecuencia: %1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "El análisis de registro ha fallado debido a conexiones de terceros insuficientes",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "Reinicia el router o utiliza otros dispositivos para contectarte a este router y comprobar si hay algún problema con AP. Si no lo hay, desactiva y activa el Wi-Fi o reinicia el teléfono. Si el problema persiste, envíalo para que hagan más pruebas.&lt;br>(Asegúrate de que tu contraseña sea correcta. Cambia al Wi-Fi antes de la conexión y asegúrate de que se encuentra AP. Comprueba los parámetros de la ruta o conéctate a AP diferentes. Se recomienda conectarse en un entorno con una señal más potente. Confirma si los IP son correctos o si se han usado todos los IP).",
+        "ExpDetail": "Errores de ajustes de Wi-Fi: &lt;br>(Contraseña incorrecta; punto de acceso no encontrado; error de ajustes del router o sobrecarga; señales deficiente; dirección IP estática)",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "Comprueba la antena Wi-Fi y el chip Wi-Fi.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "AP usado con frecuencia: %1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "Comprueba si se han utilizado todas las direcciones IP del servidor DHCP del router.",
+        "ExpDetail": "Error al obtener la dirección IP",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "La autenticación ha fallado debido a un error de detección del router",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "Comprueba si el teléfono no se ha usado durante mucho tiempo después de conectarse al Wi-Fi.",
+        "ExpDetail": "Conexión inactiva. Sin transmisión de datos durante mucho tiempo.",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "Comprueba si el router se ha conectado a demasiados dispositivos. Prueba a desconectar algunos.",
+        "ExpDetail": "Conexión del router limitada",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Sin autenticación debido a un error de detección del router",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Sin conexión debido a un error de detección del router",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "El teléfono está fuera de la red",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Error de autenticación de la conexión",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "No hay que realizar ninguna acción, ya que este es un caso normal.",
+        "ExpDetail": "El router inicia la itinerancia",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "No se ha podido verificar la integridad del mensaje",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "El tiempo de espera de la oferta se ha agotado",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Se ha agotado el tiempo de actualización de la clave debido a un error de detección del router",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Clave no válida",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Confirmar pérdida grave de fotogramas",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Error de la itinerancia del teléfono",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Los módulos del teléfono se recuperan automáticamente",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Router inactivo",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Tiempo de espera del beacon agotado",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "No se ha podido cambiar el canal de comunicación",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "No se ha podido conectar porque se ha agotado el tiempo de espera del beacon",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Tiempo de espera del beacon agotado. El teléfono no ha podido obtener la dirección del router.",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. Actualiza primero a la última versión.&lt;br>b. Si el problema persiste, reinicia el router o comprueba si funciona correctamente conectándote con otro dispositivo.&lt;br>c. Si el router no tiene problemas, apaga y enciende la conexión Wi-Fi y vuelve a conectarte al router, o apaga y enciende el teléfono para volver a intentarlo.&lt;br>d. Si el problema sigue sin corregirse, captura el registro.",
+        "ExpDetail": "Causa desconocida",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. Dile al cliente que reinicie el teléfono.&lt;br>2. Si el problema persiste, flashea una nueva ROM o actualiza a la última versión del sistema.&lt;br>3. Si el problema persiste, soluciónalo como un problema de hardware.",
+        "ExpDetail": "Problemas de firmware de Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "Ve a &amp;quot;Ajustes - Conexión y compartición - Punto de acceso personal - Ajustes del punto de acceso&amp;quot;. Ajusta &amp;quot;Seguridad&amp;quot; en &amp;quot;WPA2 PSK&amp;quot; y &amp;quot;Banda de AP&amp;quot; en &amp;quot;Banda de 2,4 GHz&amp;quot;, activa &amp;quot;Visible para otros dispositivos&amp;quot; y desactiva &amp;quot;Punto de acceso Wi-Fi 6&amp;quot;. A continuación, activa &amp;quot;Punto de acceso personal&amp;quot;.",
+        "ExpDetail": "Otras causas de error del punto de acceso Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "Ve a &amp;quot;Ajustes - Conexión y compartición - Punto de acceso personal - Ajustes del punto de acceso&amp;quot;. Ajusta &amp;quot;Seguridad&amp;quot; en &amp;quot;WPA2 PSK&amp;quot; y &amp;quot;Banda de AP&amp;quot; en &amp;quot;Banda de 2,4 GHz&amp;quot;, activa &amp;quot;Visible para otros dispositivos&amp;quot; y desactiva &amp;quot;Punto de acceso Wi-Fi 6&amp;quot;. A continuación, activa &amp;quot;Punto de acceso personal&amp;quot;.",
+        "ExpDetail": "Otras causas de error del punto de acceso Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "Este problema puede deberse a interferencias de la señal LTE. Ve a &amp;quot;Ajustes - Conexión y compartición - Punto de acceso personal - Ajustes del punto de acceso&amp;quot;. Ajusta &amp;quot;Seguridad&amp;quot; en &amp;quot;WPA2 PSK&amp;quot; y &amp;quot;Banda de AP&amp;quot; en &amp;quot;Banda de 2,4 GHz&amp;quot;, activa &amp;quot;Visible para otros dispositivos&amp;quot; y desactiva &amp;quot;Punto de acceso Wi-Fi 6&amp;quot;. A continuación, activa &amp;quot;Punto de acceso personal&amp;quot;.",
+        "ExpDetail": "No hay canales disponibles",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "Ve a &amp;quot;Ajustes - Conexión y compartición - Punto de acceso personal - Ajustes del punto de acceso&amp;quot;. Ajusta &amp;quot;Seguridad&amp;quot; en &amp;quot;WPA2 PSK&amp;quot; y &amp;quot;Banda de AP&amp;quot; en &amp;quot;Banda de 2,4 GHz&amp;quot;, activa &amp;quot;Visible para otros dispositivos&amp;quot; y desactiva &amp;quot;Punto de acceso Wi-Fi 6&amp;quot;. A continuación, activa &amp;quot;Punto de acceso personal&amp;quot;.",
+        "ExpDetail": "Configuración de punto de acceso no compatible",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. Dile al cliente que reinicie el teléfono.&lt;br>2. Si el problema persiste, flashea una nueva ROM o actualiza a la última versión del sistema.&lt;br>3. Si el problema persiste, soluciónalo como un problema de hardware.",
+        "ExpDetail": "Problemas de firmware de Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "Si el cliente no puede acceder a la red en casa, probablemente se deba a ajustes incorrectos o problemas de conexión con el módem óptico y el router. Dile al cliente que modifique la configuración de DHCP del router o que se ponga en contacto con su proveedor de red para obtener ayuda.",
+        "ExpDetail": "Conflicto de asignación dinámica de IP del router (DHCP)",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "Si el cliente no puede acceder a la red en casa, probablemente se deba a ajustes incorrectos o problemas de conexión con el módem óptico y el router. Dile al cliente que modifique la configuración de la puerta de enlace del router o que se ponga en contacto con su proveedor de red para obtener ayuda.",
+        "ExpDetail": "Conflicto de puerta de enlace",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "Dile al cliente que conecte su teléfono a una red Wi-Fi de 5 GHz y evite el uso de auriculares Bluetooth cuando su teléfono esté conectado a una red Wi-Fi de 2,4 GHz.",
+        "ExpDetail": "Velocidad de red lenta debido a un conflicto de Bluetooth/Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "La dirección IP estática es incorrecta. Establece una correcta.",
+        "ExpDetail": "Dirección IP estática incorrecta",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "La dirección DNS privada es incorrecta. Establece una correcta.",
+        "ExpDetail": "DNS privado incorrecto",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "El ajuste de VPN es incorrecto. Establece uno correcto.",
+        "ExpDetail": "Ajustes de VPN incorrectos",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "Después, comprueba la antena del Bluetooth y el chip Bluetooth.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. Si el problema se puede resolver reiniciando el teléfono, flashea una nueva ROM o actualiza a la última versión del sistema.&lt;br>2. Si el cliente usa la función multiusuario, pídele que desactive el Bluetooth antes de cambiar de usuario.&lt;br>3. Si el problema persiste después de restablecer el teléfono o flashear una nueva ROM, envía un ticket de problema de hardware.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "Error al activar el Bluetooth (BT)",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Error al activar los servicios del Bluetooth",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Error al activar el Bluetooth de baja energía (BLE)",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "Comprueba los detalles del problema.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. Si el problema se produce en un lugar con muchos dispositivos inalámbricos (como aeropuertos o estaciones de tren), dile al cliente que use el teléfono en lugares con menos dispositivos inalámbricos.&lt;br>2. Dile al cliente que conecte su teléfono a una red Wi-Fi de 5 GHz o superior, ya que la red Wi-Fi de 2,4 GHz afectará a las conexiones Bluetooth. Si es necesario, muestra al cliente cómo configurar el router en la banda de frecuencia de 5 GHz.",
+        "ExpDetail": "Altas interferencias ambientales o impacto de Wi-Fi&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "Establece una conexión Bluetooth desde %1 y asegúrate de que el dispositivo homólogo tenga suficiente batería. (El modo maestro/esclavo puede cambiar para algunos auriculares cuando la batería está baja y provocar problemas de conexión).&lt;br>",
+        "ExpDetail": "Error de cambio de rol del Bluetooth&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. Desvincula el dispositivo del teléfono. Después, mantén pulsado el botón en el dispositivo para volver a vincularlo.&lt;br>2. Restablece el dispositivo.&lt;br>3. Actualiza a la última versión del sistema.&lt;br>4. Si el problema no ocurre en otros teléfonos del mismo modelo y persiste después de flashear una nueva ROM, envía un ticket de problema de hardware.&lt;br>",
+        "ExpDetail": "Otros&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "Comprueba si falta la antena NFC o si el módulo NFC no es válido.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "Error al activar",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "Pantallas borrosas o poco definidas al hacer fotos",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "Colores incorrectos",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara principal frontal",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara secundaria frontal",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "Error al activar",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "Pantallas borrosas o poco definidas al hacer fotos",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "Colores incorrectos",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara principal trasera",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara de gran angular trasera",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara de teleobjetivo trasera",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara principal trasera ni la cámara gran angular trasera",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara principal trasera ni la cámara de teleobjetivo trasera",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara de gran angular trasera ni la cámara de teleobjetivo trasera",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "Comprueba el conector BTB de la cámara o reemplaza la cámara y haz una prueba.",
+        "ExpDetail": "No se puede usar la cámara principal trasera, la cámara de gran angular trasera ni la cámara de teleobjetivo trasera",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Parámetros de la cámara anómalos. Conecta el teléfono y calibra y repara los parámetros.",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "Comprueba si el receptor tiene polvo o líquido. Sustituye la pieza y vuelve a probar.",
+        "ExpDetail": "Volumen bajo",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "Comprueba si el receptor tiene polvo o líquido. Sustituye la pieza y vuelve a probar.",
+        "ExpDetail": "Ruido",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "Cambia al altavoz para comprobar si el problema tiene que ver con el receptor. Si es así, comprueba si el receptor está dañado y si la interfaz está conectada; de lo contrario, comprueba el componente de audio de la placa base.",
+        "ExpDetail": "Sin sonido",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "Comprueba si el receptor tiene polvo o líquido. Sustituye la pieza y vuelve a probar.",
+        "ExpDetail": "Volumen bajo",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "Comprueba si el receptor tiene polvo o líquido. Sustituye la pieza y vuelve a probar.",
+        "ExpDetail": "Ruido",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "Cambia al receptor para comprobar si el problema tiene que ver con el altavoz. Si es así, comprueba si el altavoz está dañado y si la interfaz está conectada; de lo contrario, comprueba el componente de audio de la placa base.",
+        "ExpDetail": "Sin sonido",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "Comprueba si el micrófono tiene polvo o líquido. Sustituye la pieza y vuelve a probar.",
+        "ExpDetail": "Volumen bajo",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "Comprueba si el micrófono tiene polvo o líquido. Sustituye la pieza y vuelve a probar.",
+        "ExpDetail": "Ruido",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "Comprueba si el micrófono está bloqueado. Reemplaza el micrófono y comprueba si el problema está resuelto.",
+        "ExpDetail": "Sonido intermitente",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "Comprueba si el orificio del micrófono se ha bloqueado con ceniza o líquido. Si el sonido es tan bajo que es casi silencioso, reemplaza el micrófono y prueba de nuevo.",
+        "ExpDetail": "Volumen bajo",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "Sustituye el micrófono y vuelve a probar.",
+        "ExpDetail": "Ruido",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "Sustituye el micrófono y vuelve a probar.",
+        "ExpDetail": "Sin sonido",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "Comprueba si el orificio del micrófono se ha bloqueado con ceniza o líquido. Si el sonido es tan bajo que es casi silencioso, reemplaza el micrófono y prueba de nuevo.",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "Comprueba si el orificio del micrófono se ha bloqueado con ceniza o líquido. Si el sonido es tan bajo que es casi silencioso, reemplaza el micrófono y prueba de nuevo.",
+        "ExpDetail": "Volumen bajo",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "Sustituye el micrófono y vuelve a probar.",
+        "ExpDetail": "Ruido",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "Sustituye el micrófono y vuelve a probar.",
+        "ExpDetail": "Sin sonido",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "Comprueba si el orificio del micrófono se ha bloqueado con ceniza o líquido. Si el sonido es tan bajo que es casi silencioso, reemplaza el micrófono y prueba de nuevo.",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "Comprueba si el orificio del micrófono se ha bloqueado con ceniza o líquido. Si el sonido es tan bajo que es casi silencioso, reemplaza el micrófono y prueba de nuevo.",
+        "ExpDetail": "Volumen bajo",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "Sustituye el micrófono y vuelve a probar.",
+        "ExpDetail": "Ruido",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "Sustituye el micrófono y vuelve a probar.",
+        "ExpDetail": "Sin sonido",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "Comprueba si el orificio del micrófono se ha bloqueado con ceniza o líquido. Si el sonido es tan bajo que es casi silencioso, reemplaza el micrófono y prueba de nuevo.",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "Comprueba si el conector para auriculares está bloqueado y si hay líquido en él.",
+        "ExpDetail": "No se muestra el icono del auricular",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "Comprueba si el conector para auriculares está bloqueado y si hay líquido en él.",
+        "ExpDetail": "Incompatible con auriculares de prueba",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "Comprobar el conector para auriculares y otros componentes",
+        "ExpDetail": "Los auriculares no se pueden reconocer o no son compatibles",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "Comprueba la impedancia del micrófono para ver si alcanza una magnitud de varios miliohmios",
+        "ExpDetail": "Auriculares de alta impedancia",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "Comprobar si el cliente está usando auriculares con cancelación de ruido",
+        "ExpDetail": "Auriculares con cancelación de ruido",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "Actualiza a la última versión. Si el problema persiste, comprueba si se reconoce otro juego de auriculares. Si ocurre el mismo problema, captura y guarda los registros de audio que reproducen el problema, envíalos al desarrollador para su análisis y reemplaza la placa donde se encuentra la toma USB para la validación cruzada.",
+        "ExpDetail": "Ha habido excepciones al cambiar entre los chips de conmutador (solo aplicable a modelos con un conector para auriculares tipo-C) o módulos USB",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "Confirma si está dentro del rango estándar; si no, reemplaza el componente de la pantalla.",
+        "ExpDetail": "Píxeles muertos",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "Comprueba el conector BTB de la pantalla o reemplaza el componente de la pantalla.",
+        "ExpDetail": "Pantallas borrosas",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "Comprueba el conector BTB de la pantalla o reemplaza el componente de la pantalla.",
+        "ExpDetail": "Colores incorrectos",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "Cerrar las aplicaciones que se ejecutan en segundo plano y comprobar la conexión de red",
+        "ExpDetail": "Incidencias de pantallas negras, pantallas intermitentes y pantallas borrosas: %1",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "Comprueba si la pantalla está dañada o le ha afectado la electricidad estática",
+        "ExpDetail": "Incidencias de pantallas negras, pantallas intermitentes y pantallas borrosas: %1",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "Comprobar chip de GPU",
+        "ExpDetail": "Incidencias de pantallas negras, pantallas intermitentes y pantallas borrosas: %1",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "Comprobar chip de GPU",
+        "ExpDetail": "Incidencias de pantallas negras, pantallas intermitentes y pantallas borrosas: %1",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "Comprobar chip de GPU",
+        "ExpDetail": "Incidencias de pantallas negras, pantallas intermitentes y pantallas borrosas: %1",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "Toca el botón para cargar los registros para que los técnicos los analicen",
+        "ExpDetail": "Incidencias de pantallas congeladas que dan como resultado el reinicio del dispositivo: %1",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "Excepción de hardware. Carga registros al desarrollador para su análisis. Si el teléfono no se enciende, devuélvelo para su análisis.",
+        "ExpDetail": "Incidencias de pantallas congeladas que dan como resultado el reinicio del dispositivo: %1",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "El efecto de visualización de la pantalla no es normal. Se recomienda que conectes el teléfono de manera puntual y lo calibres para solucionar este problema.",
+        "ExpDetail": "Visualización anormal de la pantalla",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Pasar",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "Todas las aplicaciones",
+        "ExpDetail": "Desactivar"
+    },
+    "t10010101": {
+        "ExpAdvice": "Comprueba la interfaz de huellas o reemplaza el componente de huellas.",
+        "ExpDetail": "El sensor de huellas no funciona o no tiene sensibilidad",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "Se recomienda que el usuario restaure el dispositivo a los ajustes de fábrica; de lo contrario, el uso de las funciones de huella se verá afectado.",
+        "ExpDetail": "Excepción de bloqueo OEM",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "Se recomienda reemplazar el sensor de huellas.",
+        "ExpDetail": "Excepción del sensor de huellas",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "Recalibrar el sensor de huellas",
+        "ExpDetail": "Desajuste de datos de calibración de huellas",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "Comprueba el módulo del sensor de infrarrojos o la placa base.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "Comprueba el módulo del sensor de intensidad de luz o la placa base.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "Comprueba el módulo del sensor de gravedad de la placa base.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "Se recomienda visitar el centro de servicio y realizar la \"Autocomprobación y calibración del sensor\" en el Modo ingeniería para calibrar el acelerómetro. Si la calibración falla, el acelerómetro puede dañarse y será necesario reemplazarlo.",
+        "ExpDetail": "Los datos de aceleración son inexactos",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "Comprueba el módulo del sensor geomagnético de la placa base.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "Comprueba el módulo del giroscopio de la placa base.",
+        "ExpDetail": "Error",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "Se recomienda visitar el centro de servicio y realizar la \"Autocomprobación y calibración del sensor\" en el Modo ingeniería para calibrar el giroscopio. Si la calibración falla, el giroscopio puede dañarse y será necesario reemplazarlo.",
+        "ExpDetail": "Los datos del giroscopio son inexactos",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Error al cargar controlador"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Error al enviar código"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros"
+    },
+    "t11010101": {
+        "ExpAdvice": "Prueba todos los botones laterales en busca de un cortocircuito o errores de circuito abierto.",
+        "ExpDetail": "El botón no responde",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "Prueba todos los botones laterales en busca de un cortocircuito o errores de circuito abierto.",
+        "ExpDetail": "Funciones del botón incorrectas",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "Prueba todos los botones laterales en busca de un cortocircuito o errores de circuito abierto.",
+        "ExpDetail": "Poca sensibilidad del toque",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "La linterna no funciona"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Brillo bajo"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Colores incorrectos"
+    },
+    "t12010201": {
+        "ExpAdvice": "Sustituye el flash o comprueba el circuito del controlador de flash.",
+        "ExpDetail": "La linterna no funciona",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "Sustituye el flash o comprueba el circuito del controlador de flash.",
+        "ExpDetail": "Brillo de la pantalla bajo",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "Sustituye el motor o comprueba el circuito del controlador de motor.",
+        "ExpDetail": "Sin vibración",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "Sustituye el motor o comprueba el circuito del controlador de motor.",
+        "ExpDetail": "Problema de vibración",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "Se recomienda sustituir el motor.",
+        "ExpDetail": "Daños en el hardware del motor",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "Enfría la temperatura del teléfono, asegúrate de que el calor se disipe bien y juega solamente cuando la temperatura del dispositivo sea normal.",
+        "ExpDetail": "Sobrecalentamiento del teléfono durante el juego",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "El problema de retardo se debe a la pérdida de fotogramas en los juegos. Asegúrate de que el calor se disipe bien y que tu conexión de red sea estable.",
+        "ExpDetail": "Retrasos y caídas de fotogramas durante el juego",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "La red es inestable durante el juego. Juega en condiciones estables de la red.",
+        "ExpDetail": "Red inestable durante el juego",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "El sistema ha detectado que las notificaciones están desactivadas para la aplicación %1. Para recibir sus notificaciones, mantén pulsado el icono de la aplicación, ve a \"Información de la aplicación - Gestionar notificaciones\", y activa el conmutador.",
+        "ExpDetail": "No activado para una aplicación"
+    },
+    "t17010102": {
+        "ExpAdvice": "Se ha desactivado \"Notificaciones\" para algunas aplicaciones, incluyendo %1, por lo que es posible que no se reciban\n  algunos mensajes importantes. Considera la posibilidad de activarlo en los\n  ajustes de aplicaciones de terceros.",
+        "ExpDetail": "Desactivar"
+    },
+    "t17010201": {
+        "ExpAdvice": "El sistema ha detectado que las notificaciones silenciosas están activadas para la aplicación %1. Eso significa que todas sus notificaciones aparecerán solo en la parte inferior de la barra de notificaciones. Para desactivar la función, haz lo siguiente: \n① ColorOS 11: Mantén pulsado el icono de la aplicación, ve a \"Información de la aplicación - Gestionar notificaciones - Notificaciones de mensaje nuevas (notificaciones sobre invitaciones de llamadas de voz o videollamadas)\" y desactiva \"Activar notificaciones silenciosas\".\n② ColorOS 7.2: Mantén pulsado el icono de la aplicación, ve a \"Información de la aplicación - Gestionar notificaciones\" y desactiva \"Mover al final\".",
+        "ExpDetail": "Silenciar notificaciones activado para una aplicación"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Mostrar título y cuerpo"
+    },
+    "t17010302": {
+        "ExpAdvice": "El sistema ha detectado que \"Notificaciones de pantalla bloqueada\" está configurado como \"Mostrar solo título\". Para mostrar el contenido de las notificaciones, ve a \"Ajustes - Notificaciones y barra de estado - Gestionar notificaciones - Notificaciones de pantalla bloqueada\" y cambia el ajuste a \"Mostrar título y cuerpo\".",
+        "ExpDetail": "Mostrar solo título"
+    },
+    "t17010303": {
+        "ExpAdvice": "El sistema ha detectado que \"Notificaciones de pantalla bloqueada\" está configurado como \"No mostrar\". Para mostrar las notificaciones de pantalla bloqueada, ve a \"Ajustes - Notificaciones y barra de estado - Gestionar notificaciones - Notificaciones de pantalla bloqueada\" y cambia el ajuste a \"Mostrar título y cuerpo\" o \"Mostrar solo título\".",
+        "ExpDetail": "No mostrar"
+    },
+    "t17010401": {
+        "ExpAdvice": "El sistema ha detectado que \"Silenciar notificaciones\" está activado. Para estar al día de los mensajes importantes, desliza hacia abajo la barra de estado, toca \"Silenciar notificaciones\" y desactiva el conmutador.",
+        "ExpDetail": "Activar"
+    },
+    "t17010501": {
+        "ExpAdvice": "El sistema ha detectado que \"Activar pantalla al recibir notificaciones en la pantalla bloqueada\" está desactivado. Para activar el conmutador, ve a \"Ajustes - Notificaciones y barra de estado - Gestionar notificaciones - Más - Activar pantalla al recibir una notificación\".",
+        "ExpDetail": "Desactivar"
+    },
+    "t17010502": {
+        "ExpAdvice": "Se ha desactivado \"Activar pantalla cuando se recibe una notificación\". Es posible que las notificaciones no se\n  reciban rápidamente cuando tu pantalla está bloqueada. Plantéate activarlo.",
+        "ExpDetail": "Desactivar"
+    },
+    "t17010601": {
+        "ExpAdvice": "\"Atenuar avisos de notificaciones\" está activado. Cuando usas una aplicación en modo de pantalla completa (como\n  cuando juegas, ves vídeos o participas en llamadas de conferencia), los\n  sonidos de las notificaciones son más suaves y la vibración es menos fuerte.\n  Plantéate desactivarlo.",
+        "ExpDetail": "Activar"
+    },
+    "t17010701": {
+        "ExpAdvice": "\"Optimización mientras duermes\" está activado. El teléfono consume menos batería y\n  reduce las notificaciones cuando estás durmiendo. Plantéate desactivarlo.",
+        "ExpDetail": "Activar"
+    },
+    "t17010801": {
+        "ExpAdvice": "\"Distintivos de iconos de aplicaciones\" está desactivado para algunas aplicaciones. Puesto que no se mostrará ningún\n  distintivo en la esquina superior derecha de esas aplicaciones, podrías\n  perderte notificaciones importantes. Plantéate activarlo.",
+        "ExpDetail": "Desactivar"
+    },
+    "t17020101": {
+        "ExpAdvice": "El sistema ha detectado que \"Ahorro de datos\" está activado en el teléfono. Eso significa que las aplicaciones en segundo plano no recibirán ninguna notificación. Para recibir notificaciones, ve a \"Ajustes - Tarjeta SIM y datos móviles - Uso de datos - Ahorro de datos\" y desactiva el conmutador.",
+        "ExpDetail": "Activar"
+    },
+    "t17020201": {
+        "ExpAdvice": "El sistema ha detectado que tanto \"Wi-Fi\" como \"Datos móviles\" están desactivados para la aplicación %1. Eso significa que no pueden recibirse notificaciones. Para activar los dos conmutadores, mantén pulsado el icono de la aplicación y ve a \"Información de la aplicación - Detalles de uso de datos\".",
+        "ExpDetail": "No activado para una aplicación"
+    },
+    "t17020301": {
+        "ExpAdvice": "El sistema ha detectado que \"Datos en segundo plano\" está desactivado para la aplicación %1. Eso significa que la aplicación no recibirá ninguna notificación cuando se ejecute en segundo plano. Para activar el conmutador, mantén pulsado el icono de la aplicación y ve a \"Información de la aplicación - Detalles de uso de datos\".",
+        "ExpDetail": "No activado para una aplicación"
+    },
+    "t17030101": {
+        "ExpAdvice": "El sistema ha detectado que las notificaciones de las aplicaciones están limitadas por los ajustes de uso de batería para la aplicación %1. Para activar \"Permitir actividad en primer plano\", mantén pulsado el icono de la aplicación y ve a \"Información de la aplicación - Uso de batería\".",
+        "ExpDetail": "Desactivar"
+    },
+    "t17030201": {
+        "ExpAdvice": "El sistema ha detectado que las notificaciones de las aplicaciones están limitadas por los ajustes de uso de batería para la aplicación %1. Para activar \"Permitir actividad en segundo plano\", mantén pulsado el icono de la aplicación y ve a \"Información de la aplicación - Uso de batería\".",
+        "ExpDetail": "Desactivar"
+    },
+    "t17030301": {
+        "ExpAdvice": "El sistema ha detectado que las notificaciones de las aplicaciones están limitadas por los ajustes de uso de batería para la aplicación %1. Para activar \"Permitir iniciar automáticamente\", mantén pulsado el icono de la aplicación y ve a \"Información de la aplicación - Uso de batería\".",
+        "ExpDetail": "Desactivar"
+    },
+    "t17030401": {
+        "ExpAdvice": "El sistema ha detectado que las notificaciones de las aplicaciones están limitadas por los ajustes de uso de batería para la aplicación %1. Para activar \"Permitir ejecución de aplicaciones asociadas\", mantén pulsado el icono de la aplicación y ve a \"Información de la aplicación - Uso de batería\".",
+        "ExpDetail": "Desactivar"
+    },
+    "t17040101": {
+        "ExpAdvice": "El sistema ha detectado que \"Bloqueo de aplicaciones\" está configurado en el teléfono, pero no puede detectar los detalles de tu bloqueo. Dado que no se muestran mensajes para la aplicación %1, ve a \"Ajustes - Privacidad - Bloqueo de aplicaciones\" y comprueba si la aplicación se ha bloqueado.",
+        "ExpDetail": "Activar"
+    },
+    "t17040201": {
+        "ExpAdvice": "El sistema ha detectado que \"Bloqueo de aplicaciones\" está configurado en el teléfono, pero no puede detectar los detalles de tu bloqueo. Dado que no se muestran mensajes para la aplicación %1, ve a \"Ajustes - Privacidad - Ocultar aplicaciones\" y comprueba si la aplicación se ha bloqueado.",
+        "ExpDetail": "Activar"
+    },
+    "t17050101": {
+        "ExpAdvice": "El sistema ha detectado que el teléfono está silenciado. Eso significa que no se escuchará ningún tono en los mensajes entrantes. Para recuperar el sonido del teléfono, ve a \"Ajustes - Sonido y vibración - Silenciar\".",
+        "ExpDetail": "Activar"
+    },
+    "t17050201": {
+        "ExpAdvice": "El sistema ha detectado que \"No molestar\" está activado en el teléfono. Eso significa que no recibirás alertas de mensajes entrantes. Para desactivar la función, ve a \"Ajustes - Sonido y vibración - No molestar\".",
+        "ExpDetail": "Activar"
+    },
+    "t17050202": {
+        "ExpAdvice": "Se ha activado \"No molestar\". Como solo recibirás notificaciones de alarmas, temporizadores y eventos del calendario,\n  es posible que te pierdas algunas otras notificaciones y recordatorios.\n  Plantéate desactivarlo.",
+        "ExpDetail": "Activar"
+    },
+    "t17060101": {
+        "ExpAdvice": "\"Clonador de aplicaciones\" se ha desactivado para algunas aplicaciones, incluyendo %1. Para cambiar fácilmente\n  de una cuenta a otra en la misma aplicación, busca \"Clonador de\n  aplicaciones\" en Ajustes y habilita esta función.",
+        "ExpDetail": "Desactivar"
+    },
+    "t17060201": {
+        "ExpAdvice": "\"Clonador de aplicaciones\" se ha activado para algunas aplicaciones. Sin embargo, \"Al usar funciones rápidas\"\n  se ha ajustado a \"Abrir aplicación principal\". Plantéate cambiarlo\n  a \"Preguntar siempre\".",
+        "ExpDetail": "Desactivar"
+    },
+    "t17060301": {
+        "ExpAdvice": "\"Retocar aspecto en videollamadas\" está desactivado, de modo que el embellecimiento en tiempo real no está disponible\n  en las videollamadas de WeChat. Plantéate activarlo.",
+        "ExpDetail": "Desactivar"
+    },
+    "t26010101": {
+        "ExpAdvice": "Los estados del control deslizante de alerta actual se han detectado como Silencio, Sonido y Vibración, pero no coinciden con las posiciones del botón. Se recomienda calibrar y reparar el dispositivo.",
+        "ExpDetail": "Falta de coincidencia entre las posiciones del botón y los estados de la pantalla"
+    },
+    "t26010102": {
+        "ExpAdvice": "Los estados del control deslizante de alerta actual se han detectado como Silencio, Sonido y Vibración. El sistema no puede reconocer todos los estados después de cambiar la posición del botón. Se recomienda calibrar y reparar el dispositivo. Si la reparación no se completa correctamente, sustituye el dispositivo.",
+        "ExpDetail": "No todos los estados de pantalla están iluminados"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Otros"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Incompatible",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "No se puede analizar debido a datos insuficientes",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "Se ha producido una excepción, no hay resultados",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "No se obtiene ningún resultado después del tiempo de espera, ¡prueba de nuevo!",
+        "ExpDetail": "Erróneo"
+    },
+    "t6": {
+        "ExpAdvice": "Se ha producido una excepción, no hay resultados",
+        "ExpDetail": "Erróneo"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Activar"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Desactivar"
+    },
+    "t9": {
+        "ExpAdvice": "Todas las aplicaciones",
+        "ExpDetail": "Activar"
+    },
+    "t05050109": {
+        "ExpDetail": "Error de banda de frecuencia móvil: %1",
+        "ExpAdvice": "1. No toques el teléfono durante la prueba.&lt;br>2. Si el problema persiste, sustituye el hardware porque algunas bandas de frecuencia pueden tener problemas."
+    },
+    "t05050110": {
+        "ExpDetail": "Error en la banda de frecuencia del satélite: %1",
+        "ExpAdvice": "1. No toques el teléfono durante la prueba.&lt;br>2. Si el problema persiste, sustituye el hardware porque algunas bandas de frecuencia pueden tener problemas."
+    },
+    "t05050111": {
+        "ExpDetail": "Error de banda de frecuencia celular y del satélite: %1",
+        "ExpAdvice": "1. No toques el teléfono durante la prueba.&lt;br>2. Si el problema persiste, sustituye el hardware porque algunas bandas de frecuencia pueden tener problemas."
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "Se ha solucionado",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "No se ha solucionado"
+    },
+    "t08040104": {
+        "ExpDetail": "Otros",
+        "ExpAdvice": ""
+    },
+    "t07110101": {
+        "ExpDetail": "Error del sensor magnético de efecto Hall",
+        "ExpAdvice": "Se recomienda reemplazar el sensor."
+    },
+    "t07010201": {
+        "ExpDetail": "Error de control de pulsación",
+        "ExpAdvice": "Verifica si los conectores BTB están fijados en su sitio, si la placa FPC del módulo está rota y si la placa de la antena, la placa base y la placa FPC funcionan correctamente."
+    },
+    "t22140101": {
+        "ExpDetail": "Velocidad del ventilador anormal",
+        "ExpAdvice": "Velocidad del ventilador anormal. Compruebe lo siguiente:\n1. Inspeccione y quite cualquier acumulación de polvo de las aspas del ventilador.\n2. Si el problema persiste tras la limpieza, sustituya el ventilador.\n3. Si el problema persiste tras sustituir el ventilador, sustituya la placa base."
+    },
+    "t08030501": {
+        "ExpDetail": "Volumen bajo",
+        "ExpAdvice": "Comprueba si el orificio del micrófono se ha bloqueado con ceniza o líquido. Si el sonido es tan bajo que es casi silencioso, reemplaza el micrófono y prueba de nuevo."
+    },
+    "t08030504": {
+        "ExpDetail": "Otros",
+        "ExpAdvice": "Comprueba si el orificio del micrófono se ha bloqueado con ceniza o líquido. Si el sonido es tan bajo que es casi silencioso, reemplaza el micrófono y prueba de nuevo."
+    },
+    "t08030502": {
+        "ExpDetail": "Ruido",
+        "ExpAdvice": "Sustituye el micrófono y vuelve a probar."
+    },
+    "t08030503": {
+        "ExpDetail": "Sin sonido",
+        "ExpAdvice": "Sustituye el micrófono y vuelve a probar."
+    }
+}

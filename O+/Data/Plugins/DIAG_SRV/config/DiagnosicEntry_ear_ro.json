@@ -1,0 +1,171 @@
+{
+        "t0": {
+            "ExpAdvice": "",
+            "ExpDetail": "Normal",
+            "ResultLevel": 0
+        },
+        "t2": {
+            "ExpAdvice": "<br>1. Este posibil ca diagnoza să fi fost suspendată în timpul examinării căștilor intraauriculare.<br>2. Căștile intraauriculare actuale ar putea să nu fie compatibile cu acest element de diagnoză.",
+            "ExpDetail": "Nu s-a efectuat diagnoză",
+            "ResultLevel": 6
+        },
+        "t11": {
+            "ExpAdvice": "nume:%1 <br> culoare: %2 <br> electricitate:stânga-dreapta cutie: %3 <br>",
+            "ExpDetail": "%1"
+        },
+        "t10610101": {
+            "ExpAdvice": "Actualizați la cea mai recentă versiune pentru o stabilitate sporită.",
+            "ExpDetail": "Versiune neactualizată a firmware-ului căștii intraauriculare",
+            "ResultLevel": 8
+        },
+        "t10610102": {
+            "ExpAdvice": "Eroare informații privitoare la firmware-ul căștii intraauriculare %1. Sugerați restabilirea căștilor intraauriculare la setările din fabrică.",
+            "ExpDetail": "Eroare informații privitoare la firmware-ul căștii intraauriculare %1",
+            "ResultLevel": 10
+        },
+        "t10610103": {
+            "ExpAdvice": "Verificați dacă funcția favorite funcționează în mod normal și trimiteți informațiile referitoare la căștile intraauriculare echipei post-vânzare pentru confirmare.",
+            "ExpDetail": "Eroarea funcției favorite a căștii intraauriculare %1",
+            "ResultLevel": 10
+        },
+        "t10610104": {
+            "ExpAdvice": "Eroare SN carcasă. Furnizați feedback reprezentantului post-vânzare.",
+            "ExpDetail": "Eroare SN carcasă",
+            "ResultLevel": 10
+        },
+        "t10610201": {
+            "ExpAdvice": "<br>1. Această problemă poate apărea atunci când căștile sunt încărcate după o expunere prelungită la temperaturi excesiv de ridicate sau de scăzute. <br>2. Lăsați căștile la temperatura camerei timp de 10 minute înainte de a le încărca.",
+            "ExpDetail": "Temperatură anormală a bateriei pentru căștile %1",
+            "ResultLevel": 10
+        },
+        "t10610301": {
+            "ExpAdvice": "<br>1. Dacă este raportată o problemă de încărcare, verificați dacă aceasta a mai apărut și înainte pe baza acestui criteriu. <br>2.Nu încărcați căștile la temperaturi excesiv de ridicate sau de scăzute.",
+            "ExpDetail": "Bateria pentru căștile %1 a avut o temperatură anormală",
+            "ResultLevel": 10
+        },
+        "t10610401": {
+            "ExpAdvice": "<br>1. Verificați dacă ambele căști se află în cutia de încărcare. În caz contrar, se va afișa o eroare de încărcare. <br>2. Verificați dacă pinii sau vârfurile de încărcare din interiorul cutiei de încărcare sunt deformate sau rupte. <br>3. Verificați dacă pinii de încărcare ai căștilor și pinii sau vârfurile de încărcare din cutie sunt murdărite cu grăsime/transpirație sau sunt murdărite în alt mod. Dacă sunt murdare, ștergeți-le cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol.",
+            "ExpDetail": "Încărcare anormală a căștilor %1",
+            "ResultLevel": 10
+        },
+        "t10610501": {
+            "ExpAdvice": "Verificați dacă casca intraauriculară funcționează în mod normal și trimiteți informațiile despre căștile intraauriculare și codul de eroare echipei post-vânzare.",
+            "ExpDetail": "Parametrii din fabrică anormali pentru căștile %1 cu codul de eroare %2",
+            "ResultLevel": 10
+        },
+        "t10610601": {
+            "ExpAdvice": "Acest lucru poate avea ca rezultat faptul că casca intraauriculară nu detectează momentul în care este introdusă în urechea utilizatorului, iar comenzile tactile să nu mai răspundă. Vă rugăm să restabiliți căștile intraauriculare la setările din fabrică.",
+            "ExpDetail": "Parametrii anormali ai utilizatorului pentru căștile %1 cu codul de eroare %2",
+            "ResultLevel": 10
+        },
+        "t10610701": {
+            "ExpAdvice": "Verificați dacă utilizatorul a folosit căștile intraauriculare în medii cu surse puternice de interferență (cum ar fi routere Wi-Fi sau stații de bază). În astfel de medii este inevitabilă deconectarea ocazională. Sugerați restabilirea căștilor intraauriculare la setările din fabrică.",
+            "ExpDetail": "Căștile %1 s-au blocat",
+            "ResultLevel": 10
+        },
+        "t10610801": {
+            "ExpAdvice": "Verificați dacă această problemă apare în mediile obișnuite ale utilizatorului și înregistrați frecvența ei. Verificați dacă în apropiere există o sursă puternică de interferențe, cum ar fi routere Wi-Fi și stații de bază, și restabiliți căștile la setările din fabrică.",
+            "ExpDetail": "Deconectarea de la oricare dintre căști",
+            "ResultLevel": 10
+        },
+        "t10610901": {
+            "ExpAdvice": "<br>1. Țineți căștile și telefonul la o distanță apropiată pentru o calitate mai bună a semnalului. <br>2. Verificați dacă această problemă apare în mediile obișnuite ale utilizatorului și înregistrați frecvența ei. Verificați dacă în apropiere există o sursă puternică de interferențe, cum ar fi routere Wi-Fi și stații de bază, și restabiliți căștile la setările din fabrică.",
+            "ExpDetail": "Deconectarea dintre căștile %1 și telefon",
+            "ResultLevel": 10
+        },
+        "t10611001": {
+            "ExpAdvice": "<br>1. Verificați dacă există vreo particularitate în legătură cu resursele audio utilizate de căștile intraauriculare. În caz afirmativ, trimiteți dezvoltatorului informații despre căștile intraauriculare și resurse, pentru analiză. <br>2. Verificați dacă în mediile uzuale de utilizator apar sau pot apărea întârzieri. Verificați dacă în apropiere există o sursă puternică de interferențe, cum ar fi routere Wi-Fi și stații de bază și restabiliți căștile intraauriculare la setările din fabrică.",
+            "ExpDetail": "Întârzierea redării sunetului la casca intraauriculară %1",
+            "ResultLevel": 10
+        },
+        "t10611002": {
+            "ExpAdvice": "Verificați dacă în mediile uzuale de utilizator apar sau pot apărea întârzieri. Verificați dacă în apropiere există o sursă puternică de interferențe, cum ar fi routere Wi-Fi și stații de bază și restabiliți căștile intraauriculare la setările din fabrică.",
+            "ExpDetail": "Întârzierea apelului la casca intraauriculară %1",
+            "ResultLevel": 10
+        },
+        "t10611101": {
+            "ExpAdvice": "<br>1. Dacă efectuați diagnosticarea cu doar o singură cască intraauriculară, atunci este de așteptat acest rezultat.<br> 2. Verificați mediul din imediata vecinătate cu privire la surse de interferență, cum ar fi routere Wi-Fi și stații de bază. După ce ați eliminat această posibilitate, încercați să restabiliți căștile intraauriculare la setările din fabrică.",
+            "ExpDetail": "Conexiune slabă între cele două căști intraauriculare",
+            "ResultLevel": 10
+        },
+        "t10611201": {
+            "ExpAdvice": "<br>1. Încărcați cutia de încărcare cu un cablu USB pentru diagnosticare. <br>2. Verificați dacă portul USB al cutiei de încărcare este murdar sau dacă are un contact slab. Dacă da, ștergeți punctele de contact cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol.",
+            "ExpDetail": "Eroare de încărcare a cutiei",
+            "ResultLevel": 10
+        },
+        "t10611301": {
+            "ExpAdvice": "<br>1. Această problemă poate apărea atunci când căștile sunt încărcate după o expunere prelungită la temperaturi excesiv de ridicate sau de scăzute. <br>2. Lăsați căștile la temperatura camerei timp de 10 minute înainte de a le încărca.",
+            "ExpDetail": "Temperatura anormală a bateriei pentru cutia de încărcare",
+            "ResultLevel": 10
+        },
+        "t10611401": {
+            "ExpAdvice": "<br>1. Dacă este raportată o problemă de încărcare, verificați dacă aceasta a mai apărut înainte pe baza acestui criteriu. <br>2. Verificați dacă temperatura ambiantă este prea ridicată sau prea scăzută sau dacă există erori de încărcare. Nu încărcați cutia de încărcare la temperaturi excesiv de ridicate sau de scăzute.",
+            "ExpDetail": "Bateria pentru cutia de încărcare a avut o temperatură anormală",
+            "ResultLevel": 10
+        },
+        "t10611501": {
+            "ExpAdvice": "Verificați dacă portul USB al cutiei de încărcare este murdar sau dacă are un contact slab. Dacă da, ștergeți punctele de contact cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol.",
+            "ExpDetail": "Temperatura anormală a portului USB pentru cutia de încărcare",
+            "ResultLevel": 10
+        },
+        "t10611601": {
+            "ExpAdvice": "<br>1. Dacă este raportată o problemă de încărcare, verificați dacă aceasta a mai apărut înainte pe baza acestui criteriu. <br>2. Verificați dacă temperatura ambiantă este prea ridicată sau prea scăzută sau dacă există erori de încărcare. Nu încărcați cutia de încărcare la temperaturi excesiv de ridicate sau de scăzute.",
+            "ExpDetail": "Portul USB pentru cutia de încărcare a avut o temperatură anormală",
+            "ResultLevel": 10
+        },
+        "t10615001": {
+            "ExpAdvice": "Verificați dacă nu cumva reziduuri sau obiecte străine au înfundat orificiul microfonului. Dacă da, curățați punctele de contact cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol.",
+            "ExpDetail": "Sunetul microfonului căștii intraauriculare %1 este necorespunzător.",
+            "ResultLevel": 10
+        },
+        "t10615101": {
+            "ExpAdvice": "<br>1.Verificați dacă nu cumva reziduuri sau obiecte străine au înfundat grila difuzorului. Dacă da, scoateți capacul pentru ureche, curățați grila cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol, apoi folosiți o scobitoare sau o altă unealtă specială pentru a îndepărta murdăria din grilă.<br>2. Verificați mediul din vecinătate cu privire la surse de interferență, cum ar fi routere Wi-Fi și stații de bază. După ce excludeți această posibilitate, încercați din nou testul.",
+            "ExpDetail": "Sunetul căștii intraauriculare %1 este de calitate scăzută.",
+            "ResultLevel": 10
+        },
+        "t10615102": {
+            "ExpAdvice": "<br>1.Verificați dacă nu cumva reziduuri sau obiecte străine au înfundat grila difuzorului. Dacă da, scoateți capacul pentru ureche, curățați grila cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol, apoi folosiți o scobitoare sau o altă unealtă specială pentru a îndepărta murdăria din grilă.<br>2. Verificați mediul din vecinătate cu privire la surse de interferență, cum ar fi routere Wi-Fi și stații de bază. După ce excludeți această posibilitate, încercați din nou testul.",
+            "ExpDetail": "Când anularea zgomotului este activată, redarea sunetului în căști este anormală.",
+            "ResultLevel": 10
+        },
+        "t10615103": {
+            "ExpAdvice": "<br>1.Verificați dacă nu cumva reziduuri sau obiecte străine au înfundat grila difuzorului. Dacă da, scoateți capacul pentru ureche, curățați grila cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol, apoi folosiți o scobitoare sau o altă unealtă specială pentru a îndepărta murdăria din grilă.<br>2. Verificați mediul din vecinătate cu privire la surse de interferență, cum ar fi routere Wi-Fi și stații de bază. După ce excludeți această posibilitate, încercați din nou testul.",
+            "ExpDetail": "Când anularea zgomotului este dezactivată, redarea sunetului în căști este anormală.",
+            "ResultLevel": 10
+        },
+        "t10615201": {
+            "ExpAdvice": "Verificați dacă nu cumva reziduuri sau obiecte străine au înfundat grila difuzorului. Dacă da, scoateți capacul pentru ureche, curățați grila cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol, apoi folosiți o scobitoare sau o altă unealtă specială pentru a îndepărta murdăria din grilă.",
+            "ExpDetail": "Volum neașteptat al sunetului căștii intraauriculare %1.",
+            "ResultLevel": 10
+        },
+        "t10615301": {
+            "ExpAdvice": "<br>1. Asigurați-vă că căștile intraauriculare se află în cutie și capacul cutiei este închis sau deschis corect. În caz contrar, este normal să apară un mesaj de eroare. <br>2. Verificați dacă vârfurile sau pinii de încărcare din cutia de încărcare sunt deformați sau rupți. <br>3. Verificați dacă punctele de contact pentru încărcare, precum și pinii și vârfurile de încărcare din cutia de încărcare sunt murdărite cu ulei, transpirație sau murdărie. Dacă da, curățați-le ",
+            "ExpDetail": "Detectarea capacului cutiei pentru căștile intraauriculare a eșuat.",
+            "ResultLevel": 10
+        },
+        "t10615401": {
+            "ExpAdvice": "<br>1. Asigurați-vă că casca intraauriculară este purtată corect. Dacă casca intraauriculară nu este în urechi, este normal să apară un mesaj de eroare. <br>2. Ajustați casca intraauriculară pentru a se potrivi cu urechea dvs. și asigurați-vă că este introdusă corect. <br>3. Verificați ca pe casca intraauriculară să nu existe substanțe precum apă sau ulei. În caz contrar, ștergeți casca intraauriculară înainte de testare.",
+            "ExpDetail": "Detectarea căștii intraauriculare %1 în ureche a eșuat.",
+            "ResultLevel": 10
+        },
+        "t10615402": {
+            "ExpAdvice": "<br>1. Asigurați-vă că ați apăsat punctele corecte. Dacă nu ați apăsat casca intraauriculară, este normal să apară un mesaj de eroare. <br>2. Ajustați locul și puterea de apăsare și asigurați-vă că apăsați corect.<br>3. Verificați ca pe casca intraauriculară să nu existe substanțe precum apă sau ulei. În caz contrar, ștergeți casca intraauriculară înainte de testare. ",
+            "ExpDetail": "Controlul prin atingere de două ori (apăsare) al căștii intraauriculare %1 a eșuat.",
+            "ResultLevel": 10
+        },
+        "t10615403": {
+            "ExpAdvice": "<br>1. Verificați dacă căștile intraauriculare sunt în cutie. Dacă nu sunt în cutie, este normal să apară un mesaj de eroare. <br>2. Verificați dacă vârfurile sau pinii de încărcare din cutia de încărcare sunt deformați sau rupți. <br>3. Verificați dacă punctele de contact pentru încărcare, precum și pinii și vârfurile de încărcare din cutia de încărcare sunt murdărite cu ulei, transpirație sau murdărie. Dacă da, curățați-le cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol.",
+            "ExpDetail": "Detectarea introducerii căștii intraauriculare %1 în cutie a eșuat.",
+            "ResultLevel": 10
+        },
+        "t10615501": {
+            "ExpAdvice": "Verificați dacă căștile intraauriculare sunt în cutie. Dacă nu sunt în cutie, este normal să apară un mesaj de eroare.",
+            "ExpDetail": "Detectarea lămpii de stare a cutiei pentru căștile intraauriculare a eșuat.",
+            "ResultLevel": 10
+        },
+        "t10615601": {
+            "ExpAdvice": "<br>1. Verificați dacă căștile intraauriculare sunt în cutie. Dacă nu sunt în cutie, este normal să apară un mesaj de eroare. <br>2. Verificați dacă vârfurile sau pinii de încărcare din cutia de încărcare sunt deformați sau rupți. <br>3. Verificați dacă punctele de contact pentru încărcare, precum și pinii și vârfurile de încărcare din cutia de încărcare sunt murdărite cu ulei, transpirație sau murdărie. Dacă da, curățați-le cu un bețișor de urechi din bumbac care nu lasă scame înmuiat în etanol.",
+            "ExpDetail": "Detectarea butonului cutiei pentru căștile intraauriculare a eșuat.",
+            "ResultLevel": 10
+        }
+}

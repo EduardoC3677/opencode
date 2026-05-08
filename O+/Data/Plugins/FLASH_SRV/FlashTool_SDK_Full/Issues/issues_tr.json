@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Listede olmayan diğer ROM flash yükleme araçlarının dahili hatası.",
+        "suggest": "ROM'a tekrar flash yüklem yapmayı deneyin. Aynı sorun tekrarlanırsa sorunu araç bakım ekibine bildirmek için bir satış sonrasıteknik destek temsilcisiyle iletişime geçin."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "İşlem için gereken önbellek alanı, yetersiz PC belleği nedeniyle tahsis edilemiyor.",
+        "suggest": "1. Kullanmadığınız uygulamaları kapatın ve tekrar flash yükleme yapmayı deneyin.\n2. Bilgisayarınızı yeniden başlatın ve tekrar flash yükleme yapmayı deneyin."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Windows sistem arayüzü dönüş hatası: {1}, {2} döndürdü.",
+        "suggest": "Kullanılan bilgisayar arızalı. Lütfen cihazı tekrar flaşlamayı deneyin. Birden fazla denemeden sonra sorun devam ederse sorunu, bir satış sonrası teknik destek temsilcisi aracılığıyla analiz edilmesi ve işlenmesi için araç bakım ekibine bildirin."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "Bilgisayarda bir yazılım hata ayıklayıcısının çalıştığı tespit edildi.",
+        "suggest": "Lütfen açık olan tüm yazılım hata ayıklayıcılarını kapatın ve tekrar deneyin."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "Flaş ROM aracı hizmetinin sanal makinede çalıştığı tespit edildi.",
+        "suggest": "Lütfen flaş ROM aracını fiziksel bir bilgisayarda çalıştırın."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "ROM flash yükleme paketi verileri zarar görmüştür.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "İçe aktarılan ROM dosyası veya klasörü geçersiz ya da ROM flash yükleme paketi hasarlıdır.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen paketin OFP biçiminde olduğundan veya bir version_info.txt eklendiğinden emin olun. Hata onaylandıktan sonra tekrarlanırsa lütfen ROM flash yükleme paketini kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "Yüklenen ROM flash yükleme paketi, flash yükleme yapılacak cihaza uygun değildir veya ROM flash yükleme paketindeki veriler hasarlıdır.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak doğrudan indirildiyse lütfen paketin, flash yükleme yapılacak cihazın modeliyle eşleştiğinden emin olun. Doğru ROM flash yükleme paketini yeniden indirin ve tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa paketin, flash yükleme yapılacak cihazın modeliyle eşleştiğinden emin olun. Paketi, kaynak ortamdan yeniden kopyalayın ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "Yüklenen ROM flash yükleme paketi, flash yükleme yapılacak cihaza uygun değildir veya ROM flash yükleme paketindeki veriler hasarlıdır.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak doğrudan indirildiyse lütfen paketin, flash yükleme yapılacak cihazın modeliyle eşleştiğinden emin olun. Doğru ROM flash yükleme paketini yeniden indirin ve tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa paketin, flash yükleme yapılacak cihazın modeliyle eşleştiğinden emin olun. Paketi, kaynak ortamdan yeniden kopyalayın ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "Aygıt kodu {1}, yazılım paketindeki {2} ürün koduyla tutarsız olduğundan cihaz flashlanamıyor.",
+        "suggest": "Kullanıcının cihazının modelini kontrol edin, doğru ROM flash yükleme paketini indirin ve ardından ROM'a flash yükleme yapın."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "Kullanıcının cihazındaki bölüm tablosu, ROM flash yükleme paketindeki bölüm tablosu ile tutarsızdır.",
+        "suggest": "ROM'a flash yükleme yapmak için ROM flash yükleme aracındaki \"Zorlanmış Mod\"u kullanın. Flash yükleme tamamlandıktan sonra cihazın açılmasının ardından kapsamlı bir işlev kontrolü gerçekleştirin. Flash yükleme işleminden sonra cihaz açılmazsa veya fonksiyon kontrolü sırasında herhangi bir sorun tespit edilirse kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Ürün numarasıtelefondan okunamadı.",
+        "suggest": "1. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n2. ROM'a flash yükleme yapmak için bilgisayarda başka bir USB portu veya başka bir USB kablosu kullanmayı deneyin.\n3. Yukarıdaki önlemleri aldıktan sonra sorun yeniden ortaya çıkarsa kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "İşlem için gereken önbellek alanı, yetersiz PC belleği nedeniyle tahsis edilemiyor.",
+        "suggest": "1. Kullanmadığınız uygulamaları kapatın ve tekrar flash yükleme yapmayı deneyin.\n2. Bilgisayarınızı yeniden başlatın ve tekrar flash yükleme yapmayı deneyin."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Geçersiz ön yükleyici dosya biçimi.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "Geçersiz kimlik doğrulaması dosyası.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "Bölüm tablosu dosyası mevcut değil.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "DA iletişim hatası.",
+        "suggest": "1. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n2. ROM'a flash yükleme yapmak için bilgisayarda başka bir USB portu veya başka bir USB kablosu kullanmayı deneyin.\n3. Yukarıdaki önlemleri aldıktan sonra sorun yeniden ortaya çıkarsa kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "Beklenmeyen USB bağlantısı kesintisi.",
+        "suggest": "1. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n2. ROM'a flash yükleme yapmak için bilgisayarda başka bir USB portu veya başka bir USB kablosu kullanmayı deneyin.\n3. Yukarıdaki önlemleri aldıktan sonra sorun yeniden ortaya çıkarsa kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "Harici RAM özel durumu nedeniyle DA bağlantısı başarısız oldu.",
+        "suggest": "Kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "DA verileriyle bellek uyuşmazlığı.",
+        "suggest": "Kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "Cihazın içindeki DDR çiplerinin sayısı platform sınırını aşıyor.",
+        "suggest": "ROM'a tekrar flash yüklem yapmayı deneyin. Aynı sorun tekrarlanırsa sorunu araç bakım ekibine bildirmek için bir satış sonrası teknik destek temsilcisiyle iletişime geçin."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "DA indirme işlemi başarısız oldu.",
+        "suggest": "1. Cihazın modelini kontrol edin, doğru ROM flash yükleme paketini indirin ve tekrar flash yükleme yapmayı deneyin.\n2. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n3. Cihaz için doğru paket kullanıldığında ve pil yeterli olduğunda ROM'u flash yükleme sırasında tekrar tekrar hata meydana gelirse kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Cihazın DDR bileşenlerinde donanım veya yazılım hatası.",
+        "suggest": "Kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Cihazın SOC veya DDR bileşenlerinde donanım veya yazılım hatası.",
+        "suggest": "Kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Dosya indirme doğrulama hatası.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "MTK platformunda dahili hata.",
+        "suggest": "ROM'a tekrar flash yüklem yapmayı deneyin. Aynı sorun tekrarlanırsa sorunu araç bakım ekibine bildirmek için bir satış sonrası teknik destek temsilcisiyle iletişime geçin."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "Cihazın ülke kodu bilgisi cihaz saklama alanı ya da hizmet arka planından bulunamadığından ROM yükseltilemiyor.",
+        "suggest": "Bu cihazda bulunan sorunları bildirmek için lütfen IT6000 hizmet masasıyla iletişime geçin."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "Cihazın ülke kodu {1} seçilen ROM paketi tarafından desteklenmiyor.",
+        "suggest": "Doğru bölgeye uygun ROM paketi kullanın ve tekrar deneyin."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "O+ bulut kontrol sunucusu hatası: {1} {2}.",
+        "suggest": "1. O+ Cloud hizmetlerine ağınız üzerinden erişilebildiğinden emin olun. Erişim sağlayamıyorsanız doğru yapılandırma ayarları için satış sonrası teknik destek ekibiyle iletişime geçin.\n2. ROM'a tekrar flash yüklem yapmayı deneyin. Hata tekrar tekrar meydana gelirse sorunu, O+ Cloud hizmetlerinin işletme ve bakım ekibine bildirmek için bir satış sonrası teknik destek temsilcisiyle irtibata geçin."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "O+ Cloud hizmetleri işleme isteği sonucunu döndürmedi,Talep edilen API: {1}.",
+        "suggest": "O+ Cloud hizmetleri başarısız oldu. Birden fazla denemeden sonra sorun devam ederse sorunu, arka plandaki teknik destek temsilcisi aracılığıyla analiz edilmesi ve işlenmesi için araç bakım ekibine bildirin."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "O+ bulut kontrol platformu kimlik doğrulama hatası: {2}.",
+        "suggest": "İlgili izin için başvuru yapın veya hata açıklamasına göre arka planda diğer işlemleri gerçekleştirin. Sorun devam ederse lütfen satış sonrası teknik destek ile iletişime geçin."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "O+ bulut kontrol platformu kimlik doğrulama hatası: {2} {3}.",
+        "suggest": "İlgili izin için başvuru yapın veya hata açıklamasına göre arka planda diğer işlemleri gerçekleştirin. Sorun devam ederse lütfen satış sonrası teknik destek ile iletişime geçin."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "O+ bulut kontrol platformu kimlik doğrulama hatası.",
+        "suggest": "İlgili izin için başvuru yapın veya hata açıklamasına göre arka planda diğer işlemleri gerçekleştirin. Sorun devam ederse lütfen satış sonrası teknik destek ile iletişime geçin."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Yazılım sürümü eski.",
+        "suggest": "Lütfen bu cihaz modeli için en son ROM sürümünü indirin ve flaşlayın."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "Bu kullanıcı hesabının gelişmiş ROM yükseltme iznine erişimi bulunmuyor.",
+        "suggest": "UPM sisteminde izin başvurusunda bulunun ve tekrar deneyin."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "O+ Cloud hizmet arayüzü {1} belirlenen veri alanını döndürmedi: {2}.",
+        "suggest": "O+ Cloud hizmetleri başarısız oldu. Birden fazla denemeden sonra sorun devam ederse sorunu, arka plandaki teknik destek temsilcisi aracılığıyla analiz edilmesi ve işlenmesi için araç bakım ekibine bildirin."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "{1} dosyası açılamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "{1} dosyasındaki veriler okunamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "{1} dosyasındaki veriler bulunamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "{1} dosyası açılamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "{1} dosyasındaki veriler bulunamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Dosya {1} kapatılamadı. Hata kodu {2}.",
+        "suggest": "Windows işletim sistemi dahili hatası. Lütfen cihazı tekrar flaşlamayı deneyin. Birden fazla denemeden sonra sorun devam ederse sorunu, bir satış sonrası teknik destek temsilcisi aracılığıyla analiz edilmesi ve işlenmesi için araç bakım ekibine bildirin."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "{1} dosyasındaki veriler okunamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "Aygıt {1} komutunu yürütemedi: {2}.",
+        "suggest": "1. Cihazın modelini kontrol edin, doğru ROM flash yükleme paketini indirin ve tekrar flash yükleme yapmayı deneyin.\n2. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n3. Cihaz için doğru paket kullanıldığında ve pil yeterli olduğunda ROM'u flash yükleme sırasında tekrar tekrar hata meydana gelirse kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "Aygıt kodu {1}, yazılım paketindeki {2} ürün koduyla tutarsız olduğundan cihaz flashlanamıyor.",
+        "suggest": "Kullanıcının cihazının modelini kontrol edin, doğru ROM flash yükleme paketini indirin ve ardından ROM'a flash yükleme yapın."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Aygıtın başlatılması başarısız oldu.",
+        "suggest": "1. Cihazın modelini kontrol edin, doğru ROM flash yükleme paketini indirin ve tekrar flash yükleme yapmayı deneyin.\n2. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n3. Cihaz için doğru paket kullanıldığında ve pil yeterli olduğunda ROM'u flash yükleme sırasında tekrar tekrar hata meydana gelirse kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "ROM flaş başarısız oldu.",
+        "suggest": "Yeni bir ROM paketi indirin ve tekrar deneyin."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "ROM flaş başarısız oldu.",
+        "suggest": "Yeni bir ROM paketi indirin ve tekrar deneyin."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "ROM flaş başarısız oldu.",
+        "suggest": "Yeni bir ROM paketi indirin ve tekrar deneyin."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Flashlanacak aygıtın ülke kodu doğrulanamadı.",
+        "suggest": "1. ROM flash yükleme aracındaki \"Varsayılan NV\" işlevinin ROM flash yükleme için kullanılıp kullanılamayacağını öğrenmek için bir satış sonrası teknik destek temsilcisiyle iletişime geçin. İzin verilirse ROM flash yükleme işlevini kullanın ve kullanıcının telefonunda kapsamlı bir işlev kontrolü yapın.\n2. Cihazın ROM flash yüklemesi için \"Varsayılan NV\" işlevi kullanılamazsa veya ROM flash yüklemesinden sonra herhangi bir sorun ortaya çıkarsa (örneğin cihaz açılamaz veya işlev kontrolünde herhangi bir sorun tespit edilirse) kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Ülke kodu yazılım tarafından desteklenmiyor.",
+        "suggest": "1. Kullanılan ROM flash yükleme aracından elde edilen ROM flash yükleme paketinin bölgesinin, cihazın yerel bölgesi için olduğundan emin olun. ROM flash yükleme paketini silin ve aracın doğru sürümünü kullanarak tekrar indirin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa kaynak ortamdan doğru model ve bölge için paketi yeniden kopyalayın ve tekrar yükleyin."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "ROM paketinde doğrulama verileri eksik.",
+        "suggest": "Yeni bir ROM paketi indirin ve tekrar deneyin."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "Kullanıcının cihazındaki bölüm tablosu, ROM flash yükleme paketindeki bölüm tablosu ile tutarsızdır.",
+        "suggest": "ROM'a flash yükleme yapmak için ROM flash yükleme aracındaki \"Zorlanmış Mod\"u kullanın. Flash yükleme tamamlandıktan sonra cihazın açılmasının ardından kapsamlı bir işlev kontrolü gerçekleştirin. Flash yükleme işleminden sonra cihaz açılmazsa veya fonksiyon kontrolü sırasında herhangi bir sorun tespit edilirse kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "ROM paketinde eksik dosya: {1}.",
+        "suggest": "ROM paketi hasar görmüş. Yenisini indirin ve tekrar deneyin."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Geçersiz sparse dosya formatı.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "ROM paketindeki dosya listesi doğrulanamadı.",
+        "suggest": "ROM paketi hasarlı. Yenisini indirin ve tekrar deneyin."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "ROM paketindeki dosya hasarlı: {1}",
+        "suggest": "Yeni bir ROM paketi indirin ve tekrar deneyin."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "ROM paketindeki dosya listesi doğrulanamadı.",
+        "suggest": "ROM paketi hasarlı. Yenisini indirin ve tekrar deneyin."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "ROM paketindeki dosya hasarlı: {1}",
+        "suggest": "Yeni bir ROM paketi indirin ve tekrar deneyin."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "İçe aktarılan ROM dosyası veya klasörü geçersiz ya da ROM flash yükleme paketi hasarlıdır.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen paketin OFP biçiminde olduğundan veya bir version_info.txt eklendiğinden emin olun. Hata onaylandıktan sonra tekrarlanırsa lütfen ROM flash yükleme paketini kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "ROM paketinde eksik dosya: {1}.",
+        "suggest": "ROM paketi hasar görmüş. Yenisini indirin ve tekrar deneyin."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "{1} dosyasındaki veriler okunamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "İçe aktarılan ROM dosyası veya klasörü geçersiz ya da ROM flash yükleme paketi hasarlıdır.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen paketin OFP biçiminde olduğundan veya bir version_info.txt eklendiğinden emin olun. Hata onaylandıktan sonra tekrarlanırsa lütfen ROM flash yükleme paketini kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "ROM flash yükleme paketindeki dosya içeriği, beklentileri karşılamıyor.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "ROM flash yükleme paketindeki dosya içeriği, beklentileri karşılamıyor.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "ROM paketinde doğrulama verileri eksik.",
+        "suggest": "Yeni bir ROM paketi indirin ve tekrar deneyin."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "ROM paketinde eksik dosya: {1}.",
+        "suggest": "ROM paketi hasar görmüş. Yenisini indirin ve tekrar deneyin."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "{1} dosyasındaki veriler okunamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "İçe aktarılan ROM dosyası veya klasörü geçersiz ya da ROM flash yükleme paketi hasarlıdır.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen paketin OFP biçiminde olduğundan veya bir version_info.txt eklendiğinden emin olun. Hata onaylandıktan sonra tekrarlanırsa lütfen ROM flash yükleme paketini kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "ROM flash yükleme paketindeki dosya içeriği, beklentileri karşılamıyor.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "ROM flash yükleme paketindeki dosya içeriği, beklentileri karşılamıyor.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "Bölüm tablosu dosyası mevcut değil.",
+        "suggest": "1. ROM flash yükleme paketi, ROM flash yükleme aracı kullanılarak indirildiyse lütfen silin ve en son sürümü indirin. Ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "ROM paketindeki dosya listesi doğrulanamadı.",
+        "suggest": "ROM paketi hasarlı. Yenisini indirin ve tekrar deneyin."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "ROM paketindeki dosya hasarlı: {1}",
+        "suggest": "Yeni bir ROM paketi indirin ve tekrar deneyin."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Aygıt işleyicisi açılırken hata oluştu.",
+        "suggest": "1. Çip üreticisi tarafından sağlanan ROM flash yükleme aracının, geri okuma aracının ve hata ayıklama aracının eski sürümlerini kapatın ve tekrar flash yükleme yapmayı deneyin.\n2. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n3. ROM'a flash yükleme yapmak için bilgisayarda başka bir USB portu veya başka bir USB kablosu kullanmayı deneyin.\n4. Yukarıdaki önlemleri aldıktan sonra sorun yeniden ortaya çıkarsa kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Aygıt işleyicisi açılırken hata oluştu.",
+        "suggest": "1. Çip üreticisi tarafından sağlanan ROM flash yükleme aracının, geri okuma aracının ve hata ayıklama aracının eski sürümlerini kapatın ve tekrar flash yükleme yapmayı deneyin.\n2. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n3. ROM'a flash yükleme yapmak için bilgisayarda başka bir USB portu veya başka bir USB kablosu kullanmayı deneyin.\n4. Yukarıdaki önlemleri aldıktan sonra sorun yeniden ortaya çıkarsa kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "{1} yapılandırılamadı. Hata kodu {2}.",
+        "suggest": "Cihaz geçersiz kılınmış veya bağlantısı kesilmiş olabilir. Lütfen başka bir USB bağlantı noktası ve kablo deneyin, cihazı EDL modunda yeniden başlatın ve ardından tekrar deneyin."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Dosyadan veya aygıttan veri okunamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin.\n3. Birden fazla denemenin ardından sorun devam ederse tekrar flash yükleme yapmayı denemeden önce ROM flash yükleme paketini başka bir sabit sürücüye veya bölüme kaydetmeniz önerilir."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Dosyadan veya aygıttan veri okunamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin.\n3. Birden fazla denemenin ardından sorun devam ederse tekrar flash yükleme yapmayı denemeden önce ROM flash yükleme paketini başka bir sabit sürücüye veya bölüme kaydetmeniz önerilir."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Dosyaya veya aygıta veri yazılamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin.\n3. Birden fazla denemenin ardından sorun devam ederse tekrar flash yükleme yapmayı denemeden önce ROM flash yükleme paketini başka bir sabit sürücüye veya bölüme kaydetmeniz önerilir."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Dosyaya veya aygıta veri yazılamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin.\n3. Birden fazla denemenin ardından sorun devam ederse tekrar flash yükleme yapmayı denemeden önce ROM flash yükleme paketini başka bir sabit sürücüye veya bölüme kaydetmeniz önerilir."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "Aygıt {1} komutunu yürütemedi: {2}.",
+        "suggest": "1. Cihazın modelini kontrol edin, doğru ROM flash yükleme paketini indirin ve tekrar flash yükleme yapmayı deneyin.\n2. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n3. Cihaz için doğru paket kullanıldığında ve pil yeterli olduğunda ROM'u flash yükleme sırasında tekrar tekrar hata meydana gelirse kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "Protokol komutu aygıtta yürütülemedi ve bir hata döndürdü: {2}.",
+        "suggest": "Sorunu araç bakım ekibine bildirmek için bir satış sonrası teknik destek temsilcisiyle irtibat kurun."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "Aygıt kodu {1}, yazılım paketindeki {2} ürün koduyla tutarsız olduğundan cihaz flashlanamıyor.",
+        "suggest": "Kullanıcının cihazının modelini kontrol edin, doğru ROM flash yükleme paketini indirin ve ardından ROM'a flash yükleme yapın."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Flashlanacak aygıtın ülke kodu doğrulanamadı.",
+        "suggest": "1. ROM flash yükleme aracındaki \"Varsayılan NV\" işlevinin ROM flash yükleme için kullanılıp kullanılamayacağını öğrenmek için bir satış sonrası teknik destek temsilcisiyle iletişime geçin. İzin verilirse ROM flash yükleme işlevini kullanın ve kullanıcının telefonunda kapsamlı bir işlev kontrolü yapın.\n2. Cihazın ROM flash yüklemesi için \"Varsayılan NV\" işlevi kullanılamazsa veya ROM flash yüklemesinden sonra herhangi bir sorun ortaya çıkarsa (örneğin cihaz açılamaz veya işlev kontrolünde herhangi bir sorun tespit edilirse) kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "Telefonun desteklediği bölgeler, flash paketinin yayınlandığı bölgelerden farklı.",
+        "suggest": "1. Kullanılan ROM flash yükleme aracından elde edilen ROM flash yükleme paketinin bölgesinin, cihazın yerel bölgesi için olduğundan emin olun. ROM flash yükleme paketini silin ve aracın doğru sürümünü kullanarak tekrar indirin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa kaynak ortamdan doğru model ve bölge için paketi yeniden kopyalayın ve tekrar yükleyin."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "Flaş kullanıcı tarafından durduruldu.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "Platform şu anda flashlamayı desteklemiyor.",
+        "suggest": "ROM'a tekrar flash yüklem yapmayı deneyin. Aynı sorun tekrarlanırsa sorunu araç bakım ekibine bildirmek için bir satış sonrası teknik destek temsilcisiyle iletişime geçin."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Desteklenmeyen bellek aygıtı türü kodu {1}.",
+        "suggest": "Kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "ROM flash yükleme paketi, mantıksal bölümü bulamıyor.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Dosya indirme doğrulama hatası.",
+        "suggest": "1. ROM flash yükleme paketini doğrudan ROM flash yükleme aracı kullanılarak indirilmişse lütfen silin ve en son sürümü indirin, ardından paketi tekrar yüklemeyi deneyin.\n2. ROM flash yükleme paketi harici bir kaynaktan içe aktarıldıysa lütfen kaynak ortamdan yeniden kopyalamayı ve yeniden yüklemeyi deneyin."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "Beklenmeyen USB bağlantısı kesintisi.",
+        "suggest": "1. Cihazın kalan pil seviyesinin %20'den az olmadığından emin olun. ROM'a tekrar flash yükleme yapmayı denemeden önce cihazı şarj edin.\n2. ROM'a flash yükleme yapmak için bilgisayarda başka bir USB portu veya başka bir USB kablosu kullanmayı deneyin.\n3. Yukarıdaki önlemleri aldıktan sonra sorun yeniden ortaya çıkarsa kullanıcı için ana kartı değiştirin."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "Bellek cihaz hatalarından dolayı işlem gerçekleştirilemedi.",
+        "suggest": "ROM yükseltme ayarlarında doğru cihaz türü seçtiğinizden emin olun (ör.: cihaz eMMC cihazıyla donatılmışsa, UFS seçeneği seçilemeyebilir). Seçiminizle ilgili herhangi bir sorun olmadığını onaylarsanız, UFS cihaz hasar görebilir. Anakartı değiştirmeyi düşünün."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "Platform şu anda flashlamayı desteklemiyor.",
+        "suggest": "ROM'a tekrar flash yüklem yapmayı deneyin. Aynı sorun tekrarlanırsa sorunu araç bakım ekibine bildirmek için bir satış sonrası teknik destek temsilcisiyle iletişime geçin."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "ROM paketi fabrika varsayılan sürümünden daha eski. Flaşlama SN için bir değişikliğe neden olacaktır.",
+        "suggest": "Lütfen kullanıcıyı bu cihazın yeni bir SN özelliklere sahip olduğu konusunda bilgilendirin. Fabrikasyon öncesi versiyona geri döndürülmesi, SN için bir değişim olacağından satış sonrası koruma hak ve menfaatlerinin zarar görmesi gibi sonuçlar doğurabilir. Yetkili, kullanıcıların cihazlarının sürümünü düşürmelerini önermiyor."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "Cihaz üzerindeki iade işlemi başarısız oldu. Hata kodu: {1}; hata mesajı: {2}",
+        "suggest": "Lütfen tekrar flaşlamayı deneyin. Bu hata devam ederse bu sorunu bildirmek için lütfen flaş aracının bakım ekibiyle iletişime geçin."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Lütfen kullanıcıya bu cihazda \"Kilitlemek için ara\" özelliğinin zaten açık olduğunu bildirin. \"Ayarlar - Güvenlik ve gizlilik - Cihaz kilidi açma - Hırsızlık koruması\" bölümüne gidin ve flaşlamadan önce \"Kilitlemek için ara\" özelliğini kapatın. Bu cihaz açılmazsa kişisel bilgilerinizi doğrulamak için müşteri hizmetlerimizi arayın ve flaşlamadan önce cihazın kilidini açmayı talep edin.",
+        "suggest": "Kullanıcı \"Kilitlemek için ara\" özelliğini açtı ve flaş aracının arka ucu cihazı Güvenlik kilitleme modunda olarak işaretledi. (Kullanıcının cihazı kaybetmesi ve müşteri hizmetlerimizi arayarak cihazın kilitlenmesini talep etmesi durumunda bu mod aktif hale gelecektir.) Güvenlik kilitleme modundaki cihazlar flaşlanamaz. Lütfen yanıp sönmeden önce \"Kilitlemek için ara\" özelliğini kapatın."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "ROM paketindeki kullanıcı verisi bölümünün ofset adresi, telefondaki karşılık gelen bölümle eşleşmediği için bu bölümü silmeden flaşlama yapılamaz.",
+        "suggest": "Standart modda flaşlama işlemine devam etmeden önce, kullanıcının verileri bölümündeki tüm verileri yedekleyin."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Bu sürüm bilinen güvenlik açıkları içermektedir. Flaşlama kısıtlanmıştır.",
+        "suggest": "Lütfen bu cihaz modeli için en son ROM sürümünü indirin ve flaşlayın."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

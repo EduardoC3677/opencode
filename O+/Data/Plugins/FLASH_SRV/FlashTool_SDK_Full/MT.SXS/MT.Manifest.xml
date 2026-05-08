@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+    <module>
+        <progid>File.Inet</progid>
+        <name>MTKV6FilePlugin.dll</name>
+        <desc>Provide file functions for internet protocol.</desc>
+        <interface>
+            <facet>
+                <name>IFile</name>
+                <key>HTTP:HTTPS:OFS:MFS</key>
+                <clsid>{69BD0DBF-FC1A-4260-9E75-C8235F684086}</clsid>
+                <iid>{296CCFDB-DDFD-4FB6-8840-E79834B63F3C}</iid>
+            </facet>
+            <facet>
+                <name>IFileSystem</name>
+                <key>HTTP:HTTPS:OFS:MFS</key>
+                <clsid>{2B3B4D05-BB6C-4182-8591-85E742AA861A}</clsid>
+                <iid>{F38BDB5B-F091-47FC-825F-8EF478E1D4B3}</iid>
+            </facet>
+        </interface>
+    </module>
+</manifest>

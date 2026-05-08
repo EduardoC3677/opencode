@@ -1,0 +1,171 @@
+{
+        "t0": {
+            "ExpAdvice": "",
+            "ExpDetail": "Normaal",
+            "ResultLevel": 0
+        },
+        "t2": {
+            "ExpAdvice": "<br>1. De diagnose kan zijn afgebroken tijdens het onderzoek met de oordopjes.<br>2. De huidige oordopjes ondersteunen dit diagnose-item mogelijk niet.",
+            "ExpDetail": "Geen diagnose uitgevoerd",
+            "ResultLevel": 6
+        },
+        "t11": {
+            "ExpAdvice": "naam:%1 <br> kleur: %2 <br> elektriciteit:L-R-houder: %3 <br>",
+            "ExpDetail": "%1"
+        },
+        "t10610101": {
+            "ExpAdvice": "Werk bij naar de nieuwste versie voor meer stabiliteit.",
+            "ExpDetail": "Firmwareversie oordopjes verouderd",
+            "ResultLevel": 8
+        },
+        "t10610102": {
+            "ExpAdvice": "Fout in firmwaregegevens oordopje %1. Het is raadzaam de oordopjes terug te zetten naar de fabrieksinstellingen.",
+            "ExpDetail": "Fout in firmwaregegevens oordopje %1",
+            "ResultLevel": 10
+        },
+        "t10610103": {
+            "ExpAdvice": "Controleer of de functie Favorieten normaal werkt en stuur de informatie over de oordopjes ter bevestiging naar het aftersalesteam.",
+            "ExpDetail": "Fout functie Favorieten oordopje %1",
+            "ResultLevel": 10
+        },
+        "t10610104": {
+            "ExpAdvice": "Fout in serienummer oplaadcase. Geef feedback aan de aftersales-medewerker.",
+            "ExpDetail": "Fout in serienummer oplaadcase",
+            "ResultLevel": 10
+        },
+        "t10610201": {
+            "ExpAdvice": "<br>1. Dit probleem kan zich voordoen wanneer oortelefoons worden opgeladen na langdurige blootstelling aan extreem hoge of lage temperaturen. <br>2. Laat de oortelefoons gedurende 10 minuten rusten op kamertemperatuur alvorens ze op te laden.",
+            "ExpDetail": "Abnormale temperatuur batterij oortelefoon %1",
+            "ResultLevel": 10
+        },
+        "t10610301": {
+            "ExpAdvice": "<br>1. Als een laadprobleem wordt gemeld, controleer dan of dit al eerder is gebeurd op basis van dit criterium. <br>2. Laad de oortelefoons niet op bij extreem hoge of lage temperaturen.",
+            "ExpDetail": "Eerdere abnormale temperatuur batterij oortelefoon %1",
+            "ResultLevel": 10
+        },
+        "t10610401": {
+            "ExpAdvice": "<br>1. Controleer of beide oortelefoons in de oplaadcase zitten. Als dit niet het geval is, wordt er een oplaadfout weergegeven. <br>2. Controleer of de oplaadpinnen of contacten in de oplaadcase vervormd of defect zijn. <br>3. Controleer of de oplaadpinnen van de oortelefoons en de oplaadpinnen of contacten in de oplaadcase vervuild zijn met vet/zweet of andere verontreiniging. Veeg ze in dat geval schoon met een pluisvrij wattenstaafje gedrenkt in ethanol.",
+            "ExpDetail": "Abnormaal opladen voor oortelefoon %1",
+            "ResultLevel": 10
+        },
+        "t10610501": {
+            "ExpAdvice": "Controleer of het oordopje normaal functioneert en stuur de informatie over het oordopje en de foutcode naar het aftersalesteam.",
+            "ExpDetail": "Abnormale fabrieksparameters voor oortelefoon %1 met foutcode %2",
+            "ResultLevel": 10
+        },
+        "t10610601": {
+            "ExpAdvice": "Dit kan ertoe leiden dat het oordopje niet detecteert wanneer het in het oor van de gebruiker wordt geplaatst en dat de aanraakbediening niet meer reageert. Zet de oordopjes terug naar de fabrieksinstellingen.",
+            "ExpDetail": "Abnormale gebruikersparameters voor oortelefoon %1 met foutcode %2",
+            "ResultLevel": 10
+        },
+        "t10610701": {
+            "ExpAdvice": "Controleer of de gebruiker de oordopjes heeft gebruikt in omgevingen met krachtige storingsbronnen (zoals Wi-Fi-routers of basisstations). In zulke omgevingen is het af en toe verbreken van de verbinding niet te vermijden. Het is raadzaam de oordopjes terug te zetten naar de fabrieksinstellingen.",
+            "ExpDetail": "Oortelefoon %1 is gecrasht",
+            "ResultLevel": 10
+        },
+        "t10610801": {
+            "ExpAdvice": "Controleer of dit probleem zich voordoet in gangbare gebruikersomgevingen en noteer hoe vaak dit gebeurt. Controleer of er een sterke storingsbron in de buurt is, zoals een Wi-Fi-router en basisstation, en zet de oortelefoons terug naar de fabrieksinstellingen.",
+            "ExpDetail": "Verbinding met een van beide oortelefoons verbroken",
+            "ResultLevel": 10
+        },
+        "t10610901": {
+            "ExpAdvice": "<br>1. Houd de oortelefoons en telefoon op korte afstand van elkaar voor een betere signaalkwaliteit. <br>2. Controleer of dit probleem zich voordoet in gangbare gebruikersomgevingen en noteer hoe vaak dit gebeurt. Controleer of er een sterke storingsbron in de buurt is, zoals een Wi-Fi-router en basisstation, en zet de oortelefoons terug naar de fabrieksinstellingen.",
+            "ExpDetail": "Verbinding verbroken tussen oortelefoon %1 en de telefoon",
+            "ResultLevel": 10
+        },
+        "t10611001": {
+            "ExpAdvice": "<br>1. Controleer of er iets bijzonders is aan de audiobronnen die door de oordopjes worden gebruikt. Stuur in dat geval informatie over de oordopjes en de bronnen naar de ontwikkelaar voor analyse. <br>2. Ga na of vertragingen of vertragingsmogelijkheden zich voordoen in veel voorkomende gebruikersomgevingen. Controleer of er een sterke storingsbron in de buurt is, zoals een Wi-Fi-router en basisstation, en zet de oordopjes terug naar de fabrieksinstellingen.",
+            "ExpDetail": "Vertraging in audio op oordopje %1",
+            "ResultLevel": 10
+        },
+        "t10611002": {
+            "ExpAdvice": "Ga na of vertragingen of vertragingsmogelijkheden zich voordoen in veel voorkomende gebruikersomgevingen. Controleer of er een sterke storingsbron in de buurt is, zoals een Wi-Fi-router en basisstation, en zet de oordopjes terug naar de fabrieksinstellingen.",
+            "ExpDetail": "Gespreksvertraging in oordopje %1",
+            "ResultLevel": 10
+        },
+        "t10611101": {
+            "ExpAdvice": "<br>1. Als u de diagnose uitvoert met slechts één oordopje uitvoert, is dit resultaat te verwachten.<br> 2. Controleer de directe omgeving op storingsbronnen, zoals Wi-Fi-routers en basisstations. Nadat u deze mogelijkheid hebt uitgesloten, probeert u de oordopjes terug te zetten naar de fabrieksinstellingen.",
+            "ExpDetail": "Zwakke verbinding tussen de twee oordopjes",
+            "ResultLevel": 10
+        },
+        "t10611201": {
+            "ExpAdvice": "<br>1. Laad de oplaadcase op met een USB-kabel voor diagnose. <br>2. Controleer of de USB-poort van de oplaadcase vuil is of slecht contact maakt. Veeg de contactpunten in dat geval schoon met een pluisvrij wattenstaafje gedrenkt in ethanol.",
+            "ExpDetail": "Fout bij opladen oplaadcase",
+            "ResultLevel": 10
+        },
+        "t10611301": {
+            "ExpAdvice": "<br>1. Dit probleem kan zich voordoen wanneer oortelefoons worden opgeladen na langdurige blootstelling aan extreem hoge of lage temperaturen. <br>2. Laat de oortelefoons gedurende 10 minuten rusten op kamertemperatuur alvorens ze op te laden.",
+            "ExpDetail": "Abnormale temperatuur batterij van oplaadcase",
+            "ResultLevel": 10
+        },
+        "t10611401": {
+            "ExpAdvice": "<br>1. Als een laadprobleem wordt gemeld, controleer dan of dit al eerder is gebeurd op basis van dit criterium. <br>2. Controleer of de omgevingstemperatuur te hoog of te laag is en controleer op eventuele oplaadstoringen. Laad de oplaadcase niet op bij extreem hoge of lage temperaturen.",
+            "ExpDetail": "Eerdere abnormale temperatuur batterij van oplaadcase",
+            "ResultLevel": 10
+        },
+        "t10611501": {
+            "ExpAdvice": "Controleer of de USB-poort van de oplaadcase vuil is of slecht contact maakt. Veeg de contactpunten in dat geval schoon met een pluisvrij wattenstaafje gedrenkt in ethanol.",
+            "ExpDetail": "Abnormale temperatuur USB-poort van oplaadcase",
+            "ResultLevel": 10
+        },
+        "t10611601": {
+            "ExpAdvice": "<br>1. Als een laadprobleem wordt gemeld, controleer dan of dit al eerder is gebeurd op basis van dit criterium. <br>2. Controleer of de omgevingstemperatuur te hoog of te laag is en controleer op eventuele oplaadstoringen. Laad de oplaadcase niet op bij extreem hoge of lage temperaturen.",
+            "ExpDetail": "Eerdere abnormale temperatuur USB-poort van oplaadcassette",
+            "ResultLevel": 10
+        },
+        "t10615001": {
+            "ExpAdvice": "Controleer op de aanwezigheid van vuil of objecten in de Mic-aansluiting. Reinig de contactpunten in dat geval met een in ethanol gedrenkt pluisvrij wattenstaafje.",
+            "ExpDetail": "Microfoon oordopje %1 klinkt slecht.",
+            "ResultLevel": 10
+        },
+        "t10615101": {
+            "ExpAdvice": "<br>1.Controleer op de aanwezigheid van vuil of objecten in op het gaas van de luidspreker. Verwijder in dat geval de oorbeschermer, veeg het gaas schoon met een in ethanol gedrenkt pluisvrij wattenstaafje en gebruik vervolgens een tandenstoker of speciaal hulpmiddel om het vuil uit het gaas te schrapen.<br>2. Controleer de omgeving op storingsbronnen, zoals Wi-Fi-routers en basisstations. Nadat u deze mogelijkheid hebt uitgesloten, probeert u de test opnieuw.",
+            "ExpDetail": "Audio van oordopje %1 is van lage kwaliteit.",
+            "ResultLevel": 10
+        },
+        "t10615102": {
+            "ExpAdvice": "<br>1.Controleer op de aanwezigheid van vuil of objecten in op het gaas van de luidspreker. Verwijder in dat geval de oorbeschermer, veeg het gaas schoon met een in ethanol gedrenkt pluisvrij wattenstaafje en gebruik vervolgens een tandenstoker of speciaal hulpmiddel om het vuil uit het gaas te schrapen.<br>2. Controleer de omgeving op storingsbronnen, zoals Wi-Fi-routers en basisstations. Nadat u deze mogelijkheid hebt uitgesloten, probeert u de test opnieuw.",
+            "ExpDetail": "Wanneer ruisonderdrukking is ingeschakeld, wordt er abnormale audio afgespeeld via de hoofdtelefoon.",
+            "ResultLevel": 10
+        },
+        "t10615103": {
+            "ExpAdvice": "<br>1.Controleer op de aanwezigheid van vuil of objecten in op het gaas van de luidspreker. Verwijder in dat geval de oorbeschermer, veeg het gaas schoon met een in ethanol gedrenkt pluisvrij wattenstaafje en gebruik vervolgens een tandenstoker of speciaal hulpmiddel om het vuil uit het gaas te schrapen.<br>2. Controleer de omgeving op storingsbronnen, zoals Wi-Fi-routers en basisstations. Nadat u deze mogelijkheid hebt uitgesloten, probeert u de test opnieuw.",
+            "ExpDetail": "Wanneer ruisonderdrukking is uitgeschakeld, wordt er abnormale audio afgespeeld via de hoofdtelefoon.",
+            "ResultLevel": 10
+        },
+        "t10615201": {
+            "ExpAdvice": "Controleer op de aanwezigheid van vuil of objecten in op het gaas van de luidspreker. Verwijder in dat geval de oorbeschermer, veeg het gaas schoon met een in ethanol gedrenkt pluisvrij wattenstaafje en gebruik vervolgens een tandenstoker of speciaal hulpmiddel om het vuil uit het gaas te schrapen.",
+            "ExpDetail": "Onverwacht geluidsvolume oordopje %1.",
+            "ResultLevel": 10
+        },
+        "t10615301": {
+            "ExpAdvice": "<br>1. Controleer of de oordopjes in de oplaadcase zitten en dat het deksel van de oplaadcase op de juiste wijze is gesloten of geopend. Als dat niet het geval is, is het normaal dat een foutmelding verschijnt. <br>2. Controleer of de oplaadcontacten of pinnen in de oplaadcase vervormd of afgebroken zijn. <br>3. Controleer of de oplaadcontactpunten, evenals de oplaadpinnen en contacten in de oplaadcase, zijn vervuild door olie, zweet of vuil. Maak ze schoon als dat het geval is ",
+            "ExpDetail": "Detectie van deksel oplaadcase van oordopjes mislukt.",
+            "ResultLevel": 10
+        },
+        "t10615401": {
+            "ExpAdvice": "<br>1. Controleer of het oordopje op de juiste manier wordt gedragen. Als het oordopje niet in uw oren zit, is het normaal dat een foutmelding verschijnt. <br>2. Verstel het oordopje in uw oor en zorg ervoor dat het op de juiste manier is ingebracht. <br>3. Controleer of het oordopje vrij is van stoffen als water of olie. Veeg als dit niet het geval is het oordopje schoon voordat u gaat testen.",
+            "ExpDetail": "Draagdetectie oordopje %1 mislukt.",
+            "ResultLevel": 10
+        },
+        "t10615402": {
+            "ExpAdvice": "<br>1. Controleer of u op de juiste punten hebt geknepen. Als u het niet in het oordopje hebt geknepen, is het normaal dat een foutmelding verschijnt. <br>2. Pas de knijplocatie en -kracht aan en zorg ervoor dat u op de juiste wijze knijpt.<br>3. Controleer of het oordopje vrij is van stoffen als water of olie. Veeg als dit niet het geval is het oordopje schoon voordat u gaat testen. ",
+            "ExpDetail": "Bedieningsfunctie dubbeltikken (knijpen) oordopje %1 werkt niet.",
+            "ResultLevel": 10
+        },
+        "t10615403": {
+            "ExpAdvice": "<br>1. Zorg ervoor dat de oordopjes zich in de oplaadcase bevinden. Als dit niet het geval is, is het normaal dat een foutmelding krijgt verschijnt. <br>2. Controleer of de oplaadcontacten of pinnen in de oplaadcase vervormd of afgebroken zijn. <br>3. Controleer of de oplaadcontactpunten, evenals de oplaadpinnen en contacten in de oplaadcase, zijn vervuild door olie, zweet of vuil. Reinig ze in dat geval met een in ethanol gedrenkt pluisvrij wattenstaafje.",
+            "ExpDetail": "Detectie van plaatsing van oordopje %1 in oplaadcase mislukt.",
+            "ResultLevel": 10
+        },
+        "t10615501": {
+            "ExpAdvice": "Zorg ervoor dat de oordopjes zich in de oplaadcase bevinden. Als dit niet het geval is, is het normaal dat een foutmelding krijgt verschijnt.",
+            "ExpDetail": "Detectie van statuslampje van oplaadcase oordopjes mislukt.",
+            "ResultLevel": 10
+        },
+        "t10615601": {
+            "ExpAdvice": "<br>1. Zorg ervoor dat de oordopjes zich in de oplaadcase bevinden. Als dit niet het geval is, is het normaal dat een foutmelding krijgt verschijnt. <br>2. Controleer of de oplaadcontacten of pinnen in de oplaadcase vervormd of afgebroken zijn. <br>3. Controleer of de oplaadcontactpunten, evenals de oplaadpinnen en contacten in de oplaadcase, zijn vervuild door olie, zweet of vuil. Reinig ze in dat geval met een in ethanol gedrenkt pluisvrij wattenstaafje.",
+            "ExpDetail": "Detectie van knop van oplaadcase oordopjes mislukt.",
+            "ResultLevel": 10
+        }
+}

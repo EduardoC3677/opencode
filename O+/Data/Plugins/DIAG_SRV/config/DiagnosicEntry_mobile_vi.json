@@ -1,0 +1,2811 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Bình thường",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "Hãy nói với khách hàng cập nhật lên phiên bản mới nhất có độ ổn định cao hơn.",
+        "ExpDetail": "Đã có bản cập nhật: %1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "IMEI bị thay đổi hoặc không có IMEI nào được ghi lại sau khi thay bo mạch chủ. Hãy khôi phục lại IMEI gốc và thông báo cho khách hàng rằng IMEI bất hợp pháp có thể dẫn đến lỗi mạng.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "Không bắt đầu kiểm tra được. Vui lòng xác nhận đã tháo thẻ SIM.",
+        "ExpDetail": "Chưa tháo thẻ SIM"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Số lần mở khóa:%1<br>Trạng thái mở khóa:Đã mở khóa"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Số lần mở khóa:%1<br>Trạng thái mở khóa:Chưa mở khóa"
+    },
+    "t01010101": {
+        "ExpAdvice": "Có thể do sự không tương thích giữa các ứng dụng bên thứ ba và hệ thống. Bạn nên cài đặt thiết bị lên phiên bản mới nhất và cập nhật ứng dụng lên phiên bản mới nhất. Đây là sự cố phần mềm và không liên quan đến phần cứng.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "Điện thoại có thể liên tục khởi động lại khi xảy ra một trường hợp ngoại lệ đối với dịch vụ phần mềm căn bản của hệ thống Android hoặc khi CPU hay RAM chạy không ổn định. Bạn nên khắc phục sự cố này theo hướng xử lý sự cố phần cứng.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "Đây là sự cố ứng dụng. Nếu phiên bản ứng dụng là phiên bản beta, không phải phiên bản chính thức hoặc không phải phiên bản chính thức mới nhất, hãy tải xuống và cài đặt phiên bản mới nhất từ App Market.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "Sự cố này có thể xảy ra khi có các sự cố tương thích của phần mềm hoặc khi điện thoại rơi xuống đất hay bị sử dụng trong môi trường nhiệt độ cao hoặc thấp. Vui lòng cài đặt ROM mới và nói với khách hàng sử dụng điện thoại trong môi trường phù hợp.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "Nguồn điện của điện thoại không ổn định. Bạn nên khắc phục sự cố này theo hướng xử lý sự cố phần cứng.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "Thay mô-đun cảm biến vân tay.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "Kiểm tra với khách hàng xem họ có vô tình nhấn vào nút nào không.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "Kiểm tra với khách hàng xem điện thoại có bị sự cố không phản hồi và được khởi động lại bằng nút vật lý không.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "Nguyên nhân: CPU hoạt động ở mức tải lượng cao trong thời gian dài, khiến điện thoại bị nóng. Để tránh quá nhiệt, CPU sẽ tự bảo vệ nó bằng cách cắt giảm hiệu năng.<br> \nĐề xuất: ① Tắt chế độ Tiết kiệm điện. ② Tránh sử dụng CPU ở mức tải lượng cao trong thời gian dài. ③ Làm nguội điện thoại bằng cách dùng cồn hoặc khăn giấy ẩm lau bề mặt điện thoại và duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Top 5 ứng dụng chạy chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "Nguyên nhân: Tần số CPU thấp có thể ảnh hưởng đến hiệu năng hệ thống, làm chậm tốc độ xử lý của CPU và thời gian phản hồi của ứng dụng.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Tắt chế độ Tiết kiệm điện. ③ Duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Top 5 ứng dụng chạy chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "Nguyên nhân: Dung lượng lưu trữ khả dụng còn dưới 10% do có quá nhiều ứng dụng chạy ngầm.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Bật chức năng mở rộng RAM thông qua \"Cài đặt - Cài đặt hệ thống - RAM\" nếu điện thoại hỗ trợ chức năng này. ③ Định kỳ khởi động lại điện thoại.",
+        "ExpDetail": "Top 5 ứng dụng chạy chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "Nguyên nhân: Không còn đủ dung lượng cho bộ nhớ đệm của ứng dụng do còn ít dung lượng lưu trữ. Trong trường hợp này, ứng dụng có thể bị trễ, đóng băng hoặc văng.<br>\nĐề xuất: Xóa dung lượng lưu trữ bằng Trình quản lý Điện thoại tích hợp sẵn của điện thoại bằng cách xóa các ảnh, video và ứng dụng không mong muốn hoặc sao chép chúng sang một máy tính hoặc ổ đĩa USB.",
+        "ExpDetail": "Top 5 ứng dụng chạy chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "Nguyên nhân: Phiên bản HĐH không phải là phiên bản chính thức và có thể hoạt động không ổn định.<br> \nĐề xuất: Cài đặt phiên bản HĐH chính thức hoặc chờ cập nhật lên phiên bản beta.",
+        "ExpDetail": "Top 5 ứng dụng chạy chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "Nguyên nhân: Điện thoại được cài đặt một ứng dụng quản lý điện thoại hoặc ứng dụng tối ưu hóa hệ thống của bên thứ ba (chẳng hạn như Tencent Mobile Manager và 360 Mobile Safe). Các ứng dụng đó có thể khiến điện thoại bị trễ.<br>\nĐề xuất: Gỡ cài đặt mọi ứng dụng tối ưu hóa hệ thống của bên thứ ba và sử dụng Trình quản lý Điện thoại tích hợp sẵn của điện thoại để tối ưu hóa điện thoại.",
+        "ExpDetail": "Top 5 ứng dụng chạy chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "Nguyên nhân: Thao tác thu phóng đã được bật, điều này có thể khiến một số ứng dụng bị trễ.<br> \nĐề xuất: Vô hiệu hóa chức năng thao tác thu phóng thông qua \"Cài đặt - Cài đặt bổ sung - Trợ năng - Thao tác thu phóng\".",
+        "ExpDetail": "Top 5 ứng dụng chạy chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "\n1. Xác nhận xem thông tin chẩn đoán có phù hợp với mô tả của người dùng không; nếu có, yêu cầu người dùng xóa bộ nhớ đệm của các ứng dụng này và nâng cấp chúng lên phiên bản mới nhất.<br>\n2. Khuyến cáo người dùng nên khởi động lại điện thoại.<br>\n3. Khuyến cáo người dùng nên kịp thời xóa các ứng dụng chạy ngầm.<br>\n4. Khuyến cáo người dùng nên nâng cấp lên HĐH mới nhất.<br>\n5. Lấy nhật ký người dùng về hiện tượng trễ và yêu cầu kỹ thuật viên phân tích.",
+        "ExpDetail": "Top 5 ứng dụng chạy chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "\n1. Xác nhận xem thông tin chẩn đoán có phù hợp với mô tả của người dùng không; nếu có, yêu cầu người dùng xóa bộ nhớ đệm của các ứng dụng này và nâng cấp chúng lên phiên bản mới nhất.<br>\n2. Khuyến cáo người dùng nên khởi động lại điện thoại.<br>\n3. Khuyến cáo người dùng nên kịp thời xóa các ứng dụng chạy ngầm.<br>\n4. Khuyến cáo người dùng nên nâng cấp lên HĐH mới nhất.<br>\n5. Lấy nhật ký người dùng về hiện tượng trễ và yêu cầu kỹ thuật viên phân tích.",
+        "ExpDetail": "Top 5 ứng dụng với mức sử dụng RAM cao nhất:&lt;br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "Nguyên nhân: CPU hoạt động ở mức tải lượng cao trong thời gian dài, khiến điện thoại bị nóng. Để tránh quá nhiệt, CPU sẽ tự bảo vệ nó bằng cách cắt giảm hiệu năng.<br> \nĐề xuất: ① Tắt chế độ Tiết kiệm điện. ② Tránh sử dụng CPU ở mức tải lượng cao trong thời gian dài. ③ Làm nguội điện thoại bằng cách dùng cồn hoặc khăn giấy ẩm lau bề mặt điện thoại và duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Top 5 ứng dụng khởi động chậm nhất:&lt;br>%1&lt;br>5 nguyên nhân hàng đầu gây khởi động chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "Nguyên nhân: Tần số CPU thấp có thể ảnh hưởng đến hiệu năng hệ thống, làm chậm tốc độ xử lý của CPU và thời gian phản hồi của ứng dụng.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Tắt chế độ Tiết kiệm điện. ③ Duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Top 5 ứng dụng khởi động chậm nhất:&lt;br>%1&lt;br>5 nguyên nhân hàng đầu gây khởi động chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "Nguyên nhân: Dung lượng lưu trữ khả dụng còn dưới 10% do có quá nhiều ứng dụng chạy ngầm.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Bật chức năng mở rộng RAM thông qua \"Cài đặt - Cài đặt hệ thống - RAM\" nếu điện thoại hỗ trợ chức năng này. ③ Định kỳ khởi động lại điện thoại.",
+        "ExpDetail": "Top 5 ứng dụng khởi động chậm nhất:&lt;br>%1&lt;br>5 nguyên nhân hàng đầu gây khởi động chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "Nguyên nhân: Không còn đủ dung lượng cho bộ nhớ đệm của ứng dụng do còn ít dung lượng lưu trữ. Trong trường hợp này, ứng dụng có thể bị trễ, đóng băng hoặc văng.<br>\nĐề xuất: Xóa dung lượng lưu trữ bằng Trình quản lý Điện thoại tích hợp sẵn của điện thoại bằng cách xóa các ảnh, video và ứng dụng không mong muốn hoặc sao chép chúng sang một máy tính hoặc ổ đĩa USB.",
+        "ExpDetail": "Top 5 ứng dụng khởi động chậm nhất:&lt;br>%1&lt;br>5 nguyên nhân hàng đầu gây khởi động chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "Nguyên nhân: Phiên bản HĐH không phải là phiên bản chính thức và có thể hoạt động không ổn định.<br> \nĐề xuất: Cài đặt phiên bản HĐH chính thức hoặc chờ cập nhật lên phiên bản beta.",
+        "ExpDetail": "Top 5 ứng dụng khởi động chậm nhất:&lt;br>%1&lt;br>5 nguyên nhân hàng đầu gây khởi động chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "Nguyên nhân: Điện thoại được cài đặt một ứng dụng quản lý điện thoại hoặc ứng dụng tối ưu hóa hệ thống của bên thứ ba (chẳng hạn như Tencent Mobile Manager và 360 Mobile Safe). Các ứng dụng đó có thể khiến điện thoại bị trễ.<br>\nĐề xuất: Gỡ cài đặt mọi ứng dụng tối ưu hóa hệ thống của bên thứ ba và sử dụng Trình quản lý Điện thoại tích hợp sẵn của điện thoại để tối ưu hóa điện thoại.",
+        "ExpDetail": "Top 5 ứng dụng khởi động chậm nhất:&lt;br>%1&lt;br>5 nguyên nhân hàng đầu gây khởi động chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "Nguyên nhân: Thao tác thu phóng đã được bật, điều này có thể khiến một số ứng dụng bị trễ.<br> \nĐề xuất: Vô hiệu hóa chức năng thao tác thu phóng thông qua \"Cài đặt - Cài đặt bổ sung - Trợ năng - Thao tác thu phóng\".",
+        "ExpDetail": "Top 5 ứng dụng khởi động chậm nhất:&lt;br>%1&lt;br>5 nguyên nhân hàng đầu gây khởi động chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "\n1. Xác nhận xem thông tin chẩn đoán có phù hợp với mô tả của người dùng không; nếu có, yêu cầu người dùng xóa bộ nhớ đệm của các ứng dụng này và nâng cấp chúng lên phiên bản mới nhất.<br>\n2. Khuyến cáo người dùng nên khởi động lại điện thoại.<br>\n3. Khuyến cáo người dùng nên kịp thời xóa các ứng dụng chạy ngầm.<br>\n4. Khuyến cáo người dùng nên nâng cấp lên HĐH mới nhất.<br>\n5. Lấy nhật ký người dùng về hiện tượng trễ và yêu cầu kỹ thuật viên phân tích.",
+        "ExpDetail": "Nguyên nhân không xác định",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "Nguyên nhân: Dung lượng lưu trữ khả dụng còn dưới 10% do có quá nhiều ứng dụng chạy ngầm.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Bật chức năng mở rộng RAM thông qua \"Cài đặt - Cài đặt hệ thống - RAM\" nếu điện thoại hỗ trợ chức năng này. ③ Định kỳ khởi động lại điện thoại.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "Nguyên nhân: Không còn đủ dung lượng cho bộ nhớ đệm của ứng dụng do còn ít dung lượng lưu trữ. Trong trường hợp này, ứng dụng có thể bị trễ, đóng băng hoặc văng.<br>\nĐề xuất: Xóa dung lượng lưu trữ bằng Trình quản lý Điện thoại tích hợp sẵn của điện thoại bằng cách xóa các ảnh, video và ứng dụng không mong muốn hoặc sao chép chúng sang một máy tính hoặc ổ đĩa USB.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "Nguyên nhân: CPU hoạt động ở mức tải lượng cao trong thời gian dài, khiến điện thoại bị nóng. Để tránh quá nhiệt, CPU sẽ tự bảo vệ nó bằng cách cắt giảm hiệu năng.<br> \nĐề xuất: ① Tắt chế độ Tiết kiệm điện. ② Tránh sử dụng CPU ở mức tải lượng cao trong thời gian dài. ③ Làm nguội điện thoại bằng cách dùng cồn hoặc khăn giấy ẩm lau bề mặt điện thoại và duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Top 5 ứng dụng có giao diện chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "Nguyên nhân: Tần số CPU thấp có thể ảnh hưởng đến hiệu năng hệ thống, làm chậm tốc độ xử lý của CPU và thời gian phản hồi của ứng dụng.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Tắt chế độ Tiết kiệm điện. ③ Duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Top 5 ứng dụng có giao diện chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "Nguyên nhân: Dung lượng lưu trữ khả dụng còn dưới 10% do có quá nhiều ứng dụng chạy ngầm.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Bật chức năng mở rộng RAM thông qua \"Cài đặt - Cài đặt hệ thống - RAM\" nếu điện thoại hỗ trợ chức năng này. ③ Định kỳ khởi động lại điện thoại.",
+        "ExpDetail": "Top 5 ứng dụng có giao diện chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "Nguyên nhân: Không còn đủ dung lượng cho bộ nhớ đệm của ứng dụng do còn ít dung lượng lưu trữ. Trong trường hợp này, ứng dụng có thể bị trễ, đóng băng hoặc văng.<br>\nĐề xuất: Xóa dung lượng lưu trữ bằng Trình quản lý Điện thoại tích hợp sẵn của điện thoại bằng cách xóa các ảnh, video và ứng dụng không mong muốn hoặc sao chép chúng sang một máy tính hoặc ổ đĩa USB.",
+        "ExpDetail": "Top 5 ứng dụng có giao diện chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "Nguyên nhân: Phiên bản HĐH không phải là phiên bản chính thức và có thể hoạt động không ổn định.<br> \nĐề xuất: Cài đặt phiên bản HĐH chính thức hoặc chờ cập nhật lên phiên bản beta.",
+        "ExpDetail": "Top 5 ứng dụng có giao diện chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "Nguyên nhân: Điện thoại được cài đặt một ứng dụng quản lý điện thoại hoặc ứng dụng tối ưu hóa hệ thống của bên thứ ba (chẳng hạn như Tencent Mobile Manager và 360 Mobile Safe). Các ứng dụng đó có thể khiến điện thoại bị trễ.<br>\nĐề xuất: Gỡ cài đặt mọi ứng dụng tối ưu hóa hệ thống của bên thứ ba và sử dụng Trình quản lý Điện thoại tích hợp sẵn của điện thoại để tối ưu hóa điện thoại.",
+        "ExpDetail": "Top 5 ứng dụng có giao diện chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "Nguyên nhân: Thao tác thu phóng đã được bật, điều này có thể khiến một số ứng dụng bị trễ.<br> \nĐề xuất: Vô hiệu hóa chức năng thao tác thu phóng thông qua \"Cài đặt - Cài đặt bổ sung - Trợ năng - Thao tác thu phóng\".",
+        "ExpDetail": "Top 5 ứng dụng có giao diện chậm nhất:&lt;br>%1&lt;br>Top 5 lý do chạy chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "\n1. Xác nhận xem thông tin chẩn đoán có phù hợp với mô tả của người dùng không; nếu có, yêu cầu người dùng xóa bộ nhớ đệm của các ứng dụng này và nâng cấp chúng lên phiên bản mới nhất.<br>\n2. Khuyến cáo người dùng nên khởi động lại điện thoại.<br>\n3. Khuyến cáo người dùng nên kịp thời xóa các ứng dụng chạy ngầm.<br>\n4. Khuyến cáo người dùng nên nâng cấp lên HĐH mới nhất.<br>\n5. Lấy nhật ký người dùng về hiện tượng trễ và yêu cầu kỹ thuật viên phân tích.",
+        "ExpDetail": "Nguyên nhân không xác định",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "Nguyên nhân: Các ứng dụng tự động khởi chạy phải sử dụng các tài nguyên hệ thống như dung lượng lưu trữ và CPU. Quá nhiều ứng dụng tự động khởi chạy sẽ làm thiếu tài nguyên hệ thống, ảnh hưởng đến tốc độ và hiệu năng của các ứng dụng khác.<br>\nĐề xuất: Đóng các ứng dụng tự động khởi chạy không mong muốn thông qua \"Cài đặt - Quản lý ứng dụng - Ứng dụng tự động khởi chạy\".",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "Nguyên nhân: CPU hoạt động ở mức tải lượng cao trong thời gian dài, khiến điện thoại bị nóng. Để tránh quá nhiệt, CPU sẽ tự bảo vệ nó bằng cách cắt giảm hiệu năng.<br> \nĐề xuất: ① Tắt chế độ Tiết kiệm điện. ② Tránh sử dụng CPU ở mức tải lượng cao trong thời gian dài. ③ Làm nguội điện thoại bằng cách dùng cồn hoặc khăn giấy ẩm lau bề mặt điện thoại và duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Top 5 ứng dụng phản hồi chậm nhất:&lt;br>%1&lt;br>Top 5 lý do phản hồi chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "Nguyên nhân: Tần số CPU thấp có thể ảnh hưởng đến hiệu năng hệ thống, làm chậm tốc độ xử lý của CPU và thời gian phản hồi của ứng dụng.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Tắt chế độ Tiết kiệm điện. ③ Duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Top 5 ứng dụng phản hồi chậm nhất:&lt;br>%1&lt;br>Top 5 lý do phản hồi chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "Nguyên nhân: Dung lượng lưu trữ khả dụng còn dưới 10% do có quá nhiều ứng dụng chạy ngầm.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Bật chức năng mở rộng RAM thông qua \"Cài đặt - Cài đặt hệ thống - RAM\" nếu điện thoại hỗ trợ chức năng này. ③ Định kỳ khởi động lại điện thoại.",
+        "ExpDetail": "Top 5 ứng dụng phản hồi chậm nhất:&lt;br>%1&lt;br>Top 5 lý do phản hồi chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "Nguyên nhân: Không còn đủ dung lượng cho bộ nhớ đệm của ứng dụng do còn ít dung lượng lưu trữ. Trong trường hợp này, ứng dụng có thể bị trễ, đóng băng hoặc văng.<br>\nĐề xuất: Xóa dung lượng lưu trữ bằng Trình quản lý Điện thoại tích hợp sẵn của điện thoại bằng cách xóa các ảnh, video và ứng dụng không mong muốn hoặc sao chép chúng sang một máy tính hoặc ổ đĩa USB.",
+        "ExpDetail": "Top 5 ứng dụng phản hồi chậm nhất:&lt;br>%1&lt;br>Top 5 lý do phản hồi chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "Nguyên nhân: Phiên bản HĐH không phải là phiên bản chính thức và có thể hoạt động không ổn định.<br> \nĐề xuất: Cài đặt phiên bản HĐH chính thức hoặc chờ cập nhật lên phiên bản beta.",
+        "ExpDetail": "Top 5 ứng dụng phản hồi chậm nhất:&lt;br>%1&lt;br>Top 5 lý do phản hồi chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "Nguyên nhân: Điện thoại được cài đặt một ứng dụng quản lý điện thoại hoặc ứng dụng tối ưu hóa hệ thống của bên thứ ba (chẳng hạn như Tencent Mobile Manager và 360 Mobile Safe). Các ứng dụng đó có thể khiến điện thoại bị trễ.<br>\nĐề xuất: Gỡ cài đặt mọi ứng dụng tối ưu hóa hệ thống của bên thứ ba và sử dụng Trình quản lý Điện thoại tích hợp sẵn của điện thoại để tối ưu hóa điện thoại.",
+        "ExpDetail": "Top 5 ứng dụng phản hồi chậm nhất:&lt;br>%1&lt;br>Top 5 lý do phản hồi chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "Nguyên nhân: Thao tác thu phóng đã được bật, điều này có thể khiến một số ứng dụng bị trễ.<br> \nĐề xuất: Vô hiệu hóa chức năng thao tác thu phóng thông qua \"Cài đặt - Cài đặt bổ sung - Trợ năng - Thao tác thu phóng\".",
+        "ExpDetail": "Top 5 ứng dụng phản hồi chậm nhất:&lt;br>%1&lt;br>Top 5 lý do phản hồi chậm:&lt;br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "Nguyên nhân: CPU hoạt động ở mức tải lượng cao trong thời gian dài, khiến điện thoại bị nóng. Để tránh quá nhiệt, CPU sẽ tự bảo vệ nó bằng cách cắt giảm hiệu năng.<br> \nĐề xuất: ① Tắt chế độ Tiết kiệm điện. ② Tránh sử dụng CPU ở mức tải lượng cao trong thời gian dài. ③ Làm nguội điện thoại bằng cách dùng cồn hoặc khăn giấy ẩm lau bề mặt điện thoại và duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "CPU quá nóng",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "Nguyên nhân: Tần số CPU thấp có thể ảnh hưởng đến hiệu năng hệ thống, làm chậm tốc độ xử lý của CPU và thời gian phản hồi của ứng dụng.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Tắt chế độ Tiết kiệm điện. ③ Duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Tần suất CPU thấp",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "Nguyên nhân: Dung lượng lưu trữ khả dụng còn dưới 10% do có quá nhiều ứng dụng chạy ngầm.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Bật chức năng mở rộng RAM thông qua \"Cài đặt - Cài đặt hệ thống - RAM\" nếu điện thoại hỗ trợ chức năng này. ③ Định kỳ khởi động lại điện thoại.",
+        "ExpDetail": "Bộ nhớ sắp hết",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "Nguyên nhân: Không còn đủ dung lượng cho bộ nhớ đệm của ứng dụng do còn ít dung lượng lưu trữ. Trong trường hợp này, ứng dụng có thể bị trễ, đóng băng hoặc văng.<br>\nĐề xuất: Xóa dung lượng lưu trữ bằng Trình quản lý Điện thoại tích hợp sẵn của điện thoại bằng cách xóa các ảnh, video và ứng dụng không mong muốn hoặc sao chép chúng sang một máy tính hoặc ổ đĩa USB.",
+        "ExpDetail": "Dung lượng bộ nhớ thấp",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "Nguyên nhân: Phiên bản HĐH không phải là phiên bản chính thức và có thể hoạt động không ổn định.<br> \nĐề xuất: Cài đặt phiên bản HĐH chính thức hoặc chờ cập nhật lên phiên bản beta.",
+        "ExpDetail": "Phiên bản beta",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "Nguyên nhân: Điện thoại được cài đặt một ứng dụng quản lý điện thoại hoặc ứng dụng tối ưu hóa hệ thống của bên thứ ba (chẳng hạn như Tencent Mobile Manager và 360 Mobile Safe). Các ứng dụng đó có thể khiến điện thoại bị trễ.<br>\nĐề xuất: Gỡ cài đặt mọi ứng dụng tối ưu hóa hệ thống của bên thứ ba và sử dụng Trình quản lý Điện thoại tích hợp sẵn của điện thoại để tối ưu hóa điện thoại.",
+        "ExpDetail": "Các ứng dụng làm giảm hiệu năng",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "Nguyên nhân: Thao tác thu phóng đã được bật, điều này có thể khiến một số ứng dụng bị trễ.<br> \nĐề xuất: Vô hiệu hóa chức năng thao tác thu phóng thông qua \"Cài đặt - Cài đặt bổ sung - Trợ năng - Thao tác thu phóng\".",
+        "ExpDetail": "Cử chỉ phóng đại được bật (tùy chọn của nhà phát triển)",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "\n1. Xác nhận xem thông tin chẩn đoán có phù hợp với mô tả của người dùng không; nếu có, yêu cầu người dùng xóa bộ nhớ đệm của các ứng dụng này và nâng cấp chúng lên phiên bản mới nhất.<br>\n2. Khuyến cáo người dùng nên khởi động lại điện thoại.<br>\n3. Khuyến cáo người dùng nên kịp thời xóa các ứng dụng chạy ngầm.<br>\n4. Khuyến cáo người dùng nên nâng cấp lên HĐH mới nhất.<br>\n5. Lấy nhật ký người dùng về hiện tượng trễ và yêu cầu kỹ thuật viên phân tích.",
+        "ExpDetail": "Nguyên nhân không xác định",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lý do phản hồi chậm khi đánh thức hoặc tắt màn hình",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "Nguyên nhân: CPU hoạt động ở mức tải lượng cao trong thời gian dài, khiến điện thoại bị nóng. Để tránh quá nhiệt, CPU sẽ tự bảo vệ nó bằng cách cắt giảm hiệu năng.<br> \nĐề xuất: ① Tắt chế độ Tiết kiệm điện. ② Tránh sử dụng CPU ở mức tải lượng cao trong thời gian dài. ③ Làm nguội điện thoại bằng cách dùng cồn hoặc khăn giấy ẩm lau bề mặt điện thoại và duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "CPU quá nóng",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "Nguyên nhân: Tần số CPU thấp có thể ảnh hưởng đến hiệu năng hệ thống, làm chậm tốc độ xử lý của CPU và thời gian phản hồi của ứng dụng.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Tắt chế độ Tiết kiệm điện. ③ Duy trì khả năng khuếch tán nhiệt hiệu quả.",
+        "ExpDetail": "Tần suất CPU thấp",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "Nguyên nhân: Dung lượng lưu trữ khả dụng còn dưới 10% do có quá nhiều ứng dụng chạy ngầm.<br>\nĐề xuất: ① Kịp thời xóa các ứng dụng chạy ngầm. ② Bật chức năng mở rộng RAM thông qua \"Cài đặt - Cài đặt hệ thống - RAM\" nếu điện thoại hỗ trợ chức năng này. ③ Định kỳ khởi động lại điện thoại.",
+        "ExpDetail": "Bộ nhớ sắp hết",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "Nguyên nhân: Không còn đủ dung lượng cho bộ nhớ đệm của ứng dụng do còn ít dung lượng lưu trữ. Trong trường hợp này, ứng dụng có thể bị trễ, đóng băng hoặc văng.<br>\nĐề xuất: Xóa dung lượng lưu trữ bằng Trình quản lý Điện thoại tích hợp sẵn của điện thoại bằng cách xóa các ảnh, video và ứng dụng không mong muốn hoặc sao chép chúng sang một máy tính hoặc ổ đĩa USB.",
+        "ExpDetail": "Dung lượng bộ nhớ thấp",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "Nguyên nhân: Phiên bản HĐH không phải là phiên bản chính thức và có thể hoạt động không ổn định.<br> \nĐề xuất: Cài đặt phiên bản HĐH chính thức hoặc chờ cập nhật lên phiên bản beta.",
+        "ExpDetail": "Phiên bản beta",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "Nguyên nhân: Điện thoại được cài đặt một ứng dụng quản lý điện thoại hoặc ứng dụng tối ưu hóa hệ thống của bên thứ ba (chẳng hạn như Tencent Mobile Manager và 360 Mobile Safe). Các ứng dụng đó có thể khiến điện thoại bị trễ.<br>\nĐề xuất: Gỡ cài đặt mọi ứng dụng tối ưu hóa hệ thống của bên thứ ba và sử dụng Trình quản lý Điện thoại tích hợp sẵn của điện thoại để tối ưu hóa điện thoại.",
+        "ExpDetail": "Các ứng dụng làm giảm hiệu năng",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "Nguyên nhân: Quá nhiều ứng dụng có thể dẫn đến thiếu dung lượng lưu trữ, giảm hiệu năng của điện thoại và gây ra tình trạng phản hồi chậm và trễ. \nĐề xuất: Gỡ cài đặt các ứng dụng không cần thiết và định kỳ dọn dẹp thiết bị để duy trì hiệu năng tối ưu.",
+        "ExpDetail": "Quá nhiều ứng dụng bên thứ ba",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "Nguyên nhân: Các ứng dụng tự động khởi chạy phải sử dụng các tài nguyên hệ thống như dung lượng lưu trữ và CPU. Quá nhiều ứng dụng tự động khởi chạy sẽ làm thiếu tài nguyên hệ thống, ảnh hưởng đến tốc độ và hiệu năng của các ứng dụng khác.<br>\nĐề xuất: Đóng các ứng dụng tự động khởi chạy không mong muốn thông qua \"Cài đặt - Quản lý ứng dụng - Ứng dụng tự động khởi chạy\".",
+        "ExpDetail": "Quá nhiều ứng dụng tự động khởi chạy",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "\n1. Xác nhận xem thông tin chẩn đoán có phù hợp với mô tả của người dùng không; nếu có, yêu cầu người dùng xóa bộ nhớ đệm của các ứng dụng này và nâng cấp chúng lên phiên bản mới nhất.<br>\n2. Khuyến cáo người dùng nên khởi động lại điện thoại.<br>\n3. Khuyến cáo người dùng nên kịp thời xóa các ứng dụng chạy ngầm.<br>\n4. Khuyến cáo người dùng nên nâng cấp lên HĐH mới nhất.<br>\n5. Lấy nhật ký người dùng về hiện tượng trễ và yêu cầu kỹ thuật viên phân tích.",
+        "ExpDetail": "Nguyên nhân không xác định",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lý do khởi động điện thoại chậm trễ:",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "Mức tải CPU trên điện thoại quá cao. Hãy đóng các ứng dụng đang chạy dưới nền.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "Mức tải CPU trên điện thoại quá cao. Hãy đóng các ứng dụng đang chạy dưới nền.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "Mức tải CPU trên điện thoại quá cao. Hãy đóng các ứng dụng đang chạy dưới nền.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "Mức tải CPU trên điện thoại quá cao. Hãy đóng các ứng dụng đang chạy dưới nền.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "Mức tải CPU trên điện thoại quá cao. Hãy đóng các ứng dụng đang chạy dưới nền.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "Điện thoại bị quá nhiệt. Yêu cầu người dùng xóa ứng dụng chạy ngầm và không dùng điện thoại trong 5 phút.",
+        "ExpDetail": "Máy ảnh chậm khởi động – bị quá nhiệt",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "Còn ít dung lượng lưu trữ khả dụng. Kiểm tra số lượng ứng dụng chạy ngầm và yêu cầu người dùng xóa ứng dụng.",
+        "ExpDetail": "Máy ảnh chậm khởi động – còn ít dung lượng lưu trữ",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "Lượng tải quá cao. Yêu cầu người dùng xóa ứng dụng chạy ngầm.",
+        "ExpDetail": "Máy ảnh chậm khởi động – lượng tải cao",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "Yêu cầu người dùng khởi động lại điện thoại rồi thử lại.",
+        "ExpDetail": "Máy ảnh bị văng (crash) – kết xuất phiên (session dump) đã được kích hoạt",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "Điện thoại bị quá nhiệt. Yêu cầu người dùng xóa ứng dụng chạy ngầm và không dùng điện thoại trong 5 phút.",
+        "ExpDetail": "Máy ảnh đang nóng lên – điện thoại đã bị quá nhiệt trước khi máy ảnh khởi động",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "Nguyên nhân là do sử dụng máy ảnh quá lâu. Yêu cầu người dùng giảm thời gian sử dụng máy ảnh quá lâu.",
+        "ExpDetail": "Máy ảnh đang nóng lên – máy ảnh bị quá nhiệt",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "Điện thoại bị quá nhiệt. Yêu cầu người dùng xóa ứng dụng chạy ngầm và không dùng điện thoại trong 5 phút.",
+        "ExpDetail": "Xem trước của máy ảnh bị trễ – tần số bị giới hạn do quá nhiệt",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "Còn ít dung lượng lưu trữ khả dụng. Kiểm tra số lượng ứng dụng chạy ngầm và yêu cầu người dùng xóa ứng dụng.",
+        "ExpDetail": "Xem trước của máy ảnh bị trễ – còn ít dung lượng lưu trữ",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "Yêu cầu người dùng di chuyển đến một môi trường sáng hơn.",
+        "ExpDetail": "Xem trước của máy ảnh bị trễ – tốc độ khung hình bị giảm trong môi trường tối",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "Máy ảnh quá gần chủ thể. Yêu cầu người dùng giữ khoảng cách với chủ thể.",
+        "ExpDetail": "Máy ảnh bị mờ trong lúc xem trước ảnh – bị mất lấy nét",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "Điện thoại bị quá nhiệt. Yêu cầu người dùng xóa ứng dụng chạy ngầm và không dùng điện thoại trong 5 phút.",
+        "ExpDetail": "Máy ảnh bị trễ trong lúc xem trước ảnh – tần số bị giới hạn do quá nhiệt",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "Còn ít dung lượng lưu trữ khả dụng. Kiểm tra số lượng ứng dụng chạy ngầm và yêu cầu người dùng xóa ứng dụng.",
+        "ExpDetail": "Máy ảnh bị trễ trong lúc xem trước ảnh – còn ít dung lượng lưu trữ",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "Máy ảnh quá gần chủ thể. Yêu cầu người dùng giữ khoảng cách với chủ thể.",
+        "ExpDetail": "Ảnh chụp bằng máy ảnh bị mờ",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "Yêu cầu người dùng xóa ứng dụng chạy ngầm và khởi động lại máy ảnh.",
+        "ExpDetail": "Màn hình chuyển sang màu đen trong lúc chụp ảnh – còn ít dung lượng lưu trữ",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "Yêu cầu chuyên viên dịch vụ hậu mãi ghi lại nhật ký ghi và gửi lại chúng kèm theo mã lỗi thuật toán.",
+        "ExpDetail": "Màn hình bị mờ trong lúc chụp ảnh – mã lỗi thuật toán: %1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "Điện thoại bị quá nhiệt. Yêu cầu người dùng xóa ứng dụng chạy ngầm và không dùng điện thoại trong 5 phút.",
+        "ExpDetail": "Không thể chụp ảnh – bị quá nhiệt",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "Yêu cầu người dùng xóa ứng dụng chạy ngầm và khởi động lại máy ảnh.",
+        "ExpDetail": "Không thể chụp ảnh – còn ít dung lượng lưu trữ",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "Yêu cầu người dùng xóa ứng dụng chạy ngầm và khởi động lại máy ảnh.",
+        "ExpDetail": "Không thể chụp ảnh – tài nguyên âm thanh không được tải",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "Điện thoại bị quá nhiệt. Yêu cầu người dùng xóa ứng dụng chạy ngầm và không dùng điện thoại trong 5 phút.",
+        "ExpDetail": "Ghi video bị trễ trong lúc xem trước – tần số bị giới hạn do quá nhiệt",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "Còn ít dung lượng lưu trữ khả dụng. Kiểm tra số lượng ứng dụng chạy ngầm và yêu cầu người dùng xóa ứng dụng.",
+        "ExpDetail": "Ghi video bị trễ trong lúc xem trước – còn ít dung lượng lưu trữ",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "Điện thoại bị quá nhiệt. Yêu cầu người dùng xóa ứng dụng chạy ngầm và không dùng điện thoại trong 5 phút.",
+        "ExpDetail": "Chụp ảnh bị trễ – bị quá nhiệt",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "Còn ít dung lượng lưu trữ khả dụng. Kiểm tra số lượng ứng dụng chạy ngầm và yêu cầu người dùng xóa ứng dụng.",
+        "ExpDetail": "Chụp ảnh bị trễ – còn ít dung lượng lưu trữ",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "Lượng tải quá cao. Yêu cầu người dùng xóa ứng dụng chạy ngầm.",
+        "ExpDetail": "Chụp ảnh bị trễ – tải lượng cao",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "Điện thoại bị quá nhiệt. Yêu cầu người dùng xóa ứng dụng chạy ngầm và không dùng điện thoại trong 5 phút.",
+        "ExpDetail": "Đã hết thời gian chờ khi lưu một tệp bản ghi – bị quá nhiệt",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "Còn ít dung lượng lưu trữ khả dụng. Kiểm tra số lượng ứng dụng chạy ngầm và yêu cầu người dùng xóa ứng dụng.",
+        "ExpDetail": "Đã hết thời gian chờ khi lưu một tệp bản ghi – còn ít dung lượng lưu trữ",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "Lượng tải quá cao. Yêu cầu người dùng xóa ứng dụng chạy ngầm.",
+        "ExpDetail": "Đã hết thời gian chờ khi lưu một tệp bản ghi – tải lượng cao",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "Không liên quan đến sự cố mạng",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "Hệ thống của bạn chậm. Hãy đóng các ứng dụng đang chạy dưới nền hoặc khởi động lại thiết bị.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề, gửi các nhật ký đó cho nhà phát triển để phân tích và thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề, gửi các nhật ký đó cho nhà phát triển để phân tích và thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề và gửi các nhật ký đó cho nhà phát triển để phân tích. Nếu phát lại qua loa ngoài không bình thường, hãy kiểm tra xem có phát lại bình thường qua tai nghe không. Nếu có, hãy thay thế loa ngoài. Nếu sự cố tương tự xảy ra, hãy thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề, gửi các nhật ký đó cho nhà phát triển để phân tích và thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện sự cố, gửi các nhật ký đó cho nhà phát triển để phân tích và thay thế loa ngoài. Nếu sự cố vẫn tiếp diễn, hãy thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "Hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề, gửi các nhật ký đó cho nhà phát triển để phân tích và cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "Không liên quan đến sự cố mạng",
+        "ExpDetail": "Số lần xảy ra lỗi ghi âm, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "Hệ thống của bạn chậm. Hãy đóng các ứng dụng đang chạy dưới nền hoặc khởi động lại thiết bị.",
+        "ExpDetail": "Số lần xảy ra lỗi ghi âm, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề, gửi các nhật ký đó cho nhà phát triển để phân tích và thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi ghi âm, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề và gửi các nhật ký đó cho nhà phát triển để phân tích. Hãy kiểm tra xem việc ghi âm bằng tai nghe có bình thường không. Nếu có, hãy thay thế micrô của điện thoại. Nếu sự cố tương tự xảy ra, hãy thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi ghi âm, chạy chậm hoặc mất âm thanh: %1",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "Do sự cố mạng gây ra. Hãy kiểm tra kết nối mạng.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại hoặc chạy chậm: %1",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "Không liên quan đến mạng. Hãy kiểm tra cài đặt ứng dụng.",
+        "ExpDetail": "Số lần xảy ra lỗi phát lại hoặc chạy chậm: %1",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "Đối với các loại sự cố không thể tự động phân tích được, bạn nên sử dụng phiên bản mới nhất có trong App Market hoặc xóa bộ nhớ đệm và dữ liệu của ứng dụng rồi thử lại.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "Do chính ứng dụng này gây ra.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "Đối với các loại sự cố không thể tự động phân tích được, bạn nên sử dụng phiên bản mới nhất có trong App Market hoặc xóa bộ nhớ đệm và dữ liệu của ứng dụng rồi thử lại.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "Ứng dụng không được tải xuống từ App Market chính thức. Bạn nên tải ứng dụng xuống từ App Market chính thức.",
+        "ExpDetail": "Tổng số lần xảy ra: %1 (để tham khảo)",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "Ứng dụng không được tải xuống từ App Market chính thức. Bạn nên tải ứng dụng xuống từ App Market chính thức.",
+        "ExpDetail": "Tổng số lần xảy ra: %1 (để tham khảo)",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "Một số ứng dụng bên thứ ba có thể xuất hiện sự bất thường trong quá trình sử dụng, bao gồm cả (%1), bạn nên cập nhật lên phiên bản mới nhất",
+        "ExpDetail": "1. Ngoại lệ về khả năng tương thích;<br>2. Ứng dụng 32 bit",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Số lần xảy ra lỗi cuộc gọi thoại hoặc video, chạy chậm hoặc mất âm thanh trên ứng dụng bên thứ ba: %1",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "Không liên quan đến sự cố mạng",
+        "ExpDetail": "Số lần xảy ra lỗi cuộc gọi thoại hoặc video, chạy chậm hoặc mất âm thanh trên ứng dụng bên thứ ba: %1",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "Khắc phục sự cố của các bộ phận liên quan đến chức năng phát lại âm thanh và ghi âm (ví dụ: loa ngoài và micrô)",
+        "ExpDetail": "Số lần xảy ra lỗi cuộc gọi thoại hoặc video, chạy chậm hoặc mất âm thanh trên ứng dụng bên thứ ba: %1",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "Hệ thống của bạn chậm. Hãy đóng các ứng dụng đang chạy dưới nền hoặc khởi động lại thiết bị.",
+        "ExpDetail": "Số lần xảy ra lỗi cuộc gọi thoại hoặc video, chạy chậm hoặc mất âm thanh trên ứng dụng bên thứ ba: %1",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề, gửi các nhật ký đó cho nhà phát triển để phân tích và thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi cuộc gọi thoại hoặc video, chạy chậm hoặc mất âm thanh trên ứng dụng bên thứ ba: %1",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và lưu nhật ký âm thanh tái hiện vấn đề, gửi các nhật ký đó cho nhà phát triển để phân tích và thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi cuộc gọi thoại hoặc video, chạy chậm hoặc mất âm thanh trên ứng dụng bên thứ ba: %1",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "Ghi lại và lưu nhật ký âm thanh tái hiện vấn đề, gửi các nhật ký đó cho nhà phát triển để phân tích và cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy thay thế bo mạch chủ để xác thực chéo.",
+        "ExpDetail": "Số lần xảy ra lỗi cuộc gọi thoại hoặc video, chạy chậm hoặc mất âm thanh trên ứng dụng bên thứ ba: %1",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "Hãy thử một mạng khác. Nếu sự cố vẫn tiếp diễn, hãy ghi lại và gửi nhật ký âm thanh cũng như nhật ký mạng cho nhà phát triển để phân tích.",
+        "ExpDetail": "Đã có %1 lần cuộc gọi WeChat tắt tiếng do lỗi mạng",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. Nếu sự cố xảy ra ở các địa điểm tương tự, hãy so sánh điện thoại của bạn với các điện thoại khác thuộc cùng một nhà mạng. Nếu những điện thoại này có sự cố giống nhau, hãy liên hệ với nhà mạng để giải quyết.<br>2. Nếu sự cố xảy ra vào những thời điểm tương tự, hãy kiểm tra xem bạn có đang ở nơi bắt tín hiệu kém như tầng hầm, nhà để xe, khu đông dân cư hoặc ô tô đang chạy hay không.<br>3. Nếu có lời nhắc trên WeChat cho biết mạng của bạn hoặc của bên kia không ổn định cho cuộc gọi hiện tại, hình ảnh bị mờ là bình thường do các chiến lược thiết kế của WeChat.",
+        "ExpDetail": "Đã có %1 lần cuộc gọi video WeChat bị mờ do lỗi mạng",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. Vui lòng cập nhật ứng dụng WeChat, sau đó khởi động lại điện thoại và ứng dụng.<br> 2. Nếu WeChat nhắc rằng mạng của bên kia không ổn định trong khi gọi, hình ảnh bị mờ do điện thoại của bên kia có kết nối mạng kém.",
+        "ExpDetail": "Đã có %1 lần cuộc gọi video WeChat bị mờ do lỗi mạng",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "Hãy nói với khách hàng không sử dụng điện thoại trong khi đang sạc.",
+        "ExpDetail": "Sử dụng điện thoại lâu trong khi đang sạc: %1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "Nói với khách hàng không sạc điện thoại trong môi trường lạnh.",
+        "ExpDetail": "Quá trình sạc chậm lại để bảo vệ pin vì nhiệt độ môi trường quá thấp: %1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "Sạc chậm. Hãy sử dụng bộ sạc và cáp đi cùng với thiết bị để sạc nhanh hơn.",
+        "ExpDetail": "Sạc USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "Mức pin càng cao thì sạc càng chậm để bảo vệ tình trạng pin.",
+        "ExpDetail": "Sạc dòng nhỏ dẫn đến tốc độ sạc chậm vì mức pin ban đầu quá cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "Bộ điều hợp sử dụng điện thế cao hơn mức thiết kế của thiết bị. Hãy sử dụng đúng bộ sạc.",
+        "ExpDetail": "Điện áp của bộ điều hợp quá cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "Đã phát hiện thấy kết nối pin bị lỏng. Hãy kiểm tra các đầu nối của pin và BTB.",
+        "ExpDetail": "Tiếp xúc pin kém: %1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "Pin không được cho phép. Hãy sử dụng pin chính hãng từ nhà sản xuất thiết bị.",
+        "ExpDetail": "Pin không chính hãng: %1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "Nhiệt độ thiết bị quá thấp. Quá trình sạc sẽ tạm dừng trước khi pin đầy để giữ cho pin ở trạng thái tốt.",
+        "ExpDetail": "Không thể sạc đầy do nhiệt độ thấp: %1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "Rút phích cắm và cắm lại cáp sạc để tiếp tục sạc",
+        "ExpDetail": "Sạc liên tục trong thời gian dài: %1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "Bộ điều hợp sử dụng điện thế cao hơn mức thiết kế của thiết bị. Hãy sử dụng đúng bộ sạc.",
+        "ExpDetail": "Điện áp của bộ điều hợp quá cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "Nhiệt độ thiết bị quá cao. Quá trình sạc tạm dừng vì sự an toàn của bạn.",
+        "ExpDetail": "Quá trình sạc dừng lại do nhiệt độ cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "Nhiệt độ thiết bị quá cao. Vì sự an toàn của bạn, pin sẽ không được sạc đầy.",
+        "ExpDetail": "Không thể sạc đầy do nhiệt độ cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "Nhiệt độ thiết bị quá thấp. Quá trình sạc tạm dừng để bảo vệ pin.",
+        "ExpDetail": "Quá trình sạc dừng lại do nhiệt độ thấp: %1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "Đã sạc đầy: %1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "Hãy dùng thử bộ điều hợp, cáp hoặc thiết bị khác để tìm ra nguyên nhân nào gây ra sự cố. Nếu sự cố do cáp hoặc bộ điều hợp gây ra, hãy thay thế phụ kiện bị lỗi. Nếu sự cố do thiết bị gây ra, hãy cố gắng kết nối lại các đầu nối BTB dành cho pin và cổng USB. Nếu sự cố vẫn tiếp diễn, hãy trả về nhà máy để sửa chữa. Cập nhật phần mềm nếu đây không phải là sự cố phần cứng.",
+        "ExpDetail": "Không thể sạc: %1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "Hãy dùng thử bộ điều hợp, cáp hoặc thiết bị khác để tìm ra nguyên nhân nào gây ra sự cố. Nếu sự cố do cáp hoặc bộ điều hợp gây ra, hãy thay thế phụ kiện bị lỗi. Nếu sự cố do thiết bị gây ra, hãy cố gắng kết nối lại các đầu nối BTB dành cho pin và cổng USB. Nếu sự cố vẫn tiếp diễn, hãy trả về nhà máy để sửa chữa. Cập nhật phần mềm nếu đây không phải là sự cố phần cứng.",
+        "ExpDetail": "Sạc ngắt quãng: %1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "Hiệu chuẩn pin ở mức nhiệt độ phòng: Tiếp tục cắm thiết bị trong 2 giờ sau khi sạc đầy.",
+        "ExpDetail": "Kết quả đo của vôn kế thay đổi nhanh: %1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "Hiệu chuẩn pin ở mức nhiệt độ phòng: Tiếp tục cắm thiết bị trong 2 giờ sau khi sạc đầy.",
+        "ExpDetail": "Kết quả đo của vôn kế thay đổi nhanh: %1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "Hiệu chuẩn pin ở mức nhiệt độ phòng: Tiếp tục cắm thiết bị trong 2 giờ sau khi sạc đầy.",
+        "ExpDetail": "Kết quả đo của vôn kế thay đổi nhanh: %1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "Sử dụng pin chính hãng",
+        "ExpDetail": "Quá trình sạc chậm lại do pin không chính hãng: %1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "Sử dụng bộ điều hợp chính hãng",
+        "ExpDetail": "Quá trình sạc chậm lại do bộ điều hợp không chính hãng: %1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "Kiểm tra xem cáp có bị lão hóa không. Hãy dùng thử một cáp khác.",
+        "ExpDetail": "Quá trình sạc chậm lại do sự cố cáp: %1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "Kiểm tra xem bộ điều hợp sạc nhanh có hoạt động không. Hãy dùng thử một bộ điều hợp khác.",
+        "ExpDetail": "Quá trình sạc chậm lại vì không dùng chức năng sạc nhanh: %1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "Sử dụng bộ điều hợp chính hãng",
+        "ExpDetail": "Quá trình sạc chậm lại do bộ điều hợp nguồn tối đa không chính hãng: %1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "Đảm bảo thiết bị của bạn ở nhiệt độ phòng trước khi sạc",
+        "ExpDetail": "Quá trình sạc chậm lại để bảo vệ pin vì nhiệt độ điện thoại quá thấp: %1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "Đảm bảo thiết bị của bạn ở nhiệt độ phòng trước khi sạc",
+        "ExpDetail": "Quá trình sạc chậm lại để bảo vệ pin vì nhiệt độ điện thoại quá cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "Sạc thiết bị ở một nhiệt độ thích hợp",
+        "ExpDetail": "Quá trình sạc chậm lại vì nhiệt độ pin quá cao/quá thấp: %1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "Sử dụng bộ điều hợp chính hãng",
+        "ExpDetail": "Quá trình sạc chậm lại vì điện thoại kết nối với PC qua USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "Không sử dụng điện thoại trong khi sạc",
+        "ExpDetail": "Quá trình sạc chậm lại vì mức sử dụng pin của điện thoại quá cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "Kiểm tra xem cổng sạc có bị bụi bẩn hoặc tiếp xúc kém không. Nếu cổng sạc bình thường, hãy kiểm tra bộ điều hợp, cáp và USB PCB.",
+        "ExpDetail": "Quá trình sạc chậm lại do dòng điện bất thường: %1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "Không sử dụng điện thoại trong khi sạc",
+        "ExpDetail": "Quá trình sạc chậm lại vì màn hình bị bật quá lâu: %1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "Không sử dụng điện thoại trong khi sạc",
+        "ExpDetail": "Quá trình sạc chậm lại vì camera bị sử dụng quá lâu: %1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "Không sử dụng điện thoại trong khi sạc",
+        "ExpDetail": "Quá trình sạc chậm lại do cuộc gọi điện thoại kéo dài: %1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "Không sử dụng điện thoại trong khi sạc",
+        "ExpDetail": "Nhiệt độ hoặc mức sử dụng pin quá cao trong thời gian quá dài: %1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "Hãy nói với khách hàng sạc điện thoại khi màn hình tắt, trong môi trường có nhiệt độ từ 15℃ đến 35℃. Sau khi điện thoại được sạc đầy, không sử dụng điện thoại và duy trì kết nối của điện thoại với bộ sạc trong 2 giờ để hiệu chuẩn bộ đếm cu-lông.",
+        "ExpDetail": "Lỗi hiển thị dung lượng pin: %1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "Hãy nói với khách hàng sạc điện thoại khi màn hình tắt, trong môi trường có nhiệt độ từ 15℃ đến 35℃. Sau khi điện thoại được sạc đầy, không sử dụng điện thoại và duy trì kết nối của điện thoại với bộ sạc trong 2 giờ để hiệu chuẩn bộ đếm cu-lông.",
+        "ExpDetail": "Lỗi hiển thị dung lượng pin: %1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "Hãy nói với khách hàng sạc điện thoại khi màn hình tắt, trong môi trường có nhiệt độ từ 15℃ đến 35℃. Sau khi điện thoại được sạc đầy, không sử dụng điện thoại và duy trì kết nối của điện thoại với bộ sạc trong 2 giờ để hiệu chuẩn bộ đếm cu-lông.",
+        "ExpDetail": "Lỗi hiển thị dung lượng pin: %1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "Hãy nói với khách hàng sạc điện thoại khi màn hình tắt, trong môi trường có nhiệt độ từ 15℃ đến 35℃. Sau khi điện thoại được sạc đầy, không sử dụng điện thoại và duy trì kết nối của điện thoại với bộ sạc trong 2 giờ để hiệu chuẩn bộ đếm cu-lông.",
+        "ExpDetail": "Lỗi hiển thị dung lượng pin: %1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "Hãy nói với khách hàng sạc điện thoại khi màn hình tắt, trong môi trường có nhiệt độ từ 15℃ đến 35℃. Sạc điện thoại ở những nơi có nhiệt độ môi trường cao hoặc chơi các game nặng trong khi sạc sẽ khiến điện thoại nóng lên. Khi nhiệt độ điện thoại tăng lên 38℃ trở lên, hệ thống sẽ tự động giảm dòng điện và tốc độ sạc.",
+        "ExpDetail": "Pin quá nóng: %1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "Hãy nói với khách hàng sạc điện thoại trong môi trường có nhiệt độ từ 15℃ đến 35℃. Nếu nhiệt độ môi trường dưới 15℃, cơ chế bảo vệ sẽ được kích hoạt để giảm dòng điện và tốc độ sạc.",
+        "ExpDetail": "Nhiệt độ pin thấp: %1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1. Chuyển điện thoại sang chế độ kỹ thuật và kiểm tra xem dòng điện sạc có bình thường không (889 - Gỡ lỗi thiết bị - Kiểm tra sạc).&lt;br>2. Nếu dòng điện sạc bình thường, sự cố này có thể do mức tiêu thụ pin cao (chẳng hạn như khi chơi các game nặng) gây ra.",
+        "ExpDetail": "Tốc độ sạc chậm do dòng điện thấp: %1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1. Kiểm tra với khách hàng xem họ có sạc điện thoại qua PC không. Nếu có, hãy nói với họ sử dụng bộ điều hợp chính hãng để sạc điện thoại. &lt;br>2. Nếu không, hãy kiểm tra xem cáp sạc có bị hư hỏng hoặc tiếp xúc kém không.",
+        "ExpDetail": "Sạc qua PC: %1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1. Ngoài ra, sử dụng bộ điều hợp chính hãng và cáp sạc chính hãng để xác minh. &lt;br>2. Nếu có tính năng sạc nhanh, hãy nói với khách hàng sử dụng bộ điều hợp chính hãng. &lt;br>3. Nếu sự cố vẫn tiếp diễn, hãy kiểm tra mạch sạc trong cổng sạc của điện thoại.",
+        "ExpDetail": "Chức năng sạc nhanh không hoạt động: %1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1. Sự cố này do quá trình sạc pin bằng bộ điều hợp không chính hãng gây ra. &lt;br>2. Nói với khách hàng sạc bằng bộ điều hợp chính hãng.",
+        "ExpDetail": "Bộ điều hợp không chính hãng: %1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "Nói với khách hàng sạc điện thoại trong môi trường có nhiệt độ từ 15℃ đến 35℃ và không chơi các game nặng trong khi sạc. Chơi game nặng trong khi sạc sẽ khiến điện thoại nóng lên. Khi nhiệt độ điện thoại tăng lên 38℃ trở lên, hệ thống sẽ tự động giảm dòng điện và tốc độ sạc.",
+        "ExpDetail": "Tốc độ sạc chậm do kiểm soát nhiệt độ hoặc dòng điện cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "Quá nhiều ứng dụng đang chạy dưới nền. Hãy nói với khách hàng đóng các tác vụ không sử dụng đang chạy dưới nền.",
+        "ExpDetail": "Tốc độ sạc chậm do mức sử dụng pin của hệ thống cao: %1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "Nói với khách hàng không chơi game trong khi sạc vì điều này sẽ làm giảm dòng điện sạc.",
+        "ExpDetail": "Tốc độ sạc chậm do sử dụng trong khi sạc: %1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1. Ngoài ra, sử dụng bộ điều hợp chính hãng và cáp sạc chính hãng để xác minh. &lt;br>2. Nếu có tính năng sạc nhanh, hãy nói với khách hàng sử dụng bộ điều hợp chính hãng. &lt;br>3. Nếu sự cố vẫn tiếp diễn, hãy kiểm tra mạch sạc trong cổng sạc của điện thoại.",
+        "ExpDetail": "Sạc ngắt quãng khi sử dụng VOOC: %1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1. Ngoài ra, sử dụng bộ điều hợp chính hãng và cáp sạc chính hãng để xác minh. &lt;br>2. Nếu sự cố được khắc phục, hãy nói với khách hàng sử dụng bộ điều hợp chính hãng. &lt;br>3. Nếu sự cố vẫn tiếp diễn, hãy kiểm tra mạch sạc trong cổng sạc của điện thoại.",
+        "ExpDetail": "Sạc ngắt quãng khi sử dụng bộ sạc thông thường: %1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1. Sạc điện thoại bằng bộ điều hợp để xem có bất kỳ lời nhắc nào cho biết pin không chính hãng không. &lt;br>2. Tháo điện thoại ra và kiểm tra xem pin có chính hãng không hoặc pin có được lắp đặt đúng cách không.",
+        "ExpDetail": "Lắp pin không đúng cách hoặc sử dụng pin không chính hãng: %1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "Nếu có lỗi cho biết trong mạch sạc không có dòng điện nào được tạo ra, hãy kiểm tra mặt tiếp xúc USB và mô-đun phần cứng sạc pin.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "Vui lòng kiểm tra:&lt;br>1. Điện thoại có được sạc đầy không.&lt;br>2. Máy tính phát hiện thấy dòng điện sạc tương đối thấp. Vui lòng kiểm tra xem điện thoại có đang làm cạn kiệt pin không.",
+        "ExpDetail": "Không vượt qua được bước kiểm tra",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='Excellent';}else if(result>=excellent){resultText+='Good';}else{resultText+='Poor';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Excellent：'+good+'-100%，Good：'+excellent+'-'+good+'%，Poor：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1. Khi dung lượng pin giảm nhanh, tuổi thọ pin của điện thoại sẽ ngắn lại. Bạn có thể lựa chọn thay thế pin.&lt;br>2. Cố gắng sạc điện thoại ngay khi bạn nhận thấy pin sắp hết để tối đa hóa tuổi thọ pin.",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = 'Fail:';if(result>=good){resultText+='Excellent';}else if(result>excellent){resultText+='Good';}else{resultText+='Poor';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Excellent：'+good+'-100%，Good：'+excellent+'-'+good+'%，Poor：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a. Bạn nên đề nghị nhà mạng tại địa phương hoặc bên tối ưu hóa mạng tại địa phương thực hiện kiểm tra tại chỗ.&lt;br>b. Bật Chế độ máy bay khi đang ở chế độ chờ để tránh tiêu thụ pin do mạng không ổn định.",
+        "ExpDetail": "Thường xuyên ngắt kết nối và kết nối lại dữ liệu di động do môi trường mạng phức tạp/kém",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a. Bạn nên đề nghị nhà mạng tại địa phương hoặc bên tối ưu hóa mạng tại địa phương thực hiện kiểm tra tại chỗ.&lt;br>b. Bật Chế độ máy bay khi đang ở chế độ chờ để tránh tiêu thụ pin do mạng không ổn định.",
+        "ExpDetail": "Không có dịch vụ do tín hiệu mạng yếu",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a. Bạn nên đề nghị nhà mạng tại địa phương hoặc bên tối ưu hóa mạng tại địa phương thực hiện kiểm tra tại chỗ.&lt;br>b. Bật Chế độ máy bay khi đang ở chế độ chờ để tránh tiêu thụ pin do mạng không ổn định.",
+        "ExpDetail": "Chọn lại ô do môi trường mạng phức tạp/tín hiệu kém",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a. Bạn nên đề nghị nhà mạng tại địa phương hoặc bên tối ưu hóa mạng tại địa phương thực hiện kiểm tra tại chỗ.&lt;br>b. Bật Chế độ máy bay khi đang ở chế độ chờ để tránh tiêu thụ pin do mạng không ổn định.",
+        "ExpDetail": "CPU thường xuyên vận hành do môi trường mạng phức tạp/tín hiệu không ổn định",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a. Bạn nên đề nghị nhà mạng tại địa phương hoặc bên tối ưu hóa mạng tại địa phương thực hiện kiểm tra tại chỗ.&lt;br>b. Bật Chế độ máy bay khi đang ở chế độ chờ để tránh tiêu thụ pin do mạng không ổn định.",
+        "ExpDetail": "Modem thường xuyên vận hành do môi trường mạng phức tạp/tín hiệu không ổn định",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a. Bạn nên đề nghị nhà mạng tại địa phương hoặc bên tối ưu hóa mạng tại địa phương thực hiện kiểm tra tại chỗ.&lt;br>b. Bật Chế độ máy bay khi đang ở chế độ chờ để tránh tiêu thụ pin do mạng không ổn định.",
+        "ExpDetail": "Modem không vào được chế độ ngủ do môi trường mạng phức tạp/tín hiệu không ổn định",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.",
+        "ExpDetail": "Wi-Fi liên tục đánh thức CPU để nhận tin nhắn từ ứng dụng",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. Bạn nên tắt kết nối mạng di động khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Kết nối với Wi-Fi khi ở chế độ chờ.&lt;br>c. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.",
+        "ExpDetail": "Modem liên tục đánh thức CPU để nhận tin nhắn từ ứng dụng",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. Bạn nên tắt kết nối mạng di động khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Kết nối với Wi-Fi khi ở chế độ chờ.&lt;br>c. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.",
+        "ExpDetail": "Modem liên tục vận hành do tin nhắn thường xuyên từ ứng dụng",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "a. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>b. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ App Market tích hợp sẵn.",
+        "ExpDetail": "Các hoạt động thường xuyên của ứng dụng dưới nền liên tục đánh thức CPU",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "a. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>b. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ App Market tích hợp sẵn.",
+        "ExpDetail": "Các hoạt động thường xuyên của ứng dụng dưới nền khiến CPU liên tục hoạt động quá lâu",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. Bạn nên sử dụng băng thông Wi-Fi 5 GHz.&lt;br>b. Tắt Wi-Fi khi ở chế độ chờ hoặc tắt \"Chức năng quét luôn khả dụng\" trong trang cài đặt Wi-Fi.",
+        "ExpDetail": "Can nhiễu lẫn nhau giữa các tín hiệu 4G, 2,4G và Wi-Fi do môi trường mạng phức tạp",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. Môi trường Wi-Fi kém. Hãy kết nối với một kết nối Wi-Fi tốt hơn.&lt;br>b. Bạn nên sử dụng mạng di động.&lt;br>c. Tắt Wi-Fi khi ở chế độ chờ.",
+        "ExpDetail": "Quét tìm Wi-Fi thường xuyên",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. Môi trường Wi-Fi kém. Hãy kết nối với một kết nối Wi-Fi tốt hơn.&lt;br>b. Bạn nên sử dụng mạng di động.&lt;br>c. Tắt Wi-Fi khi ở chế độ chờ.",
+        "ExpDetail": "Gia hạn IP Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. Môi trường Wi-Fi kém. Hãy kết nối với một kết nối Wi-Fi tốt hơn.&lt;br>b. Bạn nên sử dụng mạng di động.&lt;br>c. Tắt Wi-Fi khi ở chế độ chờ.",
+        "ExpDetail": "Cập nhật khóa phát đa hướng Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. Môi trường Wi-Fi kém. Hãy kết nối với một kết nối Wi-Fi tốt hơn.&lt;br>b. Bạn nên sử dụng mạng di động.&lt;br>c. Tắt Wi-Fi khi ở chế độ chờ.",
+        "ExpDetail": "Wi-Fi thường xuyên ngắt kết nối và kết nối lại do môi trường Wi-Fi kém",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "Sử dụng nguồn điện một chiều để phát hiện dòng điện chờ có bình thường không.",
+        "ExpDetail": "Có thể rò rỉ điện năng phần cứng",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Truyền tải lại SMS",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Tự động đồng bộ hóa thời gian qua mạng",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Lỗi hệ thống phụ của cảm biến và âm thanh",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Thường xuyên đánh thức hệ thống phụ âm thanh và cảm biến",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Modem liên tục đánh thức CPU để nhận tin nhắn từ ứng dụng",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Thường xuyên kích hoạt báo thức căn bản",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Kernel liên tục hoạt động quá lâu",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Cảm biến thường xuyên đánh thức CPU",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Bộ đếm cu-lông thường xuyên bị đánh thức",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. Tắt kết nối mạng di động và Wi-Fi khi đang ở chế độ chờ để tránh đánh thức CPU thường xuyên.&lt;br>b. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>c. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ OPPO App Market.",
+        "ExpDetail": "Nguyên nhân không xác định",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "Thiết bị tiêu thụ nhiều pin sau khi phát nhạc trong thời gian dài là điều bình thường.",
+        "ExpDetail": "Nhạc nền",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. Kiểm tra xem có bất kỳ phần mềm nào đang được tải xuống dưới nền không. b. Kiểm tra xem chức năng tự động đồng bộ hóa, dịch vụ đám mây và các chức năng khác có bật không.",
+        "ExpDetail": "Bản tải xuống",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "Sử dụng điểm phát sóng Wi-Fi sẽ tăng mức tiêu thụ pin của điện thoại. Hãy tắt đi khi không sử dụng.",
+        "ExpDetail": "Người dùng bật điểm phát sóng Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "Dựa trên thói quen sử dụng của bạn, pin điện thoại có thể kéo dài khoảng %1, khi màn hình bật, thời gian này là %2 và khi màn hình tắt là %3. Nhấn để xem thêm chi tiết về pin.",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "Bật Độ sáng tự động và tránh sử dụng điện thoại dưới ánh sáng mạnh trong thời gian dài.",
+        "ExpDetail": "Tiêu thụ pin nhanh do độ sáng cao",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "a. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>b. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ App Market tích hợp sẵn.",
+        "ExpDetail": "Pin đang cạn nhanh do các ứng dụng liên tục sử dụng CPU. 5 ứng dụng sử dụng CPU nhiều nhất: %1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "a. Thường xuyên đóng các ứng dụng dưới nền. Nhấn vào \"Đóng tất cả\" trong màn hình Gần đây trước khi chuyển thiết bị sang chế độ chờ.&lt;br>b. Thường xuyên xóa các ứng dụng không cần thiết. Bạn nên tải ứng dụng xuống từ App Market tích hợp sẵn.",
+        "ExpDetail": "Tiêu thụ pin nhanh ở chế độ chờ do dòng điện cao",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "Khách hàng đã sử dụng điện thoại với độ sáng màn hình cao trong thời gian dài. Hãy nói với họ giảm bớt độ sáng khi sử dụng điện thoại.",
+        "ExpDetail": "Độ sáng màn hình cao trong thời gian dài",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "Khách hàng đã sử dụng điện thoại với tốc độ làm mới cao trong thời gian dài. Hãy nói với họ chọn &amp;quot;Tiêu chuẩn&amp;quot; trong &amp;quot;Cài đặt - Màn hình và độ sáng - Thêm - Tốc độ làm mới màn hình&amp;quot;. Lưu ý: Điều này khiến màn hình kém mượt mà.",
+        "ExpDetail": "Tốc độ làm mới cao trong thời gian dài",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "Khách hàng đã sử dụng điện thoại với độ phân giải cao trong thời gian dài. Hãy nói với họ chọn &amp;quot;Tự động chọn&amp;quot; trong &amp;quot;Cài đặt - Màn hình và độ sáng - Thêm - Độ phân giải màn hình&amp;quot;. Điều này khiến nội dung trên màn hình kém rõ nét hơn.",
+        "ExpDetail": "Độ phân giải cao trong thời gian dài",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "Mức sử dụng CPU cao do ứng dụng %1. Hãy nói với khách hàng hạn chế sử dụng %2.",
+        "ExpDetail": "Mức sử dụng CPU cao trong thời gian dài",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "Ứng dụng %1 đã sử dụng CPU trong %2 giờ. Hãy kiểm tra với khách hàng xem họ có cần giữ ứng dụng này luôn chạy toàn thời gian không.",
+        "ExpDetail": "Sử dụng ứng dụng trong thời gian dài",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "Khách hàng đã sử dụng điện thoại với âm lượng cao trong thời gian dài. Âm lượng cao có thể ảnh hưởng đến thính giác và tốn nhiều pin. Hãy nói với khách hàng giảm âm lượng.",
+        "ExpDetail": "Âm lượng cao trong thời gian dài",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "Điện thoại thường xuyên mất tín hiệu. Hãy nói với khách hàng liên hệ với nhà mạng di động.",
+        "ExpDetail": "Thường xuyên không có dịch vụ",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "Điện thoại liên tục tìm kiếm mạng. Hãy nói với khách hàng liên hệ với nhà mạng di động.",
+        "ExpDetail": "Thường xuyên tìm kiếm mạng",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "Bạn đã sử dụng nhiều dữ liệu di động. Bạn có thể tải tệp xuống qua Wi-Fi để kéo dài thời lượng pin.",
+        "ExpDetail": "Mức sử dụng dữ liệu di động cao",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "Bạn đã sử dụng %1 GB dữ liệu qua Wi-Fi trong 24 giờ qua. Bạn có thể muốn xem lại mức sử dụng dữ liệu của mình.",
+        "ExpDetail": "Mức sử dụng dữ liệu Wi-Fi cao",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "Ứng dụng %1 đang tốn nhiều pin. Vui lòng báo cáo sự cố này với nhà phát triển ứng dụng.",
+        "ExpDetail": "Ứng dụng tốn nhiều pin",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "Ứng dụng %1 đã chạy liên tục trong %2 giờ. Bạn có thể muốn cắt giảm sử dụng ứng dụng này.",
+        "ExpDetail": "Sử dụng ứng dụng trong thời gian dài",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "Ứng dụng %1 chạy liên tục dưới nền. Bạn có thể đóng ứng dụng này khi không sử dụng nữa.",
+        "ExpDetail": "Ứng dụng chạy liên tục dưới nền",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "Ứng dụng %1 liên tục đánh thức điện thoại. Bạn có thể đóng ứng dụng này trước khi khóa thiết bị.",
+        "ExpDetail": "Ứng dụng liên tục đánh thức điện thoại",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "Ứng dụng %1 vẫn sử dụng CPU khi màn hình tắt. Bạn có thể đóng ứng dụng này trước khi khóa thiết bị.",
+        "ExpDetail": "Ứng dụng vẫn sử dụng CPU khi màn hình tắt",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "Ứng dụng %1 vẫn sử dụng mạng khi màn hình tắt. Bạn có thể đóng ứng dụng này trước khi khóa thiết bị.",
+        "ExpDetail": "Ứng dụng vẫn sử dụng mạng khi màn hình tắt",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "Khi điện thoại đang sạc nhấp nháy, bộ sạc của điện thoại sẽ chuyển điện áp cao thành điện áp thấp. Trong thời gian này sẽ có sự chuyển đổi năng lượng lớn, từ đó sinh ra nhiệt. Bạn nên để điện thoại sạc trong môi trường có khả năng tản nhiệt tốt.",
+        "ExpDetail": "Sạc điện thoại",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "Sử dụng thiết bị nhấp nháy trong thời gian dài sẽ tạo ra nhiệt. Không sử dụng thiết bị nhấp nháy trong thời gian dài để tránh làm hỏng thiết bị nhấp nháy.",
+        "ExpDetail": "Đèn flash bật",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "Mức sử dụng độ sáng cao trong thời gian dài. Giảm độ sáng màn hình hoặc đặt ở chế độ sáng tự động.",
+        "ExpDetail": "Ánh sáng nền quá mạnh",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "Điện thoại nóng lên do tín hiệu mạng kém. Ở vị trí có tín hiệu kém, ăng-ten điện thoại phải tăng công suất để tìm kiếm tín hiệu ở khu vực rộng hơn, dẫn đến nhiệt tăng lên. Đi tới \"Cài đặt - Mạng di động - Cài đặt khác\" và bật Smart 5G. Nếu bạn không thể xác định trạng thái tín hiệu hiện tại, hãy tham khảo ý kiến của nhà cung cấp dịch vụ mạng địa phương.",
+        "ExpDetail": "Tín hiệu điện thoại kém",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "Điện thoại nóng lên do tín hiệu mạng kém. Ở vị trí có tín hiệu kém, ăng-ten điện thoại phải tăng công suất để tìm kiếm tín hiệu ở khu vực rộng hơn, dẫn đến nhiệt tăng lên. Nếu bạn không thể xác định trạng thái tín hiệu hiện tại, hãy tham khảo ý kiến của nhà cung cấp dịch vụ mạng địa phương.",
+        "ExpDetail": "Tín hiệu mạng điện thoại kém",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "Điện thoại nóng lên vì ứng dụng nền %1 chiếm quá nhiều CPU. Nếu Wi-Fi, GPS, NFC, Bluetooth và các chức năng khác được bật cùng lúc để tìm kiếm tín hiệu ở chế độ nền, điện thoại sẽ nóng hơn. Nên xóa các ứng dụng nền và tắt các chức năng không sử dụng. Bạn có thể xóa ứng dụng nền hoặc khởi động lại điện thoại.",
+        "ExpDetail": "Ứng dụng dưới nền %1 sử dụng quá nhiều CPU",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "%1 là ứng dụng có tải cao, chiếm nhiều CPU và khiến điện thoại nóng lên. Tránh sử dụng điện thoại ở mức tải cao trong thời gian dài. Đợi nhiệt độ giảm xuống để tránh làm hỏng các bộ phận của điện thoại.",
+        "ExpDetail": "Ứng dụng trên nền trước %1 sử dụng quá nhiều CPU",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "GPS của điện thoại đang được sử dụng. Điện thoại có thể nóng lên nếu tìm kiếm và gửi tín hiệu vệ tinh trong một thời gian dài để cập nhật thông tin vị trí.\nKiểm tra với người dùng xem họ có bật điều hướng hay bất kỳ ứng dụng dựa trên vị trí nào của bên thứ ba tự động thu thập thông tin vị trí hay không.",
+        "ExpDetail": "Liên tục định vị GPS",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "Điện thoại nóng lên do một số ứng dụng chạy đồng thời trong nền. Nên thường xuyên xóa bộ đệm nền.\n① Vui lòng kiểm tra xem có phần mềm nào đang được tải xuống ở chế độ nền không.\n② Kiểm tra xem tính năng đồng bộ hóa, Dịch vụ đám mây và các chức năng khác có được bật hay không.",
+        "ExpDetail": "Đồng bộ hóa %1 dưới nền",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "Điện thoại nóng lên vì ứng dụng %1 chạy đồng thời ở chế độ nền. Nên thường xuyên xóa bộ đệm nền.\n① Vui lòng kiểm tra xem có phần mềm nào đang được tải xuống ở chế độ nền không.\n② Kiểm tra xem tính năng đồng bộ hóa, Dịch vụ đám mây và các chức năng khác có được bật hay không.",
+        "ExpDetail": "Đồng bộ hóa %1 dưới nền",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "Đã phát hiện cuộc gọi kéo dài Đó là hiện tượng bình thường khi nhiệt tích tụ trong lúc điện thoại thực hiện cuộc gọi trong thời gian dài vì ăng-ten tín hiệu, micrô và loa của điện thoại tiếp tục hoạt động trong suốt cuộc gọi.\n Để biết mẹo làm mát điện thoại, vui lòng tham khảo kho kiến thức \"Điện thoại nóng lên khi gọi điện\".",
+        "ExpDetail": "Điện thoại luôn trong cuộc gọi",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "Đã phát hiện việc sử dụng máy ảnh trong thời gian dài/thường xuyên Khi chụp ảnh hoặc quay video, máy ảnh, CPU, GPU và các thiết bị khác của điện thoại di động sẽ hoạt động cùng lúc và điện thoại di động đang chạy ở mức tải cao, điều này sẽ khiến nhiệt độ của điện thoại di động tăng lên.\n Để biết mẹo làm mát điện thoại khi sử dụng máy ảnh, vui lòng tham khảo kho kiến thức \"Điện thoại nóng lên khi chụp ảnh và quay video\".",
+        "ExpDetail": "Ứng dụng Camera đang chạy",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "Yêu cầu người dùng không sử dụng điện thoại trong môi trường nhiệt độ cao và sử dụng nguồn điện DC để kiểm tra điện thoại xem có bị rò rỉ điện hay không.",
+        "ExpDetail": "Nóng máy do môi trường hoặc phần cứng",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "Vui lòng hỏi người dùng về cách họ sử dụng điện thoại, và kết hợp với các ứng dụng tiêu thụ điện năng và chẩn đoán mức tiêu thụ điện năng để điều tra vấn đề. Nếu không có gì bất thường, người dùng nên đến trung tâm bảo hành để kiểm tra điện thoại xem có bị rò rỉ điện hay không.",
+        "ExpDetail": "Nguyên nhân không xác định",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "Nhiệt độ tối đa trong %1 ngày: %2℃. Thời gian xảy ra: %3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "Điện thoại nóng lên vì được sử dụng trong khi đang sạc. Pin hoặc bộ sạc nóng lên trong khi sạc là điều bình thường và việc sử dụng điện thoại trong khi sạc sẽ còn sinh ra nhiều nhiệt hơn.",
+        "ExpDetail": "Quá nóng do sử dụng trong khi đang sạc",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "Phát sinh nhiệt trong quá trình sạc là hiện tượng bình thường. Bạn nên sạc điện thoại ở nơi thoáng khí, dễ tản nhiệt. Không sạc điện thoại trên sofa, quần áo hoặc dưới ánh nắng mặt trời.",
+        "ExpDetail": "Quá nóng trong khi đang sạc (Màn hình bật khi sạc: %1; Ứng dụng trên nền trước khi sạc: %2)",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "Điện thoại nóng lên đáng kể khi chơi game %1. Trong quá trình chơi game, các chip như CPU và GPU của điện thoại phải chạy ở hiệu suất cao để đảm bảo chất lượng hình ảnh và độ mượt của trò chơi. Tải cao như vậy sẽ khiến điện thoại nóng hơn. Để cải thiện vấn đề này, hãy giảm cài đặt (độ phân giải và tốc độ khung hình), giảm độ sáng màn hình và giảm âm lượng khi chơi game.",
+        "ExpDetail": "Quá nóng trong khi chơi game (Trò chơi: %1; Chất lượng hình ảnh: %2; Độ phân giải: %3; Chế độ chơi game: %4)",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "Điện thoại nóng lên do chơi game trong khi đang sạc. Quá trình chuyển đổi năng lượng xảy ra trong quá trình sạc sẽ sinh ra nhiệt. Khi bạn vừa chơi game vừa sạc, các chip điện thoại như CPU và GPU phải chạy ở hiệu suất cao để đảm bảo chất lượng hình ảnh và độ mượt của trò chơi, điều này sẽ sinh ra nhiều nhiệt hơn. Vui lòng tránh sử dụng điện thoại trong khi sạc bất cứ khi nào có thể.",
+        "ExpDetail": "Chơi game trong khi sạc",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "Bạn đang chơi game ở nơi có tín hiệu kém, bộ phát tín hiệu phải hoạt động trong thời gian dài để tìm kiếm kết nối, điều này dễ khiến điện thoại nóng lên. Ngoài ra, các chip điện thoại như CPU và GPU phải chạy ở hiệu suất cao trong quá trình chơi game để đảm bảo chất lượng hình ảnh và độ mượt của trò chơi, điều này sẽ sinh ra nhiều nhiệt hơn. Hãy chuyển đến một địa điểm có mạng tốt nếu có thể.",
+        "ExpDetail": "Quá nóng trong khi chơi game do tín hiệu di động yếu",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "Nhiệt độ môi trường xung quanh cao trong khi chơi game. Điều này có nghĩa là điện thoại của bạn phải chạy ở hiệu suất cao và sẽ sinh ra nhiệt. Nhiệt độ môi trường xung quanh cao cũng sẽ làm chậm quá trình tản nhiệt và sinh ra nhiều nhiệt hơn.",
+        "ExpDetail": "Chơi game ở những nơi nóng",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Độ sáng tự động\" đã bị tắt trên điện thoại của bạn. Để cho phép điều khiển độ sáng thông minh và giảm mức sử dụng pin, hãy đi tới \"Cài đặt - Màn hình và độ sáng - Độ sáng tự động\".",
+        "ExpDetail": "Tắt"
+    },
+    "t04030201": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Dịch vụ vị trí\" được bật trên điện thoại của bạn. Để GPS chạy dưới nền sẽ làm tăng mức sử dụng pin. Bạn có thể tắt chức năng này để giảm mức sử dụng pin khi không cần dùng. Để tắt chức năng, hãy vuốt thanh trạng thái xuống và nhấn vào \"Vị trí\" hoặc đi tới \"Cài đặt - Quyền riêng tư - Vị trí - Dịch vụ vị trí\".",
+        "ExpDetail": "Bật"
+    },
+    "t04030301": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng Bluetooth được bật trên điện thoại của bạn. Để Bluetooth chạy dưới nền sẽ làm tăng mức sử dụng pin. Bạn có thể tắt chức năng này để giảm mức sử dụng pin khi không cần dùng. Để tắt chức năng, hãy đi tới \"Cài đặt - Bluetooth\".",
+        "ExpDetail": "Bật"
+    },
+    "t04030401": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Điểm phát sóng cá nhân\" được bật trên điện thoại của bạn. Để điểm phát sóng chạy dưới nền sẽ làm tăng mức sử dụng pin. Bạn có thể tắt chức năng này để giảm mức sử dụng pin khi không cần dùng. Để tắt chức năng, hãy đi tới \"Cài đặt - Kết nối và chia sẻ - Điểm phát sóng cá nhân\".",
+        "ExpDetail": "Bật"
+    },
+    "t04030501": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng NFC được bật trên điện thoại của bạn. Để NFC chạy dưới nền sẽ làm tăng mức sử dụng pin. Bạn có thể tắt chức năng này để giảm mức sử dụng pin khi không cần dùng. Để tắt chức năng, hãy đi tới \"Cài đặt - Kết nối và chia sẻ - NFC\".",
+        "ExpDetail": "Bật"
+    },
+    "t04030601": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng chế độ hiệu năng cao được bật trên điện thoại của bạn. Chế độ này sẽ làm tăng mức sử dụng pin. Để tắt chức năng này và giảm mức sử dụng pin, hãy đi tới \"Cài đặt - Pin - Thêm - Chế độ hiệu năng cao\".",
+        "ExpDetail": "Bật"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không phân tích được vì số cuộc gọi đi hoặc đến nhỏ hơn 10.",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. Kích hoạt chức năng VoLTE của nhà mạng và bật cuộc gọi độ nét cao trong Cài đặt.&lt;br>2. Kiểm tra hiệu năng PA của điện thoại để đảm bảo hiệu năng truyền và nhận RF được bình thường (bao gồm tất cả các băng tần 2G, 3G và 4G).&lt;br>3. Độ phủ sóng tín hiệu mạng di động thay đổi theo môi trường. Nếu tín hiệu mạng kém, hãy trao đổi ý kiến với nhà mạng tại địa phương.&lt;br>4. Tín hiệu mạng có thể bị yếu trong tầng hầm, ga-ra kín và các khu vực đông đúc. Chất lượng tín hiệu kém ảnh hưởng tới cuộc gọi. Hãy di chuyển tới khu vực thoáng đãng và chất lượng cuộc gọi sẽ cải thiện.&lt;br>5. Cập nhật phiên bản phần mềm.",
+        "ExpDetail": "1. Cuộc gọi bị rớt: %1, phần trăm: %2&lt;br>2. Lỗi cuộc gọi đi: %3, phần trăm: %4&lt;br>3. Lỗi cuộc gọi đến: %5, phần trăm: %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "Mạng nhận được yêu cầu của điện thoại nhưng không phản hồi.",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "Mạng không phản hồi.",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "Không thể tiếp cận dịch vụ IMS",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "Lỗi máy chủ",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "Cuộc gọi CDMA viễn thông bị rớt và liên kết căn bản 2G đã hết thời gian chờ.",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "Miền mạch không khả dụng",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "Không có dịch vụ",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "Số đã quay không hợp lệ",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "Nghẽn mạng. Hãy quay số lại sau.",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "(Cuộc gọi bị rớt không phải là cuộc gọi IMS) Lỗi liên kết căn bản có liên quan chặt chẽ với độ mạnh của mạng.",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. Kích hoạt chức năng VoLTE của nhà mạng và bật cuộc gọi độ nét cao trong Cài đặt.&lt;br>2. Kiểm tra hiệu năng PA của điện thoại để đảm bảo hiệu năng truyền và nhận RF được bình thường (bao gồm tất cả các băng tần 2G, 3G và 4G).&lt;br>3. Độ phủ sóng tín hiệu mạng di động thay đổi theo môi trường. Nếu tín hiệu mạng kém, hãy trao đổi ý kiến với nhà mạng tại địa phương.&lt;br>4. Tín hiệu mạng có thể bị yếu trong tầng hầm, ga-ra kín và các khu vực đông đúc. Chất lượng tín hiệu kém ảnh hưởng tới cuộc gọi. Hãy di chuyển tới khu vực thoáng đãng và chất lượng cuộc gọi sẽ cải thiện.&lt;br>5. Cập nhật phiên bản phần mềm.",
+        "ExpDetail": "1. Lỗi cuộc gọi đi: %1&lt;br>2. Lỗi cuộc gọi đến: %2&lt;br>3. Cuộc gọi bị rớt: %3",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "Thẻ SIM trên điện thoại không tương thích với mạng. Hãy nói với khách hàng đổi sang thẻ SIM mới.",
+        "ExpDetail": "1. Lỗi cuộc gọi đi: %1&lt;br>2. Lỗi cuộc gọi đến: %2&lt;br>3. Cuộc gọi bị rớt: %3",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "Đã có bản cập nhật",
+        "ExpDetail": "1. Lỗi cuộc gọi đi: %1&lt;br>2. Lỗi cuộc gọi đến: %2&lt;br>3. Cuộc gọi bị rớt: %3",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "Có thể có sự cố về tính tương thích của mạng. Hãy liên hệ với nhà cung cấp mạng để kiểm tra xem môi trường mạng có bình thường không hoặc liên hệ với kỹ sư của chúng tôi để tái hiện sự cố và ghi lại nhật ký.",
+        "ExpDetail": "1. Lỗi cuộc gọi đi: %1&lt;br>2. Lỗi cuộc gọi đến: %2&lt;br>3. Cuộc gọi bị rớt: %3",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "Có sự cố mạng tạm thời. Điện thoại đang hoạt động bình thường.",
+        "ExpDetail": "1. Lỗi cuộc gọi đi: %1&lt;br>2. Lỗi cuộc gọi đến: %2&lt;br>3. Cuộc gọi bị rớt: %3",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "Đã có bản cập nhật",
+        "ExpDetail": "1. Lỗi cuộc gọi đi: %1&lt;br>2. Lỗi cuộc gọi đến: %2&lt;br>3. Cuộc gọi bị rớt: %3",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "Có thể có sự cố về tính tương thích của mạng. Hãy liên hệ với nhà cung cấp mạng để kiểm tra xem môi trường mạng có bình thường không hoặc liên hệ với kỹ sư của chúng tôi để tái hiện sự cố và ghi lại nhật ký.",
+        "ExpDetail": "1. Lỗi cuộc gọi đi: %1&lt;br>2. Lỗi cuộc gọi đến: %2&lt;br>3. Cuộc gọi bị rớt: %3",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "Có thể có sự cố về tính tương thích của mạng. Hãy liên hệ với nhà cung cấp mạng để kiểm tra xem môi trường mạng có bình thường không hoặc liên hệ với kỹ sư của chúng tôi để tái hiện sự cố và ghi lại nhật ký.",
+        "ExpDetail": "1. Lỗi cuộc gọi đi: %1&lt;br>2. Lỗi cuộc gọi đến: %2&lt;br>3. Cuộc gọi bị rớt: %3",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. Hãy thử với các điện thoại khác của cùng nhà mạng. Nếu sự cố vẫn diễn ra, hãy liên hệ với nhà mạng để xử lý.&lt;br>2. Nếu sự cố này thường xuyên xảy ra trong khoảng thời gian giống nhau, hãy xác nhận với khách hàng về vị trí của họ. Trong các tầng hầm, ga-ra, xe cộ đang di chuyển và khu vực công cộng có mật độ giao thông cao, tín hiệu yếu là điều bình thường.&lt;br>3. Hỏi khách hàng xem họ có sử dụng ốp bảo vệ bằng kim loại hoặc mạ điện không.&lt;br>4. Kiểm tra hiệu năng PA của điện thoại để đảm bảo hiệu năng truyền và nhận RF được bình thường (bao gồm tất cả các băng tần 2G, 3G và 4G).",
+        "ExpDetail": "Vị trí tín hiệu yếu trong %1 ngày qua tập trung hơn",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. Kiểm tra xem có tải SIM thành công không.\n2. Xác nhận rằng mạng của nhà mạng ổn định và liệu có phải sự cố chỉ xảy ra ở những khu vực cụ thể không.\n3. Kiểm tra xem sự cố có xảy ra trên một thiết bị khác không.\n4. Khởi động lại thiết bị hoặc bật Chế độ máy bay để kiểm tra sự cố.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1. Hỏi khách hàng xem họ có sử dụng ốp bảo vệ bằng kim loại hoặc mạ điện không.&lt;br>2. Hỏi xem họ có đang sử dụng điện thoại ở những khu vực có tín hiệu yếu không, chẳng hạn như tầng hầm, ga-ra, xe cộ đang di chuyển và khu vực công cộng có mật độ giao thông cao.&lt;br>3. Nếu tín hiệu bị yếu trong một thời gian dài và thường xuyên trong tình trạng đó ở cùng địa điểm thì điều này có thể gây ra các vấn đề tín hiệu.&lt;br>4. Kiểm tra hiệu năng PA của điện thoại bằng công cụ để thử nghiệm hiệu năng nhận của PA (bao gồm tất cả các băng tần 2G, 3G và 4G).",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. Đảm bảo bạn không chạm vào điện thoại trong quá trình thử nghiệm.&lt;br>2. Nếu sự cố vẫn tiếp diễn, hãy thay thế phần cứng vì một số băng tần có thể có sự cố.",
+        "ExpDetail": "Băng tần lỗi: %1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "Không bắt đầu kiểm tra được. Vui lòng xác nhận đã tháo thẻ SIM.",
+        "ExpDetail": "Chưa tháo thẻ SIM"
+    },
+    "t05050104": {
+        "ExpAdvice": "Không bắt đầu kiểm tra được. Vui lòng xác nhận đã tắt Chế độ máy bay.",
+        "ExpDetail": "Chế độ máy bay bật"
+    },
+    "t05050105": {
+        "ExpAdvice": "Không hoàn tất được quy trình kiểm tra. Vui lòng khởi động lại điện thoại và kiểm tra lại tính năng này. Nếu lỗi vẫn xảy ra, vui lòng thay thế bộ phận bị lỗi này bằng bộ phận mới.",
+        "ExpDetail": "Lỗi về chế độ modem"
+    },
+    "t05050106": {
+        "ExpAdvice": "Không hoàn tất được quy trình kiểm tra. Vui lòng khởi động lại điện thoại và kiểm tra lại tính năng này. Nếu lỗi vẫn xảy ra, vui lòng thay thế bộ phận bị lỗi này bằng bộ phận mới.",
+        "ExpDetail": "Lỗi về tuần tự kiểm tra"
+    },
+    "t05050107": {
+        "ExpAdvice": "Đảm bảo sạc điện thoại đầy đủ và kiểm tra lại tính năng này.",
+        "ExpDetail": "Pin yếu"
+    },
+    "t05050108": {
+        "ExpAdvice": "Đã kiểm tra RF xong. Điện thoại sẽ tự động khởi động lại để đảm bảo tất cả các chức năng hoạt động bình thường.",
+        "ExpDetail": "Đã kiểm tra RF xong."
+    },
+    "t05070101": {
+        "ExpAdvice": "Nguyên nhân có thể:&lt;br>1. Xác nhận chất lượng mạng và tín hiệu của môi trường hiện tại. Nếu chất lượng tín hiệu kém, có nhiều khả năng là do sự cố mạng tạm thời.&lt;br>2. Xác nhận xem có phải là sự cố do ứng dụng bên thứ ba không.&lt;br>Đề xuất:&lt;br> Trong trường hợp sự cố mạng, hãy yêu cầu khách hàng tự xử lý sự cố, chẳng hạn bằng cách tắt đi và bật lại Chế độ máy bay và dữ liệu di động, đặt lại các cài đặt APN, tháo thẻ SIM ra rồi lắp lại mà không tắt điện thoại, v.v.. Vui lòng liên hệ với nhà mạng.",
+        "ExpDetail": "Tự động ngắt kết nối dữ liệu; liên kết tải lên được tạo nhưng không có liên kết tải xuống (một kiểu nghẽn mạng); lỗi liên quan đến APN trong quy trình quay số; ngắt kết nối mạng do quá hạn thanh toán; tốc độ mạng dữ liệu bị hạn chế do đã đạt đến giới hạn dữ liệu; không kết nối quay số được",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "Khách hàng thêm APN theo cách thủ công. Hãy đặt lại về APN mặc định.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. Đảm bảo thẻ SIM được lắp đúng cách.&lt;br>2. Hãy kiểm tra xem dữ liệu di động có bị tạm ngừng do chưa thanh toán hóa đơn hoặc vượt quá giới hạn dữ liệu không.&lt;br>3. Bật và tắt dữ liệu di động và Chế độ máy bay hoặc khởi động lại thiết bị.&lt;br>4. Kiểm tra xem có sự cố về mạng của nhà mạng không.",
+        "ExpDetail": "Đã phát hiện thấy lỗi mạng dữ liệu. Lỗi này có thể do các sự cố kết nối mạng gây ra.",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. Kiểm tra xem điện thoại có bất kỳ hóa đơn điện thoại quá hạn nào không hoặc có giới hạn tốc độ không.&lt;br>2. Thực hiện kiểm tra PA để kiểm tra xem tần số vô tuyến có bình thường không.&lt;br>3. Nếu tần số vô tuyến bình thường, hãy liên hệ với nhân viên tối ưu hóa mạng tại địa phương để tái hiện sự cố và ghi lại nhật ký.&lt;br>4. Nếu không có nhân viên tối ưu hóa mạng hoặc khách hàng không đồng ý tái hiện sự cố, hãy cài đặt ROM mới.&lt;br>5. Kiểm tra xem sự cố có còn tồn tại sau khi cài đặt ROM 10 ngày. Nếu sự cố vẫn tồn tại, hãy khắc phục như một sự cố phần cứng.",
+        "ExpDetail": "Đã phát hiện thấy lỗi mạng dữ liệu. Lỗi này có thể do các sự cố điện thoại gây ra.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "Khách hàng thêm APN theo cách thủ công. Hãy đặt lại về APN mặc định.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "Tốc độ dữ liệu đã bị nhà mạng hạn chế. Hãy trao đổi ý kiến với nhà mạng để biết thêm chi tiết.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "Mạng tại chỗ không ổn định. So sánh môi trường mạng với các địa điểm khác và nếu sự cố này được xác nhận, hãy trao đổi ý kiến với nhà mạng để cải thiện môi trường mạng.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. Đảm bảo rằng bạn không còn bất kỳ hóa đơn nào chưa thanh toán cho các thẻ SIM đó.&lt;br>2. Kiểm tra xem quyền truy cập mạng có được bật cho các ứng dụng không.&lt;br>3. Lắp thẻ SIM vào một thiết bị khác và kiểm tra xem thẻ SIM có hoạt động bình thường không.&lt;br>4. Bật và tắt dữ liệu di động và Chế độ máy bay hoặc khởi động lại thiết bị.&lt;br>5. Kiểm tra xem có bất kỳ sự cố nào về mạng của nhà mạng không.",
+        "ExpDetail": "Đã phát hiện thấy lỗi mạng dữ liệu. Lỗi này có thể do các sự cố kết nối mạng gây ra.",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "Khách hàng thêm APN theo cách thủ công. Hãy đặt lại về APN mặc định.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "Tốc độ dữ liệu đã bị nhà mạng hạn chế. Hãy trao đổi ý kiến với nhà mạng để biết thêm chi tiết.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "Bật Chế độ tiết kiệm dữ liệu có thể ảnh hưởng đến trải nghiệm sử dụng mạng của bạn.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "Mạng tại chỗ không ổn định. So sánh môi trường mạng với các địa điểm khác và nếu sự cố này được xác nhận, hãy trao đổi ý kiến với nhà mạng để cải thiện môi trường mạng.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1. Đảm bảo rằng bạn không còn bất kỳ hóa đơn nào chưa thanh toán cho các thẻ SIM đó.&lt;br>2. Kiểm tra xem quyền truy cập mạng có được bật cho các ứng dụng không.&lt;br>3. Bật và tắt dữ liệu di động và Chế độ máy bay hoặc khởi động lại thiết bị.&lt;br>4. Kiểm tra xem có bất kỳ sự cố nào về mạng của nhà mạng không.",
+        "ExpDetail": "Đã phát hiện thấy lỗi mạng dữ liệu. Lỗi này có thể do các sự cố kết nối mạng gây ra.",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "Kiểm tra xem tần số vô tuyến có bình thường không.",
+        "ExpDetail": "Không thể gọi điện thoại",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "Dùng tai nghe để kiểm tra xem sự cố có liên quan đến loa trong (loa phía tai) không. Nếu có, hãy kiểm tra xem loa trong (loa phía tai) có hư hỏng không và các bộ phận của loa trong có được kết nối đúng cách không; nếu không, hãy kiểm tra bộ phận âm thanh của bo mạch chủ.",
+        "ExpDetail": "Không có âm thanh trong cuộc gọi",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. Hãy kiểm tra xem loa trong (loa phía tai) có bụi bẩn hoặc chất lỏng bên trong không. Thay thế linh kiện và kiểm tra lại.&lt;br>2. Kiểm tra việc xử lý tín hiệu của bo mạch chủ.",
+        "ExpDetail": "Tiếng ồn trong cuộc gọi",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "Nếu có các sự cố về phần cứng giống như mô tả của khách hàng, hãy khắc phục theo hướng xử lý sự cố phần cứng.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "Nếu có các sự cố về phần cứng giống như mô tả của khách hàng, hãy khắc phục theo hướng xử lý sự cố phần cứng.",
+        "ExpDetail": "Tổng số lần xảy ra: %1",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "Đưa điện thoại đến khu vực thoáng đãng để thực hiện kiểm tra tìm kiếm vệ tinh. Thông thường, độ mạnh tín hiệu GPS phải vượt quá 30; nếu không, hãy kiểm tra phần cứng GPS.",
+        "ExpDetail": "Tín hiệu vệ tinh kém",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "Kiểm tra xem GPS của hệ thống có bị tắt không. Hỏi khách hàng xem ứng dụng nào không thể sử dụng GPS và kiểm tra các quyền của ứng dụng đó.",
+        "ExpDetail": "Chưa bật GPS hoặc quyền liên quan",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không phân tích được nhật ký do dữ liệu GPS không đủ.",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không chẩn đoán được do gần đây không sử dụng GPS. Tắt dịch vụ Vị trí quá lâu có thể là nguyên nhân dẫn đến không định vị được.",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "Đưa điện thoại đến khu vực thoáng đãng để thực hiện kiểm tra tìm kiếm vệ tinh. Thông thường, độ mạnh tín hiệu GPS phải vượt quá 30; nếu không, hãy kiểm tra phần cứng GPS.",
+        "ExpDetail": "Các nguyên nhân có thể xảy ra bao gồm cả sự cố phần cứng GPS hoặc sử dụng GPS ở môi trường trong nhà",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không chẩn đoán được do mức sử dụng GPS không đủ.",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "Đưa điện thoại đến khu vực thoáng đãng để thực hiện kiểm tra tìm kiếm vệ tinh. Thông thường, độ mạnh tín hiệu GPS phải vượt quá 30; nếu không, hãy kiểm tra phần cứng GPS.",
+        "ExpDetail": "GPS hoạt động bình thường. Có thể có can nhiễu khi khách hàng điều hướng trong lúc đi bộ.",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "Đưa điện thoại đến khu vực thoáng đãng để thực hiện kiểm tra tìm kiếm vệ tinh. Thông thường, độ mạnh tín hiệu GPS phải vượt quá 30; nếu không, hãy kiểm tra phần cứng GPS.",
+        "ExpDetail": "GPS hoạt động bình thường. Can nhiễu có thể xảy ra khi khách hàng đang điều hướng bên trong xe.",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "Kiểm tra xem ăng-ten GPS có bị hư hỏng, biến dạng hoặc tiếp xúc kém không.",
+        "ExpDetail": "Sự cố ăng-ten GPS",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không chẩn đoán được do gần đây không sử dụng GPS.",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "Tháo ốp bảo vệ và thử lại",
+        "ExpDetail": "Sử dụng ốp bảo vệ bằng kim loại",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "&amp;quot;Tính năng quét Wi-Fi luôn khả dụng&amp;quot; bị tắt quá lâu có thể dẫn đến lỗi định vị hoặc định vị không chính xác khi sử dụng trong nhà. Hãy kiểm tra xem tính năng này đã bật chưa.",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "\"Độ chính xác khi định vị qua mạng\" bị tắt quá lâu có thể dẫn đến lỗi định vị hoặc định vị không chính xác khi sử dụng trong nhà. Hãy nhấn vào \"Khắc phục\" để bật tính năng này nhằm định vị chính xác hơn. Nếu bạn đang sử dụng điện thoại được thiết kế cho người dùng bên ngoài Trung Quốc đại lục, hãy chạm và giữ biểu tượng Vị trí trong Cài đặt nhanh để truy cập trang \"Độ chính xác của vị trí trên Google\" và bật \"Cải thiện độ chính xác của vị trí\".",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "Vấn đề này do môi trường GPS của người dùng gây ra và không thể giải quyết bằng cách thay thế. Hãy để điện thoại cách xa các nguồn can nhiễu bên ngoài chẳng hạn như hệ thống điều hướng xe hơi, cụm điều khiển trung tâm và các thiết bị điện tử khác.",
+        "ExpDetail": "Can nhiễu với môi trường GPS của người dùng"
+    },
+    "t06020101": {
+        "ExpAdvice": "Nguyên nhân có thể:&lt;br>(Lỗi tải chương trình cơ sở; lỗi tải trình điều khiển; lỗi gắn phân vùng; các nguyên nhân khác)&lt;br>Đề xuất:&lt;br>1. Khởi động lại thiết bị.&lt;br>2. Cập nhật lên phiên bản mới nhất để kiểm tra sự cố.",
+        "ExpDetail": "Không bật được %1 lần",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "Nguyên nhân có thể: &lt;br/>(Lỗi tải chương trình cơ sở; lỗi tải trình điều khiển; lỗi gắn phân vùng; các nguyên nhân khác; lỗi tải chip Wi-Fi; lỗi chạy phần mềm Wi-Fi; tệp cấu hình của kênh hệ thống phần mềm Wi-Fi không tải được; tệp tần số vô tuyến của hệ thống phần mềm Wi-Fi không tải được; tệp cấu hình của phần mềm chương trình cơ sở thuộc hệ thống phần mềm Wi-Fi không tải được; hệ thống phụ bị treo)&lt;br/>Đề xuất:&lt;br/>1. Khởi động lại thiết bị. &lt;br/>2. Cập nhật lên phiên bản mới nhất. 3. Yêu cầu khách hàng khởi động lại điện thoại. &lt;br/>4. Nếu sự cố vẫn xảy ra, hãy cài đặt ROM hoặc một bản cập nhật OTA. &lt;br/>5. Nếu là lỗi chết máy, hãy xử lý lỗi phần cứng nếu. &lt;br/>3. Nếu có thể tái hiện sự cố, hãy cố gắng kết nối với internet và thực hiện cuộc gọi qua thẻ SIM. Nếu bạn không thể thực hiện 2 việc này thì cần khởi động lại Modem của mô-đun mạng. &lt;br/>4. Yêu cầu khách hàng khởi động lại điện thoại. &lt;br/>5. Nếu sự cố vẫn xảy ra, hãy cài đặt ROM hoặc một bản cập nhật OTA. &lt;br/>6. Nếu là lỗi chết máy, hãy xử lý lỗi phần cứng nếu.",
+        "ExpDetail": "Không bật được %1 lần",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "Bạn nên cài đặt lên phiên bản mới nhất.",
+        "ExpDetail": "Điểm truy cập thường dùng: %1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1. Kết nối mạng không ổn định do chính điện thoại gây ra: Cập nhật lên phiên bản mới nhất và thử lại.&lt;br>2. Lỗi DNS: Kiểm tra xem có đặt DNS riêng không. Nếu có, hãy xóa DNS riêng và nếu không, hãy kiểm tra bộ định tuyến.&lt;br>3.  Nguyên nhân khác: 1. Khởi động lại bộ định tuyến.&lt;br>2. Nếu các điện thoại khác cùng sử dụng bộ định tuyến đó cũng có sự cố tương tự thì bạn nên thay bộ định tuyến.&lt;br>3. Chuyển kênh định tuyến mặc định. Cố gắng sử dụng kênh 5G. Dùng bộ phân tích Wi-Fi hoặc các công cụ khác để tìm kênh có ít can nhiễu hơn.",
+        "ExpDetail": "Điểm truy cập thường dùng: %1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không chẩn đoán được do dữ liệu không đủ.",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "Cài đặt Wi-Fi",
+        "ExpDetail": "Cài đặt không dây",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "Phần mềm kết nối của bên thứ ba có thể cố gắng hack mật khẩu điểm phát sóng Wi-Fi nhưng không thành công và dẫn đến không kết nối được. Bạn nên kết nối với Wi-Fi trong ứng dụng Cài đặt.",
+        "ExpDetail": "Ứng dụng thường dùng: %1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không phân tích được nhật ký do không đủ số lượng kết nối bên thứ ba",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "Khởi động lại bộ định tuyến hoặc sử dụng các thiết bị khác để kết nối với bộ định tuyến này nhằm kiểm tra xem điểm truy cập có sự cố không. Nếu không, hãy tắt và bật Wi-Fi hoặc khởi động lại điện thoại. Nếu sự cố vẫn tiếp diễn, hãy gửi điện thoại đi kiểm tra thêm.&lt;br>(Đảm bảo mật khẩu chính xác. Chuyển Wi-Fi trước khi kết nối và đảm bảo tìm thấy điểm truy cập. Kiểm tra các cài đặt về tuyến hoặc kết nối với những điểm truy cập khác. Bạn nên kết nối trong môi trường có tín hiệu mạnh hơn. Xác nhận xem các IP có chính xác không hoặc tất cả các IP có được sử dụng hết không.)",
+        "ExpDetail": "Lỗi cài đặt Wi-Fi: &lt;br>(Sai mật khẩu; không tìm thấy điểm truy cập; lỗi cài đặt hoặc quá tải bộ định tuyến; tín hiệu yếu; địa chỉ IP tĩnh)",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "Kiểm tra ăng-ten Wi-Fi và chip Wi-Fi.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "Điểm truy cập thường dùng: %1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "Kiểm tra xem có phải tất cả các địa chỉ IP từ máy chủ DHCP của bộ định tuyến đã được sử dụng không.",
+        "ExpDetail": "Không thu nhận được địa chỉ IP",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Không xác thực được do lỗi phát hiện bộ định tuyến",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "Kiểm tra xem có phải điện thoại không được sử dụng trong một thời gian dài sau khi kết nối với Wi-Fi không.",
+        "ExpDetail": "Kết nối không hoạt động. Không truyền dữ liệu trong thời gian dài.",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "Kiểm tra xem có phải bộ định tuyến đã được kết nối với quá nhiều thiết bị không. Hãy thử ngắt kết nối một số thiết bị.",
+        "ExpDetail": "Kết nối bộ định tuyến bị giới hạn",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Không có xác thực do lỗi phát hiện bộ định tuyến",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Không có kết nối do lỗi phát hiện bộ định tuyến",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Điện thoại ngoại mạng",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Không xác thực kết nối được",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "Không cần thực hiện hành động nào vì đây là trường hợp bình thường.",
+        "ExpDetail": "Bộ định tuyến khởi chạy quy trình chuyển vùng",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Không xác minh được tính đầy đủ của tin nhắn",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Đã hết thời gian chờ giao tiếp",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Đã hết thời gian chờ bản cập nhật khóa do lỗi phát hiện bộ định tuyến",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Khóa không hợp lệ",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Xác nhận mất khung hình nghiêm trọng",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Không chuyển vùng điện thoại được",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Các mô-đun điện thoại tự động khôi phục",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Bộ định tuyến không hoạt động",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Đã hết thời gian chờ của đèn hiệu",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Không chuyển được kênh giao tiếp",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Không kết nối được do đã hết thời gian chờ của đèn hiệu",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Đã hết thời gian chờ của đèn hiệu. Điện thoại không thu nhận được địa chỉ bộ định tuyến.",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. Trước tiên, hãy cập nhật lên phiên bản mới nhất.&lt;br>b. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại bộ định tuyến hoặc kiểm tra xem bộ định tuyến có đang hoạt động bình thường không thông qua việc kết nối bằng một thiết bị khác.&lt;br>c. Nếu bộ định tuyến không có vấn đề gì, hãy tắt đi và bật lại kết nối Wi-Fi, kết nối lại với bộ định tuyến hoặc tắt và bật nguồn điện thoại để thử lại.&lt;br>d. Nếu vẫn không khắc phục được sự cố, hãy ghi lại nhật ký.",
+        "ExpDetail": "Nguyên nhân không xác định",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. Nói với khách hàng khởi động lại điện thoại.&lt;br>2. Nếu sự cố vẫn tiếp diễn, hãy cài đặt ROM mới hoặc cập nhật lên phiên bản hệ thống mới nhất.&lt;br>3. Nếu sự cố vẫn tiếp diễn, hãy khắc phục như một sự cố phần cứng.",
+        "ExpDetail": "Sự cố chương trình cơ sở Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "Đi tới &amp;quot;Cài đặt - Kết nối và chia sẻ - Điểm phát sóng cá nhân - Cài đặt điểm phát sóng&amp;quot;. Đặt &amp;quot;Bảo mật&amp;quot; thành &amp;quot;WPA2 PSK&amp;quot; và &amp;quot;Băng tần AP&amp;quot; thành &amp;quot;Băng tần 2,4 GHz&amp;quot;, bật &amp;quot;Hiển thị với các thiết bị khác&amp;quot; và tắt &amp;quot;Điểm phát sóng Wi-Fi 6&amp;quot;. Sau đó, bật &amp;quot;Điểm phát sóng cá nhân&amp;quot;.",
+        "ExpDetail": "Các nguyên nhân khác của lỗi điểm phát sóng Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "Đi tới &amp;quot;Cài đặt - Kết nối và chia sẻ - Điểm phát sóng cá nhân - Cài đặt điểm phát sóng&amp;quot;. Đặt &amp;quot;Bảo mật&amp;quot; thành &amp;quot;WPA2 PSK&amp;quot; và &amp;quot;Băng tần AP&amp;quot; thành &amp;quot;Băng tần 2,4 GHz&amp;quot;, bật &amp;quot;Hiển thị với các thiết bị khác&amp;quot; và tắt &amp;quot;Điểm phát sóng Wi-Fi 6&amp;quot;. Sau đó, bật &amp;quot;Điểm phát sóng cá nhân&amp;quot;.",
+        "ExpDetail": "Các nguyên nhân khác của lỗi điểm phát sóng Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "Sự cố này có thể do can nhiễu tín hiệu LTE gây ra. Đi tới &amp;quot;Cài đặt - Kết nối và chia sẻ - Điểm phát sóng cá nhân - Cài đặt điểm phát sóng&amp;quot;. Đặt &amp;quot;Bảo mật&amp;quot; thành &amp;quot;WPA2 PSK&amp;quot; và &amp;quot;Băng tần AP&amp;quot; thành &amp;quot;Băng tần 2,4 GHz&amp;quot;, bật &amp;quot;Hiển thị với các thiết bị khác&amp;quot; và tắt &amp;quot;Điểm phát sóng Wi-Fi 6&amp;quot;. Sau đó, bật &amp;quot;Điểm phát sóng cá nhân&amp;quot;.",
+        "ExpDetail": "Không có kênh khả dụng",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "Đi tới &amp;quot;Cài đặt - Kết nối và chia sẻ - Điểm phát sóng cá nhân - Cài đặt điểm phát sóng&amp;quot;. Đặt &amp;quot;Bảo mật&amp;quot; thành &amp;quot;WPA2 PSK&amp;quot; và &amp;quot;Băng tần AP&amp;quot; thành &amp;quot;Băng tần 2,4 GHz&amp;quot;, bật &amp;quot;Hiển thị với các thiết bị khác&amp;quot; và tắt &amp;quot;Điểm phát sóng Wi-Fi 6&amp;quot;. Sau đó, bật &amp;quot;Điểm phát sóng cá nhân&amp;quot;.",
+        "ExpDetail": "Cấu hình điểm phát sóng không được hỗ trợ",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. Nói với khách hàng khởi động lại điện thoại.&lt;br>2. Nếu sự cố vẫn tiếp diễn, hãy cài đặt ROM mới hoặc cập nhật lên phiên bản hệ thống mới nhất.&lt;br>3. Nếu sự cố vẫn tiếp diễn, hãy khắc phục như một sự cố phần cứng.",
+        "ExpDetail": "Sự cố chương trình cơ sở Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "Nếu khách hàng không thể truy cập mạng ở nhà, có thể là do cài đặt của modem quang và bộ định tuyến không chính xác hoặc do sự cố kết nối của hai thiết bị này. Nói với khách hàng sửa đổi cấu hình DHCP của bộ định tuyến hoặc liên hệ với nhà cung cấp mạng của họ để được trợ giúp.",
+        "ExpDetail": "Xung đột khi gán IP động (DHCP) của bộ định tuyến",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "Nếu khách hàng không thể truy cập mạng ở nhà, có thể là do cài đặt của modem quang và bộ định tuyến không chính xác hoặc do sự cố kết nối của hai thiết bị này. Hãy nói với khách hàng sửa đổi cấu hình cổng của bộ định tuyến hoặc liên hệ với nhà cung cấp mạng của họ để được trợ giúp.",
+        "ExpDetail": "Xung đột cổng",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "Hãy nói với khách hàng kết nối điện thoại của họ với mạng Wi-Fi 5 GHz và tránh sử dụng tai nghe Bluetooth khi điện thoại được kết nối với mạng Wi-Fi 2,4 GHz.",
+        "ExpDetail": "Tốc độ mạng chậm do xung đột Bluetooth/Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "Địa chỉ IP tĩnh không chính xác. Hãy chọn một địa chỉ chính xác.",
+        "ExpDetail": "Địa chỉ IP tĩnh không chính xác",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "Địa chỉ DNS riêng không chính xác. Hãy chọn một địa chỉ chính xác.",
+        "ExpDetail": "DNS riêng không chính xác",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "Cài đặt VPN không chính xác. Hãy chọn một địa chỉ chính xác.",
+        "ExpDetail": "Cài đặt VPN không chính xác",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "Sau đó, kiểm tra ăng-ten Bluetooth và chip Bluetooth.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. Nếu sự cố có thể được khắc phục bằng cách khởi động lại điện thoại, hãy cài đặt một ROM mới hoặc cập nhật lên phiên bản hệ thống mới nhất.&lt;br>2. Nếu khách hàng sử dụng chức năng nhiều người dùng, hãy nói với họ tắt Bluetooth trước khi chuyển sang một người dùng khác.&lt;br>3. Nếu sự cố vẫn tiếp diễn sau khi đặt lại điện thoại hoặc cài đặt ROM mới, vui lòng gửi phiếu sự cố phần cứng.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không bật được Bluetooth (BT)",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không bật được dịch vụ Bluetooth",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không bật được Bluetooth năng lượng thấp (BLE)",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "Kiểm tra chi tiết sự cố.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. Nếu sự cố xảy ra ở một địa điểm có nhiều thiết bị không dây (chẳng hạn như sân bay hoặc ga tàu hỏa), hãy nói với khách hàng sử dụng điện thoại tại những nơi mà xung quanh có ít thiết bị không dây hơn.&lt;br>2. Hãy nói với khách hàng kết nối điện thoại với mạng Wi-Fi 5 GHz trở lên vì mạng Wi-Fi 2,4 GHz sẽ ảnh hưởng đến kết nối Bluetooth. Nếu cần thiết, hãy hướng dẫn khách hàng cách đặt bộ định tuyến về băng tần 5 GHz.",
+        "ExpDetail": "Nhiễu từ môi trường hoặc ảnh hưởng từ Wi-Fi cao&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "Thiết lập một kết nối Bluetooth từ phía %1 và đảm bảo rằng thiết bị ngang hàng còn đủ pin. (Chế độ chính/phụ có thể thay đổi đối với một số tai nghe khi pin thấp, dẫn đến sự cố kết nối.)&lt;br>",
+        "ExpDetail": "Lỗi chuyển đổi vai trò Bluetooth&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. Hủy ghép nối thiết bị khỏi điện thoại. Sau đó, nhấn và giữ nút trên thiết bị để ghép nối lại.&lt;br>2. Đặt lại thiết bị.&lt;br>3. Cập nhật lên phiên bản hệ thống mới nhất.&lt;br>4. Nếu sự cố không xảy ra trên các điện thoại khác cùng model và sự cố vẫn tiếp diễn sau khi cài đặt ROM mới, vui lòng gửi phiếu sự cố phần cứng.&lt;br>",
+        "ExpDetail": "Khác&lt;br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "Kiểm tra xem ăng-ten NFC có bị thiếu hoặc mô-đun NFC có không hợp lệ không.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không bật được",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Màn hình không rõ ràng hoặc mờ khi chụp ảnh",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Màu không chính xác",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera chính phía trước",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera phụ phía trước",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không bật được",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Màn hình không rõ ràng hoặc mờ khi chụp ảnh",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Màu không chính xác",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera chính phía sau",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera góc rộng phía sau",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera chụp từ xa phía sau",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera chính phía sau hoặc camera góc rộng phía sau",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera chính phía sau hoặc camera chụp từ xa phía sau",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera góc rộng phía sau hoặc camera chụp từ xa phía sau",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của camera hoặc thay thế camera và thử nghiệm.",
+        "ExpDetail": "Không thể dùng camera chính phía sau, camera góc rộng phía sau hoặc camera chụp từ xa phía sau",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Thông số máy ảnh bất thường. Kết nối điện thoại, hiệu chuẩn và sửa các thông số.",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "Vui lòng kiểm tra xem loa trong có bụi bẩn hoặc chất lỏng không. Thay thế linh kiện và thử lại.",
+        "ExpDetail": "Âm lượng nhỏ",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "Vui lòng kiểm tra xem loa trong có bụi bẩn hoặc chất lỏng không. Thay thế linh kiện và thử lại.",
+        "ExpDetail": "Ồn",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "Vui lòng chuyển sang loa ngoài để kiểm tra xem vấn đề có liên quan đến loa trong không. Nếu có, vui lòng kiểm tra xem loa trong có hư hỏng không và phần tiếp xúc có được kết nối không; nếu không, hãy kiểm tra bộ phận âm thanh của bo mạch chủ.",
+        "ExpDetail": "Không có âm thanh",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "Vui lòng kiểm tra xem loa trong có bụi bẩn hoặc chất lỏng không. Thay thế linh kiện và thử lại.",
+        "ExpDetail": "Âm lượng nhỏ",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "Vui lòng kiểm tra xem loa trong có bụi bẩn hoặc chất lỏng không. Thay thế linh kiện và thử lại.",
+        "ExpDetail": "Ồn",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "Vui lòng chuyển sang loa trong để kiểm tra xem vấn đề có liên quan đến loa ngoài không. Nếu có, vui lòng kiểm tra xem loa ngoài có hư hỏng không và phần tiếp xúc có được kết nối không; nếu không, hãy kiểm tra bộ phận âm thanh của bo mạch chủ.",
+        "ExpDetail": "Không có âm thanh",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "Vui lòng kiểm tra xem micrô có bụi bẩn hoặc chất lỏng không. Thay thế linh kiện và thử lại.",
+        "ExpDetail": "Âm lượng nhỏ",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "Vui lòng kiểm tra xem micrô có bụi bẩn hoặc chất lỏng không. Thay thế linh kiện và thử lại.",
+        "ExpDetail": "Ồn",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "Vui lòng kiểm tra xem micrô có bị chặn không. Thay thế micrô và kiểm tra xem sự cố có được khắc phục không.",
+        "ExpDetail": "Âm thanh ngắt quãng",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "Kiểm tra xem lỗ micrô có bị tro bụi hoặc chất lỏng bịt lại không. Nếu âm thanh quá nhỏ đến mức gần như im lặng, hãy thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Âm lượng nhỏ",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "Thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Ồn",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "Thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Không có âm thanh",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "Kiểm tra xem lỗ micrô có bị tro bụi hoặc chất lỏng bịt lại không. Nếu âm thanh quá nhỏ đến mức gần như im lặng, hãy thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "Kiểm tra xem lỗ micrô có bị tro bụi hoặc chất lỏng bịt lại không. Nếu âm thanh quá nhỏ đến mức gần như im lặng, hãy thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Âm lượng nhỏ",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "Thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Ồn",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "Thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Không có âm thanh",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "Kiểm tra xem lỗ micrô có bị tro bụi hoặc chất lỏng bịt lại không. Nếu âm thanh quá nhỏ đến mức gần như im lặng, hãy thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "Kiểm tra xem lỗ micrô có bị tro bụi hoặc chất lỏng bịt lại không. Nếu âm thanh quá nhỏ đến mức gần như im lặng, hãy thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Âm lượng nhỏ",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "Thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Ồn",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "Thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Không có âm thanh",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "Kiểm tra xem lỗ micrô có bị tro bụi hoặc chất lỏng bịt lại không. Nếu âm thanh quá nhỏ đến mức gần như im lặng, hãy thay thế micrô và kiểm tra lại.",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "Vui lòng kiểm tra xem giắc cắm tai nghe có bị chặn hay có chất lỏng trong đó không.",
+        "ExpDetail": "Biểu tượng tai nghe không hiển thị",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "Vui lòng kiểm tra xem giắc cắm tai nghe có bị chặn hay có chất lỏng trong đó không.",
+        "ExpDetail": "Không tương thích với tai nghe kiểm tra",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "Kiểm tra giắc cắm tai nghe và các bộ phận khác",
+        "ExpDetail": "Không thể nhận dạng tai nghe hoặc tai nghe không được hỗ trợ",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "Kiểm tra trở kháng của micrô xem có đạt độ lớn một vài miliohm không",
+        "ExpDetail": "Tai nghe có trở kháng cao",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "Kiểm tra xem khách hàng có đang sử dụng tai nghe giảm tiếng ồn không",
+        "ExpDetail": "Tai nghe giảm tiếng ồn",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "Cập nhật lên phiên bản mới nhất. Nếu sự cố vẫn tiếp diễn, hãy kiểm tra xem có thể nhận dạng một bộ tai nghe khác không. Nếu sự cố tương tự xảy ra, hãy ghi lại và lưu nhật ký âm thanh tái hiện sự cố, gửi các nhật ký đó cho nhà phát triển để phân tích và thay thế bảng mạch có giắc cắm USB để xác thực chéo.",
+        "ExpDetail": "Trường hợp ngoại lệ xảy ra khi chuyển giữa các chip chuyển mạch (chỉ áp dụng đối với những model có giắc cắm tai nghe Loại C) hoặc mô-đun USB",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "Xác nhận có nằm trong phạm vi tiêu chuẩn không; nếu không, hãy linh kiện màn hình.",
+        "ExpDetail": "Pixel chết",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của màn hình hoặc thay thế linh kiện màn hình.",
+        "ExpDetail": "Màn hình mờ",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "Kiểm tra ổ cắm BTB của màn hình hoặc thay thế linh kiện màn hình.",
+        "ExpDetail": "Màu không chính xác",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "Đóng các ứng dụng đang chạy dưới nền và kiểm tra kết nối mạng",
+        "ExpDetail": "Số lần xảy ra màn hình đen, màn hình nhấp nháy và màn hình mờ: %1",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "Kiểm tra xem màn hình có bị hư hỏng hoặc nhiễm tĩnh điện không",
+        "ExpDetail": "Số lần xảy ra màn hình đen, màn hình nhấp nháy và màn hình mờ: %1",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "Kiểm tra chip GPU",
+        "ExpDetail": "Số lần xảy ra màn hình đen, màn hình nhấp nháy và màn hình mờ: %1",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "Kiểm tra chip GPU",
+        "ExpDetail": "Số lần xảy ra màn hình đen, màn hình nhấp nháy và màn hình mờ: %1",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "Kiểm tra chip GPU",
+        "ExpDetail": "Số lần xảy ra màn hình đen, màn hình nhấp nháy và màn hình mờ: %1",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "Nhấn vào nút để tải nhật ký lên cho các kỹ sư phân tích",
+        "ExpDetail": "Số lần treo màn hình do khởi động lại thiết bị: %1",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "Trường hợp ngoại lệ về phần cứng. Tải lên nhật ký cho nhà phát triển phân tích. Nếu điện thoại không bật nguồn được, hãy trả lại để phân tích.",
+        "ExpDetail": "Số lần treo màn hình do khởi động lại thiết bị: %1",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "Hiệu ứng hiển thị trên màn hình không bình thường. Bạn nên kết nối điện thoại kịp thời và hiệu chỉnh để khắc phục sự cố này.",
+        "ExpDetail": "Màn hình hiển thị bất thường",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Qua",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "Tất cả các ứng dụng",
+        "ExpDetail": "Tắt"
+    },
+    "t10010101": {
+        "ExpAdvice": "Kiểm tra phần tiếp xúc của vân tay hoặc thay thế linh kiện vân tay.",
+        "ExpDetail": "Cảm biến vân tay không hoạt động hoặc không nhạy",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "Người dùng nên khôi phục thiết bị về cài đặt gốc, nếu không, việc sử dụng các chức năng vân tay sẽ bị ảnh hưởng.",
+        "ExpDetail": "Ngoại lệ về khóa OEM",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "Bạn nên cho thay thế cảm biến vân tay.",
+        "ExpDetail": "Ngoại lệ về cảm biến vân tay",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "Hãy hiệu chỉnh lại cảm biến vân tay",
+        "ExpDetail": "Dữ liệu hiệu chỉnh vân tay không khớp",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "Kiểm tra mô-đun cảm biến hồng ngoại hoặc bo mạch chủ.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "Kiểm tra mô-đun cảm biến cường độ ánh sáng hoặc bo mạch chủ.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "Kiểm tra mô-đun cảm biến trọng lực của bo mạch chủ.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "Bạn nên đến trung tâm dịch vụ và thực hiện việc \"Tự kiểm tra và hiệu chỉnh cảm biến\" ở Chế độ kỹ thuật để hiệu chỉnh gia tốc kế. Nếu không hiệu chỉnh được, gia tốc kế có thể bị hỏng và cần được thay thế.",
+        "ExpDetail": "Dữ liệu gia tốc không chính xác",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "Kiểm tra mô-đun cảm biến địa từ của bo mạch chủ.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "Kiểm tra mô-đun con quay hồi chuyển của bo mạch chủ.",
+        "ExpDetail": "Không thành công",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "Bạn nên đến trung tâm dịch vụ và thực hiện việc \"Tự kiểm tra và hiệu chỉnh cảm biến\" ở Chế độ kỹ thuật để hiệu chỉnh con quay hồi chuyển. Nếu không hiệu chỉnh được, con quay hồi chuyển có thể bị hỏng và cần được thay thế.",
+        "ExpDetail": "Dữ liệu con quay hồi chuyển không chính xác",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không tải được trình điều khiển"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không gửi được mã"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác"
+    },
+    "t11010101": {
+        "ExpAdvice": "Kiểm tra tất cả các nút bên xem có lỗi đoản mạch hoặc hở mạch không.",
+        "ExpDetail": "Nút không phản hồi",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "Kiểm tra tất cả các nút bên xem có lỗi đoản mạch hoặc hở mạch không.",
+        "ExpDetail": "Chức năng của nút không chính xác",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "Kiểm tra tất cả các nút bên xem có lỗi đoản mạch hoặc hở mạch không.",
+        "ExpDetail": "Độ nhạy khi chạm kém",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Đèn pin không hoạt động"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Độ sáng thấp"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Màu không chính xác"
+    },
+    "t12010201": {
+        "ExpAdvice": "Thay thế đèn flash hoặc kiểm tra mạch điều khiển đèn flash.",
+        "ExpDetail": "Đèn pin không hoạt động",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "Thay thế đèn flash hoặc kiểm tra mạch điều khiển đèn flash.",
+        "ExpDetail": "Độ sáng màn hình thấp",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "Thay thế mô-tơ hoặc kiểm tra mạch điều khiển mô-tơ.",
+        "ExpDetail": "Không rung",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "Thay thế mô-tơ hoặc kiểm tra mạch điều khiển mô-tơ.",
+        "ExpDetail": "Sự cố rung",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "Bạn nên cho thay thế mô-tơ.",
+        "ExpDetail": "Hỏng phần cứng mô-tơ",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "Làm nguội điện thoại, đảm bảo điện thoại tản nhiệt tốt và chỉ chơi game sau khi nhiệt độ thiết bị trở về bình thường.",
+        "ExpDetail": "Điện thoại bị quá nóng trong quá trình chơi game",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "Sự cố chạy chậm là do mất khung hình trong trò chơi. Đảm bảo thiết bị tản nhiệt tốt và kết nối mạng của bạn ổn định.",
+        "ExpDetail": "Chạy chậm và rớt khung hình trong quá trình chơi game",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "Mạng không ổn định trong khi chơi game. Hãy chơi game trong điều kiện mạng ổn định.",
+        "ExpDetail": "Mạng không ổn định trong quá trình chơi game",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng thông báo của ứng dụng %1 bị tắt. Để nhận được thông báo của ứng dụng này, hãy chạm và giữ biểu tượng ứng dụng, đi tới \"Thông tin ứng dụng - Quản lý thông báo\" và bật công tắc.",
+        "ExpDetail": "Chưa bật cho một ứng dụng"
+    },
+    "t17010102": {
+        "ExpAdvice": "\"Thông báo\" đã bị tắt đối với một số ứng dụng, bao gồm cả %1, nên bạn có thể không nhận được một số tin nhắn quan\n  trọng. Hãy cân nhắc bật tính năng này trong cài đặt của ứng dụng bên thứ ba.",
+        "ExpDetail": "Tắt"
+    },
+    "t17010201": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng thông báo im lặng của ứng dụng %1 được bật. Điều đó có nghĩa là tất cả thông báo của ứng dụng này sẽ chỉ xuất hiện ở cuối thanh thông báo. Để tắt chức năng này, hãy thao tác như sau: \n① ColorOS 11: Chạm và giữ biểu tượng ứng dụng, đi tới \"Thông tin ứng dụng - Quản lý thông báo - Thông báo tin nhắn mới (thông báo về lời mời tham gia cuộc gọi thoại hoặc video)\" và tắt \"Bật thông báo im lặng\".\n② ColorOS 7.2: Chạm và giữ biểu tượng ứng dụng, đi tới \"Thông tin ứng dụng - Quản lý thông báo\" và tắt \"Chuyển xuống dưới cùng\".",
+        "ExpDetail": "Thông báo im lặng bật cho một ứng dụng"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Hiển thị tiêu đề và nội dung"
+    },
+    "t17010302": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy \"Thông báo trên Màn hình khóa\" được đặt thành \"Chỉ hiển thị tiêu đề\". Để hiển thị nội dung thông báo, hãy đi tới \"Cài đặt - Thông báo và thanh trạng thái - Quản lý thông báo - Thông báo trên Màn hình khóa\" và thay đổi cài đặt thành \"Hiển thị tiêu đề và nội dung\".",
+        "ExpDetail": "Chỉ hiển thị tiêu đề"
+    },
+    "t17010303": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy \"Thông báo trên Màn hình khóa\" được đặt thành \"Không hiển thị\". Để hiển thị thông báo trên màn hình khóa, hãy đi tới \"Cài đặt - Thông báo và thanh trạng thái - Quản lý thông báo - Thông báo trên Màn hình khóa\" và thay đổi cài đặt này thành \"Hiển thị tiêu đề và nội dung\" hoặc \"Chỉ hiển thị tiêu đề\".",
+        "ExpDetail": "Không hiển thị"
+    },
+    "t17010401": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Tắt tiếng thông báo\" được bật. Để luôn cập nhật các tin nhắn quan trọng, hãy vuốt thanh trạng thái xuống, nhấn vào \"Tắt tiếng thông báo\" và tắt công tắc.",
+        "ExpDetail": "Bật"
+    },
+    "t17010501": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Đánh thức màn hình khi nhận thông báo trên màn hình khóa\" bị tắt. Để bật công tắc này, hãy đi tới \"Cài đặt - Thông báo và thanh trạng thái - Quản lý thông báo - Thêm - Đánh thức màn hình khi nhận thông báo\".",
+        "ExpDetail": "Tắt"
+    },
+    "t17010502": {
+        "ExpAdvice": "\"Đánh thức màn hình khi nhận được thông báo\" đã tắt. Bạn có thể không nhận được ngay thông báo khi màn hình bị\n  khóa. Hãy cân nhắc bật tính năng này.",
+        "ExpDetail": "Tắt"
+    },
+    "t17010601": {
+        "ExpAdvice": "\"Giảm phản hồi từ thông báo\" bật. Khi bạn sử dụng ứng dụng ở chế độ toàn màn hình (chẳng hạn như khi xem video hoặc\n  chơi game hay ở trong cuộc gọi hội nghị), âm thanh thông báo nhẹ nhàng hơn và\n  độ rung giảm xuống. Hãy cân nhắc tắt tính năng này.",
+        "ExpDetail": "Bật"
+    },
+    "t17010701": {
+        "ExpAdvice": "\"Tối ưu hóa chế độ chờ khi ngủ\" bật. Điện thoại của bạn sẽ tiêu thụ ít năng lượng hơn và\n  hạn chế thông báo khi bạn đang ngủ. Hãy cân nhắc tắt tính năng này.",
+        "ExpDetail": "Bật"
+    },
+    "t17010801": {
+        "ExpAdvice": "\"Huy hiệu biểu tượng ứng dụng\" đã được tắt cho một số ứng dụng. Vì huy hiệu sẽ không hiển thị ở góc trên bên phải\n  của các ứng dụng này, bạn có thể bỏ lỡ những thông báo quan trọng. Hãy cân\n  nhắc bật tính năng này.",
+        "ExpDetail": "Tắt"
+    },
+    "t17020101": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Tiết kiệm dữ liệu\" được bật trên điện thoại của bạn. Điều đó có nghĩa là các ứng dụng dưới nền sẽ không nhận được bất kỳ thông báo nào. Để nhận thông báo, hãy đi tới \"Cài đặt - Thẻ SIM và dữ liệu di động - Mức sử dụng dữ liệu - Tiết kiệm dữ liệu\" và tắt công tắc.",
+        "ExpDetail": "Bật"
+    },
+    "t17020201": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng cả \"Wi-Fi\" và \"Dữ liệu di động\" đều bị tắt cho ứng dụng %1. Điều đó có nghĩa là không thể nhận được bất kỳ thông báo nào. Để bật hai công tắc này, hãy chạm và giữ biểu tượng ứng dụng rồi đi tới \"Thông tin ứng dụng - Chi tiết về mức sử dụng dữ liệu\".",
+        "ExpDetail": "Chưa bật cho một ứng dụng"
+    },
+    "t17020301": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Dữ liệu nền\" bị tắt cho ứng dụng %1. Điều đó có nghĩa là ứng dụng sẽ không nhận được bất kỳ thông báo nào khi đang chạy trong nền. Để bật công tắc này, chạm và giữ biểu tượng ứng dụng rồi đi tới \"Thông tin ứng dụng - Chi tiết về mức sử dụng dữ liệu\".",
+        "ExpDetail": "Chưa bật cho một ứng dụng"
+    },
+    "t17030101": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng các thông báo ứng dụng bị giới hạn cho ứng dụng %1 do các cài đặt mức sử dụng pin. Để bật \"Cho phép hoạt động trên nền\", hãy chạm và giữ biểu tượng ứng dụng rồi đi tới \"Thông tin ứng dụng - Mức sử dụng pin\".",
+        "ExpDetail": "Tắt"
+    },
+    "t17030201": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng các thông báo ứng dụng bị giới hạn cho ứng dụng %1 do các cài đặt mức sử dụng pin. Để bật \"Cho phép hoạt động dưới nền\", hãy chạm và giữ biểu tượng ứng dụng rồi đi tới \"Thông tin ứng dụng - Mức sử dụng pin\".",
+        "ExpDetail": "Tắt"
+    },
+    "t17030301": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng các thông báo ứng dụng bị giới hạn cho ứng dụng %1 do các cài đặt mức sử dụng pin. Để bật \"Cho phép tự động khởi chạy\", hãy chạm và giữ biểu tượng ứng dụng rồi đi tới \"Thông tin ứng dụng - Mức sử dụng pin\".",
+        "ExpDetail": "Tắt"
+    },
+    "t17030401": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng các thông báo ứng dụng bị giới hạn cho ứng dụng %1 do các cài đặt mức sử dụng pin. Để bật \"Cho phép khởi chạy từ ứng dụng khác\", hãy chạm và giữ biểu tượng ứng dụng rồi đi tới \"Thông tin ứng dụng - Mức sử dụng pin\".",
+        "ExpDetail": "Tắt"
+    },
+    "t17040101": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Khóa ứng dụng\" được đặt trên điện thoại của bạn nhưng không thể phát hiện thấy thông tin chi tiết về khóa. Do không có tin nhắn nào được hiển thị cho ứng dụng %1, hãy đi tới \"Cài đặt - Quyền riêng tư - Khóa ứng dụng\" và kiểm tra xem ứng dụng có bị khóa không.",
+        "ExpDetail": "Bật"
+    },
+    "t17040201": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Khóa ứng dụng\" được đặt trên điện thoại của bạn nhưng không thể phát hiện thấy thông tin chi tiết về khóa. Do không có tin nhắn nào được hiển thị cho ứng dụng %1, hãy đi tới \"Cài đặt - Quyền riêng tư - Ẩn ứng dụng\" và kiểm tra xem ứng dụng có bị ẩn không.",
+        "ExpDetail": "Bật"
+    },
+    "t17050101": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng điện thoại của bạn bị tắt tiếng. Điều đó có nghĩa là bạn sẽ không nghe thấy âm báo tin nhắn khi có tin nhắn đến. Để bật tiếng điện thoại, hãy đi tới \"Cài đặt - Âm thanh và rung - Tắt tiếng\".",
+        "ExpDetail": "Bật"
+    },
+    "t17050201": {
+        "ExpAdvice": "Hệ thống đã phát hiện thấy rằng \"Không làm phiền\" được bật cho điện thoại của bạn. Điều đó có nghĩa là bạn sẽ không được cảnh báo khi có tin nhắn đến. Để tắt chức năng này, hãy đi tới \"Cài đặt - Âm thanh và rung - Không làm phiền\".",
+        "ExpDetail": "Bật"
+    },
+    "t17050202": {
+        "ExpAdvice": "\"Không làm phiền\" đã được bật. Vì bạn sẽ chỉ nhận được thông báo từ báo thức, bộ hẹn giờ và các sự kiện trên lịch nên\n  bạn có thể bỏ lỡ một số thông báo và lời nhắc khác. Hãy cân nhắc tắt chế độ\n  này.",
+        "ExpDetail": "Bật"
+    },
+    "t17060101": {
+        "ExpAdvice": "\"Nhân bản ứng dụng\" đã bị tắt cho một số ứng dụng, bao gồm cả %1. Để dễ dàng chuyển giữa các tài khoản trên cùng một\n  ứng dụng, hãy tìm kiếm \"Nhân bản ứng dụng\" trong Cài đặt và bật\n  chức năng này.",
+        "ExpDetail": "Tắt"
+    },
+    "t17060201": {
+        "ExpAdvice": "\"Nhân bản ứng dụng\" đã được bật cho một số ứng dụng. Tuy nhiên, \"Khi dùng chức năng nhanh\" đã được đặt\n  thành \"Mở ứng dụng chính\". Hãy cân nhắc thay đổi sang \"Luôn\n  hỏi\".",
+        "ExpDetail": "Tắt"
+    },
+    "t17060301": {
+        "ExpAdvice": "\"Chỉnh sửa diện mạo trong cuộc gọi video\" bị tắt nên chức năng làm đẹp trong thời gian thực không khả dụng trong cuộc\n  gọi video WeChat. Hãy cân nhắc bật tính năng này.",
+        "ExpDetail": "Tắt"
+    },
+    "t26010101": {
+        "ExpAdvice": "Các trạng thái của công tắc chuyển đổi hiện tại được phát hiện là: tắt tiếng, đổ chuông và rung, không khớp với vị trí công tắc. Bạn nên hiệu chỉnh và sửa chữa thiết bị.",
+        "ExpDetail": "Vị trí công tắc không khớp với trạng thái hiển thị"
+    },
+    "t26010102": {
+        "ExpAdvice": "Các trạng thái của công tắc chuyển đổi hiện tại được phát hiện là: tắt tiếng, đổ chuông và rung. Hệ thống không thể nhận diện được tất cả các trạng thái sau khi bật công tắc. Bạn nên hiệu chỉnh và sửa chữa thiết bị. Nếu không sửa được, hãy thay thế thiết bị.",
+        "ExpDetail": "Không phải tất cả các trạng thái hiển thị đều sáng lên"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Khác"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không được hỗ trợ",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không thể phân tích do dữ liệu không đủ",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "Đã xảy ra trường hợp ngoại lệ, không có kết quả",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "Không trả về kết quả nào sau khi hết thời gian chờ, vui lòng kiểm tra lại!",
+        "ExpDetail": "Không thành công"
+    },
+    "t6": {
+        "ExpAdvice": "Đã xảy ra trường hợp ngoại lệ, không có kết quả",
+        "ExpDetail": "Không thành công"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Bật"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Tắt"
+    },
+    "t9": {
+        "ExpAdvice": "Tất cả các ứng dụng",
+        "ExpDetail": "Bật"
+    },
+    "t05050109": {
+        "ExpDetail": "Lỗi băng tần di động: %1",
+        "ExpAdvice": "1. Đảm bảo bạn không chạm vào điện thoại trong quá trình thử nghiệm.&lt;br>2. Nếu sự cố vẫn tiếp diễn, hãy thay thế phần cứng vì một số băng tần có thể có sự cố."
+    },
+    "t05050110": {
+        "ExpDetail": "Lỗi băng tần vệ tinh: %1",
+        "ExpAdvice": "1. Đảm bảo bạn không chạm vào điện thoại trong quá trình thử nghiệm.&lt;br>2. Nếu sự cố vẫn tiếp diễn, hãy thay thế phần cứng vì một số băng tần có thể có sự cố."
+    },
+    "t05050111": {
+        "ExpDetail": "Lỗi băng tần di động và vệ tinh: %1",
+        "ExpAdvice": "1. Đảm bảo bạn không chạm vào điện thoại trong quá trình thử nghiệm.&lt;br>2. Nếu sự cố vẫn tiếp diễn, hãy thay thế phần cứng vì một số băng tần có thể có sự cố."
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "Đã sửa",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "Không sửa được"
+    },
+    "t08040104": {
+        "ExpDetail": "Khác",
+        "ExpAdvice": ""
+    },
+    "t07110101": {
+        "ExpDetail": "Lỗi cảm biến từ hiệu ứng Hall",
+        "ExpAdvice": "Bạn nên thay thế cảm biến."
+    },
+    "t07010201": {
+        "ExpDetail": "Lỗi nút nhạy với lực bấm",
+        "ExpAdvice": "Kiểm tra xem các đầu nối BTB có được gắn chặt vào đúng vị trí không, xem bo mạch FPC của mô-đun có bị vỡ không và xem bo mạch ăng-ten, bo mạch chủ cũng như bo mạch FPC có đang hoạt động chính xác không."
+    },
+    "t22140101": {
+        "ExpDetail": "Tốc độ quạt bất thường",
+        "ExpAdvice": "Tốc độ quạt bất thường. Kiểm tra những điều sau:\n1. Kiểm tra và loại bỏ bụi bẩn bám trên cánh quạt.\n2. Nếu sự cố vẫn tiếp diễn sau khi vệ sinh, hãy thay quạt.\n3. Nếu sự cố vẫn tiếp diễn sau khi thay quạt, hãy thay bo mạch chủ."
+    },
+    "t08030501": {
+        "ExpDetail": "Âm lượng nhỏ",
+        "ExpAdvice": "Kiểm tra xem lỗ micrô có bị tro bụi hoặc chất lỏng bịt lại không. Nếu âm thanh quá nhỏ đến mức gần như im lặng, hãy thay thế micrô và kiểm tra lại."
+    },
+    "t08030504": {
+        "ExpDetail": "Khác",
+        "ExpAdvice": "Kiểm tra xem lỗ micrô có bị tro bụi hoặc chất lỏng bịt lại không. Nếu âm thanh quá nhỏ đến mức gần như im lặng, hãy thay thế micrô và kiểm tra lại."
+    },
+    "t08030502": {
+        "ExpDetail": "Ồn",
+        "ExpAdvice": "Thay thế micrô và kiểm tra lại."
+    },
+    "t08030503": {
+        "ExpDetail": "Không có âm thanh",
+        "ExpAdvice": "Thay thế micrô và kiểm tra lại."
+    }
+}

@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'OPlusSans 3.0';
+    src: url('../fonts/OPlusSans3-Medium.ttf'), url('../fonts/OPlusSans3-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+body{
+    --img-width:480px;
+    --img-gap:5px;
+    background: #F7F8FB;
+}
+#container>div{
+    width:100%;
+    height:100%;
+    overflow: auto;
+}
+
+#container{
+    column-width:var(--img-width);
+    -webkit-column-width:var(--img-width);
+    -moz-column-width:var(--img-width);
+    -o-column-width:var(--img-width);
+    -ms-column-width:var(--img-width);
+    column-gap:var(--img-gap);
+    -webkit-column-gap:var(--img-gap);
+    -moz-column-gap:var(--img-gap);
+    -o-column-gap:var(--img-gap);
+    -ms-column-gap:var(--img-gap);
+    padding-top: 23px;
+}
+
+.col-md-5{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.thumbnail{
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D9D9D9;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll_area{
+    max-height: 485px;
+    overflow-y: scroll;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.icon_ColorOS15 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background: url(../images/ColorOS15.png) no-repeat center;
+}
+
+.icon_ColorOS14 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background: url(../images/ColorOS14.png) no-repeat center;
+}
+
+.icon_ColorOS13 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background: url(../images/ColorOS13.png) no-repeat center;
+}
+.icon_ColorOS12 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background: url(../images/ColorOS12.png) no-repeat center;
+}
+.icon_ColorOS11 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background: url(../images/ColorOS11.png) no-repeat center;
+}
+.icon_ColorOS7 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background: url(../images/ColorOS7.png) no-repeat center;
+}
+
+.icon_ColorOSUnknow {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background: url(../images/ColorOs_Unknown.png) no-repeat center;
+}
+
+.title{
+    font-family: 'OPlusSans 3.0';
+    font-weight: 500;
+    margin-left: 65px;
+    margin-top: 13px;
+    font-size: 18px;
+}
+
+.tt_1{
+    font-family: 'OPlusSans 3.0';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 0px;
+    max-width: 450px;
+}
+
+.tt_2{
+    font-family: 'OPlusSans 3.0';
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.tag_new{
+    font-family: 'OPlusSans 3.0';
+    background-color:#2FC29B;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 0px 6px;
+    margin-left: 10px;
+}
+
+.tag_enterprise{
+    font-family: 'OPlusSans 3.0';
+    background: #FFF;
+    border-radius: 3px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.55);
+    padding: 0px 6px;
+    margin-left: 10px;
+    border-color: #999;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.tag_operate{
+    font-family: 'OPlusSans 3.0';
+    background: #2FC29B;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 0px 6px;
+    margin-left: 10px;
+}
+
+.tag_theme{
+    font-family: 'OPlusSans 3.0';
+    background: #2FC29B;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 0px 6px;
+    margin-left: 10px;
+}
+
+.ver_line {
+    margin: -1px 5px;
+    display: inline-block;
+    height: 13px;
+    width: 2px;
+    background-color: #D9D9D9;
+}
+.btn_custom{
+    font-family: 'OPlusSans 3.0';
+    padding: 3px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #FFF;
+    margin-left:5px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.btn_flash{
+    font-family: 'OPlusSans 3.0';
+    padding: 3px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #2FC29B;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.btn_custom:focus,.btn_custom:active:focus,
+.btn_custom.active:focus,.btn_custom.focus,
+.btn_custom:active.focus,.btn_custom.active.focus {
+    outline: none;
+}
+
+.fix-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon_up {
+    font-family: 'OPlusSans 3.0';
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    width: 8px;
+    height: 5px;
+    background: url(../images/up.png) no-repeat center;
+    background-size: contain;
+}
+
+.icon_down {
+    font-family: 'OPlusSans 3.0';
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    width: 8px;
+    height: 5px;
+    background: url(../images/down.png) no-repeat center;
+    background-size: contain;
+}
+
+.no_content {
+    text-align: center;
+    float: no;
+    display: block;
+    height: 220px;
+}
+
+.no_content_text {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.progress {
+    font-family: 'OPlusSans 3.0';
+    height: 28px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to right, #2D40E9 calc(var(--percent) * 1%), #E0E3FC calc(var(--percent) * 1%));
+    animation: all 2000ms;
+    border-radius: 22px;
+    cursor: pointer;
+    padding:0px 8px;
+    width: fit-content;
+    min-width: 55px;
+}
+.progress p {
+    font-family: 'OPlusSans 3.0';
+    line-height: 30px;
+    background-image: linear-gradient(to right, #FFFFFF calc(var(--percent) * 1%), #2D40E9 calc(var(--percent) * 1%));
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}

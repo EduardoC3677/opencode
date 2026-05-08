@@ -1,0 +1,2822 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "正常",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "建議使用者升級為最新版本，最新版本的系統會更加穩定。",
+        "ExpDetail": "可更新為版本：%1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "手機序號／串號被更改或者更換主機板後沒有寫串號，建議使用者寫回原來的串號，告知使用者非法串號可能會導致網路異常。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "需要繼續排查資料異常原因，屬於元件異常還是資料被篡改",
+        "ExpDetail": "資料異常"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "解鎖次數：%1<br>解鎖狀態：已解鎖"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "解鎖次數：%1<br>解鎖狀態：未解鎖"
+    },
+    "t01010101": {
+        "ExpAdvice": "可能是第三方應用程式和系統存在相容性問題。建議將手機更新為最新版本，並將應用程式更新為最新版本，此為軟體問題與硬體無關。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "Android 系統底層軟體服務出現異常或者 CPU／記憶體不穩定都可能會導致多次異常的重新啟動，建議根據硬體問題為使用者進行維修處理。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "應用程式出現異常，請檢查出現異常的應用程式是否為 beta 版本、非官方版本或官方的舊版本，如果不是使用最新版本，請從應用程式商店下載官方最新的穩定版。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "可能是軟體相容性問題，或因手機摔落／在高溫／低溫環境下使用故導致關機，建議更新為最新版本，並注意手機的使用環境。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "手機供電不穩定，建議按照硬體問題為使用者維修處理。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "建議更換指紋模組",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "建議詢問使用者是否有誤觸按鍵的可能性。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "請詢問使用者的手機是否卡死，使用組合鍵重新啟動以觸發開機。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "原因：CPU 長期在高負載狀態下運作導致溫度過高，為防止過熱，CPU 會進行自我保護，可能會影響使用效能。<br>建議：①關閉手機省電模式，盡量避免讓 CPU 長時間在高負載狀態下運作。②可採用酒精、濕紙巾擦拭機器表面的方式加速降溫，保持良好的散熱效果。",
+        "ExpDetail": "歷史卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "原因：CPU 低頻可能會影響系統效能，處理速度變慢導致應用程式回應時間變長。<br>建議：①請及時清理手機背景應用程式。②關閉省電模式。③保持機器良好的散熱效果。",
+        "ExpDetail": "歷史卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "原因：在背景中執行的應用程式過多，導致可用記憶體低於 10%，<br>建議：①請及時清理手機背景應用程式。②部分手機支援打開隨機存取記憶體擴充功能，操作指引：進入設定—系統設定—隨機存取記憶體。②可定期重新啟動使用。",
+        "ExpDetail": "歷史卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "原因：記憶體容量低會導致應用程式快取無法儲存，應用程式出現卡頓，當機，閃退等情況。<br>建議：可使用內建手機管家清理記憶體，刪除不需要的照片，影片，軟體。或是複製到電腦、USB 隨身碟中儲存。",
+        "ExpDetail": "歷史卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "原因：手機 OS 版本為非正式版本，可能會出現不穩定的情況。<br>建議：建議安裝正式的系統版本或是等待測試版本進行更新",
+        "ExpDetail": "歷史卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "原因：檢測裝置安裝了第三方手機管家、系統最佳化軟體（如騰訊手機管家、360 安全衛士）等。此類型的軟體容易造成手機異常卡頓。<br>建議：解除安裝第三方系統最佳化軟體，可使用系統內建手機管家進行手機最佳化。",
+        "ExpDetail": "歷史卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "原因：開啟頁面縮放，部分應用程式可能會出現縮放卡頓的情況。<br>建議：關閉放大手勢功能（設定->其他設定->無障礙->放大手勢）",
+        "ExpDetail": "歷史卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "1. 請確認詳情中的診斷結果是否與使用者的描述相符，若相符，請清理這些應用程式的快取並且把這些應用程式升級為最新版本。<br>2. 建議重新啟動手機<br>3. 及時清理在背景中執行的應用程式<br>4. 更新手機系統版本<br>5. 取得使用者「卡頓」Log 日誌，並回饋技術分析。",
+        "ExpDetail": "歷史卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "1. 請確認詳情中的診斷結果是否與使用者的描述相符，若相符，請清理這些應用程式的快取並且把這些應用程式升級為最新版本。<br>2. 建議重新啟動手機<br>3. 及時清理在背景中執行的應用程式<br>4. 更新手機系統版本<br>5. 取得使用者「卡頓」Log 日誌，並回饋技術分析。",
+        "ExpDetail": "歷史佔用記憶體 Top5 應用程式：<br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "原因：CPU 長期在高負載狀態下運作導致溫度過高，為防止過熱，CPU 會進行自我保護，可能會影響使用效能。<br>建議：①關閉手機省電模式，盡量避免讓 CPU 長時間在高負載狀態下運作。②可採用酒精、濕紙巾擦拭機器表面的方式加速降溫，保持良好的散熱效果。",
+        "ExpDetail": "歷史啟動慢 Top5 應用程式：<br>%1<br>啟動慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "原因：CPU 低頻可能會影響系統效能，處理速度變慢導致應用程式回應時間變長。<br>建議：①請及時清理手機背景應用程式。②關閉省電模式。③保持機器良好的散熱效果。",
+        "ExpDetail": "歷史啟動慢 Top5 應用程式：<br>%1<br>啟動慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "原因：在背景中執行的應用程式過多，導致可用記憶體低於 10%，<br>建議：①請及時清理手機背景應用程式。②部分手機支援打開隨機存取記憶體擴充功能，操作指引：進入設定—系統設定—隨機存取記憶體。②可定期重新啟動使用。",
+        "ExpDetail": "歷史啟動慢 Top5 應用程式：<br>%1<br>啟動慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "原因：記憶體容量低會導致應用程式快取無法儲存，應用程式出現卡頓，當機，閃退等情況。<br>建議：可使用內建手機管家清理記憶體，刪除不需要的照片，影片，軟體。或是複製到電腦、USB 隨身碟中儲存。",
+        "ExpDetail": "歷史啟動慢 Top5 應用程式：<br>%1<br>啟動慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "原因：手機 OS 版本為非正式版本，可能會出現不穩定的情況。<br>建議：建議安裝正式的系統版本或是等待測試版本進行更新",
+        "ExpDetail": "歷史啟動慢 Top5 應用程式：<br>%1<br>啟動慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "原因：檢測裝置安裝了第三方手機管家、系統最佳化軟體（如騰訊手機管家、360 安全衛士）等。此類型的軟體容易造成手機異常卡頓。<br>建議：解除安裝第三方系統最佳化軟體，可使用系統內建手機管家進行手機最佳化。",
+        "ExpDetail": "歷史啟動慢 Top5 應用程式：<br>%1<br>啟動慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "原因：開啟頁面縮放，部分應用程式可能會出現縮放卡頓的情況。<br>建議：關閉放大手勢功能（設定->其他設定->無障礙->放大手勢）",
+        "ExpDetail": "歷史啟動慢 Top5 應用程式：<br>%1<br>啟動慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "1. 請確認詳情中的診斷結果是否與使用者的描述相符，若相符，請清理這些應用程式的快取並且把這些應用程式升級為最新版本。<br>2. 建議重新啟動手機<br>3. 及時清理在背景中執行的應用程式<br>4. 更新手機系統版本<br>5. 取得使用者「卡頓」Log 日誌，並回饋技術分析。",
+        "ExpDetail": "未知的原因",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "原因：在背景中執行的應用程式過多，導致可用記憶體低於 10%，<br>建議：①請及時清理手機背景應用程式。②部分手機支援打開隨機存取記憶體擴充功能，操作指引：進入設定—系統設定—隨機存取記憶體。②可定期重新啟動使用。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "原因：記憶體容量低會導致應用程式快取無法儲存，應用程式出現卡頓，當機，閃退等情況。<br>建議：可使用內建手機管家清理記憶體，刪除不需要的照片，影片，軟體。或是複製到電腦、USB 隨身碟中儲存。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "原因：CPU 長期在高負載狀態下運作導致溫度過高，為防止過熱，CPU 會進行自我保護，可能會影響使用效能。<br>建議：①關閉手機省電模式，盡量避免讓 CPU 長時間在高負載狀態下運作。②可採用酒精、濕紙巾擦拭機器表面的方式加速降溫，保持良好的散熱效果。",
+        "ExpDetail": "歷史介面卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "原因：CPU 低頻可能會影響系統效能，處理速度變慢導致應用程式回應時間變長。<br>建議：①請及時清理手機背景應用程式。②關閉省電模式。③保持機器良好的散熱效果。",
+        "ExpDetail": "歷史介面卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "原因：在背景中執行的應用程式過多，導致可用記憶體低於 10%，<br>建議：①請及時清理手機背景應用程式。②部分手機支援打開隨機存取記憶體擴充功能，操作指引：進入設定—系統設定—隨機存取記憶體。②可定期重新啟動使用。",
+        "ExpDetail": "歷史介面卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "原因：記憶體容量低會導致應用程式快取無法儲存，應用程式出現卡頓，當機，閃退等情況。<br>建議：可使用內建手機管家清理記憶體，刪除不需要的照片，影片，軟體。或是複製到電腦、USB 隨身碟中儲存。",
+        "ExpDetail": "歷史介面卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "原因：手機 OS 版本為非正式版本，可能會出現不穩定的情況。<br>建議：建議安裝正式的系統版本或是等待測試版本進行更新",
+        "ExpDetail": "歷史介面卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "原因：檢測裝置安裝了第三方手機管家、系統最佳化軟體（如騰訊手機管家、360 安全衛士）等。此類型的軟體容易造成手機異常卡頓。<br>建議：解除安裝第三方系統最佳化軟體，可使用系統內建手機管家進行手機最佳化。",
+        "ExpDetail": "歷史介面卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "原因：開啟頁面縮放，部分應用程式可能會出現縮放卡頓的情況。<br>建議：關閉放大手勢功能（設定->其他設定->無障礙->放大手勢）",
+        "ExpDetail": "歷史介面卡頓 Top5 應用程式：<br>%1<br>卡頓的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "1. 請確認詳情中的診斷結果是否與使用者的描述相符，若相符，請清理這些應用程式的快取並且把這些應用程式升級為最新版本。<br>2. 建議重新啟動手機<br>3. 及時清理在背景中執行的應用程式<br>4. 更新手機系統版本<br>5. 取得使用者「卡頓」Log 日誌，並回饋技術分析。",
+        "ExpDetail": "未知的原因",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "原因：自動啟動應用程式都需要佔用系統資源，包括記憶體、CPU 等。當自動啟動應用程式過多時，會導致系統資源不足，影響其他應用程式的執行速度和效能。<br>建議：關閉不常使用的自動啟動應用程式，路徑：打開手機設定—應用程式—自動啟動",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "原因：CPU 長期在高負載狀態下運作導致溫度過高，為防止過熱，CPU 會進行自我保護，可能會影響使用效能。<br>建議：①關閉手機省電模式，盡量避免讓 CPU 長時間在高負載狀態下運作。②可採用酒精、濕紙巾擦拭機器表面的方式加速降溫，保持良好的散熱效果。",
+        "ExpDetail": "歷史輕觸反應慢 Top5 應用程式：<br>%1<br>反應慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "原因：CPU 低頻可能會影響系統效能，處理速度變慢導致應用程式回應時間變長。<br>建議：①請及時清理手機背景應用程式。②關閉省電模式。③保持機器良好的散熱效果。",
+        "ExpDetail": "歷史輕觸反應慢 Top5 應用程式：<br>%1<br>反應慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "原因：在背景中執行的應用程式過多，導致可用記憶體低於 10%，<br>建議：①請及時清理手機背景應用程式。②部分手機支援打開隨機存取記憶體擴充功能，操作指引：進入設定—系統設定—隨機存取記憶體。②可定期重新啟動使用。",
+        "ExpDetail": "歷史輕觸反應慢 Top5 應用程式：<br>%1<br>反應慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "原因：記憶體容量低會導致應用程式快取無法儲存，應用程式出現卡頓，當機，閃退等情況。<br>建議：可使用內建手機管家清理記憶體，刪除不需要的照片，影片，軟體。或是複製到電腦、USB 隨身碟中儲存。",
+        "ExpDetail": "歷史輕觸反應慢 Top5 應用程式：<br>%1<br>反應慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "原因：手機 OS 版本為非正式版本，可能會出現不穩定的情況。<br>建議：建議安裝正式的系統版本或是等待測試版本進行更新",
+        "ExpDetail": "歷史輕觸反應慢 Top5 應用程式：<br>%1<br>反應慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "原因：檢測裝置安裝了第三方手機管家、系統最佳化軟體（如騰訊手機管家、360 安全衛士）等。此類型的軟體容易造成手機異常卡頓。<br>建議：解除安裝第三方系統最佳化軟體，可使用系統內建手機管家進行手機最佳化。",
+        "ExpDetail": "歷史輕觸反應慢 Top5 應用程式：<br>%1<br>反應慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "原因：開啟頁面縮放，部分應用程式可能會出現縮放卡頓的情況。<br>建議：關閉放大手勢功能（設定->其他設定->無障礙->放大手勢）",
+        "ExpDetail": "歷史輕觸反應慢 Top5 應用程式：<br>%1<br>反應慢的原因 Top5：<br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "原因：CPU 長期在高負載狀態下運作導致溫度過高，為防止過熱，CPU 會進行自我保護，可能會影響使用效能。<br>建議：①關閉手機省電模式，盡量避免讓 CPU 長時間在高負載狀態下運作。②可採用酒精、濕紙巾擦拭機器表面的方式加速降溫，保持良好的散熱效果。",
+        "ExpDetail": "CPU 溫度過高",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "原因：CPU 低頻可能會影響系統效能，處理速度變慢導致應用程式回應時間變長。<br>建議：①請及時清理手機背景應用程式。②關閉省電模式。③保持機器良好的散熱效果。",
+        "ExpDetail": "CPU 低頻",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "原因：在背景中執行的應用程式過多，導致可用記憶體低於 10%，<br>建議：①請及時清理手機背景應用程式。②部分手機支援打開隨機存取記憶體擴充功能，操作指引：進入設定—系統設定—隨機存取記憶體。②可定期重新啟動使用。",
+        "ExpDetail": "記憶體不足",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "原因：記憶體容量低會導致應用程式快取無法儲存，應用程式出現卡頓，當機，閃退等情況。<br>建議：可使用內建手機管家清理記憶體，刪除不需要的照片，影片，軟體。或是複製到電腦、USB 隨身碟中儲存。",
+        "ExpDetail": "儲存空間不足",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "原因：手機 OS 版本為非正式版本，可能會出現不穩定的情況。<br>建議：建議安裝正式的系統版本或是等待測試版本進行更新",
+        "ExpDetail": "公測版本",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "原因：檢測裝置安裝了第三方手機管家、系統最佳化軟體（如騰訊手機管家、360 安全衛士）等。此類型的軟體容易造成手機異常卡頓。<br>建議：解除安裝第三方系統最佳化軟體，可使用系統內建手機管家進行手機最佳化。",
+        "ExpDetail": "安裝損壞型應用程式",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "原因：開啟頁面縮放，部分應用程式可能會出現縮放卡頓的情況。<br>建議：關閉放大手勢功能（設定->其他設定->無障礙->放大手勢）",
+        "ExpDetail": "已開啟開發者選項手勢放大功能",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "1. 請確認詳情中的診斷結果是否與使用者的描述相符，若相符，請清理這些應用程式的快取並且把這些應用程式升級為最新版本。<br>2. 建議重新啟動手機<br>3. 及時清理在背景中執行的應用程式<br>4. 更新手機系統版本<br>5. 取得使用者「卡頓」Log 日誌，並回饋技術分析。",
+        "ExpDetail": "未知的原因",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "螢幕亮起熄滅速度慢的原因：",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "原因：CPU 長期在高負載狀態下運作導致溫度過高，為防止過熱，CPU 會進行自我保護，可能會影響使用效能。<br>建議：①關閉手機省電模式，盡量避免讓 CPU 長時間在高負載狀態下運作。②可採用酒精、濕紙巾擦拭機器表面的方式加速降溫，保持良好的散熱效果。",
+        "ExpDetail": "CPU 溫度過高",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "原因：CPU 低頻可能會影響系統效能，處理速度變慢導致應用程式回應時間變長。<br>建議：①請及時清理手機背景應用程式。②關閉省電模式。③保持機器良好的散熱效果。",
+        "ExpDetail": "CPU 低頻",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "原因：在背景中執行的應用程式過多，導致可用記憶體低於 10%，<br>建議：①請及時清理手機背景應用程式。②部分手機支援打開隨機存取記憶體擴充功能，操作指引：進入設定—系統設定—隨機存取記憶體。②可定期重新啟動使用。",
+        "ExpDetail": "記憶體不足",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "原因：記憶體容量低會導致應用程式快取無法儲存，應用程式出現卡頓，當機，閃退等情況。<br>建議：可使用內建手機管家清理記憶體，刪除不需要的照片，影片，軟體。或是複製到電腦、USB 隨身碟中儲存。",
+        "ExpDetail": "儲存空間不足",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "原因：手機 OS 版本為非正式版本，可能會出現不穩定的情況。<br>建議：建議安裝正式的系統版本或是等待測試版本進行更新",
+        "ExpDetail": "公測版本",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "原因：檢測裝置安裝了第三方手機管家、系統最佳化軟體（如騰訊手機管家、360 安全衛士）等。此類型的軟體容易造成手機異常卡頓。<br>建議：解除安裝第三方系統最佳化軟體，可使用系統內建手機管家進行手機最佳化。",
+        "ExpDetail": "安裝損壞型應用程式",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "原因：應用程式過多可能導致裝置記憶體不足，進而降低裝置的效能，出現裝置反應變慢卡頓等情況。建議：解除安裝不常用的應用程式。並定期清理裝置，以保持裝置最佳效能。",
+        "ExpDetail": "第三方應用程式過多",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "原因：自動啟動應用程式都需要佔用系統資源，包括記憶體、CPU 等。當自動啟動應用程式過多時，會導致系統資源不足，影響其他應用程式的執行速度和效能。<br>建議：關閉不常使用的自動啟動應用程式，路徑：打開手機設定—應用程式—自動啟動",
+        "ExpDetail": "自動啟動應用程式過多",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "1. 請確認詳情中的診斷結果是否與使用者的描述相符，若相符，請清理這些應用程式的快取並且把這些應用程式升級為最新版本。<br>2. 建議重新啟動手機<br>3. 及時清理在背景中執行的應用程式<br>4. 更新手機系統版本<br>5. 取得使用者「卡頓」Log 日誌，並回饋技術分析。",
+        "ExpDetail": "未知的原因",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "開機慢的原因：",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "手機負載過高，建議清理背景應用程式",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "手機負載過高，建議清理背景應用程式",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "手機負載過高，建議清理背景應用程式",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "手機負載過高，建議清理背景應用程式",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "手機負載過高，建議清理背景應用程式",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "目前溫度過高，請清理背景並讓手機靜止 5 分鐘後再使用。",
+        "ExpDetail": "相機啟動慢—高溫",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "目前可用記憶體不足，檢視使用者背景應用程式的數量，清除背景可提升啟動速度。",
+        "ExpDetail": "相機啟動慢—記憶體不足",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "目前負載過高，請清理背景。",
+        "ExpDetail": "相機啟動慢—高負載",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "請重新啟動手機後再啟動相機。",
+        "ExpDetail": "相機閃退—觸發工作階段 Dump",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "目前溫度過高，請清理背景並讓手機靜止 5 分鐘後再使用。",
+        "ExpDetail": "相機發熱—打開相機前溫度過高",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "長時間拍照、錄影所導致。可適當減少拍照、縮短錄影時間",
+        "ExpDetail": "相機發熱—相機應用程式發熱嚴重",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "目前溫度過高，請清理背景並讓手機靜止 5 分鐘後再使用。",
+        "ExpDetail": "相機預覽卡頓—高溫限頻",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "目前可用記憶體不足，檢視使用者背景應用程式的數量，清除背景可改善卡頓。",
+        "ExpDetail": "相機預覽卡頓—記憶體不足",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "請移到正常環境下觀察預覽是否卡頓。",
+        "ExpDetail": "相機預覽卡頓—環境光線變暗時影格率降低",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "相機距拍攝物太近，請將手機遠離拍攝物。",
+        "ExpDetail": "相機預覽模糊—沒對焦",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "目前溫度過高，請清理背景並讓手機靜止 5 分鐘後再使用。",
+        "ExpDetail": "拍照預覽卡頓—高溫限頻",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "目前可用記憶體不足，檢視使用者背景應用程式的數量，清除背景可改善卡頓。",
+        "ExpDetail": "拍照卡頓—記憶體不足",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "相機距拍攝物太近，請將手機遠離拍攝物",
+        "ExpDetail": "相機拍照模糊",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "請清理背景，重新啟動相機。",
+        "ExpDetail": "拍照時螢幕變黑—記憶體不足",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "請售後擷取影像日誌，並與演算法錯誤碼一起回傳。",
+        "ExpDetail": "拍照時螢幕雜訊—演算法錯誤碼：%1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "目前溫度過高，請清理背景並讓手機靜止 5 分鐘後再使用",
+        "ExpDetail": "無法拍照—高溫",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "請清理背景，重新啟動相機。",
+        "ExpDetail": "無法拍照—記憶體不足",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "請清理背景，重新啟動相機。",
+        "ExpDetail": "無法拍照—未載入聲音資源",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "目前溫度過高，請清理背景並讓手機靜止 5 分鐘後再使用",
+        "ExpDetail": "影片錄製預覽卡頓—高溫限頻",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "目前可用記憶體不足，檢視使用者背景應用程式的數量，清除背景可改善卡頓。",
+        "ExpDetail": "影片錄製預覽卡頓—記憶體不足",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "目前溫度過高，請清理背景並讓手機靜止 5 分鐘後再使用。",
+        "ExpDetail": "拍照慢—高溫",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "目前可用記憶體不足，檢視使用者背景應用程式的數量，清除背景即可改善。",
+        "ExpDetail": "拍照慢—記憶體不足",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "目前負載過高，請清理背景。",
+        "ExpDetail": "拍照慢—高負載",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "目前溫度過高，請清理背景並讓手機靜止 5 分鐘後再使用。",
+        "ExpDetail": "錄影檔案儲存超時—高溫",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "目前可用記憶體不足，檢視使用者背景應用程式的數量，清除背景即可改善。",
+        "ExpDetail": "錄影檔案儲存超時—記憶體不足",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "目前負載過高，請清理背景。",
+        "ExpDetail": "錄影檔案儲存超時—高負載",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "非網路原因所導致",
+        "ExpDetail": "出現過 %1 次播放失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "系統卡頓，建議清理背景或重新啟動手機",
+        "ExpDetail": "出現過 %1 次播放失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次播放失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次播放失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，如果是喇叭播放異常，則插入耳機播放查看是否有問題；若插入耳機沒有問題，請更換喇叭組件進行確認，若插入耳機播放也有問題，請更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次播放失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次播放失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再更換喇叭組件進行確認；若問題依然存在，更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次播放失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "先擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再確認是否已升級為最新版本，若問題依然存在，更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次播放失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "非網路原因所導致",
+        "ExpDetail": "出現過 %1 次錄音失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "系統卡頓，建議清理背景或重新啟動手機",
+        "ExpDetail": "出現過 %1 次錄音失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次錄音失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，請插入耳機錄音查看是否有問題；若插入耳機錄音沒有問題，請更換手機麥克風組件進行確認，若插入耳機錄音也有問題，請更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次錄音失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "網路原因導致播放影片時卡頓或失敗，請檢查網路",
+        "ExpDetail": "出現過 %1 次播放影片時卡頓或失敗",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "非網路原因所導致，請檢查應用程式",
+        "ExpDetail": "出現過 %1 次播放影片時卡頓或失敗",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "暫時無法自動分析的問題類型，建議使用應用程式商店最新版本，或是清空應用程式快取和資料後再使用。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "應用程式本身的問題，必須修改應用程式",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "暫時無法自動分析的問題類型，建議使用應用程式商店最新版本，或是清空應用程式快取和資料後再使用。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "未透過 OPPO 應用程式商店下載應用程式，建議改為從 OPPO 應用程式商店下載。",
+        "ExpDetail": "供參考，共發生過 %1 次",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "未透過 OPPO 應用程式商店下載應用程式，建議改為從 OPPO 應用程式商店下載。",
+        "ExpDetail": "供參考，共發生過 %1 次",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "部分第三方應用程式可能在使用期間出現異常，包含（%1）建議更新至最新版本",
+        "ExpDetail": "1、相容性異常；<br>2、32 位元應用程式",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "出現過 %1 次第三方應用程式語音或視訊通話失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "非網路原因所導致",
+        "ExpDetail": "出現過 %1 次第三方應用程式語音或視訊通話失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "請主要排查播放或錄音器材，如喇叭組件和手機麥克風",
+        "ExpDetail": "出現過 %1 次第三方應用程式語音或視訊通話失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "系統卡頓，建議清理背景或重新啟動手機",
+        "ExpDetail": "出現過 %1 次第三方應用程式語音或視訊通話失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次第三方應用程式語音或視訊通話失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "先確認已升級為最新版本，若問題依然存在，擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次第三方應用程式語音或視訊通話失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "先擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再升級為最新版本，若問題依然存在，更換主機板交叉驗證",
+        "ExpDetail": "出現過 %1 次第三方應用程式語音或視訊通話失敗、卡頓或無聲",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "1. 如果地點集中請對比不同的手機（相同的電信業者），有的話，請聯繫電信業者處理。<br>2. 如果時間集中請確認使用者當時所處的網路環境：在地下室、車庫、人群密集區以及行進中的車輛上都會出現訊號差的情況。<br>3. 如果在 WeChat 通話介面上已顯示「您目前通話的網路訊號差」或是「對方目前通話的網路訊號差」，請網路訊號差的一方嘗試更換網路。<br>4. 若 WeChat 通話無聲問題依然存在，請擷取音訊 Log 和網路 Log 給開發者分析。",
+        "ExpDetail": "出現過 %1 次網路異常導致 WeChat 通話無聲",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. 如果地點集中請對比不同的手機（相同的電信業者），有的話，請聯繫電信業者處理。<br>2. 如果時間集中請確認使用者當時所處的網路環境：在地下室、車庫、人群密集區以及行進中的車輛上都會出現訊號差的情況。<br>3. 如果在通話過程中，WeChat 出現「您目前通話的網路訊號差」或是「對方目前通話的網路訊號差」的提示，則說明畫面模糊屬於正常現象（WeChat 設計的策略）",
+        "ExpDetail": "出現過 %1 次網路異常導致 WeChat 視訊通話模糊",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. 請更新 WeChat 應用程式版本，建議重新啟動 WeChat 和手機。<br>2. 如果在通話過程中，WeChat 出現「對方目前通話的網路訊號差」的提示，則說明畫面模糊是由於對方手機所在環境網路較差的問題",
+        "ExpDetail": "出現過 %1 次網路異常導致 WeChat 視訊通話模糊",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "建議使用者不要在充電過程中使用手機。",
+        "ExpDetail": "在充電過程中手機使用時間過長。%1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "建議使用者不要在低溫環境下充電。",
+        "ExpDetail": "充電環境溫度過低，為保護電池，充電變慢。%1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "USB 充電慢，請切換至原廠充電器充電。",
+        "ExpDetail": "USB 充電。%1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "提醒使用者充電慢是因為充電初始電量高，為保護電池，涓流充電。",
+        "ExpDetail": "充電初始電量過高，涓流充電導致充電慢。%1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "轉接器電壓過高，請更換轉接器。",
+        "ExpDetail": "轉接器電壓過高%1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "電池接觸不良，請檢查電池及主機板 BTB 插座",
+        "ExpDetail": "電池接觸不良%1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "非標準電池，請更換電池。",
+        "ExpDetail": "非標準電池%1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "手機溫度過低，為保護電池，無法充飽電。",
+        "ExpDetail": "低溫無法充飽電%1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "請重新插上傳輸線繼續充電",
+        "ExpDetail": "連續充電時間過長%1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "轉接器電壓過高，請更換轉接器。",
+        "ExpDetail": "轉接器電壓過高%1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "手機溫度過高，基於安全考量，電池停止充電。",
+        "ExpDetail": "高溫停止充電%1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "手機溫度過高，基於安全考量，電池無法充飽電。",
+        "ExpDetail": "高溫無法充飽電%1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "手機溫度過低，為保護電池，停止充電。",
+        "ExpDetail": "低溫停止充電%1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "電池已充飽%1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "交叉實驗以判定是否為轉接器、線材或者機器的單機問題。如果線材或者轉接器有問題，更換配件處理。如果是單機問題，重新接合電池和 USB 的 BTB 接口看看是否可以修復，無法修復就返廠維修。如果不是硬體問題，軟體升級即可處理",
+        "ExpDetail": "無法充電%1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "交叉實驗以判定是否為轉接器、線材或者機器的單機問題。如果線材或者轉接器有問題，更換配件處理。如果是單機問題，重新接合電池和 USB 的 BTB 接口看看是否可以修復，無法修復就返廠維修。如果不是硬體問題，軟體升級即可處理",
+        "ExpDetail": "充電間歇性中斷%1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "請校正電池：在常溫環境下，充電到顯示充飽提示，插著轉接器待機靜置 2 小時。",
+        "ExpDetail": "電量計電量跳變%1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "請校正電池：在常溫環境下，充電到顯示充飽提示，插著轉接器待機靜置 2 小時。",
+        "ExpDetail": "電量計電量跳變%1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "請校正電池：在常溫環境下，充電到顯示充飽提示，插著轉接器待機靜置 2 小時。",
+        "ExpDetail": "電量計電量跳變%1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "請更換標配電池充電",
+        "ExpDetail": "非標配電池導致充電降速%1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "請更換標配轉接器充電",
+        "ExpDetail": "非標配轉接器導致充電降速%1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "檢查纜線是否老化，更換充電纜線",
+        "ExpDetail": "纜線問題導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "檢查快充是否正常，更換轉接器",
+        "ExpDetail": "非快充導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "請更換標配轉接器充電",
+        "ExpDetail": "非標配最大功率轉接器導致充電降速%1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "嘗試將機器溫度恢復至常溫後充電",
+        "ExpDetail": "手機溫度過低，為保護電池，閃充變慢%1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "嘗試將機器溫度恢復至常溫後充電",
+        "ExpDetail": "手機溫度過高，為保護電池，閃充變慢%1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "請將手機放置在常溫環境下充電",
+        "ExpDetail": "電池溫度過高或過低導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "請更換標配轉接器充電",
+        "ExpDetail": "連接電腦 USB 導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "待機環境充電",
+        "ExpDetail": "手機功耗高導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "請檢查充電接口是否有髒污或接觸不良，否則更換充電器、充電線、USB 小板進行確認。",
+        "ExpDetail": "充電電流異常導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "待機環境充電",
+        "ExpDetail": "長時間點亮螢幕導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "待機環境充電",
+        "ExpDetail": "長時間使用相機導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "待機環境充電",
+        "ExpDetail": "長時間通話導致充電慢%1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "待機環境充電",
+        "ExpDetail": "長時間處於溫度較高或者高功耗場景%1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "建議使用者在 15—35 度的情況下，從插入充電器關閉螢幕充電到手機提示「充電完成」後不要拔下充電器，持續插入充電器，2 個小時不使用再拔掉，進行電量計校正。",
+        "ExpDetail": "電池容量顯示誤差：%1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "建議使用者在 15—35 度的情況下，從插入充電器關閉螢幕充電到手機提示「充電完成」後不要拔下充電器，持續插入充電器，2 個小時不使用再拔掉，進行電量計校正。",
+        "ExpDetail": "電池容量顯示誤差：%1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "建議使用者在 15—35 度的情況下，從插入充電器關閉螢幕充電到手機提示「充電完成」後不要拔下充電器，持續插入充電器，2 個小時不使用再拔掉，進行電量計校正。",
+        "ExpDetail": "電池容量顯示誤差：%1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "建議使用者在 15—35 度的情況下，從插入充電器關閉螢幕充電到手機提示「充電完成」後不要拔下充電器，持續插入充電器，2 個小時不使用再拔掉，進行電量計校正。",
+        "ExpDetail": "電池容量顯示誤差：%1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "建議在 15—35 度的常溫環境下關閉螢幕充電。如果充電時環境溫度過高，或是玩大型遊戲使手機溫度升高（大於等於 38 度），系統會自動降低充電電流，充電變慢。",
+        "ExpDetail": "電池溫度過高：%1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "建議在 15—35 度的常溫環境下關閉螢幕充電。當手機環境溫度較低（低於 15 度）時，為了保護電池，手機會自動限制充電電流，充電速度也會比在常溫下的充電速度還慢。",
+        "ExpDetail": "電池溫度過低：%1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1、先進入工程模式（889—裝置調試—充電測試）確認充電電流是否正常；<br>2、若正常，則推測此類問題大概是由於手機功耗大（如玩大型遊戲）所導致。",
+        "ExpDetail": "小電流導致充電慢：%1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1、確認使用者是否使用 USB 充電。是的話，請更換成標配充電器進行充電。<br>2、不是的話，請檢查充電線是否已斷線或者接觸不良。",
+        "ExpDetail": "電腦的 USB 接口充電：%1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1、請使用標準充電器和傳輸線進行交叉驗證。<br>2、若能快充，提醒使用者用標配充電器充電，以獲得更好的充電體驗。<br>3、若不能則排查手機接口充電電路等。",
+        "ExpDetail": "不能閃充：%1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1、使用非標配充電器所導致。<br>2、使用標配充電器充電，以獲得更好的充電體驗。",
+        "ExpDetail": "非標配轉接器：%1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "建議在常溫環境（15—35 度）下充電或充電時不要玩大型遊戲。充電時如果玩大型遊戲，手機溫度會升高，當溫度高於 38 度後，系統會自動降低充電電流，充電變慢。",
+        "ExpDetail": "溫控或者應用程式場景電流過大導致充電慢：%1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "背景應用程式過多所導致，建議清理背景任務。",
+        "ExpDetail": "系統功耗過高導致充電慢：%1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "邊充邊玩會導致充電電流變小，建議使用者不要一邊充電一邊玩手機。",
+        "ExpDetail": "邊充邊玩導致充電慢：%1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1、請使用標準充電器和傳輸線進行交叉驗證。<br>2、若能閃充（含超級閃充），提醒使用者用標配充電器充電，以獲得更好的充電體驗。<br>3、若不能則排查手機接口充電電路等。",
+        "ExpDetail": "VOOC 充電間歇性中斷：%1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1、請使用標準充電器和傳輸線進行交叉驗證。<br>2、若能正常充電，提醒使用者用標配充電器充電，以獲得更好的充電體驗。<br>3、若不能則排查手機接口充電電路等。",
+        "ExpDetail": "普通充電間歇性中斷：%1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1、在現場插入充電器時是否有「非標配電池…」之類的提示。<br>2、拆機檢查電池接合是否正常，或是否為標配電池。",
+        "ExpDetail": "電池未裝好或非官方電池：%1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "若出現異常表示充電迴路沒有電流產生，請檢查 USB 接口及充電硬體模組。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "請確認：<br>1. 手機是否已經充飽電。<br>2. 電腦測試充電電流較小，查看手機是否處於高負載用電狀態。",
+        "ExpDetail": "測試失敗",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='優';}else if(result>=excellent){resultText+='良';}else{resultText+='差';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>優：'+good+'-100%，良：'+excellent+'-'+good+'%，差：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1. 電池容量變低手機續航時間會變短，您可以選擇去客服中心更換電池。<br>2. 在平時使用時盡量不要耗盡電量，在低電量的時候盡快充電以保護電池。",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '不通過：';if(result>=good){resultText+='優';}else if(result>excellent){resultText+='良';}else{resultText+='差';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>優：'+good+'-100%，良：'+excellent+'-'+good+'%，差：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a. 建議諮詢當地的網路服務供應商，或者聯繫當地的電信業者到現場測試。<br>b. 待機的時候開啟飛航模式，避免網路不穩定導致耗電。",
+        "ExpDetail": "網路環境複雜／較差導致蜂巢式行動網路頻繁中斷重連",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a. 建議諮詢當地的網路服務供應商，或者聯繫當地的電信業者到現場測試。<br>b. 待機的時候開啟飛航模式，避免網路不穩定導致耗電。",
+        "ExpDetail": "網路訊號差導致無服務",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a. 建議諮詢當地的網路服務供應商，或者聯繫當地的電信業者到現場測試。<br>b. 待機的時候開啟飛航模式，避免網路不穩定導致耗電。",
+        "ExpDetail": "網路環境複雜／訊號較差導致小區重選",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a. 建議諮詢當地的網路服務供應商，或者聯繫當地的電信業者到現場測試。<br>b. 待機的時候開啟飛航模式，避免網路不穩定導致耗電。",
+        "ExpDetail": "網路環境複雜／訊號不穩定導致 CPU 頻繁運作",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a. 建議諮詢當地的網路服務供應商，或者聯繫當地的電信業者到現場測試。<br>b. 待機的時候開啟飛航模式，避免網路不穩定導致耗電。",
+        "ExpDetail": "網路環境複雜／訊號不穩定導致 Modem（數據機）頻繁運作",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a. 建議諮詢當地的網路服務供應商，或者聯繫當地的電信業者到現場測試。<br>b. 待機的時候開啟飛航模式，避免網路不穩定導致耗電。",
+        "ExpDetail": "網路環境複雜／訊號不穩定導致 Modem（數據機）未休眠",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。",
+        "ExpDetail": "應用程式頻繁傳送訊息，Wi-Fi 頻繁喚醒 CPU 接受應用程式訊息",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 待機的時候連線到 Wi-Fi。<br>c. 經常清理背景，在待機之前一鍵清理背景。",
+        "ExpDetail": "應用程式頻繁傳送訊息，Modem（數據機）頻繁喚醒 CPU 接受應用程式訊息",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 待機的時候連線到 Wi-Fi。<br>c. 經常清理背景，在待機之前一鍵清理背景。",
+        "ExpDetail": "應用程式頻繁傳送訊息，導致 Modem（數據機）頻繁運作",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "a. 經常清理背景，在待機之前一鍵清理背景。<br>b. 定期刪除無用的應用程式，建議在內建應用程式商店中下載應用程式。",
+        "ExpDetail": "背景應用程式活動頻繁，多次喚醒 CPU",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "a. 經常清理背景，在待機之前一鍵清理背景。<br>b. 定期刪除無用的應用程式，建議在內建應用程式商店中下載應用程式。",
+        "ExpDetail": "背景應用程式活動頻繁，CPU 長時間運作",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. 建議使用 5G_Wi-Fi。<br>b. 待機的時候關閉 Wi-Fi，或者關閉 Wi-Fi 隨時掃描開關。",
+        "ExpDetail": "網路環境複雜，4G 訊號和 2.4G Wi-Fi 訊號互相干擾",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. Wi-Fi 環境較差，請連線到收訊品質較好的 Wi-Fi。<br>b. 建議使用行動數據網路。<br>c. 待機的時候關閉 Wi-Fi。",
+        "ExpDetail": "Wi-Fi 掃描頻繁",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. Wi-Fi 環境較差，請連線到收訊品質較好的 Wi-Fi。<br>b. 建議使用行動數據網路。<br>c. 待機的時候關閉 Wi-Fi。",
+        "ExpDetail": "Wi-Fi IP 續租",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. Wi-Fi 環境較差，請連線到收訊品質較好的 Wi-Fi。<br>b. 建議使用行動數據網路。<br>c. 待機的時候關閉 Wi-Fi。",
+        "ExpDetail": "Wi-Fi 群播密鑰更新",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. Wi-Fi 環境較差，請連線到收訊品質較好的 Wi-Fi。<br>b. 建議使用行動數據網路。<br>c. 待機的時候關閉 Wi-Fi。",
+        "ExpDetail": "Wi-Fi 環境較差，Wi-Fi 頻繁地中斷重連",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "用直流穩壓電源檢測待機電流是否正常。",
+        "ExpDetail": "疑似硬體漏電",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "重傳簡訊",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "網路自動對時",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "音訊、感測器子系統異常",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "頻繁喚醒音訊、感測器子系統",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "應用程式頻繁傳送訊息，Modem（數據機）頻繁喚醒 CPU 接受應用程式訊息",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "頻繁喚醒底層 Alarm（計時器）",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "核心長時間運作",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "感測器頻繁喚醒 CPU",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "頻繁喚醒電量計",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. 建議待機的時候關閉行動數據網路和 Wi-Fi，避免應用程式頻繁地連線到網際網路喚醒 CPU 運作。<br>b. 經常清理背景，在待機之前一鍵清理背景。<br>c. 定期刪除無用的應用程式，建議在 OPPO 應用程式商店中下載應用程式。",
+        "ExpDetail": "未知的原因",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "長時間播放音樂會導致耗電，這屬於正常現象。",
+        "ExpDetail": "背景音樂場景",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. 請檢查是否在背景中下載軟體。<br>b. 檢查是否已開啟自動同步、雲端服務等功能。",
+        "ExpDetail": "下載場景",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "使用 Wi-Fi 熱點會加大手機耗電，請在不需要的時候關閉。",
+        "ExpDetail": "使用者開啟 Wi-Fi 熱點",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "按照您的習慣充飽電可以用%1，螢幕亮起%2，關閉螢幕%3。具體耗電情況請輕觸檢視詳情。",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "建議設定自動亮度，或避免在強光下長時間使用手機。",
+        "ExpDetail": "使用高亮度導致耗電快。",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "a. 經常清理背景，在待機之前一鍵清理背景。<br>b. 定期刪除無用的應用程式，建議在內建應用程式商店中下載應用程式。",
+        "ExpDetail": "應用程式長時間佔用 CPU 耗電並佔用應用程式 Top5：%1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "a. 經常清理背景，在待機之前一鍵清理背景。<br>b. 定期刪除無用的應用程式，建議在內建應用程式商店中下載應用程式。",
+        "ExpDetail": "待機電流高導致耗電。",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "發現到您長時間使用高亮度，建議在非必要的時候調低螢幕亮度",
+        "ExpDetail": "長時間使用高亮度",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "發現到您長時間使用高螢幕更新率，建議調整螢幕更新率：設定->螢幕顯示與亮度->更多->螢幕更新率->標準螢幕更新率。注意！這可能會降低使用手機時的螢幕流暢性。",
+        "ExpDetail": "長時間使用高螢幕更新率",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "發現到您長時間使用高解析度，建議調整螢幕解析度：設定->螢幕顯示與亮度->更多->螢幕解析度->智慧切換。注意！這可能會降低手機螢幕顯示的清晰度。",
+        "ExpDetail": "長時間使用高解析度",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "應用程式%1造成 CPU 一直處於高負載狀態，建議減少使用%2的時間",
+        "ExpDetail": "在高負載狀態下長時間使用應用程式",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "發現到應用程式%1使用 CPU 長達 %2 小時，請確認是否需要使用",
+        "ExpDetail": "長時間使用應用程式",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "發現到您的音量設定較高，一方面不利於耳朵健康，另一方面也會加快您手機的耗電量，建議您調低音量",
+        "ExpDetail": "長時間使用高音量",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "發現到您的手機經常無服務，請及時聯繫您的 SIM 卡電信業者",
+        "ExpDetail": "經常無服務",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "發現到您的手機頻繁搜尋網路，請及時聯繫您的 SIM 卡電信業者",
+        "ExpDetail": "頻繁搜尋網路",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "發現到您使用行動數據網路下載了大量的資料，建議您透過 Wi-Fi 網路進行下載，這會幫您節省很多電量",
+        "ExpDetail": "行動數據網路下載大量的資料",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "發現到您最近一天使用了 %1G 的流量，請確認是否正常",
+        "ExpDetail": "Wi-Fi 下載過多資料",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "發現到您在使用%1應用程式時特別耗電，請及時聯繫應用程式廠商",
+        "ExpDetail": "單一應用程式耗電異常",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "發現到您長時間使用%1應用程式，使用時間長達 %2 小時，請合理安排",
+        "ExpDetail": "長時間使用單一應用程式",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "發現到應用程式%1長時間在背景中執行，請及時清理",
+        "ExpDetail": "長時間在背景中使用單一應用程式",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "發現在螢幕關閉狀態下%1應用程式頻繁地喚醒手機，在關閉螢幕前請及時清理此應用程式",
+        "ExpDetail": "頻繁喚醒應用程式",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "發現在螢幕關閉狀態下%1應用程式長時間使用 CPU，在關閉螢幕前請及時清理此應用程式",
+        "ExpDetail": "在螢幕關閉狀態下應用程式長時間使用 CPU",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "發現在螢幕關閉狀態下%1應用程式長時間使用網路，在關閉螢幕前請及時清理此應用程式",
+        "ExpDetail": "在螢幕關閉狀態下應用程式長時間使用網路",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "手機在閃充時，充電器會將高電壓轉換成低電流為手機充電，在此期間會大量進行能量轉換，故有發熱現象。建議將手機放置在散熱條件良好的環境中充電。",
+        "ExpDetail": "手機充電",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "檢測到因長時間使用閃光燈故導致發熱。請勿長時間使用閃光燈，避免閃光燈損壞。",
+        "ExpDetail": "閃光燈打開",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "檢測到螢幕長時間處於高亮度。請降低螢幕亮度或者設定成自動亮度。",
+        "ExpDetail": "背光過高",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "經診斷顯示因手機網路訊號較差故導致發熱。由於所處位置訊號差，手機天線需要增加功率以擴大訊號搜尋範圍，故導致熱量增加。可嘗試進入設定—行動網路—更多設定—打開智慧 5G。若無法確定目前訊號狀態可諮詢當地網路電信業者。",
+        "ExpDetail": "手機訊號較差",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "經診斷顯示因手機網路訊號較差故導致發熱。由於所處位置訊號差，手機天線需要增加功率以擴大訊號搜尋範圍，故導致熱量增加。若無法確定目前訊號狀態可諮詢當地網路電信業者。",
+        "ExpDetail": "手機網路訊號差",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "經診斷顯示由於背景%1應用程式佔用 CPU 的使用率過高導致發熱，若同時開啟 Wi-Fi、GPS、NFC、藍牙等功能在背景中搜尋訊號會加劇手機發熱的現象，建議清理背景和關閉不使用的功能。可清理此背景軟體，或重新啟動手機對比使用。",
+        "ExpDetail": "背景應用程式%1佔用 CPU 的使用率過高",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "經診斷顯示應用程式%1為高負載應用程式，因佔用 CPU 的使用率較高故導致機器發熱。請勿長時間在高負載狀態下使用手機，等待溫度降低後再使用，避免損壞手機元件。",
+        "ExpDetail": "前景應用程式%1佔用 CPU 的使用率過高",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "檢測到已打開裝置使用 GPS 訊號，手機長時間搜尋衛星和傳送衛星訊號來更新位置資訊可能會導致手機發熱，<br>與使用者確認是否主動打開使用導航或者第三方應用程式以取得定位軟體",
+        "ExpDetail": "GPS 持續定位",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "檢測到因背景應用程式持續同步執行故導致發熱，此為正常現象，建議定期清理背景軟體快取<br>①請檢查是否在背景中下載軟體<br>②檢查是否已開啟自動同步、雲端服務等功能",
+        "ExpDetail": "背景%1同步",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "檢測到因背景%1應用程式持續同步執行故導致發熱，此為正常現象，建議定期清理背景軟體快取<br>①請檢查是否在背景中下載軟體<br>②檢查是否已開啟自動同步、雲端服務等功能",
+        "ExpDetail": "背景%1同步",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "檢測到手機長時間通話。由於在通話過程中手機的訊號天線、麥克風、揚聲器等會持續運作，隨著通話時間的增加，產生的熱量也會增多，所以手機會發熱，此為正常現象。<br>減少發熱技巧可參考知識庫《打電話時手機發熱》",
+        "ExpDetail": "手機一直通話",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "檢測到手機在長時間／高頻率的狀態下調用相機拍攝。由於拍照或錄影時，手機相機、CPU、GPU 等元件會同時運作；因手機處於高負載運作，故導致手機溫度升高，這是正常現象。<br>緩解攝像發熱技巧可參考知識庫《拍照或者攝像時手機發熱》",
+        "ExpDetail": "攝影應用程式在執行中",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "確認使用者的使用環境，請勿在高溫環境下使用手機，需要工程師用直流穩壓電源檢測手機是否漏電。",
+        "ExpDetail": "環境或硬體原因導致發熱",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "請諮詢使用者使用場景，結合耗電應用程式及耗電診斷排查，若無異常，建議使用者前往服務據點檢測手機硬體是否漏電。",
+        "ExpDetail": "原因不明確",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "%1 天內發熱最高溫度 %2℃，發生時間：%3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "經診斷顯示因一邊充電一邊玩手機故導致溫度上升。充電過程是一個能量轉換的過程，在此過程中也會同時產生一部分的熱量，這是正常的。如果您同時使用手機，應用程式在運作時所產生的熱量會疊加，加速手機發熱的情況。",
+        "ExpDetail": "在充電時使用導致手機發熱",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "手機在閃充時，充電器會將高電壓轉換成低電流為手機充電，在此期間會大量進行能量轉換，故有發熱現象。建議將手機放置在散熱條件良好的環境中充電。",
+        "ExpDetail": "充電發熱（充電時螢幕是否亮起：%1；充電時前景應用程式：%2）",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "經診斷顯示在玩%1遊戲時，發熱較明顯。在遊戲過程中，為確保遊戲畫質與流暢性，手機 CPU、GPU 等晶片需要長時間運作因此功耗高；整機負載高，手機溫度則會隨之上升。可適當調低遊戲配置（解析度、影格率），降低螢幕亮度、音量等以改善此情況。",
+        "ExpDetail": "遊戲發熱（遊戲名稱：%1；遊戲畫質：%2；遊戲解析度：%3；遊戲模式：%4）",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "經診斷顯示由於一邊充電一邊玩遊戲，故溫度明顯上升。充電過程是一個能量轉換的過程，在此過程中也會同時產生一部分的熱量。若同時玩遊戲，在遊戲過程中，為確保遊戲畫質與流暢性，手機 CPU、GPU 等晶片需要長時間運作因此功耗高；熱量疊加會加劇手機發熱，請減少一邊充電一邊玩手機來緩解。",
+        "ExpDetail": "充電玩遊戲",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "經診斷顯示您玩遊戲的地方網路訊號不佳，訊號發射器長時間處於高功率搜尋狀態，極容易導致手機發熱，加上在遊戲過程中，為確保遊戲畫質與流暢性，手機 CPU、GPU 等晶片需要長時間運作因此功耗高，熱量疊加會加劇手機發熱的情況。請盡量到網路條件好的地方玩遊戲",
+        "ExpDetail": "訊號弱導致玩遊戲時發熱",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "經診斷顯示您玩遊戲的時候環境溫度較高，在遊戲過程中，手機需要高速運轉，故產生熱量。若環境溫度較高則會導致手機散熱較慢，加劇發熱情況。",
+        "ExpDetail": "在高溫環境下玩遊戲",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "系統檢測到您的手機沒有開啟自動調節亮度開關，您可以嘗試開啟此開關讓手機智慧調節亮度，使功耗最佳化\n「系統設定—螢幕顯示與亮度—自動調節亮度」",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t04030201": {
+        "ExpAdvice": "系統檢測到您的手機已開啟定位開關，持續在背景中開啟 GPS 會增加功耗，您可以嘗試在不用的時候關閉此開關，使功耗最佳化\n「狀態列下拉—定位服務」／「系統設定—隱私權—位置資訊—定位服務」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t04030301": {
+        "ExpAdvice": "系統檢測到您的手機已開啟藍牙開關，持續在背景中開啟藍牙會增加功耗，您可以嘗試在不用的時候關閉此開關，使功耗最佳化\n「系統設定—藍牙」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t04030401": {
+        "ExpAdvice": "系統檢測到您的手機已開啟個人熱點，持續在背景中開啟熱點會增加功耗，您可以嘗試在不用的時候關閉此開關，使功耗最佳化\n「系統設定—連線與共享—個人熱點」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t04030501": {
+        "ExpAdvice": "系統檢測到您的手機已開啟 NFC 開關，持續在背景中開啟 NFC 會增加功耗，您可以嘗試在不用的時候關閉此開關，使功耗最佳化\n「系統設定—連線與共享—NFC」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t04030601": {
+        "ExpAdvice": "系統檢測到您的手機已開啟高效能模式開關，此模式會增加功耗，您可以嘗試關閉此開關，使功耗最佳化\n「系統設定—電池—更多—高效能模式」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "打電話和接電話的相應通話次數不到 10 次，無法進行日誌分析",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. 開通電信業者 VoLTE 高音質語音功能，並且打開手機高音質語音設定開關。<br>2. 同步檢查手機的 PA 性能，確保 RF 發射接收性能正常（包括 2G／3G／4G 全部頻段）。<br>3. 手機網路訊號覆蓋範圍隨環境波動，網路訊號差會造成收訊不良，請諮詢當地網路電信業者。<br>4. 在大樓地下室，密閉車庫以及人群密集區，網路訊號會受到干擾，訊號品質差影響通話，回到空曠場所則會恢復正常。<br>5. 升級軟體版本。",
+        "ExpDetail": "1. 通話異常中斷 %1 次，佔比 %2<br>2. 撥出失敗 %3 次，佔比 %4<br>3. 撥入失敗 %5 次，佔比 %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "網路收到手機要求但無回應。",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "網路無回應。",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "IMS 服務無法提供。",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "伺服器端異常發生錯誤。",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "在電信 CDMA 網路上通話斷線，電信 2G 底層資料連結層斷線。",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "電路交換域無法使用。",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "無服務狀態。",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "撥打的號碼無效。",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "網路壅塞，稍後再撥打。",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "（非 IMS 通話斷線）底層資料連結層異常，與網路環境收訊強有關。",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. 開通電信業者 VoLTE 高音質語音功能，並且打開手機高音質語音設定開關<br>2. 同步檢查手機的 PA 性能，確保 RF 發射接收性能正常（包括 2G／3G／4G 全部頻段）<br>3. 手機網路訊號覆蓋範圍隨環境波動，網路訊號差會造成收訊不良，請諮詢當地網路電信業者<br>4. 在大樓地下室，密閉車庫以及人群密集區，網路訊號會受到干擾，訊號品質差影響通話，回到空曠場所則會恢復正常<br>5. 升級軟體版本",
+        "ExpDetail": "1. 撥出通話異常 %1 次<br>2. 撥入通話異常 %2 次<br>3. 通話斷線 %3 次",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "手機 SIM 卡與網路不相容的問題，建議使用者去營業廳更換一張 SIM 卡",
+        "ExpDetail": "1. 撥出通話異常 %1 次<br>2. 撥入通話異常 %2 次<br>3. 通話斷線 %3 次",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "將軟體升級為最新版本；",
+        "ExpDetail": "1. 撥出通話異常 %1 次<br>2. 撥入通話異常 %2 次<br>3. 通話斷線 %3 次",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "疑似網路相容性問題，可以先撥打電信業者客服電話確認網路環境是否正常，也可以同步聯繫工程師去問題點進行複測擷取日誌； ",
+        "ExpDetail": "1. 撥出通話異常 %1 次<br>2. 撥入通話異常 %2 次<br>3. 通話斷線 %3 次",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "暫時性網路問題，手機無異常；",
+        "ExpDetail": "1. 撥出通話異常 %1 次<br>2. 撥入通話異常 %2 次<br>3. 通話斷線 %3 次",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "將軟體升級為最新版本；",
+        "ExpDetail": "1. 撥出通話異常 %1 次<br>2. 撥入通話異常 %2 次<br>3. 通話斷線 %3 次",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "疑似網路相容性問題，聯繫工程師去問題點進行複測擷取日誌；",
+        "ExpDetail": "1. 撥出通話異常 %1 次<br>2. 撥入通話異常 %2 次<br>3. 通話斷線 %3 次",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "疑似網路相容性問題，可以先撥打電信業者客服電話確認網路環境是否正常，也可以同步聯繫工程師去問題點進行複測擷取日誌； ",
+        "ExpDetail": "1. 撥出通話異常 %1 次<br>2. 撥入通話異常 %2 次<br>3. 通話斷線 %3 次",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. 如果地點集中請對比不同的手機（相同的電信業者），有的話，請聯繫電信業者處理。<br>2. 如果時間集中請確認使用者當時所處的網路環境：在地下室、車庫、人群密集區以及行進中的車輛上都會出現訊號差的情況。<br>3. 詢問使用者是否帶有金屬或者電鍍保護殼。<br>4. 同步檢查手機的 PA 性能，確保 RF 發射接收性能正常（包括 2G／3G／4G 全部頻段）。",
+        "ExpDetail": "在過去 %1 天內發生訊號弱的地點比較集中",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. 確認一下 SIM 卡載入是否正常。\n2. 確認當地電信業者的網路情況，是否在特定地點發生訊號問題。\n3. 嘗試對比手機是否存在問題。\n4. 嘗試重新啟動、開啟飛航模式時是否出現問題。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1. 詢問使用者是否帶有金屬或者電鍍保護殼。<br>2. 是否在收訊較差的網路環境中使用（地下車庫、人群密集處、移動的車上）。<br>3. 結合歷史訊號品質判斷，如果長期訊號差並且在固定區域則可能是網路問題。<br>4. 用工具診斷手機的 PA 發射性能，對比測試 PA 接收性能（包括 2G／3G／4G 全部頻段）",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. 請確認在測試過程中是否誤觸手機。<br>2. 再次測試還是異常，代表部分頻段出現問題，請更換手機硬體。",
+        "ExpDetail": "發生錯誤的頻段：%1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "此項測試未開始，請檢查 SIM 卡是否已取出。",
+        "ExpDetail": "插入 SIM 卡"
+    },
+    "t05050104": {
+        "ExpAdvice": "此項測試未開始，請檢查飛航模式是否已關閉。",
+        "ExpDetail": "手機飛航模式"
+    },
+    "t05050105": {
+        "ExpAdvice": "此項測試未開始，請重新啟動手機，單獨進行此測試。",
+        "ExpDetail": "Modem 模式異常"
+    },
+    "t05050106": {
+        "ExpAdvice": "此項測試未完成，請重新啟動手機，單獨進行此測試。",
+        "ExpDetail": "測試序列異常"
+    },
+    "t05050107": {
+        "ExpAdvice": "請確保手機電量充足後，再嘗試測試。",
+        "ExpDetail": "電量低"
+    },
+    "t05050108": {
+        "ExpAdvice": "RF 發射通路測試已完成，為確保手機功能可正常使用，診斷工具將自動重新啟動手機。",
+        "ExpDetail": "RF 發射通路測試已完成。"
+    },
+    "t05070101": {
+        "ExpAdvice": "可能原因：<br>1. 確認目前環境的網路和訊號品質。若訊號品質較差，則可能是網路暫時性的問題。<br>2. 確認是否為第三方應用程式的問題。<br>處理建議：<br>出現網路問題請自行採取恢復行為，比如開關飛航模式、開關行動數據業務開關、重設 APN 設定、熱插拔 SIM 卡等。請諮詢電信業者。",
+        "ExpDetail": "行動數據異常斷線；有上行無下行（網路壅塞的一種）；在撥接上網的過程中出現 APN 相關的異常；欠費斷網；不限流量資費方案限速超標；撥接上網失敗",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "使用者已手動新增 APN，請將 APN 重設為預設的 APN",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. 確認 SIM 卡載入是否正常<br>2. 確認 SIM 卡是否欠費、是否因流量超過限制而被斷網<br>3. 嘗試開關行動數據網路開關、開關飛航模式、重新啟動<br>4. 對比檢測使用者所處網路環境是否存在問題",
+        "ExpDetail": "偵測到行動數據網路異常，疑似網路端故障",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. 先檢查使用者是否欠費或限速；<br>2. 請進行 PA 檢測確認射頻是否異常；<br>3. 如果 PA 正常，請聯繫當地網路服務供應商與使用者對接複測問題，擷取 LOG；<br>4. 若無網路服務資源或使用者不同意對接請更新手機系統；<br>5. 系統更新後使用 10 天，如果仍然檢測出是手機故障，請按單機問題處理；",
+        "ExpDetail": "偵測到行動數據網路異常，疑似手機端故障",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "使用者已手動新增 APN，請將 APN 重設為預設的 APN",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "使用者的手機被限速，請諮詢電信業者瞭解詳細資訊",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "使用者所處環境品質不穩定，請進一步對比與測試網路環境，若確認網路環境存在問題，可向電信業者投訴要求改善網路環境",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. 確認 SIM 卡是否欠費<br>2. 確認使用者常用應用程式的網路權限是否正常<br>3. 可將使用者的 SIM 卡插入其他正常手機，觀察 SIM 卡是否出現異常<br>4. 嘗試開關行動數據網路開關、開關飛航模式、重新啟動<br>5. 對比檢測使用者所處的網路環境是否有任何問題",
+        "ExpDetail": "偵測到行動數據網路異常，疑似網路端故障",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "使用者已手動新增 APN，請將 APN 重設為預設的 APN",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "使用者的手機被限速，請諮詢電信業者瞭解詳細資訊",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "開啟流量節省開關，會影響使用者上網體驗",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "使用者所處環境品質不穩定，請進一步對比與測試網路環境，若確認網路環境存在問題，可向電信業者投訴要求改善網路環境",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1、確認 SIM 卡是否欠費<br>2. 確認使用者常用應用程式的網路權限是否正常<br>3. 嘗試開關行動數據網路開關、開關飛航模式、重新啟動<br>4. 對比檢測使用者所處的網路環境是否有任何問題",
+        "ExpDetail": "偵測到行動數據網路異常，疑似網路端故障",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "請檢查裝置射頻部分是否異常。",
+        "ExpDetail": "無法撥出",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "請更換耳機確認是否為受話器（送話器）的問題，若是請檢查受話器（送話器）是否損壞，接口是否接通，若否請檢查主機板音訊部分。",
+        "ExpDetail": "通話無聲",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. 請檢查受話器（送話器）是否已滲入灰塵和液體，更換組件後再測試。<br>2. 檢查主機板訊號處理部分。",
+        "ExpDetail": "通話有雜音",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "手機出現硬體穩定性問題，若與使用者描述的故障一致，則為硬體故障，按照硬體問題處理。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "手機出現硬體穩定性問題，若與使用者描述的故障一致，則為硬體故障，按照硬體問題處理。",
+        "ExpDetail": "共發生過 %1 次",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "將手機拿到空曠的環境中進行衛星搜尋測試，是否可以正常搜尋衛星，GPS 訊號強度大於 30 則正常；若少於 30 則檢查 GPS 硬體。",
+        "ExpDetail": "搜尋衛星時的訊號差",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "檢測系統定位開關是否被關閉；詢問使用者哪一個應用程式無法定位，檢查該應用程式的定位權限。",
+        "ExpDetail": "GPS 未打開或者相關權限未打開",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "GPS 資料過少，無法進行日誌分析",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "最近未使用 GPS，無法診斷，可能因為定位開關長時間關閉故導致無法定位",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "將手機拿到空曠的環境中進行衛星搜尋測試，GPS 訊號強度大於 30 則正常；若否則檢查 GPS 硬體。",
+        "ExpDetail": "3 天內未收到衛星訊號，可能是因為在室內使用定位，請到室外進行現場驗證",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "GPS 使用次數過少，無法診斷",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "將手機拿到空曠的環境中進行衛星搜尋測試，GPS 訊號強度大於 30 則正常；若否則檢查 GPS 硬體。",
+        "ExpDetail": "GPS 功能正常，步行導航時可能存在干擾",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "將手機拿到空曠的環境中進行衛星搜尋測試，GPS 訊號強度大於 30 則正常；若否則檢查 GPS 硬體。",
+        "ExpDetail": "GPS 功能正常，行車導航時可能存在干擾",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "排查 GPS 天線是否受損、變形、接觸不良等",
+        "ExpDetail": "GPS 天線異常",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "最近未使用 GPS，無法診斷",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "拆掉保護殼後驗證定位",
+        "ExpDetail": "使用金屬類保護殼",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "Wi-Fi 隨時掃描開關長時間關閉，會導致在室內環境下無法定位或定位不準。請確認是否打開",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "網路定位精確度開關長時間關閉，會導致在室內環境下無法定位或定位不準，請輕觸修復按鈕進行修復。若您的手機不是在中國大陸地區使用，請長按下拉通知列上的定位服務—Google 位置資訊精確度，手動打開此開關。",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "此問題是使用者的使用環境所導致，無法透過換機解決。在手機使用 GPS 的過程中請遠離外部干擾源，例如車載導航儀、中控台等電子裝置。",
+        "ExpDetail": "使用者的 GPS 使用環境存在干擾"
+    },
+    "t06020101": {
+        "ExpAdvice": "可能原因：<br>（韌體載入異常：驅動程式載入異常；分割區掛載異常；其他原因）<br>建議：<br>1. 重新啟動機器。<br>2. 升級為最新版本進行確認。",
+        "ExpDetail": "打開失敗 %1 次",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "可能原因：<br>（韌體載入異常；驅動程式載入異常；分割區掛載異常；其他原因；Wi-Fi 晶片載入失敗；Wi-Fi 軟體系統運作異常；Wi-Fi 軟體系統通道配置檔案載入失敗；Wi-Fi 軟體系統射頻檔案載入失敗；Wi-Fi 軟體系統韌體配置檔案載入失敗；子系統死機資訊記錄）<br>建議：<br>1. 重新啟動機器。<br>2. 升級為最新版本進行確認。<br>3. 引導使用者重新啟動手機看看是否能恢復。<br>4. 若不能恢復則更新手機，或者透過 OTA 升級處理。<br>5. 如果是死機故障則按照硬體故障處理。<br>3. 如果故障重複出現，嘗試檢測 SIM 卡上網和撥打電話是否正常，若撥打電話和上網也不正常，則重新啟動診斷網路訊號模組的 Modem（按照 Modem 重新啟動的方式處理）。<br>4. 引導使用者重新啟動手機看看是否能恢復。<br>5. 若不能恢復則更新手機，或者透過 OTA 升級處理。<br>6. 如果是死機故障則按照硬體故障處理。",
+        "ExpDetail": "打開失敗 %1 次",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "建議更新為最新的版本。",
+        "ExpDetail": "常用的 AP 包括：%1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1、手機自身引起的流量中斷—建議更新為最新的版本。<br>2、DNS 異常，檢查是否設定私人 DNS，若已設定，嘗試清除私人 DNS；若否則根據步驟 3 檢查路由器。<br>3、除以上原因之外的其他原因，建議按照以下步驟操作：1. 重新啟動路由器。<br>2. 若是其他手機使用相同的路由器也發生問題，建議考慮更換路由器。<br>3. 切換成常用的路由通道，盡量使用 5G 通道，使用 Wi-Fi 分析儀等工具尋找乾淨通道。",
+        "ExpDetail": "常用的 AP 包括：%1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "資料不足，無法診斷",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "無線設定",
+        "ExpDetail": "無線配置",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "第三方連線軟體可能會出現破解 Wi-Fi 熱點密碼失敗，導致連線失敗的問題。建議使用系統設定介面連線到 Wi-Fi。",
+        "ExpDetail": "常用的應用程式包括：%1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "第三方連線總次數較少，無法進行日誌分析",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為 AP 的問題；若排除 AP 的問題，建議開關 Wi-Fi 或者重新啟動手機進行測試；仍有問題則建議送修。<br>（確認密碼正確後進行連線；連線前切換至 Wi-Fi 並確認已掃描到 AP；建議檢查路由器設定或連線至其他的 AP；建議到訊號強的區域進行連線；確認 IP 是否正確或 IP 是否已有效分配）",
+        "ExpDetail": "無線設定錯誤包括：<br>（密碼錯誤；未找到 AP；路由器設定問題或負載過大；訊號太弱；靜態 IP）",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "檢查 Wi-Fi 天線和 Wi-Fi 晶片。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "常用的 AP 包括：%1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "檢查路由器的 DHCP 伺服器的 IP 位址池是否已滿",
+        "ExpDetail": "IP 取得失敗",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "路由器檢測驗證異常，目前驗證無效",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "檢查連線到 Wi-Fi 後是否長時間沒有使用手機",
+        "ExpDetail": "連線不活躍，長時間沒有資料傳輸",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "檢查路由器目前是否連接過多裝置，嘗試減少路由器的裝置連線",
+        "ExpDetail": "路由器連線能力有限",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "路由器檢測驗證異常，目前沒有驗證",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "路由器檢測驗證異常，目前沒有連線",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "手機離開網路覆蓋範圍",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "手機在連線前沒有通過驗證",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "正常斷線無需處理",
+        "ExpDetail": "路由器發起漫遊",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "訊息完整性驗證失效",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "握手超時",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "路由器檢測驗證異常，密鑰更新超時",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "無效密鑰",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "確認影格遺失嚴重",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "手機漫遊失敗",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "手機端模組自動恢復",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "路由器不活躍",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "信標超時",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "通道切換失敗",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "信標超時，連線失敗",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "信標超時，手機探測路由器位址無回應",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. 建議先嘗試更新為最新系統版本；<br>b. 若仍有問題，建議重新啟動路由器，或者用其他方式對比機器連線查看有無異常以確認是否為路由器的問題；<br>c. 若排除路由器的問題，建議開關手機 Wi-Fi 重新連接路由器，或者重新啟動手機進行測試；<br>d. 仍然有問題則擷取 Log",
+        "ExpDetail": "未知的原因",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. 引導使用者重新啟動手機看看是否能恢復<br>2. 若不能恢復則更新手機，或者透過 OTA 升級處理<br>3. 如果是死機故障則按照硬體故障處理",
+        "ExpDetail": "Wi-Fi 韌體故障",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "請檢查連線共享->個人熱點->個人熱點設定中的「WPA3」、「Wi-Fi 6 選項」和「AP 頻段」三個設定項，選擇 WPA2 PSK，關掉 Wi-Fi 6 通訊協定熱點，選擇 2.4GHz 頻段，打開允許被其它裝置發現後再重新打開熱點",
+        "ExpDetail": "Wi-Fi 熱點異常其他原因",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "請檢查連線共享->個人熱點->個人熱點設定中的「WPA3」、「Wi-Fi 6 選項」和「AP 頻段」三個設定項，選擇 WPA2 PSK，關掉 Wi-Fi 6 通訊協定熱點，選擇 2.4GHz 頻段，打開允許被其它裝置發現後再重新打開熱點",
+        "ExpDetail": "Wi-Fi 熱點異常其他原因",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "可能受到 LTE 干擾所導致，必須檢查連線共享->個人熱點->個人熱點設定中的「WPA3」、「Wi-Fi 6 選項」和「AP 頻段」三個設定項，選擇 WPA2 PSK，關掉 Wi-Fi 6 通訊協定熱點，選擇 2.4GHz 頻段，打開允許被其它裝置發現後再重新打開熱點",
+        "ExpDetail": "無可用通道",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "請檢查連線共享->個人熱點->個人熱點設定中的「WPA3」、「Wi-Fi 6 選項」和「AP 頻段」三個設定項，選擇 WPA2 PSK，關掉 Wi-Fi 6 通訊協定熱點，選擇 2.4GHz 頻段，打開允許被其它裝置發現後再重新打開熱點",
+        "ExpDetail": "不支援熱點配置",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. 引導使用者重新啟動手機看看是否能恢復<br>2. 若不能恢復則更新手機，或者透過 OTA 升級處理<br>3. 如果是死機故障則按照硬體故障處理",
+        "ExpDetail": "Wi-Fi 韌體故障",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "請確認使用者的網路配置是否有任何問題，如果家用網路存在無法上網的情況，則是光纖和路由器的連線和配置錯誤導致網路出現問題，修改路由器的 DHCP 配置，或聯繫您的寬頻網路服務供應商協助配置光纖和路由器。",
+        "ExpDetail": "路由器動態 IP 分配（DHCP）衝突",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "請確認使用者的網路配置是否有任何問題，如果家用網路存在無法上網的情況，則是光纖和路由器的連線和配置錯誤導致網路出現問題，修改路由器的閘道配置，或聯繫您的寬頻網路服務供應商協助配置光纖和路由器。",
+        "ExpDetail": "閘道衝突",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "請在使用 2.4G 頻段的 Wi-Fi 時盡量不要使用藍牙耳機，請盡量連線到 5G 頻段的 Wi-Fi",
+        "ExpDetail": "藍牙 Wi-Fi 衝突導致上網慢",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "因為靜態 IP 配置錯誤故導致異常不能上網，請進行設定嘗試恢復",
+        "ExpDetail": "靜態 IP 設定錯誤",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "因為私人 DNS 配置錯誤故導致異常不能上網，請進行設定嘗試恢復",
+        "ExpDetail": "私人 DNS 設定錯誤",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "因為 VPN 配置錯誤故導致異常不能上網，請進行設定嘗試恢復",
+        "ExpDetail": "VPN 設定錯誤",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "檢查藍牙天線和藍牙晶片。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. 若重新啟動手機能夠恢復，則更新系統或者透過 OTA 升級處理；<br>2. 若使用者已啟用多使用者功能，可以在切換到另一名使用者之前，先關閉藍牙並切換到另一名使用者，然後再打開藍牙使用；<br>3. 嘗試重設手機或者更新系統也無法恢復，此為硬體故障，請在表單上記錄為硬體異常；",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "經典藍牙啟動失敗",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "藍牙服務啟動失敗",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "低功耗藍牙啟動失敗",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "請檢視異常詳細資訊",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. 若是在無線裝置較多的環境（如機場／火車站）中遇到問題，對藍牙干擾比較大，請到周圍無線電子裝置較少的環境中使用；<br>2. 連線到 2.4G 頻段的 Wi-Fi 可能會對藍牙造成較大的影響；請連線到 5G 頻段或更高頻段的 Wi-Fi，然後再使用藍牙，必要時可指導使用者將家裡的路由器設定為 5G 頻段；",
+        "ExpDetail": "環境干擾大或 Wi-Fi 受到影響<br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "請從%1端啟用藍牙連線，並確保對端裝置電量充足（部分耳機在電量較低時會在主從耳之間切換，可能導致異常）。<br>",
+        "ExpDetail": "藍牙角色切換（Role Switch）異常<br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. 從手機端取消配對異常的裝置，然後長按耳機或裝置的按鈕讓裝置進入配對狀態，嘗試連線；<br>2. 重設對端裝置；<br>3. 檢測 OTA 升級；<br>4. 確認是否為單機故障，同一個對端裝置使用相同型號的其他手機是正常的，且異常的機器在系統更新後無法恢復，是的話請將記錄單歸類為硬體故障。<br>",
+        "ExpDetail": "其他<br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "檢查是否因遺漏了 NFC 天線而未安裝，NFC 模組是否失效。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "無法打開",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "拍照時有雜訊、模糊",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "顏色異常",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "前置主鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "前置副鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020112": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "無法打開",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "拍照時有雜訊、模糊",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "顏色異常",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "後置主鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "後置廣角鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "後置長焦鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "後置主鏡頭、廣角鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "後置主鏡頭、長焦鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "後置廣角、長焦鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "後置主鏡頭、廣角、長焦鏡頭無法打開",
+        "ResultLevel": 10
+    },
+    "t07020212": {
+        "ExpAdvice": "檢查相機 B2B 插座或者更換相機測試。",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "相機參數異常，建議及時連線到手機並校正修復。",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "請檢查受話器是否已滲入灰塵、液體，更換組件後再測試。",
+        "ExpDetail": "聲音小",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "請檢查受話器是否已滲入灰塵、液體，更換組件後再測試。",
+        "ExpDetail": "有雜音",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "請切換到揚聲器確認是否為受話器的問題，若是請檢查受話器是否損壞，接口是否接通，若否請檢查主機板音訊部分。",
+        "ExpDetail": "無聲",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "請檢查受話器是否已滲入灰塵和液體，更換組件後再測試。",
+        "ExpDetail": "聲音小",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "請檢查受話器是否已滲入灰塵和液體，更換組件後再測試。",
+        "ExpDetail": "有雜音",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "請切換到聽筒確認是否為喇叭的問題，若是請檢查喇叭是否損壞，接口是否接通，若否請檢查主機板音訊部分。",
+        "ExpDetail": "無聲",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "請檢查麥克風是否已滲入灰塵和液體，更換組件後再測試。",
+        "ExpDetail": "聲音小",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "請檢查麥克風是否已滲入灰塵和液體，更換組件後再測試。",
+        "ExpDetail": "有雜音",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "請檢查麥克風是否被堵住，更換麥克風進行確認。",
+        "ExpDetail": "間歇性中斷",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "檢測是否有灰塵、液體滲入 MIC 插孔進而導致插孔堵塞；若聲音小到幾乎無聲，則更換麥克風組件後再測試",
+        "ExpDetail": "聲音小",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "更換麥克風組件後再測試",
+        "ExpDetail": "有雜音",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "更換麥克風組件後再測試",
+        "ExpDetail": "沒有聲音",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "檢測是否有灰塵、液體滲入 MIC 插孔進而導致插孔堵塞；若聲音小到幾乎無聲，則更換麥克風組件後再測試",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "檢測是否有灰塵、液體滲入 MIC 插孔進而導致插孔堵塞；若聲音小到幾乎無聲，則更換麥克風組件後再測試",
+        "ExpDetail": "聲音小",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "更換麥克風組件後再測試",
+        "ExpDetail": "有雜音",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "更換麥克風組件後再測試",
+        "ExpDetail": "沒有聲音",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "檢測是否有灰塵、液體滲入 MIC 插孔進而導致插孔堵塞；若聲音小到幾乎無聲，則更換麥克風組件後再測試",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "檢測是否有灰塵、液體滲入 MIC 插孔進而導致插孔堵塞；若聲音小到幾乎無聲，則更換麥克風組件後再測試",
+        "ExpDetail": "聲音小",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "更換麥克風組件後再測試",
+        "ExpDetail": "有雜音",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "更換麥克風組件後再測試",
+        "ExpDetail": "沒有聲音",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "檢測是否有灰塵、液體滲入 MIC 插孔進而導致插孔堵塞；若聲音小到幾乎無聲，則更換麥克風組件後再測試",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "請檢查耳機孔是否有異物堵住，是否滲入液體。",
+        "ExpDetail": "不顯示耳機",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "請檢查耳機孔是否有異物堵住，是否滲入液體。",
+        "ExpDetail": "與測試耳機不相符",
+        "ResultLevel": 10
+    },
+    "t08040104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "排查耳機插孔及相關硬體",
+        "ExpDetail": "耳機辨識異常或者是不支援的耳機類型",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "檢查耳機的麥克風阻抗值是否高阻抗（達到兆歐姆等級）",
+        "ExpDetail": "高阻抗耳機",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "檢查耳機是否為降噪耳機",
+        "ExpDetail": "降噪類耳機",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "先升級為最新版本進行確認，若問題依然存在，更換耳機測試是否可正常辨識，若耳機辨識異常，先擷取儲存問題重複出現的音訊 Log 給開發者分析，然後再更換 USB 插座所在的小板進行交叉驗證",
+        "ExpDetail": "切換開關晶片（type C 介面作為耳機孔的機型才會有）或 USB 模組異常",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "確認是否在標準範圍內，若超出公司標準則更換螢幕元件。",
+        "ExpDetail": "壞點",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "檢查螢幕 B2B 插座或者更換螢幕元件。",
+        "ExpDetail": "螢幕模糊",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "檢查螢幕 B2B 插座或者更換螢幕元件。",
+        "ExpDetail": "顏色異常",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "清除背景應用程式並檢查網路情況",
+        "ExpDetail": "出現過 %1 次螢幕變黑、閃爍或雜訊",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "檢查螢幕是否已受損或者被靜電干擾",
+        "ExpDetail": "出現過 %1 次螢幕變黑、閃爍或雜訊",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "檢查 GPU 晶片",
+        "ExpDetail": "出現過 %1 次螢幕變黑、閃爍或雜訊",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "檢查 GPU 晶片",
+        "ExpDetail": "出現過 %1 次螢幕變黑、閃爍或雜訊",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "檢查 GPU 晶片",
+        "ExpDetail": "出現過 %1 次螢幕變黑、閃爍或雜訊",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "請輕觸上傳 Log 按鈕上傳工具 Log 給開發者分析",
+        "ExpDetail": "出現過 %1 次螢幕顯示器卡死導致機器重新啟動",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "機器硬體出現異常，請上傳 Log 給開發者分析，若一直無法開機，請安排退機分析",
+        "ExpDetail": "出現過 %1 次螢幕顯示器卡死導致機器重新啟動",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "螢幕顯示效果異常，建議及時連接手機並校正修復",
+        "ExpDetail": "螢幕顯示效果異常",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "正常",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "全部應用程式",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t10010101": {
+        "ExpAdvice": "檢查指紋介面或者更換指紋元件。",
+        "ExpDetail": "指紋無功能，指紋不靈敏",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "建議使用者自行將裝置恢復成原廠狀態，否則影響指紋使用",
+        "ExpDetail": "裝置 oem lock 狀態異常",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "建議更換指紋元件",
+        "ExpDetail": "指紋 sensor 異常損壞",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "重新校正指紋元件",
+        "ExpDetail": "指紋校正資料不相符",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "檢查紅外線感應模組或者主機板。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "檢查光強度感應模組或者主機板。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "檢查主機板重力感應模組。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "前往售後工程模式「Sensor 自測和校正」，進行加速度元件校正，若校正失敗，元件可能損壞，需要更換加速度感測器元件。",
+        "ExpDetail": "加速度資料與實際存在偏差",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "檢查主機板地磁感應模組。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "檢查主機板陀螺儀模組。",
+        "ExpDetail": "不通過",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "前往售後工程模式「Sensor 自測和校正」，進行陀螺儀元件校正，若校正失敗，元件可能損壞，需要更換陀螺儀感測器元件。",
+        "ExpDetail": "陀螺儀資料與實際存在偏差",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "驅動程式載入失敗"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "驗證碼傳送失敗"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他"
+    },
+    "t11010101": {
+        "ExpAdvice": "測試每一個側邊按鈕開關是否短路或者開路異常。",
+        "ExpDetail": "按鍵無功能",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "測試每一個側邊按鈕開關是否短路或者開路異常。",
+        "ExpDetail": "按鍵功能紊亂",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "測試每一個側邊按鈕開關是否短路或者開路異常。",
+        "ExpDetail": "手感不佳",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "不亮"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "亮度偏低"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "顏色異常"
+    },
+    "t12010201": {
+        "ExpAdvice": "更換閃光燈或者檢查閃光燈驅動電路。",
+        "ExpDetail": "不亮",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "更換閃光燈或者檢查閃光燈驅動電路。",
+        "ExpDetail": "光線偏暗",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "更換馬達或者檢查閃光燈驅動電路。",
+        "ExpDetail": "無震動",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "更換馬達或者檢查閃光燈驅動電路。",
+        "ExpDetail": "震動異常",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "建議更換馬達元件",
+        "ExpDetail": "馬達硬體損壞",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "請降低手機使用溫度，保持良好的散熱效果，等到手機溫度降低後再玩遊戲",
+        "ExpDetail": "玩遊戲時手機溫度過高",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "遊戲影格遺失導致卡頓，請保持良好的散熱並在穩定的網路環境下玩遊戲",
+        "ExpDetail": "遊戲影格遺失導致卡頓",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "遊戲時存在網路波動，請在穩定的網路環境下玩遊戲",
+        "ExpDetail": "遊戲網路收訊不良",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "系統偵測到您%1應用程式的通知開關已經關閉，若想接收此類訊息通知，您可以將此開關設定為開啟。\n「長按應用程式圖示 > 應用程式資訊 > 通知管理」",
+        "ExpDetail": "存在未開啟應用程式"
+    },
+    "t17010102": {
+        "ExpAdvice": "部分應用程式通知為關閉狀態（包括%1），可能無法及時接收重要訊息，建議在應用程式設定中開啟",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17010201": {
+        "ExpAdvice": "系統偵測到您 %1 應用程式已設為不重要通知，會導致該應用程式的所有提醒僅在通知欄底部顯示，建議您關閉此開關。\n① ColorOS 11 版本路徑：「長按應用程式圖示 > 應用程式資訊 > 通知管理 > 新訊息通知（音訊視訊通話邀請通知）> 設為不重要通知」\n② ColorOS 7.2 版本路徑：「長按應用程式圖示 > 應用程式資訊 > 通知管理 > 關閉移動至通知底部」",
+        "ExpDetail": "存在設為不重要通知的應用程式"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "顯示通知內容"
+    },
+    "t17010302": {
+        "ExpAdvice": "系統檢測到您的鎖定螢幕通知設定為顯示通知但隱藏內容，建議修改為顯示通知內容\n「系統設定—通知與狀態列—通知管理—鎖定螢幕通知」",
+        "ExpDetail": "顯示通知但隱藏內容"
+    },
+    "t17010303": {
+        "ExpAdvice": "系統檢測到您的鎖定螢幕通知設定為\n不顯示狀態，建議修改為顯示通知內容／顯示通知但隱藏內容\n「系統設定—通知與狀態列—通知管理—鎖定螢幕通知」",
+        "ExpDetail": "不顯示"
+    },
+    "t17010401": {
+        "ExpAdvice": "系統檢測到您的通知勿擾開關已開啟，您可以選擇關閉通知勿擾開關，以免錯過重要訊息\n「系統狀態列下拉—通知勿擾」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17010501": {
+        "ExpAdvice": "系統檢測到您的鎖定螢幕時通知喚醒螢幕開關已關閉，您可以選擇開啟鎖定螢幕時通知喚醒螢幕\n「系統設定—通知與狀態列—通知管理—更多—鎖定螢幕時通知喚醒螢幕」",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17010502": {
+        "ExpAdvice": "鎖定螢幕時通知喚醒螢幕為關閉狀態，在鎖定螢幕狀態下，無法及時取得通知提醒，建議開啟",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17010601": {
+        "ExpAdvice": "通知輕度回饋為開啟狀態，全螢幕時（例如看影片、打遊戲、會議中）鈴聲輕柔與震動減弱，建議關閉",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17010701": {
+        "ExpAdvice": "睡眠待機最佳化為開啟狀態，在睡眠時以低功耗運作，並降低通知的推播頻率，建議關閉",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17010801": {
+        "ExpAdvice": "部分應用程式桌面徽章為關閉狀態，應用程式右上角不顯示任何紅點提示，無法及時取得通知提醒，建議開啟",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17020101": {
+        "ExpAdvice": "系統檢測到您的手機已開啟流量節省，會導致應用程式在背景中無法接收通知，您可以選擇關閉流量節省\n「系統設定—SIM 卡與流量管理—流量管理—流量節省」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17020201": {
+        "ExpAdvice": "系統檢測到您%1應用程式的 Wi-Fi 與行動數據開關均已關閉，會導致通知無法接收，您可以選擇開啟此開關\n「長按應用程式圖示 > 應用程式資訊 > 流量使用情況」",
+        "ExpDetail": "存在未開啟應用程式"
+    },
+    "t17020301": {
+        "ExpAdvice": "未開啟應用程式：%1<br>系統檢測到您的手機已關閉可在背景中使用資料，會導致應用程式在背景中無法接收通知，您可以選擇開啟此開關\n「長按應用程式圖示 > 應用程式資訊 > 流量使用情況」",
+        "ExpDetail": "存在未開啟應用程式"
+    },
+    "t17030101": {
+        "ExpAdvice": "系統檢測到您的手機%1應用程式的耗電管理設定限制了應用程式通知，您可以選擇開啟允許喚醒前景開關\n「長按應用程式圖示 > 應用程式資訊 > 耗電管理」",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17030201": {
+        "ExpAdvice": "系統檢測到您的手機%1應用程式的耗電管理設定限制了應用程式通知，您可以選擇開啟允許背景行為開關\n「長按應用程式圖示 > 應用程式資訊 > 耗電管理」",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17030301": {
+        "ExpAdvice": "系統檢測到您的手機%1應用程式的耗電管理設定限制了應用程式通知，您可以選擇開啟允許自動啟動行為開關\n「長按應用程式圖示 > 應用程式資訊 > 耗電管理」",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17030401": {
+        "ExpAdvice": "系統檢測到您的手機%1應用程式的耗電管理設定限制了應用程式通知，您可以選擇允許關聯啟動行為開關\n「長按應用程式圖示 > 應用程式資訊 > 耗電管理」",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17040101": {
+        "ExpAdvice": "系統檢測到您的手機已設定應用程式加密保護，但系統無法檢測到您具體的加密情況，您可以看一下%1應用程式不顯示訊息，是不是已對此應用程式進行了加密\n「系統設定—隱私權—應用程式鎖」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17040201": {
+        "ExpAdvice": "系統檢測到您的手機已設定應用程式加密保護，但系統無法檢測到您具體的加密情況，您可以看一下%1應用程式不顯示訊息，是不是已對此應用程式進行了隱藏\n「系統設定—隱私權—應用程式隱藏」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17050101": {
+        "ExpAdvice": "系統檢測到您的手機已開啟靜音模式，會導致訊息沒有鈴聲提醒，您可以選擇取消靜音模式\n「系統設定—聲音與震動—靜音模式」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17050201": {
+        "ExpAdvice": "系統檢測到您的手機已開啟勿擾開關，會導致訊息沒有提醒，您可以選擇關閉勿擾\n「系統設定—聲音與震動—勿擾」",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17050202": {
+        "ExpAdvice": "勿擾為開啟狀態，除了鬧鐘、倒數計時和行事曆活動之外，其他訊息將不會提醒，建議關閉",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t17060101": {
+        "ExpAdvice": "部分應用程式未開啟應用程式分身（包括%1），建議在設定中搜尋「應用程式分身」，並為應用程式開啟此功能，以輕鬆切換不同帳戶",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17060201": {
+        "ExpAdvice": "部分應用程式已開啟應用程式分身，但「使用快捷功能時」設為「打開主應用程式」，建議選擇「每次詢問」",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t17060301": {
+        "ExpAdvice": "視訊通話美顏為關閉狀態，在 WeChat 視訊通話中，無法進行即時美顏，建議開啟",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t26010101": {
+        "ExpAdvice": "檢測到目前三段式開關狀態為：靜音模式／響鈴／震動，但開關位置與系統辨識到的狀態不相符，建議使用元件校正修復。",
+        "ExpDetail": "按鍵位置與顯示位置不相符"
+    },
+    "t26010102": {
+        "ExpAdvice": "檢測到目前三段式開關狀態為：靜音模式／響鈴／震動，但撥動開關位置後系統無法辨識全部開關狀態，建議先使用元件校正修復，修復失敗後，再更換元件。",
+        "ExpDetail": "顯示位置無法全部點亮"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "其他"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "不支援",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "資料不足，無法分析",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "診斷異常！",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "診斷超時未返回結果，請重新測試！",
+        "ExpDetail": "失敗"
+    },
+    "t6": {
+        "ExpAdvice": "診斷異常！未返回結果。",
+        "ExpDetail": "失敗"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "目前狀態：關閉"
+    },
+    "t9": {
+        "ExpAdvice": "全部應用程式",
+        "ExpDetail": "目前狀態：開啟"
+    },
+    "t05050109": {
+        "ExpDetail": "蜂巢式行動網路頻段異常：%1",
+        "ExpAdvice": "1. 請確認在測試過程中是否誤觸手機。<br>2. 再次測試還是異常，代表部分頻段出現問題，請更換手機硬體。"
+    },
+    "t05050110": {
+        "ExpDetail": "衛星網路頻段異常：%1",
+        "ExpAdvice": "1. 請確認在測試過程中是否誤觸手機。<br>2. 再次測試還是異常，代表部分頻段出現問題，請更換手機硬體。"
+    },
+    "t05050111": {
+        "ExpDetail": "蜂巢式行動網路和衛星網路頻段異常：%1",
+        "ExpAdvice": "1. 請確認在測試過程中是否誤觸手機。<br>2. 再次測試還是異常，代表部分頻段出現問題，請更換手機硬體。"
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "診斷修復成功",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "診斷修復失敗"
+    },
+    "t07110101": {
+        "ExpDetail": "霍爾磁性異常",
+        "ExpAdvice": "建議更換霍爾元件"
+    },
+    "t07010201": {
+        "ExpDetail": "壓感按鍵異常",
+        "ExpAdvice": "請檢查 BTB 是否已接合到位，模組 FPC 是否有拉扯撕裂問題，A 板、主機板、FPC 有無異常。"
+    },
+    "t22140101": {
+        "ExpDetail": "風扇轉速異常",
+        "ExpAdvice": "轉速異常，請檢查風扇：\n1. 請檢查葉扇是否有灰塵，若有，請清除。\n2. 若清除灰塵後仍異常，請更換風扇。\n3. 若更換風扇後仍異常，請更換主機板。"
+    },
+    "t08030501": {
+        "ExpDetail": "聲音小",
+        "ExpAdvice": "檢測是否有灰塵、液體滲入 MIC 插孔進而導致插孔堵塞；若聲音小到幾乎無聲，則更換麥克風組件後再測試"
+    },
+    "t08030504": {
+        "ExpDetail": "其他",
+        "ExpAdvice": "檢測是否有灰塵、液體滲入 MIC 插孔進而導致插孔堵塞；若聲音小到幾乎無聲，則更換麥克風組件後再測試"
+    },
+    "t08030502": {
+        "ExpDetail": "有雜音",
+        "ExpAdvice": "更換麥克風組件後再測試"
+    },
+    "t08030503": {
+        "ExpDetail": "沒有聲音",
+        "ExpAdvice": "更換麥克風組件後再測試"
+    }
+}

@@ -1,0 +1,339 @@
+{
+  "en": {
+    "t0": {
+      "ExpAdvice": "",
+      "ExpDetail": "Normal",
+      "ResultLevel": 0
+    },
+    "t2": {
+      "ExpAdvice": "<br>1. The diagnosis may have been discontinued during the examination with the earbuds.<br>2. The current earbuds may not support this diagnosis item.",
+      "ExpDetail": "No diagnostics performed",
+      "ResultLevel": 6
+    },
+    "t11": {
+      "ExpAdvice": "name:%1 <br> color: %2 <br> electricity:L-R-Box: %3 <br>",
+      "ExpDetail": "%1"
+    },
+    "t10610101": {
+      "ExpAdvice": "Update to the latest version for increased stability.",
+      "ExpDetail": "Outdated version of earbud firmware",
+      "ResultLevel": 8
+    },
+    "t10610102": {
+      "ExpAdvice": "Earbud %1 firmware information error. Suggest restoring the earbuds to their factory settings.",
+      "ExpDetail": "Earbud %1 firmware information error",
+      "ResultLevel": 10
+    },
+    "t10610103": {
+      "ExpAdvice": "Please check whether the favorites function is working normally and send the earbuds information to the after-sales team for confirmation.",
+      "ExpDetail": "Earbud %1 favorite function error",
+      "ResultLevel": 10
+    },
+    "t10610104": {
+      "ExpAdvice": "Case SN error. Please provide feedback to the after-sales representative.",
+      "ExpDetail": "Case SN error",
+      "ResultLevel": 10
+    },
+    "t10610201": {
+      "ExpAdvice": "<br>1. This problem may occur when earphones are charged after prolonged exposure to excessively high or low temperatures. <br>2. Leave the earphones at room temperature for 10 minutes before charging them.",
+      "ExpDetail": "Abnormal battery temperature for earphones %1",
+      "ResultLevel": 10
+    },
+    "t10610301": {
+      "ExpAdvice": "<br>1. If a charging problem is reported, check whether it has happened before based on this criterion. <br>2.Do not charge the earphones at excessively high or low temperatures.",
+      "ExpDetail": "Previous abnormal battery temperature for earphones %1",
+      "ResultLevel": 10
+    },
+    "t10610401": {
+      "ExpAdvice": "<br>1. Check whether both earphones are in the charging case. If not, a charging error will be displayed. <br>2. Check whether the charging pins or probes inside the charging case are deformed or broken. <br>3. Check whether the charging pins of the earphones and the charging pins or probes in the case are stained with grease/sweat or otherwise dirty. If so, wipe them with a lint-free cotton swab dipped in ethanol.",
+      "ExpDetail": "Abnormal charging for earphones %1",
+      "ResultLevel": 10
+    },
+    "t10610501": {
+      "ExpAdvice": "Please check whether the earbud is functioning normally and send the earbuds information and the error code to the after-sales team.",
+      "ExpDetail": "Abnormal factory parameters for earphones %1 with error code %2",
+      "ResultLevel": 10
+    },
+    "t10610601": {
+      "ExpAdvice":"This can result in the earbud failing to detect when it is inserted into the user's ear and the touch controls becoming unresponsive. Please restore the earbuds to their factory settings.",
+      "ExpDetail": "Abnormal user parameters for earphones %1 with error code %2",
+      "ResultLevel": 10
+    },
+    "t10610701": {
+      "ExpAdvice": "Please check if the user has been using the earbuds in environments with strong sources of interference (such as Wi-Fi routers or base stations). In such environments, occasional disconnection is unavoidable. Suggest restoring the earbuds to their factory settings.",
+      "ExpDetail": "Earphones %1 crashed",
+      "ResultLevel": 10
+    },
+    "t10610801": {
+      "ExpAdvice": "Check if this issue occurs in common user environments and record its frequency. Check if there is a strong source of interference nearby, such as Wi-Fi routers and base stations, and restore the earphones to their factory settings.",
+      "ExpDetail": "Disconnection from either earphone",
+      "ResultLevel": 10
+    },
+    "t10610901": {
+      "ExpAdvice": "<br>1. Keep the earphones and phone in close range for better signal quality. <br>2. Check if this issue occurs in common user environments and record its frequency. Check if there is a strong source of interference nearby, such as Wi-Fi routers and base stations, and restore the earphones to their factory settings.",
+      "ExpDetail": "Disconnection between earphones %1 and the phone",
+      "ResultLevel": 10
+    },
+    "t10611001": {
+      "ExpAdvice": "<br>1. Check whether there is anything special about the audio resources used by the earbuds. If so, send information about the earbuds and resources to the developer for analysis. <br>2. Check whether lags or lag possibilities occur in common user environments. Check whether there is a strong source of interference nearby, such as Wi-Fi routers and base stations, and restore the earbuds to their factory settings.",
+      "ExpDetail": "Audio lag on earbud %1",
+      "ResultLevel": 10
+    },
+    "t10611002": {
+      "ExpAdvice": "Check whether lags or lag possibilities occur in common user environments. Check whether there is a strong source of interference nearby, such as Wi-Fi routers and base stations, and restore the earbuds to their factory settings.",
+      "ExpDetail": "Call lag on earbud %1",
+      "ResultLevel": 10
+    },
+    "t10611101": {
+      "ExpAdvice": "<br>1. If you are performing the diagnosis with just one earbud, then this result is to be expected.<br> 2. Check the immediate environment for sources of interference, such as Wi-Fi routers and base stations. After ruling out this possibility, try restoring the earbuds to their factory settings.",
+      "ExpDetail": "Weak connection between the two earbuds",
+      "ResultLevel": 10
+    },
+    "t10611201": {
+      "ExpAdvice": "<br>1. Charge the charging case with a USB cable for diagnosis. <br>2. Check whether the USB port of the charging case is dirty or has poor contact. If so, wipe the contact points with a lint-free cotton swab dipped in ethanol.",
+      "ExpDetail": "Case charging error",
+      "ResultLevel": 10
+    },
+    "t10611301": {
+      "ExpAdvice": "<br>1. This problem may occur when earphones are charged after prolonged exposure to excessively high or low temperatures. <br>2. Leave the earphones at room temperature for 10 minutes before charging them.",
+      "ExpDetail": "Abnormal battery temperature for the charging case",
+      "ResultLevel": 10
+    },
+    "t10611401": {
+      "ExpAdvice": "<br>1. If a charging problem is reported, check whether it has happened before based on this criterion. <br>2. Check whether the ambient temperature is too high or too low or check for any charging faults. Do not charge the charging case at excessively high or low temperatures.",
+      "ExpDetail": "Previous abnormal battery temperature for the charging case",
+      "ResultLevel": 10
+    },
+    "t10611501": {
+      "ExpAdvice": "Check whether the USB port of the charging case is dirty or has poor contact. If so, wipe the contact points with a lint-free cotton swab dipped in ethanol.",
+      "ExpDetail": "Abnormal USB port temperature for the charging case",
+      "ResultLevel": 10
+    },
+    "t10611601": {
+      "ExpAdvice": "<br>1. If a charging problem is reported, check whether it has happened before based on this criterion. <br>2. Check whether the ambient temperature is too high or too low or check for any charging faults. Do not charge the charging case at excessively high or low temperatures.",
+      "ExpDetail": "Previous abnormal USB port temperature for the charging case",
+      "ResultLevel": 10
+    },
+  "t10615001": {
+    "ExpAdvice": "Please check if any debris or foreign objects have clogged the Mic hole. If so, clean the contact points with an ethanol-soaked lint-free cotton swab.",
+    "ExpDetail": "Earbud %1 Mic sounds bad.",
+    "ResultLevel": 10
+        },
+  "t10615101": {
+    "ExpAdvice": "<br>1.Please check if any debris or foreign objects have clogged the speaker mesh. If so, remove the ear cover, wipe the mesh clean with an ethanol-soaked lint-free cotton swab, and then use a toothpick or other special tool to scrape out the dirt from the mesh.<br>2. Check surroundings for sources of interference, such as Wi-Fi routers and base stations. After ruling out this possibility, try the test again.",
+    "ExpDetail": "Earbud %1 audio is of low quality.",
+    "ResultLevel": 10
+        },
+  "t10615102": {
+    "ExpAdvice": "<br>1.Please check if any debris or foreign objects have clogged the speaker mesh. If so, remove the ear cover, wipe the mesh clean with an ethanol-soaked lint-free cotton swab, and then use a toothpick or other special tool to scrape out the dirt from the mesh.<br>2. Check surroundings for sources of interference, such as Wi-Fi routers and base stations. After ruling out this possibility, try the test again.",
+    "ExpDetail": "When noise cancellation is turned on, there is abnormal audio playback on the headphones.",
+    "ResultLevel": 10
+        },
+  "t10615103": {
+    "ExpAdvice": "<br>1.Please check if any debris or foreign objects have clogged the speaker mesh. If so, remove the ear cover, wipe the mesh clean with an ethanol-soaked lint-free cotton swab, and then use a toothpick or other special tool to scrape out the dirt from the mesh.<br>2. Check surroundings for sources of interference, such as Wi-Fi routers and base stations. After ruling out this possibility, try the test again.",
+    "ExpDetail": "When noise cancellation is turned off, there is abnormal audio playback on the headphones.",
+    "ResultLevel": 10
+        },
+  "t10615201": {
+    "ExpAdvice": "Please check if any debris or foreign objects have clogged the speaker mesh. If so, remove the ear cover, wipe the mesh clean with an ethanol-soaked lint-free cotton swab, and then use a toothpick or other special tool to scrape out the dirt from the mesh.",
+    "ExpDetail": "Unexpected earbud %1 sound volume.",
+    "ResultLevel": 10
+        },
+  "t10615301": {
+    "ExpAdvice": "<br>1. Make sure that the earbuds are in the case and the case lid is closed or opened correctly. If not, it's normal to see an error message. <br>2. Check if the charging probes or pins within the charging case are deformed or broken. <br>3. Check if the charging contact points, as well as the charging pins and probes within the charging case are stained with oil, perspiration, or dirt. If so, clean them with an ethanol-soaked lint-free cotton swab.",
+    "ExpDetail": "Earbud case lid detection fails.",
+    "ResultLevel": 10
+        },
+  "t10615401": {
+    "ExpAdvice": "<br>1. Make sure that the earbud is being worn as intended. If the earbud is not in your ears, it's normal to see an error message. <br>2. Adjust the earbud to fit your ear and make sure it is inserted correctly. <br>3. Check if the earbud is free of substances such as water or oil. If not, wipe the earbud down before testing.",
+    "ExpDetail": "Earbud %1 in-ear detection fails.",
+    "ResultLevel": 10
+        },
+  "t10615402": {
+    "ExpAdvice": "<br>1. Make sure you pinched the right points. If you didn't pinch the earbud, it's normal to see an error message. <br>2. Adjust the pinch location and strength, and make sure you are pinching correctly. <br>3. Check if the earbud is free of substances such as water or oil. If not, wipe the earbud down before testing.",
+    "ExpDetail": "Earbud %1 double-tap (pinch) control fails.",
+    "ResultLevel": 10
+        },
+  "t10615403": {
+    "ExpAdvice": "<br>1. Make sure that the earbuds are in the case. If they are not in the case, it's normal to see an error message. <br>2. Check if the charging probes or pins within the charging case are deformed or broken. <br>3. Check if the charging contact points, as well as the charging pins and probes within the charging case are stained with oil, perspiration, or dirt. If so, clean them with an ethanol-soaked lint-free cotton swab.",
+    "ExpDetail": "Earbud %1 entering case detection fails.",
+    "ResultLevel": 10
+        },
+  "t10615501": {
+    "ExpAdvice": "Make sure that the earbuds are in the case. If they are not in the case, it's normal to see an error message.",
+    "ExpDetail": "Earbud case status light detection fails.",
+    "ResultLevel": 10
+        }
+  },
+  "cn": {
+    "t0": {
+      "ExpAdvice": "",
+      "ExpDetail": "正常",
+      "ResultLevel": 0
+    },
+    "t2": {
+      "ExpAdvice": "<br>1.耳机诊断过程中可能取消了诊断<br>2.当前耳机可能不支持该检测项",
+      "ExpDetail": "未检测",
+      "ResultLevel": 6
+    },
+    "t11": {
+      "ExpAdvice": "耳机名字:%1 <br> 颜色: %2 <br> 电量:左耳-右耳-盒子: %3 <br>",
+      "ExpDetail": "%1"
+    },
+    "t10610101": {
+      "ExpAdvice": "建议用户升级到最新版本，最新版本更加稳定",
+      "ExpDetail": "耳机固件非最新版本",
+      "ResultLevel": 8
+    },
+    "t10610102": {
+      "ExpAdvice": "耳机固件信息异常，建议给耳机恢复出厂设置",
+      "ExpDetail": "耳机%1固件信息异常",
+      "ResultLevel": 10
+    },
+    "t10610103": {
+      "ExpAdvice": "请确认收藏音乐功能是否正常，把耳机信息反馈给售后代表",
+      "ExpDetail": "耳机%1收藏功能异常",
+      "ResultLevel": 10
+    },
+    "t10610104": {
+      "ExpAdvice": "耳机盒子SN码异常，请把信息反馈给售后代表",
+      "ExpDetail": "耳机盒子SN码异常",
+      "ResultLevel": 10
+    },
+    "t10610201": {
+      "ExpAdvice": "<br>1、耳机在过高或过低温环境下长时间暴露后充电，可能会导致充电异常<br>2、建议在室温放置10分钟后再充电检测",
+      "ExpDetail": "耳机%1电池温度异常",
+      "ResultLevel": 10
+    },
+    "t10610301": {
+      "ExpAdvice": "<br>1、如反馈有充电问题，以此项判断是否以前有过充电异常<br>2、建议用户不要在过高或过低温环境下充电",
+      "ExpDetail": "耳机%1出现过电池温度异常",
+      "ResultLevel": 10
+    },
+    "t10610401": {
+      "ExpAdvice": "<br>1、确保双耳入盒；耳机不在盒显示充电异常为正常现象<br>2、确认充电盒内部充电弹片或探针是否变形断裂<br>3、观察耳机充电触点和充电盒充电弹片或探针是否沾有油渍/汗渍或赃污，使用酒精+无尘布棉签擦拭清理",
+      "ExpDetail": "耳机%1电池充电异常",
+      "ResultLevel": 10
+    },
+    "t10610501": {
+      "ExpAdvice": "请检查耳机功能使用是否正常，同时把耳机信息反馈给售后代表",
+      "ExpDetail": "耳机%1出厂参数异常，错误码%2",
+      "ResultLevel": 10
+    },
+    "t10610601": {
+      "ExpAdvice": "可能导致佩戴、操控功能失效，请给耳机恢复出厂设置",
+      "ExpDetail": "耳机%1用户参数异常，错误码%2",
+      "ResultLevel": 10
+    },
+    "t10610701": {
+      "ExpAdvice": "请确认用户常用环境是否有强干扰源，WIFI路由器、基站等强干扰源地方低概率断连无法避免，建议给耳机恢复出厂设置",
+      "ExpDetail": "耳机%1出现过死机异常",
+      "ResultLevel": 10
+    },
+    "t10610801": {
+      "ExpAdvice": "请确认用户常用环境是否有断连，断连频率；断连时附近是否有强干扰源，WIFI路由器、基站等强干扰源地方低概率断连无法避免，建议给耳机恢复出厂设置",
+      "ExpDetail": "耳机左右耳机出现过断连异常",
+      "ResultLevel": 10
+    },
+    "t10610901": {
+      "ExpAdvice": "<br>1、耳机与手机间距不能过远，过远信号会变弱<br>2、请确认用户常用环境是否有断连，断连频率；断连时附近是否有强干扰源，WIFI路由器、基站等强干扰源地方低概率断连无法避免，建议给耳机恢复出厂设置",
+      "ExpDetail": "耳机%1与手机出现过断连异常",
+      "ResultLevel": 10
+    },
+    "t10611001": {
+      "ExpAdvice": "<br>1、请确认使用的音频资源是否有特殊，如有则把特殊资源和耳机信息反馈给开发分析<br>2、请确认用户常用环境是否有卡顿，卡顿频率；断连时附近是否有强干扰源，WIFI路由器、基站等强干扰源地方，低概率卡顿无法避免，建议给耳机恢复出厂设置",
+      "ExpDetail": "耳机%1出现过音频卡顿",
+      "ResultLevel": 10
+    },
+    "t10611002": {
+      "ExpAdvice": "请确认用户常用环境是否有卡顿，卡顿频率；断连时附近是否有强干扰源，WIFI路由器、基站等强干扰源地方，低概率卡顿无法避免，建议给耳机恢复出厂设置",
+      "ExpDetail": "耳机%1出现过通话卡顿",
+      "ResultLevel": 10
+    },
+    "t10611101": {
+      "ExpAdvice": "<br>1、如只连单耳诊断，因两耳不能通信，此结果为正常现象<br>2、请确认附近环境是否有强干扰源，WIFI路由器、基站等强干扰源地方，排除此环境再做检测并给耳机恢复出厂设置",
+      "ExpDetail": "耳机之间连接信号弱",
+      "ResultLevel": 10
+    },
+    "t10611201": {
+      "ExpAdvice": "<br>1、请确保检测时盒子插上USB充电<br>2、请检查盒子USB口是否脏污或接触不良，使用酒精+无尘布棉签等工具擦拭清理",
+      "ExpDetail": "盒子充电异常",
+      "ResultLevel": 10
+    },
+    "t10611301": {
+      "ExpAdvice": "<br>1、耳机在过高或过低温环境下长时间暴露后充电，可能会导致充电异常<br>2、建议在室温放置10分钟后再充电检测",
+      "ExpDetail": "盒子电池温度异常",
+      "ResultLevel": 10
+    },
+    "t10611401": {
+      "ExpAdvice": "<br>1、如反馈有充电问题，以此项判断是否以前有过充电异常<br>2、当环境温度过高或过低，或充电故障都会导致电池温度异常，建议用户不要在过高或过低温环境下充电",
+      "ExpDetail": "盒子出现过电池温度异常",
+      "ResultLevel": 10
+    },
+    "t10611501": {
+      "ExpAdvice": "请检查盒子USB口是否脏污或接触不良，使用酒精+无尘布棉签等工具擦拭清理",
+      "ExpDetail": "盒子USB口当前温度异常",
+      "ResultLevel": 10
+    },
+    "t10611601": {
+      "ExpAdvice": "<br>1、如反馈有充电问题，以此项判断是否以前有过充电异常<br>2、当环境温度过高或过低，或充电故障都会导致电池温度异常，建议用户不要在过高或过低温环境下充电",
+      "ExpDetail": "盒子USB出现过温度异常",
+      "ResultLevel": 10
+    },
+    "t10615001": {
+        "ExpAdvice": "请检查mic是否有脏污或异物堵孔，使用酒精+无尘布棉签等工具擦拭清理",
+        "ExpDetail": "耳机%1麦克风声音不良",
+        "ResultLevel": 10
+    },
+    "t10615101": {
+        "ExpAdvice": "<br>1.请检查喇叭网口是否有脏污或者异物堵孔，取下耳帽，用酒精+无尘布棉签等工具擦拭清理，用牙签或者专用工具清理网口<br>2.请确认附近环境是否有强干扰源，WIFI路由器、基站等强干扰源地方，排除此环境再做检测",
+        "ExpDetail": "耳机%1声音音质不良",
+        "ResultLevel": 10
+    },
+    "t10615102": {
+        "ExpAdvice": "<br>1.请检查喇叭网口是否有脏污或者异物堵孔，取下耳帽，用酒精+无尘布棉签等工具擦拭清理，用牙签或者专用工具清理网口<br>2.请确认附近环境是否有强干扰源，WIFI路由器、基站等强干扰源地方，排除此环境再做检测",
+        "ExpDetail": "耳机降噪开声音异常",
+        "ResultLevel": 10
+    },
+    "t10615103": {
+        "ExpAdvice": "<br>1.请检查喇叭网口是否有脏污或者异物堵孔，取下耳帽，用酒精+无尘布棉签等工具擦拭清理，用牙签或者专用工具清理网口<br>2.请确认附近环境是否有强干扰源，WIFI路由器、基站等强干扰源地方，排除此环境再做检测",
+        "ExpDetail": "耳机降噪关声音异常",
+        "ResultLevel": 10
+    },
+    "t10615201": {
+        "ExpAdvice": "请检查喇叭网口是否有脏污或者异物堵孔，取下耳帽，用酒精+无尘布棉签等工具擦拭清理，用牙签或者专用工具清理网口",
+        "ExpDetail": "耳机%1声音音量异常",
+        "ResultLevel": 10
+    },
+    "t10615301": {
+        "ExpAdvice": "<br>1、确保耳机已正常入盒并开关盖，耳机在未入盒或未操作开关盖显示异常为正常现象<br>2、确认充电盒内部充电弹片或探针是否变形断裂<br>3、观察耳机充电触点和充电盒充电弹片或探针是否沾有油渍/汗渍或赃污，使用酒精+无尘布棉签擦拭清理",
+        "ExpDetail": "耳机盒子开关盖异常",
+        "ResultLevel": 10
+    },
+    "t10615401": {
+        "ExpAdvice": "<br>1、确保耳机已正常佩戴，耳机在未佩戴时显示异常为正常现象<br>2.可适当调整耳机入耳位置确认是否有正常佩戴。<br>3、确认耳机表面不会有水、油等液体，如果有请擦拭后再进行检测",
+        "ExpDetail": "耳机%1佩戴检测异常",
+        "ResultLevel": 10
+    },
+    "t10615402": {
+        "ExpAdvice": "<br>1、确保有按捏到正确区域，耳机未按捏时显示异常为正常现象<br>2.适当改变按捏位置和力度确认是否有正常按捏。<br>3、确认耳机表面不会有水、油等液体，如果有请擦拭后再进行检测",
+        "ExpDetail": "耳机%1双击按捏操控检测异常",
+        "ResultLevel": 10
+    },
+    "t10615403": {
+        "ExpAdvice": "<br>1、确保耳机已正常入盒，耳机在未入盒显示异常为正常现象<br>2.确认充电盒内部充电弹片或探针是否变形断裂<br>3、观察耳机充电触点和充电盒充电弹片或探针是否沾有油渍/汗渍或赃污，使用酒精+无尘布棉签擦拭清理",
+        "ExpDetail": "耳机%1入盒检测异常",
+        "ResultLevel": 10
+        },
+    "t10615501": {
+        "ExpAdvice": "确保耳机已正常入盒，耳机在未入盒显示异常为正常现象",
+        "ExpDetail": "耳机盒指示灯异常",
+        "ResultLevel": 10
+        },
+    "t10615601": {
+        "ExpAdvice": "确保耳机已正常入盒，耳机在未入盒显示异常为正常现象",
+        "ExpDetail": "耳机盒指示灯异常",
+        "ResultLevel": 10
+        }
+  }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CHECK_SECTOR_LIST count="2">
+    <platform cpuType="SM7250" manufacturer="QCom">
+		<sector mane="abl" checkRead="true" checkWrite="false"/>
+		<sector mane="msadp" checkRead="true" checkWrite="false"/>
+		<sector mane="opporeserve1" checkRead="true" checkWrite="false"/>
+		<sector mane="opporeserve2" checkRead="true" checkWrite="false"/>
+		<sector mane="oplusreserve1" checkRead="true" checkWrite="false"/>
+		<sector mane="oplusreserve2" checkRead="true" checkWrite="false"/>
+		<sector mane="cdt" checkRead="true" checkWrite="false"/>
+		<sector mane="keymaster" checkRead="true" checkWrite="false"/>
+		<sector mane="cmnlib" checkRead="true" checkWrite="false"/>
+		<sector mane="devcfg" checkRead="true" checkWrite="false"/>
+		<sector mane="vbmeta" checkRead="true" checkWrite="false"/>
+		<sector mane="dtbo" checkRead="true" checkWrite="false"/>
+		<sector mane="splash" checkRead="true" checkWrite="false"/>
+		<sector mane="sec" checkRead="true" checkWrite="false"/>
+		
+		<location lun="1" startSector="6" SectorCount="896" checkRead="true" checkWrite="false"/>
+		<location lun="1" startSector="902" SectorCount="32" checkRead="true" checkWrite="false"/>		
+    </platform>
+    <platform cpuType="SM8250" manufacturer="QCom">
+		<sector mane="abl" checkRead="true" checkWrite="false"/>
+		<sector mane="msadp" checkRead="true" checkWrite="false"/>
+		<sector mane="opporeserve1" checkRead="true" checkWrite="false"/>
+		<sector mane="opporeserve2" checkRead="true" checkWrite="false"/>
+		<sector mane="oplusreserve1" checkRead="true" checkWrite="false"/>
+		<sector mane="oplusreserve2" checkRead="true" checkWrite="false"/>
+		<sector mane="cdt" checkRead="true" checkWrite="false"/>
+		<sector mane="keymaster" checkRead="true" checkWrite="false"/>
+		<sector mane="cmnlib" checkRead="true" checkWrite="false"/>
+		<sector mane="devcfg" checkRead="true" checkWrite="false"/>
+		<sector mane="vbmeta" checkRead="true" checkWrite="false"/>
+		<sector mane="dtbo" checkRead="true" checkWrite="false"/>
+		<sector mane="splash" checkRead="true" checkWrite="false"/>
+		<sector mane="sec" checkRead="true" checkWrite="false"/>
+    </platform>
+</CHECK_SECTOR_LIST>

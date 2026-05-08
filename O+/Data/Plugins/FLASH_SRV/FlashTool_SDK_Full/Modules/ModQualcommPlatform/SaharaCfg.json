@@ -1,0 +1,8 @@
+{
+    "15103": {
+        "firehoseVersion": 2,
+        "firehoseVersionCompatible": 1,
+        "passiveMode": true,
+        "cloudVerify": false
+    }
+}

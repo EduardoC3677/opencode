@@ -1,0 +1,171 @@
+{
+        "t0": {
+            "ExpAdvice": "",
+            "ExpDetail": "Normal",
+            "ResultLevel": 0
+        },
+        "t2": {
+            "ExpAdvice": "<br>1. O diagnóstico pode ter sido interrompido durante a verificação dos fones de ouvido.<br>2. Os fones de ouvido atuais podem não suportar este item de diagnóstico.",
+            "ExpDetail": "Nenhum diagnóstico realizado",
+            "ResultLevel": 6
+        },
+        "t11": {
+            "ExpAdvice": "name:%1 <br> color: %2 <br> electricity:L-R-Box: %3 <br>",
+            "ExpDetail": "%1"
+        },
+        "t10610101": {
+            "ExpAdvice": "Atualize para a versão mais recente para aumentar a estabilidade.",
+            "ExpDetail": "Versão desatualizada do firmware do fone de ouvido auricular",
+            "ResultLevel": 8
+        },
+        "t10610102": {
+            "ExpAdvice": "Erro de informações do firmware do fone de ouvido auricular %1. Sugira restaurar as configurações de fábrica dos fones de ouvido auriculares.",
+            "ExpDetail": "Erro de informações do firmware do fone de ouvido auricular %1",
+            "ResultLevel": 10
+        },
+        "t10610103": {
+            "ExpAdvice": "Verifique se a função de favoritos está funcionando normalmente e envie as informações dos fones de ouvido auriculares para a equipe de pós-venda para confirmação.",
+            "ExpDetail": "Erro na função de favoritos do fone de ouvido auricular %1",
+            "ResultLevel": 10
+        },
+        "t10610104": {
+            "ExpAdvice": "Caso de erro de SN. Faça um comentário ao representante pós-venda.",
+            "ExpDetail": "Caso de erro de SN",
+            "ResultLevel": 10
+        },
+        "t10610201": {
+            "ExpAdvice": "<br>1. esse problema pode ocorrer quando os fones de ouvido são carregados após exposição prolongada a temperaturas excessivamente altas ou baixas. <br>2. Deixe os fones de ouvido em temperatura ambiente por 10 minutos antes de carregá-los.",
+            "ExpDetail": "Temperatura anormal da bateria para fones de ouvido %1",
+            "ResultLevel": 10
+        },
+        "t10610301": {
+            "ExpAdvice": "<br>1. se um problema de carregamento for relatado, verifique se ele já ocorreu antes com base nesse critério. <br>2. Não carregue os fones de ouvido em temperaturas excessivamente altas ou baixas.",
+            "ExpDetail": "Temperatura anterior da bateria anormal para fones de ouvido %1",
+            "ResultLevel": 10
+        },
+        "t10610401": {
+            "ExpAdvice": "<br>1. verifique se os dois fones de ouvido estão no estojo de carregamento. Caso contrário, será exibido um erro de carregamento. <br>2. Verifique se os pinos ou as sondas de carregamento dentro do estojo de carregamento estão deformados ou quebrados. <br>3. Verifique se os pinos de carregamento dos fones de ouvido e os pinos ou sondas de carregamento do estojo estão manchados de graxa/suor ou sujos. Se for o caso, limpe-os com um cotonete sem fiapos embebido em álcool.",
+            "ExpDetail": "Carregamento anormal dos fones de ouvido %1",
+            "ResultLevel": 10
+        },
+        "t10610501": {
+            "ExpAdvice": "Verifique se o fone de ouvido auricular está funcionando normalmente e envie as informações do fone de ouvido auricular e o código de erro para a equipe de pós-venda.",
+            "ExpDetail": "Parâmetros de fábrica anormais para fones de ouvido %1 com código de erro %2",
+            "ResultLevel": 10
+        },
+        "t10610601": {
+            "ExpAdvice": "Isso pode fazer com que o fone de ouvido auricular não detecte quando está inserido no ouvido do usuário e os controles de toque deixem de responder. Restaure as configurações de fábrica do fones de ouvido auriculares.",
+            "ExpDetail": "Parâmetros de usuário anormais para fones de ouvido %1 com código de erro %2",
+            "ResultLevel": 10
+        },
+        "t10610701": {
+            "ExpAdvice": "Verifique se o usuário tem usado o fone de ouvido auricular em ambientes com fortes fontes de interferência (como roteadores Wi-Fi ou estações rádio-base). Nesses ambientes, a desconexão ocasional é inevitável. Sugira restaurar as configurações de fábrica dos fones de ouvido auriculares.",
+            "ExpDetail": "Fones de ouvido %1 travaram",
+            "ResultLevel": 10
+        },
+        "t10610801": {
+            "ExpAdvice": "Verifique se esse problema ocorre em ambientes de usuários comuns e registre sua frequência. Verifique se há uma forte fonte de interferência nas proximidades, como roteadores Wi-Fi e estações base, e restaure as configurações de fábrica dos fones de ouvido.",
+            "ExpDetail": "Desconexão de um dos fones de ouvido",
+            "ResultLevel": 10
+        },
+        "t10610901": {
+            "ExpAdvice": "<br>1. mantenha os fones de ouvido e o telefone próximos para obter melhor qualidade de sinal. <br>2. Verifique se esse problema ocorre em ambientes de usuários comuns e registre sua frequência. Verifique se há uma forte fonte de interferência nas proximidades, como roteadores Wi-Fi e estações base, e restaure as configurações de fábrica dos fones de ouvido.",
+            "ExpDetail": "Desconexão entre os fones de ouvido %1 e o telefone",
+            "ResultLevel": 10
+        },
+        "t10611001": {
+            "ExpAdvice": "<br>1. Verifique se há algo específico nos recursos de áudio usados pelos fones de ouvido. Nesse caso, envie informações sobre os fones de ouvido e recursos ao desenvolvedor para análise. <br>2. Verifique se ocorrem atrasos ou possibilidades de atraso em ambientes de usuários comuns. Verifique se há uma fonte forte de interferência nas proximidades, como roteadores Wi-Fi e estações base, e restaure os fones de ouvido para as configurações de fábrica.",
+            "ExpDetail": "Atraso de áudio no fone de ouvido %1",
+            "ResultLevel": 10
+        },
+        "t10611002": {
+            "ExpAdvice": "Verifique se ocorrem atrasos ou possibilidades de atraso em ambientes de usuários comuns. Verifique se há uma fonte forte de interferência nas proximidades, como roteadores Wi-Fi e estações base, e restaure os fones de ouvido para as configurações de fábrica.",
+            "ExpDetail": "Atraso de chamada no fone de ouvido %1",
+            "ResultLevel": 10
+        },
+        "t10611101": {
+            "ExpAdvice": "<br>1. se você estiver realizando o diagnóstico com apenas um fone de ouvido auricular, esse resultado é esperado.<br>2. Verifique imediatamente se há fontes de interferência no ambiente, como roteadores Wi-Fi e estações rádio-base. Depois de descartar essa possibilidade, tente restaurar as configurações de fábrica dos fones de ouvido auriculares.",
+            "ExpDetail": "Conexão fraca entre os dois fones de ouvido auriculares",
+            "ResultLevel": 10
+        },
+        "t10611201": {
+            "ExpAdvice": "<br>1. carregue o estojo de carregamento com um cabo USB para diagnóstico. <br>2. Verifique se a porta USB do estojo de carregamento está suja ou com mau contato. Se for o caso, limpe os pontos de contato com um cotonete sem fiapos embebido em álcool.",
+            "ExpDetail": "Erro de carregamento do estojo",
+            "ResultLevel": 10
+        },
+        "t10611301": {
+            "ExpAdvice": "<br>1. esse problema pode ocorrer quando os fones de ouvido são carregados após exposição prolongada a temperaturas excessivamente altas ou baixas. <br>2. Deixe os fones de ouvido em temperatura ambiente por 10 minutos antes de carregá-los.",
+            "ExpDetail": "Temperatura anormal da bateria para o estojo de carregamento",
+            "ResultLevel": 10
+        },
+        "t10611401": {
+            "ExpAdvice": "<br>1. se um problema de carregamento for relatado, verifique se ele já ocorreu antes com base nesse critério. <br>2. Verifique se a temperatura ambiente está muito alta ou muito baixa ou verifique se há alguma falha de carregamento. Não carregue o estojo em temperaturas excessivamente altas ou baixas.",
+            "ExpDetail": "Temperatura previamente anormal da bateria para o estojo de carregamento",
+            "ResultLevel": 10
+        },
+        "t10611501": {
+            "ExpAdvice": "Verifique se a porta USB do estojo de carregamento está suja ou com mau contato. Se for o caso, limpe os pontos de contato com um cotonete sem fiapos embebido em álcool.",
+            "ExpDetail": "Temperatura anormal da porta USB para o estojo de carregamento",
+            "ResultLevel": 10
+        },
+        "t10611601": {
+            "ExpAdvice": "<br>1. se um problema de carregamento for relatado, verifique se ele já ocorreu antes com base nesse critério. <br>2. Verifique se a temperatura ambiente está muito alta ou muito baixa ou verifique se há alguma falha de carregamento. Não carregue o estojo em temperaturas excessivamente altas ou baixas.",
+            "ExpDetail": "Temperatura previamente anormal da porta USB para o estojo de carregamento",
+            "ResultLevel": 10
+        },
+        "t10615001": {
+            "ExpAdvice": "Verifique se algum detrito ou objeto estranho obstruiu o orifício do Microfone. Se for o caso, limpe os pontos de contato com um cotonete sem fiapos embebido em álcool.",
+            "ExpDetail": "O microfone do fone de ouvido auricular %1 soa mal.",
+            "ResultLevel": 10
+        },
+        "t10615101": {
+            "ExpAdvice": "<br>1.Verifique se algum detrito ou objeto estranho obstruiu o orifício do alto-falante. Se for o caso, remova a tampa de orelha, limpe a malha com um cotonete sem fiapos embebido em álcool e, em seguida, use um palito de dente ou outra ferramenta especial para raspar a sujeira da malha.<br>2. Verifique os arredores em busca de fontes de interferência, como roteadores Wi-Fi e estações base. Após descartar essa possibilidade, faça o teste novamente.",
+            "ExpDetail": "O áudio do fone de ouvido auricular %1 é de baixa qualidade.",
+            "ResultLevel": 10
+        },
+        "t10615102": {
+            "ExpAdvice": "<br>1.Verifique se algum detrito ou objeto estranho obstruiu o orifício do alto-falante. Se for o caso, remova a tampa de orelha, limpe a malha com um cotonete sem fiapos embebido em álcool e, em seguida, use um palito de dente ou outra ferramenta especial para raspar a sujeira da malha.<br>2. Verifique os arredores em busca de fontes de interferência, como roteadores Wi-Fi e estações base. Após descartar essa possibilidade, faça o teste novamente.",
+            "ExpDetail": "Quando o cancelamento de ruído está ativado, há uma reprodução de áudio anormal nos fones de ouvido.",
+            "ResultLevel": 10
+        },
+        "t10615103": {
+            "ExpAdvice": "<br>1.Verifique se algum detrito ou objeto estranho obstruiu o orifício do alto-falante. Se for o caso, remova a tampa de orelha, limpe a malha com um cotonete sem fiapos embebido em álcool e, em seguida, use um palito de dente ou outra ferramenta especial para raspar a sujeira da malha.<br>2. Verifique os arredores em busca de fontes de interferência, como roteadores Wi-Fi e estações base. Após descartar essa possibilidade, faça o teste novamente.",
+            "ExpDetail": "Quando o cancelamento de ruído está desativado, há uma reprodução de áudio anormal nos fones de ouvido.",
+            "ResultLevel": 10
+        },
+        "t10615201": {
+            "ExpAdvice": "Verifique se algum detrito ou objeto estranho obstruiu o orifício do alto-falante. Se for o caso, remova a tampa de orelha, limpe a malha com um cotonete sem fiapos embebido em álcool e, em seguida, use um palito de dente ou outra ferramenta especial para raspar a sujeira da malha.",
+            "ExpDetail": "Volume de som inesperado do fone de ouvido auricular %1.",
+            "ResultLevel": 10
+        },
+        "t10615301": {
+            "ExpAdvice": "<br>1. Certifique-se se os fones de ouvido auriculares estão no estojo e se a tampa do estojo está fechada ou aberta corretamente. Caso contrário, é normal que apareça uma mensagem de erro. <br>2. Verifique se as sondas de carga ou os pinos do estojo de carga estão deformados ou quebrados. <br>3. Verifique se os pontos de contato de carregamento, bem como os pinos de carregamento e as sondas dentro do estojo de carregamento estão manchados de óleo, suor ou sujeira. Se for o caso, limpe-os ",
+            "ExpDetail": "Falha na detecção da tampa do estojo do fone de ouvido auricular.",
+            "ResultLevel": 10
+        },
+        "t10615401": {
+            "ExpAdvice": "<br>1. Certifique-se de que o fone de ouvido auricular esteja sendo usado da forma pretendida. Se o fone de ouvido auricular não estiver em seus ouvidos, é normal que apareça uma mensagem de erro. <br>2. Ajuste o fone de ouvido auricular de acordo com sua orelha e certifique-se de que ele esteja inserido corretamente. <br>3. Verifique se o fone de ouvido auricular está livre de substâncias como água ou óleo. Caso contrário, limpe o fone de ouvido auricular antes de testar.",
+            "ExpDetail": "Falha na detecção do fone de ouvido auricular %1.",
+            "ResultLevel": 10
+        },
+        "t10615402": {
+            "ExpAdvice": "<br>1. Certifique-se de que você tenha apertado os pontos certos. Se você não tiver apertado o fone de ouvido auricular, é normal ver uma mensagem de erro. <br>2. Ajuste a localização e a força do aperto e certifique-se que está apertando corretamente.<br>3. Verifique se o fone de ouvido auricular está livre de substâncias como água ou óleo. Caso contrário, limpe o fone de ouvido auricular antes de testar. ",
+            "ExpDetail": "Falha no controle de toque duplo (pinça) do fone de ouvido auricular %1.",
+            "ResultLevel": 10
+        },
+        "t10615403": {
+            "ExpAdvice": "<br>1. Certifique-se de que os fones de ouvido estejam no estojo. Se eles não estiverem, é normal que apareça uma mensagem de erro. <br>2. Verifique se as sondas de carga ou os pinos do estojo de carga estão deformados ou quebrados. <br>3. Verifique se os pontos de contato de carregamento, bem como os pinos de carregamento e as sondas dentro do estojo de carregamento estão manchados de óleo, suor ou sujeira. Se for o caso, limpe-os com um cotonete sem fiapos embebido em álcool.",
+            "ExpDetail": "Falha na detecção do estojo de entrada do fone de ouvido auricular %1.",
+            "ResultLevel": 10
+        },
+        "t10615501": {
+            "ExpAdvice": "Certifique-se de que os fones de ouvido auriculares estejam no estojo. Se eles não estiverem, é normal que apareça uma mensagem de erro.",
+            "ExpDetail": "Falha na detecção do LED de status do estojo do fone de ouvido auricular.",
+            "ResultLevel": 10
+        },
+        "t10615601": {
+            "ExpAdvice": "<br>1. Certifique-se de que os fones de ouvido estejam no estojo. Se eles não estiverem, é normal que apareça uma mensagem de erro. <br>2. Verifique se as sondas de carga ou os pinos do estojo de carga estão deformados ou quebrados. <br>3. Verifique se os pontos de contato de carregamento, bem como os pinos de carregamento e as sondas dentro do estojo de carregamento estão manchados de óleo, suor ou sujeira. Se for o caso, limpe-os com um cotonete sem fiapos embebido em álcool.",
+            "ExpDetail": "Falha na detecção do botão do estojo do fone de ouvido auricular.",
+            "ResultLevel": 10
+        }
+}

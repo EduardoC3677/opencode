@@ -1,0 +1,527 @@
+[
+    {
+        "code": "UNKNOWN",
+        "reason": "Interne fouten van andere flash-tools die niet in de lijst staan.",
+        "suggest": "Probeer opnieuw te flashen. Als het probleem zich blijft voordoen na meerdere pogingen, meldt u het probleem dan bij het onderhoudsteam van het gereedschap via de vertegenwoordiger van de technische aftersales-ondersteuning, zodat het kan worden geanalyseerd en opgelost."
+    },
+    {
+        "code": "CMN0001",
+        "reason": "De vereiste cacheruimte voor deze bewerking kan niet worden toegewezen vanwege onvoldoende pc-geheugen.",
+        "suggest": "1. Schakel de toepassingen die u niet gebruikt uit en probeer opnieuw te flashen.\n2. Start de computer opnieuw op en probeer opnieuw te flashen."
+    },
+    {
+        "code": "CMN0002",
+        "reason": "Foutmelding in de Windows-systeeminterface: {1} geeft {2}.",
+        "suggest": "De gebruikte computer is defect. Probeer het apparaat opnieuw te flashen. Als het probleem zich na meerdere pogingen blijft voordoen, meldt u het probleem aan het team dat de tool onderhoud voor analyse en verwerking via een medewerker van de aftersales technische ondersteuning."
+    },
+    {
+        "code": "CMN0003",
+        "reason": "Er is gedetecteerd dat een softwaredebugger wordt uitgevoerd op de computer.",
+        "suggest": "Sluit alle geopende softwaredebuggers af en probeer het opnieuw."
+    },
+    {
+        "code": "CMN0004",
+        "reason": "Er is gedetecteerd dat de flash-ROM-toolservice wordt uigevoerd op de virtuele machine.",
+        "suggest": "Voer de flash-ROM-tool uit op een fysieke computer."
+    },
+    {
+        "code": "FTFW0001",
+        "reason": "De gegevens in het ROM-flashpakket zijn beschadigd.",
+        "suggest": "1. Als het ROM-flashpakket is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de\nnieuwste versie. Probeer het pakket vervolgens opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "FTFW0002",
+        "reason": "Het geïmporteerde ROM-bestand of de map is ongeldig, of het ROM-flashpakket is beschadigd.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd vanuit een externe bron, moet u controleren of het pakket de OFP-indeling heeft,\ndan wel of het bestand version_info.txt is aanwezig is. Als de fout zich opnieuw voordoet na\nbevestiging, probeert u het ROM-flashpakket opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "FTFW0003",
+        "reason": "Het geladen ROM-flashpakket is niet van toepassing op het te flashen apparaat of de gegevens in het\nROM-flashpakket zijn beschadigd.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, controleert u of het\npakket overeenkomt met het model van het te flashen apparaat. Download nogmaals het juiste\nROM-flashpakket en probeer het opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd vanuit een externe bron, moet u controleren of het pakket overeenkomt met\nhet model van het te flashen apparaat. Kopieer het pakket opnieuw vanaf het\nbronmedium en probeer het opnieuw te laden."
+    },
+    {
+        "code": "FTFW0004",
+        "reason": "Het geladen ROM-flashpakket is niet van toepassing op het te flashen apparaat of de gegevens in het\nROM-flashpakket zijn beschadigd.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, controleert u of het\npakket overeenkomt met het model van het te flashen apparaat. Download nogmaals het juiste\nROM-flashpakket en probeer het opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd vanuit een externe bron, moet u controleren of het pakket overeenkomt met\nhet model van het te flashen apparaat. Kopieer het pakket opnieuw vanaf het\nbronmedium en probeer het opnieuw te laden."
+    },
+    {
+        "code": "MMLC0001",
+        "reason": "Apparaat kan niet worden weergegeven aangezien de artikelcode {1} niet overeenkomt met de artikelcode {2} in het softwarepakket.",
+        "suggest": "Controleer het model van het apparaat van de gebruiker, download het juiste ROM-flashpakket en flash vervolgens de ROM."
+    },
+    {
+        "code": "MMLC0002",
+        "reason": "De partitietabel in het apparaat van de gebruiker is inconsistent met de partitietabel in het flashpakket.",
+        "suggest": "Gebruik de functie \"Forced Flash Mode\" van de flashtool om het apparaat van de klant te flashen en voer een uitgebreide functionele inspectie uit nadat het geflashte apparaat is ingeschakeld. Als het apparaat na het flashen niet opstart of als er problemen optreden tijdens de functiecontrole, vervang dan het moederbord van de gebruiker."
+    },
+    {
+        "code": "MMLC0003",
+        "reason": "Kan het artikelnummer niet lezen op de telefoon.",
+        "suggest": "1. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n2. Probeer een andere USB-kabel of een andere USB-poort op de computer te gebruiken om de ROM opnieuw te flashen.\n3. Als het probleem zich nadat u de bovenstaande maatregelen hebt genomen opnieuw voordoet, vervangt u het moederbord voor de gebruiker."
+    },
+    {
+        "code": "MMLC0004",
+        "reason": "De vereiste cacheruimte voor deze bewerking kan niet worden toegewezen vanwege onvoldoende pc-geheugen.",
+        "suggest": "1. Schakel de toepassingen die u niet gebruikt uit en probeer opnieuw te flashen.\n2. Start de computer opnieuw op en probeer opnieuw te flashen."
+    },
+    {
+        "code": "MMLC0005",
+        "reason": "Ongeldige bestandsindeling voorlaadprogramma.",
+        "suggest": "1. Als het ROM-flashpakket is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de\nnieuwste versie. Probeer het pakket vervolgens opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "MMLC0006",
+        "reason": "Ongeldig verificatiebestand.",
+        "suggest": "1. Als het ROM-flashpakket is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de\nnieuwste versie. Probeer het pakket vervolgens opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "MMLC0007",
+        "reason": "Partitietabelbestand bestaat niet.",
+        "suggest": "1. Als het ROM-flashpakket is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de\nnieuwste versie. Probeer het pakket vervolgens opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "MMLC0008",
+        "reason": "DA-communicatiefout.",
+        "suggest": "1. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n2. Probeer een andere USB-kabel of een andere USB-poort op de computer te gebruiken om de ROM opnieuw te flashen.\n3. Als het probleem zich nadat u de bovenstaande maatregelen hebt genomen opnieuw voordoet, vervangt u het moederbord voor de gebruiker."
+    },
+    {
+        "code": "MMLC0009",
+        "reason": "USB-verbinding onverwacht verbroken.",
+        "suggest": "1. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n2. Probeer een andere USB-kabel of een andere USB-poort op de computer te gebruiken om de ROM opnieuw te flashen.\n3. Als het probleem zich nadat u de bovenstaande maatregelen hebt genomen opnieuw voordoet, vervangt u het moederbord voor de gebruiker."
+    },
+    {
+        "code": "MMLC0010",
+        "reason": "DA-verbinding is mislukt vanwege een externe RAM-uitzondering.",
+        "suggest": "Vervang het moederbord voor de gebruiker."
+    },
+    {
+        "code": "MMLC0011",
+        "reason": "Geheugen komt niet overeen met DA-gegevens.",
+        "suggest": "Vervang het moederbord voor de gebruiker."
+    },
+    {
+        "code": "MMLC0012",
+        "reason": "Het aantal DDR-chips in het apparaat overschrijdt de platformlimiet.",
+        "suggest": "Probeer opnieuw te flashen. Als het probleem zich blijft voordoen na meerdere pogingen, meldt u het probleem dan bij het onderhoudsteam van het gereedschap via de vertegenwoordiger van de technische aftersales-ondersteuning, zodat het kan worden geanalyseerd en opgelost."
+    },
+    {
+        "code": "MMLC0013",
+        "reason": "DA-download mislukt.",
+        "suggest": "1. Controleer het model van het apparaat, download het juiste ROM-flashpakket en probeer opnieuw te flashen.\n2. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n3. Als de fout zich herhaaldelijk heeft voorgedaan tijdens pogingen om het ROM te flashen terwijl het juiste pakket wordt\ngebruikt voor het apparaat en het batterijniveau voldoende is, vervangt u het moederbord voor\nde gebruiker."
+    },
+    {
+        "code": "MMLC0014",
+        "reason": "Hardware- of softwarefout van de DDR-componenten van het apparaat.",
+        "suggest": "Vervang het moederbord voor de gebruiker."
+    },
+    {
+        "code": "MMLC0015",
+        "reason": "Hardware- of softwarefout in de COC- of DDR-componenten van het apparaat.",
+        "suggest": "Vervang het moederbord voor de gebruiker."
+    },
+    {
+        "code": "MMLC0016",
+        "reason": "Verificatiefout bij downloaden van bestanden.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "MMLC0017",
+        "reason": "Interne fout op het MTK-platform.",
+        "suggest": "Probeer opnieuw te flashen. Als het probleem zich blijft voordoen na meerdere pogingen, meldt u het probleem dan bij het onderhoudsteam van het gereedschap via de vertegenwoordiger van de technische aftersales-ondersteuning, zodat het kan worden geanalyseerd en opgelost."
+    },
+    {
+        "code": "MMLC0018",
+        "reason": "De ROM kan niet worden geflasht omdat de landcode-informatie op het apparaat niet kan worden gevonden in de apparaatopslag of de serviceachtergrond.",
+        "suggest": "Neem contact met de IT6000-servicedesk op om de problemen op dit apparaat te melden."
+    },
+    {
+        "code": "MMLC0019",
+        "reason": "De landcode {1} van het apparaat wordt door het geselecteerde ROM-pakket niet ondersteund.",
+        "suggest": "Gebruik het ROM-pakket voor de juiste regio en probeer het opnieuw."
+    },
+    {
+        "code": "OPC0001",
+        "reason": "Serverfout O+ Cloud-beheer: {1} {2}.",
+        "suggest": "1. Controleer of O+ Cloud-services toegankelijk zijn via uw netwerk. Als u geen toegang kunt krijgen, neemt contact op met het\nteam van aftersales technisch ondersteuning voor de juiste configuratie-instellingen.\n2. Probeer de ROM opnieuw te flashen. Als de fout zich herhaaldelijk voordoet, neemt u contact op met de vertegenwoordiger van aftersales technische ondersteuning\nom het probleem door te geven aan het operation and maintenance team van\nO+ Cloudservices."
+    },
+    {
+        "code": "OPC0002",
+        "reason": "De O+ Cloudservices hebben het resultaat van het verwerkingsverzoek niet geretourneerd,API waaraan de aanvraag was gericht: {1}.",
+        "suggest": "Storing in O+ Cloudservices. Als het probleem zich na meerdere pogingen blijft voordoen, meldt u het probleem aan het team dat de tool onderhoud voor analyse en verwerking via een medewerker van de technische ondersteuning op de achtergrond."
+    },
+    {
+        "code": "OPC0003",
+        "reason": "Błąd uwierzytelnienia platformy kontroli O+ Cloud: {2}.",
+        "suggest": "Złóż wniosek o odpowiednie uprawnienie lub wykonaj inne operacje w oparciu o opis błędu w\ntle. Jeżeli problem będzie się powtarzał, skontaktuj się z działem obsługi posprzedażowej ds. pomocy\ntechnicznej."
+    },
+    {
+        "code": "OPC0004",
+        "reason": "Verificatiefout O+ Cloudcontroleplatform: {2} {3}.",
+        "suggest": "Vraag de bijbehorende toestemming aan of voer andere handelingen uit op basis van de foutbeschrijving op de\nachtergrond. Als het probleem zich blijft voordoen, neemt u contact op met aftersales technische\nondersteuning."
+    },
+    {
+        "code": "OPC0005",
+        "reason": "Authenticatiefout op O+ Cloud Control Platform.",
+        "suggest": "Vraag de juiste machtigingen aan volgens de foutinstructies van het O+ cloud control platform. Als het probleem niet kan worden opgelost, neem dan contact op met de technische ondersteuning na verkoop."
+    },
+    {
+        "code": "OPC0006",
+        "reason": "Softwareversie verouderd.",
+        "suggest": "Download en flash de nieuwste ROM voor dit apparaatmodel."
+    },
+    {
+        "code": "OPC0007",
+        "reason": "Deze gebruikersaccount heeft geen toegang tot de geavanceerde ROM-flashmachtiging.",
+        "suggest": "Vraag de machtiging aan in het UPM-systeem en probeer het opnieuw."
+    },
+    {
+        "code": "OPF0001",
+        "reason": "De O+ Cloud-service-interface {1} heeft het aangewezen gegevensveld niet geretourneerd: {2}.",
+        "suggest": "Storing in O+ Cloudservices. Als het probleem zich na meerdere pogingen blijft voordoen, meldt u het probleem aan het team dat de tool onderhoud voor analyse en verwerking via een medewerker van de technische ondersteuning op de achtergrond."
+    },
+    {
+        "code": "JFF0001",
+        "reason": "Kan bestand {1} niet openen.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "JFF0002",
+        "reason": "Kan gegevens in bestand niet lezen {1}.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "JFF0003",
+        "reason": "Kan geen gegevens vinden in bestand {1}.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "LCF0001",
+        "reason": "Kan bestand {1} niet openen.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "LCF0002",
+        "reason": "Kan geen gegevens vinden in bestand {1}.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "LCF0003",
+        "reason": "Sluiten van het bestand {1} mislukt. Foutcode {2}.",
+        "suggest": "Interne fout in Windows-besturingssysteem. Probeer het apparaat opnieuw te flashen. Als het probleem zich na meerdere pogingen blijft voordoen, meldt u het probleem aan het team dat de tool onderhoud voor analyse en verwerking via een medewerker van de aftersales technische ondersteuning."
+    },
+    {
+        "code": "LCF0004",
+        "reason": "Kan gegevens in bestand niet lezen {1}.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "MKVF0001",
+        "reason": "Het apparaat kon de opdracht {1} niet uitvoeren: {2}.",
+        "suggest": "1. Controleer het model van het apparaat, download het juiste ROM-flashpakket en probeer opnieuw te flashen.\n2. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n3. Als de fout zich herhaaldelijk heeft voorgedaan tijdens pogingen om het ROM te flashen terwijl het juiste pakket wordt\ngebruikt voor het apparaat en het batterijniveau voldoende is, vervangt u het moederbord voor\nde gebruiker."
+    },
+    {
+        "code": "MKVF0002",
+        "reason": "Apparaat kan niet worden weergegeven aangezien de artikelcode {1} niet overeenkomt met de artikelcode {2} in het softwarepakket.",
+        "suggest": "Controleer het model van het apparaat van de gebruiker, download het juiste ROM-flashpakket en flash vervolgens de ROM."
+    },
+    {
+        "code": "MKVF0003",
+        "reason": "Initialisatie van apparaat mislukt.",
+        "suggest": "1. Controleer het model van het apparaat, download het juiste ROM-flashpakket en probeer opnieuw te flashen.\n2. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n3. Als de fout zich herhaaldelijk heeft voorgedaan tijdens pogingen om het ROM te flashen terwijl het juiste pakket wordt\ngebruikt voor het apparaat en het batterijniveau voldoende is, vervangt u het moederbord voor\nde gebruiker."
+    },
+    {
+        "code": "MKVF0004",
+        "reason": "ROM flashen mislukt.",
+        "suggest": "Download een nieuw ROM-pakket en probeer het opnieuw."
+    },
+    {
+        "code": "MKVF0005",
+        "reason": "ROM flashen mislukt.",
+        "suggest": "Download een nieuw ROM-pakket en probeer het opnieuw."
+    },
+    {
+        "code": "MKVF0006",
+        "reason": "ROM flashen mislukt.",
+        "suggest": "Download een nieuw ROM-pakket en probeer het opnieuw."
+    },
+    {
+        "code": "MKVF0007",
+        "reason": "Kan de landcode van het te flashen apparaat niet bevestigen.",
+        "suggest": "1. Neem contact op met een medewerker van aftersales technische ondersteuning om te zien of de functie \\'Standaard NV\\' in de\nROM-flashtool kan worden gebruikt voor het flashen van de ROM. Gebruik, indien toegestaan, de\nfunctie om de ROM te flashen en een uitgebreide functionele controle uit te voeren op de\ntelefoon van de gebruiker.\n2. Als de functie \\'Standaard NV\\' niet kan worden gebruikt voor het flashen van de ROM van het apparaat, of als zich een probleem voordoet\nna het flashen van de ROM (bijvoorbeeld: het apparaat kan niet worden ingeschakeld of er wordt een\nprobleem gedetecteerd tijdens de functionele controle), vervangt u het moederbord voor de\ngebruiker."
+    },
+    {
+        "code": "MKVF0008",
+        "reason": "Landcode wordt niet ondersteund door software.",
+        "suggest": "1. Controleer of de regio van het gebruikte ROM-flashpakket dat is verkregen met de ROM-flashtool geschikt is voor\nde lokale regio van het apparaat. Verwijder het ROM-flashpakket en download\nhet opnieuw uit met de juiste versie van de tool.\n2. Als het ROM-flashpakket uit een externe bron is geïmporteerd, kopieert u het pakket voor het juiste model\nen de juiste regio opnieuw van het bronmedium en laadt u het opnieuw."
+    },
+    {
+        "code": "MKVF0009",
+        "reason": "Verificatiegegevens ontbreken in het ROM-pakket.",
+        "suggest": "Download een nieuw ROM-pakket en probeer het opnieuw."
+    },
+    {
+        "code": "MKVF00010",
+        "reason": "De partitietabel in het apparaat van de gebruiker is inconsistent met de partitietabel in het flashpakket.",
+        "suggest": "Gebruik de \\'Geforceerde modus\\' in de ROM-flashtool om de ROM te flashen. Zodra het flashen is voltooid,\nvoert u een uitgebreide functionele controle uit nadat het apparaat is ingeschakeld. Als\nhet apparaat na het flashen niet kan worden ingeschakeld, of als een probleem wordt gedetecteerd\ntijdens de functionele controle, vervangt u het moederbord voor de gebruiker."
+    },
+    {
+        "code": "MKVP0001",
+        "reason": "Bestand ontbreekt in het ROM-pakket: {1}.",
+        "suggest": "Het ROM-pakket is beschadigd. Download een nieuw exemplaar en probeer het opnieuw."
+    },
+    {
+        "code": "MKVP0002",
+        "reason": "Ongeldige indeling sparse-bestand.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "MKVP0003",
+        "reason": "Het is niet gelukt de bestandenlijst in het ROM-pakket te verifiëren.",
+        "suggest": "Het ROM-pakket is beschadigd. Download een nieuw exemplaar en probeer het opnieuw."
+    },
+    {
+        "code": "MKVP0004",
+        "reason": "Het bestand in het ROM-pakket is beschadigd: {1}",
+        "suggest": "Download een nieuw ROM-pakket en probeer het opnieuw."
+    },
+    {
+        "code": "MKPP0002",
+        "reason": "Het is niet gelukt de bestandenlijst in het ROM-pakket te verifiëren.",
+        "suggest": "Het ROM-pakket is beschadigd. Download een nieuw exemplaar en probeer het opnieuw."
+    },
+    {
+        "code": "MKPP0003",
+        "reason": "Het bestand in het ROM-pakket is beschadigd: {1}",
+        "suggest": "Download een nieuw ROM-pakket en probeer het opnieuw."
+    },
+    {
+        "code": "OFPQ0001",
+        "reason": "Het geïmporteerde ROM-bestand of de map is ongeldig, of het ROM-flashpakket is beschadigd.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd vanuit een externe bron, moet u controleren of het pakket de OFP-indeling heeft,\ndan wel of het bestand version_info.txt is aanwezig is. Als de fout zich opnieuw voordoet na\nbevestiging, probeert u het ROM-flashpakket opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "OFPQ0002",
+        "reason": "Bestand ontbreekt in het ROM-pakket: {1}.",
+        "suggest": "Het ROM-pakket is beschadigd. Download een nieuw exemplaar en probeer het opnieuw."
+    },
+    {
+        "code": "OFPQ0003",
+        "reason": "Kan gegevens in bestand niet lezen {1}.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "OFPQ0004",
+        "reason": "Het geïmporteerde ROM-bestand of de map is ongeldig, of het ROM-flashpakket is beschadigd.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd vanuit een externe bron, moet u controleren of het pakket de OFP-indeling heeft,\ndan wel of het bestand version_info.txt is aanwezig is. Als de fout zich opnieuw voordoet na\nbevestiging, probeert u het ROM-flashpakket opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "OFPQ0005",
+        "reason": "De bestandsinhoud in het ROM-flashpakket voldoet niet aan de verwachtingen.",
+        "suggest": "1. Als het ROM-flashpakket is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de\nnieuwste versie. Probeer het pakket vervolgens opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "OFPQ0006",
+        "reason": "De bestandsinhoud in het ROM-flashpakket voldoet niet aan de verwachtingen.",
+        "suggest": "1. Als het ROM-flashpakket is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de\nnieuwste versie. Probeer het pakket vervolgens opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "PSPQ0001",
+        "reason": "Verificatiegegevens ontbreken in het ROM-pakket.",
+        "suggest": "Download een nieuw ROM-pakket en probeer het opnieuw."
+    },
+    {
+        "code": "PSPQ0002",
+        "reason": "Bestand ontbreekt in het ROM-pakket: {1}.",
+        "suggest": "Het ROM-pakket is beschadigd. Download een nieuw exemplaar en probeer het opnieuw."
+    },
+    {
+        "code": "PSPQ0003",
+        "reason": "Kan gegevens in bestand niet lezen {1}.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "PSPQ0004",
+        "reason": "Het geïmporteerde ROM-bestand of de map is ongeldig, of het ROM-flashpakket is beschadigd.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd vanuit een externe bron, moet u controleren of het pakket de OFP-indeling heeft,\ndan wel of het bestand version_info.txt is aanwezig is. Als de fout zich opnieuw voordoet na\nbevestiging, probeert u het ROM-flashpakket opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "PSPQ0005",
+        "reason": "De bestandsinhoud in het ROM-flashpakket voldoet niet aan de verwachtingen.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "PSPQ0006",
+        "reason": "De bestandsinhoud in het ROM-flashpakket voldoet niet aan de verwachtingen.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "PSPQ0007",
+        "reason": "Partitietabelbestand bestaat niet.",
+        "suggest": "1. Als het ROM-flashpakket is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de\nnieuwste versie. Probeer het pakket vervolgens opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden."
+    },
+    {
+        "code": "PSPQ0010",
+        "reason": "Het is niet gelukt de bestandenlijst in het ROM-pakket te verifiëren.",
+        "suggest": "Het ROM-pakket is beschadigd. Download een nieuw exemplaar en probeer het opnieuw."
+    },
+    {
+        "code": "PSPQ0011",
+        "reason": "Het bestand in het ROM-pakket is beschadigd: {1}",
+        "suggest": "Download een nieuw ROM-pakket en probeer het opnieuw."
+    },
+    {
+        "code": "FLQP0001",
+        "reason": "Fout tijden het openen van de apparaathandler.",
+        "suggest": "1. Schakel alle oude versies van de ROM-flashtool, de terugleestool en de foutopsporingstool van de\nchipfabrikant uit en probeer opnieuw te flashen.\n2. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n3. Probeer een andere USB-kabel of een andere USB-poort op de computer te gebruiken om de ROM opnieuw te flashen.\n4. Als het probleem zich nadat u de bovenstaande maatregelen hebt genomen opnieuw voordoet, vervangt u het moederbord voor de gebruiker."
+    },
+    {
+        "code": "FLQP0002",
+        "reason": "Fout tijden het openen van de apparaathandler.",
+        "suggest": "1. Schakel alle oude versies van de ROM-flashtool, de terugleestool en de foutopsporingstool van de\nchipfabrikant uit en probeer opnieuw te flashen.\n2. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n3. Probeer een andere USB-kabel of een andere USB-poort op de computer te gebruiken om de ROM opnieuw te flashen.\n4. Als het probleem zich nadat u de bovenstaande maatregelen hebt genomen opnieuw voordoet, vervangt u het moederbord voor de gebruiker."
+    },
+    {
+        "code": "FLQP0003",
+        "reason": "Configureren van {1} is mislukt. Foutcode {2}.",
+        "suggest": "Het kan zijn dat de validatie van het apparaat ongedaan is gemaakt of dat de verbinding is verbroken. Probeer een andere USB-poort en kabel, start het apparaat opnieuw op in de EDL-modus en probeer het vervolgens opnieuw."
+    },
+    {
+        "code": "FLQP0004",
+        "reason": "Kan geen gegevens lezen uit bestand of van apparaat.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden.\n3. Als het probleem zich na meerdere pogingen blijft voordoen, wordt aangeraden het ROM-flashpakket op te slaan op\neen andere harde schijf of partitie voordat u opnieuw probeert te flashen."
+    },
+    {
+        "code": "FLQP0005",
+        "reason": "Kan geen gegevens lezen uit bestand of van apparaat.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden.\n3. Als het probleem zich na meerdere pogingen blijft voordoen, wordt aangeraden het ROM-flashpakket op te slaan op\neen andere harde schijf of partitie voordat u opnieuw probeert te flashen."
+    },
+    {
+        "code": "FLQP0006",
+        "reason": "Kan geen gegevens schrijven naar bestand of apparaat.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden.\n3. Als het probleem zich na meerdere pogingen blijft voordoen, wordt aangeraden het ROM-flashpakket op te slaan op\neen andere harde schijf of partitie voordat u opnieuw probeert te flashen."
+    },
+    {
+        "code": "FLQP0007",
+        "reason": "Kan geen gegevens schrijven naar bestand of apparaat.",
+        "suggest": "1. Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en\ndownloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2. Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het\nbronmedium en opnieuw te laden.\n3. Als het probleem zich na meerdere pogingen blijft voordoen, wordt aangeraden het ROM-flashpakket op te slaan op\neen andere harde schijf of partitie voordat u opnieuw probeert te flashen."
+    },
+    {
+        "code": "FLQP0008",
+        "reason": "Het apparaat kon de opdracht {1} niet uitvoeren: {2}.",
+        "suggest": "1. Controleer het model van het apparaat, download het juiste ROM-flashpakket en probeer opnieuw te flashen.\n2. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n3. Als de fout zich herhaaldelijk heeft voorgedaan tijdens pogingen om het ROM te flashen terwijl het juiste pakket wordt\ngebruikt voor het apparaat en het batterijniveau voldoende is, vervangt u het moederbord voor\nde gebruiker."
+    },
+    {
+        "code": "FLQP0009",
+        "reason": "De protocolopdracht kon niet worden uitgevoerd op het apparaat en resulteerde in een foutmelding: {2}.",
+        "suggest": "Neem contact op met een medewerker van de aftersales technische ondersteuning om het probleem te melden aan het team dat de tool onderhoudt."
+    },
+    {
+        "code": "FLQP0010",
+        "reason": "Apparaat kan niet worden weergegeven aangezien de artikelcode {1} niet overeenkomt met de artikelcode {2} in het softwarepakket.",
+        "suggest": "Controleer het model van het apparaat van de gebruiker, download het juiste ROM-flashpakket en flash vervolgens de ROM."
+    },
+    {
+        "code": "FLQP0011",
+        "reason": "Kan de landcode van het te flashen apparaat niet bevestigen.",
+        "suggest": "1. Neem contact op met een medewerker van aftersales technische ondersteuning om te zien of de functie \\'Standaard NV\\' in de\nROM-flashtool kan worden gebruikt voor het flashen van de ROM. Gebruik, indien toegestaan, de\nfunctie om de ROM te flashen en een uitgebreide functionele controle uit te voeren op de\ntelefoon van de gebruiker.\n2. Als de functie \\'Standaard NV\\' niet kan worden gebruikt voor het flashen van de ROM van het apparaat, of als zich een probleem voordoet\nna het flashen van de ROM (bijvoorbeeld: het apparaat kan niet worden ingeschakeld of er wordt een\nprobleem gedetecteerd tijdens de functionele controle), vervangt u het moederbord voor de\ngebruiker."
+    },
+    {
+        "code": "FLQP0012",
+        "reason": "De regio\\'s die door de telefoon worden ondersteund, wijken af van de regio\\'s waarvoor het Flash-pakket is uitgebracht.",
+        "suggest": "1. Controleer of de regio van het gebruikte ROM-flashpakket dat is verkregen met de ROM-flashtool geschikt is voor\nde lokale regio van het apparaat. Verwijder het ROM-flashpakket en download\nhet opnieuw uit met de juiste versie van de tool.\n2. Als het ROM-flashpakket uit een externe bron is geïmporteerd, kopieert u het pakket voor het juiste model\nen de juiste regio opnieuw van het bronmedium en laadt u het opnieuw."
+    },
+    {
+        "code": "FLQP0013",
+        "reason": "Het flashen is door de gebruiker gestopt.",
+        "suggest": ""
+    },
+    {
+        "code": "FLQP0014",
+        "reason": "Dit platform ondersteunt nog geen flashen.",
+        "suggest": "Probeer opnieuw te flashen. Als het probleem zich blijft voordoen na meerdere pogingen, meldt u het probleem dan bij het onderhoudsteam van het gereedschap via de vertegenwoordiger van de technische aftersales-ondersteuning, zodat het kan worden geanalyseerd en opgelost."
+    },
+    {
+        "code": "FLQP0015",
+        "reason": "Niet-ondersteunde typecode geheugenapparaat {1}.",
+        "suggest": "Vervang het moederbord voor de gebruiker."
+    },
+    {
+        "code": "FLQP0016",
+        "reason": "Het ROM-flashpakket kan de logische partitie niet vinden.",
+        "suggest": "1.Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2.Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het bronmedium en opnieuw te laden."
+    },
+    {
+        "code": "FLQP0017",
+        "reason": "Verificatiefout bij downloaden van bestanden.",
+        "suggest": "1.Als het ROM-flashpakket rechtstreeks is gedownload met behulp van de ROM-flashtool, verwijdert u het en downloadt u de nieuwste versie. Probeer vervolgens het pakket opnieuw te laden.\n2.Als het ROM-flashpakket is geïmporteerd uit een externe bron, probeert u het opnieuw te kopiëren vanaf het bronmedium en opnieuw te laden."
+    },
+    {
+        "code": "FLQP0018",
+        "reason": "USB-verbinding onverwacht verbroken.",
+        "suggest": "1. Controleer dat het resterende batterijniveau van het apparaat niet minder is dan 20%. Laad het apparaat op voordat\nu probeert de ROM opnieuw te flashen.\n2. Probeer een andere USB-kabel of een andere USB-poort op de computer te gebruiken om de ROM opnieuw te flashen.\n3. Als het probleem zich nadat u de bovenstaande maatregelen hebt genomen opnieuw voordoet, vervangt u het moederbord voor de gebruiker."
+    },
+    {
+        "code": "FLQP0019",
+        "reason": "De bewerking kon niet worden uitgevoerd vanwege fouten in het geheugenapparaat.",
+        "suggest": "Zorg dat u in de instellingen voor het flashen van ROM's het juiste soort geheugenapparaat hebt geselecteerd (als het apparaat bijvoorbeeld een eMMC-apparaat is, kan de optie UPS niet worden geselecteerd). Als u zeker weet dat er geen probleem is met uw selectie, is het UFS-apparaat mogelijk beschadigd. Overweeg om het moederbord te vervangen."
+    },
+    {
+        "code": "FLQP0020",
+        "reason": "Het platform ondersteunt op dit moment geen flashen.",
+        "suggest": "Probeer de ROM opnieuw te flashen. Als hetzelfde probleem zich herhaaldelijk voordoet, neemt u contact op met de vertegenwoordiger van aftersales technische ondersteuning om het probleem door te geven aan het team dat de tool onderhoudt."
+    },
+    {
+        "code": "CUSTOM01",
+        "reason": "Het ROM-pakket is ouder dan de standaard fabrieksversie. Als u deze flasht, verandert het SN.",
+        "suggest": "Informeer de gebruiker dat dit apparaat een SN met een nieuwe specificatie heeft aangenomen. Tijdens een downgrade naar de pre-fabrieksversie wordt het SN veranderd, wat negatieve gevolgen kan hebben voor rechten op bescherming na aankoop en andere belangen. Gebruikers wordt geadviseerd de downgrade niet uit te voeren op hun apparaat."
+    },
+    {
+        "code": "FLQP0025",
+        "reason": "De retourbewerking op het apparaat is mislukt. Foutcode: {1}; foutmelding: {2}",
+        "suggest": "Probeer het flashen opnieuw. Als deze fout zich blijft voordoen, moet u contact opnemen met het onderhoudsteam voor de flashtool om dit probleem te melden."
+    },
+    {
+        "code": "CUSTOM02",
+        "reason": "Informeer de gebruiker dat 'Bellen om te vergrendelen' al is ingeschakeld op dit apparaat. Ga naar 'Instellingen - Beveiliging en privacy - Apparaatontgrendeling - Diefstalbeveiliging' en schakel 'Bellen om te vergrendelen' uit voordat u gaat flashen. Als het apparaat niet kan worden ingeschakeld, moet u contact opnemen met onze klantenservice om uw persoonsgegevens te verifiëren en te vragen om het apparaat voor het flashen te ontgrendelen.",
+        "suggest": "De gebruiker heeft 'Bellen om te vergrendelen' ingeschakeld en het back-end van de flashtool heeft aangegeven dat het apparaat zich in de modus Beveiligingsvergrendeling bevindt. (Als de gebruiker het apparaat kwijtraakt en onze klantenservice belt om te vragen het te vergrendelen, wordt deze modus geactiveerd.) Apparaten in de modus Beveiligingsvergrendeling kunnen niet worden geflasht. Schakel 'Bellen om te vergrendelen' uit voordat u gaat flashen."
+    },
+    {
+        "code": "FLQP0030",
+        "reason": "Het offsetadres van de partitie userdata in het ROM-pakket komt niet overeen met de overeenkomstige partitie op de telefoon. Hierdoor is het niet mogelijk om te flashen zonder deze partitie te wissen.",
+        "suggest": "Maak een back-up van alle gegevens op de partitie userdata voordat u verdergaat met flashen in de standaardmodus."
+    },
+    {
+        "code": "FLQP0031",
+        "reason": "Deze versie bevat bekende beveiligingsproblemen. Flashen is beperkt.",
+        "suggest": "Download en flash de nieuwste ROM voor dit apparaatmodel."
+    },
+    {
+        "code": "FLQP0024",
+        "reason": "The region of the device {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "LCF0005",
+        "reason": "The file path exceeds 256 bytes, the path is invalid, file path: {1}.",
+        "suggest": "If the firmware package is stored locally, please copy the entire firmware package to a directory with a lower depth; If the firmware package is stored in the VM file service, please copy the firmware package locally before flashing."
+    },
+    {
+        "code": "FLQP0023",
+        "reason": "The selected region {1} ({2}) has missing image files and cannot be used in flashing.",
+        "suggest": "Please re-download this package and try again."
+    },
+    {
+        "code": "MKVF0011",
+        "reason": "Read devices model info failed, error code {1}, error message {2}.",
+        "suggest": "Please replace the motherboard."
+    },
+    {
+        "code": "MKVF0010",
+        "reason": "A data integrity error occurred while downloading file {1}.",
+        "suggest": "Please try flashing again. If this situation occurs multiple times, the flashing package may be damaged. In this case, please download the flashing package again and try again."
+    },
+    {
+        "code": "PSPQ0009",
+        "reason": "There's no available region definitions in this package. ",
+        "suggest": "The flash package has been damaged, please re-download the flash package and try again."
+    }
+]

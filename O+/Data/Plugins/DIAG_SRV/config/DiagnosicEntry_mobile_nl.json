@@ -1,0 +1,2822 @@
+{
+    "t11": {
+        "ExpAdvice": "%1",
+        "ExpDetail": "%1"
+    },
+    "t0": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normaal",
+        "ResultLevel": 0
+    },
+    "t00000101": {
+        "ExpAdvice": "Vraag de klant een update uit te voeren naar de nieuwste versie, die stabieler is.",
+        "ExpDetail": "Update beschikbaar: %1",
+        "ResultLevel": 10
+    },
+    "t00020101": {
+        "ExpAdvice": "IMEI is gewijzigd of er is geen IMEI opgeschreven na dat het moederbord werd vervangen. Herstel de originele IMEI en informeer de klant dat een illegale IMEI tot netwerkfouten kan leiden.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t00030100": {
+        "ExpAdvice": "Starten van de test mislukt. Bevestig dat de simkaart is verwijderd.",
+        "ExpDetail": "Simkaart niet verwijderd"
+    },
+    "t00030102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Aantal ontgrendelingen: %1<br>Ontgrendelingsstatus: Ontgrendeld"
+    },
+    "t00030103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Aantal ontgrendelingen: %1<br>Ontgrendelingsstatus: Niet ontgrendeld"
+    },
+    "t01010101": {
+        "ExpAdvice": "Kan worden veroorzaakt door incompatibiliteit tussen apps van derden en het systeem. Aanbevolen wordt het apparaat naar de nieuwste versie te flashen en apps bij te werken naar de nieuwste versie. Dit is een softwareprobleem en is niet gerelateerd aan hardware.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t01010102": {
+        "ExpAdvice": "De telefoon kan herhaaldelijk opnieuw opstarten als zich een uitzondering voordoet in de onderliggende softwareservice van het Android-systeem of wanneer de CPU of het RAM-geheugen instabiel is. Het is raadzaam het probleem op te lossen als een hardwareprobleem.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t01010601": {
+        "ExpAdvice": "Dit is een app-probleem. Als de app een bètaversie is, geen officiële versie of niet de nieuwste officiële versie, downloadt en installeert u de nieuwste versie vanuit de App Market.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t01010701": {
+        "ExpAdvice": "Dit probleem kan optreden als er problemen zijn met de softwarecompatibiliteit of als de telefoon op de grond is gevallen of gebruikt in een omgeving met hoge of lage temperaturen. Flash een nieuwe ROM en vraag de klant de telefoon in een geschikte omgeving te gebruiken.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t01010702": {
+        "ExpAdvice": "De stroomtoevoer naar de telefoon is instabiel. Het is raadzaam het probleem op te lossen als een hardwareprobleem.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t01010801": {
+        "ExpAdvice": "Vervang de vingerafdruksensormodule.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t01020101": {
+        "ExpAdvice": "Vraag de klant of misschien per ongeluk een knop is ingedrukt.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 0
+    },
+    "t01020102": {
+        "ExpAdvice": "Vraag de klant of de telefoon niet meer reageerde en opnieuw is opgestart met behulp van de fysieke knoppen.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t02010101": {
+        "ExpAdvice": "Oorzaak: De CPU werkt gedurende langere tijd onder hoge belasting, waardoor de telefoon warm wordt. Om oververhitting te voorkomen, zal de CPU zichzelf waarschijnlijk beschermen ten koste van de prestaties.<br> \nAanbevelingen: ① Energiebesparingsmodus uitschakelen. ② Vermijd langdurig gebruik van de CPU onder hoge belasting. ③ Laat de telefoon afkoelen door het oppervlak af te vegen met alcohol of een vochtig doekje en zorg voor een goede warmteafvoer.",
+        "ExpDetail": "5 apps met de meeste vertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010102": {
+        "ExpAdvice": "Oorzaak: Een lage CPU-frequentie kan de systeemprestaties beïnvloeden, in de zin dat de verwerkingssnelheid en de responstijd van de app worden vertraagd. <br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② Energiebesparingsmodus uitschakelen. ③ Zorgen voor een goede warmteafvoer.",
+        "ExpDetail": "5 apps met de meeste vertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010103": {
+        "ExpAdvice": "Oorzaak: De beschikbare opslagruimte daalt tot minder dan 10% doordat te veel apps op de achtergrond worden uitgevoerd.<br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② De RAM-uitbreidingsfunctie inschakelen via \\'Instellingen - Systeeminstellingen - RAM\\', als de telefoon deze functie ondersteunt. ③ De telefoon regelmatig opnieuw opstarten.",
+        "ExpDetail": "5 apps met de meeste vertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010104": {
+        "ExpAdvice": "Oorzaak: Er is geen ruimte voor app-caches door een gebrek aan opslagruimte. In dit geval kunnen apps vertragen, vastlopen of crashen. <br>\nAanbevelingen: De opslagruimte opschonen met het ingebouwde functie Telefoonbeheer van de telefoon door ongewenste foto\\'s, video\\'s en apps te verwijderen, of deze items naar een computer of USB-station te kopiëren.",
+        "ExpDetail": "5 apps met de meeste vertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010105": {
+        "ExpAdvice": "Oorzaak: De versie van het besturingssysteem is niet officieel en kan instabiliteit veroorzaken.<br> \nAanbevelingen: De officiële versie van het besturingssysteem installeren of wachten op een update van de bètaversie.",
+        "ExpDetail": "5 apps met de meeste vertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010106": {
+        "ExpAdvice": "Oorzaak: Op de telefoon is een app voor telefoonbeheer of een app voor systeemoptimalisatie van derden geïnstalleerd (zoals Tencent Mobile Manager en 360 Mobile Safe). Dergelijk apps kunnen de telefoon vertragen. <br>\nAanbevelingen: Verwijder eventuele systeemoptimalisatie-apps van derden en gebruik de ingebouwde functie Telefoonbeheer van de telefoon om de telefoon te optimaliseren.",
+        "ExpDetail": "5 apps met de meeste vertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010107": {
+        "ExpAdvice": "Oorzaak: Vergrotingsgebaren zijn ingeschakeld, waardoor sommige apps kunnen worden vertraagd.<br> \nAanbevelingen: De functie vergrotingsgebaren uitschakelen via \\'Instellingen - Aanvullende instellingen - Toegankelijkheid - Vergrotingsgebaren\\'.",
+        "ExpDetail": "5 apps met de meeste vertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010108": {
+        "ExpAdvice": "\n1. Controleer of de diagnostische gegevens consistent zijn met de beschrijving van de gebruiker. Als dat het geval is, vraagt u de gebruiker om de cache van deze apps leeg te maken en de apps bij te werken naar de nieuwste versies. <br>\n2. Adviseer de gebruiker de telefoon opnieuw op te starten.<br>\n3. Adviseer de gebruiker aan de achtergrondapps tijdig op te schonen.<br>\n4. Adviseer de gebruiker een upgrade uit te voeren naar het nieuwste besturingssysteem.<br>\n5. Verkrijg de logboeken over de vertraging van de gebruiker en vraag technici om analyse.",
+        "ExpDetail": "5 apps met de meeste vertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010201": {
+        "ExpAdvice": "\n1. Controleer of de diagnostische gegevens consistent zijn met de beschrijving van de gebruiker. Als dat het geval is, vraagt u de gebruiker om de cache van deze apps leeg te maken en de apps bij te werken naar de nieuwste versies. <br>\n2. Adviseer de gebruiker de telefoon opnieuw op te starten.<br>\n3. Adviseer de gebruiker aan de achtergrondapps tijdig op te schonen.<br>\n4. Adviseer de gebruiker een upgrade uit te voeren naar het nieuwste besturingssysteem.<br>\n5. Verkrijg de logboeken over de vertraging van de gebruiker en vraag technici om analyse.",
+        "ExpDetail": "5 apps met het hoogste RAM-gebruik:<br>%1",
+        "ResultLevel": 10
+    },
+    "t02010301": {
+        "ExpAdvice": "Oorzaak: De CPU werkt gedurende langere tijd onder hoge belasting, waardoor de telefoon warm wordt. Om oververhitting te voorkomen, zal de CPU zichzelf waarschijnlijk beschermen ten koste van de prestaties.<br> \nAanbevelingen: ① Energiebesparingsmodus uitschakelen. ② Vermijd langdurig gebruik van de CPU onder hoge belasting. ③ Laat de telefoon afkoelen door het oppervlak af te vegen met alcohol of een vochtig doekje en zorg voor een goede warmteafvoer.",
+        "ExpDetail": "5 apps die het traagst opstarten:<br>%1<br>5 belangrijkste oorzaken van traag opstarten:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010302": {
+        "ExpAdvice": "Oorzaak: Een lage CPU-frequentie kan de systeemprestaties beïnvloeden, in de zin dat de verwerkingssnelheid en de responstijd van de app worden vertraagd. <br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② Energiebesparingsmodus uitschakelen. ③ Zorgen voor een goede warmteafvoer.",
+        "ExpDetail": "5 apps die het traagst opstarten:<br>%1<br>5 belangrijkste oorzaken van traag opstarten:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010303": {
+        "ExpAdvice": "Oorzaak: De beschikbare opslagruimte daalt tot minder dan 10% doordat te veel apps op de achtergrond worden uitgevoerd.<br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② De RAM-uitbreidingsfunctie inschakelen via \\'Instellingen - Systeeminstellingen - RAM\\', als de telefoon deze functie ondersteunt. ③ De telefoon regelmatig opnieuw opstarten.",
+        "ExpDetail": "5 apps die het traagst opstarten:<br>%1<br>5 belangrijkste oorzaken van traag opstarten:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010304": {
+        "ExpAdvice": "Oorzaak: Er is geen ruimte voor app-caches door een gebrek aan opslagruimte. In dit geval kunnen apps vertragen, vastlopen of crashen. <br>\nAanbevelingen: De opslagruimte opschonen met het ingebouwde functie Telefoonbeheer van de telefoon door ongewenste foto\\'s, video\\'s en apps te verwijderen, of deze items naar een computer of USB-station te kopiëren.",
+        "ExpDetail": "5 apps die het traagst opstarten:<br>%1<br>5 belangrijkste oorzaken van traag opstarten:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010305": {
+        "ExpAdvice": "Oorzaak: De versie van het besturingssysteem is niet officieel en kan instabiliteit veroorzaken.<br> \nAanbevelingen: De officiële versie van het besturingssysteem installeren of wachten op een update van de bètaversie.",
+        "ExpDetail": "5 apps die het traagst opstarten:<br>%1<br>5 belangrijkste oorzaken van traag opstarten:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010306": {
+        "ExpAdvice": "Oorzaak: Op de telefoon is een app voor telefoonbeheer of een app voor systeemoptimalisatie van derden geïnstalleerd (zoals Tencent Mobile Manager en 360 Mobile Safe). Dergelijk apps kunnen de telefoon vertragen. <br>\nAanbevelingen: Verwijder eventuele systeemoptimalisatie-apps van derden en gebruik de ingebouwde functie Telefoonbeheer van de telefoon om de telefoon te optimaliseren.",
+        "ExpDetail": "5 apps die het traagst opstarten:<br>%1<br>5 belangrijkste oorzaken van traag opstarten:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010307": {
+        "ExpAdvice": "Oorzaak: Vergrotingsgebaren zijn ingeschakeld, waardoor sommige apps kunnen worden vertraagd.<br> \nAanbevelingen: De functie vergrotingsgebaren uitschakelen via \\'Instellingen - Aanvullende instellingen - Toegankelijkheid - Vergrotingsgebaren\\'.",
+        "ExpDetail": "5 apps die het traagst opstarten:<br>%1<br>5 belangrijkste oorzaken van traag opstarten:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010308": {
+        "ExpAdvice": "\n1. Controleer of de diagnostische gegevens consistent zijn met de beschrijving van de gebruiker. Als dat het geval is, vraagt u de gebruiker om de cache van deze apps leeg te maken en de apps bij te werken naar de nieuwste versies. <br>\n2. Adviseer de gebruiker de telefoon opnieuw op te starten.<br>\n3. Adviseer de gebruiker aan de achtergrondapps tijdig op te schonen.<br>\n4. Adviseer de gebruiker een upgrade uit te voeren naar het nieuwste besturingssysteem.<br>\n5. Verkrijg de logboeken over de vertraging van de gebruiker en vraag technici om analyse.",
+        "ExpDetail": "Onbekende oorzaak",
+        "ResultLevel": 10
+    },
+    "t02010401": {
+        "ExpAdvice": "Oorzaak: De beschikbare opslagruimte daalt tot minder dan 10% doordat te veel apps op de achtergrond worden uitgevoerd.<br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② De RAM-uitbreidingsfunctie inschakelen via \\'Instellingen - Systeeminstellingen - RAM\\', als de telefoon deze functie ondersteunt. ③ De telefoon regelmatig opnieuw opstarten.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t02010501": {
+        "ExpAdvice": "Oorzaak: Er is geen ruimte voor app-caches door een gebrek aan opslagruimte. In dit geval kunnen apps vertragen, vastlopen of crashen. <br>\nAanbevelingen: De opslagruimte opschonen met het ingebouwde functie Telefoonbeheer van de telefoon door ongewenste foto\\'s, video\\'s en apps te verwijderen, of deze items naar een computer of USB-station te kopiëren.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t02010601": {
+        "ExpAdvice": "Oorzaak: De CPU werkt gedurende langere tijd onder hoge belasting, waardoor de telefoon warm wordt. Om oververhitting te voorkomen, zal de CPU zichzelf waarschijnlijk beschermen ten koste van de prestaties.<br> \nAanbevelingen: ① Energiebesparingsmodus uitschakelen. ② Vermijd langdurig gebruik van de CPU onder hoge belasting. ③ Laat de telefoon afkoelen door het oppervlak af te vegen met alcohol of een vochtig doekje en zorg voor een goede warmteafvoer.",
+        "ExpDetail": "5 apps met de meeste interfacevertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010602": {
+        "ExpAdvice": "Oorzaak: Een lage CPU-frequentie kan de systeemprestaties beïnvloeden, in de zin dat de verwerkingssnelheid en de responstijd van de app worden vertraagd. <br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② Energiebesparingsmodus uitschakelen. ③ Zorgen voor een goede warmteafvoer.",
+        "ExpDetail": "5 apps met de meeste interfacevertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010603": {
+        "ExpAdvice": "Oorzaak: De beschikbare opslagruimte daalt tot minder dan 10% doordat te veel apps op de achtergrond worden uitgevoerd.<br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② De RAM-uitbreidingsfunctie inschakelen via \\'Instellingen - Systeeminstellingen - RAM\\', als de telefoon deze functie ondersteunt. ③ De telefoon regelmatig opnieuw opstarten.",
+        "ExpDetail": "5 apps met de meeste interfacevertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010604": {
+        "ExpAdvice": "Oorzaak: Er is geen ruimte voor app-caches door een gebrek aan opslagruimte. In dit geval kunnen apps vertragen, vastlopen of crashen. <br>\nAanbevelingen: De opslagruimte opschonen met het ingebouwde functie Telefoonbeheer van de telefoon door ongewenste foto\\'s, video\\'s en apps te verwijderen, of deze items naar een computer of USB-station te kopiëren.",
+        "ExpDetail": "5 apps met de meeste interfacevertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010605": {
+        "ExpAdvice": "Oorzaak: De versie van het besturingssysteem is niet officieel en kan instabiliteit veroorzaken.<br> \nAanbevelingen: De officiële versie van het besturingssysteem installeren of wachten op een update van de bètaversie.",
+        "ExpDetail": "5 apps met de meeste interfacevertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010606": {
+        "ExpAdvice": "Oorzaak: Op de telefoon is een app voor telefoonbeheer of een app voor systeemoptimalisatie van derden geïnstalleerd (zoals Tencent Mobile Manager en 360 Mobile Safe). Dergelijk apps kunnen de telefoon vertragen. <br>\nAanbevelingen: Verwijder eventuele systeemoptimalisatie-apps van derden en gebruik de ingebouwde functie Telefoonbeheer van de telefoon om de telefoon te optimaliseren.",
+        "ExpDetail": "5 apps met de meeste interfacevertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010607": {
+        "ExpAdvice": "Oorzaak: Vergrotingsgebaren zijn ingeschakeld, waardoor sommige apps kunnen worden vertraagd.<br> \nAanbevelingen: De functie vergrotingsgebaren uitschakelen via \\'Instellingen - Aanvullende instellingen - Toegankelijkheid - Vergrotingsgebaren\\'.",
+        "ExpDetail": "5 apps met de meeste interfacevertraging:<br>%1<br>5 belangrijkste oorzaken van vertraging:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010608": {
+        "ExpAdvice": "\n1. Controleer of de diagnostische gegevens consistent zijn met de beschrijving van de gebruiker. Als dat het geval is, vraagt u de gebruiker om de cache van deze apps leeg te maken en de apps bij te werken naar de nieuwste versies. <br>\n2. Adviseer de gebruiker de telefoon opnieuw op te starten.<br>\n3. Adviseer de gebruiker aan de achtergrondapps tijdig op te schonen.<br>\n4. Adviseer de gebruiker een upgrade uit te voeren naar het nieuwste besturingssysteem.<br>\n5. Verkrijg de logboeken over de vertraging van de gebruiker en vraag technici om analyse.",
+        "ExpDetail": "Onbekende oorzaak",
+        "ResultLevel": 10
+    },
+    "t02010701": {
+        "ExpAdvice": "Oorzaak: Apps die automatisch worden gestart nemen systeembronnen in beslag, waaronder opslagruimte en CPU-capaciteit. Een overschot aan apps die automatisch worden gestart leidt tot onvoldoende systeembronnen, waardoor de snelheid en prestaties van andere apps worden beïnvloed. <br>\nAanbevelingen: Ongewenste apps die automatisch worden gestart sluiten via \\'Instellingen - App-beheer - Apps die automatisch worden gestart\\'.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t02010801": {
+        "ExpAdvice": "Oorzaak: De CPU werkt gedurende langere tijd onder hoge belasting, waardoor de telefoon warm wordt. Om oververhitting te voorkomen, zal de CPU zichzelf waarschijnlijk beschermen ten koste van de prestaties.<br> \nAanbevelingen: ① Energiebesparingsmodus uitschakelen. ② Vermijd langdurig gebruik van de CPU onder hoge belasting. ③ Laat de telefoon afkoelen door het oppervlak af te vegen met alcohol of een vochtig doekje en zorg voor een goede warmteafvoer.",
+        "ExpDetail": "5 apps met de traagste reactie:<br>%1<br>5 belangrijkste oorzaken van lage reactiesnelheid:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010802": {
+        "ExpAdvice": "Oorzaak: Een lage CPU-frequentie kan de systeemprestaties beïnvloeden, in de zin dat de verwerkingssnelheid en de responstijd van de app worden vertraagd. <br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② Energiebesparingsmodus uitschakelen. ③ Zorgen voor een goede warmteafvoer.",
+        "ExpDetail": "5 apps met de traagste reactie:<br>%1<br>5 belangrijkste oorzaken van lage reactiesnelheid:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010803": {
+        "ExpAdvice": "Oorzaak: De beschikbare opslagruimte daalt tot minder dan 10% doordat te veel apps op de achtergrond worden uitgevoerd.<br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② De RAM-uitbreidingsfunctie inschakelen via \\'Instellingen - Systeeminstellingen - RAM\\', als de telefoon deze functie ondersteunt. ③ De telefoon regelmatig opnieuw opstarten.",
+        "ExpDetail": "5 apps met de traagste reactie:<br>%1<br>5 belangrijkste oorzaken van lage reactiesnelheid:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010804": {
+        "ExpAdvice": "Oorzaak: Er is geen ruimte voor app-caches door een gebrek aan opslagruimte. In dit geval kunnen apps vertragen, vastlopen of crashen. <br>\nAanbevelingen: De opslagruimte opschonen met het ingebouwde functie Telefoonbeheer van de telefoon door ongewenste foto\\'s, video\\'s en apps te verwijderen, of deze items naar een computer of USB-station te kopiëren.",
+        "ExpDetail": "5 apps met de traagste reactie:<br>%1<br>5 belangrijkste oorzaken van lage reactiesnelheid:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010805": {
+        "ExpAdvice": "Oorzaak: De versie van het besturingssysteem is niet officieel en kan instabiliteit veroorzaken.<br> \nAanbevelingen: De officiële versie van het besturingssysteem installeren of wachten op een update van de bètaversie.",
+        "ExpDetail": "5 apps met de traagste reactie:<br>%1<br>5 belangrijkste oorzaken van lage reactiesnelheid:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010806": {
+        "ExpAdvice": "Oorzaak: Op de telefoon is een app voor telefoonbeheer of een app voor systeemoptimalisatie van derden geïnstalleerd (zoals Tencent Mobile Manager en 360 Mobile Safe). Dergelijk apps kunnen de telefoon vertragen. <br>\nAanbevelingen: Verwijder eventuele systeemoptimalisatie-apps van derden en gebruik de ingebouwde functie Telefoonbeheer van de telefoon om de telefoon te optimaliseren.",
+        "ExpDetail": "5 apps met de traagste reactie:<br>%1<br>5 belangrijkste oorzaken van lage reactiesnelheid:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02010807": {
+        "ExpAdvice": "Oorzaak: Vergrotingsgebaren zijn ingeschakeld, waardoor sommige apps kunnen worden vertraagd.<br> \nAanbevelingen: De functie vergrotingsgebaren uitschakelen via \\'Instellingen - Aanvullende instellingen - Toegankelijkheid - Vergrotingsgebaren\\'.",
+        "ExpDetail": "5 apps met de traagste reactie:<br>%1<br>5 belangrijkste oorzaken van lage reactiesnelheid:<br>%2",
+        "ResultLevel": 10
+    },
+    "t02011000": {
+        "ExpAdvice": "",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t02011001": {
+        "ExpAdvice": "Oorzaak: De CPU werkt gedurende langere tijd onder hoge belasting, waardoor de telefoon warm wordt. Om oververhitting te voorkomen, zal de CPU zichzelf waarschijnlijk beschermen ten koste van de prestaties.<br> \nAanbevelingen: ① Energiebesparingsmodus uitschakelen. ② Vermijd langdurig gebruik van de CPU onder hoge belasting. ③ Laat de telefoon afkoelen door het oppervlak af te vegen met alcohol of een vochtig doekje en zorg voor een goede warmteafvoer.",
+        "ExpDetail": "Oververhitting CPU",
+        "ResultLevel": 10
+    },
+    "t02011002": {
+        "ExpAdvice": "Oorzaak: Een lage CPU-frequentie kan de systeemprestaties beïnvloeden, in de zin dat de verwerkingssnelheid en de responstijd van de app worden vertraagd. <br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② Energiebesparingsmodus uitschakelen. ③ Zorgen voor een goede warmteafvoer.",
+        "ExpDetail": "CPU-frequentie laag",
+        "ResultLevel": 10
+    },
+    "t02011003": {
+        "ExpAdvice": "Oorzaak: De beschikbare opslagruimte daalt tot minder dan 10% doordat te veel apps op de achtergrond worden uitgevoerd.<br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② De RAM-uitbreidingsfunctie inschakelen via \\'Instellingen - Systeeminstellingen - RAM\\', als de telefoon deze functie ondersteunt. ③ De telefoon regelmatig opnieuw opstarten.",
+        "ExpDetail": "Geheugen bijna vol",
+        "ResultLevel": 10
+    },
+    "t02011004": {
+        "ExpAdvice": "Oorzaak: Er is geen ruimte voor app-caches door een gebrek aan opslagruimte. In dit geval kunnen apps vertragen, vastlopen of crashen. <br>\nAanbevelingen: De opslagruimte opschonen met het ingebouwde functie Telefoonbeheer van de telefoon door ongewenste foto\\'s, video\\'s en apps te verwijderen, of deze items naar een computer of USB-station te kopiëren.",
+        "ExpDetail": "Opslag bijna vol",
+        "ResultLevel": 10
+    },
+    "t02011005": {
+        "ExpAdvice": "Oorzaak: De versie van het besturingssysteem is niet officieel en kan instabiliteit veroorzaken.<br> \nAanbevelingen: De officiële versie van het besturingssysteem installeren of wachten op een update van de bètaversie.",
+        "ExpDetail": "Bètaversie",
+        "ResultLevel": 10
+    },
+    "t02011006": {
+        "ExpAdvice": "Oorzaak: Op de telefoon is een app voor telefoonbeheer of een app voor systeemoptimalisatie van derden geïnstalleerd (zoals Tencent Mobile Manager en 360 Mobile Safe). Dergelijk apps kunnen de telefoon vertragen. <br>\nAanbevelingen: Verwijder eventuele systeemoptimalisatie-apps van derden en gebruik de ingebouwde functie Telefoonbeheer van de telefoon om de telefoon te optimaliseren.",
+        "ExpDetail": "Prestatieverlagende apps",
+        "ResultLevel": 10
+    },
+    "t02011007": {
+        "ExpAdvice": "Oorzaak: Vergrotingsgebaren zijn ingeschakeld, waardoor sommige apps kunnen worden vertraagd.<br> \nAanbevelingen: De functie vergrotingsgebaren uitschakelen via \\'Instellingen - Aanvullende instellingen - Toegankelijkheid - Vergrotingsgebaren\\'.",
+        "ExpDetail": "Vergrotingsgebaren ingeschakeld (ontwikkelaaroptie)",
+        "ResultLevel": 10
+    },
+    "t02011008": {
+        "ExpAdvice": "\n1. Controleer of de diagnostische gegevens consistent zijn met de beschrijving van de gebruiker. Als dat het geval is, vraagt u de gebruiker om de cache van deze apps leeg te maken en de apps bij te werken naar de nieuwste versies. <br>\n2. Adviseer de gebruiker de telefoon opnieuw op te starten.<br>\n3. Adviseer de gebruiker aan de achtergrondapps tijdig op te schonen.<br>\n4. Adviseer de gebruiker een upgrade uit te voeren naar het nieuwste besturingssysteem.<br>\n5. Verkrijg de logboeken over de vertraging van de gebruiker en vraag technici om analyse.",
+        "ExpDetail": "Onbekende oorzaak",
+        "ResultLevel": 10
+    },
+    "t02011009": {
+        "ExpAdvice": "",
+        "ExpDetail": "Oorzaken van trage reactie tijdens het activeren of uitschakelen van het scherm",
+        "ResultLevel": 10
+    },
+    "t02011100": {
+        "ExpAdvice": "",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t02011101": {
+        "ExpAdvice": "Oorzaak: De CPU werkt gedurende langere tijd onder hoge belasting, waardoor de telefoon warm wordt. Om oververhitting te voorkomen, zal de CPU zichzelf waarschijnlijk beschermen ten koste van de prestaties.<br> \nAanbevelingen: ① Energiebesparingsmodus uitschakelen. ② Vermijd langdurig gebruik van de CPU onder hoge belasting. ③ Laat de telefoon afkoelen door het oppervlak af te vegen met alcohol of een vochtig doekje en zorg voor een goede warmteafvoer.",
+        "ExpDetail": "Oververhitting CPU",
+        "ResultLevel": 10
+    },
+    "t02011102": {
+        "ExpAdvice": "Oorzaak: Een lage CPU-frequentie kan de systeemprestaties beïnvloeden, in de zin dat de verwerkingssnelheid en de responstijd van de app worden vertraagd. <br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② Energiebesparingsmodus uitschakelen. ③ Zorgen voor een goede warmteafvoer.",
+        "ExpDetail": "CPU-frequentie laag",
+        "ResultLevel": 10
+    },
+    "t02011103": {
+        "ExpAdvice": "Oorzaak: De beschikbare opslagruimte daalt tot minder dan 10% doordat te veel apps op de achtergrond worden uitgevoerd.<br>\nAanbevelingen: ① Achtergrondapps tijdig opschonen. ② De RAM-uitbreidingsfunctie inschakelen via \\'Instellingen - Systeeminstellingen - RAM\\', als de telefoon deze functie ondersteunt. ③ De telefoon regelmatig opnieuw opstarten.",
+        "ExpDetail": "Geheugen bijna vol",
+        "ResultLevel": 10
+    },
+    "t02011104": {
+        "ExpAdvice": "Oorzaak: Er is geen ruimte voor app-caches door een gebrek aan opslagruimte. In dit geval kunnen apps vertragen, vastlopen of crashen. <br>\nAanbevelingen: De opslagruimte opschonen met het ingebouwde functie Telefoonbeheer van de telefoon door ongewenste foto\\'s, video\\'s en apps te verwijderen, of deze items naar een computer of USB-station te kopiëren.",
+        "ExpDetail": "Opslag bijna vol",
+        "ResultLevel": 10
+    },
+    "t02011105": {
+        "ExpAdvice": "Oorzaak: De versie van het besturingssysteem is niet officieel en kan instabiliteit veroorzaken.<br> \nAanbevelingen: De officiële versie van het besturingssysteem installeren of wachten op een update van de bètaversie.",
+        "ExpDetail": "Bètaversie",
+        "ResultLevel": 10
+    },
+    "t02011106": {
+        "ExpAdvice": "Oorzaak: Op de telefoon is een app voor telefoonbeheer of een app voor systeemoptimalisatie van derden geïnstalleerd (zoals Tencent Mobile Manager en 360 Mobile Safe). Dergelijk apps kunnen de telefoon vertragen. <br>\nAanbevelingen: Verwijder eventuele systeemoptimalisatie-apps van derden en gebruik de ingebouwde functie Telefoonbeheer van de telefoon om de telefoon te optimaliseren.",
+        "ExpDetail": "Prestatieverlagende apps",
+        "ResultLevel": 10
+    },
+    "t02011107": {
+        "ExpAdvice": "Oorzaak: Een overschot aan apps kan leiden tot onvoldoende opslagruimte, waardoor de prestaties van de telefoon afnemen en trage reacties en vertraging kunnen ontstaan. \nAanbevelingen: Overbodige apps verwijderen en het apparaat regelmatig opschonen om de prestaties optimaal te houden.",
+        "ExpDetail": "Te veel apps van derden",
+        "ResultLevel": 10
+    },
+    "t02011108": {
+        "ExpAdvice": "Oorzaak: Apps die automatisch worden gestart nemen systeembronnen in beslag, waaronder opslagruimte en CPU-capaciteit. Een overschot aan apps die automatisch worden gestart leidt tot onvoldoende systeembronnen, waardoor de snelheid en prestaties van andere apps worden beïnvloed. <br>\nAanbevelingen: Ongewenste apps die automatisch worden gestart sluiten via \\'Instellingen - App-beheer - Apps die automatisch worden gestart\\'.",
+        "ExpDetail": "Te veel apps die automatisch worden gestart",
+        "ResultLevel": 10
+    },
+    "t02011109": {
+        "ExpAdvice": "\n1. Controleer of de diagnostische gegevens consistent zijn met de beschrijving van de gebruiker. Als dat het geval is, vraagt u de gebruiker om de cache van deze apps leeg te maken en de apps bij te werken naar de nieuwste versies. <br>\n2. Adviseer de gebruiker de telefoon opnieuw op te starten.<br>\n3. Adviseer de gebruiker aan de achtergrondapps tijdig op te schonen.<br>\n4. Adviseer de gebruiker een upgrade uit te voeren naar het nieuwste besturingssysteem.<br>\n5. Verkrijg de logboeken over de vertraging van de gebruiker en vraag technici om analyse.",
+        "ExpDetail": "Onbekende oorzaak",
+        "ResultLevel": 10
+    },
+    "t02011110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Oorzaken van vertraging bij het opstarten van de telefoon:",
+        "ResultLevel": 10
+    },
+    "t02012101": {
+        "ExpAdvice": "CPU van de telefoon wordt te zwaar belast. Sluit apps die op de achtergrond worden uitgevoerd.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t02012201": {
+        "ExpAdvice": "CPU van de telefoon wordt te zwaar belast. Sluit apps die op de achtergrond worden uitgevoerd.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t02012301": {
+        "ExpAdvice": "CPU van de telefoon wordt te zwaar belast. Sluit apps die op de achtergrond worden uitgevoerd.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t02012401": {
+        "ExpAdvice": "CPU van de telefoon wordt te zwaar belast. Sluit apps die op de achtergrond worden uitgevoerd.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t02012501": {
+        "ExpAdvice": "CPU van de telefoon wordt te zwaar belast. Sluit apps die op de achtergrond worden uitgevoerd.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t0201260101": {
+        "ExpAdvice": "De telefoon is oververhit. Vraag de gebruiker achtergrond-apps op te schonen en de telefoon 5 minuten alleen te laten.",
+        "ExpDetail": "Camera start traag op - oververhitting",
+        "ResultLevel": 10
+    },
+    "t0201260102": {
+        "ExpAdvice": "Tekort aan beschikbare opslagruimte. Controleer het aantal achtergrondapps en vraag de gebruiker om de apps op te schonen.",
+        "ExpDetail": "Camera start traag op - weinig opslagruimte",
+        "ResultLevel": 10
+    },
+    "t0201260105": {
+        "ExpAdvice": "Belasting te hoog. Vraag de gebruiker de achtergrond-apps op te schonen.",
+        "ExpDetail": "Camera start traag - hoge belasting",
+        "ResultLevel": 10
+    },
+    "t0201260207": {
+        "ExpAdvice": "Vraag de gebruiker de telefoon opnieuw op te starten en het opnieuw te proberen.",
+        "ExpDetail": "Camera loopt vast - sessiedump geactiveerd",
+        "ResultLevel": 10
+    },
+    "t0201260303": {
+        "ExpAdvice": "De telefoon is oververhit. Vraag de gebruiker achtergrond-apps op te schonen en de telefoon 5 minuten alleen te laten.",
+        "ExpDetail": "Camera wordt warm - telefoon raakt al oververhit voordat de camera wordt gestart",
+        "ResultLevel": 10
+    },
+    "t0201260304": {
+        "ExpAdvice": "Dit probleem wordt veroorzaakt door langdurig cameragebruik. Vraag de gebruiker langdurig cameragebruik te verminderen.",
+        "ExpDetail": "Camera wordt warm - camera oververhit",
+        "ResultLevel": 10
+    },
+    "t0201260401": {
+        "ExpAdvice": "De telefoon is oververhit. Vraag de gebruiker achtergrond-apps op te schonen en de telefoon 5 minuten alleen te laten.",
+        "ExpDetail": "Voorbeeldweergave camera vertraagd - frequentie beperkt als gevolg van oververhitting",
+        "ResultLevel": 10
+    },
+    "t0201260402": {
+        "ExpAdvice": "Tekort aan beschikbare opslagruimte. Controleer het aantal achtergrondapps en vraag de gebruiker om de apps op te schonen.",
+        "ExpDetail": "Voorbeeldweergave camera vertraagd - weinig opslagruimte",
+        "ResultLevel": 10
+    },
+    "t0201260406": {
+        "ExpAdvice": "Vraag de gebruiker naar een lichtere omgeving te gaan.",
+        "ExpDetail": "Voorbeeldweergave camera vertraagd - lagere framerate in donkere omgevingen",
+        "ResultLevel": 10
+    },
+    "t0201260508": {
+        "ExpAdvice": "De camera bevindt zich te dicht bij het onderwerp. Vraag de gebruiker afstand te houden van het onderwerp.",
+        "ExpDetail": "Camera wazig tijdens voorbeeldweergave - onscherp",
+        "ResultLevel": 10
+    },
+    "t0201260601": {
+        "ExpAdvice": "De telefoon is oververhit. Vraag de gebruiker achtergrond-apps op te schonen en de telefoon 5 minuten alleen te laten.",
+        "ExpDetail": "Camera vertraagd tijdens voorbeeldweergave foto - frequentie beperkt als gevolg van oververhitting",
+        "ResultLevel": 10
+    },
+    "t0201260602": {
+        "ExpAdvice": "Tekort aan beschikbare opslagruimte. Controleer het aantal achtergrondapps en vraag de gebruiker om de apps op te schonen.",
+        "ExpDetail": "Camera vertraagd tijdens het maken van foto\\'s - weinig opslagruimte",
+        "ResultLevel": 10
+    },
+    "t0201260708": {
+        "ExpAdvice": "De camera bevindt zich te dicht bij het onderwerp. Vraag de gebruiker afstand te houden van het onderwerp.",
+        "ExpDetail": "Foto\\'s gemaakt door de camera zijn wazig",
+        "ResultLevel": 10
+    },
+    "t0201260802": {
+        "ExpAdvice": "Vraag de gebruiker achtergrond-apps op te schonen en de camera opnieuw op te starten.",
+        "ExpDetail": "Scherm wordt zwart tijdens het maken van foto\\'s - weinig opslagruimte",
+        "ResultLevel": 10
+    },
+    "t0201260909": {
+        "ExpAdvice": "Vraag de medewerker van de aftersales-service opnamelogboeken te registreren en deze terug te sturen met de algoritmefoutcode.",
+        "ExpDetail": "Scherm wordt wazig tijdens het maken van foto\\'s - algoritmefoutcode: %1",
+        "ResultLevel": 10
+    },
+    "t0201261001": {
+        "ExpAdvice": "De telefoon is oververhit. Vraag de gebruiker achtergrond-apps op te schonen en de telefoon 5 minuten alleen te laten.",
+        "ExpDetail": "Kan geen foto\\'s maken - oververhitting",
+        "ResultLevel": 10
+    },
+    "t0201261002": {
+        "ExpAdvice": "Vraag de gebruiker achtergrond-apps op te schonen en de camera opnieuw op te starten.",
+        "ExpDetail": "Kan geen foto\\'s maken - weinig opslagruimte",
+        "ResultLevel": 10
+    },
+    "t0201261010": {
+        "ExpAdvice": "Vraag de gebruiker achtergrond-apps op te schonen en de camera opnieuw op te starten.",
+        "ExpDetail": "Kan geen foto\\'s maken - geluidsbronnen niet geladen",
+        "ResultLevel": 10
+    },
+    "t0201261101": {
+        "ExpAdvice": "De telefoon is oververhit. Vraag de gebruiker achtergrond-apps op te schonen en de telefoon 5 minuten alleen te laten.",
+        "ExpDetail": "Opgenomen video vertraagd tijdens voorbeeldweergave - frequentie beperkt als gevolg van oververhitting",
+        "ResultLevel": 10
+    },
+    "t0201261102": {
+        "ExpAdvice": "Tekort aan beschikbare opslagruimte. Controleer het aantal achtergrondapps en vraag de gebruiker om de apps op te schonen.",
+        "ExpDetail": "Opgenomen video vertraagd tijdens voorbeeldweergave - weinig opslagruimte",
+        "ResultLevel": 10
+    },
+    "t0201261201": {
+        "ExpAdvice": "De telefoon is oververhit. Vraag de gebruiker achtergrond-apps op te schonen en de telefoon 5 minuten alleen te laten.",
+        "ExpDetail": "Vertraging bij het maken van foto\\’s - oververhitting",
+        "ResultLevel": 10
+    },
+    "t0201261202": {
+        "ExpAdvice": "Tekort aan beschikbare opslagruimte. Controleer het aantal achtergrondapps en vraag de gebruiker om de apps op te schonen.",
+        "ExpDetail": "Vertraging bij het maken van foto\\'s - weinig opslagruimte",
+        "ResultLevel": 10
+    },
+    "t0201261205": {
+        "ExpAdvice": "Belasting te hoog. Vraag de gebruiker de achtergrond-apps op te schonen.",
+        "ExpDetail": "Vertraging bij het maken van foto\\'s - hoge belasting",
+        "ResultLevel": 10
+    },
+    "t0201261301": {
+        "ExpAdvice": "De telefoon is oververhit. Vraag de gebruiker achtergrond-apps op te schonen en de telefoon 5 minuten alleen te laten.",
+        "ExpDetail": "Time-out opgetreden tijdens het opslaan van een opnamebestand - oververhitting",
+        "ResultLevel": 10
+    },
+    "t0201261302": {
+        "ExpAdvice": "Tekort aan beschikbare opslagruimte. Controleer het aantal achtergrondapps en vraag de gebruiker om de apps op te schonen.",
+        "ExpDetail": "Time-out opgetreden tijdens het opslaan van een opnamebestand - weinig opslagruimte",
+        "ResultLevel": 10
+    },
+    "t0201261305": {
+        "ExpAdvice": "Belasting te hoog. Vraag de gebruiker de achtergrond-apps op te schonen.",
+        "ExpDetail": "Time-out opgetreden tijdens het opslaan van een opnamebestand - hoge belasting",
+        "ResultLevel": 10
+    },
+    "t02013101": {
+        "ExpAdvice": "Geen verband met netwerkproblemen",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens afspelen: %1",
+        "ResultLevel": 10
+    },
+    "t02013102": {
+        "ExpAdvice": "Uw systeem is traag. Sluit apps die op de achtergrond worden uitgevoerd of start uw apparaat opnieuw op.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens afspelen: %1",
+        "ResultLevel": 10
+    },
+    "t02013103": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op, stuurt u deze ter analyse naar de ontwikkelaar en vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens afspelen: %1",
+        "ResultLevel": 10
+    },
+    "t02013104": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op, stuurt u deze ter analyse naar de ontwikkelaar en vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens afspelen: %1",
+        "ResultLevel": 10
+    },
+    "t02013105": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op en stuurt u deze ter analyse naar de ontwikkelaar. Als u afwijkingen constateert bij het afspelen via de luidspreker, controleert u of het afspelen via een oortelefoon wel werkt. Als dat het geval is, vervangt u de luidspreker. Als hetzelfde probleem optreedt, vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens afspelen: %1",
+        "ResultLevel": 10
+    },
+    "t02013106": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op, stuurt u deze ter analyse naar de ontwikkelaar en vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens afspelen: %1",
+        "ResultLevel": 10
+    },
+    "t02013107": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op, stuurt u deze ter analyse naar de ontwikkelaar en vervangt u de luidspreker. Als het probleem zich blijft voordoen, vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens afspelen: %1",
+        "ResultLevel": 10
+    },
+    "t02013108": {
+        "ExpAdvice": "Leg u audiologboeken vast waarin melding wordt gemaakt van het probleem, sla deze op en stuur ze ter analyse naar de ontwikkelaar. Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens afspelen: %1",
+        "ResultLevel": 10
+    },
+    "t02013201": {
+        "ExpAdvice": "Geen verband met netwerkproblemen",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens opnemen: %1",
+        "ResultLevel": 10
+    },
+    "t02013202": {
+        "ExpAdvice": "Uw systeem is traag. Sluit apps die op de achtergrond worden uitgevoerd of start uw apparaat opnieuw op.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens opnemen: %1",
+        "ResultLevel": 10
+    },
+    "t02013203": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op, stuurt u deze ter analyse naar de ontwikkelaar en vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens opnemen: %1",
+        "ResultLevel": 10
+    },
+    "t02013204": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op en stuurt u deze ter analyse naar de ontwikkelaar. Controleer of opnemen met oortelefoon wel gewoon werkt. Vervang in dat geval de microfoon van de telefoon. Als hetzelfde probleem optreedt, vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van fouten, vertraging of audioverlies tijdens opnemen: %1",
+        "ResultLevel": 10
+    },
+    "t02013301": {
+        "ExpAdvice": "Veroorzaakt door netwerkproblemen. Controleer de netwerkverbinding.",
+        "ExpDetail": "Gevallen van afspeelfouten of vertraging: %1",
+        "ResultLevel": 10
+    },
+    "t02013302": {
+        "ExpAdvice": "Niet gerelateerd aan het netwerk. Controleer de app-instellingen.",
+        "ExpDetail": "Gevallen van afspeelfouten of vertraging: %1",
+        "ResultLevel": 10
+    },
+    "t02020101": {
+        "ExpAdvice": "Voor probleemtypen die niet automatisch kunnen worden geanalyseerd, is het raadzaam de nieuwste versie te gebruiken die beschikbaar is in App Market of de cache en gegevens van de app te wissen en het nogmaals te proberen.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t02020102": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "cannot locate symbol;android_atomic_dec",
+        "ResultLevel": 10
+    },
+    "t02020103": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "app is in background uid;Not allowed to start service Intent",
+        "ResultLevel": 10
+    },
+    "t02020104": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "Bad notification for startForeground",
+        "ResultLevel": 10
+    },
+    "t02020105": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "java.lang.SecurityException;Package android does not belong to",
+        "ResultLevel": 10
+    },
+    "t02020106": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "com.secneo.apkwrapper.DexInstall",
+        "ResultLevel": 10
+    },
+    "t02020107": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "opening provider;com.android.providers.contacts.CallLogProvider",
+        "ResultLevel": 10
+    },
+    "t02020108": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "org.apache.http;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020109": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "NoClassDefFoundError;Cocos2dxBitmap",
+        "ResultLevel": 10
+    },
+    "t02020110": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "com.ali.mobisecenhance.SpeedInit",
+        "ResultLevel": 10
+    },
+    "t02020111": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "com.stub.StubApp;com.qihoo.util.StubApp",
+        "ResultLevel": 10
+    },
+    "t02020112": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "trying to draw too large;bitmap",
+        "ResultLevel": 10
+    },
+    "t02020113": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "FileUriExposedException",
+        "ResultLevel": 10
+    },
+    "t02020114": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "invalid Bitmap format",
+        "ResultLevel": 10
+    },
+    "t02020115": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "couldn't find;libapplypatch.so",
+        "ResultLevel": 10
+    },
+    "t02020116": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "libDexHelper.so",
+        "ResultLevel": 10
+    },
+    "t02020117": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "libcocos2dcpp.so;CCFileUtilsAndroid",
+        "ResultLevel": 10
+    },
+    "t02020118": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "libdemolish",
+        "ResultLevel": 10
+    },
+    "t02020119": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "libdexinterpret",
+        "ResultLevel": 10
+    },
+    "t02020120": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "Bad JNI version returned from JNI_OnLoad;libdexprotector",
+        "ResultLevel": 10
+    },
+    "t02020121": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "libexec.so;dynamic section has invalid size",
+        "ResultLevel": 10
+    },
+    "t02020122": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "libme_unipay",
+        "ResultLevel": 10
+    },
+    "t02020123": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "libSecShell.so",
+        "ResultLevel": 10
+    },
+    "t02020124": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "libyaqpro",
+        "ResultLevel": 10
+    },
+    "t02020125": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_READABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020126": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "java.lang.RuntimeException;MODE_WORLD_WRITEABLE no longer supported",
+        "ResultLevel": 10
+    },
+    "t02020127": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "UnsatisfiedLinkError;AIRWindowSurfaceView;nativeSurfaceCreated",
+        "ResultLevel": 10
+    },
+    "t02020128": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "NetworkOnMainThreadException",
+        "ResultLevel": 10
+    },
+    "t02020129": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "No interface method watchRotation",
+        "ResultLevel": 10
+    },
+    "t02020130": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "NullPointerException;FingerprintManager",
+        "ResultLevel": 10
+    },
+    "t02020131": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "org.apache.http.message.BasicNameValuePair;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020132": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "org.apache.http.client.CookieStore;ClassNotFoundException",
+        "ResultLevel": 10
+    },
+    "t02020133": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "com.ali.mobisecenhance.Library.pre_arm64Load0",
+        "ResultLevel": 10
+    },
+    "t02020134": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "org.apache.http;RuntimeException;init",
+        "ResultLevel": 10
+    },
+    "t02020135": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "the sensor listeners size has exceeded the maximum limit",
+        "ResultLevel": 10
+    },
+    "t02020136": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "unicom;shield;UnicomApplicationWrapper;onCreate",
+        "ResultLevel": 10
+    },
+    "t02020137": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "java.lang.VerifyError;Verifier rejected class;Constructor returning without",
+        "ResultLevel": 10
+    },
+    "t02020138": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "java.lang.RuntimeException;All WebView methods must be called on the same thread",
+        "ResultLevel": 10
+    },
+    "t02020139": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "timeout publishing content providers",
+        "ResultLevel": 10
+    },
+    "t02020140": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "\\depends on provider[\\s\\S]*in dying proc",
+        "ResultLevel": 10
+    },
+    "t02020141": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "Anonymous-DexFile",
+        "ResultLevel": 10
+    },
+    "t02020142": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "/lib/arm/libshell",
+        "ResultLevel": 10
+    },
+    "t02020143": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "/lib/arm/libAppGuard.so",
+        "ResultLevel": 10
+    },
+    "t02020144": {
+        "ExpAdvice": "Veroorzaakt door deze app zelf.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t02020201": {
+        "ExpAdvice": "Voor probleemtypen die niet automatisch kunnen worden geanalyseerd, is het raadzaam de nieuwste versie te gebruiken die beschikbaar is in App Market of de cache en gegevens van de app te wissen en het nogmaals te proberen.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t02020301": {
+        "ExpAdvice": "De app is niet gedownload vanuit de officiële App Market. Aanbevolen wordt de app te downloaden vanuit de officiële App Market.",
+        "ExpDetail": "Totaal aantal voorvallen: %1 (ter referentie)",
+        "ResultLevel": 8
+    },
+    "t02020401": {
+        "ExpAdvice": "De app is niet gedownload vanuit de officiële App Market. Aanbevolen wordt de app te downloaden vanuit de officiële App Market.",
+        "ExpDetail": "Totaal aantal voorvallen: %1 (ter referentie)",
+        "ResultLevel": 8
+    },
+    "t02020501": {
+        "ExpAdvice": "Sommige toepassingen van derden kunnen er anders uitzien tijdens het gebruik, met inbegrip van (%1). Aanbevolen wordt deze bij te werken naar de nieuwste versie",
+        "ExpDetail": "1、Compatibiliteitsuitzondering；<br>2、32-bits toepassing",
+        "ResultLevel": 10
+    },
+    "t02021102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Voorvallen van mislukte spraak- of video-oproepen, vertraging of verlies van audio in apps van derden: %1",
+        "ResultLevel": 10
+    },
+    "t02021103": {
+        "ExpAdvice": "Geen verband met netwerkproblemen",
+        "ExpDetail": "Voorvallen van mislukte spraak- of video-oproepen, vertraging of verlies van audio in apps van derden: %1",
+        "ResultLevel": 10
+    },
+    "t02021104": {
+        "ExpAdvice": "Problemen oplossen met componenten voor het afspelen en opnemen van audio (bijv. luidspreker en microfoon)",
+        "ExpDetail": "Voorvallen van mislukte spraak- of video-oproepen, vertraging of verlies van audio in apps van derden: %1",
+        "ResultLevel": 10
+    },
+    "t02021105": {
+        "ExpAdvice": "Uw systeem is traag. Sluit apps die op de achtergrond worden uitgevoerd of start uw apparaat opnieuw op.",
+        "ExpDetail": "Voorvallen van mislukte spraak- of video-oproepen, vertraging of verlies van audio in apps van derden: %1",
+        "ResultLevel": 10
+    },
+    "t02021106": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op, stuurt u deze ter analyse naar de ontwikkelaar en vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van mislukte spraak- of video-oproepen, vertraging of verlies van audio in apps van derden: %1",
+        "ResultLevel": 10
+    },
+    "t02021107": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op, stuurt u deze ter analyse naar de ontwikkelaar en vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van mislukte spraak- of video-oproepen, vertraging of verlies van audio in apps van derden: %1",
+        "ResultLevel": 10
+    },
+    "t02021108": {
+        "ExpAdvice": "Leg audiologboeken vast waarin melding wordt gemaakt van het probleem, sla deze op en stuur ze ter analyse naar de ontwikkelaar. Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, vervangt u het moederbord voor kruisvalidatie.",
+        "ExpDetail": "Voorvallen van mislukte spraak- of video-oproepen, vertraging of verlies van audio in apps van derden: %1",
+        "ResultLevel": 10
+    },
+    "t02021109": {
+        "ExpAdvice": "Probeer een ander netwerk. Als het probleem zich blijft voordoen, voert u een audiologboek- en netwerklogboekregistratie uit en een stuurt u deze ter analyse naar de ontwikkelaar.",
+        "ExpDetail": "%1 voorvallen van stille WeChat-oproepen als gevolg van netwerkfouten",
+        "ResultLevel": 10
+    },
+    "t02021110": {
+        "ExpAdvice": "1. Als het probleem zich voordoet op soortgelijke locaties, vergelijkt u uw telefoon met andere telefoons van dezelfde provider. Als deze telefoons hetzelfde probleem vertonen, neemt u contact op met de provider om het probleem op te lossen.<br>2. Als het probleem zich voordoet op vergelijkbare tijdstippen voordoet, kijkt of u of u zich op die momenten in een kelder, garage, dichtbevolkt gebied of rijdende auto bevindt, waar het signaal slecht kan zijn.<br>3. Als WeChat tijdens gesprekken aangeeft dat uw netwerk of dat van de andere partij instabiel is, is het beeld wazig als gevolg van door WeChat ontworpen strategieën.",
+        "ExpDetail": "%1 gevallen van wazige WeChat-videogesprekken als gevolg van netwerkfouten",
+        "ResultLevel": 10
+    },
+    "t02021111": {
+        "ExpAdvice": "1. Werk de WeChat-app bij en start vervolgens uw telefoon en de app opnieuw op.<br> 2. Als WeChat tijdens gesprekken heeft aangegeven dat het netwerk van de andere partij instabiel is, is het beeld wazig doordat de telefoon van de andere partij is verbonden met een slecht netwerk.",
+        "ExpDetail": "%1 gevallen van wazige WeChat-videogesprekken als gevolg van netwerkfouten",
+        "ResultLevel": 10
+    },
+    "t03010101": {
+        "ExpAdvice": "Adviseer de klant de telefoon niet te gebruiken tijdens het opladen.",
+        "ExpDetail": "Langdurig gebruik van de telefoon tijdens het opladen: %1",
+        "ResultLevel": 10
+    },
+    "t03010102": {
+        "ExpAdvice": "Vraag de klant de telefoon niet op te laden in de kou.",
+        "ExpDetail": "Het opladen wordt vertraagd om de batterij te beschermen omdat de omgevingstemperatuur te laag is: %1",
+        "ResultLevel": 10
+    },
+    "t03010103": {
+        "ExpAdvice": "Traag opladen. Gebruik de oplader en de kabel die bij het apparaat zijn geleverd om sneller op te laden.",
+        "ExpDetail": "Opladen via USB: %1",
+        "ResultLevel": 10
+    },
+    "t03010104": {
+        "ExpAdvice": "Het opladen wordt vertraagd bij hogere batterijniveaus om de gezondheid van de batterij te beschermen.",
+        "ExpDetail": "Druppelladen leidt tot een lagere laadsnelheid omdat het aanvankelijke batterijniveau te hoog is: %1",
+        "ResultLevel": 10
+    },
+    "t03010105": {
+        "ExpAdvice": "De adapter levert een hogere spanning dan waarvoor het apparaat is ontworpen. Gebruik de juiste oplader.",
+        "ExpDetail": "Adapterspanning is te hoog: %1",
+        "ResultLevel": 10
+    },
+    "t03010106": {
+        "ExpAdvice": "Losse batterijaansluiting gedetecteerd. Controleer de batterij- en BTB-aansluitingen.",
+        "ExpDetail": "Slecht batterijcontact: %1",
+        "ResultLevel": 10
+    },
+    "t03010107": {
+        "ExpAdvice": "Geen goedgekeurde batterij. Gebruik een originele batterij van de fabrikant van het apparaat.",
+        "ExpDetail": "Niet-originele batterij: %1",
+        "ResultLevel": 10
+    },
+    "t03010108": {
+        "ExpAdvice": "Apparaattemperatuur te laag. Het opladen wordt gepauzeerd voordat de batterij vol is, om de batterij in goede staat te houden.",
+        "ExpDetail": "Kan de batterij niet volledig opladen vanwege de lage temperatuur: %1",
+        "ResultLevel": 10
+    },
+    "t03010109": {
+        "ExpAdvice": "Koppel de oplaadkabel los en sluit deze opnieuw aan om door te gaan met opladen",
+        "ExpDetail": "Langdurig continu opladen: %1",
+        "ResultLevel": 10
+    },
+    "t03010110": {
+        "ExpAdvice": "De adapter levert een hogere spanning dan waarvoor het apparaat is ontworpen. Gebruik de juiste oplader.",
+        "ExpDetail": "Adapterspanning is te hoog: %1",
+        "ResultLevel": 10
+    },
+    "t03010111": {
+        "ExpAdvice": "Apparaattemperatuur te hoog. Het opladen is gepauzeerd voor uw veiligheid.",
+        "ExpDetail": "Het opladen stopt vanwege de hoge temperatuur: %1",
+        "ResultLevel": 10
+    },
+    "t03010112": {
+        "ExpAdvice": "Apparaattemperatuur te hoog. Voor uw veiligheid wordt de batterij niet tot de volle capaciteit opgeladen.",
+        "ExpDetail": "Kan de batterij niet volledig opladen vanwege de hoge temperatuur: %1",
+        "ResultLevel": 10
+    },
+    "t03010113": {
+        "ExpAdvice": "Apparaattemperatuur te laag. Het opladen wordt gepauzeerd om de batterij te beschermen.",
+        "ExpDetail": "Het opladen stopt vanwege de lage temperatuur: %1",
+        "ResultLevel": 10
+    },
+    "t03010114": {
+        "ExpAdvice": "",
+        "ExpDetail": "Volledig opgeladen: %1",
+        "ResultLevel": 10
+    },
+    "t03010121": {
+        "ExpAdvice": "Probeer een andere adapter, kabel of apparaat om de oorzaak van het probleem te bepalen. Als het probleem wordt veroorzaakt door de kabel of adapter, vervangt u het defecte accessoire. Als het door het apparaat wordt veroorzaakt, probeert u de BTB-connectoren voor de batterij en de USB-poort opnieuw aan te sluiten. Als het probleem aanhoudt, stuurt u het apparaat terug naar de fabriek voor reparatie. Werk de software bij als het geen hardwareprobleem is.",
+        "ExpDetail": "Kan niet opladen: %1",
+        "ResultLevel": 10
+    },
+    "t03010122": {
+        "ExpAdvice": "Probeer een andere adapter, kabel of apparaat om de oorzaak van het probleem te bepalen. Als het probleem wordt veroorzaakt door de kabel of adapter, vervangt u het defecte accessoire. Als het door het apparaat wordt veroorzaakt, probeert u de BTB-connectoren voor de batterij en de USB-poort opnieuw aan te sluiten. Als het probleem aanhoudt, stuurt u het apparaat terug naar de fabriek voor reparatie. Werk de software bij als het geen hardwareprobleem is.",
+        "ExpDetail": "Opladen met tussenpozen: %1",
+        "ResultLevel": 10
+    },
+    "t03010123": {
+        "ExpAdvice": "Kalibreer de batterij bij kamertemperatuur: laat het apparaat nadat het volledig is opgeladen nog 2 uur aangesloten op het stopcontact.",
+        "ExpDetail": "Snelle verandering in voltmeterwaarde: %1",
+        "ResultLevel": 10
+    },
+    "t03010124": {
+        "ExpAdvice": "Kalibreer de batterij bij kamertemperatuur: laat het apparaat nadat het volledig is opgeladen nog 2 uur aangesloten op het stopcontact.",
+        "ExpDetail": "Snelle verandering in voltmeterwaarde: %1",
+        "ResultLevel": 10
+    },
+    "t03010125": {
+        "ExpAdvice": "Kalibreer de batterij bij kamertemperatuur: laat het apparaat nadat het volledig is opgeladen nog 2 uur aangesloten op het stopcontact.",
+        "ExpDetail": "Snelle verandering in voltmeterwaarde: %1",
+        "ResultLevel": 10
+    },
+    "t03010126": {
+        "ExpAdvice": "Gebruik een originele batterij",
+        "ExpDetail": "Het opladen wordt vertraagd door het gebruik van een niet-originele batterij: %1",
+        "ResultLevel": 10
+    },
+    "t03010127": {
+        "ExpAdvice": "Gebruik een originele adapter",
+        "ExpDetail": "Het opladen wordt vertraagd door het gebruik van een niet-originele adapter: %1",
+        "ResultLevel": 10
+    },
+    "t03010128": {
+        "ExpAdvice": "Controleer of de kabel aan vervanging toe is. Probeer een andere kabel.",
+        "ExpDetail": "Het opladen wordt vertraagd door kabelproblemen: %1",
+        "ResultLevel": 10
+    },
+    "t03010129": {
+        "ExpAdvice": "Controleer of de snellaadadapter werkt. Probeer een andere adapter.",
+        "ExpDetail": "Het opladen gaat langzamer omdat geen gebruik wordt gemaakt van flitsopladen: %1",
+        "ResultLevel": 10
+    },
+    "t03010130": {
+        "ExpAdvice": "Gebruik een originele adapter",
+        "ExpDetail": "Het opladen wordt vertraagd door het gebruik van een niet-originele voedingsadapter: %1",
+        "ResultLevel": 10
+    },
+    "t03010131": {
+        "ExpAdvice": "Zorg ervoor dat het apparaat op kamertemperatuur is voordat u het oplaadt",
+        "ExpDetail": "Het opladen wordt vertraagd om de batterij te beschermen omdat de temperatuur van de telefoon te laag is: %1",
+        "ResultLevel": 10
+    },
+    "t03010132": {
+        "ExpAdvice": "Zorg ervoor dat het apparaat op kamertemperatuur is voordat u het oplaadt",
+        "ExpDetail": "Het opladen wordt vertraagd om de batterij te beschermen omdat de temperatuur van de telefoon te hoog is: %1",
+        "ResultLevel": 10
+    },
+    "t03010133": {
+        "ExpAdvice": "Laad het apparaat op bij een geschikte temperatuur",
+        "ExpDetail": "Het opladen wordt vertraagd doordat de batterijtemperatuur te hoog/te laag is: %1",
+        "ResultLevel": 10
+    },
+    "t03010134": {
+        "ExpAdvice": "Gebruik een originele adapter",
+        "ExpDetail": "Het opladen gaat langzamer doordat de telefoon via USB op de pc is aangesloten: %1",
+        "ResultLevel": 10
+    },
+    "t03010135": {
+        "ExpAdvice": "Gebruik de telefoon niet tijdens het opladen",
+        "ExpDetail": "Het opladen gaat langzamer doordat de telefoon veel stroom verbuikt: %1",
+        "ResultLevel": 10
+    },
+    "t03010136": {
+        "ExpAdvice": "Controleer of de poort vuil is of slecht contact maakt. Als de poort in orde is, controleert de adapter, kabel en de USB-printplaat.",
+        "ExpDetail": "Het opladen wordt vertraagd door afwijkingen in de laadstroom: %1",
+        "ResultLevel": 10
+    },
+    "t03010137": {
+        "ExpAdvice": "Gebruik de telefoon niet tijdens het opladen",
+        "ExpDetail": "Het opladen wordt vertraagd doordat het scherm te lang aan staat: %1",
+        "ResultLevel": 10
+    },
+    "t03010138": {
+        "ExpAdvice": "Gebruik de telefoon niet tijdens het opladen",
+        "ExpDetail": "Het opladen wordt vertraagd doordat de camera te lang wordt gebruikt: %1",
+        "ResultLevel": 10
+    },
+    "t03010139": {
+        "ExpAdvice": "Gebruik de telefoon niet tijdens het opladen",
+        "ExpDetail": "Het opladen wordt vertraagd als gevolg van langdurige telefoongesprekken: %1",
+        "ResultLevel": 10
+    },
+    "t03010140": {
+        "ExpAdvice": "Gebruik de telefoon niet tijdens het opladen",
+        "ExpDetail": "Temperatuur of energieverbruik blijft te lang te hoog: %1",
+        "ResultLevel": 10
+    },
+    "t03010141": {
+        "ExpAdvice": "Adviseer de klant de telefoon op te laden in een omgeving met een temperatuur van 15℃ tot 35℃ terwijl het scherm is uitgeschakeld. Nadat de telefoon volledig is opgeladen, gebruikt u deze niet meteen maar laat u deze gedurende 2 uur aangesloten op de oplader om de coulombteller te kalibreren.",
+        "ExpDetail": "Fout weergave batterijcapaciteit: %1",
+        "ResultLevel": 10
+    },
+    "t03010142": {
+        "ExpAdvice": "Adviseer de klant de telefoon op te laden in een omgeving met een temperatuur van 15℃ tot 35℃ terwijl het scherm is uitgeschakeld. Nadat de telefoon volledig is opgeladen, gebruikt u deze niet meteen maar laat u deze gedurende 2 uur aangesloten op de oplader om de coulombteller te kalibreren.",
+        "ExpDetail": "Fout weergave batterijcapaciteit: %1",
+        "ResultLevel": 10
+    },
+    "t03010143": {
+        "ExpAdvice": "Adviseer de klant de telefoon op te laden in een omgeving met een temperatuur van 15℃ tot 35℃ terwijl het scherm is uitgeschakeld. Nadat de telefoon volledig is opgeladen, gebruikt u deze niet meteen maar laat u deze gedurende 2 uur aangesloten op de oplader om de coulombteller te kalibreren.",
+        "ExpDetail": "Fout weergave batterijcapaciteit: %1",
+        "ResultLevel": 10
+    },
+    "t03010144": {
+        "ExpAdvice": "Adviseer de klant de telefoon op te laden in een omgeving met een temperatuur van 15℃ tot 35℃ terwijl het scherm is uitgeschakeld. Nadat de telefoon volledig is opgeladen, gebruikt u deze niet meteen maar laat u deze gedurende 2 uur aangesloten op de oplader om de coulombteller te kalibreren.",
+        "ExpDetail": "Fout weergave batterijcapaciteit: %1",
+        "ResultLevel": 10
+    },
+    "t03010145": {
+        "ExpAdvice": "Adviseer de klant de telefoon op te laden in een omgeving met een temperatuur van 15℃ tot 35℃ terwijl het scherm is uitgeschakeld. Als de telefoon wordt opgeladen op plaatsen met een hoge omgevingstemperatuur of tijdens het opladen omvangrijke games worden gespeeld, wordt de telefoon warm. Wanneer de temperatuur stijgt tot 38 ℃ of hoger, verlaagt het systeem automatisch de laadstroom en -snelheid.",
+        "ExpDetail": "Batterij oververhit: %1",
+        "ResultLevel": 10
+    },
+    "t03010146": {
+        "ExpAdvice": "Adviseer de klant de telefoon op te laden in een omgeving met een temperatuur van 15℃ tot 35℃. Als de omgevingstemperatuur lager is dan 15℃, wordt het beveiligingsmechanisme geactiveerd om de laadstroom en oplaadsnelheid te verminderen.",
+        "ExpDetail": "Lage batterijtemperatuur: %1",
+        "ResultLevel": 10
+    },
+    "t03010147": {
+        "ExpAdvice": "1. Schakel de telefoon naar de engineeringmodus en controleer of de laadstroom normaal is (889 - Foutopsporing apparaat - Oplaadtest).<br>2. Als de laadstroom normaal is, wordt het probleem waarschijnlijk veroorzaakt door een hoog energieverbruik (zoals tijdens het spelen van omvangrijke games).",
+        "ExpDetail": "Lage laadsnelheid vanwege lage stroom: %1",
+        "ResultLevel": 10
+    },
+    "t03010148": {
+        "ExpAdvice": "1. Vraag de klant of de telefoon is opgeladen via een pc. Als dit het geval is, adviseert u een originele adapter te gebruiken voor het opladen van de telefoon. <br>2. Als dat niet het geval is, controleert u of de oplaadkabel beschadigd is of slecht contact maakt.",
+        "ExpDetail": "Opladen via een pc: %1",
+        "ResultLevel": 10
+    },
+    "t03010149": {
+        "ExpAdvice": "1. Gebruik ter verificatie een alternatieve originele adapter en originele oplaadkabel. <br>2. Als flitsopladen beschikbaar is, vraagt u de klant een originele adapter te gebruiken voor het opladen. <br>3. Als het probleem zich blijft voordoen, controleert u het oplaadcircuit in de oplaadpoort van de telefoon.",
+        "ExpDetail": "Flitsopladen werkt niet: %1",
+        "ResultLevel": 10
+    },
+    "t03010150": {
+        "ExpAdvice": "1. Dit probleem wordt veroorzaakt door opladen met een niet-originele adapter. <br>2. Adviseer de klant een originele adapter te gebruiken voor het opladen.",
+        "ExpDetail": "Niet-originele adapter: %1",
+        "ResultLevel": 10
+    },
+    "t03010151": {
+        "ExpAdvice": "Vraag de klant de telefoon op te laden in een omgeving met een temperatuur van tussen 15 ℃ en 35 ℃ en geen grote games te spelen tijdens het opladen. Als u grote games speelt tijdens het opladen, wordt de telefoon warm. Wanneer de temperatuur stijgt tot 38 ℃ of hoger, verlaagt het systeem automatisch de laadstroom en -snelheid.",
+        "ExpDetail": "Lage oplaadsnelheid door temperatuurregeling of hoge stroom: %1",
+        "ResultLevel": 10
+    },
+    "t03010152": {
+        "ExpAdvice": "Er worden te veel apps uitgevoerd op de achtergrond. Adviseer de klant achtergrondtaken die niet in gebruik zijn te sluiten.",
+        "ExpDetail": "Lage oplaadsnelheid vanwege hoog energieverbruik van het systeem: %1",
+        "ResultLevel": 10
+    },
+    "t03010153": {
+        "ExpAdvice": "Vraag de klant tijdens het opladen geen games te spelen, omdat dit de laadstroom verlaagt.",
+        "ExpDetail": "Oplaadsnelheid laag door gebruik tijdens het opladen: %1",
+        "ResultLevel": 10
+    },
+    "t03010154": {
+        "ExpAdvice": "1. Gebruik ter verificatie een alternatieve originele adapter en originele oplaadkabel. <br>2. Als flitsopladen beschikbaar is, vraagt u de klant een originele adapter te gebruiken voor het opladen. <br>3. Als het probleem zich blijft voordoen, controleert u het oplaadcircuit in de oplaadpoort van de telefoon.",
+        "ExpDetail": "Tijdelijke onderbrekingen tijdens het opladen bij gebruik van VOOC: %1",
+        "ResultLevel": 10
+    },
+    "t03010155": {
+        "ExpAdvice": "1. Gebruik ter verificatie een alternatieve originele adapter en originele oplaadkabel. <br>2. Als het probleem is opgelost, adviseert u de klant voortaan een originele adapter te gebruiken voor het opladen. <br>3. Als het probleem zich blijft voordoen, controleert u het oplaadcircuit in de oplaadpoort van de telefoon.",
+        "ExpDetail": "Onderbroken opladen bij gebruik van een generieke oplader: %1",
+        "ResultLevel": 10
+    },
+    "t03010156": {
+        "ExpAdvice": "1. Laad de telefoon op met een adapter om te controleren of een melding verschijnt dat de batterij niet origineel is. <br>2. Demonteer de telefoon en controleer of de batterij origineel is en of deze correct is geïnstalleerd.",
+        "ExpDetail": "Onjuiste installatie van de batterij of gebruik van een niet-originele batterij: %1",
+        "ResultLevel": 10
+    },
+    "t03010201": {
+        "ExpAdvice": "Als zich een fout voordoet die aangeeft dat er geen stroom wordt gegenereerd in het oplaadcircuit, controleert u de USB-interface en de oplaadhardwaremodule.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t03010202": {
+        "ExpAdvice": "Controleer het volgende:<br>1. De telefoon is volledig opgeladen.<br>2. De door de computer gedetecteerde laadstroom is relatief laag. Controleer of de batterij van de telefoon leegloopt.",
+        "ExpDetail": "Test mislukt",
+        "ResultLevel": 10
+    },
+    "t03010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "<p id='t03010301'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = '';if(result>=good){resultText+='Uitstekend';}else if(result>=excellent){resultText+='Goed';}else{resultText+='Slecht';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Uitstekend：'+good+'-100%，Goed：'+excellent+'-'+good+'%，Slecht：0-'+excellent+'%</span>';$('#t03010301').html(resultText);</script>",
+        "ResultLevel": 0
+    },
+    "t03010302": {
+        "ExpAdvice": "1. Naarmate de batterijcapaciteit afneemt, wordt de levensduur van de batterij van de telefoon korter. U kunt ervoor kiezen om de batterij te vervangen.<br>2. Probeer de telefoon op te laden zodra u merkt dat de batterij bijna leeg is, om de levensduur van de batterij te maximaliseren.",
+        "ExpDetail": "<p id='t03010302'></p><script>var result=%1;var good=%2;var excellent=%3;var resultText = 'Mislukt：';if(result>=good){resultText+='Uitstekend';}else if(result>excellent){resultText+='Goed';}else{resultText+='Slecht';}resultText+=' <span style=\\\\'font-size:12px;color:rgba(0,0,0,0.5);\\\\'>Uitstekend：'+good+'-100%，Goed：'+excellent+'-'+good+'%，Slecht：0-'+excellent+'%</span>';$('#t03010302').html(resultText);</script>",
+        "ResultLevel": 10
+    },
+    "t04010101": {
+        "ErrorCode": "11",
+        "ExpAdvice": "a. Het is raadzaam de lokale provider of netwerkcontroleur te vragen een veldtest uit te voeren.<br>b. Schakel de vliegtuigmodus in wanneer het toestel in de stand-bymodus staat om stroomverbruik als gevolg van netwerkinstabiliteit te voorkomen.",
+        "ExpDetail": "Frequent verbreken en herstellen van verbindingen met mobiele data als gevolg van een complexe/slechte netwerkomgeving",
+        "ResultLevel": 10
+    },
+    "t04010102": {
+        "ErrorCode": "12",
+        "ExpAdvice": "a. Het is raadzaam de lokale provider of netwerkcontroleur te vragen een veldtest uit te voeren.<br>b. Schakel de vliegtuigmodus in wanneer het toestel in de stand-bymodus staat om stroomverbruik als gevolg van netwerkinstabiliteit te voorkomen.",
+        "ExpDetail": "Geen service als gevolg van een zwak netwerksignaal",
+        "ResultLevel": 10
+    },
+    "t04010103": {
+        "ErrorCode": "13",
+        "ExpAdvice": "a. Het is raadzaam de lokale provider of netwerkcontroleur te vragen een veldtest uit te voeren.<br>b. Schakel de vliegtuigmodus in wanneer het toestel in de stand-bymodus staat om stroomverbruik als gevolg van netwerkinstabiliteit te voorkomen.",
+        "ExpDetail": "Andere cel geselecteerd in verband met complexe netwerkomgeving/zwak signaal",
+        "ResultLevel": 10
+    },
+    "t04010104": {
+        "ErrorCode": "120",
+        "ExpAdvice": "a. Het is raadzaam de lokale provider of netwerkcontroleur te vragen een veldtest uit te voeren.<br>b. Schakel de vliegtuigmodus in wanneer het toestel in de stand-bymodus staat om stroomverbruik als gevolg van netwerkinstabiliteit te voorkomen.",
+        "ExpDetail": "Frequente CPU-bewerkingen vanwege complexe netwerkomgeving/instabiel signaal",
+        "ResultLevel": 10
+    },
+    "t04010105": {
+        "ErrorCode": "1411",
+        "ExpAdvice": "a. Het is raadzaam de lokale provider of netwerkcontroleur te vragen een veldtest uit te voeren.<br>b. Schakel de vliegtuigmodus in wanneer het toestel in de stand-bymodus staat om stroomverbruik als gevolg van netwerkinstabiliteit te voorkomen.",
+        "ExpDetail": "Frequente modembewerkingen vanwege complexe netwerkomgeving/instabiel signaal",
+        "ResultLevel": 10
+    },
+    "t04010106": {
+        "ErrorCode": "1410",
+        "ExpAdvice": "a. Het is raadzaam de lokale provider of netwerkcontroleur te vragen een veldtest uit te voeren.<br>b. Schakel de vliegtuigmodus in wanneer het toestel in de stand-bymodus staat om stroomverbruik als gevolg van netwerkinstabiliteit te voorkomen.",
+        "ExpDetail": "Activeren van de slaapmodus op de Modem mislukt in verband met een complexe netwerkomgeving/instabiel signaal",
+        "ResultLevel": 10
+    },
+    "t04010107": {
+        "ErrorCode": "110",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.",
+        "ExpDetail": "Wi-Fi activeert voortdurend de CPU om app-berichten te ontvangen",
+        "ResultLevel": 10
+    },
+    "t04010108": {
+        "ErrorCode": "122",
+        "ExpAdvice": "a. Aangeraden wordt mobiele netwerkverbindingen uit te schakelen wanneer het toestel in stand-by staat, om te voorkomen dat de CPU telkens wordt geactiveerd.<br>b. Maak verbinding met Wi-Fi terwijl het toestel in de stand-bymodus staat.<br>c. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.",
+        "ExpDetail": "Modem activeert voortdurend de CPU om app-berichten te ontvangen",
+        "ResultLevel": 10
+    },
+    "t04010109": {
+        "ErrorCode": "1412",
+        "ExpAdvice": "a. Aangeraden wordt mobiele netwerkverbindingen uit te schakelen wanneer het toestel in stand-by staat, om te voorkomen dat de CPU telkens wordt geactiveerd.<br>b. Maak verbinding met Wi-Fi terwijl het toestel in de stand-bymodus staat.<br>c. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.",
+        "ExpDetail": "Modem voortdurend in bedrijf door frequente app-berichten",
+        "ResultLevel": 10
+    },
+    "t04010110": {
+        "ErrorCode": "130",
+        "ExpAdvice": "a. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>b. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de ingebouwde App Market.",
+        "ExpDetail": "CPU wordt voortdurend geactiveerd door frequente activiteit van achtergrond-apps",
+        "ResultLevel": 10
+    },
+    "t04010111": {
+        "ErrorCode": "180",
+        "ExpAdvice": "a. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>b. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de ingebouwde App Market.",
+        "ExpDetail": "CPU is te lang actief door frequente activiteit van achtergrond-apps",
+        "ResultLevel": 10
+    },
+    "t04010112": {
+        "ErrorCode": "1413",
+        "ExpAdvice": "a. Aanbevolen wordt om de 5 GHz Wi-Fi-bandbreedte te gebruiken.<br>b. Schakel Wi-Fi uit wanneer het toestel in de stand-bymodus staat of schakel \\'Scannen altijd beschikbaar\\' uit op de pagina Wi-Fi-instellingen.",
+        "ExpDetail": "Onderlinge interferentie tussen 4G-, 2,4G- en Wi-Fi-signalen als gevolg van een complexe netwerkomgeving",
+        "ResultLevel": 10
+    },
+    "t04010113": {
+        "ErrorCode": "21",
+        "ExpAdvice": "a. De Wi-Fi-omgeving is slecht. Maak verbinding met een betere Wi-Fi-verbinding.<br>b. Aanbevolen wordt een mobiel netwerk te gebruiken.<br>c. Schakel Wi-Fi uit wanneer het toestel in de stand-bymodus staat.",
+        "ExpDetail": "Frequent Wi-Fi-scannen",
+        "ResultLevel": 10
+    },
+    "t04010114": {
+        "ErrorCode": "22",
+        "ExpAdvice": "a. De Wi-Fi-omgeving is slecht. Maak verbinding met een betere Wi-Fi-verbinding.<br>b. Aanbevolen wordt een mobiel netwerk te gebruiken.<br>c. Schakel Wi-Fi uit wanneer het toestel in de stand-bymodus staat.",
+        "ExpDetail": "Vernieuwing Wi-Fi IP",
+        "ResultLevel": 10
+    },
+    "t04010115": {
+        "ErrorCode": "23",
+        "ExpAdvice": "a. De Wi-Fi-omgeving is slecht. Maak verbinding met een betere Wi-Fi-verbinding.<br>b. Aanbevolen wordt een mobiel netwerk te gebruiken.<br>c. Schakel Wi-Fi uit wanneer het toestel in de stand-bymodus staat.",
+        "ExpDetail": "Wi-Fi multicast-sleutel bijwerken",
+        "ResultLevel": 10
+    },
+    "t04010116": {
+        "ErrorCode": "24",
+        "ExpAdvice": "a. De Wi-Fi-omgeving is slecht. Maak verbinding met een betere Wi-Fi-verbinding.<br>b. Aanbevolen wordt een mobiel netwerk te gebruiken.<br>c. Schakel Wi-Fi uit wanneer het toestel in de stand-bymodus staat.",
+        "ExpDetail": "Wi-Fi-verbinding wordt regelmatig verbroken en hersteld als gevolg van een slechte Wi-Fi-omgeving",
+        "ResultLevel": 10
+    },
+    "t04010117": {
+        "ErrorCode": "140",
+        "ExpAdvice": "Gebruik een gelijkstroomvoeding om te detecteren of de stand-bystroom normaal is.",
+        "ExpDetail": "Mogelijke energielekkage in de hardware",
+        "ResultLevel": 10
+    },
+    "t04010118": {
+        "ErrorCode": "14",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Herhaalde sms-verzending",
+        "ResultLevel": 10
+    },
+    "t04010119": {
+        "ErrorCode": "15",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Automatische tijdsynchronisatie via netwerk",
+        "ResultLevel": 10
+    },
+    "t04010120": {
+        "ErrorCode": "142",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Fout in audio- en sensorsubsysteem",
+        "ResultLevel": 10
+    },
+    "t04010121": {
+        "ErrorCode": "150",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Frequente activering van audio- en sensorsubsysteem",
+        "ResultLevel": 10
+    },
+    "t04010122": {
+        "ErrorCode": "160",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Modem activeert voortdurend de CPU om app-berichten te ontvangen",
+        "ResultLevel": 10
+    },
+    "t04010123": {
+        "ErrorCode": "170",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Frequente activering van onderliggend alarm",
+        "ResultLevel": 10
+    },
+    "t04010124": {
+        "ErrorCode": "190",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Kernel blijft te lang actief",
+        "ResultLevel": 10
+    },
+    "t04010125": {
+        "ErrorCode": "200",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Sensoren activeren de CPU regelmatig",
+        "ResultLevel": 10
+    },
+    "t04010126": {
+        "ErrorCode": "210",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Frequente activering van de Coulomb-teller",
+        "ResultLevel": 10
+    },
+    "t04010127": {
+        "ErrorCode": "99999",
+        "ExpAdvice": "a. Schakel de mobiele netwerkverbindingen en Wi-Fi-verbindingen uit wanneer het toestel in de stand-bymodus staat, om te voorkomen dat de CPU telkens wordt geactiveerd<br>.b. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>c. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de OPPO App Market.",
+        "ExpDetail": "Onbekende oorzaak",
+        "ResultLevel": 10
+    },
+    "t04010128": {
+        "ExpAdvice": "Het is normaal als het apparaat veel stroom verbruikt wanneer u lange tijd muziek afspeelt.",
+        "ExpDetail": "Achtergrondmuziek",
+        "ResultLevel": 10
+    },
+    "t04010129": {
+        "ExpAdvice": "a. Controleer of software wordt gedownload op de achtergrond. b. Controleer of automatische synchronisatie, cloudservices en andere functies zijn ingeschakeld.",
+        "ExpDetail": "Downloads",
+        "ResultLevel": 10
+    },
+    "t04010130": {
+        "ExpAdvice": "Tijdens het gebruik van een Wi-Fi-hotspot gebruikt de telefoon meer energie. Schakel de functie uit als deze niet wordt gebruikt.",
+        "ExpDetail": "Gebruiker schakelt Wi-Fi-hotspot in",
+        "ResultLevel": 10
+    },
+    "t04010131": {
+        "ExpAdvice": "",
+        "ExpDetail": "Berekend op basis van uw gebruiksgewoonten gaat de batterij van uw telefoon ongeveer %1 mee, %2 met het scherm aan en %3 met het scherm uit. Tik op \\'Meer weergeven\\' voor meer informatie over de batterij.",
+        "ResultLevel": 0
+    },
+    "t04010132": {
+        "ErrorCode": "302",
+        "ExpAdvice": "Zet de automatische helderheid aan en gebruik de telefoon niet langdurig onder fel licht.",
+        "ExpDetail": "Hoog energieverbruik als gevolg van hoge helderheid",
+        "ResultLevel": 10
+    },
+    "t04010133": {
+        "ErrorCode": "300",
+        "ExpAdvice": "a. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>b. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de ingebouwde App Market.",
+        "ExpDetail": "De batterij raakt snel leeg doordat apps de CPU blijven gebruiken. De 5 apps die de CPU het meest gebruiken: %1",
+        "ResultLevel": 10
+    },
+    "t04010134": {
+        "ErrorCode": "301",
+        "ExpAdvice": "a. Sluit achtergrond-apps regelmatig. Tik op \\'Alles sluiten\\' op het scherm Recent voordat u het apparaat in de stand-bymodus zet.<br>b. Verwijder overbodige apps regelmatig. Aanbevolen wordt apps te downloaden vanuit de ingebouwde App Market.",
+        "ExpDetail": "Hoog energieverbruik in stand-by vanwege hoge stroomsterkte",
+        "ResultLevel": 10
+    },
+    "t04010135": {
+        "ErrorCode": "10100",
+        "ExpAdvice": "De klant heeft de telefoon langere tijd gebruikt met het beeldscherm op een hoog helderheidsniveau. Adviseer de klant de helderheid te verlagen bij het gebruik van de telefoon.",
+        "ExpDetail": "Langdurige hoge schermhelderheid",
+        "ResultLevel": 0
+    },
+    "t04010136": {
+        "ErrorCode": "10101",
+        "ExpAdvice": "De klant heeft de telefoon langere tijd bij een hoge vernieuwingsfrequentie gebruikt. Adviseer \\'Standaard\\' te kiezen in \\'Instellingen - Weergave en helderheid - Meer - Schermvernieuwingsfrequentie\\'. Opmerking: Hierdoor kan het scherm minder vloeiend worden.",
+        "ExpDetail": "Langdurige hoge vernieuwingsfrequentie",
+        "ResultLevel": 0
+    },
+    "t04010137": {
+        "ErrorCode": "10102",
+        "ExpAdvice": "De klant heeft de telefoon lange tijd op een hoge resolutie gebruikt. Adviseer \\'Automatische selectie\\' te kiezen in \\'Instellingen - Weergave en helderheid - Meer - Schermresolutie\\'. Hierdoor kan de inhoud van het scherm minder duidelijk worden.",
+        "ExpDetail": "Langdurige hoge resolutie",
+        "ResultLevel": 0
+    },
+    "t04010138": {
+        "ErrorCode": "10103",
+        "ExpAdvice": "Het CPU-gebruik is hoog geweest door de app %1. Vraag de klant het gebruik van %2 te verminderen.",
+        "ExpDetail": "Langdurig hoog CPU-gebruik",
+        "ResultLevel": 0
+    },
+    "t04010139": {
+        "ErrorCode": "10104",
+        "ExpAdvice": "De app %1 heeft de CPU %2 uur gebruikt. Vraag de klant of het nodig is dat deze app continu actief blijft.",
+        "ExpDetail": "Langdurig app-gebruik",
+        "ResultLevel": 0
+    },
+    "t04010140": {
+        "ErrorCode": "10105",
+        "ExpAdvice": "De klant heeft de telefoon lange tijd op een hoog geluidsvolume gebruikt. Een hoog volume kan leiden tot gehoorbeschadiging en snel leegraken van de batterij. Vraag de klant het volume lager te zetten.",
+        "ExpDetail": "Langdurig hoog geluidsvolume",
+        "ResultLevel": 0
+    },
+    "t04010141": {
+        "ErrorCode": "10106",
+        "ExpAdvice": "Het signaal valt regelmatig weg op de telefoon. Adviseer de klant contact op te nemen met de mobiele provider.",
+        "ExpDetail": "Doorlopend geen service",
+        "ResultLevel": 0
+    },
+    "t04010142": {
+        "ErrorCode": "10107",
+        "ExpAdvice": "De telefoon zoekt voortdurend naar netwerken. Adviseer de klant contact op te nemen met de mobiele provider.",
+        "ExpDetail": "Continue zoeken naar een netwerk",
+        "ResultLevel": 0
+    },
+    "t04010143": {
+        "ErrorCode": "10108",
+        "ExpAdvice": "U hebt veel mobiele data verbruikt. U kunt bestanden downloaden via Wi-Fi om de levensduur van de batterij te verlengen.",
+        "ExpDetail": "Hoog verbruik mobiele data",
+        "ResultLevel": 0
+    },
+    "t04010144": {
+        "ErrorCode": "10109",
+        "ExpAdvice": "U hebt de afgelopen 24 uur %1 GB aan data via Wi-Fi gebruikt. Het kan raadzaam zijn uw datagebruik te controleren.",
+        "ExpDetail": "Hoog Wi-Fi-dataverbruik",
+        "ResultLevel": 0
+    },
+    "t04010145": {
+        "ErrorCode": "10110",
+        "ExpAdvice": "De app %1 gebruikt veel batterijcapaciteit. Meld het probleem aan de app-ontwikkelaar.",
+        "ExpDetail": "App met hoog energieverbruik",
+        "ResultLevel": 0
+    },
+    "t04010146": {
+        "ErrorCode": "10111",
+        "ExpAdvice": "De app %1 is al %2 uur actief. Het kan raadzaam zijn het gebruik van deze app te verminderen.",
+        "ExpDetail": "Langdurig app-gebruik",
+        "ResultLevel": 0
+    },
+    "t04010147": {
+        "ErrorCode": "10112",
+        "ExpAdvice": "De app %1 blijft actief op de achtergrond. U kunt de app sluiten als u deze niet meer gebruikt.",
+        "ExpDetail": "Apps blijft actief op de achtergrond",
+        "ResultLevel": 0
+    },
+    "t04010148": {
+        "ErrorCode": "10113",
+        "ExpAdvice": "De app %1 blijft de telefoon uit de slaapstand halen. U kunt de app sluiten voordat u uw apparaat vergrendelt.",
+        "ExpDetail": "App blijft de telefoon activeren",
+        "ResultLevel": 0
+    },
+    "t04010149": {
+        "ErrorCode": "10114",
+        "ExpAdvice": "De app %1 blijft de CPU gebruiken terwijl het scherm is uitgeschakeld. U kunt de app sluiten voordat u uw apparaat vergrendelt.",
+        "ExpDetail": "App blijft CPU gebruiken terwijl het scherm is uitgeschakeld",
+        "ResultLevel": 0
+    },
+    "t04010150": {
+        "ErrorCode": "10115",
+        "ExpAdvice": "De app %1 blijft het netwerk gebruiken terwijl het scherm is uitgeschakeld. U kunt de app sluiten voordat u uw apparaat vergrendelt.",
+        "ExpDetail": "App blijft het netwerk gebruiken terwijl het scherm is uitgeschakeld",
+        "ResultLevel": 0
+    },
+    "t04020101": {
+        "ExpAdvice": "Wanneer de telefoon wordt opgeladen met flitsopladen, zet de oplader hoge spanning om in lage spanning. Hierbij vindt een grote hoeveelheid energieconversie plaats, waardoor warmte wordt opgewekt. We adviseren de telefoon op te laden in een omgeving waar de warmte goed kan worden afgevoerd.",
+        "ExpDetail": "Telefoon wordt opgeladen",
+        "ResultLevel": 10
+    },
+    "t04020102": {
+        "ExpAdvice": "Langdurig gebruik van de flitser genereert warmte. Gebruik de flitser niet gedurende lange tijd, om schade aan de flitser te voorkomen.",
+        "ExpDetail": "Flitser aan",
+        "ResultLevel": 10
+    },
+    "t04020103": {
+        "ExpAdvice": "Langdurig gebruik van hoge helderheid. Verlaag de helderheid van het scherm of stel het in op Automatische helderheid.",
+        "ExpDetail": "Achtergrondverlichting te sterk",
+        "ResultLevel": 10
+    },
+    "t04020104": {
+        "ExpAdvice": "De telefoon wordt warm als gevolg van een zwak netwerksignaal. Op een locatie met een zwak signaal moet het vermogen van de telefoonantenne worden verhoogd om in een groter gebied naar signalen te zoeken, waardoor de warmte verder oploopt. Ga naar \\'Instellingen - Mobiel netwerk - Meer instellingen\\' en schakel \\'Slimme 5G\\' in. Als u de huidige signaalstatus niet kunt bepalen, neemt u contact op met de lokale netwerkprovider.",
+        "ExpDetail": "Zwak telefoonsignaal",
+        "ResultLevel": 10
+    },
+    "t04020105": {
+        "ExpAdvice": "De telefoon wordt warm als gevolg van een zwak netwerksignaal. Op een locatie met een zwak signaal moet het vermogen van de telefoonantenne worden verhoogd om in een groter gebied naar signalen te zoeken, waardoor de warmte verder oploopt. Als u de huidige signaalstatus niet kunt bepalen, neemt u contact op met de lokale netwerkprovider.",
+        "ExpDetail": "Zwak signaal telefoonnetwerk",
+        "ResultLevel": 10
+    },
+    "t04020106": {
+        "ExpAdvice": "De telefoon wordt warm doordat achtergrondapp %1 te veel CPU-capaciteit gebruikt. Als Wi-Fi, GPS, NFC, Bluetooth en andere functies tegelijkertijd zijn ingeschakeld en op de achtergrond naar signalen te zoeken, wordt de telefoon warmer. Aanbevolen wordt achtergrond-apps te wissen en ongebruikte functies uit te schakelen. U kunt achtergrond-apps wissen of de telefoon opnieuw opstarten.",
+        "ExpDetail": "Achtergrond-app %1 maakt overmatig gebruik van de CPU",
+        "ResultLevel": 10
+    },
+    "t04020107": {
+        "ExpAdvice": "%1 is een app die veel CPU-capaciteit gebruikt, waardoor de telefoon warm wordt. Vermijd langdurig intensief telefoongebruik. Wacht tot de telefoon is afgekoeld om schade aan de componenten te voorkomen.",
+        "ExpDetail": "Voorgrond-app %1 maakt overmatig gebruik van de CPU",
+        "ResultLevel": 10
+    },
+    "t04020108": {
+        "ExpAdvice": "De GPS van de telefoon is in gebruik. De telefoon kan heet worden als deze gedurende langere tijd satellietsignalen zoekt en uitzendt om locatiegegevens bij te werken.<br>Vraag de gebruiker of deze navigatie heeft ingeschakeld of een op locatie gebaseerde app van derden gebruikt die automatisch locatiegegevens opvraagt.",
+        "ExpDetail": "Constante GPS-positionering",
+        "ResultLevel": 10
+    },
+    "t04020109": {
+        "ExpAdvice": "De telefoon wordt warm omdat enkele apps gelijktijdig op de achtergrond draaien. Aanbevolen wordt achtergrondcaches regelmatig te wissen.<br>① Controleer of software wordt gedownload op de achtergrond.<br>② Controleer of synchronisatie, cloudservice en andere functies zijn ingeschakeld.",
+        "ExpDetail": "Achtergrond %1 synchronisatie",
+        "ResultLevel": 10
+    },
+    "t04020110": {
+        "ExpAdvice": "De telefoon wordt warm omdat de app %1 gelijktijdig wordt uitgevoerd op de achtergrond. Aanbevolen wordt achtergrondcaches regelmatig te wissen.<br>① Controleer of software wordt gedownload op de achtergrond.<br>② Controleer of synchronisatie, cloudservice en andere functies zijn ingeschakeld.",
+        "ExpDetail": "Achtergrond %1 synchronisatie",
+        "ResultLevel": 10
+    },
+    "t04020111": {
+        "ExpAdvice": "Langdurig gesprek gedetecteerd. De warmteopbouw is normaal wanneer een langdurig gesprek wordt gevoerd op de telefoon, aangezien de signaalantenne, microfoon en luidspreker van de telefoon tijdens het gesprek voortdurend actief zijn.<br> Voor tips over het laten afkoelen van een telefoon verwijzen wij u naar het artikel \\'Telefoon wordt warm tijdens telefoongesprekken\\' in de kennisbank.",
+        "ExpDetail": "Telefoon altijd bereikbaar",
+        "ResultLevel": 10
+    },
+    "t04020112": {
+        "ExpAdvice": "Langdurig/frequent cameragebruik gedetecteerd. Bij het maken van foto\\'s of video\\'s zijn de camera, CPU, GPU en andere voorzieningen van de mobiele telefoon gelijktijdig actief en wordt de mobiele telefoon zwaar belast, waardoor de temperatuur van de mobiele telefoon oploopt.<br> Voor tips over het laten afkoelen van een telefoon bij gebruik van de camera verwijzen wij u naar het artikel \\'Telefoon wordt warm tijdens het maken van foto\\'s en video\\'s\\' in de kennisbank.",
+        "ExpDetail": "Camera-app wordt uitgevoerd",
+        "ResultLevel": 10
+    },
+    "t04020113": {
+        "ExpAdvice": "Adviseer de gebruiker om de telefoon niet te gebruiken in een omgeving met hoge temperaturen en een gelijkstroomvoeding te gebruiken om de telefoon te controleren op energielekkage.",
+        "ExpDetail": "Opwarming veroorzaakt door omgeving of hardware",
+        "ResultLevel": 10
+    },
+    "t04020114": {
+        "ExpAdvice": "Vraag de gebruiker hoe de telefoon wordt gebruikt en gebruik deze informatie in combinatie met informatie over het energieverbruik van apps en de diagnose van het energieverbruik om het probleem te onderzoeken. Als er geen afwijkingen zijn, adviseert u de gebruiker de telefoon in een servicecentrum te laten controleren op energielekkage.",
+        "ExpDetail": "Onbekende oorzaak",
+        "ResultLevel": 10
+    },
+    "t04020115": {
+        "ExpAdvice": "",
+        "ExpDetail": "%1-daagse maximumtemperatuur: %2℃. Tijdstip van optreden: %3",
+        "ResultLevel": 10
+    },
+    "t04020116": {
+        "ExpAdvice": "De telefoon wordt warm omdat deze wordt gebruikt tijdens het opladen. Het is normaal dat batterijen of opladers warm worden tijdens het opladen, en als u uw telefoon gebruikt tijdens het opladen, ontstaat er zelfs nog meer warmte.",
+        "ExpDetail": "Oververhitting veroorzaakt door gebruik tijdens het opladen",
+        "ResultLevel": 0
+    },
+    "t04020117": {
+        "ExpAdvice": "Wanneer de telefoon wordt opgeladen met flitsopladen, zet de oplader hoge spanning om in lage spanning. Hierbij vindt een grote hoeveelheid energieconversie plaats, waardoor warmte wordt opgewekt. We adviseren de telefoon op te laden in een omgeving waar de warmte goed kan worden afgevoerd.",
+        "ExpDetail": "Oververhitting tijdens opladen (scherm aan tijdens opladen: %1; app op de voorgrond tijdens het opladen: %2)",
+        "ResultLevel": 0
+    },
+    "t04020118": {
+        "ExpAdvice": "De telefoon warmt aanzienlijk op tijdens het spelen van de game %1. Tijdens het gamen moeten chips in uw telefoon, zoals de CPU en GPU, hoge prestaties leveren voor een goede beeldkwaliteit en vloeiende game-ervaring. Deze zware belasting zorgt ervoor dat de telefoon warmer wordt. U kunt dit probleem verhelpen door bepaalde instellingen te verlagen (resolutie en framerate), de schermhelderheid te verminderen en het volume voor games te verlagen.",
+        "ExpDetail": "Oververhitting tijdens het gamen (Game: %1; Beeldkwaliteit: %2; Resolutie: %3; Gamingmodus: %4)",
+        "ResultLevel": 0
+    },
+    "t04020119": {
+        "ExpAdvice": "De telefoon wordt warm doordat u games speelt tijdens het opladen. De energieconversie die optreedt tijdens het opladen, veroorzaakt warmte. Wanneer u tijdens het opladen een game speelt, moeten de chips in de telefoon, zoals de CPU en GPU, hoge prestaties leveren voor een goede beeldkwaliteit en vloeiende game-ervaring, waardoor de warmte nog verder oploopt. Vermijd zo mogelijk het gebruik van uw telefoon tijdens het opladen.",
+        "ExpDetail": "Games spelen tijdens het opladen",
+        "ResultLevel": 0
+    },
+    "t04020120": {
+        "ExpAdvice": "U speelt games op een plek waar het signaal zwak is en de signaalzender extra hard moet werken om een verbinding te vinden. Hierdoor kan de telefoon gemakkelijk oververhit raken. Daarnaast moeten chips in de telefoon, zoals de CPU en GPU, tijdens het gamen hoge prestaties leveren voor een goede beeldkwaliteit en vloeiende game-ervaring, waardoor de warmte nog verder oploopt. Ga naar een locatie met een goed netwerk, indien mogelijk.",
+        "ExpDetail": "Oververhitting tijdens het spelen veroorzaakt door zwak mobiel signaal",
+        "ResultLevel": 0
+    },
+    "t04020121": {
+        "ExpAdvice": "De telefoon wordt gebruikt om te gamen bij een hoge omgevingstemperatuur. Dit betekent dat uw telefoon hoge prestaties moet leveren, waardoor warmte wordt gegenereerd. Hoge omgevingstemperaturen vertragen ook de warmteafvoer, waardoor de warmte verder oploopt.",
+        "ExpDetail": "Games spelen op warme plekken",
+        "ResultLevel": 0
+    },
+    "t04030101": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Automatische helderheid\\' is uitgeschakeld op uw telefoon. Als u intelligente helderheidsregeling wilt inschakelen en het energieverbruik wilt verminderen, gaat u naar \\'Instellingen - Beeldscherm en helderheid - Automatische helderheid\\'.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t04030201": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Locatieservice\\' is ingeschakeld op uw telefoon. Het uitvoeren van GPS op de achtergrond verhoogt het energieverbruik. U kunt de functie uitschakelen om het energieverbruik te verminderen als u de functie niet nodig hebt. U kunt dit doen door op de statusbalk omlaag te vegen en te tikken op \\'Locatie\\' of door naar \\'Instellingen - Privacy - Locatie - Locatieservice\\' te gaan.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t04030301": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat Bluetooth is ingeschakeld op uw telefoon. Het uitvoeren van Bluetooth op de achtergrond verhoogt het energieverbruik. U kunt de functie uitschakelen om het energieverbruik te verminderen als u de functie niet nodig hebt. Ga hiervoor naar \\'Instellingen - Bluetooth\\'.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t04030401": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Persoonlijke hotspot\\' is ingeschakeld op de telefoon. Het uitvoeren van de hotspot op de achtergrond leidt tot hoger energieverbruik. U kunt de functie uitschakelen om het energieverbruik te verminderen als u de functie niet nodig hebt. U kunt dit doen door naar \\'Instellingen - Verbinding en delen - Persoonlijke hotspot\\' te gaan.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t04030501": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat NFC is ingeschakeld op uw telefoon. Het uitvoeren van NFC op de achtergrond verhoogt het energieverbruik. U kunt de functie uitschakelen om het energieverbruik te verminderen als u de functie niet nodig hebt. Ga hiervoor naar \\'Instellingen - Verbinding en delen - NFC\\'.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t04030601": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat de hoge prestatiemodus is ingeschakeld op uw telefoon. In deze modus wordt meer energie verbruikt. U kun de functie uitschakelen om het energieverbruik te verlagen door naar \\'Instellingen - Batterij - Meer - Hoge prestatiemodus\\' te gaan.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t05010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Logboekanalyse is mislukt doordat het aantal uitgaande of inkomende oproepen minder dan 10 bedraagt.",
+        "ResultLevel": 4
+    },
+    "t05010102": {
+        "ExpAdvice": "1. Activeer de VoLTE-functie van de provider en zet bellen in hoge definitie aan in Instellingen.<br>2. Controleer de PA-prestaties van de telefoon om er zeker van te zijn dat de RF-transmissie- en -ontvangstprestaties normaal zijn (met inbegrip van alle banden van 2G, 3G en 4G).<br>3. De signaaldekking van mobiele netwerken fluctueert afhankelijk van de omgeving. Als het netwerksignaal zwak is, neemt u dan contact op met de lokale netwerkprovider.<br>4. Het netwerksignaal kan zwak zijn in kelders, gesloten garages en drukke gebieden. Een slechte signaalkwaliteit heeft gevolgen voor het bellen. Als u naar een open ruimte gaat, wordt de gesprekskwaliteit beter.<br>5. Werk de softwareversie bij.",
+        "ExpDetail": "1. Afgebroken oproepen: %1, percentage: %2<br>2. Fouten bij uitgaande oproepen: %3, percentage: %4<br>3. Fouten bij inkomende oproepen: %5, percentage: %6",
+        "ResultLevel": 10
+    },
+    "t05010103": {
+        "ExpAdvice": "Netwerk ontving het verzoek van de telefoon, maar reageerde niet.",
+        "ExpDetail": "3,4",
+        "ResultLevel": 10
+    },
+    "t05010104": {
+        "ExpAdvice": "Netwerk reageerde niet.",
+        "ExpDetail": "0,1,2",
+        "ResultLevel": 10
+    },
+    "t05010105": {
+        "ExpAdvice": "IMS-service onbereikbaar",
+        "ExpDetail": "9",
+        "ResultLevel": 10
+    },
+    "t05010106": {
+        "ExpAdvice": "Serverfout",
+        "ExpDetail": "12",
+        "ResultLevel": 10
+    },
+    "t05010107": {
+        "ExpAdvice": "Verbroken Telecom CDMA-gesprekken en time-out in onderliggende 2G-verbinding.",
+        "ExpDetail": "27",
+        "ResultLevel": 10
+    },
+    "t05010108": {
+        "ExpAdvice": "Circuitdomein niet beschikbaar",
+        "ExpDetail": "113",
+        "ResultLevel": 10
+    },
+    "t05010109": {
+        "ExpAdvice": "Geen service",
+        "ExpDetail": "18",
+        "ResultLevel": 10
+    },
+    "t05010110": {
+        "ExpAdvice": "Gekozen nummer is ongeldig",
+        "ExpDetail": "7",
+        "ResultLevel": 10
+    },
+    "t05010111": {
+        "ExpAdvice": "Netwerkcongestie. Bel later opnieuw.",
+        "ExpDetail": "5",
+        "ResultLevel": 10
+    },
+    "t05010112": {
+        "ExpAdvice": "(Non-IMS verbroken gesprekken) Onderliggende verbindingsfout houdt sterk verband met de netwerksterkte.",
+        "ExpDetail": "36",
+        "ResultLevel": 10
+    },
+    "t05010113": {
+        "ExpAdvice": "1. Activeer de VoLTE-functie van de provider en zet bellen in hoge definitie aan in Instellingen.<br>2. Controleer de PA-prestaties van de telefoon om er zeker van te zijn dat de RF-transmissie- en -ontvangstprestaties normaal zijn (met inbegrip van alle banden van 2G, 3G en 4G).<br>3. De signaaldekking van mobiele netwerken fluctueert afhankelijk van de omgeving. Als het netwerksignaal zwak is, neemt u dan contact op met de lokale netwerkprovider.<br>4. Het netwerksignaal kan zwak zijn in kelders, gesloten garages en drukke gebieden. Een slechte signaalkwaliteit heeft gevolgen voor het bellen. Als u naar een open ruimte gaat, wordt de gesprekskwaliteit beter.<br>5. Werk de softwareversie bij.",
+        "ExpDetail": "1. Fouten bij uitgaande oproepen: %1<br>2. Fouten bij inkomende oproepen: %2<br>3. Afgebroken oproepen: %3",
+        "ResultLevel": 10
+    },
+    "t05010141": {
+        "ExpAdvice": "De simkaart in de telefoon is niet compatibel met het netwerk. Adviseer de klant een andere simkaart te gebruiken.",
+        "ExpDetail": "1. Fouten bij uitgaande oproepen: %1<br>2. Fouten bij inkomende oproepen: %2<br>3. Afgebroken oproepen: %3",
+        "ResultLevel": 10
+    },
+    "t05010142": {
+        "ExpAdvice": "Update beschikbaar",
+        "ExpDetail": "1. Fouten bij uitgaande oproepen: %1<br>2. Fouten bij inkomende oproepen: %2<br>3. Afgebroken oproepen: %3",
+        "ResultLevel": 10
+    },
+    "t05010143": {
+        "ExpAdvice": "Er is mogelijk een probleem met de netwerkcompatibiliteit. Neem contact op met de netwerkprovider om te controleren of de netwerkomgeving normaal is, of neem contact op met onze technici om het probleem te reproduceren logboekregistratie uit te voeren.",
+        "ExpDetail": "1. Fouten bij uitgaande oproepen: %1<br>2. Fouten bij inkomende oproepen: %2<br>3. Afgebroken oproepen: %3",
+        "ResultLevel": 10
+    },
+    "t05010144": {
+        "ExpAdvice": "Er is een tijdelijk netwerkprobleem. De telefoon functioneert naar behoren.",
+        "ExpDetail": "1. Fouten bij uitgaande oproepen: %1<br>2. Fouten bij inkomende oproepen: %2<br>3. Afgebroken oproepen: %3",
+        "ResultLevel": 0
+    },
+    "t05010145": {
+        "ExpAdvice": "Update beschikbaar",
+        "ExpDetail": "1. Fouten bij uitgaande oproepen: %1<br>2. Fouten bij inkomende oproepen: %2<br>3. Afgebroken oproepen: %3",
+        "ResultLevel": 10
+    },
+    "t05010146": {
+        "ExpAdvice": "Er is mogelijk een probleem met de netwerkcompatibiliteit. Neem contact op met de netwerkprovider om te controleren of de netwerkomgeving normaal is, of neem contact op met onze technici om het probleem te reproduceren logboekregistratie uit te voeren.",
+        "ExpDetail": "1. Fouten bij uitgaande oproepen: %1<br>2. Fouten bij inkomende oproepen: %2<br>3. Afgebroken oproepen: %3",
+        "ResultLevel": 0
+    },
+    "t05010147": {
+        "ExpAdvice": "Er is mogelijk een probleem met de netwerkcompatibiliteit. Neem contact op met de netwerkprovider om te controleren of de netwerkomgeving normaal is, of neem contact op met onze technici om het probleem te reproduceren logboekregistratie uit te voeren.",
+        "ExpDetail": "1. Fouten bij uitgaande oproepen: %1<br>2. Fouten bij inkomende oproepen: %2<br>3. Afgebroken oproepen: %3",
+        "ResultLevel": 10
+    },
+    "t05020101": {
+        "ExpAdvice": "1. Probeer het met andere telefoons van dezelfde provider. Als het probleem zich blijft voordoen, neemt u contact op met de provider voor verdere verwerking.<br>2. Als het meestal gebeurt rond dezelfde tijd, vraagt u de klant op welke locaties deze zich dan bevindt. Het is normaal dat het signaal zwak is in kelders, garages, openbare ruimtes met veel verkeer en rijdende voertuigen.<br>3. Vraag de klant of deze een metalen of van een metaallaagje voorzien beschermhoesje gebruikt.<br>4. Controleer de PA-prestaties van de telefoon om er zeker van te zijn dat de RF-transmissie- en -ontvangstprestaties normaal zijn (met inbegrip van alle banden van 2G, 3G en 4G).",
+        "ExpDetail": "De locatie van het zwakke signaal in de afgelopen %1 dagen is meer geconcentreerd",
+        "ResultLevel": 10
+    },
+    "t05020110": {
+        "ExpAdvice": "1. Controleer de simkaart goed is geplaatst.<br>2. Controleer of het netwerk van de provider stabiel is en of het probleem zich alleen in specifieke gebieden voordoet.<br>3. Controleer of het probleem zich ook voordoet op een ander apparaat.<br>4. Start het apparaat opnieuw op of schakel de vliegtuigmodus in om te controleren op problemen.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05020201": {
+        "ExpAdvice": "1. Vraag de klant of deze een metalen of van een metaallaagje voorzien beschermhoesje gebruikt.<br>2. Als de klant telefoons gebruiken op plaatsen met een zwak signaal, zoals kelders, garages, openbare ruimtes met veel verkeer en rijdende voertuigen.<br>3. Als er gedurende langere tijd en consistent op dezelfde plaatsen een zwak signaal aanwezig is, kan dit signaalproblemen veroorzaken.<br>4. Controleer de PA-prestaties van de telefoon met tools om de PA-ontvangstprestaties te testen (inclusief alle banden van 2G, 3G en 4G).",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05050102": {
+        "ExpAdvice": "1. Zorg ervoor dat u de telefoon tijdens het testen niet aanraakt.<br>2. Als het probleem aanhoudt, vervangt u de hardware. Mogelijk zijn er problemen met sommige frequentiebanden.",
+        "ExpDetail": "Foutband: %1",
+        "ResultLevel": 10
+    },
+    "t05050103": {
+        "ExpAdvice": "Starten van de test mislukt. Bevestig dat de simkaart is verwijderd.",
+        "ExpDetail": "Simkaart niet verwijderd"
+    },
+    "t05050104": {
+        "ExpAdvice": "Starten van de test mislukt. Bevestig dat de vliegtuigmodus is uitgeschakeld.",
+        "ExpDetail": "Vliegtuigmodus aan"
+    },
+    "t05050105": {
+        "ExpAdvice": "De test kon niet worden voltooid. Start de telefoon opnieuw op en test deze functie nogmaals.",
+        "ExpDetail": "Fout in modemmodus"
+    },
+    "t05050106": {
+        "ExpAdvice": "De test kon niet worden voltooid. Start de telefoon opnieuw op en test deze functie nogmaals.",
+        "ExpDetail": "Fout in de testprocedure"
+    },
+    "t05050107": {
+        "ExpAdvice": "Zorg ervoor dat uw telefoon voldoende is opgeladen en test deze functie opnieuw.",
+        "ExpDetail": "Laag batterijniveau"
+    },
+    "t05050108": {
+        "ExpAdvice": "RF-test voltooid. Uw telefoon wordt automatisch opnieuw opgestart ervoor te zorgen dat alle functies correct werken.",
+        "ExpDetail": "RF-test geslaagd."
+    },
+    "t05070101": {
+        "ExpAdvice": "Mogelijke oorzaken:<br>1. Controleer de netwerk- en signaalkwaliteit van de huidige omgeving. Als de signaalkwaliteit slecht is, is de kans op tijdelijke netwerkproblemen groot.<br>2. Controleer of het een probleem wordt veroorzaakt door een app van derden.<br>Suggesties:<br> In geval van een netwerkprobleem, vraagt u de klant zelf te proberen het probleem op te lossen, bijvoorbeeld door de Vliegtuigmodus en mobiele data in- en uit te schakelen, de APN-instellingen opnieuw in te stellen, de simkaart te verwijderen en weer terug te plaatsen zonder de telefoon uit te schakelen, enz. Neem contact op met de provider.",
+        "ExpDetail": "Automatische gegevensontkoppeling; uplink gegenereerd zonder downlink (een soort netwerkcongestie); APN-gerelateerde fouten tijdens het inbelproces; afsluiting van het netwerk vanwege achterstallige betaling; de snelheid van het datanetwerk wordt beperkt wanneer de datalimiet wordt bereikt; inbelverbinding mislukt",
+        "ResultLevel": 10
+    },
+    "t05071101": {
+        "ExpAdvice": "APN handmatig toegevoegd door de klant. Terugzetten naar de standaard APN.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05071102": {
+        "ExpAdvice": "1. Controleer of de simkaart juist is geplaatst.<br>2. Controleer of mobiele data is opgeschort vanwege onbetaalde facturen of overschrijving van de datalimiet.<br>3. Zet mobiele data en de vliegtuigmodus aan en uit, of start het apparaat opnieuw op.<br>4. Controleer of er een probleem is met het netwerk van de provider.",
+        "ExpDetail": "Fout in datanetwerk gedetecteerd. Dit kan worden veroorzaakt door problemen met de netwerkverbinding.",
+        "ResultLevel": 10
+    },
+    "t05071103": {
+        "ExpAdvice": "1. Controleer of er achterstallige telefoonrekeningen zijn voor de telefoon en of er een snelheidslimiet geldt.<br>2. Voer een PA-test uit om te controleren of de radiofrequentie normaal is.<br>3. Als de radiofrequentie normaal is, neemt u contact op met het lokale netwerkoptimalisatiepersoneel om het probleem te reproduceren en logboeken te registreren.<br>4. Als geen netwerkoptimalisatiepersoneel beschikbaar is of de klant niet akkoord gaat met het reproduceren van het probleem, flasht u een nieuwe ROM.<br>5. Controleer 10 dagen nadat de ROM is geflasht of het probleem nog steeds bestaat. Als het probleem nog steeds bestaat, behandelt u het als een hardwareprobleem.",
+        "ExpDetail": "Fout in datanetwerk gedetecteerd. Dit kan zijn veroorzaakt door telefoonproblemen.",
+        "ResultLevel": 10
+    },
+    "t05071201": {
+        "ExpAdvice": "APN handmatig toegevoegd door de klant. Terugzetten naar de standaard APN.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05071202": {
+        "ExpAdvice": "De datasnelheden zijn gelimiteerd door de provider. Neem contact op met de provider voor meer details.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05071203": {
+        "ExpAdvice": "Lokaal netwerk is instabiel. Vergelijk de netwerkomgeving met andere plaatsen. Indien bevestigd, neemt u contact op met uw netwerkprovider om de netwerkomgeving te verbeteren.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05071204": {
+        "ExpAdvice": "1. Controleer dat u geen onbetaalde rekeningen hebt voor de simkaarten.<br>2. Controleer of netwerkmachtigingen zijn ingeschakeld voor apps.<br>3. Plaats de simkaart in een ander apparaat en controleer of deze goed werkt.<br>4. Zet mobiele data en de vliegtuigmodus aan en uit, of start het apparaat opnieuw op.<br>5. Controleer of er problemen zijn met het netwerk van de provider.",
+        "ExpDetail": "Fout in datanetwerk gedetecteerd. Dit kan worden veroorzaakt door problemen met de netwerkverbinding.",
+        "ResultLevel": 10
+    },
+    "t05071301": {
+        "ExpAdvice": "APN handmatig toegevoegd door de klant. Terugzetten naar de standaard APN.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05071302": {
+        "ExpAdvice": "De datasnelheden zijn gelimiteerd door de provider. Neem contact op met de provider voor meer details.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05071303": {
+        "ExpAdvice": "Het inschakelen van de Databesparingsmodus kan gevolgen hebben voor de netwerkprestaties.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05071304": {
+        "ExpAdvice": "Lokaal netwerk is instabiel. Vergelijk de netwerkomgeving met andere plaatsen. Indien bevestigd, neemt u contact op met uw netwerkprovider om de netwerkomgeving te verbeteren.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t05071305": {
+        "ExpAdvice": "1. Controleer dat u geen onbetaalde rekeningen hebt voor de simkaarten.<br>2. Controleer of netwerkmachtigingen zijn ingeschakeld voor apps.<br>3. Zet mobiele data en de vliegtuigmodus aan en uit, of start het apparaat opnieuw op.<br>4. Controleer of er problemen zijn met het netwerk van de provider.",
+        "ExpDetail": "Fout in datanetwerk gedetecteerd. Dit kan worden veroorzaakt door problemen met de netwerkverbinding.",
+        "ResultLevel": 10
+    },
+    "t05110101": {
+        "ExpAdvice": "Controleer of de radiofrequentie normaal is.",
+        "ExpDetail": "Kan niet bellen",
+        "ResultLevel": 10
+    },
+    "t05110102": {
+        "ExpAdvice": "Controleer met behulp van een oortelefoon of het probleem te maken heeft met de luidspreker bij het oor. Als dit het geval is, controleert u of de luidspreker bij het oor beschadigd is en of de onderdelen van de luidspreker bij het oor goed. Anders controleert u de audiocomponent van het moederbord.",
+        "ExpDetail": "Geen geluid tijdens gesprekken",
+        "ResultLevel": 10
+    },
+    "t05110103": {
+        "ExpAdvice": "1. Controleer of stof of vloeistof in de ontvanger (oorluidspreker) zit. Vervang het onderdeel en voer de test opnieuw uit.<br>2. Controleer de signaalverwerking door het moederbord.",
+        "ExpDetail": "Ruis tijdens het bellen",
+        "ResultLevel": 10
+    },
+    "t05110104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t05120101": {
+        "ExpAdvice": "Als er hardwareproblemen zijn die overeenkomen met de beschrijving van de klant, behandelt u deze als hardwareproblemen.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t05120201": {
+        "ExpAdvice": "Als er hardwareproblemen zijn die overeenkomen met de beschrijving van de klant, behandelt u deze als hardwareproblemen.",
+        "ExpDetail": "Totaal aantal voorvallen: %1",
+        "ResultLevel": 10
+    },
+    "t06010101": {
+        "ExpAdvice": "Ga met de telefoon naar een open gebied om een satellietzoektest uit te voeren. Normaal moet de GPS-signaalsterkte hoger zijn dan 30. Als dat niet zo is, moet u de GPS-hardware controleren.",
+        "ExpDetail": "Slecht satellietsignaal",
+        "ResultLevel": 10
+    },
+    "t06010102": {
+        "ExpAdvice": "Controleer of het GPS van het systeem is uitgeschakeld. Vraag de klant welke app het GPS niet kan gebruiken en controleer de machtigingen van de app.",
+        "ExpDetail": "GPS of verwante machtiging niet ingeschakeld",
+        "ResultLevel": 10
+    },
+    "t06010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Logboekanalyse is mislukt als gevolg van onvoldoende GPS-gegevens.",
+        "ResultLevel": 4
+    },
+    "t06010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnose is mislukt doordat GPS niet recentelijk is gebruikt. Het mislukken van de positionering kan zijn veroorzaakt doordat de locatieservice te lang uitgeschakeld is geweest.",
+        "ResultLevel": 4
+    },
+    "t06010105": {
+        "ExpAdvice": "Ga met de telefoon naar een open gebied om een satellietzoektest uit te voeren. Normaal moet de GPS-signaalsterkte hoger zijn dan 30. Als dat niet zo is, moet u de GPS-hardware controleren.",
+        "ExpDetail": "Geen satellietsignaal ontvangen binnen 3 dagen, mogelijk als gevolg van het gebruik van positionering binnenshuis. Ga naar buiten voor verificatie op locatie.",
+        "ResultLevel": 10
+    },
+    "t06010106": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnose is mislukt door onvoldoende gebruik van GPS.",
+        "ResultLevel": 4
+    },
+    "t06010107": {
+        "ExpAdvice": "Ga met de telefoon naar een open gebied om een satellietzoektest uit te voeren. Normaal moet de GPS-signaalsterkte hoger zijn dan 30. Als dat niet zo is, moet u de GPS-hardware controleren.",
+        "ExpDetail": "GPS functioneert normaal. Er kan interferentie optreden wanneer de klant probeert te navigeren tijdens het lopen.",
+        "ResultLevel": 0
+    },
+    "t06010108": {
+        "ExpAdvice": "Ga met de telefoon naar een open gebied om een satellietzoektest uit te voeren. Normaal moet de GPS-signaalsterkte hoger zijn dan 30. Als dat niet zo is, moet u de GPS-hardware controleren.",
+        "ExpDetail": "GPS functioneert normaal. Er kan interferentie optreden wanneer de klant probeert te navigeren in een voertuig.",
+        "ResultLevel": 0
+    },
+    "t06010109": {
+        "ExpAdvice": "Controleer of de GPS-antenne beschadigd of vervormd is, of slecht contact maakt.",
+        "ExpDetail": "Probleem met GPS-antenne",
+        "ResultLevel": 10
+    },
+    "t06010110": {
+        "ExpAdvice": "",
+        "ExpDetail": "Diagnose is mislukt doordat GPS niet recentelijk is gebruikt.",
+        "ResultLevel": 4
+    },
+    "t06010111": {
+        "ExpAdvice": "Verwijder het beschermhoesje en probeer het opnieuw",
+        "ExpDetail": "Er wordt een metalen beschermhoesje gebruikt",
+        "ResultLevel": 10
+    },
+    "t06010112": {
+        "ExpAdvice": "",
+        "ExpDetail": "Als \\'Wi-Fi-scannen altijd beschikbaar\\' te lang uitgeschakeld is geweest, kan dit leiden tot positioneringsfouten of onnauwkeurige positionering bij gebruik binnenshuis. Controleer of deze functie is ingeschakeld.",
+        "ResultLevel": 4
+    },
+    "t06010113": {
+        "ExpAdvice": "",
+        "ExpDetail": "Als \\'Nauwkeurigheid netwerkpositionering\\' te lang is uitgeschakeld, kan dit leiden tot positioneringsfouten of onnauwkeurige positionering bij gebruik binnenshuis. Tik op \\'Herstellen\\' om deze optie in te schakelen voor een nauwkeurigere positionering. Als u een telefoon gebruikt die is ontworpen voor gebruikers buiten het Chinese vasteland, houdt u het locatiepictogram in Snelle instellingen aangetikt om naar de pagina \\'Locatienauwkeurigheid van Google\\' te gaan en selecteert u \\'Locatienauwkeurigheid verbeteren\\'.",
+        "ResultLevel": 4
+    },
+    "t06010201": {
+        "ExpAdvice": "Dit probleem wordt veroorzaakt door de GPS-omgeving van de gebruiker en kan niet worden opgelost door vervanging. Houd de telefoon uit de buurt van externe storingsbronnen, zoals autonavigatiesystemen, middenconsoles en andere elektronische apparaten.",
+        "ExpDetail": "Interferentie met de GPS-omgeving van de gebruiker"
+    },
+    "t06020101": {
+        "ExpAdvice": "Mogelijke oorzaken:<br>(fout bij laden van firmware; fout bij laden van stuurprogramma; fout bij het koppelen van partities; andere oorzaken)<br>Suggesties:<br>1. Start het apparaat opnieuw op.<br>2. Voer een update uit naar de nieuwste versie om het probleem te controleren.",
+        "ExpDetail": "Inschakelen %1 keer mislukt",
+        "ResultLevel": 10
+    },
+    "t06020102": {
+        "ExpAdvice": "Mogelijke oorzaken: <br/>(fout bij het laden van firmware; fout bij laden van stuurprogramma; fout bij het koppelen van partities; andere oorzaken; fout bij het laden van de Wi-Fi-chip; fout in de werking van de Wi-Fi-software; fout bij het laden van configuratiebestanden van het Wi-Fi-softwaresysteemkanaal, fout bij het laden van de RF-bestanden van het Wi-Fi-softwaresysteem, fout bij het laden van de configuratiebestanden van het de firmware van het Wi-Fi-softwaresysteem ; crashes in het subsysteem)<br/>Suggestions:<br/>1. Start het apparaat opnieuw op. <br/>2. Voer een update uit naar de nieuwste versie. 3. Vraag de klant de telefoon opnieuw op te starten. <br/>4. Als het probleem zich blijft voordoen, flasht u een ROM of installeert u een OTA-update. <br/>5. Beschouw het als een hardwarefout als het een \\'dead fault\\' is. <br/>3. Als het probleem kan worden gereproduceerd, probeert u verbinding te maken met internet en te bellen via de simkaart. Als u deze 2 taken niet kunt uitvoeren, moet de modem van de netwerkmodule opnieuw worden opgestart. <br/>4. Vraag de klant de telefoon opnieuw op te starten. <br/>5. Als het probleem zich blijft voordoen, flasht u een ROM of installeert u een OTA-update. <br/>6. Beschouw het als een hardwarefout als het een \\'dead fault\\' is.",
+        "ExpDetail": "Inschakelen %1 keer mislukt",
+        "ResultLevel": 10
+    },
+    "t06020201": {
+        "ExpAdvice": "Flashen naar de nieuwste versie wordt aanbevolen.",
+        "ExpDetail": "Veelgebruikt AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020202": {
+        "ExpAdvice": "1. Instabiele netwerkverbinding veroorzaakt door de telefoon zelf: Werk deze bij naar de nieuwste versie en probeer het opnieuw.<br>2. DNS-fout: Controleer of een privé-DNS is ingesteld. Verwijder het privé-DNS als dit het geval is en controleer de router als dit niet het geval is.<br>3. Overige oorzaken: 1. Start de router opnieuw op.<br>2. Als andere telefoons die dezelfde router gebruiken hetzelfde probleem ondervinden, is het raadzaam de router te vervangen.<br>3. Wijzig het standaard routeringskanaal. Probeer het 5G-kanaal te gebruiken. Gebruik de Wi-Fi-analyzer en andere hulpmiddelen om een kanaal met minder interferentie te vinden.",
+        "ExpDetail": "Veelgebruikt AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020203": {
+        "ExpAdvice": "",
+        "ExpDetail": "De diagnose is mislukt doordat onvoldoende gegevens beschikbaar zijn.",
+        "ResultLevel": 4
+    },
+    "t06020300": {
+        "ExpAdvice": "Wi-Fi-instellingen",
+        "ExpDetail": "Instellingen voor draadloze verbindingen",
+        "ResultLevel": 4
+    },
+    "t06020301": {
+        "ExpAdvice": "Mogelijk is een mislukte poging gedaan om met verbindingssoftware het wachtwoord van de Wi-Fi-hotspot te achterhalen, waardoor de verbinding is mislukt. Aanbevolen wordt verbinding te maken met Wi-Fi in de app Instellingen.",
+        "ExpDetail": "Veelgebruikte apps: %1",
+        "ResultLevel": 10
+    },
+    "t06020302": {
+        "ExpAdvice": "",
+        "ExpDetail": "Logboekanalyse is mislukt vanwege onvoldoende verbindingen van derden",
+        "ResultLevel": 4
+    },
+    "t06020303": {
+        "ExpAdvice": "Start de router opnieuw op of gebruik andere apparaten om verbinding te maken met deze router om te controleren of er een probleem is met het toegangspunt. Als dit niet het geval is, schakelt u Wi-Fi uit en weer in of start u de telefoon opnieuw op. Als het probleem zich blijft voordoen, stuurt de telefoon op voor verdere testen.<br>(Controleer of uw wachtwoord correct is. Schakel over naar Wi-Fi voordat u verbinding maakt en controleer of het toegangspunt wordt gevonden. Controleer de route-instellingen of maak verbinding met een andere toegangspunt. Aanbevolen wordt verbinding te maken in een omgeving met een sterker signaal. Controleer of de IP-adressen correct zijn of dat alle IP-adressen zijn opgebruikt.)",
+        "ExpDetail": "Fouten in Wi-Fi-instellingen: <br>(Verkeerd wachtwoord; toegangspunt niet gevonden; fout in routerinstellingen of overbelasting van router; zwakke signalen; statisch IP-adres)",
+        "ResultLevel": 10
+    },
+    "t06020401": {
+        "ExpAdvice": "Controleer de Wi-Fi-antenne en Wi-Fi-chip.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t06020500": {
+        "ExpAdvice": "",
+        "ExpDetail": "Veelgebruikt AP: %1",
+        "ResultLevel": 10
+    },
+    "t06020501": {
+        "ExpAdvice": "Controleer of alle IP-adressen van de DHCP-server van de router in gebruik zijn.",
+        "ExpDetail": "IP-adres niet verkregen",
+        "ResultLevel": 10
+    },
+    "t06020502": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Verificatie mislukt door routerdetectiefout",
+        "ResultLevel": 10
+    },
+    "t06020503": {
+        "ExpAdvice": "Controleer of de telefoon lange tijd niet werd gebruikt na verbinding te maken met Wi-Fi.",
+        "ExpDetail": "Inactieve verbinding. Gedurende lange tijd geen gegevensoverdracht.",
+        "ResultLevel": 10
+    },
+    "t06020504": {
+        "ExpAdvice": "Controleer of de router is verbonden met te veel apparaten. Probeer de verbinding met enkele apparaten te verbreken.",
+        "ExpDetail": "Beperkte routerverbinding",
+        "ResultLevel": 10
+    },
+    "t06020505": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Geen verificatie door routerdetectiefout",
+        "ResultLevel": 10
+    },
+    "t06020506": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Geen verbinding door routerdetectiefout",
+        "ResultLevel": 10
+    },
+    "t06020507": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Telefoon is niet verbonden met het netwerk",
+        "ResultLevel": 10
+    },
+    "t06020508": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Verificatie verbinding mislukt",
+        "ResultLevel": 10
+    },
+    "t06020509": {
+        "ExpAdvice": "Geen actie nodig, aangezien dit een normaal geval is.",
+        "ExpDetail": "Router start roaming",
+        "ResultLevel": 10
+    },
+    "t06020510": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Verifiëren van volledigheid van het bericht mislukt",
+        "ResultLevel": 10
+    },
+    "t06020511": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Time-out voor handshake",
+        "ResultLevel": 10
+    },
+    "t06020512": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Time-out tijdens bijwerken van sleutel door routerdetectiefout",
+        "ResultLevel": 10
+    },
+    "t06020513": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Ongeldige sleutel",
+        "ResultLevel": 10
+    },
+    "t06020514": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Controleer op ernstig frameverlies",
+        "ResultLevel": 10
+    },
+    "t06020515": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Telefoonroaming mislukt",
+        "ResultLevel": 10
+    },
+    "t06020516": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Telefoonmodules herstellen automatisch",
+        "ResultLevel": 10
+    },
+    "t06020517": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Inactieve router",
+        "ResultLevel": 10
+    },
+    "t06020518": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Time-out opgetreden bij beacon",
+        "ResultLevel": 10
+    },
+    "t06020519": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Schakelen van communicatiekanaal mislukt",
+        "ResultLevel": 10
+    },
+    "t06020520": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Kan geen verbinding maken doordat een time-out is opgetreden bij het beacon",
+        "ResultLevel": 10
+    },
+    "t06020521": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Time-out opgetreden bij beacon. Verkrijgen routeradres door telefoon mislukt.",
+        "ResultLevel": 10
+    },
+    "t06020522": {
+        "ExpAdvice": "a. Werk uw app eerst bij naar de nieuwste versie.<br>b. Als het probleem zich blijft voordoen, start u de router opnieuw op of controleert u of de router goed werkt door verbinding te maken met een ander apparaat.<br>c. Als de router geen problemen vertoont, schakelt u de Wi-Fi-verbinding uit en weer in, maakt u opnieuw verbinding met de router, of schakelt u de telefoon uit en weer in om het opnieuw te proberen.<br>d. Als het probleem nog steeds niet is opgelost, voert u een logboekregistratie uit.",
+        "ExpDetail": "Onbekende oorzaak",
+        "ResultLevel": 10
+    },
+    "t06020601": {
+        "ExpAdvice": "1. Vraag de klant de telefoon opnieuw op te starten.<br>2. Als het probleem zich blijft voordoen, flasht u een nieuwe ROM of voert u een update uit naar de nieuwste systeemversie.<br>3. Als het probleem zich blijft voordoen, behandelt u het als een hardwareprobleem.",
+        "ExpDetail": "Problemen met Wi-Fi-firmware",
+        "ResultLevel": 10
+    },
+    "t06020602": {
+        "ExpAdvice": "Ga naar \\'Instellingen - Verbinding en delen - Persoonlijke hotspot - Hotspot-instellingen\\'. Stel \\'Beveiliging\\' in op \\'WPA2 PSK\\' en stel \\'AP-band\\' in op \\'2,4 GHz-band\\', schakel \\'Zichtbaar voor andere apparaten\\' in en schakel \\'Wi-Fi 6-hotspot\\' uit. Schakel vervolgens \\'Persoonlijke hotspot\\' in.",
+        "ExpDetail": "Overige oorzaken voor Wi-Fi-hotspotfout",
+        "ResultLevel": 10
+    },
+    "t06020603": {
+        "ExpAdvice": "Ga naar \\'Instellingen - Verbinding en delen - Persoonlijke hotspot - Hotspot-instellingen\\'. Stel \\'Beveiliging\\' in op \\'WPA2 PSK\\' en stel \\'AP-band\\' in op \\'2,4 GHz-band\\', schakel \\'Zichtbaar voor andere apparaten\\' in en schakel \\'Wi-Fi 6-hotspot\\' uit. Schakel vervolgens \\'Persoonlijke hotspot\\' in.",
+        "ExpDetail": "Overige oorzaken voor Wi-Fi-hotspotfout",
+        "ResultLevel": 10
+    },
+    "t06020604": {
+        "ExpAdvice": "Dit probleem kan zijn veroorzaakt door LTE-signaalinterferentie. Ga naar \\'Instellingen - Verbinding en delen - Persoonlijke hotspot - Hotspot-instellingen\\'. Stel \\'Beveiliging\\' in op \\'WPA2 PSK\\' en stel \\'AP-band\\' in op \\'2,4 GHz-band\\', schakel \\'Zichtbaar voor andere apparaten\\' in en schakel \\'Wi-Fi 6-hotspot\\' uit. Schakel vervolgens \\'Persoonlijke hotspot\\' in.",
+        "ExpDetail": "Geen beschikbare kanalen",
+        "ResultLevel": 10
+    },
+    "t06020605": {
+        "ExpAdvice": "Ga naar \\'Instellingen - Verbinding en delen - Persoonlijke hotspot - Hotspot-instellingen\\'. Stel \\'Beveiliging\\' in op \\'WPA2 PSK\\' en stel \\'AP-band\\' in op \\'2,4 GHz-band\\', schakel \\'Zichtbaar voor andere apparaten\\' in en schakel \\'Wi-Fi 6-hotspot\\' uit. Schakel vervolgens \\'Persoonlijke hotspot\\' in.",
+        "ExpDetail": "Hotspot-configuratie niet ondersteund",
+        "ResultLevel": 10
+    },
+    "t06020606": {
+        "ExpAdvice": "1. Vraag de klant de telefoon opnieuw op te starten.<br>2. Als het probleem zich blijft voordoen, flasht u een nieuwe ROM of voert u een update uit naar de nieuwste systeemversie.<br>3. Als het probleem zich blijft voordoen, behandelt u het als een hardwareprobleem.",
+        "ExpDetail": "Problemen met Wi-Fi-firmware",
+        "ResultLevel": 10
+    },
+    "t06020701": {
+        "ExpAdvice": "Als de klant thuis geen netwerktoegang heeft, wordt dit waarschijnlijk veroorzaakt door onjuiste instellingen of problemen met de verbinding met de optische modem en de router. Vraag de klant de DHCP-configuratie van de router te wijzigen of contact op te nemen met de netwerkprovider voor assistentie.",
+        "ExpDetail": "Conflict dynamisch IP-toewijzing op router (DHCP)",
+        "ResultLevel": 10
+    },
+    "t06020801": {
+        "ExpAdvice": "Als de klant thuis geen netwerktoegang heeft, wordt dit waarschijnlijk veroorzaakt door onjuiste instellingen of problemen met de verbinding met de optische modem en de router. Vraag de klant de gatewayconfiguratie van de router te wijzigen of contact op te nemen met de netwerkprovider voor assistentie.",
+        "ExpDetail": "Gateway-conflict",
+        "ResultLevel": 10
+    },
+    "t06020901": {
+        "ExpAdvice": "Vraag de klant de telefoon te verbinden met een 5 GHz Wi-Fi-netwerk en het gebruik van Bluetooth-oortelefoons te vermijden wanneer de telefoon is verbonden met een 2,4 GHz Wi-Fi-netwerk.",
+        "ExpDetail": "Lage netwerksnelheid vanwege conflict tussen Bluetooth en Wi-Fi",
+        "ResultLevel": 10
+    },
+    "t06021001": {
+        "ExpAdvice": "Het statische IP-adres is onjuist. Stel een juiste waarde in.",
+        "ExpDetail": "Onjuist statisch IP-adres",
+        "ResultLevel": 10
+    },
+    "t06021002": {
+        "ExpAdvice": "Het privé-DNS-adres is onjuist. Stel een juiste waarde in.",
+        "ExpDetail": "Onjuiste privé-DNS",
+        "ResultLevel": 10
+    },
+    "t06021003": {
+        "ExpAdvice": "De VPN-instelling is onjuist. Stel een juiste waarde in.",
+        "ExpDetail": "Onjuiste VPN-instellingen",
+        "ResultLevel": 10
+    },
+    "t06030101": {
+        "ExpAdvice": "Controleer vervolgens de Bluetooth-antenne en Bluetooth-chip.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t06030201": {
+        "ExpAdvice": "1. Als het probleem kan worden opgelost door de telefoon opnieuw op te starten, flasht u een nieuwe ROM of voert u een update uit naar de nieuwste systeemversie.<br>2. Als de klant de functie Meerdere gebruikers gebruikt, vraagt u de klant Bluetooth uit te schakelen alvorens over te schakelen naar een andere gebruiker.<br>3. Als het probleem zich blijft voordoen nadat de telefoon opnieuw is opgestart of nadat een nieuwe ROM is geflasht, dient u een hardwareprobleemticket in.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t06030202": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inschakelen Bluetooth (BT) mislukt",
+        "ResultLevel": 10
+    },
+    "t06030203": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inschakelen Bluetooth-services mislukt",
+        "ResultLevel": 10
+    },
+    "t06030204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inschakelen Bluetooth Low Energy (BLE) mislukt",
+        "ResultLevel": 10
+    },
+    "t06030301": {
+        "ExpAdvice": "Controleer de details van het probleem.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t06030302": {
+        "ExpAdvice": "1. Als het probleem zich voordoet op een plaats met veel draadloze apparaten (zoals luchthavens of treinstations), vraagt u de klant de telefoon te gebruiken op plaatsen met minder draadloze apparaten in de omgeving.<br>2. Vraag de klant de telefoon te verbinden met een Wi-Fi-netwerk van 5 GHz of hoger, aangezien een Wi-Fi-netwerk van 2,4 GHz de Bluetooth-verbindingen kan beïnvloeden. Laat de klant indien nodig zien hoe deze router kan instellen op de 5 GHz-frequentieband.",
+        "ExpDetail": "Sterke omgevingsinterferenties of Wi-Fi-impact<br>",
+        "ResultLevel": 10
+    },
+    "t06030303": {
+        "ExpAdvice": "Breng een Bluetooth-verbinding tot stand vanaf de %1 zijde en zorg ervoor dat het peer-apparaat voldoende batterijvermogen heeft. (De master/slave-modus kan bij sommige oortelefoons veranderen als de batterij bijna leeg is, wat verbindingsproblemen kan veroorzaken.)<br>",
+        "ExpDetail": "Fout bij schakelen Bluetooth-rollen<br>",
+        "ResultLevel": 10
+    },
+    "t06030304": {
+        "ExpAdvice": "1. Ontkoppel het apparaat van de telefoon. Houd vervolgens de knop op het apparaat ingedrukt om het opnieuw te koppelen.<br>2. Stel het apparaat opnieuw in.<br>3. Werk het bij naar de nieuwste systeemversie.<br>4. Als het probleem zich niet voordoet op andere telefoons van hetzelfde model en het probleem zich blijft voordoen nadat een nieuw ROM is geflasht, dient u een hardwareprobleemticket in.<br>",
+        "ExpDetail": "Overige<br>",
+        "ResultLevel": 10
+    },
+    "t06040101": {
+        "ExpAdvice": "Controleer of de NFC-antenne ontbreekt of dat de NFC-module niet geldig is.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t07020101": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Inschakelen mislukt",
+        "ResultLevel": 10
+    },
+    "t07020102": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Onscherpe of wazige schermen bij het maken van foto\\'s",
+        "ResultLevel": 10
+    },
+    "t07020103": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Onjuiste kleuren",
+        "ResultLevel": 10
+    },
+    "t07020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t07020105": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de hoofdcamera aan de voorkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020106": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de secundaire camera aan de voorkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020112": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020201": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Inschakelen mislukt",
+        "ResultLevel": 10
+    },
+    "t07020202": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Onscherpe of wazige schermen bij het maken van foto\\'s",
+        "ResultLevel": 10
+    },
+    "t07020203": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Onjuiste kleuren",
+        "ResultLevel": 10
+    },
+    "t07020204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t07020205": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de hoofdcamera aan de achterkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020206": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de groothoekcamera aan de achterkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020207": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de telelenscamera aan de achterkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020208": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de hoofdcamera aan de achterkant of de groothoekcamera aan de achterkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020209": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de hoofdcamera aan de achterkant of de telelenscamera aan de achterkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020210": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de groothoekcamera aan de achterkant of de telelenscamera aan de achterkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020211": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "Kan de hoofdcamera aan de achterkant, de groothoekcamera aan de achterkant of de telelenscamera aan de achterkant niet gebruiken",
+        "ResultLevel": 10
+    },
+    "t07020212": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van de camera of vervang de camera en voer een test uit.",
+        "ExpDetail": "%1",
+        "ResultLevel": 10
+    },
+    "t07020501": {
+        "ExpAdvice": "",
+        "ExpDetail": "Afwijkende cameraparameters. Sluit uw telefoon aan en kalibreer en herstel de parameters.",
+        "ResultLevel": 10
+    },
+    "t08010101": {
+        "ExpAdvice": "Controleer of er stof of vloeistof in de luidspreker bij het oor zit. Vervang het onderdeel en voer de test opnieuw uit.",
+        "ExpDetail": "Laag volume",
+        "ResultLevel": 10
+    },
+    "t08010102": {
+        "ExpAdvice": "Controleer of er stof of vloeistof in de luidspreker bij het oor zit. Vervang het onderdeel en voer de test opnieuw uit.",
+        "ExpDetail": "Ruis",
+        "ResultLevel": 10
+    },
+    "t08010103": {
+        "ExpAdvice": "Schakel over naar de luidspreker om te controleren of het probleem in verband staat met de luidspreker. Als dit het geval is, controleert u of de luidspreker bij het oor is beschadigd en of de interface is aangesloten. Anders controleert u de audiocomponent van het moederbord.",
+        "ExpDetail": "Geen geluid",
+        "ResultLevel": 10
+    },
+    "t08010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t08020101": {
+        "ExpAdvice": "Controleer of er stof of vloeistof in de luidspreker bij het oor zit. Vervang het onderdeel en voer de test opnieuw uit.",
+        "ExpDetail": "Laag volume",
+        "ResultLevel": 10
+    },
+    "t08020102": {
+        "ExpAdvice": "Controleer of er stof of vloeistof in de luidspreker bij het oor zit. Vervang het onderdeel en voer de test opnieuw uit.",
+        "ExpDetail": "Ruis",
+        "ResultLevel": 10
+    },
+    "t08020103": {
+        "ExpAdvice": "Schakel over naar de luidspreker bij het oor om te controleren of het probleem in verband staat met de luidspreker bij het oor. Als dit het geval is, controleert u of de luidspreker is beschadigd en of de interface is aangesloten. Anders controleert u de audiocomponent van het moederbord.",
+        "ExpDetail": "Geen geluid",
+        "ResultLevel": 10
+    },
+    "t08020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t08030101": {
+        "ExpAdvice": "Controleer of er stof of vloeistof in de microfoon zit. Vervang het onderdeel en voer de test opnieuw uit.",
+        "ExpDetail": "Laag volume",
+        "ResultLevel": 10
+    },
+    "t08030102": {
+        "ExpAdvice": "Controleer of er stof of vloeistof in de microfoon zit. Vervang het onderdeel en voer de test opnieuw uit.",
+        "ExpDetail": "Ruis",
+        "ResultLevel": 10
+    },
+    "t08030103": {
+        "ExpAdvice": "Controleer of de microfoon geblokkeerd is. Vervang de microfoon en controleer of het probleem is opgelost.",
+        "ExpDetail": "Onderbroken geluid",
+        "ResultLevel": 10
+    },
+    "t08030104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t08030201": {
+        "ExpAdvice": "Controleer of het microfoongaatje door stof of vloeistof wordt geblokkeerd. Als het geluid zo zacht is dat het bijna stil is, vervangt u de microfoon en test u het opnieuw.",
+        "ExpDetail": "Laag volume",
+        "ResultLevel": 10
+    },
+    "t08030202": {
+        "ExpAdvice": "Vervang de microfoon en voer de test opnieuw uit.",
+        "ExpDetail": "Ruis",
+        "ResultLevel": 10
+    },
+    "t08030203": {
+        "ExpAdvice": "Vervang de microfoon en voer de test opnieuw uit.",
+        "ExpDetail": "Geen geluid",
+        "ResultLevel": 10
+    },
+    "t08030204": {
+        "ExpAdvice": "Controleer of het microfoongaatje door stof of vloeistof wordt geblokkeerd. Als het geluid zo zacht is dat het bijna stil is, vervangt u de microfoon en test u het opnieuw.",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t08030301": {
+        "ExpAdvice": "Controleer of het microfoongaatje door stof of vloeistof wordt geblokkeerd. Als het geluid zo zacht is dat het bijna stil is, vervangt u de microfoon en test u het opnieuw.",
+        "ExpDetail": "Laag volume",
+        "ResultLevel": 10
+    },
+    "t08030302": {
+        "ExpAdvice": "Vervang de microfoon en voer de test opnieuw uit.",
+        "ExpDetail": "Ruis",
+        "ResultLevel": 10
+    },
+    "t08030303": {
+        "ExpAdvice": "Vervang de microfoon en voer de test opnieuw uit.",
+        "ExpDetail": "Geen geluid",
+        "ResultLevel": 10
+    },
+    "t08030304": {
+        "ExpAdvice": "Controleer of het microfoongaatje door stof of vloeistof wordt geblokkeerd. Als het geluid zo zacht is dat het bijna stil is, vervangt u de microfoon en test u het opnieuw.",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t08030401": {
+        "ExpAdvice": "Controleer of het microfoongaatje door stof of vloeistof wordt geblokkeerd. Als het geluid zo zacht is dat het bijna stil is, vervangt u de microfoon en test u het opnieuw.",
+        "ExpDetail": "Laag volume",
+        "ResultLevel": 10
+    },
+    "t08030402": {
+        "ExpAdvice": "Vervang de microfoon en voer de test opnieuw uit.",
+        "ExpDetail": "Ruis",
+        "ResultLevel": 10
+    },
+    "t08030403": {
+        "ExpAdvice": "Vervang de microfoon en voer de test opnieuw uit.",
+        "ExpDetail": "Geen geluid",
+        "ResultLevel": 10
+    },
+    "t08030404": {
+        "ExpAdvice": "Controleer of het microfoongaatje door stof of vloeistof wordt geblokkeerd. Als het geluid zo zacht is dat het bijna stil is, vervangt u de microfoon en test u het opnieuw.",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t08040101": {
+        "ExpAdvice": "Controleer of de oortelefoonaansluiting is geblokkeerd en of er vloeistof in zit.",
+        "ExpDetail": "Oortelefoonpictogram niet weergegeven",
+        "ResultLevel": 10
+    },
+    "t08040102": {
+        "ExpAdvice": "Controleer of de oortelefoonaansluiting is geblokkeerd en of er vloeistof in zit.",
+        "ExpDetail": "Niet compatibel met testoortelefoons",
+        "ResultLevel": 10
+    },
+    "t08040104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t08041101": {
+        "ExpAdvice": "Controleer de oortelefoonaansluiting en andere componenten",
+        "ExpDetail": "Oortelefoon niet herkend of niet ondersteund",
+        "ResultLevel": 10
+    },
+    "t08041102": {
+        "ExpAdvice": "Controleer de impedantie van de microfoon om te zien of deze meerdere milliohms bedraagt",
+        "ExpDetail": "Hoofdtelefoon met hoge impedantie",
+        "ResultLevel": 10
+    },
+    "t08041103": {
+        "ExpAdvice": "Controleer of de klant oortelefoons met ruisonderdrukking gebruikt",
+        "ExpDetail": "Hoofdtelefoon met ruisonderdrukking",
+        "ResultLevel": 10
+    },
+    "t08041104": {
+        "ExpAdvice": "Voer een update uit naar de nieuwste versie. Als het probleem zich blijft voordoen, controleert u of een andere oortelefoonset wel wordt herkend. Als hetzelfde probleem zich blijft voordoen, legt u audiologboeken vast waarin melding wordt gemaakt van het probleem, slaat u deze op, stuurt u deze ter analyse naar de ontwikkelaar en vervangt u de printplaat waarop de USB-aansluiting zicht bevindt voor kuisvalidatie.",
+        "ExpDetail": "Uitzonderingen deden zich voor bij het schakelen tussen de schakelchips (alleen van toepassing op modellen met een Type-C oortelefoonaansluiting) of de USB-modules",
+        "ResultLevel": 10
+    },
+    "t09020101": {
+        "ExpAdvice": "Bevestig of het binnen het standaardbereik valt. Als dit niet het geval is, vervangt u het beeldschermonderdeel.",
+        "ExpDetail": "Dode pixels",
+        "ResultLevel": 10
+    },
+    "t09020102": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van het beeldscherm of vervang het beeldschermonderdeel.",
+        "ExpDetail": "Wazige schermen",
+        "ResultLevel": 10
+    },
+    "t09020103": {
+        "ExpAdvice": "Controleer de BTB-aansluiting van het beeldscherm of vervang het beeldschermonderdeel.",
+        "ExpDetail": "Onjuiste kleuren",
+        "ResultLevel": 10
+    },
+    "t09020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t09021101": {
+        "ExpAdvice": "Sluit apps die op de achtergrond draaien en controleer de netwerkverbinding",
+        "ExpDetail": "Gevallen van zwarte schermen, knipperende schermen en wazige schermen: %1",
+        "ResultLevel": 10
+    },
+    "t09021102": {
+        "ExpAdvice": "Controleer of het beeldscherm beschadigd is of verstoord is door statische elektriciteit",
+        "ExpDetail": "Gevallen van zwarte schermen, knipperende schermen en wazige schermen: %1",
+        "ResultLevel": 10
+    },
+    "t09021103": {
+        "ExpAdvice": "Controleer de GPU-chip",
+        "ExpDetail": "Gevallen van zwarte schermen, knipperende schermen en wazige schermen: %1",
+        "ResultLevel": 10
+    },
+    "t09021104": {
+        "ExpAdvice": "Controleer de GPU-chip",
+        "ExpDetail": "Gevallen van zwarte schermen, knipperende schermen en wazige schermen: %1",
+        "ResultLevel": 10
+    },
+    "t09021105": {
+        "ExpAdvice": "Controleer de GPU-chip",
+        "ExpDetail": "Gevallen van zwarte schermen, knipperende schermen en wazige schermen: %1",
+        "ResultLevel": 10
+    },
+    "t09021401": {
+        "ExpAdvice": "Tik op de knop om logbestanden te uploaden voor analyse door technici",
+        "ExpDetail": "Voorvallen van vastgelopen schermen waardoor het apparaat opnieuw werd opgestart: %1",
+        "ResultLevel": 10
+    },
+    "t09021402": {
+        "ExpAdvice": "Hardware-uitzondering. Upload logboeken naar de ontwikkelaar voor analyse. Als de telefoon niet kan worden ingeschakeld, moet u deze terugsturen voor onderzoek.",
+        "ExpDetail": "Voorvallen van vastgelopen schermen waardoor het apparaat opnieuw werd opgestart: %1",
+        "ResultLevel": 10
+    },
+    "t09030101": {
+        "ExpAdvice": "Het schermweergave-effect is abnormaal. Geadviseerd wordt de telefoon tijdig aan te sluiten en te kalibreren om dit probleem te verhelpen.",
+        "ExpDetail": "Abnormale schermweergave",
+        "ResultLevel": 10
+    },
+    "t1": {
+        "ExpAdvice": "",
+        "ExpDetail": "Normaal",
+        "ResultLevel": 0
+    },
+    "t10": {
+        "ExpAdvice": "Alle apps",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t10010101": {
+        "ExpAdvice": "Controleer de vingerafdrukinterface of vervang het vingerafdrukonderdeel.",
+        "ExpDetail": "Vingerafdruksensor werkt niet of is ongevoelig",
+        "ResultLevel": 10
+    },
+    "t10010102": {
+        "ExpAdvice": "We raden aan om de fabrieksinstellingen van het apparaat te herstellen, omdat anders de werking van vingerafdrukfuncties wordt beïnvloed.",
+        "ExpDetail": "Uitzondering voor de OEM-vergrendeling",
+        "ResultLevel": 10
+    },
+    "t10010103": {
+        "ExpAdvice": "We raden aan om de vingerafdruksensor te laten vervangen.",
+        "ExpDetail": "Uitzondering voor vingerafdruksensor",
+        "ResultLevel": 10
+    },
+    "t10010104": {
+        "ExpAdvice": "Kalibreer de vingerafdruksensor opnieuw",
+        "ExpDetail": "Gegevens van de vingerafdrukkalibratie komen niet overeen",
+        "ResultLevel": 10
+    },
+    "t10020101": {
+        "ExpAdvice": "Controleer de module van de infraroodsensor of het moederbord.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t10030101": {
+        "ExpAdvice": "Controleer de module van de lichtintensiteitssensor of het moederbord.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t10040101": {
+        "ExpAdvice": "Controleer de zwaartekrachtsensormodule van het moederbord.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t10040102": {
+        "ExpAdvice": "We raden aan om naar het servicecentrum te gaan en in de engineeringmodus 'Zelftest en kalibratie van sensor' uit te voeren om de versnellingsmeter te kalibreren. Als de kalibratie mislukt, is de versnellingsmeter mogelijk beschadigd en moet hij worden",
+        "ExpDetail": "Versnellingsgegevens onnauwkeurig",
+        "ResultLevel": 10
+    },
+    "t10050101": {
+        "ExpAdvice": "Controleer de geomagnetische sensormodule van het moederbord.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t10060101": {
+        "ExpAdvice": "Controleer de gyroscoopmodule van het moederbord.",
+        "ExpDetail": "Mislukt",
+        "ResultLevel": 10
+    },
+    "t10060102": {
+        "ExpAdvice": "We raden aan om naar het servicecentrum te gaan en in de engineeringmodus 'Zelftest en kalibratie van sensor' uit te voeren om de gyroscoop te kalibreren. Als de kalibratie mislukt, is de gyroscoop mogelijk beschadigd en moet hij worden vervangen.",
+        "ExpDetail": "Gyroscoopgegevens onnauwkeurig",
+        "ResultLevel": 10
+    },
+    "t10070101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kan stuurprogramma niet laden"
+    },
+    "t10070102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kan code niet verzenden"
+    },
+    "t10070104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige"
+    },
+    "t11010101": {
+        "ExpAdvice": "Test elke zijknop op kortsluiting of open circuitfouten.",
+        "ExpDetail": "Knop reageert niet",
+        "ResultLevel": 10
+    },
+    "t11010102": {
+        "ExpAdvice": "Test elke zijknop op kortsluiting of open circuitfouten.",
+        "ExpDetail": "Onjuiste knopfuncties",
+        "ResultLevel": 10
+    },
+    "t11010103": {
+        "ExpAdvice": "Test elke zijknop op kortsluiting of open circuitfouten.",
+        "ExpDetail": "Aanraakgevoeligheid slecht",
+        "ResultLevel": 10
+    },
+    "t11010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t12010101": {
+        "ExpAdvice": "",
+        "ExpDetail": "Zaklamp werkt niet"
+    },
+    "t12010102": {
+        "ExpAdvice": "",
+        "ExpDetail": "Lage helderheid"
+    },
+    "t12010103": {
+        "ExpAdvice": "",
+        "ExpDetail": "Onjuiste kleuren"
+    },
+    "t12010201": {
+        "ExpAdvice": "Vervang de flitser of controleer het aandrijfcircuit van de flitser.",
+        "ExpDetail": "Zaklamp werkt niet",
+        "ResultLevel": 10
+    },
+    "t12010202": {
+        "ExpAdvice": "Vervang de flitser of controleer het aandrijfcircuit van de flitser.",
+        "ExpDetail": "Lage schermhelderheid",
+        "ResultLevel": 10
+    },
+    "t12010204": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t12020101": {
+        "ExpAdvice": "Vervang de motor of controleer het motoraandrijfcircuit.",
+        "ExpDetail": "Geen trilling",
+        "ResultLevel": 10
+    },
+    "t12020102": {
+        "ExpAdvice": "Vervang de motor of controleer het motoraandrijfcircuit.",
+        "ExpDetail": "Trilprobleem",
+        "ResultLevel": 10
+    },
+    "t12020104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige",
+        "ResultLevel": 10
+    },
+    "t12020105": {
+        "ExpAdvice": "We raden aan om de motor te laten vervangen.",
+        "ExpDetail": "Schade aan motorhardware",
+        "ResultLevel": 10
+    },
+    "t16010101": {
+        "ExpAdvice": "Laat de telefoon afkoelen, zorg ervoor dat de warmte goed wordt afgevoerd en speel pas games wanneer de temperatuur van het apparaat weer normaal is.",
+        "ExpDetail": "Telefoon raakt oververhit tijdens het spelen van games",
+        "ResultLevel": 10
+    },
+    "t16020101": {
+        "ExpAdvice": "Het vertragingsprobleem is te wijten aan frameverlies in games. Zorg ervoor dat de warmte goed kan worden afgevoerd en dat uw netwerkverbinding stabiel is.",
+        "ExpDetail": "Vertraging en wegvallen van frames tijdens het spelen van games",
+        "ResultLevel": 10
+    },
+    "t16030101": {
+        "ExpAdvice": "Netwerk is instabiel tijdens het gamen. Speel games in stabiele netwerkomstandigheden.",
+        "ExpDetail": "Netwerk instabiel",
+        "ResultLevel": 10
+    },
+    "t17010101": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat meldingen zijn uitgeschakeld voor de app %1. Als u meldingen ervan wilt ontvangen, houd het app-pictogram dan aangetikt, ga naar \\'App-info - Meldingen beheren\\' en schakel de schakelaar in.",
+        "ExpDetail": "Niet ingeschakeld voor een app"
+    },
+    "t17010102": {
+        "ExpAdvice": "\\'Meldingen\\' is uitgeschakeld voor bepaalde apps, met inbegrip van %1. Hierdoor worden sommige belangrijke meldingen mogelijk niet ontvangen. Overweeg om dit in te schakelen in de instellingen van de app van derden.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17010201": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat stille meldingen zijn ingeschakeld voor de app %1. Dit betekent dat alle meldingen van de app alleen onderaan de meldingsbalk worden weergegeven. Als u de functie wilt uitschakelen, gaat u als volgt te werk: <br>① ColorOS 11: Houd het app-pictogram aangetikt, ga naar \\'App-info - Meldingen beheren - Meldingen van nieuwe berichten (meldingen bij uitnodigingen voor spraak- of video-oproepen)\\' en schakel \\'Stille meldingen inschakelen\\' uit.<br>② ColorOS 7.2: Houd het app-pictogram aangetikt, ga naar \\'App-info - Meldingen beheren\\' en schakel \\'Onderaan plaatsen\\' uit.",
+        "ExpDetail": "Stille meldingen ingeschakeld voor een app"
+    },
+    "t17010301": {
+        "ExpAdvice": "",
+        "ExpDetail": "Titel en hoofdtekst tonen"
+    },
+    "t17010302": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Meldingen op vergrendelscherm\\' is ingesteld op \\'Alleen titel weergeven\\'. Als u de inhoud van meldingen op het vergrendelscherm wilt laten weergeven, gaat u naar \\'Instellingen - Meldingen en statusbalk - Meldingen beheren - Meldingen op het vergrendelscherm\\' en wijzigt u de instelling in \\'Titel en hoofdtekst tonen\\'.",
+        "ExpDetail": "Alleen titel weergeven"
+    },
+    "t17010303": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Meldingen op vergrendelscherm\\' is ingesteld op \\'Niet weergeven\\'. Als u meldingen op het vergrendelscherm wilt laten weergeven, gaat u naar \\'Instellingen - Meldingen en statusbalk - Meldingen beheren - Meldingen op het vergrendelscherm\\' en wijzigt u de instelling in \\'Titel en hoofdtekst tonen\\' of \\'Alleen titel weergeven\\'.",
+        "ExpDetail": "Niet weergeven"
+    },
+    "t17010401": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Meldingen dempen\\' is ingeschakeld. Als u op de hoogte wilt blijven van belangrijke berichten, veegt u omlaag over de statusbalk, tikt u op \\'Meldingen dempen\\' en zet u de schakelaar uit.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17010501": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Scherm activeren wanneer meldingen worden ontvangen op het vergrendelscherm\\' is uitgeschakeld. U kunt deze schakeloptie omzetten door naar \\'Instellingen - Meldingen en statusbalk - Meldingen beheren - Meer - Scherm activeren wanneer een melding wordt ontvangen\\'.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17010502": {
+        "ExpAdvice": "\\'Scherm activeren wanneer er een melding wordt ontvangen\\' is uitgeschakeld Meldingen worden mogelijk niet onmiddellijk ontvangen wanneer uw scherm is vergrendeld. Overweeg de functie in te schakelen.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17010601": {
+        "ExpAdvice": "\\'Feedback bij meldingen reduceren\\' is ingeschakeld. wanneer u een schermvullende app gebruikt (zoals bij het bekijken van video\\'s, het spelen van games of telefonisch vergadering), zijn meldingsgeluiden zachter en trillingen minder sterk. Overweeg de functie uit te schakelen.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17010701": {
+        "ExpAdvice": "\\'Stand-by-optimalisatie\\' staat aan. Uw telefoon verbruikt minder energie en geeft minder meldingen wanneer u slaapt. Overweeg de functie uit te schakelen.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17010801": {
+        "ExpAdvice": "\\'Badge op app-pictogram\\' is uitgeschakeld voor bepaalde apps. Omdat geen badge wordt weergegeven in de rechterbovenhoek van die apps, mist u mogelijk belangrijke meldingen. Overweeg de functie in te schakelen.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17020101": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Databesparing\\' is ingeschakeld op uw telefoon. Dit betekent dat achtergrond-apps geen meldingen ontvangen. Als u meldingen wilt ontvangen, gaat u naar \\'Instellingen - Simkaart en mobiele data - Datagebruik - Databesparing\\' en zet u de schakelaar uit.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17020201": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat zowel \\'Wi-Fi\\' als \\'Mobiele data\\' zijn uitgeschakeld voor de app %1. Hierdoor kunnen geen meldingen worden ontvangen. U kunt de twee schakelopties omzetten door het app-pictogram aangetikt te houden en naar \\'App-info - Details dataverbruik\\' te gaan.",
+        "ExpDetail": "Niet ingeschakeld voor een app"
+    },
+    "t17020301": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Achtergrondgegevens\\' is uitgeschakeld voor de app %1. Dat betekent dat de app geen meldingen ontvangt wanneer deze op de achtergrond wordt uitgevoerd. U kunt de schakeloptie omzetten door het app-pictogram aangetikt te houden en naar \\'App-info - Details dataverbruik\\' te gaan.",
+        "ExpDetail": "Niet ingeschakeld voor een app"
+    },
+    "t17030101": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat app-meldingen worden beperkt door de instellingen voor energieverbruik voor de app %1. U kunt \\'Voorgrondactiviteit toestaan\\' inschakelen door het app-pictogram aangetikt te houden en naar \\'App-info - Energieverbruik\\' te gaan.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17030201": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat app-meldingen worden beperkt door de instellingen voor energieverbruik voor de app %1. U kunt \\'Achtergrondactiviteit toestaan\\' inschakelen door het app-pictogram aangetikt te houden en naar \\'App-info - Energieverbruik\\' te gaan.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17030301": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat app-meldingen worden beperkt door de instellingen voor energieverbruik voor de app %1. U kunt \\'Automatisch starten toestaan\\' inschakelen door het app-pictogram aangetikt te houden en naar \\'App-info - Energieverbruik\\' te gaan.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17030401": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat app-meldingen worden beperkt door de instellingen voor energieverbruik voor de app %1. U kunt \\'Gekoppeld opstarten toestaan\\' inschakelen door het app-pictogram aangetikt te houden en naar \\'App-info - Energieverbruik\\' te gaan.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17040101": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'App-vergrendeling\\' is ingesteld op uw telefoon, maar kan uw vergrendelingsdetails niet detecteren. Er worden geen berichten weergegeven voor de app %1. Ga naar \\'Instellingen - Privacy - App-vergrendeling\\' en controleer of de app is vergrendeld.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17040201": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'App-vergrendeling\\' is ingesteld op uw telefoon, maar kan uw vergrendelingsdetails niet detecteren. Er worden geen berichten weergegeven voor de app %1. Ga naar \\'Instellingen - Privacy - Apps verbergen\\' en controleer of de app is verborgen.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17050101": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat het geluid op uw telefoon is gedempt. Dit betekent dat u geen berichttoon hoort bij inkomende berichten. U kunt het geluid op uw telefoon weer inschakelen door naar \\'Instellingen - Geluid en trillingen - Dempen\\' te gaan.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17050201": {
+        "ExpAdvice": "Het systeem heeft gedetecteerd dat \\'Niet storen\\' is ingeschakeld op uw telefoon. Dat betekent dat u geen meldingen ontvangt bij inkomende berichten. U kunt de functie uitschakelen door naar \\'Instellingen - Geluid en trillen - Niet storen\\' te gaan.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17050202": {
+        "ExpAdvice": "\\'Niet storen\\' is ingeschakeld. Aangezien u alleen meldingen ontvangt van alarmen, timers en agenda-afspraken, mist u mogelijk een aantal andere meldingen en herinneringen. Overweeg de functie uit te schakelen.",
+        "ExpDetail": "Inschakelen"
+    },
+    "t17060101": {
+        "ExpAdvice": "\\'App klonen\\' is uitgeschakeld voor bepaalde apps, met inbegrip van %1. Als u eenvoudig wilt kunnen wisselen tussen accounts voor dezelfde app, zoekt u naar \\'App klonen\\' in Instellingen en schakelt u deze functie in.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17060201": {
+        "ExpAdvice": "\\'App klonen\\' is ingeschakeld voor sommige apps. \\'Bij gebruik van snelle functies\\' is echter ingesteld op \\'Hoofdapp openen\\'. Overweeg dit te wijzigen in \\'Altijd vragen\\'.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t17060301": {
+        "ExpAdvice": "\\'Uiterlijk retoucheren in video-oproepen\\' staat uit. Realtime retoucheren is daardoor niet beschikbaar in WeChat-videogesprekken. Overweeg de functie in te schakelen.",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t26010101": {
+        "ExpAdvice": "De status van de huidige alert slider wordt gedetecteerd als: stil, beltoon afspelen en trillen. Deze komen niet overeen met de schakelaarposities. Aanbevolen wordt het apparaat te kalibreren en te repareren.",
+        "ExpDetail": "Niet-overeenkomende schakelaarposities en weergavestatussen"
+    },
+    "t26010102": {
+        "ExpAdvice": "De status van de huidige alert slider wordt gedetecteerd als: stil, beltoon afspelen en trillen. Het systeem herkent niet elke status nadat de schakelaar is omgezet. Aanbevolen wordt het apparaat te kalibreren en te repareren. Als de reparatie mislukt, vervangt u het apparaat.",
+        "ExpDetail": "Niet alle weergavestatussen zijn verlicht"
+    },
+    "t26010104": {
+        "ExpAdvice": "",
+        "ExpDetail": "Overige"
+    },
+    "t2": {
+        "ExpAdvice": "",
+        "ExpDetail": "Niet ondersteund",
+        "ResultLevel": 6
+    },
+    "t3": {
+        "ExpAdvice": "",
+        "ExpDetail": "Kan niet analyseren wegens onvoldoende gegevens",
+        "ResultLevel": 0
+    },
+    "t4": {
+        "ExpAdvice": "Er is een uitzondering opgetreden, geen resultaten",
+        "ExpDetail": "%1"
+    },
+    "t5": {
+        "ExpAdvice": "Geen resultaat geretourneerd na time-out. Voer de test opnieuw uit!",
+        "ExpDetail": "Mislukt"
+    },
+    "t6": {
+        "ExpAdvice": "Er is een uitzondering opgetreden, geen resultaten",
+        "ExpDetail": "Mislukt"
+    },
+    "t7": {
+        "ExpAdvice": "",
+        "ExpDetail": "Inschakelen"
+    },
+    "t8": {
+        "ExpAdvice": "",
+        "ExpDetail": "Uitschakelen"
+    },
+    "t9": {
+        "ExpAdvice": "Alle apps",
+        "ExpDetail": "Inschakelen"
+    },
+    "t05050109": {
+        "ExpDetail": "Fout in mobiele frequentieband: %1",
+        "ExpAdvice": "1. Zorg ervoor dat u de telefoon tijdens het testen niet aanraakt.<br>2. Als het probleem aanhoudt, vervangt u de hardware. Mogelijk zijn er problemen met sommige frequentiebanden."
+    },
+    "t05050110": {
+        "ExpDetail": "Fout in satellietfrequentieband: %1",
+        "ExpAdvice": "1. Zorg ervoor dat u de telefoon tijdens het testen niet aanraakt.<br>2. Als het probleem aanhoudt, vervangt u de hardware. Mogelijk zijn er problemen met sommige frequentiebanden."
+    },
+    "t05050111": {
+        "ExpDetail": "Fout in mobiele en satellietfrequentieband: %1",
+        "ExpAdvice": "1. Zorg ervoor dat u de telefoon tijdens het testen niet aanraakt.<br>2. Als het probleem aanhoudt, vervangt u de hardware. Mogelijk zijn er problemen met sommige frequentiebanden."
+    },
+    "t12": {
+        "ExpAdvice": "",
+        "ExpDetail": "Hersteld",
+        "ResultLevel": 0
+    },
+    "t13": {
+        "ExpAdvice": "",
+        "ExpDetail": "Herstellen mislukt"
+    },
+    "t07110101": {
+        "ExpDetail": "Fout bij magneetveldsensor",
+        "ExpAdvice": "We adviseren de sensor te laten vervangen."
+    },
+    "t07010201": {
+        "ExpDetail": "Fout in de drukbediening",
+        "ExpAdvice": "Controleer of de BTB-connectoren goed vastzitten, of het FPC-bord van de module gescheurd is en of het antennebord, het moederbord en het FPC-bord goed werken."
+    },
+    "t22140101": {
+        "ExpDetail": "Abnormale ventilatorsnelheid",
+        "ExpAdvice": "Abnormale ventilatorsnelheid. Controleer het volgende:\n1. Inspecteer de ventilatorbladen en verwijder eventueel opgehoopt stof.\n2. Als het probleem zich na het schoonmaken blijft voordoen, vervangt u de ventilator.\n3. Als het probleem zich na het vervangen van de ventilator blijft voordoen, vervangt u het moederbord."
+    },
+    "t08030501": {
+        "ExpDetail": "Laag volume",
+        "ExpAdvice": "Controleer of het microfoongaatje door stof of vloeistof wordt geblokkeerd. Als het geluid zo zacht is dat het bijna stil is, vervangt u de microfoon en test u het opnieuw."
+    },
+    "t08030504": {
+        "ExpDetail": "Overige",
+        "ExpAdvice": "Controleer of het microfoongaatje door stof of vloeistof wordt geblokkeerd. Als het geluid zo zacht is dat het bijna stil is, vervangt u de microfoon en test u het opnieuw."
+    },
+    "t08030502": {
+        "ExpDetail": "Ruis",
+        "ExpAdvice": "Vervang de microfoon en voer de test opnieuw uit."
+    },
+    "t08030503": {
+        "ExpDetail": "Geen geluid",
+        "ExpAdvice": "Vervang de microfoon en voer de test opnieuw uit."
+    }
+}

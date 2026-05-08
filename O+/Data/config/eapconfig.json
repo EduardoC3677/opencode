@@ -1,0 +1,16 @@
+[{
+		"locale":	"CN",
+		"upload_url":	"https://log-eap.coloros.com",
+		"storage_url":	"https://ostorage-ocloud-cn.allawntech.com",
+		"download_link":	"https://eap-dl-cn.oppoer.me"
+	}, {
+		"locale":	"IN",
+		"upload_url":	"https://log-eap-in.coloros.com",
+		"storage_url":	"https://ostorage-ocloud-in.allawnos.com",
+		"download_link":	"https://eap-dl-in.oppoer.me"
+	}, {
+		"locale":	"AE,AU,BD,BH,CLJ,CO,DZ,EG,GT,ID,IL,IQ,IT,JO,JP,KE,KG,KH,KW,KZ,LA,LK,MA,MM,MX,MY,NG,NP,NZ,OM,PE,PG,PH,PK,QA,SA,SG,TH,TN,TR,UZ,VN,TW,HK",
+		"upload_url":	"https://log-eap-sg.coloros.com",
+		"storage_url":	"https://ostorage-ocloud-sg.allawnos.com",
+		"download_link":	"https://eap-dl-sg.oppoer.me"
+	}]

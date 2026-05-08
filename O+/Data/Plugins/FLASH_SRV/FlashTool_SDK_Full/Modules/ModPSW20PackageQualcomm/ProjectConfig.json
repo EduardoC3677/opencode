@@ -1,0 +1,42 @@
+[
+    {
+        "ProjectId": "19825",
+        "OnlineAuthentication": true
+    },
+    {
+        "ProjectId": "20851",
+        "OnlineAuthentication": true
+    },
+    {
+        "ProjectId": "20852",
+        "OnlineAuthentication": true
+    },
+    {
+        "ProjectId": "20853",
+        "OnlineAuthentication": true
+    },
+    {
+        "ProjectId": "2080A",
+        "OnlineAuthentication": false
+    },
+    {
+        "ProjectId": "19815",
+        "OnlineAuthentication": true
+    },
+    {
+        "ProjectId": "20857",
+        "OnlineAuthentication": true
+    },
+    {
+        "ProjectId": "20858",
+        "OnlineAuthentication": true
+    },
+    {
+        "ProjectId": "20859",
+        "OnlineAuthentication": true
+    },
+    {
+        "ProjectId": "2085A",
+        "OnlineAuthentication": true
+    }
+]

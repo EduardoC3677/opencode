@@ -1,0 +1,27 @@
+commit 8d5cd106644dbe2c0c607cb336ec49fb385bf1ef
+Author: v-qiufengling <v-qiufengling@oppo.com>
+Date:   Fri Sep 12 18:11:09 2025 +0800
+
+    [BSP.DFX.DownloadTool][1/1]{【SM8350】修复高通平台刷机漏洞问题，基于2.7版本修改，version：2.9}
+    
+    适用范围：{SM8350}
+    准入id：{OPPO-9525452}
+    分析：{
+    boot_images:http://gerrit.scm.adc.com:8080/#/c/34877445/
+    firehose_driver:http://gerrit.scm.adc.com:8080/#/c/29963156/
+    2.8版本提交会导致外网刷机失败， 基于2.7版本构建，带入方案}
+    方案：{升级firehose antirollback版本号，将旧版本的firehose失效}
+    
+    风险及影响[快/稳/省/功能/安全隐私]：{无}
+    测试建议：{刷机pass}
+    跨组依赖(topic name)：{无}
+    
+    Change-Id: I1565881447da9bdd98b2866d6f1fe27c3a051440
+    Reviewed-on: http://gerrit.scm.adc.com:8080/40196964
+    code-check: cqc <oppo_codecheck@oppo.com>
+    Reviewed-by: 张志龙-80054150 <zhzhl@oppo.com>
+    Reviewed-by: 邱锋灵-W9095385 <v-qiufengling@oppo.com>
+    almid-check: cqc <oppo_codecheck@oppo.com>
+    Reviewed-by: 郭明强-80056193 <guomingqiang@oppo.com>
+    Tested-by: 郭明强-80056193 <guomingqiang@oppo.com>
+    Tested-by: 张志龙-80054150 <zhzhl@oppo.com>

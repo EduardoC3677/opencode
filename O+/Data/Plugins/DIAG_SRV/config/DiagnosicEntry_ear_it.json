@@ -1,0 +1,171 @@
+{
+        "t0": {
+            "ExpAdvice": "",
+            "ExpDetail": "Normale",
+            "ResultLevel": 0
+        },
+        "t2": {
+            "ExpAdvice": "<br>1. La diagnosi può essere stata interrotta durante l'esame degli auricolari.<br>2. Gli auricolari in oggetto potrebbero non supportare questa voce di diagnosi.",
+            "ExpDetail": "Rilevazione problemi comuni non eseguita",
+            "ResultLevel": 6
+        },
+        "t11": {
+            "ExpAdvice": "nome:%1 <br> colore: %2 <br> alimentazione:L-R-Box: %3 <br>",
+            "ExpDetail": "%1"
+        },
+        "t10610101": {
+            "ExpAdvice": "Aggiorna all\\'ultima versione per una stabilità aumentata.",
+            "ExpDetail": "Versione obsoleta del firmware auricolari",
+            "ResultLevel": 8
+        },
+        "t10610102": {
+            "ExpAdvice": "Errore informazioni firmware auricolari %1. È suggerito il ripristino degli auricolari alle impostazioni di fabbrica.",
+            "ExpDetail": "Errore informazioni firmware auricolari %1",
+            "ResultLevel": 10
+        },
+        "t10610103": {
+            "ExpAdvice": "Controlla se le funzionalità preferite degli auricolari funzionano secondo progettazione e invia le informazioni sugli auricolari al team di post-vendita per la conferma.",
+            "ExpDetail": "Errore funzionalità preferita auricolare %1",
+            "ResultLevel": 10
+        },
+        "t10610104": {
+            "ExpAdvice": "<br>1. La diagnosi può essere stata interrotta durante l'esame degli auricolari.<br>2. Gli auricolari in oggetto potrebbero non supportare questa voce di diagnosi.",
+            "ExpDetail": "Errore numero di serie astuccio",
+            "ResultLevel": 10
+        },
+        "t10610201": {
+            "ExpAdvice": "<br>1. Questo problema può verificarsi quando le cuffie vengono caricate dopo esposizione prolungata a temperature eccessivamente alte o basse. <br>2. Lascia a riposo le cuffie a temperatura ambiente per 10 minuti prima di caricarle.",
+            "ExpDetail": "Temperatura batteria cuffie %1 anomala",
+            "ResultLevel": 10
+        },
+        "t10610301": {
+            "ExpAdvice": "<br>1. Se viene segnalato un problema di ricarica, verifica se si è già verificato prima con gli stessi criteri. <br>2. Non caricare le cuffie a temperature eccessivamente alte o basse.",
+            "ExpDetail": "Precedente temperatura batteria anomala per le cuffie %1",
+            "ResultLevel": 10
+        },
+        "t10610401": {
+            "ExpAdvice": "<br>1. Verifica che entrambe le cuffie si trovino nell\\'astuccio di ricarica. Altrimenti, verrà visualizzato un errore di ricarica. <br>2. Controlla se i pin o le sonde di ricarica all\\'interno dell\\'astuccio di ricarica sono deformati o rotti. <br>3. Controlla se i pin di ricarica delle cuffie e i pin di ricarica o le sonde dell\\'astuccio sono imbrattati di grasso/sudore o sporchi altrimenti. Se così, pulirli con un panno in cotone privo di lanugine inumidito con etanolo.",
+            "ExpDetail": "Carica anomala cuffie %1",
+            "ResultLevel": 10
+        },
+        "t10610501": {
+            "ExpAdvice": "Controlla se gli auricolari funzionano secondo progettazione e se del caso invia le informazioni sugli auricolari e il codice di errore al team di post-vendita.",
+            "ExpDetail": "Parametri di fabbrica anomali per le cuffie %1 con codice di errore %2",
+            "ResultLevel": 10
+        },
+        "t10610601": {
+            "ExpAdvice": "Ciò può comportare il mancato rilevamento dell\\'auricolare quando viene inserito nell\\'orecchio e la mancata risposta dei comandi a sfioramento. Ripristina gli auricolari alle impostazioni di fabbrica.",
+            "ExpDetail": "Parametri utente anomali per le cuffie %1 con codice di errore %2",
+            "ResultLevel": 10
+        },
+        "t10610701": {
+            "ExpAdvice": "Verifica se gli auricolari sono stati usati in ambienti con sorgenti di interferenza forte (come router Wi-Fi o stazioni base). In ambienti del genere, la disconnessione occasionale è inevitabile. È suggerito il ripristino degli auricolari alle impostazioni di fabbrica.",
+            "ExpDetail": "Blocco anomalo delle cuffie %1",
+            "ResultLevel": 10
+        },
+        "t10610801": {
+            "ExpAdvice": "Verifica se il problema si verifica in ambienti di utenza comuni e se del caso registrane la frequenza. Verifica se è presente una sorgente di interferenza forte nelle vicinanze, come router Wi-Fi e stazioni base, e ripristina le cuffie alle impostazioni di fabbrica.",
+            "ExpDetail": "Disconnessione di una delle cuffie",
+            "ResultLevel": 10
+        },
+        "t10610901": {
+            "ExpAdvice": "<br>1. Per una qualità del segnale migliore, mantieni cuffie e telefono avvicinati. <br>2. Verifica se il problema si verifica in ambienti di utenza comuni e se del caso registrane la frequenza. Verifica se è presente una sorgente di interferenza forte nelle vicinanze, come router Wi-Fi e stazioni base, e ripristina le cuffie alle impostazioni di fabbrica.",
+            "ExpDetail": "Disconnessione fra cuffie %1 e telefono",
+            "ResultLevel": 10
+        },
+        "t10611001": {
+            "ExpAdvice": "<br>1. Verifica se viene riscontrato qualcosa di anomalo con le sorgenti audio usate dagli auricolari. Se così, invia le informazioni su auricolari e risorse allo sviluppatore per le analisi. <br>2. Verifica se la latenza o potenziale latenza si verifica in ambienti di utenza comuni. Verifica se è presente una sorgente di interferenza forte nelle vicinanze, come router Wi-Fi e stazioni base, e ripristina gli auricolari alle impostazioni di fabbrica.",
+            "ExpDetail": "Latenza audio per l'auricolare %1",
+            "ResultLevel": 10
+        },
+        "t10611002": {
+            "ExpAdvice": "Verifica se la latenza o potenziale latenza si verifica in ambienti di utenza comuni. Verifica se è presente una sorgente di interferenza forte nelle vicinanze, come router Wi-Fi e stazioni base, e ripristina gli auricolari alle impostazioni di fabbrica.",
+            "ExpDetail": "Latenza in chiamata per l'auricolare %1",
+            "ResultLevel": 10
+        },
+        "t10611101": {
+            "ExpAdvice": "<br>1. In caso di diagnosi per un solo auricolare, questo è proprio il risultato previsto.<br> 2. Controlla se sono presenti sorgenti di interferenza nelle immediate vicinanze, come router Wi-Fi e stazioni base. Dopo aver escluso questa possibilità, prova a ripristinare gli auricolari alle impostazioni di fabbrica.",
+            "ExpDetail": "Connessione debole tra i due auricolari",
+            "ResultLevel": 10
+        },
+        "t10611201": {
+            "ExpAdvice": "<br>1. Carica l\\'astuccio di ricarica con un cavo USB per la diagnosi. <br>2. Controlla se la porta USB dell\\'astuccio di ricarica è sporca o ha un contatto scadente. Se così, pulisci i punti di contatto con un panno in cotone privo di lanugine inumidito con etanolo.",
+            "ExpDetail": "Errore carica astuccio",
+            "ResultLevel": 10
+        },
+        "t10611301": {
+            "ExpAdvice": "<br>1. Questo problema può verificarsi quando le cuffie vengono caricate dopo esposizione prolungata a temperature eccessivamente alte o basse. <br>2. Lascia a riposo le cuffie a temperatura ambiente per 10 minuti prima di caricarle.",
+            "ExpDetail": "Temperatura batteria anomala per l\\'astuccio di ricarica",
+            "ResultLevel": 10
+        },
+        "t10611401": {
+            "ExpAdvice": "<br>1. Se viene segnalato un problema di ricarica, verifica se si è già verificato prima con gli stessi criteri. <br>2. Controlla se la temperatura ambiente è troppo alta o troppo bassa o verifica in merito ad eventuali errori di ricarica. Non caricare l\\'astuccio di ricarica a temperature eccessivamente alte o basse.",
+            "ExpDetail": "Precedente temperatura batteria anomala per l\\'astuccio di ricarica",
+            "ResultLevel": 10
+        },
+        "t10611501": {
+            "ExpAdvice": "Controlla se la porta USB dell\\'astuccio di ricarica è sporca o ha un contatto scadente. Se così, pulisci i punti di contatto con un panno in cotone privo di lanugine inumidito con etanolo.",
+            "ExpDetail": "Temperatura porta USB anomala per l\\'astuccio di ricarica",
+            "ResultLevel": 10
+        },
+        "t10611601": {
+            "ExpAdvice": "<br>1. Se viene segnalato un problema di ricarica, verifica se si è già verificato prima con gli stessi criteri. <br>2. Controlla se la temperatura ambiente è troppo alta o troppo bassa o verifica in merito ad eventuali errori di ricarica. Non caricare l\\'astuccio di ricarica a temperature eccessivamente alte o basse.",
+            "ExpDetail": "Precedente temperatura porta USB anomala per l\\'astuccio di ricarica",
+            "ResultLevel": 10
+        },
+        "t10615001": {
+            "ExpAdvice": "Controlla in merito a detriti o corpi estranei eventualmente presenti nel foro del microfono. Se così, pulisci i punti di contatto con un panno in cotone privo di lanugine inumidito con etanolo.",
+            "ExpDetail": "Il microfono dell\\'auricolare %1 ha un suono scadente.",
+            "ResultLevel": 10
+        },
+        "t10615101": {
+            "ExpAdvice": "<br>1.Controlla in merito a detriti o corpi estranei eventualmente presenti nel retino altoparlante. Se così, rimuovi la copertura dell\\'auricolare, pulisci il retino con un panno in cotone privo di lanugine inumidito con etanolo, e poi usa uno stuzzicadenti o oggetto simile per raschiare via lo sporco dal retino.<br>2. Controlla se nell'ambiente circostante sono presenti sorgenti di interferenza, come router Wi-Fi e stazioni base. Dopo aver escluso questa possibilità, prova a rifare il test.",
+            "ExpDetail": "Bassa qualità dell\\'audio dall\\'auricolare %1.",
+            "ResultLevel": 10
+        },
+        "t10615102": {
+            "ExpAdvice": "<br>1.Controlla in merito a detriti o corpi estranei eventualmente presenti nel retino altoparlante. Se così, rimuovi la copertura dell\\'auricolare, pulisci il retino con un panno in cotone privo di lanugine inumidito con etanolo, e poi usa uno stuzzicadenti o oggetto simile per raschiare via lo sporco dal retino.<br>2. Controlla se nell'ambiente circostante sono presenti sorgenti di interferenza, come router Wi-Fi e stazioni base. Dopo aver escluso questa possibilità, prova a rifare il test.",
+            "ExpDetail": "Quando la cancellazione del rumore è attivata, la riproduzione audio nelle cuffie risulta anomala.",
+            "ResultLevel": 10
+        },
+        "t10615103": {
+            "ExpAdvice": "<br>1.Controlla in merito a detriti o corpi estranei eventualmente presenti nel retino altoparlante. Se così, rimuovi la copertura dell\\'auricolare, pulisci il retino con un panno in cotone privo di lanugine inumidito con etanolo, e poi usa uno stuzzicadenti o oggetto simile per raschiare via lo sporco dal retino.<br>2. Controlla se nell'ambiente circostante sono presenti sorgenti di interferenza, come router Wi-Fi e stazioni base. Dopo aver escluso questa possibilità, prova a rifare il test.",
+            "ExpDetail": "Quando la cancellazione del rumore è disattivata, la riproduzione audio nelle cuffie risulta anomala.",
+            "ResultLevel": 10
+        },
+        "t10615201": {
+            "ExpAdvice": "Controlla in merito a detriti o corpi estranei eventualmente presenti nel retino altoparlante. Se così, rimuovi la copertura dell\\'auricolare, pulisci il retino con un panno in cotone privo di lanugine inumidito con etanolo, e poi usa uno stuzzicadenti o oggetto simile per raschiare via lo sporco dal retino.",
+            "ExpDetail": "Volume del suono dall\\'auricolare %1 imprevisto.",
+            "ResultLevel": 10
+        },
+        "t10615301": {
+            "ExpAdvice": "<br>1. Verifica che gli auricolari si trovino nell\\'astuccio e che il coperchio dell\\'astuccio sia aperto o chiuso correttamente. Altrimenti, è normale che venga visualizzato un messaggio di errore. <br>2. Controlla se le sonde o i pin di ricarica all\\'interno dell\\'astuccio sono deformati o rotti. <br>3. Controlla se i punti di contatto di ricarica, così come i pin e le sonde di ricarica dentro l\\'astuccio di ricarica sono imbrattati d\\'olio, sudore o sporco. Se così, puliscili ",
+            "ExpDetail": "Il rilevamento posizione coperchio astuccio auricolari non riesce.",
+            "ResultLevel": 10
+        },
+        "t10615401": {
+            "ExpAdvice": "<br>1. Verifica di aver indossato l\\'auricolare secondo progettazione. Se l\\'auricolare non è ben inserito nell\\'orecchio, è normale che venga visualizzato un messaggio d\\'errore. <br>2. Adatta l\\'auricolare all\\'orecchio e inseriscilo correttamente. <br>3. Verifica che l\\'auricolare sia sgombero da contaminazioni per es. d\\'acqua o olio. Altrimenti, strofina e pulisci l\\'auricolare prima del test.",
+            "ExpDetail": "Il rilevamento di auricolare %1 inserito nell\\'orecchio non riesce.",
+            "ResultLevel": 10
+        },
+        "t10615402": {
+            "ExpAdvice": "<br>1. Verifica di aver premuto i corretti punti. Se la pressione con pollice e indice sull\\'auricolare non è avvenuta, è normale che venga visualizzato un messaggio d\\'errore. <br>2. Regola la posizione e la forza di pollice e indice e premi correttamente.<br>3. Verifica che l\\'auricolare sia sgombero da contaminazioni per es. d\\'acqua o olio. Altrimenti, strofina e pulisci l\\'auricolare prima del test. ",
+            "ExpDetail": "Il controllo a doppio tocco (pressione con pollice e indice) dell\\'auricolare %1 (pinch) non riesce.",
+            "ResultLevel": 10
+        },
+        "t10615403": {
+            "ExpAdvice": "<br>1. Verifica che gli auricolari si trovino nell\\'astuccio. Altrimenti, è normale che venga visualizzato un messaggio d\\'errore. <br>2. Controlla se le sonde o i pin di ricarica all\\'interno dell\\'astuccio sono deformati o rotti. <br>3. Controlla se i punti di contatto di ricarica, così come i pin e le sonde di ricarica dentro l\\'astuccio di ricarica sono imbrattati d\\'olio, sudore o sporco. Se così, puliscili con un panno in cotone privo di lanugine inumidito con etanolo.",
+            "ExpDetail": "Il rilevamento di inserimento nell\\'astuccio dell\\'auricolare %1 non riesce.",
+            "ResultLevel": 10
+        },
+        "t10615501": {
+            "ExpAdvice": "<br>Verifica che gli auricolari si trovino nell\\'astuccio. Altrimenti, è normale che venga visualizzato un messaggio d\\'errore.",
+            "ExpDetail": "Il rilevamento della luce di stato dell\\'astuccio auricolari non riesce.",
+            "ResultLevel": 10
+        },
+        "t10615601": {
+            "ExpAdvice": "<br>1. Verifica che gli auricolari si trovino nell\\'astuccio. Altrimenti, è normale che venga visualizzato un messaggio d\\'errore. <br>2. Controlla se le sonde o i pin di ricarica all\\'interno dell\\'astuccio sono deformati o rotti. <br>3. Controlla se i punti di contatto di ricarica, così come i pin e le sonde di ricarica dentro l\\'astuccio di ricarica sono imbrattati d\\'olio, sudore o sporco. Se così, puliscili con un panno in cotone privo di lanugine inumidito con etanolo.",
+            "ExpDetail": "Il rilevamento pulsante astuccio auricolari non riesce.",
+            "ResultLevel": 10
+        }
+}

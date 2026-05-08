@@ -1,0 +1,171 @@
+{
+        "t0": {
+            "ExpAdvice": "",
+            "ExpDetail": "Normal",
+            "ResultLevel": 0
+        },
+        "t2": {
+            "ExpAdvice": "<br>1. Le diagnostic peut avoir été interrompu pendant l'examen avec les écouteurs intra-auriculaires.<br>2. Les écouteurs intra-auriculaires actuels ne prennent peut-être pas en charge cet élément de diagnostic.",
+            "ExpDetail": "Aucun diagnostic effectué",
+            "ResultLevel": 6
+        },
+        "t11": {
+            "ExpAdvice": "nom : %1 <br> couleur : %2 <br> électricité : Étui G-D : %3 <br>",
+            "ExpDetail": "%1"
+        },
+        "t10610101": {
+            "ExpAdvice": "Mettez à jour à la dernière version pour accroître la stabilité.",
+            "ExpDetail": "Version du micrologiciel des écouteurs intra-auriculaires obsolète",
+            "ResultLevel": 8
+        },
+        "t10610102": {
+            "ExpAdvice": "Erreur des informations sur le micrologiciel de l\\'écouteur intra-auriculaire %1. Il est conseillé de restaurer les écouteurs intra-auriculaires à leurs paramètres d\\'usine.",
+            "ExpDetail": "Erreur des informations sur le micrologiciel de l\\'écouteur intra-auriculaire %1",
+            "ResultLevel": 10
+        },
+        "t10610103": {
+            "ExpAdvice": "Vérifiez si la fonction Favoris fonctionne normalement et envoyez les informations sur les écouteurs intra-auriculaires à l\\'équipe après-vente pour confirmation.",
+            "ExpDetail": "Erreur de la fonction Favoris de l\\'écouteur intra-auriculaire %1",
+            "ResultLevel": 10
+        },
+        "t10610104": {
+            "ExpAdvice": "Erreur de numéro de série de l'étui. Veuillez fournir des retours d'expérience au représentant après-vente.",
+            "ExpDetail": "Erreur de numéro de série de l'étui",
+            "ResultLevel": 10
+        },
+        "t10610201": {
+            "ExpAdvice": "<br>1. Ce problème peut se produire lorsque les écouteurs sont chargés après une exposition prolongée à des températures excessivement élevées ou basses. <br>2. Laissez les écouteurs à température ambiante pendant 10 minutes avant de les charger.",
+            "ExpDetail": "Température de la batterie des écouteurs %1 anormale",
+            "ResultLevel": 10
+        },
+        "t10610301": {
+            "ExpAdvice": "<br>1. Si un problème de charge est signalé, vérifiez s\\'il s\\'est déjà produit en fonction de ce critère. <br>2. Ne chargez pas les écouteurs à des températures excessivement élevées ou basses.",
+            "ExpDetail": "Température précédente de la batterie des écouteurs %1 anormale",
+            "ResultLevel": 10
+        },
+        "t10610401": {
+            "ExpAdvice": "<br>1. Vérifiez si les deux écouteurs sont dans l\\'étui de charge. Dans le cas contraire, une erreur de charge s\\'affichera. <br>2. Vérifiez si les broches ou les sondes de charge à l\\'intérieur de l\\'étui de charge sont déformées ou cassées. <br>3. Vérifiez si les broches de charge des écouteurs et les broches ou les sondes de charge de l\\'étui sont tachées de graisse/transpiration ou sales. Si tel est le cas, essuyez-les avec un coton-tige non pelucheux imbibé d\\'éthanol.",
+            "ExpDetail": "Charge des écouteurs %1 anormale",
+            "ResultLevel": 10
+        },
+        "t10610501": {
+            "ExpAdvice": "Vérifiez si l\\'écouteur intra-auriculaire fonctionne normalement et envoyez les informations sur les écouteurs intra-auriculaires ainsi que le code d\\'erreur à l\\'équipe après-vente.",
+            "ExpDetail": "Paramètres d\\'usine des écouteurs %1 anormaux avec le code d\\'erreur %2",
+            "ResultLevel": 10
+        },
+        "t10610601": {
+            "ExpAdvice": "Cela peut entraîner un échec de la détection de l\\'écouteur intra-auriculaire lorsqu\\'il est inséré dans l\\'oreille de l\\'utilisateur et que les commandes tactiles ne répondent plus. Veuillez restaurer les écouteurs intra-auriculaires à leurs paramètres d\\'usine.",
+            "ExpDetail": "Paramètres utilisateur des écouteurs %1 anormaux avec le code d\\'erreur %2",
+            "ResultLevel": 10
+        },
+        "t10610701": {
+            "ExpAdvice": "Veuillez vérifier si l\\'utilisateur a utilisé les écouteurs intra-auriculaires dans des environnements présentant des sources d\\'interférences importantes (telles que des stations de base ou des routeurs Wi-Fi). Dans des environnements de ce type, une déconnexion occasionnelle est inévitable. Il est conseillé de restaurer les écouteurs intra-auriculaires à leurs paramètres d\\'usine.",
+            "ExpDetail": "Écouteurs %1 en panne",
+            "ResultLevel": 10
+        },
+        "t10610801": {
+            "ExpAdvice": "Vérifiez si ce problème se produit dans des environnements d\\'utilisation courants et enregistrez sa fréquence. Vérifiez si une source d\\'interférences importantes, telle qu\\'une station de base ou un routeur Wi-Fi, se trouve à proximité et restaurez les écouteurs à leurs paramètres d\\'usine.",
+            "ExpDetail": "Déconnexion de l\\'un des écouteurs",
+            "ResultLevel": 10
+        },
+        "t10610901": {
+            "ExpAdvice": "<br>1. Maintenez les écouteurs et le téléphone à proximité pour une meilleure qualité de signal. <br>2. Vérifiez si ce problème se produit dans des environnements d\\'utilisation courants et enregistrez sa fréquence. Vérifiez si une source d\\'interférences importantes, telle qu\\'une station de base ou un routeur Wi-Fi, se trouve à proximité et restaurez les écouteurs à leurs paramètres d\\'usine.",
+            "ExpDetail": "Déconnexion entre les écouteurs %1 et le téléphone",
+            "ResultLevel": 10
+        },
+        "t10611001": {
+            "ExpAdvice": "<br>1. Vérifiez la présence de particularités dans les ressources audio utilisées par les écouteurs intra-auriculaires. Si tel est le cas, envoyez les informations sur les écouteurs intra-auriculaires et les ressources au développeur pour analyse. 2. Vérifiez si des décalages se produisent ou peuvent se produire dans les environnements d\\'utilisation courants. Vérifiez si une source d\\'interférences importantes, telle qu\\'une station de base ou un routeur Wi-Fi, se trouve à proximité et restaurez les écouteurs intra-auriculaires à leurs paramètres d\\'usine.",
+            "ExpDetail": "Décalage audio sur l\\'écouteur intra-auriculaire %1",
+            "ResultLevel": 10
+        },
+        "t10611002": {
+            "ExpAdvice": "Vérifiez si des décalages se produisent ou peuvent se produire dans les environnements d\\'utilisation courants. Vérifiez si une source d\\'interférences importantes, telle qu\\'une station de base ou un routeur Wi-Fi, se trouve à proximité et restaurez les écouteurs intra-auriculaires à leurs paramètres d\\'usine.",
+            "ExpDetail": "Décalage d\\'appel sur l\\'écouteur intra-auriculaire %1",
+            "ResultLevel": 10
+        },
+        "t10611101": {
+            "ExpAdvice": "<br>1. Si vous effectuez le diagnostic avec un seul écouteur intra-auriculaire, ce résultat est à prévoir.<br> 2. Vérifiez dans l\\'environnement immédiat la présence de sources d\\'interférences, telles que des stations de base et des routeurs Wi-Fi. Après avoir exclu cette possibilité, essayez de restaurer les écouteurs intra-auriculaires à leurs paramètres d\\'usine.",
+            "ExpDetail": "Faible connexion entre les deux écouteurs intra-auriculaires",
+            "ResultLevel": 10
+        },
+        "t10611201": {
+            "ExpAdvice": "<br>1. Chargez l\\'étui de charge avec un câble USB pour le diagnostic. <br>2. Vérifiez si le port USB de l\\'étui de charge est sale ou présente un mauvais contact. Si tel est le cas, essuyez les points de contact avec un coton-tige non pelucheux imbibé d\\'éthanol.",
+            "ExpDetail": "Erreur de charge de l\\'étui",
+            "ResultLevel": 10
+        },
+        "t10611301": {
+            "ExpAdvice": "<br>1. Ce problème peut se produire lorsque les écouteurs sont chargés après une exposition prolongée à des températures excessivement élevées ou basses. <br>2. Laissez les écouteurs à température ambiante pendant 10 minutes avant de les charger.",
+            "ExpDetail": "Température de la batterie de l\\'étui de charge anormale",
+            "ResultLevel": 10
+        },
+        "t10611401": {
+            "ExpAdvice": "<br>1. Si un problème de charge est signalé, vérifiez s\\'il s\\'est déjà produit en fonction de ce critère. <br>2. Vérifiez si la température ambiante est trop élevée ou trop basse ou recherchez la présence de défauts de charge. Ne chargez pas l\\'étui de charge à des températures excessivement élevées ou basses.",
+            "ExpDetail": "Température précédente de la batterie de l\\'étui de charge anormale",
+            "ResultLevel": 10
+        },
+        "t10611501": {
+            "ExpAdvice": "Vérifiez si le port USB de l\\'étui de charge est sale ou présente un mauvais contact. Si tel est le cas, essuyez les points de contact avec un coton-tige non pelucheux imbibé d\\'éthanol.",
+            "ExpDetail": "Température du port USB de l\\'étui de charge anormale",
+            "ResultLevel": 10
+        },
+        "t10611601": {
+            "ExpAdvice": "<br>1. Si un problème de charge est signalé, vérifiez s\\'il s\\'est déjà produit en fonction de ce critère. <br>2. Vérifiez si la température ambiante est trop élevée ou trop basse ou recherchez la présence de défauts de charge. Ne chargez pas l\\'étui de charge à des températures excessivement élevées ou basses.",
+            "ExpDetail": "Température précédente du port USB de l\\'étui de charge anormale",
+            "ResultLevel": 10
+        },
+        "t10615001": {
+            "ExpAdvice": "Veuillez vérifier si des débris ou des corps étrangers ont obstrué le trou du microphone. Si tel est le cas, nettoyez les points de contact avec un coton-tige non pelucheux imbibé d\\'éthanol.",
+            "ExpDetail": "Le son du microphone de l\\'écouteur intra-auriculaire %1 est mauvais.",
+            "ResultLevel": 10
+        },
+        "t10615101": {
+            "ExpAdvice": "<br>1.Veuillez vérifier si des débris ou des corps étrangers ont obstrué la grille du haut-parleur. Si tel est le cas, retirez le couvercle, essuyez la grille avec un coton-tige non pelucheux imbibé d\\'éthanol, puis utilisez un cure-dent ou un autre outil spécial pour gratter la saleté de la grille.<br>2. Vérifiez si des sources d'interférences, telles que des stations de base et des routeurs Wi-Fi, se trouvent à proximité. Après avoir exclu cette possibilité, faites à nouveau le test.",
+            "ExpDetail": "Le son de l\\'écouteur intra-auriculaire %1 est de mauvaise qualité.",
+            "ResultLevel": 10
+        },
+        "t10615102": {
+            "ExpAdvice": "<br>1.Veuillez vérifier si des débris ou des corps étrangers ont obstrué la grille du haut-parleur. Si tel est le cas, retirez le couvercle, essuyez la grille avec un coton-tige non pelucheux imbibé d\\'éthanol, puis utilisez un cure-dent ou un autre outil spécial pour gratter la saleté de la grille.<br>2. Vérifiez si des sources d'interférences, telles que des stations de base et des routeurs Wi-Fi, se trouvent à proximité. Après avoir exclu cette possibilité, faites à nouveau le test.",
+            "ExpDetail": "Lorsque l'annulation du bruit est activée, la lecture audio est anormale sur le casque.",
+            "ResultLevel": 10
+        },
+        "t10615103": {
+            "ExpAdvice": "<br>1.Veuillez vérifier si des débris ou des corps étrangers ont obstrué la grille du haut-parleur. Si tel est le cas, retirez le couvercle, essuyez la grille avec un coton-tige non pelucheux imbibé d\\'éthanol, puis utilisez un cure-dent ou un autre outil spécial pour gratter la saleté de la grille.<br>2. Vérifiez si des sources d'interférences, telles que des stations de base et des routeurs Wi-Fi, se trouvent à proximité. Après avoir exclu cette possibilité, faites à nouveau le test.",
+            "ExpDetail": "Lorsque l'annulation du bruit est désactivée, la lecture audio est anormale sur le casque.",
+            "ResultLevel": 10
+        },
+        "t10615201": {
+            "ExpAdvice": "Le son de l\\'écouteur intra-auriculaire %1 est de mauvaise qualité.",
+            "ExpDetail": "Volume sonore inattendu de l\\'écouteur intra-auriculaire %1.",
+            "ResultLevel": 10
+        },
+        "t10615301": {
+            "ExpAdvice": "<br>1. Assurez-vous que les écouteurs intra-auriculaires sont dans l\\'étui et que le couvercle de l\\'étui est correctement fermé ou ouvert. Dans le cas contraire, il est normal de voir un message d\\'erreur. <br>2. Vérifiez si les sondes ou les broches de charge de l\\'étui de charge sont déformées ou cassées. <br>3. Vérifiez si les points de contact de charge, ainsi que les broches et les sondes de charge à l\\'intérieur de l\\'étui de charge sont tachés de sébum, de transpiration ou de saleté. Si tel est le cas, nettoyez-les ",
+            "ExpDetail": "La détection du couvercle de l\\'étui des écouteurs intra-auriculaires échoue.",
+            "ResultLevel": 10
+        },
+        "t10615401": {
+            "ExpAdvice": "<br>1. Assurez-vous que l\\'écouteur intra-auriculaire est porté de la manière adéquate. Si l\\'écouteur intra-auriculaire n\\'est pas dans votre oreille, il est normal de voir un message d\\'erreur. <br>2. Ajustez l\\'écouteur intra-auriculaire à votre oreille et assurez-vous qu\\'il est correctement inséré. <br>3. Vérifiez si l\\'écouteur intra-auriculaire est exempt de substances telles que de l\\'eau ou de l\\'huile. Dans le cas contraire, essuyez l\\'écouteur intra-auriculaire avant le test.",
+            "ExpDetail": "La détection de l\\'écouteur intra-auriculaire %1 dans l\\'oreille échoue.",
+            "ResultLevel": 10
+        },
+        "t10615402": {
+            "ExpAdvice": "<br>1. Assurez-vous d\\'avoir pincé les points adéquats. Si vous n\\'avez pas pincé l\\'écouteur intra-auriculaire, il est normal de voir un message d\\'erreur. <br>2. Ajustez la localisation et la force du pincement et assurez-vous de pincer correctement.<br>3. Vérifiez si l\\'écouteur intra-auriculaire est exempt de substances telles que de l\\'eau ou de l\\'huile. Dans le cas contraire, essuyez l\\'écouteur intra-auriculaire avant le test. ",
+            "ExpDetail": "Le contrôle par double appui (pincement) de l\\'écouteur intra-auriculaire %1 échoue.",
+            "ResultLevel": 10
+        },
+        "t10615403": {
+            "ExpAdvice": "<br>1. Assurez-vous que les écouteurs intra-auriculaires sont dans l\\'étui. S\\'ils ne sont pas dans l\\'étui, il est normal de voir un message d\\'erreur. <br>2. Vérifiez si les sondes ou les broches de charge de l\\'étui de charge sont déformées ou cassées. <br>3. Vérifiez si les points de contact de charge, ainsi que les broches et les sondes de charge à l\\'intérieur de l\\'étui de charge sont tachés de sébum, de transpiration ou de saleté. Si tel est le cas, nettoyez-les avec un coton-tige non pelucheux imbibé d\\'éthanol.",
+            "ExpDetail": "La détection de l\\'entrée de l\\'écouteur intra-auriculaire %1 dans l\\'étui échoue.",
+            "ResultLevel": 10
+        },
+        "t10615501": {
+            "ExpAdvice": "Assurez-vous que les écouteurs intra-auriculaires sont dans l\\'étui. S\\'ils ne sont pas dans l\\'étui, il est normal de voir un message d\\'erreur.",
+            "ExpDetail": "La détection du voyant d\\'état de l\\'étui des écouteurs intra-auriculaires échoue.",
+            "ResultLevel": 10
+        },
+        "t10615601": {
+            "ExpAdvice": "<br>1. Assurez-vous que les écouteurs intra-auriculaires sont dans l\\'étui. S\\'ils ne sont pas dans l\\'étui, il est normal de voir un message d\\'erreur. <br>2. Vérifiez si les sondes ou les broches de charge de l\\'étui de charge sont déformées ou cassées. <br>《《3. Vérifiez si les points de contact de charge, ainsi que les broches et les sondes de charge à l\\'intérieur de l\\'étui de charge sont tachés de sébum, de transpiration ou de saleté. Si tel est le cas, nettoyez-les avec un coton-tige non pelucheux imbibé d\\'éthanol.",
+            "ExpDetail": "La détection du bouton de l\\'étui des écouteurs intra-auriculaires échoue.",
+            "ResultLevel": 10
+        }
+}

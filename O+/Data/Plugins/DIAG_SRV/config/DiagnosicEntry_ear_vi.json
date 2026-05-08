@@ -1,0 +1,171 @@
+{
+  "t0": {
+    "ExpAdvice": "",
+    "ExpDetail": "Bình thường",
+    "ResultLevel": 0
+  },
+  "t2": {
+    "ExpAdvice": "<br>1. Chẩn đoán có thể đã bị ngừng trong quá trình kiểm tra bằng tai nghe earbud.<br>2. Tai nghe earbud hiện tại có thể không hỗ trợ mục chẩn đoán này.",
+    "ExpDetail": "Không có chẩn đoán nào được thực hiện",
+    "ResultLevel": 6
+  },
+  "t11": {
+    "ExpAdvice": "tên:%1 <br> màu: %2 <br> điện:L-R-Box: %3 <br>",
+    "ExpDetail": "%1"
+  },
+  "t10610101": {
+    "ExpAdvice": "Hãy nói với khách hàng cập nhật lên phiên bản mới nhất có độ ổn định cao hơn.",
+    "ExpDetail": "Phiên bản chương trình cơ sở của tai nghe earbud đã lỗi thời",
+    "ResultLevel": 8
+  },
+  "t10610102": {
+    "ExpAdvice": "Lỗi thông tin chương trình cơ sở của tai nghe earbud. Đề xuất khôi phục các tai nghe earbud về cài đặt gốc.",
+    "ExpDetail": "Lỗi thông tin chương trình cơ sở của tai nghe earbud %1",
+    "ResultLevel": 10
+  },
+  "t10610103": {
+    "ExpAdvice": "Vui lòng kiểm tra xem chức năng yêu thích có hoạt động bình thường không và gửi thông tin về các tai nghe earbud cho nhóm sau bán hàng để xác nhận.",
+    "ExpDetail": "Lỗi chức năng yêu thích của tai nghe earbud %1",
+    "ResultLevel": 10
+  },
+  "t10610104": {
+    "ExpAdvice": "Lỗi số sê-ri của hộp. Vui lòng cung cấp phản hồi cho đại diện sau bán hàng.",
+    "ExpDetail": "Lỗi số sê-ri của hộp",
+    "ResultLevel": 10
+  },
+  "t10610201": {
+    "ExpAdvice": "<br>1. Vấn đề này có thể xảy ra khi tai nghe được sạc sau khi tiếp xúc với nhiệt độ quá cao hoặc quá thấp trong thời gian dài. <br>\n2. Để tai nghe ở nhiệt độ phòng trong 10 phút trước khi sạc.",
+    "ExpDetail": "Nhiệt độ pin bất thường đối với tai nghe %1",
+    "ResultLevel": 10
+  },
+  "t10610301": {
+    "ExpAdvice": "<br>1. Nếu có báo cáo về vấn đề sạc, hãy kiểm tra xem trước đây, vấn đề đó có xảy ra không dựa trên tiêu chí này. <br>\n2. Không sạc tai nghe trong điều kiện nhiệt độ quá cao hoặc quá thấp.",
+    "ExpDetail": "Trước đó, nhiệt độ pin của tai nghe %1 bị bất thường",
+    "ResultLevel": 10
+  },
+  "t10610401": {
+    "ExpAdvice": "<br>1. Kiểm tra xem cả hai tai nghe đã ở trong hộp sạc chưa. Nếu chưa, lỗi sạc sẽ hiển thị. <br>\n2. Kiểm tra xem các chấu sạc hoặc chân sạc trong hộp sạc có bị méo mó hoặc gãy không. <br>\n3. Kiểm tra xem các chấu sạc của tai nghe và chấu sạc hoặc chân sạc trong hộp có bị gỉ do dầu mỡ/mồ hôi hoặc bị bẩn không. Nếu có, hãy lau sạch bằng tăm bông không có xơ vải, nhúng cồn ethanol.",
+    "ExpDetail": "Tốc độ sạc bất thường đối với tai nghe %1",
+    "ResultLevel": 10
+  },
+  "t10610501": {
+    "ExpAdvice": "Vui lòng kiểm tra xem tai nghe earbud có hoạt động bình thường không, đồng thời gửi thông tin về các tai nghe earbud và mã lỗi cho nhóm sau bán hàng.",
+    "ExpDetail": "Thông số nhà máy bất thường đối với tai nghe %1 kèm theo mã lỗi %2",
+    "ResultLevel": 10
+  },
+  "t10610601": {
+    "ExpAdvice": "Điều này có thể khiến tai nghe earbud không phát hiện thấy khi tai nghe này được đưa vào tai người dùng và chức năng điều khiển cảm ứng không phản hồi. Vui lòng khôi phục các tai nghe earbud về cài đặt gốc.",
+    "ExpDetail": "Thông số người dùng bất thường đối với tai nghe %1 kèm theo mã lỗi %2",
+    "ResultLevel": 10
+  },
+  "t10610701": {
+    "ExpAdvice": "Vui lòng kiểm tra xem người dùng có đang sử dụng các tai nghe earbud trong môi trường có nguồn can nhiễu mạnh (chẳng hạn như bộ định tuyến Wi-Fi hoặc trạm gốc) không. Ở những môi trường đó, thỉnh thoảng bị ngắt kết nối là hiện tượng không thể tránh khỏi. Đề xuất khôi phục các tai nghe earbud về cài đặt gốc.",
+    "ExpDetail": "Tai nghe %1 treo",
+    "ResultLevel": 10
+  },
+  "t10610801": {
+    "ExpAdvice": "Kiểm tra xem sự cố này có xảy ra trong các môi trường người dùng thông thường không và ghi lại tần suất xảy ra sự cố. Kiểm tra xem có nguồn can nhiễu mạnh ở lân cận không, chẳng hạn như bộ định tuyến Wi-Fi và trạm gốc, rồi khôi phục tai nghe về cài đặt gốc.",
+    "ExpDetail": "Ngắt kết nối khỏi một trong hai tai nghe",
+    "ResultLevel": 10
+  },
+  "t10610901": {
+    "ExpAdvice": "<br>1. Giữ tai nghe và điện thoại ở gần nhau để có chất lượng tín hiệu tốt hơn. <br>\n2. Kiểm tra xem sự cố này có xảy ra trong các môi trường người dùng thông thường không và ghi lại tần suất xảy ra sự cố. Kiểm tra xem có nguồn can nhiễu mạnh ở lân cận không, chẳng hạn như bộ định tuyến Wi-Fi và trạm gốc, rồi khôi phục tai nghe về cài đặt gốc.",
+    "ExpDetail": "Ngắt kết nối giữa tai nghe %1 và điện thoại",
+    "ResultLevel": 10
+  },
+  "t10611001": {
+    "ExpAdvice": "<br>1. Kiểm tra xem có bất kỳ điều gì đặc biệt trong tài nguyên âm thanh mà các tai nghe earbud sử dụng không. Nếu có, hãy gửi thông tin về các tai nghe earbud và tài nguyên đó cho nhà phát triển để phân tích. <br>\n 2. Kiểm tra xem hiện tượng chậm trễ hoặc khả năng chậm trễ có xảy ra trong môi trường thông thường của người dùng không. Kiểm tra xem có nguồn can nhiễu mạnh ở lân cận không, chẳng hạn như bộ định tuyến Wi-Fi và trạm gốc, rồi khôi phục các tai nghe earbud về cài đặt gốc.",
+    "ExpDetail": "Âm thanh trên tai nghe earbud %1 có độ trễ",
+    "ResultLevel": 10
+  },
+  "t10611002": {
+    "ExpAdvice": "Kiểm tra xem hiện tượng chậm trễ hoặc khả năng chậm trễ có xảy ra trong môi trường thông thường của người dùng không. Kiểm tra xem có nguồn can nhiễu mạnh ở lân cận không, chẳng hạn như bộ định tuyến Wi-Fi và trạm gốc, rồi khôi phục các tai nghe earbud về cài đặt gốc.",
+    "ExpDetail": "Cuộc gọi trên tai nghe earbud %1 có độ trễ",
+    "ResultLevel": 10
+  },
+  "t10611101": {
+    "ExpAdvice": "<br>1. Nếu bạn đang thực hiện chẩn đoán chỉ bằng một tai nghe earbud thì kết quả này nằm trong dự kiến. <br>\n2. Kiểm tra môi trường xung quanh để tìm nguồn can nhiễu, chẳng hạn như bộ định tuyến Wi-Fi và trạm gốc. Sau khi loại trừ khả năng này, hãy thử khôi phục các tai nghe earbud về cài đặt gốc.",
+    "ExpDetail": "Kết nối yếu giữa hai tai nghe earbud",
+    "ResultLevel": 10
+  },
+  "t10611201": {
+    "ExpAdvice": "<br>1. Sạc hộp sạc bằng cáp USB để chẩn đoán. <br>\n2. Kiểm tra xem cổng USB của hộp sạc có bị bẩn hay tiếp xúc kém không. Nếu có, hãy lau sạch các điểm tiếp xúc bằng tăm bông không có xơ vải, nhúng cồn ethanol.",
+    "ExpDetail": "Lỗi sạc hộp",
+    "ResultLevel": 10
+  },
+  "t10611301": {
+    "ExpAdvice": "<br>1. Vấn đề này có thể xảy ra khi tai nghe được sạc sau khi tiếp xúc với nhiệt độ quá cao hoặc quá thấp trong thời gian dài. <br>\n2. Để tai nghe ở nhiệt độ phòng trong 10 phút trước khi sạc.",
+    "ExpDetail": "Nhiệt độ pin bất thường đối với hộp sạc",
+    "ResultLevel": 10
+  },
+  "t10611401": {
+    "ExpAdvice": "<br>1. Nếu có báo cáo về vấn đề sạc, hãy kiểm tra xem trước đây, vấn đề đó có xảy ra không dựa trên tiêu chí này. <br>\n2. Kiểm tra xem nhiệt độ môi trường xung quanh có quá cao hoặc quá thấp không hoặc kiểm tra xem có bất kỳ lỗi sạc nào không. Không sạc hộp sạc trong điều kiện nhiệt độ quá cao hoặc quá thấp.",
+    "ExpDetail": "Trước đó, nhiệt độ pin hộp sạc bị bất thường",
+    "ResultLevel": 10
+  },
+  "t10611501": {
+    "ExpAdvice": "Kiểm tra xem cổng USB của hộp sạc có bị bẩn hay tiếp xúc kém không. Nếu có, hãy lau sạch các điểm tiếp xúc bằng tăm bông không có xơ vải, nhúng cồn ethanol.",
+    "ExpDetail": "Nhiệt độ cổng USB của hộp sạc bị bất thường",
+    "ResultLevel": 10
+  },
+  "t10611601": {
+    "ExpAdvice": "<br>1. Nếu có báo cáo về vấn đề sạc, hãy kiểm tra xem trước đây, vấn đề đó có xảy ra không dựa trên tiêu chí này. <br>\n2. Kiểm tra xem nhiệt độ môi trường xung quanh có quá cao hoặc quá thấp không hoặc kiểm tra xem có bất kỳ lỗi sạc nào không. Không sạc hộp sạc trong điều kiện nhiệt độ quá cao hoặc quá thấp.",
+    "ExpDetail": "Trước đó, nhiệt độ cổng USB của hộp sạc bị bất thường",
+    "ResultLevel": 10
+  },
+  "t10615001": {
+    "ExpAdvice": "Vui lòng kiểm tra xem có bất kỳ mảnh vụn hoặc vật lạ nào làm tắc lỗ micrô không. Nếu có, hãy làm sạch các điểm tiếp xúc bằng tăm bông không có sợi xơ và được tẩm ethanol.",
+    "ExpDetail": "Âm thanh micrô của tai nghe earbud %1 không tốt.",
+    "ResultLevel": 10
+        },
+  "t10615101": {
+    "ExpAdvice": "<br>1.Vui lòng kiểm tra xem có bất kỳ mảnh vụn hoặc vật lạ nào làm tắc lưới bảo vệ loa không. Nếu có, hãy tháo miếng che tai ra, lau sạch lưới bảo vệ bằng tăm bông không có sợi xơ và được tẩm ethanol rồi dùng tăm xỉa răng hoặc dụng cụ đặc biệt khác để lấy bụi bẩn ra khỏi lưới bảo vệ.<br>2. Kiểm tra môi trường xung quanh xem có các nguồn can nhiễu không, chẳng hạn như bộ định tuyến Wi-Fi và trạm gốc. Sau khi loại trừ khả năng này, hãy thử thực hiện lại bài kiểm tra.",
+    "ExpDetail": "Âm thanh tai nghe earbud %1 có chất lượng thấp.",
+    "ResultLevel": 10
+        },
+  "t10615102": {
+    "ExpAdvice": "<br>1.Vui lòng kiểm tra xem có bất kỳ mảnh vụn hoặc vật lạ nào làm tắc lưới bảo vệ loa không. Nếu có, hãy tháo miếng che tai ra, lau sạch lưới bảo vệ bằng tăm bông không có sợi xơ và được tẩm ethanol rồi dùng tăm xỉa răng hoặc dụng cụ đặc biệt khác để lấy bụi bẩn ra khỏi lưới bảo vệ.<br>2. Kiểm tra môi trường xung quanh xem có các nguồn can nhiễu không, chẳng hạn như bộ định tuyến Wi-Fi và trạm gốc. Sau khi loại trừ khả năng này, hãy thử thực hiện lại bài kiểm tra.",
+    "ExpDetail": "Khi tính năng giảm tiếng ồn bật, tai nghe headphone phát lại âm thanh bất thường.",
+    "ResultLevel": 10
+        },
+  "t10615103": {
+    "ExpAdvice": "<br>1.Vui lòng kiểm tra xem có bất kỳ mảnh vụn hoặc vật lạ nào làm tắc lưới bảo vệ loa không. Nếu có, hãy tháo miếng che tai ra, lau sạch lưới bảo vệ bằng tăm bông không có sợi xơ và được tẩm ethanol rồi dùng tăm xỉa răng hoặc dụng cụ đặc biệt khác để lấy bụi bẩn ra khỏi lưới bảo vệ.<br>2. Kiểm tra môi trường xung quanh xem có các nguồn can nhiễu không, chẳng hạn như bộ định tuyến Wi-Fi và trạm gốc. Sau khi loại trừ khả năng này, hãy thử thực hiện lại bài kiểm tra.",
+    "ExpDetail": "Khi tính năng giảm tiếng ồn tắt, tai nghe headphone phát lại âm thanh bất thường.",
+    "ResultLevel": 10
+        },
+  "t10615201": {
+    "ExpAdvice": "Vui lòng kiểm tra xem có bất kỳ mảnh vụn hoặc vật lạ nào làm tắc lưới bảo vệ loa không. Nếu có, hãy tháo miếng che tai ra, lau sạch lưới bảo vệ bằng tăm bông không có sợi xơ và được tẩm ethanol rồi dùng tăm xỉa răng hoặc dụng cụ đặc biệt khác để lấy bụi bẩn ra khỏi lưới bảo vệ.",
+    "ExpDetail": "Tai nghe earbud %1 phát ra âm lượng không mong đợi.",
+    "ResultLevel": 10
+        },
+  "t10615301": {
+    "ExpAdvice": "<br>1. Đảm bảo rằng các tai nghe earbud đều nằm đều trong hộp và nắp hộp được đóng hoặc mở đúng cách. Nếu không, bạn sẽ thấy thông báo lỗi, đây là điều bình thường. <br>2. Kiểm tra xem các chân sạc hoặc chấu sạc trong hộp sạc có bị méo mó hoặc gãy không. <br>3. Kiểm tra xem các tiếp điểm sạc cũng như các chấu sạc và chân sạc trong hộp sạc có dính dầu, mồ hôi hoặc bụi bẩn không. Nếu có, hãy làm sạch các tiếp điểm này bằng tăm bông không có sợi xơ và được tẩm ethanol.",
+    "ExpDetail": "Không phát hiện được nắp hộp tai nghe earbud.",
+    "ResultLevel": 10
+        },
+  "t10615401": {
+    "ExpAdvice": "<br>1. Đảm bảo bạn đang đeo tai nghe earbud đúng cách. Nếu tai nghe earbud không nằm trong tai, bạn sẽ thấy thông báo lỗi, đây là điều bình thường. <br>2. Điều chỉnh cho tai nghe earbud vừa khít với tai bạn và đảm bảo bạn đeo tai nghe này đúng cách. <br>3. Kiểm tra xem tai nghe earbud có dính các chất như nước hoặc dầu không. Nếu có, hãy lau sạch tai nghe earbud trước khi kiểm tra.",
+    "ExpDetail": "Không phát hiện được trạng thái đeo trong tai của tai nghe earbud %1.",
+    "ResultLevel": 10
+        },
+  "t10615402": {
+    "ExpAdvice": "<br>1. Đảm bảo bạn đã chụm ngón tay vào đúng điểm. Nếu không chụm ngón tay vào tai nghe earbud, bạn sẽ thấy thông báo lỗi, đây là điều bình thường. <br>2. Điều chỉnh vị trí và lực chụm, đồng thời đảm bảo bạn đang chụm đúng cách. <br>3. Kiểm tra xem tai nghe earbud có dính các chất như nước hoặc dầu không. Nếu có, hãy lau sạch tai nghe earbud trước khi kiểm tra.",
+    "ExpDetail": "Không điều khiển được tai nghe earbud %1 bằng cách nhấn đúp (chụm).",
+    "ResultLevel": 10
+        },
+  "t10615403": {
+    "ExpAdvice": "<br>1. Đảm bảo các tai nghe earbud đều nằm trong hộp. Nếu các tai nghe earbud không nằm trong hộp, bạn sẽ thấy thông báo lỗi, đây là điều bình thường. <br>2. Kiểm tra xem các chân sạc hoặc chấu sạc trong hộp sạc có bị méo mó hoặc gãy không. <br>3. Kiểm tra xem các tiếp điểm sạc cũng như các chấu sạc và chân sạc trong hộp sạc có dính dầu, mồ hôi hoặc bụi bẩn không. Nếu có, hãy làm sạch các tiếp điểm này bằng tăm bông không có sợi xơ và được tẩm ethanol.",
+    "ExpDetail": "Không phát hiện được trạng thái vào hộp của tai nghe %1.",
+    "ResultLevel": 10
+        },
+  "t10615501": {
+    "ExpAdvice": "Đảm bảo các tai nghe earbud đều nằm trong hộp. Nếu các tai nghe earbud không nằm trong hộp, bạn sẽ thấy thông báo lỗi, đây là điều bình thường.",
+    "ExpDetail": "Không phát hiện được đèn trạng thái trên hộp tai nghe earbud.",
+    "ResultLevel": 10
+        },
+  "t10615601": {
+    "ExpAdvice": "<br>1. Đảm bảo các tai nghe earbud đều nằm trong hộp. Nếu các tai nghe earbud không nằm trong hộp, bạn sẽ thấy thông báo lỗi, đây là điều bình thường. <br>2. Kiểm tra xem các chân sạc hoặc chấu sạc trong hộp sạc có bị méo mó hoặc gãy không. <br>3. Kiểm tra xem các tiếp điểm sạc cũng như các chấu sạc và chân sạc trong hộp sạc có dính dầu, mồ hôi hoặc bụi bẩn không. Nếu có, hãy làm sạch các tiếp điểm này bằng tăm bông không có sợi xơ và được tẩm ethanol.",
+    "ExpDetail": "Không phát hiện được nút trên hộp tai nghe earbud.",
+    "ResultLevel": 10
+        }
+}

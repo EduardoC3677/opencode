@@ -1,0 +1,171 @@
+{
+  "t0": {
+    "ExpAdvice": "",
+    "ExpDetail": "Normal",
+    "ResultLevel": 0
+  },
+  "t2": {
+    "ExpAdvice": "<br>1. Diagnosis mungkin terhenti selama pemeriksaan dengan earbud.<br>2. Earbud saat ini mungkin tidak mendukung item diagnosis ini.",
+    "ExpDetail": "Tidak ada diagnostik yang dilakukan",
+    "ResultLevel": 6
+  },
+  "t11": {
+    "ExpAdvice": "nama:%1 <br> warna: %2 <br> listrik:Kiri-R-Kotak: %3 <br>",
+    "ExpDetail": "%1"
+  },
+  "t10610101": {
+    "ExpAdvice": "Beri tahu pelanggan untuk memperbarui ke versi terbaru yang lebih stabil.",
+    "ExpDetail": "Versi firmware earbud yang kedaluwarsa",
+    "ResultLevel": 8
+  },
+  "t10610102": {
+    "ExpAdvice": "Kesalahan informasi firmware earbud. Sebaiknya kembalikan earbud ke pengaturan pabriknya.",
+    "ExpDetail": "Kesalahan informasi firmware %1 earbud",
+    "ResultLevel": 10
+  },
+  "t10610103": {
+    "ExpAdvice": "Periksa apakah fungsi favorit berfungsi normal dan kirimkan informasi earbud ke tim purna jual untuk konfirmasi.",
+    "ExpDetail": "Kesalahan fungsi favorit %1 earbud",
+    "ResultLevel": 10
+  },
+  "t10610104": {
+    "ExpAdvice": "Kesalahan Case SN. Berikan masukan kepada perwakilan purnajual.",
+    "ExpDetail": "Kesalahan Case SN",
+    "ResultLevel": 10
+  },
+  "t10610201": {
+    "ExpAdvice": "<br>1. Masalah ini dapat terjadi bila earphone diisi daya setelah lama terpapar suhu yang terlalu tinggi atau rendah. <br>\n2. Biarkan earphone pada suhu ruangan selama 10 menit sebelum mengisi dayanya.",
+    "ExpDetail": "Suhu baterai tidak normal untuk earphone %1",
+    "ResultLevel": 10
+  },
+  "t10610301": {
+    "ExpAdvice": "<br>1. Jika dilaporkan ada masalah pengisian daya, periksa apakah hal ini pernah terjadi sebelumnya berdasarkan kriteria ini. <br>\n2.Jangan mengisi daya earphone pada suhu yang terlalu tinggi atau rendah.",
+    "ExpDetail": "Suhu baterai tidak normal sebelumnya untuk earphone %1",
+    "ResultLevel": 10
+  },
+  "t10610401": {
+    "ExpAdvice": "<br>1. Periksa apakah kedua earphone berada dalam casing pengisi daya. Jika tidak, maka akan ditampilkan kesalahan pengisian daya. <br>\n2. Periksa apakah kawat atau pin pengisian daya di dalam casing pengisi daya telah berubah bentuk atau patah. <br>\n3. Periksa apakah kawat atau pin pengisian daya earphone berkarat akibat gemuk/keringat atau kotor. Jika ya, lap dengan penyeka dari katun yang bebas serabut dan telah dicelup di etanol.",
+    "ExpDetail": "Pengisian daya tidak normal untuk earphone %1",
+    "ResultLevel": 10
+  },
+  "t10610501": {
+    "ExpAdvice": "Periksa apakah earbud berfungsi normal dan kirimkan informasi earbud serta kode kesalahan ke tim purna jual.",
+    "ExpDetail": "Parameter pabrik tidak normal untuk earphone %1 dengan kode kesalahan %2",
+    "ResultLevel": 10
+  },
+  "t10610601": {
+    "ExpAdvice": "Hal ini dapat mengakibatkan earbud gagal mendeteksi saat dimasukkan ke telinga pengguna dan kontrol sentuh menjadi tidak responsif. Pulihkan earbud ke pengaturan pabriknya.",
+    "ExpDetail": "Parameter pengguna tidak normal untuk earphone %1 dengan kode kesalahan %2",
+    "ResultLevel": 10
+  },
+  "t10610701": {
+    "ExpAdvice": "Periksa apakah pengguna telah menggunakan earbud di lingkungan dengan sumber interferensi kuat (seperti router Wi-Fi atau BTS). Dalam lingkungan seperti itu, pemutusan hubungan sesekali tidak dapat dihindari. Sebaiknya kembalikan earbud ke pengaturan pabriknya.",
+    "ExpDetail": "Earphone %1 crash",
+    "ResultLevel": 10
+  },
+  "t10610801": {
+    "ExpAdvice": "Periksa apakah masalah ini terjadi di lingkungan pengguna umum dan catat frekuensinya. Periksa apakah ada sumber interferensi yang kuat di sekitarnya, seperti router Wi-Fi dan menara BTS, dan kembalikan earphone ke pengaturan pabrik.",
+    "ExpDetail": "Putusnya koneksi dari salah satu earphone",
+    "ResultLevel": 10
+  },
+  "t10610901": {
+    "ExpAdvice": "<br>1. Pertahankan earphone dan ponsel dalam jarak berdekatan agar kualitas sinyalnya lebih baik. <br>\n2. Periksa apakah masalah ini terjadi di lingkungan pengguna umum dan catat frekuensinya. Periksa apakah ada sumber interferensi yang kuat di sekitarnya, seperti router Wi-Fi dan menara BTS, dan kembalikan earphone ke pengaturan pabrik.",
+    "ExpDetail": "Putusnya koneksi antara earphone %1 dan ponsel",
+    "ResultLevel": 10
+  },
+  "t10611001": {
+    "ExpAdvice": "<br>1. Periksa apakah ada sesuatu yang khusus pada sumber daya audio yang digunakan oleh earbud. Jika ya, kirim informasi tentang earbud dan sumber daya kepada pengembang untuk dianalisis. <br>2. Periksa apakah lag atau kemungkinan lag terjadi di lingkungan pengguna umum. Periksa apakah ada sumber interferensi yang kuat di sekitarnya, seperti router Wi-Fi dan menara BTS, dan kembalikan earbud ke pengaturan pabrik.",
+    "ExpDetail": "Lag audio pada earbud %1",
+    "ResultLevel": 10
+  },
+  "t10611002": {
+    "ExpAdvice": "Periksa apakah lag atau kemungkinan lag terjadi di lingkungan pengguna umum. Periksa apakah ada sumber interferensi yang kuat di sekitarnya, seperti router Wi-Fi dan menara BTS, dan kembalikan earbud ke pengaturan pabrik.",
+    "ExpDetail": "Lag panggilan pada earbud %1",
+    "ResultLevel": 10
+  },
+  "t10611101": {
+    "ExpAdvice": "<br>1. Jika Anda melakukan diagnosis hanya dengan satu earbud, maka hasil inilah yang diharapkan. <br>\n2. Periksa lingkungan terdekat untuk mencari sumber gangguan, seperti router Wi-Fi dan BTS. Setelah mengesampingkan kemungkinan ini, coba pulihkan earbud ke pengaturan pabriknya.",
+    "ExpDetail": "Koneksi lemah antara kedua earbud",
+    "ResultLevel": 10
+  },
+  "t10611201": {
+    "ExpAdvice": "<br>1. Isilah casing pengisi daya menggunakan kabel USB untuk diagnosis. <br>\n2. Periksa apakah port USB casing pengisi daya kotor atau tidak sempurna kontaknya. Jika ya, lap titik kontak dengan penyeka dari katun yang bebas serabut dan telah dicelup di etanol.",
+    "ExpDetail": "Kesalahan pengisian daya casing",
+    "ResultLevel": 10
+  },
+  "t10611301": {
+    "ExpAdvice": "<br>1. Masalah ini dapat terjadi bila earphone diisi daya setelah lama terpapar suhu yang terlalu tinggi atau rendah. <br>\n2. Biarkan earphone pada suhu ruangan selama 10 menit sebelum mengisi dayanya.",
+    "ExpDetail": "Suhu baterai tidak normal untuk casing pengisi daya",
+    "ResultLevel": 10
+  },
+  "t10611401": {
+    "ExpAdvice": "<br>1. Jika dilaporkan ada masalah pengisian daya, periksa apakah hal ini pernah terjadi sebelumnya berdasarkan kriteria ini. <br>\n2. Periksa apakah suhu sekitar terlalu tinggi atau terlalu rendah atau periksa apakah kegagalan pengisian daya. Jangan mengisi daya casing pengisi daya pada suhu yang terlalu tinggi atau rendah.",
+    "ExpDetail": "Suhu baterai tidak normal sebelumnya untuk casing pengisi daya",
+    "ResultLevel": 10
+  },
+  "t10611501": {
+    "ExpAdvice": "Periksa apakah port USB casing pengisi daya kotor atau tidak sempurna kontaknya. Jika ya, lap titik kontak dengan penyeka dari katun yang bebas serabut dan telah dicelup di etanol.",
+    "ExpDetail": "Suhu port USB tidak normal untuk casing pengisi daya",
+    "ResultLevel": 10
+  },
+  "t10611601": {
+    "ExpAdvice": "<br>1. Jika dilaporkan ada masalah pengisian daya, periksa apakah hal ini pernah terjadi sebelumnya berdasarkan kriteria ini. <br>\n2. Periksa apakah suhu sekitar terlalu tinggi atau terlalu rendah atau periksa apakah kegagalan pengisian daya. Jangan mengisi daya casing pengisi daya pada suhu yang terlalu tinggi atau rendah.",
+    "ExpDetail": "Suhu port USB tidak normal sebelumnya untuk casing pengisi daya",
+    "ResultLevel": 10
+  },
+  "t10615001": {
+    "ExpAdvice": "Periksa apakah ada kotoran atau benda asing yang menyumbat lubang Mikrofon. Jika ya, bersihkan titik kontak dengan penyeka dari katun yang bebas serabut dan telah dicelup di etanol.",
+    "ExpDetail": "Mikrofon %1 earbud terdengar buruk.",
+    "ResultLevel": 10
+        },
+  "t10615101": {
+    "ExpAdvice": "<br>1.Periksa apakah ada kotoran atau benda asing yang menyumbat jaring speaker. Jika demikian, lepaskan penutup telinga, bersihkan jaring dengan kapas bebas serat yang direndam dalam etanol, lalu gunakan tusuk gigi atau alat khusus lainnya untuk mengikis kotoran dari jaring.<br>2. Periksa lingkungan sekitar untuk mencari sumber gangguan, seperti router Wi-Fi dan BTS. Setelah mengesampingkan kemungkinan ini, coba uji lagi.",
+    "ExpDetail": "Audio %1 earbud berkualitas rendah.",
+    "ResultLevel": 10
+        },
+  "t10615102": {
+    "ExpAdvice": "<br>1.Periksa apakah ada kotoran atau benda asing yang menyumbat jaring speaker. Jika demikian, lepaskan penutup telinga, bersihkan jaring dengan kapas bebas serat yang direndam dalam etanol, lalu gunakan tusuk gigi atau alat khusus lainnya untuk mengikis kotoran dari jaring.<br>2. Periksa lingkungan sekitar untuk mencari sumber gangguan, seperti router Wi-Fi dan BTS. Setelah mengesampingkan kemungkinan ini, coba uji lagi.",
+    "ExpDetail": "Saat peredaman bising diaktifkan, pemutaran audio yang tidak normal di headphone ditemukan.",
+    "ResultLevel": 10
+        },
+  "t10615103": {
+    "ExpAdvice": "<br>1.Periksa apakah ada kotoran atau benda asing yang menyumbat jaring speaker. Jika demikian, lepaskan penutup telinga, bersihkan jaring dengan kapas bebas serat yang direndam dalam etanol, lalu gunakan tusuk gigi atau alat khusus lainnya untuk mengikis kotoran dari jaring.<br>2. Periksa lingkungan sekitar untuk mencari sumber gangguan, seperti router Wi-Fi dan BTS. Setelah mengesampingkan kemungkinan ini, coba uji lagi.",
+    "ExpDetail": "Saat peredaman bising dimatikan, pemutaran audio yang tidak normal di headphone ditemukan.",
+    "ResultLevel": 10
+        },
+  "t10615201": {
+    "ExpAdvice": "Periksa apakah ada kotoran atau benda asing yang menyumbat jaring speaker. Jika demikian, lepaskan penutup telinga, bersihkan jaring dengan kapas bebas serat yang direndam dalam etanol, lalu gunakan tusuk gigi atau alat khusus lainnya untuk mengikis kotoran dari jaring.",
+    "ExpDetail": "Volume suara %1 earbud yang tidak terduga.",
+    "ResultLevel": 10
+        },
+  "t10615301": {
+    "ExpAdvice": "<br>1. Pastikan earbud berada di dalam casing dan penutup casing ditutup atau dibuka dengan benar. Jika tidak, wajar jika melihat pesan kesalahan. <br>2. Periksa apakah probe atau pin pengisian daya di dalam casing pengisi daya telah berubah bentuk atau patah. <br>3. Periksa apakah titik kontak pengisian daya, serta pin dan probe pengisi daya di dalam wadah pengisi daya terkena oli, keringat, atau kotoran. Jika ya, bersihkan dengan kapas bebas serat yang direndam dalam etanol.",
+    "ExpDetail": "Deteksi tutup casing earbud gagal.",
+    "ResultLevel": 10
+        },
+  "t10615401": {
+    "ExpAdvice": "<br>1. Pastikan earbud dipakai sebagaimana mestinya. Jika earbud tidak terpasang di telinga Anda, pesan kesalahan yang muncul adalah hal yang wajar. <br>2. Sesuaikan earbud agar pas dengan telinga Anda dan pastikan terpasang dengan benar. <br>3. Periksa apakah earbud bebas dari zat seperti air atau minyak. Jika tidak, bersihkan earbud sebelum pengujian.",
+    "ExpDetail": "Deteksi dalam telinga %1 earbud gagal.",
+    "ResultLevel": 10
+        },
+  "t10615402": {
+    "ExpAdvice": "<br>1. Pastikan Anda mencubit titik yang tepat. Jika Anda tidak mencubit earbud, pesan kesalahan yang muncul adalah hal yang wajar. <br>2. Sesuaikan lokasi dan kekuatan cubitan, dan pastikan Anda mencubit dengan benar. <br>3. Periksa apakah earbud bebas dari zat seperti air atau minyak. Jika tidak, bersihkan earbud sebelum pengujian.",
+    "ExpDetail": "Kontrol ketuk dua kali (cubit) %1 earbud gagal.",
+    "ResultLevel": 10
+        },
+  "t10615403": {
+    "ExpAdvice": "<br>1. Pastikan kedua earbud Anda berada dalam casing. Jika tidak demikian, wajar saja jika Anda melihat pesan kesalahan. <br>2. Periksa apakah probe atau pin pengisian daya di dalam casing pengisi daya telah berubah bentuk atau patah. <br>3. Periksa apakah titik kontak pengisian daya, serta pin dan probe pengisi daya di dalam wadah pengisi daya terkena oli, keringat, atau kotoran. Jika ya, bersihkan dengan kapas bebas serat yang direndam dalam etanol.",
+    "ExpDetail": "Deteksi casing masuk %1 earbud gagal.",
+    "ResultLevel": 10
+        },
+  "t10615501": {
+    "ExpAdvice": "Pastikan kedua earbud Anda berada dalam casing. Jika tidak demikian, wajar saja jika Anda melihat pesan kesalahan.",
+    "ExpDetail": "Deteksi lampu status casing earbud gagal.",
+    "ResultLevel": 10
+        },
+  "t10615601": {
+    "ExpAdvice": "<br>1. Pastikan kedua earbud Anda berada dalam casing. Jika tidak demikian, wajar saja jika Anda melihat pesan kesalahan. <br>2. Periksa apakah probe atau pin pengisian daya di dalam casing pengisi daya telah berubah bentuk atau patah. <br>3. Periksa apakah titik kontak pengisian daya, serta pin dan probe pengisi daya di dalam wadah pengisi daya terkena oli, keringat, atau kotoran. Jika ya, bersihkan dengan kapas bebas serat yang direndam dalam etanol.",
+    "ExpDetail": "Deteksi tombol casing earbud gagal.",
+    "ResultLevel": 10
+        }
+}
