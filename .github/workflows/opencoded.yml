@@ -228,7 +228,6 @@ jobs:
         uses: anomalyco/opencode/github@latest
         continue-on-error: true
         with:
-          use_github_token: true
           share: true
           model: ${{ steps.normalize_model.outputs.model }}
 
@@ -241,7 +240,6 @@ jobs:
         uses: anomalyco/opencode/github@latest
         continue-on-error: true
         with:
-          use_github_token: true
           share: true
           model: ${{ steps.normalize_model.outputs.model }}
           prompt: >-
