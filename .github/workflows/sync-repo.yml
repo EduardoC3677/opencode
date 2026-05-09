@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       target_repo:
-        description: 'Target repository (formato: owner/repo)'
+        description: 'Target repository URL (ej: https://github.com/owner/repo.git)'
         required: true
         type: string
 
@@ -23,6 +23,20 @@ jobs:
       artifact-metadata: write
       repository-projects: write
     steps:
+      - name: Extract owner/repo from URL
+        id: extract
+        run: |
+          INPUT="${{ github.event.inputs.target_repo }}"
+          # Remove trailing .git if present
+          INPUT="${INPUT%.git}"
+          # Extract owner/repo from URL like https://github.com/owner/repo
+          REPO=$(echo "$INPUT" | sed -n 's|.*github\.com/\([^/]*/[^/]*\).*|\1|p')
+          if [ -z "$REPO" ]; then
+            # Fallback: assume input is already owner/repo
+            REPO="$INPUT"
+          fi
+          echo "repo=$REPO" >> "$GITHUB_OUTPUT"
+
       - name: Checkout source repository
         uses: actions/checkout@v6
         with:
@@ -32,7 +46,7 @@ jobs:
       - name: Checkout target repository
         uses: actions/checkout@v6
         with:
-          repository: ${{ github.event.inputs.target_repo }}
+          repository: ${{ steps.extract.outputs.repo }}
           token: ${{ secrets.ONT }}
           path: target-repo
           fetch-depth: 1
@@ -110,32 +124,24 @@ jobs:
       - name: Create secrets in target repository
         run: |
           set -euo pipefail
-          TARGET_REPO="${{ github.event.inputs.target_repo }}"
+          TARGET_REPO="${{ steps.extract.outputs.repo }}"
 
-          # Obtener lista de secretos del repositorio actual
-          SECRETS_JSON=$(gh secret list --json name 2>/dev/null || echo "[]")
+          # Lista de secretos a sincronizar
+          SECRET_NAMES="AZURE_FOUNDRY_API_KEY AZURE_FOUNDRY_RESOURCE_NAME ONT"
 
-          if [ "$SECRETS_JSON" = "[]" ]; then
-            echo "No secrets found in source repository or cannot access them"
-          else
-            echo "$SECRETS_JSON" | jq -r '.[].name' | while read -r secret_name; do
-              # Obtener el valor del secreto
-              secret_value=$(gh secret list --json name,value 2>/dev/null | jq -r ".[] | select(.name==\"$secret_name\") | .value" 2>/dev/null || echo "")
-
-              if [ -z "$secret_value" ]; then
-                # Intentar obtenerlo de las variables de entorno
-                secret_value="${!secret_name:-}"
-              fi
-
-              if [ -n "$secret_value" ]; then
-                echo "Creating secret: $secret_name in $TARGET_REPO"
-                echo "$secret_value" | gh secret set "$secret_name" --repo "$TARGET_REPO" --body -
-                echo "Secret $secret_name created successfully"
-              else
-                echo "Cannot get value for secret: $secret_name, skipping"
-              fi
-            done
-          fi
+          for secret_name in $SECRET_NAMES; do
+            secret_value="${!secret_name:-}"
+            if [ -n "$secret_value" ]; then
+              echo "Creating secret: $secret_name in $TARGET_REPO"
+              echo "$secret_value" | gh secret set "$secret_name" --repo "$TARGET_REPO" --body -
+              echo "Secret $secret_name created successfully"
+            else
+              echo "Cannot get value for secret: $secret_name, skipping"
+            fi
+          done
 
         env:
           GH_TOKEN: ${{ secrets.ONT }}
+          AZURE_FOUNDRY_API_KEY: ${{ secrets.AZURE_FOUNDRY_API_KEY }}
+          AZURE_FOUNDRY_RESOURCE_NAME: ${{ secrets.AZURE_FOUNDRY_RESOURCE_NAME }}
+          ONT: ${{ secrets.ONT }}
