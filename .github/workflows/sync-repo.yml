@@ -1,0 +1,141 @@
+name: Sync Repository
+on:
+  workflow_dispatch:
+    inputs:
+      target_repo:
+        description: 'Target repository (formato: owner/repo)'
+        required: true
+        type: string
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+      id-token: write
+      pull-requests: write
+      issues: write
+      statuses: write
+      security-events: write
+      discussions: write
+      attestations: write
+      artifact-metadata: write
+      repository-projects: write
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Checkout target repository
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ github.event.inputs.target_repo }}
+          token: ${{ secrets.ONT }}
+          path: target-repo
+          fetch-depth: 1
+
+      - name: Sync workflows to target repo
+        run: |
+          set -euo pipefail
+          TARGET="target-repo"
+
+          # Crear directorio .github/workflows si no existe
+          mkdir -p "$TARGET/.github/workflows"
+
+          # Copiar workflows (excluyendo este mismo workflow sync-repo.yml)
+          for wf in .github/workflows/*.yml; do
+            wf_name=$(basename "$wf")
+            if [ "$wf_name" != "sync-repo.yml" ]; then
+              cp "$wf" "$TARGET/.github/workflows/$wf_name"
+              echo "Copied workflow: $wf_name"
+            fi
+          done
+
+      - name: Sync .gitignore to target repo
+        run: |
+          set -euo pipefail
+          TARGET="target-repo"
+
+          if [ -f .gitignore ]; then
+            if [ -f "$TARGET/.gitignore" ]; then
+              echo "=== .gitignore exists in target, injecting missing entries ==="
+              while IFS= read -r line; do
+                if [ -n "$line" ]; then
+                  if ! grep -qxF "$line" "$TARGET/.gitignore"; then
+                    echo "$line" >> "$TARGET/.gitignore"
+                    echo "Added: $line"
+                  fi
+                fi
+              done < .gitignore
+            else
+              echo "=== .gitignore does not exist in target, copying ==="
+              cp .gitignore "$TARGET/.gitignore"
+            fi
+          else
+            echo "No .gitignore in source repo, skipping"
+          fi
+
+      - name: Sync package.json to target repo
+        run: |
+          set -euo pipefail
+          TARGET="target-repo"
+          if [ -f package.json ]; then
+            cp package.json "$TARGET/package.json"
+            echo "Copied package.json"
+          fi
+
+      - name: Commit and push to target repo
+        run: |
+          set -euo pipefail
+          TARGET="target-repo"
+
+          cd "$TARGET"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Sync workflows, .gitignore and package.json from opencode repo"
+            git push origin HEAD
+            echo "Changes pushed successfully"
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Create secrets in target repository
+        run: |
+          set -euo pipefail
+          TARGET_REPO="${{ github.event.inputs.target_repo }}"
+
+          # Obtener lista de secretos del repositorio actual
+          SECRETS_JSON=$(gh secret list --json name 2>/dev/null || echo "[]")
+
+          if [ "$SECRETS_JSON" = "[]" ]; then
+            echo "No secrets found in source repository or cannot access them"
+          else
+            echo "$SECRETS_JSON" | jq -r '.[].name' | while read -r secret_name; do
+              # Obtener el valor del secreto
+              secret_value=$(gh secret list --json name,value 2>/dev/null | jq -r ".[] | select(.name==\"$secret_name\") | .value" 2>/dev/null || echo "")
+
+              if [ -z "$secret_value" ]; then
+                # Intentar obtenerlo de las variables de entorno
+                secret_value="${!secret_name:-}"
+              fi
+
+              if [ -n "$secret_value" ]; then
+                echo "Creating secret: $secret_name in $TARGET_REPO"
+                echo "$secret_value" | gh secret set "$secret_name" --repo "$TARGET_REPO" --body -
+                echo "Secret $secret_name created successfully"
+              else
+                echo "Cannot get value for secret: $secret_name, skipping"
+              fi
+            done
+          fi
+
+        env:
+          GH_TOKEN: ${{ secrets.ONT }}
