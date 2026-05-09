@@ -1,0 +1,2 @@
+O+/Plugins/resource/OfsResource/resourceMV5.ofs filter=lfs diff=lfs merge=lfs -text
+O+/Data/Plugins/FLASH_SRV_WATCH/Qt5WebEngineCore.dll filter=lfs diff=lfs merge=lfs -text
