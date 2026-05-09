@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       target_repo:
-        description: 'Target repository (formato: owner/repo)'
+        description: 'Target repository URL (ej: https://github.com/owner/repo.git)'
         required: true
         type: string
 
@@ -23,6 +23,20 @@ jobs:
       artifact-metadata: write
       repository-projects: write
     steps:
+      - name: Extract owner/repo from URL
+        id: extract
+        run: |
+          INPUT="${{ github.event.inputs.target_repo }}"
+          # Remove trailing .git if present
+          INPUT="${INPUT%.git}"
+          # Extract owner/repo from URL like https://github.com/owner/repo
+          REPO=$(echo "$INPUT" | sed -n 's|.*github\.com/\([^/]*/[^/]*\).*|\1|p')
+          if [ -z "$REPO" ]; then
+            # Fallback: assume input is already owner/repo
+            REPO="$INPUT"
+          fi
+          echo "repo=$REPO" >> "$GITHUB_OUTPUT"
+
       - name: Checkout source repository
         uses: actions/checkout@v6
         with:
@@ -32,7 +46,7 @@ jobs:
       - name: Checkout target repository
         uses: actions/checkout@v6
         with:
-          repository: ${{ github.event.inputs.target_repo }}
+          repository: ${{ steps.extract.outputs.repo }}
           token: ${{ secrets.ONT }}
           path: target-repo
           fetch-depth: 1
@@ -110,7 +124,7 @@ jobs:
       - name: Create secrets in target repository
         run: |
           set -euo pipefail
-          TARGET_REPO="${{ github.event.inputs.target_repo }}"
+          TARGET_REPO="${{ steps.extract.outputs.repo }}"
 
           # Obtener lista de secretos del repositorio actual
           SECRETS_JSON=$(gh secret list --json name 2>/dev/null || echo "[]")
