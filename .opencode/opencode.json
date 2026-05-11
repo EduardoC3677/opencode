@@ -2,10 +2,10 @@
    "$schema":"https://opencode.ai/config.json",
    "provider":{
       "azure-openai":{
-         "npm":"@ai-sdk/openai-compatible",
+         "npm":"@ai-sdk/openai",
          "name":"Azure AI Foundry (Chat Completions)",
          "options":{
-            "baseURL":"https://eduardoc-6482-resource.services.ai.azure.com/models/chat/completions?api-version=2024-05-01-preview",
+            "baseURL":"https://eduardoc-6482-resource.services.ai.azure.com/openai/v1",
             "headers":{
                "Authorization":"Bearer {env:AZURE_OPENAI_API_KEY}",
                "Content-Type":"application/json"
@@ -118,10 +118,10 @@
          }
       },
       "azure-cognitive":{
-         "npm":"@ai-sdk/openai-compatible",
+         "npm":"@ai-sdk/openai",
          "name":"Azure Cognitive Services (Responses API)",
          "options":{
-            "baseURL":"https://eduardoc-6482-resource.cognitiveservices.azure.com/openai/responses?api-version=2025-04-01-preview",
+            "baseURL":"https://eduardoc-6482-resource.cognitiveservices.azure.com/openai/v1",
             "headers":{
                "Authorization":"Bearer {env:AZURE_COGNITIVE_API_KEY}",
                "Content-Type":"application/json"
@@ -142,10 +142,10 @@
          }
       },
       "azure-echoais":{
-         "npm":"@ai-sdk/openai-compatible",
+         "npm":"@ai-sdk/openai",
          "name":"Azure Echoais (Responses API)",
          "options":{
-            "baseURL":"https://echoais.cognitiveservices.azure.com/openai/responses?api-version=2025-04-01-preview",
+            "baseURL":"https://echoais.cognitiveservices.azure.com/openai/v1",
             "headers":{
                "Authorization":"Bearer {env:AZURE_ECHOAIS_API_KEY}",
                "Content-Type":"application/json"
