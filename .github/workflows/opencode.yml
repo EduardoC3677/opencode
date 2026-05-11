@@ -114,20 +114,20 @@ jobs:
           PROVIDER="${{ needs.detect-trigger.outputs.provider }}"
           case "$PROVIDER" in
             azure-openai)
-              echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
-              echo "AZURE_OPENAI_RESOURCE_NAME=${{ secrets.AZURE_OPENAI_RESOURCE_NAME }}" >> $GITHUB_ENV
+              echo "AZURE_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_RESOURCE_NAME=${{ secrets.AZURE_OPENAI_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
             azure-anthropic)
-              echo "AZURE_ANTHROPIC_API_KEY=${{ secrets.AZURE_ANTHROPIC_API_KEY }}" >> $GITHUB_ENV
-              echo "AZURE_ANTHROPIC_RESOURCE_NAME=${{ secrets.AZURE_ANTHROPIC_RESOURCE_NAME }}" >> $GITHUB_ENV
+              echo "AZURE_API_KEY=${{ secrets.AZURE_ANTHROPIC_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_RESOURCE_NAME=${{ secrets.AZURE_ANTHROPIC_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
             azure-cognitive)
-              echo "AZURE_COGNITIVE_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> $GITHUB_ENV
-              echo "AZURE_COGNITIVE_RESOURCE_NAME=${{ secrets.AZURE_COGNITIVE_RESOURCE_NAME }}" >> $GITHUB_ENV
+              echo "AZURE_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_RESOURCE_NAME=${{ secrets.AZURE_COGNITIVE_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
             azure-echoais)
-              echo "AZURE_ECHOAIS_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> $GITHUB_ENV
-              echo "AZURE_ECHOAIS_RESOURCE_NAME=${{ secrets.AZURE_ECHOAIS_RESOURCE_NAME }}" >> $GITHUB_ENV
+              echo "AZURE_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_RESOURCE_NAME=${{ secrets.AZURE_ECHOAIS_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
           esac
 
@@ -135,6 +135,8 @@ jobs:
         uses: anomalyco/opencode/github@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AZURE_API_KEY: ${{ env.AZURE_API_KEY }}
+          AZURE_RESOURCE_NAME: ${{ env.AZURE_RESOURCE_NAME }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           agent: ${{ needs.detect-trigger.outputs.run_kind == 'issue_task' && 'build' || needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'manual-review' || 'auto-review' }}
