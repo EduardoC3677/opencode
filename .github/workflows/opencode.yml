@@ -99,6 +99,16 @@ jobs:
         with:
           fetch-depth: 1
           persist-credentials: false
+          
+      - name: Bot Details
+        id: bot-details
+        uses: raven-actions/bot-details@v1
+
+      - name: Setup credentials
+        run: |
+          git config --global user.name "${{ steps.bot-details.outputs.name }}"
+          git config --global user.email "${{ steps.bot-details.outputs.email }}"
+          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf https://github.com/
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -240,9 +250,11 @@ jobs:
           }}
         uses: anomalyco/opencode/github@latest
         continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           use_github_token: true
-          share: true
+          agent: build
           model: ${{ steps.normalize_model.outputs.model }}
 
       - name: Run OpenCode for issues/PR/workflow_dispatch
@@ -253,9 +265,11 @@ jobs:
           }}
         uses: anomalyco/opencode/github@latest
         continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           use_github_token: true
-          share: true
+          agent: build
           model: ${{ steps.normalize_model.outputs.model }}
           prompt: >-
             ${{
