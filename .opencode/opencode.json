@@ -5,12 +5,7 @@
          "npm":"@ai-sdk/openai",
          "name":"Azure AI Foundry (Chat Completions)",
          "options":{
-            "baseURL":"https://eduardoc-6482-resource.services.ai.azure.com/models/chat",
-            "apikey": "{env:AZURE_OPENAI_API_KEY}", 
-            "headers":{
-               "Authorization":"Bearer {env:AZURE_OPENAI_API_KEY}",
-               "Content-Type":"application/json"
-            }
+            "baseURL":"https://eduardoc-6482-resource.services.ai.azure.com/openai/v1",
          },
          "models":{
             "Codestral-2501":{
