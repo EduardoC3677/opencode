@@ -115,18 +115,22 @@ jobs:
           case "$PROVIDER" in
             azure-openai)
               echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
+              echo "OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
               echo "AZURE_OPENAI_RESOURCE_NAME=${{ secrets.AZURE_OPENAI_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
             azure-anthropic)
               echo "AZURE_ANTHROPIC_API_KEY=${{ secrets.AZURE_ANTHROPIC_API_KEY }}" >> $GITHUB_ENV
+              echo "ANTHROPIC_API_KEY=${{ secrets.AZURE_ANTHROPIC_API_KEY }}" >> $GITHUB_ENV
               echo "AZURE_ANTHROPIC_RESOURCE_NAME=${{ secrets.AZURE_ANTHROPIC_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
             azure-cognitive)
               echo "AZURE_COGNITIVE_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> $GITHUB_ENV
+              echo "OPENAI_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> $GITHUB_ENV
               echo "AZURE_COGNITIVE_RESOURCE_NAME=${{ secrets.AZURE_COGNITIVE_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
             azure-echoais)
               echo "AZURE_ECHOAIS_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> $GITHUB_ENV
+              echo "OPENAI_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> $GITHUB_ENV
               echo "AZURE_ECHOAIS_RESOURCE_NAME=${{ secrets.AZURE_ECHOAIS_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
           esac
@@ -135,6 +139,8 @@ jobs:
         uses: anomalyco/opencode/github@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ env.OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           agent: ${{ needs.detect-trigger.outputs.run_kind == 'issue_task' && 'build' || needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'manual-review' || 'auto-review' }}
