@@ -101,14 +101,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-        with:
-          fetch-depth: 1
-          persist-credentials: false
-          
+        
       - name: Bot Details
         id: bot-details
         uses: raven-actions/bot-details@v1
-  
+
+      - name: Setup credentials
+        run: |
+          git config --global user.name "${{ steps.bot-details.outputs.name }}"
+          git config --global user.email "${{ steps.bot-details.outputs.email }}"
+          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf https://github.com/
+
       - name: Set Azure env vars for model provider
         run: |
           PROVIDER="${{ needs.detect-trigger.outputs.provider }}"
@@ -136,13 +139,16 @@ jobs:
           esac
 
       - name: Run OpenCode Review
-        uses: anomalyco/opencode/github@latest
+        uses: sst/opencode/github@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ env.OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
+          use_github_token: true
+          
+          
 
       - name: Report failure
         if: failure()
