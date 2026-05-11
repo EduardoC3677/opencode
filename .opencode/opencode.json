@@ -1,0 +1,98 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "azure-openai": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Azure OpenAI (OpenAI Compatible)",
+      "options": {
+        "baseURL": "https://eduardoc-6482-resource.services.ai.azure.com/openai/v1/",
+        "headers": {
+          "api-key": "{env:AZURE_OPENAI_API_KEY}"
+        }
+      },
+      "models": {
+        "Codestral-2501": {
+          "name": "Codestral 2501"
+        },
+        "DeepSeek-V4-Flash": {
+          "name": "DeepSeek V4 Flash"
+        },
+        "DeepSeek-V3.2-Speciale": {
+          "name": "DeepSeek V3.2 Speciale"
+        },
+        "Kimi-K2.6": {
+          "name": "Kimi K2.6"
+        }
+      }
+    },
+    "azure-anthropic": {
+      "npm": "@ai-sdk/anthropic",
+      "name": "Azure Anthropic Foundry",
+      "options": {
+        "baseURL": "https://eduardoc-6482-resource.services.ai.azure.com/anthropic/",
+        "headers": {
+          "x-api-key": "{env:AZURE_ANTHROPIC_API_KEY}"
+        }
+      },
+      "models": {
+        "claude-opus-4-7": {
+          "name": "Claude Opus 4.7"
+        },
+        "claude-opus-4-6": {
+          "name": "Claude Opus 4.6"
+        }
+      }
+    },
+    "azure-cognitive": {
+      "npm": "@ai-sdk/azure",
+      "name": "Azure Cognitive Services",
+      "options": {
+        "baseURL": "https://eduardoc-6482-resource.cognitiveservices.azure.com/",
+        "headers": {
+          "api-key": "{env:AZURE_COGNITIVE_API_KEY}"
+        }
+      },
+      "models": {
+        "gpt-5.4-pro": {
+          "name": "GPT 5.4 Pro"
+        }
+      }
+    },
+    "azure-echoais": {
+      "npm": "@ai-sdk/azure",
+      "name": "Azure Echoais",
+      "options": {
+        "baseURL": "https://echoais.cognitiveservices.azure.com/",
+        "headers": {
+          "api-key": "{env:AZURE_ECHOAIS_API_KEY}"
+        }
+      },
+      "models": {
+        "gpt-5.3-codex": {
+          "name": "GPT 5.3 Codex"
+        }
+      }
+    }
+  },
+  "agent": {
+    "auto-review": {
+      "description": "Automatic PR review triggered on PR open/sync",
+      "mode": "primary",
+      "hidden": true,
+      "model": "azure-openai/DeepSeek-V4-Flash",
+      "temperature": 0.1
+    },
+    "manual-review": {
+      "description": "Manual PR review triggered via /oc or /opencode",
+      "mode": "primary",
+      "hidden": true,
+      "model": "azure-openai/DeepSeek-V4-Flash",
+      "temperature": 0.1
+    }
+  },
+  "watcher": {
+    "ignore": [
+      ".opencode/node_modules/**"
+    ]
+  }
+}
