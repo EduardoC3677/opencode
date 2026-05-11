@@ -33,7 +33,7 @@ jobs:
             local input="$1"
             case "$input" in
               */*) echo "$input" ;;
-              Codestral-2501|DeepSeek-V4-Flash|DeepSeek-V3.2-Speciale|Kimi-K2.6) echo "azure-openai/$input" ;;
+              Codestral-2501|DeepSeek-V4-Flash|DeepSeek-V3.2-Speciale|Kimi-K2.6|DeepSeek-R1|DeepSeek-V3.2) echo "azure-openai/$input" ;;
               claude-opus-4-7|claude-opus-4-6) echo "azure-anthropic/$input" ;;
               gpt-5.4-pro) echo "azure-cognitive/$input" ;;
               gpt-5.3-codex) echo "azure-echoais/$input" ;;
