@@ -6,6 +6,7 @@
          "name":"Azure AI Foundry (Chat Completions)",
          "options":{
             "baseURL":"https://eduardoc-6482-resource.services.ai.azure.com/openai/v1",
+            "apikey": "{env:AZURE_OPENAI_API_KEY}", 
             "headers":{
                "Authorization":"Bearer {env:AZURE_OPENAI_API_KEY}",
                "Content-Type":"application/json"
@@ -86,6 +87,7 @@
          "name":"Azure Anthropic Foundry",
          "options":{
             "baseURL":"https://eduardoc-6482-resource.services.ai.azure.com/anthropic/",
+            "apikey": "{env:AZURE_ANTHROPIC_API_KEY}", 
             "headers":{
                "x-api-key":"{env:AZURE_ANTHROPIC_API_KEY}",
                "anthropic-version":"2023-06-01",
@@ -122,6 +124,7 @@
          "name":"Azure Cognitive Services (Responses API)",
          "options":{
             "baseURL":"https://eduardoc-6482-resource.cognitiveservices.azure.com/openai/v1",
+            "apikey": "{env:AZURE_COGNITIVE_API_KEY}", 
             "headers":{
                "Authorization":"Bearer {env:AZURE_COGNITIVE_API_KEY}",
                "Content-Type":"application/json"
@@ -146,6 +149,7 @@
          "name":"Azure Echoais (Responses API)",
          "options":{
             "baseURL":"https://echoais.cognitiveservices.azure.com/openai/v1",
+            "apikey": "{env:AZURE_ECHOAIS_API_KEY}", 
             "headers":{
                "Authorization":"Bearer {env:AZURE_ECHOAIS_API_KEY}",
                "Content-Type":"application/json"
