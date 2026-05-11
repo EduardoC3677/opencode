@@ -90,12 +90,6 @@ jobs:
       id-token: write
       contents: write
       pull-requests: write
-      actions: write
-      deployments: write
-      statuses: write
-      packages: write
-      discussions: write
-      attestations: write
       issues: write
 
     steps:
