@@ -140,8 +140,6 @@ jobs:
           OPENAI_API_KEY: ${{ env.OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
-          use_github_token: true
-          
           
 
       - name: Report failure
