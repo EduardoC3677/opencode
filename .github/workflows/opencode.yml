@@ -91,7 +91,7 @@ jobs:
       contents: write
       pull-requests: write
       issues: write
-      workflows: write
+      actions: write
 
     steps:
       - name: Checkout repository
