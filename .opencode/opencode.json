@@ -12,7 +12,8 @@
       },
       "models": {
         "Codestral-2501": {
-          "name": "Codestral 2501"
+          "name": "Codestral 2501",
+          "streamUsage": false
         },
         "DeepSeek-V4-Flash": {
           "name": "DeepSeek V4 Flash"
