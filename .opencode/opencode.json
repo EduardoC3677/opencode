@@ -150,22 +150,6 @@
       }
     }
   },
-  "agent": {
-    "auto-review": {
-      "description": "Automatic PR review triggered on PR open/sync",
-      "mode": "primary",
-      "hidden": true,
-      "model": "azure-openai/DeepSeek-V4-Flash",
-      "temperature": 0.1
-    },
-    "manual-review": {
-      "description": "Manual PR review triggered via /oc or /opencode",
-      "mode": "primary",
-      "hidden": true,
-      "model": "azure-openai/DeepSeek-V4-Flash",
-      "temperature": 0.1
-    }
-  },
   "watcher": {
     "ignore": [
       ".opencode/node_modules/**"
