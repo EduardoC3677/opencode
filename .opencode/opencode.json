@@ -150,6 +150,37 @@
       }
     }
   },
+  "mcpServers": {
+    "sequential-thinking": {
+      "url": "https://mcp-dvthn8n6d3e6.sequoia.mcp.com"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@anthropic/mcp-playwright"]
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["@anthropic/mcp-memory"]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["@anthropic/mcp-github"]
+    }
+  },
+  "plugins": [
+    {
+      "name": "agent",
+      "path": ".opencode/agent"
+    },
+    {
+      "name": "command",
+      "path": ".opencode/command"
+    }
+  ],
+  "agents": {
+    "model": "sonic-fast"
+  },
+  "thoughts": "thoughts",
   "watcher": {
     "ignore": [
       ".opencode/node_modules/**"

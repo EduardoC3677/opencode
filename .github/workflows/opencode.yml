@@ -97,6 +97,7 @@ jobs:
       discussions: write
       attestations: write
       issues: write
+      workflows: write
 
     steps:
       - name: Checkout repository
