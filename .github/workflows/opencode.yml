@@ -143,8 +143,6 @@ jobs:
           OPENAI_API_KEY: ${{ env.OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
-          agent: ${{ needs.detect-trigger.outputs.run_kind == 'issue_task' && 'build' || needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'manual-review' || 'auto-review' }}
-          
 
       - name: Report failure
         if: failure()
