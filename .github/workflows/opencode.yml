@@ -20,6 +20,7 @@ jobs:
       run_kind: ${{ steps.check.outputs.run_kind }}
       pr_number: ${{ steps.check.outputs.pr_number }}
       issue_number: ${{ steps.check.outputs.issue_number }}
+      model: ${{ steps.check.outputs.model }}
     steps:
       - id: check
         env:
@@ -35,18 +36,22 @@ jobs:
             echo "run_kind=auto_pr_review" >> "$GITHUB_OUTPUT"
             echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
             echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
+            echo "model=azure-openai/DeepSeek-V4-Flash" >> "$GITHUB_OUTPUT"
           elif [ "$EVENT_NAME" = "issue_comment" ] || [ "$EVENT_NAME" = "pull_request_review_comment" ]; then
             if echo "$COMMENT_BODY" | grep -qE '(^|[[:space:]])/(oc|opencode)\b'; then
+              SELECTED_MODEL=$(echo "$COMMENT_BODY" | grep -oP 'model=\K\S+' | head -1 || true)
               if [ "$IS_PR" = "true" ]; then
                 echo "should_run=true" >> "$GITHUB_OUTPUT"
                 echo "run_kind=manual_pr_review" >> "$GITHUB_OUTPUT"
                 echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
                 echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
+                echo "model=${SELECTED_MODEL:-azure-openai/DeepSeek-V4-Flash}" >> "$GITHUB_OUTPUT"
               else
                 echo "should_run=true" >> "$GITHUB_OUTPUT"
                 echo "run_kind=issue_task" >> "$GITHUB_OUTPUT"
                 echo "pr_number=" >> "$GITHUB_OUTPUT"
                 echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
+                echo "model=${SELECTED_MODEL:-azure-openai/DeepSeek-V4-Flash}" >> "$GITHUB_OUTPUT"
               fi
             else
               echo "should_run=false" >> "$GITHUB_OUTPUT"
@@ -91,7 +96,7 @@ jobs:
           AZURE_API_KEY: ${{ secrets.AZURE_FOUNDRY_API_KEY || secrets.AZURE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          model: ${{ needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'azure-openai/DeepSeek-V4-Flash' || needs.detect-trigger.outputs.run_kind == 'issue_task' && 'azure-openai/DeepSeek-V4-Flash' || 'azure-openai/DeepSeek-V4-Flash' }}
+          model: ${{ needs.detect-trigger.outputs.model }}
           agent: ${{ needs.detect-trigger.outputs.run_kind == 'issue_task' && 'build' || needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'manual-review' || 'auto-review' }}
           use_github_token: true
 
