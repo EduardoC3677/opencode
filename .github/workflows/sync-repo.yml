@@ -127,7 +127,7 @@ jobs:
           TARGET_REPO="${{ steps.extract.outputs.repo }}"
 
           # Lista de secretos a sincronizar
-          SECRET_NAMES="AZURE_FOUNDRY_API_KEY AZURE_FOUNDRY_RESOURCE_NAME ONT"
+          SECRET_NAMES="AZURE_FOUNDRY_API_KEY AZURE_FOUNDRY_RESOURCE_NAME AZURE_OPENAI_API_KEY ONT"
 
           for secret_name in $SECRET_NAMES; do
             secret_value="${!secret_name:-}"
@@ -144,4 +144,5 @@ jobs:
           GH_TOKEN: ${{ secrets.ONT }}
           AZURE_FOUNDRY_API_KEY: ${{ secrets.AZURE_FOUNDRY_API_KEY }}
           AZURE_FOUNDRY_RESOURCE_NAME: ${{ secrets.AZURE_FOUNDRY_RESOURCE_NAME }}
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
           ONT: ${{ secrets.ONT }}
