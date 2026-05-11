@@ -88,11 +88,10 @@ jobs:
       - name: Run OpenCode Review
         uses: anomalyco/opencode/github@latest
         env:
-          LIGHTBRIDGE_API_KEY: ${{ secrets.LIGHTBRIDGE_API_KEY }}
-          LIGHTBRIDGE_BASE_URL: ${{ vars.LIGHTBRIDGE_BASE_URL }}
+          AZURE_API_KEY: ${{ secrets.AZURE_FOUNDRY_API_KEY || secrets.AZURE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          model: ${{ needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'lightbridge/glm-5' || needs.detect-trigger.outputs.run_kind == 'issue_task' && 'lightbridge/glm-5' || 'lightbridge/gemini-3.1-flash-lite' }}
+          model: ${{ needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'azure-openai/DeepSeek-V4-Flash' || needs.detect-trigger.outputs.run_kind == 'issue_task' && 'azure-openai/DeepSeek-V4-Flash' || 'azure-openai/DeepSeek-V4-Flash' }}
           agent: ${{ needs.detect-trigger.outputs.run_kind == 'issue_task' && 'build' || needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'manual-review' || 'auto-review' }}
           use_github_token: true
 

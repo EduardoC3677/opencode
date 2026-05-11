@@ -88,8 +88,6 @@ jobs:
       - name: Run OpenCode Review
         uses: anomalyco/opencode/github@latest
         env:
-          LIGHTBRIDGE_API_KEY: ${{ secrets.LIGHTBRIDGE_API_KEY }}
-          LIGHTBRIDGE_BASE_URL: ${{ vars.LIGHTBRIDGE_BASE_URL }}
           AZURE_API_KEY: ${{ secrets.AZURE_FOUNDRY_API_KEY || secrets.AZURE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
