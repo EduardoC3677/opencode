@@ -7,7 +7,7 @@
       "options": {
         "baseURL": "https://eduardoc-6482-resource.services.ai.azure.com/openai/v1/",
         "headers": {
-          "api-key": "{env:AZURE_API_KEY}"
+          "api-key": "{env:AZURE_OPENAI_API_KEY}"
         }
       },
       "models": {
@@ -31,7 +31,7 @@
       "options": {
         "baseURL": "https://eduardoc-6482-resource.services.ai.azure.com/anthropic/",
         "headers": {
-          "x-api-key": "{env:AZURE_API_KEY}"
+          "x-api-key": "{env:AZURE_ANTHROPIC_API_KEY}"
         }
       },
       "models": {
@@ -49,7 +49,7 @@
       "options": {
         "baseURL": "https://eduardoc-6482-resource.cognitiveservices.azure.com/",
         "headers": {
-          "api-key": "{env:AZURE_API_KEY}"
+          "api-key": "{env:AZURE_COGNITIVE_API_KEY}"
         }
       },
       "models": {
@@ -64,7 +64,7 @@
       "options": {
         "baseURL": "https://echoais.cognitiveservices.azure.com/",
         "headers": {
-          "api-key": "{env:AZURE_API_KEY}"
+          "api-key": "{env:AZURE_ECHOAIS_API_KEY}"
         }
       },
       "models": {

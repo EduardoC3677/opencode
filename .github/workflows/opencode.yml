@@ -21,6 +21,7 @@ jobs:
       pr_number: ${{ steps.check.outputs.pr_number }}
       issue_number: ${{ steps.check.outputs.issue_number }}
       model: ${{ steps.check.outputs.model }}
+      provider: ${{ steps.check.outputs.provider }}
     steps:
       - id: check
         env:
@@ -28,30 +29,49 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           IS_PR: ${{ github.event.issue.pull_request != '' || github.event.pull_request != '' }}
         run: |
+          resolve_model() {
+            local input="$1"
+            case "$input" in
+              */*) echo "$input" ;;
+              Codestral-2501|DeepSeek-V4-Flash|DeepSeek-V3.2-Speciale|Kimi-K2.6) echo "azure-openai/$input" ;;
+              claude-opus-4-7|claude-opus-4-6) echo "azure-anthropic/$input" ;;
+              gpt-5.4-pro) echo "azure-cognitive/$input" ;;
+              gpt-5.3-codex) echo "azure-echoais/$input" ;;
+              *) echo "" ;;
+            esac
+          }
+          extract_provider() {
+            echo "${1%%/*}"
+          }
           PR_NUMBER="${{ github.event.pull_request.number || github.event.issue.number }}"
           ISSUE_NUMBER="${{ github.event.issue.number || github.event.pull_request.number }}"
 
           if [ "$EVENT_NAME" = "pull_request" ]; then
+            FULL_MODEL=$(resolve_model "DeepSeek-V4-Flash")
             echo "should_run=true" >> "$GITHUB_OUTPUT"
             echo "run_kind=auto_pr_review" >> "$GITHUB_OUTPUT"
             echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
             echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
-            echo "model=azure-openai/DeepSeek-V4-Flash" >> "$GITHUB_OUTPUT"
+            echo "model=$FULL_MODEL" >> "$GITHUB_OUTPUT"
+            echo "provider=$(extract_provider "$FULL_MODEL")" >> "$GITHUB_OUTPUT"
           elif [ "$EVENT_NAME" = "issue_comment" ] || [ "$EVENT_NAME" = "pull_request_review_comment" ]; then
             if echo "$COMMENT_BODY" | grep -qE '(^|[[:space:]])/(oc|opencode)\b'; then
               SELECTED_MODEL=$(echo "$COMMENT_BODY" | grep -oP 'model=\K\S+' | head -1 || true)
+              FULL_MODEL=$(resolve_model "${SELECTED_MODEL:-DeepSeek-V4-Flash}")
               if [ "$IS_PR" = "true" ]; then
                 echo "should_run=true" >> "$GITHUB_OUTPUT"
                 echo "run_kind=manual_pr_review" >> "$GITHUB_OUTPUT"
                 echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
                 echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
-                echo "model=${SELECTED_MODEL:-azure-openai/DeepSeek-V4-Flash}" >> "$GITHUB_OUTPUT"
+                echo "model=$FULL_MODEL" >> "$GITHUB_OUTPUT"
+                echo "provider=$(extract_provider "$FULL_MODEL")" >> "$GITHUB_OUTPUT"
               else
                 echo "should_run=true" >> "$GITHUB_OUTPUT"
                 echo "run_kind=issue_task" >> "$GITHUB_OUTPUT"
                 echo "pr_number=" >> "$GITHUB_OUTPUT"
                 echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
-                echo "model=${SELECTED_MODEL:-azure-openai/DeepSeek-V4-Flash}" >> "$GITHUB_OUTPUT"
+                echo "model=$FULL_MODEL" >> "$GITHUB_OUTPUT"
+                echo "provider=$(extract_provider "$FULL_MODEL")" >> "$GITHUB_OUTPUT"
               fi
             else
               echo "should_run=false" >> "$GITHUB_OUTPUT"
@@ -90,10 +110,31 @@ jobs:
           git config --global user.email "${{ steps.bot-details.outputs.email }}"
           git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf https://github.com/
 
+      - name: Set Azure env vars for model provider
+        run: |
+          PROVIDER="${{ needs.detect-trigger.outputs.provider }}"
+          case "$PROVIDER" in
+            azure-openai)
+              echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_OPENAI_RESOURCE_NAME=${{ secrets.AZURE_OPENAI_RESOURCE_NAME }}" >> $GITHUB_ENV
+              ;;
+            azure-anthropic)
+              echo "AZURE_ANTHROPIC_API_KEY=${{ secrets.AZURE_ANTHROPIC_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_ANTHROPIC_RESOURCE_NAME=${{ secrets.AZURE_ANTHROPIC_RESOURCE_NAME }}" >> $GITHUB_ENV
+              ;;
+            azure-cognitive)
+              echo "AZURE_COGNITIVE_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_COGNITIVE_RESOURCE_NAME=${{ secrets.AZURE_COGNITIVE_RESOURCE_NAME }}" >> $GITHUB_ENV
+              ;;
+            azure-echoais)
+              echo "AZURE_ECHOAIS_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_ECHOAIS_RESOURCE_NAME=${{ secrets.AZURE_ECHOAIS_RESOURCE_NAME }}" >> $GITHUB_ENV
+              ;;
+          esac
+
       - name: Run OpenCode Review
         uses: anomalyco/opencode/github@latest
         env:
-          AZURE_API_KEY: ${{ secrets.AZURE_FOUNDRY_API_KEY || secrets.AZURE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}

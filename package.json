@@ -1,6 +1,9 @@
 {
   "type": "module",
   "dependencies": {
+    "@ai-sdk/anthropic": "latest",
+    "@ai-sdk/azure": "latest",
+    "@ai-sdk/openai-compatible": "latest",
     "@anthropic-ai/foundry-sdk": "latest"
   }
 }
