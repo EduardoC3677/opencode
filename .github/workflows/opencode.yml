@@ -136,7 +136,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AZURE_API_KEY: ${{ env.AZURE_API_KEY }}
-          AZURE_RESOURCE_NAME: ${{ env.AZURE_RESOURCE_NAME }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           agent: ${{ needs.detect-trigger.outputs.run_kind == 'issue_task' && 'build' || needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'manual-review' || 'auto-review' }}
