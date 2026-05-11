@@ -86,11 +86,16 @@ jobs:
     needs: detect-trigger
     if: needs.detect-trigger.outputs.should_run == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     permissions:
       id-token: write
       contents: write
       pull-requests: write
+      actions: write
+      deployments: write
+      statuses: write
+      packages: write
+      discussions: write
+      attestations: write
       issues: write
 
     steps:
@@ -103,14 +108,7 @@ jobs:
       - name: Bot Details
         id: bot-details
         uses: raven-actions/bot-details@v1
-
-      - name: Setup credentials
-        run: |
-          git config --global user.name "${{ steps.bot-details.outputs.name }}"
-          git config --global user.email "${{ steps.bot-details.outputs.email }}"
-          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf https://github.com/
-
-
+  
       - name: Set Azure env vars for model provider
         run: |
           PROVIDER="${{ needs.detect-trigger.outputs.provider }}"
@@ -140,7 +138,7 @@ jobs:
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           agent: ${{ needs.detect-trigger.outputs.run_kind == 'issue_task' && 'build' || needs.detect-trigger.outputs.run_kind == 'manual_pr_review' && 'manual-review' || 'auto-review' }}
-          use_github_token: true
+          
 
       - name: Report failure
         if: failure()
