@@ -3,7 +3,7 @@
   "permission": "allow",
   "provider": {
     "azure-openai": {
-      "npm": "@azure/openai",
+      "npm": "@ai-sdk/openai-compatible",
       "name": "Azure OpenAI (OpenAI Compatible)",
       "options": {
         "baseURL": "https://opencoder-resource.services.ai.azure.com/openai/v1",
@@ -71,7 +71,7 @@
       }
     },
     "azure-anthropic": {
-      "npm": "@anthropic-ai/foundry-sdk",
+      "npm": "@ai-sdk/anthropic",
       "name": "Azure Anthropic Foundry",
       "options": {
         "baseURL": "https://opencoder-resource.openai.azure.com/anthropic",
@@ -105,7 +105,7 @@
       }
     },
     "azure-cognitive": {
-      "npm": "@azure/openai",
+      "npm": "@ai-sdk/openai-compatible",
       "name": "Azure Cognitive Services",
       "options": {
         "baseURL": "https://opencoder-resource.services.ai.azure.com/openai/v1",
@@ -128,7 +128,7 @@
       }
     },
     "azure-echoais": {
-      "npm": "@azure/openai",
+      "npm": "@ai-sdk/openai-compatible",
       "name": "Azure Echoais",
       "options": {
         "baseURL": "https://opencoder-resource.services.ai.azure.com/openai/v1",
