@@ -74,6 +74,10 @@ jobs:
           if [ -d .opencode ]; then
             rm -rf "$TARGET/.opencode"
             cp -r .opencode "$TARGET/.opencode"
+
+            rm -f "$TARGET/.opencode/.gitignore"
+            rm -rf "$TARGET/.opencode/node_modules"
+
             echo "Copied .opencode/ directory"
           else
             echo "No .opencode/ directory in source repo, skipping"
