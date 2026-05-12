@@ -51,15 +51,13 @@ jobs:
           path: target-repo
           fetch-depth: 1
 
-      - name: Sync workflows to target repo
+      - name: Sync .github/workflows to target repo
         run: |
           set -euo pipefail
           TARGET="target-repo"
 
-          # Crear directorio .github/workflows si no existe
           mkdir -p "$TARGET/.github/workflows"
 
-          # Copiar workflows (excluyendo este mismo workflow sync-repo.yml)
           for wf in .github/workflows/*.yml; do
             wf_name=$(basename "$wf")
             if [ "$wf_name" != "sync-repo.yml" ]; then
@@ -67,6 +65,19 @@ jobs:
               echo "Copied workflow: $wf_name"
             fi
           done
+
+      - name: Sync .opencode/ to target repo
+        run: |
+          set -euo pipefail
+          TARGET="target-repo"
+
+          if [ -d .opencode ]; then
+            rm -rf "$TARGET/.opencode"
+            cp -r .opencode "$TARGET/.opencode"
+            echo "Copied .opencode/ directory"
+          else
+            echo "No .opencode/ directory in source repo, skipping"
+          fi
 
       - name: Sync .gitignore to target repo
         run: |
@@ -114,7 +125,7 @@ jobs:
           git add -A
 
           if ! git diff --cached --quiet; then
-            git commit -m "Sync workflows, .gitignore and package.json from opencode repo"
+            git commit -m "Sync opencode configs (workflows, .opencode, .gitignore, package.json)"
             git push origin HEAD
             echo "Changes pushed successfully"
           else
@@ -126,8 +137,7 @@ jobs:
           set -euo pipefail
           TARGET_REPO="${{ steps.extract.outputs.repo }}"
 
-          # Lista de secretos a sincronizar
-          SECRET_NAMES="AZURE_FOUNDRY_API_KEY AZURE_FOUNDRY_RESOURCE_NAME AZURE_OPENAI_API_KEY ONT"
+          SECRET_NAMES="AZURE_FOUNDRY_API_KEY AZURE_FOUNDRY_RESOURCE_NAME AZURE_OPENAI_API_KEY AZURE_ANTHROPIC_API_KEY AZURE_COGNITIVE_API_KEY AZURE_ECHOAIS_API_KEY ONT"
 
           for secret_name in $SECRET_NAMES; do
             secret_value="${!secret_name:-}"
@@ -145,4 +155,7 @@ jobs:
           AZURE_FOUNDRY_API_KEY: ${{ secrets.AZURE_FOUNDRY_API_KEY }}
           AZURE_FOUNDRY_RESOURCE_NAME: ${{ secrets.AZURE_FOUNDRY_RESOURCE_NAME }}
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_ANTHROPIC_API_KEY: ${{ secrets.AZURE_ANTHROPIC_API_KEY }}
+          AZURE_COGNITIVE_API_KEY: ${{ secrets.AZURE_COGNITIVE_API_KEY }}
+          AZURE_ECHOAIS_API_KEY: ${{ secrets.AZURE_ECHOAIS_API_KEY }}
           ONT: ${{ secrets.ONT }}
