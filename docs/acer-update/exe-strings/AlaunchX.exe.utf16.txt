@@ -1,0 +1,486 @@
+7"8%=>>B@DAFBMCODUEWFYG`HcIqLvS{T}U
+5$6%7&8'9(:(;(<(=5>5?5@6A6B7C7D8E8F8G8H8I8J9K9L=M=N=O=P=Q=R=S>TLULVS
+_CreateDelegate
+After %d seconds, system will reboot automatically.
+/AlaunchX;component/usercontrol_barmode.xaml
+..\StringResources\StringResources.
+Cannot find string resource for 
+, use en instead
+..\StringResources\StringResources.en.xaml
+IDS_MUI_CAPTION
+IDS_MUI_INSTALL
+IDS_MUI_PROMPT
+IDS_MUI_REBOOT_MSG
+/AlaunchX;component/usercontrol_mainarea.xaml
+UnknownMethod
+{0:yyyy-MM-dd HH:mm:ss.fff}
+DPI_X: 
+, DPI_Y: 
+Alt + home is pressed
+Success to disable S3. (Previous state: 
+Success to enable S3. (Previous state: 
+ACERREBOOT_SHUTDOWN_EVENT
+Get shutdown event from AcerReboot
+Thread is still working, abort the working thread
+processMachine: 0x
+, nativeMachine: 0x
+copy "
+robocopy "
+" /e /a-:R /NP
+del /q /f "
+rd /q /s "
+" || rem
+Access is denied
+Use icacls to get permission of 
+icacls "
+" /reset
+C:\Windows\Setup\State\State.ini
+ImageState
+Image state is: 
+IMAGE_STATE_COMPLETE
+\AuditAlaunchX.ini
+\BeforeOOBE.ini
+\UserAlaunchX.ini
+\FirstBoot.ini
+Read answer file: 
+\ProductInfo.enc
+---------------------------------------------------------------------------
+Before installing the last module, delete Run registry
+Before installing the last module, clean module source
+Before installing the last module, refresh product info
+Now processing [Action
+C:\OEM\Preload\ModuleDebug\BeforeModule.cmd
+ExitCode is: 
+Fail to execute this process
+C:\OEM\Preload\ModuleDebug\AfterModule.cmd
+Action
+Delete
+Delete 
+ for Delete=True
+ successfully
+Failed to delete 
+Write Done=
+ into 
+MustReboot
+Reboot for MustReboot=True
+Reboot
+Reboot for Reboot=True
+All modules are processed
+Refresh answer file to set MustReboot=True for the last hotfix and driver
+ is the last hotfix, set MustReboot=True
+ is the last driver, set MustReboot=True
+SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+New Acer AlaunchX
+SwitchToDesktop
+Fail to open regstry key: HKLM\
+Catch exception: 
+Fail to delete "
+" in HKLM\
+Delete=True in Action
+, delete 
+C:\Windows\Sysnative\cmd.exe
+C:\Windows\System32\cmd.exe
+*** Execute 
+Fail to start this process, retry
+Module PN: 
+Module path: 
+Result
+Set Result=-1 before installation
+Result=
+, there might be some error for Action
+ not exists
+Failed to read 
+Module name: 
+For application module, check with APBundlePolicy
+C:\OEM\Preload\Command
+Patch*.xml
+Cannot find 
+ in any APBundlePolicy file, this app will not be installed
+This app is valid for this image
+This app is invalid for this image, it will not be installed
+Get device info from WMI successfully
+Failed to get device info from WMI
+For driver module with AutoCheckHWID = True, check HWID first
+HWID is "MUST", this driver will be installed
+Scan module HWID: 
+Get matched HWID from local machine, HWID: 
+, DeviceID: 
+Cannot get any matched HWID from local machine, this driver will not be installed
+Since cannot get device info from WMI, this driver will not be installed
+For driver module with AutoCheckHWID != True, it will be always installed
+\InstalledDriverInfo.ini
+\MachineHWID_History.ini
+Write matched HWID to 
+ModulePN
+AutoCheckHWID
+MatchedDeviceHWID_
+Write Reboot=False and Delete=True for this Application Action
+Write Reboot=False for this Driver Action
+CheckRemove=True, write Delete=True for this Driver Action
+yyyy/MM/dd HH:mm:ss
+Backup all links from C:\Users\Public\Desktop to C:\OEM\Preload\Command\AlaunchX\BackupLinks for application module
+robocopy.exe "C:\Users\Public\Desktop" "C:\OEM\Preload\Command\AlaunchX\BackupLinks" *.* /R:3
+Backup links failed
+Backup all links successfully
+===== Now handling process 
+ =====
+Pass. Process install period is match(
+Skip. Process install period is not match(
+Check OS-Sku limitation for application module(POP WOS PN: 
+, process OS-Sku: 
+Pass. POP WOS PN is the same as process OS-Sku
+Pass. POP WOS PN is contained in the child WOS PN list of process OS-Sku
+Skip. This process will not be executed due to OS-Sku limitation.
+%RELATIVE_PATH%
+Sleep 
+ seconds for process 
+ timeout
+hh\:mm\:ss\.fff
+Write Delete=True for this Action since all processes are failed to be executed
+\NoMeetSPEC_NeedRemoveProgramID.tag
+Write Delete=True for this Action since 
+ exists(this program has its special rule)
+C:\OEM\Preload\InstalledApps
+Create directory: C:\OEM\Preload\InstalledApps
+C:\OEM\Preload\InstalledApps\
+Software\OEM\GCMReadiness
+Fail to open registry key: HKLM\
+Cannot find "
+ (in HKLM\
+Fail to get "
+Windows 10
+OSSKU=Windows 10, check placement type "DT"
+Check placement type "DS"
+(Required)This program should be pinned on Desktop
+This program should not be pinned on Desktop
+Delete all files in C:\Users\Public\Desktop
+C:\Users\Public\Desktop
+desktop.ini
+Fail to delete 
+Restore all links from C:\OEM\Preload\Command\AlaunchX\BackupLinks to C:\Users\Public\Desktop
+robocopy.exe "C:\OEM\Preload\Command\AlaunchX\BackupLinks" "C:\Users\Public\Desktop" *.* /R:3
+Restore links failed
+Restore all links successfully
+OSSKU=Windows 10, check placement type "SM"
+Check placement type "NS"
+(Required)This program should be pinned on Start Menu
+C:\OEM\Preload\InstalledApps\SS
+Create folder: 
+AUMID*.txt
+Check the content correctness of 
+Content of 
+Content is the same
+Content is not the same, retry
+Failed to copy 
+, retry
+Cannot find any AUMID*.txt in 
+This program should not be pinned on Start Menu
+Check placement type "TS"
+(Required)This program should be pinned on Taskbar
+C:\OEM\Preload\InstalledApps\TB
+TaskbarLink*.txt
+Cannot find any TaskbarLink*.txt.txt in 
+This program should not be pinned on Taskbar
+Check placement type "NA"
+(Required)This program should be pinned on Notification Area
+C:\OEM\Preload\InstalledApps\NA
+NotificationArea*.txt
+Cannot find any NotificationArea*.txt in 
+This program should not be pinned on Notification Area
+Check placement type "MF"
+(Required)This program should be pinned on Most Frequently Used
+C:\OEM\Preload\InstalledApps\MF
+MFULink*.txt
+Cannot find any MFULink*.txt in 
+This program should not be pinned on Most Frequently Used
+Check placement type "RM"
+(Required)This program should be pinned on Recommended
+C:\OEM\Preload\InstalledApps\RM
+RecommandedLINK*.txt
+Cannot find any RecommandedLINK*.txt in 
+This program should not be pinned on Recommended
+ seconds for module timeout
+ seconds for global module timeout
+Create 
+	Created by AlaunchX v
+(Triggered by AlaunchX)
+shutdown -r -t 0
+\AlaunchX.log
+Window style: BarMode
+Display settings changed
+Current resolution: 
+/AlaunchX;component/window_barmode.xaml
+Window style: FullScreen
+Pictures/
+/Backgrounds/Background
+Default resource: 
+pack://application:,,,/AlaunchX;component/
+/Backgrounds/BackgroundDefault.jpg
+Use resource: 
+/AlaunchX;component/window_fullscreen.xaml
+Window style: Hidden
+/AlaunchX;component/window_hidden.xaml
+Window style: Main
+IDS_WARN_CLOSE
+IDS_WARNING
+User forces to close AlaunchX
+/AlaunchX;component/window_main.xaml
+Already an instance is running...
+Only accept 1 argument
+/Audit
+/BeforeOOBE
+/FirstBoot
+Cannot determine install period, please make sure you input correct argument
+C:\OEM\AcerLogs\AlaunchXLogs
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_
+yyyy-MM-dd HH-mm-ss-fff
+AlaunchX v
+ starts
+Current phase: 
+\WOSList.xml
+Failed to load 
+\Lang.xml
+Load C:\OEM\Preload\Command\APBundlePolicy.xml
+C:\OEM\Preload\Command\APBundlePolicy.xml
+Failed to load C:\OEM\Preload\Command\APBundlePolicy.xml
+IsAfterOOBE: 
+Process architecture: 
+, OS architecture: 
+NAPP2P
+NAPP3P
+System session end event is raised
+\Shutdown.tag
+Shutdown.tag not exists, module or someone trigger shutdown
+	Create by AlaunchX v
+(session ending)
+	Output: 
+Error: 
+	Error: 
+	Command: 
+	CommandLine ExitCode=
+[CommandList]
+[OutputList]
+[ErrorList]
+[ExitCode]
+Microsoft Enhanced Cryptographic Provider v1.0
+C:\OEM\Preload\Command\PAP
+Gateway
+PackardBell
+DPI_X Ratio: 
+DPI_Y: 
+DPI_Y Ratio: 
+POP*.ini
+\NAPP.ini
+\Settings.ini
+Reboot_Timeout
+Module_Timeout
+GCM_WhiteList_Path
+WindowsMode
+Window
+Module
+classGuid='
+DeviceID='
+select * from Win32_PnPEntity
+ where 
+DeviceID
+Manufacturer
+Description
+ClassGuid
+Service
+Status
+HardwareID
+select * from Win32_PnPSignedDriver
+DriverVersion
+AlaunchX.Properties.Resources
+Install 
+%ModuleName%
+Deserialize fail, catched exception: 
+Failed to decrypt 
+Failed to encrypt 
+Get main info of current machine
+SELECT * FROM Win32_BIOS
+SerialNumber
+yyyy/MM/dd
+select * from Win32_ComputerSystem
+SOFTWARE\Microsoft\Windows NT\CurrentVersion
+CurrentMajorVersionNumber
+CurrentMinorVersionNumber
+CurrentBuildNumber
+select * from Win32_BIOS
+SMBIOSBIOSVersion
+C:\OEM\NAPP\OSLRCD.dat
+SLIRCD ID
+RSLKit ID
+C:\OEM\NAPP
+C:\OEM\NAPP\RCD.dat
+RCD NO
+C:\OEM\NAPP\SystemCD.dat
+SCD_NO
+LPCD*.dat
+SWBOM PN
+Formfactor
+Cannot find "Formfactor" in HKLM\
+Get FormFactor=
+FormFactor is valid
+FormFactor is invalid
+Fail to get "Formfactor" in HKLM\
+Cannot find "Brand" in HKLM\
+Get Brand=
+Brand is valid
+Brand is invalid
+Fail to get "Brand" in HKLM\
+Cannot find "OSSKU" in HKLM\
+Get OSSKU=
+OSSKU is valid
+OSSKU is invalid
+Fail to get "OSSKU" in HKLM\
+Localization type: 
+Localization(
+) is valid
+) is invalid
+Software\OEM\GCMReadiness\IM
+ is in the GCM IM_WhiteList, no need to check.
+Required
+Dependency type: Required
+ is valid
+ is invalid
+Opt-out
+Dependency type: Opt-out
+Undefined dependency type: 
+No need to check IM since there is no IM requirement for this program
+Microsoft Enhanced Cryptographic Provider v1.0
+1.2.840.113549.1.1.1
+1.2.840.113549.2.5
+1.2.840.113549.1.1.4
+1.3.14.3.2.26
+C:\OEM\AcerLogs\AlaunchXLogs
+C:\OEM\Preload\Command\PAP
+C:\OEM\Preload\Command\APBundlePolicy.xml
+AuditAlaunchX.ini
+BeforeOOBE.ini
+UserAlaunchX.ini
+FirstBoot.ini
+C:\OEM\Preload\Command\AlaunchX\BackupLinks
+C:\Users\Public\Desktop
+NoMeetSPEC_NeedRemoveProgramID.tag
+C:\OEM\Preload\InstalledApps
+C:\OEM\Preload\ModuleDebug\BeforeModule.cmd
+C:\OEM\Preload\ModuleDebug\AfterModule.cmd
+icon%201.ico
+pictures/acer/backgrounds/background1024x600.jpg
+pictures/acer/backgrounds/background1280x1024.jpg
+pictures/acer/backgrounds/background1280x720.jpg
+pictures/acer/backgrounds/background1280x768.jpg
+pictures/acer/backgrounds/background1280x960.jpg
+pictures/acer/backgrounds/background1360x768.jpg
+pictures/acer/backgrounds/background1366x768.jpg
+pictures/acer/backgrounds/background1440x900.jpg
+pictures/acer/backgrounds/background1600x900.jpg
+pictures/acer/backgrounds/background1680x945.jpg
+pictures/acer/backgrounds/background1920x1080.jpg
+pictures/acer/backgrounds/background1920x1200.jpg
+pictures/acer/backgrounds/background800x600.jpg
+pictures/acer/backgrounds/backgrounddefault.jpg
+pictures/acer/installationicon.png
+pictures/acer/main.png
+pictures/backgroundimage.bmp
+pictures/backgroundimageg.bmp
+pictures/cd.gif
+pictures/icon%201.ico
+stringresources/stringresources.bg.baml
+stringresources/stringresources.cs.baml
+stringresources/stringresources.da.baml
+stringresources/stringresources.de.baml
+stringresources/stringresources.el.baml
+stringresources/stringresources.en.baml
+stringresources/stringresources.es.baml
+stringresources/stringresources.et.baml
+stringresources/stringresources.fi.baml
+stringresources/stringresources.fr.baml
+stringresources/stringresources.hr.baml
+stringresources/stringresources.hu.baml
+stringresources/stringresources.it.baml
+stringresources/stringresources.ja.baml
+stringresources/stringresources.ko.baml
+stringresources/stringresources.lt.baml
+stringresources/stringresources.lv.baml
+stringresources/stringresources.nl.baml
+stringresources/stringresources.no.baml
+stringresources/stringresources.pl.baml
+stringresources/stringresources.pt.baml
+stringresources/stringresources.ro.baml
+stringresources/stringresources.ru.baml
+stringresources/stringresources.sk.baml
+stringresources/stringresources.sl.baml
+stringresources/stringresources.sv.baml
+stringresources/stringresources.tr.baml
+stringresources/stringresources.zh-chs.baml
+stringresources/stringresources.zh-cht.baml
+usercontrol_barmode.baml
+usercontrol_mainarea.baml
+window_barmode.baml
+window_fullscreen.baml
+window_hidden.baml
+window_main.baml
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+MSBAML
+VS_VERSION_INFO
+VarFileInfo
+Translation
+StringFileInfo
+000004b0
+Comments
+AlaunchX developed by Acer Preload
+CompanyName
+Acer Inc.
+FileDescription
+AlaunchX
+FileVersion
+11.0.0.1
+InternalName
+AlaunchX.exe
+LegalCopyright
+Copyright (C) 2022 Acer Inc. All rights reserved.
+LegalTrademarks
+Acer Inc.
+OriginalFilename
+AlaunchX.exe
+ProductName
+Acer GAIA AlaunchX
+ProductVersion
+11.0.0.1
+Assembly Version
+11.0.0.1

@@ -1,0 +1,202 @@
+pSettings
+PreviewPages
+KERNEL32
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoDrives
+RestrictRun
+NoNetConnectDisconnect
+NoRecentDocsHistory
+NoClose
+Software\Microsoft\Windows\CurrentVersion\Policies\Network
+NoEntireNetwork
+Software\Microsoft\Windows\CurrentVersion\Policies\Comdlg32
+NoPlacesBar
+NoBackButton
+NoFileMru
+ntdll.dll
+Control Panel\Desktop\ResourceLocale
+kernel32.dll
+%s%s.dll
+%s (%s:%d)
+%s (%s:%d)
+user32.dll
+comctl32.dll
+comdlg32.dll
+software
+Software\
+AfxWnd80su
+AfxControlBar80su
+AfxMDIFrame80su
+AfxFrameOrView80su
+AfxOleControl80su
+AfxOldWndProc423
+USER32
+YaccParent
+accChildCount
+accChild
+accName
+accValue
+accDescription
+accRole
+accState
+accHelp
+accHelpTopic
+accKeyboardShortcut
+accFocus
+accSelection
+accDefaultAction
+accSelect
+accLocation
+accNavigate
+accHitTest
+accDoDefaultAction
+#32768
+commctrl_DragListMsg
+UTF-16LE
+UNICODE
+         (((((                  H
+         h((((                  H
+                                 H
+(null)
+Delete
+NoRemove
+ForceRemove
+call err=%d, szCommand = %s
+Mount Failed
+%2d/%2d/%2d %2d:%2d:%2d:%3d 
+%sLog\OBRSetTool.log
+OBRSetTool
+ExitCode:0x%x
+Fatal Error: MFC initialization failed
+[Fail] Create Folder:
+[OK] Create Folder:
+Get Disk info
+[%d]Error Getting System Disk Info. Return Code:%d
+m_DiskCount
+AssignLetterToEFI
+   PBRLetter:
+   ESPLetter:
+RecoveryLetter:
+C:\OEM\Preload\Command\PAP\PXP*
+V:\OEM\Preload\Command\PAP
+V:\OEM\Preload\Command\PAP\PXP*
+W:\OEM\Preload\Command\PAP
+W:\OEM\Preload\Command\PAP\PXP*
+Get PXP*.ini Path
+Get LPCD.dat Info, LangPN
+Parse Lang.xml Info, LangID
+PXP file not exist
+May be Multiple Language. Default bootlocale is "en-US".
+%s\EFI\OEM
+%s\CopyEFI_byOEM.cmd
+mkdir %s
+mkdir %s\EFI\OEM 
+XCOPY /c /e /f /y /h %s\EFI\Microsoft\* %s\EFI\OEM\
+Del /Q /A:H %s\EFI\OEM\Boot\BCD
+\D2D_XP
+\D2D_VISTA
+\D2D_WIN7
+\D2D_WIN8
+\D2D_W10
+\Sources\boot.wim
+call %smodifybcdtoPBR.cmd %s %s %s >> %sLog\modifybcdLog.log
+winre.wim
+\Recovery\WindowsRE\
+\Recovery\WindowsRE\ReAgent.xml
+XCOPY /f /y /h C:\Windows\System32\Recovery\ReAgent.xml %s%s
+\Recovery\WindowsRE\boot.sdi
+C:\Windows\Boot\DVD\EFI\boot.sdi
+XCOPY /f /y /h C:\Windows\Boot\DVD\EFI\boot.sdi %s%s
+C:\Windows\Boot\DVD\PCAT\boot.sdi
+XCOPY /f /y /h C:\Windows\Boot\DVD\PCAT\boot.sdi %s%s
+C:\Windows\System32\boot.sdi
+XCOPY /f /y /h C:\Windows\System32\boot.sdi %s%s
+call %smodifybcdtoWinRE.cmd %s %s %s >> %sLog\modifybcdLog.log
+\EFI\OEM
+\EFI\OEM\boot\BCD
+\EFI\OEM\boot\bootmgfw.efi
+\EFI\OEM\boot\bootmgr.efi
+\EFI\OEM\boot\memtest.efi
+\EFI\OEM\boot\fonts
+\EFI\OEM\boot\resources
+Language
+%s\D2D\Patch\Tools\Lang.xml
+Can't find lang.xml: %s
+%s\Lang.XML
+Read lang xml fail: %s
+GetLangIDByLangPN fail
+PQSERVICE
+SYSTEM RESERVED
+RECOVERY
+PUSH BUTTON
+Disks %d : Partitions %d
+\Device\Harddisk%d\Partition%d
+IMAGES
+[EFI]AssignLetterToPBR
+[EFI]Need to mount PBR
+[EFI]AssignLetterToEFI
+[EFI]Need to mount EFI
+[EFI]AssignLetterToRECOVERY
+[EFI]Need to mount RECOVERY
+[EFI]AssignLetterToAHP
+[EFI]No need to mount AHP
+[1]AssignLetterToPBR
+[1]No need to mount PBR
+[1]AssignLetterToAHP
+[1]No need to mount AHP
+[2]AssignLetterToAHP
+[2]Need to mount AHP
+[2]AssignLetterToPBR
+[2]Need to mount PBR
+[1]AssignLetterToSYS
+[1]No need to mount SYS
+[2]AssignLetterToSYS
+[2]Need to mount SYS
+{00000000-0000-0000-0000-000000000000}
+Boot system from Legacy BIOS
+ERROR_INVALID_FUNCTION
+Boot system from UEFI BIOS
+ERROR_NOACCESS
+DEFAULT
+getLanguage
+Languages
+PartNumber
+SWBOM_LANG_CODE
+Lookup
+LangIDShortname
+NativeName
+MultiByteToWideChar error with %d
+loadXML failed, hr=%X, lErrorCode=%X, lFilePostion=%d, lLineNumber=%d, lLinePosition=%d, bstrReason:%s, bstrSource=%s !
+loadXML failed, hr = %X !
+\\.\root\CIMV2
+Caption
+DeviceID
+Signature
+Partitions
+Antecedent
+Dependent
+StartingAddress
+EndingAddress
+select * from Win32_DiskPartition where (DeviceID="Disk #%d, Partition #%d")
+select * from Win32_LogicalDisk where (DeviceID="%s")
+VolumeName
+OBRSetTool
+VS_VERSION_INFO
+StringFileInfo
+040404b0
+FileDescription
+OBRSetTo Application
+FileVersion
+1, 0, 1, 1
+InternalName
+OBRSetTool
+LegalCopyright
+Copyright (C) 2012
+OriginalFilename
+OBRSetTool.exe
+ProductName
+ OBRSetTool Application
+ProductVersion
+1, 0, 1, 1
+VarFileInfo
+Translation

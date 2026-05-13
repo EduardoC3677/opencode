@@ -1,0 +1,7466 @@
+!This program cannot be run in DOS mode.
+`.rsrc
+@.reloc
+`[lW~T
+v4.0.30319
+#Strings
+l1.1_1R1w1E1
+4	P	Y	i	
+<>c__DisplayClass0_0
+<>9__31_0
+<backgroundWorker_MonitorLockKeyBoardMouse>b__31_0
+<>9__51_0
+<ProcessModulesInstallation>b__51_0
+<>9__52_0
+<RefreshAnswerFile>b__52_0
+<>c__DisplayClass44_0
+<>c__DisplayClass4_0
+<>c__DisplayClass5_0
+<>c__DisplayClass56_0
+<TriggerReboot>b__6_0
+<>c__DisplayClass6_0
+<>9__17_0
+<IsValidForInstalltion>b__17_0
+<>c__DisplayClass17_0
+<>c__DisplayClass7_0
+<TriggerReboot>b__8_0
+<>9__49_0
+<IsResourceExist>b__49_0
+<InstallSingleModule>b__0
+<FindAppByName>b__0
+<FindDriverByName>b__0
+<IsNeedToPin>b__0
+<UpdateUIforModuleInfo>b__0
+<RemoveInstalledApp>b__0
+<Application_Startup>b__0
+CALG_SHA1
+<>9__52_1
+<RefreshAnswerFile>b__52_1
+<>c__DisplayClass56_1
+<>9__17_1
+<IsValidForInstalltion>b__17_1
+<>c__DisplayClass17_1
+<>9__1
+<InstallSingleModule>b__1
+<IsNeedToPin>b__1
+IEnumerable`1
+Predicate`1
+Collection`1
+List`1
+szOID_OIWSEC_sha1
+kernel32
+Microsoft.Win32
+ToInt32
+<>c__DisplayClass17_2
+<InstallSingleModule>b__2
+<IsNeedToPin>b__2
+<IsValidForInstalltion>b__2
+Func`2
+IsWow64Process2
+EnableS3
+DisableS3
+<>9__17_3
+<IsValidForInstalltion>b__17_3
+<>c__DisplayClass17_3
+<>c__DisplayClass17_4
+<IsValidForInstalltion>b__4
+szOID_RSA_MD5
+CALG_MD5
+<>9__17_5
+<IsValidForInstalltion>b__17_5
+UInt16
+<IsValidForInstalltion>b__6
+<>9__17_7
+<IsValidForInstalltion>b__17_7
+get_UTF8
+<IsValidForInstalltion>b__8
+<IsValidForInstalltion>b__9
+<Module>
+<PrivateImplementationDetails>
+CRYPT_SIGN_MESSAGE_PARA
+CRYPT_VERIFY_MESSAGE_PARA
+szOID_RSA_MD5RSA
+szOID_RSA_RSA
+RSA_CSP_PUBLICKEYBLOB
+PRIVATEKEYBLOB
+CRYPTOAPI_BLOB
+CRYPT_BIT_BLOB
+ReleaseDC
+PUBLICKEYSTRUC
+get_CD
+get_MRD_IMAGE_MODIFIERS_SHIPPED
+set_MRD_IMAGE_MODIFIERS_SHIPPED
+ES_SYSTEM_REQUIRED
+ES_DISPLAY_REQUIRED
+SLIRCDID
+get_GUID
+set_GUID
+moduleHWID
+get_AutoCheckHWID
+set_AutoCheckHWID
+CERT_SYSTEM_STORE_CURRENT_USER_ID
+GetDeviceByDeviceID
+GetDriverVersionByDeviceID
+deviceID
+AddHardwareID
+hardwareID
+get_VendorID
+get_ProductID
+RSLKitID
+get_MRD_BRAND
+set_MRD_BRAND
+CRYPT_E_NOT_FOUND
+PASSWORD
+AnswerFileName_BeforeOOBE
+IsAfterOOBE
+get_SWBOM_LANG_CODE
+set_SWBOM_LANG_CODE
+AT_KEYEXCHANGE
+CRYPT_EXPORTABLE
+CERT_COMPARE_NAME
+CERT_PERSONAL_STORE_NAME
+CERT_FIND_SUBJECT_NAME
+MY_TYPE
+AT_SIGNATURE
+EXECUTION_STATE
+HP_HASHSIZE
+CERT_CLOSE_STORE_CHECK_FLAG
+CERT_INFO_SUBJECT_FLAG
+PKCS_7_ASN_ENCODING
+X509_ASN_ENCODING
+GetDPI
+UpdateUI
+CIPHER_BLOCK
+HP_HASHVAL
+PROV_RSA_FULL
+WH_KEYBOARD_LL
+WH_MOUSE_LL
+CERT_STORE_PROV_SYSTEM
+get_IM
+set_IM
+CALG_RSA_SIGN
+CUR_BLOB_VERSION
+get_ImageOSPN
+_imageOSPN
+get_PN
+set_PN
+get_ModulePN
+set_ModulePN
+WM_SYSKEYDOWN
+WM_KEYDOWN
+X509_PUBLIC_KEY_INFO
+CERT_PUBLIC_KEY_INFO
+System.IO
+PROVIDER
+CRYPT_ALGORITHM_IDENTIFIER
+KEYCONTAINER
+CERT_SYSTEM_STORE_CURRENT_USER
+CERT_FIND_SUBJECT_STR
+CALG_3DES
+get_WOS
+set_WOS
+get_MRD_IMAGE_MODIFIERS
+set_MRD_IMAGE_MODIFIERS
+_eventPermissions_EVENT_ALL_ACCESS
+ES_CONTINUOUS
+KBDLLHOOKSTRUCT
+CRYPT_DELETEKEYSET
+CRYPT_NEWKEYSET
+CRYPT_MACHINE_KEYSET
+CERT_COMPARE_SHIFT
+CERT_SYSTEM_STORE_LOCATION_SHIFT
+CRYPT_SILENT
+CRYPT_VERIFYCONTEXT
+get_MRD_OSSKU
+set_MRD_OSSKU
+get_OSSKU
+set_OSSKU
+get_SKU
+set_SKU
+get_CPU
+set_CPU
+CERT_STORE_PROV_SYSTEM_W
+CERT_COMPARE_NAME_STR_W
+CERT_FIND_SUBJECT_STR_W
+PUBLICKEYBLOBEX
+LOGPIXELSX
+AlaunchX
+RSAPUBKEY
+CERT_FIND_ANY
+CERT_COMPARE_ANY
+LOGPIXELSY
+value__
+Grid_BarModeArea
+Viewbox_BarModeArea
+get_WorkArea
+Grid_MainArea
+UserControl_MainArea
+Viewbox_MainArea
+System.Windows.Media
+pvFindPara
+pSignPara
+pvPara
+pVerifyPara
+get_Data
+cbData
+pbData
+hBaseData
+CryptHashData
+ErrorData
+CryptData
+outputData
+mscorlib
+pcbSignedBlob
+pbSignedBlob
+pdwKeySpec
+get_Exec
+set_Exec
+System.Collections.Generic
+ModuleEnc
+moduleEnc
+RunWorkerAsync
+keyBoardProc
+LowLevelKeyboardProc
+LowLevelMouseProc
+mouseProc
+dwThreadId
+pszObjId
+connectionId
+CurrentWorkThread
+add_Loaded
+AnimatedGIFControl_Loaded
+_contentLoaded
+add_Unloaded
+AnimatedGIFControl_Unloaded
+pcbDecoded
+pbDecoded
+pcbEncoded
+pbEncoded
+cbCertEncoded
+pbCertEncoded
+OnFrameChanged
+add_DisplaySettingsChanged
+SystemEvents_DisplaySettingsChanged
+rgcbToBeSigned
+rgpbToBeSigned
+cToBeSigned
+add_ErrorDataReceived
+add_OutputDataReceived
+pvReserved
+reserved
+OnInitialized
+Synchronized
+get_MRDPAGE_id
+set_MRDPAGE_id
+get_SCL_id
+set_SCL_id
+get_AppsTemplate_id
+set_AppsTemplate_id
+get_pid
+set_pid
+programpid
+ClassGuid
+classGuid
+<MRD_IMAGE_MODIFIERS_SHIPPED>k__BackingField
+<GUID>k__BackingField
+<AutoCheckHWID>k__BackingField
+<MRD_BRAND>k__BackingField
+<SWBOM_LANG_CODE>k__BackingField
+<IM>k__BackingField
+<PN>k__BackingField
+<ModulePN>k__BackingField
+<WOS>k__BackingField
+<MRD_IMAGE_MODIFIERS>k__BackingField
+<SKU>k__BackingField
+<OSSKU>k__BackingField
+<MRD_OSSKU>k__BackingField
+<CPU>k__BackingField
+<Exec>k__BackingField
+<MRDPAGE_id>k__BackingField
+<SCL_id>k__BackingField
+<AppsTemplate_id>k__BackingField
+<pid>k__BackingField
+<Brand>k__BackingField
+<Period>k__BackingField
+<InstallPeriod>k__BackingField
+<RetCode>k__BackingField
+<Language>k__BackingField
+<OSLanguage>k__BackingField
+<bundle>k__BackingField
+<Rule>k__BackingField
+<Module>k__BackingField
+<Name>k__BackingField
+<ProjectCodeName>k__BackingField
+<OdmName>k__BackingField
+<ShortName>k__BackingField
+<DisplayName>k__BackingField
+<SkuDisplayName>k__BackingField
+<name>k__BackingField
+<LangIDShortname>k__BackingField
+<Type>k__BackingField
+<ProgramType>k__BackingField
+<type>k__BackingField
+<Delete>k__BackingField
+<value>k__BackingField
+<CheckRemove>k__BackingField
+<BaseImg>k__BackingField
+<Lang>k__BackingField
+<InstallPath>k__BackingField
+<RegistryPath>k__BackingField
+<Check>k__BackingField
+<FileCheck>k__BackingField
+<VersionCheck>k__BackingField
+<Serial>k__BackingField
+<Version>k__BackingField
+<MRDVersion>k__BackingField
+<ModuleVersion>k__BackingField
+<OptionVersion>k__BackingField
+<DriverVersion>k__BackingField
+<Validation>k__BackingField
+<SWBOM_Abbreviation>k__BackingField
+<Localization>k__BackingField
+<Description>k__BackingField
+<AutoRun>k__BackingField
+<Lookup>k__BackingField
+<group>k__BackingField
+<PartNumber>k__BackingField
+<Parent_PartNumber>k__BackingField
+<Provider>k__BackingField
+<Order>k__BackingField
+<KeyValuePair>k__BackingField
+<Creator>k__BackingField
+<FormFactor>k__BackingField
+<MRD_FormFactor>k__BackingField
+<HWIDs>k__BackingField
+<WOSs>k__BackingField
+<Alias>k__BackingField
+<Des>k__BackingField
+<Languages>k__BackingField
+<Params>k__BackingField
+<Programs>k__BackingField
+<Regions>k__BackingField
+<Class>k__BackingField
+<Placements>k__BackingField
+<TouchPoints>k__BackingField
+<Product>k__BackingField
+<Ret>k__BackingField
+<Count>k__BackingField
+<Reboot>k__BackingField
+<RegItemList>k__BackingField
+<ProcessList>k__BackingField
+<ReinstallProcessList>k__BackingField
+<Timeout>k__BackingField
+<ModuleTimeout>k__BackingField
+<InnerText>k__BackingField
+<OSSku>k__BackingField
+<Index>k__BackingField
+<Country>k__BackingField
+<ModuleProperty>k__BackingField
+get_Build
+TrimEnd
+ReadToEnd
+command
+get_Brand
+set_Brand
+get_ImageBrand
+_imageBrand
+UriKind
+set_Background
+GetMethod
+method
+get_Period
+set_Period
+get_InstallPeriod
+set_InstallPeriod
+CurrentInstallPeriod
+Keyboard
+password
+Replace
+XamlGeneratedNamespace
+StackTrace
+PnPDevice
+GetDevice
+Service
+service
+CreateInstance
+defaultInstance
+set_Source
+ImageSource
+CleanModuleSource
+GetBitmapSource
+_bitmapSource
+FindResource
+vkCode
+scanCode
+get_RetCode
+set_RetCode
+get_ExitCode
+UserControl_BarMode
+Loaded_Window_BarMode
+Closing_Window_BarMode
+get_WindowsMode
+_windowsMode
+get_Unicode
+exitcode
+Image_BarModeImage
+BitmapImage
+MessageBoxImage
+get_Message
+CryptSignMessage
+TextBlock_RebootMessage
+percentage
+get_OSLanguage
+set_OSLanguage
+get_Language
+set_Language
+EndInvoke
+BeginInvoke
+IEnumerable
+IDisposable
+Freezable
+Double
+get_Handle
+GetModuleHandle
+RuntimeTypeHandle
+GetTypeFromHandle
+bInheritHandle
+orderInBundle
+get_bundle
+set_bundle
+DeleteFile
+EncryptSaveFile
+_toLockLogFile
+SaveToFile
+AlaunchXAnswerFile
+alaunchXAnswerFile
+RefreshAnswerFile
+targetFile
+DecryptFile
+EncryptFile
+CopyFile
+Console
+Multiple
+get_Rule
+set_Rule
+get_Module
+set_Module
+InstallSingleModule
+TextBlock_InstallModule
+StackPanel_InstallModule
+get_MainModule
+ProcessModule
+get_Name
+set_Name
+get_ProjectCodeName
+set_ProjectCodeName
+get_FileName
+set_FileName
+NoMeetSpecTagFileName
+GetFileName
+get_ModuleName
+moduleName
+ModelName
+get_OdmName
+set_OdmName
+lpName
+appName
+driverName
+get_ProcessName
+GetName
+get_ShortName
+set_ShortName
+FindAppByName
+FindDriverByName
+get_DisplayName
+set_DisplayName
+get_SkuDisplayName
+set_SkuDisplayName
+AssemblyName
+GetDirectoryName
+get_name
+set_name
+get_LangIDShortname
+set_LangIDShortname
+StackFrame
+GetFrame
+EndTime
+DateTime
+SpentTime
+StartTime
+BeginErrorReadLine
+BeginOutputReadLine
+CommandLine
+WriteLine
+nativeMachine
+processMachine
+AnimationTimeline
+get_Type
+set_Type
+dwBlobType
+dwFindType
+delegateType
+ValueType
+dwMsgEncodingType
+dwMsgAndCertEncodingType
+dwCertEncodingType
+get_DeclaringType
+get_ProgramType
+set_ProgramType
+lpszStructType
+GetType
+placementType
+dwInnerContentType
+dwProvType
+get_type
+set_type
+System.Core
+PresentationCore
+CertCloseStore
+CertOpenSystemStore
+CertFindCertificateInStore
+CertOpenStore
+hCertStore
+pbSignature
+fDetachedSignature
+CryptVerifyMessageSignature
+CryptVerifySignature
+processAchitecture
+OSArchitecture
+osArchitecture
+get_ProcessArchitecture
+GetArchitecture
+PtrToStructure
+get_CurrentUICulture
+get_Culture
+set_Culture
+get_StringResourceCulture
+_stringResourceCulture
+resourceCulture
+culture
+MethodBase
+RangeBase
+ApplicationSettingsBase
+WindowsBase
+Dispose
+BackgroundWorker_MonitorLockKeyBoardMouse
+backgroundWorker_MonitorLockKeyBoardMouse
+_isLockKeyboardMouse
+CreateDate
+pfnGetSignerCertificate
+Create
+LowLevelProcDelegate
+_CreateDelegate
+MulticastDelegate
+WOSTemplate
+LanguageTemplate
+RuleTemplate
+ModuleTemplate
+TypeTemplate
+LangTemplate
+ProgramTemplate
+ItemTemplate
+RegionTemplate
+LocalizationTemplate
+PrdInfoTemplate
+ModuleInfoTemplate
+WOSDetailInfoTemplate
+InstalledAppTemplate
+InstalledDriverTemplate
+CreatorTemplate
+WOSsTemplate
+LanguagesTemplate
+ProcessTemplate
+PlacementTemplate
+TouchPointTemplate
+APBundlePolicyTemplate
+DependencyTemplate
+StopAnimate
+StartAnimate
+EditorBrowsableState
+SetThreadExecutionState
+set_WindowState
+get_Delete
+set_Delete
+STAThreadAttribute
+CompilerGeneratedAttribute
+GeneratedCodeAttribute
+DebuggerNonUserCodeAttribute
+DebuggableAttribute
+EditorBrowsableAttribute
+ComVisibleAttribute
+AssemblyTitleAttribute
+XmlAttributeAttribute
+AssemblyTrademarkAttribute
+TargetFrameworkAttribute
+XmlArrayItemAttribute
+AssemblyFileVersionAttribute
+AssemblyConfigurationAttribute
+AssemblyDescriptionAttribute
+ThemeInfoAttribute
+CompilationRelaxationsAttribute
+AssemblyProductAttribute
+AssemblyCopyrightAttribute
+XmlElementAttribute
+XmlRootAttribute
+XmlTextAttribute
+XmlArrayAttribute
+AssemblyCompanyAttribute
+RuntimeCompatibilityAttribute
+set_UseShellExecute
+IN_Value
+DeleteValue
+GetValue
+SetValue
+defaultValue
+GetIniKeyValue
+SetIniKeyValue
+GetPropertyValue
+SetPropertyValue
+get_value
+set_value
+RegistryHive
+get_IsAlive
+get_CheckRemove
+set_CheckRemove
+AlaunchX.exe
+Freeze
+cbSize
+Serialize
+Deserialize
+IndexOf
+WOSDef
+LangDef
+APBundlePolicyDef
+aiKeyAlg
+get_BaseImg
+set_BaseImg
+get_Lang
+set_Lang
+System.Threading
+System.Windows.Threading
+add_SessionEnding
+Application_SessionEnding
+Encoding
+System.Windows.Media.Imaging
+TextBlock_Installing
+System.Runtime.Versioning
+FromBase64String
+ToBase64String
+WritePrivateProfileString
+GetPrivateProfileString
+ToString
+GetString
+_rebootString
+Substring
+add_Closing
+GIF_Progressing
+System.Drawing
+pvGetArg
+AnswerFileName_UserAlaunch
+AnswerFileName_AuditAlaunch
+CryptCreateHash
+ComputeStringHash
+phHash
+CryptSignHash
+CryptDestroyHash
+ImageBrush
+PreDebugCmdPath
+PostDebugCmdPath
+FilePath
+filePath
+get_ShutdownTagPath
+_shutdownTagPath
+CurrentLogPath
+get_InstallPath
+set_InstallPath
+fullPath
+PAPFolderPath
+PublicDesktopFolderPath
+AlaunchXLogsFolderPath
+BackupLinksFolderPath
+InstallAppsFolderPath
+get_GCMWhiteListPath
+_gcmWhiteListPath
+APBundlePolicyPath
+get_RegistryPath
+set_RegistryPath
+get_Width
+set_Width
+get_PrimaryScreenWidth
+get_Length
+StartsWith
+resourceUri
+AsyncCallback
+FrameUpdatedCallback
+callback
+get_Check
+set_Check
+get_FileCheck
+set_FileCheck
+get_VersionCheck
+set_VersionCheck
+add_Tick
+TextChangeTimer_Tick
+RebootTimer_Tick
+TextBlock
+idHook
+hKeyboardHook
+hMouseHook
+add_DoWork
+PresentationFramework
+retVal
+Marshal
+get_Serial
+set_Serial
+InvalidateVisual
+set_Interval
+set_Cancel
+System.Collections.ObjectModel
+System.ComponentModel
+StackPanel
+LogLevel
+loglevel
+CryptHashdataFail
+CryptSaveFail
+CryptCreatehashFail
+CryptOpenFail
+CryptDecryptFail
+CryptEncryptFail
+CryptAcquirecontextFail
+CryptDerivekeyFail
+TextBlock_TextTail
+gdi32.dll
+Advapi32.dll
+advapi32.dll
+Kernel32.dll
+kernel32.dll
+user32.dll
+Crypt32.dll
+crypt32.dll
+PackardBell
+System.Xml
+System.Xaml
+szSubsystemProtocol
+AnimatedGIFControl
+MainControl
+UserControl
+cMsgCrl
+rgpMsgCrl
+GetManifestResourceStream
+MemoryStream
+CryptGetHashParam
+CryptSetHashParam
+lParam
+dwParam
+get_Item
+System
+HashAlgorithm
+totalModuleNum
+currentModuleNum
+TextBlock_ProgressNum
+resourceMan
+Boolean
+TimeSpan
+pdwDataLen
+dwBufLen
+pdwSigLen
+Loaded_Window_Hidden
+Grid_FullScreen
+Loaded_Window_FullScreen
+Closing_Window_FullScreen
+PreviewKeyDown_Window_FullScreen
+bitlen
+get_Children
+IsNeedToPin
+Loaded_Window_Main
+Closing_Window_Main
+set_Margin
+Image_InstallationIcon
+imageRegion
+get_Revision
+GetExtension
+get_MRDVersion
+set_MRDVersion
+BIOSVersion
+AlaunchXVersion
+get_Version
+set_Version
+bVersion
+get_ModuleVersion
+set_ModuleVersion
+get_OptionVersion
+set_OptionVersion
+get_DriverVersion
+set_DriverVersion
+GetAllDriverVersion
+driverVersion
+Application
+set_WindowStartupLocation
+ResourceDictionaryLocation
+get_Validation
+set_Validation
+get_SWBOM_Abbreviation
+set_SWBOM_Abbreviation
+ProcessModulesInstallation
+System.Windows.Media.Animation
+DoubleAnimation
+BeginAnimation
+DeviceInformation
+deviceInformation
+RuntimeInformation
+ProductInformation
+DispatcherOperation
+Duration
+duration
+System.Configuration
+System.Globalization
+get_Localization
+set_Localization
+System.Xml.Serialization
+TotalAction
+System.Reflection
+ManagementObjectCollection
+UIElementCollection
+RunCmdWithoutOutputRedirection
+section
+XmlDefinition
+set_Position
+IsValidForInstalltion
+TextBlock_Caption
+IOException
+ThreadAbortException
+get_Description
+set_Description
+sDescription
+logdescription
+StringComparison
+MessageBoxButton
+get_AutoRun
+set_AutoRun
+IsKeyDown
+add_PreviewKeyDown
+Shutdown
+Unknown
+WOSInfo
+dwExtraInfo
+PrdInfo
+FileInfo
+UpdateUIforModuleInfo
+CultureInfo
+LangInfo
+FileSystemInfo
+GetMainInfo
+MemberInfo
+ProductInfo
+pvStructInfo
+EventInfo
+eventInfo
+set_StartInfo
+ProcessStartInfo
+pvHashAuxInfo
+APBundlePolicyInfo
+CryptImportPublicKeyInfo
+DirectoryInfo
+PropertyInfo
+propertyInfo
+get_DpiX_Ratio
+_dpiX_Ratio
+get_DpiY_Ratio
+_dpiY_Ratio
+Crypto
+CreateBitmapSourceFromHBitmap
+GetHbitmap
+_bitmap
+set_Top
+System.Windows.Interop
+RemoveInstalledApp
+get_Lookup
+set_Lookup
+System.Windows.Markup
+get_group
+set_group
+add_Startup
+Application_Startup
+pubexp
+System.Linq
+ProgressBar
+progressBar
+InvokeMember
+SerialNumber
+get_PartNumber
+set_PartNumber
+get_Parent_PartNumber
+set_Parent_PartNumber
+ResourceReader
+StringReader
+XmlReader
+StreamReader
+TextReader
+get_Provider
+set_Provider
+lpszStoreProvider
+pszProvider
+StringBuilder
+DeleteFolder
+get_CurrentProcessFolder
+_currentProcessFolder
+CopyFolder
+sender
+Binder
+get_Order
+set_Order
+GetOrder
+Buffer
+get_ResourceManager
+Logger
+ManagementObjectSearcher
+get_Dispatcher
+BackgroundWorker
+ErrorDataHandler
+OutputDataHandler
+AddEventHandler
+FrameUpdatedEventHandler
+RoutedEventHandler
+DataReceivedEventHandler
+DoWorkEventHandler
+SessionEndingCancelEventHandler
+StartupEventHandler
+KeyEventHandler
+handler
+System.CodeDom.Compiler
+textChangeTimer
+SetupTickTimer
+rebootTimer
+pszContainer
+GeneratedInternalTypeHelper
+ToUpper
+Manufacturer
+manufacturer
+CryptInvalidParameter
+StreamWriter
+TextWriter
+XmlSerializer
+get_KeyValuePair
+set_KeyValuePair
+get_Major
+get_Minor
+set_RedirectStandardError
+redirectStandardError
+redirectError
+get_Creator
+set_Creator
+ImageAnimator
+ManagementObjectEnumerator
+GetEnumerator
+Activator
+get_MRD_FormFactor
+set_MRD_FormFactor
+get_FormFactor
+set_FormFactor
+formFactor
+.cctor
+IComponentConnector
+Monitor
+IntPtr
+cAuthAttr
+rgAuthAttr
+cUnauthAttr
+rgUnauthAttr
+get_HWIDs
+set_HWIDs
+get_WOSs
+set_WOSs
+get_Alias
+set_Alias
+System.Diagnostics
+_textChangeSeconds
+_rebootRemainingSeconds
+FromSeconds
+get_Des
+set_Des
+GetAllDevices
+System.Runtime.InteropServices
+System.Runtime.CompilerServices
+System.Resources
+get_Resources
+AlaunchX.g.resources
+AlaunchX.Properties.Resources.resources
+DebuggingModes
+get_Languages
+set_Languages
+get_MergedDictionaries
+AlaunchX.Properties
+GetFiles
+GetManifestResourceNames
+UpdateFrames
+ReadAllLines
+GetProcesses
+GetBytes
+System.Windows.Controls.Primitives
+dwFindFlags
+BindingFlags
+esFlags
+dwFlags
+Settings
+get_Args
+RoutedEventArgs
+DataReceivedEventArgs
+DoWorkEventArgs
+SessionEndingCancelEventArgs
+StartupEventArgs
+KeyEventArgs
+<>4__this
+Equals
+System.Windows.Controls
+get_Params
+set_Params
+get_Programs
+set_Programs
+System.Windows.Forms
+Contains
+get_Regions
+set_Regions
+driverVersions
+Actions
+System.Collections
+queryConditions
+BitmapSizeOptions
+StringSplitOptions
+FromEmptyOptions
+GetDeviceCaps
+InstalledApps
+get_Chars
+SystemParameters
+InstalledDrivers
+get_Class
+set_Class
+dwDesiredAccess
+CryptSuccess
+InstallationProcess
+GetCurrentProcess
+process
+Thickness
+ProgressBar_InstallationProgress
+cUnusedBits
+get_Placements
+set_Placements
+set_Arguments
+arguments
+SystemEvents
+get_TouchPoints
+set_TouchPoints
+get_Exists
+Status
+status
+System.Windows
+RemoveAt
+Concat
+Format
+Subtract
+Int32Rect
+CryptEncodeObject
+ManagementBaseObject
+DeleteObject
+hObject
+DispatcherObject
+GetObject
+ManagementObject
+object
+Select
+System.Windows.Markup.IComponentConnector.Connect
+get_Product
+set_Product
+GetProduct
+get_Ret
+set_Ret
+target
+_shiftOffset
+set_Left
+get_Height
+set_Height
+get_PrimaryScreenHeight
+op_Implicit
+WaitForExit
+get_Default
+FirstOrDefault
+IAsyncResult
+CryptResult
+MessageBoxResult
+result
+SetPercent
+System.Management
+UIElement
+FrameworkElement
+Environment
+LoadComponent
+InitializeComponent
+get_Parent
+get_Current
+RemoveKeyBoardMouseHookEvent
+OpenEvent
+BackgroundWorker_MonitorShutdownEvent
+backgroundWorker_MonitorShutdownEvent
+get_Count
+set_Count
+AnswerFileName_FirstBoot
+GetPathRoot
+get_Reboot
+set_Reboot
+TriggerReboot
+TextBlock_Prompt
+BefCrypt
+CryptDecrypt
+CryptEncrypt
+ThreadStart
+pSigningCert
+cMsgCert
+rgpMsgCert
+ppSignerCert
+Convert
+HardwareIDList
+hardwareIDList
+LPCDPNList
+GetChildPNList
+GetParentPNList
+GetOSSKUList
+CommandList
+commandList
+GetBrandList
+get_GCMIMWhiteList
+_gcmIMWhiteList
+localizationValueList
+get_RegItemList
+set_RegItemList
+deviceInformationList
+GetLocalizationList
+ToList
+ErrorList
+GetFormFactorList
+get_ProcessList
+set_ProcessList
+get_ReinstallProcessList
+set_ReinstallProcessList
+OutputList
+IsResourceExist
+get_Timeout
+set_Timeout
+get_ModuleTimeout
+set_ModuleTimeout
+get_GlobalModuleTimeout
+_globalModuleTimeout
+get_RebootTimeout
+_rebootTimeout
+System.Windows.Input
+get_StandardInput
+set_RedirectStandardInput
+set_RedirectStandardOutput
+MoveNext
+System.Text
+set_Text
+ReadAllText
+OpenText
+plainText
+cipherText
+get_InnerText
+set_InnerText
+TextBlock_ProgressText
+CryptAcquireContext
+CryptReleaseContext
+CertFreeCertificateContext
+CertCreateCertificateContext
+pCertContext
+pPrevCertContext
+get_OSSku
+set_OSSku
+pfCallerFreeProv
+phCryptProv
+RegistryView
+get_Now
+set_CreateNoWindow
+get_NAPPFlow
+_nappFlow
+UnhookWindowsHookEx
+SetWindowsHookEx
+CallNextHookEx
+get_Index
+set_Index
+FindIndex
+actionIndex
+dwSignerIndex
+FindLastIndex
+MessageBox
+Viewbox
+ToArray
+Gateway
+APBundlePolicy
+get_Key
+hPubKey
+OpenSubKey
+PublicKey
+OpenBaseKey
+CryptAcquireCertificatePrivateKey
+CryptDeriveKey
+CryptGenKey
+hExpKey
+phUserKey
+CryptGetUserKey
+CryptImportKey
+CryptExportKey
+CryptDestroyKey
+RegistryKey
+get_Assembly
+GetExecutingAssembly
+BlockCopy
+ResourceDictionary
+CreateDirectory
+SetCurrentDirectory
+DictionaryEntry
+get_Country
+set_Country
+DeleteRunRegistry
+op_Equality
+op_Inequality
+set_Visibility
+Utility
+DispatcherPriority
+get_Empty
+IsNullOrEmpty
+get_ModuleProperty
+set_ModuleProperty
+ValueProperty
+DependencyProperty
+WrapNonExceptionThrows
+AlaunchX
+"AlaunchX developed by Acer Preload
+	Acer Inc.
+Acer GAIA AlaunchX
+1Copyright (C) 2022 Acer Inc. All rights reserved.
+11.0.0.1
+.NETFramework,Version=v4.7.2
+FrameworkDisplayName
+.NET Framework 4.7.2#
+PresentationBuildTasks
+4.0.0.0
+SerialNumber
+CreateDate
+	ModelName
+OSBuild
+BIOSVersion
+SLIRCDID
+RSLKitID
+InstalledApps
+InstalledApp
+InstalledDrivers
+InstalledDriver
+Version
+	StartTime
+EndTime
+	SpentTime
+DriverVersion
+3System.Resources.Tools.StronglyTypedResourceBuilder
+16.0.0.0
+KMicrosoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator
+11.0.0.0
+getWOS
+getLanguage
+ModuleInfo
+ProductInfo
+SCL-id
+MRDVersion
+MRDPAGE-id
+AppsTemplate-id
+	MRD_OSSKU
+MRD_IMAGE_MODIFIERS
+MRD_IMAGE_MODIFIERS_SHIPPED
+MRD_FormFactor
+	MRD_BRAND
+Programs
+Program
+Regions
+Region
+	Languages
+ModulePN
+Creator
+Module
+ModuleVersion
+OptionVersion
+ProjectCodeName
+OdmName
+ModuleTimeout
+InstallPreiod
+Reboot
+Delete
+AutoRun
+InstallPath
+Description
+ProcessList
+Process
+ReinstallProcessList
+RegItemList
+ModuleProperty
+AutoCheckHWID
+CheckRemove
+ProgramType
+Product
+	Placement
+PartNumber
+Parent_PartNumber
+	ShortName
+SWBOM_Abbreviation
+SkuDisplayName
+Language
+SWBOM_LANG_CODE
+Lookup
+LangIDShortname
+BaseImg
+Provider
+Serial
+Period
+Params
+RetCode
+Timeout
+OS-Sku
+OS-Language
+Country
+VersionCheck
+	FileCheck
+RegistryPath
+KeyValuePair
+DisplayName
+Validation
+Localization
+FormFactor
+Dependency
+TouchPoint
+bundle
+lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet
+PADPADP
+~~ytZS
+ytaSSytS
+~{yaYYa~
+yV]VRS
+jUUURQ
+jUVRRS
+|]URRS
+/ZZYSM
+||^RRRQ
+.7aSPM
+i|^RRRS
+-[YSPM
+		Y|^]RRV
+			S|^RRRV
+yjfaaY
+j^]RRRM
+%%%%%%%%%)@j_[13\^Y]RQ
+000000%11+,c"@3@cS]RRRRR
+^^]RRj
+E0403033338(@99A'R
+9444888999B;=BB<woaS
+D99899AAADDCEDEH>$$
+//**AAAABBEDEEII
+HBBABBBGDDHII
+DBGBGGHH
+JGGHJKK
+toxueotemaeP
+uokkk[O
+!   )&]Y
+B###""*vni]Z
+''((((,qp16]\ZZ
+0/////-0::%Z
+:99::EHHII
+PD.;;EEIIJOPR<@
+GGGGKRSV
+|yyjj_
+1&%(:_R
+0-,,.oi)aV
+32256798Z## 
+<;;<>FH?ps`
+@/AAGJMO
+e750C'
+bbb_ik/5.
+"WZYJUy<
+gvzxKrRPE
+?<?:?;GDA
+|~t{7o
+ssn`moh
+ztpndfa
+{wterqq6oqr
+5329\YW
+z}j~}y
+qql+qqk
+{vs<ihd
+-+*{UPM
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+zTsinu
+\>qSns
+{S%)w5
+$;n.vO
+	`0k|nq
+`%NeZ2^
+,<E4eI
+eC36r[
+?3eZ/r
+f'm|],<w
+:M\Up:
+X/mXGg
+cqo\{W
+e,_4MHu\
+a&iE~~
+Mfr:!S
+w"}T/R
+]'dyzno
+#a4V^)
+V9@Fwv
+"j5V7 
+2Q:;MQ
+gTkIni
+|eoj|E
+Wl.NyW
+uN*BQr
+7R"xz\
+}0Tz+0
+*8	T>{
+.LM)B_
+-j:d7H^#
+=MHoas
+(*8i7x
+fV?yXqX
+|s)KK)1
+T=..!'v
+[cz8IK
+C6D6Zj
+~UK0Z{
+	._~eh
+^-LElD
+9Kv\IJ
+M|%L-l<
+rb:+tn
+N8j4b>X
+2K$bE^O
+}+ju%FcM
+xldc*s
+irVgYu
+>7x[H}{
+5L+`#Z>
+g<6[Z^
+'/3xRr
+W%dqOc
+^m"uVu
+iO#Gm#D
+lNInc_
+p1]n8<9
+:))|n&
+c.Yb\.?
+JOc7)"?1
+Q:kMWiS
+Bi5fz>
+\gc9>fs
+A9uMSO{y
+79=q^&#
+sJ{F&2
+TeR?d+T
+;]KtL1
++*n;~]
+cGyYmd
+I-dbX(!G
+>u-9I)
+F&;h68
+Z2;X/!
+i*q^v#,
+|Yddht
+dU7.@_
+:50[*F
+)JD*u;
+*Rg},9
+krq^+R
+G)%xn0
+^6VY#9
+Q9*P9[
+GEkooj
+yr{5~W
+66BU-#R
+$b^YZ]
+gvrYC/_
+ IypU:
+*J1V7T
+N1:;KYd
+i5fWm0
+"1Z3	)sj
+lo|>2<
+POnw~]+
+<[<,?w
+{Mng(T
+vG-l4e
+SA$]VH
+'Yeuq&
+Wt)F1:
+'Qe`[`
+5Z1V:#+h
+Ez8L&#
+E?&XI9b
+1x|Ty#3
+!KOssb
+9|$rHz
+e59+FG
+}k?hBr
+/\5kr_
+3:k]=F>V$0M
+KTx<9k<
+N[37J,
+NYr#?c
+^xe&F&,
+G'z~{y
+Z<]N_~|
+~Y5-JI
+eo&FW{p
+;z(_-q
+"][n\:dL6
+_Y!U71
+i4M?JB
+	1,3FU
+Q9eJQ1
+-JwV9E
+s^e|_,y k
+PDgxq"
+!|?	v=Re
+U;N~`>
+:#N15`
+;[oEi7M
+_frs_M
+El-OiF|
+:\c>V~lcw~G5
+Vl`o^{
+!<`/F>
+>b~_Ec
+ZDl#24
+#F=I	;d
+j|`g\h
+U\}+wY
+#sc?6?
+sWMs|f
+$"hZHF0s
+O.p}+jx
+Sj_2m^
+.eln%r
+Uc^u[shuS
+%7/~er
+e9;w/&
+<r.wm\u
+#6}=$V;W
+2xyGYD
+yu9"ZR
++.cf-P
+i{?3)G
+C'A4G([
+B_fG-}
+Y{n_1{:
+%y>1x6
+ks	b#k
+Tc#>m 
+xt4MFQ
+b.5nnE
+|NWhvY
+3K_af~S
+J#yncQ
+:_f1:{?
+-\5j=O
+~lc=~l/
+d5e<%:
+CQKc2xgM
+cZ2:K_
+FF?1M&
+9w,cP_
+a\xovvD
+Hx_36_
+w<W5\/
+X<G/%X
+[F.@4!
+a*FW+I
+A`hCS*{M
+tyNz}=
+4We~e|s
+WT15"h
+yw.G{s
+):Enk[
+bjS4U%
+30.v0%N
+KF?gSeB
+VPs:2[
+?3NtlE|
+\52J}bg
+'#8Sx_
+9GVXK{
+GCURKf_O
+~u=07nRk
+uen_yb 
+^}MsO'
+N?b#XX
+-^u\$e
+U9hc,<Y
+.|74drK
+EY&^CI
+?5a,\IRR
+(a^N7gw }
+.X9F^f|
++S&M[T
+T3{74K
+Mf)/rz
+Hsoc6[
+<4n/c"6
+ws*m8s
+f9#p~o
+8o1}w)
+DZd^tc 3
+)OMw4b
+#'Nq!I
+,EX/z2)
+S"}'VQ
+1t##.m
+P x&<m
+Ymf>F1
+VK;w?5
+ZFJC4"
+Yrs#2@
+1`NN7}
+#.RdwR
+'F1e)4Hy
+kb%.Bb
+G`j%+h
+VYr9p:
+kT_;/$
+Et!m6A
+._Re._R
+=0}+XO
+WC 3~>
+{Xw mQ=
+r)r 'V
+df,v\7
+S]FhCrz|
+Jo`Xp:B
+)RnI=s
+?-eyF_
+n*@[F8$m$
+y,c/~"
+y4~>R=
+=ke.oR
+ujrLww
+#"{Bp7
+m%vVv'-
+}Ma'er
+kNn]nh
+9CbTpF
+$JqOr-
+ar9"@bS
+.ile8s
+15+y2C
+w=>`>^7`
+5M=Qv+
+%F@~VLg
+Czu97#f
+p.Err~
+`sKbs7\
+!2/'v@
+V3}	*;
+1e.H=~
+}CsY)8
+re._R3/?
+?7_Rk)
+vV!y8<
+;inc)_VV
+JG'=rzw
+2Fq4RFz
+ydg)tLo
+Ln==+h
+ns:K]}rWZf
+bF|S)?>
+4.ErGF-
+i{d_?4K
+^w7N+h
+N%$go}
+]k #yzg
+~8ND{?
++URP4.E9
+B8@i%X
+Y;/1J<
+9$gIk4
+=+^tW<
+jEjZnZ
+`W.I$t
+1]u(Mn
+d}Mc'vd
+BDWM;vXm
+\jb>>sF+
+X7&IVI
+?<VzE	
+ks>klga
+|o<Ki8
+z9NiY{
+Lp8Z{D
+'IN7e	
+YOre.b
+8$;V=#I6k
+|4DTm?R|(
+gQzBr2&
+\BA=VA]Q
+N].\'.b
+r#+t;B
+QVBG~O\W<
+E7bN=}
+.L=)J_
+tW?9b9
+a~?zGG
+Vi	JP.
+kNnmnJ
+_XLTu{v
+:#8Ksb
+c)9ne7
+u%RG#=
+ ~;}+e%"
+SOThCr
+mJQ/Gu
+?w=Ee'
+:h5Dp0
+eQFLM)"?&.v
+e._Re.R
+KJ2'Yz
+#.P.Gq
+jmnT7d
+7=r7e{
+zm%v|90
+Ewo0?(
+@rNO~G
+sKb'8$t
++pUy^N
+BM5tWg$e
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+VrL	VVc
+U7UKQj
+.cR,E|
+W;&]A[
+yz{co2
+n4=Z9X
+S-I3?Z
+>lW\1#S'
+$MAYwt
++(.ch@
+}+	S-L
+v3[,DM}
+V.e{Rh
+W%\a2eK
+&mjAq34v
+vEj[]B
+c:#S/C
+CSF?.8ZF`
+sr+CB6f
+b'Rg7;:
+QJRw&%
+^M>9>^
+9#rO3r
+W;5UIc
+j_1b=B5
+c9U*\j
+ck}k,2/X
+R'3oyuf
+lzVrEFl
+<Tm8;?
+Sfg(FL
+43L=Ov^
+~8c[{;~
+^GF?/@
+b3/mSeo
+]xle\?
+xfi``r
+1.N1:O
+-7EK~=
+Stmc&I
+d~Q^^]_
+9s|Ei.
+r:sRc(
+-J7-Gt
+:x2yNr
+r]\0fn
+VLWe:&
+&++p@.q
+o4Y!c%
+	!fGNU
+>n=*9J
+$]C9ec
+0Zr?Z?
+6r<")u]
+ak|59_
+rF#PQ.
++j4'#HBr8
+gd)F&b
+{7q\u(
+We<70X
+&P1^u\G1
+Emw|nc
+s7s_!V
+,.>2=j
+OsUf+2-
+Rw(O-w{z
+vb@2[=i
+ris3)I
+xrEzxl
+_k2?%a
+]IchpU:I 
+|ybmuK}
+.j9$G$
+e5j|GL0S
+&2;!V29
+09^wqE
+W]<f"?h
+_3ysd~U
+p+)lg2i
+cNNVE'
+34-u&\ml{W
+AFM>M6
+`1G'(r2)
+Nk	lIv
+a>p.Cugn
+%lLb)U
+}kENr9
+c]5U,d
+3E"?3o
+F)sDE;
+2eV1;m
+9|Gu</
+rwWe</1
+Mqq#+;6z
+~R}Mg9
+53K9|%
+$2m>eD
+4wZ[too
+|A!Y%h
+`;We<)
+93	nh[
+__nY.D(z
+asL.2?
+>H~o.h
+&iz^cY
++mi0Mg(
+~$n7IQ*dJ
++9S&P,
+sS)Dv-Ak
+V:|{T"
+d{YVLc
+U^fIVe
+v`^x/T
+`k9S"H
+NdJS4-`
+9|$KC"
+=]T15h
+(Uqf6c7ym
+7nKf`?
+iH	U~m
+'L119MS
+?Io3snf=wu
+GvnkeO
+\5fsNL
+c*`G$k
+O;^^w1
+*lW)b8uK
+yq.=+)s
+ck|R;a
+-O;4-C
+z{cq\V\
+{4}r%{)
+Z{&O),:
+helVs@F
+#>>ky~I
+N;VvfR
+#1e\Us
+mwC1)bN{R
+t,tMUc
+jO3,Cb
+dnn}=)
+53K2xt
+aF1-.R
+kNf#'P
+:~ujCKR
+.dQr=A[
+B)<+np
+t@;5.`r
+5K;PcV
+2&P2u/
+z5sIN$
+k_j.Fs
+dfe^Gzv#
+n}7TJ@X[]
+Q<<d9"
+.Fa]xW
+huUW?7
+6{3WL(B,
+S)0&[v
+MG4b>fK
+yupFVf
+e@,g]h)7
+U,NzP;2H
+sp=k9Hv
+c:!fE%
+TfA2(_
+Lj%Dd2Y
+g*""k9
+Nm&N}h#
+O%Y|10
+,G<r&U
+Wua* F
+?/kmN*}
+}-5'rd
+f=~ ira
+l7ryrwWl
+TbIR}=Y~e
+v*\h=v-+2%
+s0$]1Y
+zTI3eL
+R4P,E#m
+j%LVEi
+"xu-[v
+Vm-Kgnk
+FG#(\xoh?.}
+RY>5hq
+:l|SX<
+Js6TKQ
+=*%'p$])
+eDVey,
+j%LrD2
+ir1{&U
+R)S%KeS
+1"K_zD
+Ws}keE
+ad~}M{Tq
++9@RDMo
+Dm7u?f)")4
+}C'=Z:
+}Eg*s+
+C46UM8
+)ZH~^R
+nP kv5j`D
+~Z_WdJ
+Yr@,9mf
+]OJv`1
+*&REi-
+uG!%i4
+jy".F3
+	cbf^|B
+${^fW7
+_3'MI[?6j
+=f_^GZ
+u&\4`{
+,.*E}P
+vUb}:-Gu
+}kOj5"
+NiQ1/</yf
+^G=L[0
+"e)NE+
+UoBk9Q)!
+s3./.$
+cEZq:m/
+e*!fA&
+Uc"%!~
+NF=tvo
+.vW)$z/
+ab.B)4
+[,\dW;']Iz
+oaSdG;"
+dm36~|
+;FC#xbo
+wZ<r+n
+-e,!6"
+g* E$+
+;Q(H,C%
+`f?d=|6
+}MtC-/
+rj%'s2
+\Uhje$S
+J2$kXd
+"k\T{2lD
+JRw*R"
+}*%327
+ldg*ft
+LXu-kO
+O!Vm$3
+c<4n.B
+[,DKR$
+ss[,Ije
+W1f=Iwe
+,1$l;ds]
+qQ,0r2&
+6/oz`M
+?{[,I|
+b##NdHn
+=kNfW1$r
+Ug!s22
+LRBm?w
+8l]]gN|
+QJJ%i&]
+gT%&A%
+Zs0$Y?
+rk/j)I
+DRDmn[?
+^+Nv2e
+Eg,4d.FA&
++9S&HcX
+~AiFW[
+|DMak"
+}MO8s1
+8r9&e<"
+W?+#miG
+@V#kV?.
+TIF_d%
+u/|KrH
+(FEY48
+d^-Ee,-)}
+eFfvC|
+zq[,N"
+].dQ,sw
+eCRyHd
+el{S(zK
+2G	&e 
+oS_mV%
+n})}L,
+5??_j=
+i<\bW8
+dR_.wv
+%XWdR^I
+68^*%#27
+	P&P#m?
+5_X)HS}
+zbCZ%8
+O;,>j`L
+}EhQ4s
+Q,Hs26
+h[k+.?
+,s~U@K
+yj%CRl'
+X.ar2/
+}?Z9@FVn
+Mg,((r
+8=C.iN
+r?1\5hcp
+8jes2e
+JRw&CY
+W3$V<z
+j%DVC~
+~4)0%I
+e`*lf7a
+?ZjC$Y
++-0%I{5R
+}k1s"7}
+c$b>J@2
+076Gz|
+sTW1,sz
+f_1,sn<S
+#i?3S)
+cL	VoO
+Us0$Y;
+3"onsS)
+7SRfG$q
+f)n%W3
+wj%'s1
+oZ% !w
+Rfdm&}
+>dY,w_
+k9B A%
+b=Eg(U
+O1z7?J>#12
+z6*e&W0}
+lM.f.a
+iJEs1V
+{uO8s1~
+fY,w_/
+>d=n7/
+O0JCZo
+BM?o0,
+Z%&.aB
+9o$\fF
+<rCH3[
+>fQ*]|
+4&]Az+~4
+/z`9f-
+}j%"Cr
+_35l~'i
+o=[5 <]
+_3nN?*
+(n}is1{
+S$W3.C
+*%&>d9n
+|/_`xa@
+s1s1VN~
+'p%Yw}
+s2A#c?5
+Us0)jZ
+O/<g5\
+~u 9YO\
+bGo_Z|
+s-a(N%s2O9}
+:6k '[
+&)g^7S3
+aS*9v#
+fg_xWL
+W?(IDg
+ARW0.[
+)~6V^0
+s0+\i6w_
+vV;w.?
+Jw`?cz~
+hd`keZ2
+4	n5cV_
+%Nq4R,
+H$#G&O
+#B8YT*
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+G9in>o
++`5:!X
+lM,e/i	
+?ujH*I
+V:K]yw/
+hbWSF=X
+NinkGq
+i621Y$
+bq5j/p
+({\=^x
+MCB=iXm|
+U&sD2j[[io
+l3++D[
+u+U}#Qg
+?ColkG
+C2:a6Z[
+&w`3\V_T
+g9=_r~
+&c<5,F
+"pw:+=f
+)S:-KX
+s{01n/
+xcOlo[
+<V_\:y
+-\jPZFwI
+^W%\`O
+*tkS8'D
+}J6F_&
+Kv[]Sz
+Yr3^tlC.
+rOs^tmC#
+&oIgk}
+YZ?24Vh
+ofS}b3
+e}[QU8
+TT8'6]k
+IBlf2l
+8#^Do[
+;M7Ffe
+?vD=kB
+g9U^LM
+DhC#na
+h#^Fj[
+m\E.J>
+Y.>U?3/
+5u?b}B
+x+K]sN
+a>:2<b
+N]A.,C7
+XkK2nV
+mui/<;u
+qMkymqo"nY!
+bqP<#X
+|Kgkq#
+{uzXojvQ
+=z9]*Fz
+NbmjI76
+ug#C&G
+>2y)T=
+?C.Hmc
+lW9CZo
+9U#X`=
+^|eiNg
+\E_mZ|
+W|&g8+
++sQ8R 
+L6?SHW
+O#=Z828
+'2<LN%}
+;7nC]|
+pw:K}r
+}=d_#.
+=CMfky
+L6Zc8;
+{Cz8gQ
+W[V^[~
+c3\~aW
+3^thG2
+|fG3uc
+)ciT8[
+O#R=R?
+sOshQf
+hQ;]?C
+)T;!:U
+{tp	|g
+bq&Gak
+i_m[;_.6
+\}*g?6
+{36m?kn]
+snh[k1
+xF	7Io
+s"M=[w
+h|?cs|
+>JE9,v
+fEY,cf
+[ V`ZY
+7\iryr
+g<}ChC
+'>@:K{Fo
+[{TfW:~
+}=oqox
+xofaIo
+gL3*69
+Uj?~gd(
+UK}kzf
+g\15Og
+1qyu#7
+'?fhoZ
+k$rmXU
+}5#]?E
+^U?ymN
+mWOeY<
+]XxoGf
+DG:)I"c
+gM<=*d2]
+e_-wzW
+Kx~oO.
+[?7~k_cD
+y$a^xwM
+C?fg\i
+8{3>g_
+{"O'sm9_
+r'7sM?
+k_m#.Dr
+lWT3/i
+G94z\*
+5c?fmAo
+#hV:+}B
+\[\Gygq5
+kY#fY#
+u{Z@X[
+Kkuqg'
+<%Xnc:'+s
+_hZ]B9
+mS:5w9
+d+{C^x
+~,kZ+,w
+zTs/f}
+[}t!?d;
+'k[y>h
+C&+hc1
+d8}a	L
+\NTc:'3w
+)T4#hU
+/o"nkXYs
+2z_nq9'
+;knzU5e
+GL+R/y+"
+?CXV7!
++v"x4f
+0ujjc<b9
+p0n,Yw|
+d1%{CR;
+{Ar#*k2
+GeekxYw
+{Wd0`~
+c1QNp`.
+hbM!4m[
+s>DUm)[
+AT:;[U
+mvC*;!
+WsOh\[
+15w:a4Z[
+5K6_9_j
+j>DQ{[
+LNZc8;
+,WO;-O
+?S_noZx
+binQb;
+qxyRIb+{f
+2pQmEYk
+fUm5~m
+M[eVe=
+lU3NF*
+k^vQyn:
+#B=zN~oz
+ET3Q{T;
+^v_;.-
+xby"Blc
+4#m5K7
+{d\]NM
+4BgAido
+h_;/Gq
+l-C`[{w
+})raj 
+15Mh|Qb
+)5_Z@Fo
+O#=	n:
+Z{COhZ
+D{dWmQ[w|uZ
+{dSmKo9=
+-SnD=,
+^+^t\&
+#/Eoc^ml
+haj|f?
+B6f?.>
+Z{@-G32}O
+Y7WD3\
+ GYOp l
+{COhZ[
+xohO#+
+h;~_,}{
+zW7#1!uV
+kNtQr;
+vV?.Eo	
+~+^z@L
+NMB<3n
+Z{COhZ[
+h_;-G6>
+:pD-su
+v_;-Gq
+!m&E?s
+lmY75E
+DiInFQq
+dWm=~Vf
+==k?cP
+yZ{COhZ[
+|p"ti\
+}kOhQqn?
+w-[B`L
+D+k36Z
+Obw+Gs
+V`CYOrg
+=kP.G6?
+s,G7f_
+k~tQqn
+kNvYj;
+c9{0#o
+`A#}w5H
+Z{@-Gt
+u0eY6.~
+b+3.v@
+g7p!i?
+5sN`Uf
+U{dW:/G
+vjXYY~
+v_;-Gt
+M_:5,-
+ FI=k)
+w?74{A
+=+P,Gq
+6FQ#Mk'
+wqG;$w
+j'3X?hSf
+kOh_;-Gt
+TiT"xj_
+?=cYf]
+1Uw:K?
+Z'2y"W
+OZ@A#~
+CAdV_ZF
+vI4w?/
+tT?yTr
+T~ (I|
+-_=SJe
+UUo4=b
+W<MKKq
+W<K$Xw
+a}+?hT
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+Ev2nf[
+cWD1'B
+z5g?cL
+sbpxlC<_R
+;+=yYb
+y tbs*8:G
+sT2'\m
+#i.,WM
+xoh\78MCPff
+{ZG4?tyK.
+m#B=Az
+Z4Vi?v
+xwk4SC
+92+OmX
+4{TAOo
+x0:K]y
+<5#OhmC
+|?qy$l
+kV;K8|
+5c8#~vl[
+{ns_/=
+um{TmgZ
+sBui|g7
+QZ?.eY
+V5:(n?
+8e+$i$m
+eX.?sp8c\
+Q8{By"6
+wyi#Gr?
+5UUEoZ
+4rw^,ffU
+S:y)S/Z
+sV6/5-/
+oS^n3-9
+?^VkXc
+y |6'8
+bq5jnz
+M|5jUi
+;Z{C^z'Io|
+G<HuM7O
+,uia)k
+ZVo/rn_
+?|5k{_
+YwnU;U
+\M_~f|
+Z{ChVG
+8hn$1L
+MK[9f;zu
+tW,)F1
+iP4R#wVVR>
+gDi_Vr
+5mV@LN
+"18l.aK
+krjr-uqb
+Q[+,{#Z
+T zTpg;4
+$vo2G?3={
+Q|r8=C
+qXma9@
+ps[{0(
+$KX[k-
+chQcci
+Rg8R#k
+/Cy4;[vs
+i6:{yrH
+n,VEee
+?#[Bf\
+u-&I7Z
+rir{C^D^
+~\Aj=_
+^Kw)%c
+5WepO>
+GI7n^z
+,uk=H(
+jZ;,rH
+06m,ZF_
+48a`>JT
+Z?3M&=
+w.1ZrH
+%"tiT9}K
+^%l5Zg4
+FrwVv7
+jEsS:K]
+=*8ckI
+?-zTpuj
+tVzK3F
+M,E/rg|+{Sj;
+Nx\e.J
+>xw\i2=
+|+{Sj6_
+t{jU>?|
++binpNt
+.*y$Az;
+xcA_3V
+^]l5Zl
+h~<hZ8
+6TW"8{
+ixcR}>Fu7
+3?uDt7J
+Lk>tg9
+]tXl#f
+}+?h(Q
+}=Bxl)
+vwG	XU
+}U{B9"q:
+*tqX}fs
+=?s\ZY
+g]-[twP
+aVi$O,
+5-&K}7
+tqX}H&[
+ztrLUC
+w?y+.y
+_g|WL&v
+\gu|~?!G
+20f[97
+o334>\
+~5g?"3d
+c<MS^tiGg
+"tM[]/
+'O#7-t
+L sNeV
+k^DO$J
+:|{~UE
+zI>o3v
+k]B7,s&
+"sw,l_
+1P_#.*
++#Xnk[
+.LUMNV
+obs7Z-
+V:+}Ae
+{frw^(f
+wW|+{ChM
+fGL+w:+}J
+C&ky>o
+y=Vs}Q
+c<5Zf\
+dOc:[m
+Xna:%O&H
+>OjO%*eY,,
+<M*g;u
+\0ulc<_
+we|F3'
+A{=J-ou
+b`L77;
+O=S_`i
+)T8+`5<
+SDr32M
+k_nG"3d
+Tr3QDM
+?C~vm[
+)S"}N~u
+{j%95(
+z/XM|3
+kxe5no
+|2zP:aD
+Z{COhZ
+konYVH
+}E\74$
+YVM=~e
+X{j Uy:
+{CntkEt
+Q`hC}4l0v
+gX'/hQ
+7_9=q]
+sO*&tH[K
+^pkP,,
+U4z'/~
+cJd?g_
+=kP.G0=[uW<
+e{d9[v
+ws[}zb
+Q<MSB&
+bk^tQ2
+?CNvkC
++^tO<K
+%_;4-G?R
+k@/G3t
+Z'G="O
+ZFlnn{}k
+_;$MJ6
+{VFEvm
+7AYOp+
+O!d<m_
+k#.vU=
+}Nk^v\7.Gu
+U{dO<K
+]BtH[Ke
+<}#>tSk
+-T0uop
+}k~v_;.Gq
+^kOh_?
+s[{`-Gq
+w&?	r;
+ukH`5.
+)4e\x&6;
+U3.k]B
+f=~26S
+j\7.Gu
+vW:.Gq
+.G7?-X
+$H[KP>
+sJyhrD
+Z{@-G;(
+Oh_:.,
+h\&XY=
+vG:-G3
+}{W8ry
+_;5.Gq
+c80 hUz
+{z.=qX
+9{3K5"
+S(n~{I'
+kOh\7-G?
+S:eVe_
+F?6}:W8
+nW:$3n
+olW:,-
+b+OhYb;
+m^N7W9
+t{s.vB
+^>ov	Vi
+Sh^W53
+[{@/Cq
+Z'3RO3
+-O<@cH
+sw2"i0
+YOp+3?F
+IZ{@-Gq
+ NdM7_
+g3OlWk
+U{@-G7
+!Vo%^F_
+2-sN`So
+5cB=JM
+;s.~Z9
+mV8bq[
+}k@.Gq
+Km[;ve
+_34r3?mD
+W?<@k6
+@ZI{5Y
+{shci^
+W<MH|Ug
+j'7p+?_
+kxnAj;
+_.j'4>
+{TNg,'
+V?6}:W9
+t$}M !f
+VW=/dZY
+h_#/Gq
+B`6MKnLm
+cZ=A~]
+qYOp"-
+YOsXl3
+Z{COhM
+?hYaf\
+aP\7%Y
+e#hVG]o
+R_;-Gp
+:a7sQo
+?6}:Vb
+F$fE_a
+`J>\1m
+TNulYaf
+TiT1tiT9
+h4!2z~$
+kP&Y7/
+}L'/hW
+wsYOsnOh7s
+op"f?y
+9k>tO<I
+Q8{Te:4
+PhYVVo
+!?h]Y#
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+t?;?h?
+S.s;N$
+'p<mnke2
++WD1s-I
+6+_kKj
+NVe)NC-a
+5w$bE%
+7Wd!cx#
+bJRw.C
+3$]Ww,
+ok9|'%\Lb
+(aV+6k
+OG;4UKP
+v3[,DM}
+c,|b.fW
+(\:}OZ
+[~nwV2
+^+9B#S-
+;cu?ni
++On_4G
+7Wm:'4
+a)32O;
+)!=FO5
+O=7sYJ
+LU{V>b_
+{fW;$[
+"zTqt1
+1ks>mz
+Y~e/z4
+6?}	N}9
+#6}=+d
+Rw4R2Z
+;#B?3w
+uq#Kq/2O/%
+o/-VIRW]
+kE#^nc&H
+<d7BAW
+yS~IE$
+1.N1:/	
+61RYGP
+jpbs:T
+56@X]A
+lVvoy}w
+	l~vZV
+jmVQ$lX
+fl<?f"_
+=Mxu]Z
+n7,1,a
+I=s_=8N
+Kq^u\)
+TNiS4mu
+<nlF&|
+zW]<@)
+8<Dydl
+FUe?/V
+c=k9.`
+4' 9}g
+1fn;W|0
+e*bIok2
+QWw\PP7
+4R1&k{y
+XO&KWY
+^GJ9F9
+9l_1f?0
+e5j|GL0S
+\l~nM)
+\s9e&[
+W]<f"?h
++/a1{"h
+YKbfM6
+N%s\McN
+Eg*q&[
+]\<G?ve+
+@In>Z9
+Z,W$F4j
+md\y#=
+~"e;T,c
+r&w+pA
+e:Q1o-
+7sXKc){
+]kGfkx
+LV`?l,
+ U^OjR
+e8NFNs
+O),Z\l
+U6S*bh[n
+rNE*s3
+cly=s\
+=k9S&P&]Y]
+Hc]c>Z
+FEMCGdm
+vsIJq(
+kXnofB
+OUnE{xl
+cf?g|~u
+.2x>Zt
+W}<<bo
+%_.>D~
+,o7\i, 
+qg#)e^
+Aqaop>lT
+:|j76?
+q^}l\b
+3W}<1i
+Ts!H|m
+'L119]S
+)J7*\Gt
+Wu<)Vg9
+W}</)j
+V23.[[
+sB?/ho
++ac!Is
+Zj@g]h
+Y>i>on
+)'pP&V
+LW}<0|F
+==+NNV"=
+wtH=:U
+34-lUv
+VsEs2)
+v*dI,1
+a_-MQJ
+jO3,C`
+TEb	-Y[
+yfT"u:/
+O!R}$2
+Q%3E'r
+EyU3L]O
+Pk[eo2
+Z%.`$Y
+kxc1R'
+UWsr{TJe
+nS9BfE
+rh(s4g
+W34T'2
+grUsL,
+(V6?/~
+Rkf=Uq
+F)IF@T
+.:zSUg
+[p}EvS
+O4b2='q>d
+Z-CjU~U
+S4$Y#e
+edf]xn>Z5
+y5Fd3G
+i0'XcQ
+k>fO)f
+g*""k6
+2EUnw3u
+b9JSh/
+O%Y|10
+'%Lt"b^x
+S,G<r&U
+G!2By{
+Z9@O'q
+kxnH~em
+=wqYJf
+r;!B14 
+eCS	V2o
+Xc	b59
+e_xWMl
+W3)\|;
+U0je0%[
+U>)2[}
+{TI3eL
+V_h-J?
+cU'ro%]
+&HO-~`
+dV>NH?
+IJKY!}
+>_~k)P
+"P)\h0
+5F-q}w&
+)n_!f6o
+d5w+}iY
+Z)FEs1|
+bqD3|\
+&w7Yu#J
+%Fq"Jd
+Z>ir3A>
+G=ar2	>
+R)S&[UN
+)n(|U2
+S&P!}=z
+O##m7ug*$
+T8NEs3>
+jO9BmB
+	&FmYF
+V?h_U_
+|#uk!k
++9S	"	,
+c=+ET|
+3~=*J$K>?
++eT	7G'
+1f=Mr7s
+g2H_Ke
+sco~M9!Ka
+oza/xcB
+*}C.i{V
+J2d{<D~(
+4-cY>vm
+ZsF_	j\
+;FDsi1
+~QV1U#o
+-sQ,E/
+\6w5g$
+5)'s9K
+K#m%[w
+3m?w85
+k)LM67
+uC/-S,.
+A^w-t,
+)S3/<'n
++?b.FD
+~^{qQ*#
+jeCQ{"7
+UbG2!k
+g]xv6n#
+`9an>V
+p!gn=3
+Qs"9&n_v}
+r?x+9U'
+i%vfbK3
+ooBi{8
+*D2\(_
+-U-C}gq
+'}4Z'm
+-;Zk9|
+ZsL	VOF
+S%Jq-C
+CW\kFEs2uhd
+Tc!XcX
+^+9LR"
++2	-K|
+>d2MCvG
+@wdrj[~
+^~n}iJ
+55.`%I
++EVq)>b
+wpEg*dI2#j
+g*,VdM
+>n+	{j
+|%B_h>
+>f>fH&
+}+Ok '
+j% !hU
+k9Q	@kY
+O##m4n
++/`)@>
+}*?t)r
+j#G#{b
+}j>"e!
+_1$s75Es2d
+-?l>b_
+q^ujx:
+on=((~
+un*%L,#Y
+c,)6C~
+~nkxN#M
+_!Vbyl
+g,1Vc~
+k)a&.F1
+Ub\~2e
+?^M>`&Y
+%>`,Gq
+}jeCRyF5
+{<Us0'
+V?	Nhu
+.{R4$Y
+R)7/N*9
+I+r7fc
+lS(|s|
+W34%Y=
+k1s"7n
+0Hc7Vf
+DV3n|3
+Us1CbX
+=kNfQ4w
+w.S9Q)
+nQs!ZM
+k)n26n
+=+0>fYz
+k@%Y=[
+R>b?3o>
+f4I#}k>bF4
+vTAo:a
+__U5?^
+.n`#y7TKp
+f~Vn}h
+J_dVEy
+o{	?:|
+=w/4{H
+=o=?Z9
+}k>dW4
+<+sG0sN"y
+9r*EfFd
+xUs0$[
+I	f?6k2
+~u@<jQ
+$]J5\y
+/y0OaG1\
+Z| 9.?
+5[sob{
+h5.S;R
+\U}V O
+gg6VKt9
+s0$]C+
+o__z%'p
+1Q,F"_i
+3smj$%
+2}j$Ib=J>
+O0s!VM
+oZ`|	o
+^u-/~:
+.f/ttw[
+*;?4sF_
+#S7l|Ygt
+aZn>^=h
+]qZZq$
+G3$_3w
+fH>!h~
+I<lUwn
+*An=d-
+3?wviKp$V
+VEZd2x
+s32O9[
+cYUWs6
+U{BD:xl
+@nJpqYK-
+}is"Ek
+,~df t
+F.Lve+
+>qs [u
+=wycsTJ@/
+Vee=3XO
+@Kqk0O
+@)X((Um
+H}.fXQ
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+(4 hYF
+us:1)>Sf
+vYMMN>n}
+qZ,\Ar
+^}\tWS76
+`Z?r}+
+9A$zrI
+`_/33/u
+GU<E,D}
+7^2i5p'
+Hu7=8?
+r%]R09'
+Eg,|TyH
+-{s#1f
+7*r9Mo
+c !d$d
+)cqT>	
+#0K~[v
+$kM5_0i
+B%2^y0_?
+VhhXXn 
+jRk_1KB
+S)T-Ct
+i#xN7,Gy
+?o#Nbx
+2602zz
+>rQxH!
+R}MS9f
+BXe7Ws<
+!'k1?L
++'^3ZFE-
+9EL*F2
+=s@?tF
+De,A*2{
+!:6'M#PL
+<MLENX\
+u=sBv:635=~;T;$
+e#9T9=
+Uf;0I^B=
+zTKrK1
+}Wsem}
+il_|R`
+.YwG>'
+.+hQ-BR2
+JJ1GL)
+(e m+_
+#jV1|O
+#3[`60W
+>^F _E@8
+E{5yw{
+aZ`3j8
+8gRr9}c
+2|6MBp
+'+vZYz
+,F.ns}
+dO:$G=z
+FKV,Et
+^,q>LR1u
+>:w^DK
+[][_F.-
+Zv`G&[
+;HFwdz
+k[W-'J
+0U15Sq
+*my;~V8kf9
+\dxka|
+{6Tecv
+b_i%2J
+]-~$xE.
+*c=rhT
+o ed|g
+9b*BNn
+ib,hiY
+	&e*v5
+8x[U"5
+rbr\U7
+k2m![8
+^->+=3S
+$:QoMN
+Ofnj]z
+s<-C?c$[
+WG#v2+eF%
+:}+))L
+L1R};u
+:WU,Mh|-
+0x{TUm+
++7FE*W&
+;F	<0?
+2EbF7g
+(rNz{S
+})9E|%
+*8/#	T
+=3^m\=
+GPhu$W0
+^mbz>A
+?oQu-NH
+dYUg;z
+kF1:}#@
+pK~}jy
+X5c;3>
+.Hu=*o
+% uhA&
+NW xB	
+]JTku*
+P,E4,>
+gu7F$?
+a)	FR(]j
+SW'[e+
+NqW:RQ
+6@,q[P
+5z4qrF
+Gdt_d8
+FAfe^h
+Tjs|'Q
+V@v/_Z
+C^%Ju(K
+"[MwUf
+da_k9;L
+^Abz}+
+07Npz}+
+-|"	$O
+6&B	^k
+}.W?7C
+Tkbho]X
+}/V#tj=0[
+LE8|GL)Jg_
+n{Ur	F
+m.O"b~
+qf%\6	oQ
+Exu={F
+\jDRE)
+7drzV2
+jac!5s7Q
+G#2{Wv
+dkXi?`L
+WL)Et7
+d_~}E#9J(
+<wQH8n
+U,mj}G
+XNfmw4,
+\usl<>
+i(~V^~
+]>"}Fy
+su4XY}
+e*?hm\
+Ey<:Xdu
+]9I-Uwt+V
+`lF0##
+	?zI[-
+tFq].`_|
+^-actxY
+=.Xr0;
+:|<[Cq'
+c,Eiu:
+N7)]i>b
+zSu$.A
+Vnv4P-
+6Q,G`]
+KeYnBp9a
+7eW?60O
+_)|Ds3
+z}k')H
+MW34PH
+s9#<K-
+?QLjV=g
+WE<EHu4
+[m}Kq7
+h!|yLU
+_3.Atf
+JJ 	k.w
+Qi[c7;
+VNc/[iJ
++mw#^Z
+W%\/1<
+\bE&ps
++G_Bxt
+sADs]D
+c6k~bl
+;WU<->
+$}/2.[j
+p~DJ7e)
+	#>M-I
+}+Om#7
+|Sfqsgkp
+|;yxOI<
+4_/oQX8I|J
+VMH-"h
+`;z`~u
+^??ZM\r
+rLc~?:
+Uu?7OsW
+ };vI^
+7:.A">
+,MCq-`*K
+R	2c^I
+gm<Ddu
+V"{5<m
+dIR}(0
+k	) "|
+U"W2,C
+2q(]X)
+$fH5M;
+.1JLei
+x6+UT|
+<gvOsN
+dW6[O;
+5r	txNr
+@Ki}un|
+FXMF)9-
+qeY|%p
+{6)rMt#
+W#"]-9
+c,DWR\
+T/kM|(
+F$|Ew*
+:/ "}=
+T<Ei|(
+=jo$#2
+7ByFIfO
+<@t}6Q
+'-"~U2
+r}kxV)J2-
++Oi$W14w|
+xn`!kea
+{V5)#R
+Kp;Rtc 
+nO@2{"
+c"@?!X
+>^7WL0
+L<Gi"|
+wW}<|e
+"\dU}=	,Y
+e,F!KZr)
+Y2Sx5.
+Nc,775
+NW$MVE
+u$G3+L
+bb9&`	
++/%b+NU
+w1=0+7X
+V.w3"w'
+W=L)6)M
+i}T9F6
+NE?g [
+F>_j%J#
+JrKrk7
+rEI,\d2g
+g=r)K`
+;Vn@E4
+k7ZB#{
+jyGi!D
+n){u&W:
+'.f.fE$
+Rv)7&M
+xry"A&
+tHp"}4
+KR%MN@G~
+;VRb"-#
+HN2#xIl2
+2Ey-['(?*
+:"p#:y
+w6}ERv
+rzT<=9
+QXkY&1
+Jx|An6
+j #!?:
+!{{w8xA
+&9.%BF
+Tb>^f5
+T}Z!d#Y/U
+.1Qc>X
+9_#pn	
+,N1"m&,
+e,>5|:
+sVY*L?
+A@8V?S
+	.p8ns
+?tDlrs@
++ {bx^
+9"6K(3
+*]:%rDk
+i<W1.c
+lnbrj%
+=F9,0*
+p*d)61
+XO"\$Ft
+&=wsL	
+`%YrzU
+mS,mA{A
+<zU'p'K
+xB]>b3
+[&Rmoe
+fss2Q>8
+l{T4.Q
+W#{0G0
+{WTjF_	
+dW1 e''
+}*]9	+
+b>8&g(
+C~}i:q
+7dqZ&2h
+Sn?{4s
+N}j\b+1
+Cv"DN~\{
+v}MW1I
+47 d7>
+0=8?J$
+S&qP27r~a
+1@9JDN
+7Us 'I
+N?dr\rs
+?=e,UK
+-k(<dqK
+}i7`#vW
+ <?5c%K
+u}j0~dbzdT
+kYG`x4
+S7R]BL
+>`$YG9
+Epp;SN
+4&.dJ.
+%n=.[<7
+@40,Kn
+uW3-lL
+=E/hX6
+:VjW3R
+$)lFg-
+`,e@?7=
+V>d=nX
+'p&Y7c
+k6952b!w
+c!f,xn;}h
+A3r~^j
+Vrd7r'
+H9F2/L
+>d=YG%
+4==rN+90!
+eN"ujI
+9Y()J%
+)s!%aR
+u?hM\j
+"J;qM0$
+.U.?iQ
+^RH^4`EO0
+h|0r~`
+l}~@	?
+op3o27~
+ZkaKr9
+-U6l<u
+t=M)nL~1
+'uO8s0
+Q)?(n{
+NqS&)lD
+zsS'aJ\
+N{~u 1
+zj@9g9
+nG_Jn@XI
+1m[Y{xO>\M
+t|+sZ-
+RM>d>h
+j/$W3'K
+~5*sB[
+~_^0j@C,g
+usCb%[
+yc}"ze
+~VcG8sHr
+qI9!s"
+G0h<J3
+9jb*N<
+W2%F=?Z
+3g?^1R
+TKp#i9
+FTKq7q
+=y52`2
+&>fH%<w
+"_4~$7
+sQ.P!k5
+@23R.fF
+o_qMl>fI
+{own}$
+B`=e`2
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+FJ2v>!
++/j.d0
+}7Ve%q
+uCW$kN
+x:H$7zq
+v5 2T?xpj
+)"\M;MT9
+o~=k	S
+c*64S4
+gw_QMf7
+	sSvgt
+"yMKMXc
++=aNAl
+?)nwd0
+	#&L}z
+dt sXW
+)"g_3(~
+_*ulv!
+%F!dkY
+zWlac4
+KWG)$m8
+$_9j=K v
+"l{WT+J
+>hVE u
+nUj9~c
+zTqX|G
+OzeDcE
+5c*c/[
+R+Z[\_M
+m]RXR6
+~]j$.~b
+s/z!fe
+nkj{x,
+yp{w!x
+UP@|{T5p
+e#,K` 
+GrMq?x
+WU:fN\
+~r^F$rs
+xl6;qNH
+k)hc"q"F
+?eO5T1=
+JP*pC^
+@np}*,
+Fw/<V\
+ia,qJR
+S"Q"V2
+DiJF33
+9=qZ{8
+RV*~n}wR
+M V=>n
+<]J=n|
+j9NyR'YC
+J409|y
++>V5?M
+U_6"j>KW
+-qVeS:
+! 9^==
+v>j<?S
+$\]OkS
+[h5}Xi>
+|%J=61
+Hk&!Kz
+cr|gx7
+ybw{:p
+"E'v{b
+2LNXw 
+ENw}3^
+ Wd*Fe)
+W=:5W0
+vF	=kXJk`
+^uIS_	
+i	#mn}
+p[?7SQ
+..0Z<g
++?T}'wgk
+s|Fjv8
+	~"xJC/
+Hv,E&N
+sY8JG$
+(lnnAn
+YOs)l\
+B2+Kyo
+2FSV4-
+:2)S%][
+x~c)9H
+JFS/@B
+JR3r,E
+9ui!>[q
+;zW|jFGB
+Qf=GQ_
+mDB>hp7s
+EE|15T
+5{40&Ng
+kqit$S
+g\jFa}
+ON3\u0
+D;c9=0*N
+<<QEx-.
+Eyu9$m
+pNu&jG
+~]E}>_
+A~Ho^+
+#"m5NC.+;
+2*_2"H
+k9n;sD
+<vZt#*
+&1:aFR{
+;We<92f-
+.SXS3d
+lW5\<e
+^e|,da(
+'xA-#qOY1
+YJM3UL
+^+'"	^
+jFEsDHn
+&AnGCD*I
+ `^(v1
+s^%|f#
+1nR5--
+*@`$d}E&
+n 6[8.T
+MK+;HF
+O/1J7$K
+-Z(\e`e
+3p(OhT
+B0*_0|#
+z)#$~|T
+&e_h&0dE
+HB[__Y9e
+Kb\EMN
+>(D<^&O
+~Ujv4H
+.Rh't8
+EwC=6X
++m@}}Mz
+3&[I"%
+N1o3.O
+J*m\4']w
+bZV3/uu
+7m!p=+
+2,G*D2
+|egEBv
+u}c]s'
+e*J@2K 
+9ls:rFM
+V})Nvn
+jv"N&]
+$c,n"]N
+UJ4-4!
+35P-C`
+,F>`sP
+(5h'L+
+>O9=Ec:T
+^O4&O$Y
+Iu6-|=il
+?#d#=+
+n:;n	f
+u;%^zS
+S3p9M[
+RV/Cbs
+}Eg!HQ
+ltsD	#
+<+orKOn7
+C)S1o|%u
+CW }"%?
+G0#9ICq
+X9/zm#
+AbN;V<
+)T7l|I
+5d_:}I
+\VNW)l=c+
+1N[	b9
+,U5/wQ
+>*~yhm
+c(ZF;I
+?3Q* B
+Djw(^|<
+<+;`jB6
+"</c]P
+|s_#7^
+k]KM|2
+fl`.}iY
+~x# qG
+4,.c2}d
+NiR9M_
+d)l2Kd
+43*u~#
+OZVe(E
+4JJ?dl
+?LVn2+
+.=k?m)H
+3FNwry
++?a!:d
+{SJR-S
+SXE'&<
+pM_3%"%
++UVLje
+HRvsMnW0
+m3RPca
+Eg*>DY
+\.y^{W,
+?Z9PZ#
+~kvb}y
+x\}OZVe
+$d8n;Vr$
+IR3jEv
+_.9nO_
+|4>$|0
+22o|St
+>f_4IVl|
+Jqc.C4n8`}
+_%drb*
++&}pq_
+m>Y	l.
+{!7r"P
+n|2A%#
+ +?=O_
+U{4+ 0
+|Ouyad@
+f-J&?{
+~)}v#l
+:"mR29l
+NTgo^x
+et7E0pW
+X<%DO%
+u$.IHi
+do\dWU<
+{WLqEs
+QUowk+
+%]j2Fd
+"	,vsYJ
+Un?!V	
+*6fn2Cw:rx
+G\Vna{
+x~b\.S
+<U*`9m
++'/xRq k
+w=+7X9
+TVd2\I
+S(]xv6
+RDMb0H^j
+9n=+)H
+g5E'rt
+=zSR&[
+Dvd~P'
++"9,#l
+LB8^}+7DN7"m(`
+7U{t>a[R
+"}QA'w=M
+*@c+v 
+SbsEyee
+j@=]rwu4i 
+f_4dYK
+;1VPFKt
+FBq"};
+xs.R	t
+_<J$YN~
+k]HpT~4*
+MFLV@a
+,1.%ilT
+)|3&X7}
+.1ei4x
+k	{H|H
+k	QhVc
+i{LINr
+Z]*"KA3
+iKa.d m
+})s0#y
+Z9bTTD
+`iG)#)
+.;26*X
+6:7~MR`L
+\}i<?0r
+0}pk)T
+:U}f%s
+",NW"mN
+)0#''>
+.b3|O\
+2*\xKM
+T<<dO(
+N$Rijx
+.1Uf;0
+<Us0$I
+}ERv(zJGN
+DGF\co
+fo\{Us
+75@L&#
+1#:p`A
+HkYm?w
+?7JN"K
+VH5k..
+pk^fW3,Gp
+ba?<6}sM;
+LkFH$n
+QbD1dd
+nTT{0q#hN9S
+{n-coV
+'^}E>`
+S&)2# 
+Jw)HzJG
+9<S4%I
+!s!VR>U
+===3YKa5b'f
+fBNk9H
+LV`7w9
+26lrrri
+as!Vr}}
+nrqHVD$
+1*]n9-M;
+T>PlkCm!
+h>G@@4
+otSsm'	p
+n{TJ@F
+S&+"6`
+;c'=zVb
+>dY*N6
+0+Mom 
+a'"A0<n
+)Z$lOSRI
+}(L	RnGj
+)2A7<=Zv
+.GoZj@J
+`9g%r{
+?)nz~5<
+Dn{V`1
+&>d=.Oz
+c)<-AZ
+<Us0&Y
+C,G>F3
+nFp?3R"O;?7z
+/~{P)K
+b:~U`?
+7?(,sV
+G92 g*
+j@gN+&
+TO1,l?
+OSS&)n!
+|{it0/
+I\i99=h
+)'q-$=.
+T7q$!s
+r`7q,Xu
+=OQZD	Ra
+S&>b7=
+up~X8=
+	x_P$\
+"2.5bl
+)n7x'#
+j@a T7rdD
+ {+Y2|
+I7;EO0
+V`5X1"
+=ri7`#w<
+Ybs:t~9
+rjI"'<
+v^G-LEI
++/37)K
+h~m+Px3
+R8nMH	
+iXanr8>
+''52eI
+=(&Ltr
+i2}MI#I$
+E@|Dm!l{T7qKq
+QMnk~a
+Z*1ad0
+nz63IJ
+M.bmbE
+9s1s1<
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+kE"LmKES
+G9NmIWr
+YHe`wz6G
+K-z9=~
+Re7bXQ
+CP^}}~
+WzGJFm
+?hW3+Ic"
+2MK]qx
+:WL 4d_^|
+<; o&xpOC
+Oz:?!!
+}axc&?
+VrS-KR
+Ubf]kQ
+na"O9c\
+!`S=EH
+sW(BA%
+Bp:m7Z
+WoOSQ(DE
+uoY3YJ
+'?5?hG;!
+V%K[;|
+a^%lO7
+U<VU>Z
+r-i~.1
+G0t=0k
+Q$W1n;
+*	,G#/;
+w4R-Ct
+M#Nr3.
++Jt'RcK
+qJHe{{
+0nGQ_K
+ni>&o$y
+U}sR>fgj
+)3fI,t
+-/A}KT
+{YKd|A
+y9i$rY
+rn;\-s
+{X,}	O
+Mc1Y8a
+9*U9]c
+rNs9m_
+K_2b?yp
+D@;w5P
+2+^i]U
+U8s|"$i#o
+r*lfMo
+1ao#n#lg
+d7ZCJB
+S4P0o5I
+}*eV1'
+3My1f<a
+#3cvr{U
+I?@*'(
+Y>VREz
+Pon+hS&[
+lt{_#gM
+CG.}Ez
+h@bx;kzugL
+Q[pFuG5
+$~d8d# 
+t,E)|G_
+)23n&i
+tA]ths
+T`Rd$r
+ogun4#(
+O;vwv=sE
+r\\_7/2
+}M|n'7
+'s2O9U
+5?y~??
+uy}E*8Z
+e,0}^e
+j%Fd{)
+s&]R5Q
+deVo:@9!
+b0_j'4
+)S\5x{
+7l>,x&
+uz4pfR
+f+2eo,
+Aqg3/|
+E%2uky1
+rNt*|Q&R
+M)n;"[{V
++>b`+B
+F{Qf)n/
+&ayc3#
+k9S-L{F
+-&Awg+
+,wp}je"%&iX
+y=;VafX
+S)[XDK
+UX14,1^
+!D>#3P
+M}?KfP
+ *]_ZY
+W}<4nr
+AIBdZr*]
+O.2Mo%B
+2.~V?7?-r
+J2+_h2r
+YBq"Ey
+K4yhW9
+}<Ddt*
+6-lmm~i
+:x.c9L
+r5mlW;
+>k	n.F]
+.`/C'F
+HdSj^SmV
+AVW_tkL
+j,W#$V
+VfR4#X
+oj	,Ct
+r+E>QI
+l\}){9
+j%.R%"
+^fTK+n
+GaZ(NDNq3/<T
+Zl"=3O
+hQ$2Io
+"UiDl~
+K=7n>R=
+qc$l~_
+y]Kgb6
+9HR5-lzez
+gNq(ne
+2e,4yK
+2=+)B$
+t]68Gg
+T4XjG[
+PzH9S^eZU
+dO)Rm=
+4;6htxe
+eo25e=
+ZjFVE+
+W_^n]7
+OLsZ}z
+|GT&hF
+J2$I-a
++)gy\~
+33%[ve
+RCS,++gk
+Jes2fX
+4m|So3
+S.P-Gu
+>,jSea!
+W=rMG0
+(=sG1v
+^ul,dD
+T'"dc^|F
+Rw4,Ck
+QYJC-Gn
+*:{T{Ry$
+YKsYnO
+reV[[X
+CWd(F?
+048F@'
++W^5~(
+V2-nZV
+R3/>'xn
+k9|105o
+Wd(F?d
+f\jZt9
+NyS9}s
+;F@;s/
+-w/?2s
+)Lq'[X
+U,G$d>=>H
+Rw4-uel+
+}ke6jO
+TIN 9o
+B!d6Kx
++|GG1s
+xr*$+2
+QJQ$]Q[
+wH)8ND
+XjQ:+=
+Ee*`G%
+^pk/g8
+U{$/fT
+*%DVe+
+n]B`Oa
+S)N29}cV
+3gstni
+tlQ 7t?
+TX%29!
+P*Ik$x
+ZV@#[u
+,|Mm4{
+R~RO^8
+%FafA5
+znR*%:R
+:`052T
+~k9b55P
+vg\kWW
+iT6Uc"
+[m#nir1X
+\M${~n
+!a$30>
+m_Meo;p
+>_z%s3
+'@VdR[
+I^M4~t
+EVes2X
+Ee*a$W
+)(NCP,
+8kAS,,
+LsS,DE
+g)ab)r
+IF$Jsd
+sS(F@E6
+-e,0I;
+r@cxcMo
+$rxWKo
+6+hV)I
+bb>nbU
+	"eR}ir@
+T3sXJuH
+Ts!s29.
+[s7SZ)
+#UZw7,
+F@2Hco
+xx6Wme,
+\dW;&]B
+2y"Wm4s
+7=i}F_
+STQ$sw
+}*%N2'
+E&W3.[j
+b*<>gB2W
+sJXar26
+C~-Q,0r2'
+;N"$_9~]
+&>F2M%v
+TVc[Mn~
+23#fVl
+?.=k9I
+1^m!rYV
+}j%1s29
+*6{TJ@D
+|Q-b"]
+}kHV-L
+/#=i)X
+c*&rDR[
+9gRUpU
+MB>k)bI
+~=k)b5
+E{nbhu
+.f=n>_
+%Z%y4]-
+">`3.}M
+x;|2"Pei-
+Qf;@cG
+LKR-C}
+({294y9
+?n>r9.-f
+Xk/c@Ir
+L5g,7(I
+$f~fj@#m
+JD7r7}
+TI$r~t
++9N##k
+9|Qq.8
+)1Hc63
+NfW3%Y
+XS>B94
+{SUAH_
+">aZKS
++Us0%Y
+>`$Y>_\
+f"xfe^y
+*%NfRCZ
+>`%YC6
+nZV`9|
+p+9|f2
+ZV`6Ku
+}4"Tc#>
+sTW3&Y
+$Smn3Z
+3	n6I6
+q$]B9>
+d?ZVafF
+@c7VcH
+=fn~lQ
+yoQQ);
++|Q"J%	
+}{Us0$Y>]
+8n=j@im
+_'=>j_[
+S!HkeWq
+?Zes2U
+yQJJ&dRY
+MH	VOb)
+%3nf<L
+3wcJEK
+(ssLk6}q
+Kre.b)
+;gu.dQ(
+Ywaje 
+naG3(o
+VVoaQ"g;
+~\}is2
+%"%.r6uU
+}*e "v
+i>Z	"f
+0%Y>_\w
+,S~U H
+G24$Y?
+.={Ts0#f
+fW-PfG,
+}h3#ff
+-|7pK}
+N=j$1<
+%HS'?{
+>!$`~OZ
+=wF)Is
+gR;6j%
+dIau-r
+dJ_hkH
+G0JDRH
+fW3,Gy
+M>d>bE
+W"Tcs.
+$l;6Fi
+Nis#Be
+Pi>Y|A%
+m7TIGe
+Pn;75.
+14w]Y[
+3ucY|@3
+v/y'A!
+9>__z9
+}jI"i9?5)I
+"9"g\x?
+_;v>j\
+Mp9&dO
++~ts0%Y6
+3~5 =dV
+k)Bq-b)I
+B23n<7yk
+`*I#i7g
++Rf7w]
+un=}*GfH
+3L>"E|{
+:UZR5#
+o^;Ts0
+f^>|7j
+O5=j@o
+NGz`<I
+S@s2Em
+NiJDsH_;
+YKbe.`
+A"3+gr
+jLug)s
+.`$Fn=)
+a2z7ZR
+jvf`&n
+b=Av5g(
+k.h&J7 
+">!wm?.
+>`$Vv]
+"7?Z`=YW
+Gb*d_3
+jA!7n&
+G0	J@|G_
+0{U %C
+Z`>&f^M
+RRw"qF=
+9KsAf|
+)>sQer:
+3Vc/wb}+[
+M.FGQY
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+zV2RFRG1
+<\yk+>
+1Vm=$S
+zTJ`6K
+X.rq^u\q
+nuVzl:L!
+)hIf8v
+/N=MtB
+wV+4e&Q*7
+bKS&]K
+9mSC{y
+J OotU
+2"}Knz
+5R6,tq
+t$hf_j
+F<p;Us
+G1Vmco
+k_67~U
+.fG3	&
+5jR_	3
+[GV}/R
+E_0Fw'
+G#/9<t
+5?l>bX
+RmXm?7O_z
+yV3/<T
+zWL RFF
+<qR$9s
+:?j'=Z1
+a}sjO;[
+B	|#./
+*@?CJu
++2F{w5
+T	R3o5
+W(\]nl
+R	"xfh
+6z7n}k
+qlrN*l
+}k/d_5
+O12V'X
+$c$Eqk
+D[ 6}+
+=jyFE%
+,sYJEX
+ `Nk9#HH
+9=p*e"
+^=j5iO
+9},l9e
+sJdHMK\
+jE?T)F/
+1*V:-7X
+"}7Zk9<
+v27W\(
+,M<.gi
+f=6(z.
+=j,fX]@7R
+dO9ZMcj
+OsXNff
+FN}*l)Hq
+9MGG{v*
+~5B.i~ {9
+\ynw(K
+XRn F,9 `
+d'sWd0
+]/H=d|
+\]c/q0
+QNGOZ,
+iFbFOj
+j<A(|F
+TEfdj^.[~7
+n~b3[(
+gye|JZ
+El5,D=
+V2	$Y2
+f	<}k	
+f;F=+d
+B`s\.6
+oizw>g/
+A.l%8!e
+HXr7_F
+^c	Ltzyf
+5;px?d
+i~>_8a
+RiBZ;+;z
+\<~Cv9
+5C	chOR
+?c#)S-G
+:w&]I:
+\V2BHz
+952RfRRc&
+1[*qGJ
+xXv0u/
+S5P(]kA
+W4Dl~`1
+=;t=sO
+vc=s^}lI
+:Pf7w_j
+\WT3\B
+[[\w"90
+[}>>J(^
+kxQ4P)
+9 `j^'
+:aN0*,q/!C1
+G12A${
+qqgd+\
+$O;%Kx
+G1vCW+
+*83	U9][
+%&fM}%
+<WD!&)H
+v=j,2M
+#>QmuY
+(I|FrEf
+G+^o29
++<]p>e#
+Mg$.RH
+jwp2=Me)
+h@|0 {
+}E\'({
+P2o4$l
+;Wdqv6
+fNp;zV
+'T(A|Z
+Qv-CbX
+w R)Hd
+1B]xmn
+J#,Gqq
+)^hbEb
+>RyM='
+c]xn[~
+V/[\yx
++9 4-n;
+W}<)Ms
+?(?1?J\
+^Fs^^#
+z,I^EY
+s&R4-t
+r+/h+"e
+j@$2\i
+khNJDI
+8\|9k$i
+Oz,;\U
+7(=GLW
+[CXV:_
+|9?7<f
+v)Kp,C
+,Y[?n}jy
+lw_yp{
+>Gq_AC
+(f8|\9jY
+ip^! m
+RF29Mk
+bbd^|3
+y@D3F$
+4{AXch
+\5qxX|SG<
+O\rq^}\
+)")!%zs
+>`$?>9
+F}>Kv9]
+g%"%P{
+#m	]p:
+t$W1^e-
+*e9/ZF<
+.7s^El
+E.v\Kp
+:_gCx`
+{8l|\N
+.,^>{w'
+.e{Vbj_
+'n+3Be_
+}MZ"FN
+m"<a98
+#=94}XR
+1_gC9f
+sKP"e_\c
+-H~VE%XUsE
+rno_QY
+!}..F3
+@MJW w,
+nzTJE(
+?3hV=oC
+hEYmyV`{U
+GzV4#k
+JVdJcy^
+5UM;}p7
+rsQ(H9
+g% ,,}
+3Rf:4V
+G3(kBF
+\5pQ~D
+I_r)!F
+Dld^|D
+4q3fY^B:
+71?S\uq
+5c\`TJb
+?7PkEF
+_kC	bc
+=tBQDIX
+cRW4,m
+aIu2o>,F
+"P2o4!
+uZ^gDq
+Up}+)"
+oR+)Q$
+veX`V|
+!Qw}*J
+zW]<AJF
+r6@*Gq
+dc4Jc,
+Wm<({H
+1#ZeE!Fq
+3B9&nrp=
+`#kQ&*y
+{dU*aa
+31cq7>
+E4=r>c\
+nH=DCh
+3K{rX`
+=kEZ#S.[
++ojW2,G
+,4JS|/
+^2}*@<
+RE9-^6
+$b]hw:kn^G
+GFHV#kq!
+}EZ@#G
+Z*2-"x
+6"k`=~
+=2{{V>
+5j`3iS
+n=h6>j
+i{"Js\|
+QQ:q`P
+#9"	.6
+,{~fcQ
+*REXFP
+%	#9!<
++HU4R.
+ii'<s\
+I!;ncn
+V"m0m9
+:wGv8#
+<V_=a8
+9S{4y,
+%MP6>l
+<,dG$YF
+Ub_14w[
+GB+)aE(
+S`"f~r
+YJfrEv
+is $Y6
+=kxU4R.Cy
+O)^m<>x
+9r=MY@
+k>p*]Z
+$Y>~?:cR$
+pr=+)"$
+TJFdm 
+>`$Y1L	
+T.O!^m/
+U}XvB}
+{}iJV$
+=*A.Qwt
++)!r0h
+c*dXN{
+=f;{rkNb
+Ze*d?a
+7NjeF!a
+MB%h#[
+Ts0#g/
+Sh%rW#
+_Z9"f2E
+@#r0Oj
+v_1<wD`
+wNj%LVc[O
+S,HJw"mSr
+Ei-nS<
+&JD2\\
+T{AJDrNy
+~Ee$;D]
+%MQ{09
+/fVm6h
+"HsTW0
+7N}k9`
+drir/L
+/#viZh^
+4YZK;i
+c,0XcX
+MJ@8H;
+ b}E)`/
+t`h/bX
+`GqQ*#
+#BW=*y
+k9LdMs
+nbhn>^
+wJjqcC
+4{$.B6
+G5>`%Y
+V_qZ,X)
+D2k?7^+9c$
+3%Y1L|
+A*q*\xJ	
+T{0B4'q
+ciey=>
+hr$Ic#
+0#=M #f
+\5rLd>
+JRCLO,zUY
+Hk0<Yf
+=f?Z`M
+3$Y?/Z9
+S$gd5T
+rqSd+\g
+3.i MQY0
+7pkeZ,|
+6?.}k0
+Zd)XVa
+(c zV`5
+*% #l3
+TKp"l~]
+JFc$lpzT
+#r3!<v
+JEHk6[
+*ei,.m
+`=n76O
+V`C#nl
+	ROzes
+$Y>^?*
+7NsAe[
+n=hR	H
+`%YwUs
+L}qYIM|H9
+PO7)4w
+"L}sAD
+Y+@%Y>^
+|r~u@I
+cL	VoZ
+/^+1JC
+#eFjDD
+TK`#$-J
+R Q'cP>otM
+kqP.DD
+n;G<SR
+fE#nn;PZ
+2&D2Dx
+UacrCt;1Y
+X4-~'Z
+Ei4]sO
+S/TH&9
+N(3"f#
+Ys0"f>
+9X7=3MH
+JR k0^
+=h:NV9Z
+u4s32_869
+nk1l6F
+E.`??k
+4sS4$Y=8
+qZ,DdZ
+r60y=kOl
+VNEfe-A
+6=:V`G$
+k@$Y:g
+s0%Y1T
+3w^GaW
+U6l|aoq
+1f<+a@
+Vl.3TI!
+*% #f+
+NM>`$I7S4
+HrDO|f
+ACk1Ka7
+*~tXV$
+@2zPG3
+=d<sG0s
+khEKrJ
+aN $?1
+BNsAj(z
+$7y=k2Dc
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+4|=|&+
+v}=i4@
+rr3]*<
+}+&&XU
+]*6 DFw
+sAo{c%
+uxfPREo
+G5s`FT
+'BO\g85
+kOT|f3"
+Ge<L*i
+.Gr7gv
+t{>OqW
+=s]62"g<
+:zKT5#f
+WDdZg'y
+LsAHa^
+2r(IvG|{Q
+EKb'U$
+=E~_:V
+w-GtKg
+h'"?<z
+HiC(8&
+5$76Rq
+wn zV.
+:o'=+'
+'JE)%-
+6	t0:	
+V*GB85
+A^{zW;
+=+>RKiq
+95NV)H
+R'Y>R?Z|
+s23+rI
+V?Zvg;
+U#'.c&mO-
+Djw0bG
+eSjwb0
+sQ&I \7
+ r:{PfFT
+&'-y~NN
+WJGZEV
+AW'Ywc
+)NZ	)Oc
+X\jZtp
+i'psXXw
+^1]6w 
+K+=~I!
+XL|\m=
+se3a7&x
+w)$r(h
+F*,A:J
+wI#piZ(v-E
+b?yGI~
+rJ71q9mCHIc),y
+XH)sCFyW
+/^p=+NS&Si
+[Q}o_~
+iwetM	R
+{;;M?K
+Or[,	6
+w->c~9
+et{41\
+RU%hje!
+/O#=+U
+VF.D/r
+ e<s^%|,_
+6![s&	
+Gnw7#=
+^{E6eZ
+V~K)Jr
+V{BdPx
+R>nu%3
+)c9WR2
+c6{E*~]
+cAn#vV
+>tI&G!
+3RU,:~41Y
++baOc*xJ
+sNrd7&k
+,40x:t!
+Pgdtzg
+)6idkZ
+_4MKkS
+L~0|Wh
+)NNswo
+^=l,\Ih
+kfVhwG
+#9s-_s
+5i'`OO
+LRT!zf
+lIo}sg"
+8dRq[' 
+\C1ky$C
+JQAs2k
+gLfs3X
+kUR,.?
+'R2=;R
+<W\cb\
+?ZWC,$yRq
+=E||*J
++3U^_h
+$1nH~v
+"'=r+do
+4Q(#vG u
+s)B38+
+Z%n0	=k
+,G}"`6j
+k/gHN(
+rtP9?1
+Q%s:}V%
+M#6}=:UX
+=*o`,G
+4ZCXaFq
+[teIzw
+Xcey\0
+WJqBu"
+r+7"nhEnO$ek
+-"TOo|
+6YZK&x
+0q2^"$!
+rJrY^@
+9b5n._
+NFNr(Hc
+BF.g7u
+_MB6^XT8
+lfg\i6
+{wz{T>`
+TM8`fc
+b4Gq$n
+e	ZG3V 
+q^%l=Z^
+J{%9 c
+2kL1%q
+9S3q*4'
+=+Oh"?
+Q`HPK6I
+|pE}4g
+1o|=2)
+-X@F}+N`N
+b>^2=sV
+=}*/"n
+w)2_1q[
+%"Q6:~\
+x=Gnk~X
+6Cw,(&OL
+2e%&dO
+jV:{Md2
+!t;NFGc\
+^mL,X4f
+Eg~RJ2Y
+#2C'p3
+vQ$RoB2
+WdiXe"
+N+&fYT<g
+;{SLev
+_)J%)u
+I&~~?,V
+k; !h3
+w;K]OM
+Qs2eB9#'
+Z*sbu"
+:~u.!b
+ u?Z`T
+\V#>pc
+*y@Cy;r	
+4).w 9
++7"Yz+
+R@~WRU
+U\,Bl~f
+WDa&RQG#
+E=ERbL
+H,U{p21
+$="?\R
+`(`Pdq
+b"?hSm
+aw-U+>
+dOs+ecM
+)\,8BN
+:c#Lmu
+zWw4\}
+,,=2((
+nVU tn
+L8*Gc\
+NWv}Eh
+Dk99=H
+V.$\ilv
+S>S&[i
+rGLz}j
+U_lP48
+?_sB$f
+Vn`YXTv
+#eJ(sJ
+2DX_4p
+Wz<3!&0	
+(1XaFN
+zp}:Qp
+<}jnI2!
+pk+X,M
+R[$[VnY
+k'2nZX@
+ZHOnsI
+Obh v3
+Nq2q9k
+eXaL7L
+jHbeYq
+@	<sG!V)If
+TdO)JK5+
+!NH^}k
+8?8=}{
+xYt3p2f
+\eIRpz
+nNMO4J
+A==(-"E@1
+ZE$XYPt
+TNYcjtF
+[ 6G\WLh
+b,S{`W
+ZMzE`.t
+l`.M/t,
+*.4?h^
+9=MfRD
+d}+6R~
+6C}+;!
+BP1q9{
+.W{0y_
+0E9-YO"
+)6EtLRp
+G/1$F5=
+zRn(vd
+INK5e 
+j`S}5;
+Ibz{Pc
+?:n%Z,iS
+$gc6K)c
+;"uxGf
+5KR/G:
+6R&dob+k
+5-L1-l
+5T ][(
+<uyu-S
+},uZzL
++.BlDb
+;yZ,+2
+lBMt,-R=
+Ts0&[|
+e$X[ 0_
+@nK6=:
+}Ex5pr
+jy=E;"\g
+F+'2ocB=<
+ry<Ul	
+VvbhBOOJb
+r+ePw,
+U$W1m5
+Thz4rnK(
+R-"N>\
+_7JW4&X
+^}2=i4
+*D4WxF
+Jv` Pj\@_/
+*9KJ,O u
+:D4Sx~n{p
+jjE&ZYF
+.H%_^*
+1x2%`Ys
+}3[*eX
+ozjE&YI
+jl_1 oJ
+q^uL,Y
+&iCso2
+s0$YX{
+$t5@}*
+:Fv*4Dg
+LV.3Ab
+WkF\rr=)
+7DV!kPx
+<-g.L{
+1 rGZ.
+}Gq[Gp
++'@9HZ
+Y\V!hO~
+lqW5S&
+LT{9w3
+9S2q (U
+	",R{.
+~+7D9F=
+2+EFEr\p
+NF}MK@.r
+*D4UxO
+&I>^y5W
+&p8=+E9 
+<}+'L,F
+i0dmR@
+L	VO^j
+=+ERH|
+U,(XAjx
+*D4Uhq
+}+'H,Uk/o
+N`DX}+7 "g
+*DZ%i-~n
+ar@Cr{
+H}k72nF_,I9
+*d4Uhr
+C6azsG 
+s0#%O_
+!E0%W9
+*Fv*Ko
+5w`?vX
+1)?^kx
+2n<>G\w
+>2z{U\c
+O)V`#;
+"7Cm'\\
+7OZw`I
+.`$YX61
+p}kuPw,
+KQ@REb
+L_SNrQp
+IexV/g
+|;3tQI
+r+U]w/
+vt5J!v(
+6zSHVA
+=kEPw,$
+Gb+eZ!
+K@.:qP
+besL.J
+?ZW@?w
+wLV"(}3
+"D,MO0
+FEG,Ga
+7rkUZE
+)Pzpk;
+@+7DVcM
+V_yjs[2
+ZV@!?/
+#kb8#>
+6j@2zc
+ZMHLw4
+.A~R#(
+,zpzT8
+2i3>K5.|
+rRWOL9
+k'JAf0
++7TW#3|
+!?/Z/p#'9
+rj@i$v
+&W5WB$
+oSWp%Y;S
+j@8?=y
+W<YwcKg
+T:"q#6
+r{p:P;	
+9=i}\9P
+L7%Y1T
+G!#Lcw
+}j9Ed7
+4L3G)6
+}.Ryd0
+A1>d(s
+RbFrG^h6J
+;R`7=}
+1(z`<1=
+Je&;sw
+`kuV!t/
+V[xdRd
+LL2w}h$
+87NsM;
+*Yc	'8
+cVfcOsAH
+[?J@<7
+7n}*^"+
+$eK`!$
+ ! ~=k6
+r&9lR`
+$zsSbl'
+QUq69\
+~pzzU\	<
+\i#v((M
+}j@fME
+g_qRKd}X
+	=M #=
+7$7~T\
+qA,a8\g
+OlU\	C
+}(%?xPy
+8?Oz`;q
+sWpLp~
+8HKr(.
+Up#,Md
+/N;V G
+&Y~nN*
+VoU4{Y
+j@Bs@	
+E(	5-XD
+s@&8>*
+L	7~uW
+dG1n=Z
+'?JW'a
+krm	c7=
+Qoun)\=
+XMV2?y
+^i^ 9d
+i1\i?6jF.s
+Lk6($eC
+3PHn5W-l8
+zRlCKry
+2sQp"`
+RK#bGNh
+&1Up$W
+lg5 F[
+Rw&Y}y
+Ar#3;|
+(4'V<S
+lc^(&]
+# Vfdlp
+6<}jF'
+et[Hzn=;v
+%Y(L	C
+X)=s[*
+l7eO|R
+ =0qUr
+3C	?u>Q
+Gz`<>~
+5 7'v{
+E/ePjq.
+I!Xz\\C
+<\?#5<
+*@f}Md
+		A?h)=
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+-Gr;5gbyKK8=?*
+7$cH1G8
+<A.eY.
+RCEye#
+/~p0}j,M
+F{BA*8
+Lw3n-A
+-uxXlQ&>
+42;,<zc
+mZkpN2
+E\.H'#
+#2F8iGz
+d^Xu`9
+*RR)<Z
+W\14+y3
+T{T.dF
+O&yju0
+iN8?QV
+d'rkH)T
++'0,$G
+9$$U$Y^Ikd
+T RE9e
+vr0kXL
+Z>gU<L*z
+$iP9=j
+<w]>n*9
+	N0){V;
+G4{A\C5?h+
+)"mt8a
+/hG1ZK
+7$2$hd
+If'?6kT
+~UV(oS
+Ob+hNQ
+B`BA^EX
+pl5tAr
+s|GT1*G?mu
+j^|=Z6|
+=jXhS5
+szI?5n
+*.Kdm)
+rHNK7_Z
+YOPj	pR
+nO+%X$
+IBR*1(3
+e&g2\Z
+st,;}*
+:5,hle
+>:RHLA
+Yf&],o
+.mMsEF~
+1Wq4Cq
+KfbYGU
+(bUovFi
+*w/QZ&P
+Gt*)|%
+	RLT4R%I?
+#Y\^iV6
+mZ^G/(
+Z&W1YD
+=iX9G	3
+4Q:H*l\Q2J
+Xanh$c84
+$lN2N7+`
+||cMk$}+
+-?kZI%
+TH	Cw<
+%I=*lY2
+l>bEr0CT4Rc
+c|-/mYG
+\m_cBs?5
+=<d9j"%MT^
+PHExb8v
+?p=?:	
+):>G\T4;
+%Bjd2p
+/ }MoO
+"@~i$nB
+RI/2e(
+nNhh9E
+9T<|F&u
+W`!.O4
+9"\Wl(
+>7Tj.Y
+/\rEg9
+5i`!i	<
+ap7b3&q
+FU>nj;v<oP
+q\+4##
+MrT}{zUr
+(\sG)`
+G)Jk~z
+W\(!3*{
+/'iX.I
+nCCuk;C,
+XovRR_
+yXX}j9
+%*r&]	
+NEu,e:
+7dK|YT
+Vnc5m4
+.;{WL1
+>TYM7F
+uKE$8L
+tC	)|F
+Urwr+XS3
+'16d2\
+dP.P27j
+\@}hh.+1
+R,aOg$,RT
+\+|GBjD
+9A(3ML
+s&{vF9
+c#e3&{6Br:V
+"h<sbX}
+ '36iw7
+ivrylp
+)a"$T6ZE
+EYgQZ$Cf}
+3.u02Y
+ld+6=A
+`#hOjw
+S)_fFo
+2kmJ{r
+X{o_Q\3
+-.aXp\
+}E2l3ny
+eb,;dl~V
+2uQj=4/
+`rkzXz
+*GJ.OA>n
+^Id?sn}Eh
+u5 ;i^
+ffMyq.J
+6OrMii
+GRR:(4
+P3s2.u
+/N+>bG
+ZLhPX}
+^}\'1%9mI
+.E~F>j
+aF@n}k
++P>i?*
+'2$ZH9
+G\)B?	
+2kY";\t
+3p(I	\
+gp>xW>
+Dl{Wm<d
+rCT\V$HI
+R]K#b$c
+A&HL{V
+T{2yKQ
+PkUVQ*
+m<21s9{
+ ;~}))
+7mu4p>l
+n_Q^m|
+\<+y2\
+NDsJE)o
+Vnd6ZKu
+b?+dzw
+'$T0-E	n
+l7PRC~b
+Kb&X2>j
+.tE~Sv
+j%$kZhE
+@V"g-M!
++ENR-@
+cLmA"yd
++7HV"x
+	29njC
+)<MY|&n
+:qQp%P3
+~QY6In(
+aOg4'k
+qG1$R[
+%FEt,G1
+{UX,2K
+yoz@.9
+>aXkDO
+mEXgv+
+REuBe)
+Qbl<^B9
+i`#2/Fo
+FhL9F4"
+ ^G_Z9@q
+9D	V|pkhW
+U $Y{S
+6!hI5\
+FM.qXS`
+=kUH9J
+LV"h;S
+ZK@rqM0*
+d qSa2u`8"
+#cTA^F
+TE{DT}&
+Rdd]ir'
+i4?y2;
+W xBG5
+I^K`{W-L8
+c<?67/
+V]<7l})
+0!=2Em
+7~T}jc
+)|@Fb+
+>C\,j{
+pj[$z(
+B{%`r+
+@z5Zdr
++7LV#h
+d.S>m-
+0%XEG0
+XH0:Vm
+zW-JD4S
+*d4dKg4-
+h)1r}(
+,|sH9G
+DP"ELu
+<<r*99Gb6
+Ip*<{~V
+*:T6Rw$X
+Iy ;]c_
+R[";V.
+P,C}iy
+?`IVmj
+"l8DM&
+Ce$XH{T
+9|R2.5
+T6-u F
+^+'HE)
+uj}Yw/
+%0#:x<6
+FC%H0V
+3n<Cy);
+bpG?ZLC
+K`J"QS
+ {`;T:bh
+J	 {\u
+9<Q`#k
+>AV"8"
+#)WD#Y
+Qp$HNy
+RkPA$W,
+O!NM.t?
+O-XsHC^5NK(
+S5PEYu
+EC@!P}
+Uj`;xn
+2[-!4@
+N%y<eh
+pi\.=nq
+Fr2uTH
+@$[b{Rs
++'LD2@	
+O,g4XcLY
+){F>R6
+CeI/N~
+p&[p*n
+G<$'Bd
+Q.A{6Fm.
+a:d4A$\
+#koj,M
+)6#k_J\
+"	<5hz@
+k~-Z*T
+Zt	jd'H
+bhk@*}
+;HNeIuA
+;QpLQ!
+4S.Ez{
+h&B`UX
+d=wU&;
+L"3p3n4
+.#C7FSR0{U#
+VK0{Qp!k6_
+XDmnj@
+z5W9W%
+R)P&]%
+P%X3Z*f
+>ba6kE0&
+ 1b=wf
+W|T:aa
+$X=kEL
+7	D,A%
+sG(\\w
+) S=iX
+@}*%HV#6
+`#krj@i
+b>PhW9
+j!By4s
+w$Y21Z)
+jM #xP
+mj+7@9H
+t	p {\
+{U\dOc
+J#5m<Fx
+mb=*eHV"k
+Pw$Y28j
+$8Htww
+R}>hId
+T8HV!kC
+){1XcAQ
+-T/C{o/G\
+V3Kn.,L
++'HV kn
+xDG)VK
+Ol=+7L\
+6!kp{V
+6!{PzsYN
+/g!XO.U
+iX9DdS
+n+'HV"{`z
+.BD1{~u<
+HV"{_QY:
+d=k71s
+6!h}Ec:d
+dL`T8 #hFz-f
+jw ^=i
+rEa:bh
+aRp*y@i
+j9d@lq
+*eTW#3R
+6 T6	\
+U&4=d$
+Qq&<7~
+QR}+xb
+SS*JAa
+YkEUHw
+k'LV#h
+Ze\xzw
+}Fj]1r
+iZ9@1J
+k'LV"h
+V%{FL5
+cNE{DL
+n==)\.!lw
+^)}\,4
+ k7L,0
+@I<PXs
+:ab3l*%H
+b3l}:VN
+H/\pMi
+F)X,!Q
+7ZLLkT
+=h(?SJ
+9|2E^#
+%Ojw@!+
+NwT{Rn4
+H=i'"n/
+OL}){4!p
+}){A\n
+Z`?x=h
+,1@4XL\
+)rHCLm
+.QXO,u
+~%bn=fV
+mjv(J,HR
+0iX9D#4
+KA\7{R
+XL\w44+
+x<M?2yY	
+E.PhaL
+M)|Bei
+9=kUP.
+/qP@7Z
+rj@2{PH
+}.KR"7
+85R`<=0
+j	lpoZ
+Fjy@B1
+B{Ra%q
+j@a94H
+(i946H
+OaG0	A
+86h$po
+(npM.`
+Rl7#uG
+<5R`850
+Ny5 7<
+%A Oc@
+-V&<6h
+RcLxja
+q&85.a
+NBRfb1
+vO5 !9
+xzw,xjd
++s(?Z9EbA
+*k7J?yf
+54Qa%S
+j@(,o$
+Vj,?hL
+S&MN2~
+ABRbb3f
+=j@Brs@
+poCG)W
+WTpUd>Y
+*`8?jw
+P+7	D\
+vzP$(o
+(JLLFl
+,OSH@Nj
+75@88=M
+Uq\PsLc
+o=h ku
+''5 !=
+0u%#QT
+P&<78&
+(jw,pj`;ws@
+bhi95"
+@8?c@.aCPP
+u"pis1
+Rh.8>y
+j@xpO4
+*PH(`!
+87vj`87
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+,_GYG^{b
+cI1rI95
+J5W+>n
+mZkqN2
+Hw%IOc
+	#BO5-
+RC+I.+x
+l	UjnM
+R1^TdzF
+r6=Gc^
+y!#<U\
+d0;{qY
+c^E\-J~h
+:S k(a
+:rEh<@
+NF.G?{
+LbZE)f
+;#.cM_#
+98R0O8
+H-GtN3
+c?&yju(
+6Ro{I$
+q\C5>q\cNsG8
+L#ciP/AX
+S0s3/5 3
+h P1PX
+e,]J}K
+wC5. X
+V$i_,I'
+e"S5m-
+e3DtZn
+Cc5-,7`
+H&x'O.e
+TS=8MH
+3s*Ix3
+%1&t:^
+l$q[&H
+W+IpOJ
+TlXjda\
+VN$4f\
+k2,# <
+QKTg()
+jlQa&S
+rEcG1I
+{T0'fKt
+%bkkry"
+sVYn9=
+^.cU~s
+,R'IpEC)2T
+Zw%YFy
+.b\M%`
+N3kc=Q
+q^EL%J}
+IWr0e<
+jT%o;G
+8-s&?H
+<dVN&m
+>$wFj[
+!ozV,N:
+P>bev=M
+iZ<V8w>d
+In<7s/
+-A-Uvi
+bo9d\8
+,Fk'"[-
+9aP#/P
+9};CY=
+Z6%<cxI
+%I=*lY2
+	9+YJd6kCf
+W)6".I<
+?QS`+Id
+fE&_IA
+j:[nC 
+I+$u-	
+4]5OU{
+?QS`!{U
+g{F{9pq
+z~5.$8
+V.D6HeHG&
++;Yn&`
+ei`IG?)
+rsCAaC
+YPH_@k
+1PJ+d~
+MuFc,G75
+sd6L2Y
+P*[,u@
+k'".LZ8
+<TXV+I
+z[v<oP
+TdnC<wk
+42dnjZ
+N)X9JwZ
+Fw/4k*
+moP1\s
+HHu9``
++)b	9>
+2xk^G9
+^Dd}j9
+($Dn	8
+V	4Qn7@
+$~t<$e
+2o</k>s
+85v-!K
+jC:+-P8
+Ka4tVz
+NCVn$X
+7QSqXc@
+hW)\\zp+X
+n:WJV2r(
+i/GQZ(1
+TP(vn9
+r~n:`g
+SCv3r,
+Z0hdrIn
+{5a<5E
+(IzNAf
+KDyUqu'
+`f\j!{
+^Kps\3
++&r0{5rN
+5axnW|m
+}k'tAaL
+Q72n.NO
+cLNJ';u
+Z[v$+~
+2y=i6&O
+$@3@1q
+*GJ.OA9
+H0qSaX
+4Q-Ens
+J%Y.	8
+01s3.5@
+\WDfYa'
+c^x\N	
+0%Pk6?
+*qEc(^I
+X89nMu
+HV"(G#
+`}Eip3o
+r:sQblL
+lO^+7#D
+V&v"`s
+E0A'P(
+|E#!f%
+8-@%w7
+j%I'9<
+j%)&g9$
+VkE~1V
+TI*Ir3
+%\c=k6+
+ O\We*
+W5L-H{
+eH<U& 
+_	V*KfGl
+E&H\{V
+^}L}8|
+*[4Q4,
+[?Jb#y
+-2Q.F:
+jKH/Fq
+ n_Q^m\%J~h
++3tR}{R
+cHv2nuPI
+$X2psG0
+Br0Eca
+E.` x%
+O)#yPz
+cLvE!q-
+%IHV*MhGl
+Gq^mL;
+Inrk)DV*
+Y4CEy-
+E$kZhE
+8=kU#d
+1Y6K.En3
+`zV.E(
+){D>FL
+n7~}j9Ebe
+1V+Izq
+j$-rOCV
+lhZkRB@~E{43
+j1%1[FL
+)j=@7E
+VCCZQN
+E9/U:rkU
+g,E8|!
+rU`zUXi
+5>PdM)
+Njm#7Q
+M|%(JF
+y#4\,!
+_hrBNW
+GCZss|B
+=kUL,T{
+\hE|G$
+?ZWAbU
+p'[|sJ
+VHH=+6
+:*_	.&t
+tT}&nwq
+5\>#e3
++7 &K<c
+4\v%Xi\v&X
+V,Qp%X
+G#9TG7u
+"x4Xb9+
+Ea*JBh
+V]<7l})
+0XQd*y
+	DY=1B.
+$"6z`B
+W:z?Q\
+(VR6R-.
+t+FE\VL
+l!P=1@
+pj[$z(
+w5@!#?
+KEIm2:W
+)7#}EG
+ke=84s
+&b]kPC
+"xH<qX
+,=.Y)4
+lT6Q:[v5
+`XKR;T\
+sTY Pz
+*}2=k7
+hF_zV`I
+<N}kE0
+R[";V.
+'AUr,f]
+"l8DM&
+Qa|7{u
+u7S6-u F	
+"x}F+	R
+Y:ab	-=
+sUbn7qa
+@=1X:d
+SLV!k`GJw
+3q)Kh{
+zVn(,@
+35m|?ei
+Zc%Ipp+E ,
+Up%YE]
+V<A+rx
+|Csb@,d_
+R5S:{=m$
+"lW{PE`
+V"x=Fj
+(RO=(3c
+p"{p{S@D
+ZK@zW<
+eL.V}C
+k7$?e"
+]	sEi<Aj
+2Z!d*r+
+#d r+6
+G0\C/4s
+|0=?Jj
+$#=)\l
+Sp"`i6
+n%YtH$
+>Qr23i:
+E>a\Q9
+k@*y@c[
+[{QblF
+.QXCl@
+!xk)@V h8
+hk@*y	
+}*,>QE
+Vn!b6\{
+.3Sp$Xi\
+XDmnj@
+pR2nl.A&7
+sK`7l|P8
+XcB=)r
+XDmnGj
+=g5JE\
+k=Hr*K~[
+b	/Fk7\\
+5J ;n3Ub
+Tpj`=_
+`!U#${Ri
+N)6I^E
+OaZ*D}Y}
+"kCY:D
+HW-Gz;
+OZ9Ea<
+g=3Sv+
+cL}MO0\a
+j=+UD|
+xj`86h
++UPw$[
+.n`8'p
+Gzvbhv
+p|{U\	VR9?
+Hw$IsZ
+){1XO/
+r{~4{!
+X_$U{0
+=\g5@<6
++'LV kn
+XC	=E/f1
+!@j\Eb6
+y4{1XO zT
+@=i:Aa
+k5 #,*.
+xozw(pz
+TIq+Ka
+!\a|T9
+7nk	@M
+<>y5@8?9
+ A@\( i<
+z}k	QD8
+iZ[I>8a
+<u_eE]
+	FqZ>W{z
+%MR6#$
+tHq!k2
+.QXO zT
+6{q]xj
+6],=Gz
++>QXB0qSa	
+Uw(pp{
+1w5."hi
+]/\73>
+FUj{I9X
+[,ED>vL
+Z#kR+7I
+"!m%Xd5c,
+1=0k	`Y.
+3sMLby
+ni{Q\i
+>d1r:S
+Lrj@0(
+P_dN$-h
+y}A{2&
+5CLxz.!
+ni{1XO#
+mpjm!j
+H/XpkEU
+*y@Oz,+
+m}){!Xi
+VMI|HV`
+poZ.1A
+`0{~T{0
+zje\C*
+]|3es>
+e)"A<o
+Z,M)u+
+n*]A\g
+_L})r!
+K@($u4
+7g=i{`
+.QXO,T
+F:T{1Xa
+BqBfCjJ
+E.AXO'
+N((Bs@
+MO XkB{
+,!P)Xv
+g4X,7`
+pj`<?j
+W(xz`<5
+.AXO/=)r
+xoZ`<=;
+w(xz`86i
+pj`?vz
+?uR`81
+N*@k6h
+pzcLxz
+?}X\pz
+*@Bj[$c
+TAfDd 
+W iozE
+?}X\xz
+<75@<=
+xz`<5;
+-?:Ju;
+rq@	A#I
+HcKzP@
+r+7HV"6r
+1C`=_4\
+`<?<~T
+`86h,pj
+s@&9}z
+;vzP!wc
+poCC`<1
+h(Bh i9
+8=R`<>i
+8JOzw x
+LLc/aRE
+5z"G$Qg.
+Nj['q(
+LBqA"n
+W,pj`<=
+<==@q9
+j-~eny
+;wzw(P
+7l}*9PXO
+(=*@n1A
+A Nh,J
+E9|'g.J
+@\Bi\W
+qC(mI#I
+xj`<6h
+jD#Px%
+[i2cgB}
+VqUp&Y
+s^eLeY
+Qq\hjW
+%LU8|N
+i95 !=
+i\.(ny
+7uH	@\*
+h x~(,pz
+Ac( i9
+(jw(xz
+,( o^i6
+'ZU~&`
+W1v-A$
++yFVd?
+@	ACwP
+(k]"t9
+aKP!7{
+n(PO4\C
+k$i[|@
+O)-2?9
+n=*[$M
+A N((m
+#4\,E5
+.qRXPN
+:QqXpb(
+M0+K)~
+C~u`?u
+*nXg4\
+@\pcAB
+xoZ@(j
+!wS+Az
+V{R;S&
+P-IR`z
+ x<R)H
+@\FPi\Be
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+)sZc8;
+*<c;}:
+Rn/TgM
+	uu^rdl
+4::>WP
+ZN.'=N
+~]by$L
+~eeVY?
+p9u>J+
+{-]Lf&
+aBpd[+
+GYr{JT
+jE|E:~
+c*}C/z
+MQm-WR{4t
+JxOiQa
+p~u*8C
+V4ekt_
+8|=>HR
+j0XKunf
+RRodt6
+M9hmKJ
+7>&vbC
+9.lVMB
+oDhApF
+DPW;Nx
+t\Mgo5
+)^Ewy[
+-TInGK
+V_6;Yp
+SygvV5
+~']<5Ii
+#6mJ8Kn
+6eh~e*
+`s,vY[
+s2mD)r
+Ieq!Uo
+vHn?}q
+;^5G)y
+#^}H9l
+?|1tkG
+1xC\I%
+=L>UR^
+C2}RW;c
+hci,go
+}MMx.$
+WeZ4kS
+GCoaok
+-m@ g-
+UV{=<}
+9T|co#
+Kg+DG!U
+^]ZR_#
+[r8DWG]
+[KVCij
+I)w2/t5|
+QHCKw M
+0y4c*^
+/},][y\
+?h'?1$
+\5T#-U
+ou;;`:F
+Z,r,yl
+ue;T+7_
+~$:12g
+--I[kK
++Wd1u#h
+f?6;%T3J
+<]I|u}
+D_tpWj
+7n)g3If
+W1x]tz|
+~&5)8i
+1o|5e0;
+JJ1:;=
+|Ov6C"
+NcU#w?
+aZEJ[Rd
+trW5J~
+n_0jh6
+SN->gP
+]M;}VD
+LS[23qx
+5O${~/
+S9B=??
+14T_%/
+w(b7cr
+ '`?y~
+w60khN.
+=j'V]+z
+&Y.QKg
+R6xW_*:nkt
+ d?wk/L
+Tm>U8h
+.7?tmU
+t[&)w&
+McHuk{
+qet?w2
+d3/w{~
+<W\3(H
+nO${~/
+Ft^0"f
+{(?__Vy
+|'s	&/0v
+^gU<v"
+pkYb7d
+U9u)N/fN
+M{X||do
+u,M9zz
+$8!wcn
+<csch_
+0+,i27Q41
+^f{C,g8
+W-IKcM.A
+	4X[;r7/
+V]+kvW$
+*I$@`6
+z""W?.
+gIg"6O}
+eg}W3v}WW
+3/J%:r
+Eh%TfIV$m
+4)>e)n
+-cfh,l
+XZK"]Kmk
+#.oRq2
+9'i;Ww
+/}Kq^m
+HfT]:Q
+)Ix@?.
+5M=Qz;
+t<M9Ko
+nGQqk2
+Sk}KS~
+	8^76F
+w}>^>Q
+rJ6>Pw.
+]&q#)-
+jq.+ok
+(wby=	
+{z=7\n
++9`c-R
+FtyF?w
+#m&`ITn
+$yl=>]
+G''?/_
+}j[Kv-$
+kkksB+
+(weYw'
+.a,.*?
+M5tiGv}s
+ko3%/z
+.o@*I 
+1j .71
+b)IpNpJ
+%]Hu,~
+~3S<^a+
+&!|xX;
+3B=@nS
+lwyWWP
+}}k^~e
+s_KXrj
+Fj%9u_{
+_C>M?fD7
+_4>2o/
+R#zTrq
+P88=>nO
+1?zZu/G
+Iz=Qxb{
+jMlZMI
+s'JQ[i
+#;o4]J
+S&Pzn#
+{hQe/s
+9KvIeoT
+JQz~`;
+mO4;~$
+m~"kV%F
+.AhHTu<
+-G1$08R26
+i5f9,uK
+e0+\]C
+gX<Ty1
+&zm$u*
+y~ !N?
+Mo6vyW
+TeS]U4
+Y7.k"$
+c.oQ((
+eQ@rYF:/_
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+)sZc8;
+*<c;}:
+Rn/TgM
+	uu^rdl
+4::>WP
+ZN.'=N
+~]by$L
+~eeVY?
+p9u>J+
+{-]Lf&
+aBpd[+
+GYr{JT
+jE|E:~
+c*}C/z
+MQm-WR{4t
+JxOiQa
+p~u*8C
+V4ekt_
+8|=>HR
+j0XKunf
+RRodt6
+M9hmKJ
+7>&vbC
+9.lVMB
+oDhApF
+DPW;Nx
+t\Mgo5
+)^Ewy[
+-TInGK
+V_6;Yp
+SygvV5
+~']<5Ii
+#6mJ8Kn
+6eh~e*
+`s,vY[
+s2mD)r
+Ieq!Uo
+vHn?}q
+;^5G)y
+#^}H9l
+?|1tkG
+1xC\I%
+=L>UR^
+C2}RW;c
+hci,go
+}MMx.$
+WeZ4kS
+GCoaok
+-m@ g-
+UV{=<}
+9T|co#
+Kg+DG!U
+^]ZR_#
+[r8DWG]
+[KVCij
+I)w2/t5|
+QHCKw M
+0y4c*^
+/},][y\
+?h'?1$
+\5T#-U
+ou;;`:F
+Z,r,yl
+ue;T+7_
+~$:12g
+--I[kK
++Wd1u#h
+f?6;%T3J
+<]I|u}
+D_tpWj
+7n)g3If
+W1x]tz|
+~&5)8i
+1o|5e0;
+JJ1:;=
+|Ov6C"
+NcU#w?
+aZEJ[Rd
+trW5J~
+n_0jh6
+SN->gP
+]M;}VD
+LS[23qx
+5O${~/
+S9B=??
+14T_%/
+w(b7cr
+ '`?y~
+w60khN.
+=j'V]+z
+&Y.QKg
+R6xW_*:nkt
+ d?wk/L
+Tm>U8h
+.7?tmU
+t[&)w&
+McHuk{
+qet?w2
+d3/w{~
+<W\3(H
+nO${~/
+Ft^0"f
+{(?__Vy
+|'s	&/0v
+^gU<v"
+pkYb7d
+U9u)N/fN
+M{X||do
+u,M9zz
+$8!wcn
+<csch_
+0+,i27Q41
+^f{C,g8
+W-IKcM.A
+	4X[;r7/
+V]+kvW$
+*I$@`6
+z""W?.
+gIg"6O}
+eg}W3v}WW
+3/J%:r
+Eh%TfIV$m
+4)>e)n
+-cfh,l
+XZK"]Kmk
+#.oRq2
+9'i;Ww
+/}Kq^m
+HfT]:Q
+)Ix@?.
+5M=Qz;
+t<M9Ko
+nGQqk2
+Sk}KS~
+	8^76F
+w}>^>Q
+rJ6>Pw.
+]&q#)-
+jq.+ok
+(wby=	
+{z=7\n
++9`c-R
+FtyF?w
+#m&`ITn
+$yl=>]
+G''?/_
+}j[Kv-$
+kkksB+
+(weYw'
+.a,.*?
+M5tiGv}s
+ko3%/z
+.o@*I 
+1j .71
+b)IpNpJ
+%]Hu,~
+~3S<^a+
+&!|xX;
+3B=@nS
+lwyWWP
+}}k^~e
+s_KXrj
+Fj%9u_{
+_C>M?fD7
+_4>2o/
+R#zTrq
+P88=>nO
+1?zZu/G
+Iz=Qxb{
+jMlZMI
+s'JQ[i
+#;o4]J
+S&Pzn#
+{hQe/s
+9KvIeoT
+JQz~`;
+mO4;~$
+m~"kV%F
+.AhHTu<
+-G1$08R26
+i5f9,uK
+e0+\]C
+gX<Ty1
+&zm$u*
+y~ !N?
+Mo6vyW
+TeS]U4
+Y7.k"$
+c.oQ((
+eQ@rYF:/_
+OiCCPPhotoshop ICC profile
+AHXLXN
+9C3J3W
+J'\'Gg
+v m2=:
+"I4]C)
+I(R dMuB
+J)o!E&!
+e91{P?:5
+y2 [t6
+i8s0;e3;Ua
+I444t<
+d2q>Ll
+IN\TX/
+kiooGJI
+5kPJ133
+{s[[[w
+.]DU:iu
+|gg'W_}57
+g	J3s8
+OiCCPPhotoshop ICC profile
+AHXLXN
+9C3J3W
+J'\'Gg
+v m2=:
+~=]_n;w
+\?Q7A)
+5z"k\i
+>zIuB}
+[^-IxW+
+4?=V}?1f\
+)ktrV	Y#\
+6S+W[h
+o]Tt*=
+8;xNy.
+Q=f[|?
+fgo>a+
+N['#z	
+GIF89a"
+<tW?}bBv\IxgM~sPtnUyw]{
+NETSCAPE2.0
+RHqa=w
+d	 A4v
+xPbEaL
+SN9,bCJ
+2pJ#M4
+//Grr4R
+JTU1e9i	`A
+H=|HM^91
+'~8tK*
+~~ytZS
+ytaSSytS
+~{yaYYa~
+yV]VRS
+jUUURQ
+jUVRRS
+|]URRS
+/ZZYSM
+||^RRRQ
+.7aSPM
+i|^RRRS
+-[YSPM
+		Y|^]RRV
+			S|^RRRV
+yjfaaY
+j^]RRRM
+%%%%%%%%%)@j_[13\^Y]RQ
+000000%11+,c"@3@cS]RRRRR
+^^]RRj
+E0403033338(@99A'R
+9444888999B;=BB<woaS
+D99899AAADDCEDEH>$$
+//**AAAABBEDEEII
+HBBABBBGDDHII
+DBGBGGHH
+JGGHJKK
+toxueotemaeP
+uokkk[O
+!   )&]Y
+B###""*vni]Z
+''((((,qp16]\ZZ
+0/////-0::%Z
+:99::EHHII
+PD.;;EEIIJOPR<@
+GGGGKRSV
+|yyjj_
+1&%(:_R
+0-,,.oi)aV
+32256798Z## 
+<;;<>FH?ps`
+@/AAGJMO
+e750C'
+bbb_ik/5.
+"WZYJUy<
+gvzxKrRPE
+?<?:?;GDA
+|~t{7o
+ssn`moh
+ztpndfa
+{wterqq6oqr
+5329\YW
+z}j~}y
+qql+qqk
+{vs<ihd
+-+*{UPM
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+ %ModuleName%
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Instalace softwaru
+$ Prob
+ instalace %ModuleName%
+]YProb
+ instalace va
+eho softwaru. Zapojte nap
+ kabel a nevyp
+nejte po
+ete-li toto okno, software nebude nainstalov
+. Opravdu chcete zav
+t toto okno?
+-)Syst
+m se po %d sekund
+ch restartuje
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Softwareinstallation
+Installerer %ModuleName%
+PLDin software installeres. Tilslut str
+mkablet, og sluk ikke for computeren.
+~zSoftwaren vil ikke blive installeret korrekt, hvis du lukker dette vindue. Er du sikker p
+, at du vil lukke dette vindue?
+Advarsel
+1-Systemet vil genstarte efter %d sekund(er)...
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Software-Installation
+Installiert %ModuleName%
+lhIhre Software wird installiert. Schlie
+en Sie das Netzkabel an und schalten Sie den Computer nicht aus.
+Die Software wird nicht richtig installiert, falls Sie dieses Fenster schlie
+chten Sie dieses Fenster wirklich schlie
+Warnung
+73Das System wird nach %d Sekunde(n) neu gestartet
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+ %ModuleName%
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Software Installation
+Installing %ModuleName%
+gcYour software is being installed. Please connect the power cable and do not turn off your computer.
+rnSoftware will not be installed correctly if you close this window. Are you sure you want to close this window?
+Warning
+,(System will reboot after %d second(s)
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Instalaci
+n de software
+Instalando %ModuleName%
+`\El software se est
+ instalando. Conecte el cable de alimentaci
+n y no apague el ordenador.
+xtEl software no se instalar
+ correctamente sea cierra esta ventana. 
+ seguro de que desea cerrar esta ventana?
+Advertencia
+1-El sistema se reiniciar
+ en %d segundo(s)
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Tarkvara installimine
+'#Rakenduse %ModuleName% installimine
+TPTarkvara installitakse. 
+hendage toitekaabel ja 
+litage arvutit v
+plTarkvara ei installita 
+igesti, kui te sulgete selle akna. Kas olete kindel, et soovite selle akna sulgeda?
+Hoiatus
+steem taask
+ivitub %d sekundi p
+rast...
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Ohjelmiston asennus
+'#Ohjelmistoa %ModuleName% asennetaan
+\XOhjelmistoa asennetaan. Liit
+ tietokone virtal
+hteeseen 
+ sammuta tietokonetta.
+kgOhjelmisto ei voi asentaa oikein, jos suljet t
+n ikkunan. Haluatko varmasti sulkea t
+n ikkunan?
+Varoitus
+rjestelm
+ynnistyy uudelleen %d sekunnin kuluttua...
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Installation du logiciel
+Installation de %ModuleName%
+|Votre logiciel est en cours d'installation. Veuillez connecter le c
+ble d'alimentation et n'
+teignez pas votre ordinateur.
+Le logiciel ne sera pas install
+ correctement si vous fermez cette fen
+tes-vous s
+r de vouloir fermer cette fen
+Avertissement
+40Le syst
+me red
+marrera apr
+s %d seconde(s)
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Instalacija softvera
+($U tijeku je instalacija %ModuleName%
+`\U tijeku je instalacija softvera. Uklju
+ite kabel za napajanje i ne isklju
+ujte ra
+unalo.
+xtSoftver ne
+e biti instaliran ispravno ako zatvorite ovaj prozor. Jeste li sigurni da 
+elite zatvoriti ovaj prozor?
+Upozorenje
+:6Sustav 
+e se ponovno pokrenuti nakon %d sekunde(a)
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Szoftvertelep
+s %ModuleName%
+n szoftver
+nek telep
+se folyamatban van. K
+k, csatlakoztassa a t
+s ne kapcsolja ki a sz
+}yA szoftver nem telep
+dik megfelel
+en ha bez
+rja ezt az ablakot. Biztos benne, hogy be akarja z
+rni ezt az ablakot?
+Figyelem
+1-A rendszer %d m
+sodperc m
+jraindul
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Installazione software
+*&Installazione di %ModuleName% in corso
+ieIl software sta per essere installato. Collegare il cavo di alimentazione e non spegnere il computer.
+fbIl software non viene installato correttamente se si chiude questa finestra. Chiudere la finestra?
+Avviso
+40Il sistema verr
+ riavviato tra %d secondo(i)
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+51%ModuleName% 
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+%ModuleName% 
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+$ Programin
+rangos 
+diegimas
+diegiama %ModuleName%
+ programin
+ranga yra 
+diegiama. Prijunkite maitinimo kabel
+ ir nei
+junkite savo kompiuterio.
+vrJei u
+darysite 
+, programin
+ranga bus 
+diegta neteisingai. Ar tikrai norite u
+daryti 
+73Sistema bus paleista i
+ naujo po %d sekund
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Programmat
+ras instal
+%ModuleName% instal
+b^Programmat
+ra ir uzinstal
+dzu, pievienojiet elektr
+bas vadu un neizsl
+dziet datoru.
+njJa aizv
+rsiet logu, programmat
+ra netiks instal
+ta pareizi. Vai patie
+laties aizv
+o logu?
+73Sist
+ma tiks ats
+c %d sekundes(-
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Software-installatie
+%ModuleName% installeren
+_[De software wordt ge
+nstalleerd. Sluit de stroomkabel aan en schakel de computer niet uit.
+plDe installatie van de software mislukt als u dit venster sluit. Weet u zeker dat u dit venster wilt sluiten?
+Waarschuwing
+95Systeem wordt over %d seconde(n) opnieuw opgestart
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Programvareinstallasjon
+Installerer %ModuleName%
+SOProgramvaren installeres. Koble til str
+mkabelen og ikke sl
+ av datamaskinen.
+Programvare vil ikke bli installert p
+ riktig m
+te hvis du lukker dette vinduet. Er du sikker p
+ at du vil lukke dette vinduet?
+Advarsel
+73Systemet vil starte p
+ nytt etter %d sekund(er)
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Instalacja oprogramowania
+Instalowanie %ModuleName%
+YUTrwa instalacja oprogramowania. Pod
+cz kabel zasilania i nie wy
+czaj komputera.
+Oprogramowanie nie zostanie zainstalowane poprawnie, je
+li to okno zostanie zamkni
+te. Czy na pewno chcesz zamkn
+ to okno?
+Ostrze
+3/System zostanie ponownie uruchomiony za %d s
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Instala
+o do software
+A instalar %ModuleName%
+_[O software est
+ a ser instalado. Ligue o cabo de energia e n
+o desligue o seu computador.
+miO software n
+ correctamente instalado se fechar esta janela. Deseja realmente fechar esta janela?
+3/O sistema ir
+ reiniciar ap
+s %d segundo(s)...
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Instalare software
+Se instaleaz
+ %ModuleName%
+miProgramul software este 
+n curs de instalare. Conecta
+i cablul de alimentare 
+i nu opri
+i computerul.
+~Software-ul nu va fi instalat corect dac
+nchide
+i aceast
+ fereastr
+. Sigur dori
+nchide
+i aceast
+ fereastr
+Avertisment
++'Sistemul va reporni dup
+ %d secunde...
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+ %ModuleName%
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+cia softv
+taluje sa %ModuleName%
+SOSoftv
+r sa nain
+taluje. Pripojte nap
+bel a nevyp
+najte po
+vrSoftv
+r nebude nespr
+vne nain
+talovan
+, ak toto okno zatvor
+te. Ste si ist
+e chcete zatvori
+ toto okno?
+	Varovanie
+$ Syst
+ sa re
+tartuje o %d s....
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Namestitev programske opreme
+am %ModuleName%
+ieIzbrana programska oprema se name
+a. Priklju
+ite napajalni kabel in ne izklapljajte ra
+unalnika.
+wsProgramska oprema ne bo name
+ena pravilno, 
+e to okno zaprete. Ali ste prepri
+ani, da 
+elite zapreti to okno?
+	Opozorilo
+2.Sistem se bo ponovno zagnal 
+ez %d sekund 
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+Programinstallation
+Installerar %ModuleName%
+YUProgrammet h
+ller p
+ att installeras. Anslut n
+tsladden och st
+ng inte av datorn.
+Program kommer inte att installeras korrekt om du st
+nger detta f
+nster. 
+r du s
+ att du vill st
+nga detta f
+nster?
+Varning
+.*Systemet startar om efter %d sekund(er)...
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+klemesi
+%ModuleName% y
+kleniyor
+kleniyor. L
+tfen g
+ kablosunu ba
+n ve bilgisayar
+ kapatmay
+tpBu pencereyi kapat
+klenmeyecek. Bu pencereyi kapatmak istedi
+inizden emin misiniz?
+84Sistem %d saniye sonra yeniden ba
+lacakt
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+ %ModuleName%
+Kmscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1&clr-namespace:System;assembly=mscorlib
+System
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 
+IDS_MUI_CAPTION 
+IDS_MUI_INSTALL 
+IDS_MUI_PROMPT 
+IDS_WARN_CLOSE 
+IDS_WARNING 
+IDS_MUI_REBOOT_MSG
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+x,http://schemas.microsoft.com/winfx/2006/xaml
+system&clr-namespace:System;assembly=mscorlib
+ %ModuleName%
+@AlaunchX, Version=11.0.0.1, Culture=neutral, PublicKeyToken=null
+clr-namespace:AlaunchX
+AlaunchX
+AlaunchX.UserControl_BarMode
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+x,http://schemas.microsoft.com/winfx/2006/xaml
+mc;http://schemas.openxmlformats.org/markup-compatibility/2006
+d2http://schemas.microsoft.com/expression/blend/2008
+clr-namespace:AlaunchX
+Grid_BarModeArea
+Image_BarModeImage
+/Pictures/BackgroundImageG.bmp
+AlaunchX.AnimatedGIFControl
+GIF_Progressing
+Center=
+12,0,0,0q
+Visible=
+TextBlock_ProgressText
+	Progress:
+Segoe UI)
+Center=
+52,0,0,0q
+TextBlock_ProgressNum
+120/120
+Segoe UI)
+Center=
+	113,0,0,0q
+TextAlignment$
+Right=
+TextBlock_InstallModule
+!Install Acer eRecovery Management
+CharacterEllipsis=
+Segoe UI)
+Center=
+	210,0,0,0q
+TextBlock_Prompt
+Please wait
+Segoe UI)
+Center=
+	475,0,0,0q
+TextBlock_TextTail
+Segoe UI)
+Center=
+	545,0,0,0q
+TextBlock_RebootMessage
+Segoe UI)
+3After %d seconds, system will reboot automatically.
+Center=
+52,0,0,0q
+Hidden=
+@AlaunchX, Version=11.0.0.1, Culture=neutral, PublicKeyToken=null
+clr-namespace:AlaunchX
+AlaunchX
+AlaunchX.UserControl_MainArea
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+x,http://schemas.microsoft.com/winfx/2006/xaml
+mc;http://schemas.openxmlformats.org/markup-compatibility/2006
+d2http://schemas.microsoft.com/expression/blend/2008
+clr-namespace:AlaunchX
+Grid_MainArea
+ImageSource$
+/Pictures/Acer/Main.png
+RowDefinitions
+TextBlock_Caption
+Segoe UI)
+Software Installation
+25,2,0,0q
+Image_InstallationIcon
+#/Pictures/Acer/InstallationIcon.png
+105,120,0,0q
+StackPanel_InstallModule
+210,136,0,0q
+Orientation$
+Horizontal=
+TextBlock_Installing
+Segoe UI)
+CharacterEllipsis=
+Installing %ModuleName%
+TextBlock_TextTail
+Segoe UI)
+TextAlignment$
+Name$&
+ ProgressBar_InstallationProgress
+210,163,0,0q
+Value$
+TextBlock_ProgressNum
+Segoe UI)
+589,160,0,0q
+Right=
+TextBlock_Prompt
+Segoe UI)
+210,210,0,0q
+cYour software is being installed. Please connect the power cable and do not turn off your computer.
+TextBlock_RebootMessage
+Segoe UI)
+105,380,0,0q
+(System will reboot after %d second(s)
+Hidden=
+@AlaunchX, Version=11.0.0.1, Culture=neutral, PublicKeyToken=null
+clr-namespace:AlaunchX
+AlaunchX
+AlaunchX.Window_BarMode
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+x,http://schemas.microsoft.com/winfx/2006/xaml
+d2http://schemas.microsoft.com/expression/blend/2008
+mc;http://schemas.openxmlformats.org/markup-compatibility/2006
+clr-namespace:AlaunchX
+Title$
+AlaunchX
+WindowStyle$
+ResizeMode$
+NoResize=
+Topmost
+Viewbox_BarModeArea
+Stretch$
+Uniform=
+Grid_BarModeArea
+@AlaunchX, Version=11.0.0.1, Culture=neutral, PublicKeyToken=null
+clr-namespace:AlaunchX
+AlaunchX
+AlaunchX.Window_FullScreen
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+x,http://schemas.microsoft.com/winfx/2006/xaml
+d2http://schemas.microsoft.com/expression/blend/2008
+mc;http://schemas.openxmlformats.org/markup-compatibility/2006
+clr-namespace:AlaunchX
+Title$
+AlaunchX
+WindowStyle$
+ResizeMode$
+NoResize=
+Topmost
+Grid_FullScreen
+ImageSource$6
+0/Pictures/Acer/Backgrounds/BackgroundDefault.jpg
+Viewbox_MainArea
+	24,52,0,0q
+Grid_MainArea
+Hidden=
+@AlaunchX, Version=11.0.0.1, Culture=neutral, PublicKeyToken=null
+clr-namespace:AlaunchX
+AlaunchX
+AlaunchX.Window_Hidden
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+x,http://schemas.microsoft.com/winfx/2006/xaml
+d2http://schemas.microsoft.com/expression/blend/2008
+mc;http://schemas.openxmlformats.org/markup-compatibility/2006
+clr-namespace:AlaunchX
+Title$
+AlaunchX
+Hidden=
+ShowInTaskbar
+WindowState$
+	Minimized=
+@AlaunchX, Version=11.0.0.1, Culture=neutral, PublicKeyToken=null
+clr-namespace:AlaunchX
+AlaunchX
+AlaunchX.Window_Main
+SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+9http://schemas.microsoft.com/winfx/2006/xaml/presentation
+NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+x,http://schemas.microsoft.com/winfx/2006/xaml
+d2http://schemas.microsoft.com/expression/blend/2008
+mc;http://schemas.openxmlformats.org/markup-compatibility/2006
+clr-namespace:AlaunchX
+Title$
+Process Installation
+ResizeMode$
+CanMinimize=
+WindowStartupLocation$
+CenterScreen=
+Viewbox_MainArea
+Grid_MainArea
+lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet
+hSystem.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3aPADPAD
+QSystem.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Drawing.Bitmap
+GIF89a"
+<tW?}bBv\IxgM~sPtnUyw]{
+NETSCAPE2.0
+RHqa=w
+d	 A4v
+xPbEaL
+SN9,bCJ
+2pJ#M4
+//Grr4R
+JTU1e9i	`A
+H=|HM^91
+'~8tK*
+G:\GAIAUtility\AlaunchX\obj\x86\Release\AlaunchX.pdb
+_CorExeMain
+mscoree.dll
+~~ytZS
+ytaSSytS
+~{yaYYa~
+yV]VRS
+jUUURQ
+jUVRRS
+|]URRS
+/ZZYSM
+||^RRRQ
+.7aSPM
+i|^RRRS
+-[YSPM
+		Y|^]RRV
+			S|^RRRV
+yjfaaY
+j^]RRRM
+%%%%%%%%%)@j_[13\^Y]RQ
+000000%11+,c"@3@cS]RRRRR
+^^]RRj
+E0403033338(@99A'R
+9444888999B;=BB<woaS
+D99899AAADDCEDEH>$$
+//**AAAABBEDEEII
+HBBABBBGDDHII
+DBGBGGHH
+JGGHJKK
+toxueotemaeP
+uokkk[O
+!   )&]Y
+B###""*vni]Z
+''((((,qp16]\ZZ
+0/////-0::%Z
+:99::EHHII
+PD.;;EEIIJOPR<@
+GGGGKRSV
+|yyjj_
+1&%(:_R
+0-,,.oi)aV
+32256798Z## 
+<;;<>FH?ps`
+@/AAGJMO
+e750C'
+bbb_ik/5.
+"WZYJUy<
+gvzxKrRPE
+?<?:?;GDA
+|~t{7o
+ssn`moh
+ztpndfa
+{wterqq6oqr
+5329\YW
+z}j~}y
+qql+qqk
+{vs<ihd
+-+*{UPM
+<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <assemblyIdentity version="1.0.0.0" name="MyApplication.app"/>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+    <security>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+  <!-- Indicates that the application is DPI-aware and will not be automatically scaled by Windows at higher
+       DPIs. Windows Presentation Foundation (WPF) applications are automatically DPI-aware and do not need 
+       to opt in. Windows Forms applications targeting .NET Framework 4.6 that opt into this setting, should 
+       also set the 'EnableWindowsFormsHighDpiAutoResizing' setting to 'true' in their app.config. 
+       
+       Makes the application long-path aware. See https://docs.microsoft.com/windows/win32/fileio/maximum-file-path-limitation -->
+  <!--
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+      <longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware>
+    </windowsSettings>
+  </application>
+  <!-- Enable themes for Windows common controls and dialogs (Windows XP and later) -->
+  <!--
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+          type="win32"
+          name="Microsoft.Windows.Common-Controls"
+          version="6.0.0.0"
+          processorArchitecture="*"
+          publicKeyToken="6595b64144ccf1df"
+          language="*"
+        />
+    </dependentAssembly>
+  </dependency>
+</assembly>
+GlobalSign nv-sa1
+Root CA1
+GlobalSign Root CA0
+180919000000Z
+280128120000Z0L1 0
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+!http://ocsp.globalsign.com/rootr103
+"http://crl.globalsign.com/root.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0\1
+GlobalSign nv-sa1200
+)GlobalSign GCC R45 EV CodeSigning CA 20200
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0U
+&https://www.globalsign.com/repository/0
+wF*=#}(s
+New Jersey1
+Jersey City1
+The USERTRUST Network1.0,
+%USERTrust RSA Certification Authority0
+190502000000Z
+380118235959Z0}1
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA0
+?http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl0v
+3http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt0%
+http://ocsp.usertrust.com0
+rRj;B7|
+[C]e=P
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA0
+201023000000Z
+320122235959Z0
+Greater Manchester1
+Salford1
+Sectigo Limited1,0*
+#Sectigo RSA Time Stamping Signer #20
+#_T	8*b
+https://sectigo.com/CPS0D
+3http://crl.sectigo.com/SectigoRSATimeStampingCA.crl0t
+3http://crt.sectigo.com/SectigoRSATimeStampingCA.crt0#
+http://ocsp.sectigo.com0
+GlobalSign nv-sa1200
+)GlobalSign GCC R45 EV CodeSigning CA 20200
+220218103523Z
+231225074619Z0
+Private Organization1
+208283931
+Taipei1
+Taipei1B0@
+97F.-5, No. 369, Fuxing N. Rd., Minfu Vil., Songshan Dist.1
+Acer Incorporated1
+Acer Incorporated0
+@http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+&https://www.globalsign.com/repository/0
+6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+GlobalSign nv-sa1200
+)GlobalSign GCC R45 EV CodeSigning CA 2020
+8JRN"'#s
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA
+220503102655Z0?
+hsa>!T(|

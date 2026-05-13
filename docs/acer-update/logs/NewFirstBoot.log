@@ -1,0 +1,105 @@
+
+
+24/09/2025 19:00:31.93[Log TRACE]  call C:\OEM\Preload\DPOP\OfficeSettings\__RemoveNoNecessarySource.cmd start 
+
+24/09/2025 19:00:31.94[Log START]  ============ C:\OEM\Preload\DPOP\OFFICESETTINGS\__RemoveNoNecessarySource.cmd ============ 
+24/09/2025 19:00:31.94[Log TRACE]  start "" "C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe" scenario=CULTUREREFRESH RemoveNonClientCultures=True displaylevel=False 
+24/09/2025 19:00:31.95[Log LEAVE]  ============ C:\OEM\Preload\DPOP\OFFICESETTINGS\__RemoveNoNecessarySource.cmd ============ 
+ 
+24/09/2025 19:00:31.95[Log TRACE]  call C:\OEM\Preload\DPOP\OfficeSettings\__RemoveNoNecessarySource.cmd finish 
+24/09/2025 19:00:31.95[Log TRACE]  rd C:\OEM\Preload\DPOP\OfficeSettings in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt 
+
+
+
+
+24/09/2025 19:00:31.97[Log TRACE]  call C:\OEM\Preload\DPOP\CLEANUP\CLEANUP.CMD FirstBoot start 
+
+24/09/2025 19:00:31.98[Log START]  ============ C:\OEM\Preload\DPOP\CLEANUP\CLEANUP.CMD ============ 
+24/09/2025 19:00:31.98[Log TRACE]  call :FirstBoot 
+24/09/2025 19:00:31.99[Log TRACE]  This is not S mode image, call Cleanup_Firstboot.cmd 
+ 
+24/09/2025 19:00:31.99[Log START]  ============ [SUB]C:\OEM\Preload\DPOP\CLEANUP\Cleanup_Firstboot.cmd ============ 
+24/09/2025 19:00:31.99[Log TRACE]  Remove files that list in the C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt 
+24/09/2025 19:00:32.00[Log TRACE]  dir /b c:\*.txt 
+No se encuentra el archivo
+24/09/2025 19:00:32.01[Log TRACE]  DEL /Q "C:\OEM\NAPP\CheckFreeSpaceTag.cmd"  
+24/09/2025 19:00:32.02[Log TRACE]  DEL /Q "C:\OEM\NAPP\FindValidDriveLetter.cmd"  
+24/09/2025 19:00:32.02[Log TRACE]  DEL /Q "C:\OEM\NAPP\GetDiskPartIndex.vbs"  
+24/09/2025 19:00:32.02[Log TRACE]  DEL /Q "C:\OEM\NAPP\GoToNAPP.cmd"  
+24/09/2025 19:00:32.02[Log TRACE]  DEL /Q "C:\OEM\NAPP\GoToNAPP.log"  
+24/09/2025 19:00:32.02[Log TRACE]  DEL /Q "C:\OEM\NAPP\LogBackup_CleanLogFolder.ps1"  
+24/09/2025 19:00:32.03[Log TRACE]  DEL /Q "C:\OEM\NAPP\LogBackup_SystemInfo.ps1"  
+24/09/2025 19:00:32.03[Log TRACE]  DEL /Q "C:\OEM\NAPP\MountPartition.exe"  
+24/09/2025 19:00:32.03[Log TRACE]  DEL /Q "C:\OEM\NAPP\MountPartition_arm64.exe"  
+24/09/2025 19:00:32.03[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP.log"  
+24/09/2025 19:00:32.04[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP1P_Finalize.cmd"  
+24/09/2025 19:00:32.04[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP2P_ApplyImageToOSdrive.cmd"  
+24/09/2025 19:00:32.04[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP2P_DismApplyOSImage.log"  
+24/09/2025 19:00:32.04[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP2P_Finalize.cmd"  
+24/09/2025 19:00:32.05[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP2P_Finalize_Checkflow.cmd"  
+24/09/2025 19:00:32.05[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP2P_Finalize_ManufacturingMode.cmd"  
+24/09/2025 19:00:32.05[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP2P_Finalize_TPMNoAutoProvision.cmd"  
+24/09/2025 19:00:32.05[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP2P_Initialize.cmd"  
+24/09/2025 19:00:32.06[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP3PStateDetection.ps1"  
+24/09/2025 19:00:32.06[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP3P_Finalize.cmd"  
+24/09/2025 19:00:32.06[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP3P_Initialize.cmd"  
+24/09/2025 19:00:32.06[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP4P_Finalize_LogBackup.cmd"  
+24/09/2025 19:00:32.07[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP4P_Finalize_Main.cmd"  
+24/09/2025 19:00:32.07[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP4P_Initialize.cmd"  
+24/09/2025 19:00:32.07[Log TRACE]  DEL /Q "C:\OEM\NAPP\NappFlag.xml"  
+24/09/2025 19:00:32.07[Log TRACE]  DEL /Q "C:\OEM\NAPP\SetBootFromNAPP.log"  
+24/09/2025 19:00:32.08[Log TRACE]  DEL /Q "C:\OEM\NAPP\ShowErrMsg.vbs"  
+24/09/2025 19:00:32.08[Log TRACE]  DEL /Q "C:\OEM\NAPP\UserAlaunch1st_Finalize.cmd"  
+24/09/2025 19:00:32.08[Log TRACE]  DEL /Q "C:\OEM\NAPP\UserAlaunch1st_Initialize.cmd"  
+24/09/2025 19:00:32.09[Log TRACE]  DEL /Q "C:\OEM\NAPP\UserAlaunch2nd_Finalize.cmd"  
+24/09/2025 19:00:32.09[Log TRACE]  DEL /Q "C:\OEM\NAPP\UserAlaunch2nd_Initialize.cmd"  
+24/09/2025 19:00:32.09[Log TRACE]  DEL /Q "C:\OEM\NAPP\vols.log"  
+24/09/2025 19:00:32.09[Log TRACE]  DEL /Q "C:\OEM\NAPP\_CheckingOSDriveFreeSpace.vbs"  
+24/09/2025 19:00:32.10[Log TRACE]  DEL /Q "C:\OEM\NAPP\_CheckingOSDriveFreeSpaceNoMsg.vbs"  
+24/09/2025 19:00:32.10[Log TRACE]  DEL /Q "C:\OEM\NAPP\_CreateSmallStorageTag.vbs"  
+24/09/2025 19:00:32.10[Log TRACE]  DEL /Q "C:\OEM\NAPP\_listUsingDriveLetters.vbs"  
+24/09/2025 19:00:32.11[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP4P_Patch\ClearDefaultPassword.cmd"  
+24/09/2025 19:00:32.11[Log TRACE]  DEL /Q "C:\OEM\NAPP\NAPP4P_Patch\MOD01S00JW00600001.enc"  
+24/09/2025 19:00:32.12[Log TRACE]  DEL /Q "C:\OEM\NAPP\OBRSetTool\CopyEFI_byOEM.cmd"  
+24/09/2025 19:00:32.12[Log TRACE]  DEL /Q "C:\OEM\NAPP\OBRSetTool\Lang.XML"  
+24/09/2025 19:00:32.12[Log TRACE]  DEL /Q "C:\OEM\NAPP\OBRSetTool\modifybcdtoPBR.cmd"  
+24/09/2025 19:00:32.12[Log TRACE]  DEL /Q "C:\OEM\NAPP\OBRSetTool\modifybcdtoWinRE.cmd"  
+24/09/2025 19:00:32.13[Log TRACE]  DEL /Q "C:\OEM\NAPP\OBRSetTool\OBRSetTool_amd64.exe"  
+24/09/2025 19:00:32.13[Log TRACE]  DEL /Q "C:\OEM\NAPP\OBRSetTool\OBRSetTool_x86.exe"  
+24/09/2025 19:00:32.14[Log TRACE]  DEL /Q "C:\OEM\NAPP\OBRSetTool\Log\modifybcdLog.log"  
+24/09/2025 19:00:32.14[Log TRACE]  DEL /Q "C:\OEM\NAPP\OBRSetTool\Log\OBRSetTool.log"  
+24/09/2025 19:00:32.14[Log TRACE]  DEL /Q "C:\OEM\NAPP\*.cmd"  
+24/09/2025 19:00:32.15[Log TRACE]  DEL /Q "C:\OEM\Preload\DPOP\OEMCustomize\*.reg"  
+24/09/2025 19:00:32.16[Log TRACE]  DEL /Q "C:\OEM\Preload\utility\*.exe"  
+C:\OEM\Preload\utility\RunCmd_X64.exe
+Acceso denegado.
+24/09/2025 19:00:32.16[Log TRACE]  DEL /Q "C:\OEM\Preload\utility\*.vbs"  
+24/09/2025 19:00:32.17[Log TRACE]  DEL /Q "C:\OEM\Preload\utility\*.cmd"  
+24/09/2025 19:00:32.17[Log TRACE]  Remove folders that list in the C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt 
+24/09/2025 19:00:32.18[Log TRACE]  RD /S /Q "C:\OEM\NAPP\NAPP4P_Patch"  
+24/09/2025 19:00:32.18[Log TRACE]  RD /S /Q "C:\OEM\NAPP\OBRSetTool"  
+24/09/2025 19:00:32.18[Log TRACE]  RD /S /Q "c:\OEM\preload\DPOP\GCMReadiness"  
+24/09/2025 19:00:32.19[Log TRACE]  RD /S /Q "C:\OEM\Preload\DPOP\Sysprep"  
+24/09/2025 19:00:32.23[Log TRACE]  RD /S /Q "C:\OEM\Preload\utility\GCM"  
+24/09/2025 19:00:32.23[Log TRACE]  RD /S /Q "C:\OEM\Preload\utility\ReaderX"  
+24/09/2025 19:00:32.24[Log TRACE]  RD /S /Q "C:\OEM\Preload\SCL"  
+24/09/2025 19:00:32.24[Log TRACE]  RD /S /Q "C:\OEM\Preload\DPOP\OEMCustomize\FirstBootCMD"  
+24/09/2025 19:00:32.25[Log TRACE]  RD /S /Q "C:\OEM\Preload\APP\UEIPFramework"  
+24/09/2025 19:00:32.27[Log TRACE]  RD /S /Q "c:\OEM\Preload\APP\PowerSettings"  
+24/09/2025 19:00:32.29[Log TRACE]  RD /S /Q "C:\OEM\Preload\DPOP\OfficeSettings"  
+El proceso no tiene acceso al archivo porque est  siendo utilizado por otro proceso.
+24/09/2025 19:00:32.30[Log TRACE]  Hidden folder that list in the C:\OEM\Preload\DPOP\CLEANUP\HiddenFolderList.txt 
+24/09/2025 19:00:32.30[Log TRACE]  attrib +h "C:\OEM"  
+24/09/2025 19:00:32.32[Log TRACE]  attrib +h "c:\Perflogs"  
+24/09/2025 19:00:32.33[Log TRACE]  attrib +h "c:\Recovery"  
+24/09/2025 19:00:32.35[Log TRACE]  attrib +h "c:\*.cmd" 
+No se encuentra el archivo: C:\*.cmd
+24/09/2025 19:00:32.41[Log LEAVE]  ============ [SUB]C:\OEM\Preload\DPOP\CLEANUP\Cleanup_Firstboot.cmd ============ 
+ 
+24/09/2025 19:00:32.42[Log LEAVE]  ============ C:\OEM\Preload\DPOP\CLEANUP\CLEANUP.CMD ============ 
+
+24/09/2025 19:00:32.43[Log TRACE]  call C:\OEM\Preload\DPOP\CLEANUP\CLEANUP.CMD FirstBoot finish 
+24/09/2025 19:00:32.44[Log TRACE]  rd /s /q C:\OEM\Preload\DPOP\CLEANUP 
+El proceso no tiene acceso al archivo porque est  siendo utilizado por otro proceso.
+
+

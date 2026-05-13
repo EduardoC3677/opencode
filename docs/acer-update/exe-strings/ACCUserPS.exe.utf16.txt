@@ -1,0 +1,467 @@
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+:AM:am:PM:pm
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+kernel32
+api-ms-
+(null)
+minkernel\crts\ucrt\inc\corecrt_internal_strtox.h
+__crt_strtox::floating_point_value::as_double
+_is_double
+__crt_strtox::floating_point_value::as_float
+!_is_double
+LC_ALL
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+         (((((                  H
+         (((((                  H
+      (                          
+mscoree.dll
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+api-ms-win-core-datetime-l1-1-1
+api-ms-win-core-file-l1-2-4
+api-ms-win-core-file-l1-2-2
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+advapi32
+kernelbase
+api-ms-win-appmodel-runtime-l1-1-2
+user32
+ext-ms-
+american
+american english
+american-english
+australian
+belgian
+canadian
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+dutch-belgian
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+irish-english
+italian-swiss
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+portuguese-brazilian
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+swedish-finland
+america
+britain
+england
+great britain
+holland
+hong-kong
+new-zealand
+pr china
+pr-china
+puerto-rico
+slovak
+south africa
+south korea
+south-africa
+south-korea
+trinidad & tobago
+united-kingdom
+united-states
+UTF-16LEUNICODE
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+CONOUT$
+Global\{9CF5E2B5-C10B-4FC4-A49D-9775C9FB2AD1}-
+fACCUserPS.exe
+eatlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+fatlTraceRefcount
+natlTraceWindowing
+fatlTraceControls
+natlTraceHosting
+atlTraceDBClient
+fatlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+natlTraceTime
+fatlTraceCache
+natlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+datlTraceISAPI
+D:PAI(A;OICI;GA;;;SY)(A;OICI;GA;;;BA)(A;OICI;GA;;;LA)(A;OICI;GR;;;BU)(A;OICI;GR;;;BG)(A;OICI;GR;;;LG)
+O:SYD:P(A;NP;FA;;;SY)(A;NP;FA;;;BA)
+VOpen %s registry
+%s: %04d:%02d:%02d %02d:%02d
+DisplayName
+{%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+"DisplayName"(%s): %s
+Publisher
+.IsBrowserInstall: DisplayName="%s", Publisher="%s"
+Fail to open %s registry!!, Error Codde: %ld
+Open %s sub-registry
+Fail to open %s sub-registry!!, Error Codde: %ld
+Fail to query "DisplayName" value from %s sub-registry!!, Error Codde: %ld
+Fail to query "Publisher" value from %s sub-registry!!, Error Codde: %ld
+"Publisher"(%s): %s
+IsBrowserInstall: %s
+Open %s registry
+SOFTWARE\WOW6432node\Microsoft\Windows\CurrentVersion\Uninstall
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+"Cache"(%s): %s
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+Fail to open %s registry!!, Error Codde: %ld
+Fail to get User Profile Folder!!, Error Code: %d
+%s file is not exist!!
+Fail to query "Cache" value from %s registry!!, Error Codde: %ld
+Mozilla Firefox
+Profile0
+%s\AppData\Local\Microsoft\Windows\INetCache
+Mozilla
+Fail to get AppData Folder!!, Error Code: %d
+Firefox browser is not exist.
+Firefox Profile: %s
+%s\Mozilla\Firefox\profiles.ini
+Firefox Config Sub-Path: %s
+Fail to get config path from %s file!!
+%s\Mozilla\Firefox\%s\prefs.js
+Firefox Config file: %s
+Match Line: %s
+\Mozilla\Firefox\
+browser.cache.disk.parent_directory
+Firefox cache folder: %s
+browser.cache.disk.parent_directory
+Open %s registry
+Fail to get Local AppData Folder!!, Error Code: %d
+\Cache
+Google
+\Cache2
+Google Chrome browser is not exist.
+Google Chrome
+ChromeHTML\shell\open\command
+Fail to query "(Default)" value from %s registry!!, Error Codde: %ld
+Fail to open %s registry!!, Error Codde: %ld
+"(Default)"(%s): %s
+-disk-cache-dir=
+chromeCacheLocation: %s
+Fail to get User Profile Folder!!, Error Code: %d
+Add %s file size
+\Google\Chrome\User Data\Default
+\Media Cache
+\Cache
+Remove Folder: %s
+CheckAccessData: FALSE, file time is less then %d days
+%s folder is empty!
+CheckAccessData: FALSE, file time is more then current time
+CheckAccessData: TRUE, file time is more then %d days
+Skip %s access data is less than %d days!!
+%s folder is empty!
+Fail to remove folder: %s!!, Error Code: %ld
+Delete file: %s
+Fail to delete %s!!, Error Code: %ld
+%s: cache size: %lu bytes
+%s: cache size: %lu bytes
+Skip to delete file for access data: %s
+%s: cache size: %lu bytes
+Fail to empty %s folder!!
+Fail to empty %s folder!!
+Fail to get Local AppData Folder!!, Error Code: %d
+Fail to empty %s folder!!
+Local AppData Temp Folder: %s
+Local AppData Temp Folder: %s
+%s path is not exist!!
+%s path is not exist!!
+Fail to query Recycle Bin size!!, Error Code: %d
+%s: %04d:%02d:%02d %02d:%02d
+Open %s registry
+Fail to clean Recycle Bin!!, Error Code: %d
+IsBrowserInstall: DisplayName="%s", Publisher="%s"
+Fail to open %s registry!!, Error Codde: %ld
+Fail to open %s sub-registry!!, Error Codde: %ld
+Open %s sub-registry
+DisplayName
+Fail to query "DisplayName" value from %s sub-registry!!, Error Codde: %ld
+Publisher
+"DisplayName"(%s): %s
+"Publisher"(%s): %s
+Fail to query "Publisher" value from %s sub-registry!!, Error Codde: %ld
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+IsBrowserInstall: %s
+Open %s registry
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+SOFTWARE\WOW6432node\Microsoft\Windows\CurrentVersion\Uninstall
+Fail to open %s registry!!, Error Codde: %ld
+Fail to query "Cache" value from %s registry!!, Error Codde: %ld
+%s\AppData\Local\Microsoft\Windows\INetCache
+Fail to get User Profile Folder!!, Error Code: %d
+Software\Microsoft\Edge
+"Cache"(%s): %s
+Fail to open %s registry!!, Error Codde: %ld
+Open %s registry
+CachePath
+Fail to query "CachePath" value from %s registry!!, Error Codde: %ld
+%s\Microsoft\Edge\User Data\Default\Cache
+Fail to get User Profile Folder!!, Error Code: %d
+Mozilla
+"CachePath"(%s): %s
+Firefox browser is not exist.
+Mozilla Firefox
+%s\Mozilla\Firefox\profiles.ini
+Fail to get AppData Folder!!, Error Code: %d
+%s file is not exist!!
+Firefox Profile: %s
+Fail to get config path from %s file!!
+nProfile0
+fFirefox Config Sub-Path: %s
+nFirefox Config file: %s
+f%s\Mozilla\Firefox\%s\prefs.js
+browser.cache.disk.parent_directory
+Match Line: %s
+browser.cache.disk.parent_directory
+Firefox cache folder: %s
+Fail to get Local AppData Folder!!, Error Code: %d
+n\Mozilla\Firefox\
+f\Cache2
+\Cache
+Google Chrome
+nGoogle
+ChromeHTML\shell\open\command
+Google Chrome browser is not exist.
+Fail to open %s registry!!, Error Codde: %ld
+Open %s registry
+"(Default)"(%s): %s
+Fail to query "(Default)" value from %s registry!!, Error Codde: %ld
+-disk-cache-dir=
+\Cache
+chromeCacheLocation: %s
+\Google\Chrome\User Data\Default
+%s folder is empty!
+Fail to get User Profile Folder!!, Error Code: %d
+Add %s file size
+CheckAccessData: FALSE, file time is more then current time
+f\Media Cache
+CheckAccessData: TRUE, file time is more then %d days
+CheckAccessData: FALSE, file time is less then %d days
+%s folder is empty!
+Skip %s access data is less than %d days!!
+Remove Folder: %s
+Fail to remove folder: %s!!, Error Code: %ld
+fDelete file: %s
+Fail to delete %s!!, Error Code: %ld
+%s: cache size: %lu bytes
+Skip to delete file for access data: %s
+f%s: cache size: %lu bytes
+%s: cache size: %lu bytes
+Fail to empty %s folder!!
+%s: cache size: %lu bytes
+Fail to empty %s folder!!
+Fail to empty %s folder!!
+Fail to empty %s folder!!
+Local AppData Temp Folder: %s
+Fail to query Recycle Bin size!!, Error Code: %d
+%s path is not exist!!
+Fail to call GetBrowserCacheSize!!, JunkSizeCallback: NULL
+Fail to clean Recycle Bin!!, Error Code: %d
+Fail to call CleanBrowserCache!!, JunkCleanCallback: NULL
+%d Bytes
+Fail to call GetBrowserCacheSize!!, Error Code: %ld
+Fail to get Local AppData Folder!!, Error Code: %d
+Fail to call CleanBrowserCache!!, Error Code: %ld
+Fail to call GetTempFileFolderSize!!, JunkSizeCallback: NULL
+Fail to call CleanTempFileFolder!!, JunkCleanCallback: NULL
+Fail to call GetTempFileFolderSize!!, Error Code: %ld
+Fail to call GetRecycleBinSize!!, JunkSizeCallback: NULL
+%d Byte
+System Volume Information
+Fail to call CleanTempFileFolder!!, Error Code: %ld
+Fail to call CleanRecycleBin!!, JunkCleanCallback: NULL
+Fail to call GetRecycleBinSize!!, Error Code: %ld
+MSOCache
+Fail to call CleanRecycleBin!!, Error Code: %ld
+%d.%02d
+Fail to get csidl(%d) Folder!!, Error Code: %d
+%04d/%02d/%02d %02d:%02d:%02d
+csidl(%d) Folder: %s
+Recovery
+Fail to get knownFolderId(%s) Folder!!, Error Code: %d
+dknownFolderId(%s) Folder: %s
+%c:\%s
+bootmgr
+$Recycle.Bin
+BOOTNXT
+Drive %c is not ready!!
+Abort event is enabled!!
+Drive %c: Fail to get volume info!! Error Code: %ld
+Drive %c: TotalSize: %s, FreeSize: %s
+Drive %c can not get disk size!!, Error Code: %ld
+Drive %c is not Fixed!!
+%s path is not exist!!
+Path is empty!!
+Abort event is enabled!!
+%s folder is empty!
+lClean File: %s\%s"
+lPath is empty!!
+Abort event is enabled!!
+Abort event is enabled!!
+%s path is not exist!!
+%s folder is empty!
+ExcludingFilterDirectory: %s
+FilterDirectoryName: %s
+FilterDirectory: %s
+FilterFileExt: %s
+FilterFileAttr: %ld
+Drive %c is exist.
+FilterBootFile: %s
+Delete file: %s
+Fail to delete %s!!, Error Code: %ld
+Fail to delete %s!!, Error Code: %ld
+StartToScanFiles: Parameters is invalid!!
+StartToScanFiles: FilterFileType:%d, CleanDiskType:%d, iDrive:%d
+Fail to call StartToScanFiles!!, Error Code: %ld
+ntdll.dll
+JUCEWindow
+#+3;CScs
+IPTip_Main_Window
+ImmersiveColorSet
+Microsoft Text Input Application
+ApplicationFrameWindow
+api-ms-win-core-winrt-l1-1-0
+Windows.UI.Core.CoreWindow
+Windows.UI.ViewManagement.UIViewSettings
+?@@@@@@@
+: M X k s 
+VS_VERSION_INFO
+StringFileInfo
+040904E4
+CompanyName
+I3D Technology Inc.
+LegalCopyright
+(C) I3D Technology Inc.
+FileDescription
+A Care Center User Process
+FileVersion
+ProductName
+Acer Care Center
+ProductVersion
+VarFileInfo
+Translation
+&I3D Technology Inc
