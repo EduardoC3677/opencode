@@ -3,7 +3,9 @@
   "share": "disabled",
   "autoupdate": false,
   "snapshot": false,
-  "enabled_providers": ["azure-anthropic"],
+  "enabled_providers": [
+    "azure-anthropic"
+  ],
   "model": "azure-anthropic/claude-opus-4-7",
   "small_model": "azure-anthropic/claude-opus-4-7",
   "default_agent": "ci",
@@ -28,42 +30,12 @@
       "mode": "primary",
       "model": "azure-anthropic/claude-opus-4-7",
       "description": "CI no-interactive (sin preguntas, sin plan mode), con continuidad para tareas largas.",
-      "prompt": "Eres un agente autónomo en GitHub Actions. PROHIBIDO hacer preguntas o pedir confirmación. NO uses plan mode. Ejecuta directamente, escribe archivos cuando haga falta y deja un resumen incremental al final de cada fase. Si falta información, asume valores razonables y documenta supuestos.",
-      "temperature": 0.2,
-      "top_p": 0.9,
-      "options": {
-        "thinking": true,
-        "reasoningEffort": "high"
-      },
-      "permission": {
-        "*": "allow",
-        "question": "deny",
-        "edit": "allow",
-        "bash": "allow",
-        "read": "allow",
-        "doom_loop": "allow",
-        "external_directory": "allow"
-      }
+      "prompt": "Eres un agente autónomo en GitHub Actions. PROHIBIDO hacer preguntas o pedir confirmación. NO uses plan mode. Ejecuta directamente, escribe archivos cuando haga falta y deja un resumen incremental al final de cada fase. Si falta información, asume valores razonables y documenta supuestos."
     },
     "build": {
       "mode": "subagent",
       "model": "azure-anthropic/claude-opus-4-7",
-      "prompt": "Eres el subagente build. Ejecuta tareas y escribe archivos sin preguntas ni confirmaciones. Si falta info, asume valores razonables y continúa.",
-      "temperature": 0.2,
-      "top_p": 0.9,
-      "options": {
-        "thinking": true,
-        "reasoningEffort": "high"
-      },
-      "permission": {
-        "*": "allow",
-        "question": "deny",
-        "edit": "allow",
-        "bash": "allow",
-        "read": "allow",
-        "doom_loop": "allow",
-        "external_directory": "allow"
-      }
+      "prompt": "Eres el subagente build. Ejecuta tareas y escribe archivos sin preguntas ni confirmaciones. Si falta info, asume valores razonables y continúa."
     },
     "plan": {
       "disable": true
@@ -93,19 +65,31 @@
   "mcp": {
     "mcp_memory": {
       "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-memory"],
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
       "enabled": true,
       "timeout": 5000
     },
     "mcp_sequential_thinking": {
       "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
       "enabled": true,
       "timeout": 5000
     },
     "mcp_github": {
       "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-github"],
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
       "enabled": true,
       "environment": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_TOKEN}"
@@ -118,10 +102,14 @@
       "npm": "@ai-sdk/anthropic",
       "name": "Azure Anthropic Foundry",
       "options": {
-        "baseURL": "https://opencoder-resource.openai.azure.com/anthropic/v1",
+        "baseURL": "https://opencoder-resource.openai.azure.com/anthropic",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
-        "timeout": 120000,
-        "chunkTimeout": 10000
+        "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer {env:AZURE_OPENAI_API_KEY}",
+            "anthropic-version": "2023-06-01"
+          },
+        "timeout": 120000
       },
       "models": {
         "claude-opus-4-7": {
@@ -135,13 +123,7 @@
             "input": 0,
             "output": 0
           },
-          "headers": {
-            "api-key": "{env:AZURE_OPENAI_API_KEY}",
-            "anthropic-version": "2023-06-01"
-          },
           "options": {
-            "thinking": true,
-            "reasoningEffort": "high",
             "temperature": 0.2,
             "top_p": 0.9
           }
