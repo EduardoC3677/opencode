@@ -30,25 +30,26 @@
           "name": "DeepSeek V4 Flash",
           "tools": true,
           "modalities": {
-            "input": ["text"],
-            "output": ["text"]
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
           },
           "limit": {
-            "context": 131072,
-            "output": 128000
+            "context": 32768,
+            "output": 16384
           },
           "cost": {
-            "input": 0.14,
-            "output": 0.28
+            "input": 0,
+            "output": 0
           },
           "options": {
-            "reasoningEffort": "max",
-            "temperature": 0.73,
-            "top_p": 0.9,
-            "presence_penalty": 0,
-            "frequency_penalty": 2,
+            "reasoningEffort": "high",
             "parallel_tool_calls": true,
-            "tool_choice": "auto"
+            "tool_choice": "auto",
+            "temperature": 0.7
           }
         },
         "DeepSeek-V3.2": {
@@ -104,8 +105,12 @@
             "output": 10000
           },
           "modalities": {
-            "input": ["text"],
-            "output": ["text"]
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
           },
           "cost": {
             "input": 0,
