@@ -8,7 +8,7 @@
   ],
   "model": "azure-anthropic/claude-opus-4-7",
   "small_model": "azure-anthropic/claude-opus-4-7",
-  "default_agent": "ci",
+  "default_agent": "build",
   "permission": {
     "*": "allow",
     "question": "deny",
@@ -26,24 +26,13 @@
     "external_directory": "allow"
   },
   "agent": {
-    "ci": {
-      "mode": "primary",
-      "model": "azure-anthropic/claude-opus-4-7",
-      "description": "CI no-interactive (sin preguntas, sin plan mode), con continuidad para tareas largas.",
-      "prompt": "Eres un agente autónomo en GitHub Actions. PROHIBIDO hacer preguntas o pedir confirmación. NO uses plan mode. Ejecuta directamente, escribe archivos cuando haga falta y deja un resumen incremental al final de cada fase. Si falta información, asume valores razonables y documenta supuestos."
-    },
-    "build": {
-      "mode": "subagent",
-      "model": "azure-anthropic/claude-opus-4-7",
-      "prompt": "Eres el subagente build. Ejecuta tareas y escribe archivos sin preguntas ni confirmaciones. Si falta info, asume valores razonables y continúa."
-    },
     "plan": {
       "disable": true
     }
   },
   "compaction": {
-    "auto": true,
-    "prune": true,
+    "auto": false,
+    "prune": false,
     "reserved": 12000
   },
   "watcher": {
@@ -60,7 +49,9 @@
   "formatter": false,
   "plugin": [
     "@tarquinen/opencode-dcp@latest",
-    "@zenobius/opencode-skillful"
+    "@ramtinj95/opencode-tokenscope@latest",
+    "@cortexkit/opencode-magic-context@latest",
+    "@reinamaccredy/oh-my-opencode@latest"
   ],
   "mcp": {
     "mcp_memory": {
@@ -104,12 +95,8 @@
       "options": {
         "baseURL": "https://opencoder-resource.openai.azure.com/anthropic/v1",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
-        "headers": {
-            "Content-Type": "application/json",
-            "Authorization": "Bearer {env:AZURE_OPENAI_API_KEY}",
-            "anthropic-version": "2023-06-01"
-          },
-        "timeout": 120000
+        "timeout": 120000,
+        "chunkTimeout": 10000
       },
       "models": {
         "claude-opus-4-7": {
@@ -122,6 +109,11 @@
           "cost": {
             "input": 0,
             "output": 0
+          },
+          "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer {env:AZURE_OPENAI_API_KEY}",
+            "anthropic-version": "2023-06-01"
           },
           "options": {
             "temperature": 0.2,
