@@ -1,5 +1,8 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "share": "manual",
+  "model": "azure-openai/DeepSeek-V4-Flash",
+  "small_model": "azure-openai/DeepSeek-V4-Flash",
   "provider": {
     "azure-openai": {
       "npm": "@ai-sdk/openai-compatible",
@@ -25,6 +28,15 @@
         },
         "DeepSeek-V4-Flash": {
           "name": "DeepSeek V4 Flash",
+          "tools": true,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
           "limit": {
             "context": 32768,
             "output": 16384
@@ -32,6 +44,15 @@
           "cost": {
             "input": 0,
             "output": 0
+          }
+          "options": {
+            "reasoningEffort": "high",
+            "textVerbosity": "low",
+            "reasoningSummary": "auto",
+            "parallel_tool_calls": true,
+            "tool_choice": "auto",
+            "thinking": true,
+            "temperature": 0.7
           }
         },
         "DeepSeek-V3.2": {
@@ -81,13 +102,31 @@
       "models": {
         "claude-opus-4-7": {
           "name": "Claude Opus 4.7",
+          "tools": true,
           "limit": {
             "context": 200000,
-            "output": 1000
+            "output": 10000
+          },
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
           },
           "cost": {
             "input": 0,
             "output": 0
+          }
+          "options": {
+            "reasoningEffort": "high",
+            "textVerbosity": "low",
+            "reasoningSummary": "auto",
+            "parallel_tool_calls": true,
+            "tool_choice": "auto",
+            "thinking": true,
+            "temperature": 0.7
           }
         },
         "claude-opus-4-6": {
@@ -150,9 +189,79 @@
       }
     }
   },
+  "permission": {
+    "read": "allow",
+    "grep": "allow",
+    "glob": "allow",
+    "edit": "allow",
+    "write": "allow",
+    "list": "allow",
+    "skill": "allow",
+    "webfetch": "allow"
+  },
+  "compaction": {
+    "auto": true,
+    "prune": true
+  },
   "watcher": {
     "ignore": [
-      ".opencode/node_modules/**"
+      "node_modules/*",
+      "dist/*",
+      ".cargo/*",
+      "target/*",
+      ".git/**",
+      "*cache*/",
+      ".sisyphus/*",
+      ".venv/*",
+      "venv/*"
     ]
+  },
+  "plugin": [
+    "oh-my-openagent@3.17.4",
+    "@franlol/opencode-md-table-formatter@0.0.6",
+    "opencode-agent-skills@0.6.5",
+    "opencode-auto-resume@1.0.10",
+    "opencode-plugin-auto-update@0.3.1"
+  ],
+  "autoupdate": true,
+  "experimental": {
+    "openTelemetry": false
+  },
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true
+    },
+    "grep_app": {
+      "type": "remote",
+      "url": "https://mcp.grep.app",
+      "enabled": true
+    },
+    "websearch": {
+      "type": "remote",
+      "url": "https://mcp.exa.ai/mcp?tools=web_search_exa",
+      "enabled": true
+    },
+    "sequentialthinking": {
+      "type": "remote",
+      "url": "https://remote.mcpservers.org/sequentialthinking/mcp",
+      "enabled": true
+    },
+    "fetch": {
+      "type": "remote",
+      "url": "https://remote.mcpservers.org/fetch/mcp",
+      "enabled": true
+    },
+    "deepwiki": {
+      "type": "remote",
+      "url": "https://mcp.deepwiki.com/mcp",
+      "enabled": true
+    }
+  },
+  "agent": {
+    "compaction": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    }
   }
 }
