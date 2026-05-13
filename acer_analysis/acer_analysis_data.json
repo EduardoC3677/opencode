@@ -1,0 +1,1924 @@
+{
+  "acer_com": {
+    "html_size": 256179,
+    "status_code": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "x-aspnetmvc-version": "5.3",
+      "access-control-allow-origin": "*",
+      "strict-transport-security": "max-age=31536000, max-age=31536000; includeSubDomains",
+      "x-akamai-transformed": "9 23506 0 pmb=mRUM,1",
+      "content-encoding": "gzip",
+      "expires": "Wed, 13 May 2026 02:21:04 GMT",
+      "cache-control": "max-age=0, no-cache, no-store",
+      "pragma": "no-cache",
+      "date": "Wed, 13 May 2026 02:21:04 GMT",
+      "content-length": "25474",
+      "vary": "Accept-Encoding",
+      "set-cookie": "acer_cdn_uc=US; path=/; secure, acer_cdn_ulc=us-en; expires=Thu, 13-May-2027 02:21:04 GMT; path=/; secure, _agw-prdru=as; expires=Mon, 01-May-2023 09:42:03 GMT; domain=.acer.com, ak_bmsc=2379D8A139390EB1CBFBFE4721702512~000000000000000000000000000000~YAAQOWIwF7lixfGdAQAAUkEjHx+2KSwaP7+lrntthhCYq8pSIFx2870AUNYmt18Bl78HVrD9zYAQstKeR3WwsoGCwQXNfvyNE75SLwxyB5EvB/GMpzK1Zz8imaueksduHedydxequraDTx5Yxm5fNw1WjShm2y2PC8DlT7duwyUfu0ZsI144mwvxACTcinlwzm+uvfkWUCecOx7kwP6U9naskwFIj35Lo/EOvmgz8MCfDDSRCasRZaCBNUWDOoTGNfcQCEd7/43oXkxEh77avfiJs5JZwFmWx5nvYDCrSv6ipqyddkcOGbZkVnLNWuVUiYMI/MMELq8SbSkkD6pMhdPBdQYihpflWmSSuk1BTeR6Ylhtk0zI7fg5cj/Nalks1GYD7b8BOBJe; Domain=.acer.com; Path=/; Expires=Wed, 13 May 2026 04:21:04 GMT; Max-Age=7200; HttpOnly, bm_mi=566E42D7120BAFC1093801DD5B8A9B97~YAAQOWIwF7pixfGdAQAAUkEjHx8YBnxuzn4kVT2T/e5uRryoE52LBWoOZ13BXFMzoynlO81AGbWHVaTl6d27XCVm83Uo4m1lGpARFnPEERKVBOTPSLsepyTZu/cwyFdLbHwA37lQuqc7ccVwz08SBL5YdIJ/B3mW58VOyS+jpOtRGKgzRuOdglrIFwkMbFRw1Ytl49wG/CtJnMfUGVWKKC8uF3ZK7d7VpLztmT7YziphzF5R8tTMMkOfD6Ln9ZNNmCpcKWiBfeAOvoZ6wrhlS6qpSQa1NDmT0WO2uEZI4NUyCYE4pry2m1m52i/SkA==~1; Domain=.acer.com; Path=/; Expires=Wed, 13 May 2026 02:21:04 GMT; Max-Age=0; Secure, bm_sz=5E809350042E080714D00A8B55CE137F~YAAQOWIwF7tixfGdAQAAUkEjHx83r7FOPeRZdPhTS/jLDxwwRMAS6Yo331fO33Bp62BZehVE224WOqBxx8csB/1GMggd087yjDd6oXW/MRMmtzDQcknBE25J+Feppl5iJZBSGTu8yFYMkP3r6b+2qyf+Yk12Mg7aJGADG7L9AEAsanSEtDGZGueB+9qdM/9O56UvtphAe1Cqeqecr1GobPkhf6QEzE8IBQVwvg2EQacjMxQoJ4iqeMGGNSIJxh7sWZqCcvs3PuiNIszTeAbzJHeurXHd4YIeqH8YeYcj9TtxideGEyGI1Qp6ubWBCtxczroOXPTlzaqcr0zyJdqWAsOU7YNqN4gH7rrm4DABaJttbnH3dLW7b1CchXR72L0mt876m4zS2zolxa7D6rs/~4538694~3159105; Domain=.acer.com; Path=/; Expires=Wed, 13 May 2026 06:21:04 GMT; Max-Age=14400",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=41, origin; dur=0, ak_p; desc=\"1778638864659_389046841_24039464_4146_15014_2_0_255\";dur=1",
+      "x-frame-options": "SAMEORIGIN",
+      "content-security-policy": "default-src *.acer.com *.acer.com.cn  https:  blob: data: 'unsafe-inline' 'unsafe-eval';worker-src 'self' blob: *.acer.com *.acer.com.cn *.visualwebsiteoptimizer.com https: 'unsafe-inline' 'unsafe-eval';object-src *;script-src *.acer.com *.acer.com.cn https: 'unsafe-inline' 'unsafe-eval';frame-ancestors 'self' *.acer.com *.acer.com.cn;img-src * 'self' data: https:;font-src * 'self' data: https:;",
+      "permissions-policy": "geolocation=(self),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self \"https://www.youtube-nocookie.com\" \"https://www.youtube.com\"),payment=()",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "x-content-type-options": "nosniff",
+      "redirect-origin": "Default",
+      "x-msg-2-log": "country=US"
+    },
+    "saved_html": "/home/runner/work/opencode/opencode/acer_analysis/html_pages/acer_com_homepage.html",
+    "downloaded_css": [
+      "/home/runner/work/opencode/opencode/acer_analysis/css_files/icon.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/css_files/system_assets_css_main.css",
+      "/home/runner/work/opencode/opencode/acer_analysis/css_files/system_assets_fonts_acerIcons_acer-icons.css",
+      "/home/runner/work/opencode/opencode/acer_analysis/css_files/system_assets_fonts_google-fonts.css"
+    ],
+    "downloaded_js": [
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/scripttemplates_otSDKStub.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/npm_objectFitPolyfill_2.3.0_dist_objectFitPolyfill.min.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/ajax_libs_object-fit-images_3.2.4_ofi.min.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/recaptcha_api.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/iframe_api.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/Scripts_jquery-3.6.0.min.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/akam_13_dbde8b.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/system_assets_js_main.bundle.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/system_assets_js_vendors.bundle.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/system_assets_js_common.bundle.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/Scripts_utility.js",
+      "/home/runner/work/opencode/opencode/acer_analysis/js_files/zAVw0Xql_uNySM9J_btTybM7_wn_Vuuw0rG0pmwkVN1Y_KBgHAQ_W3UZCid2_T00B.js"
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-KR777P"
+    ],
+    "support_html_size": 270176
+  },
+  "subdomains": [
+    {
+      "subdomain": "www.acer.com",
+      "url": "https://www.acer.com",
+      "status": 200,
+      "final_url": "https://www.acer.com/us-en/",
+      "title": "Acer Laptops, Desktops, Chromebooks, Monitors & Projectors | Acer United States",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "community.acer.com",
+      "url": "https://community.acer.com",
+      "status": 200,
+      "final_url": "https://community.acer.com/en",
+      "title": "Home - Acer Community",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "store.acer.com",
+      "url": "https://store.acer.com",
+      "status": 200,
+      "final_url": "https://store.acer.com/en-us/",
+      "title": "Acer Store - US | Laptops, Desktops, Chromebooks, Monitors and more!",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "support.acer.com",
+      "url": "https://support.acer.com",
+      "status": 200,
+      "final_url": "https://www.acer.com/us-en/support",
+      "title": "Support | Acer United States",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "account.acer.com",
+      "url": "https://account.acer.com",
+      "status": 404,
+      "final_url": "https://account.acer.com/",
+      "title": "",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "eshop.acer.com",
+      "url": "https://eshop.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: eshop.acer.com. See https://curl.se/libcurl/c/l"
+    },
+    {
+      "subdomain": "blog.acer.com",
+      "url": "https://blog.acer.com",
+      "status": 200,
+      "final_url": "https://blog.acer.com/en",
+      "title": "Home - Acer Corner",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "investor.acer.com",
+      "url": "https://investor.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: investor.acer.com. See https://curl.se/libcurl/"
+    },
+    {
+      "subdomain": "news.acer.com",
+      "url": "https://news.acer.com",
+      "status": 200,
+      "final_url": "https://news.acer.com/",
+      "title": "Acer Press Room",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "careers.acer.com",
+      "url": "https://careers.acer.com",
+      "status": 200,
+      "final_url": "https://careers.acer.com/",
+      "title": "Acer Career",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "laptop.acer.com",
+      "url": "https://laptop.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: laptop.acer.com. See https://curl.se/libcurl/c/"
+    },
+    {
+      "subdomain": "predator.acer.com",
+      "url": "https://predator.acer.com",
+      "status": 200,
+      "final_url": "https://www.acer.com/us-en/predator",
+      "title": "Predator Gaming | It Lies Within | Predator | Acer United States",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "aspire.acer.com",
+      "url": "https://aspire.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: aspire.acer.com. See https://curl.se/libcurl/c/"
+    },
+    {
+      "subdomain": "landing.acer.com",
+      "url": "https://landing.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: landing.acer.com. See https://curl.se/libcurl/c"
+    },
+    {
+      "subdomain": "config.acer.com",
+      "url": "https://config.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: config.acer.com. See https://curl.se/libcurl/c/"
+    },
+    {
+      "subdomain": "driver.acer.com",
+      "url": "https://driver.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: driver.acer.com. See https://curl.se/libcurl/c/"
+    },
+    {
+      "subdomain": "download.acer.com",
+      "url": "https://download.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: download.acer.com. See https://curl.se/libcurl/"
+    },
+    {
+      "subdomain": "ftp.acer.com",
+      "url": "https://ftp.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: ftp.acer.com. See https://curl.se/libcurl/c/lib"
+    },
+    {
+      "subdomain": "ftp2.acer.com",
+      "url": "https://ftp2.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: ftp2.acer.com. See https://curl.se/libcurl/c/li"
+    },
+    {
+      "subdomain": "global.acer.com",
+      "url": "https://global.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: global.acer.com. See https://curl.se/libcurl/c/"
+    },
+    {
+      "subdomain": "id.acer.com",
+      "url": "https://id.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: id.acer.com. See https://curl.se/libcurl/c/libc"
+    },
+    {
+      "subdomain": "login.acer.com",
+      "url": "https://login.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: login.acer.com. See https://curl.se/libcurl/c/l"
+    },
+    {
+      "subdomain": "my.acer.com",
+      "url": "https://my.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: my.acer.com. See https://curl.se/libcurl/c/libc"
+    },
+    {
+      "subdomain": "partner.acer.com",
+      "url": "https://partner.acer.com",
+      "status": 200,
+      "final_url": "https://partner.acer.com/channel/en/GB/signin?nav=page2x.0&link=oln4x.redirect&so=opu1",
+      "title": "Acer | Channel Portal - Login",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "parts.acer.com",
+      "url": "https://parts.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: parts.acer.com. See https://curl.se/libcurl/c/l"
+    },
+    {
+      "subdomain": "registration.acer.com",
+      "url": "https://registration.acer.com",
+      "status": 200,
+      "final_url": "https://registration.acer.com/",
+      "title": "",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "service.acer.com",
+      "url": "https://service.acer.com",
+      "status": 200,
+      "final_url": "https://www.acer.com/us-en/support",
+      "title": "Support | Acer United States",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "static.acer.com",
+      "url": "https://static.acer.com",
+      "status": 503,
+      "final_url": "https://static.acer.com/",
+      "title": "Service Unavailable",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "status.acer.com",
+      "url": "https://status.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: status.acer.com. See https://curl.se/libcurl/c/"
+    },
+    {
+      "subdomain": "api.acer.com",
+      "url": "https://api.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: api.acer.com. See https://curl.se/libcurl/c/lib"
+    },
+    {
+      "subdomain": "cdn.acer.com",
+      "url": "https://cdn.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: cdn.acer.com. See https://curl.se/libcurl/c/lib"
+    },
+    {
+      "subdomain": "images.acer.com",
+      "url": "https://images.acer.com",
+      "status": 404,
+      "final_url": "https://images.acer.com/",
+      "title": "",
+      "accessible": true,
+      "redirect": true
+    },
+    {
+      "subdomain": "assets.acer.com",
+      "url": "https://assets.acer.com",
+      "status": 0,
+      "accessible": false,
+      "error": "Failed to perform, curl: (6) Could not resolve host: assets.acer.com. See https://curl.se/libcurl/c/"
+    }
+  ],
+  "recovery_links": [
+    {
+      "keyword": "download",
+      "context": "h-100 agw-object-fit-cover\" autoplay muted playsinline loop disablePictureInPicture controlsList=\"nodownload\" data-object-fit=\"cover\" data-object-position=\"center\"><source src=\"https://images.acer.com/is/content/acer/Computex2026--AGW-Home-Banner-Acer\" type=\"video/mp4\"><track src=\"\" kind=\"captions\" "
+    },
+    {
+      "keyword": "driver",
+      "context": "<li class=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-underline\" href=\"/us-en/support/drivers-and-manuals\" onclick=\"dataLayer.push({&quot;event&quot;:&quot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Drivers and Manuals&quot;,&qu"
+    },
+    {
+      "keyword": "driver",
+      "context": "oter_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Drivers and Manuals&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Drivers and Manuals&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/drivers-and"
+    },
+    {
+      "keyword": "driver",
+      "context": "Drivers and Manuals&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Drivers and Manuals&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/drivers-and-manuals&quot;})\"\n\t\t\t\t            aria-label=\"Drivers and Manuals\">\n\t\t\t\t            Drivers and Manu"
+    },
+    {
+      "keyword": "driver",
+      "context": "uot;:&quot;Drivers and Manuals&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/drivers-and-manuals&quot;})\"\n\t\t\t\t            aria-label=\"Drivers and Manuals\">\n\t\t\t\t            Drivers and Manuals\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        <li class="
+    },
+    {
+      "keyword": "driver",
+      "context": ";:&quot;https://www.acer.com/us-en/support/drivers-and-manuals&quot;})\"\n\t\t\t\t            aria-label=\"Drivers and Manuals\">\n\t\t\t\t            Drivers and Manuals\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        <li class=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-und"
+    },
+    {
+      "keyword": "driver",
+      "context": "port/drivers-and-manuals&quot;})\"\n\t\t\t\t            aria-label=\"Drivers and Manuals\">\n\t\t\t\t            Drivers and Manuals\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        <li class=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-underline\" href=\"https://community.acer.c"
+    },
+    {
+      "keyword": "support",
+      "context": "<div class=\"mobile-menu-item_first\">\n            \t\t\t<a tabindex=\"0\"  href=\"/us-en/support\" \n            \t\t\t\tonclick=\"dataLayer.push({&quot;event&quot;:&quot;ct_header_nav&quot;,&quot;eventAction&quot;:&quot;header_nav&quot;,&quot;eventLabel&quot;:&quot;Support&quot;,&quot;eventParam1&quot"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_header_nav&quot;,&quot;eventAction&quot;:&quot;header_nav&quot;,&quot;eventLabel&quot;:&quot;Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n            \t\t\t\tSupport"
+    },
+    {
+      "keyword": "support",
+      "context": "ot;:&quot;header_nav&quot;,&quot;eventLabel&quot;:&quot;Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n            \t\t\t\tSupport\n            \t\t\t</a>\n            \n            "
+    },
+    {
+      "keyword": "support",
+      "context": "quot;:&quot;Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n            \t\t\t\tSupport\n            \t\t\t</a>\n            \n            \t\t</div>\n            \n            \t\t<div cla"
+    },
+    {
+      "keyword": "support",
+      "context": ",&quot;eventParam2&quot;:&quot;Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n            \t\t\t\tSupport\n            \t\t\t</a>\n            \n            \t\t</div>\n            \n            \t\t<div class=\"mobile-menu-item_first brand-color\">\n            \t\t  <a data-mobi"
+    },
+    {
+      "keyword": "support",
+      "context": "port&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n            \t\t\t\tSupport\n            \t\t\t</a>\n            \n            \t\t</div>\n            \n            \t\t<div class=\"mobile-menu-item_first brand-color\">\n            \t\t  <a data-mobile-drilldown=\"Acer Brands\" role=\"b"
+    },
+    {
+      "keyword": "support",
+      "context": "Education\n          \t</a>\n          \t\n          \t<a class=\"level-menu-item\"  href=\"/us-en/support\" onclick=\"dataLayer.push({&quot;event&quot;:&quot;ct_header_nav&quot;,&quot;eventAction&quot;:&quot;header_nav&quot;,&quot;eventLabel&quot;:&quot;Support&quot;,&quot;eventParam1&quot;:&quot;Support&q"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_header_nav&quot;,&quot;eventAction&quot;:&quot;header_nav&quot;,&quot;eventLabel&quot;:&quot;Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n          \t\tSupport\n     "
+    },
+    {
+      "keyword": "support",
+      "context": "ot;:&quot;header_nav&quot;,&quot;eventLabel&quot;:&quot;Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n          \t\tSupport\n          \t</a>\n          </nav>        </div>\n  "
+    },
+    {
+      "keyword": "support",
+      "context": "quot;:&quot;Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n          \t\tSupport\n          \t</a>\n          </nav>        </div>\n        <div class=\"agw-col agw-d-flex agw-jus"
+    },
+    {
+      "keyword": "support",
+      "context": ",&quot;eventParam2&quot;:&quot;Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n          \t\tSupport\n          \t</a>\n          </nav>        </div>\n        <div class=\"agw-col agw-d-flex agw-justify-content-end\">\n          <div id=\"searchIcon\" class=\"agw-d-flex a"
+    },
+    {
+      "keyword": "support",
+      "context": ";Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support&quot;})\">\n          \t\tSupport\n          \t</a>\n          </nav>        </div>\n        <div class=\"agw-col agw-d-flex agw-justify-content-end\">\n          <div id=\"searchIcon\" class=\"agw-d-flex agw-justify-content-end agw-h-1"
+    },
+    {
+      "keyword": "support",
+      "context": "</div>\n\t\t\t\t<div class=\"agw-col-md-3\">\n\t\t\t\t  <div class=\"footer-column\" role=\"region\" aria-label=\"Support\">\n\t\t\t\t    <p class=\"agw-fw-semibold agw-fs-body-l agw-mb-md-050 agw-d-none agw-d-md-block\">\n\t\t\t\t      Support\n\t\t\t\t    </p>\n\t\t\t\t    <button class=\"agw-btn agw-w-100 agw-d-md-none agw-d-flex agw-ju"
+    },
+    {
+      "keyword": "support",
+      "context": "<p class=\"agw-fw-semibold agw-fs-body-l agw-mb-md-050 agw-d-none agw-d-md-block\">\n\t\t\t\t      Support\n\t\t\t\t    </p>\n\t\t\t\t    <button class=\"agw-btn agw-w-100 agw-d-md-none agw-d-flex agw-justify-content-between agw-align-items-center\" data-footer-menu\n\t\t\t\t      aria-expanded=\"false\">\n\t\t\t\t      Support"
+    },
+    {
+      "keyword": "support",
+      "context": "content-between agw-align-items-center\" data-footer-menu\n\t\t\t\t      aria-expanded=\"false\">\n\t\t\t\t      Support\n\t\t\t\t      <span class=\"agw-icon-chevron-down rotated\" aria-hidden=\"true\"></span>\n\t\t\t\t    </button>\n\t\t\t\t    <div data-footer-menuItem>\n\t\t\t\t      <ul class=\"agw-d-flex agw-flex-column agw-pl-0\">"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Acer ID&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Acer ID&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/whats-acer-id&quot;})\"\n\t\t\t\t       "
+    },
+    {
+      "keyword": "support",
+      "context": ";footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Acer ID&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Acer ID&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/whats-acer-id&quot;})\"\n\t\t\t\t            aria-label=\"Acer ID\">\n\t\t\t\t            Acer ID"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Register a Product&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Register a Product&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/account/regi"
+    },
+    {
+      "keyword": "support",
+      "context": "&quot;,&quot;eventLabel&quot;:&quot;Support||Register a Product&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Register a Product&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/account/registerproduct&quot;})\"\n\t\t\t\t            aria-label=\"Register a Prod"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Acer Community&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Acer Community&quot;,&quot;click_url&quot;:&quot;https://community.acer.com/&quot;})\"\n\t\t\t\t      "
+    },
+    {
+      "keyword": "support",
+      "context": "_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Acer Community&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Acer Community&quot;,&quot;click_url&quot;:&quot;https://community.acer.com/&quot;})\"\n\t\t\t\t            aria-label=\"Acer Community\">\n\t\t\t\t            Acer Comm"
+    },
+    {
+      "keyword": "support",
+      "context": "<li class=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-underline\" href=\"/us-en/support/drivers-and-manuals\" onclick=\"dataLayer.push({&quot;event&quot;:&quot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Drivers and Manuals&quot"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Drivers and Manuals&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Drivers and Manuals&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/dr"
+    },
+    {
+      "keyword": "support",
+      "context": "quot;,&quot;eventLabel&quot;:&quot;Support||Drivers and Manuals&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Drivers and Manuals&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/drivers-and-manuals&quot;})\"\n\t\t\t\t            aria-label=\"Drivers an"
+    },
+    {
+      "keyword": "support",
+      "context": "Param2&quot;:&quot;Drivers and Manuals&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/drivers-and-manuals&quot;})\"\n\t\t\t\t            aria-label=\"Drivers and Manuals\">\n\t\t\t\t            Drivers and Manuals\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        <l"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Acer Answers&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Acer Answers&quot;,&quot;click_url&quot;:&quot;https://community.acer.com/en/kb&quot;})\""
+    },
+    {
+      "keyword": "support",
+      "context": "er_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Acer Answers&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Acer Answers&quot;,&quot;click_url&quot;:&quot;https://community.acer.com/en/kb&quot;})\"\n\t\t\t\t            aria-label=\"Acer Answers\">\n\t\t\t\t            Acer Ans"
+    },
+    {
+      "keyword": "support",
+      "context": "s=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-underline\" href=\"https://www.acer.com/us-en/support/contact-acer\" onclick=\"dataLayer.push({&quot;event&quot;:&quot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Contact Support&quot;,&q"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Contact Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Contact Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/contact-ac"
+    },
+    {
+      "keyword": "support",
+      "context": "&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Contact Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Contact Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/contact-acer&quot;})\""
+    },
+    {
+      "keyword": "support",
+      "context": "nav&quot;,&quot;eventLabel&quot;:&quot;Support||Contact Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Contact Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/contact-acer&quot;})\"\n\t\t\t\t            aria-label=\"Contact Support\">"
+    },
+    {
+      "keyword": "support",
+      "context": "act Support&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Contact Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/contact-acer&quot;})\"\n\t\t\t\t            aria-label=\"Contact Support\">\n\t\t\t\t            Contact Support\n\t\t\t\t          </a>"
+    },
+    {
+      "keyword": "support",
+      "context": "ventParam2&quot;:&quot;Contact Support&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/contact-acer&quot;})\"\n\t\t\t\t            aria-label=\"Contact Support\">\n\t\t\t\t            Contact Support\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        <li class=\"agw-py"
+    },
+    {
+      "keyword": "support",
+      "context": ":&quot;https://www.acer.com/us-en/support/contact-acer&quot;})\"\n\t\t\t\t            aria-label=\"Contact Support\">\n\t\t\t\t            Contact Support\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        <li class=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-underline\" href=\"/u"
+    },
+    {
+      "keyword": "support",
+      "context": "support/contact-acer&quot;})\"\n\t\t\t\t            aria-label=\"Contact Support\">\n\t\t\t\t            Contact Support\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        <li class=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-underline\" href=\"/us-en/support/security-advisory\" on"
+    },
+    {
+      "keyword": "support",
+      "context": "<li class=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-underline\" href=\"/us-en/support/security-advisory\" onclick=\"dataLayer.push({&quot;event&quot;:&quot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Security Advisory&quot;,&q"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Security Advisory&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Security Advisory&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/securi"
+    },
+    {
+      "keyword": "support",
+      "context": "v&quot;,&quot;eventLabel&quot;:&quot;Support||Security Advisory&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Security Advisory&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/security-advisory&quot;})\"\n\t\t\t\t            aria-label=\"Security Advis"
+    },
+    {
+      "keyword": "support",
+      "context": "ntParam2&quot;:&quot;Security Advisory&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/security-advisory&quot;})\"\n\t\t\t\t            aria-label=\"Security Advisory\">\n\t\t\t\t            Security Advisory\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        <li clas"
+    },
+    {
+      "keyword": "support",
+      "context": "<li class=\"agw-py-md-050\">\n\t\t\t\t          <a class=\"agw-slide-in-underline\" href=\"/us-en/support/alerts-recalls\" onclick=\"dataLayer.push({&quot;event&quot;:&quot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Alerts &amp; Recalls&quot;,&q"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;ct_footer_nav&quot;,&quot;eventAction&quot;:&quot;footer_nav&quot;,&quot;eventLabel&quot;:&quot;Support||Alerts &amp; Recalls&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Alerts &amp; Recalls&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/"
+    },
+    {
+      "keyword": "support",
+      "context": "uot;,&quot;eventLabel&quot;:&quot;Support||Alerts &amp; Recalls&quot;,&quot;eventParam1&quot;:&quot;Support&quot;,&quot;eventParam2&quot;:&quot;Alerts &amp; Recalls&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/alerts-recalls&quot;})\"\n\t\t\t\t            aria-label=\"Alerts &amp; R"
+    },
+    {
+      "keyword": "support",
+      "context": "aram2&quot;:&quot;Alerts &amp; Recalls&quot;,&quot;click_url&quot;:&quot;https://www.acer.com/us-en/support/alerts-recalls&quot;})\"\n\t\t\t\t            aria-label=\"Alerts &amp; Recalls\">\n\t\t\t\t            Alerts &amp; Recalls\n\t\t\t\t          </a>\n\t\t\t\t        </li>\n\t\t\t\t      </ul>\n\t\t\t\t    </div>\n\t\t\t\t  </div>"
+    }
+  ],
+  "zip_links": [],
+  "factory_media": [],
+  "support_links": [
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers and Manuals",
+      "page": "support"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers & Manuals",
+      "page": "support"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers and Manuals",
+      "page": "support"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers and Manuals",
+      "page": "https://www.acer.com/ac/en/US/content/support"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers & Manuals",
+      "page": "https://www.acer.com/ac/en/US/content/support"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers and Manuals",
+      "page": "https://www.acer.com/ac/en/US/content/support"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers and Manuals",
+      "page": "https://www.acer.com/ac/en/US/content/drivers"
+    },
+    {
+      "url": "https://community.acer.com/en/kb/articles/57?internal_source=agw::us-en&internal_campaign=Support_DM&internal_medium=drivers_support::text&internal_content=locate_sn::()",
+      "text": "Help me find it",
+      "page": "https://www.acer.com/ac/en/US/content/drivers"
+    },
+    {
+      "url": "https://global-download.acer.com/SupportFiles/Files/SNID/APP/SerialNumberDetectionTool.exe",
+      "text": "Download our serial number detection utility (Windows operating systems only)",
+      "page": "https://www.acer.com/ac/en/US/content/drivers"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers & Manuals",
+      "page": "https://www.acer.com/ac/en/US/content/drivers"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers and Manuals",
+      "page": "https://www.acer.com/ac/en/US/content/drivers"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals?utm_source=communityen&utm_medium=sidesideicons&utm_campaign=assistancebyacer202507",
+      "text": "",
+      "page": "https://community.acer.com/"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "",
+      "page": "https://community.acer.com/"
+    }
+  ],
+  "external_repos": [
+    {
+      "url": "https://www.acer.com/ac/en/US/content/drivers",
+      "status": 200,
+      "final_url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "size": 270553,
+      "title": "Download Acer Support Drivers and Manuals | Acer United States"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/",
+      "status": 200,
+      "final_url": "https://global-download.acer.com/error_page",
+      "size": 2399,
+      "title": "Acer - Error 404"
+    },
+    {
+      "url": "https://global-download.acer.com/",
+      "status": 200,
+      "final_url": "https://global-download.acer.com/",
+      "size": 4718,
+      "title": "Acer Global Download"
+    },
+    {
+      "url": "https://support.acer.com/",
+      "status": 200,
+      "final_url": "https://www.acer.com/us-en/support",
+      "size": 270175,
+      "title": "Support | Acer United States"
+    },
+    {
+      "url": "https://www.acer.com/ac/en/US/content/drivers/",
+      "status": 200,
+      "final_url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "size": 270553,
+      "title": "Download Acer Support Drivers and Manuals | Acer United States"
+    },
+    {
+      "url": "https://www.acer.com/ac/en/US/content/software/",
+      "status": 200,
+      "final_url": "https://www.acer.com/us-en/",
+      "size": 256178,
+      "title": "Acer Laptops, Desktops, Chromebooks, Monitors & Projectors | Acer United States"
+    },
+    {
+      "url": "https://global-download.acer.com/",
+      "status": 200,
+      "size": 4718,
+      "type": "ftp_or_repo"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/",
+      "status": 200,
+      "size": 2399,
+      "links_count": 0,
+      "type": "GDFiles"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/Document/",
+      "status": 200,
+      "size": 2399,
+      "links_count": 0,
+      "type": "GDFiles"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/Driver/",
+      "status": 200,
+      "size": 2399,
+      "links_count": 0,
+      "type": "GDFiles"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/Application/",
+      "status": 200,
+      "size": 2399,
+      "links_count": 0,
+      "type": "GDFiles"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/Bios/",
+      "status": 200,
+      "size": 2399,
+      "links_count": 0,
+      "type": "GDFiles"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/Utility/",
+      "status": 200,
+      "size": 2399,
+      "links_count": 0,
+      "type": "GDFiles"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/Recovery/",
+      "status": 200,
+      "size": 2399,
+      "links_count": 0,
+      "type": "GDFiles"
+    },
+    {
+      "url": "https://global-download.acer.com/GDFiles/Manual/",
+      "status": 200,
+      "size": 2399,
+      "links_count": 0,
+      "type": "GDFiles"
+    }
+  ],
+  "all_links": [
+    {
+      "url": "https://www.acer.com#main",
+      "text": "Skip to content"
+    },
+    {
+      "url": "https://www.acer.com/us-en",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator",
+      "text": ""
+    },
+    {
+      "url": "https://www.planet9.gg/",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/spatiallabs",
+      "text": ""
+    },
+    {
+      "url": "https://acerpure.com/en-global",
+      "text": ""
+    },
+    {
+      "url": "https://www.altoscomputing.com/en-US",
+      "text": ""
+    },
+    {
+      "url": "https://www.aopen.com/US_en/index.html",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/my-profile",
+      "text": "My Profile"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/my-products",
+      "text": "My Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/register-product",
+      "text": "Register a Product"
+    },
+    {
+      "url": "https://community.acer.com",
+      "text": "My Community"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/logout",
+      "text": "Sign Out"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/sign-in",
+      "text": "Sign In"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/sign-up",
+      "text": "Sign Up"
+    },
+    {
+      "url": "https://www.acer.com/us-en/whats-acer-id",
+      "text": "What’s Acer ID"
+    },
+    {
+      "url": "https://store.acer.com/en-us?internal_source=agw::us-en&internal_campaign=main_navigation&internal_medium=home::22&internal_content=()::()",
+      "text": "Shop"
+    },
+    {
+      "url": "https://store.acer.com/en-us/sale?internal_source=agw::us-en&internal_campaign=main_navigation_deals&internal_medium=home::22&internal_content=()::()",
+      "text": "Deals"
+    },
+    {
+      "url": "https://www.acer.com/us-en/ai",
+      "text": "AI"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Products"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/new-products",
+      "text": "New Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/copilot-plus-pc",
+      "text": "Copilot+ PC"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Laptops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/copilot-plus-pc",
+      "text": "Copilot+ PC"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/ai-pcs",
+      "text": "AI PCs"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/gaming",
+      "text": "Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/oled-laptop",
+      "text": "OLED Display"
+    },
+    {
+      "url": "https://www.acer.com/us-en/vero-green-pc",
+      "text": "Sustainable Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/thin-and-powerful",
+      "text": "Thin & Powerful"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/everyday-laptops",
+      "text": "Everyday Laptops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/professional",
+      "text": "Professional"
+    },
+    {
+      "url": "https://www.acer.com/us-en/education/windows-classroom",
+      "text": "Learning"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks",
+      "text": "Chromebooks"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/laptops",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/swift",
+      "text": "Swift"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/aspire",
+      "text": "Aspire"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/nitro",
+      "text": "Nitro"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/travelmate",
+      "text": "TravelMate"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/extensa",
+      "text": "Extensa"
+    },
+    {
+      "url": "https://www.acer.com/us-en/windows-11?internal_source=agw::us-en&internal_campaign=header_navigation::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Windows"
+    },
+    {
+      "url": "https://www.acer.com/us-en/amd-ryzen-series-laptops?internal_source=agw::us-en&internal_campaign=header_navigation::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Acer AMD Ryzen™ Series Laptops"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Desktops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/desktops-and-all-in-ones",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/gaming",
+      "text": "Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/vero-green-pc",
+      "text": "Sustainable Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/business",
+      "text": "Business"
+    },
+    {
+      "url": "https://www.acer.com/us-en/education",
+      "text": "Education"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/components",
+      "text": "Components"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/aspire-all-in-ones",
+      "text": "Acer Aspire All in Ones"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/aspire-classic-desktops",
+      "text": "Acer Aspire Classic Desktops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/nitro-desktops",
+      "text": "Acer Nitro"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-business-desktops",
+      "text": "Acer Veriton Business Desktops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-all-in-ones",
+      "text": "Acer Veriton All in Ones"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-workstations",
+      "text": "Acer Veriton Workstations"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/add-in-one",
+      "text": "Add-In-One"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/acer-chromebase",
+      "text": "Chromebase"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/acer-chromebox",
+      "text": "Acer Chromebox"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/mini-pcs",
+      "text": "Mini PCs"
+    },
+    {
+      "url": "https://www.acer.com/us-en/windows-11?internal_source=agw::us-en&internal_campaign=header_navigation::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Windows"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Acer Chromebooks"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks/business",
+      "text": "Business"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks/cloud-gaming",
+      "text": "Cloud Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks/essential",
+      "text": "Everyday"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks/education",
+      "text": "Education"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebook-plus",
+      "text": "Chromebook Plus"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromeos-enterprise",
+      "text": "ChromeOS Enterprise Solutions"
+    },
+    {
+      "url": "https://www.acer.com/us-en/cloud-gaming",
+      "text": "Cloud Gaming on Chromebook"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Tablets"
+    },
+    {
+      "url": "https://www.acer.com/us-en/tablets/iconia",
+      "text": "Acer Iconia"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Monitors"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/monitors",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/vero-green-pc",
+      "text": "Sustainable Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/entertainment",
+      "text": "Entertainment"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/business",
+      "text": "Business"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/essential",
+      "text": "Everyday"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/gaming",
+      "text": "Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/spatiallabs",
+      "text": "Acer SpatialLabs™"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/touch",
+      "text": "Touch"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/smart-monitor",
+      "text": "Acer Smart Monitor"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/prodesigner",
+      "text": "Acer ProDesigner"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/monitor-tech?internal_source=agw::us-en&internal_campaign=header_navigation::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Acer Display Technology"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Electronics & Accessories"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/accessories",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/apparel-bags-gear",
+      "text": "Apparel, Bags & Gear"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/cables-docks-dongles",
+      "text": "Cables, Docks & Dongles"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/gaming",
+      "text": "Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/headsets-audio",
+      "text": "Headsets & Audio"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/keyboards-mice-stylus",
+      "text": "Keyboards, Mice & Stylus"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/smart-devices",
+      "text": "Smart Devices"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/cameras",
+      "text": "Cameras"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Networking"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/networking",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/networking/wi-fi",
+      "text": "Wi-Fi"
+    },
+    {
+      "url": "https://www.acer.com/us-en/networking/5g",
+      "text": "5G"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "eMobility"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/emobility",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/ebii/us-en/index.html",
+      "text": "eBikes"
+    },
+    {
+      "url": "https://www.acer.com/us-en/emobility/escooters",
+      "text": "eScooters"
+    },
+    {
+      "url": "https://www.acer.com/us-en/emobility/kinetic-tech/acer-ekinekt-bd-3",
+      "text": "Kinetic Tech"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Handheld Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/handheld-gaming/nitro-handheld-gaming/nitro-blaze-11",
+      "text": "Acer Nitro Blaze 11"
+    },
+    {
+      "url": "https://www.acer.com/us-en/handheld-gaming/nitro-handheld-gaming/nitro-blaze-8",
+      "text": "Acer Nitro Blaze 8"
+    },
+    {
+      "url": "https://www.acer.com/us-en/handheld-gaming/nitro-handheld-gaming/nitro-blaze-7",
+      "text": "Acer Nitro Blaze 7"
+    },
+    {
+      "url": "https://www.acer.com/us-en/business",
+      "text": "Business"
+    },
+    {
+      "url": "https://www.acer.com/us-en/education",
+      "text": "Education"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support",
+      "text": "Support"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Acer Brands"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator",
+      "text": ""
+    },
+    {
+      "url": "https://www.planet9.gg/",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/spatiallabs",
+      "text": ""
+    },
+    {
+      "url": "https://acerpure.com/en-global",
+      "text": ""
+    },
+    {
+      "url": "https://www.altoscomputing.com/en-US",
+      "text": ""
+    },
+    {
+      "url": "https://www.aopen.com/US_en/index.html",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Acer ID"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/my-profile",
+      "text": "My Profile"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/my-products",
+      "text": "My Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/register-product",
+      "text": "Register a Product"
+    },
+    {
+      "url": "https://community.acer.com",
+      "text": "My Community"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/logout",
+      "text": "Sign Out"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/sign-in",
+      "text": "Sign In"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/sign-up",
+      "text": "Sign Up"
+    },
+    {
+      "url": "https://www.acer.com/us-en/whats-acer-id",
+      "text": "What’s Acer ID"
+    },
+    {
+      "url": "https://www.acer.com/us-en",
+      "text": ""
+    },
+    {
+      "url": "https://store.acer.com/en-us?internal_source=agw::us-en&internal_campaign=main_navigation&internal_medium=home::22&internal_content=()::()",
+      "text": "Shop"
+    },
+    {
+      "url": "https://store.acer.com/en-us/sale?internal_source=agw::us-en&internal_campaign=main_navigation_deals&internal_medium=home::22&internal_content=()::()",
+      "text": "Deals"
+    },
+    {
+      "url": "https://www.acer.com/us-en/ai",
+      "text": "AI"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/new-products",
+      "text": "New Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/copilot-plus-pc",
+      "text": "Copilot+ PC"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Laptops"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Desktops"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Acer Chromebooks"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Tablets"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Monitors"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Electronics & Accessories"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Networking"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "eMobility"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": "Handheld Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/copilot-plus-pc",
+      "text": "Copilot+ PC"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/ai-pcs",
+      "text": "AI PCs"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/gaming",
+      "text": "Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/oled-laptop",
+      "text": "OLED Display"
+    },
+    {
+      "url": "https://www.acer.com/us-en/vero-green-pc",
+      "text": "Sustainable Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/thin-and-powerful",
+      "text": "Thin & Powerful"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/everyday-laptops",
+      "text": "Everyday Laptops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/professional",
+      "text": "Professional"
+    },
+    {
+      "url": "https://www.acer.com/us-en/education/windows-classroom",
+      "text": "Learning"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks",
+      "text": "Chromebooks"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/laptops",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/swift",
+      "text": "Swift"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/aspire",
+      "text": "Aspire"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/nitro",
+      "text": "Nitro"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/travelmate",
+      "text": "TravelMate"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/extensa",
+      "text": "Extensa"
+    },
+    {
+      "url": "https://www.acer.com/us-en/windows-11?internal_source=agw::us-en&internal_campaign=header_navigation::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Windows"
+    },
+    {
+      "url": "https://www.acer.com/us-en/amd-ryzen-series-laptops?internal_source=agw::us-en&internal_campaign=header_navigation::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Acer AMD Ryzen™ Series Laptops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/desktops-and-all-in-ones",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/gaming",
+      "text": "Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/vero-green-pc",
+      "text": "Sustainable Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/business",
+      "text": "Business"
+    },
+    {
+      "url": "https://www.acer.com/us-en/education",
+      "text": "Education"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/components",
+      "text": "Components"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/aspire-all-in-ones",
+      "text": "Acer Aspire All in Ones"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/aspire-classic-desktops",
+      "text": "Acer Aspire Classic Desktops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/nitro-desktops",
+      "text": "Acer Nitro"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-business-desktops",
+      "text": "Acer Veriton Business Desktops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-all-in-ones",
+      "text": "Acer Veriton All in Ones"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-workstations",
+      "text": "Acer Veriton Workstations"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/add-in-one",
+      "text": "Add-In-One"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/acer-chromebase",
+      "text": "Chromebase"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/acer-chromebox",
+      "text": "Acer Chromebox"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/mini-pcs",
+      "text": "Mini PCs"
+    },
+    {
+      "url": "https://www.acer.com/us-en/windows-11?internal_source=agw::us-en&internal_campaign=header_navigation::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Windows"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks/business",
+      "text": "Business"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks/cloud-gaming",
+      "text": "Cloud Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks/essential",
+      "text": "Everyday"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks/education",
+      "text": "Education"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebook-plus",
+      "text": "Chromebook Plus"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromeos-enterprise",
+      "text": "ChromeOS Enterprise Solutions"
+    },
+    {
+      "url": "https://www.acer.com/us-en/cloud-gaming",
+      "text": "Cloud Gaming on Chromebook"
+    },
+    {
+      "url": "https://www.acer.com/us-en/tablets/iconia",
+      "text": "Acer Iconia"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/monitors",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/vero-green-pc",
+      "text": "Sustainable Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/entertainment",
+      "text": "Entertainment"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/business",
+      "text": "Business"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/essential",
+      "text": "Everyday"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/gaming",
+      "text": "Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/spatiallabs",
+      "text": "Acer SpatialLabs™"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/touch",
+      "text": "Touch"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/smart-monitor",
+      "text": "Acer Smart Monitor"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/prodesigner",
+      "text": "Acer ProDesigner"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors/monitor-tech?internal_source=agw::us-en&internal_campaign=header_navigation::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Acer Display Technology"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/accessories",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/apparel-bags-gear",
+      "text": "Apparel, Bags & Gear"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/cables-docks-dongles",
+      "text": "Cables, Docks & Dongles"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/gaming",
+      "text": "Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/headsets-audio",
+      "text": "Headsets & Audio"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/keyboards-mice-stylus",
+      "text": "Keyboards, Mice & Stylus"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/smart-devices",
+      "text": "Smart Devices"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories/cameras",
+      "text": "Cameras"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/networking",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/us-en/networking/wi-fi",
+      "text": "Wi-Fi"
+    },
+    {
+      "url": "https://www.acer.com/us-en/networking/5g",
+      "text": "5G"
+    },
+    {
+      "url": "https://www.acer.com/us-en/predator/emobility",
+      "text": "Predator"
+    },
+    {
+      "url": "https://www.acer.com/ebii/us-en/index.html",
+      "text": "eBikes"
+    },
+    {
+      "url": "https://www.acer.com/us-en/emobility/escooters",
+      "text": "eScooters"
+    },
+    {
+      "url": "https://www.acer.com/us-en/emobility/kinetic-tech/acer-ekinekt-bd-3",
+      "text": "Kinetic Tech"
+    },
+    {
+      "url": "https://www.acer.com/us-en/handheld-gaming/nitro-handheld-gaming/nitro-blaze-11",
+      "text": "Acer Nitro Blaze 11"
+    },
+    {
+      "url": "https://www.acer.com/us-en/handheld-gaming/nitro-handheld-gaming/nitro-blaze-8",
+      "text": "Acer Nitro Blaze 8"
+    },
+    {
+      "url": "https://www.acer.com/us-en/handheld-gaming/nitro-handheld-gaming/nitro-blaze-7",
+      "text": "Acer Nitro Blaze 7"
+    },
+    {
+      "url": "https://www.acer.com/us-en/business",
+      "text": "Business"
+    },
+    {
+      "url": "https://www.acer.com/us-en/education",
+      "text": "Education"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support",
+      "text": "Support"
+    },
+    {
+      "url": "https://www.acer.com/us-en/events/computex",
+      "text": "Explore"
+    },
+    {
+      "url": "https://www.acer.com/us-en/copilot-plus-pc",
+      "text": "Copilot+ PC"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/aspire/aspire-14-16-ai-amd",
+      "text": "Learn More"
+    },
+    {
+      "url": "https://aka.ms/win-A1?utm_source=acer.com&utm_medium=banner&utm_campaign=2026_copilot_sweepstakes_us&utm_content=store_homepage_banner",
+      "text": "Claim your free entry"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/aspire/aspire-14-16-ai-intel",
+      "text": "Explore"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/swift/swift-edge-14-ai-intel",
+      "text": "Explore"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops/aspire/aspire-14-16-ai-qualcomm",
+      "text": "Explore"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops",
+      "text": "Laptops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones",
+      "text": "Desktops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors",
+      "text": "Monitors"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks",
+      "text": "Acer Chromebooks"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/components",
+      "text": "Graphics Cards"
+    },
+    {
+      "url": "https://store.acer.com/en-us/sale/monitor-sale?internal_source=agw::us-en&internal_campaign=secondary_banner::()::()::()&internal_medium=home::1&internal_content=()::()",
+      "text": "Massive Monitor SavingsShop our huge selection of monitor deals!Shop Now"
+    },
+    {
+      "url": "https://store.acer.com/en-us/acer-value-picks?internal_source=agw::us-en&internal_campaign=secondary_banner::()::()::()&internal_medium=home::2&internal_content=()::()",
+      "text": "Shop Acer Value PicksDiscover exceptional everyday pricing on exclusive laptops and monitors.Shop No"
+    },
+    {
+      "url": "https://www.acer.com/us-en/windows-11-for-business",
+      "text": "Learn More"
+    },
+    {
+      "url": "https://www.acer.com/us-en/vero-green-pc",
+      "text": "Learn More"
+    },
+    {
+      "url": "https://blog.acer.com/en",
+      "text": "Learn More"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-workstations/veriton-gn100-ai-mini-workstation",
+      "text": "Learn More"
+    },
+    {
+      "url": "https://www.acer.com/us-en/laptops",
+      "text": "Laptops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/desktops-and-all-in-ones",
+      "text": "Desktops"
+    },
+    {
+      "url": "https://www.acer.com/us-en/chromebooks",
+      "text": "Acer Chromebooks"
+    },
+    {
+      "url": "https://www.acer.com/us-en/tablets",
+      "text": "Tablets"
+    },
+    {
+      "url": "https://www.acer.com/us-en/monitors",
+      "text": "Monitors"
+    },
+    {
+      "url": "https://www.acer.com/us-en/accessories",
+      "text": "Electronics & Accessories"
+    },
+    {
+      "url": "https://www.acer.com/us-en/networking",
+      "text": "Networking"
+    },
+    {
+      "url": "https://www.acer.com/us-en/emobility",
+      "text": "eMobility"
+    },
+    {
+      "url": "https://www.acer.com/us-en/handheld-gaming",
+      "text": "Handheld Gaming"
+    },
+    {
+      "url": "https://www.acer.com/us-en/vero-green-pc",
+      "text": "Sustainable Products"
+    },
+    {
+      "url": "https://www.acer.com/us-en/whats-acer-id",
+      "text": "Acer ID"
+    },
+    {
+      "url": "https://www.acer.com/us-en/account/registerproduct",
+      "text": "Register a Product"
+    },
+    {
+      "url": "https://community.acer.com/",
+      "text": "Acer Community"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/drivers-and-manuals",
+      "text": "Drivers and Manuals"
+    },
+    {
+      "url": "https://community.acer.com/en/kb",
+      "text": "Acer Answers"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/contact-acer",
+      "text": "Contact Support"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/security-advisory",
+      "text": "Security Advisory"
+    },
+    {
+      "url": "https://www.acer.com/us-en/support/alerts-recalls",
+      "text": "Alerts & Recalls"
+    },
+    {
+      "url": "https://blog.acer.com/en",
+      "text": "Acer Corner"
+    },
+    {
+      "url": "https://www.acer.com/us-en/acer-global-account-portal",
+      "text": "Acer Global Account Portal"
+    },
+    {
+      "url": "https://www.acer.com/us-en/resellers/online-stores",
+      "text": "Online Stores"
+    },
+    {
+      "url": "https://www.acer.com/us-en/technology",
+      "text": "Acer Technologies"
+    },
+    {
+      "url": "https://www.acer.com/us-en/mcafee",
+      "text": "McAfee"
+    },
+    {
+      "url": "https://www.acer.com/us-en/acer-uc",
+      "text": "Acer UC"
+    },
+    {
+      "url": "https://www.acer.com/us-en/smeet",
+      "text": "sMeet"
+    },
+    {
+      "url": "https://www.acer.com/us-en/about/contacts",
+      "text": "Contact Us"
+    },
+    {
+      "url": "https://www.acer.com/corporate/en/investor-relations",
+      "text": "Investor Relations"
+    },
+    {
+      "url": "https://news.acer.com/",
+      "text": "Press"
+    },
+    {
+      "url": "https://careers.acer.com/PA",
+      "text": "Careers"
+    },
+    {
+      "url": "https://www.acer.com/us-en/awards",
+      "text": "Awards"
+    },
+    {
+      "url": "https://www.acer.com/us-en/events",
+      "text": "Events"
+    },
+    {
+      "url": "https://www.acer.com/us-en/about/csr",
+      "text": "Corporate Social Responsibility"
+    },
+    {
+      "url": "https://www.acer.com/us-en/sustainability/product-carbon-footprint",
+      "text": "Product Carbon Footprint"
+    },
+    {
+      "url": "https://www.acer.com/us-en/project-humanity",
+      "text": "Project Humanity"
+    },
+    {
+      "url": "https://www.acer.com/us-en/earthion",
+      "text": "Earthion"
+    },
+    {
+      "url": "https://www.acer.com/us-en/about/recycling",
+      "text": "Recycling"
+    },
+    {
+      "url": "http://www.facebook.com/AcerUSA",
+      "text": ""
+    },
+    {
+      "url": "https://www.instagram.com/Acer/",
+      "text": ""
+    },
+    {
+      "url": "https://twitter.com/acer",
+      "text": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/acer",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/privacy",
+      "text": "Privacy Policy"
+    },
+    {
+      "url": "https://www.acer.com/us-en/privacy/cookie-policy",
+      "text": "Cookie Policy"
+    },
+    {
+      "url": "https://www.acer.com/us-en/legal",
+      "text": "Legal Notice"
+    },
+    {
+      "url": "https://www.acer.com/us-en/privacy/additional-legal-information",
+      "text": "Additional Legal Information"
+    },
+    {
+      "url": "https://www.acer.com/us-en/privacy/accessibility-policy",
+      "text": "Accessibility Policy"
+    },
+    {
+      "url": "https://www.acer.com",
+      "text": ""
+    },
+    {
+      "url": "https://www.acer.com/us-en/languages",
+      "text": "United States - English"
+    }
+  ],
+  "css_resources": [
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
+    "https://static.acer.com/system/assets/css/main.css?v=Version_2026051201",
+    "https://static.acer.com/system/assets/fonts/acerIcons/acer-icons.css?v=Version_2026051201",
+    "https://static.acer.com/system/assets/fonts/google-fonts.css"
+  ],
+  "js_resources": [
+    "https://cdn-apac.onetrust.com/scripttemplates/otSDKStub.js",
+    "https://cdn.jsdelivr.net/npm/objectFitPolyfill@2.3.0/dist/objectFitPolyfill.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js",
+    "https://www.google.com/recaptcha/api.js",
+    "https://www.youtube.com/iframe_api",
+    "https://static.acer.com/Scripts/jquery-3.6.0.min.js",
+    "https://www.acer.com/akam/13/dbde8b",
+    "https://static.acer.com/system/assets/js/main.bundle.js?v=Version_2026051201",
+    "https://static.acer.com/system/assets/js/vendors.bundle.js?v=Version_2026051201",
+    "https://static.acer.com/system/assets/js/common.bundle.js?v=Version_2026051201",
+    "https://static.acer.com/Scripts/utility.js",
+    "https://www.acer.com/zAVw0Xql/uNySM9J/btTybM7/wn/Vuuw0rG0pmwkVN1Y/KBgHAQ/W3UZCid2/T00B"
+  ],
+  "subdomains_dns": [
+    {
+      "subdomain": "support.acer.com",
+      "ip": "23.215.9.61",
+      "resolves": true
+    },
+    {
+      "subdomain": "static.acer.com",
+      "ip": "23.62.33.42",
+      "resolves": true
+    },
+    {
+      "subdomain": "images.acer.com",
+      "ip": "23.213.53.61",
+      "resolves": true
+    },
+    {
+      "subdomain": "service.acer.com",
+      "ip": "54.192.55.74",
+      "resolves": true
+    },
+    {
+      "subdomain": "store.acer.com",
+      "ip": "23.213.53.56",
+      "resolves": true
+    },
+    {
+      "subdomain": "partner.acer.com",
+      "ip": "18.194.121.47",
+      "resolves": true
+    },
+    {
+      "subdomain": "account.acer.com",
+      "ip": "23.215.9.57",
+      "resolves": true
+    },
+    {
+      "subdomain": "careers.acer.com",
+      "ip": "20.53.137.97",
+      "resolves": true
+    },
+    {
+      "subdomain": "news.acer.com",
+      "ip": "104.20.23.134",
+      "resolves": true
+    },
+    {
+      "subdomain": "blog.acer.com",
+      "ip": "162.159.138.78",
+      "resolves": true
+    },
+    {
+      "subdomain": "community.acer.com",
+      "ip": "162.159.138.78",
+      "resolves": true
+    },
+    {
+      "subdomain": "app.acer.com",
+      "ip": "23.215.9.57",
+      "resolves": true
+    }
+  ],
+  "deep_search_keywords": [
+    {
+      "url": "https://community.acer.com/",
+      "pattern": "factory\\s*(reset|restore|default|settings|image)",
+      "match": "factory reset",
+      "context": "ver go wrong during your setup, you can always learn how to factory reset a chromebook to start fresh.\n\nif you find that virtualization or streaming is a core part of your w"
+    },
+    {
+      "url": "https://community.acer.com/",
+      "pattern": "factory\\s*(reset|restore|default|settings|image)",
+      "match": "factory reset",
+      "context": "ices, you should back up your important files and perform a factory reset to wipe your personal data. you can also explore ways to upcycle or recycle your old windows 10 pc"
+    },
+    {
+      "url": "https://community.acer.com/",
+      "pattern": "factory\\s*(reset|restore|default|settings|image)",
+      "match": "factory reset",
+      "context": "ver go wrong during your setup, you can always learn how to factory reset a chromebook to start fresh.\n\nif you find that virtualization or streaming is a core part of your w"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'acer-icons';
+  src:  url('fonts/acer-icons.eot?la4unx');
+  src:  url('fonts/acer-icons.eot?la4unx#iefix') format('embedded-opentype'),
+    url('fonts/acer-icons.ttf?la4unx') format('truetype'),
+    url('fonts/acer-icons.woff?la4unx') format('woff'),
+    url('fonts/acer-icons.svg?la4unx#acer-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="agw-icon-"], [class*=" agw-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'acer-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: middle;
+  line-height: 1;
+  display: inline-block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.agw-icon-windows-color .path1:before {
+  content: "\57";
+  color: rgb(243, 83, 37);
+}
+.agw-icon-windows-color .path2:before {
+  content: "\58";
+  margin-left: -1em;
+  color: rgb(129, 188, 6);
+}
+.agw-icon-windows-color .path3:before {
+  content: "\59";
+  margin-left: -1em;
+  color: rgb(5, 166, 240);
+}
+.agw-icon-windows-color .path4:before {
+  content: "\5a";
+  margin-left: -1em;
+  color: rgb(255, 186, 8);
+}
+.agw-icon-windows:before {
+  content: "\1fa9f";
+}
+.agw-icon-acer-store:before {
+  content: "\1f6cd";
+}
+.agw-icon-apple:before {
+  content: "\1f34e";
+}
+.agw-icon-arrow-down:before {
+  content: "\2b63";
+}
+.agw-icon-arrow-left:before {
+  content: "\2b60";
+}
+.agw-icon-arrow-right:before {
+  content: "\2b62";
+}
+.agw-icon-arrow-up:before {
+  content: "\2b61";
+}
+.agw-icon-behance:before {
+  content: "\42";
+}
+.agw-icon-bell-exclamation:before {
+  content: "\1f6ce";
+}
+.agw-icon-bell:before {
+  content: "\1f514";
+}
+.agw-icon-book:before {
+  content: "\1f4d6";
+}
+.agw-icon-calendar:before {
+  content: "\1f4c5";
+}
+.agw-icon-chat:before {
+  content: "\1f4ac";
+}
+.agw-icon-check:before {
+  content: "\2705";
+}
+.agw-icon-chevron-down:before {
+  content: "\25bc";
+}
+.agw-icon-chevron-up:before {
+  content: "\25b2";
+}
+.agw-icon-circle-check:before {
+  content: "\2611";
+}
+.agw-icon-circle-exclamation:before {
+  content: "\2757";
+}
+.agw-icon-circle-information:before {
+  content: "\2139";
+}
+.agw-icon-circle-minus:before {
+  content: "\26d4";
+}
+.agw-icon-circle-pause:before {
+  content: "\23f8";
+}
+.agw-icon-circle-play:before {
+  content: "\25b6";
+}
+.agw-icon-circle-plus:before {
+  content: "\2295";
+}
+.agw-icon-circle-question:before {
+  content: "\2753";
+}
+.agw-icon-circle-x-mark:before {
+  content: "\2297";
+}
+.agw-icon-cloud-download:before {
+  content: "\2b07";
+}
+.agw-icon-cloud-upload:before {
+  content: "\2b06";
+}
+.agw-icon-copy:before {
+  content: "\274f";
+}
+.agw-icon-discord:before {
+  content: "\1f3ae";
+}
+.agw-icon-download:before {
+  content: "\2913";
+}
+.agw-icon-facebook:before {
+  content: "\66";
+}
+.agw-icon-globe:before {
+  content: "\1f310";
+}
+.agw-icon-google-color .path1:before {
+  content: "\47";
+  color: rgb(66, 133, 244);
+}
+.agw-icon-google-color .path2:before {
+  content: "\48";
+  margin-left: -1em;
+  color: rgb(52, 168, 83);
+}
+.agw-icon-google-color .path3:before {
+  content: "\49";
+  margin-left: -1em;
+  color: rgb(251, 188, 5);
+}
+.agw-icon-google-color .path4:before {
+  content: "\4a";
+  margin-left: -1em;
+  color: rgb(234, 67, 53);
+}
+.agw-icon-google:before {
+  content: "\67";
+}
+.agw-icon-headset-mic:before {
+  content: "\1f3a7";
+}
+.agw-icon-instagram:before {
+  content: "\1f4f7";
+}
+.agw-icon-kebab-menu:before {
+  content: "\1f361";
+}
+.agw-icon-laptop-check:before {
+  content: "\1f510";
+}
+.agw-icon-laptop-screwdriver:before {
+  content: "\1f9f0";
+}
+.agw-icon-laptop-shield-information:before {
+  content: "\26e8";
+}
+.agw-icon-laptop:before {
+  content: "\1f4bb";
+}
+.agw-icon-leave:before {
+  content: "\1f6aa";
+}
+.agw-icon-lightbulb:before {
+  content: "\1f4a1";
+}
+.agw-icon-linkedin:before {
+  content: "\1f4bc";
+}
+.agw-icon-location-gear:before {
+  content: "\1f6e0";
+}
+.agw-icon-people:before {
+  content: "\1f465";
+}
+.agw-icon-pinterest:before {
+  content: "\70";
+}
+.agw-icon-plus:before {
+  content: "\2795";
+}
+.agw-icon-printer:before {
+  content: "\1f5a8";
+}
+.agw-icon-profile:before {
+  content: "\1f4cb";
+}
+.agw-icon-screwdriver-status:before {
+  content: "\1f4f6";
+}
+.agw-icon-screwdriver:before {
+  content: "\1fa9b";
+}
+.agw-icon-share:before {
+  content: "\2b08";
+}
+.agw-icon-shield-check:before {
+  content: "\26ca";
+}
+.agw-icon-shield-search:before {
+  content: "\1f50e";
+}
+.agw-icon-sina-weibo:before {
+  content: "\1f4d5";
+}
+.agw-icon-sms:before {
+  content: "\1f4f2";
+}
+.agw-icon-tiktok:before {
+  content: "\266a";
+}
+.agw-icon-triangle-down:before {
+  content: "\25be";
+}
+.agw-icon-triangle-up:before {
+  content: "\25b4";
+}
+.agw-icon-twitch:before {
+  content: "\1f4ad";
+}
+.agw-icon-twitter-x:before {
+  content: "\1f426";
+}
+.agw-icon-video-library:before {
+  content: "\1f3a6";
+}
+.agw-icon-vimeo:before {
+  content: "\76";
+}
+.agw-icon-visibility-off:before {
+  content: "\1f576";
+}
+.agw-icon-visibility:before {
+  content: "\1f440";
+}
+.agw-icon-vk:before {
+  content: "\1f3a5";
+}
+.agw-icon-wechat:before {
+  content: "\77";
+}
+.agw-icon-youtube:before {
+  content: "\1f39e";
+}
+.agw-icon-shield-question:before {
+  content: "\3f";
+}
+.agw-icon-shield-information:before {
+  content: "\69";
+}
+.agw-icon-question-information:before {
+  content: "\2049";
+}
+.agw-icon-external-link:before {
+  content: "\1f517";
+}
+.agw-icon-chevron-left:before {
+  content: "\25c0";
+}
+.agw-icon-chevron-right:before {
+  content: "\25ba";
+}
+.agw-icon-x-mark:before {
+  content: "\2715";
+}
+.agw-icon-search:before {
+  content: "\1f50d";
+}
+.agw-icon-location:before {
+  content: "\1f4cd";
+}
+.agw-icon-cart:before {
+  content: "\1f6d2";
+}
+.agw-icon-user:before {
+  content: "\1f464";
+}
+.agw-icon-choco-menu:before {
+  content: "\1f36b";
+}
