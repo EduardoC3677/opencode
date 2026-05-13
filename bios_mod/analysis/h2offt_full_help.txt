@@ -1,0 +1,600 @@
+anchor idx=1305
+Command
+FileNotFound
+ErrorBeforeFlash
+BatteryNotConnect
+BatteryCapacityNotEnough
+WriteROMFail
+WriteECFail
+WriteExtraDataFail
+OemOdmFuncFail
+PasswordNotSet
+PasswordIncorrect
+RETURN_SUCCESSFUL
+RETURN_MODEL_CHECK_FAIL
+RETURN_USER_CONFIRM_CANCEL
+RETURN_AC_NOT_CONNECT
+RETURN_LOAD_DRIVER_FAIL
+RETURN_NEED_REBOOT
+RETURN_USER_EXIT
+RETURN_SAME_VERSION_CHECK
+You are about to flash your BIOS, make sure Over Clocking is turn off. Press "OK" button to stop the flash process if it is enabled.
+DisableCompare
+Others
+DisableVerify
+VerifyErrorRetry
+SMIErrorRetryDelay
+SMIErrorRetry
+ForceIHISIVersion
+EnablePrivateRegionMovement
+DisableSecureCapsuleFlash
+BootSafeMode
+NotAllowFlashOnOcMode
+NotAllowFlashOnOcModeMessage
+OemFunc1
+OemUI1
+OemUpdate1
+BIOS Password Confirmation
+Please enter BIOS Password
+BIOS Password is correct.
+BIOS Password is invalid. Please check and retry.
+BIOS Password is required. Please go to BIOS Setup Menu and setup the Password.
+PasswordCheckEnable
+MsgCaption
+MsgPreface
+MsgSuccess
+MsgFailure
+MsgPasswordNotSet
+UpdateNvStorage
+SecurityFlashFactoryUpdate
+UpdateFactoryCopy
+SkipSecureBootProtectionCheck
+EngineeringErrorDisable
+CapsuleAudit
+QAKey
+OemKey
+viaESP
+SecureUpdate
+FreeEspSpaceWhenNeed
+AutoWakeup
+interval
+Param%d
+ParamForBiosReference
+LoadIniConfig
+Use platform.ini
+Use ini in package
+Use ini in matched multi-FD
+Use ini in secure capsule
+DoInterToolFeature
+Check IHISI support failed
+Multi FD intermediate tool feature only support secure platform
+Delete via ESP capsule file failed
+InterToolx64.efi
+Secure flash failed
+UpdateMultiFdInterFeatureViaEsp
+BIOS not support via ESP method
+Copy multi fd files to ESP failed
+Capsule update failed
+IsSpaceEnoughForMultiFdInterFeature
+DoCopyMultiFdFileToEsp
+ParseLogoCapsule
+Not signed logo capsule, only contains signed logo, can update
+Capsule GUID not match, not a signed logo capsule
+Cannot find logo image in signed logo capsule
+FlashLogoData
+Communication failed
+Write logo failed
+UpdateLogoFromFile
+Parse logo header failed
+Flash logo failed
+BYTE
+WORD
+DWORD
+IO [Offset]
+IO [Mask]
+IO [Value]
+PCI [Bus]
+PCI [Device]
+PCI [Function]
+PCI [Offset]
+PCI [Mask]
+PCI [Value]
+CPUID [Mask]
+CPUID [Value]
+CPUMSR [Offset]
+CPUMSR [Mask]
+CPUMSR [Value]
+MEMORY [Physical Address]
+MEMORY [Mask]
+MEMORY [Value]
+%s [BIOS Filename]
+%s [ME Filename]
+%s [INI Filename]
+CPUID
+MEMORY
+ID [Model Name]
+OS [OS Version]
+Memory
+MULTI
+MPCIIO
+MULTI [Condition Number]
+ProcessMultiFd
+Multi FD disabled
+No matched FD
+ProcessMultiFdInterTool
+Multi FD or intermediate tool feature disabled
+Get multi FD BIOS file size failed
+CountMultiFdFileSize
+Get multi FD ini file size failed
+ProcessBvdtInfo
+Get BVDT info from buffer failed
+IsDescriptorFound
+No descriptor
+ProcessInputImage
+Image already process
+Process secure capsule failed
+Process non-capsule BIOS Guard failed
+Process BVDT info failed
+Found
+Not Found
+GetImagePlatformInfo
+SetImageBiosRegionInfo
+IsInputImageContainBiosRegionOnlyBinary
+Image size = Rom size
+Get exteranl region MAP failed
+Size not match
+UpdateRegionFlagByInputImage
+[Region] BIOS didn't need update
+Update [Region] BIOS=1
+SeparateEcAndBiosFromInputImage
+CalculateFdSize
+Capsule update native ME only
+DoPlatformCheck
+Model name and BIOS version check failed
+CommonCheck
+The BIOS image does not contain ATp signature
+CheckNewRomImage
+Do platform check failed
+Image size not match ROM size
+No EC data but set update EC flag
+EC file not found
+Check failed
+AloneFlashRegionMap
+File size not match Intel region size
+CheckPassword_OemCommandP
+Query password verify interface failed
+BIOS didn't set password
+Password verify interface failed
+Wrong password
+Correct password
+CheckPassword
+ini PasswordCheck not enable & not special OEM
+InputSmiPasswordWhenNecessary
+Do not need SMI password
+Do not need SMI password, use other secure level
+Already input password
+Password input
+User cancel to input password
+ProcessNonCapsulePfat
+Not BIOS Guard (PFAT) image
+Unsigned BIOS Guard (PFAT) image
+WritePfatBlock
+BIOS Guard (PFAT) communication failed
+BIOS Guard (PFAT) data write failed
+Get BIOS Guard (PFAT) write result failed
+Write BIOS Guard (PFAT) result not success
+GetPfatBlockTable
+ProcessPfatUpdate
+Write BIOS Guard (PFAT) block failed
+non-PFAT image on PFAT platform
+FlashNonCapsulePfat
+PFAT image not signed
+PFAT image checksum failed
+Newer version
+Same version
+Older version
+Version invalid
+Not allow same version update
+IHISI 45h failed
+IHISI 45h not allow
+Must update to permit version first
+Check by BIOS
+Model name match
+Model name not match
+Model name detect failed
+Get new image information failed
+_CheckModelName
+_CheckBiosVersion
+ValidateBiosVersion return false
+CheckModelNameAndVersion
+Not permit to flash
+Platform check failed
+Please change the BIOS Back Flash setting under BIOS setup.
+BIOS image file is older than BIOS ROM.
+Version older. Not allow back flash.
+Do you wish to continue?
+Version older. User cancel
+Version the same. forceit + nopause used
+Version the same. nopause cancel it
+Version the same. User cancel.
+nopause used
+Version cannot check
+Both platform and version check failed
+Platform or version check failed
+Version check failed
+WinPE
+AC offline
+IsAcPowerConnect
+-forceit used, skip AC check
+Do not do AC check
+No AC
+No AC user cancel
+No AC auto cancel
+IsAcPowerConnectWithoutMessage
+IsBatteryEnough
+-forceit used, skip DC check
+Do not do DC check
+No DC user cancel
+No DC auto cancel
+No DC
+User cancel
+Auto cancel
+Caution: Low battery detected.
+DC not enough, not allow flash
+DC not enough
+IsBatteryEnoughWithoutMessage
+DoPowerCheck
+No AC power
+DC power not enough
+SearchQaKeyInFactoryCopyRegion
+QA key Not found in factory copy
+SearchQaKeyViaDll
+BiosImageProcx64.dll
+dll file sign check failed
+Load dll failed
+Get function pointer failed
+QA key found
+BiosImageProcLoad() fail
+not found
+ProcCapsuleAudit
+Found in factory copy region
+Found in ROM
+........ - ........
+Winmm.dll
+ding.wav
+UpdateRomBlock
+UpdateRomFlow_BiosCustomize
+Update sequence is empty
+Update sequence verify failed
+UpdateRomFlow_Main
+ProcessLegacyUpdate
+FwUpdLcl.exe
+UpdateMeViaIntelTool
+-f %s -generic
+-f %s -generic -allowsv
+%filename
+ReviseRegionConfigAfterOemMeUpdate
+Update [Region] ME=0
+%s\error.log
+8705
+8716
+8772
+UpdateOemMeViaIntelTool
+IHISI 17h not support or don't report ME region, skip this update
+Update Intel ME failed
+UpdateSecureCapsuleViaEsp
+Copy capsule to ESP failed
+UpdateSecureCapsuleViaMemory
+RunSecureCapsuleFlash
+Update capsule via ESP failed
+6.62
+H2OFFT-W
+-h                This flash utility help.
+-b                Force suspend BitLocker.
+-ecp              Update non-share EC block by block.
+                                  -edtcdw:"0x12345678"
+-extrfd OUT_PATH  Extract BIOS file from single package to OUT_PATH.
+-forceit          Skip BIOS version check.
+-forcetype        Skip model name check.
+-g                Read current ROM and save to file.
+                           version.
+-logoupdate:FILENAME  Update logo by input file.
+-mfg              Tell BIOS current run is in manufacture mode.
+-n                Do not reboot after flash.
+-noconfirm        Do not popup flash confirm dialog.
+                           during flash update.
+-OemCus           Tell BIOS to do OEM custmization feature.
+                           TYPE is the protected region type BYTE value in hex.
+                           BIOS file.
+-pq               Query BIOS protection region MAP in current ROM.
+-pr               Query external region MAP in current ROM.
+-priv             Query BIOS private region MAP in current ROM.
+-pw               Query whole region MAP in current ROM.
+-pwd:PASSWORD     Input password for the feature which need password.
+                           NOTE: Requires -s option. Only available with -s.
+-s                Run as silent mode.
+ShowUsage
+	                  NOTE: Requires -s option.
+-l=LOG_PATH       Define a specific path for log file.
+                           to perform the BIOS update.
+ShowOemDUsage
+sFileSecureImage
+Not a secure capsule
+ProcessSecureCapsule
+Embedded EC size larger than external EC region size
+Get EC part size failed
+IsCapsuleValid
+Not valid capsule format
+gIsProfileHeaderChecksumCorrect
+Checksum incorrect
+LoadPartialFvFile
+NOT support capsule format in partial update
+Invalid BIOS Guard (PFAT) image
+Binary size bigger than region size
+BIOS not report ABCT region
+Not insyde FV
+Password incorrect
+DoCopyPartialFvToEsp
+BIOSGUARDLOGO.bin
+BIOSGUARDLOGO
+TriggerBiosGuardLogoUpdateFeature
+Set variable failed
+IsMultiSkuModelNameMatch
+Not match
+CheckAndSetMultiSkuPackage
+Not support yet
+IOTool32.exe
+IOTool64.exe
+%s and %s
+dwmapi.dll
+FlsHook.exe
+FWUpdLcl.exe
+WDFInst.exe
+GetBitLockerStatus
+Initial WMI failed
+root\CIMV2\Security\MicrosoftVolumeEncryption
+Connect failed
+DriveLetter = '%c:'
+ConversionStatus
+Win32_EncryptableVolume
+ProtectionStatus
+IsBitLockerEnable
+Enabled
+Not enable
+IsBitLockerDisable
+Not disable
+Disabled
+DisableKeyProtectors
+DeviceID
+EnableKeyProtectors
+/c powershell Suspend-BitLocker -MountPoint "%c:"
+cmd.exe
+/c powershell Resume-BitLocker -MountPoint "%c:"
+SuspendBitLocker
+Suspend success
+Suspend failed
+ResumeBitLocker
+Resume success
+Resume failed
+IsEsp
+Create file error
+Not ESP
+IsDriveEsp
+\\.\%c:
+_MountEFISystemPartition
+UnmountEFISystemPartition
+%c: /d
+mountvol.exe
+Return code not zero
+Not Mount Partition
+GetFreeDriveLetter
+Not found free drive letter
+DoMountEFISystemPartition
+No free drive letter found
+%c: /s
+%c:\
+EFI system patition not found
+/c powershell Write-VolumeCache "%c"
+WinFlashEvent_StopAp {8BB6122C-34EA-4723-86AD-0C4DFBFE863F}
+WinFlashEvent_EnableHook {EF24BA92-762A-4d2d-BE04-AD4F9840CDB9}
+WinFlashEvent_DisableHook {91A786CA-94A7-442a-9E2A-EC0561C8B930}
+Microsoft Windows NT 
+Microsoft Windows Server 2003 
+Microsoft Windows XP 
+Microsoft Windows 2000 
+Microsoft Vista 
+Microsoft Windows 7 
+Microsoft Windows 8 or greater 
+Microsoft Windows 95 
+OSR2 
+Microsoft Windows 98 
+Microsoft Windows Millennium Edition 
+Microsoft Win32s 
+Software\Microsoft\Windows NT\CurrentVersion\WinPE
+System\CurrentControlSet\Control\miniNT
+SuspendSystem
+PowrProf.dll
+Load PowrProf.dll failed
+eSystem not support suspend
+sNeedBootToSafeMode
+Feature disable
+Enable feature, no limit version
+Enable feature, onboard version <= set
+Disable feature, onboard version > set
+PrepareBootToSafeMode
+/set {current} safeboot minimal
+bcdedit.exe
+bcdedit /deletevalue {current} safeboot
+*BCDEDIT
+Software\Microsoft\Windows\CurrentVersion\RunOnce
+shutdown -r -t 0
+*REBOOT
+.smi_lock
+%sTemp\%s
+timeout
+lasttime
+appname
+CWmiClient::Initialization
+CoInitializeSecurity failed
+CoCreateInstance failed
+SELECT * FROM 
+ WHERE 
+Win32_EncryptableVolume.DeviceID='
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin1.inl
+Exception thrown in destructor
+%Ts (%Ts:%d)
+WM_CTLLIST_CHECKBOX_CLICKED
+1000
+Segoe UI
+Ignore
+Retry
+Abort
+Continue
+Try Again
+Okay
+All Rights Reserved.
+Back
+Next
+Finish
+QueryPasswordStatus
+Proceed with the %s update now?
+Updating the %s, which is a part of your machine's operating system, is critical and can help prevent problems, malfunctions, hardware failure, or data corruption.
+CWizardPagePassword::OnWizardNext
+The supervisor passowrd is required
+Please enter the supervisor password to continue
+Password check failure! The supervisor passowrd is required
+Please re-enter the supervisor password to continue
+The maximum number of attempts has been exceeded
+Please restart the system and try again
+CWizardPagePowerWarning::OnSetActive
+Do not power off during an update.
+CWizardPageUpdate::OnStartFlashProcess
+The %s update process will continue after system restart
+Please standby for your system to reboot
+Warning: Please do not power off
+CWizardPageUpdate::DoMainUpdateFlow
+CWizardPageUpdate::FlashBios
+messagestringA00
+Flash normal image on secure platform
+Secure flash feature disabled by BIOS
+Image not secure + PFAT
+Backup private MAP failed
+Update OEM ME via Intel tool failed
+Secure flash success
+Flash non capsule PFAT binary failed
+Before continuing, please ensure the following:
+FD (*.FD)|*.FD|ROM (*.ROM)|*.ROM|ALL (*.*)|*.*|
+CWinFlashDlg::FlashBiosGuardLogo
+User exit when confirm
+Trigger ABCT update success
+Trigger ABCT update failed
+Update ABCT failed
+CWinFlashDlg::FlashPartialPfatFv
+CWinFlashDlg::FlashBios
+Update ROM failed
+SeShutdownPrivilege
+Invalid DateTime
+Invalid DateTimeSpan
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+ForceRemove
+NoRemove
+Delete
+Arial
+CWinFlashApp::InitInstance
+Initial tool environment failed
+Process argument failed, invalid parameter
+Extract FD command
+Inter tool setting conflict
+Run inter tool feature
+Process INI config failed
+Multi-FD failed
+Platform NOT support IHISI
+Check input argument with command filter failed
+Adaptability check failed
+Run console mode query command
+Platform NOT allow to flash on OC mode
+Run console mode update command
+CWinFlashApp::ExitInstance
+CWinFlashDlg::OnEnableHook
+CWinFlashDlg::OnDisableHook
+CWinFlashDlg::OnShowWarningMessage
+CWinFlashDlg::OnStartToFlash
+CWinFlashDlg::OnBrowseFdFile
+CWinFlashDlg::OnStart
+CWinFlashDlg::OnCancel
+CWinFlashDlg::OnExitDlg
+CWinFlashDlg::InitialUI
+Insyde H2OFFT v%s%s
+H2OFFT (Flash Firmware Tool) Version %s
+Tahoma
+Do Not Remove the AC Power and Turn Off Computer During BIOS Flashing!
+MS Sans Serif
+CWinFlashDlg::ShowConfirmDialog
+CWinFlashDlg::DoMainFlashProcess
+cOPENSSL_ia32cap
+Microsoft Enhanced RSA and AES Cryptographic Provider
+Microsoft Enhanced Cryptographic Provider v1.0
+OPENSSL_WIN32_UTF8
+Service-0x
+no stack?
+OpenSSL
+OpenSSL: FATAL
+ERNEL32.DLL
+zh-CHS
+ar-SA
+bg-BG
+ca-ES
+zh-TW
+cs-CZ
+da-DK
+de-DE
+el-GR
+en-US
+fi-FI
+fr-FR
+he-IL
+hu-HU
+is-IS
+it-IT
+ja-JP
+ko-KR
+nl-NL
+nb-NO
+pl-PL
+pt-BR
+ro-RO
+ru-RU
+hr-HR
+sk-SK
+sq-AL
+sv-SE
+th-TH
+tr-TR
+ur-PK
+id-ID
+uk-UA
+be-BY
+sl-SI
+et-EE
