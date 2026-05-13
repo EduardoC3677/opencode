@@ -1,0 +1,79 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "hephaestus": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "oracle": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "librarian": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "explore": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "multimodal-looker": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "prometheus": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "metis": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "momus": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "sisyphus": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "atlas": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    }
+  },
+  "categories": {
+    "visual-engineering": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "ultrabrain": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "artistry": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "quick": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "git": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "deep": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "unspecified-high": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "unspecified-low": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    },
+    "writing": {
+      "model": "azure-openai/DeepSeek-V4-Flash"
+    }
+  },
+  "experimental": {
+    "aggressive_truncation": true,
+    "auto_resume": true,
+    "preemptive_compaction_threshold": 0.75
+  },
+  "disabled_skills": ["git-master"],
+  "background_task": {
+    "defaultConcurrency": 10,
+    "staleTimeoutMs": 180000
+  },
+  "notification": {
+    "force_enable": true
+  },
+  "hashline_edit": true,
+  "disabled_hooks": ["non-interactive-env", "context-window-monitor", "preemptive-compaction", "anthropic-context-window-limit-recovery"]
+}
