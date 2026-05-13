@@ -137,8 +137,6 @@ jobs:
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
-          share: false
-          agent: ci
           
 
       - name: Report failure
