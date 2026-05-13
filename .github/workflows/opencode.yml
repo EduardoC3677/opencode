@@ -47,7 +47,7 @@ jobs:
           ISSUE_NUMBER="${{ github.event.issue.number || github.event.pull_request.number }}"
 
           if [ "$EVENT_NAME" = "pull_request" ]; then
-            FULL_MODEL=$(resolve_model "claude-opus-4-7)
+            FULL_MODEL=$(resolve_model "claude-opus-4-7")
             echo "should_run=true" >> "$GITHUB_OUTPUT"
             echo "run_kind=auto_pr_review" >> "$GITHUB_OUTPUT"
             echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
