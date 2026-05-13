@@ -44,7 +44,7 @@
           "cost": {
             "input": 0,
             "output": 0
-          }
+          },
           "options": {
             "reasoningEffort": "high",
             "textVerbosity": "low",
@@ -118,7 +118,7 @@
           "cost": {
             "input": 0,
             "output": 0
-          }
+          },
           "options": {
             "reasoningEffort": "high",
             "textVerbosity": "low",
