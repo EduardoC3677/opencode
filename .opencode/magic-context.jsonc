@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "cache_ttl": "5m",
+  "execute_threshold_percentage": 70,
+  "history_budget_percentage": 0.15,
+  "protected_tags": 20,
+  "auto_drop_tool_age": 120,
+  "clear_reasoning_age": 60,
+  "iteration_nudge_threshold": 20,
+  "historian_timeout_ms": 300000
+}
