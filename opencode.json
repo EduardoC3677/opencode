@@ -12,100 +12,69 @@
   "permission": {
     "*": "allow",
     "question": "deny",
+    "edit": "allow",
+    "bash": "allow",
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "list": "allow",
+    "task": "allow",
+    "skill": "allow",
+    "webfetch": "allow",
+    "websearch": "allow",
     "doom_loop": "allow",
-    "external_directory": "allow",
-    "bash": {
-      "*": "allow"
-    },
-    "read": {
-      "*": "allow"
-    },
-    "write": {
-      "*": "allow"
-    }
+    "external_directory": "allow"
   },
   "agent": {
     "ci": {
       "mode": "primary",
       "model": "azure-openai/DeepSeek-V4-Flash",
-      "description": "Agente primary no-interactive para CI/GitHub Actions.",
-      "prompt": "Eres un agente autónomo en GitHub Actions. PROHIBIDO pedir confirmación o hacer preguntas. No termines con 'continue'. Ejecuta el siguiente paso seguro y continúa hasta producir resultados (cambios/archivos/logs). Si falta información, asume valores razonables y documenta supuestos al final.",
+      "description": "Agente primary no-interactive para CI/GitHub Actions (sin preguntas ni planning).",
+      "prompt": "Eres un agente autónomo en GitHub Actions. PROHIBIDO hacer preguntas o pedir confirmación. No uses 'plan mode' ni pidas al usuario elegir opciones. Ejecuta directamente y registra resultados. Si falta información, asume valores razonables y documenta supuestos al final. Mantén continuidad: actualiza un resumen breve de estado al finalizar cada fase.",
       "temperature": 0.2,
       "top_p": 0.9,
-      "steps": 8,
+      "steps": 6,
       "options": {
         "reasoningEffort": "low"
       },
       "permission": {
         "*": "allow",
         "question": "deny",
+        "edit": "allow",
+        "bash": "allow",
+        "read": "allow",
         "doom_loop": "allow",
-        "external_directory": "allow",
-        "bash": {
-          "*": "allow"
-        },
-        "read": {
-          "*": "allow"
-        }
+        "external_directory": "allow"
       }
     },
     "build": {
       "mode": "subagent",
       "model": "azure-openai/DeepSeek-V4-Flash",
-      "prompt": "Eres el subagente build. Ejecuta tareas sin hacer preguntas. Si falta info, asume valores razonables y continúa.",
+      "prompt": "Eres el subagente build. Ejecuta tareas de implementación y escritura de archivos sin preguntas ni confirmaciones. Si falta info, asume valores razonables y continúa.",
       "temperature": 0.2,
       "top_p": 0.9,
-      "steps": 8,
+      "steps": 6,
       "options": {
         "reasoningEffort": "low"
       },
       "permission": {
         "*": "allow",
         "question": "deny",
+        "edit": "allow",
+        "bash": "allow",
+        "read": "allow",
         "doom_loop": "allow",
-        "external_directory": "allow",
-        "bash": {
-          "*": "allow"
-        }
+        "external_directory": "allow"
       }
     },
     "plan": {
-      "mode": "primary",
-      "model": "azure-openai/DeepSeek-V4-Flash",
-      "permission": {
-        "*": "allow",
-        "question": "deny"
-      }
-    },
-    "general": {
-      "mode": "subagent",
-      "model": "azure-openai/DeepSeek-V4-Flash",
-      "permission": {
-        "*": "allow",
-        "question": "deny"
-      }
-    },
-    "explore": {
-      "mode": "subagent",
-      "model": "azure-openai/DeepSeek-V4-Flash",
-      "permission": {
-        "*": "allow",
-        "question": "deny"
-      }
-    },
-    "scout": {
-      "mode": "subagent",
-      "model": "azure-openai/DeepSeek-V4-Flash",
-      "permission": {
-        "*": "allow",
-        "question": "deny"
-      }
+      "disable": true
     }
   },
   "compaction": {
     "auto": true,
     "prune": true,
-    "reserved": 10000
+    "reserved": 12000
   },
   "watcher": {
     "ignore": [
@@ -119,17 +88,11 @@
   },
   "lsp": false,
   "formatter": false,
+  "plugin": [
+    "@tarquinen/opencode-dcp@latest",
+    "@zenobius/opencode-skillful"
+  ],
   "mcp": {
-    "context7": {
-      "type": "remote",
-      "url": "https://mcp.context7.com/mcp",
-      "enabled": true
-    },
-    "fetch": {
-      "type": "remote",
-      "url": "https://remote.mcpservers.org/fetch/mcp",
-      "enabled": true
-    },
     "mcp_memory": {
       "type": "local",
       "command": [
@@ -137,7 +100,7 @@
         "-y",
         "@modelcontextprotocol/server-memory"
       ],
-      "enabled": false,
+      "enabled": true,
       "timeout": 5000
     },
     "mcp_sequential_thinking": {
@@ -147,7 +110,7 @@
         "-y",
         "@modelcontextprotocol/server-sequential-thinking"
       ],
-      "enabled": false,
+      "enabled": true,
       "timeout": 5000
     },
     "mcp_github": {
@@ -157,7 +120,7 @@
         "-y",
         "@modelcontextprotocol/server-github"
       ],
-      "enabled": false,
+      "enabled": true,
       "environment": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_TOKEN}"
       },
@@ -174,8 +137,8 @@
         "headers": {
           "api-key": "{env:AZURE_OPENAI_API_KEY}"
         },
-        "timeout": 180000,
-        "chunkTimeout": 20000
+        "timeout": 120000,
+        "chunkTimeout": 10000
       },
       "models": {
         "DeepSeek-V4-Flash": {
@@ -191,7 +154,7 @@
           },
           "limit": {
             "context": 131072,
-            "output": 8192
+            "output": 4096
           },
           "cost": {
             "input": 0,
@@ -200,8 +163,6 @@
           "options": {
             "temperature": 0.2,
             "top_p": 0.9,
-            "frequency_penalty": 0.2,
-            "presence_penalty": 0,
             "parallel_tool_calls": true,
             "tool_choice": "auto",
             "reasoningEffort": "low"
