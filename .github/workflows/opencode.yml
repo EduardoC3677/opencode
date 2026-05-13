@@ -29,6 +29,8 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           IS_PR: ${{ github.event.issue.pull_request != '' || github.event.pull_request != '' }}
         run: |
+          set -euo pipefail
+
           resolve_model() {
             local input="$1"
             case "$input" in
@@ -40,9 +42,8 @@ jobs:
               *) echo "" ;;
             esac
           }
-          extract_provider() {
-            echo "${1%%/*}"
-          }
+
+          extract_provider() { echo "${1%%/*}"; }
 
           PR_NUMBER="${{ github.event.pull_request.number || github.event.issue.number }}"
           ISSUE_NUMBER="${{ github.event.issue.number || github.event.pull_request.number }}"
@@ -106,31 +107,29 @@ jobs:
         id: bot-details
         uses: raven-actions/bot-details@v1
 
-      # Corrige el mapeo de env vars por provider
       - name: Set Azure env vars for model provider
         run: |
+          set -euo pipefail
           PROVIDER="${{ needs.detect-trigger.outputs.provider }}"
           case "$PROVIDER" in
             azure-anthropic)
-              # Claude en Azure Foundry: tu config usa AZURE_OPENAI_API_KEY como Bearer
-              echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
-              echo "ANTHROPIC_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> "$GITHUB_ENV"
+              echo "ANTHROPIC_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> "$GITHUB_ENV"
               ;;
             azure-openai)
-              echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
-              echo "OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> "$GITHUB_ENV"
+              echo "OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> "$GITHUB_ENV"
               ;;
             azure-cognitive)
-              echo "AZURE_COGNITIVE_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> $GITHUB_ENV
-              echo "OPENAI_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_COGNITIVE_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> "$GITHUB_ENV"
+              echo "OPENAI_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> "$GITHUB_ENV"
               ;;
             azure-echoais)
-              echo "AZURE_ECHOAIS_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> $GITHUB_ENV
-              echo "OPENAI_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> $GITHUB_ENV
+              echo "AZURE_ECHOAIS_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> "$GITHUB_ENV"
+              echo "OPENAI_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> "$GITHUB_ENV"
               ;;
           esac
 
-      # Construye PROMPT con comment/body PR/issue y reglas anti-preguntas/anti-confirmación
       - name: Compose OpenCode prompt (include PR/issue/comment)
         id: compose
         env:
@@ -141,8 +140,11 @@ jobs:
           PR_TITLE: ${{ github.event.pull_request.title }}
           PR_BODY: ${{ github.event.pull_request.body }}
         run: |
+          set -euo pipefail
+          DELIM="OPENCODE_PROMPT_EOF_$(date +%s%N)"
+
           {
-            echo "prompt<<'EOF'"
+            echo "prompt<<$DELIM"
             echo "INSTRUCCIONES OBLIGATORIAS (NO ROMPER):"
             echo "- NO hagas preguntas al usuario ni pidas confirmación (ni como texto)."
             echo "- NO ofrezcas opciones (a/b/c/d). Decide y continúa."
@@ -154,31 +156,30 @@ jobs:
             echo "CONTEXTO DEL EVENTO:"
             echo "event_name=${EVENT_NAME}"
             echo ""
-            if [ -n "${COMMENT_BODY}" ]; then
+            if [ -n "${COMMENT_BODY:-}" ]; then
               echo "=== COMENTARIO (incluye comando /oc o /opencode) ==="
               echo "${COMMENT_BODY}"
               echo ""
             fi
-            if [ -n "${ISSUE_TITLE}" ] || [ -n "${ISSUE_BODY}" ]; then
+            if [ -n "${ISSUE_TITLE:-}" ] || [ -n "${ISSUE_BODY:-}" ]; then
               echo "=== ISSUE ==="
               echo "title: ${ISSUE_TITLE}"
               echo "body:"
               echo "${ISSUE_BODY}"
               echo ""
             fi
-            if [ -n "${PR_TITLE}" ] || [ -n "${PR_BODY}" ]; then
+            if [ -n "${PR_TITLE:-}" ] || [ -n "${PR_BODY:-}" ]; then
               echo "=== PULL REQUEST ==="
               echo "title: ${PR_TITLE}"
               echo "body:"
               echo "${PR_BODY}"
               echo ""
             fi
-            echo "EOF"
+            echo "$DELIM"
           } >> "$GITHUB_OUTPUT"
 
-      # Ejecuta el action: él instala opencode y corre opencode github run. 
       - name: Run OpenCode Review
-        uses: anomalyco/opencode/github@latest
+        uses: sst/opencode/github@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
