@@ -137,6 +137,8 @@ jobs:
           OPENAI_API_KEY: ${{ env.OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
+          share: false
+          agent: build
           
 
       - name: Report failure
