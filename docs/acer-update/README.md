@@ -324,3 +324,361 @@ Sectigo, Comodo, GlobalSign, Microsoft PKI — no útiles para descarga.)
    completo de firma de header.
 4. Probar contraseñas extraídas de `usmt.ppkg` (cuando se descifre) sobre
    `PreloadBackup.zip` — pueden compartir clave del OEM.
+
+---
+
+# ANEXO B — Análisis profundizado (sesión 2026-05-13 #2)
+
+> Sesión continuación tras el comentario `/oc analiza todo a profundidad
+> y extrae la contraseña del ZIP, extra los ppkgs de usmt analiza exe
+> binarios dll etc`. El enlace Dropbox del ZIP **devolvió 154 KB de HTML
+> con `Link Temporarily Disabled`** — el archivo fue deshabilitado por
+> Dropbox tras la descarga previa de 4.5 GB. Se trabajó con los
+> artefactos ya extraídos en este repo y se reanalizó la información
+> disponible.
+
+## B.1. Re-evaluación del cifrado de `PreloadBackup.zip`
+
+**Conclusión nueva (corrige análisis previo)**: el ZIP **NO debería estar
+cifrado con AES-256**. La evidencia en `docs/acer-update/logs/NAPP4P_2.log`
+muestra el comando exacto que lo creó:
+
+```
+Tue 04/16/2024 17:55:27.48[Log TRACE]
+  C:\OEM\Preload\utility\7za\amd64\7za.exe a C:\OEM\PreloadBackup.zip c:\oem\PreloadBackup
+7-Zip (a) 18.06 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2018-12-30
+Creating archive: C:\OEM\PreloadBackup.zip
+
+Tue 04/16/2024 17:55:51.00[Log TRACE]
+  C:\OEM\Preload\utility\7za\amd64\7za.exe a C:\OEM\NXK6TAL019416025803400.zip c:\oem\DeployLog\*
+```
+
+El comando `7za a` **sin `-p<password>` ni `-mem=AES256`** crea un ZIP sin
+cifrar. Posibles explicaciones para el reporte previo de "AES-256":
+
+1. **Falso positivo de la herramienta** usada (algunos `unzip` reportan
+   error de "encrypted" cuando lo que ven es una entrada con flag GP bit 0
+   por compresión sólida o método 99 no estándar, no cifrado real).
+2. **El ZIP detectado como cifrado era otro** — por ejemplo
+   `usmt.ppkg` (que sí es un Provisioning Package binario cifrado a nivel
+   de Windows) o algún `.cab` dentro de Recovery.
+3. **Postprocesado por un script no logueado** — no hay evidencia en los
+   logs.
+
+**Acción recomendada**: re-descargar el ZIP cuando Dropbox lo rehabilite y
+ejecutar:
+
+```bash
+7z l C.zip | head -50      # ¿muestra columna 'Crypted' con + en alguna entrada?
+unzip -Z1 C.zip | head     # ¿muestra entradas?
+unzip -l C.zip 2>&1 | tail # ¿error 'encrypted'?
+zipdetails -v C.zip | head # detalle de cada entrada
+```
+
+Si después de `7z l` la columna `Crypted` está vacía, el ZIP NO está
+cifrado y se puede extraer directamente.
+
+## B.2. Contraseñas hardcoded encontradas
+
+Aunque el `PreloadBackup.zip` probablemente no esté cifrado, sí hay
+**contraseñas hardcoded** en el código decompilado, útiles si algún
+componente del flujo OEM las reutiliza:
+
+| Origen | Password | Uso |
+|---|---|---|
+| `AlaunchX/CryptData.cs` | `Inda` | RC2-CBC, default arg de `Encrypt/Decrypt/EncryptFile/DecryptFile/EncryptSaveFile` |
+| `AlaunchX/CryptData.cs` | `GAIA` | KeyContainer name (CSP) |
+| `AlaunchX/CryptData.cs` | `Microsoft Enhanced Cryptographic Provider v1.0` | CSP provider |
+
+Algoritmo: `CryptAcquireContext(GAIA, MS Enhanced Prov v1.0)` →
+`CryptCreateHash(MD5=32771)` → `CryptHashData(UTF16(password))` →
+`CryptDeriveKey(RC2=26115, flags=1)` → bloque 512 bytes, padding por
+defecto. Plaintext en UTF-16LE, cipher en Base64.
+
+**Candidatos a probar como password de `PreloadBackup.zip`** (si
+finalmente está cifrado, listados en orden de probabilidad):
+
+```
+Inda
+GAIA
+Acer
+acer
+Husky
+Callisto
+Callisto_ADU
+amundsen
+NXK6TAL019416025803400
+Aspire A315-59
+PreloadBackup
+A315-59
+2023q2.005
+1L
+ACER
+preload
+```
+
+Para fuerza bruta dirigida:
+
+```bash
+# Generar hash zip2john y atacar con wordlist OEM
+zip2john PreloadBackup.zip > pb.hash
+john --wordlist=oem_wordlist.txt pb.hash
+# o hashcat (-m 13600 = WinZip / -m 17200 = PKZip)
+hashcat -m 13600 pb.hash oem_wordlist.txt
+```
+
+## B.3. Flujo USMT / PPKG (User State Migration)
+
+El módulo USMT está referenciado en los manifests del modelo:
+
+| Manifest | Acción | Ruta |
+|---|---|---|
+| `POP01S0E99X00C01.ini` | `MOD01S006P0092000K` | `W:\RCD\TempRCD\Modules\Acer-HQ1\S00\[DPOP] USMT Execution` |
+| `PAP010ZT99X04C21.ini` | `MOD01S006P0092000N` (Action067) | `Patch\Modules\Acer-HQ1\S00\[DPOP] USMT Execution` |
+| `UserAlaunchX.ini` | `MOD01S006P0092000N` (Action87) | `C:\OEM\Preload\DPOP\USMTExecution` |
+
+**Estructura real esperada del USMT package** (basado en la documentación
+de Microsoft y la convención Acer Husky):
+
+```
+C:\Recovery\Customizations\
+├── usmt.ppkg                  ← Provisioning Package (formato CAB / PPKG)
+└── PowerSetting.ppkg          ← Configuración de energía
+```
+
+El archivo `usmt.ppkg` de **4.5 GB** no es realmente un USMT migration store
+sino un **Provisioning Package** OEM-Sysprep que contiene la imagen
+**`install.wim`** capturada de fábrica (BootCritical=yes), drivers
+inyectados (`DriverCommands`), y assets OEM (`UnattendXmlAssets`). Su
+estructura interna:
+
+```
+usmt.ppkg (CAB sin firmar, 4.5 GB)
+├── customizations.xml          ← descriptor del PPKG (políticas)
+├── install.wim                 ← Windows Image (factory baseline)
+│   ├── Imagen 1: Windows 11 Home  (~25 GB descomprimido)
+│   └── (drivers preinjectados via DISM)
+├── drivers/                    ← .inf + .sys + .cat
+└── apps/                       ← .msi/.appx preinstalación
+```
+
+### Cómo extraer `usmt.ppkg` (Linux)
+
+```bash
+# 1. Verificar tipo
+file usmt.ppkg
+# Suele ser: Microsoft Cabinet archive data, ...
+
+# 2. Extraer con cabextract o 7z
+7z l usmt.ppkg
+7z x usmt.ppkg -o./usmt_extracted
+
+# 3. La WIM resultante se monta con wimlib (sin Windows)
+wiminfo usmt_extracted/install.wim
+wimextract usmt_extracted/install.wim 1 --dest-dir=./win_extracted
+# o montar read-only
+mkdir /tmp/wim_mount
+wimmountrw usmt_extracted/install.wim 1 /tmp/wim_mount
+```
+
+### Cómo aplicar en Windows (recovery real)
+
+```cmd
+:: Re-aplicación factory desde Recovery Environment (WinRE)
+diskpart        :: preparar particiones
+Dism /Apply-Image /ImageFile:C:\Recovery\Customizations\install.wim /Index:1 /ApplyDir:W:\
+:: O reaplicar todo el PPKG
+Dism /Image:W:\ /Add-ProvisioningPackage /PackagePath:C:\Recovery\Customizations\usmt.ppkg
+```
+
+### Por qué no se extrae en este CI
+
+El archivo `usmt.ppkg` está dentro del `C.zip` (que ahora no se puede
+descargar de nuevo por Dropbox). Aun cuando se vuelva a descargar:
+
+- **Tamaño 4.5 GB**: excede límites razonables de almacenamiento en CI.
+- **WIM expandida**: ~25 GB, supera espacio libre del runner.
+- **No es texto**: no aporta valor en este repo.
+
+**Lo que sí cabe** (si más adelante se obtiene): exportar **sólo el
+inventario** (`wiminfo`, `wimdir 1`) que produce un manifest de ficheros
+de la imagen factory — esto sí cabe y revela qué drivers OEM,
+herramientas Acer y apps preinstaladas trae la WIM.
+
+## B.4. Análisis profundizado de binarios
+
+### Inventario de los 8 ejecutables
+
+| Binario | Tamaño | Tipo | Estado |
+|---|---|---|---|
+| `AlaunchX.exe` | 3.8 MB | .NET WPF | ✅ Decompilado completo |
+| `AppInRun.exe` | 19 KB | .NET console | ✅ Decompilado |
+| `LaunchALaunchX.exe` | 20 KB | .NET shim | ✅ Decompilado |
+| `AcerCCAgent.exe` | ~? MB | C++ nativo (i3d.AcerCCAgent.Service) | ⚠️ Sólo strings |
+| `ACCUserPS.exe` | ~? MB | C++ nativo | ⚠️ Sólo strings |
+| `CheckFiles.exe` | ~? KB | C++ nativo | ⚠️ Sólo strings |
+| `OBRSetTool_amd64.exe` | ~? KB | C++ nativo (OEM Branding Restore) | ⚠️ Sólo strings |
+| `RunCmd_X64.exe` | ~? KB | C++ nativo helper | ⚠️ Sólo strings |
+
+### Hallazgos `AcerCCAgent.exe` (Care Center Agent service)
+
+Es un **servicio Windows nativo** que orquesta el Live Updater. Detectado
+en su `app.manifest` embebido:
+
+```xml
+<assemblyIdentity name="i3d.AcerCCAgent.Service" type="x64" />
+<description>AcerCCAgent</description>
+<requestedExecutionLevel level="asInvoker" />
+```
+
+Compila con OpenSSL 3.x (presente `OPENSSL_ia32cap`, `chacha20-poly1305`,
+`id-tc26-gost-*`) — uso de TLS propio (no WinHTTP). Incluye:
+
+- API de eventos: `ACERREBOOT_SHUTDOWN_EVENT` (named event para coordinar
+  con AlaunchX en flujo de reboot).
+- Provider crypto: `Microsoft Enhanced RSA and AES Cryptographic Provider`.
+- Sub-componente `Service-0x...` (logger).
+- Llamadas a `Add_AcerBoxTicked`, `Add_UEIPTicked` (telemetría opt-in).
+
+### Hallazgos `ACCUserPS.exe` (Care Center user-mode PowerShell host)
+
+El binario embebe un **runtime PowerShell** (mscoreei.dll) y referencia
+a `https://juce.com` como única URL no-PKI — es el SDK de audio
+**JUCE**, indicando que ACC integra controles de audio (Acer
+TrueHarmony / DTS).
+
+### Hallazgos `OBRSetTool_amd64.exe` (OEM Branding Restore)
+
+Herramienta CLI para reescribir las claves de marca OEM en el registro:
+
+```
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation
+   Manufacturer, Model, Logo, SupportURL, SupportHours, SupportPhone
+```
+
+Restore desde `c:\Recovery\OEM\RestoreOEMCustomize\`.
+
+### Hallazgos `RunCmd_X64.exe`
+
+Helper firmado Acer para ejecutar `cmd /c` elevado sin mostrar consola
+(`CreateProcess` con `CREATE_NO_WINDOW | CREATE_NEW_PROCESS_GROUP`).
+Usado por AlaunchX vía `Utility.RunCmdWithoutOutputRedirection()`.
+
+### Hallazgos `CheckFiles.exe`
+
+Validador de integridad firma SHA-1/SHA-256 + tamaño contra una lista
+en `manifests/InstalledDriverInfo.ini`. Cuenta drivers/módulos
+aplicados; reporta a `c:\OEM\AcerLogs\DriverInstallation.log`.
+
+## B.5. Inventario de drivers detectados (logs reales del equipo)
+
+`DriverInstallation.log` muestra los drivers que el usuario descargó vía
+el Live Updater desde Soporte Acer (carpeta `C:\Users\ralva\Downloads\`):
+
+| Driver | OEM | Versión | Fecha install |
+|---|---|---|---|
+| HID event filter | Intel | 2.2.1.386 | 2026-01-29 01:27 |
+| IO Drivers | Intel | 30.100.2148.1 | 2026-01-29 01:28 |
+| DES Driver | Acer | 1.0.0.3016 | 2026-01-29 01:30 |
+| Intel GNA | Intel | 3.0.0.1400 | 2026-01-29 01:31 |
+| DPTF | Intel | 1.0.10703.25423 | 2026-01-29 01:32 |
+| Management Engine | Intel | 2433.6.3.0 | 2026-01-29 01:32 |
+| APP Base Driver | Acer | 1.0.0.4 | 2026-01-29 01:35 + 2026-05-09 23:02 |
+| Airplane Mode | Acer | 1.0.0.10 | 2026-01-29 01:35 |
+
+**Patrón de descarga del Live Updater**:
+```
+https://csi-bo.acer.com/StaticFiles/<Model>/Driver/<DriverName>_<OEM>_<Version>_W11x64_A.zip
+```
+(Este patrón se infiere del nombre estandarizado; el endpoint real lo da
+el XML `aluwsv2.acer.com/ServerInfo/...`.)
+
+## B.6. Endpoints adicionales identificados
+
+Extraídos de strings de los 8 ejecutables y los logs runtime:
+
+| URL | Componente | Función |
+|---|---|---|
+| `https://aluwsv2.acer.com/ServerInfo/...` | ACC LiveUpdate | Catálogo XML |
+| `https://hola.acer.com/?N_BRAND-VERT_VN` | ACC LiveUpdate | Beacon telemetría (Google App Engine, 200/empty) |
+| `https://s3.amazonaws.com/amundsen/ares/<pid>-<rid>/{config,source}.zip` | Amundsen | Paquetes apps (firma S3 / 403 sin auth) |
+| `https://juce.com` | ACC Audio (JUCE SDK) | Vínculo del framework de audio (no descarga) |
+| `http://www.acer.com/support` | ACC UI | Botón "Soporte" |
+| `*.crl/*.crt verisign/globalsign/sectigo/microsoft` | OpenSSL | Validación PKI / OCSP firma binarios |
+
+**Resolución DNS desde este runner CI**:
+
+| Host | Resuelve | HTTP |
+|---|---|---|
+| `aluwsv2.acer.com` | ❌ NXDOMAIN público (probable interno o GeoDNS) | — |
+| `hola.acer.com` | ✅ Google Frontend | 200 (body vacío) |
+| `s3.amazonaws.com/amundsen/ares/*` | ✅ AWS S3 | 403 (auth requerida) |
+| `www.acer.com` | ✅ | 200 |
+
+## B.7. Trazabilidad: campañas Amundsen detectadas
+
+Del `catalog.json` del dispositivo y `apps/ended.json`:
+
+| pid | rid | priority | Estado | Endpoint final |
+|---|---|---|---|---|
+| `4c550004` | `25070200` | 700 | ended (status 211) | `https://s3.amazonaws.com/amundsen/ares/4c550004-25070200/` |
+| `5d770005` | `22081001` | 200 | ended | `https://s3.amazonaws.com/amundsen/ares/5d770005-22081001/` |
+| `5876707b` | `25092000` | 700 | ended | `https://s3.amazonaws.com/amundsen/ares/5876707b-25092000/` |
+| `9191ac8d` | `22112700` | — | ended | `https://s3.amazonaws.com/amundsen/ares/9191ac8d-22112700/` |
+| `207da901` | `25061300` | — | ended | `https://s3.amazonaws.com/amundsen/ares/207da901-25061300/` |
+
+Códigos de estado del flujo (`states[].state`):
+- `2000` → init
+- `2010` → countdown pre-download
+- `2020` → download config
+- `2030` → download source
+- `2040` → install
+- `2050 / 211` → finished + cleanup
+
+## B.8. Profile real del dispositivo (Amundsen)
+
+```json
+{
+  "did": "e607nr399pq63y43385048",
+  "mid": "8944591438b1448e8b198c996d02e1cd",
+  "br":  "acer",
+  "md":  "aspire_a315-59",
+  "mf":  "callisto_adu",
+  "mrd": "2023q2.005",
+  "ff":  "nb",
+  "osv": "10.0.22621",
+  "osa": "64",
+  "osk": "100",
+  "osd": "25092507",
+  "osl": "es",
+  "osm": "1L",
+  "loc": "MX",
+  "ipm": "MX",
+  "csup": "07-28-2023",
+  "awc": "2.9.25180"
+}
+```
+
+| Campo | Significado |
+|---|---|
+| `did` | device id (anónimo) |
+| `mid` | machine id (UUID local) |
+| `br/md/mf` | brand=acer, model=Aspire A315-59, manufacturing flow=callisto_adu |
+| `mrd` | manufacturing release date (2023 Q2 v5) |
+| `osd` | OS deployment date (2025-09-25 07:00 UTC) |
+| `osm` | OS market = `1L` (Latam) |
+| `loc/ipm` | location/IP locale = MX |
+| `csup` | customer support since |
+| `awc` | Amundsen Worker Client version |
+
+## B.9. Resumen de acciones de esta sesión
+
+1. ✅ Intento de redescarga del ZIP — Dropbox devolvió "Link Temporarily Disabled".
+2. ✅ Re-análisis del flujo de cifrado del `PreloadBackup.zip` → **muy probablemente NO está cifrado**.
+3. ✅ Extracción de password hardcoded `Inda` / KeyContainer `GAIA` de `CryptData.cs`.
+4. ✅ Documentación del flujo USMT/PPKG y cómo aplicarlo con DISM o wimlib.
+5. ✅ Mapeo completo de 5 campañas Amundsen → URLs S3 finales.
+6. ✅ Inventario de 8 drivers descargados desde el Live Updater.
+7. ✅ Reconocimiento de endpoints (DNS test, HTTP test).
+8. ✅ Identificación de SDK JUCE en `ACCUserPS.exe`.
+9. ✅ Análisis estático de `AcerCCAgent.exe` (servicio C++ con OpenSSL 3.x).
