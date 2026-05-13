@@ -1,264 +1,93 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "share": "manual",
+  "share": "disabled",
+  "autoupdate": false,
+  "snapshot": false,
+  "enabled_providers": ["azure-openai"],
   "model": "azure-openai/DeepSeek-V4-Flash",
   "small_model": "azure-openai/DeepSeek-V4-Flash",
+  "default_agent": "build",
+  "permission": {
+    "*": "allow",
+    "question": "deny",
+    "doom_loop": "allow",
+    "external_directory": "allow",
+    "bash": {
+      "*": "allow"
+    },
+    "read": {
+      "*": "allow"
+    }
+  },
+  "agent": {
+    "build": {
+      "mode": "primary",
+      "model": "azure-openai/DeepSeek-V4-Flash",
+      "prompt": "Eres un agente autónomo que corre en GitHub Actions. PROHIBIDO pedir confirmación o hacer preguntas al usuario. Si falta información, asume valores razonables y continúa. Produce un plan breve y ejecútalo. Al final, documenta supuestos y resultados.",
+      "temperature": 0.2,
+      "top_p": 0.9,
+      "steps": 40,
+      "options": {
+        "reasoningEffort": "max"
+      },
+      "permission": {
+        "*": "allow",
+        "question": "deny",
+        "doom_loop": "allow",
+        "external_directory": "allow",
+        "bash": {
+          "*": "allow"
+        }
+      }
+    },
+    "plan":  { "mode": "primary",  "model": "azure-openai/DeepSeek-V4-Flash", "permission": { "*": "allow", "question": "deny" } },
+    "general": { "mode": "subagent", "model": "azure-openai/DeepSeek-V4-Flash", "permission": { "*": "allow", "question": "deny" } },
+    "explore": { "mode": "subagent", "model": "azure-openai/DeepSeek-V4-Flash", "permission": { "*": "allow", "question": "deny" } },
+    "scout":   { "mode": "subagent", "model": "azure-openai/DeepSeek-V4-Flash", "permission": { "*": "allow", "question": "deny" } }
+  },
+  "compaction": { "auto": true, "prune": true, "reserved": 10000 },
+  "watcher": {
+    "ignore": [
+      "node_modules/**",
+      "dist/**",
+      "target/**",
+      ".git/**",
+      ".venv/**",
+      "venv/**"
+    ]
+  },
+  "lsp": false,
+  "formatter": false,
   "provider": {
     "azure-openai": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "Azure OpenAI (OpenAI Compatible)",
       "options": {
         "baseURL": "https://opencoder-resource.services.ai.azure.com/openai/v1",
+        "apiKey": "{env:AZURE_OPENAI_API_KEY}",
         "headers": {
           "api-key": "{env:AZURE_OPENAI_API_KEY}"
-        }
+        },
+        "timeout": 600000
       },
       "models": {
-        "Codestral-2501": {
-          "name": "Codestral 2501",
-          "streamUsage": false,
-          "limit": {
-            "context": 32768,
-            "output": 2048
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
-          }
-        },
         "DeepSeek-V4-Flash": {
           "name": "DeepSeek V4 Flash",
-          "tools": true,
-          "modalities": {
-            "input": [
-              "text"
-            ],
-            "output": [
-              "text"
-            ]
-          },
-          "limit": {
-            "context": 32768,
-            "output": 16384
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
-          },
+          "tool_call": true,
+          "modalities": { "input": ["text"], "output": ["text"] },
+          "limit": { "context": 131072, "output": 65536 },
+          "cost": { "input": 0, "output": 0 },
           "options": {
-            "reasoningEffort": "high",
+            "temperature": 0.2,
+            "top_p": 0.9,
+            "frequency_penalty": 0.2,
+            "presence_penalty": 0,
             "parallel_tool_calls": true,
             "tool_choice": "auto",
-            "temperature": 0.7
-          }
-        },
-        "DeepSeek-V3.2": {
-          "name": "DeepSeek V3.2",
-          "limit": {
-            "context": 32768,
-            "output": 2048
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
-          }
-        },
-        "DeepSeek-V3.2-Speciale": {
-          "name": "DeepSeek V3.2 Speciale",
-          "limit": {
-            "context": 32768,
-            "output": 2048
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
-          }
-        },
-        "Kimi-K2.6": {
-          "name": "Kimi K2.6",
-          "limit": {
-            "context": 32768,
-            "output": 2048
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
+            "reasoningEffort": "max"
           }
         }
       }
-    },
-    "azure-anthropic": {
-      "npm": "@ai-sdk/anthropic",
-      "name": "Azure Anthropic Foundry",
-      "options": {
-        "baseURL": "https://opencoder-resource.openai.azure.com/anthropic/v1",
-        "headers": {
-          "x-api-key": "{env:AZURE_ANTHROPIC_API_KEY}"
-        }
-      },
-      "models": {
-        "claude-opus-4-7": {
-          "name": "Claude Opus 4.7",
-          "tools": true,
-          "limit": {
-            "context": 200000,
-            "output": 10000
-          },
-          "modalities": {
-            "input": [
-              "text"
-            ],
-            "output": [
-              "text"
-            ]
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
-          },
-          "options": {
-            "reasoningEffort": "high",
-            "textVerbosity": "low",
-            "reasoningSummary": "auto",
-            "parallel_tool_calls": true,
-            "tool_choice": "auto",
-            "thinking": true,
-            "temperature": 0.7
-          }
-        },
-        "claude-opus-4-6": {
-          "name": "Claude Opus 4.6",
-          "limit": {
-            "context": 200000,
-            "output": 1000
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
-          }
-        }
-      }
-    },
-    "azure-cognitive": {
-      "npm": "@ai-sdk/openai-compatible",
-      "name": "Azure Cognitive Services",
-      "options": {
-        "baseURL": "https://opencoder-resource.services.ai.azure.com/openai/v1",
-        "headers": {
-          "api-key": "{env:AZURE_COGNITIVE_API_KEY}"
-        }
-      },
-      "models": {
-        "gpt-5.4-pro": {
-          "name": "GPT 5.4 Pro",
-          "limit": {
-            "context": 131072,
-            "output": 16384
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
-          }
-        }
-      }
-    },
-    "azure-echoais": {
-      "npm": "@ai-sdk/openai-compatible",
-      "name": "Azure Echoais",
-      "options": {
-        "baseURL": "https://opencoder-resource.services.ai.azure.com/openai/v1",
-        "headers": {
-          "api-key": "{env:AZURE_ECHOAIS_API_KEY}"
-        }
-      },
-      "models": {
-        "gpt-5.3-codex": {
-          "name": "GPT 5.3 Codex",
-          "limit": {
-            "context": 131072,
-            "output": 16384
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
-          }
-        }
-      }
-    }
-  },
-  "permission": {
-    "read": "allow",
-    "grep": "allow",
-    "glob": "allow",
-    "edit": "allow",
-    "write": "allow",
-    "list": "allow",
-    "skill": "allow",
-    "webfetch": "allow"
-  },
-  "compaction": {
-    "auto": true,
-    "prune": true
-  },
-  "watcher": {
-    "ignore": [
-      "node_modules/*",
-      "dist/*",
-      ".cargo/*",
-      "target/*",
-      ".git/**",
-      "*cache*/",
-      ".sisyphus/*",
-      ".venv/*",
-      "venv/*"
-    ]
-  },
-  "plugin": [
-    "oh-my-openagent@3.17.4",
-    "@franlol/opencode-md-table-formatter@0.0.6",
-    "opencode-agent-skills@0.6.5",
-    "opencode-auto-resume@1.0.10",
-    "opencode-plugin-auto-update@0.3.1"
-  ],
-  "autoupdate": true,
-  "experimental": {
-    "openTelemetry": false
-  },
-  "mcp": {
-    "context7": {
-      "type": "remote",
-      "url": "https://mcp.context7.com/mcp",
-      "enabled": true
-    },
-    "grep_app": {
-      "type": "remote",
-      "url": "https://mcp.grep.app",
-      "enabled": true
-    },
-    "websearch": {
-      "type": "remote",
-      "url": "https://mcp.exa.ai/mcp?tools=web_search_exa",
-      "enabled": true
-    },
-    "sequentialthinking": {
-      "type": "remote",
-      "url": "https://remote.mcpservers.org/sequentialthinking/mcp",
-      "enabled": true
-    },
-    "fetch": {
-      "type": "remote",
-      "url": "https://remote.mcpservers.org/fetch/mcp",
-      "enabled": true
-    },
-    "deepwiki": {
-      "type": "remote",
-      "url": "https://mcp.deepwiki.com/mcp",
-      "enabled": true
-    }
-  },
-  "agent": {
-    "compaction": {
-      "model": "azure-openai/DeepSeek-V4-Flash"
     }
   }
 }
