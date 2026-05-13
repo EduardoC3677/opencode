@@ -3,10 +3,12 @@
   "share": "disabled",
   "autoupdate": false,
   "snapshot": false,
-  "enabled_providers": ["azure-openai"],
+  "enabled_providers": [
+    "azure-openai"
+  ],
   "model": "azure-openai/DeepSeek-V4-Flash",
   "small_model": "azure-openai/DeepSeek-V4-Flash",
-  "default_agent": "build",
+  "default_agent": "ci",
   "permission": {
     "*": "allow",
     "question": "deny",
@@ -20,10 +22,34 @@
     }
   },
   "agent": {
-    "build": {
+    "ci": {
       "mode": "primary",
       "model": "azure-openai/DeepSeek-V4-Flash",
-      "prompt": "Eres un agente autónomo que corre en GitHub Actions. PROHIBIDO pedir confirmación o hacer preguntas al usuario. Si falta información, asume valores razonables y continúa. Produce un plan breve y ejecútalo. Al final, documenta supuestos y resultados.",
+      "description": "Agente primary no-interactive para CI/GitHub Actions (sin preguntas, sin confirmaciones).",
+      "prompt": "Eres un agente autónomo que corre en GitHub Actions. PROHIBIDO pedir confirmación o hacer preguntas al usuario. Si falta información, asume valores razonables y continúa. Produce un plan breve y ejecútalo. Al final, documenta supuestos y resultados. No pidas al usuario elegir opciones: decide tú y avanza.",
+      "temperature": 0.2,
+      "top_p": 0.9,
+      "steps": 40,
+      "options": {
+        "reasoningEffort": "max"
+      },
+      "permission": {
+        "*": "allow",
+        "question": "deny",
+        "doom_loop": "allow",
+        "external_directory": "allow",
+        "bash": {
+          "*": "allow"
+        },
+        "read": {
+          "*": "allow"
+        }
+      }
+    },
+    "build": {
+      "mode": "subagent",
+      "model": "azure-openai/DeepSeek-V4-Flash",
+      "prompt": "Eres el subagente build. Ejecuta tareas de implementación y cambios en repo sin hacer preguntas al usuario. Si falta información, asume valores razonables y continúa.",
       "temperature": 0.2,
       "top_p": 0.9,
       "steps": 40,
@@ -40,12 +66,44 @@
         }
       }
     },
-    "plan":  { "mode": "primary",  "model": "azure-openai/DeepSeek-V4-Flash", "permission": { "*": "allow", "question": "deny" } },
-    "general": { "mode": "subagent", "model": "azure-openai/DeepSeek-V4-Flash", "permission": { "*": "allow", "question": "deny" } },
-    "explore": { "mode": "subagent", "model": "azure-openai/DeepSeek-V4-Flash", "permission": { "*": "allow", "question": "deny" } },
-    "scout":   { "mode": "subagent", "model": "azure-openai/DeepSeek-V4-Flash", "permission": { "*": "allow", "question": "deny" } }
+    "plan": {
+      "mode": "primary",
+      "model": "azure-openai/DeepSeek-V4-Flash",
+      "permission": {
+        "*": "allow",
+        "question": "deny"
+      }
+    },
+    "general": {
+      "mode": "subagent",
+      "model": "azure-openai/DeepSeek-V4-Flash",
+      "permission": {
+        "*": "allow",
+        "question": "deny"
+      }
+    },
+    "explore": {
+      "mode": "subagent",
+      "model": "azure-openai/DeepSeek-V4-Flash",
+      "permission": {
+        "*": "allow",
+        "question": "deny"
+      }
+    },
+    "scout": {
+      "mode": "subagent",
+      "model": "azure-openai/DeepSeek-V4-Flash",
+      "permission": {
+        "*": "allow",
+        "question": "deny"
+      }
+    }
   },
-  "compaction": { "auto": true, "prune": true, "reserved": 10000 },
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "reserved": 10000
+  },
   "watcher": {
     "ignore": [
       "node_modules/**",
@@ -74,9 +132,22 @@
         "DeepSeek-V4-Flash": {
           "name": "DeepSeek V4 Flash",
           "tool_call": true,
-          "modalities": { "input": ["text"], "output": ["text"] },
-          "limit": { "context": 131072, "output": 65536 },
-          "cost": { "input": 0, "output": 0 },
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 131072,
+            "output": 65536
+          },
+          "cost": {
+            "input": 0,
+            "output": 0
+          },
           "options": {
             "temperature": 0.2,
             "top_p": 0.9,
