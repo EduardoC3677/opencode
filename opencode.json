@@ -3,9 +3,7 @@
   "share": "disabled",
   "autoupdate": false,
   "snapshot": false,
-  "enabled_providers": [
-    "azure-anthropic"
-  ],
+  "enabled_providers": ["azure-anthropic"],
   "model": "azure-anthropic/claude-opus-4-7",
   "small_model": "azure-anthropic/claude-opus-4-7",
   "default_agent": "build",
@@ -26,13 +24,17 @@
     "external_directory": "allow"
   },
   "agent": {
+    "build": {
+      "mode": "primary",
+      "model": "azure-anthropic/claude-opus-4-7"
+    },
     "plan": {
       "disable": true
     }
   },
   "compaction": {
-    "auto": false,
-    "prune": false,
+    "auto": true,
+    "prune": true,
     "reserved": 12000
   },
   "watcher": {
@@ -47,40 +49,22 @@
   },
   "lsp": false,
   "formatter": false,
-  "plugin": [
-    "@tarquinen/opencode-dcp@latest",
-    "@ramtinj95/opencode-tokenscope@latest",
-    "@cortexkit/opencode-magic-context@latest",
-    "@reinamaccredy/oh-my-opencode@latest"
-  ],
   "mcp": {
     "mcp_memory": {
       "type": "local",
-      "command": [
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-memory"
-      ],
+      "command": ["npx", "-y", "@modelcontextprotocol/server-memory"],
       "enabled": true,
       "timeout": 5000
     },
     "mcp_sequential_thinking": {
       "type": "local",
-      "command": [
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-sequential-thinking"
-      ],
+      "command": ["npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
       "enabled": true,
       "timeout": 5000
     },
     "mcp_github": {
       "type": "local",
-      "command": [
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-github"
-      ],
+      "command": ["npx", "-y", "@modelcontextprotocol/server-github"],
       "enabled": true,
       "environment": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_TOKEN}"
@@ -93,7 +77,7 @@
       "npm": "@ai-sdk/anthropic",
       "name": "Azure Anthropic Foundry",
       "options": {
-        "baseURL": "https://opencoder-resource.openai.azure.com/anthropic/v1",
+        "baseURL": "https://opencoder-resource.openai.azure.com/anthropic",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
         "headers": {
           "Content-Type": "application/json",
