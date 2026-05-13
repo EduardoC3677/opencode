@@ -95,6 +95,11 @@
       "options": {
         "baseURL": "https://opencoder-resource.openai.azure.com/anthropic/v1",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer {env:AZURE_OPENAI_API_KEY}",
+          "anthropic-version": "2023-06-01"
+        },
         "timeout": 120000,
         "chunkTimeout": 10000
       },
@@ -109,11 +114,6 @@
           "cost": {
             "input": 0,
             "output": 0
-          },
-          "headers": {
-            "Content-Type": "application/json",
-            "Authorization": "Bearer {env:AZURE_OPENAI_API_KEY}",
-            "anthropic-version": "2023-06-01"
           },
           "options": {
             "temperature": 0.2,
