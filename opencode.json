@@ -104,8 +104,12 @@
       "options": {
         "baseURL": "https://opencoder-resource.openai.azure.com/anthropic",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
-        "timeout": 120000,
-        "chunkTimeout": 10000
+        "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer {env:AZURE_OPENAI_API_KEY}",
+            "anthropic-version": "2023-06-01"
+          },
+        "timeout": 120000
       },
       "models": {
         "claude-opus-4-7": {
@@ -119,15 +123,9 @@
             "input": 0,
             "output": 0
           },
-          "headers": {
-            "api-key": "{env:AZURE_OPENAI_API_KEY}",
-            "x-api-key": "{env:AZURE_OPENAI_API_KEY}",
-            "anthropic-version": "2023-06-01"
-          },
           "options": {
             "temperature": 0.2,
-            "top_p": 0.9,
-            "thinking": true
+            "top_p": 0.9
           }
         }
       }
