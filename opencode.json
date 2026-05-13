@@ -19,19 +19,22 @@
     },
     "read": {
       "*": "allow"
+    },
+    "write": {
+      "*": "allow"
     }
   },
   "agent": {
     "ci": {
       "mode": "primary",
       "model": "azure-openai/DeepSeek-V4-Flash",
-      "description": "Agente primary no-interactive para CI/GitHub Actions (sin preguntas, sin confirmaciones).",
-      "prompt": "Eres un agente autónomo que corre en GitHub Actions. PROHIBIDO pedir confirmación, pedir que el usuario elija, o hacer preguntas. NO termines con 'continue' ni solicites aprobación. Si falta información, asume valores razonables y continúa con el primer paso seguro. Ejecuta, registra resultados y deja pendientes claros al final.",
+      "description": "Agente primary no-interactive para CI/GitHub Actions.",
+      "prompt": "Eres un agente autónomo en GitHub Actions. PROHIBIDO pedir confirmación o hacer preguntas. No termines con 'continue'. Ejecuta el siguiente paso seguro y continúa hasta producir resultados (cambios/archivos/logs). Si falta información, asume valores razonables y documenta supuestos al final.",
       "temperature": 0.2,
       "top_p": 0.9,
-      "steps": 12,
+      "steps": 8,
       "options": {
-        "reasoningEffort": "medium"
+        "reasoningEffort": "low"
       },
       "permission": {
         "*": "allow",
@@ -49,12 +52,12 @@
     "build": {
       "mode": "subagent",
       "model": "azure-openai/DeepSeek-V4-Flash",
-      "prompt": "Eres el subagente build. Ejecuta tareas de implementación y cambios en repo sin hacer preguntas al usuario. Si falta información, asume valores razonables y continúa.",
+      "prompt": "Eres el subagente build. Ejecuta tareas sin hacer preguntas. Si falta info, asume valores razonables y continúa.",
       "temperature": 0.2,
       "top_p": 0.9,
-      "steps": 12,
+      "steps": 8,
       "options": {
-        "reasoningEffort": "medium"
+        "reasoningEffort": "low"
       },
       "permission": {
         "*": "allow",
@@ -122,16 +125,6 @@
       "url": "https://mcp.context7.com/mcp",
       "enabled": true
     },
-    "grep_app": {
-      "type": "remote",
-      "url": "https://mcp.grep.app",
-      "enabled": true
-    },
-    "deepwiki": {
-      "type": "remote",
-      "url": "https://mcp.deepwiki.com/mcp",
-      "enabled": true
-    },
     "fetch": {
       "type": "remote",
       "url": "https://remote.mcpservers.org/fetch/mcp",
@@ -144,7 +137,7 @@
         "-y",
         "@modelcontextprotocol/server-memory"
       ],
-      "enabled": true,
+      "enabled": false,
       "timeout": 5000
     },
     "mcp_sequential_thinking": {
@@ -154,7 +147,7 @@
         "-y",
         "@modelcontextprotocol/server-sequential-thinking"
       ],
-      "enabled": true,
+      "enabled": false,
       "timeout": 5000
     },
     "mcp_github": {
@@ -181,7 +174,8 @@
         "headers": {
           "api-key": "{env:AZURE_OPENAI_API_KEY}"
         },
-        "timeout": 600000
+        "timeout": 180000,
+        "chunkTimeout": 20000
       },
       "models": {
         "DeepSeek-V4-Flash": {
@@ -197,7 +191,7 @@
           },
           "limit": {
             "context": 131072,
-            "output": 32768
+            "output": 8192
           },
           "cost": {
             "input": 0,
@@ -210,7 +204,7 @@
             "presence_penalty": 0,
             "parallel_tool_calls": true,
             "tool_choice": "auto",
-            "reasoningEffort": "medium"
+            "reasoningEffort": "low"
           }
         }
       }
