@@ -26,12 +26,12 @@
       "mode": "primary",
       "model": "azure-openai/DeepSeek-V4-Flash",
       "description": "Agente primary no-interactive para CI/GitHub Actions (sin preguntas, sin confirmaciones).",
-      "prompt": "Eres un agente autónomo que corre en GitHub Actions. PROHIBIDO pedir confirmación o hacer preguntas al usuario. Si falta información, asume valores razonables y continúa. Produce un plan breve y ejecútalo. Al final, documenta supuestos y resultados. No pidas al usuario elegir opciones: decide tú y avanza.",
+      "prompt": "Eres un agente autónomo que corre en GitHub Actions. PROHIBIDO pedir confirmación, pedir que el usuario elija, o hacer preguntas. NO termines con 'continue' ni solicites aprobación. Si falta información, asume valores razonables y continúa con el primer paso seguro. Ejecuta, registra resultados y deja pendientes claros al final.",
       "temperature": 0.2,
       "top_p": 0.9,
-      "steps": 40,
+      "steps": 12,
       "options": {
-        "reasoningEffort": "max"
+        "reasoningEffort": "medium"
       },
       "permission": {
         "*": "allow",
@@ -52,9 +52,9 @@
       "prompt": "Eres el subagente build. Ejecuta tareas de implementación y cambios en repo sin hacer preguntas al usuario. Si falta información, asume valores razonables y continúa.",
       "temperature": 0.2,
       "top_p": 0.9,
-      "steps": 40,
+      "steps": 12,
       "options": {
-        "reasoningEffort": "max"
+        "reasoningEffort": "medium"
       },
       "permission": {
         "*": "allow",
@@ -116,6 +116,61 @@
   },
   "lsp": false,
   "formatter": false,
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true
+    },
+    "grep_app": {
+      "type": "remote",
+      "url": "https://mcp.grep.app",
+      "enabled": true
+    },
+    "deepwiki": {
+      "type": "remote",
+      "url": "https://mcp.deepwiki.com/mcp",
+      "enabled": true
+    },
+    "fetch": {
+      "type": "remote",
+      "url": "https://remote.mcpservers.org/fetch/mcp",
+      "enabled": true
+    },
+    "mcp_memory": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "enabled": true,
+      "timeout": 5000
+    },
+    "mcp_sequential_thinking": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "enabled": true,
+      "timeout": 5000
+    },
+    "mcp_github": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "enabled": false,
+      "environment": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_TOKEN}"
+      },
+      "timeout": 5000
+    }
+  },
   "provider": {
     "azure-openai": {
       "npm": "@ai-sdk/openai-compatible",
@@ -142,7 +197,7 @@
           },
           "limit": {
             "context": 131072,
-            "output": 65536
+            "output": 32768
           },
           "cost": {
             "input": 0,
@@ -155,7 +210,7 @@
             "presence_penalty": 0,
             "parallel_tool_calls": true,
             "tool_choice": "auto",
-            "reasoningEffort": "max"
+            "reasoningEffort": "medium"
           }
         }
       }
