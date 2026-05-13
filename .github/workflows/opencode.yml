@@ -134,11 +134,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
-          OPENAI_API_KEY: ${{ env.OPENAI_API_KEY }}
+          AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           share: false
-          agent: build
+          agent: ci
           
 
       - name: Report failure
