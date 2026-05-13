@@ -47,7 +47,7 @@ jobs:
           ISSUE_NUMBER="${{ github.event.issue.number || github.event.pull_request.number }}"
 
           if [ "$EVENT_NAME" = "pull_request" ]; then
-            FULL_MODEL=$(resolve_model "DeepSeek-V4-Flash")
+            FULL_MODEL=$(resolve_model "claude-opus-4-7)
             echo "should_run=true" >> "$GITHUB_OUTPUT"
             echo "run_kind=auto_pr_review" >> "$GITHUB_OUTPUT"
             echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
@@ -57,7 +57,7 @@ jobs:
           elif [ "$EVENT_NAME" = "issue_comment" ] || [ "$EVENT_NAME" = "pull_request_review_comment" ]; then
             if echo "$COMMENT_BODY" | grep -qE '(^|[[:space:]])/(oc|opencode)\b'; then
               SELECTED_MODEL=$(echo "$COMMENT_BODY" | grep -oP 'model=\K\S+' | head -1 || true)
-              FULL_MODEL=$(resolve_model "${SELECTED_MODEL:-DeepSeek-V4-Flash}")
+              FULL_MODEL=$(resolve_model "${SELECTED_MODEL:-claude-opus-4-7}")
               if [ "$IS_PR" = "true" ]; then
                 echo "should_run=true" >> "$GITHUB_OUTPUT"
                 echo "run_kind=manual_pr_review" >> "$GITHUB_OUTPUT"
@@ -107,12 +107,12 @@ jobs:
         run: |
           PROVIDER="${{ needs.detect-trigger.outputs.provider }}"
           case "$PROVIDER" in
-            azure-openai)
+            azure-anthropic)
               echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
               echo "OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> $GITHUB_ENV
               echo "AZURE_OPENAI_RESOURCE_NAME=${{ secrets.AZURE_OPENAI_RESOURCE_NAME }}" >> $GITHUB_ENV
               ;;
-            azure-anthropic)
+            azure-openai)
               echo "AZURE_ANTHROPIC_API_KEY=${{ secrets.AZURE_ANTHROPIC_API_KEY }}" >> $GITHUB_ENV
               echo "ANTHROPIC_API_KEY=${{ secrets.AZURE_ANTHROPIC_API_KEY }}" >> $GITHUB_ENV
               echo "AZURE_ANTHROPIC_RESOURCE_NAME=${{ secrets.AZURE_ANTHROPIC_RESOURCE_NAME }}" >> $GITHUB_ENV
@@ -133,7 +133,7 @@ jobs:
         uses: sst/opencode/github@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
