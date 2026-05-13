@@ -48,7 +48,6 @@
           "options": {
             "reasoningEffort": "high",
             "textVerbosity": "low",
-            "reasoningSummary": "auto",
             "parallel_tool_calls": true,
             "tool_choice": "auto",
             "thinking": true,
