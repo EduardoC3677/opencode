@@ -253,3 +253,63 @@ https://s3.amazonaws.com/amundsen/ares/<pid>-<rid>/{config,source}.zip
 ```
 
 Detalle completo y reproducible en `docs/acer-update/README.md`.
+
+---
+
+## Sesión #4: 2026-05-14 (análisis sitios chinos OEM Acer)
+
+### Comando del usuario
+
+> `/oc analiza las páginas https://www.zhyxz.cn/1936.html y https://www.dhzxt.cn/12336.html y busca la forma de descargar el uso sin login o otros requisitos analiza a profundidad el código de la página`
+>
+> + comentario anterior: `/oc ok con curl. Y curl_cffi analiza está página web ... oemxitong.com/more/Acer/1207.html`
+
+### Qué se hizo
+
+1. **Descarga HTML** de las 3 páginas (zhyxz.cn 80 KB, dhzxt.cn 86 KB, oemxitong.com 16 KB GBK→UTF-8).
+2. **Identificación de stacks**:
+   - zhyxz.cn → WordPress + tema **ceomax-pro** + módulo de pago "ceoshop"
+   - dhzxt.cn → WordPress + tema **ceomax** + plugin **erphpdown** (de mobantu.com)
+   - oemxitong.com → **EmpireCMS 7.x** (帝国CMS, PHP, GBK)
+3. **Descarga del JS** que orquesta la compra/descarga (`product.js`, `erphpdown.js`).
+4. **Análisis estático** del JS: extraídos todos los endpoints AJAX (`action=...`) y su semántica.
+5. **Pruebas en vivo** (curl, sin cookie de sesión) contra cada endpoint y cada bypass conocido:
+   - `wp-admin/admin-ajax.php?action=ceo_shop_pay_product_download` → 200 `{"success":false,"data":"未登录，无权下载！"}`
+   - `wp-admin/admin-ajax.php?action=epd_wppay` → 200 con QR alipay+wechat de xunhupay (¥45). **No revela el link**.
+   - `epd_index/epd_check_pan/epd_see/epd_buy_post/...` → HTTP 400 (rechazo sin sesión).
+   - `wp-json/wp/v2/posts/<id>` → 200 pero el shortcode/template filtra el link.
+   - `wp-json/wp/v2/posts/<id>?context=edit` → 401.
+   - Wayback Machine / Bing / DDG → sin snapshots de los enlaces.
+   - EmpireCMS `/e/DownSys/DownSoft/?classid=33&id=1207&pathid=0` → `alert('您还没登录!')`.
+   - 5 variantes de path EmpireCMS → todos 404 o el mismo alert.
+
+### Hallazgos clave
+
+- **Las 3 webs son paywall server-side puro**. El link de descarga real se almacena en BBDD y **nunca se envía al cliente** hasta validar sesión + saldo/pago.
+- **dhzxt.cn (erphpdown)** sí permite iniciar una **orden de pago de ¥45 sin login** (`POST action=epd_wppay`) → devuelve QR de xunhupay → puedes pagar como invitado. Una vez confirmado el pago (webhook), el siguiente `epd_wppay_pay` devuelve `status:1` y al recargar la página el shortcode renderiza el link. Pero **no hay forma de saltar el pago**.
+- **zhyxz.cn (ceoshop)** requiere login obligatoriamente para todo el flujo.
+- **oemxitong.com (EmpireCMS)** requiere login + puntos. Captcha en el registro.
+- En la home de dhzxt.cn hay un link público `pan.baidu.com/s/1zpM2VrLbF9xSw1SIqGFXMg?pwd=f1ic` — verificado: es el cliente Windows del propio sitio, **no** el sistema de fábrica Acer.
+
+### Veredicto
+
+**No existe vía sin login / sin requisitos** para descargar el sistema de fábrica de los 3 sitios. La única alternativa sin login es **pagar ¥45 en xunhupay** vía dhzxt.cn (sin necesidad de crear cuenta) y esperar a que el webhook PHP confirme el pago, momento en que el JS hace polling y refresca la página mostrando el enlace.
+
+### Recomendación
+
+Usar los canales **oficiales Acer** ya documentados en `docs/acer-update/README.md`:
+
+- `Acer Live Updater` (`aluwsv2.acer.com`) — drivers oficiales.
+- `Acer Care Center → Recovery Management` — crea USB de recovery local.
+- `PreloadBackup.zip` en partición Acer OEM — extraíble con `Acer.CareCenter.LiveUpdate.dll` en el equipo.
+- Soporte Acer (S/N: `NXK6TAL019416025803400`) — pueden enviar USB recovery.
+
+### Artefactos en este commit
+
+- `docs/acer-update/oem-china-sites/README.md` — análisis técnico completo por sitio.
+- `docs/acer-update/oem-china-sites/zhyxz_1936.html` — HTML capturado.
+- `docs/acer-update/oem-china-sites/dhzxt_12336.html` — HTML capturado.
+- `docs/acer-update/oem-china-sites/oemxitong_1207.utf8.html` — HTML capturado (transcoded).
+- `docs/acer-update/oem-china-sites/erphpdown.js` — JS del plugin dhzxt.
+- `docs/acer-update/oem-china-sites/zhyxz_product.js` — JS del modal ceomax-pro.
+- `docs/acer-update/oem-china-sites/probe.sh` — script de reproducción de los tests.

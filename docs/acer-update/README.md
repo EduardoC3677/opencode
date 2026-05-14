@@ -5,6 +5,11 @@ extraído del Dropbox del issue). Se enfocó en lo solicitado en el comentario
 `/oc descarga el ZIP nuevamente y decompila los exe y lee los logs de updater
 para que extraigas los servers y headers correctos para descargar archivos`.
 
+> Ver también:
+> - `binary-analysis.md` — análisis de los .exe nativos / .NET
+> - `usmt-ppkg-analysis.md` — análisis del `usmt.ppkg` (provisioning package, NO USMT migration store)
+> - `oem-china-sites/README.md` — análisis de los 3 sitios chinos que venden ISOs OEM Acer (zhyxz.cn, dhzxt.cn, oemxitong.com) y por qué **no se puede bypassear su paywall**
+
 > **Fuente de datos**: backup OEM completo de un equipo `Acer Aspire A315-59 / A315-59G`
 > (proyecto interno `Callisto_ADU`), Windows 11 x64 (ES-MX, locale `MX`),
 > serial `NXK6TAL019416025803400`.
