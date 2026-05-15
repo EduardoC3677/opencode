@@ -30,7 +30,7 @@ permissions:
 jobs:
   import_and_shard:
     # MUY recomendado: self-hosted por tamaño (22GB + extracción)
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     env:
       GH_TOKEN: ${{ secrets.GH_PAT }}
