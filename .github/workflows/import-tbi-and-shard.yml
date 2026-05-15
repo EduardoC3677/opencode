@@ -1,4 +1,4 @@
-name: Descargar TBI + montar con TBIMount (ubuntu-latest)
+name: Descargar TBI -> TBIMount -> extraer -> LFS/shards -> multi-repo (ubuntu-latest)
 
 on:
   workflow_dispatch:
@@ -7,18 +7,45 @@ on:
         description: "URL del .tbi"
         required: true
         default: "https://archive.org/download/acer-aspire-xc-830-full-image/Acer%20Aspire%20XC-830%20Full%20Image.tbi"
+      repo_prefix:
+        description: "Prefijo repos destino: <prefix>-partXX"
+        required: true
+        default: "acer-xc830-image"
+      max_repo_gb:
+        description: "Tamaño máximo por repo (GB) para sharding"
+        required: true
+        default: "4"
+      visibility:
+        description: "public o private"
+        required: true
+        default: "private"
+      lfs_threshold_mb:
+        description: "Umbral LFS (MB): track archivos > este valor"
+        required: true
+        default: "50"
+
+permissions:
+  contents: write
 
 jobs:
-  mount_and_extract:
+  import:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      TBI_URL: ${{ inputs.tbi_url }}
+      REPO_PREFIX: ${{ inputs.repo_prefix }}
+      MAX_REPO_GB: ${{ inputs.max_repo_gb }}
+      VISIBILITY: ${{ inputs.visibility }}
+      LFS_THRESHOLD_MB: ${{ inputs.lfs_threshold_mb }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Mostrar espacio (ANTES)
+      - name: Espacio ANTES
         run: df -h
 
-      # Limpieza de runner para ganar espacio extra (hasta ~31GB según autor/opciones).
+      # Limpia espacio del runner (puede liberar bastante, según opciones). 
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
@@ -29,141 +56,270 @@ jobs:
           large-packages: true
           docker-images: true
           swap-storage: true
-        # Acción del Marketplace para liberar espacio en ubuntu-latest. 
 
-      - name: Mostrar espacio (DESPUÉS)
+      - name: Espacio DESPUÉS
         run: df -h
 
-      - name: Dependencias (aria2, unzip, rsync, ntfs-3g, util-linux)
+      - name: Dependencias
+        shell: bash
         run: |
           set -euxo pipefail
           sudo apt-get update
-          sudo apt-get install -y aria2 unzip rsync ntfs-3g util-linux
+          sudo apt-get install -y aria2 curl unzip rsync git-lfs jq util-linux ntfs-3g python3
+          # gh suele estar disponible; si no, lo instalamos:
+          if ! command -v gh >/dev/null 2>&1; then
+            sudo apt-get install -y gh
+          fi
 
-      - name: Descargar .tbi (22GB)
+      - name: Configurar Git
+        shell: bash
+        run: |
+          set -euxo pipefail
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Descargar .tbi
+        shell: bash
         run: |
           set -euxo pipefail
           mkdir -p work
           cd work
           aria2c -x 16 -s 16 --continue=true --retry-wait=10 --max-tries=20 \
-            -o image.tbi "${{ inputs.tbi_url }}"
+            -o image.tbi "$TBI_URL"
           ls -lh image.tbi
 
-      - name: Descargar TBIMount Linux
+      - name: Descargar + extraer TBIMount Linux (ZIP real) + seleccionar .ko compatible
+        shell: bash
         run: |
           set -euxo pipefail
+
           mkdir -p tools/tbimount
           cd tools/tbimount
 
-          # URL proporcionado por ti
-          curl -L --retry 10 --retry-delay 5 -o tbimount_linux.zip \
-            "https://www.terabyteunlimited.com/downloads/tbimount_linux.zip"
+          URL="https://www.terabyteunlimited.com/downloads/tbimount_linux.zip"
 
-          unzip -q tbimount_linux.zip -d .
-          echo "Contenido extraído:"
-          find . -maxdepth 2 -type f -print
+          # Descarga como "navegador" para evitar HTML en lugar del ZIP (tu log mostró ~5KB).
+          curl -fL --retry 10 --retry-delay 5 \
+            -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/123 Safari/537.36" \
+            -H "Accept: application/zip,application/octet-stream;q=0.9,*/*;q=0.8" \
+            -o tbimount_linux.zip "$URL"
 
-          # Localiza el binario ejecutable (suele llamarse tbimount o similar)
-          TBIMOUNT_BIN="$(find . -maxdepth 2 -type f -iname 'tbimount*' -print | head -n 1)"
-          if [[ -z "$TBIMOUNT_BIN" ]]; then
-            echo "::error::No se encontró binario tbimount dentro del zip."
+          echo "Descarga:"
+          ls -lh tbimount_linux.zip
+          file tbimount_linux.zip || true
+
+          # Validar zip
+          if ! unzip -t tbimount_linux.zip >/dev/null 2>&1; then
+            echo "::error::El archivo descargado NO es un ZIP válido (probablemente HTML/redirect/bloqueo)."
+            echo "Primeros bytes para diagnóstico:"
+            head -c 400 tbimount_linux.zip | sed -e 's/</\n</g' | head -n 40 || true
             exit 1
           fi
 
+          rm -rf extracted
+          unzip -q tbimount_linux.zip -d extracted
+          cd extracted
+
+          echo "Kernel actual:"
+          uname -a
+          KREL="$(uname -r)"
+
+          echo "Buscando binario tbimount..."
+          TBIMOUNT_BIN="$(find . -type f -iname 'tbimount' | head -n 1 || true)"
+          if [[ -z "$TBIMOUNT_BIN" ]]; then
+            echo "::error::No encontré el binario 'tbimount' dentro del ZIP."
+            exit 1
+          fi
           chmod +x "$TBIMOUNT_BIN" || true
+
+          echo "Buscando módulos tbimount.ko..."
+          mapfile -t KOS < <(find . -type f -name 'tbimount.ko' -print || true)
+          if [[ "${#KOS[@]}" -eq 0 ]]; then
+            echo "::error::No encontré tbimount.ko dentro del ZIP."
+            exit 1
+          fi
+
+          echo "Seleccionando .ko compatible por vermagic con: $KREL"
+          BEST_KO=""
+          for ko in "${KOS[@]}"; do
+            if modinfo "$ko" >/dev/null 2>&1; then
+              VM="$(modinfo -F vermagic "$ko" || true)"
+              echo " - $ko -> vermagic: ${VM:-N/A}"
+              if [[ "${VM:-}" == *"$KREL"* ]]; then
+                BEST_KO="$ko"
+                break
+              fi
+            else
+              echo " - $ko -> modinfo no pudo leerlo"
+            fi
+          done
+
+          if [[ -z "$BEST_KO" ]]; then
+            echo "::error::No hay tbimount.ko compatible con este kernel ($KREL)."
+            echo "Esto es común porque los módulos van amarrados a versiones específicas del kernel."
+            echo "KO disponibles:"
+            printf '%s\n' "${KOS[@]}"
+            exit 1
+          fi
+
+          echo "Usando módulo: $BEST_KO"
+          echo "TBIMOUNT_DIR=$PWD" >> "$GITHUB_ENV"
           echo "TBIMOUNT_BIN=$PWD/$TBIMOUNT_BIN" >> "$GITHUB_ENV"
+          echo "TBIMOUNT_KO=$PWD/$BEST_KO" >> "$GITHUB_ENV"
 
-          echo "Mostrando ayuda (si existe):"
-          "$PWD/$TBIMOUNT_BIN" --help || "$PWD/$TBIMOUNT_BIN" -h || true
+          echo "Ayuda tbimount (si aplica):"
+          "$PWD/$TBIMOUNT_BIN" || true
 
-      - name: Montar TBI con TBIMount y extraer a work/extracted
+      - name: Cargar módulo (insmod) + montar TBI + copiar a work/extracted
+        shell: bash
         env:
+          TBIMOUNT_DIR: ${{ env.TBIMOUNT_DIR }}
           TBIMOUNT_BIN: ${{ env.TBIMOUNT_BIN }}
+          TBIMOUNT_KO: ${{ env.TBIMOUNT_KO }}
         run: |
           set -euxo pipefail
-          cd work
-          mkdir -p mnt extracted
 
-          echo "TBIMOUNT_BIN=$TBIMOUNT_BIN"
-          ls -lh image.tbi
+          echo "Cargando módulo: $TBIMOUNT_KO"
+          sudo insmod "$TBIMOUNT_KO" || {
+            echo "::error::insmod falló (incompatibilidad kernel)."
+            dmesg | tail -n 120 || true
+            exit 1
+          }
 
-          # Snapshot de discos visibles ANTES (por si TBIMount crea un dispositivo)
-          BEFORE_DISKS="$(lsblk -ndo NAME,TYPE | awk '$2=="disk"{print $1}' | sort | tr '\n' ' ')"
-          echo "Discos antes: $BEFORE_DISKS"
+          lsmod | grep -i tbimount || true
 
-          mounted=0
+          mkdir -p work/mnt work/extracted
 
-          # Intentos comunes de CLI (se ajusta automáticamente según qué funcione)
-          # Nota: el uso exacto depende de la versión; por eso probamos varias formas.
-          for cmd in \
-            "sudo \"$TBIMOUNT_BIN\" image.tbi mnt" \
-            "sudo \"$TBIMOUNT_BIN\" -m mnt image.tbi" \
-            "sudo \"$TBIMOUNT_BIN\" --mountpoint mnt image.tbi" \
-            "sudo \"$TBIMOUNT_BIN\" --mount image.tbi --target mnt" \
-            "sudo \"$TBIMOUNT_BIN\" image.tbi --mount mnt"
-          do
-            echo "Probando: $cmd"
-            if bash -lc "$cmd"; then
-              mounted=1
-              break
+          # Según README: ./tbimount mount filename.tbi y unmount. 
+          pushd "$TBIMOUNT_DIR" >/dev/null
+            sudo "$TBIMOUNT_BIN" mount "$GITHUB_WORKSPACE/work/image.tbi"
+          popd >/dev/null
+
+          # Debe crear /dev/tbia, /dev/tbib... 
+          if [[ ! -e /dev/tbia ]]; then
+            echo "No apareció /dev/tbia. Intentando crear nodos con major desde /proc/devices..."
+            MAJOR="$(awk '/tbimount/{print $1}' /proc/devices | head -n1 || true)"
+            if [[ -z "$MAJOR" ]]; then
+              echo "::error::No se encontró major para tbimount y no existe /dev/tbia."
+              dmesg | tail -n 120 || true
+              exit 1
             fi
-          done
-
-          # Caso A: TBIMount montó directamente en el directorio mnt (FUSE o similar)
-          if [[ -n "$(ls -A mnt 2>/dev/null || true)" ]]; then
-            echo "TBIMount montó en ./mnt. Copiando..."
-            rsync -aH --numeric-ids mnt/ extracted/
-            echo "Extracción lista en work/extracted"
-            exit 0
+            for i in $(seq 0 9); do
+              letter=$(printf "\\$(printf '%03o' $((97+i)))")  # a,b,c...
+              dev="/dev/tbi${letter}"
+              sudo mknod "$dev" b "$MAJOR" "$i" || true
+              sudo chmod 666 "$dev" || true
+            done
           fi
 
-          # Caso B: TBIMount creó un dispositivo de bloque; detectarlo comparando lsblk
-          AFTER_DISKS="$(lsblk -ndo NAME,TYPE | awk '$2=="disk"{print $1}' | sort | tr '\n' ' ')"
-          echo "Discos después: $AFTER_DISKS"
+          # Montar en solo lectura como indica el README. 
+          sudo mount -o ro /dev/tbia work/mnt
 
-          NEW_DISK="$(comm -13 <(printf "%s\n" $BEFORE_DISKS | sort) <(printf "%s\n" $AFTER_DISKS | sort) | head -n 1 || true)"
-          if [[ -z "$NEW_DISK" ]]; then
-            echo "::error::TBIMount no montó en ./mnt y tampoco apareció un disco nuevo en lsblk."
-            echo "::error::Revisa el output de '--help' en el paso anterior y ajusta los parámetros del comando TBIMount."
+          # Copiar contenido al directorio extraído
+          rsync -aH --numeric-ids work/mnt/ work/extracted/
+
+          # Limpieza: desmontar, tbimount unmount, rmmod
+          sudo umount work/mnt || true
+          pushd "$TBIMOUNT_DIR" >/dev/null
+            sudo "$TBIMOUNT_BIN" unmount || true
+          popd >/dev/null
+          sudo rmmod tbimount || true
+
+          echo "Extracción completada:"
+          du -sh work/extracted || true
+
+      # GitHub bloquea >100MiB sin LFS; y LFS en Free/Pro limita a 2GB por archivo.
+      # Por eso: partimos >1.9GB antes de shard/LFS. 
+      - name: Partir archivos >1.9GB (para no rebasar límite LFS típico 2GB)
+        shell: bash
+        run: |
+          set -euxo pipefail
+          cd work/extracted
+          while IFS= read -r -d '' f; do
+            echo "Splitting: $f"
+            dir="$(dirname "$f")"
+            base="$(basename "$f")"
+            split -b 1900M -d -a 3 --additional-suffix=.bin "$f" "$dir/$base.part-"
+            rm -f "$f"
+          done < <(find . -type f -size +1900M -print0)
+
+      - name: Sharding por tamaño (bin-pack) -> work/shards/partXX
+        shell: bash
+        run: |
+          set -euxo pipefail
+          python3 scripts/binpack.py \
+            --src work/extracted \
+            --dst work/shards \
+            --max-gb "$MAX_REPO_GB"
+
+      - name: Subir shards a repos separados (crear si no existen) + LFS (>umbral)
+        shell: bash
+        run: |
+          set -euxo pipefail
+
+          if [[ -z "${GH_TOKEN:-}" ]]; then
+            echo "::error::Falta secrets.GH_TOKEN"
             exit 1
           fi
+          export GH_TOKEN
 
-          echo "Nuevo dispositivo detectado: /dev/$NEW_DISK"
-          sudo partprobe "/dev/$NEW_DISK" || true
-          lsblk "/dev/$NEW_DISK"
+          OWNER="$(jq -r .repository_owner.login < "$GITHUB_EVENT_PATH")"
+          echo "OWNER=$OWNER"
 
-          # Obtén particiones (si existen)
-          mapfile -t PARTS < <(lsblk -rno NAME,TYPE "/dev/$NEW_DISK" | awk '$2=="part"{print $1}')
-          if [[ "${#PARTS[@]}" -eq 0 ]]; then
-            # Si no hay particiones, tratamos el disco como una sola FS
-            PARTS=("$NEW_DISK")
-          fi
+          git lfs install --system
 
-          idx=0
-          for p in "${PARTS[@]}"; do
-            mp="mnt/p$idx"
-            sudo mkdir -p "$mp"
+          i=1
+          for part in work/shards/part*/; do
+            part="${part%/}"
+            repo="$(printf "%s-part%02d" "$REPO_PREFIX" "$i")"
+            full="$OWNER/$repo"
 
-            echo "Montando /dev/$p en $mp (solo lectura)..."
-            # Intento genérico ro; si es NTFS, intentamos también con ntfs-3g/ntfs3 implícitamente.
-            if sudo mount -o ro "/dev/$p" "$mp"; then
-              :
-            else
-              # fallback (si el automount falla por tipo)
-              sudo mount -t ntfs -o ro "/dev/$p" "$mp" || sudo mount -t ntfs3 -o ro "/dev/$p" "$mp" || true
+            echo "=== Subiendo $part -> $full ==="
+
+            if ! gh repo view "$full" >/dev/null 2>&1; then
+              echo "Creando repo $full..."
+              if [[ "$VISIBILITY" == "public" ]]; then
+                gh repo create "$full" --public --confirm
+              else
+                gh repo create "$full" --private --confirm
+              fi
             fi
 
-            if mountpoint -q "$mp"; then
-              echo "Copiando contenido de $mp a extracted/ ..."
-              rsync -aH --numeric-ids "$mp"/ extracted/
-              sudo umount "$mp"
-            else
-              echo "No se pudo montar /dev/$p; se omite."
-            fi
+            tmp="$(mktemp -d)"
+            rsync -a --delete "$part"/ "$tmp"/
 
-            idx=$((idx+1))
+            pushd "$tmp" >/dev/null
+              git init -b main
+              git lfs install --local
+
+              # Trackear con LFS los archivos > umbral (GitHub advierte >50MiB y bloquea >100MiB sin LFS). 
+              threshold="${LFS_THRESHOLD_MB}M"
+              while IFS= read -r -d '' big; do
+                git lfs track "${big#./}"
+              done < <(find . -type f -size +"$threshold" -print0)
+
+              git add .gitattributes || true
+              git add -A
+
+              if ! git diff --cached --quiet; then
+                git commit -m "Import $(basename "$part") (LFS > ${LFS_THRESHOLD_MB}MB)"
+              else
+                echo "Nada que commitear en $full"
+              fi
+
+              git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${full}.git"
+              git push -u origin main
+            popd >/dev/null
+
+            rm -rf "$tmp"
+            i=$((i+1))
           done
 
-          echo "Extracción lista en work/extracted"
-          du -sh extracted || true
+      - name: Resumen
+        shell: bash
+        run: |
+          set -euxo pipefail
+          echo "Shards:"
+          du -sh work/shards/part* || true
+          echo "Listo."
           
