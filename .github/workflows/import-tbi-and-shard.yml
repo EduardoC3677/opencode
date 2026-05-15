@@ -144,9 +144,6 @@ jobs:
 
           echo "TBIMOUNT_KO=$PWD/$BEST_KO" >> "$GITHUB_ENV"
 
-          echo "Ayuda tbimount (sin args):"
-          "$PWD/$TBIMOUNT_BIN" || true
-
       - name: insmod tbimount.ko + tbimount mount + mount -o ro /dev/tbia + extraer
         shell: bash
         env:
