@@ -44,6 +44,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+        # Puede liberar hasta ~31GB dependiendo opciones. [4](https://www.helpdrivers.com/desktops/Acer/Aspire/Aspire_XC-830/)
+
+      - name: Mostrar espacio tras limpieza
+        run: df -h
+  
       - name: Dependencias (git-lfs, p7zip, aria2, jq)
         shell: bash
         run: |
