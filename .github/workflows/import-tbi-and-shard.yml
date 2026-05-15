@@ -96,7 +96,7 @@ jobs:
           mkdir -p tools/tbimount
           cd tools/tbimount
 
-          URL="https://www.terabyteunlimited.com/downloads/tbimount_linux.zip"
+          URL="https://github.com/EduardoC3677/opencode/releases/download/1/tbimount_linux.zip"
 
           # Descarga como "navegador" para evitar HTML en lugar del ZIP (tu log mostró ~5KB).
           curl -fL --retry 10 --retry-delay 5 \
