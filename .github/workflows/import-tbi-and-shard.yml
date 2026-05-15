@@ -23,6 +23,10 @@ on:
         description: "Umbral LFS (MB): track archivos > este valor"
         required: true
         default: "50"
+      force_insmod:
+        description: "Intentar cargar .ko con insmod -f si no hay match exacto (riesgoso)"
+        required: true
+        default: "false"
 
 permissions:
   contents: write
@@ -37,6 +41,7 @@ jobs:
       MAX_REPO_GB: ${{ inputs.max_repo_gb }}
       VISIBILITY: ${{ inputs.visibility }}
       LFS_THRESHOLD_MB: ${{ inputs.lfs_threshold_mb }}
+      FORCE_INSMOD: ${{ inputs.force_insmod }}
 
     steps:
       - name: Checkout
@@ -45,7 +50,7 @@ jobs:
       - name: Espacio ANTES
         run: df -h
 
-      # Limpia espacio del runner (puede liberar bastante, según opciones). 
+      # Limpieza de runner para ganar espacio (Marketplace). [7](https://github.com/actions/runner-images/discussions/9329)
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
@@ -66,7 +71,6 @@ jobs:
           set -euxo pipefail
           sudo apt-get update
           sudo apt-get install -y aria2 curl unzip rsync git-lfs jq util-linux ntfs-3g python3
-          # gh suele estar disponible; si no, lo instalamos:
           if ! command -v gh >/dev/null 2>&1; then
             sudo apt-get install -y gh
           fi
@@ -88,7 +92,7 @@ jobs:
             -o image.tbi "$TBI_URL"
           ls -lh image.tbi
 
-      - name: Descargar + extraer TBIMount Linux (ZIP real) + seleccionar .ko compatible
+      - name: Descargar + preparar TBIMount (ZIP real) + elegir .ko (match exacto o más cercano)
         shell: bash
         run: |
           set -euxo pipefail
@@ -98,7 +102,7 @@ jobs:
 
           URL="https://github.com/EduardoC3677/opencode/releases/download/1/tbimount_linux.zip"
 
-          # Descarga como "navegador" para evitar HTML en lugar del ZIP (tu log mostró ~5KB).
+          # Descarga robusta para evitar HTML (tu caso de 5KB). [3](https://docs.github.com/en/actions/reference/limits)
           curl -fL --retry 10 --retry-delay 5 \
             -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/123 Safari/537.36" \
             -H "Accept: application/zip,application/octet-stream;q=0.9,*/*;q=0.8" \
@@ -108,11 +112,9 @@ jobs:
           ls -lh tbimount_linux.zip
           file tbimount_linux.zip || true
 
-          # Validar zip
           if ! unzip -t tbimount_linux.zip >/dev/null 2>&1; then
-            echo "::error::El archivo descargado NO es un ZIP válido (probablemente HTML/redirect/bloqueo)."
-            echo "Primeros bytes para diagnóstico:"
-            head -c 400 tbimount_linux.zip | sed -e 's/</\n</g' | head -n 40 || true
+            echo "::error::Lo descargado NO es ZIP válido (probable HTML/redirect)."
+            head -c 400 tbimount_linux.zip | sed -e 's/</\n</g' | head -n 50 || true
             exit 1
           fi
 
@@ -123,8 +125,14 @@ jobs:
           echo "Kernel actual:"
           uname -a
           KREL="$(uname -r)"
+          KBASE="${KREL%%-*}"   # 6.17.0-1013-azure -> 6.17.0
+          KMAJMIN="$(echo "$KBASE" | awk -F. '{print $1 "." $2}')" # 6.17
 
-          echo "Buscando binario tbimount..."
+          echo "KREL=$KREL"
+          echo "KBASE=$KBASE"
+          echo "KMAJMIN=$KMAJMIN"
+
+          # Binario
           TBIMOUNT_BIN="$(find . -type f -iname 'tbimount' | head -n 1 || true)"
           if [[ -z "$TBIMOUNT_BIN" ]]; then
             echo "::error::No encontré el binario 'tbimount' dentro del ZIP."
@@ -132,45 +140,54 @@ jobs:
           fi
           chmod +x "$TBIMOUNT_BIN" || true
 
-          echo "Buscando módulos tbimount.ko..."
+          # KO disponibles
           mapfile -t KOS < <(find . -type f -name 'tbimount.ko' -print || true)
           if [[ "${#KOS[@]}" -eq 0 ]]; then
             echo "::error::No encontré tbimount.ko dentro del ZIP."
             exit 1
           fi
 
-          echo "Seleccionando .ko compatible por vermagic con: $KREL"
+          echo "Intentando match exacto por vermagic..."
           BEST_KO=""
           for ko in "${KOS[@]}"; do
             if modinfo "$ko" >/dev/null 2>&1; then
               VM="$(modinfo -F vermagic "$ko" || true)"
-              echo " - $ko -> vermagic: ${VM:-N/A}"
               if [[ "${VM:-}" == *"$KREL"* ]]; then
                 BEST_KO="$ko"
                 break
               fi
-            else
-              echo " - $ko -> modinfo no pudo leerlo"
             fi
           done
 
+          # Si no hay match exacto, elegir el "más cercano" por major.minor (ej. 6.17.x)
           if [[ -z "$BEST_KO" ]]; then
-            echo "::error::No hay tbimount.ko compatible con este kernel ($KREL)."
-            echo "Esto es común porque los módulos van amarrados a versiones específicas del kernel."
+            echo "No hubo match exacto. Buscando KO por major.minor=$KMAJMIN y arquitectura amd64..."
+            # Filtra folders que empiecen con KMAJMIN y contengan amd64
+            # Ej: ./6.17.9-amd64-iflnet/tbimount.ko
+            mapfile -t CANDS < <(printf '%s\n' "${KOS[@]}" | grep -E "\./${KMAJMIN}\.[0-9]+-amd64" || true)
+
+            if [[ "${#CANDS[@]}" -gt 0 ]]; then
+              # Elegir el de patch más alto usando sort -V sobre el nombre de carpeta
+              BEST_KO="$(printf '%s\n' "${CANDS[@]}" | sort -V | tail -n 1)"
+              echo "KO más cercano elegido: $BEST_KO"
+            fi
+          fi
+
+          if [[ -z "$BEST_KO" ]]; then
+            echo "::error::No encontré tbimount.ko compatible o cercano para este kernel ($KREL)."
             echo "KO disponibles:"
             printf '%s\n' "${KOS[@]}"
             exit 1
           fi
 
-          echo "Usando módulo: $BEST_KO"
           echo "TBIMOUNT_DIR=$PWD" >> "$GITHUB_ENV"
           echo "TBIMOUNT_BIN=$PWD/$TBIMOUNT_BIN" >> "$GITHUB_ENV"
           echo "TBIMOUNT_KO=$PWD/$BEST_KO" >> "$GITHUB_ENV"
 
-          echo "Ayuda tbimount (si aplica):"
+          echo "Ayuda tbimount (sin args):"
           "$PWD/$TBIMOUNT_BIN" || true
 
-      - name: Cargar módulo (insmod) + montar TBI + copiar a work/extracted
+      - name: Cargar módulo + tbimount mount + montar /dev/tbia (ro) + copiar
         shell: bash
         env:
           TBIMOUNT_DIR: ${{ env.TBIMOUNT_DIR }}
@@ -179,29 +196,46 @@ jobs:
         run: |
           set -euxo pipefail
 
-          echo "Cargando módulo: $TBIMOUNT_KO"
-          sudo insmod "$TBIMOUNT_KO" || {
-            echo "::error::insmod falló (incompatibilidad kernel)."
-            dmesg | tail -n 120 || true
-            exit 1
-          }
+          echo "Kernel: $(uname -r)"
+          echo "KO seleccionado: $TBIMOUNT_KO"
+          echo "FORCE_INSMOD=$FORCE_INSMOD"
+
+          # Intentar insmod normal primero
+          if sudo insmod "$TBIMOUNT_KO"; then
+            echo "insmod OK"
+          else
+            echo "insmod falló."
+            if [[ "$FORCE_INSMOD" == "true" ]]; then
+              echo "Intentando insmod -f (forzado)..."
+              # Nota: esto puede fallar o inestabilizar el kernel del runner.
+              sudo insmod -f "$TBIMOUNT_KO" || {
+                echo "::error::insmod -f también falló."
+                dmesg | tail -n 160 || true
+                exit 1
+              }
+            else
+              echo "::error::No se pudo cargar el módulo. Activa input force_insmod=true si quieres intentar forzar."
+              dmesg | tail -n 160 || true
+              exit 1
+            fi
+          fi
 
           lsmod | grep -i tbimount || true
 
           mkdir -p work/mnt work/extracted
 
-          # Según README: ./tbimount mount filename.tbi y unmount. 
+          # Según tu README: ./tbimount mount filename.tbi / ./tbimount unmount
           pushd "$TBIMOUNT_DIR" >/dev/null
             sudo "$TBIMOUNT_BIN" mount "$GITHUB_WORKSPACE/work/image.tbi"
           popd >/dev/null
 
-          # Debe crear /dev/tbia, /dev/tbib... 
+          # Debe crear /dev/tbia, /dev/tbib, etc.
           if [[ ! -e /dev/tbia ]]; then
             echo "No apareció /dev/tbia. Intentando crear nodos con major desde /proc/devices..."
             MAJOR="$(awk '/tbimount/{print $1}' /proc/devices | head -n1 || true)"
             if [[ -z "$MAJOR" ]]; then
               echo "::error::No se encontró major para tbimount y no existe /dev/tbia."
-              dmesg | tail -n 120 || true
+              dmesg | tail -n 160 || true
               exit 1
             fi
             for i in $(seq 0 9); do
@@ -212,13 +246,11 @@ jobs:
             done
           fi
 
-          # Montar en solo lectura como indica el README. 
+          # Montar SOLO LECTURA (ro) como indica el README y buenas prácticas de mount. [8](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)
           sudo mount -o ro /dev/tbia work/mnt
 
-          # Copiar contenido al directorio extraído
           rsync -aH --numeric-ids work/mnt/ work/extracted/
 
-          # Limpieza: desmontar, tbimount unmount, rmmod
           sudo umount work/mnt || true
           pushd "$TBIMOUNT_DIR" >/dev/null
             sudo "$TBIMOUNT_BIN" unmount || true
@@ -228,8 +260,7 @@ jobs:
           echo "Extracción completada:"
           du -sh work/extracted || true
 
-      # GitHub bloquea >100MiB sin LFS; y LFS en Free/Pro limita a 2GB por archivo.
-      # Por eso: partimos >1.9GB antes de shard/LFS. 
+      # GitHub advierte >50MiB y bloquea >100MiB sin LFS; LFS tiene límite por archivo (Free/Pro ~2GB). [4](https://www.terabyteunlimited.com/downloads-image-for-windows/)[5](https://awesome.ecosyste.ms/projects/github.com%2Feasimon%2Fmaximize-build-space)
       - name: Partir archivos >1.9GB (para no rebasar límite LFS típico 2GB)
         shell: bash
         run: |
@@ -256,7 +287,6 @@ jobs:
         shell: bash
         run: |
           set -euxo pipefail
-
           if [[ -z "${GH_TOKEN:-}" ]]; then
             echo "::error::Falta secrets.GH_TOKEN"
             exit 1
@@ -292,7 +322,6 @@ jobs:
               git init -b main
               git lfs install --local
 
-              # Trackear con LFS los archivos > umbral (GitHub advierte >50MiB y bloquea >100MiB sin LFS). 
               threshold="${LFS_THRESHOLD_MB}M"
               while IFS= read -r -d '' big; do
                 git lfs track "${big#./}"
