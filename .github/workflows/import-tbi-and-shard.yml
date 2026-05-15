@@ -26,7 +26,7 @@ on:
       force_insmod:
         description: "Intentar cargar .ko con insmod -f si no hay match exacto (riesgoso)"
         required: true
-        default: "false"
+        default: "true"
 
 permissions:
   contents: write
@@ -53,7 +53,6 @@ jobs:
       - name: Espacio ANTES
         run: df -h
 
-      # Limpieza de runner para ganar espacio
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
@@ -73,8 +72,6 @@ jobs:
         run: |
           set -euxo pipefail
           sudo apt-get update
-          # kmod -> modinfo/insmod/lsmod
-          # multipath-tools -> kpartx (si se requiere mapear particiones)
           sudo apt-get install -y \
             aria2 curl unzip rsync git-lfs jq util-linux ntfs-3g python3 \
             kmod multipath-tools
@@ -98,7 +95,6 @@ jobs:
             echo "::error::Falta secrets.GH_TOKEN (PAT con permisos para crear repos y push)."
             exit 1
           fi
-          echo "$GH_TOKEN" | head -c 4 >/dev/null
 
       - name: Descargar .tbi
         shell: bash
@@ -110,7 +106,7 @@ jobs:
             -o image.tbi "$TBI_URL"
           ls -lh image.tbi
 
-      - name: Descargar + preparar TBIMount + elegir .ko (match exacto o más cercano)
+      - name: Descargar + preparar TBIMount + FORZAR .ko 6.17 (sin búsqueda/vermagic)
         shell: bash
         run: |
           set -euxo pipefail
@@ -141,13 +137,6 @@ jobs:
 
           echo "Kernel actual:"
           uname -a
-          KREL="$(uname -r)"
-          KBASE="${KREL%%-*}"
-          KMAJMIN="$(echo "$KBASE" | awk -F. '{print $1 "." $2}')"
-
-          echo "KREL=$KREL"
-          echo "KBASE=$KBASE"
-          echo "KMAJMIN=$KMAJMIN"
 
           TBIMOUNT_BIN="$(find . -type f -iname 'tbimount' | head -n 1 || true)"
           if [[ -z "$TBIMOUNT_BIN" ]]; then
@@ -156,39 +145,18 @@ jobs:
           fi
           chmod +x "$TBIMOUNT_BIN" || true
 
-          mapfile -t KOS < <(find . -type f -name 'tbimount.ko' -print || true)
-          if [[ "${#KOS[@]}" -eq 0 ]]; then
-            echo "::error::No encontré tbimount.ko dentro del ZIP."
-            exit 1
-          fi
+          # FORZAR: tomar el KO 6.17.* amd64-iflnet MÁS ALTO (sin modinfo/vermagic)
+          mapfile -t CANDS < <(find . -type f -path './6.17.*-amd64-iflnet/tbimount.ko' -print | sort -V)
 
-          echo "Intentando match exacto por vermagic..."
-          BEST_KO=""
-          for ko in "${KOS[@]}"; do
-            if modinfo "$ko" >/dev/null 2>&1; then
-              VM="$(modinfo -F vermagic "$ko" || true)"
-              if [[ "${VM:-}" == *"$KREL"* ]]; then
-                BEST_KO="$ko"
-                break
-              fi
-            fi
-          done
-
-          if [[ -z "$BEST_KO" ]]; then
-            echo "No hubo match exacto. Buscando KO por major.minor=$KMAJMIN y arquitectura amd64..."
-            mapfile -t CANDS < <(printf '%s\n' "${KOS[@]}" | grep -E "\./${KMAJMIN}\.[0-9]+-amd64" || true)
-            if [[ "${#CANDS[@]}" -gt 0 ]]; then
-              BEST_KO="$(printf '%s\n' "${CANDS[@]}" | sort -V | tail -n 1)"
-              echo "KO más cercano elegido: $BEST_KO"
-            fi
-          fi
-
-          if [[ -z "$BEST_KO" ]]; then
-            echo "::error::No encontré tbimount.ko compatible o cercano para este kernel ($KREL)."
+          if [[ "${#CANDS[@]}" -eq 0 ]]; then
+            echo "::error::No hay tbimount.ko 6.17.* amd64-iflnet dentro del ZIP."
             echo "KO disponibles:"
-            printf '%s\n' "${KOS[@]}"
+            find . -type f -name 'tbimount.ko' -print
             exit 1
           fi
+
+          BEST_KO="${CANDS[-1]}"
+          echo "KO 6.17.x (máximo) forzado elegido: $BEST_KO"
 
           echo "TBIMOUNT_DIR=$PWD" >> "$GITHUB_ENV"
           echo "TBIMOUNT_BIN=$PWD/$TBIMOUNT_BIN" >> "$GITHUB_ENV"
@@ -197,7 +165,7 @@ jobs:
           echo "Ayuda tbimount (sin args):"
           "$PWD/$TBIMOUNT_BIN" || true
 
-      - name: Cargar módulo + tbimount mount + EXTRAER POR PARTICIONES (ro)
+      - name: FORZAR insmod -f + tbimount mount + EXTRAER POR PARTICIONES (ro)
         shell: bash
         env:
           TBIMOUNT_DIR: ${{ env.TBIMOUNT_DIR }}
@@ -207,45 +175,33 @@ jobs:
           set -euxo pipefail
 
           echo "Kernel: $(uname -r)"
-          echo "KO seleccionado: $TBIMOUNT_KO"
-          echo "FORCE_INSMOD=$FORCE_INSMOD"
+          echo "KO forzado: $TBIMOUNT_KO"
+          echo "FORCE_INSMOD input: $FORCE_INSMOD (aquí se fuerza SIEMPRE insmod -f)"
 
-          # Preflight: en runners hosted suele fallar insmod por permisos
           if ! sudo -n true 2>/dev/null; then
             echo "::error::Este runner no permite sudo sin password. Usa runner self-hosted."
             exit 1
           fi
 
-          # Intentar insmod
-          if sudo insmod "$TBIMOUNT_KO"; then
-            echo "insmod OK"
-          else
-            echo "insmod falló."
-            if [[ "$FORCE_INSMOD" == "true" ]]; then
-              echo "Intentando insmod -f (forzado)..."
-              sudo insmod -f "$TBIMOUNT_KO" || {
-                echo "::error::insmod -f también falló."
-                dmesg | tail -n 200 || true
-                exit 1
-              }
-            else
-              echo "::error::No se pudo cargar el módulo. (En GH-hosted suele ser normal)."
-              echo "::error::Usa self-hosted runner o activa force_insmod=true (riesgoso)."
-              dmesg | tail -n 200 || true
-              exit 1
-            fi
-          fi
+          echo "Forzando carga del módulo con insmod -f (timeout 10s)..."
+          timeout 10s sudo insmod -f "$TBIMOUNT_KO" || {
+            echo "::error::insmod -f falló o se colgó."
+            dmesg | tail -n 200 || true
+            exit 1
+          }
 
           lsmod | grep -i tbimount || true
 
           mkdir -p work/mnt work/extracted
 
-          # Montar imagen (crea dispositivo tbimount/tbi*)
-          sudo "$TBIMOUNT_BIN" mount "$GITHUB_WORKSPACE/work/image.tbi"
+          echo "Ejecutando tbimount mount (timeout 90s)..."
+          timeout 90s sudo "$TBIMOUNT_BIN" mount "$GITHUB_WORKSPACE/work/image.tbi" || {
+            echo "::error::tbimount mount falló o se colgó."
+            dmesg | tail -n 200 || true
+            exit 1
+          }
 
           # Detectar dispositivo raíz:
-          # - Algunas builds crean /dev/tbimount0
-          # - Otras crean /dev/tbia (/dev/tbib, ...)
           DEV=""
           if ls -1 /dev/tbimount* >/dev/null 2>&1; then
             DEV="$(ls -1t /dev/tbimount* | head -n 1)"
@@ -258,17 +214,15 @@ jobs:
             dmesg | tail -n 200 || true
             exit 1
           fi
+
           echo "Dispositivo detectado: $DEV"
           lsblk -f "$DEV" || true
 
-          # Asegurar que se detecten particiones
           sudo udevadm settle || true
           sudo partprobe "$DEV" || true
 
-          # Obtener lista de particiones: /dev/tbimount0p1, /dev/tbia1, etc.
           PARTS="$(lsblk -ln -o PATH,TYPE "$DEV" | awk '$2=="part"{print $1}')"
 
-          # Si no salen, intentar kpartx (útil cuando no aparecen nodos de partición)
           if [[ -z "$PARTS" ]]; then
             echo "No aparecen particiones directas. Intentando kpartx…"
             sudo kpartx -av "$DEV" || true
@@ -276,7 +230,6 @@ jobs:
             PARTS="$(lsblk -ln -o PATH,TYPE "$DEV" | awk '$2=="part"{print $1}')"
           fi
 
-          # Si aún no salen, como fallback: tratar el dispositivo completo como una sola partición
           if [[ -z "$PARTS" ]]; then
             echo "No se detectaron particiones. Se intentará montar el dispositivo completo como 1 volumen."
             PARTS="$DEV"
@@ -294,7 +247,6 @@ jobs:
             FSTYPE="$(sudo blkid -o value -s TYPE "$P" 2>/dev/null || true)"
             echo "-> Montando $P (fstype=${FSTYPE:-unknown}) en $MP"
 
-            # Montaje RO seguro por tipo
             case "$FSTYPE" in
               ext2|ext3|ext4) sudo mount -o ro,noload "$P" "$MP" ;;
               xfs)            sudo mount -o ro,norecovery "$P" "$MP" ;;
@@ -304,9 +256,7 @@ jobs:
                 else sudo mount -t ntfs-3g -o ro "$P" "$MP"; fi
                 ;;
               vfat|fat|exfat) sudo mount -o ro "$P" "$MP" ;;
-              *)
-                sudo mount -o ro "$P" "$MP"
-                ;;
+              *)              sudo mount -o ro "$P" "$MP" ;;
             esac
 
             echo "   Copiando a $OUT"
@@ -316,13 +266,9 @@ jobs:
             i=$((i+1))
           done
 
-          # Limpieza kpartx si se usó (no rompe si no)
           sudo kpartx -dv "$DEV" >/dev/null 2>&1 || true
 
-          # Unmount tbimount
           sudo "$TBIMOUNT_BIN" unmount "$DEV" || sudo "$TBIMOUNT_BIN" unmount || true
-
-          # rmmod puede fallar en algunos entornos, no lo hacemos fatal
           sudo rmmod tbimount || true
 
           echo "Extracción completada:"
