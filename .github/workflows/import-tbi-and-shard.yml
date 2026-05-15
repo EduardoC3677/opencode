@@ -1,4 +1,4 @@
-name: Descargar TBI -> TBIMount -> extraer -> LFS/shards -> multi-repo (ubuntu-latest)
+name: "Descargar TBI -> TBIMount -> extraer -> LFS/shards -> multi-repo (ubuntu-latest)"
 
 on:
   workflow_dispatch:
@@ -34,6 +34,7 @@ permissions:
 jobs:
   import:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
       TBI_URL: ${{ inputs.tbi_url }}
@@ -46,11 +47,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Espacio ANTES
         run: df -h
 
-      # Limpieza de runner para ganar espacio (Marketplace). [7](https://github.com/actions/runner-images/discussions/9329)
+      # Limpieza de runner para ganar espacio
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
@@ -70,7 +73,12 @@ jobs:
         run: |
           set -euxo pipefail
           sudo apt-get update
-          sudo apt-get install -y aria2 curl unzip rsync git-lfs jq util-linux ntfs-3g python3
+          # kmod -> modinfo/insmod/lsmod
+          # multipath-tools -> kpartx (si se requiere mapear particiones)
+          sudo apt-get install -y \
+            aria2 curl unzip rsync git-lfs jq util-linux ntfs-3g python3 \
+            kmod multipath-tools
+
           if ! command -v gh >/dev/null 2>&1; then
             sudo apt-get install -y gh
           fi
@@ -82,6 +90,16 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "github-actions[bot]"
 
+      - name: Verificar token GH_TOKEN (obligatorio para crear/push repos)
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${GH_TOKEN:-}" ]]; then
+            echo "::error::Falta secrets.GH_TOKEN (PAT con permisos para crear repos y push)."
+            exit 1
+          fi
+          echo "$GH_TOKEN" | head -c 4 >/dev/null
+
       - name: Descargar .tbi
         shell: bash
         run: |
@@ -92,7 +110,7 @@ jobs:
             -o image.tbi "$TBI_URL"
           ls -lh image.tbi
 
-      - name: Descargar + preparar TBIMount (ZIP real) + elegir .ko (match exacto o más cercano)
+      - name: Descargar + preparar TBIMount + elegir .ko (match exacto o más cercano)
         shell: bash
         run: |
           set -euxo pipefail
@@ -102,7 +120,6 @@ jobs:
 
           URL="https://github.com/EduardoC3677/opencode/releases/download/1/tbimount_linux.zip"
 
-          # Descarga robusta para evitar HTML (tu caso de 5KB). [3](https://docs.github.com/en/actions/reference/limits)
           curl -fL --retry 10 --retry-delay 5 \
             -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/123 Safari/537.36" \
             -H "Accept: application/zip,application/octet-stream;q=0.9,*/*;q=0.8" \
@@ -125,14 +142,13 @@ jobs:
           echo "Kernel actual:"
           uname -a
           KREL="$(uname -r)"
-          KBASE="${KREL%%-*}"   # 6.17.0-1013-azure -> 6.17.0
-          KMAJMIN="$(echo "$KBASE" | awk -F. '{print $1 "." $2}')" # 6.17
+          KBASE="${KREL%%-*}"
+          KMAJMIN="$(echo "$KBASE" | awk -F. '{print $1 "." $2}')"
 
           echo "KREL=$KREL"
           echo "KBASE=$KBASE"
           echo "KMAJMIN=$KMAJMIN"
 
-          # Binario
           TBIMOUNT_BIN="$(find . -type f -iname 'tbimount' | head -n 1 || true)"
           if [[ -z "$TBIMOUNT_BIN" ]]; then
             echo "::error::No encontré el binario 'tbimount' dentro del ZIP."
@@ -140,7 +156,6 @@ jobs:
           fi
           chmod +x "$TBIMOUNT_BIN" || true
 
-          # KO disponibles
           mapfile -t KOS < <(find . -type f -name 'tbimount.ko' -print || true)
           if [[ "${#KOS[@]}" -eq 0 ]]; then
             echo "::error::No encontré tbimount.ko dentro del ZIP."
@@ -159,15 +174,10 @@ jobs:
             fi
           done
 
-          # Si no hay match exacto, elegir el "más cercano" por major.minor (ej. 6.17.x)
           if [[ -z "$BEST_KO" ]]; then
             echo "No hubo match exacto. Buscando KO por major.minor=$KMAJMIN y arquitectura amd64..."
-            # Filtra folders que empiecen con KMAJMIN y contengan amd64
-            # Ej: ./6.17.9-amd64-iflnet/tbimount.ko
             mapfile -t CANDS < <(printf '%s\n' "${KOS[@]}" | grep -E "\./${KMAJMIN}\.[0-9]+-amd64" || true)
-
             if [[ "${#CANDS[@]}" -gt 0 ]]; then
-              # Elegir el de patch más alto usando sort -V sobre el nombre de carpeta
               BEST_KO="$(printf '%s\n' "${CANDS[@]}" | sort -V | tail -n 1)"
               echo "KO más cercano elegido: $BEST_KO"
             fi
@@ -187,7 +197,7 @@ jobs:
           echo "Ayuda tbimount (sin args):"
           "$PWD/$TBIMOUNT_BIN" || true
 
-      - name: Cargar módulo + tbimount mount + montar /dev/tbia (ro) + copiar
+      - name: Cargar módulo + tbimount mount + EXTRAER POR PARTICIONES (ro)
         shell: bash
         env:
           TBIMOUNT_DIR: ${{ env.TBIMOUNT_DIR }}
@@ -200,22 +210,28 @@ jobs:
           echo "KO seleccionado: $TBIMOUNT_KO"
           echo "FORCE_INSMOD=$FORCE_INSMOD"
 
-          # Intentar insmod normal primero
+          # Preflight: en runners hosted suele fallar insmod por permisos
+          if ! sudo -n true 2>/dev/null; then
+            echo "::error::Este runner no permite sudo sin password. Usa runner self-hosted."
+            exit 1
+          fi
+
+          # Intentar insmod
           if sudo insmod "$TBIMOUNT_KO"; then
             echo "insmod OK"
           else
             echo "insmod falló."
             if [[ "$FORCE_INSMOD" == "true" ]]; then
               echo "Intentando insmod -f (forzado)..."
-              # Nota: esto puede fallar o inestabilizar el kernel del runner.
               sudo insmod -f "$TBIMOUNT_KO" || {
                 echo "::error::insmod -f también falló."
-                dmesg | tail -n 160 || true
+                dmesg | tail -n 200 || true
                 exit 1
               }
             else
-              echo "::error::No se pudo cargar el módulo. Activa input force_insmod=true si quieres intentar forzar."
-              dmesg | tail -n 160 || true
+              echo "::error::No se pudo cargar el módulo. (En GH-hosted suele ser normal)."
+              echo "::error::Usa self-hosted runner o activa force_insmod=true (riesgoso)."
+              dmesg | tail -n 200 || true
               exit 1
             fi
           fi
@@ -224,44 +240,96 @@ jobs:
 
           mkdir -p work/mnt work/extracted
 
-          # Según tu README: ./tbimount mount filename.tbi / ./tbimount unmount
-          pushd "$TBIMOUNT_DIR" >/dev/null
-            sudo "$TBIMOUNT_BIN" mount "$GITHUB_WORKSPACE/work/image.tbi"
-          popd >/dev/null
+          # Montar imagen (crea dispositivo tbimount/tbi*)
+          sudo "$TBIMOUNT_BIN" mount "$GITHUB_WORKSPACE/work/image.tbi"
 
-          # Debe crear /dev/tbia, /dev/tbib, etc.
-          if [[ ! -e /dev/tbia ]]; then
-            echo "No apareció /dev/tbia. Intentando crear nodos con major desde /proc/devices..."
-            MAJOR="$(awk '/tbimount/{print $1}' /proc/devices | head -n1 || true)"
-            if [[ -z "$MAJOR" ]]; then
-              echo "::error::No se encontró major para tbimount y no existe /dev/tbia."
-              dmesg | tail -n 160 || true
-              exit 1
-            fi
-            for i in $(seq 0 9); do
-              letter=$(printf "\\$(printf '%03o' $((97+i)))")  # a,b,c...
-              dev="/dev/tbi${letter}"
-              sudo mknod "$dev" b "$MAJOR" "$i" || true
-              sudo chmod 666 "$dev" || true
-            done
+          # Detectar dispositivo raíz:
+          # - Algunas builds crean /dev/tbimount0
+          # - Otras crean /dev/tbia (/dev/tbib, ...)
+          DEV=""
+          if ls -1 /dev/tbimount* >/dev/null 2>&1; then
+            DEV="$(ls -1t /dev/tbimount* | head -n 1)"
+          elif [[ -e /dev/tbia ]]; then
+            DEV="/dev/tbia"
           fi
 
-          # Montar SOLO LECTURA (ro) como indica el README y buenas prácticas de mount. [8](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)
-          sudo mount -o ro /dev/tbia work/mnt
+          if [[ -z "$DEV" ]]; then
+            echo "::error::No se detectó dispositivo (/dev/tbimount* o /dev/tbia)."
+            dmesg | tail -n 200 || true
+            exit 1
+          fi
+          echo "Dispositivo detectado: $DEV"
+          lsblk -f "$DEV" || true
 
-          rsync -aH --numeric-ids work/mnt/ work/extracted/
+          # Asegurar que se detecten particiones
+          sudo udevadm settle || true
+          sudo partprobe "$DEV" || true
 
-          sudo umount work/mnt || true
-          pushd "$TBIMOUNT_DIR" >/dev/null
-            sudo "$TBIMOUNT_BIN" unmount || true
-          popd >/dev/null
+          # Obtener lista de particiones: /dev/tbimount0p1, /dev/tbia1, etc.
+          PARTS="$(lsblk -ln -o PATH,TYPE "$DEV" | awk '$2=="part"{print $1}')"
+
+          # Si no salen, intentar kpartx (útil cuando no aparecen nodos de partición)
+          if [[ -z "$PARTS" ]]; then
+            echo "No aparecen particiones directas. Intentando kpartx…"
+            sudo kpartx -av "$DEV" || true
+            sudo udevadm settle || true
+            PARTS="$(lsblk -ln -o PATH,TYPE "$DEV" | awk '$2=="part"{print $1}')"
+          fi
+
+          # Si aún no salen, como fallback: tratar el dispositivo completo como una sola partición
+          if [[ -z "$PARTS" ]]; then
+            echo "No se detectaron particiones. Se intentará montar el dispositivo completo como 1 volumen."
+            PARTS="$DEV"
+          fi
+
+          echo "Particiones/volúmenes a extraer:"
+          echo "$PARTS"
+
+          i=1
+          for P in $PARTS; do
+            MP="work/mnt/part$(printf '%02d' "$i")"
+            OUT="work/extracted/part$(printf '%02d' "$i")"
+            sudo mkdir -p "$MP" "$OUT"
+
+            FSTYPE="$(sudo blkid -o value -s TYPE "$P" 2>/dev/null || true)"
+            echo "-> Montando $P (fstype=${FSTYPE:-unknown}) en $MP"
+
+            # Montaje RO seguro por tipo
+            case "$FSTYPE" in
+              ext2|ext3|ext4) sudo mount -o ro,noload "$P" "$MP" ;;
+              xfs)            sudo mount -o ro,norecovery "$P" "$MP" ;;
+              btrfs)          sudo mount -o ro "$P" "$MP" ;;
+              ntfs|ntfs3)
+                if sudo mount -t ntfs3 -o ro "$P" "$MP" 2>/dev/null; then :;
+                else sudo mount -t ntfs-3g -o ro "$P" "$MP"; fi
+                ;;
+              vfat|fat|exfat) sudo mount -o ro "$P" "$MP" ;;
+              *)
+                sudo mount -o ro "$P" "$MP"
+                ;;
+            esac
+
+            echo "   Copiando a $OUT"
+            rsync -aH --numeric-ids "$MP"/ "$OUT"/
+
+            sudo umount "$MP" || true
+            i=$((i+1))
+          done
+
+          # Limpieza kpartx si se usó (no rompe si no)
+          sudo kpartx -dv "$DEV" >/dev/null 2>&1 || true
+
+          # Unmount tbimount
+          sudo "$TBIMOUNT_BIN" unmount "$DEV" || sudo "$TBIMOUNT_BIN" unmount || true
+
+          # rmmod puede fallar en algunos entornos, no lo hacemos fatal
           sudo rmmod tbimount || true
 
           echo "Extracción completada:"
           du -sh work/extracted || true
+          find work/extracted -maxdepth 2 -type d -print
 
-      # GitHub advierte >50MiB y bloquea >100MiB sin LFS; LFS tiene límite por archivo (Free/Pro ~2GB). [4](https://www.terabyteunlimited.com/downloads-image-for-windows/)[5](https://awesome.ecosyste.ms/projects/github.com%2Feasimon%2Fmaximize-build-space)
-      - name: Partir archivos >1.9GB (para no rebasar límite LFS típico 2GB)
+      - name: Partir archivos >1.9GB (evitar límite típico de ~2GB por archivo LFS)
         shell: bash
         run: |
           set -euxo pipefail
@@ -278,6 +346,7 @@ jobs:
         shell: bash
         run: |
           set -euxo pipefail
+          test -f scripts/binpack.py || { echo "::error::Falta scripts/binpack.py"; exit 1; }
           python3 scripts/binpack.py \
             --src work/extracted \
             --dst work/shards \
@@ -287,10 +356,6 @@ jobs:
         shell: bash
         run: |
           set -euxo pipefail
-          if [[ -z "${GH_TOKEN:-}" ]]; then
-            echo "::error::Falta secrets.GH_TOKEN"
-            exit 1
-          fi
           export GH_TOKEN
 
           OWNER="$(jq -r .repository_owner.login < "$GITHUB_EVENT_PATH")"
@@ -348,6 +413,8 @@ jobs:
         shell: bash
         run: |
           set -euxo pipefail
+          echo "Particiones extraídas:"
+          du -sh work/extracted/part* || true
           echo "Shards:"
           du -sh work/shards/part* || true
           echo "Listo."
