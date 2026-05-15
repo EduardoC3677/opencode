@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-import os
 import shutil
 from pathlib import Path
 
@@ -29,12 +28,10 @@ def main():
     if not src.exists():
         raise SystemExit(f"src no existe: {src}")
 
-    # Recolectar archivos
     files = [(p, sizeof(p)) for p in iter_files(src)]
     files.sort(key=lambda x: x[1], reverse=True)
 
-    # Greedy bin packing
-    bins = []  # list of (total_bytes, [files])
+    bins = []  # (total, [(path,size)])
     for p, sz in files:
         placed = False
         for bi in range(len(bins)):
@@ -47,7 +44,6 @@ def main():
         if not placed:
             bins.append((sz, [(p, sz)]))
 
-    # Crear shards y mover preservando estructura
     if dst.exists():
         shutil.rmtree(dst)
     ensure_dir(dst)
@@ -55,14 +51,13 @@ def main():
     for idx, (total, arr) in enumerate(bins, start=1):
         part_dir = dst / f"part{idx:02d}"
         ensure_dir(part_dir)
-        for p, sz in arr:
+        for p, _ in arr:
             rel = p.relative_to(src)
             target = part_dir / rel
             ensure_dir(target.parent)
             shutil.move(str(p), str(target))
 
-    # (Opcional) limpiar src vacío
-    # Eliminar dirs vacíos
+    # limpiar directorios vacíos del src
     for d in sorted([p for p in src.rglob("*") if p.is_dir()], reverse=True):
         try:
             d.rmdir()
@@ -70,9 +65,7 @@ def main():
             pass
 
     print(f"Creado(s) {len(bins)} shard(s) en {dst}")
-    for idx, (total, _) in enumerate(bins, start=1):
-        print(f"  part{idx:02d}: {total/ (1024**3):.2f} GB")
 
 if __name__ == "__main__":
     main()
-  
+    
