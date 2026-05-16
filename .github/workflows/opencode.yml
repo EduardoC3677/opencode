@@ -49,17 +49,17 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="${1:-DeepSeek-V4-Pro}"
+            local input="${1:-deepseek-v4-pro}"
 
             case "$input" in
-              DeepSeek-V4-Pro)
-                echo "azure-openai/DeepSeek-V4-Pro"
+              deepseek-v4-pro)
+                echo "deepseek/deepseek-v4-pro"
                 ;;
-              azure-openai/*)
+              deepseek/*)
                 echo "$input"
                 ;;
               *)
-                echo "azure-openai/DeepSeek-V4-Pro"
+                echo "deepseek/deepseek-v4-pro"
                 ;;
             esac
           }
@@ -71,7 +71,7 @@ jobs:
           SHOULD_RUN="false"
           RUN_KIND="none"
 
-          FULL_MODEL="$(resolve_model "DeepSeek-V4-Pro")"
+          FULL_MODEL="$(resolve_model "deepseek-v4-pro")"
 
           if [[ "$EVENT_NAME" == "pull_request" ]]; then
             SHOULD_RUN="true"
@@ -83,7 +83,7 @@ jobs:
 
               SELECTED_MODEL="$(echo "$COMMENT_BODY" | grep -oiP 'model=\K\S+' | head -1 || true)"
 
-              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-DeepSeek-V4-Pro}")"
+              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-deepseek-v4-pro}")"
 
               if [[ "$HAS_PR" == "true" ]]; then
                 SHOULD_RUN="true"
