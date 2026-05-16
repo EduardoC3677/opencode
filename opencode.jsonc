@@ -2,6 +2,7 @@
   "$schema": "https://opencode.ai/config.json",
   "provider": {
     "deepseek": {
+      "npm": "@ai-sdk/deepseek",
       "options": {
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}"
