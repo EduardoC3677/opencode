@@ -1,7 +1,7 @@
 ---
 description: Ejecutor principal (build) con acceso total a herramientas, sin aprobaciones (no ask), sin preguntas interactivas.
 mode: primary
-model: azure-openai/gpt-5.3-codexBienvenido al portapapeles de Gboard; todo texto que copies se guardará aquí.
+model: azure-openai/gpt-5.3-codex
 temperature: 0.2
 top_p: 0.9
 permission:
