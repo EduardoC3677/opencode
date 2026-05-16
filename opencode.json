@@ -7,23 +7,24 @@
   "enabled_providers": ["azure-openai"],
 
   "model": "azure-openai/DeepSeek-V4-Pro",
-  "small_model": "azure-openai/DeepSeek-V4-Pro",
+  "small_model": "azure-openai/DeepSeek-V4-Pro-Low",
   "default_agent": "build",
 
   "permission": {
-    "*": "allow",
+    "*": "deny",
     "question": "deny",
 
     "read": "allow",
     "glob": "allow",
     "grep": "allow",
     "list": "allow",
-    "task": "allow",
-    "skill": "allow",
     "edit": "allow",
 
-    "webfetch": "allow",
-    "websearch": "allow",
+    "task": "deny",
+    "skill": "deny",
+
+    "webfetch": "deny",
+    "websearch": "deny",
     "external_directory": "allow",
 
     "bash": {
@@ -33,13 +34,13 @@
 
   "agent": {
     "build": {
-      "description": "Agente autónomo de desarrollo de software para CI/CD con presupuesto estricto de tokens.",
+      "description": "Agente autónomo de desarrollo de software para CI/CD, optimizado para bajo consumo de tokens y sin interacción con el usuario.",
       "mode": "primary",
       "model": "azure-openai/DeepSeek-V4-Pro",
 
-      "steps": 14,
+      "steps": 8,
 
-      "prompt": "Eres un ingeniero de software senior ejecutándose en CI/CD no interactivo. No hagas preguntas ni pidas confirmación. Si falta información, asume lo razonable, continúa y documenta supuestos en RUN_LOG.md. Tu tarea principal es trabajar sobre el repositorio local: leer código, diagnosticar fallos, implementar cambios mínimos, actualizar pruebas y ejecutar verificaciones locales. Mantén bajo el consumo de tokens: no imprimas logs completos, no hagas dumps grandes, no leas archivos binarios completos, no hagas grep/find sin límites y limita salidas con head/tail/sed. Si necesitas inspeccionar logs, usa máximo 80 líneas relevantes por comando. No uses navegación web ni fetch externo salvo que la tarea lo pida explícitamente. Si una URL tiene SSL inválido, redirecciones anti-bot, cookies de defensa, CAPTCHA o protección similar, no intentes saltarla; documenta el bloqueo y continúa con análisis local. Para debugging: reproduce o razona el problema, aísla causa raíz, aplica el cambio mínimo y valida. Para refactors: conserva comportamiento observable y agrega pruebas de regresión si aplica. Para ingeniería inversa/análisis: solo trabaja sobre software propio o con autorización explícita; enfócate en interoperabilidad, documentación, migración, compatibilidad y corrección defensiva. No ayudes con malware, evasión, robo de credenciales, explotación no autorizada ni actividad ilegal. Al finalizar, resume cambios, pruebas ejecutadas, riesgos y siguientes pasos en RUN_LOG.md.",
+      "prompt": "Eres un ingeniero de software senior ejecutándose en CI/CD no interactivo. No hagas preguntas, no pidas confirmación, no cierres con preguntas, no propongas planes ni listas de pasos. Decide y ejecuta la opción más razonable por tu cuenta. Si falta información, asume lo mínimo necesario, continúa y deja supuestos breves en RUN_LOG.md. Trabaja sobre el repositorio local: inspecciona solo lo necesario, diagnostica fallos, aplica el cambio mínimo, actualiza pruebas si corresponde y ejecuta verificaciones locales. Minimiza tokens: evita repetir contexto, evita logs completos, no hagas dumps grandes, no leas archivos binarios completos, no hagas búsquedas sin límite y limita cada salida con head, tail o sed a un máximo de 80 líneas relevantes. No uses web, fetch externo, GitHub ni memoria externa. Mantén RUN_LOG.md breve, útil y de no más de 120 líneas. Finaliza con un cierre corto: archivos cambiados, validación, riesgos y siguientes pasos, sin pedir instrucciones adicionales.",
 
       "tools": {
         "read": true,
@@ -48,31 +49,40 @@
         "list": true,
         "edit": true,
         "bash": true,
-        "task": true,
-        "skill": true,
-        "webfetch": true,
-        "websearch": true
+        "task": false,
+        "skill": false,
+        "webfetch": false,
+        "websearch": false
       },
 
       "permission": {
+        "*": "deny",
         "question": "deny",
-        "edit": "allow",
+
         "read": "allow",
         "glob": "allow",
         "grep": "allow",
         "list": "allow",
-        "task": "allow",
-        "skill": "allow",
-        "webfetch": "allow",
-        "websearch": "allow"
+        "edit": "allow",
+
+        "task": "deny",
+        "skill": "deny",
+
+        "webfetch": "deny",
+        "websearch": "deny",
+        "external_directory": "allow",
+
+        "bash": {
+          "*": "allow"
+        }
       },
 
       "options": {
-        "maxOutputTokens": 3072,
+        "maxOutputTokens": 1400,
         "thinking": {
-          "type": "enabled"
+          "type": "disabled"
         },
-        "reasoningEffort": "high"
+        "reasoningEffort": "low"
       }
     },
 
@@ -84,7 +94,7 @@
   "compaction": {
     "auto": true,
     "prune": true,
-    "reserved": 6000
+    "reserved": 2500
   },
 
   "watcher": {
@@ -109,7 +119,7 @@
     "mcp_memory": {
       "type": "local",
       "command": ["npx", "-y", "@modelcontextprotocol/server-memory"],
-      "enabled": true,
+      "enabled": false,
       "timeout": 5000
     },
     "mcp_sequential_thinking": {
@@ -121,7 +131,7 @@
     "mcp_github": {
       "type": "local",
       "command": ["npx", "-y", "@modelcontextprotocol/server-github"],
-      "enabled": true,
+      "enabled": false,
       "environment": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_TOKEN}"
       },
@@ -159,17 +169,45 @@
           },
 
           "limit": {
-            "context": 18000,
-            "input": 14000,
-            "output": 3072
+            "context": 12000,
+            "input": 9000,
+            "output": 1400
           },
 
           "options": {
-            "maxOutputTokens": 3072,
+            "maxOutputTokens": 1400,
             "thinking": {
-              "type": "enabled"
+              "type": "disabled"
             },
-            "reasoningEffort": "high"
+            "reasoningEffort": "low"
+          }
+        },
+
+        "DeepSeek-V4-Pro-Low": {
+          "name": "DeepSeek-V4-Pro",
+          "reasoning": true,
+          "tool_call": true,
+          "temperature": false,
+
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+
+          "limit": {
+            "context": 8000,
+            "input": 6000,
+            "output": 800
+          },
+
+          "options": {
+            "maxOutputTokens": 800,
+            "thinking": {
+              "type": "disabled"
+            },
+            "reasoningEffort": "low"
           }
         }
       }
