@@ -213,7 +213,7 @@ jobs:
 
           mkdir -p artifact
 
-          cp -r ~/.config/ocx artifact/ocx
+          cp -r ~/.config artifact
 
       - name: Upload OCX profile artifact
         uses: actions/upload-artifact@v4
