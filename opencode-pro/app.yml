@@ -1,0 +1,30 @@
+# GitHub App Manifest for opencode-pro
+# Use this to create your GitHub App at: https://github.com/settings/apps/new
+# Or use the manifest flow: https://github.com/settings/apps/new?url=manifest
+
+display_name: OpenCode Pro
+description: AI-powered code assistant bot. Mention @opencode-pro in issues/PRs, assign it to tasks, or use slash commands like /review, /fix, /explain, and /test.
+url: https://github.com/apps/opencode-pro
+
+hook_attributes:
+  url: https://your-domain.com/api/webhook
+  active: true
+
+redirect_url: https://your-domain.com/oauth/callback
+
+public: true
+
+default_permissions:
+  issues: write
+  pull_requests: write
+  contents: read
+  metadata: read
+
+default_events:
+  - issues
+  - issue_comment
+  - pull_request
+  - pull_request_review_comment
+  - pull_request_review
+  - installation
+  - installation_repositories
