@@ -6,6 +6,21 @@
       "options": {
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}"
+      },
+      "models": {
+        "deepseek-v4-pro": {
+          // Promo pricing valid until 2026-05-31. List prices: input=$1.74/M, output=$3.48/M, cache_read=$0.0145/M
+          "cost": {
+            "input": 0.000000435,
+            "output": 0.00000087,
+            "cache_read": 0.000000003625,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 1000000,
+            "output": 128000
+          }
+        }
       }
     }
   },
@@ -15,7 +30,7 @@
     "plan": {
       "model": "deepseek/deepseek-v4-pro",
       "temperature": 0.3,
-      "reasoningEffort": "high",
+      "reasoningEffort": "medium",
 			"permission": {
 				"edit": "deny",
 				"write": "deny",
@@ -29,7 +44,7 @@
     "build": {
       "model": "deepseek/deepseek-v4-pro",
       "temperature": 0.3,
-      "reasoningEffort": "high",
+      "reasoningEffort": "medium",
 			"prompt": "You are a **build orchestrator**. You coordinate implementation through delegation - you do NOT implement directly.\\\\\\\\n\\\\\\\\n## Your Role\\\\\\\\n- Delegate implementation to `coder`\\\\\\\\n- Delegate documentation to `scribe`\\\\\\\\n- Delegate codebase analysis to `explore`\\\\\\\\n- Delegate external research to `researcher`\\\\\\\\n- Interpret results and decide next steps\\\\\\\\n\\\\\\\\n## Critical Constraint\\\\\\\\nYou CANNOT edit files or run commands directly. For ALL implementation and verification, delegate to `coder`.",
 			"permission": {
 				"edit": "deny",
@@ -44,7 +59,7 @@
     "coder": {
       "model": "deepseek/deepseek-v4-pro",
       "temperature": 0.2,
-      "reasoningEffort": "high",
+      "reasoningEffort": "medium",
 			"permission": {
 				"context7_*": "deny",
 				"exa_*": "deny",
@@ -100,7 +115,7 @@
     "researcher": {
       "model": "deepseek/deepseek-v4-pro",
       "temperature": 0.4,
-      "reasoningEffort": "high",
+      "reasoningEffort": "medium",
 			"permission": {
 				"context7_*": "allow",
 				"exa_*": "allow",
@@ -172,7 +187,7 @@
     "reviewer": {
       "model": "deepseek/deepseek-v4-pro",
       "temperature": 0.1,
-      "reasoningEffort": "high",
+      "reasoningEffort": "medium",
 			"permission": {
 				"edit": "deny",
 				"write": "deny",
