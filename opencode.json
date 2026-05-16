@@ -74,7 +74,7 @@
   },
   "provider": {
     "azure-openai": {
-      "npm": "@ai-sdk/openai",
+      "npm": "@ai-sdk/openai-compatible",
       "name": "Azure OpenAi",
       "options": {
         "baseURL": "https://ai-eduardoc893856262099.cognitiveservices.azure.com/openai",
