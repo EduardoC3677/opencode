@@ -156,8 +156,20 @@ jobs:
           curl -fsSL https://ocx.kdco.dev/install.sh | sh
           ocx init --global
           ocx profile add ws --source tweak/p-2qtlsfhr --from https://tweakoc.com/r --global
-          ocx oc -p ws
+
+      - name: copy ocx profile
+        run: |
+          mkdir work
+          cp -r /home/runner/.config work/
           
+      - uses: actions/upload-artifact@v7
+        with:
+          name: my-artifact
+          path: work
+          
+      - name: delete working-directory
+        run: rm -rf work
+        
       - name: Run OpenCode Review (pin opencode v1.15.0)
         uses: sst/opencode/github@latest
         env:
