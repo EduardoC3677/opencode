@@ -78,7 +78,7 @@
       "name": "Azure OpenAI",
       "options": {
         "apiKey": "{env:AZURE_API_KEY}",
-        "baseURL": "https://openslab-resource.openai.azure.com/openai/v1",
+        "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
         "headers": {
           "Content-Type": "application/json",
           "Authorization": "Bearer {env:AZURE_API_KEY}"
