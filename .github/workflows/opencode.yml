@@ -34,8 +34,8 @@ jobs:
           resolve_model() {
             local input="\$1"
             case "$input" in
-              deepseek-v4-pro) echo "azure-openai/$input" ;;
-              *) echo "azure-openai/deepseek-v4-pro" ;;
+              DeepSeek-V4-Pro) echo "azure-openai/$input" ;;
+              *) echo "azure-openai/DeepSeek-V4-Pro" ;;
             esac
           }
 
@@ -45,7 +45,7 @@ jobs:
           ISSUE_NUMBER="${{ github.event.issue.number || github.event.pull_request.number }}"
 
           if [ "$EVENT_NAME" = "pull_request" ]; then
-            FULL_MODEL=$(resolve_model "deepseek-v4-pro")
+            FULL_MODEL=$(resolve_model "DeepSeek-V4-Pro")
             echo "should_run=true" >> "$GITHUB_OUTPUT"
             echo "run_kind=auto_pr_review" >> "$GITHUB_OUTPUT"
             echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
@@ -56,7 +56,7 @@ jobs:
           elif [ "$EVENT_NAME" = "issue_comment" ] || [ "$EVENT_NAME" = "pull_request_review_comment" ]; then
             if echo "$COMMENT_BODY" | grep -qE '(^|[[:space:]])/(oc|opencode)\b'; then
               SELECTED_MODEL=$(echo "$COMMENT_BODY" | grep -oP 'model=\K\S+' | head -1 || true)
-              FULL_MODEL=$(resolve_model "${SELECTED_MODEL:-deepseek-v4-pro}")
+              FULL_MODEL=$(resolve_model "${SELECTED_MODEL:-DeepSeek-V4-Pro}")
 
               if [ "$IS_PR" = "true" ]; then
                 echo "should_run=true" >> "$GITHUB_OUTPUT"
