@@ -74,12 +74,15 @@
   },
   "provider": {
     "azure-openai": {
-      "npm": "@ai-sdk/azure",
+      "npm": "@ai-sdk/deepseek",
       "name": "Azure OpenAI",
       "options": {
-        "resourceName": "openslab-resource",
         "apiKey": "{env:AZURE_API_KEY}",
         "baseURL": "https://openslab-resource.openai.azure.com/openai/v1"
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer {env:AZURE_API_KEY}"
+        },
       },
       "models": {
         "DeepSeek-V4-Pro": {
