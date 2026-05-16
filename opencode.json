@@ -3,10 +3,13 @@
   "share": "disabled",
   "autoupdate": false,
   "snapshot": false,
+
   "enabled_providers": ["azure-openai"],
+
   "model": "azure-openai/DeepSeek-V4-Pro",
   "small_model": "azure-openai/DeepSeek-V4-Pro",
   "default_agent": "build",
+
   "permission": {
     "*": "allow",
     "question": "deny",
@@ -20,9 +23,9 @@
     "skill": "allow",
     "webfetch": "allow",
     "websearch": "allow",
-    "doom_loop": "allow",
     "external_directory": "allow"
   },
+
   "agent": {
     "build": {
       "mode": "primary",
@@ -32,11 +35,13 @@
       "disable": true
     }
   },
+
   "compaction": {
     "auto": true,
     "prune": true,
     "reserved": 12000
   },
+
   "watcher": {
     "ignore": [
       "node_modules/**",
@@ -47,8 +52,10 @@
       "venv/**"
     ]
   },
+
   "lsp": false,
   "formatter": false,
+
   "mcp": {
     "mcp_memory": {
       "type": "local",
@@ -72,13 +79,14 @@
       "timeout": 5000
     }
   },
+
   "provider": {
     "azure-openai": {
-      "npm": "@ai-sdk/anthropic",
-      "name": "Azure OpenAI",
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Azure OpenAI (OpenAI-compatible)",
       "options": {
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
-        "apiKey": "{env:AZURE_API_KEY}"
+        "apiKey": "{env:AZURE_OPENAI_API_KEY}"
       },
       "models": {
         "DeepSeek-V4-Pro": {
