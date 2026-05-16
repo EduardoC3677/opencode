@@ -82,7 +82,7 @@
 
   "provider": {
     "azure-openai": {
-      "npm": "@ai-sdk/anthropic",
+      "npm": "@ai-sdk/deepseek",
       "name": "Azure OpenAI (OpenAI-compatible)",
       "options": {
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
