@@ -74,21 +74,17 @@
   },
   "provider": {
     "azure-openai": {
-      "npm": "@ai-sdk/openai-compatible",
+      "npm": "@ai-sdk/azure",
       "name": "Azure OpenAI",
       "options": {
-        "baseURL": "https://openslab-resource.openai.azure.com/openai/v1",
+        "resourceName": "openslab-resource",
         "apiKey": "{env:AZURE_API_KEY}",
-        "headers": {
-          "Content-Type": "application/json",
-          "Authorization": "Bearer {env:AZURE_API_KEY}"
-        },
-        "timeout": 120000,
-        "chunkTimeout": 10000
+        "baseURL": "https://openslab-resource.openai.azure.com/openai/v1"
       },
       "models": {
         "deepseek-v4-pro": {
           "name": "deepseek-v4-pro",
+          "deployment": "deepseek-v4-pro",
           "tool_call": true,
           "limit": {
             "context": 131072,
