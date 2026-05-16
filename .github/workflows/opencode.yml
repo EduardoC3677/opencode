@@ -49,17 +49,17 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="${1:-deepseek-v4-pro}"
+            local input="${1:-DeepSeek-V4-Pro}"
 
             case "$input" in
               DeepSeek-V4-Pro)
-                echo "azure-openai/deepseek-v4-pro"
+                echo "azure-openai/DeepSeek-V4-Pro"
                 ;;
               azure-openai/*)
                 echo "$input"
                 ;;
               *)
-                echo "azure-openai/deepseek-v4-pro"
+                echo "azure-openai/DeepSeek-V4-Pro"
                 ;;
             esac
           }
@@ -71,7 +71,7 @@ jobs:
           SHOULD_RUN="false"
           RUN_KIND="none"
 
-          FULL_MODEL="$(resolve_model "deepseek-v4-pro")"
+          FULL_MODEL="$(resolve_model "DeepSeek-V4-Pro")"
 
           if [[ "$EVENT_NAME" == "pull_request" ]]; then
             SHOULD_RUN="true"
@@ -213,12 +213,13 @@ jobs:
 
           mkdir -p artifact
 
-          cp -r ~/.config artifact
+          cp -r /home/runner/.config artifact/
 
       - name: Upload OCX profile artifact
         uses: actions/upload-artifact@v4
         with:
           name: ocx-profile
+          include-hidden-files: 'true'
           path: artifact
 
       - name: Cleanup temporary files
