@@ -22,8 +22,8 @@
     "skill": "allow",
     "edit": "allow",
 
-    "webfetch": "deny",
-    "websearch": "deny",
+    "webfetch": "allow",
+    "websearch": "allow",
     "external_directory": "allow",
 
     "bash": {
@@ -50,8 +50,8 @@
         "bash": true,
         "task": true,
         "skill": true,
-        "webfetch": false,
-        "websearch": false
+        "webfetch": true,
+        "websearch": true
       },
 
       "permission": {
@@ -63,8 +63,8 @@
         "list": "allow",
         "task": "allow",
         "skill": "allow",
-        "webfetch": "deny",
-        "websearch": "deny"
+        "webfetch": "allow",
+        "websearch": "allow"
       },
 
       "options": {
