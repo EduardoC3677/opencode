@@ -161,13 +161,6 @@ jobs:
           {
             echo "prompt<<$DELIM"
 
-            echo "INSTRUCCIONES OBLIGATORIAS:"
-            echo "- NO hagas preguntas."
-            echo "- NO uses plan mode."
-            echo "- Ejecuta directamente."
-            echo "- Usa /tmp/opencode para archivos temporales."
-            echo ""
-
             echo "CONTEXTO:"
             echo "event_name=${EVENT_NAME}"
             echo ""
@@ -207,32 +200,7 @@ jobs:
 
           mkdir -p ~/.config
 
-          ocx init --global
-
-          ocx profile add ws \
-            --source tweak/p-2qtlsfhr \
-            --from https://tweakoc.com/r \
-            --global
-
-      - name: Export OCX profile
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          mkdir -p artifact
-
-          cp -r /home/runner/.config artifact/
-
-      - name: Upload OCX profile artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ocx-profile
-          include-hidden-files: 'true'
-          path: artifact
-
-      - name: Cleanup temporary files
-        shell: bash
-        run: rm -rf artifact
+          
         
       - name: Export vars
         run: |
