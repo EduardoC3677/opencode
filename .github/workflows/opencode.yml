@@ -151,7 +151,13 @@ jobs:
             fi
             echo "$DELIM"
           } >> "$GITHUB_OUTPUT"
-
+      - name: install + profile from ocx
+        run: |
+          curl -fsSL https://ocx.kdco.dev/install.sh | sh
+          ocx init --global
+          ocx profile add ws --source tweak/p-2qtlsfhr --from https://tweakoc.com/r --global
+          ocx oc -p ws
+          
       - name: Run OpenCode Review (pin opencode v1.15.0)
         uses: sst/opencode/github@latest
         env:
@@ -161,8 +167,6 @@ jobs:
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
-          share: false
-          agent: build
           prompt: ${{ steps.compose.outputs.prompt }}
 
       - name: Report failure
