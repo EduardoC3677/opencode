@@ -35,10 +35,10 @@ jobs:
             local input="$1"
             case "$input" in
               */*) echo "$input" ;;
-              Codestral-2501|DeepSeek-V4-Flash|DeepSeek-V3.2-Speciale|Kimi-K2.6|DeepSeek-R1|DeepSeek-V3.2) echo "azure-openai/$input" ;;
+              Codestral-2501|DeepSeek-V4-Flash|DeepSeek-V3.2-Speciale|Kimi-K2.6|DeepSeek-R1|DeepSeek-V3.2) echo "azure-openais/$input" ;;
               claude-opus-4-7|claude-opus-4-6) echo "azure-anthropic/$input" ;;
               gpt-5.4-pro) echo "azure-cognitive/$input" ;;
-              gpt-5.3-codex) echo "azure-echoais/$input" ;;
+              gpt-5.3-codex) echo "azure-openai/$input" ;;
               *) echo "" ;;
             esac
           }
@@ -49,7 +49,7 @@ jobs:
           ISSUE_NUMBER="${{ github.event.issue.number || github.event.pull_request.number }}"
 
           if [ "$EVENT_NAME" = "pull_request" ]; then
-            FULL_MODEL=$(resolve_model "claude-opus-4-7")
+            FULL_MODEL=$(resolve_model "gpt-5.3-codex")
             echo "should_run=true" >> "$GITHUB_OUTPUT"
             echo "run_kind=auto_pr_review" >> "$GITHUB_OUTPUT"
             echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
@@ -60,7 +60,7 @@ jobs:
           elif [ "$EVENT_NAME" = "issue_comment" ] || [ "$EVENT_NAME" = "pull_request_review_comment" ]; then
             if echo "$COMMENT_BODY" | grep -qE '(^|[[:space:]])/(oc|opencode)\b'; then
               SELECTED_MODEL=$(echo "$COMMENT_BODY" | grep -oP 'model=\K\S+' | head -1 || true)
-              FULL_MODEL=$(resolve_model "${SELECTED_MODEL:-claude-opus-4-7}")
+              FULL_MODEL=$(resolve_model "${SELECTED_MODEL:-gpt-5.3-codex}")
 
               if [ "$IS_PR" = "true" ]; then
                 echo "should_run=true" >> "$GITHUB_OUTPUT"
@@ -124,7 +124,7 @@ jobs:
               echo "AZURE_COGNITIVE_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> "$GITHUB_ENV"
               echo "OPENAI_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> "$GITHUB_ENV"
               ;;
-            azure-echoais)
+            azure-openais)
               echo "AZURE_ECHOAIS_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> "$GITHUB_ENV"
               echo "OPENAI_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> "$GITHUB_ENV"
               ;;
