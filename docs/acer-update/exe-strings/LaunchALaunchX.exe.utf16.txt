@@ -1,0 +1,29 @@
+f.#o.+
+C:\OEM\Preload\Command\AlaunchX\ALaunchX.exe
+VS_VERSION_INFO
+VarFileInfo
+Translation
+StringFileInfo
+000004b0
+Comments
+LaunchALaunchX developed by Acer Preload.
+CompanyName
+Acer Inc.
+FileDescription
+LaunchALaunchX
+FileVersion
+1.0.0.0
+InternalName
+LaunchALaunchX.exe
+LegalCopyright
+Copyright (C) 2022 Acer Inc. All rights reserved.
+LegalTrademarks
+Acer Inc.
+OriginalFilename
+LaunchALaunchX.exe
+ProductName
+Acer GAIA LaunchALaunchX
+ProductVersion
+1.0.0.0
+Assembly Version
+1.0.0.0

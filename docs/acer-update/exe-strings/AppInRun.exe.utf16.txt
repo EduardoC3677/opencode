@@ -1,0 +1,28 @@
+Q.#Z.+h.3
+VS_VERSION_INFO
+VarFileInfo
+Translation
+StringFileInfo
+000004b0
+Comments
+AppInRun developed by Acer Preload.
+CompanyName
+Acer Inc.
+FileDescription
+AppInRun
+FileVersion
+1.0.0.0
+InternalName
+AppInRun.exe
+LegalCopyright
+Copyright (C) 2022 Acer Inc. All rights reserved.
+LegalTrademarks
+Acer Inc.
+OriginalFilename
+AppInRun.exe
+ProductName
+Acer GAIA AppInRun
+ProductVersion
+1.0.0.0
+Assembly Version
+1.0.0.0

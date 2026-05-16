@@ -1,0 +1,952 @@
+!This program cannot be run in DOS mode.
+`.rdata
+@.data
+.pdata
+@.rsrc
+VWATAUAVH
+0A^A]A\_^
+t$ WAUAVH
+ A^A]_
+|$ ATH
+d$8x)H
+|D \t\
+VWATAUAVH
+0A^A]A\_^
+|$ ATH
+|$ ATH
+L$ UVWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+@UVWATAUAVAWH
+A_A^A]A\_^]
+VWATAUAVH
+0A^A]A\_^
+WATAUH
+ A]A\_
+SUVWATAUAVAWH
+HA_A^A]A\_^][
+@UVWATAUAVAWH
+|$@Hcw
+A_A^A]A\_^]
+SUVWATAUAVAWH
+A_A^A]A\_^][
+@WATAUAVAW
+L$ Hcy
+L$ Hcy
+L$ Hcy
+A_A^A]A\_
+@WATAUAVAW
+L$(Hcy
+t$pA9w
+|$PE;g
+L$0HcY
+A_A^A]A\_
+@WATAUAVAW
+l$P;l$L
+A_A^A]A\_
+UVWATAUAVAWH
+0A_A^A]A\_^]
+VWATAUAVH
+0A^A]A\_^
+@UVWATAUAVAWH
+pA_A^A]A\_^]
+UVWATAUH
+H9D$`u3H
+A]A\_^]
+SUVWATH
+PA\_^][
+@UVWATAUAVAWH
+A_A^A]A\_^]
+|$ ATH
+d$8x'H
+SVWATAUAVAWH
+A_A^A]A\_^[
+@SUVWATAUAWH
+H;D$(L
++L9l$(t
+A_A]A\_^][
+\$@tHH
+D$@t1H
+H9\$@u
+H!\$PH
+tif!\$0H
+|$ ATH
+WATAUAVAWH
+'D+a8I
+0A_A^A]A\_
+A8H9A@t
+I0+C@A
+H9Q8t`H
+H9A8t!H
+WATAUH
+0A]A\_
+WATAUH
+_8;w(r
+O8H;OHt
+0A]A\_
+l$ VWAUH
+@SUVWATH
+A\_^][
+UVWATAUH
+A]A\_^]
+WATAUH
+0A]A\_
+@SUVWATAUH
+A]A\_^][
+WATAUH
+0A]A\_
+H9_@t|H;
+WATAUH
+@A]A\_
+H;F@u&H
+@SUVWH
+H9X8ud;
+H9X@ud;
+VWATAUAWH
+A_A]A\_^
+WATAUAVAWH
+ A_A^A]A\_
+T$XD+T$PD
+D;D$@}
+D$PD+D$XD
+D$HD;L$D}
+L$TD+L$\D
+H9X(ud;
+t<H9x@u+
+^H9Y@t!
+AUAVAWH
+A_A^A]
+WATAUH
+@A]A\_
+SVWATAUAVAWH
+A_A^A]A\_^[
+UVWATAUH
+A]A\_^]
+H9x(t7H
+ATAUAWH
+A_A]A\
+SVWATH
+8A\_^[
+WATAUAVAWH
+ A_A^A]A\_
+@SUVWH
+@WATAUH
+0A]A\_
+T$8tHL
+H9X0ud;
+D$8t#A
+|$ ATH
+ATAUAVH
+ A^A]A\
+D$Xt&A
+@UATAUH
+D$(t$E
+L$ SWH
+|$ ATH
+L$ SVWH
+ATAUAVH
+0A^A]A\
+WATAUH
+0A]A\_
+SVWATH
+\$`fff
+8A\_^[
+WATAUH
+MZuSHc
+0A]A\_
+l$ WATAUAVAWH
+ A_A^A]A\_
+ A_A^A]A\_
+l$ VWATAUAVH
+ A^A]A\_^
+WATAUH
+t)IcL$
+ A]A\_
+|$ ATH
+WATAUAVAWH
+D$8A9}
+A_A^A]A\_
+WATAUH
+0A]A\_
+UVWATAUAVAWH
+0A_A^A]A\_^]
+yY9t$P~SHc
+\$@uwE3
+~jHcD$`H
+HcD$xH
+9t$pt!H
+HcD$`Hc
+|$ ATH
+@SUVWH
+@8l$&H
+ATAUAVH
+0A^A]A\
+|$ ATAUAVH
+ A^A]A\
+T$Ht#A
+@SVWAUAVH
+|$Xt7H
+|$XtMH
+A^A]_^[
+@SVWAUAVH
+HcD$@H
+|$Xt6H
+|$XtTH
+A^A]_^[
+|$ ATH
+|$ ATH
+WATAUH
+ A]A\_
+@UATAUAVAWH
+e A_A^A]A\]
+D$PH;5
+D$Ht#A
+u"8D$Xt
+@UATAUAVAWH
+e A_A^A]A\]
+D$@H;5
+UVATAUAVH
+0A^A]A\^]
+@SUVWAUAVH
+f;D$@upA
+t2HcD$HH
+t2HcD$HH
+A^A]_^][
+VWATAUAVH
+0A^A]A\_^
+WATAUH
+ A]A\_
+|$ ATH
+D$8t#A
+ATAUAWH
+D$8t#A
+pA_A]A\
+@8t$Ht
+pA_A]A\
+@SUVWATAVAWH
+L$Pt]H
+\$4t!H
+L$0fA99
+A_A^A\_^][
+t;f9/H
+d$ AUAVAWH
+A_A^A]
+SVWATAUAVAWH
+0A_A^A]A\_^[
+B(I9A(u
+l$pD92
+@SVWATAUAVAWH
+D$0L9gXt+
+D$8HcH
+pA_A^A]A\_^[
+ATAUAVH
+0A^A]A\
+VATAVAWH
+xA_A^A\^
+SUWATAUAVAWH
+A_A^A]A\_][
+|$ ATH
+LcA<E3
+WATAUAVAWH
+@A_A^A]A\_
+|$ ATH
+SVWATAUAVH
+XA^A]A\_^[
+\$ UVWH
+l$8utH
+d$8utH
+SVWATAUAWH
+XA_A]A\_^[
+XA_A]A\_^[
+XA_A]A\_^[
+@SUVWH
+UVWATAUAVAWH
+gfffffffH
+PA_A^A]A\_^]
+WATAUAVAWH
+A_A^A]A\_
+@SUVWH
+@UVWAUH
+L$ UATAUAVAWH
+A_A^A]A\]
+D$@H;5
+@UATAUAVAWH
+e A_A^A]A\]
+D$@H;5
+VWATAUAVH
+0A^A]A\_^
+l$ VWATH
+D$8t#A
+@USVWATAUAVAWH
+eHA_A^A]A\_^[]
+SUVWATH
+D9t$XD
+D$`u=Hc
+88\$Hu#@
+A\_^][
+d$ AUH
+d$ AUAVAWH
+@A_A^A]
+T$(t#A
+T$(t#A
+@UVATAVH
+t^9l$@uX
+A^A\^]
+L$ VWATAUH
+hA]A\_^
+hA]A\_^
+hA]A\_^
+UVWAUAVH
+PA^A]_^]
+D$Xt&A
+D$Ht#A
+D$Ht#A
+T$Dr&ff
+D$8t#A
+\$`fff
+@SWATH
+ATAUAVH
+PA^A]A\
+@8t$Ht
+PA^A]A\
+l$ VWAUH
+WATAUAVAWH
+0A_A^A]A\_
+|$ ATH
+D$PtyL
+D$(u:3
+t$HD+=8
+D$(u:3
+t$HD+=
+UVWATAUAVAWH
+D$0|Ifff
+f9l$8D
+A_A^A]A\_^]
+r:f9\$2D
+\$hfD3
+\$xyFA
+@USVWATAUAVAWH
+e8A_A^A]A\_^[]
+D$@H;="h
+@SATAWH
+@A_A\[
+@A_A\[
+|$ ATH
+9y@~)3
+xa;{@}\H
+[ UVWATAUAVAWH
+t$HcG<
+H;|80u	I
+pA_A^A]A\_^]
+ COleException
+CInvalidArgException
+CNotSupportedException
+CMemoryException
+CException
+CWinApp
+DeactivateActCtx
+ActivateActCtx
+ReleaseActCtx
+CreateActCtxW
+FindActCtxSectionStringW
+GetSystemDefaultUILanguage
+GetUserDefaultUILanguage
+Exception thrown in destructor
+f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\appcore.cpp
+NotifyWinEvent
+CObject
+CArchiveException
+CFileFind
+file://
+f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\filecore.cpp
+f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\auxdata.cpp
+CWinThread
+CCmdTarget
+CGdiObject
+CUserException
+CResourceException
+f:\dd\vctools\vc7libs\ship\atlmfc\include\afxwin1.inl
+GetMonitorInfoA
+GetMonitorInfoW
+EnumDisplayDevicesW
+EnumDisplayMonitors
+MonitorFromPoint
+MonitorFromRect
+MonitorFromWindow
+GetSystemMetrics
+DISPLAY
+InitCommonControls
+InitCommonControlsEx
+HtmlHelpW
+hhctrl.ocx
+f:\dd\vctools\vc7libs\ship\atlmfc\include\afxwin2.inl
+CMapPtrToPtr
+CFileException
+CByteArray
+CorExitProcess
+mscoree.dll
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+.mixcrt
+EncodePointer
+KERNEL32.DLL
+DecodePointer
+runtime error 
+TLOSS error
+SING error
+DOMAIN error
+An application has made an attempt to load the C runtime library incorrectly.
+Please contact the application's support team for more information.
+- Attempt to use MSIL code from this assembly during native code initialization
+This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+- not enough space for locale information
+- Attempt to initialize the CRT more than once.
+This indicates a bug in your application.
+- CRT not initialized
+- unable to initialize heap
+- not enough space for lowio initialization
+- not enough space for stdio initialization
+- pure virtual function call
+- not enough space for _onexit/atexit table
+- unable to open console device
+- unexpected heap error
+- unexpected multithread lock error
+- not enough space for thread data
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+- not enough space for environment
+- not enough space for arguments
+- floating point support not loaded
+Microsoft Visual C++ Runtime Library
+<program name unknown>
+Runtime Error!
+Program: 
+bad exception
+InitializeCriticalSectionAndSpinCount
+kernel32.dll
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+(null)
+`h````
+xpxxxx
+`h`hhh
+xppwpp
+ Complete Object Locator'
+ Class Hierarchy Descriptor'
+ Base Class Array'
+ Base Class Descriptor at (
+ Type Descriptor'
+`local static thread guard'
+`managed vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`vector copy constructor iterator'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector vbase copy constructor iterator'
+`eh vector copy constructor iterator'
+`managed vector destructor iterator'
+`managed vector constructor iterator'
+`placement delete[] closure'
+`placement delete closure'
+`omni callsig'
+ delete[]
+ new[]
+`local vftable constructor closure'
+`local vftable'
+`udt returning'
+`copy constructor closure'
+`eh vector vbase constructor iterator'
+`eh vector destructor iterator'
+`eh vector constructor iterator'
+`virtual displacement map'
+`vector vbase constructor iterator'
+`vector destructor iterator'
+`vector constructor iterator'
+`scalar deleting destructor'
+`default constructor closure'
+`vector deleting destructor'
+`vbase destructor'
+`string'
+`local static guard'
+`typeof'
+`vcall'
+`vbtable'
+`vftable'
+operator
+ delete
+__unaligned
+__restrict
+__ptr64
+__clrcall
+__fastcall
+__thiscall
+__stdcall
+__pascal
+__cdecl
+__based(
+GetProcessWindowStation
+GetUserObjectInformationA
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+USER32.DLL
+Unknown exception
+CONOUT$
+1#QNAN
+1#SNAN
+OLEACC.dll
+bad allocation
+select * from Win32_DiskDrive where (MediaType LIKE "Fixed%hard%disk%media")
+select * from Win32_LogicalDiskToPartition
+RSDS1e
+d:\napp\obrsettool\x64\release\OBRSetTool.pdb
+CreateStdAccessibleObject
+LresultFromObject
+SizeofResource
+GetLastError
+MultiByteToWideChar
+CreateFileW
+DefineDosDeviceW
+ReadFile
+GetCurrentProcess
+QueryDosDeviceW
+GetFileAttributesW
+FormatMessageW
+lstrlenW
+LocalFree
+CloseHandle
+FindNextFileW
+LockResource
+GetCurrentDirectoryW
+SetCurrentDirectoryW
+FindFirstFileW
+SetFilePointer
+FindClose
+GetStartupInfoW
+CreateProcessW
+FindResourceW
+LoadResource
+GetExitCodeProcess
+GetLocalTime
+WritePrivateProfileStringW
+GetPrivateProfileStringW
+GetModuleFileNameW
+GetLogicalDrives
+GetFirmwareEnvironmentVariableW
+GetCommandLineW
+GetModuleHandleW
+CreateDirectoryW
+GetLogicalDriveStringsW
+GetVolumeInformationW
+WideCharToMultiByte
+GlobalUnlock
+GlobalLock
+GlobalAlloc
+GlobalFree
+SetLastError
+GetCurrentProcessId
+GetProcAddress
+FreeLibrary
+lstrcmpW
+CompareStringA
+LoadLibraryExW
+GetLocaleInfoW
+EnumResourceLanguagesW
+GetVersion
+ConvertDefaultLocale
+GetCurrentThreadId
+GetCurrentThread
+GlobalDeleteAtom
+SetErrorMode
+FileTimeToSystemTime
+FileTimeToLocalFileTime
+GetThreadLocale
+LoadLibraryW
+WriteFile
+FlushFileBuffers
+LockFile
+UnlockFile
+SetEndOfFile
+GetFileSize
+DuplicateHandle
+GetFullPathNameW
+LocalAlloc
+LeaveCriticalSection
+TlsGetValue
+EnterCriticalSection
+InitializeCriticalSection
+TlsAlloc
+GlobalReAlloc
+GlobalHandle
+TlsSetValue
+LocalReAlloc
+DeleteCriticalSection
+TlsFree
+GetModuleHandleA
+GlobalFlags
+CompareStringW
+GlobalAddAtomW
+GetVersionExA
+LoadLibraryA
+GlobalFindAtomW
+GetFileTime
+HeapFree
+HeapAlloc
+GetProcessHeap
+RtlLookupFunctionEntry
+RtlUnwindEx
+RaiseException
+RtlPcToFileHeader
+HeapReAlloc
+ExitProcess
+HeapSize
+GetCPInfo
+GetACP
+GetOEMCP
+IsValidCodePage
+FlsGetValue
+FlsSetValue
+FlsFree
+FlsAlloc
+TerminateProcess
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+RtlCaptureContext
+RtlVirtualUnwind
+LCMapStringA
+LCMapStringW
+GetConsoleCP
+GetConsoleMode
+HeapSetInformation
+HeapCreate
+GetStdHandle
+GetModuleFileNameA
+FreeEnvironmentStringsA
+GetEnvironmentStrings
+FreeEnvironmentStringsW
+GetEnvironmentStringsW
+GetCommandLineA
+SetHandleCount
+GetFileType
+GetStartupInfoA
+QueryPerformanceCounter
+GetTickCount
+GetSystemTimeAsFileTime
+GetTimeZoneInformation
+GetStringTypeA
+GetStringTypeW
+GetLocaleInfoA
+WriteConsoleA
+GetConsoleOutputCP
+WriteConsoleW
+SetStdHandle
+GetCurrentDirectoryA
+GetDriveTypeA
+CreateFileA
+SetEnvironmentVariableA
+KERNEL32.dll
+MessageBoxW
+GetSubMenu
+GetMenuItemCount
+GetMenuItemID
+GetMenuState
+EnableWindow
+IsWindowEnabled
+GetLastActivePopup
+GetParent
+GetWindowLongW
+SendMessageW
+GetWindowThreadProcessId
+PostQuitMessage
+PostMessageW
+GetSystemMetrics
+CharUpperW
+GetSysColorBrush
+GetSysColor
+ReleaseDC
+LoadCursorW
+UnhookWindowsHookEx
+GetWindowTextW
+ValidateRect
+GetCursorPos
+PeekMessageW
+GetKeyState
+IsWindowVisible
+GetActiveWindow
+DispatchMessageW
+TranslateMessage
+GetMessageW
+CallNextHookEx
+SetWindowsHookExW
+CheckMenuItem
+EnableMenuItem
+ModifyMenuW
+GetFocus
+LoadBitmapW
+GetMenuCheckMarkDimensions
+SetMenuItemBitmaps
+SetCursor
+TabbedTextOutW
+DrawTextW
+DrawTextExW
+GrayStringW
+ClientToScreen
+SetWindowTextW
+PtInRect
+GetClassNameW
+GetWindowRect
+GetDlgCtrlID
+GetWindow
+GetWindowPlacement
+IsIconic
+SystemParametersInfoA
+SetWindowPos
+CallWindowProcW
+DefWindowProcW
+CopyRect
+AdjustWindowRectEx
+RegisterClassW
+GetClassInfoW
+GetClassInfoExW
+CreateWindowExW
+GetMenu
+GetClientRect
+SetForegroundWindow
+MapWindowPoints
+GetMessagePos
+GetMessageTime
+SetWindowLongPtrW
+GetWindowLongPtrW
+DestroyWindow
+GetTopWindow
+GetDlgItem
+GetForegroundWindow
+IsWindow
+RemovePropW
+GetPropW
+SetPropW
+GetClassLongPtrW
+GetCapture
+WinHelpW
+LoadIconW
+RegisterWindowMessageW
+ShowWindow
+DestroyMenu
+USER32.dll
+GetDeviceCaps
+CreateBitmap
+SaveDC
+RestoreDC
+SetBkColor
+SetTextColor
+SetMapMode
+GetClipBox
+DeleteObject
+PtVisible
+RectVisible
+TextOutW
+ExtTextOutW
+Escape
+SelectObject
+SetViewportOrgEx
+OffsetViewportOrgEx
+SetViewportExtEx
+ScaleViewportExtEx
+SetWindowExtEx
+ScaleWindowExtEx
+DeleteDC
+GetStockObject
+GDI32.dll
+GetFileTitleW
+comdlg32.dll
+ClosePrinter
+DocumentPropertiesW
+OpenPrinterW
+WINSPOOL.DRV
+RegCloseKey
+RegCreateKeyExW
+RegOpenKeyExW
+RegQueryValueExW
+RegSetValueExW
+RegOpenKeyW
+RegDeleteKeyW
+RegEnumKeyW
+RegQueryValueW
+ADVAPI32.dll
+SHFileOperationW
+SHELL32.dll
+PathFindFileNameW
+PathFindExtensionW
+PathStripToRootW
+PathIsUNCW
+SHLWAPI.dll
+CoUninitialize
+CoCreateInstance
+CoInitializeEx
+CoSetProxyBlanket
+CoInitializeSecurity
+ole32.dll
+OLEAUT32.dll
+UnregisterClassA
+.?AVCOleException@@
+.?AVCException@@
+.PEAVCOleException@@
+.PEAVCException@@
+.PEAVCObject@@
+.PEAVCMemoryException@@
+.PEAVCSimpleException@@
+.PEAVCInvalidArgException@@
+.?AVCMemoryException@@
+.?AVCSimpleException@@
+.?AVCNotSupportedException@@
+.?AVCInvalidArgException@@
+.?AVCAfxStringMgr@@
+.?AUIAtlStringMgr@ATL@@
+.?AVCWinApp@@
+.?AVCWinThread@@
+.?AVCCmdTarget@@
+.PEAVCArchiveException@@
+.?AVCArchiveException@@
+.?AVCFileFind@@
+.?AVCFile@@
+.?AVCFileException@@
+.?AUIUnknown@@
+.?AV_AFX_THREAD_STATE@@
+.?AVCNoTrackObject@@
+.?AVAFX_MODULE_THREAD_STATE@@
+.?AVAFX_MODULE_STATE@@
+.?AVCDllIsolationWrapperBase@@
+.?AVCComCtlWrapper@@
+.?AVCCommDlgWrapper@@
+.?AV_AFX_BASE_MODULE_STATE@@
+.?AUCThreadData@@
+.?AVCCmdUI@@
+.PEAVCUserException@@
+.?AVCResourceException@@
+.?AVCUserException@@
+.?AVCGdiObject@@
+.?AVCDC@@
+.?AVXAccessible@CWnd@@
+.?AVXAccessibleServer@CWnd@@
+.?AVCWnd@@
+.?AVCTestCmdUI@@
+.?AV_AFX_HTMLHELP_STATE@@
+.?AV?$IAccessibleProxyImpl@VCAccessibleProxy@ATL@@@ATL@@
+.?AUIAccessible@@
+.?AUIDispatch@@
+.?AUIAccessibleProxy@@
+.?AV?$CMFCComObject@VCAccessibleProxy@ATL@@@@
+.?AVCAccessibleProxy@ATL@@
+.?AV?$CComObjectRootEx@VCComSingleThreadModel@ATL@@@ATL@@
+.?AVCComObjectRootBase@ATL@@
+.?AUIOleWindow@@
+.?AVCMapPtrToPtr@@
+.PEAVCFileException@@
+.?AVCByteArray@@
+.?AVCHandleMap@@
+.?AVCMenu@@
+.?AVtype_info@@
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVCObject@@
+.?AV?$CList@VCModuleLang@@AEAV1@@@
+.?AVCModuleLangList@@
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
+Western Cape1
+Durbanville1
+Thawte1
+Thawte Certification1
+Thawte Timestamping CA0
+121221000000Z
+201230235959Z0^1
+Symantec Corporation100.
+'Symantec Time Stamping Services CA - G20
+http://ocsp.thawte.com0
+.http://crl.thawte.com/ThawteTimestampingCA.crl0
+TimeStamp-2048-10
+Symantec Corporation100.
+'Symantec Time Stamping Services CA - G20
+121018000000Z
+201229235959Z0b1
+Symantec Corporation1402
++Symantec Time Stamping Services Signer - G40
+http://ts-ocsp.ws.symantec.com07
++http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
++http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
+TimeStamp-2048-20
+Symantec Corporation1
+Symantec Trust Network100.
+'Symantec Class 3 SHA256 Code Signing CA0
+151014000000Z
+160925235959Z0
+Taiwan1
+New Taipei City1
+Acer Incorporated1>0<
+5Digital ID Class 3 - Microsoft Software Validation v21
+Acer Incorporated0
+http://sv.symcb.com/sv.crl0f
+https://d.symcb.com/cps0%
+https://d.symcb.com/rpa0
+http://sv.symcd.com0&
+http://sv.symcb.com/sv.crt0
+inJkHJM
+VeriSign, Inc.1
+VeriSign Trust Network1:08
+1(c) 2006 VeriSign, Inc. - For authorized use only1E0C
+<VeriSign Class 3 Public Primary Certification Authority - G50
+131210000000Z
+231209235959Z0
+Symantec Corporation1
+Symantec Trust Network100.
+'Symantec Class 3 SHA256 Code Signing CA0
++ojr\`
+http://s2.symcb.com0
+http://www.symauth.com/cps0(
+http://www.symauth.com/rpa00
+http://s1.symcb.com/pca3-g5.crl0
+SymantecPKI-1-5670
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Code Verification Root0
+110222192517Z
+210222193517Z0
+VeriSign, Inc.1
+VeriSign Trust Network1:08
+1(c) 2006 VeriSign, Inc. - For authorized use only1E0C
+<VeriSign Class 3 Public Primary Certification Authority - G50
+Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+,N<jPl
+3BH8Q:|8
+Symantec Corporation1
+Symantec Trust Network100.
+'Symantec Class 3 SHA256 Code Signing CA
+Symantec Corporation100.
+'Symantec Time Stamping Services CA - G2
+151015031425Z0#

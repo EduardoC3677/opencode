@@ -1,0 +1,7751 @@
+!This program cannot be run in DOS mode.
+5lRich
+`.rdata
+@.data
+.pdata
+@_RDATA
+@.rsrc
+@.reloc
+\$ WATAVH
+ A^A\_
+WAVAWH
+ A_A^_
+WAVAWH
+ A_A^_
+@SUWATAUH
+ A]A\_][
+VWATAVAWH
+UUUUUUU
+ A_A^A\_^
+@SUVWAVH
+ A^_^][
+UUUUUUU
+WAVAWH
+ A_A^_
+\$ UVAWH
+SVWATAUAVAWH
+@A_A^A]A\_^[
+\$ WAVAWH
+ A_A^_
+@SWAUAVH
+(A^A]_[
+\$ VAVAWH
+ A_A^^
+@SVATAVH
+(A^A\^[
+@SVATAUAWH
+ A_A]A\^[
+\$ UVWH
+USVAWI
+|$ AVH
+A`H+AXH
+A`H9AX
+SVWATAUAVAWH
+pA_A^A]A\_^[
+@UWAUAWH
+(A_A]_]
+L$ SUVWH
+t$ WAVAWH
+0A_A^_
+UVWATAUAVAWH
+0A_A^A]A\_^]
+\$ UVAVH
+t$ WAVAWH
+0A_A^_
+@SVWAVH
+HA^_^[
+WAVAWH
+0A_A^_
+|$ AVH
+|$ ATAVAWH
+|$8A_A^A\
+|$ AVL
+\$ VAVAWH
+ A_A^^
+\$ VAVAWH
+ A_A^^
+\$ VAVAWH
+ A_A^^
+\$ VAVAWH
+ A_A^^
+VWATAVAWH
+A_A^A\_^
+VWATAVAWH
+A_A^A\_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+|$ AVH
+UVWATAUAVAWH
+C@H98t$H
+A_A^A]A\_^]
+UVWATAUAVAWH
+C@H98t$H
+A_A^A]A\_^]
+\$ UVWH
+L$ SUVWH
+l$ WATAVH
+ A^A\_
+\$ UVWH
+WAVAWH
+ A_A^_
+SVWATAUAVAWH
+0A_A^A]A\_^[
+\$ UVWH
+\$ UVWH
+\$ UVWH
+@SVAVAWH
+(A_A^^[
+t$ UWAVH
+VAVAWH
+ A_A^^
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+A_A^A]A\_
+@UWAVH
+UVWATAUAVAWH
+D8x@t>H
+A_A^A]A\_^]
+|$ UATAUAVAWH
+D8x@t>H
+A_A^A]A\]
+USVWATAVAWH
+A_A^A\_^[]
+@8x@t>H
+@8x@t>H
+D8p@t?H
+l$ VWAVH
+VAVAWH
+ A_A^^
+WATAUAVAWH
+ A_A^A]A\_
+UVWAVAWH
+`A_A^_^]
+UVWATAUAVAWH
+0A_A^A]A\_^]
+VWATAVAWH
+ A_A^A\_^
+t$ UWAVH
+@8p@t?H
+X UVWATAUAVAWH
+9|$T~BH
+t$HHcD$TM
+L$8H;L$@t
+L$8H;L$@t
+A_A^A]A\_^]
+|$ AVH
+u$8D$(t
+UVWAVAWH
+pA_A^_^]
+u'8D$(t
+VWATAVAWH
+A_A^A\_^
+\$ UVWAVAWH
+PA_A^_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWAVAWH
+A_A^_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+WAVAWH
+t$pfff
+0A_A^_
+|$ AVH
+WAVAWH
+SUVWAVH
+PA^_^][
+WAVAWH
+0A_A^_
+VWATAVAWH
+@A_A^A\_^
+WAVAWH
+ A_A^_
+|$ AVH
+H9W v=H
+UVWAVAWH
+0A_A^_^]
+|$ AVH
+UVWATAUAVAWH
+;L$8~&
+pA_A^A]A\_^]
+t$ UWATAVAWH
+A_A^A\_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+																																	
+										
+							
+						
+l$ VWAUAVAWH
+A_A^A]_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ UATAUAVAWH
+D$ fA#
+A_A^A]A\]
+						
+																				
+																																																									
+WATAUAVAWH
+ A_A^A]A\_
+@SUATAUH
+(A]A\][
+UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWAVAWH
+0A_A^_^]
+\$ AVH
+t$ WATAWH
+ A_A\_
+|$ AVH
+|$ AVH
+\$ AWH
+t$ AVH
+t$ AVH
+SVWAVAWH
+A_A^_^[
+\$ AWH
+WATAUAVAWH
+ A_A^A]A\_
+\$ UVWAVAWH
+`A_A^_^]
+w	f9(r
+w	f9(r
+w	f9(r
+w	f9)r
+w	f9(r
+w	f9(r
+w	f9(r
+w	f9(r
+w	f9(r
+w	f9)r
+w	f9(r
+w	f9(r
+|$ AVH
+VWAUAVAWH
+ A_A^A]_^
+ A_A^A]_^
+\$ VWAVH
+w	f9+r
+WAVAWH
+ A_A^_
+UVWATAUAVAWH
+ A_A^A]A\_^]
+t$ AVH
+VWATAVAWH
+@A_A^A\_^
+UVWATAUAVAWH
+PA_A^A]A\_^]
+@WAUAVH
+0A^A]_
+WATAUAVAWH
+ A_A^A]A\_
+@SVWAVAWH
+ A_A^_^[
+|$ AVH
+9\$Dt"H
+@SUVWAVAWH
+xA_A^_^][
+t$ WATAUAVAWH
+_(HcG4H
+ A_A^A]A\_
+|$ AVH
+\$ AWH
+l$ VWAVH
+\$ AVH
+UVWATAUAVAWH
+PA_A^A]A\_^]
+|$ AVH
+\$ UVWAVAWH
+A_A^_^]
+@USVWATAVAWH
+A_A^A\_^[]
+UVWAVAWH
+@A_A^_^]
+@USVWATAUAVAWH
+XA_A^A]A\_^[]
+UVWAVAWH
+0A_A^_^]H
+UVWAVAWH
+0A_A^_^]
+t$ WAVAWH
+ A_A^_
+t{9/twM
+l$ VWAVH
+t$ WATAWH
+ A_A\_
+@SVWAUAVH
+UUUUUUU
+ A^A]_^[
+@SUVWAUAVAWH
+A_A^A]_^][
+UAUAVH
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWAUAVAWH
+ A_A^A]_^][
+@SUVWAVH
+ A^_^][
+L$ SVWH
+L$ SVWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+ LcQLH
+HcAHMc
+UVWATAUAVAWH
+A_A^A]A\_^]
+s WATAUAVAWH
+HcD$@L
+;l$Dud3
+;\$H}!Lct$<Hc
+A_A^A]A\_
+@SUVWH
+;t$H~]
+D9t$Ht;E
+UVWATAUAVAWH
+A_A^A]A\_^]
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+USVWATAUAVAWH
+LcD$tE
+D;|$d|
+G$A9G$
+D;d$0D
+D$DA;G
+A_A^A]A\_^[]
+t$ WATAUAVAWH
+A_A^A]A\_
+9B$u/H
+A9@$uv
+A9@$u_
+A9@$uH
+A9@$u1H
+|$ UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+l$ VWAVH
+\$`93t
+UVWATAUAVAWH
+`A_A^A]A\_^]
+l$ VWAVH
+UVWATAUAVAWH
+F A;D$
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+@UVATAUAVAWH
+A_A^A]A\^]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+WAVAWH
+@A_A^_
+L9@pt:
+|$ AVH
+USVWATAUAVAWH
+&HcL$LI
+&LcL$LM
+A_A^A]A\_^[]
+8N0t.D
+N$9N$u
+8O0t'D
+O$9O$u
+8N0t'D
+N$9N$u
+|$ ATAVAWH
+^$9^$u
+@A_A^A\
+8N0t'D
+N$9N$u
+UVWATAUAVAWH
+0A_A^A]A\_^]
+@UWATAVH
+(A^A\_]
+(A^A\_]
+(A^A\_]
+)D$ D;
+)D$0D;
+|$ AVH
+(|$0A+
+|$ AVH
+WAVAWH
+0A_A^_
+A9^$~SE
+@VWAUAVH
+(A^A]_^
+\$ AVH
+t$ WATAUAVAWH
+;D9w u
+0A_A^A]A\_
+|$ UATAUAVAWH
+A_A^A]A\]
+UVWATAVH
+pA^A\_^]
+)D$0tYH
+UWATAVAWH
+A_A^A\_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWATAVAWH
+@A_A^A\_^][
+WATAUAVAWH
+0A_A^A]A\_
+WATAUAVAWH
+0A_A^A]A\_
+x UAVAWH
+x UAVAWH
+WAVAWH
+ A_A^_
+l$`Mcj
+UATAUAVAWH
+A_A^A]A\]
+SATAVH
+l$8L;l$H
+UVWAVAWH
+l$xLci
+@A_A^_^]
+UVWATAUAVAWH
+d$ L;d$(
+D$ H;D$(
+0A_A^A]A\_^]
+UVWATAUAVAWH
+ A_A^A]A\_^]
+t$ AWH
+SVWAVAWH
+`A_A^_^[
+`A_A^_^[
+t$ AWH
+@WAVAWH
+(t$ D+
+Hc_`LcOd;
+0A_A^_
+(t$PD+
+McS`McKdA;
+WAVAWH
+ A_A^_
+WAVAWH
+)t$0H+
+@A_A^_
+t$pA9w
+t$pA;w
+t$PA9w
+t$PA;w
+\$pD9_
+\$pD;_
+t$pA9w
+t$pA;w
+\$pD9[
+\$pD;[
+@SATAUH
+0A]A\[
+@SATAUAWL
+l$(A_A]A\[
+@SATAUAWH
+(A_A]A\[
+@SATAUH
+0A]A\[
+|$DD9}
+|$DD;}
+|$DD9}
+|$DD;}
+|$$D9}
+t$0HcE
+|$$D;}
+|$$D9}
+t$0HcE
+|$$D;}
+|$DD9}
+|$DD;}
+|$DD9}
+|$DD;}
+|$$D9}
+t$0HcE
+|$$D;}
+|$$D9}
+t$0HcE
+|$$D;}
+|$$D9}
+t$0HcE
+|$$D;}
+|$$D9}
+t$0HcE
+|$$D;}
+J8E8B(t9E
+-E8B)u'fA
+J8E8B(t9E
+-E8B)u'fA
+H8E8P(t9E
+-E8P)u'fA
+ATAUAVAWL
+\$(A_A^A]A\
+@SATAUAWH
+(A_A]A\[
+ATAUAVAWH
+(A_A^A]A\
+ATAUAVAWH
+(A_A^A]A\
+d$hL;$$
+|$PL;|$X
+d$hL;$$
+|$PL;|$X
+@SAVAWH
+|$pL;|$x
+|$pL;|$x
+@SAVAWH
+|$pL;|$x
+l$ L;l$0
+|$PL;|$X
+l$ L;l$0
+|$PL;|$X
+@SWATH
+|$pfff
+Lt$DD;
+\$d;t$D
+Lt$DD;
+HcD$LLcJ
+@SWAUH
+|$pfff
+Lt$DD;
+\$d;t$D
+Lt$DD;
+HcD$LLcB
+9D$`tM;
+Lt$DE;
+HcD$P;
+Lt$DE;
+HcD$LA;
+|$Tt9A
+d$dtXH
+|$ AVH
+|$ AVH
+|$ ATAVAWH
+ A_A^A\
+@SATAVD
+l$ A^A\[
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+|$ AVH
+@UAVAWH
+(t$ D+
+D;U`sy;EdstIcH
+0A_A^]
+L$ VATAUH
+(t$ D+
+Ic}`IcUd;
+PA]A\^
+(t$ D+
+SVWATH
+(t$@D+
+xA\_^[
+t9D8HDL
+l$ VWAVH
+D$09X }
+;Y }^H
+vb'vb'v
+u ;Q |
+VWATAVAWH
+uK;=CJ/
+A_A^A\_^
+SVWAVH
+hA^_^[
+_XHcGdH
+\$ UVWH
+SUVWATAVAWH
+A_A^A\_^][
+l$ VWATAVAWH
+I9GHt=
+A_A^A\_^
+)t$ fI
+H;QXt0fI
+D$PpuTL
+@8i@tu
+@8iAuT
+H;O`tiI
+|$ AVH
+Q(HcA4L
+I(HcG4L
+@SUVWATAVAWH
+0A_A^A\_^][
+w]@8w\t7@
+UVWAVAWH
+0A_A^_^]
+H9J8tJH
+UWAUAVAWH
+A_A^A]_]
+H(Hc@4L
+UVWATAUAVAWH
+E;}tssI
+A_A^A]A\_^]
+\$0|@H
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+						
+|$ UATAUAVAWH
+A_A^A]A\]
+UWATAVAWH
+A_A^A\_]
+UATAUAVAWH
+A_A^A]A\]
+UWATAVAWH
+z>u<HcW
+A_A^A\_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+D$PfD9(t$L
+vxLcL$LI
+A_A^A]A\_^]
+UATAUAVAWH
+D$0f90
+A_A^A]A\]
+@USVWAUAVAWH
+A_A^A]_^[]
+UVWATAUAVAWH
+.C(z^u\
+C8A8G8uR
+.C,zFuD
+.C0z8u6I
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WAVAWH
+0A_A^_
+UVWATAUAVAWH
+A_A^A]A\_^]
+L$ UVWH
+WAVAWH
+@A_A^_
+UVWATAUAVAWH
+ A_A^A]A\_^]
+|$ AVH
+USVWATAUAVAWH
+D9d$<~DI
+A_A^A]A\_^[]
+SUVWAVH
+`A^_^][
+UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+xA_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWAVAWH
+@A_A^_^]
+UVWAVAWH
+A_A^_^]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+UVWATAUAVAWH
+A8\$ t
+A_A^A]A\_^]
+@SUVWATAVAWH
+0A_A^A\_^][
+UVWAVAWH
+PA_A^_^]
+N LcF,J
+@SWAVH
+9_$~N;_$I
+@SUVWATAUAVAWH
+HA_A^A]A\_^][
+SUVWATAUAVAWH
+A_A^A]A\_^][H
+UVWATAUAVAWH
+0A_A^A]A\_^]
+D$(A9@
+D$,A9@
+\$ VWAVH
+USVWATAVAWH
+A_A^A\_^[]
+WATAUAVAWH
+0A_A^A]A\_
+SUWAUAVH
+@A^A]_][
+t9H;9t
+t9H;8t
+VWATAVAWH
+A_A^A\_^
+l$ VWATAVAWH
+A_A^A\_^
+OXHcGdI
+SUVWATAUAVAWH
+xA_A^A]A\_^][
+SUVWAVAWH
+xA_A^_^][
+USVWATAUAVAWH
+HA_A^A]A\_^[]
+USVWATAUAVAWH
+y$A+ND
+A_A^A]A\_^[]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWAVAWH
+`A_A^_^]
+@USVWH
+USVWATAVAWH
+D+H,D+
++X0+X(
+PA_A^A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UAVAWH
+ A_A^]
+t$ WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+ A_A^A]A\_^]
+y!D+BD
+UVWATAUAVAWH
+H;|$xu
+0A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+USVWAVH
+A^_^[]
+t{;Y@svD
+@(pt\E
+VWATAVAWH
+ A_A^A\_^
+)t$@fA
+ 9D$|t
+UVWAVAWH
+`A_A^_^]
+|$ AVH
+t$ UWATAVAWH
+A_A^A\_]
+A9P<|/H
+UVWAVAWH
+pA_A^_^]
+@SUVWATAUAVAWH
+xA_A^A]A\_^][
+\$ UVWH
+\$ UVWH
+H9\$ t
+UVWATAUAVAWH
+A_A^A]A\_^]
+l$ VWAVH
+@USVWATAUAVAWH
+D9|$L~&f
+A_A^A]A\_^[]
+(\$ fA
+UVWATAUAVAWH
+`A_A^A]A\_^]
+l$ VWAVH
+x UATAUAVAWH
+x(Hc@4M
+A_A^A]A\]
+L$4t#H
+UVWATAUAVAWH
+pA_A^A]A\_^]
+t$ WATAUAVAWH
+HcD$LL
+A_A^A]A\_
+UVWAVAWH
+pA_A^_^]
+@UVAVH
+t$ WAVAWH
+ A_A^_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+USVWATAUAVAWH
+XA_A^A]A\_^[]
+UVWATAUH
+S HcK0;J
+/CDs	E
+/CDrdH
+pA]A\_^]
+SUVWATAUAVAWH
+Lci0Lca4H
+A_A^A]A\_^][
+UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+S HcK0;J
+/CDs	E
+/CDrbH
+A_A^A]A\_
+h VWAUAVAWH
+S HcK0;J
+/CDs	E
+/CDrsH
+A_A^A]_^
+UVWAVAWH
+`A_A^_^]
+|$ AVH
+|$ AVH
+WAVAWH
+Hcl$4H
+D$0+D$8
+l$ VWAVH
+UWATAVAWH
+A_A^A\_]
+SUVWATAUAVAWH
+wXHcGdL
+8A_A^A]A\_^][
+t$ WATAUAVAWH
+0A_A^A]A\_
+l$ VWAVH
+UVWATAUAVAWH
+fffffff
+H;Y sdL9M
+fffffff
+H;y scH
+fffffff
+fffffff
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+H(Hc@4H
+D8KDHcK$A
+USWATAUAVAWH
+@A_A^A]A\_[]
+D9s$~	H
+tWD9c,}QH
+@A_A^A]A\_[]
+t$ WATAUAVAWH
+A_A^A]A\_
+t$ UWATAVAWH
+A_A^A\_]
+@SUVWATAVAWH
+pA_A^A\_^][
+l$ VWAVH
+k VWAVH
+H;8tBH
+l$ VWAVH
+H9FHt%
+|$ AVH
+t98X0t4H
+t98X0t4H
+t98X0t4H
+t98X0t4H
+tR8X0tMH
+t$ AVH
+8X0t|H
+t98X0t4H
+t98X0t4H
+tM8X0tHH
+tN8X0tIH
+t^8X0tYH
+t^8X0tYH
+t^8X0tYH
+l$ VWAVH
+t~8X0tyH
+L$ H;L$(t
+8X0t}H
+te8X0t`H
+XXHc@dH
+l$ VWAVH
+t\@8x0tVH
+@SUVWAVH
+0A^_^][
+D$t9D$p
+0A^_^][
+0A^_^][
+0A^_^][
+0A^_^][
+@SUVWAVH
+ A^_^][
+ A^_^][
+ A^_^][
+ A^_^][
+ A^_^][
+B 9A u
+t28P0t-E
+@USVWAVAWH
+8A_A^_^[]
+UVWAVAWH
+pA_A^_^]
+|$ AVH
+t|8X0twH
+@ H9X8td
+J A9J$}
+J$A;J }
+tZ8X0tUH
+tZ8X0tUH
+ta8X0t\H
+t`8X0t[H
+@UVAVH
+@A^^]H
+|$ ATAVAWH
+u'D8d$pt H
+0A_A^A\
+|$ AVH
+|$ UATAUAVAWH
+A_A^A]A\]
+D$T+D$df
+D$X+D$h
+D$\+D$L
+D$`+D$P
+VWATAVAWH
+ 9D$Du
+A_A^A\_^
+t$ WAVAWH
+@SUVWAVH
+pA^_^][
+pA^_^][
+VWATAVAWH
+A_A^A\_^
+|$ AVH
+|$ AVH
+9t$,~FH
+UVWATAUAVAWH
+@A_A^A]A\_^]
+|$ UAVAWH
+t$ WAVAWH
+\$ UVWATAUAVAWH
+t&H9;t
+@8t$puHH
+A_A^A]A\_^]
+A(HcI4H
+UVWAVAWH
+ A_A^_^]
+t$ UWAVH
+O(HcG4H
+t$ WAVAWH
+@A_A^_
+UVWATAUAVAWH
+}`D8mP
+A_A^A]A\_^]
+t$ UWAVH
+I(IcA4H
+Q(IcA4L
+	E8Q\t
+UVWAVAWH
+A_A^_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+|$ AVH
+UVWAVAWH
+pA_A^_^]
+x UATAUAVAWH
+A_A^A]A\]
+D85/K*
+	A8y\t
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+@USVWAVH
+A^_^[]
+WAVAWH
+UVWAVAWH
+;X }UH
+UUUUUUU
+A_A^_^]
+VWATAVAWH
+ A_A^A\_^
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+ A_A^A]A\_^]
+@SATAUAVAWH
+ A_A^A]A\[
+UVWATAUAVAWH
+\$8HcE
+A_A^A]A\_^]
+UVWATAUAVAWH
+L91tNH
+A_A^A]A\_^]
+t$ UWAVH
+t$ WATAUAVAWH
+H93u[H
+A_A^A]A\_
+VWATAVAWH
+@A_A^A\_^
+|$ UAVAWH
+0A_A^]
+l$ VWAVH
+|$ AVH
+(|$0A+
+|$ AVAWA
+l$ A_A^
+l$ VWATAVAWH
+ A_A^A\_^
+\$ AWH
+\$ AVH
+|$ AVH
+UVWAVAWH
+A_A^_^]
+\$ AWH
+\$ AVH
+\$ AVH
+SUWATAVH
+0A^A\_][
+@USVWAVH
+`A^_^[]
+h VWATAVAWH
+p(Hc@4L
+A_A^A\_^
+@USVWAVH
+`A^_^[]
+VWATAVAWH
+0A_A^A\_^
+VWATAVAWH
+0A_A^A\_^
+t$ WAVAWH
+@A_A^_
+D$D+G8f
+t$ WAVAWH
+UWATAVAWH
+A_A^A\_]
+t$ WAVAWH
+UWATAVAWH
+A_A^A\_]
+t$ WAVAWH
+t$ WAVAWH
+H;8t7H
+UVWATAUAVAWH
+@A_A^A]A\_^]
+@WATAUAWH
+UUUUUUU
+(A_A]A\_
+@SUVWH
+\$ UVWATAUAVAWH
+@A_A^A]A\_^]
+@SUAVH
+SUVWAVH
+PA^_^][
+PA^_^][
+PA^_^][
+)D$ L;
+)D$ L;
+\$ UVWAUAVH
+G :B uEH
+G :B uAH
+@A^A]_^]
+t$ WATAUAVAWH
+D$0H9P s
+A H9C r/H
+UUUUUUU
+A_A^A]A\_
+VAVAWH
+C H;G 
+ A_A^^
+|$ 9(u
+t$P9(u.9Y$}
+Y 9Y$}1H
+Y$;Y }
+WATAUAVAWH
+0A_A^A]A\_
+UVWATAUAVAWH
+0A_A^A]A\_^]
+@VWAVAWH
+HA_A^_^
+HA_A^_^
+@WAUAVH
+A :B uAH
+A A:G uAI
+0A^A]_
+WATAUAVAWH
+A :B uAH
+A :B uAH
+A :B uAH
+A :B uAH
+A :B uAH
+A :B uAH
+A :B uAH
+A :B uAH
+ A_A^A]A\_
+@SVWAWH
+(A__^[
+@SUATAVAWH
+0A_A^A\][
+UVWATAUAVAWH
+D;t$`u
+D;t$`u
+A_A^A]A\_^]
+@SUVWAWH
+A :B uAH
+A :B uFH
+ A__^][
+ A__^][
+|$ UATAUAVAWH
+A_A^A]A\]
+\$ UVWAVAWH
+PA_A^_^]
+|$ AVH
+A :B u=H
+A :B u=H
+A :B u<H
+s WAVAWH
+UVWATAUAVAWH
+l$ fff
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+SUVWATAUAVAWH
+D;d$pu
+H;t$xt
+(A_A^A]A\_^][
+SUVWATAUAVAWH
+D;d$pu
+H;t$xt
+(A_A^A]A\_^][
+SUVWATAUAVAWH
+D;l$pu
+(A_A^A]A\_^][
+SUVWATAUAVAWH
+D;d$xu
+H9|$pt[H
+(A_A^A]A\_^][
+USVWATAUAVAWH
+xA_A^A]A\_^[]
+SUVWATAUAVAWH
+8A_A^A]A\_^][
+UVWATAUAVAWH
+@A_A^A]A\_^]
+SUVWATAUAVAWH
+8A_A^A]A\_^][
+UVWATAUAVAWH
+@A_A^A]A\_^]
+VWATAVAWH
+pA_A^A\_^
+@SUATAVAWH
+0A_A^A\][
+|$ AVH
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+WATAUAVAWH
+A_A^A]A\_
+\$ VAVAWH
+ A_A^^
+@SVAVAWH
+(A_A^^[
+@SVATAVH
+(A^A\^[
+WAVAWH
+ A_A^_
+WATAUAVAWH
+@A_A^A]A\_
+WATAUAVAWH
+@A_A^A]A\_
+WATAUAVAWH
+@A_A^A]A\_
+WATAUAVAWH
+0A_A^A]A\_
+WATAUAVAWH
+0A_A^A]A\_
+WATAUAVAWH
+0A_A^A]A\_
+fffffff
+WATAUAVAWH
+0A_A^A]A\_
+WATAUAVAWH
+0A_A^A]A\_
+WATAUAVAWH
+0A_A^A]A\_
+WATAUAVAWH
+0A_A^A]A\_
+|$ AVH
+l$ VWAVH
+@SUVWAUAVAWH
+C8L;G 
+CXL;G@uQ
+CxL;G`u
+A_A^A]_^][
+D$@I;@
+D$@I;@
+@SUVWAVH
+ A^_^][
+WATAUAVAWH
+ A_A^A]A\_
+UVWAVAWH
+ A_A^_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+|$ AVH
+p WATAUAVAWH
+A_A^A]A\_
+VWATAVAWH
+A_A^A\_^
+UVWAVAWH
+A_A^_^]
+WATAUAVAWH
+0A_A^A]A\_
+L;{ u?M
+L;{ u?M
+|$ UAVAWH
+l$xu!M
+@UAVAWH
+PA_A^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+T$8I9rpu
+T$8I9r
+A_A^A]A\_^]
+WAVAWH
+ A_A^_
+UVWATAUAVAWH
+A_A^A]A\_^]
+L$ SUVWATAUAVAWH
+ApH+A`H
+WhI;Wpt"
+XA_A^A]A\_^][
+\$0t#H
+UVWATAUAVAWH
+ A_A^A]A\_^]
+VWATAVAWH
+@h@v H
+ A_A^A\_^
+|$ AVH
+l$ VWAVH
+D$`HcH
+D$`HcH
+D$PHcH
+D$PHcH
+D$PHcH
+D$PHcH
+t4@8-O0)
+D$`HcH
+D$`HcH
+D$PHcH
+D$PHcH
+D$PHcH
+D$PHcH
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ UWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWAUAWH
+ A_A]_^]
+ A_A]_^]
+ A_A]_^]
+ A_A]_^]
+USVWAVAWI
+A_A^_^[]
+UVWAVAWH
+pA_A^_^]
+VWATAVAWH
+GhH+G`H
+GhH+G`H
+A_A^A\_^
+UWAVAWH
+HA_A^_]
+|$ ATAVAWH
+0A_A^A\
+UVWATAUAVAWH
+A_A^A]A\_^]
+WAVAWH
+ A_A^_
+\$ UVWH
+UWATAVAWH
+D$0true
+D$0true
+D$0true
+D$0true
+A_A^A\_]
+WATAUAVAWH
+A_A^A]A\_
+|$8H;8tHH
+@USVWAUAVAWH
+A_A^A]_^[]
+\$ UVWATAUAVAWH
+D$`HcH
+D$`HcH
+D$PHcH
+D$PHcH
+D$PHcH
+D$PHcH
+A_A^A]A\_^]
+WATAUAVAWH
+A_A^A]A\_
+WAVAWH
+t$ AVH
+|$8tiI
+l$ VWAVH
+} H99u
+9D$(}s
+9FHtJH
+T$`A9r
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+\$ UVWH
+tpH91uk
+UVWATAUAVAWH
+:E	uZH
+T$<9T$D
+D8l$@tOI
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+:E	u\A
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+|$4D8l$2u
+A_A^A]A\_^]
+UVWATAUAVAWH
+T$89T$<
+A8H90t
+A8H90t
+A8H90t
+A8H90t
+A_A^A]A\_^]
+UVWATAUAVAWH
+APD90~
+A8L90t
+APD90~
+APD90~
+A8L90t
+APD90~
+A_A^A]A\_^]
+UVWATAUAVAWH
+H95v~(
+H95h|(
+@A_A^A]A\_^]
+WAVAWH
+0A_A^_
+WAVAWH
+0A_A^_
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+UVWAVAWH
+H9D$8t0
+A_A^_^]
+UVWAVAWH
+H9D$8t%
+A_A^_^]
+@USVWATAVAWH
+pA_A^A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+f#D$@H
+l$ VWAVH
+H9L$0t
+\$ UVWAVAWH
+@A_A^_^]
+SVWATAUAVAWH
+\$HLc@
+pA_A^A]A\_^[
+WAVAWH
+@A_A^_
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+fA91t A
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+fA91t A
+xA_A^A]A\_^[]
+@USVWAWH
+0A__^[]
+@USVWAWH
+PA__^[]
+VWATAVAWH
+A_A^A\_^
+x ATAVAWH
+ A_A^A\
+x ATAVAWH
+ A_A^A\
+H WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+VWATAVAWH
+@A_A^A\_^
+WATAUAVAWH
+ A_A^A]A\_
+\$ UVWH
+\$ UVWH
+H9=m0(
+\$ UVWH
+\$ UVWH
+\$ UVWH
+H9=E-(
+\$ UVWH
+\$ UVWH
+H9=-+(
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+H9=}#(
+\$ UVWH
+\$ UVWH
+H9=-!(
+\$ UVWH
+H9=m (
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+f9/t	H
+WAVAWH
+ A_A^_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+tpH91uk
+tpH91uk
+tpH91uk
+tpH91uk
+tpH91uk
+tpH91uk
+tpH91uk
+tpH91uk
+tpH91uk
+tpH91uk
+UVWATAUAVAWH
+\$1D8G
+T$09t$@
+D8l$<tNI
+APD9(~
+f;E	tW
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+d$4D8l$1u
+A_A^A]A\_^]
+UVWATAUAVAWH
+\$1D8G
+T$09t$@
+D8l$<tNI
+APD9(~
+f;E	tW
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+APD9(~
+A8L9(t
+APD9(~
+d$4D8l$1u
+A_A^A]A\_^]
+UVWATAUAVAWH
+\$1D8G
+L$89L$<
+A8H90t
+A8H90t
+A8H90t
+A8H90t
+A_A^A]A\_^]
+UVWATAUAVAWH
+\$1D8G
+L$89L$<
+A8H90t
+A8H90t
+A8H90t
+A8H90t
+A_A^A]A\_^]
+WATAUAVAWH
+A_A^A]A\_
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+APD9 ~
+A8L9 t
+APD9 ~
+APD9 ~
+A8L9 t
+APD9 ~
+APD9 ~
+A8L9 t
+APD9 ~
+APD9 ~
+f;E	tT
+APD9 ~
+A8L9 t
+APD9 ~
+l$@D8W
+D8T$1u
+D$8D8T$1u
+A_A^A]A\_^]
+UVWATAUAVAWH
+APD9 ~
+A8L9 t
+APD9 ~
+APD9 ~
+A8L9 t
+APD9 ~
+APD9 ~
+A8L9 t
+APD9 ~
+APD9 ~
+f;E	tT
+APD9 ~
+A8L9 t
+APD9 ~
+l$@D8W
+D8T$1u
+D$8D8T$1u
+A_A^A]A\_^]
+UVWATAUAVAWH
+d<-u`H
+pA_A^A]A\_^]
+UVWATAUAVAWH
+<vt}<x
+t$`E8]
+D8\$8uOH
+A_A^A]A\_^]
+UVWATAUAVAWH
+<vt}<x
+t$`E8]
+D8\$8uOH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ UATAUAVAWH
+L953S'
+L95qR'
+L95iW'
+L95GU'
+L955T'
+L95iS'
+L95;P'
+L9={O'
+L9=/N'
+A_A^A]A\]
+|$ UATAUAVAWH
+L953F'
+L95qE'
+L959J'
+L95+d'
+L95lH'
+L951F'
+L95VE'
+L95UD'
+L95XC'
+L9=CB'
+L9=XA'
+L9=R@'
+L95@:'
+A_A^A]A\]
+UVWATAUAVAWH
+l$0L9n
+L$@L+N
+A_A^A]A\_^]
+UVWATAUAVAWH
+l$0L9n
+L$@L+N
+A_A^A]A\_^]
+@SUVWATAVAWH
+H9t$@t
+A_A^A\_^][
+@USVWATAVAWH
+A_A^A\_^[]
+@SUVWATAVAWH
+H9t$@t
+A_A^A\_^][
+@USVWATAVAWH
+A_A^A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+UVWAVAWH
+H9D$8t0
+A_A^_^]
+UVWAVAWH
+H9D$8t%
+A_A^_^]
+@USVWATAVAWH
+pA_A^A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+UVWAVAWH
+H9D$8t0
+A_A^_^]
+UVWAVAWH
+H9D$8t%
+A_A^_^]
+@USVWATAVAWH
+pA_A^A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+UATAUAVAWH
+A_A^A]A\]
+UATAUAVAWH
+A_A^A]A\]
+UATAUAVAWH
+A_A^A]A\]
+UATAUAVAWH
+A_A^A]A\]
+WATAUAVAWH
+A_A^A]A\_
+WATAUAVAWH
+A_A^A]A\_
+WAVAWH
+WAVAWH
+x ATAVAWH
+0A_A^A\
+l$ VWAVH
+l$ VWATAVAWH
+A_A^A\_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWH
+@SUVWH
+USVWATAVAWH
+A_A^A\_^[]
+USVWATAVAWH
+A_A^A\_^[]
+@SUVWH
+@SUVWH
+@SUVWH
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@SUVWH
+@SUVWH
+USVWATAVAWH
+A_A^A\_^[]
+USVWATAVAWH
+A_A^A\_^[]
+@SUVWH
+@SUVWH
+@SUVWH
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAVAWH
+A_A^A\_^[]
+UVWAVAWH
+0A_A^_^]
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+\$ UVWH
+tpH91uk
+tpH91uk
+tpH91uk
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+[<-uWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+d$XA8_	
+H+\$pH
+A_A^A]A\_^]
+|$ UATAUAVAWH
+L9-%}&
+L9-J|&
+L9-D{&
+L9-Fz&
+L9-4y&
+A_A^A]A\]
+UVWATAUAVAWH
+l$HL9k
+L$@L+K
+A_A^A]A\_^]
+@SUVWATAVAWH
+H9t$@t
+A_A^A\_^][
+@USVWATAVAWH
+A_A^A\_^[]
+UATAUAVAWH
+A_A^A]A\]
+UATAUAVAWH
+A_A^A]A\]
+WATAUAVAWH
+A_A^A]A\_
+WAVAWH
+@USVWATAUAWH
+A_A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWAVAWH
+A_A^_^]
+p WAVAWH
+ A_A^_
+SUVWATAUAVAWH
+H+L$(x<H
+8A_A^A]A\_^][
+VWATAVAWH
+ A_A^A\_^
+SUVWATAUAVAWH
+H+L$ xFH
+8A_A^A]A\_^][
+@UAVAWH
+WATAUAVAWH
+0A_A^A]A\_
+x ATAVAWH
+@A_A^A\
+@USVWAUAVAWH
+e@A_A^A]_^[]
+SVWAVH
+8A^_^[
+WAVAWH
+WAVAWH
+0A_A^_
+u0HcH<H
+ H3E H3E
+D8L$0uP
+VWATAVAWH
+ A_A^A\_^
+WATAUAVAWH
+A_A^A]A\_
+H;xXu5
+fA;8unI
+fA;(t(fA98t
+VWATAUAVAWL
+|$XHcU
+D$8HcJ
+H;D$Pu
+l$HA_A^A]A\_^
+x AVHcA
+SUVWATAUAVAWL
+H9D$PuCH
+A_A^A]A\_^][
+WATAUAVAWH
+A_A^A]A\_
+ffffff
+fffffff
+WATAUAVAWH
+A_A^A]A\_
+AUAVAWH
+u4I9}(
+;I9}(tiH
+0A_A^A]
+AUAVAWH
+u4I9}(
+;I9}(tiH
+0A_A^A]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+@USVWATAUAVAWH
+C0Hc	H
+A_A^A]A\_^[]
+@USVWATAUAVAWH
+d$dD;d$ltY
+A_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+WAVAWH
+9t$Pu	
+@SVWATAUAVAWH
+L!|$(L!
+D$0HcH
+pA_A^A]A\_^[
+SVWATAUAWH
+L!d$(L!d$@D
+D$HL9gXt
+A_A]A\_^[
+B(I9A(u
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+A_A^A]A\_^[
+t$ WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+ A_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+D$0@8{
+L$ VWAVH
+UVWAVAWH
+A8^8}SD
+u,9\$0~LL
+PA_A^_^]
+|$ AVH
+@USVWATAVAWH
+A_A^A\_^[]
+@USVWATAVAWH
+A_A^A\_^[]
+WATAUAVAWH
+0A_A^A]A\_
+UVWATAUAVAWH
+ryf;\$l
+ref;\$t
+rQf;\$|
+f;\$4r
+f;\$<r
+f;\$Dr
+r|f;\$l
+rhf;\$t
+rTf;\$|
+A_A^A]A\_^]
+S(HcS0
+S(HcS0
+S(HcS0
+S(HcS0
+S(HcS0
+S(HcS0
+x UAVAWH
+D$@H;F
+D$@H;F
+kL@8o(u
+kL@8o(u
+<htl<jt\<lt4<tt$<wt
+<htl<jt\<lt4<tt$<wt
+UWATAVAWH
+A_A^A\_]
+|$ UATAUAVAWH
+A_A^A]A\]
+t$ WATAUAVAWH
+|T4fD;
+c@D9kHtkH
+l$0Lc@
+A_A^A]A\_
+D$18F(u
+WAVAWH
+ A_A^_
+WAVAWH
+ A_A^_
+` UAVAWH
+@USVWATAVAWH
+A_A^A\_^[]
+l$ VWATH
+t$ WATAUAVAWH
+0A_A^A]A\_
+D$(H!L$ E3
+;D$hsL
+p WATAUAVAWH
+A_A^A]A\_
+T$xD;D$x
+@USVWATAVAWH
+fD9$Ou
+0A_A^A\_^[]
+fD9$wu
+}HfD9#A
+\$ UVWH
+U t	Ak
+T$`fA;
+D$@H=@W
+WAVAWH
+@A_A^_
+w`HcE H
+Hc;9E0t
+HcE H+
+WATAUAVAWH
+0A_A^A]A\_
+UVWATAUAVAWH
+rsf;\$d
+r_f;\$l
+rKf;\$t
+r7f;\$|
+f;\$4r
+f;\$<r
+rvf;\$d
+rbf;\$l
+rNf;\$t
+r:f;\$|
+A_A^A]A\_^]
+WATAUAVAWH
+0A_A^A]A\_
+UVWATAUAVAWH
+rsf;\$d
+r_f;\$l
+rKf;\$t
+r7f;\$|
+f;\$4r
+f;\$<r
+rvf;\$d
+rbf;\$l
+rNf;\$t
+r:f;\$|
+A_A^A]A\_^]
+|$ UAVAWH
+|$ UATAUAVAWH
+9^ t"H
+A_A^A]A\]
+@UVWATAUAVAWH
+e0A_A^A]A\_^]
+WATAUAVAWH
+fD9<Hu
+fE9<Au
+fD9<Gu
+fD9<Gu
+D8|$Ht
+A_A^A]A\_
+WATAUAVAWH
+fD9<Hu
+fE9<Au
+fD9<Gu
+fD9<Gu
+D8|$Ht
+A_A^A]A\_
+WATAUAVAWH
+@8|$Ht
+A_A^A]A\_
+UWATAVAWH
+A_A^A\_]
+SUVWAUAVAWH
+ A_A^A]_^][
+UVWATAUAVAWH
+0A_A^A]A\_^]
+t$ WATAUAVAWH
+t$HA_A^A]A\_
+UVWATAUAVAWH
+L$<;L$P
+L$4+L$8
+D+d$HD
+A_A^A]A\_^]
+SUVWATAVAWH
+A_A^A\_^][
+x ATAVAWH
+@A_A^A\
+WAVAWH
+fE98t'
+0A_A^_
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+9Cu,fD9y
+fB9<{u
+fD9,pu
+t$`fD9+t$I
+x ATAVAWH
+ A_A^A\
+L$ SUVWH
+WATAUAVAWH
+0A_A^A]A\_
+\$ UVWATAUAVAWH
+fD9,Au
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+f9t$bu
+A_A^A]A\_^]
+H9L$Ht?H
+UVWATAUAVAWH
+fE9,Fu
+A_A^A]A\_^]
+|$ AVH
+L$ VWAVH
+L$ UVWATAUAVAWH
+0A_A^A]A\_^]
+T$ D){
+UVWATAUAVAWH
+@A_A^A]A\_^]
+t$ WATAUAVAWH
+@8i(u:
+D$0H;C
+A_A^A]A\_
+8\$PtF
+tA8_:t
+8\$PtH
+tC8_:t
+x ATAVAWH
+ A_A^A\
+VWATAVAWH
+0A_A^A\_^
+ tQD8c:u0M
+@HcC(H
+@8|$Pu
+L$0H;K
+@8(u&I
+t$ UWAVH
+ATAVAWH
+ A_A^A\
+UVWATAUAVAWH
+@A_A^A]A\_^]
+L$ VWAVH
+~18^0t
+@USVWATAUAVAWH
+|$(H!T$ E3
+hA_A^A]A\_^[]
+s WATAUAVAWH
+D$h9t$P
+A_A^A]A\_
+t$ UWAUAVAWH
+A_A^A]_]
+fffffff
+fffffff
+fffffff
+fffffff
+ffffff
+fffffff
+fffffff
+fffffff
+fffffff
+ffffff
+ffffff
+ffffff
+|$ AVH
+u$D8r(t
+D81uUL9r
+uED8r(t
+vAD8s(t
+f9)u4H9j
+u%@8j(t
+WATAVH
+WATAVH
+x UATAUAVAWH
+A_A^A]A\]
+fA9	t	I
+u3HcH<H
+WATAUAVAWH
+< t=<	t9
+ A_A^A]A\_
+UVWAVAWH
+0A_A^_^]
+H9=I#$
+WAVAWH
+fA9,@u
+fA9,vu
+0A_A^_
+WAVAWH
+ A_A^_
+WAVAWH
+ A_A^_
+p0R^G'
+WATAUAVAWH
+ A_A^A]A\_
+p0R^G'
+u+!D$0
+@UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+fB9<I}1L
+A_A^A]A\_^]
+VWATAVAW
+A_A^A\_^
+VATAUAVAWH
+0A_A^A]A\^
+@USVWATAUAVAWH
+H!D$ H
+xA_A^A]A\_^[]
+D$0H9D$8
+L$ VWAVH
+fD9t$b
+t$ WATAUAVAWH
+gfffffffH
+A_A^A]A\_
+{ AUAVAWH
+0A_A^A]
+t$xt*3
+WAVAWH
+ A_A^_
+x ATAVAWH
+ A_A^A\
+fD94H}aD
+UVWATAUAVAWH
+ A_A^A]A\_^]
+UVWATAUAVAW
+A_A^A]A\_^]
+u1!D$0H
+UVWATAUAVAWH
+PA_A^A]A\_^]
+VATAUAVAWH
+0A_A^A]A\^
+t$ WATAUAVAWH
+D!|$xA
+A_A^A]A\_
+fffffff
+UATAUAVAWH
+A_A^A]A\]
+WATAUAVAWH
+A_A^A]A\_
+UATAUAVAWH
+A_A^A]A\]
+fD9	t(L
+@UATAUAVAWH
+e0A_A^A]A\]
+l$ VWATAVAWH
+L$&8\$&t,8Y
+A_A^A\_^
+fB9<Hu
+fB9<@u
+fB9<Bu
+fB9,Nu
+fB9,Nu
+fB9,Nu
+fA9,Au
+fB94Ou
+t}f91txH
+x ATAVAWH
+ A_A^A\
+x ATAVAWH
+fD9 tMH
+fG9$Ou
+0A_A^A\
+fB9<Hu
+fB9<@u
+fB9<Bu
+fD94Au
+fD94iu
+tSf91tNH
+t^;\$0tQ
+WAVAWH
+ A_A^_
+@USVWATAVAWH
+tyfD9 tsH
+tQfD9 tK
+fD9$Hu
+@A_A^A\_^[]
+\$ UVWATAUAVAWH
+s2fE9)I
+fE9)fA
+D$pfA;
+0fD9l$pu
+fD9l$pt
+0A_A^A]A\_^]
+l$ VWATAVAWH
+0A_A^A\_^
+AUAVAWH
+ A_A^A]
+UVWATAUAVAWH
+D;-:g#
+@8t$HtzL
+`A_A^A]A\_^]
+WATAVH
+0A^A\_
+E80t"A
+fD94Q}
+USVWAVH
+A^_^[]
+USVWAVH
+A^_^[]
+@UAVAWH
+e0A_A^]
+@SUVWATAVAWH
+A_A^A\_^][
+WATAVH
+0A^A\_
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+u$D8r(t
+fD91uTL9r
+uED8r(t
+v@D8s(t
+UVWATAUAVAWH
+PA_A^A]A\_^]
+WATAUAVAWH
+0A_A^A]A\_
+H9>u+A
+@USVWATAUAVH
+D8t$ht
+D8t$ht
+A^A]A\_^[]
+UVWATAUAVAWH
+L;588#
+H95l7#
+H95H7#
+xWI96tRI
+0A_A^A]A\_^]
+WATAUAVAWH
+L;5g4#
+fB94ht	H
+xXI96tSI
+fC94wu
+0A_A^A]A\_
+ATAVAWH
+0A_A^A\
+WAVAWH
+ A_A^_
+WATAUAVAWH
+0A_A^A]A\_
+@USVWATAVAWH
+A_A^A\_^[]
+WAVAWH
+D8|$`t
+ A_A^_
+s WAVAWH
+9D$Pu	A
+0A_A^_
+u~9t$Xt
+UATAUAVAWH
+A_A^A]A\]
+@USVWATAUAVAWH
+eHA_A^A]A\_^[]
+ATAUAVH
+L$ fff
+L$ |+L;
+A^A]A\
+x UAVAWH
+D8}?t	H
+@SUVWATAVAWH
+@A_A^A\_^][
+ffffff
+fffffff
+x ATAVAWH
+ @8~8t
+@8~0tM
+ A_A^A\
+LcA<E3
+u HcA<H
+VWATAVAWH
+A_A^A\_^
+|$ UATAUAVAWH
+A_A^A]A\]
+UVWAVAWH
+pA_A^_^]
+l$ VWATAVAWH
+A_A^A\_^
+UVWATAUAVAWH
+N0I;N8t
+D$8D;`
+NXH;N`t)H
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+;L$@~!
+;L$P~!
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ UATAUAVAWH
+A_A^A]A\]
+D$@44C8
+D$DDD5}
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ AVH
+t/9t$8tZ
+t/9t$8tZ
+|$ AVH
+|$ AVH
+SUVWAVH
+pA^_^][
+t$ WAVAWH
+UVWAVAWH
+8D$(tVH
+0A_A^_^]
+|$ UATAUAVAWH
+A_A^A]A\]
+@SVWATAWH
+`A_A\_^[
+VWATAVAWH
+0A_A^A\_^
+UVWAVAWH
+0A_A^_^]
+t$ UWATAVAWH
+A_A^A\_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+SUVWAVH
+0A^_^][
+t$ UWATAVAWH
+A_A^A\_]
+H9AxtnH
+AhH9A`
+APH9AH
+UVWATAUAVAWH
+t<I9\$
+A_A^A]A\_^]
+L;t$@t
+UVWATAUAVAWH
+\$hH;]
+^8IkF8dH
+A;N0w	M
+A_A^A]A\_^]
+UWATAVAWH
+A_A^A\_]
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+A0H+A8I
+A_A^A]A\]
+|$ ATAVAWH
+@A_A^A\
+@USVWAVH
+A^_^[]
+|$ UATAUAVAWH
+A_A^A]A\]
+H9|$`t.H
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWAVH
+@A^_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAVAWH
+pA_A^A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+H+\$HH
+A_A^A]A\_^]
+UVWATAUAVAWH
+D$`HcH
+D$`HcH
+A_A^A]A\_^]
+t$ UWAVH
+t$ UWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+{8H9;t:H
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+r/L+L$xf;
+A_A^A]A\_^]
+|$ UATAUAVAWH
+H+|$PH
+A_A^A]A\]
+|$ UATAUAVAWH
+D$`HcH
+D$`HcH
+A_A^A]A\]
+|$ 	u"L
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+l$ VWAVH
+t$ UWATAVAWH
+A_A^A\_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWAVAWH
+@A_A^_^]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+t$ AWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+@8p@t>H
+@8p@t>H
+A_A^A]A\_^]
+UVWATAUAVAWH
+@8p@t>H
+A_A^A]A\_^]
+UWATAVAWH
+Q0I;Q8tQH
+A_A^A\_]
+t$ WAVAWH
+D$h44C8
+D$lDD5}
+t$ UWATAVAWH
+\$XH;\$`
+A_A^A\_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ UWAVH
+@8p@t>H
+x UATAUAVAWH
+A_A^A]A\]
+WATAUAVAWH
+A_A^A]A\_
+|$ UAVAWH
+VWATAVAWH
+0A_A^A\_^
+VWATAVAWH
+0A_A^A\_^
+WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+0A_A^A]A\_^]
+t$ WATAUAVAWH
+ A_A^A]A\_
+t$ WATAUAVAWH
+ A_A^A]A\_
+L$?fff
+t$ UWATAVAWH
+A_A^A\_]
+VWATAVAWH
+ A_A^A\_^
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+SVWAVAWH
+0A_A^_^[
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+\$HE9f$
+P E;~$s
+~8IcFDM
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+SUVWATAVAWH
+@A_A^A\_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+|$ AVH
+t$ WAVAWH
+t$ WAVAWH
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+|$ UATAUAVAWH
+fD9|$P
+A_A^A]A\]
+UVWATAUAVAWH
+t^f9+tYH
+ A_A^A]A\_^]
+UVWATAUAVAWH
+fD9(u+H
+PA_A^A]A\_^]
+WAVAWH
+ A_A^_
+ukfD9H
+uRfD9H
+u9fD9H
+uCfD9P
+u7fD9P
+u+fD9P
+UVWATAUAVAWH
+PA_A^A]A\_^]
+@UVWAUAWH
+thHc\$0
+\$8A_A]_^]
+@UVWATAVAWH
+fD9dDpuJ
+fD9dDpu<
+fD9dDpu-
+fD9dDpu
+fD9dDpu
+A_A^A\_^]
+fD9dDpuN
+fD9dDpu@
+fD9dDpu0
+fD9dDpu
+fD9dDpu
+D$ `fD
+Dl$0D+
+SUVWATAUAVAWH
+A;L$(v
+L$H;H(s	D
+L$H;H8s	D
+L$@E)|$H
+D$|A;D$psaf
+D$|A;D$pr
+A9D$Lv
+L$@A9L$H
+D$8E+E
+XA_A^A]A\_^][
+C4;C,A
+C0;C,s
+SUVWATAUAVAWH
+8A_A^A]A\_^][
+WATAUAVAWH
+ A_A^A]A\_
+G(9h(u
+WATAUAVAWH
+F()h(H
+N(D9y(u
+ A_A^A]A\_
+G(D9x(u
+\$ UATAWH
+F(D)p(H
+N(9i(u
+F(D)p(H
+N(9i(u
+ A_A\]
+G(9h(u
+l$ VATAVH
+ A^A\^
+|$ ATAUAVAWD
+A_A^A]A\
+@SWAVH
+C09p<t,H
+9C8sv;K
+u=9r<t#A;
+C09p<t'A;
+C0H9p 
+C09p<t5A;
+C09p<t&A;
+C0H9p0
+C09p<t5A;
+C09p<t&A;
+C09p<tF
+l$@9s(t0H
+C,9s(@
+C()x(H
+@UVWATAWH
+ A_A\_^]
+ A_A\_^]
+t$ WAVAWH
+\$HH9_
+ A_A^_
+USVWATAUAVAWH
+fD9(u9H
+A_A^A]A\_^[]
+fD90ucH
+UWATAVAWH
+A_A^A\_]
+SVWAVH
+hA^_^[
+hA^_^[
+UVWAVAWH
+PA_A^_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+USVWATAUAVAWH
+H;L$`wBH
+T$XI9V
+\$XI9^
+A_A^A]A\_^[]
+|$XH9{
+USVWATAUAVAWH
+xA_A^A]A\_^[]
+@VAVAWH
+0A_A^^
+WATAUAVAWH
+ A_A^A]A\_
+l$ VWAVH
+WATAUAVAWH
+ A_A^A]A\_
+|$ AVH
+D9t$T~:I
+UVWATAUAVAWH
+`A_A^A]A\_^]H
+l$ VWAVH
+SVWAVAWH
+@A_A^_^[
+@A_A^_^[
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWAVAWH
+A_A^_^]
+UVWAVAWH
+A_A^_^]
+l$ VWAVH
+t$ WAVAWH
+ A_A^_
+UVWATAUAVAWH
+t$hH9s
+A_A^A]A\_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+VWATAVAWH
+@A_A^A\_^
+@A_A^A\_^
+t$ WATAUAVAWH
+tyLcl$,
+0A_A^A]A\_
+USVWATAUAVAWH
+t>H;8t
+hA_A^A]A\_^[]
+H;8t'H
+UVWAVAWH
+ A_A^_^]
+|$ AVH
+H98t.H
+UVWAVAWH
+ A_A^_^]
+ A_A^_^]
+SVWAVH
+hA^_^[
+UVWATAUAVAWH
+ A_A^A]A\_^]
+UVWATAUAVAWH
+0A_A^A]A\_^]
+WAVAWH
+fD9<Ju
+fF9<@u
+0A_A^_
+WATAUAVAWH
+ A_A^A]A\_
+@VWAVAW
+A_A^_^
+l$ VAVAWH
+ A_A^^
+|$ AVH
+USVWATAUAVAWH
+hA_A^A]A\_^[]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+H SUVWATAUAVAWH
+XA_A^A]A\_^][
+w	f9;r
+WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+0A_A^A]A\_^]
+w	f9+r
+w	f9:r
+WATAUAVAWH
+A_A^A]A\_
+\$ WAVAWH
+ A_A^_
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+WAVAWH
+t$ WATAUAVAWH
+0A_A^A]A\_
+t$ WATAUAVAWH
+ A_A^A]A\_
+|$ AVH
+t$ WATAUAVAWH
+w	f9*r
+ A_A^A]A\_
+UVWATAUAVAWH
+ A_A^A]A\_^]
+WAVAWH
+ A_A^_
+WATAUAVAWH
+ A_A^A]A\_
+|$ AVH
+t$ WAVAWH
+0A_A^_
+UWATAVAWH
+A_A^A\_]
+WAVAWH
+|$xH9{
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+|$ AVH
+WAVAWH
+|H;\$(}uH
+0A_A^_
+H;K0}&
+A8H9A(|
+USVWATAUAVAWH
+D;l$tD
+D;t$tu#H
+A_A^A]A\_^[]
+UVWATAUAVAWH
+HcD$4H
+HcD$4H
+;\$4s@Hc
+A_A^A]A\_^]
+UVWAVAWH
+A_A^_^]
+WAVAWH
+0A_A^_
+xWHc	L
+x&9\$4u H
+\$ UVWATAUAVAWH
+0A_A^A]A\_^]
+@SUVWH
+f9;u	H
+@SUVWAUH
+ A]_^][
+VWATAVAWH
+0A_A^A\_^
+t$ WAVAWH
+0A_A^_
+UVWATAUAVAWH
+t$0HcE
+A_A^A]A\_^]
+-udfD;
+WATAUAVAWH
+0A_A^A]A\_
+|$ AVH
+t$ WAVAWH
+@A_A^_
+VWAUAVAWH
+A_A^A]_^
+l$ VWATAVAWH
+A_A^A\_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ UWATAVAWH
+A_A^A\_]
+@SUVWH
+t$ UWAVH
+H;F0s%H
+8H;A0s
+H;{0s)H
+H;Q(t@L
+C(H;{(H
+USVWATAUAVAWH
+hA_A^A]A\_^[]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWAVAWH
+pA_A^_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UAVAWH
+HcD$<H
+UVWATAUAVAWH
+A_A^A]A\_^]
+f98t)H
+USVWATAUAVAWH
+l$Xt(A
+A_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWAVAWH
+@A_A^_^]
+@A_A^_^]
+UVWATAUAVAWH
+w	f93r
+w	f93r
+w	f93r
+pA_A^A]A\_^]
+@USVWAVH
+PA^_^[]
+PA^_^[]
+SUVWATAVAWH
+`A_A^A\_^][
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+D87u	A
+D8t$(t
+0A_A^A]A\_^]
+UVWAVAWH
+PA_A^_^]
+\$ UVWATAUAVAWH
+D87u	A
+@A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UAVAWH
+|$ ATAVAWH
+$E3G@A
+$A_A^A\
+|$ ATAVAWH
+E3ODD3
+$A_A^A\
+WATAUAVAWH
+ A_A^A]A\_
+@USVWAVH
+EoCPRP
+A^_^[]
+EoPROP
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@SUVWAVH
+0A^_^][
+|$ AVH
+HcIl;OD
+|$ AVH
+HcAl;ADs
+HcAl;ADs
+VlA;VD
+^PIcNTA
+VlA;VD
+VWATAVAWH
+9~D~	H
+A_A^A\_^
+|$ UATAUAVAWH
+A_A^A]A\]
+UWATAVAWH
+A_A^A\_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UATAUAVAWH
+A_A^A]A\]
+L$ VWAVH
+USVWATAVAWH
+PA_A^A\_^[]
+H(IcH4I
+t&IcH$I
+@SUAVH
+L9C(|	H
+tXM9A(|@H
+UVWAVAWH
+ A_A^_^]H
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WAVAWH
+|$ UATAUAVAWH
+d$HHcD$THk
+A_A^A]A\]
+l$ VWATAVAWH
+8D$(tsH
+0A_A^A\_^
+UVWAVAWH
+A_A^_^]
+\$ UVWATAUAVAWH
+0A_A^A]A\_^]
+t$ WAVAWH
+|$ t*H
+ LcQ,3
+A HcI,H
+UVWATAUAVAWH
+H9CHt*
+ A_A^A]A\_^]H
+t$ AVH
+ A^_^H
+UVWATAUAVAWH
+H9CHt*
+ A_A^A]A\_^]
+@SVWAVAWH
+ A_A^_^[
+SUVWAVH
+H9D$`u
+ A^_^][
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+T$@9\$P
+@USVWATAVAWH
+A_A^A\_^[]
+L$4t#H
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+Lc|$<D
+`A_A^A]A\_^]
+SUVWAVAWH
+(A_A^_^][
+(L$PH;
+USVWATAUAVAWH
+A_A^A]A\_^[]
+@SUVWATAVAWH
+A_A^A\_^][
+USVWATAUAVAWH
+L$hHcD$tH
+.G(z[uY
+G88C8uP
+.G,zEuC
+.G0z8u6H
+t$HA;N
+A_A^A]A\_^[]
+|$ AVH
+L$0HcD$<H
+UVWATAUAVAWH
+)|$`Ic
+A_A^A]A\_^]
+t$ WIc
+t$ AVH
+@VWAVH
+)T$0Ic
+VWATAVAWH
+A_A^A\_^
+WAVAWH
+WAVAWH
+@UAUAVAWH
+A_A^A]]
+H UVWATAUAVAWH
+t$ Lce
+A_A^A]A\_^]
+p WATAUAVAWH
+A_A^A]A\_
+UVWAVAWH
+`A_A^_^]
+UVWATAUAVAWH
+0A_A^A]A\_^]
+UVWAVAWH
+0A_A^_^]
+VWATAVAWH
+@A_A^A\_^
+@SUVWAVH
+0A^_^][
+@SUVWAVH
+ A^_^][
+@SUVWAVH
+ A^_^][
+.C(zWuU
+C88G8uL
+.C,zAu?
+.C0z4u2H
+t$ WAVAWH
+f9lAp~
+LqpA;NlsLI
+I`IcFlH
+997t-H
+Lyp;NlsKH
+I`HcFlH
+UVWATAUAVAWH
+LFpA;NlsXI
+N`IcFlL
+J8HcBDL
+pA_A^A]A\_^]
+UVWATAUAVAWH
+LFpA;NlsPI
+N`IcFlL
+J8HcBDL
+0A_A^A]A\_^]
+G`HcOlH
+L_p;Ols!H
+@SUVWH
+l$ VWAVH
+ LcQ$H
+D$`LcQ
+@WAVAWH
+0A_A^_
+VATAUAWH
+HA_A]A\^
+UVWATAUAVAWH
+L9w t\L
+H9_ tTH
+A_A^A]A\_^]
+@SUVWATAVAWH
+D9d$Pv
+A_A^A\_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@SAUAVH
+SVWAUH
+L;T$Xw
+|$ AVL
+@SUVWAVH
+A^_^][
+UVWATAUAVAWH
+Lc\$ 3
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SVWAWH
+@SUATH
+|$ UAVAWH
+@A_A^]
+@SUVWAVH
+@A^_^][
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WATAUAVAWH
+yXTADIM
+ A_A^A]A\_
+@UATAVH
+@A^A\]
+VWATAVAWH
+@A_A^A\_^
+WATAUAVAWH
+ A_A^A]A\_
+@SATAWH
+0A_A\[
+@SVWAUH
+|$P#u(
+{XTADIu
+H9K t[H
+A8	t'H
+l$ WAVAWH
+0A_A^_
+t$ WATAUAVAWH
+0A_A^A]A\_
+|$ AVH
+l$ VAUAWH
+ A_A]^
+{XTADIu
+SUATAVAWH
+A_A^A\][
+CPD9{hw	D9
+ Lc\$PI
+ATAVAWD
+\$ A_A^A\
+l$ AVAWL
+l$0A_A^
+d$0A;,$
+d$0A;,$
+t$ WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+pA_A^A]A\_^]
+|$ AVH
+tMH9|$huF
+UVWATAUAVAWH
+PA_A^A]A\_^]
+@SAVAWH
+\$ UVWH
+\$ UVWAVAWH
+A_A^_^]
+@VWATH
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+D$pD8t
+CX9D$`uX
+\$ UVWAVAWH
+pA_A^_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+l$ VWAVH
+@SWATAVH
+$H9D$@uB
+u#D9l$$t
+A^A\_[
+SAVAWH
+t$ 9QX
+l$ VWATAVAWH
+A_A^A\_^
+@SAVAWH
+@A_A^[
+t$ WAVAW
+u	D82u
+t$8A_A^_
+UVATAVAW
+A_A^A\^]
+A_A^A\^]
+A_A^A\^]
+A_A^A\^]
+A_A^A\^]
+A_A^A\^]
+A_A^A\^]
+l$HA_A^A\^]
+l$HA_A^A\^]
+l$HA_A^A\^]
+l$ VWATAUAVAW
+l$PA_A^A]A\_^
+WAVAWH
+0A_A^_
+@SUVWH
+D$ IDATH
+DNEIuL
+ETLPu	
+t$ AVH
+|$ #u&
+|$ #u*
+UAVAWH
+ A_A^]
+|$ AVH
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+WATAUAVAWH
+0A_A^A]A\_
+YARGt6
+lcmnwStB
+tsbat%
+rtrpt,
+rncst$
+|$ #u&
+SUVWATAUAVAWH
+A_A^A]A\_^][
+x ATAVAWH
+A_A^A\
+|$ #u-
+UVWATAUAVAWH
+uLHcL$LHc
+HcD$PH
+D9l$T~<D
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@8krt_
+|$ AVH
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+WATAUAVAWH
+A_A^A]A\_
+SUVWATAWH
+)|$pfD
+oL$`A;
+A_A\_^][
+UVWATAUAVAWH
+Lcd$PD
+\$XA_A^A]A\_^]
+A_A^A]A\_^]
+~L@8~8u
+9q|~6H
+SUWATAUAVH
+A^A]A\_][
+@SVATAUAVH
+PA^A]A\^[
+|$ AVAWH
+|$0A_A^
+|$ ATAVAWH
+LcY|M+
+|$8A_A^A\
+@UVAUH
+SUWAUAWH
+0A_A]_][
+SUVWATAUAVAWH
+t$(A;|$|
+HA_A^A]A\_^][
+|$ ATAVAWH
+ A_A^A\
+|$ ATAVAWH
+ A_A^A\
+@SVATAUAVH
+@A^A]A\^[
+@SUVATAUAVH
+8A^A]A\^][
+t$ ATAVAWH
+0A_A^A\
+t$ ATAVAWH
+0A_A^A\
+H9+ufD
+ttH9+ufD
+|$ AVH
+|$ AVH
+|$ ATAVAWH
+ A_A^A\
+|$ ATAVAWH
+ A_A^A\
+|$ AVH
+|$ ATAVAWH
+ A_A^A\
+u f98u
+UATAUAVAWH
+u*f9X0u$f9X@u
+u@fD9@
+u9fD9@
+u2fD9@2u+fD9@Bu$fD9@Ru
+A_A^A]A\]
+@SUVAUH
+uWfA9u uPfA9u0uIfA9u@uBfA9uPu;fA9u`u4fA9upu-A
+uefE9Z u^fE9Z0uWfE9Z@uPfE9ZPuIfE9Z`uBfE9Zpu;A
+uRA9](uLA9],uFA9]0u@A9]4u:A9]8u4A9]<u.A
+ATAUAVAWH
+uVfE9E uOfE9E0uHfE9E@uAfE9EPu:fE9E`u3fE9Epu,E
+u]fE9M"uVfE9M2uOfE9MBuHfE9MRuAfE9Mbu:fE9Mru3A
+uZE9F(uTE9F,uNE9F0uHE9F4uBE9F8u<E9F<u6A
+A_A^A]A\
+ubfA9H u[fA9H0uTfA9H@uMfA9HPuFfA9H`u?fA9Hpu8A
+utfA9P"umfA9P2uffA9PBu_fA9PRuXfA9PbuQfA9PruJA
+|$ ATAUAVAWA
+|$@A_A^A]A\
+l$ VWATAUAVAWA
+l$PA_A^A]A\_^
+@SUVAWH
+(A_^][
+AUAVAWH
+ A_A^A]
+t$ AVH
+AUAVAWH
+`A_A^A]
+l$`D9i8~UL
+8CbtyD
+F 9F(r
+|$ ATAVAWH
+@A_A^A\
+@UVWATAUAWH
+|$PHcL$HH
+A_A]A\_^]
+WAVAWH
+@A_A^_
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SUAUAVAWH
+ A_A^A]][
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+\$PA_A^A]A\_^]
+@SWAWH
+G @8{ru
+@8{rt_
+F 9{dt3H
+G(@8{Y
+@8{btkD
+9{8~OH
+v`;k8|
+tS@8{XuMH
+@8x t@
+u\D9S|uVH
+uI9hhuD9
+69hlu19
+@SATAUAWH
+(A_A]A\[
+WAVAWH
+ A_A^_
+|$ AVH
+|$ AVH
+UVWATAUAVAWH
+ A_A^A]A\_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+|$ AVH
+t$ WATAUAVAWH
+ A_A^A]A\_
+t$ WATAUAVAWH
+A_A^A]A\_
+@SVWAVH
+8A^_^[
+WAVAWH
+ A_A^_
+@SUVWATAVH
+EhHcK8H
+(A^A\_^][
+@VWATAUAVH
+`D;^8|
+pA^A]A\_^
+VWATAUAWH
+@A_A]A\_^
+\$h9O8
+`D;K8|
+@SUVAVH
+t$@9Y8
+@SUATAUH
+\$09i8
+A]A\][
+@SUATAUAWH
+ A_A]A\][
+UVWATAUAVAWH
+twE9e0uqA
+A_A^A]A\_^]
+|$ AVH
+ Hct$PM
+|$ ATAVAWH
+ A_A^A\
+UVWATAUAVAWH
+d$8D8l$ t-M
+A_A^A]A\_^]
+@SVATH
+	E8`0t
+9k8~RH
+SUVWAWH
+A__^][
+UATAUAVH
+HA^A]A\]
+t$ WATAUAVD
+t$@A^A]A\_
+UATAUAVAWH
+@A_A^A]A\]
+@SAUAWH
+D$l+D$<A
+T$<Hc@$
+T$L;T$P
+d$`A;]8
+VWATAWH
+xA_A\_^
+L;d$@|
+t$0;o8
+xA_A\_^
+@SVWAVAWH
+L$0A;O0
+A9Z8~dL
+T$8A;O0
+pA_A^_^[
+SUVWATAUAVAWH
+L$@D9c8
+<;CH}gIc
+xA_A^A]A\_^][
+uC8CHt
+uC8CHt
+;Cxr%H
+|$8@8h
+;KxsOH
+t^;Kxr
+@SUVWAVH
+T$8IcN
+L$<A;N
+|$0A;N
+A^_^][
+UVWATAUAVAWH
+D$pE;e
+ A_A^A]A\_^]
+SUVWAUAVH
+HA^A]_^][
+VAVAWH
+ A_A^^
+|$ AUAVAWH
+ A_A^A]
+SUVWATAUAVH
+@A^A]A\_^][
+@SUVWAVH
+~X9nL~gL
+ A^_^][
+SUVWATAVAWH
+ A_A^A\_^][
+{X9sL~MH
+ A_A^A\_^][
+@SUVWATAVAWH
+ A_A^A\_^][
+VATAUAVH
+F4A9E`ub3
+}dE)}`A
+|$8A9Uh|
+xA^A]A\^
+D9~L~wM
+VAUAWH
+PA_A]^
+@SUWATH
+(A\_][
+|$ AVH
+@SATAUH
+0A]A\[
+@SUWATAUH
+ A]A\_][
+ HcA<H
+@SVATH
+d$(A9t$
+{X9sL~NL
+@SVWATAWH
+@A_A\_^[
+@SVWAVH
+v`;kL|
+8A^_^[H
+@SVAWH
+@USVWATAVAWH
+A_A^A\_^[]
+@VATAUH
+PA]A\^
+|$ ATAVAWH
+ A_A^A\
+UVWATAUAVAWH
+pA_A^A]A\_^]
+SUVWAWH
+ A__^][
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SVATAUH
+(A]A\^[
+AXD9qL
+t5;S<u
+C89CLt
+Y0LcQLM
+y0Hci8x@
+|$ AVAWH
+|$0A_A^
+ATAUAVAWH
+A_A^A]A\
+)D$pfD
+)L$`fD
+)\$@fD
+)d$0fD
+)l$ fD
+@SVWAVAWH
+L$0A;N
+A9Z8~dL
+T$8A;N
+pA_A^_^[
+d$H9YL
+\$hfff
+D$`9>s
+D$DE;|$
+d$H;YL
+SUVWATAUAVAWH
+T$LD9s8
+hA_A^A]A\_^][
+ L9Spu
+WAVAWH
+PA_A^_
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ AVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+D$DHcL$<Ic
+HcD$@H
+T$Dfff
+LcD$<Ic
+HcD$@L
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+VWATAVAWH
+0A_A^A\_^
+UVWAVAWH
+0A_A^_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+H9AHt=
+UVWATAUAVAWH
+P IcF,
+HcD$<H
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+t$ UWAVH
+|$ AVH
+D$0D9F
+P HcF,3
+D$0HcC
+0HcA,3
+8HcA,L
+D$XHcG,
+tAHcA,E3
+L$@HcD$LH
+UVWATAUAVAWH
+t$(HcL$,
+A_A^A]A\_^]
+L$@HcD$LH
+L$XHcD$dH
+UWAUAVAWH
+>Lct$LE
+A_A^A]_]
+L$L@8w
+L$L@8~
+UAUAVAWI
+HcL$L3
+GHcL$L
+\$HHcL$L
+GHcL$L
+GHcL$L
+A_A^A]]
+UVWAUAVH
+A^A]_^]
+WATAUAVAWH
+A_A^A]A\_
+CPH9CXuGH
+APH9AXu*H
+@UATAWH
+T$tr%H
+L$@A9D$
+;L$P~d
+D9|$PtBE
+z;u9Hc
+HcD$pH
+D;d$P~aA
+D9|$Pt:E
+zCuAHc
+zrupHc
+T$DA;\$
+VAVAWH
+zGuEHcW
+z[uYHc
+zEuCIcU
+z9u7I;
+B 8A u4HcB
+B 8A u4HcB
+@UAVAWH
+\$ xYLc}PM
+|$ AVH
+|$ AVH
+|$ AVH
+@UATAUAVAWH
+ePA_A^A]A\]
+|$ AVH
+|$ AVH
+WATAUAVAWH
+ A_A^A]A\_
+t$ AWH
+\$ UVWATAUAVAWH
+`A_A^A]A\_^]
+WATAUAVAWH
+0A_A^A]A\_
+SUVWATAUAVAWH
+A_A^A]A\_^][
+<$D9z$
+<$D;z$
+.D$$zxuv
+uSHcB$9A$uJL
+\$ UVAVH
+WATAUAVAWH
+ A_A^A]A\_
+VWATAVAWH
+yXHcAdH
+@A_A^A\_^
+H99tZH
+WAVAWH
+ A_A^_
+l$ VWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+UWATAVAWH
+t&L9#t
+\$(HcL$,
+A_A^A\_]
+UATAUAVAWH
+A_A^A]A\]
+VWATAVAWH
+0A_A^A\_^
+9D$ u=
+D$09D$8H
+fD;DD u
+l$ VWAVH
+UVWATAUAVAWH
+E8 niW
+A_A^A]A\_^]
+|$ ATAVAWH
+t+H9s t%H9s(t
+|$ H9{Ht2
+0A_A^A\
+l$ VWAVH
+l$ VWAVH
+L9	tRH
+UVWAVAWH
+ A_A^_^]
+USVWATAVAWH
+}ox	D;
+A_A^A\_^[]
+)D$0L;
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWATAUAVAWH
+g(D;g,D
+HA_A^A]A\_^][
+|$ AVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+ HcA\H
+|$ AVH
+|$ AVH
+HcL$<I
+HcD$<I
+k VWATAVAWH
+A_A^A\_^
+ LcQ4H
+VWATAVAWH
+A_A^A\_^
+WATAUAVAWH
+0A_A^A]A\_
+VWATAVAWH
+A_A^A\_^
+@USVWATAUAVAWH
+G0H9Egt
+t[H;_(tUH
+A_A^A]A\_^[]
+t$ WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+\$PLc|$\J
+A_A^A]A\_^]
+|$ ATAVAWH
+0A_A^A\
+|$ AVH
+)D$0fH
+WAVAWH
+ A_A^_H
+|$ AVH
+|$ AVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+9l$,~JH
+\$ UVWAVAWH
+0A_A^_^]
+0A_A^_^]
+@USVWAVAWH
+A_A^_^[]
+VWATAVAWH
+ A_A^A\_^
+UVWAVAWH
+ A_A^_^]
+ A_A^_^]
+ A_A^_^]
+	E8Q\t
+|$ AVH
+)D$0L;
+UWATAVAWH
+A_A^A\_]
+USVWATAVAWH
+A_A^A\_^[]
+@SUVWATAVAWH
+A_A^A\_^][
+USVWAVAWH
+A_A^_^[]
+|$ AVH
+USVWATAUAVAWH
+L~@A;^DA
+A_A^A]A\_^[]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+VWATAVAWH
+H9D$Pu
+ A_A^A\_^
+t$ WAVAWH
+H9D$@u
+ A_A^_
+UVWAVAWH
+ A_A^_^]
+UVWATAUAVAWH
+|$8HcD$<H
+A_A^A]A\_^]
+@USVWAVH
+PA^_^[]
+SUVWAUAVAWH
+0A_A^A]_^][
+L$ UVWATAUAVAWH
+tiD8cDt
+tHHcH$
+A_A^A]A\_^]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+D8NDHcF$A
+taHcA$H
+u<HcA$H
+uSHcC$
+t$ UWAVH
+UVWAVAWH
+A_A^_^]
+9t$,~@
+9t$,~@
+VWATAVAWH
+@A_A^A\_^
+|$ AVH
+t$ AVH
+UVWAVAWH
+0A_A^_^]
+@SUVWATAVAWH
+`A_A^A\_^][
+H;;tCH
+CXHcKdI
+H;8t9H
+SUVWATAUAVAWH
+I;3t<I
+H;1tjH
+hA_A^A]A\_^][
+@USVWATAVAWH
+A_A^A\_^[]
+USVWATAUAVAWH
+G@D;GD
+GDD;G@A
+A_A^A]A\_^[]
+{ ATAVAWH
+HcD$,H
+0A_A^A\
+t$ WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+u}IcJl
+A;BDspI
+l$0fff
+D+t$ D
+PA_A^A]A\_^]
+SUVWATAUAVAWH
+8A_A^A]A\_^][
+t$ WATAUAVAWH
+u(HcKl
+A_A^A]A\_
+\$ UVWH
+l$ VWAUAVAWH
+ A_A^A]_^
+UVWATAUAVAWH
+D9l$L~
+A_A^A]A\_^]
+UVWAVAWH
+A_A^_^]
+UVWATAUAVAWH
+H9D$hu
+D$xHc]
+D$xHcM
+A_A^A]A\_^]
+\$ UVWH
+UVWATAUAVAWH
+u)IcOl
+A_A^A]A\_^]
+D$xD+D$xA
+CDA+@DA+
+USVWATAUAVAWH
+)D$pfH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+SUVWAVH
+PA^_^][
+HcWl;WDs
+@SUVWH
+9l$<~(H
+UVWAVAWH
+PA_A^_^]
+UVWAVAWH
+A_A^_^]
+UVWATAUAVAWH
+HcD$LL
+D9l$L~(fff
+A_A^A]A\_^]
+;Q@sKL
+t @8wYu
+UVWAVAWH
+`A_A^_^]
+@SUVWH
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+|$ AVH
+t$ WAVAWH
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+9S tnH
+UVWAVAWH
+A_A^_^]
+VWATAVAWH
+A_A^A\_^
+USVWATAUAVAWH
+A_A^A]A\_^[]
+;Q@s#H
+l$ VWAWH
+}#@8l$`u
+|$ AVH
+@SUVWH
+t$ WAVAWH
+H;1t>H
+UVWAVAWH
+A_A^_^]
+l$ VWAVH
+UVWAVAWH
+L;1t{H
+PA_A^_^]
+l$ VWAVH
+t'H9_0t
+\$ UVWAVAWH
+A_A^_^]
+UVWAVAWH
+PA_A^_^]
+l$ VWAVH
+WAVAWH
+PA_A^_
+VWATAVAWH
+A_A^A\_^
+UVWAVAWH
+ A_A^_^]
+VWAUAVAWH
+A_A^A]_^
+@SUVWH
+9\$4~"H
+@USVWAVH
+PA^_^[]
+UVWAVAWH
+A_A^_^]
+t$ UWAVH
+|$ AVH
+SUVWAVH
+PA^_^][
+s,D9s(t
+s<D9s8t
+H;1t@H
+H;9t@H
+ LcQ$H
+H9P0uA
+WAVAWH
+7L96t6I
+ A_A^_
+hPD;F ~
+l$ VWAVH
+l$ VWATAVAWH
+A_A^A\_^
+D$ D9q
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+H9E0t0
+A_A^A]A\_^]
+@USVWAVAWH
+A_A^_^[]
+SUVWAVH
+0A^_^][
+ LcQ,H
+UVWATAUAVAWH
+A_A^A]A\_^]
+@UAUAVAWH
+A_A^A]]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+|$ UATAUAVAWH
+A_A^A]A\]
+N LcF,J
+|$ AVH
+HcD$,L
+UVWATAUAVAWH
+ A_A^A]A\_^]
+|$ ATAVAWH
+ A_A^A\
+WATAUAVAWH
+E0H+E(H
+A_A^A]A\_
+H9J0u!
+H9J0u!
+@USVWAVAWH
+A_A^_^[]
+@SUVWATAVAWH
+pA_A^A\_^][
+UWAUAVAWH
+A_A^A]_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWAVAWH
+PA_A^_^]
+s WAVAWH
+UVWAVAWH
+A_A^_^]
+UVWATAUAVAWH
+D$DD8d$@
+A_A^A]A\_^]
+UWATAVAWH
+A_A^A\_]
+UVWAVAWH
+@A_A^_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+M(HcE4H
+A_A^A]A\_^]
+WATAUAVAWH
+A_A^A]A\_
+@USVWATAVAWH
+Lct$|E
+A_A^A\_^[]
+|$ AVH
+USVWAVH
+A^_^[]
+UVWATAUAVAWH
+GHcL$t
+L$hHcD$tH
+A_A^A]A\_^]
+X UVWATAUAVAWH
+L$PHcD$\H
+A_A^A]A\_^]
+^XHcFdH
+p WAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+l$ VATAWH
+0A_A\^
+UVWAVAWH
+A_A^_^]
+UVWAVAWH
+A_A^_^]
+h UAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+l$ VWAVH
+UWAUAVAWH
+A_A^A]_]
+UATAUAVAWH
+A_A^A]A\]
+x UAVAWH
+L$PHcE
+H USVWAVH
+A^_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAVAWH
+pA_A^A\_^[]
+l$ VWAVH
+x UAVAWH
+|$ AVH
+@USVWATAVAWH
+A_A^A\_^[]
+UWAUAVAWH
+A_A^A]_]
+x UATAUAVAWH
+L$@HcE
+A_A^A]A\]
+H UVWAVAWH
+(D$@E3
+A_A^_^]
+VWATAVAWH
+A_A^A\_^
+@8u`t6
+E8@8upt
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+LcD$TE
+L$HHcD$TH
+L$HHcD$TH
+A_A^A]A\_^]
+UVWATAUAVAWH
+L$xHcE
+L$xHcE
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+h UAVAWH
+VUUUE3
+@USVWATAVAWH
+A_A^A\_^[]
+UWAUAVAWH
+t3L92t.A
+A_A^A]_]
+UVWAVAWH
+PA_A^_^]
+t$ WAVAWH
+x UATAUAVAWH
+L$HHcD$TH
+A_A^A]A\]
+p UWATAVAWH
+A_A^A\_]
+USVWATAVAWH
+A_A^A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UWATAVAWH
+A_A^A\_]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WAVAWH
+@SUVWAVH
+0A^_^][
+UVWAVAWH
+A_A^_^]
+WAVAWH
+0A_A^_
+UVWAVAWH
+A_A^_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ ATAVAWH
+@A_A^A\
+(t$`tL
+WAVAWH
+0A_A^_
+UVWAVAWH
+L$`HcD$lH
+LcD$lE
+L$`HcD$lH
+A_A^_^]
+WATAUAVAWH
+A_A^A]A\_
+UAUAWH
+USVWAUAVAWH
+A_A^A]_^[]
+UVWAVAWH
+A_A^_^]
+@SVWAVAWH
+pA_A^_^[
+UVWAVAWH
+A_A^_^]
+UAVAWH
+UVWAVAWH
+@A_A^_^]
+\$ UVWAVAWH
+PA_A^_^]
+UATAUAVAWH
+A_A^A]A\]
+UWATAVAWH
+LcD$,E
+L$ HcD$,H
+A_A^A\_]
+VWATAVAWH
+0A_A^A\_^
+H UVWATAUAVAWH
+A_A^A]A\_^]
+WAVAWH
+USVWATAVAWH
+GHcL$t
+L$hHcD$tH
+A_A^A\_^[]
+WATAUAVAWH
+t$ IcY
+0A_A^A]A\_
+UVWATAUAVAWH
+L$PHcD$\H
+A_A^A]A\_^]
+d$ UAUAWH
+p WAVAWH
+@SUVWAVH
+pA^_^][
+UAVAWH
+)d$`|<I
+\$ UVATAVAWH
+ A_A^A\^]
+UVWAVAWH
+PA_A^_^]
+VWATAVAWH
+0A_A^A\_^
+UVWAVAWH
+H9D$`u
+ A_A^_^]
+T$@H;Q
+@USVWATAUAVAWH
+l$pD9i@~
+A_A^A]A\_^[]
+J@A;K@~o
+A+B@A+B8A
+JDA;KD~o
+A+BDA+B<A
+UWATAVAWH
+A_A^A\_]
+H;9t>H
+H;9t>H
+|$ AVH
+KXHcCdI
+UVWATAUAVAWH
+@A_A^A]A\_^]
+\$ UVWATAUAVAWH
+@A_A^A]A\_^]
+VWATAVAWH
+ A_A^A\_^
+l$8I9^
+SUVWAVH
+ffffff
+ A^_^][
+|$ UATAUAVAWH
+;T$@~!
+A_A^A]A\]
+p WATAUAVAWH
+Hc|$<f
+El$PHc|$<
+PX+\$`D
+A_A^A]A\_
+UVWAVAWH
+ A_A^_^]
+l$8I9^
+@SWAWH
+H;(txH
+ffffff
+WAVAWH
+@A_A^_
+t$ WAVAWH
+@SAUAVH
+0A^A][
+0A^A][
+0A^A][
+@UWATAVH
+D+l$pE;
+HA^A\_]
+@SUVWATAVAWH
+pA_A^A\_^][
+@USVWATAVAWH
+A_A^A\_^[]
+UATAUAVAWH
+A_A^A]A\]
+|$ AVH
+UVWAVAWH
+A_A^_^]
+t$ WAVAWH
+@A_A^_
+t$ WAVAWH
+@UVAVH
+x ATAVAWH
+wXIcGdL
+|$0HcD$<9C
+@A_A^A\
+l$ VWAUAVAWH
+T$`I9V
+0A_A^A]_^
+YXHcAdH
+u|HcAdH
+|$ UATAUAVAWH
+E;t$ds
+A_A^A]A\]
+YXHcAdH
+YXHcAdH
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWATAVAWH
+^XHcFdL
+^XHcFdH
+PA_A^A\_^][H
+UVWATAUAVAWH
+H;9t>H
+A_A^A]A\_^]
+UVWAVAWH
+A_A^_^]
+USVWATAVAWH
+A_A^A\_^[]
+|$ AVH
+SUWATAUH
+pA]A\_][
+|$ AUAVAWH
+@A_A^A]
+_$9_ t
+H;0tBH
+@@9C4u
+@D9C8u
+t$ WAVAWH
+ A_A^_
+@SUVWATAVAWH
+PA_A^A\_^][
+H9D$0u
+_XHcGdH
+:IcH$I
+t$ WAV
+t$0A^_
+t$0A^_
+|$ UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+L$pHcn$L
+0A_A^A]A\_^]
+@UVAVH
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+l$ VWAVH
+@USVWAVAWH
+A_A^_^[]
+t$ WATAUAVAWH
++H<+MlA
+A_A^A]A\_
+@USVWAVAWH
+A_A^_^[]
+UVWATAUAVAWH
+@,fff?H
+PA_A^A]A\_^]
+VWATAVAWH
+tC;\$,s=A
+@A_A^A\_^
+t$ WATAVH
+SUVWAVH
+0A^_^][
+SUVWAVAWH
+hA_A^_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+l$ f9(u*H
+t$0t#H
+t$ WATAUAVAWH
+A_A^A]A\_
+|$ AVH
+UVWATAUAVAWH
+@A_A^A]A\_^]
+SUVWATAVAWH
+N LcF,J
+L;1t@H
+@A_A^A\_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+T$(H9T$ u
+0A_A^A]A\_^]
+@USVWAVAWH
+A_A^_^[]
+A_A^_^[]
+@USVWATAVAWH
+L;8t>H
+A_A^A\_^[]
+l$ VWAVH
+UVWATAUAVAWH
+q HcA,H
+pA_A^A]A\_^]
+L$ WAVAWH
+MxH91t
+ A_A^_
+t$ UWATAVAWH
+A_A^A\_]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+@USVWATAVAWH
+PA_A^A\_^[]
+l$ VWAVH
+@USVWATAVAWH
+PA_A^A\_^[]
+\$ UVWH
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ AVH
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWAVAWH
+@A_A^_^]
+UVWATAUAVAWH
+H;9t<H
+A_A^A]A\_^]
+B A:@ uKH
+t$ WATAUAVAWH
+A_A^A]A\_
+t$ UWAVH
+@SUVWATAVAWH
+0A_A^A\_^][
+|$ AVH
+UWAUAVAWH
+Lct$\I
+A_A^A]_]
+)t$@fI
+L$pzWuU
+.D$tzFuD
+T$,zQuO
+YXHcAdH
+x ATAVAWH
+YXHcAdL
+~XIcFdL
+A_A^A\
+T$LzQuO
+T$LzQuO
+UAVAWI
+qXHcAdL
+UVWAVAWH
+_XHcGdH
+0A_A^_^]
+{XHcCdH
+t$ WAVAWH
+HcD$DI
+KXHcCdI
+SXLcCdH
+t$ WAVAWH
+0A_A^_
+H VWAVH
+t$ WATAUAVAWH
+A_A^A]A\_
+\$ UVWH
+h VWAVH
+t$ WAVAWH
+0A_A^_
+KXHcCdI
+\$0|@H
+|$ AVH
+H;9t:H
+UVWAVAWH
+ A_A^_^]
+O?/uoSH
+VWATAVAWH
+{XHcCdH
+0A_A^A\_^
+@SUVWAVH
+pA^_^][
+@USVWATAVAWH
+@A_A^A\_^[]
+H;9tBH
+UVWAVAWH
+`A_A^_^]
+H98tLH
+H99tLH
+8QHtsH
+UVWATAUAVAWH
+pA_A^A]A\_^]
+SUVWAVH
+X(Hc@4H
+A^_^][
+UVWATAUAVAWH
+~ HcN$H
+A_A^A]A\_^]
+USVWATAUAVAWH
+X(Hc@4L
+A_A^A]A\_^[]
+t$ WAVAWH
+ A_A^_
+VWATAVAWH
+ A_A^A\_^
+l$ VWAVH
+L9p@u>
+H9S@t"H
+|$ AVH
+ LcADH
+A8LcIDJ
+\$ UVWH
+ LcQTH
+@(IcH4L
+u=LcAtE
+UVWAVAWH
+ A_A^_^]
+ A_A^_^]
+WAVAWH
+ A_A^_
+USVWATAVAWH
+A_A^A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+B 9A u1H
+B49A4u(H
+VAVAWH
+0A_A^^
+WATAUAVAWH
+A_A^A]A\_
+SUWAUAVH
+A^A]_][
+D$ L;D$(tAI
+H;9t:H
+H(Hc@4L
+H(Hc@4L
+UVWAVAWH
+p(Hc@4I
+A_A^_^]
+x0A;~ds"I
+taH;:t
+u2Lc@tM
+C(pu(H
+@USVWAVH
+A^_^[]
+@USVWAVH
+A^_^[]
+x UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+x UAVAWH
+	E8Q\t
+UVWATAUAVAWH
+0A_A^A]A\_^]
+UVWAVAWH
+A;_DtQf
+A_A^_^]
+UWATAVAWH
+A_A^A\_]
+\$ UVWATAUAVAWH
+E;od}sH
+uHE;gd
+@A_A^A]A\_^]
+	E8Q\t
+UVWAVAWH
+H9p@u?D
+A_A^_^]
+|$ ATAVAWH
+0A_A^A\
+VWATAVAWH
+ A_A^A\_^
+IXHcIdI
+UVWAVAWH
+_XHcGdH
+ A_A^_^]
+ A_A^_^]
+QXLcAdI
+BXIcBdI
+)t$ fH
+D$4D+O
+L$8D+W
+UVWAVAWH
+l$hD9y8u
+0A_A^_^]
+E9Jd~	I
+BXMcZdI
+t(E9Jd~"I
+JXMcZdI
+_XHcGdH
+UVWATAUAVAWH
+pA_A^A]A\_^]
+UVWAVAWH
+0A_A^_^]
+UVWATAUAVAWH
+H;1t<H
+A_A^A]A\_^]
+VWATAVAWH
+H;9tDH
+0A_A^A\_^
+VWATAVAWH
+A_A^A\_^
+|$ AVH
+|$ AVH
+p WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+@A_A^A]A\_^]
+fffffff
+ffffff
+ffffff
+>ffffff
+ffffff
+ffffff
+fffffff
+fffffff
+.ffffff
+fffffff
+fffffff
+fffffff
+.ffffff
+fffffff
+^8U)zj
+0ffffff
+fffffff
+ffffff
+@ffffff
+SUVWATAVAWH
+ A_A^A\_^][
+yZdefault
+N@  )@
+N@( )@
+8@0 )@
+seconds
+minutes
+WARNING
+VERBOSE
+%logger
+%thread
+%level
+%levshort
+%datetime
+%fbase
+%vlevel
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+August
+September
+October
+November
+December
+%Y-%M-%d %H:%m:%s,%g
+%Y-%M-%d_%H-%m
+nullptr
+unknown-user
+unknown-host
+--default-log-file
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._
+global
+warning
+verbose
+enabled
+to_file
+to_standard_output
+format
+filename
+subsecond_precision
+milliseconds_width
+performance_tracking
+max_log_file_size
+log_flush_threshold
+GLOBAL
+UNKNOWN
+ENABLED
+FILENAME
+FORMAT
+TO_FILE
+TO_STANDARD_OUTPUT
+SUBSECOND_PRECISION
+PERFORMANCE_TRACKING
+MAX_LOG_FILE_SIZE
+LOG_FLUSH_THRESHOLD
+] WITH MESSAGE "
+ASSERTION FAILURE FROM EASYLOGGING++ (LINE: 
+%datetime %level [%logger] %msg
+%datetime %level [%logger] [%user@%host] [%func] [%loc] %msg
+%datetime %level-%vlevel [%logger] %msg
+%datetime %level [%logger] [%func] [%loc] %msg
+USERNAME
+COMPUTERNAME
+xterm-color
+xterm-256color
+screen
+cygwin
+screen-256color
+toFile
+toStandardOutput
+logFormat
+subsecondPrecision
+fileStream
+maxLogFileSize
+logFlushThreshold
+Configuration value not a valid integer [
+) [valid
+Could not load empty file for logging, please re-check your configurations for level [
+]. Not registering this logger.
+Invalid logger ID [
+) [validId
+DefaultLogDispatchCallback
+Logger [
+] is not registered yet!
+Aborting application. Reason: Fatal log at [
+el::Loggers::addFlag(el::LoggingFlag::DisableApplicationAbortOnFatalLog)
+ If you wish to disable 'abort on fatal log' please use 
+Fatal log at [
+invalid unordered_map<K, T> key
+invalid vector subscript
+bad function call
+address family not supported
+address in use
+address not available
+already connected
+argument list too long
+argument out of domain
+bad address
+bad file descriptor
+bad message
+broken pipe
+connection aborted
+connection already in progress
+connection refused
+connection reset
+cross device link
+destination address required
+device or resource busy
+directory not empty
+executable format error
+file exists
+file too large
+filename too long
+function not supported
+host unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+interrupted
+invalid argument
+invalid seek
+io error
+is a directory
+message size
+network down
+network reset
+network unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message available
+no message
+no protocol option
+no space on device
+no stream resources
+no such device or address
+no such device
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+owner dead
+permission denied
+protocol error
+protocol not supported
+read only file system
+resource deadlock would occur
+resource unavailable try again
+result out of range
+state not recoverable
+stream timeout
+text file busy
+timed out
+too many files open in system
+too many files open
+too many links
+too many symbolic link levels
+value too large
+wrong protocol type
+unknown error
+0123456789-+Ee
+0123456789ABCDEFabcdef-+Xx
+0123456789ABCDEFabcdef-+XxPp
+bad exception
+WaitOnAddress
+WakeByAddressSingle
+WakeByAddressAll
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+InitializeCriticalSectionEx
+InitOnceExecuteOnce
+CreateEventExW
+CreateSemaphoreW
+CreateSemaphoreExW
+CreateThreadpoolTimer
+SetThreadpoolTimer
+WaitForThreadpoolTimerCallbacks
+CloseThreadpoolTimer
+CreateThreadpoolWait
+SetThreadpoolWait
+CloseThreadpoolWait
+FlushProcessWriteBuffers
+FreeLibraryWhenCallbackReturns
+GetCurrentProcessorNumber
+CreateSymbolicLinkW
+GetCurrentPackageId
+GetTickCount64
+GetFileInformationByHandleEx
+SetFileInformationByHandle
+GetSystemTimePreciseAsFileTime
+InitializeConditionVariable
+WakeConditionVariable
+WakeAllConditionVariable
+SleepConditionVariableCS
+InitializeSRWLock
+AcquireSRWLockExclusive
+TryAcquireSRWLockExclusive
+ReleaseSRWLockExclusive
+SleepConditionVariableSRW
+CreateThreadpoolWork
+SubmitThreadpoolWork
+CloseThreadpoolWork
+CompareStringEx
+GetLocaleInfoEx
+LCMapStringEx
+:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+%b %d %H : %M : %S %Y
+%m / %d / %y
+:AM:am:PM:pm
+%I : %M : %S %p
+%H : %M
+%H : %M : %S
+%d / %m / %y
+0123456789-
+0123456789-
+0123456789-
+0123456789-+Ee
+0123456789ABCDEFabcdef-+Xx
+0123456789-
+0123456789-+Ee
+0123456789ABCDEFabcdef-+Xx
+0123456789ABCDEFabcdef-+XxPp
+0123456789ABCDEFabcdef-+XxPp
++v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
+0123456789-
+0123456789-
+0123456789abcdefghijklmnopqrstuvwxyz
+0123456789abcdefghijklmnopqrstuvwxyz
+Access violation - no RTTI data!
+Attempted a typeid of nullptr pointer!
+Bad read pointer - no RTTI data!
+Bad dynamic_cast!
+__based(
+__cdecl
+__pascal
+__stdcall
+__thiscall
+__fastcall
+__vectorcall
+__clrcall
+__eabi
+__swift_1
+__swift_2
+__ptr64
+__restrict
+__unaligned
+restrict(
+ delete
+operator
+`vftable'
+`vbtable'
+`vcall'
+`typeof'
+`local static guard'
+`string'
+`vbase destructor'
+`vector deleting destructor'
+`default constructor closure'
+`scalar deleting destructor'
+`vector constructor iterator'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`virtual displacement map'
+`eh vector constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`copy constructor closure'
+`udt returning'
+`local vftable'
+`local vftable constructor closure'
+ new[]
+ delete[]
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`managed vector constructor iterator'
+`managed vector destructor iterator'
+`eh vector copy constructor iterator'
+`eh vector vbase copy constructor iterator'
+`dynamic initializer for '
+`dynamic atexit destructor for '
+`vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`managed vector copy constructor iterator'
+`local static thread guard'
+operator "" 
+operator co_await
+operator<=>
+ Type Descriptor'
+ Base Class Descriptor at (
+ Base Class Array'
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+`anonymous namespace'
+(null)
+[aOni*{
+~ $s%r
+@b;zO]
+v2!L.2
+IND)ind)
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+IND)ind)
+UUUUUU
+UUUUUU
+"e?<<<<<<l?
+Il?333333c?
+.i?0@I
+d?000000`?
+)|B?d!
+L?UUUUUUU?
+&?PPPPPPP?
+0X8b?~
+%GoU?*
+(T?j?Y
+Zod(^?
+D W?{W
+qS>g?h3
+c?FA@s}
+UUUUUU
+UUUUUU
+UUUUUU
+?UUUUUU
+?kxG2)
+?TY,>5
+?!5WOo
+?E=$% B
+?49HoKC
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+CorExitProcess
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+AreFileApisANSI
+EnumSystemLocalesEx
+GetDateFormatEx
+GetTimeFormatEx
+GetUserDefaultLocaleName
+IsValidLocaleName
+LCIDToLocaleName
+LocaleNameToLCID
+RoUninitialize
+AppPolicyGetProcessTerminationMethod
+AppPolicyGetThreadInitializationType
+NAN(SNAN)
+nan(snan)
+NAN(IND)
+nan(ind)
+_hypot
+_nextafter
+UUUUUU
+UUUUUU
+UTF-16LEUNICODE
+A03>A|
+Q5rHg,>
+j>>A?1
+.>PJ;I:qE>
+:>t6k'
+])6M>&
+CWD>~3
+:>)*	v
+_oD>Kg
+N>O=I9
+F>qUxv
+/2GG>!B
+zY;>u:m	
+P>q_Y~
+0><[cZUg^>
+Y>kX>M
+H[><y5
+[*ncd>0
+S>$hkDh$h>[2
+UA>N0Wl
+9>powf
+?8bunz8
+?@En[vP
+?UUUUUU
+?7zQ6$
+1#QNAN
+1#SNAN
+UUUUUU
+UUUUUU
+=imb;D
+1<.	/>:
+/>58d%
+>jtm}S
+)>6{1n
+r	Vr.>T
++f)>0'
+;H9>&X
+*StO9>T
+n03>Pu
+K~Je#>!
+bp(=>?g
+BC?>6t9^	c:>
+K&>.yC
+.xJ>Hf
+y\PD>!
+|b=})>
+c [1>H'
+uzKs@>
+3>N;kU
+	kE>fvw
+V6E>`"(5
+ACCUserPS
+I3D Technology Inc.
+ACCUserPS
+I3D Technology Inc.
+CareCenter
+--close
+nan(ind)
+nan(snan)
+nan(ind)
+status
+nan(snan)
+result
+nan(ind)
+nan(snan)
+nan(ind)
+SIGFPE
+nan(snan)
+SIGILL
+nan(ind)
+SIGINT
+nan(snan)
+nan(ind)
+SIGFPE
+nan(snan)
+SIGILL
+SIGINT
+String pointer is null.
+String pointer is null.
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+I3D Technology Inc.
+ACCUserPS
+is_gaming
+QuickCleanup_Get
+bluelight_shield
+CleanDisk_Search
+QuickCleanup_Abort
+CleanDisk_Delete
+CleanDisk_Abort
+gain_id
+CleanDisk_Get
+osd_type
+QuickCleanup_Clean
+qualified_files
+BrowserCache
+search_session
+progress
+file_size_mb
+client_id
+directories
+RecycleBin
+TemporaryFiles
+files_index
+timestamp
+conditions
+command
+progress
+last_acccessed_date
+session
+last_acccessed_days
+user_data
+file_size_bytes
+AgentUserPSPipe{69A0D80E-E1B8-46C0-8AEA-5AA88FF5BB04}
+CCAgentUserPSPipe{9FE55B83-AB43-4ABB-81AB-D0510503C959}
+I3D Technology Inc.
+ACCUserPS
+default
+seconds
+minutes
+SIGABRT
+Program was abnormally terminated.
+Abnormal termination
+Erroneous arithmetic operation
+Arithmetic operation issue such as division by zero or operation resulting in overflow.
+Illegal instruction
+Generally due to a corruption in the code or to an attempt to execute data.
+Invalid access to memory
+SIGSEGV
+Program is trying to read an invalid (unallocated, deleted or corrupted) or inaccessible memory.
+Interactive attention signal
+ 64-bit
+Interruption generated (generally) by user or operating system.
+D:\works\acer\_QuickAccess\qa.git\src\Common\logging.cpp
+void __cdecl i3d::InitLogging(const class juce::File &,const class juce::String &,bool,enum i3d::LogLevel)
+OS       : 
+ 32-bit
+  Module: 
+ACCUserPS
+I3D Technology Inc.
+default
+minutes
+seconds
+Abnormal termination
+SIGABRT
+Program was abnormally terminated.
+Arithmetic operation issue such as division by zero or operation resulting in overflow.
+Erroneous arithmetic operation
+Illegal instruction
+SIGSEGV
+Generally due to a corruption in the code or to an attempt to execute data.
+Program is trying to read an invalid (unallocated, deleted or corrupted) or inaccessible memory.
+Invalid access to memory
+Interactive attention signal
+Interruption generated (generally) by user or operating system.
+SIGFPE
+SIGILL
+SIGINT
+SIGFPE
+SIGILL
+SIGINT
+int __cdecl i3d::CleanJunkFilesExManager::EmptyDirectory(void *,void (__cdecl *)(void *,int,int),void *,int,__int64,__int64 *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,int)
+folder is empty!
+D:\works\acer\_QuickAccess\qa.git\src\Common\Storage\disk_util.cpp
+D:\works\acer\_QuickAccess\qa.git\src\Common\Storage\disk_util.cpp
+Error code: 
+Fail to remove folder: 
+int __cdecl i3d::CleanJunkFilesExManager::EmptyDirectory(void *,void (__cdecl *)(void *,int,int),void *,int,__int64,__int64 *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,int)
+int __cdecl i3d::CleanJunkFilesExManager::EmptyDirectory(void *,void (__cdecl *)(void *,int,int),void *,int,__int64,__int64 *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,int)
+Fail to delete file: 
+Skip to delete file for access data: 
+D:\works\acer\_QuickAccess\qa.git\src\Common\Storage\disk_util.cpp
+Error code: 
+int __cdecl i3d::CleanJunkFilesExManager::EmptyDirectory(void *,void (__cdecl *)(void *,int,int),void *,int,__int64,__int64 *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,int)
+D:\works\acer\_QuickAccess\qa.git\src\Common\Storage\disk_util.cpp
+I3D Technology Inc.
+ACCUserPS
+ACCUserPS
+default
+minutes
+seconds
+Abnormal termination
+SIGABRT
+Program was abnormally terminated.
+Arithmetic operation issue such as division by zero or operation resulting in overflow.
+Erroneous arithmetic operation
+Illegal instruction
+SIGSEGV
+default
+Generally due to a corruption in the code or to an attempt to execute data.
+Program is trying to read an invalid (unallocated, deleted or corrupted) or inaccessible memory.
+ bytes
+Invalid access to memory
+Interactive attention signal
+Interruption generated (generally) by user or operating system.
+seconds
+SIGABRT
+minutes
+Erroneous arithmetic operation
+Abnormal termination
+Program was abnormally terminated.
+Illegal instruction
+Generally due to a corruption in the code or to an attempt to execute data.
+Arithmetic operation issue such as division by zero or operation resulting in overflow.
+SIGSEGV
+Program is trying to read an invalid (unallocated, deleted or corrupted) or inaccessible memory.
+Invalid access to memory
+Interactive attention signal
+MainComponent::InitialAgentServiceIPC
+Interruption generated (generally) by user or operating system.
+void __cdecl MainComponent::InitialAgentServiceIPC(void)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+void __cdecl MainComponent::OnIPCDataReceived(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+() failed to create AgentUserPSIPCClient!
+MainComponent::OnIPCDataReceived
+void __cdecl MainComponent::OnIPCDataReceived(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+void __cdecl MainComponent::OnIPCDataReceived(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnIPCDataReceived
+() Empty IPC data received, ignores it.
+void __cdecl MainComponent::OnIPCDataReceived(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+Incorrect IPC data package received!
+Message: 
+void __cdecl MainComponent::OnCleanDiskSearchIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnIPCDataReceived
+() Incorrect JSON for CleanDisk IPC command
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskSearchIPC
+MainComponent::OnCleanDiskSearchIPC
+void __cdecl MainComponent::OnCleanDiskSearchIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskSearchIPC
+() search session: 
+void __cdecl MainComponent::OnCleanDiskSearchIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskSearchIPC
+() action abort due to one or more invalid directory found!
+void __cdecl MainComponent::OnCleanDiskSearchIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskSearchIPC
+() another CleanDisk Search action is still running!
+void __cdecl MainComponent::OnCleanDiskSearchIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskDeleteIPC
+() another CleanDisk Delete action is still running!
+void __cdecl MainComponent::OnCleanDiskDeleteIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskDeleteIPC
+() invalid search session from client.
+void __cdecl MainComponent::OnCleanDiskDeleteIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskDeleteIPC
+() contains invalid file index.
+MainComponent::OnCleanDiskAbortIPC
+void __cdecl MainComponent::OnCleanDiskDeleteIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+() deleting file: 
+MainComponent::OnCleanDiskAbortIPC
+void __cdecl MainComponent::OnCleanDiskAbortIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+() Search session: 
+void __cdecl MainComponent::OnCleanDiskAbortIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskAbortIPC
+() aborting the Search action...
+void __cdecl MainComponent::OnCleanDiskAbortIPC(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::OnCleanDiskAbortIPC
+() the Search operation did not stop after 10 seconds!
+void __cdecl MainComponent::OnCleanDiskAbortIPC(const struct i3d::ipc::CleanDiskPackage &)
+() the search thread did not stop within 3 seconds, force stop it!
+() No more search jobs to wait...
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+WaitForSearchJobsToFinish
+bool __cdecl WaitForSearchJobsToFinish(class juce::ThreadPool &,const struct std::atomic<bool> &)
+MainComponent::DoCleanDiskSearch
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+() session: 
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::DoCleanDiskSearch
+Duplicated directory found!
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::DoCleanDiskSearch
+() the search job was aborted, session: 
+MainComponent::DoCleanDiskSearch
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+(2) Search was aborted and informed Agent. Session: 
+MainComponent::DoCleanDiskSearch
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+() no qualified files found, session: 
+MainComponent::DoCleanDiskSearch
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+() Waiting qualified send to Agent, session: 
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+MainComponent::DoCleanDiskSearch
+(3) Search was aborted and informed Agent. Session: 
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+  Qualified files : 
+() all qualifed files are sent to Agent:
+  Session         : 
+void __cdecl MainComponent::DoCleanDiskSearch(const struct i3d::ipc::CleanDiskPackage &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+  last_file_index_: 
+  Qualified files: 
+MainComponent::DoCleanDiskSearch
+() not all qualified files were sent to Agent:
+  Sent files     :
+nan(ind)
+nan(ind)
+nan(snan)
+nan(ind)
+nan(snan)
+nan(ind)
+nan(snan)
+nan(ind)
+nan(snan)
+nan(ind)
+nan(snan)
+nan(snan)
+String pointer is null.
+String pointer is null.
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+integral cannot be stored in charT
+0123456789abcdef
+base64:
+Qkkbal
+[-&LMb#{'
+w+OQvr
+)\ZEo^m/
+H*0"ZOW
+l!;b	F
+mj>zjZ
+IiGM>nw
+ewh/?y
+OZw3(?
+V_:X1:
+base64:
+%Y-%m-%d_%H-%M-%S
+								
+Cannot create parent directory
+Unknown symbol: 
+56789:;<=>
+ !"#$%&'()*+,-./01234.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+
+1 year
+0123456789
+"#@,;:<>*^|?
+Cannot create parent directory
+"#@,;:<>*^|?\/
+Log started: 
+**********************************************************
+Unknown Error
+Unknown function: "
+Unknown symbol: 
+1 week
+Could not find file: 
+Expected a filename after the 
+Could not find folder: 
+Could not find folder: 
+ option
+Not enough arguments!
+Expected the option 
+Prints the current version number
+2 days
+Prints the list of commands
+127.0.0.1
+2 secs
+0.0.0.0
+listener
+2 mins
+JUCE v6.1.5
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-:#@$%
+language:
+countries:
+!! killing thread by force !!
+**** Counter for "
+ microsecs
+" started at: 
+, maximum = 
+, minimum = 
+ millisecs
+, total = 
+" over 
+Performance count for "
+Average = 
+ run(s)
+2 years
+2 weeks
+2 months
+1 month
+< 1 sec
+%+03d:%02d
+%+03d%02d
+daylight
+%04d-%02d-%02dT%02d:%02d:%06.03f
+%04d%02d%02dT%02d%02d%06.03f
+August
+January
+February
+November
+December
+September
+October
+Sunday
+Wednesday
+Monday
+Thursday
+Friday
+Tuesday
+Aug 29 2023
+Saturday
+ tests
+An unhandled exception was thrown!
+Random seed: 0x
+All tests completed successfully
+-----------------------------------------------------------------
+07:06:24
+Starting test: 
+FAILED!!  
+ failed, out of a total of 
+!!! Test 
+return
+ failed
+ passed
+Not a quoted string!
+continue
+undefined
+typeof
+function
+$identifier
+$literal
+malformed header
+malformed DTD
+not enough input
+<!DOCTYPE
+tag name missing
+unmatched quotes
+illegal character found in 
+expected '=' after attribute '
+unterminated CDATA section
+unmatched tags
+[CDATA[
+unmatched tags
+unterminated comment
+unmatched tags
+illegal escape sequence
+illegal escape sequence
+illegal escape sequence
+unexpected end of input
+system
+illegal escape sequence
+entity without terminating semi-colon
+<!entity
+<!entity
+unknown entity
+&quot;
+system
+<?xml version="1.0" encoding="
+invalid distance too far back
+invalid distance code
+incorrect header check
+unknown compression method
+invalid literal/length code
+Entry 
+unknown header flags set
+header crc mismatch
+invalid window size
+unknown compression method
+too many length or distance symbols
+invalid code lengths set
+invalid block type
+invalid stored block lengths
+invalid literal/lengths set
+invalid distances set
+invalid bit length repeat
+ILFree
+invalid bit length repeat
+invalid distance too far back
+incorrect data check
+invalid literal/length code
+invalid distance code
+stream end
+incorrect length check
+need dictionary
+data error
+insufficient memory
+file error
+stream error
+buffer error
+incompatible version
+Failed to open the zip file for reading
+ is outside the target directory
+Failed to create target folder: 
+Failed to create symbolic link: 
+Failed to write to target file: 
+Parent directory leads through symlink for target file: 
+Failed to write to target file: 
+Shell32.dll
+GetFinalPathNameByHandle
+SHOpenFolderAndSelectItems
+ILCreateFromPathW
+netapi32.dll
+MAPI32.dll
+MAPISendMail
+Netbios
+*                   
+HKEY_CLASSES_ROOT\
+HKEY_CURRENT_USER\Software\Classes\
+\shell\open\command\
+RtlGetVersion
+\DefaultIcon\
+Windows 8.1
+Windows 8.0
+Unknown OS
+Windows 10
+Windows XP
+Windows 2000
+Windows 7
+Windows Vista
+kernel32.dll
+Windows (Desktop)
+user32.dll
+GetUserPreferredUILanguages
+wine_get_version
+https:
+file://
+file:///
+Content-Type: multipart/form-data; boundary=
+"; filename="
+Content-Disposition: form-data; name="
+Content-Type: 
+Content-Transfer-Encoding: binary
+Content-Disposition: form-data; name="
+Content-Type
+Content-Type: application/x-www-form-urlencoded
+Content-length: 
+mailto:
+0123456789ABCDEF
+0123456789ABCDEF
+,$_-.*!'
+PROPERTIES
+CONOUT$
+CONIN$
+CONOUT$
+JUCE IPC server
+JUCE Message Thread
+__ipc_p_
+__ipc_st
+__ipc_k_
+Discovery_broadcast
+address
+address
+Discovery_listen
+address
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 0 0 600 824
+%%Pages: 0
+%%Creator: Raw Material Software Limited - JUCE
+%%Title: 
+40 800 translate
+%%CreationDate: none
+%%LanguageLevel: 2
+%%EndComments
+%%BeginProlog
+%%BeginResource: JRes
+/bd {bind def} bind def
+/c {setrgbcolor} bd
+/m {moveto} bd
+/l {lineto} bd
+/rl {rlineto} bd
+/ct {curveto} bd
+/cp {closepath} bd
+/pr {3 index 3 index moveto 1 index 0 rlineto 0 1 index rlineto pop neg 0 rlineto pop pop closepath} bd
+/doclip {initclip newpath} bd
+/endclip {clip newpath} bd
+%%EndResource
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+%%EndPageSetup
+ scale
+endclip
+doclip 
+newpath 
+ ] concat 
+gsave 
+ rectfill
+grestore
+gsave 
+ rectfill
+ 0 0 -
+newpath 
+1.6.37
+ scale
+ clip newpath
+false 3 colorimage grestore
+JPEGMEM
+originalImageHadAlpha
+Potential overflow in png_zalloc()
+jpeg;jpg
+ but running with 
+1.6.37
+Application built with libpng-
+Ignoring invalid time value
+ +0000
+1.6.37
+unexpected end of LZ stream
+unexpected zlib return code
+ libpng version 1.6.37 - April 14, 2019
+1.6.37
+damaged LZ stream
+1.6.37
+bad parameters to zlib
+zlib IO error
+missing LZ dictionary
+unexpected zlib return
+unsupported zlib version
+1.6.37
+truncated
+insufficient memory
+duplicate
+invalid end points
+gamma value out of range
+gamma value does not match libpng estimate
+gamma value does not match sRGB
+profile '
+invalid chromaticities
+inconsistent chromaticities
+invalid sRGB rendering intent
+cHRM chunk does not match sRGB
+duplicate sRGB information ignored
+inconsistent rendering intents
+invalid length
+length does not match profile
+exceeds application limits
+too short
+invalid signature
+fixed point overflow ignored
+libpng warning: %s
+intent outside defined range
+invalid rendering intent
+tag count too large
+invalid ICC profile color space
+Gray color space not permitted on RGB PNG
+RGB color space not permitted on grayscale PNG
+PCS illuminant is not D50
+unrecognized ICC profile class
+unexpected NamedColor ICC profile class
+libpng error: %s
+unexpected DeviceLink ICC profile class
+Too many IDATs found
+invalid embedded Abstract ICC profile
+Too many IDATs found
+known incorrect sRGB profile
+ICC profile tag start not a multiple of 4
+ICC profile tag outside profile
+unexpected ICC PCS encoding
+Invalid image width in IHDR
+Image width is zero in IHDR
+Not recognizing known sRGB profile that has been edited
+Truncated compressed data in IDAT
+out-of-date sRGB profile with no signature
+Invalid image height in IHDR
+Image height is zero in IHDR
+Image width exceeds user limit in IHDR
+IDAT: ADLER32 checksum mismatch
+png_set_background
+Image width is too large for this architecture
+Invalid color type/bit depth combination in IHDR
+undefined
+Out of memory
+Extra compression data in IDAT
+Application must supply a known background gamma
+Invalid color type in IHDR
+Invalid bit depth in IHDR
+Image height exceeds user limit in IHDR
+zstream unclaimed
+Unknown filter method in IHDR
+Unknown compression method in IHDR
+sCAL height
+Unknown interlace method in IHDR
+sCAL width
+Extra compressed data in IDAT
+ignoring out of range rgb_to_gray coefficients
+extra compressed data
+gamma table being rebuilt
+Read palette index exceeding num_palette
+Interlace handling should be turned on when using png_read_image
+png_read_update_info/png_start_read_image: duplicate call
+rgb to gray green coefficient
+ using zstream
+zstream unclaimed
+png_start_read_image/png_read_update_info: duplicate call
+png_process_data_skip is not implemented in any current version of libpng
+..Too many IDATs found
+tRNS must be after
+.Too many IDATs found
+invalid
+invalid before the PNG header has been read
+invalid after png_start_read_image or png_read_update_info
+GCan't discard critical data on CRC error
+Can't set both read_data_fn and write_data_fn in the same structure
+png_do_encode_alpha: unexpected call
+invalid
+png_do_rgb_to_gray found nongray pixel
+bKGD must be after
+libpng does not support gamma+background+rgb_to_gray
+rgb to gray red coefficient
+insufficient memory to read chunk
+Italic
+?CRC error
+PNG fixed point integer out of range
+ignored in grayscale PNG
+Gout of place
+out of place
+hIST must be after
+?invalid
+duplicate
+Gout of place
+invalid
+invalid values
+invalid
+out of place
+invalid
+too many profiles
+Ginvalid
+out of place
+duplicate
+Gextra compressed data
+too short
+333?too short
+out of place
+bad compression method
+out of memory
+out of memory
+extra compressed data
+out of place
+too many profiles
+No space in chunk cache for sPLT
+bad keyword
+invalid
+sPLT chunk too long
+invalid
+sPLT chunk has bad length
+malformed sPLT chunk
+out of memory
+duplicate
+out of place
+invalid
+sPLT chunk requires too much memory
+invalid with alpha channel
+out of place
+invalid index
+invalid
+duplicate
+out of place
+duplicate
+out of place
+invalid color
+invalid gray level
+invalid
+duplicate
+out of place
+invalid
+out of place
+invalid
+duplicate
+jcclr_
+out of place
+invalid parameter count
+invalid
+out of memory
+duplicate
+out of place
+invalid data
+out of memory
+unrecognized equation type
+invalid unit
+out of memory
+invalid
+duplicate
+non-positive height
+bad height format
+non-positive width
+bad width format
+return
+out of memory
+no space in chunk cache
+invalid
+duplicate
+_jexfo
+bad keyword
+out of memory
+no space in chunk cache
+insufficient memory
+Insufficient memory to process text chunk
+escape
+Read failure in png_handle_zTXt
+unknown compression type
+insert
+truncated
+delete
+truncated
+rewind
+bad keyword
+out of memory
+no space in chunk cache
+unknown chunk exceeds memory limits
+bad compression info
+insufficient memory
+truncated
+option
+Extra compressed data
+no space in chunk cache
+Too much image data
+forcing save of an unhandled chunk; please call png_set_keep_unknown_chunks
+Saving unknown chunk:
+cHRM Green Y
+cHRM Blue X
+cHRM Blue Y
+cHRM White Y
+cHRM Red X
+cHRM Red Y
+cHRM Green X
+cHRM Blue X
+cHRM Blue Y
+cHRM Blue Z
+cHRM White X
+cHRM Red Z
+cHRM Green X
+cHRM Green Y
+cHRM Green Z
+Invalid iCCP compression method
+Compression buffer size cannot be reduced below 6
+Invalid palette size, hIST allocation skipped
+png_set_gAMA
+cHRM Red X
+cHRM Red Y
+Invalid format for pCAL parameter
+Invalid sCAL height ignored
+Invalid pCAL parameter count
+Invalid pCAL equation type
+Insufficient memory for hIST chunk data
+Compression buffer size limited to system maximum
+Insufficient memory for pCAL parameter
+Only compression windows <= 32k supported by PNG
+Insufficient memory for pCAL params
+Insufficient memory for pCAL units
+Invalid sCAL height ignored
+Insufficient memory for pCAL purpose
+Invalid sCAL width ignored
+Insufficient memory to process iCCP profile
+Memory allocation failed while processing sCAL
+Memory allocation failed while processing sCAL
+Invalid palette length
+Invalid sCAL width ignored
+invalid unknown chunk location
+Unknown row filter for method 0
+PNG_TRANSFORM_STRIP_FILLER: BEFORE+AFTER not supported
+text compression mode is out of range
+Compression buffer size cannot be changed because it is in use
+no rows for png_write_image to write
+too many text chunks
+Insufficient memory to process iCCP chunk
+png_set_keep_unknown_chunks: no chunk list
+png_set_keep_unknown_chunks: too many chunks
+info change after png_start_read_image or png_read_update_info
+Only compression windows >= 256 supported by PNG
+too many sPLT chunks
+Only compression method 8 is supported by PNG
+in use by IDAT
+originalImageHadAlpha
+tRNS chunk has out-of-range samples for bit_depth
+ using zstream
+Regular
+Ignoring invalid time value
+text chunk: out of memory
+too many unknown chunks
+Regular
+png_set_unknown_chunks now expects a valid location
+sPLT out of memory
+png_set_sPLT: invalid sPLT
+png_set_keep_unknown_chunks: invalid keep
+unknown chunk: out of memory
+png_set_filler: inappropriate color type
+png_set_filler is invalid for low bit depth gray output
+Regular
+keyword "@1": bad character '0x@2'
+delete
+keyword truncated
+Bold Italic
+alt + 
+profile matches sRGB but writing iCCP instead
+Writing zero-length unknown chunk
+Regular
+Can't set both read_data_fn and write_data_fn in the same structure
+png_set_filter: UP/AVG/PAETH cannot be added after start
+page up
+Wrote palette index exceeding num_palette
+deflateEnd failed (ignored)
+Invalid interlace type specified
+control
+Invalid filter type specified
+Invalid compression type specified
+compressed data too long
+numpad 
+Invalid sBIT depth specified
+Invalid sRGB rendering intent specified
+command
+Ignoring request to write a PLTE chunk in grayscale PNG
+0123456789abcdefABCDEF
+Invalid number of colors in palette
+delete
+Ignoring attempt to write tRNS chunk out-of-range for bit_depth
+Invalid number of transparent colors specified
+Invalid sBIT depth specified
+Invalid sBIT depth specified
+Ignoring attempt to write 16-bit bKGD chunk when bit_depth is 8
+Invalid background palette index
+ctrl + 
+Can't write tRNS with an alpha channel
+Ignoring attempt to write 16-bit tRNS chunk when bit_depth is 8
+Invalid number of histogram entries specified
+Ignoring attempt to write bKGD chunk out-of-range for bit_depth
+Unrecognized unit type for pHYs chunk
+Can't write sCAL (buffer too small)
+Unrecognized unit type for oFFs chunk
+Invalid time specified for tIME chunk
+0123456789ABCDEF
+ 0@P`p
+!1AQaq
+"2BRbr
+#3CScs
+$4DTdt
+%5EUeu
+&6FVfv
+'7GWgw
+(8HXhx
+)9IYiy
+*:JZjz
++;K[k{
+,<L\l|
+-=M]m}
+.>N^n~
+spacebar
+cursor right
+cursor left
+backspace
+Choose
+page down
+cursor down
+cursor up
+fast forward
+separator
+shift + 
+separator
+Cancel
+shortcut
+JUCE FileBrowser
+Cancel
+Hard Drive
+Go up to parent directory
+Documents
+CD/DVD drive
+Desktop
+Pictures
+Are you sure you want to overwrite it?
+Overwrite
+Folder Name
+File already exists
+There's already a file called: FLNM
+Create Folder
+Folder Name
+New Folder
+Please enter the name for the folder
+New Folder
+Couldn't create the folder!
+Choose a new file
+Choose a new directory
+(no recently selected files)
+change...
+ pixels
+Marker
+Add a folder...
+Change folder...
+parent
+Content sharing is not available on this platform!
+Content sharing not available on this platform!
+Content sharing is not available on this platform!
+Content sharing is not available on this platform!
+mdiDocumentDelete_
+mdiDocumentPos_
+mdiDocumentBkg_
+mdiDocumentDelete_
+mdiDocumentPos_
+mdiDocumentBkg_
+mdiDocumentDelete_
+mdiDocumentBkg_
+deleteByTabComp_
+bottom
+dismissButton
+titleLabel
+mdiDocumentBkg_
+click to browse for a different file
+maximise
+height
+minimise
+<svg version="1" viewBox="-10 -10 450 600" xmlns="http://www.w3.org/2000/svg">
+  <path d="M17 0h290l120 132v426c0 10-8 19-17 19H17c-9 0-17-9-17-19V19C0 8 8 0 17 0z" fill="#e5e5e5" stroke="#888888" stroke-width="7"/>
+  <path d="M427 132H324c-9 0-17-9-17-19V0l120 132z" fill="#ccc"/>
+</svg>
+BurgerMenuListBox
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="706" height="532">
+  <defs>
+    <linearGradient id="a">
+      <stop stop-color="#adf" offset="0"/>
+      <stop stop-color="#ecfaff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="b" x1=".6" x2="0" y1=".9" xlink:href="#a"/>
+    <linearGradient id="c" x1=".6" x2=".1" y1=".9" y2=".3" xlink:href="#a"/>
+  </defs>
+  <g class="currentLayer">
+    <path d="M112.1 104c-8.2 2.2-13.2 11.6-11.3 21l68.3 342.7c1.9 9.4 10.1 15.2 18.4 13l384.3-104.1c8.2-2.2 13.2-11.6 11.3-21l-48-266a15.8 15.8 0 0 0-18.4-12.8l-224.2 38s-20.3-41.3-28.3-39.3z" display="block" fill="url(#b)" stroke="#446c98" stroke-width="7"/>
+    <path d="M608.6 136.8L235.2 208a22.7 22.7 0 0 0-16 19l-40.8 241c1.7 8.4 9.6 14.5 17.8 12.3l380-104c8-2.2 10.7-10.2 12.3-18.4l38-210.1c.4-15.4-10.4-11.8-18-11.1z" display="block" fill="url(#c)" opacity=".8" stroke="#446c98" stroke-width="7"/>
+  </g>
+</svg>
+Expand
+maximise
+COLUMN
+minimise
+maximise
+minimise
+maximise
+minimise
+position
+Disabled
+Enabled
+(nothing selected)
+Default
+SECTION
+scrollPos
+Delete
+PROPERTYPANELSTATE
+SECTION
+PROPERTYPANELSTATE
+scrollPos
+(no choices)
+0123456789.,-
+sortForwards
+sortedCol
+TABLELAYOUT
+TABLELAYOUT
+visible
+sortForwards
+visible
+sortedCol
+Level 
+Select All
+CLOSED
+_toolbarItem_
+SELECTED
+CLOSED
+SELECTED
+scrollPos
+scrollPos
+scrollPos
+Cancel
+Cancel
+KEYMAPPINGS
+tooltip
+Cancel
+ThreadWithProgressWindow
+MAPPING
+commandId
+basedOnDefaults
+MAPPING
+basedOnDefaults
+KEYMAPPINGS
+UNMAPPING
+UNMAPPING
+description
+commandId
+Application
+description
+commandId
+https://juce.com
+        <svg width="120" height="60" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <rect id="a" x=".253" y=".253" width="122" height="62" rx="10"/>
+            <mask id="b" fill="#ffffff">
+              <use xlink:href="#a" width="100%" height="100%"/>
+            </mask>
+          </defs>
+          <rect width="120" height="60" rx="10" fill="#000000" opacity=".8" fill-rule="evenodd"/>
+          <path d="M57.404 39.48V25.688h-4V39.48c0 2.432-1.408 4.032-3.52 4.032-1.184 0-2.08-.48-3.36-2.176l-2.88 2.496c1.952 2.56 3.84 3.424 6.24 3.424 4.384 0 7.52-3.104 7.52-7.776zm21.104-1.184V25.688h-4v12.448c0 3.264-1.92 5.376-4.672 5.376s-4.672-2.112-4.672-5.376V25.688h-4v12.608c0 5.568 4.032 8.96 8.672 8.96 4.64 0 8.672-3.392 8.672-8.96zM99.324 44.6l-2.368-2.976c-2.016 1.408-3.328 1.888-4.896 1.888-3.872 0-7.008-3.136-7.008-7.168s3.136-7.168 7.008-7.168c1.632 0 2.816.416 4.928 1.888l2.336-2.912c-2.208-1.792-4.576-2.72-7.264-2.72-6.048 0-11.104 4.832-11.104 10.912 0 6.048 4.992 10.912 11.104 10.912 2.464 0 4.544-.608 7.264-2.656zm15.472 2.4v-3.616h-9.28V38.04h8.928v-3.616h-8.928v-5.12h9.28v-3.616h-13.28V47zM66.12 21l-2.28-6.88-2 5.05-2-5.05L57.56 21h.84l1.51-4.66 1.93 4.88 1.93-4.88L65.28 21zm5.097 0h-.8c-.13-.23-.17-.57-.17-.82-.35.45-1.04.9-1.82.9-.95 0-1.62-.52-1.62-1.35 0-.84.56-1.67 3.37-2.12 0-.57-.43-.95-1.17-.95-.64 0-1.07.23-1.45.52l-.48-.57c.53-.44 1.21-.71 1.99-.71.84 0 1.91.32 1.91 1.72v2.21c0 .36.06.82.24 1.17zm-1.04-2.27v-.44c-2.04.35-2.57.86-2.57 1.44 0 .47.51.67.98.67.72 0 1.59-.6 1.59-1.67zM77.063 21h-.8v-.82c-.32.5-.97.9-1.76.9-1.39 0-2.52-1.18-2.52-2.59s1.13-2.59 2.52-2.59c.79 0 1.44.4 1.76.9V14h.8zm-.8-2.51c0-1.02-.75-1.83-1.74-1.83s-1.74.81-1.74 1.83.75 1.83 1.74 1.83 1.74-.81 1.74-1.83zm6.877-.03c0 .18-.02.35-.02.35H78.9c.14.85.87 1.51 1.76 1.51.52 0 1.07-.23 1.46-.65l.57.52c-.52.59-1.26.89-2.03.89-1.43 0-2.59-1.17-2.59-2.59 0-1.43 1.15-2.59 2.58-2.59 1.47 0 2.49 1.16 2.49 2.56zm-.84-.36c-.18-.9-.78-1.44-1.65-1.44-.87 0-1.58.61-1.74 1.44zm11.263-2.12h-.84l-1.27 3.38-1.63-3.66-1.63 3.66-1.27-3.38h-.84l2.06 5.3 1.68-3.84 1.68 3.84zm1.837-1.52c0-.3-.25-.55-.55-.55-.3 0-.55.25-.55.55 0 .3.25.55.55.55.3 0 .55-.25.55-.55zM95.25 21v-5.02h-.8V21zm3.897-4.31v-.71h-1.34v-1.64h-.8v1.64h-1.01v.71h1.01V21h.8v-4.31zm5.026 4.31v-2.88c0-1.42-.93-2.22-2.08-2.22-.69 0-1.26.37-1.47.73V14h-.8v7h.8v-2.83c0-.95.61-1.51 1.39-1.51.78 0 1.36.56 1.36 1.51V21z" fill="#ffffff" mask="url(#b)" transform="translate(-1.253 -1.253)" fill-rule="evenodd"/>
+          <g transform="matrix(.13126 0 0 .13126 4.943 10.657)">
+            <ellipse cx="142.2" cy="142.2" rx="132.82" ry="132.74" fill="#ffffff"/>
+            <path d="M142.2 284.4C63.79 284.4 0 220.61 0 142.2S63.79 0 142.2 0s142.2 63.79 142.2 142.2-63.79 142.2-142.2 142.2zm0-265.48c-68.06 0-123.43 55.3-123.43 123.28S74.14 265.48 142.2 265.48s123.43-55.3 123.43-123.28S210.26 18.92 142.2 18.92z" fill="#8dc63f"/>
+          </g>
+          <path d="M25.695 32.623c1.117 2.803 2.33 5.597 3.838 8.386a1.912 1.912 0 002.78.657 15.201 15.201 0 003.888-3.999 1.91 1.91 0 00-1.05-2.874c-2.97-.903-5.728-2.011-8.419-3.178a.788.788 0 00-1.037 1.008z" fill="#f3bd48"/>
+          <path d="M27.2 30.264c2.825 1.225 5.716 2.376 8.845 3.282a1.922 1.922 0 002.424-1.508 15.226 15.226 0 00-.05-5.693 1.916 1.916 0 00-2.773-1.313c-2.814 1.486-5.622 2.683-8.424 3.79a.788.788 0 00-.023 1.442z" fill="#f09f53"/>
+          <path d="M24.31 32.999a.788.788 0 00-1.444-.023c-1.222 2.817-2.373 5.696-3.281 8.81a1.918 1.918 0 001.524 2.427 15.238 15.238 0 005.644-.122 1.918 1.918 0 001.313-2.768c-1.465-2.78-2.658-5.555-3.756-8.324z" fill="#ecdc13"/>
+          <path d="M23.042 25.773a.788.788 0 001.444.02c1.235-2.845 2.394-5.756 3.304-8.91a1.92 1.92 0 00-1.51-2.42 15.226 15.226 0 00-5.74.077 1.916 1.916 0 00-1.312 2.77c1.495 2.825 2.7 5.647 3.814 8.463z" fill="#a95a96"/>
+          <path d="M11.94 24.077c3.103.933 5.971 2.092 8.771 3.313a.788.788 0 001.04-1.007c-1.163-2.936-2.423-5.865-4.01-8.794a1.916 1.916 0 00-2.78-.657 15.204 15.204 0 00-4.098 4.283 1.916 1.916 0 001.077 2.862z" fill="#2b8ec1"/>
+          <path d="M21.54 32.446a.788.788 0 00-1.007-1.04c-2.863 1.137-5.72 2.363-8.569 3.908a1.912 1.912 0 00-.646 2.79 15.213 15.213 0 004.141 3.938 1.912 1.912 0 002.858-1.064c.912-3.02 2.038-5.808 3.224-8.532z" fill="#add14c"/>
+          <path d="M25.77 26.424a.788.788 0 001.008 1.038c2.877-1.142 5.748-2.381 8.613-3.938a1.914 1.914 0 00.66-2.76 15.202 15.202 0 00-4.133-4.048 1.912 1.912 0 00-2.877 1.05c-.923 3.058-2.067 5.892-3.271 8.658z" fill="#e74253"/>
+          <path d="M20.014 28.64c-2.84-1.23-5.744-2.388-8.886-3.296A1.918 1.918 0 008.7 26.87a15.24 15.24 0 00.159 5.73 1.911 1.911 0 002.756 1.257c2.796-1.477 5.588-2.669 8.373-3.771a.788.788 0 00.025-1.447z" fill="#01b699"/>
+        </svg>
+Quits the application
+disableAsyncLayerBackedView
+<empty>
+GetTouchInputInfo
+Cancel
+RegisterTouchWindow
+GetPointerTouchInfo
+GetPointerType
+GetGestureInfo
+CloseTouchInputHandle
+GetDpiForMonitor
+Cancel
+SHCore.dll
+SetProcessDPIAware
+GetPointerPenInfo
+GetWindowDpiAwarenessContext
+GetProcessDpiAwareness
+GetDpiForWindow
+SetProcessDpiAwareness
+SetProcessDpiAwarenessContext
+GetAwarenessFromDpiAwarenessContext
+GetThreadDpiAwarenessContext
+SetThreadDpiAwarenessContext
+GetDpiForWindow
+EnableNonClientDpiScaling
+invalid string position
+string too long
+bad array new length
+Unknown exception
+vector too long
+generic
+WorkerThreadT2
+IPC ping
+deque<T> too long
+\\.\pipe\
+JUCE IPC
+iostream
+ios_base::badbit set
+ios_base::failbit set
+ios_base::eofbit set
+iostream stream error
+bad cast
+bad locale name
+vector<bool> too long
+void __cdecl ACCUserPSApplication::initialise(const class juce::String &)
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\Main.cpp
+ACCUserPSApplication::initialise
+() pid: 
+Start by '--close' command. Close.
+() the process exit thread not ready, program close
+void __cdecl ACCUserPSApplication::anotherInstanceStarted(const class juce::String &)
+ACCUserPSApplication::anotherInstanceStarted
+__cdecl ACCUserPSApplication::MainWindow::MainWindow(class juce::String)
+ACCUserPSApplication::MainWindow::MainWindow
+() failed to create MainWindow. Exit.
+auto __cdecl ACCUserPSApplication::StartUserPSExitEventThread::<lambda_1>::()::<lambda_1>::operator ()(class juce::Thread *) const
+The exit event signaled, process need to close...
+auto __cdecl ACCUserPSApplication::StartUserPSExitEventThread::<lambda_1>::operator ()(void) const
+StartUserPSExitEventThread() invalid active session id : 
+bool __cdecl ACCUserPSApplication::StartUserPSExitEventThread::<lambda_1>::operator ()(void) const
+StartUserPSExitEventThread() create event failed: 
+This function cannot be called on a default constructed task
+Fail to schedule the chore!
+future already retrieved
+broken promise
+no state
+promise already satisfied
+future
+D:\works\acer\_QuickAccess\qa.git\src\ACCUserPS\Source\MainComponent.cpp
+auto __cdecl MainComponent::InitialAgentServiceIPC::<lambda_2>::operator ()(class juce::Thread *) const
+(IPC) Connected
+FileSearchThreadJob::runJob
+enum juce::ThreadPoolJob::JobStatus __cdecl FileSearchThreadJob::runJob(void)
+class std::vector<struct i3d::ipc::FileInfo,class std::allocator<struct i3d::ipc::FileInfo> > __cdecl FileSearchThreadJob::FindQualifiedFiles(const class juce::File &)
+() search job aborted before start
+() search job aborted, dir: 
+FileSearchThreadJob::FindQualifiedFiles
+Search result thread aborted by host
+auto __cdecl MainComponent::StartSearchResultThread::<lambda_1>::operator ()(class juce::Thread *) const
+ &   ! 
+bad allocation
+map/set too long
+Unrecognised arguments
+undefined
+[Array]
+Object 0x
+: error: 
+Expected '{' or '['
+Unexpected EOF in string constant
+Syntax error in unicode escape sequence
+Syntax error
+Unexpected EOF in object declaration
+Syntax error in number
+Invalid property name
+Expected a property name in double-quotes
+Expected ',' or '}'
+Expected ':'
+Expected ',' or ']'
+Unexpected EOF in array declaration
+Location
+https://
+http://
+ftp://
+iphlpapi.dll
+https:
+GetAdaptersAddresses
+Local\
+Global\
+juceAppLock_
+JUCE Timer
+BKbhTb~XBK!;
+qfk/kU
+originalImageHadAlpha
+GIF89a
+GIF87a
+Bold Italic
+Italic
+Oblique
+Regular
+acegmnopqrsuvwxy
+BDEFPRTZOQ
+<Sans-Serif>
+BDELZOC
+<Monospaced>
+<Serif>
+<Regular>
+d2d1.dll
+DWrite.dll
+D2D1CreateFactory
+DWriteCreateFactory
+Bitstream Vera Sans
+Bitstream Vera Sans Mono
+Bitstream Vera Serif
+Times New Roman
+Verdana
+Tahoma
+Lucida Console
+unordered_map/set too long
+invalid hash bucket count
+3333UUUU
+DDDDUUUU
+00003333
+0123456789ABCDEF
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+123456789
+bad_weak_ptr
+0123456789abcdef
+JUCE Application
+linearGradient
+transform
+radialGradient
+height
+preserveAspectRatio
+viewBox
+MmLlHhVvCcSsQqTtAaZz
+display
+switch
+circle
+ellipse
+polygon
+polyline
+fill-rule
+evenodd
+xlink:href
+points
+fill-opacity
+opacity
+stroke
+stroke-dasharray
+stroke-opacity
+clipPath
+clip-path
+stop-color
+stop-opacity
+gradientUnits
+offset
+userSpaceOnUse
+gradientTransform
+stroke-linecap
+square
+stroke-width
+stroke-linejoin
+text-anchor
+middle
+font-style
+font-family
+font-weight
+italic
+font-size
+base64
+image/jpeg
+image/png
+matrix
+inherit
+translate
+rotate
+New Folder
+Cancel
+_iconCacheSalt
+%d %b '%y %H:%M
+shortcut: '
+Checked
+Disabled
+Enabled
+Velocity-sensitive mode
+Use left-right dragging
+Use circular dragging
+Use left-right/up-down dragging
+Use up-down dragging
+Rotary mode
+_tableColumnId
+UIAutomationCore.dll
+UiaHostProviderFromHwnd
+UiaReturnRawElementProvider
+UiaRaiseAutomationEvent
+UiaRaiseAutomationPropertyChangedEvent
+UiaDisconnectProvider
+UiaClientsAreListening
+UiaDisconnectAllProviders
+uxtheme.dll
+RoGetActivationFactory
+RoInitialize
+WindowsDeleteString
+WindowsCreateString
+Software Renderer
+ChangeWindowMessageFilterEx
+TaskDialogIndirect
+Comctl32.dll
+SHCore.dll
+User32.dll
+GetDpiForMonitor
+DragAndDrop
+GetSystemMetricsForDpi
+Native Win32 FileChooser
+SetThreadDpiAwarenessContext
+GetThreadDpiAwarenessContext
+GetWindowDpiAwarenessContext
+GetAwarenessFromDpiAwarenessContext
+AZdQAl
+C33cAl
+Bl43cA3
+33cAl33cA
+GIF89a
+GIF89a
+L>>yX>
+%?ff&?`
+0?333?
+MbP?UUU?
+Y?fff?.
+h?{	m?
+p?33s?
+333333
+?ffffff
+?333333
+ @33#@
+$@u='@
+::{031E4825-7B94
+@-4DC3-B131-E946B
+_hypotf
+2]fQ	?5!
+Q>.3Z<
+P|> ,o
+Cy2@K>
+`>n>w%
+z>@G'h
+	JR>8o
+M'y>0y
+GrJoq>@
+?8UUUUU
+UUUUUU
+?UUUUUU
+?UUUUUU
+?UUUUUU
+?UUUUUU
+?UUUUUU
+?UUUUUU
+?UUUUUU
+?UUUUUU
+?UUUUUU
+AUUUUUU
+UUUUUU
+UUUUUU
+@^8U)zj
+8Csinf
+UUUUUU
+UUUUUU
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCC
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$voltmd
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$r
+.data$rs
+.pdata
+_RDATA
+.rsrc$01
+.rsrc$02
+"J F(J&6,p*
+@280B6
+@&H$`*
+:V,p>P<B@
+:zDFF>H9
+LB:TNZ:U
+D F"4 
+D F"4 
+JDN8L2$
+lPnrrJx<v
+"N4L4$
+> @,:~
+H,J8D~
+R,T8Np
+&`(2 ,((
+8@pR`"
+$$ &&(J
+  r".$
+"r$H&U
+LocalFree
+InitializeCriticalSectionEx
+GetCurrentProcess
+CloseHandle
+CreateDirectoryW
+CreateEventW
+CreateNamedPipeW
+GetLastError
+CreateFileW
+ConnectNamedPipe
+DisconnectNamedPipe
+ReadFile
+GetOverlappedResult
+WriteFile
+WaitForMultipleObjects
+CancelIo
+SetEvent
+GetVolumeInformationW
+GetLogicalDrives
+FindFirstFileW
+FindNextFileW
+lstrlenW
+ExpandEnvironmentStringsW
+RemoveDirectoryW
+FindClose
+WaitForSingleObject
+GetFileAttributesW
+SetFileAttributesW
+GetPrivateProfileStringW
+FileTimeToSystemTime
+GetDiskFreeSpaceExW
+DeleteFileW
+GetNativeSystemInfo
+CreateThread
+SystemTimeToFileTime
+lstrcpyW
+GetSystemTime
+lstrcmpiW
+GetDriveTypeW
+GetCurrentProcessId
+WTSGetActiveConsoleSessionId
+SetThreadAffinityMask
+TryEnterCriticalSection
+EnterCriticalSection
+GetModuleHandleExW
+TerminateProcess
+GetModuleFileNameW
+SetThreadPriority
+LeaveCriticalSection
+InitializeCriticalSection
+SetFilePointer
+SetEndOfFile
+GetTempPathW
+CreateMutexW
+GetLocaleInfoW
+GetCurrentThreadId
+ReleaseMutex
+GetSystemDirectoryW
+UnmapViewOfFile
+GetModuleHandleA
+GetLogicalDriveStringsW
+FormatMessageW
+GetFileAttributesExW
+OutputDebugStringW
+GetLogicalProcessorInformation
+GetCurrentThread
+TerminateThread
+QueryPerformanceFrequency
+LoadLibraryW
+GetCurrentDirectoryW
+GetProcAddress
+ReplaceFileW
+DeleteCriticalSection
+ExitProcess
+GetModuleHandleW
+FreeLibrary
+QueryPerformanceCounter
+MoveFileW
+IsDebuggerPresent
+SetUnhandledExceptionFilter
+FlushFileBuffers
+GetCommandLineW
+AttachConsole
+CompareStringOrdinal
+GlobalSize
+LoadLibraryA
+GlobalAlloc
+GlobalFree
+GlobalLock
+GlobalUnlock
+KERNEL32.dll
+wsprintfW
+DestroyIcon
+AttachThreadInput
+GetWindowThreadProcessId
+GetWindowTextW
+TranslateMessage
+SetFocus
+EnumWindows
+PeekMessageW
+DispatchMessageW
+RegisterClassExW
+GetWindowLongPtrW
+UnregisterClassW
+CreateWindowExW
+SetWindowLongPtrW
+DestroyWindow
+GetFocus
+SendMessageTimeoutW
+PostMessageW
+DefWindowProcW
+GetMessageW
+ReleaseDC
+EndPaint
+BeginPaint
+GetCursorPos
+SetCursorPos
+GetAncestor
+InvalidateRect
+ReleaseCapture
+GetParent
+SystemParametersInfoW
+EnableMenuItem
+GetDesktopWindow
+ShowCaret
+DrawIconEx
+UpdateLayeredWindow
+GetClientRect
+SetWindowLongW
+SetCursor
+ToUnicode
+SetClipboardData
+SetWindowsHookExW
+SetCapture
+DestroyCaret
+LoadCursorW
+FindWindowW
+LoadIconW
+GetClipboardData
+BringWindowToTop
+SetLayeredWindowAttributes
+GetMessageTime
+UnhookWindowsHookEx
+GetForegroundWindow
+TrackMouseEvent
+MapWindowPoints
+CreateCaret
+IsChild
+EmptyClipboard
+CloseClipboard
+CreateIconIndirect
+GetMonitorInfoW
+GetWindowInfo
+RedrawWindow
+GetCapture
+OpenClipboard
+GetAsyncKeyState
+IsWindow
+ShowWindow
+GetActiveWindow
+SetCaretPos
+GetKeyboardState
+DestroyCursor
+GetWindowPlacement
+WindowFromPoint
+MessageBeep
+SetWindowTextW
+EndDialog
+CallNextHookEx
+SendMessageW
+GetIconInfo
+EnumDisplayMonitors
+EnumChildWindows
+MonitorFromWindow
+MessageBoxW
+SetWindowPos
+IsWindowVisible
+GetWindowRect
+FindWindowExW
+MapVirtualKeyW
+GetMessagePos
+GetUpdateRgn
+GetMessageExtraInfo
+GetSystemMenu
+GetWindowLongW
+USER32.dll
+GetOutlineTextMetricsW
+CreateFontIndirectW
+SetMapMode
+RemoveFontMemResourceEx
+DeleteObject
+GetGlyphOutlineW
+GetGlyphIndicesW
+SetMapperFlags
+DeleteDC
+GetTextMetricsW
+GetDeviceCaps
+EnumFontFamiliesExW
+CreateCompatibleDC
+GetKerningPairsW
+SelectObject
+CombineRgn
+CreateBitmap
+RestoreDC
+ExcludeClipRect
+GetObjectW
+GetRegionData
+CreateRectRgn
+CreateRectRgnIndirect
+StretchDIBits
+CreateDIBSection
+SaveDC
+GDI32.dll
+GetSaveFileNameW
+GetOpenFileNameW
+COMDLG32.dll
+InitializeSecurityDescriptor
+SetSecurityDescriptorDacl
+RegQueryValueExW
+RegOpenKeyExW
+RegEnumKeyExW
+RegCloseKey
+ADVAPI32.dll
+SHGetFolderPathW
+SHGetKnownFolderPath
+SHQueryRecycleBinW
+SHEmptyRecycleBinW
+ExtractAssociatedIconExW
+ExtractIconExW
+SHGetFileInfoW
+ShellExecuteW
+SHGetSpecialFolderPathW
+DragQueryFileW
+SHCreateShellItem
+SHGetMalloc
+ExtractAssociatedIconW
+SHBrowseForFolderW
+SHParseDisplayName
+SHGetPathFromIDListW
+SHELL32.dll
+CoCreateInstance
+CoTaskMemFree
+OleUninitialize
+OleInitialize
+CoTaskMemAlloc
+CoUninitialize
+DoDragDrop
+RegisterDragDrop
+CoInitializeEx
+RevokeDragDrop
+ole32.dll
+OLEAUT32.dll
+GetProfilesDirectoryW
+USERENV.dll
+HttpOpenRequestW
+InternetWriteFile
+FtpOpenFileW
+InternetOpenW
+HttpQueryInfoW
+InternetSetFilePointer
+InternetCrackUrlW
+HttpEndRequestW
+HttpSendRequestExW
+InternetCloseHandle
+InternetConnectW
+InternetSetOptionW
+InternetReadFile
+WININET.dll
+freeaddrinfo
+getaddrinfo
+WS2_32.dll
+PathFileExistsW
+PathStripToRootW
+SHLWAPI.dll
+timeKillEvent
+timeGetTime
+timeBeginPeriod
+WINMM.dll
+ImmNotifyIME
+ImmSetCandidateWindow
+ImmGetCompositionStringW
+ImmReleaseContext
+ImmGetContext
+IMM32.dll
+GetEnvironmentVariableA
+GetSystemTimeAsFileTime
+MultiByteToWideChar
+FindFirstFileExW
+SetFilePointerEx
+WideCharToMultiByte
+WaitForSingleObjectEx
+InitializeSRWLock
+ReleaseSRWLockExclusive
+AcquireSRWLockExclusive
+GetStringTypeW
+FreeLibraryWhenCallbackReturns
+CreateThreadpoolWork
+SubmitThreadpoolWork
+CloseThreadpoolWork
+InitializeConditionVariable
+WakeConditionVariable
+WakeAllConditionVariable
+SleepConditionVariableCS
+SleepConditionVariableSRW
+IsProcessorFeaturePresent
+RtlPcToFileHeader
+RaiseException
+InitOnceBeginInitialize
+InitOnceComplete
+FlsAlloc
+FlsGetValue
+FlsSetValue
+FlsFree
+EncodePointer
+DecodePointer
+LCMapStringEx
+GetLocaleInfoEx
+CompareStringEx
+GetCPInfo
+InitializeCriticalSectionAndSpinCount
+ResetEvent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+GetStartupInfoW
+InitializeSListHead
+RtlUnwindEx
+SetLastError
+RtlUnwind
+TlsAlloc
+TlsGetValue
+TlsSetValue
+TlsFree
+LoadLibraryExW
+ExitThread
+FreeLibraryAndExitThread
+GetTimeZoneInformation
+GetStdHandle
+HeapFree
+HeapAlloc
+GetDateFormatW
+GetTimeFormatW
+CompareStringW
+LCMapStringW
+IsValidLocale
+GetUserDefaultLCID
+EnumSystemLocalesW
+GetConsoleOutputCP
+GetConsoleMode
+GetFileSizeEx
+GetFileType
+HeapReAlloc
+IsValidCodePage
+GetACP
+GetOEMCP
+ReadConsoleW
+GetCommandLineA
+GetEnvironmentStringsW
+FreeEnvironmentStringsW
+SetEnvironmentVariableW
+GetProcessHeap
+SetStdHandle
+HeapSize
+WriteConsoleW
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+.?AV<lambda_b60a4b5fc0c532cb53d30e17aa7625f9>@@
+.?AV<lambda_be4a903e2dbd54756678c6145605587b>@@
+.?AV<lambda_29dcbb335b3e371deb68e0021fca8788>@@
+.?AV<lambda_668be7ac02c62ba34b1fac75d913b8ee>@@
+.?AV<lambda_c549ce1939ca5aad3c8cd2be17886809>@@
+.P6AXPEBD_K@Z
+.?AVlogic_error@std@@
+.?AVlength_error@std@@
+.?AVout_of_range@std@@
+.?AVbad_function_call@std@@
+.?AVbad_exception@std@@
+.?AVfuture_error@std@@
+.?AV__non_rtti_object@std@@
+.?AVbad_typeid@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AV<lambda_1>@?4??CreateDirectoryWithAdminProtection@i3d@@YA_NAEBVpath@filesystem@std@@@Z@
+.?AV<lambda_2>@?7??CreateDirectoryWithAdminProtection@i3d@@YA_NAEBVpath@filesystem@std@@@Z@
+.?AV<lambda_1>@?4??CreateDirectoryWithAdminWriteAndNormalRead@i3d@@YA_NAEBVpath@filesystem@std@@@Z@
+.?AV<lambda_2>@?7??CreateDirectoryWithAdminWriteAndNormalRead@i3d@@YA_NAEBVpath@filesystem@std@@@Z@
+.?AV<lambda_1>@?7??GetKnownFolders@i3d@@YA?AV?$vector@UKnownFolderInfo@i3d@@V?$allocator@UKnownFolderInfo@i3d@@@std@@@std@@AEBV?$vector@U_GUID@@V?$allocator@U_GUID@@@std@@@4@@Z@
+.?AVsystem_error@std@@
+.?AV_System_error@std@@
+.?AVruntime_error@std@@
+.?AV<lambda_1>@?1??InitiaReceivedThread@IPCConnectV2@i3d@@AEAAXXZ@
+.?AV<lambda_1>@?1??OnDisconnectedEvent@IPCManagerBase@i3d@@QEAAXV?$function@$$A6AXXZ@std@@@Z@
+.?AV<lambda_1>@?1??InitialReceived@IPCManagerBase@i3d@@AEAAXXZ@
+.?AV<lambda_1>@?1??InitialSendThread@IPCManagerBase@i3d@@AEAAXXZ@
+.?AV<lambda_1>@?1??OnHeartbeatFailed@IPCManagerBase@i3d@@AEAAXXZ@
+.?AVfailure@ios_base@std@@
+.?AVbad_cast@std@@
+.?AV<lambda_1>@?1??QuitNow@ACCUserPSApplication@@QEAAXXZ@
+.?AV<lambda_1>@?1???R0?1??StartUserPSExitEventThread@ACCUserPSApplication@@AEAA_NXZ@QEBA@XZ@
+.?AV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@std@@@?$_Task_async_state@X@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@2@@Z@
+.?AV?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@std@@
+.?AV<lambda_1>@?7???R0?4??_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QEAAXPEAU_ContinuationTaskHandleBase@34@@Z@QEBA@XZ@
+.?AV<lambda_1>@?1??_MakeVoidToUnitFunc@details@Concurrency@@YA?AV?$function@$$A6AEXZ@std@@AEBV?$function@$$A6AXXZ@5@@Z@
+.?AV<lambda_1>@?4??_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QEAAXPEAU_ContinuationTaskHandleBase@34@@Z@
+.?AV<lambda_2>@?1??InitialAgentServiceIPC@MainComponent@@AEAAXXZ@
+.?AV<lambda_1>@?1??InitialAgentServiceIPC@MainComponent@@AEAAXXZ@
+.?AV<lambda_1>@?1??InitialQuickCleanupCleanThread@MainComponent@@AEAAXXZ@
+.?AV<lambda_1>@?1??StartSearchResultThread@MainComponent@@AEAAXXZ@
+.?AV<lambda_1>@?1??OnCleanDiskDeleteIPC@MainComponent@@AEAAXAEBUCleanDiskPackage@ipc@i3d@@@Z@
+.?AV<lambda_1>@?CC@??_CancelAndRunContinuations@?$_Task_impl@E@details@Concurrency@@UEAA_N_N00AEBV?$shared_ptr@U_ExceptionHolder@details@Concurrency@@@std@@@Z@
+.?AV_Interruption_exception@details@Concurrency@@
+.?AVinvalid_operation@Concurrency@@
+.?AVtask_canceled@Concurrency@@
+.?AVDynamicObject@juce@@
+.?AV<lambda_1>@?1??addHelpCommand@ConsoleApplication@juce@@QEAAXVString@3@0_N@Z@
+.?AV<lambda_1>@?1??findAndRunCommand@ConsoleApplication@juce@@QEBAHAEBUArgumentList@3@_N@Z@
+.?AV<lambda_1>@?3??createInputStream@URL@juce@@QEBA?AV?$unique_ptr@VInputStream@juce@@U?$default_delete@VInputStream@juce@@@std@@@std@@_NP6A_NPEAXHH@Z1VString@3@HPEAVStringPairArray@3@PEAHH3@Z@
+.?AUThreadPoolThread@ThreadPool@juce@@
+.?AUErrorException@JSONParser@juce@@
+.?AUConsoleAppFailureCode@juce@@
+.?AURefCountedArray@VariantType@var@juce@@
+.?AVEvaluationError@Helpers@Expression@juce@@
+.?AV<lambda_1>@?1??addVersionCommand@ConsoleApplication@juce@@QEAAXVString@3@0@Z@
+.?AUSetPropertyAction@SharedObject@ValueTree@juce@@
+.?AVUndoableAction@juce@@
+.?AVWindowsDirectWriteTypeface@juce@@
+.?AVTypeface@juce@@
+.?AVItemComponent@TreeView@juce@@
+.?AV<lambda_1>@?O@??checkForExternalDrag@DragImageComponent@DragAndDropContainer@juce@@AEAAXAEAVSourceDetails@DragAndDropTarget@4@V?$Point@H@4@@Z@
+.?AV<lambda_4>@?1???0FileBrowserComponent@juce@@QEAA@HAEBVFile@2@PEBVFileFilter@2@PEAVFilePreviewComponent@2@@Z@
+.?AVTooltipClient@juce@@
+.?AV<lambda_4>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@CA?AVAccessibilityActions@5@AEAV345@@Z@
+.?AV<lambda_1>@?1??getAccessibilityActions@ComponentHandler@?1??createAccessibilityHandler@AccessibleItemComponent@MenuBarComponent@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@CA?AVAccessibilityActions@6@AEAV456@@Z@
+.?AU?$default_delete@VNonNative@FileChooser@juce@@@std@@
+.?AVDirectoryContentsDisplayComponent@juce@@
+.?AVItemDragAndDropOverlayComponent@ToolbarItemComponent@juce@@
+.?AV<lambda_1>@?1??getAccessibilityActions@ButtonAccessibilityHandler@juce@@CA?AVAccessibilityActions@3@AEAVButton@3@@Z@
+.?AV<lambda_2>@?1??getAccessibilityActions@ComponentHandler@?1??createAccessibilityHandler@AccessibleItemComponent@MenuBarComponent@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@CA?AVAccessibilityActions@6@AEAV456@@Z@
+.?AV<lambda_2>@?1???$getListRowAccessibilityActions@VRowComponent@ListBox@juce@@@juce@@YA?AVAccessibilityActions@1@AEAVRowComponent@ListBox@1@@Z@
+.?AV<lambda_1>@?M@??exitModalState@Component@juce@@QEAAXH@Z@
+.?AV<lambda_1>@?1???0FilenameComponent@juce@@QEAA@AEBVString@2@AEBVFile@2@_N22000@Z@
+.?AV<lambda_5>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@
+.?AVMenuBarComponent@juce@@
+.?AV<lambda_2>@?1??run@Win32NativeFileChooser@juce@@EEAAXXZ@
+.?AVMultiDocumentPanelWindow@juce@@
+.?AV<lambda_1>@?1???0TextPropertyComponent@juce@@QEAA@AEBVValueTreePropertyWithDefault@2@AEBVString@2@H_N2@Z@
+.?AV<lambda_1>@?1??closeLastDocumentRecursive@MultiDocumentPanel@juce@@CAXV?$SafePointer@VMultiDocumentPanel@juce@@@Component@3@_NV?$function@$$A6AX_N@Z@std@@@Z@
+.?AVDragAndDropContainer@juce@@
+.?AVFileTreeComponent@juce@@
+.?AVPositioner@Component@juce@@
+.?AVComponentPeer@juce@@
+.?AV<lambda_1>@?1???0HWNDComponentPeer@juce@@QEAA@AEAVComponent@2@HPEAUHWND__@@_N@Z@
+.?AVTextButton@juce@@
+.?AV<lambda_1>@?1??createAccessibilityHandler@MenuWindow@HelperClasses@PopupMenu@juce@@UEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AV<lambda_1>@?1??getAccessibilityActions@ComboBoxAccessibilityHandler@juce@@CA?AVAccessibilityActions@3@AEAVComboBox@3@@Z@
+.?AVPropertyPanel@juce@@
+.?AVToolbarItemComponent@juce@@
+.?AV<lambda_1>@?N@??closeDocumentAsync@MultiDocumentPanel@juce@@QEAAXPEAVComponent@3@_NV?$function@$$A6AX_N@Z@std@@@Z@
+.?AU?$default_delete@VWin32NativeFileChooser@juce@@@std@@
+.?AV<lambda_1>@?5??showExtraItemsMenu@TabbedButtonBar@juce@@AEAAXXZ@
+.?AVFilePreviewComponent@juce@@
+.?AV<lambda_3>@?1???$getListRowAccessibilityActions@VRowComp@TableListBox@juce@@@juce@@YA?AVAccessibilityActions@1@AEAVRowComp@TableListBox@1@@Z@
+.?AV<lambda_2>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@
+.?AV<lambda_1>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@
+.?AV<lambda_1>@?1???0SliderPropertyComponent@juce@@IEAA@AEBVString@2@NNNN_N@Z@
+.?AV<lambda_3>@?4??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@CA?AVAccessibilityActions@6@AEAV23456@AEAU3456@@Z@
+.?AV<lambda_1>@?1??postCommandMessage@Component@juce@@QEAAXH@Z@
+.?AV<lambda_1>@?1??lookAndFeelChanged@ComboBox@juce@@UEAAXXZ@
+.?AVDragAndDropTarget@juce@@
+.?AV<lambda_1>@?1???0FileBrowserComponent@juce@@QEAA@HAEBVFile@2@PEBVFileFilter@2@PEAVFilePreviewComponent@2@@Z@
+.?AV<lambda_2>@?1???0FileBrowserComponent@juce@@QEAA@HAEBVFile@2@PEBVFileFilter@2@PEAVFilePreviewComponent@2@@Z@
+.?AV<lambda_1>@?O@??updateTabPositions@TabbedButtonBar@juce@@AEAAX_N@Z@
+.?AVChoicePropertyComponent@juce@@
+.?AVToolbarItemPalette@juce@@
+.?AV<lambda_1>@?1??addButton@AlertWindow@juce@@QEAAXAEBVString@3@HAEBVKeyPress@3@1@Z@
+.?AV<lambda_2>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@CA?AVAccessibilityActions@5@AEAV345@@Z@
+.?AV<lambda_2>@?1??getAccessibilityActions@ComboBoxAccessibilityHandler@juce@@CA?AVAccessibilityActions@3@AEAVComboBox@3@@Z@
+.?AVComboBox@juce@@
+.?AV<lambda_4>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@
+.?AV<lambda_3>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@CA?AVAccessibilityActions@5@AEAV345@@Z@
+.?AV<lambda_1>@?4??lookAndFeelChanged@FileBrowserComponent@juce@@UEAAXXZ@
+.?AV<lambda_3>@?1???0FileChooserDialogBox@juce@@QEAA@AEBVString@2@0AEAVFileBrowserComponent@2@_NVColour@2@PEAVComponent@2@@Z@
+.?AVTextDragAndDropTarget@juce@@
+.?AVDrawable@juce@@
+.?AV<lambda_2>@?3??getAccessibilityActions@ButtonAccessibilityHandler@juce@@CA?AVAccessibilityActions@3@AEAVButton@3@@Z@
+.?AV<lambda_1>@?1??lookAndFeelChanged@FilenameComponent@juce@@UEAAXXZ@
+.?AVFileListTreeItem@juce@@
+.?AV<lambda_1>@?7??handleDragDrop@ComponentPeer@juce@@QEAA_NAEBUDragInfo@23@@Z@
+.?AVLookAndFeel@juce@@
+.?AVRowComp@TableListBox@juce@@
+.?AV<lambda_2>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@CA?AVAccessibilityActions@6@AEAV23456@AEAU3456@@Z@
+.?AV<lambda_1>@?1??showChooser@FilenameComponent@juce@@AEAAXXZ@
+.?AV<lambda_1>@?P@???0MultiChoicePropertyComponent@juce@@AEAA@AEBVString@2@AEBVStringArray@2@AEBV?$Array@Vvar@juce@@VDummyCriticalSection@2@$0A@@2@@Z@
+.?AV<lambda_1>@?1??returnKeyPressed@FileSearchPathListComponent@juce@@UEAAXH@Z@
+.?AVButton@juce@@
+.?AUCustomMenuBarItemHolder@juce@@
+.?AV<lambda_1>@?4??destroyDialog@Win32NativeFileChooser@juce@@AEAAXPEAUHWND__@@@Z@
+.?AV<lambda_1>@?7??showMenu@MenuBarComponent@juce@@QEAAXH@Z@
+.?AVFileDragAndDropTarget@juce@@
+.?AVHWNDComponentPeer@juce@@
+.?AV<lambda_4>@?7??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@CA?AVAccessibilityActions@6@AEAV23456@AEAU3456@@Z@
+.?AV<lambda_1>@?1???0ButtonPropertyComponent@juce@@QEAA@AEBVString@2@_N@Z@
+.?AV<lambda_1>@?1???R<lambda_2>@?N@??lookAndFeelChanged@Pimpl@Slider@juce@@QEAAXAEAVLookAndFeel@5@@Z@QEBA@AEAVButton@5@_N@Z@
+.?AVTextEditor@juce@@
+.?AVToolbar@juce@@
+.?AV<lambda_3>@?1???$getListRowAccessibilityActions@VRowComponent@ListBox@juce@@@juce@@YA?AVAccessibilityActions@1@AEAVRowComponent@ListBox@1@@Z@
+.?AUMenuWindow@HelperClasses@PopupMenu@juce@@
+.?AV<lambda_2>@?1???0FileChooserDialogBox@juce@@QEAA@AEBVString@2@0AEAVFileBrowserComponent@2@_NVColour@2@PEAVComponent@2@@Z@
+.?AVDialogWindow@juce@@
+.?AV<lambda_1>@?9??initDialog@Win32NativeFileChooser@juce@@AEAAXPEAUHWND__@@@Z@
+.?AVTextInputTarget@juce@@
+.?AUItemComponent@HelperClasses@PopupMenu@juce@@
+.?AV<lambda_1>@?4??lookAndFeelChanged@Pimpl@Slider@juce@@QEAAXAEAVLookAndFeel@4@@Z@
+.?AVSpacer@Toolbar@juce@@
+.?AVAlertWindow@juce@@
+.?AV<lambda_3>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@
+.?AVCustomComponent@PopupMenu@juce@@
+.?AV<lambda_2>@?BB@??checkForExternalDrag@DragImageComponent@DragAndDropContainer@juce@@AEAAXAEAVSourceDetails@DragAndDropTarget@4@V?$Point@H@4@@Z@
+.?AV<lambda_1>@?N@??selectionChanged@Win32NativeFileChooser@juce@@AEAAXPEAUHWND__@@@Z@
+.?AVTreeViewItem@juce@@
+.?AV<lambda_3>@?1???0FileBrowserComponent@juce@@QEAA@HAEBVFile@2@PEBVFileFilter@2@PEAVFilePreviewComponent@2@@Z@
+.?AV<lambda_2>@?1???0ChoicePropertyComponent@juce@@QEAA@AEBVValueTreePropertyWithDefault@2@AEBVString@2@@Z@
+.?AV<lambda_1>@?1???0SidePanel@juce@@QEAA@VStringRef@2@H_NPEAVComponent@2@1@Z@
+.?AV<lambda_2>@?1???$getListRowAccessibilityActions@VRowComp@TableListBox@juce@@@juce@@YA?AVAccessibilityActions@1@AEAVRowComp@TableListBox@1@@Z@
+.?AV<lambda_1>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@CA?AVAccessibilityActions@6@AEAV23456@AEAU3456@@Z@
+.?AV<lambda_2>@?1???0ChoicePropertyComponent@juce@@QEAA@AEBVValueTreePropertyWithDefault@2@AEBVString@2@AEBVStringArray@2@AEBV?$Array@Vvar@juce@@VDummyCriticalSection@2@$0A@@2@@Z@
+.?AVbad_weak_ptr@std@@
+.?AV<lambda_1>@?1???0BooleanPropertyComponent@juce@@IEAA@AEBVString@2@00@Z@
+.?AV<lambda_1>@?M@??mouseDown@TextEditor@juce@@UEAAXAEBVMouseEvent@3@@Z@
+.?AV<lambda_1>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@CA?AVAccessibilityActions@5@AEAV345@@Z@
+.?AVConcertinaPanel@juce@@
+.?AVLookAndFeel_V4@juce@@
+.?AV<lambda_1>@?1???$getListRowAccessibilityActions@VRowComponent@ListBox@juce@@@juce@@YA?AVAccessibilityActions@1@AEAVRowComponent@ListBox@1@@Z@
+.?AV<lambda_1>@?4??showPopupIfNotActive@ComboBox@juce@@AEAAXXZ@
+.?AV<lambda_1>@?1??addPath@FileSearchPathListComponent@juce@@AEAAXXZ@
+.?AV<lambda_1>@?1???0Toolbar@juce@@QEAA@XZ@
+.?AVTabbedButtonBar@juce@@
+.?AV<lambda_1>@?7??refresh@ChoicePropertyComponent@juce@@UEAAXXZ@
+.?AV<lambda_1>@?1???0FileChooserDialogBox@juce@@QEAA@AEBVString@2@0AEAVFileBrowserComponent@2@_NVColour@2@PEAVComponent@2@@Z@
+.?AV<lambda_1>@?3??getAccessibilityActions@LabelAccessibilityHandler@juce@@CA?AVAccessibilityActions@3@AEAVLabel@3@@Z@
+.?AUMarkerListHolder@MarkerList@juce@@
+.?AV<lambda_1>@?1???0MultiChoicePropertyComponent@juce@@QEAA@AEBVValueTreePropertyWithDefault@2@AEBVString@2@AEBVStringArray@2@AEBV?$Array@Vvar@juce@@VDummyCriticalSection@2@$0A@@2@H@Z@
+.?AVMultiDocumentPanel@juce@@
+.?AVDrawableComposite@juce@@
+.?AV<lambda_1>@?1???$getListRowAccessibilityActions@VRowComp@TableListBox@juce@@@juce@@YA?AVAccessibilityActions@1@AEAVRowComp@TableListBox@1@@Z@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_fstream@DU?$char_traits@D@std@@@std@@
+.?AVLogger@el@@
+.?AVLoggable@el@@
+.?AVLogDispatchCallback@el@@
+.?AV?$Callback@VLogDispatchData@el@@@el@@
+.?AVStorage@base@el@@
+.?AVRegisteredLoggers@base@el@@
+.?AV?$Registry@VLogger@el@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@utils@base@el@@
+.?AV?$AbstractRegistry@VLogger@el@@V?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVLogger@el@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVLogger@el@@@std@@@2@@std@@@utils@base@el@@
+.?AVDefaultLogDispatchCallback@base@el@@
+.?AVCommandLineArgs@utils@base@el@@
+.?AVLogFormat@base@el@@
+.?AVConfiguration@el@@
+.?AVTypedConfigurations@base@el@@
+.?AVHitCounter@base@el@@
+.?AVRegisteredHitCounters@base@el@@
+.?AV?$RegistryWithPred@VHitCounter@base@el@@VPredicate@123@@utils@base@el@@
+.?AV?$AbstractRegistry@VHitCounter@base@el@@V?$vector@PEAVHitCounter@base@el@@V?$allocator@PEAVHitCounter@base@el@@@std@@@std@@@utils@base@el@@
+.?AVVRegistry@base@el@@
+.?AV?$_Func_base@XPEBD_K@std@@
+.?AV?$_Func_base@_N$$V@std@@
+.?AV?$codecvt@DDU_Mbstatet@@@std@@
+.?AV?$_Ref_count@V?$basic_fstream@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$_Ref_count_obj2@V?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@V?$basic_fstream@DU?$char_traits@D@std@@@std@@@2@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@V?$basic_fstream@DU?$char_traits@D@std@@@std@@@2@@std@@@2@@std@@@std@@
+.?AV?$_Func_impl_no_alloc@P6AXPEBD_K@ZXPEBD_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c549ce1939ca5aad3c8cd2be17886809>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_668be7ac02c62ba34b1fac75d913b8ee>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_29dcbb335b3e371deb68e0021fca8788>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_be4a903e2dbd54756678c6145605587b>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b60a4b5fc0c532cb53d30e17aa7625f9>@@_N$$V@std@@
+.?AV?$_Ref_count@VDefaultLogDispatchCallback@base@el@@@std@@
+.?AVstl_critical_section_interface@details@Concurrency@@
+.?AVstl_critical_section_vista@details@Concurrency@@
+.?AVstl_critical_section_win7@details@Concurrency@@
+.?AV?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV_Locimp@locale@std@@
+.?AVstl_condition_variable_interface@details@Concurrency@@
+.?AVstl_condition_variable_vista@details@Concurrency@@
+.?AVstl_condition_variable_win7@details@Concurrency@@
+.?AV_ExceptionPtr_normal@?A0x626bcf6a@@
+.?AV?$_ExceptionPtr_static@Vbad_alloc@std@@@?A0x626bcf6a@@
+.?AV?$_ExceptionPtr_static@Vbad_exception@std@@@?A0x626bcf6a@@
+.?AV?$codecvt@GDU_Mbstatet@@@std@@
+.?AV?$ctype@G@std@@
+.?AUmessages_base@std@@
+.?AUmoney_base@std@@
+.?AUtime_base@std@@
+.?AV?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$numpunct@_W@std@@
+.?AV?$collate@_W@std@@
+.?AV?$messages@_W@std@@
+.?AV?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$moneypunct@_W$0A@@std@@
+.?AV?$_Mpunct@_W@std@@
+.?AV?$moneypunct@_W$00@std@@
+.?AV?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$numpunct@G@std@@
+.?AV?$collate@G@std@@
+.?AV?$messages@G@std@@
+.?AV?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$moneypunct@G$0A@@std@@
+.?AV?$_Mpunct@G@std@@
+.?AV?$moneypunct@G$00@std@@
+.?AV?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$collate@D@std@@
+.?AV?$messages@D@std@@
+.?AV?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$moneypunct@D$0A@@std@@
+.?AV?$_Mpunct@D@std@@
+.?AV?$moneypunct@D$00@std@@
+.?AV?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AVtype_info@@
+.?AV_Ref_count_base@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??GetKnownFolders@i3d@@YA?AV?$vector@UKnownFolderInfo@i3d@@V?$allocator@UKnownFolderInfo@i3d@@@std@@@std@@AEBV?$vector@U_GUID@@V?$allocator@U_GUID@@@std@@@5@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?7??CreateDirectoryWithAdminWriteAndNormalRead@i3d@@YA_NAEBVpath@filesystem@std@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??CreateDirectoryWithAdminWriteAndNormalRead@i3d@@YA_NAEBVpath@filesystem@std@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?7??CreateDirectoryWithAdminProtection@i3d@@YA_NAEBVpath@filesystem@std@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??CreateDirectoryWithAdminProtection@i3d@@YA_NAEBVpath@filesystem@std@@@Z@X$$V@std@@
+.?AV?$_Func_base@X$$V@std@@
+.?AV_Generic_error_category@std@@
+.?AVerror_category@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnHeartbeatFailed@IPCManagerBase@i3d@@AEAAXXZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??InitialSendThread@IPCManagerBase@i3d@@AEAAXXZ@XPEAVThread@juce@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??InitialReceived@IPCManagerBase@i3d@@AEAAXXZ@XAEBUIPCPackage@4@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnDisconnectedEvent@IPCManagerBase@i3d@@QEAAXV?$function@$$A6AXXZ@std@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??InitiaReceivedThread@IPCConnectV2@i3d@@AEAAXXZ@XPEAVThread@juce@@@std@@
+.?AVIPCManagerBase@i3d@@
+.?AV?$_Func_base@XAEBUIPCPackage@i3d@@@std@@
+.?AVSecureInterprocessConnection@i3d@@
+.?AVIPCConnectV2@i3d@@
+.?AVIPCHeartbeat@?A0xa32e17d9@i3d@@
+.?AV?$_Func_base@XPEAVThread@juce@@@std@@
+.?AVThread@juce@@
+.?AV?$WorkerThreadT@V?$function@$$A6AXPEAVThread@juce@@@Z@std@@@i3d@@
+.?AVMessage@juce@@
+.?AUDataDeliveryMessage@i3d@@
+.?AUConnectionStateMessage@i3d@@
+.?AUConnectionThread@SecureInterprocessConnection@i3d@@
+.?AVSharedPointer@?$WeakReference@VSecureInterprocessConnection@i3d@@VReferenceCountedObject@juce@@@juce@@
+.?AVMessageBase@MessageManager@juce@@
+.?AVReferenceCountedObject@juce@@
+.?AV?$RegistryWithPred@VConfiguration@el@@VPredicate@12@@utils@base@el@@
+.?AVWriter@base@el@@
+.?AVThreadSafe@threading@base@el@@
+.?AV_Iostream_error_category2@std@@
+.?AV?$AbstractRegistry@VConfiguration@el@@V?$vector@PEAVConfiguration@el@@V?$allocator@PEAVConfiguration@el@@@std@@@std@@@utils@base@el@@
+.?AVNoCopy@base@el@@
+.?AVConfigurations@el@@
+.?AVios_base@std@@
+.?AV?$ctype@D@std@@
+.?AVcodecvt_base@std@@
+.?AV_Facet_base@std@@
+.?AU_Crt_new_delete@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$numpunct@D@std@@
+.?AV?$basic_filebuf@_WU?$char_traits@_W@std@@@std@@
+.?AUctype_base@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AVfacet@locale@std@@
+.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$ctype@_W@std@@
+.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_ifstream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AVAgentUserPSIPCClient@i3d@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???R1?1??StartUserPSExitEventThread@ACCUserPSApplication@@AEAA_NXZ@QEBA@XZ@XPEAVThread@juce@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??QuitNow@ACCUserPSApplication@@QEAAXXZ@X$$V@std@@
+.?AV?$_Ref_count@VStorage@base@el@@@std@@
+.?AV?$_Ref_count@VDefaultLogBuilder@base@el@@@std@@
+.?AVDocumentWindow@juce@@
+.?AVResizableWindow@juce@@
+.?AVTopLevelWindow@juce@@
+.?AVComponent@juce@@
+.?AVMouseListener@juce@@
+.?AVMainWindow@ACCUserPSApplication@@
+.?AVJUCEApplication@juce@@
+.?AVApplicationCommandTarget@juce@@
+.?AVJUCEApplicationBase@juce@@
+.?AVACCUserPSApplication@@
+.?AVLogBuilder@el@@
+.?AVDefaultLogBuilder@base@el@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@std@@@?$_Task_async_state@X@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@3@@Z@X$$V@std@@
+.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@std@@@?$_Task_async_state@X@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
+.?AU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@std@@@?$_Task_async_state@X@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
+.?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapter@P8MainComponent@@EAAXAEBUCleanDiskPackage@ipc@i3d@@@ZPEAV1@AEAU234@@std@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?CC@??_CancelAndRunContinuations@?$_Task_impl@E@details@Concurrency@@UEAA_N_N00AEBV?$shared_ptr@U_ExceptionHolder@details@Concurrency@@@std@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StartSearchResultThread@MainComponent@@AEAAXXZ@XPEAVThread@juce@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnCleanDiskDeleteIPC@MainComponent@@AEAAXAEBUCleanDiskPackage@ipc@i3d@@@Z@X$$V@std@@
+.?AV?$_Task_async_state@X@std@@
+.?AV?$_Packaged_state@$$A6AXXZ@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??InitialQuickCleanupCleanThread@MainComponent@@AEAAXXZ@XPEAVThread@juce@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??InitialAgentServiceIPC@MainComponent@@AEAAXXZ@XPEAVThread@juce@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??InitialAgentServiceIPC@MainComponent@@AEAAXXZ@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??_MakeVoidToUnitFunc@details@Concurrency@@YA?AV?$function@$$A6AEXZ@std@@AEBV?$function@$$A6AXXZ@6@@Z@E$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QEAAXPEAU_ContinuationTaskHandleBase@45@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?7???R1?4??_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QEAAXPEAU_ContinuationTaskHandleBase@45@@Z@QEBA@XZ@X$$V@std@@
+.?AV?$_Ref_count_obj2@U?$_Task_impl@E@details@Concurrency@@@std@@
+.?AV?$_Ref_count_obj2@UCleanDiskPackage@ipc@i3d@@@std@@
+.?AV?$_Ref_count_obj2@U_ExceptionHolder@details@Concurrency@@@std@@
+.?AV?$_Func_base@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@
+.?AVThreadPoolJob@juce@@
+.?AVFileSearchThreadJob@@
+.?AVMainComponent@@
+.?AV?$_Associated_state@H@std@@
+.?AV_Future_error_category2@std@@
+.?AU?$_Task_impl@E@details@Concurrency@@
+.?AV?$_Func_base@E$$V@std@@
+.?AV?$_CancellationTokenCallback@V<lambda_1>@?1??_RegisterCancellation@_Task_impl_base@details@Concurrency@@QEAAXV?$weak_ptr@U_Task_impl_base@details@Concurrency@@@std@@@Z@@details@Concurrency@@
+.?AU_Task_impl_base@details@Concurrency@@
+.?AU_TaskProcHandle@details@Concurrency@@
+.?AV_CancellationTokenRegistration@details@Concurrency@@
+.?AV_RefCounter@details@Concurrency@@
+.?AV_DefaultPPLTaskScheduler@details@Concurrency@@
+.?AUscheduler_interface@Concurrency@@
+.?AVUnitTestRunner@juce@@
+.?AVFileOutputStream@juce@@
+.?AVMemoryInputStream@juce@@
+.?AVFileInputStream@juce@@
+.?AVInputSource@juce@@
+.?AUStackArrayStream@NumberToStringConverters@juce@@
+.?AVMemoryOutputStream@juce@@
+.?AVConstant@Helpers@Expression@juce@@
+.?AVFileFilter@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?3??createInputStream@URL@juce@@QEBA?AV?$unique_ptr@VInputStream@juce@@U?$default_delete@VInputStream@juce@@@std@@@std@@_NP6A_NPEAXHH@Z1VString@4@HPEAVStringPairArray@4@PEAHH3@Z@_NHH@std@@
+.?AVGZIPDecompressorInputStream@juce@@
+.?AVAdd@Helpers@Expression@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??findAndRunCommand@ConsoleApplication@juce@@QEBAHAEBUArgumentList@4@_N@Z@H$$V@std@@
+.?AVInputStream@juce@@
+.?AVUnitTest@juce@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AVTerm@Expression@juce@@
+.?AVDownloadTask@URL@juce@@
+.?AVOutputStream@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??addVersionCommand@ConsoleApplication@juce@@QEAAXVString@4@0@Z@XAEBUArgumentList@4@@std@@
+.?AVBinaryTerm@Helpers@Expression@juce@@
+.?AVFileInputSource@juce@@
+.?AVPropertySet@juce@@
+.?AVSubregionStream@juce@@
+.?AUProgressCallbackCaller@?1??createInputStream@URL@juce@@QEBA?AV?$unique_ptr@VInputStream@juce@@U?$default_delete@VInputStream@juce@@@std@@@std@@AEBVInputStreamOptions@23@@Z@
+.?AVGZIPCompressorOutputStream@juce@@
+.?AVFileLogger@juce@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AVSingleThreadedReferenceCountedObject@juce@@
+.?AV?$_Ref_count@VDirectoryIterator@juce@@@std@@
+.?AVLogger@juce@@
+.?AVURLInputSource@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??addHelpCommand@ConsoleApplication@juce@@QEAAXVString@4@0_N@Z@XAEBUArgumentList@4@@std@@
+.?AVNegate@Helpers@Expression@juce@@
+.?AVWebInputStream@juce@@
+.?AV?$_Func_base@XAEBUArgumentList@juce@@@std@@
+.?AVTimeSliceThread@juce@@
+.?AVListener@WebInputStream@juce@@
+.?AVHighResolutionTimer@juce@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$_Func_base@H$$V@std@@
+.?AUCurrentThreadHolder@juce@@
+.?AVWildcardFileFilter@juce@@
+.?AVScope@Expression@juce@@
+.?AVBufferedInputStream@juce@@
+.?AVSubtract@Helpers@Expression@juce@@
+.?AV?$_Func_base@_NHH@std@@
+.?AVListener@ValueTree@juce@@
+.?AVTimer@juce@@
+.?AVValueTreeSynchroniser@juce@@
+.?AVValueSource@Value@juce@@
+.?AVChangeBroadcaster@juce@@
+.?AVPropertiesFile@juce@@
+.?AVUndoManager@juce@@
+.?AVAsyncUpdater@juce@@
+.?AVSimpleValueSource@juce@@
+.?AUBroadcastMessage@?4??handleBroadcastMessage@InternalMessageQueue@juce@@CAXPEBUtagCOPYDATASTRUCT@@@Z@
+.?AVMessageListener@juce@@
+.?AUMultipleInstanceHandler@JUCEApplicationBase@juce@@
+.?AUAvailableServiceList@NetworkServiceDiscovery@juce@@
+.?AVActionMessage@ActionBroadcaster@juce@@
+.?AVAsyncUpdaterMessage@AsyncUpdater@juce@@
+.?AVMessageManagerLock@juce@@
+.?AVAsyncFunctionCallback@juce@@
+.?AVDeletedAtShutdown@juce@@
+.?AUDataDeliveryMessage@juce@@
+.?AVQuitMessage@MessageManager@juce@@
+.?AUAsyncCallInvoker@?1??callAsync@MessageManager@juce@@SA_NV?$function@$$A6AXXZ@std@@@Z@
+.?AVInterprocessConnectionServer@juce@@
+.?AVListener@Thread@juce@@
+.?AVMountedVolumeListChangeDetector@juce@@
+.?AVChildProcessWorker@juce@@
+.?AVMultiTimer@juce@@
+.?AVActionBroadcaster@juce@@
+.?AVInterprocessConnection@juce@@
+.?AVChangeBroadcasterCallback@ChangeBroadcaster@juce@@
+.?AUCallTimersMessage@TimerThread@Timer@juce@@
+.?AUConnectionStateMessage@juce@@
+.?AVCallbackMessage@juce@@
+.?AVTimerThread@Timer@juce@@
+.?AVSharedPointer@?$WeakReference@VActionBroadcaster@juce@@VReferenceCountedObject@2@@juce@@
+.?AUAdvertiser@NetworkServiceDiscovery@juce@@
+.?AVChildProcessCoordinator@juce@@
+.?AVActionListener@juce@@
+.?AV?$ComBaseClassHelperBase@UIDWriteTextRenderer@@$$V@juce@@
+.?AV?$ComBaseClassHelper@UID2D1SimplifiedGeometrySink@@@juce@@
+.?AVTypefaceCache@juce@@
+.?AVLowLevelGraphicsPostScriptRenderer@juce@@
+.?AVCustomTypeface@juce@@
+.?AVSoftwareImageType@juce@@
+.?AVImagePixelData@juce@@
+.?AV?$StackBasedLowLevelGraphicsContext@VSoftwareRendererSavedState@RenderingHelpers@juce@@@RenderingHelpers@juce@@
+.?AVGIFImageFormat@juce@@
+.?AV?$GlyphCache@V?$CachedGlyphEdgeTable@VSoftwareRendererSavedState@RenderingHelpers@juce@@@RenderingHelpers@juce@@VSoftwareRendererSavedState@23@@RenderingHelpers@juce@@
+.?AVLowLevelGraphicsSoftwareRenderer@juce@@
+.?AVImageFileFormat@juce@@
+.?AVSoftwarePixelData@juce@@
+.?AVImageType@juce@@
+.?AVGlowEffect@juce@@
+.?AVWindowsTypeface@juce@@
+.?AVLowLevelGraphicsContext@juce@@
+.?AUBase@?$ClipRegions@VSoftwareRendererSavedState@RenderingHelpers@juce@@@RenderingHelpers@juce@@
+.?AUEdgeTableRegion@?$ClipRegions@VSoftwareRendererSavedState@RenderingHelpers@juce@@@RenderingHelpers@juce@@
+.?AUID2D1SimplifiedGeometrySink@@
+.?AUIUnknown@@
+.?AVJPEGImageFormat@juce@@
+.?AUIDWritePixelSnapping@@
+.?AUIDWriteTextRenderer@@
+.?AVNativeImageType@juce@@
+.?AUPimpl@ImageCache@juce@@
+.?AV?$CachedGlyphEdgeTable@VSoftwareRendererSavedState@RenderingHelpers@juce@@@RenderingHelpers@juce@@
+.?AUPathGeometrySink@WindowsDirectWriteTypeface@juce@@
+.?AVCustomDirectWriteTextRenderer@DirectWriteTypeLayout@juce@@
+.?AVImageEffectFilter@juce@@
+.?AVDropShadowEffect@juce@@
+.?AVRectangleListRegion@?$ClipRegions@VSoftwareRendererSavedState@RenderingHelpers@juce@@@RenderingHelpers@juce@@
+.?AV?$ComBaseClassHelper@UIDWriteTextRenderer@@@juce@@
+.?AVPNGImageFormat@juce@@
+.?AVSharedFontInternal@Font@juce@@
+.?AV?$ComBaseClassHelperBase@UID2D1SimplifiedGeometrySink@@$$V@juce@@
+.?AVUIAInvokeProvider@juce@@
+.?AULookAndFeelMethods@AlertWindow@juce@@
+.?AVItemAccessibilityHandler@ItemComponent@TreeView@juce@@
+.?AUSourceList@MouseInputSource@juce@@
+.?AV?$ComBaseClassHelperBase@UIExpandCollapseProvider@ComTypes@juce@@$$V@juce@@
+.?AVThreadPoolHolder@DragAndDropHelpers@juce@@
+.?AVMissingItemsComponent@Toolbar@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??destroyDialog@Win32NativeFileChooser@juce@@AEAAXPEAUHWND__@@@Z@X$$V@std@@
+.?AV?$_Func_base@XH@std@@
+.?AVValueInterface@ItemComponent@HelperClasses@PopupMenu@juce@@
+.?AULookAndFeelMethods@TableHeaderComponent@juce@@
+.?AVStretchableLayoutResizerBar@juce@@
+.?AVCommandMessage@ApplicationCommandTarget@juce@@
+.?AV?$ComBaseClassHelper@UITextRangeProvider@ComTypes@juce@@@juce@@
+.?AVDrawableButton@juce@@
+.?AUPopupDisplayComponent@Pimpl@Slider@juce@@
+.?AVListener@?$AnimatedPosition@UContinuousWithMomentum@AnimatedPositionBehaviours@juce@@@juce@@
+.?AVGlassWindowButton@LookAndFeel_V2@juce@@
+.?AVToggleButton@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?3??getAccessibilityActions@ButtonAccessibilityHandler@juce@@CA?AVAccessibilityActions@4@AEAVButton@4@@Z@X$$V@std@@
+.?AUIRawElementProviderSimple@@
+.?AUISelectionProvider2@ComTypes@juce@@
+.?AUMenuBarComponentAccessibilityHandler@?1??createAccessibilityHandler@MenuBarComponent@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AV?$ComBaseClassHelper@UIWindowProvider@ComTypes@juce@@@juce@@
+.?AV?$_Func_base@XAEBVFileChooser@juce@@@std@@
+.?AVUIAProviderBase@juce@@
+.?AV?$ComBaseClassHelper@UIValueProvider@ComTypes@juce@@@juce@@
+.?AVLabel@juce@@
+.?AVScrollbarButton@ScrollBar@juce@@
+.?AV?$ComBaseClassHelper@UISelectionProvider2@ComTypes@juce@@@juce@@
+.?AULookAndFeelMethods@GroupComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??showPopupIfNotActive@ComboBox@juce@@AEAAXXZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0ButtonPropertyComponent@juce@@QEAA@AEBVString@3@_N@Z@X$$V@std@@
+.?AVQuadraticTo@RelativePointPath@juce@@
+.?AUOnScreenKeyboard@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@CA?AVAccessibilityActions@7@AEAV34567@AEAU4567@@Z@X$$V@std@@
+.?AUKeyMappingEditorComponentMethods@ExtraLookAndFeelBaseClasses@juce@@
+.?AVImageButton@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$getListRowAccessibilityActions@VRowComponent@ListBox@juce@@@juce@@YA?AVAccessibilityActions@2@AEAVRowComponent@ListBox@2@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?O@??checkForExternalDrag@DragImageComponent@DragAndDropContainer@juce@@AEAAXAEAVSourceDetails@DragAndDropTarget@5@V?$Point@H@5@@Z@X$$V@std@@
+.?AVTableInterface@?1??createAccessibilityHandler@TableListBox@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AULookAndFeelMethods@FilenameComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?4??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@CA?AVAccessibilityActions@7@AEAV34567@AEAU4567@@Z@X$$V@std@@
+.?AVResizableBorderComponent@juce@@
+.?AVCustomComponentHolder@Win32NativeFileChooser@juce@@
+.?AVWindowClassHolder@HWNDComponentPeer@juce@@
+.?AVSharedPointer@?$WeakReference@VAnimationTask@ComponentAnimator@juce@@VReferenceCountedObject@3@@juce@@
+.?AV?$ComBaseClassHelperBase@UIRangeValueProvider@ComTypes@juce@@$$V@juce@@
+.?AVProgressBarAccessibilityHandler@?1??createAccessibilityHandler@ProgressBar@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AVTypeHandler@ComponentBuilder@juce@@
+.?AV?$_Ref_count_obj2@VNative@FileChooser@juce@@@std@@
+.?AVRelativeCoordinatePositionerBase@juce@@
+.?AUPopupMenuCompletionCallback@juce@@
+.?AVWin32NativeFileChooser@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?P@???0MultiChoicePropertyComponent@juce@@AEAA@AEBVString@3@AEBVStringArray@3@AEBV?$Array@Vvar@juce@@VDummyCriticalSection@2@$0A@@3@@Z@X$$V@std@@
+.?AV?$_Ref_count_obj2@VSharedCursorHandle@MouseCursor@juce@@@std@@
+.?AVLookAndFeel_V1@juce@@
+.?AVSharedPointer@?$WeakReference@VDropShadower@juce@@VReferenceCountedObject@2@@juce@@
+.?AVInputFilter@TextEditor@juce@@
+.?AVListener@ScrollBar@juce@@
+.?AVValueInterface@?1??createAccessibilityHandler@ScrollBar@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0MultiChoicePropertyComponent@juce@@QEAA@AEBVValueTreePropertyWithDefault@3@AEBVString@3@AEBVStringArray@3@AEBV?$Array@Vvar@juce@@VDummyCriticalSection@2@$0A@@3@H@Z@X$$V@std@@
+.?AVShapeButton@juce@@
+.?AVListener@TableHeaderComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??getAccessibilityActions@ComponentHandler@?1??createAccessibilityHandler@AccessibleItemComponent@MenuBarComponent@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@CA?AVAccessibilityActions@7@AEAV567@@Z@X$$V@std@@
+.?AULookAndFeelMethods@TooltipWindow@juce@@
+.?AVButtonListenerProxy@DocumentWindow@juce@@
+.?AVUIAGridItemProvider@juce@@
+.?AVImageComponent@juce@@
+.?AVListener@TextEditor@juce@@
+.?AUDragAndDropJob@DragAndDropHelpers@juce@@
+.?AV?$ComBaseClassHelper@UIToggleProvider@ComTypes@juce@@@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??showMenu@MenuBarComponent@juce@@QEAAXH@Z@XH@std@@
+.?AVLookAndFeel_V2@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?M@??exitModalState@Component@juce@@QEAAXH@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0Toolbar@juce@@QEAA@XZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$getListRowAccessibilityActions@VRowComp@TableListBox@juce@@@juce@@YA?AVAccessibilityActions@2@AEAVRowComp@TableListBox@2@@Z@X$$V@std@@
+.?AVListViewport@ListBox@juce@@
+.?AULookAndFeelMethods@PropertyComponent@juce@@
+.?AVToolbarItemFactory@juce@@
+.?AULookAndFeelMethods@Toolbar@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??addPath@FileSearchPathListComponent@juce@@AEAAXXZ@XAEBVFileChooser@4@@std@@
+.?AV?$ComBaseClassHelper@UITextProvider2@ComTypes@juce@@@juce@@
+.?AULookAndFeelMethods@Button@juce@@
+.?AV?$ComBaseClassHelperBase@UISelectionItemProvider@ComTypes@juce@@$$V@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1???$getListRowAccessibilityActions@VRowComp@TableListBox@juce@@@juce@@YA?AVAccessibilityActions@2@AEAVRowComp@TableListBox@2@@Z@X$$V@std@@
+.?AVElementBase@RelativePointPath@juce@@
+.?AV?$ComBaseClassHelperBase@UIGridItemProvider@ComTypes@juce@@$$V@juce@@
+.?AVUIATransformProvider@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1???$getListRowAccessibilityActions@VRowComponent@ListBox@juce@@@juce@@YA?AVAccessibilityActions@2@AEAVRowComponent@ListBox@2@@Z@X$$V@std@@
+.?AVListener@MarkerList@juce@@
+.?AUIEnumFORMATETC@@
+.?AVMouseSourceState@HelperClasses@PopupMenu@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??showChooser@FilenameComponent@juce@@AEAAXXZ@XAEBVFileChooser@4@@std@@
+.?AVStartSubPath@RelativePointPath@juce@@
+.?AVInsertPointHighlight@TreeView@juce@@
+.?AUIGridItemProvider@ComTypes@juce@@
+.?AUISelectionProvider@ComTypes@juce@@
+.?AVValueTreePropertyWithDefault@juce@@
+.?AVComponentBoundsConstrainer@juce@@
+.?AVUIARangeValueProvider@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@CA?AVAccessibilityActions@6@AEAV456@@Z@X$$V@std@@
+.?AVLabelValueInterface@LabelAccessibilityHandler@juce@@
+.?AV?$ComBaseClassHelperBase@UITransformProvider@ComTypes@juce@@$$V@juce@@
+.?AUCallable@?1???$create@V<lambda_1>@?1???$forComponent@VFileChooserDialogBox@juce@@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@3@P6AXHPEAVFileChooserDialogBox@3@@Z0@Z@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@$$QEAV<lambda_1>@?1???$forComponent@VFileChooserDialogBox@juce@@@12@SAPEAV342@P6AXHPEAVFileChooserDialogBox@2@@Z0@Z@@Z@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??closeLastDocumentRecursive@MultiDocumentPanel@juce@@CAXV?$SafePointer@VMultiDocumentPanel@juce@@@Component@4@_NV?$function@$$A6AX_N@Z@std@@@Z@X_N@std@@
+.?AVUIATextProvider@juce@@
+.?AVAccessibilityTextValueInterface@juce@@
+.?AV?$ComBaseClassHelper@UIDropTarget@@@juce@@
+.?AVThreadWithProgressWindow@juce@@
+.?AUInsertAction@TextEditor@juce@@
+.?AVViewport@juce@@
+.?AVWindowsTaskDialog@juce@@
+.?AVResizableEdgeComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0FileChooserDialogBox@juce@@QEAA@AEBVString@3@0AEAVFileBrowserComponent@3@_NVColour@3@PEAVComponent@3@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0FilenameComponent@juce@@QEAA@AEBVString@3@AEBVFile@3@_N22000@Z@X$$V@std@@
+.?AVUIAWindowProvider@juce@@
+.?AVLengthAndCharacterRestriction@TextEditor@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0HWNDComponentPeer@juce@@QEAA@AEAVComponent@3@HPEAUHWND__@@_N@Z@VModifierKeys@3@$$V@std@@
+.?AVAccessibilityTableInterface@juce@@
+.?AV?$ComBaseClassHelper@UIRangeValueProvider@ComTypes@juce@@@juce@@
+.?AV?$_Ref_count_resource@PEAVWin32NativeFileChooser@juce@@U?$default_delete@VWin32NativeFileChooser@juce@@@std@@@std@@
+.?AVDrawableShape@juce@@
+.?AVComponentAnimator@juce@@
+.?AVSliderAccessibilityHandler@juce@@
+.?AVLabelKeyboardFocusTraverser@juce@@
+.?AVTableInterface@?1??createAccessibilityHandler@ListBox@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AVItemCellInterface@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@
+.?AV?$_Func_base@VModifierKeys@juce@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0SliderPropertyComponent@juce@@IEAA@AEBVString@3@NNNN_N@Z@X$$V@std@@
+.?AUCallable@?1???$create@V<lambda_1>@?1??getWrappedCallback@AlertWindowMappings@juce@@YA?AV?$unique_ptr@VCallback@ModalComponentManager@juce@@U?$default_delete@VCallback@ModalComponentManager@juce@@@std@@@std@@PEAVCallback@ModalComponentManager@4@P6AHH@Z@Z@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@$$QEAV<lambda_1>@?1??getWrappedCallback@AlertWindowMappings@2@YA?AV?$unique_ptr@VCallback@ModalComponentManager@juce@@U?$default_delete@VCallback@ModalComponentManager@juce@@@std@@@std@@PEAV342@P6AHH@Z@Z@@Z@
+.?AVTabbedComponent@juce@@
+.?AVComboBoxAccessibilityHandler@juce@@
+.?AVTextEditorAccessibilityHandler@juce@@
+.?AUITextRangeProvider@ComTypes@juce@@
+.?AVItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??createAccessibilityHandler@MenuWindow@HelperClasses@PopupMenu@juce@@UEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@X$$V@std@@
+.?AVContentComponent@FileChooserDialogBox@juce@@
+.?AVMouseInputSourceInternal@juce@@
+.?AVTableListBox@juce@@
+.?AUCallable@?1???$create@V<lambda_1>@?1???$forComponent@VFileChooserDialogBox@juce@@V?$SafePointer@VAlertWindow@juce@@@Component@2@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@3@P6AXHPEAVFileChooserDialogBox@3@V?$SafePointer@VAlertWindow@juce@@@Component@3@@Z01@Z@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@$$QEAV<lambda_1>@?1???$forComponent@VFileChooserDialogBox@juce@@V?$SafePointer@VAlertWindow@juce@@@Component@2@@12@SAPEAV342@P6AXHPEAVFileChooserDialogBox@2@V?$SafePointer@VAlertWindow@juce@@@Component@2@@Z01@Z@@Z@
+.?AVListener@Value@juce@@
+.?AV?$ComBaseClassHelperBase@UIEnumFORMATETC@@$$V@juce@@
+.?AVListener@Button@juce@@
+.?AV?$ComBaseClassHelper@UIEnumFORMATETC@@@juce@@
+.?AVTableInterface@?1??createAccessibilityHandler@TreeView@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AVFocusTraverser@juce@@
+.?AVNonNative@FileChooser@juce@@
+.?AVPropertyComponent@juce@@
+.?AV?$ComBaseClassHelper@UITransformProvider@ComTypes@juce@@@juce@@
+.?AVContentSharer@juce@@
+.?AVModalComponentManager@juce@@
+.?AUCallable@?1???$create@V<lambda_1>@?1???$forComponent@VTableHeaderComponent@juce@@H@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@3@P6AXHPEAVTableHeaderComponent@3@H@Z0H@Z@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@$$QEAV<lambda_1>@?1???$forComponent@VTableHeaderComponent@juce@@H@12@SAPEAV342@P6AXHPEAVTableHeaderComponent@2@H@Z0H@Z@@Z@
+.?AVPreVistaMessageBox@juce@@
+.?AUIDataObject@@
+.?AVScrollBar@juce@@
+.?AVDirectoryContentsList@juce@@
+.?AVWindowsMessageBoxBase@juce@@
+.?AVHyperlinkButton@juce@@
+.?AVFileListComponent@juce@@
+.?AVSharedPointer@?$WeakReference@VApplicationCommandTarget@juce@@VReferenceCountedObject@2@@juce@@
+.?AUCallable@?1???$create@V<lambda_1>@?1???$forComponent@VSlider@juce@@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@3@P6AXHPEAVSlider@3@@Z0@Z@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@$$QEAV<lambda_1>@?1???$forComponent@VSlider@juce@@@12@SAPEAV342@P6AXHPEAVSlider@2@@Z0@Z@@Z@
+.?AVFileBrowserComponent@juce@@
+.?AVTooltipWindow@juce@@
+.?AVCubicTo@RelativePointPath@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??lookAndFeelChanged@Pimpl@Slider@juce@@QEAAXAEAVLookAndFeel@5@@Z@X$$V@std@@
+.?AVSharedPointer@?$WeakReference@VLookAndFeel@juce@@VReferenceCountedObject@2@@juce@@
+.?AV?$ComBaseClassHelper@UIGridProvider@ComTypes@juce@@@juce@@
+.?AVFileBrowserListener@juce@@
+.?AV?$AnimatedPosition@UContinuousWithMomentum@AnimatedPositionBehaviours@juce@@@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??postCommandMessage@Component@juce@@QEAAXH@Z@X$$V@std@@
+.?AVDrawableImage@juce@@
+.?AULookAndFeelMethods@CallOutBox@juce@@
+.?AVDrawableText@juce@@
+.?AULookAndFeelMethods@BubbleComponent@juce@@
+.?AVComponentListener@juce@@
+.?AUIExpandCollapseProvider@ComTypes@juce@@
+.?AUFileDropTarget@HWNDComponentPeer@juce@@
+.?AVButtonValueInterface@ButtonAccessibilityHandler@juce@@
+.?AVUIAExpandCollapseProvider@juce@@
+.?AVTimeSliceClient@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1???0FileBrowserComponent@juce@@QEAA@HAEBVFile@3@PEBVFileFilter@3@PEAVFilePreviewComponent@3@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1???0FileChooserDialogBox@juce@@QEAA@AEBVString@3@0AEAVFileBrowserComponent@3@_NVColour@3@PEAVComponent@3@@Z@X$$V@std@@
+.?AUIInvokeProvider@ComTypes@juce@@
+.?AUTextHolderComponent@TextEditor@juce@@
+.?AVDependencyFinderScope@RelativeCoordinatePositionerBase@juce@@
+.?AVBehindFrontTabComp@TabbedButtonBar@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?M@??mouseDown@TextEditor@juce@@UEAAXAEBVMouseEvent@4@@Z@XH@std@@
+.?AUJuceEnumFormatEtc@DragAndDropHelpers@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1???$getListRowAccessibilityActions@VRowComp@TableListBox@juce@@@juce@@YA?AVAccessibilityActions@2@AEAVRowComp@TableListBox@2@@Z@X$$V@std@@
+.?AVFileChooserDialogBox@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@CA?AVAccessibilityActions@6@AEAV456@@Z@X$$V@std@@
+.?AUImpl@PlatformSpecificHandle@MouseCursor@juce@@
+.?AV?$ComBaseClassHelper@UIRawElementProviderSimple@@UIRawElementProviderFragment@ComTypes@juce@@UIRawElementProviderFragmentRoot@34@@juce@@
+.?AV?$ComBaseClassHelperBase@UIToggleProvider@ComTypes@juce@@$$V@juce@@
+.?AULookAndFeelMethods@ImageButton@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@X$$V@std@@
+.?AV?$ComBaseClassHelperBase@UIGridProvider@ComTypes@juce@@$$V@juce@@
+.?AUCallable@?1???$create@V<lambda_1>@?1??launch@Native@FileChooser@juce@@UEAAXXZ@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@$$QEAV<lambda_1>@?1??launch@Native@FileChooser@2@UEAAXXZ@@Z@
+.?AVTextEditorTextInterface@TextEditorAccessibilityHandler@juce@@
+.?AUITextProvider@ComTypes@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4>@?1???0FileBrowserComponent@juce@@QEAA@HAEBVFile@3@PEBVFileFilter@3@PEAVFilePreviewComponent@3@@Z@X$$V@std@@
+.?AVFocusChangeListener@juce@@
+.?AUIDropSource@@
+.?AVKeyPressMappingSet@juce@@
+.?AV?$ComBaseClassHelper@UIDataObject@@@juce@@
+.?AVComponentHandler@?1??createAccessibilityHandler@AccessibleItemComponent@MenuBarComponent@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AVDropShadower@juce@@
+.?AUAudioDeviceSelectorComponentMethods@ExtraLookAndFeelBaseClasses@juce@@
+.?AVBubbleComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???R<lambda_2>@?N@??lookAndFeelChanged@Pimpl@Slider@juce@@QEAAXAEAVLookAndFeel@6@@Z@QEBA@AEAVButton@6@_N@Z@X$$V@std@@
+.?AVSettableTooltipClient@juce@@
+.?AVItemComponent@FileListComponent@juce@@
+.?AUCallable@?1???$create@V<lambda_1>@?1??launch@NonNative@FileChooser@juce@@UEAAXXZ@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@$$QEAV<lambda_1>@?1??launch@NonNative@FileChooser@2@UEAAXXZ@@Z@
+.?AUOutlineWindowProperties@FocusOutline@juce@@
+.?AVArrowButton@juce@@
+.?AUEvents@?1??showDialog@Win32NativeFileChooser@juce@@AEAA_NAEAUIFileDialog@@_N@Z@
+.?AVMouseInactivityDetector@juce@@
+.?AVRowComponentCellInterface@RowAccessibilityHandler@RowComp@TableListBox@juce@@
+.?AVAccessibilityHandler@juce@@
+.?AVAccessibilityRangedNumericValueInterface@juce@@
+.?AVLabelAccessibilityHandler@juce@@
+.?AVUIASelectionItemProvider@juce@@
+.?AVAccessibilityNativeHandle@juce@@
+.?AVSharedPointer@?$WeakReference@VComponent@juce@@VReferenceCountedObject@2@@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@X$$V@std@@
+.?AUIRawElementProviderFragment@ComTypes@juce@@
+.?AVCloseSubPath@RelativePointPath@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?N@??closeDocumentAsync@MultiDocumentPanel@juce@@QEAAXPEAVComponent@4@_NV?$function@$$A6AX_N@Z@std@@@Z@X_N@std@@
+.?AVValueInterface@SliderAccessibilityHandler@juce@@
+.?AV?$ComBaseClassHelper@UIDropSource@@@juce@@
+.?AV?$ComBaseClassHelper@UIInvokeProvider@ComTypes@juce@@@juce@@
+.?AVDragOverlayComp@TableHeaderComponent@juce@@
+.?AVTextPropertyComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1???0ChoicePropertyComponent@juce@@QEAA@AEBVValueTreePropertyWithDefault@3@AEBVString@3@@Z@X$$V@std@@
+.?AV?$ComBaseClassHelperBase@UIDropTarget@@$$V@juce@@
+.?AULookAndFeelMethods@ResizableWindow@juce@@
+.?AVSidePanel@juce@@
+.?AVImageImpl@PlatformSpecificHandle@MouseCursor@juce@@
+.?AVSliderLabelComp@LookAndFeel_V2@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??getAccessibilityActions@ButtonAccessibilityHandler@juce@@CA?AVAccessibilityActions@4@AEAVButton@4@@Z@X$$V@std@@
+.?AVApplicationCommandManager@juce@@
+.?AVAccessibilityValueInterface@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0SidePanel@juce@@QEAA@VStringRef@3@H_NPEAVComponent@3@1@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@CA?AVAccessibilityActions@6@AEAV456@@Z@X$$V@std@@
+.?AVAccessibilityTextInterface@juce@@
+.?AV?$ComBaseClassHelper@UIGridItemProvider@ComTypes@juce@@@juce@@
+.?AVJuceDataObject@DragAndDropHelpers@juce@@
+.?AVUIATextRangeProvider@UIATextProvider@juce@@
+.?AVComponentBuilder@juce@@
+.?AVDrawableRectangle@juce@@
+.?AVUIAGridProvider@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@X$$V@std@@
+.?AUOutlineWindowComponent@juce@@
+.?AVListener@MenuBarModel@juce@@
+.?AUDragToScrollListener@Viewport@juce@@
+.?AVTopLevelWindowManager@juce@@
+.?AVRelativeRectangleLocalScope@juce@@
+.?AVSliderPropertyComponent@juce@@
+.?AVComponentMovementWatcher@juce@@
+.?AVCallback@ModalComponentManager@juce@@
+.?AVJUCESplashScreen@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1???0FileChooserDialogBox@juce@@QEAA@AEBVString@3@0AEAVFileBrowserComponent@3@_NVColour@3@PEAVComponent@3@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??addButton@AlertWindow@juce@@QEAAXAEBVString@4@HAEBVKeyPress@4@1@Z@X$$V@std@@
+.?AVDrawableTextAccessibilityHandler@?1??createAccessibilityHandler@DrawableText@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AULookAndFeelMethods@ComboBox@juce@@
+.?AV?$ComBaseClassHelperBase@UIWindowProvider@ComTypes@juce@@$$V@juce@@
+.?AUIFileDialogEvents@@
+.?AVContentComponent@TreeView@juce@@
+.?AUPimpl@FileChooser@juce@@
+.?AVChangeListener@juce@@
+.?AUIToggleProvider@ComTypes@juce@@
+.?AV?$ComBaseClassHelperBase@UITextProvider2@ComTypes@juce@@$$V@juce@@
+.?AUITextProvider2@ComTypes@juce@@
+.?AVValueInterface@ProgressBarAccessibilityHandler@?1??createAccessibilityHandler@ProgressBar@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AVLookAndFeel_V3_DocumentWindowButton@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1???0ChoicePropertyComponent@juce@@QEAA@AEBVValueTreePropertyWithDefault@3@AEBVString@3@AEBVStringArray@3@AEBV?$Array@Vvar@juce@@VDummyCriticalSection@2@$0A@@3@@Z@X$$V@std@@
+.?AUWindowProperties@?1??createFocusOutlineForComponent@LookAndFeel_V2@juce@@UEAA?AV?$unique_ptr@VFocusOutline@juce@@U?$default_delete@VFocusOutline@juce@@@std@@@std@@AEAVComponent@3@@Z@
+.?AVMenuBarModel@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??handleDragDrop@ComponentPeer@juce@@QEAA_NAEBUDragInfo@34@@Z@X$$V@std@@
+.?AUModalItem@ModalComponentManager@juce@@
+.?AUTabbedComponentInternal@MultiDocumentPanel@juce@@
+.?AVUIAToggleProvider@juce@@
+.?AVToolbarButton@juce@@
+.?AULookAndFeelMethods@DocumentWindow@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??refresh@ChoicePropertyComponent@juce@@UEAAXXZ@X$$V@std@@
+.?AVAccessibilityCellInterface@juce@@
+.?AV?$ComBaseClassHelperBase@UIDataObject@@$$V@juce@@
+.?AVCaretComponent@juce@@
+.?AVUIAValueProvider@juce@@
+.?AUButtonBar@TabbedComponent@juce@@
+.?AULookAndFeelMethods@StretchableLayoutResizerBar@juce@@
+.?AVImageComponentAccessibilityHandler@?1??createAccessibilityHandler@ImageComponent@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@
+.?AUTextEditorViewport@TextEditor@juce@@
+.?AUCallable@?1???$create@V<lambda_1>@?1???$forComponent@VComboBox@juce@@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@3@P6AXHPEAVComboBox@3@@Z0@Z@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@$$QEAV<lambda_1>@?1???$forComponent@VComboBox@juce@@@12@SAPEAV342@P6AXHPEAVComboBox@2@@Z0@Z@@Z@
+.?AV?$ComBaseClassHelper@UIExpandCollapseProvider@ComTypes@juce@@@juce@@
+.?AVRowCellInterface@RowAccessibilityHandler@RowComponent@ListBox@juce@@
+.?AV?$ComBaseClassHelperBase@UIFileDialogEvents@@$$V@juce@@
+.?AVTreeViewport@TreeView@juce@@
+.?AULookAndFeelMethods@ScrollBar@juce@@
+.?AUIRangeValueProvider@ComTypes@juce@@
+.?AVTableHeaderComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?N@??selectionChanged@Win32NativeFileChooser@juce@@AEAAXPEAUHWND__@@@Z@X$$V@std@@
+.?AVButtonAccessibilityHandler@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0BooleanPropertyComponent@juce@@IEAA@AEBVString@3@00@Z@X$$V@std@@
+.?AVGroupComponent@juce@@
+.?AVFilenameComponent@juce@@
+.?AUIRawElementProviderFragmentRoot@ComTypes@juce@@
+.?AULookAndFeelMethods@SidePanel@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1???0FileBrowserComponent@juce@@QEAA@HAEBVFile@3@PEBVFileFilter@3@PEAVFilePreviewComponent@3@@Z@X$$V@std@@
+.?AVComponentDragger@juce@@
+.?AVParentVisibilityChangedListener@DropShadower@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??lookAndFeelChanged@ComboBox@juce@@UEAAXXZ@X$$V@std@@
+.?AVKeyListener@juce@@
+.?AVWindowsUIAWrapper@juce@@
+.?AVBooleanPropertyComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@TreeView@juce@@CA?AVAccessibilityActions@6@AEAV456@@Z@X$$V@std@@
+.?AV?$ComBaseClassHelperBase@UISelectionProvider2@ComTypes@juce@@$$V@juce@@
+.?AVKeyboardFocusTraverser@juce@@
+.?AVBuiltinImpl@PlatformSpecificHandle@MouseCursor@juce@@
+.?AV?$ComBaseClassHelperBase@UIInvokeProvider@ComTypes@juce@@$$V@juce@@
+.?AVDesktop@juce@@
+.?AUIWindowProvider@ComTypes@juce@@
+.?AVLookAndFeel_V3@juce@@
+.?AVSlider@juce@@
+.?AVComboBoxValueInterface@ComboBoxAccessibilityHandler@juce@@
+.?AVDragImageComponent@DragAndDropContainer@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??lookAndFeelChanged@FileBrowserComponent@juce@@UEAAXXZ@X$$V@std@@
+.?AULassoComponentMethods@ExtraLookAndFeelBaseClasses@juce@@
+.?AUITransformProvider@ComTypes@juce@@
+.?AULookAndFeelMethods@ProgressBar@juce@@
+.?AULookAndFeelMethods@TextEditor@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4>@?7??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@CA?AVAccessibilityActions@7@AEAV34567@AEAU4567@@Z@X$$V@std@@
+.?AVImagePreviewComponent@juce@@
+.?AUCallable@?1???$create@AEAV?$function@$$A6AXH@Z@std@@@ModalCallbackFunction@juce@@SAPEAVCallback@ModalComponentManager@2@AEAV?$function@$$A6AXH@Z@std@@@Z@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??initDialog@Win32NativeFileChooser@juce@@AEAAXPEAUHWND__@@@Z@X$$V@std@@
+.?AVListBox@juce@@
+.?AVNative@FileChooser@juce@@
+.?AVFocusOutline@juce@@
+.?AVTreeView@juce@@
+.?AUISelectionItemProvider@ComTypes@juce@@
+.?AVButtonPropertyComponent@juce@@
+.?AVComponentScope@RelativeCoordinatePositionerBase@juce@@
+.?AUFunctionSingleton@NativeImpl@ScopedThreadDPIAwarenessSetter@juce@@
+.?AV?$ComBaseClassHelperBase@UIValueProvider@ComTypes@juce@@$$V@juce@@
+.?AULookAndFeelMethods@TabbedButtonBar@juce@@
+.?AVProgressBar@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1???$getListRowAccessibilityActions@VRowComponent@ListBox@juce@@@juce@@YA?AVAccessibilityActions@2@AEAVRowComponent@ListBox@2@@Z@X$$V@std@@
+.?AVApplicationCommandManagerListener@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?BB@??checkForExternalDrag@DragImageComponent@DragAndDropContainer@juce@@AEAAXAEAVSourceDetails@DragAndDropTarget@5@V?$Point@H@5@@Z@X$$V@std@@
+.?AUIDropTarget@@
+.?AUIValueProvider@ComTypes@juce@@
+.?AVAccessibleItemComponent@MenuBarComponent@juce@@
+.?AUTemporaryImage@HWNDComponentPeer@juce@@
+.?AULookAndFeelMethods@Label@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0FileBrowserComponent@juce@@QEAA@HAEBVFile@3@PEBVFileFilter@3@PEAVFilePreviewComponent@3@@Z@X$$V@std@@
+.?AULookAndFeelMethods@ConcertinaPanel@juce@@
+.?AVComponentTraverser@juce@@
+.?AULookAndFeelMethods@Slider@juce@@
+.?AVRowComponent@ListBox@juce@@
+.?AV?$ComBaseClassHelper@UIFileDialogEvents@@@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?O@??updateTabPositions@TabbedButtonBar@juce@@AEAAX_N@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??returnKeyPressed@FileSearchPathListComponent@juce@@UEAAXH@Z@XAEBVFileChooser@4@@std@@
+.?AULookAndFeelMethods@TreeView@juce@@
+.?AVListBoxModel@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?5??showExtraItemsMenu@TabbedButtonBar@juce@@AEAAXXZ@X$$V@std@@
+.?AV?$_Func_base@X_N@std@@
+.?AULookAndFeelMethods@PopupMenu@juce@@
+.?AVTabBarButton@juce@@
+.?AVDrawablePath@juce@@
+.?AV?$ComBaseClassHelper@UISelectionItemProvider@ComTypes@juce@@@juce@@
+.?AVBurgerMenuComponent@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??lookAndFeelChanged@FilenameComponent@juce@@UEAAXXZ@X$$V@std@@
+.?AURemoveAction@TextEditor@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0TextPropertyComponent@juce@@QEAA@AEBVValueTreePropertyWithDefault@3@AEBVString@3@H_N2@Z@X$$V@std@@
+.?AVRowAccessibilityHandler@RowComponent@ListBox@juce@@
+.?AV?$ComBaseClassHelperBase@UIDropSource@@$$V@juce@@
+.?AUHeaderItemComponent@HelperClasses@PopupMenu@juce@@
+.?AVRowAccessibilityHandler@RowComp@TableListBox@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?3??getAccessibilityActions@LabelAccessibilityHandler@juce@@CA?AVAccessibilityActions@4@AEAVLabel@4@@Z@X$$V@std@@
+.?AUJuceDropSource@DragAndDropHelpers@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??getAccessibilityActions@ComboBoxAccessibilityHandler@juce@@CA?AVAccessibilityActions@4@AEAVComboBox@4@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??getAccessibilityActions@ComboBoxAccessibilityHandler@juce@@CA?AVAccessibilityActions@4@AEAVComboBox@4@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??run@Win32NativeFileChooser@juce@@EEAAXXZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1???0FileSearchPathListComponent@juce@@QEAA@XZ@X$$V@std@@
+.?AVUIASelectionProvider@juce@@
+.?AVWindowsBitmapImage@juce@@
+.?AV?$ComBaseClassHelperBase@UIRawElementProviderSimple@@UIRawElementProviderFragment@ComTypes@juce@@UIRawElementProviderFragmentRoot@34@@juce@@
+.?AVLineTo@RelativePointPath@juce@@
+.?AVShadowWindow@DropShadower@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??getAccessibilityActions@ComponentHandler@?1??createAccessibilityHandler@AccessibleItemComponent@MenuBarComponent@juce@@EEAA?AV?$unique_ptr@VAccessibilityHandler@juce@@U?$default_delete@VAccessibilityHandler@juce@@@std@@@std@@XZ@CA?AVAccessibilityActions@7@AEAV567@@Z@X$$V@std@@
+.?AVTargetGroupHighlight@TreeView@juce@@
+.?AUIGridProvider@ComTypes@juce@@
+.?AV?$ComBaseClassHelperBase@UITextRangeProvider@ComTypes@juce@@$$V@juce@@
+.?AVLookAndFeel_V4_DocumentWindowButton@juce@@
+.?AVResizableCornerComponent@juce@@
+.?AUCallbackHelper@Button@juce@@
+.?AV?$_Ref_count_resource@PEAVNonNative@FileChooser@juce@@U?$default_delete@VNonNative@FileChooser@juce@@@std@@@std@@
+.?AUProxyComponent@AnimationTask@ComponentAnimator@juce@@
+.?AUMarkerListScope@juce@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??getAccessibilityActions@ItemAccessibilityHandler@ItemComponent@HelperClasses@PopupMenu@juce@@CA?AVAccessibilityActions@7@AEAV34567@AEAU4567@@Z@X$$V@std@@
+.?AULookAndFeelMethods@FileBrowserComponent@juce@@
+.?AV?$enable_shared_from_this@VNative@FileChooser@juce@@@std@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*' />
+    </dependentAssembly>
+  </dependency>
+</assembly>
+Greater Manchester1
+Salford1
+COMODO CA Limited1705
+.COMODO RSA Extended Validation Code Signing CA0
+200911000000Z
+230911235959Z0
+247419691
+Private Organization1
+1146641
+Taipei1
+Taipei City1
+Neihu District1*0(
+!4F., No.35, Ln. 76, Ruiguang Road1
+I3D Technology Inc.1
+I3D Technology Inc.0
+https://sectigo.com/CPS0
+Dhttp://crl.comodoca.com/COMODORSAExtendedValidationCodeSigningCA.crl0
+Dhttp://crt.comodoca.com/COMODORSAExtendedValidationCodeSigningCA.crt0$
+http://ocsp.comodoca.com02
+TW-24741969
+sam@i3d.io0
+[nad	%
+Greater Manchester1
+Salford1
+COMODO CA Limited1+0)
+"COMODO RSA Certification Authority0
+141203000000Z
+291202235959Z0
+Greater Manchester1
+Salford1
+COMODO CA Limited1705
+.COMODO RSA Extended Validation Code Signing CA0
+=U5W5H
+https://secure.comodo.com/CPS0L
+;http://crl.comodoca.com/COMODORSACertificationAuthority.crl0q
+/http://crt.comodoca.com/COMODORSAAddTrustCA.crt0$
+http://ocsp.comodoca.com0
+Greater Manchester1
+Salford1
+COMODO CA Limited1705
+.COMODO RSA Extended Validation Code Signing CA
+w?$"H>K
+20230828230750Z
+Manchester1
+Sectigo Limited1,0*
+#Sectigo RSA Time Stamping Signer #4
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA0
+230503000000Z
+340802235959Z0j1
+Manchester1
+Sectigo Limited1,0*
+#Sectigo RSA Time Stamping Signer #40
+ r dAl
+https://sectigo.com/CPS0
+3http://crl.sectigo.com/SectigoRSATimeStampingCA.crl0t
+3http://crt.sectigo.com/SectigoRSATimeStampingCA.crt0#
+http://ocsp.sectigo.com0
+OYDeKCd
+New Jersey1
+Jersey City1
+The USERTRUST Network1.0,
+%USERTrust RSA Certification Authority0
+190502000000Z
+380118235959Z0}1
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA0
+?http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl0v
+3http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt0%
+http://ocsp.usertrust.com0
+rRj;B7|
+[C]e=P
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA
+230828230750Z0?
+Z+u`>?'
+New Jersey1
+Jersey City1
+The USERTRUST Network1.0,
+%USERTrust RSA Certification Authority
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 20120
+230112191451Z
+231215191451Z0
+Washington1
+Redmond1
+Microsoft Corporation1;09
+2Microsoft Windows Hardware Compatibility Publisher0
+I0G1-0+
+$Microsoft Ireland Operations Limited1
+232825+5000490
+chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+()KeGaf
+Washington1
+Redmond1
+Microsoft Corporation1200
+)Microsoft Root Certificate Authority 20100
+120418234838Z
+270418235838Z0
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 20120
+-g<'<V
+}PH.=C
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+p%|Yi1$
+Washington1
+Redmond1
+Microsoft Corporation1806
+/Microsoft Windows Third Party Component CA 2012
+(https://www.microsoft.com/en-us/windows 0
+ E"f\2
+20230828232245.698Z0
+Washington1
+Redmond1
+Microsoft Corporation1%0#
+Microsoft America Operations1'0%
+nShield TSS ESN:7F00-05E0-D9471%0#
+Microsoft Time-Stamp Service
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+230525191230Z
+240201191230Z0
+Washington1
+Redmond1
+Microsoft Corporation1%0#
+Microsoft America Operations1'0%
+nShield TSS ESN:7F00-05E0-D9471%0#
+Microsoft Time-Stamp Service0
+Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+Washington1
+Redmond1
+Microsoft Corporation1200
+)Microsoft Root Certificate Authority 20100
+210930182225Z
+300930183225Z0|1
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+as.,k{n?,	x
+Washington1
+Redmond1
+Microsoft Corporation1%0#
+Microsoft America Operations1'0%
+nShield TSS ESN:7F00-05E0-D9471%0#
+Microsoft Time-Stamp Service
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 20100
+20230828112309Z
+20230829112309Z0w0=
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 2010
+Washington1
+Redmond1
+Microsoft Corporation1&0$
+Microsoft Time-Stamp PCA 2010

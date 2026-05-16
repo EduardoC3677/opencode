@@ -1,0 +1,1108 @@
+!This program cannot be run in DOS mode.
+.textbss9
+`.rdata
+@.data
+.idata
+stLocal
+szINIDirPath
+verify
+vFileList
+szModulePath
+szSrcDirPath
+_Fileposition
+_Fileposition
+wQjchh
+_Psave
+_Psave
+_Psave
+_Enders
+_Groupstring
+_Grouping
+_Grouping
+_Psave
+_Secure
+sourceFiles
+source
+newname
+source
+directory
+sourceFiles
+source
+sourceFiles
+source
+newname
+dirfiles
+upDirectory
+currentDirectory
+directory
+_Base_tag
+pszNameA
+pszBufferA
+_$AllocaPad$
+_AtlSafeAllocaManager
+_convert_ex
+_$AllocaPad$
+bStackAvailable
+_$AllocaPad$
+_AtlSafeAllocaManager
+_convert_ex
+_$AllocaPad$
+_AtlSafeAllocaManager
+_convert_ex
+_$AllocaPad$
+_AtlSafeAllocaManager
+_convert_ex
+tResult
+tResult
+_Result
+_Base_tag
+_Result
+u!h<1O
+u!h43O
+u!h@6O
+u!h@8O
+u!hp9O
+|!hHCO
+jUhXHO
+jihXHO
+jUh@IO
+}Vh(KO
+j=hpKO
+}]h$LO
+PjXhdLO
+jYhXMO
+|!hHCO
+|!hHCO
+u!hLTO
+t!hdTO
+|!hHCO
+juhHUO
+t!h`VO
+u!hXWO
+u!h8ZO
+jThP`O
+|!hHCO
+|!hHCO
+}\h`gO
+u!h4iO
+t!h0jO
+t!h4kO
+u!h4hO
+u!h,jO
+Qj#htwO
+PPPPPPPP
+~_jKh,
+PRSVWh
+u!hp}O
+u!hp}O
+u!hp}O
+URPQQhH
+uZj[h<
+jDh  P
+jEh  P
+jFh  P
+jbh  P
+jbh  P
+jDh<!P
+jDh<!P
+jPh<!P
+jPh<!P
+jVh<!P
+jVh<!P
+j\hP"P
+jghP"P
+jjh4"P
+t!h`"P
+toj@hd#P
+jSh@$P
+jYh@$P
+jeh@$P
+u!hT,P
+u!h8,P
+u!hP0P
+u!h0/P
+u!h .P
+u!h0/P
+u!hP-P
+PPPPPPPP
+Qj@h@9P
+;t$,v-
+UQPXY]Y[
+Du5h8GP
+																																			
+											
+											
+												
+t$hdIP
+jNhTKP
+jNhTKP
+jOhTKP
+jOhTKP
+jZhTKP
+jUh\MP
+jUh\MP
+jVh\MP
+jVh\MP
+jWh\MP
+jWh\MP
+jbh\MP
+u!h$MP
+u!htMP
+jJhHNP
+jJhHNP
+j]hHNP
+j]hHNP
+j{hHNP
+j{hHNP
+j1hhOP
+j1hhOP
+j.h$QP
+j*hhQP
+j*hhQP
+j#hhVP
+j#hhVP
+j*hhVP
+j*hhVP
+jDhhVP
+j4hxWP
+j4hxWP
+jhh,YP
+jhh,YP
+u!h@YP
+u!hT[P
+j9hT\P
+j9hT\P
+j:hT\P
+j:hT\P
+u!h@YP
+u!hT[P
+j4hh]P
+j4hh]P
+j5hh]P
+j5hh]P
+jbhh]P
+jbhh]P
+jchh]P
+jchh]P
+j4hH^P
+j4hH^P
+j|hXaP
+r!h bP
+u!hXdP
+j8h|eP
+j8h|eP
+j9h|eP
+j9h|eP
+j:h|eP
+j:h|eP
+jBh|eP
+j=h hP
+j=h hP
+j>h hP
+j>h hP
+j?h hP
+j?h hP
+j=h<hP
+;U$trj
+t!h`hP
+j?h<iP
+j?h<iP
+j@h<iP
+j@h<iP
+jAh<iP
+jAh<iP
+bad allocation
+Time = 
+Size = 
+Filename = 
+Autorun.ini
+c:\program files\microsoft visual studio 8\vc\include\xdebug
+c:\program files\microsoft visual studio 8\vc\atlmfc\include\cstringt.h
+Warning: implicit LoadString(%u) failed
+c:\program files\microsoft visual studio 8\vc\atlmfc\include\atlexcept.h
+AtlThrow: hr = 0x%x
+ios_base::eofbit set
+ios_base::failbit set
+ios_base::badbit set
+c:\program files\microsoft visual studio 8\vc\include\streambuf
+vector<T> too long
+c:\program files\microsoft visual studio 8\vc\include\xiosbase
+bad cast
+c:\program files\microsoft visual studio 8\vc\include\xlocale
+bad locale name
+c:\program files\microsoft visual studio 8\vc\include\xlocnum
+TypeLib
+Software
+SYSTEM
+SECURITY
+Hardware
+Interface
+FileType
+Component Categories
+Delete
+NoRemove
+ForceRemove
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+atlTraceUser
+atlTraceUser2
+atlTraceUser3
+atlTraceUser4
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+Subclassing through a hook discarded.
+AtlTraceModuleManager_ProcessAddedStatic3
+AtlDebugAllocator_FileMappingNameStatic3
+%s_%0x
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+Subclassing through a hook discarded.
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlexcept.h
+%s(%d) : 
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+Subclassing through a hook discarded.
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+Subclassing through a hook discarded.
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atlbase.cpp
+ERROR : Unable to initialize critical section in CAtlBaseModule
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atlbase.cpp
+ERROR : Unable to lock critical section in CAtlBaseModule
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atlbase.cpp
+ERROR : Unable to lock critical section in CAtlBaseModule
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atlbase.cpp
+ERROR : Unable to lock critical section in CAtlBaseModule
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+Subclassing through a hook discarded.
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+Subclassing through a hook discarded.
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+Subclassing through a hook discarded.
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+ERROR : Unable to lock critical section in AtlComModuleGetClassObject
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+ERROR : Unable to lock critical section in AtlWinModuleAddCreateWndData
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+ERROR : Unable to lock critical section in AtlWinModuleExtractCreateWndData
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+ERROR : Unable to initialize critical section in AtlWinModuleInit
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+ERROR : Unable to lock critical section in AtlModuleAddTermFunc
+Subclassing through a hook discarded.
+unknown
+exception: 
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\xdebug
+xmutex.cpp
+string too long
+invalid string position
+invalid string argument
+locale0.cpp
+_tolower.c
+xmbtowc.c
+Unknown exception
+setvbuf.c
+f:\sp\vctools\crt_bld\self_x86\crt\src\dbgrpt.c
+_CrtDbgReport: String too long or Invalid characters in String
+Expression cannot be displayed on Win9x
+Client
+Ignore
+Normal
+Error: memory allocation: bad memory block type.
+Invalid allocation size: %Iu bytes.
+Client hook allocation failure.
+Client hook allocation failure at file %hs line %d.
+The Block at 0x%p was allocated by aligned routines, use _aligned_realloc()
+Error: memory allocation: bad memory block type.
+Memory allocated at %hs(%d).
+Invalid allocation size: %Iu bytes.
+Memory allocated at %hs(%d).
+Client hook re-allocation failure.
+Client hook re-allocation failure at file %hs line %d.
+HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.
+CRT detected that the application wrote to memory after end of heap buffer.
+HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.
+CRT detected that the application wrote to memory after end of heap buffer.
+Memory allocated at %hs(%d).
+HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.
+CRT detected that the application wrote to memory before start of heap buffer.
+HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.
+CRT detected that the application wrote to memory before start of heap buffer.
+Memory allocated at %hs(%d).
+Client hook free failure.
+The Block at 0x%p was allocated by aligned routines, use _aligned_free()
+%hs located at 0x%p is %Iu bytes long.
+%hs located at 0x%p is %Iu bytes long.
+Memory allocated at %hs(%d).
+HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.
+CRT detected that the application wrote to a heap buffer that was freed.
+HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.
+CRT detected that the application wrote to a heap buffer that was freed.
+Memory allocated at %hs(%d).
+DAMAGED
+_heapchk fails with unknown return value!
+_heapchk fails with _HEAPBADPTR.
+_heapchk fails with _HEAPBADEND.
+_heapchk fails with _HEAPBADNODE.
+_heapchk fails with _HEAPBADBEGIN.
+Bad memory block found at 0x%p.
+Bad memory block found at 0x%p.
+Memory allocated at %hs(%d).
+Object dump complete.
+crt block at 0x%p, subtype %x, %Iu bytes long.
+normal block at 0x%p, %Iu bytes long.
+client block at 0x%p, subtype %x, %Iu bytes long.
+{%ld} 
+%hs(%d) : 
+#File Error#(%d) : 
+Dumping objects ->
+ Data: <%s> %s
+Detected memory leaks!
+Total allocations: %Id bytes.
+Largest number used: %Id bytes.
+%Id bytes in %Id %hs Blocks.
+Damage before 0x%p which was allocated by aligned routine
+The block at 0x%p was not allocated by _aligned routines, use realloc()
+The block at 0x%p was not allocated by _aligned routines, use free()
+chdir.c
+SetThreadStackGuarantee
+kernel32.dll
+onexit.c
+Assertion Failed
+Warning
+dbgrpt.c
+Microsoft Visual C++ Debug Library
+_CrtDbgReport: String too long or IO Error
+Debug %s!
+Program: %s%s%s%s%s%s%s%s%s%s%s%s
+(Press Retry to debug the application)
+Module: 
+File: 
+Line: 
+Expression: 
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts.
+<program name unknown>
+_file.c
+CorExitProcess
+mscoree.dll
+bad exception
+LC_TIME
+LC_NUMERIC
+LC_MONETARY
+LC_CTYPE
+LC_COLLATE
+LC_ALL
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+setlocal.c
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+initctyp.c
+mlock.c
+Unknown Runtime Check Error
+Stack memory around _alloca was corrupted
+A local variable was used before it was initialized
+Stack memory was corrupted
+A cast to a smaller data type has caused a loss of data.  If this was intentional, you should mask the source of the cast with the appropriate bitmask.  For example:  
+	char c = (i & 0xFF);
+Changing the code in this way will not affect the quality of the resulting optimized code.
+The value of ESP was not properly saved across a function call.  This is usually a result of calling a function declared with one calling convention with a function pointer declared with a different calling convention.
+Stack around the variable '
+' was corrupted.
+The variable '
+' is being used without being initialized.
+Run-Time Check Failure #%d - %s
+Unknown Module Name
+Unknown Filename
+Stack corrupted near unknown variable
+Stack area around _alloca memory reserved by this function is corrupted
+%s%s%s%s
+%s%s%p%s%ld%s%d%s
+Stack area around _alloca memory reserved by this function is corrupted
+Address: 0x
+Size: 
+Allocation number within this function: 
+Data: <
+wsprintfA
+user32.dll
+A variable is being used without being initialized.
+Stack around _alloca corrupted
+Local variable used before initialization
+Stack memory corruption
+Cast to smaller type causing loss of data
+Stack pointer corruption
+i386\chkesp.c
+The value of ESP was not properly saved across a function call.  This is usually a result of calling a function declared with one calling convention with a function pointer declared with a different calling convention. 
+EncodePointer
+KERNEL32.DLL
+.mixcrt
+DecodePointer
+tidtable.c
+FlsFree
+FlsSetValue
+FlsGetValue
+FlsAlloc
+ioinit.c
+_getbuf.c
+%s(%d) : %s
+Assertion failed!
+Assertion failed: 
+, Line 
+<file unknown>
+Second Chance Assertion Failed: File 
+winsig.c
+GetProcessWindowStation
+GetUserObjectInformationW
+GetLastActivePopup
+GetActiveWindow
+MessageBoxW
+mbctype.c
+(null)
+`h````
+xpxxxx
+output.c
+f:\sp\vctools\crt_bld\self_x86\crt\src\output.c
+`h`hhh
+xppwpp
+IsProcessorFeaturePresent
+KERNEL32
+drive.c
+stdenvp.c
+stdargv.c
+a_env.c
+runtime error 
+TLOSS error
+SING error
+DOMAIN error
+An application has made an attempt to load the C runtime library without using a manifest.
+This is an unsupported way to load Visual C++ DLLs. You need to modify your application to build with a manifest.
+For more information, see the "Visual C++ Libraries as Shared Side-by-Side Assemblies" topic in the product documentation.
+- Attempt to use MSIL code from this assembly during native code initialization
+This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+- not enough space for locale information
+- Attempt to initialize the CRT more than once.
+This indicates a bug in your application.
+- CRT not initialized
+- unable to initialize heap
+- not enough space for lowio initialization
+- not enough space for stdio initialization
+- pure virtual function call
+- not enough space for _onexit/atexit table
+- unable to open console device
+- unexpected heap error
+- unexpected multithread lock error
+- not enough space for thread data
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+- not enough space for environment
+- not enough space for arguments
+- floating point support not loaded
+Microsoft Visual C++ Runtime Library
+Runtime Error!
+Program: 
+GetUserObjectInformationA
+MessageBoxA
+USER32.DLL
+_sftbuf.c
+UTF-16LE
+UNICODE
+stream.c
+SystemFunction036
+ADVAPI32.DLL
+inithelp.c
+InitializeCriticalSectionAndSpinCount
+inittime.c
+initnum.c
+initmon.c
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+strftime.c
+united-states
+united-kingdom
+trinidad & tobago
+south-korea
+south-africa
+south korea
+south africa
+slovak
+puerto-rico
+pr-china
+pr china
+new-zealand
+hong-kong
+holland
+great britain
+england
+britain
+america
+swedish-finland
+spanish-venezuela
+spanish-uruguay
+spanish-puerto rico
+spanish-peru
+spanish-paraguay
+spanish-panama
+spanish-nicaragua
+spanish-modern
+spanish-mexican
+spanish-honduras
+spanish-guatemala
+spanish-el salvador
+spanish-ecuador
+spanish-dominican republic
+spanish-costa rica
+spanish-colombia
+spanish-chile
+spanish-bolivia
+spanish-argentina
+portuguese-brazilian
+norwegian-nynorsk
+norwegian-bokmal
+norwegian
+italian-swiss
+irish-english
+german-swiss
+german-luxembourg
+german-lichtenstein
+german-austrian
+french-swiss
+french-luxembourg
+french-canadian
+french-belgian
+english-usa
+english-us
+english-uk
+english-trinidad y tobago
+english-south africa
+english-nz
+english-jamaica
+english-ire
+english-caribbean
+english-can
+english-belize
+english-aus
+english-american
+dutch-belgian
+chinese-traditional
+chinese-singapore
+chinese-simplified
+chinese-hongkong
+chinese
+canadian
+belgian
+australian
+american-english
+american english
+american
+Norwegian-Nynorsk
+convrtcp.c
+MSPDB80.DLL
+PDBOpenValidate5
+EnvironmentDirectory
+SOFTWARE\Microsoft\VisualStudio\8.0\Setup\VS
+RegCloseKey
+RegQueryValueExA
+RegOpenKeyExA
+ Complete Object Locator'
+ Class Hierarchy Descriptor'
+ Base Class Array'
+ Base Class Descriptor at (
+ Type Descriptor'
+`local static thread guard'
+`managed vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`vector copy constructor iterator'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector vbase copy constructor iterator'
+`eh vector copy constructor iterator'
+`managed vector destructor iterator'
+`managed vector constructor iterator'
+`placement delete[] closure'
+`placement delete closure'
+`omni callsig'
+ delete[]
+ new[]
+`local vftable constructor closure'
+`local vftable'
+`udt returning'
+`copy constructor closure'
+`eh vector vbase constructor iterator'
+`eh vector destructor iterator'
+`eh vector constructor iterator'
+`virtual displacement map'
+`vector vbase constructor iterator'
+`vector destructor iterator'
+`vector constructor iterator'
+`scalar deleting destructor'
+`default constructor closure'
+`vector deleting destructor'
+`vbase destructor'
+`string'
+`local static guard'
+`typeof'
+`vcall'
+`vbtable'
+`vftable'
+operator
+ delete
+__unaligned
+__restrict
+__ptr64
+__clrcall
+__fastcall
+__thiscall
+__stdcall
+__pascal
+__cdecl
+__based(
+generic-type-
+template-parameter-
+`anonymous namespace'
+`non-type-template-parameter
+`template-parameter
+extern "C" 
+[thunk]:
+public: 
+protected: 
+private: 
+virtual 
+static 
+`template static data member destructor helper'
+`template static data member constructor helper'
+`local static destructor helper'
+`adjustor{
+`vtordisp{
+`vtordispex{
+volatile
+,<ellipsis>
+<ellipsis>
+ throw(
+ volatile
+signed 
+unsigned 
+UNKNOWN
+__w64 
+wchar_t
+__int128
+__int64
+__int32
+__int16
+__int8
+double
+cointerface 
+coclass 
+class 
+struct 
+union 
+`unknown ecsu'
+short 
+const 
+volatile 
+cli::pin_ptr<
+cli::array<
+{flat}
+osfinfo.c
+read.c
+tzset.c
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+CONIN$
+CONOUT$
+1#QNAN
+1#SNAN
+wtombenv.c
+setenv.c
+d:\Working\Projects\Gaia\Code\CheckFiles\CheckFiles\Debug\CheckFiles.pdb
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AVios_base@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_fstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AVCAtlException@ATL@@
+.?AVfailure@ios_base@std@@
+.?AVruntime_error@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVbad_cast@std@@
+.?AV?$ctype@D@std@@
+.?AUctype_base@std@@
+.?AVfacet@locale@std@@
+.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$codecvt@DDH@std@@
+.?AVcodecvt_base@std@@
+.?AV?$numpunct@D@std@@
+Qkkbal
+.?AUThank_you@Define_the_symbol__ATL_MIXED@@
+.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+.?AVout_of_range@std@@
+.?AVinvalid_argument@std@@
+.?AV_Locimp@locale@std@@
+Copyright (c) 1992-2004 by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+.?AVtype_info@@
+.?AVbad_typeid@std@@
+.?AV__non_rtti_object@std@@
+.?AVbad_exception@std@@
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+.?AVDNameNode@@
+.?AVcharNode@@
+.?AVpcharNode@@
+.?AVpDNameNode@@
+.?AVDNameStatusNode@@
+SystemTimeToTzSpecificLocalTime
+FileTimeToSystemTime
+GetFileAttributesExA
+GetModuleFileNameA
+FindResourceA
+SizeofResource
+LockResource
+LoadResource
+FindResourceExA
+WideCharToMultiByte
+CloseHandle
+GetFileSize
+CreateFileA
+GetLastError
+lstrlenA
+GetEnvironmentVariableW
+GetVersion
+InterlockedExchange
+MultiByteToWideChar
+GetEnvironmentVariableA
+CompareStringW
+CompareStringA
+lstrlenW
+GetStringTypeExW
+GetStringTypeExA
+lstrcmpiW
+lstrcmpiA
+GetVersionExA
+GetACP
+GetLocaleInfoA
+GetThreadLocale
+GetCurrentProcessId
+RaiseException
+SetEvent
+OpenEventA
+OutputDebugStringA
+OutputDebugStringW
+GetProcessHeap
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+HeapDestroy
+InitializeCriticalSection
+DeleteCriticalSection
+LeaveCriticalSection
+EnterCriticalSection
+VirtualAlloc
+UnmapViewOfFile
+GetSystemInfo
+MapViewOfFile
+CreateFileMappingA
+GetCurrentThread
+OpenFileMappingA
+InterlockedIncrement
+InterlockedDecrement
+GetModuleFileNameW
+WaitForSingleObject
+GetCurrentThreadId
+KERNEL32.dll
+LoadStringA
+RegisterClassExA
+LoadCursorA
+LoadIconA
+UpdateWindow
+ShowWindow
+CreateWindowExA
+PostQuitMessage
+EndPaint
+BeginPaint
+DefWindowProcA
+DestroyWindow
+DialogBoxParamA
+EndDialog
+CharLowerW
+CharLowerA
+CharUpperW
+CharUpperA
+UnregisterClassA
+DispatchMessageA
+DispatchMessageW
+TranslateMessage
+GetMessageA
+GetMessageW
+IsWindowUnicode
+PeekMessageA
+MsgWaitForMultipleObjects
+USER32.dll
+SetThreadToken
+RevertToSelf
+OpenThreadToken
+ADVAPI32.dll
+CoReleaseMarshalData
+CoMarshalInterface
+CreateStreamOnHGlobal
+CoUnmarshalInterface
+CoRevokeClassObject
+CoRegisterClassObject
+ole32.dll
+InterlockedCompareExchange
+RtlUnwind
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+HeapValidate
+IsBadReadPtr
+SetEnvironmentVariableA
+GetCurrentDirectoryA
+SetCurrentDirectoryA
+GetFullPathNameA
+GetDriveTypeA
+FindFirstFileA
+FindNextFileA
+FindClose
+FileTimeToLocalFileTime
+VirtualProtect
+GetProcAddress
+GetModuleHandleA
+VirtualQuery
+GetCommandLineA
+GetStartupInfoA
+ExitProcess
+LCMapStringA
+LCMapStringW
+GetCPInfo
+FatalAppExitA
+DebugBreak
+LoadLibraryA
+TlsGetValue
+TlsAlloc
+TlsSetValue
+TlsFree
+SetLastError
+WriteFile
+GetConsoleCP
+GetConsoleMode
+SetHandleCount
+GetStdHandle
+GetFileType
+ReadFile
+SetFilePointer
+FlushFileBuffers
+WriteConsoleW
+SetConsoleCtrlHandler
+LoadLibraryW
+HeapCreate
+VirtualFree
+GetOEMCP
+IsValidCodePage
+QueryPerformanceCounter
+GetTickCount
+GetSystemTimeAsFileTime
+FreeEnvironmentStringsA
+GetEnvironmentStrings
+FreeEnvironmentStringsW
+GetEnvironmentStringsW
+FreeLibrary
+GetTimeFormatA
+GetDateFormatA
+GetStringTypeA
+GetStringTypeW
+IsValidLocale
+EnumSystemLocalesA
+GetUserDefaultLCID
+SetStdHandle
+WriteConsoleA
+GetConsoleOutputCP
+GetTimeZoneInformation
+CreateFileW
+GetLocaleInfoW
+SetEndOfFile
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+</assembly>
+wwwwwwwwwwwwwwwpx
+pxwwwwwwwwwwwwwxpx
+pxDDDDDDDDD@
+pxDDDDDDDDDH
+pxDDDDDDDDDH
+pxDDDDDDDDDDDDDDpx
+pwwwwwwwwwwwwwwwp
+wwwwwwwpx
+pxwwwwwwpxDDD
+pxDDDDDDpx
+pwwwwwwww
+63[4]5mm]5\]m]mm5\mm5555555\\\5\\\5m\55\\5ed:
+cOXY/P.Z0.0.QR00/ZPP0000000/0PPZR.BI@/DE0,
+WkV21TSav^8{
+}>qooggggggg1`_fhsnHK
+Nw~ytMMMMMMUbbrrrrrxxxxxxxxrriUMMMMMMMMMUuzt
+I3')+*+)))*))()*+++,6J!54 CBA
+jYPQTVTSkllZTTXRTUiHceWda/
+}zy|yx~
+{|yvrrwsqpon
+PPPPPPPPPPPPPPPPPKMNNNNNNNNNNOLO
+JHHGGGGGGGGHI
+JEEEEEEEEEEFC
+JEEEEEEEEEEFC
+JEEEEEEEEEEFD
+JEFEEEEEEEEEB
+O%JEEEEEEEEEFFB
+JJIIIIJIIIIJJ
+O(@>=77A779?<8;$O' 
+)O6530./21+*-,4#4PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+wwwwwwwwwwwwwwwpx
+pxwwwwwwwwwwwwwxpx
+pxDDDDDDDDD@
+pxDDDDDDDDDH
+pxDDDDDDDDDH
+pxDDDDDDDDDDDDDDpx
+pwwwwwwwwwwwwwwwp
+wwwwwwwpx
+pxwwwwwwpxDDD
+pxDDDDDDpx
+pwwwwwwww
+63[4]5mm]5\]m]mm5\mm5555555\\\5\\\5m\55\\5ed:
+cOXY/P.Z0.0.QR00/ZPP0000000/0PPZR.BI@/DE0,
+WkV21TSav^8{
+}>qooggggggg1`_fhsnHK
+Nw~ytMMMMMMUbbrrrrrxxxxxxxxrriUMMMMMMMMMUuzt
+I3')+*+)))*))()*+++,6J!54 CBA
+jYPQTVTSkllZTTXRTUiHceWda/
+}zy|yx~
+{|yvrrwsqpon
+PPPPPPPPPPPPPPPPPKMNNNNNNNNNNOLO
+JHHGGGGGGGGHI
+JEEEEEEEEEEFC
+JEEEEEEEEEEFC
+JEEEEEEEEEEFD
+JEFEEEEEEEEEB
+O%JEEEEEEEEEFFB
+JJIIIIJIIIIJJ
+O(@>=77A779?<8;$O' 
+)O6530./21+*-,4#4PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+VeriSign, Inc.1+0)
+"VeriSign Time Stamping Services CA0
+070615000000Z
+120614235959Z0\1
+VeriSign, Inc.1402
++VeriSign Time Stamping Services Signer - G20
+6^bMRQ4q
+JcEG.k
+http://ocsp.verisign.com0
+"http://crl.verisign.com/tss-ca.crl0
+TSA1-20
+Western Cape1
+Durbanville1
+Thawte1
+Thawte Certification1
+Thawte Timestamping CA0
+031204000000Z
+131203235959Z0S1
+VeriSign, Inc.1+0)
+"VeriSign Time Stamping Services CA0
+http://ocsp.verisign.com0
+0http://crl.verisign.com/ThawteTimestampingCA.crl0
+TSA2048-1-530
+?7!Op1
+VeriSign, Inc.1705
+.Class 3 Public Primary Certification Authority0
+040716000000Z
+140715235959Z0
+VeriSign, Inc.1
+VeriSign Trust Network1;09
+2Terms of use at https://www.verisign.com/rpa (c)041.0,
+%VeriSign Class 3 Code Signing 2004 CA0
+https://www.verisign.com/rpa01
+ http://crl.verisign.com/pca3.crl0
+Class3CA2048-1-430
+==d6|h
+VeriSign, Inc.1705
+.Class 3 Public Primary Certification Authority
+Washington1
+Redmond1
+Microsoft Corporation1)0'
+ Microsoft Code Verification Root0
+060523170129Z
+160523171129Z0_1
+VeriSign, Inc.1705
+.Class 3 Public Primary Certification Authority0
+Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+n.aAHu
+g.Q{49
+uN1+gc
+VeriSign, Inc.1
+VeriSign Trust Network1;09
+2Terms of use at https://www.verisign.com/rpa (c)041.0,
+%VeriSign Class 3 Code Signing 2004 CA0
+070725000000Z
+100914235959Z0
+Taiwan1
+Taipei1
+Acer Incorporated1>0<
+5Digital ID Class 3 - Microsoft Software Validation v21
+OS Certification Dept.1
+Acer Incorporated0
+/[J%d@
+/http://CSC3-2004-crl.verisign.com/CSC3-2004.crl0D
+https://www.verisign.com/rpa0
+http://ocsp.verisign.com0?
+3http://CSC3-2004-aia.verisign.com/CSC3-2004-aia.cer0
+==d6|h
+VeriSign, Inc.1
+VeriSign Trust Network1;09
+2Terms of use at https://www.verisign.com/rpa (c)041.0,
+%VeriSign Class 3 Code Signing 2004 CA
+dW^~T9Sd
+VeriSign, Inc.1+0)
+"VeriSign Time Stamping Services CA
+091029112524Z0#
+LQy;O#

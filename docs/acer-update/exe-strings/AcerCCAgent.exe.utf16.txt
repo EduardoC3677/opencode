@@ -1,0 +1,1223 @@
+cOPENSSL_ia32cap
+Microsoft Enhanced RSA and AES Cryptographic Provider
+Microsoft Enhanced Cryptographic Provider v1.0
+Service-0x
+no stack?
+OpenSSL
+OpenSSL: FATAL
+@@@@@@@@@hHHHH@@@@@@@@@@@@@@@@@@
+dOPENSSL_WIN32_UTF8
+%)+/5;=CGIOSYaegkmq
+CONOUT$
+HOMEDRIVE
+HOMEDRIVE=
+HOMEPATH
+HOMEPATH=
+LOGONSERVER
+LOGONSERVER=
+SYSTEMDRIVE
+SYSTEMDRIVE=
+SYSTEMROOT
+SYSTEMROOT=
+USERDOMAIN
+USERDOMAIN=
+USERNAME
+USERNAME=
+USERPROFILE
+USERPROFILE=
+WINDIR
+WINDIR=
+\\?\UNC\
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+%s\%.*s
+#+3;CScs
+kernel32.dll
+:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+:AM:am:PM:pm
+api-ms-win-core-synch-l1-2-0.dll
+ERROR : Unable to initialize critical section in CAtlBaseModule
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+kernel32
+api-ms-
+(null)
+minkernel\crts\ucrt\inc\corecrt_internal_strtox.h
+__crt_strtox::floating_point_value::as_double
+_is_double
+__crt_strtox::floating_point_value::as_float
+!_is_double
+LC_ALL
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+mscoree.dll
+         (((((                  H
+         (((((                  H
+      (                          
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+api-ms-win-core-datetime-l1-1-1
+api-ms-win-core-file-l1-2-4
+api-ms-win-core-file-l1-2-2
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-winrt-l1-1-0
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+advapi32
+kernelbase
+api-ms-win-appmodel-runtime-l1-1-2
+user32
+ext-ms-
+american
+american english
+american-english
+australian
+belgian
+canadian
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+dutch-belgian
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+irish-english
+italian-swiss
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+portuguese-brazilian
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+swedish-finland
+america
+britain
+england
+great britain
+holland
+hong-kong
+new-zealand
+pr china
+pr-china
+puerto-rico
+slovak
+south africa
+south korea
+south-africa
+south-korea
+trinidad & tobago
+united-kingdom
+united-states
+UTF-16LEUNICODE
+zh-CHS
+az-AZ-Latn
+uz-UZ-Latn
+kok-IN
+syr-SY
+div-MV
+quz-BO
+sr-SP-Latn
+az-AZ-Cyrl
+uz-UZ-Cyrl
+quz-EC
+sr-SP-Cyrl
+quz-PE
+smj-NO
+bs-BA-Latn
+smj-SE
+sr-BA-Latn
+sma-NO
+sr-BA-Cyrl
+sma-SE
+sms-FI
+smn-FI
+zh-CHT
+az-az-cyrl
+az-az-latn
+bs-ba-latn
+div-mv
+kok-in
+quz-bo
+quz-ec
+quz-pe
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+syr-sy
+uz-uz-cyrl
+uz-uz-latn
+zh-chs
+zh-cht
+"#$%&'(
+SELECT * FROM %s
+GetInstanceName: ExecQuery() failed for %s!!, Error Code: 0x%lX
+GetInstanceName: Next() failed!!, Error Code: 0x%lX
+GetInstanceName: uReturn == 0
+GetInstanceName: BeginEnumeration() failed!!, Error Code: %ld
+GetInstanceName: pstrName: %s, type: %ld
+InstanceName
+GetInstanceName: ClassName: %s, InstanceName: %s
+uBatteryNo
+GetMethodInfo: CreateInstanceEnum() failed for %s!!, Error Code: 0x%lX
+GetMethodInfo: Next() is WBEM_S_TIMEDOUT, continue again!!
+GetMethodInfo: Next() failed for %s!!, Error Code: 0x%lX
+__PATH
+uBatteryInfoIndex
+GetMethod: ClassName: %s, __PATH failed!! Error Code: 0x%lX
+GetMethod: ClassName: %s, __PATH: %s
+GetMethodInfo: GetObject() failed for %s!!, Error Code: 0x%lX
+GetMethod: GetMethod() failed for %s!!, Error Code: 0x%lX
+uBatteryNo
+EnumParameters: BeginEnumeration() failed!!, Error Code: 0x%lX
+EnumParameters: pstrName: NULL, vt: %d, type: %ld
+uReservedIn
+EnumParameters: pstrName: %s, vt: %d, lVal: %d, type: %ld
+ROOT\WMI
+PutUI4ValueToInParams: Put() failed for %s!!, Error Code: 0x%lX
+PutUI1ValueToInParams: Put() failed for %s!!, Error Code: 0x%lX
+PutUI1ArrayValueToInParams: SafeArrayCreate() failed for %s!!
+PutUI1ArrayValueToInParams: SafeArrayPutElement() failed for %s!!, Error Code: 0x%lX
+PutUI1ArrayValueToInParams: Put() failed for %s!!, Error Code: 0x%lX
+GetI4ValueFromOutParams: Get() failed for %s!!, Error Code: 0x%lX
+uBatteryNo
+GetI4ValueFromOutParams: %s: Value: %d
+BatteryControl
+uReturn
+uReserved
+GetUI1ValueFromOutParams: Get() failed for %s!!, Error Code: 0x%lX
+GetUI1ValueFromOutParams: %s: Value: %d
+GetUI1ArrayValueFromOutParams: Get() failed for %s!!, Error Code: 0x%lX
+GetUI1ArrayValueFromOutParams: %s: Item: %d, Value: %d
+GetBattInfoInterface
+BatteryControl
+SetBatteryHealthControl
+GetBatteryInfoInterface: SpawnInstance!!, Error Code: 0x%lX
+GetBattInfoInterface
+GetBattInfoInterface
+BatteryControl
+uFunctionStatus
+AcerQAAgent
+GetBatteryInfoInterface: ExecMethod() failed for %s!!, Error Code: 0x%lX
+BatteryControl
+SetBatteryHealthControl
+AcerDIAgent
+CheckBatteryHealth: SpawnInstance!!, Error Code: 0x%lX
+uFunctionMask
+SetBatteryHealthControl
+CheckBatteryHealth: ExecMethod() failed for %s!!, Error Code: 0x%lX
+uReturn
+GetBatteryDevicePath: SetupDiGetClassDevs() failed!!, Error Code: 0x%lX
+GetBatteryDevicePath: SetupDiEnumDeviceInterfaces() failed!!, BatteryIndex: %d, Error Code: 0x%lX
+CareCenter
+GetBatteryDevicePath: SetupDiGetInterfaceDeviceDetail() failed!!, BatteryIndex: %d, Error Code: 0x%lX
+GetBatteryDevicePath: malloc() failed!!, BatteryIndex: %d
+AcerCCAgent
+GetBatteryDevicePath: SetupDiGetInterfaceDeviceDetail() failed!!, BatteryIndex: %d, Error Code: 0x%lX
+GetBatteryDevicePath: BatteryIndex: %d, Path: %s
+uReturn
+OpenBatteryDevice: CreateFile(%s) failed!!, Error code: 0x%lX
+QueryBatteryStatus: IOCTL_BATTERY_QUERY_TAG failed!!, BatteryIndex: %d, Error code: 0x%lX
+DeviceInfo
+QueryBatteryStatus: IOCTL_BATTERY_QUERY_STATUS failed!!, BatteryIndex: %d, Error code: 0x%lX
+QueryBatteryStatus: IOCTL_BATTERY_QUERY_INFORMATION failed!!, BatteryIndex: %d, Error code: 0x%lX
+QuickAccess
+QueryBatteryStatus: Capabilities: 0x%08lX
+Technology: %ld
+Chemistry: %c%c%c%c
+DesignedCapacity: %ld
+FullChargedCapacity: %ld
+DefaultAlert1: %ld
+DefaultAlert2: %ld
+CriticalBias: %ld
+CycleCount: %ld
+HasSystemBattery: Fail to call GetSystemPowerStatus!!, Error Code: 0x%lX
+uFunctionStatus
+HasSystemBattery: No system battery !!
+BatteryControl
+AcerQAAgent.exe
+HasSystemBattery: Unknown status unable to read the battery flag information !!
+GetBatteryDeviceCount: SetupDiGetClassDevs() failed!!, Error Code: 0x%lX
+AcerCCAgent.log
+Init: Failed to initialize COM library!!, Error Code: 0x%lX
+Init: Failed to create IWbemLocator object!!, Error Code: 0x%lX
+Init: Could not connect!!, Error Code: 0x%lX
+Init: Connected to ROOT\WMI WMI namespace
+Init: Could not set proxy blanket!!, Error Code: 0x%lX
+GetBatteryHealthControlStatus
+StartToBatteryHealthTest: iBatteryDeviceCount: %d!!
+StartToBatteryHealthTest: Parameters is invalid!!
+StartToBatteryHealthTest: CreateThread() failed!!, Error code: 0x%lX
+BatteryControl
+GetBatteryModeStatus: SpawnInstance!!, Error Code: 0x%lX
+uFunctionQuery
+GetBatteryHealthControlStatus
+fGetBatteryHealthControlStatus
+GetBatteryModeStatus: ExecMethod() failed for %s!!, Error Code: 0x%lX
+GetBatteryModeStatus: Error Code: 0x%lX
+nuFunctionList
+Global\{9CF5E2B5-C10B-4FC4-A49D-9775C9FB2AD1}-
+nsettings.json
+fACCUserPS.exe
+nAQAUserPS.exe
+fAcerDIAgent.exe
+AcerQAAgent.log
+AcerCCAgent.exe
+AQAUserPS.log
+gAcerCCAgentSvis
+explorer.exe
+10011025
+10021025
+10031025
+10041025
+10051025
+10061025
+10071025
+10081025
+10091025
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+datlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+ForceRemove
+NoRemove
+Delete
+Component Categories
+FileType
+Interface
+Hardware
+SECURITY
+SYSTEM
+Software
+TypeLib
+ROOT\CIMV2
+PNPDeviceID
+.SELECT * FROM Win32_DesktopMonitor
+D:PAI(A;OICI;GA;;;SY)(A;OICI;GA;;;BA)(A;OICI;GA;;;LA)(A;OICI;GR;;;BU)(A;OICI;GR;;;BG)(A;OICI;GR;;;LG)
+O:SYD:P(A;NP;FA;;;SY)(A;NP;FA;;;BA)
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceISAPI
+Unknown
+Others
+Unknown
+EEPROM
+fEPROM
+nFEPROM
+fCDRAM
+nSGRAM
+fSDRAM
+nReserved
+DDR2 FB-DIMM
+dLPDDR2
+LPDDR4
+LPDDR3
+HBM (High Bandwidth Memory)
+Logical non-volatile device
+LPDDR5
+%d Bytes
+HBM2 (High Bandwidth Memory Generation 2)
+%d Byte
+%d.%02d
+ Bytes
+EnumParameters: BeginEnumeration() failed!!, Error Code: 0x%lX
+EnumParameters: pstrName: %s, vt: VT_I1, val: %d, type: %ld
+EnumParameters: pstrName: NULL, vt: %d, type: %ld
+EnumParameters: pstrName: %s, vt: VT_I4, val: %ld, type: %ld
+EnumParameters: pstrName: %s, vt: VT_I2, val: %d, type: %ld
+EnumParameters: pstrName: %s, vt: VT_UI1, val: %d, type: %ld
+EnumParameters: pstrName: %s, vt: VT_I8, val: %ld, type: %ld
+EnumParameters: pstrName: %s, vt: VT_UI4, val: %ld, type: %ld
+EnumParameters: pstrName: %s, vt: VT_UI2, val: %d, type: %ld
+EnumParameters: pstrName: %s, vt: VT_R4, val: %f, type: %ld
+EnumParameters: pstrName: %s, vt: VT_UI8, val: %ld, type: %ld
+EnumParameters: pstrName: %s, vt: VT_BSTR, val: %s, type: %ld
+EnumParameters: pstrName: %s, vt: VT_R8, val: %lf, type: %ld
+EnumParameters: pstrName: %s, vt: %d, type: %ld
+EnumParameters: pstrName: %s, vt: VT_BSTR, val: %d, type: %ld
+Win32_PhysicalMemory
+GetVariantFromClass: Get() failed for %s!!, Error Code: 0x%lX
+SELECT * FROM %s
+Capacity
+GetWin32PhysicalMemory: Next() failed!!, Error Code: 0x%lX
+GetWin32PhysicalMemory: ExecQuery() failed for %s!!, Error Code: 0x%lX
+PartNumber
+GetWin32PhysicalMemory: BeginEnumeration() failed!!, Error Code: %ld
+GetWin32PhysicalMemory: uReturn == 0
+GetWin32PhysicalMemory: new PhysicalMemory()
+GetWin32PhysicalMemory: Name: %s
+SMBIOSMemoryType
+GetWin32PhysicalMemory: GetVariantFromClass(name) faile!!, vt: %d
+MemoryType
+GetWin32PhysicalMemory: GetVariantFromClass(Capacity) faile!!, vt: %d
+Manufacturer
+GetWin32PhysicalMemory: Capacity: %s, %s
+SELECT * FROM %s
+GetWin32PhysicalMemory: Manufacturer: %s
+GetWin32PhysicalMemory: GetVariantFromClass(Manufacturer) faile!!, vt: %d
+FreePhysicalMemory
+GetWin32PhysicalMemory: GetVariantFromClass(PartNumber) faile!!, vt: %d
+SerialNumber
+GetWin32PhysicalMemory: PartNumber: %s
+Win32_OperatingSystem
+GetWin32PhysicalMemory: SerialNumber: %s
+SizeStoredInPagingFiles
+SELECT * FROM %s
+GetWin32PhysicalMemory: GetVariantFromClass(SerialNumber) faile!!, vt: %d
+GetWin32PhysicalMemory: GetVariantFromClass(Speed) faile!!, vt: %d
+GetWin32PhysicalMemory: Speed: %ld
+GetWin32PhysicalMemory: SMBIOSMemoryType: %ld
+GetWin32PhysicalMemory: GetVariantFromClass(SMBIOSMemoryType) faile!!, vt: %d
+GetWin32PhysicalMemory: GetVariantFromClass(MemoryType) faile!!, vt: %d
+GetWin32PhysicalMemory: GetMemoryType: %s
+FreePhysicalMemory
+GetWin32PhysicalMemory: MemoryType: %ld
+GetWin32OperatingSystem: ExecQuery() failed for %s!!, Error Code: 0x%lX
+GetWin32OperatingSystem: uReturn == 0
+GetWin32OperatingSystem: Next() failed!!, Error Code: 0x%lX
+TotalVisibleMemorySize
+GetWin32OperatingSystem: BeginEnumeration() failed!!, Error Code: %ld
+GetWin32OperatingSystem: TotalVisibleMemorySize: %s, %s
+GetWin32OperatingSystem: GetVariantFromClass(TotalVisibleMemorySize) faile!!, vt: %d
+GetWin32OperatingSystem: GetVariantFromClass(SizeStoredInPagingFiles) faile!!, vt: %d
+GetWin32OperatingSystem: SizeStoredInPagingFiles: %s, %s
+kernel32
+GetWin32OperatingSystem: FreePhysicalMemory: %s, %s
+GetWin32PhysicalMemory: GetVariantFromClass(FreePhysicalMemory) faile!!, vt: %d
+Win32_OperatingSystem
+GetFreeMemorySize: ExecQuery() failed for %s!!, Error Code: 0x%lX
+WriteOneRangeMemory: END
+GetFreeMemorySize: uReturn == 0
+GetFreeMemorySize: Next() failed!!, Error Code: 0x%lX
+GetFreeMemorySize: BeginEnumeration() failed!!, Error Code: %ld
+GetFreeMemorySize: FreePhysicalMemory: %s, %s
+GetFreeMemorySize: GetVariantFromClass(FreePhysicalMemory) faile!!, vt: %d
+VerifyOneRangeMemory: END
+AllocateMemory: Allocated memory size: %s
+ROOT\CIMV2
+AllocateMemory: Available Memory Size: %s
+AllocateMemory: Not Enough Memory
+atlTraceCOM
+AllocateMemory: Not Enough Memory
+atlTraceRegistrar
+AllocateMemory: Get new available size: %s
+AllocateMemory: Failed to allocate memory space
+AllocateMemory: llAvailableSize: %s
+AllocateMemory: Exception to allocate memory space
+WriteOneRangeMemory: START
+VerifyOneRangeMemory: START
+GetBytePattern: index: %d, pattern: 0x%02X
+WriteOneRangeMemory: Can't Write pattern in memory!! Byte Pattern: 0x%02X, Exception Error: %s
+VerifyOneRangeMemory: Find out one byte != pattern : Memory addr = %d
+VerifyOneRangeMemory: Can't verify the pattern in memory!! Byte Pattern: 0x%02X, Exception Error: %s
+Init: Failed to create IWbemLocator object!!, Error Code: 0x%lX
+Init: Connected to ROOT\WMI WMI namespace
+Init: Could not connect!!, Error Code: 0x%lX
+Fail to call StartToFullPatternTest!!, Error Code: %ld
+atlTraceGeneral
+atlTraceQI
+Init: Could not set proxy blanket!!, Error Code: 0x%lX
+atlTraceWindowing
+atlTraceRefcount
+atlTraceHosting
+atlTraceControls
+atlTraceDBProvider
+atlTraceDBClient
+atlTraceNotImpl
+atlTraceSnapin
+atlTraceException
+atlTraceAllocation
+atlTraceCache
+atlTraceTime
+atlTraceString
+atlTraceStencil
+atlTraceUtil
+atlTraceMap
+atlTraceSync
+atlTraceSecurity
+atlTraceISAPI
+NoRemove
+ForceRemove
+Delete
+Component Categories
+LCLSID
+Interface
+FileType
+Hardware
+LSECURITY
+Software
+SYSTEM
+TypeLib
+S-1-16-8192
+S-1-16-12288
+SeBackupPrivilege
+.Explorer.exe
+Explorer.exe
+SeCreateGlobalPrivilege
+SeCreateSymbolicLinkPrivilege
+SeCreatePagefilePrivilege
+SeImpersonatePrivilege
+SeDebugPrivilege
+SeIncreaseQuotaPrivilege
+SeIncreaseBasePriorityPrivilege
+SeManageVolumePrivilege
+SeLoadDriverPrivilege
+SeRemoteShutdownPrivilege
+SeProfileSingleProcessPrivilege
+SeSecurityPrivilege
+SeRestorePrivilege
+SeSystemProfilePrivilege
+SeSystemEnvironmentPrivilege
+SeTakeOwnershipPrivilege
+SeSystemtimePrivilege
+ltaskkill.exe
+Open %s registry
+.{%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+DisplayName
+Fail to open %s registry!!, Error Codde: %ld
+%s: %04d:%02d:%02d %02d:%02d
+IsBrowserInstall: DisplayName="%s", Publisher="%s"
+Fail to open %s sub-registry!!, Error Codde: %ld
+Open %s sub-registry
+Publisher
+Fail to query "Publisher" value from %s sub-registry!!, Error Codde: %ld
+"DisplayName"(%s): %s
+Fail to query "DisplayName" value from %s sub-registry!!, Error Codde: %ld
+BIsBrowserInstall: %s
+"Publisher"(%s): %s
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+BOpen %s registry
+Mozilla
+"Cache"(%s): %s
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+Profile0
+SOFTWARE\WOW6432node\Microsoft\Windows\CurrentVersion\Uninstall
+Fail to query "Cache" value from %s registry!!, Error Codde: %ld
+Mozilla Firefox
+%s file is not exist!!
+Fail to get User Profile Folder!!, Error Code: %d
+Match Line: %s
+Fail to open %s registry!!, Error Codde: %ld
+%s\AppData\Local\Microsoft\Windows\INetCache
+%s\Mozilla\Firefox\profiles.ini
+Firefox Profile: %s
+Firefox browser is not exist.
+Fail to get AppData Folder!!, Error Code: %d
+B%s\Mozilla\Firefox\%s\prefs.js
+Fail to get config path from %s file!!
+Firefox Config Sub-Path: %s
+browser.cache.disk.parent_directory
+Firefox Config file: %s
+browser.cache.disk.parent_directory
+Firefox cache folder: %s
+\Cache
+Fail to get Local AppData Folder!!, Error Code: %d
+\Mozilla\Firefox\
+Google Chrome
+Google Chrome browser is not exist.
+\\Cache2
+Google
+Fail to open %s registry!!, Error Codde: %ld
+Fail to query "(Default)" value from %s registry!!, Error Codde: %ld
+ChromeHTML\shell\open\command
+Open %s registry
+-disk-cache-dir=
+"(Default)"(%s): %s
+\Google\Chrome\User Data\Default
+chromeCacheLocation: %s
+Fail to get User Profile Folder!!, Error Code: %d
+Add %s file size
+CheckAccessData: FALSE, file time is more then current time
+CheckAccessData: FALSE, file time is less then %d days
+\Cache
+\Media Cache
+%s folder is empty!
+CheckAccessData: TRUE, file time is more then %d days
+%s folder is empty!
+Skip %s access data is less than %d days!!
+Delete file: %s
+nRemove Folder: %s
+Fail to remove folder: %s!!, Error Code: %ld
+Skip to delete file for access data: %s
+s%s: cache size: %lu bytes
+Fail to delete %s!!, Error Code: %ld
+Fail to empty %s folder!!
+Fail to empty %s folder!!
+%s: cache size: %lu bytes
+%s: cache size: %lu bytes
+Local AppData Temp Folder: %s
+Fail to empty %s folder!!
+%s path is not exist!!
+Fail to get Local AppData Folder!!, Error Code: %d
+Fail to query Recycle Bin size!!, Error Code: %d
+%s path is not exist!!
+Local AppData Temp Folder: %s
+IsBrowserInstall: DisplayName="%s", Publisher="%s"
+Open %s registry
+"DisplayName"(%s): %s
+Publisher
+Fail to clean Recycle Bin!!, Error Code: %d
+s%s: %04d:%02d:%02d %02d:%02d
+Open %s sub-registry
+Fail to open %s sub-registry!!, Error Codde: %ld
+DisplayName
+Fail to open %s registry!!, Error Codde: %ld
+Fail to query "DisplayName" value from %s sub-registry!!, Error Codde: %ld
+Open %s registry
+Fail to query "Publisher" value from %s sub-registry!!, Error Codde: %ld
+"Publisher"(%s): %s
+SOFTWARE\WOW6432node\Microsoft\Windows\CurrentVersion\Uninstall
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+nIsBrowserInstall: %s
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+Fail to query "Cache" value from %s registry!!, Error Codde: %ld
+"Cache"(%s): %s
+Fail to open %s registry!!, Error Codde: %ld
+Software\Microsoft\Edge
+Fail to get User Profile Folder!!, Error Code: %d
+CachePath
+%s\AppData\Local\Microsoft\Windows\INetCache
+xOpen %s registry
+Mozilla Firefox
+%s file is not exist!!
+Fail to open %s registry!!, Error Codde: %ld
+Fail to get User Profile Folder!!, Error Code: %d
+Profile0
+%s\Microsoft\Edge\User Data\Default\Cache
+Fail to query "CachePath" value from %s registry!!, Error Codde: %ld
+Firefox browser is not exist.
+"CachePath"(%s): %s
+Mozilla
+Firefox Profile: %s
+Fail to get AppData Folder!!, Error Code: %d
+%s\Mozilla\Firefox\profiles.ini
+Fail to get config path from %s file!!
+%s\Mozilla\Firefox\%s\prefs.js
+Firefox Config file: %s
+Firefox Config Sub-Path: %s
+Match Line: %s
+\Cache
+\Cache2
+\Mozilla\Firefox\
+browser.cache.disk.parent_directory
+Firefox cache folder: %s
+browser.cache.disk.parent_directory
+Open %s registry
+Fail to get Local AppData Folder!!, Error Code: %d
+Google Chrome browser is not exist.
+ChromeHTML\shell\open\command
+Google
+Google Chrome
+Fail to query "(Default)" value from %s registry!!, Error Codde: %ld
+"(Default)"(%s): %s
+Fail to open %s registry!!, Error Codde: %ld
+-disk-cache-dir=
+chromeCacheLocation: %s
+\Cache
+Fail to get User Profile Folder!!, Error Code: %d
+Add %s file size
+\Google\Chrome\User Data\Default
+%s folder is empty!
+CheckAccessData: FALSE, file time is less then %d days
+%s folder is empty!
+CheckAccessData: TRUE, file time is more then %d days
+\Media Cache
+CheckAccessData: FALSE, file time is more then current time
+Skip %s access data is less than %d days!!
+Remove Folder: %s
+Fail to remove folder: %s!!, Error Code: %ld
+Delete file: %s
+Fail to delete %s!!, Error Code: %ld
+%s: cache size: %lu bytes
+Skip to delete file for access data: %s
+%s: cache size: %lu bytes
+%s: cache size: %lu bytes
+Fail to empty %s folder!!
+Fail to empty %s folder!!
+%s: cache size: %lu bytes
+Fail to empty %s folder!!
+%s path is not exist!!
+Fail to query Recycle Bin size!!, Error Code: %d
+Fail to empty %s folder!!
+Local AppData Temp Folder: %s
+Fail to call GetBrowserCacheSize!!, Error Code: %ld
+Fail to call CleanBrowserCache!!, JunkCleanCallback: NULL
+%d Bytes
+Fail to clean Recycle Bin!!, Error Code: %d
+Fail to call GetBrowserCacheSize!!, JunkSizeCallback: NULL
+Fail to call GetTempFileFolderSize!!, JunkSizeCallback: NULL
+Fail to call CleanBrowserCache!!, Error Code: %ld
+System Volume Information
+Fail to get Local AppData Folder!!, Error Code: %d
+Fail to call CleanTempFileFolder!!, Error Code: %ld
+Fail to call GetRecycleBinSize!!, JunkSizeCallback: NULL
+%d.%02d
+Fail to call GetTempFileFolderSize!!, Error Code: %ld
+Fail to call CleanTempFileFolder!!, JunkCleanCallback: NULL
+Fail to call CleanRecycleBin!!, Error Code: %ld
+Fail to call GetRecycleBinSize!!, Error Code: %ld
+Recovery
+Fail to call CleanRecycleBin!!, JunkCleanCallback: NULL
+%d Byte
+%04d/%02d/%02d %02d:%02d:%02d
+Fail to get csidl(%d) Folder!!, Error Code: %d
+csidl(%d) Folder: %s
+MSOCache
+Fail to get knownFolderId(%s) Folder!!, Error Code: %d
+knownFolderId(%s) Folder: %s
+%c:\%s
+BOOTNXT
+$Recycle.Bin
+bootmgr
+Drive %c is not ready!!
+Drive %c can not get disk size!!, Error Code: %ld
+Path is empty!!
+Drive %c: TotalSize: %s, FreeSize: %s
+Drive %c: Fail to get volume info!! Error Code: %ld
+%s path is not exist!!
+Drive %c is not Fixed!!
+Abort event is enabled!!
+Abort event is enabled!!
+%s folder is empty!
+Abort event is enabled!!
+Path is empty!!
+Clean File: %s\%s"
+%s folder is empty!
+%s path is not exist!!
+Abort event is enabled!!
+FilterDirectory: %s
+FilterDirectoryName: %s
+ExcludingFilterDirectory: %s
+FilterBootFile: %s
+Drive %c is exist.
+FilterFileAttr: %ld
+FilterFileExt: %s
+Fail to delete %s!!, Error Code: %ld
+StartToScanFiles: FilterFileType:%d, CleanDiskType:%d, iDrive:%d
+Delete file: %s
+StartToScanFiles: Parameters is invalid!!
+Fail to delete %s!!, Error Code: %ld
+Fail to call StartToScanFiles!!, Error Code: %ld
+\\.\PhysicalDrive
+.SCSI-%d is invalid scsi drive, Error Code: %d
+Scsi-%d: Query Storage Property Failed, Error Code: %d
+\\.\Scsi
+\\.\PhysicalDrive
+ProtocolDataLength: %d
+SCSI-%d is invalid scsi drive, Error Code: %d
+IOCTL_SCSI_GET_ADDRESS FAILED!!, Error Code: %d
+SCSI: PortNumner=%d, PathId=%d
+Invalid DST argument!!!
+Drive-%d is not NVMe disk, Error Code: %d
+ NVME_IDENTIFY_CONTROLLER_DATA: size=%d
+Scsi-%d: Query Storage Property Failed, Error Code: %d
+Drive-%d is invalid physical drive, Error Code: %d
+Failed to read SAMRT info (READ_ATTRIBUTES), error code %d
+Failed to read SAMRT info (READ_THRESHOLDS), error code %d
+Failed to enable SMART, error code %d
+NVMe_SMART_LOG: NL_IOCTL_GET_LOG_PAGE: FAIL!!, Error Code: %d
+There is still a Device Self-test in progress
+SCSI-%d is invalid scsi drive, Error Code: %d
+Sending cmd: "Short Device Self-test operation"
+Drive cmd  : Execute "Short Self-test operation" successful
+Device does not support Device Self-test function
+\\.\PhysicalDrive
+====Start of NVMe Device Self-test Section==== 
+====Start of NVMe Device Self-test Section==== 
+Sending cmd: "Extend Device Self-test operation"
+There is still a Device Self-test in progress
+Device does not support Device Self-test function
+atlTraceCOM
+Device does not support Device Self-test function
+====Abort of NVMe Device Self-test Section==== 
+Drive cmd  : Execute "Extend Self-test operation" successful
+There is still a Device Self-test in progress
+Drive-%d is invalid physical drive, Error Code: %d
+Sending cmd: "Abort Device Self-test operation"
+Device Self-test operation aborted
+Inbox DST IOCTL Failed !!, Error Code: %d
+atlTraceRefcount
+atlTraceGeneral
+atlTraceWindowing
+protocolCommand->ReturnStatus == STORAGE_PROTOCOL_STATUS_THROTTLED_REQUEST
+Drive-%d is invalid physical drive, Error Code: %d
+Query Storage Property Failed !!, Error Code: %d
+atlTraceQI
+There is still a Device Self-test in progress
+Device does not support Device Self-test function
+atlTraceRegistrar
+Failed to open device, error code %d
+SMART_GET_VERSION failed with error %d
+atlTraceDBClient
+The device supports SMART commands.
+The device does not support SMART commands.
+The device supports the ATA ID command.
+The device supports the ATAPI ID command.
+atlTraceDBProvider
+atlTraceControls
+atlTraceHosting
+atlTraceAllocation
+atlTraceException
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceStencil
+atlTraceString
+atlTraceTime
+atlTraceCache
+atlTraceSecurity
+ atlTraceSync
+atlTraceMap
+atlTraceUtil
+atlTraceISAPI
+ASSOCIATORS OF
+ Where AssocClass = 
+SELECT * FROM Win32_DiskDrive
+Unspecified
+Optane_SSD
+SELECT * FROM MSFT_PhysicalDisk
+Optane
+BusType
+MediaType
+DeviceId
+Win32_DiskDriveToDiskPartition
+DeviceID
+Win32_DiskDrive.DeviceID="\\\\.\\PHYSICALDRIVE{disk_index}"
+HealthStatus
+TFriendlyName
+Win32_DiskPartition.DeviceID="{DeviceID}"
+VolumeName
+Win32_LogicalDiskToPartition
+DeviceID
+nuFunctionQuery
+GetFunction
+uReturn
+uiInput
+uFunctionList
+SetFunction
+SetBatteryHealthControl
+uReservedIn
+uReserved
+uBatteryNo
+APGeAction
+uiOutput
+uFunctionMask
+BatteryControl
+GetBatteryHealthControlStatus
+uFunctionStatus
+atlTraceCOM
+atlTraceGeneral
+atlTraceWindowing
+atlTraceRefcount
+atlTraceRegistrar
+atlTraceQI
+atlTraceDBProvider
+atlTraceDBClient
+atlTraceHosting
+atlTraceControls
+atlTraceException
+atlTraceAllocation
+atlTraceNotImpl
+atlTraceSnapin
+atlTraceString
+atlTraceStencil
+atlTraceCache
+=atlTraceTime
+atlTraceSync
+atlTraceSecurity
+atlTraceUtil
+atlTraceMap
+atlTraceISAPI
+Delete
+NoRemove
+ForceRemove
+Interface
+FileType
+Component Categories
+SECURITY
+=Hardware
+TypeLib
+Software
+SYSTEM
+SELECT * FROM 
+.InstanceName='
+.InstanceName='
+atlTraceCOM
+atlTraceGeneral
+=atlTraceWindowing
+atlTraceRefcount
+atlTraceRegistrar
+atlTraceQI
+atlTraceDBProvider
+atlTraceDBClient
+atlTraceHosting
+atlTraceControls
+>atlTraceException
+atlTraceAllocation
+atlTraceNotImpl
+atlTraceSnapin
+atlTraceString
+atlTraceStencil
+atlTraceCache
+ atlTraceTime
+atlTraceSync
+>atlTraceSecurity
+atlTraceUtil
+atlTraceMap
+atlTraceISAPI
+Delete
+NoRemove
+ForceRemove
+Interface
+>FileType
+pComponent Categories
+;CLSID
+;SECURITY
+Hardware
+TypeLib
+Software
+SYSTEM
+EventDetail
+SELECT EventDetail FROM APGeEvent
+root\WMI
+Root\Microsoft\Windows\Storage
+root\CIMV2
+atlTraceCOM
+atlTraceGeneral
+atlTraceWindowing
+atlTraceRefcount
+>atlTraceRegistrar
+*atlTraceQI
+atlTraceDBProvider
+atlTraceDBClient
+atlTraceHosting
+atlTraceControls
+atlTraceException
+atlTraceAllocation
+atlTraceNotImpl
+atlTraceSnapin
+atlTraceString
+atlTraceStencil
+atlTraceCache
+atlTraceTime
+atlTraceSync
+atlTraceSecurity
+atlTraceUtil
+atlTraceMap
+atlTraceISAPI
+Delete
+NoRemove
+ForceRemove
+Interface
+FileType
+Component Categories
+SECURITY
+Hardware
+TypeLib
+Software
+SYSTEM
+atlTraceGeneral
+atlTraceRefcount
+atlTraceRegistrar
+atlTraceQI
+atlTraceCOM
+atlTraceDBClient
+/atlTraceHosting
+atlTraceControls
+atlTraceWindowing
+atlTraceAllocation
+atlTraceNotImpl
+atlTraceSnapin
+atlTraceDBProvider
+atlTraceStencil
+atlTraceCache
+atlTraceTime
+atlTraceException
+BatlTraceSecurity
+atlTraceUtil
+atlTraceMap
+atlTraceString
+atlTraceISAPI
+atlTraceSync
+BDelete
+NoRemove
+ForceRemove
+FileType
+Component Categories
+Hardware
+Interface
+TypeLib
+Software
+SYSTEM
+SECURITY
+atlTraceGeneral
+atlTraceCOM
+latlTraceControls
+atlTraceHosting
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceQI
+atlTraceRegistrar
+atlTraceRefcount
+atlTraceWindowing
+atlTraceTime
+atlTraceCache
+atlTraceStencil
+atlTraceString
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+atlTraceISAPI
+atlTraceMap
+atlTraceUtil
+atlTraceSecurity
+atlTraceSync
+atlTraceGeneral
+atlTraceCOM
+atlTraceQI
+atlTraceRegistrar
+atlTraceDBClient
+atlTraceDBProvider
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceRefcount
+atlTraceWindowing
+ atlTraceControls
+atlTraceHosting
+atlTraceStencil
+atlTraceString
+atlTraceMap
+atlTraceUtil
+atlTraceAllocation
+atlTraceException
+atlTraceTime
+atlTraceCache
+SatlTraceSecurity
+atlTraceSync
+tatlTraceISAPI
+tDelete
+tCLSID
+tComponent Categories
+ForceRemove
+NoRemove
+SECURITY
+tSYSTEM
+Software
+tFileType
+tInterface
+tHardware
+tTypeLib
+tatlTraceQI
+atlTraceRegistrar
+fatlTraceRefcount
+natlTraceWindowing
+natlTraceGeneral
+atlTraceCOM
+atlTraceSnapin
+atlTraceNotImpl
+atlTraceAllocation
+atlTraceException
+fatlTraceControls
+natlTraceHosting
+atlTraceDBClient
+fatlTraceDBProvider
+atlTraceMap
+atlTraceUtil
+natlTraceSecurity
+fatlTraceSync
+natlTraceTime
+fatlTraceCache
+natlTraceStencil
+atlTraceString
+atlTraceISAPI
+Component Categories
+dFileType
+Interface
+dForceRemove
+NoRemove
+Delete
+SYSTEM
+Software
+TypeLib
+Hardware
+SECURITY
+.SELECT * FROM Win32_BIOS
+SELECT * FROM Win32_ComputerSystem
+SELECT * FROM Win32_ComputerSystemProduct
+SELECT * FROM WmiMonitorID
+.SELECT Name, Description, PNPDeviceID FROM Win32_VideoController
+.SELECT * FROM Win32_OperatingSystem
+.SELECT * FROM Win32_BaseBoard
+SELECT * FROM Win32_SystemEnclosure
+Install AcerCCAgent service failed: %s
+AcerCCAgent service installed: %s
+Uninstall AcerCCAgent service failed: %s
+AcerCCAgent service uninstalled: %s
+ntdll.dll
+JUCEWindow
+.atlTraceCOM
+atlTraceGeneral
+atlTraceHosting
+atlTraceControls
+.atlTraceDBProvider
+atlTraceDBClient
+atlTraceRegistrar
+atlTraceQI
+atlTraceWindowing
+atlTraceRefcount
+atlTraceCache
+atlTraceTime
+atlTraceString
+atlTraceStencil
+atlTraceNotImpl
+atlTraceSnapin
+atlTraceException
+atlTraceAllocation
+atlTraceISAPI
+atlTraceUtil
+atlTraceMap
+atlTraceSync
+atlTraceSecurity
+NoRemove
+ForceRemove
+Delete
+Hardware
+SECURITY
+Component Categories
+Interface
+FileType
+Software
+SYSTEM
+TypeLib
+console
+server_key.pem
+server_crt.pem
+.false
+#+3;CScs
+VS_VERSION_INFO
+StringFileInfo
+040904E4
+CompanyName
+I3D Technology Inc.
+LegalCopyright
+(C) I3D Technology Inc.
+FileDescription
+Acer Care Center Software Component
+FileVersion
+ProductName
+Acer Care Center
+ProductVersion
+InternalName
+AcerCCAgent.exe
+OriginalFilename
+AcerCCAgent.exe
+VarFileInfo
+Translation
+&I3D Technology Inc

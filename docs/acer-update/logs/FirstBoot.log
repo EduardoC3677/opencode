@@ -1,0 +1,47 @@
+
+
+24/09/2025 19:00:29.44[Log START]  ============ C:\OEM\Preload\DPOP\OEMCustomize\FirstBoot.cmd ============ 
+24/09/2025 19:00:29.45[Log TRACE]  start /b c:\OEM\preload\command\alaunchx\AlaunchX.exe /FirstBoot 
+24/09/2025 19:00:29.76[Log TRACE]  type .\FirstBootCMD\CMDList.txt 
+Add_AcerBoxTicked.cmd 
+Add_UEIPTicked.cmd 
+24/09/2025 19:00:29.76[Log TRACE]  call Add_AcerBoxTicked.cmd  
+
+24/09/2025 19:00:29.77[Log START]  ============ [SUB]C:\OEM\Preload\DPOP\OEMCustomize\FirstBootCMD\Add_AcerBoxTicked.cmd ============
+24/09/2025 19:00:29.77[Log TRACE]  Cscript.exe /nologo Add_AcerBoxTicked.vbs
+Got the userChoice text =[true]
+Checkbox is true, Create C:\OEM\Preload\UEIPTicked.dat
+24/09/2025 19:00:29.82[Log TRACE]  copy /y c:\windows\system32\oobe\INFO\userchoices.xml c:\Recovery\OEM\RestoreOEMCustomize\OOBE\Info
+        1 archivo(s) copiado(s).
+24/09/2025 19:00:29.82[Log TRACE]  UEIPTicked.dat found, reg add HKLM\SOFTWARE\OEM\Metadata /v AcerBoxTicked /d 0x1 /t REG_DWORD /f
+La operaci¢n se complet¢ correctamente.
+24/09/2025 19:00:29.83[Log LEAVE]  ============ [SUB]C:\OEM\Preload\DPOP\OEMCustomize\FirstBootCMD\Add_AcerBoxTicked.cmd ============
+
+24/09/2025 19:00:29.83[Log TRACE]  Clean Add_AcerBoxTicked.cmd  
+24/09/2025 19:00:29.84[Log TRACE]  del /f /q Add_AcerBoxTicked.cmd  
+24/09/2025 19:00:29.84[Log TRACE]  call Add_UEIPTicked.cmd  
+
+24/09/2025 19:00:29.84[Log START]  ============ [SUB]C:\OEM\Preload\DPOP\OEMCustomize\FirstBootCMD\Add_UEIPTicked.cmd ============
+24/09/2025 19:00:29.84[Log TRACE]  Cscript.exe /nologo Add_UEIPTicked.vbs
+Got the userChoice text =[true]
+Checkbox is true, Create C:\OEM\Preload\UEIPTicked.dat
+24/09/2025 19:00:29.87[Log TRACE]  copy /y c:\windows\system32\oobe\INFO\userchoices.xml c:\Recovery\OEM\RestoreOEMCustomize\OOBE\Info
+        1 archivo(s) copiado(s).
+24/09/2025 19:00:29.88[Log TRACE]  UEIPTicked.dat found, reg add HKLM\SOFTWARE\OEM\Metadata /v UEIPTicked /d 0x1 /t REG_DWORD /f
+La operaci¢n se complet¢ correctamente.
+24/09/2025 19:00:29.88[Log LEAVE]  ============ [SUB]C:\OEM\Preload\DPOP\OEMCustomize\FirstBootCMD\Add_UEIPTicked.cmd ============
+
+24/09/2025 19:00:29.89[Log TRACE]  Clean Add_UEIPTicked.cmd  
+24/09/2025 19:00:29.89[Log TRACE]  del /f /q Add_UEIPTicked.cmd  
+24/09/2025 19:00:29.89[Log TRACE]  DIR /S /B .\FirstBootCMD\*.cmd 
+No se encuentra el archivo
+24/09/2025 19:00:29.90[Log TRACE]  RD C:\OEM\Preload\DPOP\OEMCustomize\FirstBootCMD in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt 
+24/09/2025 19:00:29.91[Log LEAVE]  ============ C:\OEM\Preload\DPOP\OEMCustomize\FirstBoot.cmd ============ 
+
+
+ 
+24/09/2025 19:00:35.60[Log START]  ============ C:\OEM\Preload\DPOP\DISKSETTINGS\DiskSettings.cmd ============ 
+24/09/2025 19:00:35.61[Log TRACE]  call :FirstBoot 
+24/09/2025 19:00:35.61[Log TRACE]  EnableDiskSettingsAfterOOBE.cmd not found, leave. 
+24/09/2025 19:00:35.61[Log LEAVE]  ============ C:\OEM\Preload\DPOP\DISKSETTINGS\DiskSettings.cmd ============ 
+ 
