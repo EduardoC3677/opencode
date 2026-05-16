@@ -1,5 +1,13 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "deepseek": {
+      "options": {
+        "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
+        "apiKey": "{env:AZURE_OPENAI_API_KEY}"
+      }
+    }
+  },
   "model": "deepseek/deepseek-v4-pro",
   "small_model": "deepseek/deepseek-v4-pro",
   "agent": {
