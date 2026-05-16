@@ -1,46 +1,46 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "azure-openai/deepseek-v4-pro",
-  "small_model": "azure-openai/deepseek-v4-pro",
+  "model": "azure-openai/DeepSeek-V4-Pro",
+  "small_model": "azure-openai/DeepSeek-V4-Pro",
   "agent": {
     "plan": {
-      "model": "azure-openai/deepseek-v4-pro",
+      "model": "azure-openai/DeepSeek-V4-Pro",
       "temperature": 0.3,
       "reasoningEffort": "high",
       "textVerbosity": "low"
     },
     "build": {
-      "model": "azure-openai/deepseek-v4-pro",
+      "model": "azure-openai/DeepSeek-V4-Pro",
       "temperature": 0.3,
       "reasoningEffort": "high",
       "textVerbosity": "low"
     },
     "coder": {
-      "model": "azure-openai/deepseek-v4-pro",
+      "model": "azure-openai/DeepSeek-V4-Pro",
       "temperature": 0.2,
       "reasoningEffort": "high",
       "textVerbosity": "low"
     },
     "explore": {
-      "model": "azure-openai/deepseek-v4-pro",
+      "model": "azure-openai/DeepSeek-V4-Pro",
       "temperature": 0.2,
       "reasoningEffort": "low",
       "textVerbosity": "low"
     },
     "researcher": {
-      "model": "azure-openai/deepseek-v4-pro",
+      "model": "azure-openai/DeepSeek-V4-Pro",
       "temperature": 0.4,
       "reasoningEffort": "high",
       "textVerbosity": "medium"
     },
     "scribe": {
-      "model": "azure-openai/deepseek-v4-pro",
+      "model": "azure-openai/DeepSeek-V4-Pro",
       "temperature": 1,
       "reasoningEffort": "low",
       "textVerbosity": "high"
     },
     "reviewer": {
-      "model": "azure-openai/deepseek-v4-pro",
+      "model": "azure-openai/DeepSeek-V4-Pro",
       "temperature": 0.1,
       "reasoningEffort": "high",
       "textVerbosity": "medium"
@@ -55,7 +55,7 @@
         "apiKey": "{env:AZURE_OPENAI_API_KEY}"
       },
       "models": {
-        "deepseek-v4-pro": {
+        "DeepSeek-V4-Pro": {
           "name": "DeepSeek-V4-Pro"
         }
       }
