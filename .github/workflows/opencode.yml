@@ -129,7 +129,7 @@ jobs:
           node-version: "22"
           
       - name: Install repo dependencies (optional)
-        run: npm install --no-audit --no-fund 
+        run: sudo npm install -g --no-audit --no-fund 
 
       - name: Set Azure OpenAI env vars
         shell: bash
@@ -233,14 +233,27 @@ jobs:
       - name: Cleanup temporary files
         shell: bash
         run: rm -rf artifact
+        
+      - name: Export vars
+        run: |
+          CURRENT_DIR="$(pwd)"
+          CONFIG_FILE="$CURRENT_DIR/.opencode/opencode.jsonc"
 
+          if [ ! -f "$CONFIG_FILE" ]; then
+             echo "Config file not found: $CONFIG_FILE"
+             exit 1
+          fi
+
+          echo "OPENCODE_CONFIG=$CONFIG_FILE" >> "$GITHUB_ENV"
+          echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
+    
       - name: Run OpenCode Review
         uses: sst/opencode/github@latest
-
         env:
           VERSION: "1.15.0"
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
-
+          OPENCODE_CONFIG: ${{ env.OPENCODE_CONFIG }}
+          OPENCODE_CONFIG_DIR: ${{ env.OPENCODE_CONFIG_DIR }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           prompt: ${{ steps.compose.outputs.prompt }}
