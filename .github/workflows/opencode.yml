@@ -162,6 +162,7 @@ jobs:
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           share: false
+          agent: build
           prompt: ${{ steps.compose.outputs.prompt }}
 
       - name: Report failure
