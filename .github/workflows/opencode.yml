@@ -32,14 +32,10 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="$1"
+            local input="\$1"
             case "$input" in
-              */*) echo "$input" ;;
-              Codestral-2501|DeepSeek-V4-Flash|DeepSeek-V3.2-Speciale|Kimi-K2.6|deepseek-v4-pro|DeepSeek-V3.2) echo "azure-openais/$input" ;;
-              claude-opus-4-7|claude-opus-4-6) echo "azure-anthropic/$input" ;;
-              gpt-5.4-pro) echo "azure-cognitive/$input" ;;
-              gpt-5.3-codex) echo "azure-openai/$input" ;;
-              *) echo "" ;;
+              deepseek-v4-pro) echo "azure-openai/$input" ;;
+              *) echo "azure-openai/deepseek-v4-pro" ;;
             esac
           }
 
@@ -107,28 +103,10 @@ jobs:
         id: bot-details
         uses: raven-actions/bot-details@v1
 
-      - name: Set Azure env vars for model provider
+      - name: Set Azure OpenAI env vars
         run: |
-          set -euo pipefail
-          PROVIDER="${{ needs.detect-trigger.outputs.provider }}"
-          case "$PROVIDER" in
-            azure-anthropic)
-              echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> "$GITHUB_ENV"
-              echo "ANTHROPIC_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> "$GITHUB_ENV"
-              ;;
-            azure-openai)
-              echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> "$GITHUB_ENV"
-              echo "OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}" >> "$GITHUB_ENV"
-              ;;
-            azure-cognitive)
-              echo "AZURE_COGNITIVE_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> "$GITHUB_ENV"
-              echo "OPENAI_API_KEY=${{ secrets.AZURE_COGNITIVE_API_KEY }}" >> "$GITHUB_ENV"
-              ;;
-            azure-openais)
-              echo "AZURE_ECHOAIS_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> "$GITHUB_ENV"
-              echo "OPENAI_API_KEY=${{ secrets.AZURE_ECHOAIS_API_KEY }}" >> "$GITHUB_ENV"
-              ;;
-          esac
+          echo "AZURE_API_KEY=${{ secrets.AZURE_API_KEY }}" >> "$GITHUB_ENV"
+          echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_API_KEY }}" >> "$GITHUB_ENV"
 
       - name: Compose OpenCode prompt (include PR/issue/comment)
         id: compose
@@ -182,9 +160,8 @@ jobs:
         uses: sst/opencode/github@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
-          OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ env.ANTHROPIC_API_KEY }}
+          AZURE_API_KEY: ${{ env.AZURE_API_KEY }}
+          AZURE_OPENAI_API_KEY: ${{ env.AZURE_API_KEY }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           agent: build
@@ -214,4 +191,3 @@ jobs:
               issue_number: issueNumber,
               body,
             })
-            
