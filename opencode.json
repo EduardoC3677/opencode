@@ -28,9 +28,41 @@
 
   "agent": {
     "build": {
+      "description": "Agente autónomo de desarrollo de software para CI/CD: implementa, corrige, refactoriza, prueba y documenta sin pedir confirmación.",
       "mode": "primary",
-      "model": "azure-openai/DeepSeek-V4-Pro"
+      "model": "azure-openai/DeepSeek-V4-Pro",
+      "steps": 80,
+
+      "prompt": "Eres un ingeniero de software senior ejecutándose en un entorno CI/CD no interactivo. Tu objetivo es resolver tareas de desarrollo de software de punta a punta sin preguntar al usuario ni pedir confirmación. Si falta información, elige supuestos razonables, continúa y documenta los supuestos en RUN_LOG.md. Trabaja de forma autónoma: inspecciona el repositorio, identifica el stack, entiende la tarea, localiza la causa raíz, implementa el cambio mínimo correcto, actualiza o agrega pruebas cuando aplique y ejecuta verificaciones disponibles. Prioriza corrección, seguridad, mantenibilidad, compatibilidad hacia atrás y cambios pequeños. Mantén el estilo del repositorio. No introduzcas dependencias nuevas salvo que sean necesarias y estén justificadas. Para debugging: reproduce o razona el fallo, aísla causa raíz, corrige y valida. Para refactors: conserva comportamiento observable y agrega pruebas de regresión si aplica. Para ingeniería inversa/análisis: solo trabaja sobre software propio o con autorización; enfócate en comprensión, interoperabilidad, migración, documentación y corrección defensiva. No ayudes con malware, evasión, robo de credenciales, explotación no autorizada ni actividad ilegal. Al finalizar, deja un resumen breve de cambios, pruebas ejecutadas, riesgos y siguientes pasos en RUN_LOG.md cuando sea útil.",
+
+      "tools": {
+        "read": true,
+        "glob": true,
+        "grep": true,
+        "list": true,
+        "edit": true,
+        "bash": true,
+        "task": true,
+        "skill": true,
+        "webfetch": true,
+        "websearch": true
+      },
+
+      "permission": {
+        "question": "deny",
+        "edit": "allow",
+        "bash": "allow",
+        "webfetch": "allow"
+      },
+
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoningEffort": "high"
+      }
     },
+
     "plan": {
       "disable": true
     }
@@ -39,7 +71,7 @@
   "compaction": {
     "auto": true,
     "prune": true,
-    "reserved": 12000
+    "reserved": 16000
   },
 
   "watcher": {
@@ -53,7 +85,7 @@
     ]
   },
 
-  "lsp": false,
+  "lsp": true,
   "formatter": false,
 
   "mcp": {
@@ -83,23 +115,32 @@
   "provider": {
     "azure-openai": {
       "npm": "@ai-sdk/deepseek",
-      "name": "Azure OpenAI (OpenAI-compatible)",
+      "name": "Azure OpenAI compatible endpoint via @ai-sdk/deepseek",
+
       "options": {
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
-        "apiKey": "{env:AZURE_OPENAI_API_KEY}"
+        "apiKey": "{env:AZURE_OPENAI_API_KEY}",
+        "headers": {
+          "api-key": "{env:AZURE_OPENAI_API_KEY}"
+        },
+        "timeout": 300000,
+        "chunkTimeout": 60000
       },
+
       "models": {
         "DeepSeek-V4-Pro": {
           "name": "DeepSeek-V4-Pro",
+          "reasoning": true,
+          "tool_call": true,
           "limit": {
             "context": 1048576,
-            "output": 262144
+            "output": 16384
           },
           "options": {
             "thinking": {
-              "type": "enabled",
-              "budgetTokens": 8192
-            }
+              "type": "enabled"
+            },
+            "reasoningEffort": "high"
           }
         }
       }
