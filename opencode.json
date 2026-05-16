@@ -47,7 +47,7 @@
       "venv/**"
     ]
   },
-  "lsp": true,
+  "lsp": false,
   "formatter": false,
   "mcp": {
     "mcp_memory": {
@@ -74,37 +74,26 @@
   },
   "provider": {
     "azure-openai": {
-      "npm": "@ai-sdk/deepseek",
+      "npm": "@ai-sdk/anthropic",
       "name": "Azure OpenAI",
       "options": {
-        "apiKey": "{env:AZURE_API_KEY}",
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
-        "headers": {
-          "Content-Type": "application/json",
-          "Authorization": "Bearer {env:AZURE_API_KEY}"
-        },
+        "apiKey": "{env:AZURE_API_KEY}"
       },
       "models": {
         "DeepSeek-V4-Pro": {
           "name": "DeepSeek-V4-Pro",
-          "deployment": "DeepSeek-V4-Pro",
-          "tool_call": true,
           "limit": {
-            "context": 131072,
-            "output": 16384
-          },
-          "cost": {
-            "input": 0,
-            "output": 0
+            "context": 1048576,
+            "output": 262144
           },
           "options": {
-            "temperature": 0.8,
-            "top_p": 0.1,
-            "presence_penalty": 0,
-            "frequency_penalty": 0
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 8192
+            }
           }
         }
-      }
-    }
+     }
   }
 }
