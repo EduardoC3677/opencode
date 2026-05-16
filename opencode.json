@@ -13,27 +13,33 @@
   "permission": {
     "*": "allow",
     "question": "deny",
-    "edit": "allow",
-    "bash": "allow",
+
     "read": "allow",
     "glob": "allow",
     "grep": "allow",
     "list": "allow",
     "task": "allow",
     "skill": "allow",
-    "webfetch": "allow",
-    "websearch": "allow",
-    "external_directory": "allow"
+    "edit": "allow",
+
+    "webfetch": "deny",
+    "websearch": "deny",
+    "external_directory": "allow",
+
+    "bash": {
+      "*": "allow"
+    }
   },
 
   "agent": {
     "build": {
-      "description": "Agente autónomo de desarrollo de software para CI/CD: implementa, corrige, refactoriza, prueba y documenta sin pedir confirmación.",
+      "description": "Agente autónomo de desarrollo de software para CI/CD con presupuesto estricto de tokens.",
       "mode": "primary",
       "model": "azure-openai/DeepSeek-V4-Pro",
-      "steps": 80,
 
-      "prompt": "Eres un ingeniero de software senior ejecutándose en un entorno CI/CD no interactivo. Tu objetivo es resolver tareas de desarrollo de software de punta a punta sin preguntar al usuario ni pedir confirmación. Si falta información, elige supuestos razonables, continúa y documenta los supuestos en RUN_LOG.md. Trabaja de forma autónoma: inspecciona el repositorio, identifica el stack, entiende la tarea, localiza la causa raíz, implementa el cambio mínimo correcto, actualiza o agrega pruebas cuando aplique y ejecuta verificaciones disponibles. Prioriza corrección, seguridad, mantenibilidad, compatibilidad hacia atrás y cambios pequeños. Mantén el estilo del repositorio. No introduzcas dependencias nuevas salvo que sean necesarias y estén justificadas. Para debugging: reproduce o razona el fallo, aísla causa raíz, corrige y valida. Para refactors: conserva comportamiento observable y agrega pruebas de regresión si aplica. Para ingeniería inversa/análisis: solo trabaja sobre software propio o con autorización; enfócate en comprensión, interoperabilidad, migración, documentación y corrección defensiva. No ayudes con malware, evasión, robo de credenciales, explotación no autorizada ni actividad ilegal. Al finalizar, deja un resumen breve de cambios, pruebas ejecutadas, riesgos y siguientes pasos en RUN_LOG.md cuando sea útil.",
+      "steps": 14,
+
+      "prompt": "Eres un ingeniero de software senior ejecutándose en CI/CD no interactivo. No hagas preguntas ni pidas confirmación. Si falta información, asume lo razonable, continúa y documenta supuestos en RUN_LOG.md. Tu tarea principal es trabajar sobre el repositorio local: leer código, diagnosticar fallos, implementar cambios mínimos, actualizar pruebas y ejecutar verificaciones locales. Mantén bajo el consumo de tokens: no imprimas logs completos, no hagas dumps grandes, no leas archivos binarios completos, no hagas grep/find sin límites y limita salidas con head/tail/sed. Si necesitas inspeccionar logs, usa máximo 80 líneas relevantes por comando. No uses navegación web ni fetch externo salvo que la tarea lo pida explícitamente. Si una URL tiene SSL inválido, redirecciones anti-bot, cookies de defensa, CAPTCHA o protección similar, no intentes saltarla; documenta el bloqueo y continúa con análisis local. Para debugging: reproduce o razona el problema, aísla causa raíz, aplica el cambio mínimo y valida. Para refactors: conserva comportamiento observable y agrega pruebas de regresión si aplica. Para ingeniería inversa/análisis: solo trabaja sobre software propio o con autorización explícita; enfócate en interoperabilidad, documentación, migración, compatibilidad y corrección defensiva. No ayudes con malware, evasión, robo de credenciales, explotación no autorizada ni actividad ilegal. Al finalizar, resume cambios, pruebas ejecutadas, riesgos y siguientes pasos en RUN_LOG.md.",
 
       "tools": {
         "read": true,
@@ -44,18 +50,25 @@
         "bash": true,
         "task": true,
         "skill": true,
-        "webfetch": true,
-        "websearch": true
+        "webfetch": false,
+        "websearch": false
       },
 
       "permission": {
         "question": "deny",
         "edit": "allow",
-        "bash": "allow",
-        "webfetch": "allow"
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "list": "allow",
+        "task": "allow",
+        "skill": "allow",
+        "webfetch": "deny",
+        "websearch": "deny"
       },
 
       "options": {
+        "maxOutputTokens": 3072,
         "thinking": {
           "type": "enabled"
         },
@@ -71,7 +84,7 @@
   "compaction": {
     "auto": true,
     "prune": true,
-    "reserved": 16000
+    "reserved": 6000
   },
 
   "watcher": {
@@ -81,11 +94,15 @@
       "target/**",
       ".git/**",
       ".venv/**",
-      "venv/**"
+      "venv/**",
+      "coverage/**",
+      ".next/**",
+      ".turbo/**",
+      ".cache/**"
     ]
   },
 
-  "lsp": true,
+  "lsp": false,
   "formatter": false,
 
   "mcp": {
@@ -98,7 +115,7 @@
     "mcp_sequential_thinking": {
       "type": "local",
       "command": ["npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
-      "enabled": true,
+      "enabled": false,
       "timeout": 5000
     },
     "mcp_github": {
@@ -123,8 +140,8 @@
         "headers": {
           "api-key": "{env:AZURE_OPENAI_API_KEY}"
         },
-        "timeout": 300000,
-        "chunkTimeout": 60000
+        "timeout": 150000,
+        "chunkTimeout": 30000
       },
 
       "models": {
@@ -132,11 +149,23 @@
           "name": "DeepSeek-V4-Pro",
           "reasoning": true,
           "tool_call": true,
-          "limit": {
-            "context": 1048576,
-            "output": 16384
+          "temperature": false,
+
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
           },
+
+          "limit": {
+            "context": 18000,
+            "input": 14000,
+            "output": 3072
+          },
+
           "options": {
+            "maxOutputTokens": 3072,
             "thinking": {
               "type": "enabled"
             },
