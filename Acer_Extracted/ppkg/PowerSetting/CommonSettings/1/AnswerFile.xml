@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+  <Customizations>
+    <Common>
+      <Power>
+        <Controls>
+          <DefaultOverlayDcPowerScheme>BetterBatteryLife</DefaultOverlayDcPowerScheme>
+        </Controls>
+      </Power>
+    </Common>
+  </Customizations>
+</Settings>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Proteggi il tuo dispositivo
+</title><subtitle>
+Previo consenso, Acer registrerà questo dispositivo nell'ID Acer dell'utente, utilizzando le informazioni da questi condivise con Microsoft, o indicate al momento della registrazione (opzionale). Se non si desidera procedere alla registrazione, è possibile lasciare in bianco i campi relativi alle informazioni. Consulta l'Informativa sulla privacy di Acer, disponibile di seguito. 
+</subtitle><customerinfo><label>
+Consenti ad Acer di migliorare il proprio servizio di supporto e l'esperienza d'uso del dispositivo aderendo al programma User Experience Improvement, di cui accetto i Termini e le condizioni d'uso
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Registra questo dispositivo nel mio ID Acer (se all'indirizzo e-mail indicato non corrisponde nessun ID, ne verrà creato uno)
+</label></checkbox1><checkbox2><label>
+Accetto di ricevere offerte e aggiornamenti da Acer
+</label></checkbox2><checkbox3><label>
+Consenti ad Acer di condividere i miei dati di contatto con McAfee per ricevere aggiornamenti sul software di sicurezza preinstallato in questo dispositivo
+</label></checkbox3><link1><label>
+NOTA:  Acer non utilizzerà nessuna delle informazioni fornite senza il consenso dell'utente, che può essere prestato nella prossima pagina.  Per ricevere informazioni dettagliate sull'utilizzo che Acer fa dei dati dei suoi utenti e sulle misure adottate per proteggerli, consultare l'Informativa sulla privacy di Acer.
+</label></link1><link2><label>
+Consulta i Termini e le condizioni d'uso del programma User Experience Improvement di Acer. Visita il sito Web www.acer.com/legal per consultare le informazioni legali aggiornate di Acer
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

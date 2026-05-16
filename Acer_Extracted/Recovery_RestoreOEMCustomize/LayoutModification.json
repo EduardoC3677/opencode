@@ -1,0 +1,45 @@
+{
+   "firstRunOEMPins" : [
+      {
+         "desktopAppId" : "McAfee.McAgent"
+      },
+      {
+         "caption" : "McAfee LiveSafe"
+      }
+   ],
+   "primaryOEMPins" : [
+      {
+         "desktopAppId" : "{6D809377-6AF0-444B-8957-A3773F02200E}\\Google\\Play Games\\Bootstrapper.exe"
+      },
+      {
+         "desktopAppLink" : "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Booking.com.url"
+      },
+      {
+         "desktopAppLink" : "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Forge of Empires.url"
+      },
+      {
+         "packagedAppId" : "26720RandomSaladGamesLLC.3899848563C1F_kx24dqmazqk8j!App"
+      }
+   ],
+   "secondaryOEMPins" : [
+      {
+         "packagedAppId" : "26720RandomSaladGamesLLC.Spades_kx24dqmazqk8j!App"
+      },
+      {
+         "packagedAppId" : "Evernote.Evernote_q4d96b2w5wcc2!Evernote"
+      },
+      {
+         "desktopAppLink" : "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Planet9 Link.url"
+      },
+      {
+         "desktopAppLink" : "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Amazon.url"
+      },
+      {
+         "packagedAppId" : "ULICTekInc.AcerSense5.0_nt9dgb7efx6bt!AcerSense"
+      },
+      {
+         "packagedAppId" : "AppUp.IntelTechnologyMDE_8j3eq9eme6ctt!App"
+      }
+   ]
+}
+

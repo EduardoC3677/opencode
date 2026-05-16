@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience>
+	<oobe>
+		<oem>
+			<registration>
+				<customerinfo>
+					<defaultvalue>false</defaultvalue>
+				</customerinfo>
+				<checkbox1>
+					<defaultvalue>false</defaultvalue>
+				</checkbox1>
+				<checkbox2>
+					<defaultvalue>false</defaultvalue>
+				</checkbox2>
+				<checkbox3>
+					<defaultvalue>false</defaultvalue>
+				</checkbox3>
+			</registration>
+		</oem>
+	</oobe>
+</FirstExperience>

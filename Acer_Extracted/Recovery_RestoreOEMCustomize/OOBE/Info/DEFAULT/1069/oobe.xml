@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Babestu zure gailua
+</title><subtitle>
+Zure baimena ematen baduzu, Acer-ek gailu hau erregistratuko du zure Acer ID-arekin, Microsoftekin partekatutako edo hemen emandako informazioa erabiliz (aukerakoa). Erregistroa ere egin gabe utzi dezakezu, informazio-eremuak hutsik utziz. Irakurri jarraian eskuragarri daukazun Acer-en pribatutasun-politika. 
+</subtitle><customerinfo><label>
+Utzi Acer-i euskarri hobea ematen eta gailuaren erabilera-esperientzia hobetzen Erabiltzailearen esperientzia hobetzeko programaren bidez, eta onartu haren erabilera-baldintzak
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Onartzen dut gailu hau nire Acer ID-pean erregistratzea (bat sortuko da helbide elektronikoa oraindik erregistratuta ez badago)
+</label></checkbox1><checkbox2><label>
+Onartzen dut Acer-en eskaintzak eta eguneratzeak jasotzea
+</label></checkbox2><checkbox3><label>
+Eman baimena Acer-i nire harremanetarako datuak McAfee-ekin partekatzeko, gailu honetan aurrez instalatutako segurtasun softwarearen egunerapenak jaso ahal izateko
+</label></checkbox3><link1><label>
+OHARRA:  Acer-ek ez du informazio hau erabiliko hurrengo orrian baimena eman arte.  Ikusi Acer-en pribatutasun-politika, Acer-ek zure informazioa nola erabiltzen eta babesten duen jakiteko.
+</label></link1><link2><label>
+Irakurri Acer-en Erabiltzailearen esperientzia hobetzeko programaren erabilera-baldintzak. Bisitatu www.acer.com/legal webgunea Acer-i buruzko informazio legal eguneratua eskuratzeko
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

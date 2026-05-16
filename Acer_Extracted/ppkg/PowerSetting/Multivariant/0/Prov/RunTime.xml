@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationSource Version="1.0">
+  <ConfigurationSet Type="provxml" SettingsGroup="a7592240-1eea-5e6c-ba1c-3c21cd68fd48" Data="$(_prov)\RunTime\0__Power_Controls.provxml" />
+</ConfigurationSource>

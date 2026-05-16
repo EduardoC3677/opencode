@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Védje meg készülékét
+</title><subtitle>
+Az Acer az Ön beleegyezésével regisztrálja ezt az eszközt Acer ID azonosítójával a Microsofttal megosztott vagy itt megadott adatok alapján (opcionális). A regisztráció kihagyásához csak hagyja üresen a kitölthető mezőket. Kérjük, olvassa el alább az Acer adatvédelmi szabályzatát. 
+</subtitle><customerinfo><label>
+Engedélyezem az Acer számára, hogy a felhasználói élmény javítását biztosító program keretén belül jobb támogatást nyújtson és javítsa az eszközhasználati élményt, és elfogadom ennek használati feltételeit
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Beleegyezem abba, hogy regisztrálják ezt az eszközt az Acer ID azonosítómmal (ha egy még nem regisztrált e-mail-címet adott meg, létrehozunk egy azonosítót Önnek)
+</label></checkbox1><checkbox2><label>
+Beleegyezem abba, hogy ajánlatokat és tájékoztató üzeneteket kapjak az Acer vállalattól
+</label></checkbox2><checkbox3><label>
+Engedélyezem az Acernek, hogy elérhetőségi információimat megosszák a McAfeenal, hogy frissítéseket kapjak ezen eszköz előre betelepített biztonsági szoftverjével kapcsolatban
+</label></checkbox3><link1><label>
+MEGJEGYZÉS:  Az Acer addig nem használja fel ezeket az adatokat, amíg Ön a következő oldalon bele nem egyezik ebbe.  Tekintse meg az Acer adatvédelmi szabályzatát, amely ismerteti, hogyan használjuk fel és védjük meg az Ön adatait.
+</label></link1><link2><label>
+Olvassa el az Acer felhasználói élmény javítását biztosító programjának használati feltételeit. Látogasson el a www.acer.com/legal oldalra az Acer aktuális jogi információiért
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

@@ -1,0 +1,1 @@
+C:\OEM\Preload\Weblinks\Amazon.lnk

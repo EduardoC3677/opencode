@@ -1,0 +1,10 @@
+2025-10-20 00:48:35.721 [00003896] [T] LiveUpdateChecker.App::App()
+2025-10-20 00:48:35.754 [00003896] [T] LiveUpdateChecker.App::LoadResource()
+2025-10-20 00:48:35.885 [00003896] [T] LiveUpdateChecker.App::IsSingleInstance()
+2025-10-20 00:48:35.886 [00003896] [T] LiveUpdateChecker.SingleInstance::SingleInstance()
+2025-10-20 00:48:36.067 [00003896] [T] LiveUpdateChecker.MainWindow::MainWindow()
+2025-10-20 00:48:36.104 [00003896] [T] LiveUpdateChecker.MainWindow() Is Full Screen
+2025-10-20 00:48:36.111 [00024548] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex()
+2025-10-20 00:48:36.117 [00024548] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex(), Exception: System.ApplicationException: El método de sincronización del objeto se ha llamado desde un bloque de códigos sin sincronizar.
+   en System.Threading.Mutex.ReleaseMutex()
+   en Acer.CareCenter.LiveUpdateChecker.SingleInstance.ReleaseMutex()

@@ -1,0 +1,6 @@
+2026-05-10 04:21:41.786 [00018832] [T] LiveUpdateChecker.App::App()
+2026-05-10 04:21:41.820 [00018832] [T] LiveUpdateChecker.App::LoadResource()
+2026-05-10 04:21:41.880 [00018832] [T] LiveUpdateChecker.App::IsSingleInstance()
+2026-05-10 04:21:41.882 [00018832] [T] LiveUpdateChecker.SingleInstance::SingleInstance()
+2026-05-10 04:21:41.920 [00018832] [D] LiveUpdateChecker.App::App(): The network is disconnected.
+2026-05-10 04:21:41.946 [00001756] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex()

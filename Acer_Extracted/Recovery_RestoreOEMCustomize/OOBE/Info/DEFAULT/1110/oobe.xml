@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Protexa o seu dispositivo
+</title><subtitle>
+Co seu consentimento, Acer rexistrará este dispositivo baixo o seu Acer ID coa información que compartise con Microsoft ou que proporcione aquí (opcional). Tamén pode omitir o rexistro deixando os campos de información baleiros. Consulte a Política de privacidade de Acer dispoñible máis abaixo. 
+</subtitle><customerinfo><label>
+Permitir a Acer proporcionar asistencia mellorada e mellorar a experiencia de uso do dispositivo a través do Programa de mellora da experiencia do usuario e aceptar as súas condicións de uso
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Aceptar o rexistro deste dispositivo baixo o meu Acer ID (crearase un se o enderezo de correo electrónico non está rexistrado aínda)
+</label></checkbox1><checkbox2><label>
+Aceptar recibir ofertas e noticias de Acer
+</label></checkbox2><checkbox3><label>
+Permítalle a Acer compartir os seus datos de contacto con McAfee para así recibir vostede actualizacións do programa de seguridade preinstalado neste dispositivo
+</label></checkbox3><link1><label>
+NOTA:  Acer non utilizará esta información ata que nos dea o seu permiso na páxina seguinte.  Consulte a Política de privacidade de Acer para saber como utiliza e protexe Acer a súa información.
+</label></link1><link2><label>
+Lea as Condicións de uso do Programa de mellora da experiencia do usuario de Acer. Visite www.acer.com/legal para obter información legal actualizada de Acer
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

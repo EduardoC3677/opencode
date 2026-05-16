@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Zabezpiecz swoje urządzenie
+</title><subtitle>
+Za Twoją zgodą firma Acer zarejestruje to urządzenie na Twoim koncie Acer ID wraz z informacjami, które udostępniłeś(-aś) firmie Microsoft lub podasz na tej stronie (opcjonalnie). Możesz pominąć rejestrację, pozostawiając te pola puste. Przeczytaj zasady dotyczące prywatności firmy Acer dostępne poniżej. 
+</subtitle><customerinfo><label>
+Zezwalam firmie Acer na zapewnienie mi rozszerzonego wsparcia i lepszej obsługi poprzez Program poprawy zadowolenia użytkowników. Ponadto akceptuję jego warunki użytkowania
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Zgadzam się na zarejestrowanie tego urządzenia na moim koncie Acer ID (jeśli podany adres e-mail nie jest jeszcze w naszym systemie, utworzymy nowe konto)
+</label></checkbox1><checkbox2><label>
+Zgadzam się na otrzymywanie od firmy Acer wiadomości ofertowych i informacyjnych
+</label></checkbox2><checkbox3><label>
+Zezwalaj firmie Acer na udostępnienie moich danych kontaktowych firmie McAfee w celu otrzymywania aktualizacji dotyczących preinstalowanego oprogramowania zabezpieczającego tego urządzenia
+</label></checkbox3><link1><label>
+UWAGA:  Acer nie wykorzysta tych informacji, dopóki nie wyrazisz na to zgody na następnej stronie.  W zasadach dotyczących prywatności firmy Acer znajdziesz przykłady sposobów użycia i ochrony Twoich informacji.
+</label></link1><link2><label>
+Przeczytaj warunki użytkowania Programu poprawy zadowolenia użytkowników Acer. Bieżące informacje prawne firmy Acer znajdziesz pod adresem www.acer.com/legal
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Apsaugokite savo prietaisą
+</title><subtitle>
+Gavusi jūsų sutikimą, „Acer“ užregistruos jūsų prietaisą pagal jūsų „Acer ID“ su informacija, kuria pasidalijote su „Microsoft“ arba kurią nurodysite čia (neprivaloma). Galite praleisti registraciją palikdami informacijos laukelius neužpildytus. Prašome perskaityti toliau pateikiamą „Acer“ privatumo politiką. 
+</subtitle><customerinfo><label>
+Leidžiu „Acer“ suteikti geresnį palaikymą ir patobulinti prietaiso naudojimo patirtį per Naudotojo patirties tobulinimo programą. Sutinku su naudojimo sąlygomis
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Sutinku registruoti prietaisą pagal savo „AcerID“ („AcerID“ jums bus sukurtas, jei el. pašto adresas dar nėra užregistruotas)
+</label></checkbox1><checkbox2><label>
+Sutinku gauti pasiūlymus ir atnaujinimus iš „Acer“
+</label></checkbox2><checkbox3><label>
+Leisti „Acer“ dalintis mano kontaktais su „McAfee“, kad gauti iš anksto instaliuotos apsauginės programinės įrangos šiame įrenginyje atnaujinimus
+</label></checkbox3><link1><label>
+PASTABA:  „Acer“ nenaudos šios informacijos, kol neduosite mums savo sutikimo kitame puslapyje.  Prašome peržiūrėti „Acer“ privatumo politiką apie tai, kaip „Acer“ naudoja ir saugo jūsų informaciją.
+</label></link1><link2><label>
+Perskaitykite „Acer“ Naudotojo patirties tobulinimo programos naudojimo sąlygas. Apsilankykite www.acer.com/legal norėdami gauti aktualią „Acer“ teisinę informaciją
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>
