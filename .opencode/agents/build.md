@@ -1,7 +1,7 @@
 ---
 description: Ejecutor principal (build) con acceso total a herramientas, sin aprobaciones (no ask), sin preguntas interactivas.
 mode: primary
-model: azure-openai/deepseek-v4-pro
+model: azure-openai/DeepSeek-V4-Pro
 temperature: 0.2
 top_p: 0.9
 permission:
