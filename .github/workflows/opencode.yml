@@ -216,7 +216,6 @@ jobs:
       - name: Run OpenCode Review
         uses: sst/opencode/github@latest
         env:
-          VERSION: "1.15.0"
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
           OPENCODE_CONFIG: ${{ env.OPENCODE_CONFIG }}
           OPENCODE_CONFIG_DIR: ${{ env.OPENCODE_CONFIG_DIR }}
