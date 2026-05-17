@@ -6,7 +6,6 @@
       "options": {
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
-        "setCacheKey": true,
         "headers": {
           "Content-Type": "application/json",
           "api-key": "{env:AZURE_OPENAI_API_KEY}"
@@ -20,8 +19,6 @@
           },
           "options": {
             "reasoningEffort": "high",
-            "temperature": 0.2,
-            "top_p": 1,
             "max_completion_tokens": 32768,
           }
         }
