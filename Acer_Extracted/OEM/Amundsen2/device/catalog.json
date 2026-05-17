@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "pid": "4c550004",
+      "rid": "25070200",
+      "priority": 700,
+      "wait": 0,
+      "source_uri": "https://s3.amazonaws.com/amundsen/ares"
+    },
+    {
+      "pid": "5d770005",
+      "rid": "22081001",
+      "priority": 200,
+      "wait": 0,
+      "source_uri": "https://s3.amazonaws.com/amundsen/ares"
+    },
+    {
+      "pid": "5876707b",
+      "rid": "25092000",
+      "priority": 700,
+      "wait": 0,
+      "source_uri": "https://s3.amazonaws.com/amundsen/ares"
+    }
+  ],
+  "ctrl": {
+    "error_code": "0",
+    "error_message": null,
+    "server": "0.0.0.0"
+  }
+}

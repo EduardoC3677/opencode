@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Schützen Sie Ihr Gerät
+</title><subtitle>
+Mit Ihrer Zustimmung registriert Acer dieses Gerät unter Ihrer Acer-ID mit den Informationen, die Sie mit Microsoft geteilt haben oder hier bereitstellen (optional). Sie können die Registrierung auch überspringen, indem Sie die Informationsfelder leer lassen. Lesen Sie die untenstehende Datenschutzrichtlinie von Acer. 
+</subtitle><customerinfo><label>
+Ich erlaube Acer, mir mit dem User Experience Improvement Program erweiterten Support zu bieten und die Nutzungserfahrung mit meinem Gerät zu verbessern, und stimme den Nutzungsbedingungen zu
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Ich stimme zu, dieses Gerät unter meiner Acer-ID zu registrieren (es wird eine ID erstellt, wenn die E-Mail-Adresse noch nicht registriert ist)
+</label></checkbox1><checkbox2><label>
+Ich stimme zu, Angebote und Updates von Acer zu erhalten
+</label></checkbox2><checkbox3><label>
+Acer erlauben, meine Kontaktdaten an McAfee weiterzugeben, um Updates über die vorinstallierte Sicherheitssoftware dieses Geräts zu erhalten
+</label></checkbox3><link1><label>
+HINWEIS:  Acer verwendet diese Informationen erst, wenn Sie uns Ihre Zustimmung auf der nächsten Seite erteilen.  In der Datenschutzrichtlinie von Acer erfahren Sie, wie Acer Ihre Daten verwendet und schützt.
+</label></link1><link2><label>
+Lesen Sie die Nutzungsbedingungen für das Acer User Experience Improvement Program. Aktuelle rechtliche Informationen zu Acer finden Sie unter www.acer.com/legal.
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

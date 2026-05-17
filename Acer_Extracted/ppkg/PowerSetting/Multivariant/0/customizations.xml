@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{5d723d27-6365-4425-ac61-c6d6a93a2dcd}</ID>
+    <Name>PowerSetting</Name>
+    <Version>1.0</Version>
+    <OwnerType>OEM</OwnerType>
+    <Rank>60</Rank>
+    <Notes />
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <Power>
+          <Controls>
+            <DefaultOverlayDcPowerScheme>BetterBatteryLife</DefaultOverlayDcPowerScheme>
+          </Controls>
+        </Power>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>

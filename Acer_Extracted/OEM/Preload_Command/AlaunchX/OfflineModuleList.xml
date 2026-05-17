@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<OfflineModuleList>
+<TotalAction>9</TotalAction>
+<Done>0</Done>
+<ModuleList>
+<Module PN="MOD01OPK00EN930009">
+<Action>1</Action>
+<Path>C:\OEM\Preload\DPOP\Unattend</Path>
+<Type>OPK</Type>
+<Delete>True</Delete>
+<InstallPriority>100</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"C:\OEM\Preload\DPOP\Unattend\Preload.cmd"</InstallCommand>
+</InstallCommandList>
+</Module>
+<Module PN="MOD01S007W0092000C">
+<Action>2</Action>
+<Path>C:\OEM\Preload\DPOP\FODDefaultContent</Path>
+<Type>S00</Type>
+<Delete>True</Delete>
+<InstallPriority>111</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"C:\OEM\Preload\DPOP\FODDefaultContent\InjectRDX.cmd"</InstallCommand>
+</InstallCommandList>
+</Module>
+<Module PN="MOD01S00ET0092000S">
+<Action>3</Action>
+<Path>C:\OEM\Preload\Hotfix\KBWindowsAPPX</Path>
+<Type>S00</Type>
+<Delete>False</Delete>
+<InstallPriority>199</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"C:\OEM\Preload\Hotfix\KBWindowsAPPX\copy.cmd"</InstallCommand>
+</InstallCommandList>
+</Module>
+<Module PN="MOD01H01B400930002">
+<Action>4</Action>
+<Path>C:\OEM\Preload\Hotfix\2022050_KB5015207</Path>
+<Type>H01</Type>
+<Delete>False</Delete>
+<InstallPriority>199</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"C:\OEM\Preload\Hotfix\2022050_KB5015207\01_KB5015207\Install_ChkByManual.cmd" KB5015207 SCD_WinPE</InstallCommand>
+</InstallCommandList>
+</Module>
+<Module PN="MOD01H01BU00930001">
+<Action>5</Action>
+<Path>C:\OEM\Preload\Hotfix\2023053_KB5026446</Path>
+<Type>H01</Type>
+<Delete>False</Delete>
+<InstallPriority>200</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"C:\OEM\Preload\Hotfix\2023053_KB5026446\Install_ChkByManual.cmd" KB5026446 SCD_WinPE</InstallCommand>
+</InstallCommandList>
+</Module>
+<Module PN="MOD01H017G00920005">
+<Action>6</Action>
+<Path>C:\OEM\Preload\Hotfix\KBWindowsAPPX</Path>
+<Type>H01</Type>
+<Delete>True</Delete>
+<InstallPriority>200</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"C:\OEM\Preload\Hotfix\KBWindowsAPPX\Install_2022SV2.cmd"</InstallCommand>
+</InstallCommandList>
+</Module>
+<Module PN="MOD01S00G400600003">
+<Action>7</Action>
+<Path>c:\OEM\Preload\DPOP\OptimizeProvisionedappxpackages</Path>
+<Type>S00</Type>
+<Delete>True</Delete>
+<InstallPriority>600</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"c:\OEM\Preload\DPOP\OptimizeProvisionedappxpackages\Preload.cmd"</InstallCommand>
+</InstallCommandList>
+</Module>
+<Module PN="MOD01S008I0060000K">
+<Action>8</Action>
+<Path>c:\oem\Preload\DPOP\DISMCleanupImage</Path>
+<Type>S00</Type>
+<Delete>False</Delete>
+<InstallPriority>997</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"c:\oem\Preload\DPOP\DISMCleanupImage\DISMCleanupImage.cmd" SCD_WinPE</InstallCommand>
+</InstallCommandList>
+</Module>
+<Module PN="MOD01S00BH0092000D">
+<Action>9</Action>
+<Path>c:\OEM\Preload\DPOP\EnableDotNet35</Path>
+<Type>S00</Type>
+<Delete>True</Delete>
+<InstallPriority>998</InstallPriority>
+<InstallCommandList Count="1">
+<InstallCommand Priority="1">"c:\OEM\Preload\DPOP\EnableDotNet35\Preload.cmd" SCD_WinPE</InstallCommand>
+</InstallCommandList>
+</Module>
+</ModuleList>
+</OfflineModuleList>

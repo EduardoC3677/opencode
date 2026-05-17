@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Chraňte své zařízení
+</title><subtitle>
+S vaším souhlasem společnost Acer zařízení zaregistruje pod účtem Acer ID pomocí informací poskytnutých společnosti Microsoft nebo uvedených zde (volitelné). Registraci můžete také přeskočit, stačí nechat pole prázdná. Přečtěte si zásady ochrany osobních údajů společnosti Acer níže. 
+</subtitle><customerinfo><label>
+Povoluji společnosti Acer, že může poskytovat rozšířenou podporu a vylepšovat zařízení prostřednictvím programu User Experience Improvement Program, a přijímám jeho podmínky použití
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Souhlasím s registrací tohoto zařízení pod mým účtem Acer ID (které bude vytvořeno, pokud daná e-mailová adresa zatím nebyla zaregistrována)
+</label></checkbox1><checkbox2><label>
+Souhlasím s odběrem nabídek a novinek společnosti Acer
+</label></checkbox2><checkbox3><label>
+Povolte společnosti Acer sdílení mých kontaktních údajů s produktem McAfee a přijímání aktualizací týkajících se předinstalovaného bezpečnostního softwaru tohoto zařízení
+</label></checkbox3><link1><label>
+POZNÁMKA:  Společnost Acer tyto informace nepoužije, dokud nám nedáte souhlas na následující straně.  V zásadách ochrany osobních údajů společnosti Acer si můžete přečíst, jakým způsobem společnost Acer vaše informace využívá a chrání.
+</label></link1><link2><label>
+Přečtěte si podmínky použití programu Acer User Experience Improvement Program. Aktuální právní informace společnosti Acer najdete na webu www.acer.com/legal
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

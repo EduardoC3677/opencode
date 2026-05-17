@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Skydda din enhet
+</title><subtitle>
+Om du godkänner det kommer Acer att registrera den här enheten under ditt Acer-ID med informationen du har delat med Microsoft eller anger här (valfritt). Om du vill hoppa över registreringen lämnar du fälten nedan tomma. Acers integritetspolicy är tillgänglig nedan. 
+</subtitle><customerinfo><label>
+Tillåt Acer att tillhandahålla utökad support och förbättra användarupplevelsen med hjälp av programmet för förbättring av användarupplevelse och acceptera användarvillkoren för programmet
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Registrera den här enheten under mitt Acer-ID (om e-postadressen du har angett inte är registrerad kommer ett Acer-ID att skapas)
+</label></checkbox1><checkbox2><label>
+Ta emot erbjudanden och uppdateringar från Acer
+</label></checkbox2><checkbox3><label>
+Tillåt Acer att dela min kontaktinformation med McAfee så att jag får uppdateringar om enhetens förinstallerade säkerhetsprogramvara
+</label></checkbox3><link1><label>
+Obs!  Vi kommer inte att använda den här informationen förrän du har gett oss tillstånd på nästa sida.  Om du vill ha information om hur vi skyddar din information läser du vår integritetspolicy.
+</label></link1><link2><label>
+Läs användarvillkoren för Acers program för förbättring av användarupplevelsen. Aktuell juridisk information från Acer finns på www.acer.com/legal
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

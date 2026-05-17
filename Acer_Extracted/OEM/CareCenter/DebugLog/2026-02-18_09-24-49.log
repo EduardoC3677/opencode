@@ -1,0 +1,139 @@
+2026-02-18 09:24:49.851 [00024076] [T] LiveUpdateChecker.App::App()
+2026-02-18 09:24:49.858 [00024076] [T] LiveUpdateChecker.App::LoadResource()
+2026-02-18 09:24:49.899 [00024076] [T] LiveUpdateChecker.App::IsSingleInstance()
+2026-02-18 09:24:49.900 [00024076] [T] LiveUpdateChecker.SingleInstance::SingleInstance()
+2026-02-18 09:24:49.998 [00024076] [T] LiveUpdateChecker.MainWindow::MainWindow()
+2026-02-18 09:24:50.155 [00024076] [T] LiveUpdateChecker.MainWindow::Window_Initialized()
+2026-02-18 09:24:50.166 [00024076] [T] LiveUpdateChecker.MainWindow::Hola()
+2026-02-18 09:24:50.166 [00024076] [D] LiveUpdateChecker.MainWindow::Hola(): ACCHOLA()
+2026-02-18 09:24:50.171 [00024076] [I] ACCHOLA::Program Initialization()
+2026-02-18 09:24:50.178 [00024076] [I] ACCHOLA:GetSerialNumber()
+2026-02-18 09:24:50.178 [00024076] [I] ACCHOLA:Get_WMI_Info()
+2026-02-18 09:24:50.223 [00024076] [I] ACCHOLA:GetMachineType()
+2026-02-18 09:24:50.282 [00024076] [I] ACCHOLA:ReadIni()
+2026-02-18 09:24:50.282 [00024076] [I] ACCHOLA:ReadIni()::iniPath::C:\ProgramData\Acer\CareCenter\HOLA.ini
+2026-02-18 09:24:50.287 [00024076] [I] ACCHOLA::Program Initialization(): No need to be checked HOLA AD Data.
+2026-02-18 09:24:50.290 [00024076] [T] LiveUpdateChecker.MainWindow::InitializeCheckUpdates()
+2026-02-18 09:24:50.291 [00024076] [T] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment()
+2026-02-18 09:24:50.303 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetOSCode()
+2026-02-18 09:24:50.303 [00024076] [D] LiveUpdater.UpdaterEnvironment::GetOSCode(): Version: 10.0.26200.0
+2026-02-18 09:24:50.303 [00024076] [D] LiveUpdater.UpdaterEnvironment::GetOSCode(): Major Version: 10
+2026-02-18 09:24:50.303 [00024076] [D] LiveUpdater.UpdaterEnvironment::GetOSCode(): Minor Version: 0
+2026-02-18 09:24:50.317 [00024076] [D] LiveUpdater.UpdaterEnvironment::GetOSCode(): Can't find the matched OS code.
+2026-02-18 09:24:50.317 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): OS: 10M1
+2026-02-18 09:24:50.318 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetSupportedLangID()
+2026-02-18 09:24:50.318 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): Language: ES
+2026-02-18 09:24:50.320 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetModel()
+2026-02-18 09:24:50.336 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): Model: Aspire A315-59
+2026-02-18 09:24:50.338 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetBrand()
+2026-02-18 09:24:50.338 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): Brand: Acer
+2026-02-18 09:24:50.340 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetUpdaterVer()
+2026-02-18 09:24:50.341 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): ACC Version: ACC_4.00.0000
+2026-02-18 09:24:50.342 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetUpdaterDwordVer()
+2026-02-18 09:24:50.342 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): ACC DWORD Version: 0
+2026-02-18 09:24:50.342 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetSN()
+2026-02-18 09:24:51.356 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): SN: NXK6TAL019416025803400
+2026-02-18 09:24:51.356 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetKeyDim()
+2026-02-18 09:24:51.357 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): Local Directory: C:\ProgramData\Acer\updater2
+2026-02-18 09:24:51.357 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): FP URL: https://aluwsv2.acer.com/ServerInfo/ES/Aspire A315-59/Aspire A315-59_10M1_ES.xml
+2026-02-18 09:24:51.357 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): AP URL: https://aluwsv2.acer.com/ServerInfo/ES/ALU_APP/ALU_APP_10M1_ES.xml
+2026-02-18 09:24:51.358 [00024076] [T] LiveUpdater.UpdaterEnvironment::GenPubkey()
+2026-02-18 09:24:51.365 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetMetaFile()
+2026-02-18 09:24:51.366 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetLastBootUpTime()
+2026-02-18 09:24:51.465 [00024076] [D] LiveUpdate.FUB::GetFUBString()
+2026-02-18 09:24:51.466 [00024076] [D] Jattt
+2026-02-18 09:24:51.466 [00024076] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): FUBDLR = [FUB],FUB=IYY59,
+2026-02-18 09:24:51.466 [00024076] [T] LiveUpdater.UpdaterEnvironment::GetLastBootUpTime()
+2026-02-18 09:24:51.558 [00024076] [T] LiveUpdater.Updates::UpgradeHistoryInit()
+2026-02-18 09:24:51.559 [00024076] [T] LiveUpdater.Updates::HiddenHistoryInit()
+2026-02-18 09:24:51.562 [00024076] [T] LiveUpdater.LiveUpdateManager::CheckUpdates()
+2026-02-18 09:24:51.564 [00019432] [T] LiveUpdater.LiveUpdateManager::Worker()
+2026-02-18 09:24:51.565 [00024076] [T] LiveUpdater.Report::AddFPToResult()
+2026-02-18 09:24:51.565 [00019432] [T] LiveUpdater.CheckUpdatesJob::CheckUpdatesJob()
+2026-02-18 09:24:51.567 [00019432] [T] LiveUpdater.CheckUpdatesJob::CheckUpdatesJob()
+2026-02-18 09:24:51.567 [00019432] [T] LiveUpdater.CheckUpdatesJob::Start()
+2026-02-18 09:24:51.567 [00019432] [T] LiveUpdater.CheckUpdatesJob::Start()
+2026-02-18 09:24:51.569 [00024520] [T] LiveUpdater.CheckUpdatesJob::Worker()
+2026-02-18 09:24:51.569 [00001540] [T] LiveUpdater.CheckUpdatesJob::Worker()
+2026-02-18 09:24:51.569 [00024520] [D] LiveUpdater.CheckUpdatesJob::Worker(): Ready to call CheckForUpdate()
+2026-02-18 09:24:51.569 [00001540] [D] LiveUpdater.CheckUpdatesJob::Worker(): Ready to call CheckForUpdate()
+2026-02-18 09:24:51.570 [00024520] [T] LiveUpdater.GetDriverXML::CheckForUpdate()
+2026-02-18 09:24:51.571 [00001540] [T] LiveUpdater.GetDriverXML::CheckForUpdate()
+2026-02-18 09:24:51.572 [00024520] [T] LiveUpdater.GetDriverXML::GetStringSHA1HashCode()
+2026-02-18 09:24:51.572 [00001540] [T] LiveUpdater.GetDriverXML::GetStringSHA1HashCode()
+2026-02-18 09:24:51.573 [00024520] [T] LiveUpdater.GetDriverXML::BuildStr_UserAgent()
+2026-02-18 09:24:51.573 [00024520] [T] LiveUpdater.GetDriverXML::GetStringSHA1HashCode()
+2026-02-18 09:24:51.574 [00001540] [T] LiveUpdater.GetDriverXML::BuildStr_UserAgent()
+2026-02-18 09:24:51.574 [00001540] [T] LiveUpdater.GetDriverXML::GetStringSHA1HashCode()
+2026-02-18 09:24:51.574 [00024520] [T] LiveUpdater.GetDriverXML::BuildStr_Acer()
+2026-02-18 09:24:51.574 [00001540] [T] LiveUpdater.GetDriverXML::BuildStr_Acer()
+2026-02-18 09:24:51.574 [00024520] [T] LiveUpdater.GetDriverXML::GetStringSHA1HashCode()
+2026-02-18 09:24:51.574 [00001540] [T] LiveUpdater.GetDriverXML::GetStringSHA1HashCode()
+2026-02-18 09:24:51.576 [00001540] [T] LiveUpdater.GetDriverXML::GetPlatformInfo()
+2026-02-18 09:24:51.577 [00024520] [T] LiveUpdater.GetDriverXML::GetPlatformInfo()
+2026-02-18 09:24:51.593 [00024520] [D] LiveUpdater.GetDriverXML::GetPlatformInfo(): Acer: 1DA39A3EE5E6B4B0D3255BFEF95601890AFD80709DE1058B1579ECA7D9
+2026-02-18 09:24:51.593 [00024520] [D] LiveUpdater.GetDriverXML::GetPlatformInfo(): SN: NXK6TAL019416025803400
+2026-02-18 09:24:51.593 [00024520] [D] LiveUpdater.GetDriverXML::GetPlatformInfo(): RT: 1
+2026-02-18 09:24:51.594 [00024520] [D] LiveUpdater.GetDriverXML::GetPlatformInfo(): Call BeginGetResponse.
+2026-02-18 09:24:51.594 [00001540] [D] LiveUpdater.GetDriverXML::GetPlatformInfo(): Acer: 1DA39A3EE5E6B4B0D3255BFEF95601890AFD80709DE1058B1579ECA7D9
+2026-02-18 09:24:51.594 [00001540] [D] LiveUpdater.GetDriverXML::GetPlatformInfo(): SN: NXK6TAL019416025803400
+2026-02-18 09:24:51.594 [00001540] [D] LiveUpdater.GetDriverXML::GetPlatformInfo(): RT: 1
+2026-02-18 09:24:51.594 [00001540] [D] LiveUpdater.GetDriverXML::GetPlatformInfo(): Call BeginGetResponse.
+2026-02-18 09:24:51.608 [00024076] [I] [ALU Report] OBJID -> , FixpackName -> User behavior, GUID -> , URL -> , RETURNEDCODE -> 0, Message -> Auto-check updates
+2026-02-18 09:24:51.609 [00024076] [T] LiveUpdater.Report::SendReport()
+2026-02-18 09:24:51.613 [00024076] [T] LiveUpdater.Report::GetStringSHA1HashCode()
+2026-02-18 09:24:51.614 [00024076] [T] LiveUpdater.Report::BuildStr_UserAgent_V2()
+2026-02-18 09:24:51.614 [00024076] [T] LiveUpdater.Report::GetStringSHA1HashCode()
+2026-02-18 09:24:51.615 [00024076] [T] LiveUpdater.Report::BuildStr_Acer_V2()
+2026-02-18 09:24:51.616 [00024076] [T] LiveUpdater.Report::GetStringSHA1HashCode()
+2026-02-18 09:24:51.616 [00024076] [T] LiveUpdater.Report::BuildStr_Acer_V2()
+2026-02-18 09:24:51.616 [00024076] [T] LiveUpdater.Report::GetStringSHA1HashCode()
+2026-02-18 09:24:51.617 [00024076] [T] LiveUpdater.Report::PostResult()
+2026-02-18 09:24:51.678 [00001540] [T] LiveUpdater.GetDriverXML::RespCallback()
+2026-02-18 09:24:51.716 [00001540] [D] LiveUpdater.GetDriverXML::RespCallback(), Exception: System.Net.WebException: No se puede resolver el nombre remoto: 'aluwsv2.acer.com'
+   en System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   en Acer.CareCenter.LiveUpdate.GetDriverXML.RespCallback(IAsyncResult ar)
+2026-02-18 09:24:51.719 [00024520] [T] LiveUpdater.Report::ReadCallback()
+2026-02-18 09:24:51.722 [00024520] [D] LiveUpdater.Report::ReadCallback(), Exception: System.Net.WebException: No se puede resolver el nombre remoto: 'aluwsv2.acer.com'
+   en System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   en System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult)
+   en Acer.CareCenter.LiveUpdate.Report.ReadCallback(IAsyncResult asynchronousResult)
+2026-02-18 09:24:51.722 [00024520] [T] LiveUpdater.GetDriverXML::RespCallback()
+2026-02-18 09:24:51.722 [00024520] [D] LiveUpdater.GetDriverXML::RespCallback(), Exception: System.Net.WebException: No se puede resolver el nombre remoto: 'aluwsv2.acer.com'
+   en System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   en Acer.CareCenter.LiveUpdate.GetDriverXML.RespCallback(IAsyncResult ar)
+2026-02-18 09:24:51.731 [00001540] [T] LiveUpdater.CheckUpdatesJob::GetManifestCallBack()
+2026-02-18 09:24:51.733 [00001540] [T] LiveUpdater.UpdaterEnvironment::SaveMetaFile()
+2026-02-18 09:24:51.735 [00001540] [D] LiveUpdater.CheckUpdatesJob::GetManifestCallBack(): Error: -1
+2026-02-18 09:24:51.738 [00024520] [T] LiveUpdater.CheckUpdatesJob::GetManifestCallBack()
+2026-02-18 09:24:51.738 [00024520] [T] LiveUpdater.UpdaterEnvironment::SaveMetaFile()
+2026-02-18 09:24:51.740 [00001540] [D] LiveUpdater.CheckUpdatesJob::GetManifestCallBack(), Exception: System.OperationCanceledException: Operación cancelada.
+   en System.Threading.CancellationToken.ThrowOperationCanceledException()
+   en System.Threading.Barrier.SignalAndWait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   en Acer.CareCenter.LiveUpdate.CheckUpdatesJob.GetManifestCallBack(GetAndParseXMLEventArgs e)
+2026-02-18 09:24:51.740 [00001540] [D] LiveUpdater.CheckUpdatesJob::Worker(): Waitng for callback.
+2026-02-18 09:24:51.740 [00001540] [D] LiveUpdater.CheckUpdatesJob::Worker(), Exception: System.OperationCanceledException: Operación cancelada.
+   en System.Threading.CancellationToken.ThrowOperationCanceledException()
+   en System.Threading.Barrier.SignalAndWait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   en Acer.CareCenter.LiveUpdate.CheckUpdatesJob.Worker(Object obj)
+2026-02-18 09:24:51.763 [00024520] [D] LiveUpdater.CheckUpdatesJob::GetManifestCallBack(): Error: -1
+2026-02-18 09:24:51.763 [00024520] [D] LiveUpdater.CheckUpdatesJob::GetManifestCallBack(), Exception: System.OperationCanceledException: Operación cancelada.
+   en System.Threading.CancellationToken.ThrowOperationCanceledException()
+   en System.Threading.Barrier.SignalAndWait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   en Acer.CareCenter.LiveUpdate.CheckUpdatesJob.GetManifestCallBack(GetAndParseXMLEventArgs e)
+2026-02-18 09:24:51.763 [00024520] [D] LiveUpdater.CheckUpdatesJob::Worker(): Waitng for callback.
+2026-02-18 09:24:51.764 [00024520] [D] LiveUpdater.CheckUpdatesJob::Worker(), Exception: System.OperationCanceledException: Operación cancelada.
+   en System.Threading.CancellationToken.ThrowOperationCanceledException()
+   en System.Threading.Barrier.SignalAndWait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   en Acer.CareCenter.LiveUpdate.CheckUpdatesJob.Worker(Object obj)
+2026-02-18 09:24:51.766 [00019432] [T] LiveUpdater.LiveUpdateManager::HistorySync()
+2026-02-18 09:24:51.767 [00019432] [T] LiveUpdater.LiveUpdateManager::HiddenHistorySync()
+2026-02-18 09:24:51.769 [00019432] [T] LiveUpdateChecker.MainWindow::CheckUpdatesCompletedCallback()
+2026-02-18 09:24:51.769 [00019432] [T] LiveUpdater.UpdaterEnvironment::SaveMetaFile()
+2026-02-18 09:24:51.770 [00019432] [T] LiveUpdater.UpdaterEnvironment::SaveMetaFile()
+2026-02-18 09:24:51.777 [00024076] [D] LiveUpdateChecker.MainWindow::CheckUpdatesCompletedCallback(): There is no update.
+2026-02-18 09:24:51.777 [00024076] [T] LiveUpdateChecker.MainWindow::Close()
+2026-02-18 09:24:51.814 [00002032] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex()
+2026-02-18 09:24:51.815 [00002032] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex(), Exception: System.ApplicationException: El método de sincronización del objeto se ha llamado desde un bloque de códigos sin sincronizar.
+   en System.Threading.Mutex.ReleaseMutex()
+   en Acer.CareCenter.LiveUpdateChecker.SingleInstance.ReleaseMutex()

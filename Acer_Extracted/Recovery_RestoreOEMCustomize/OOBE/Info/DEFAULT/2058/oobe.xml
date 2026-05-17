@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Proteja su dispositivo
+</title><subtitle>
+A través de su consentimiento, Acer registrará este dispositivo con su ID de Acer con la información que compartió con Microsoft; en caso contrario, ingrésela aquí (opcional). Puede omitir el registro si deja los campos de información en blanco. Lea la Política de privacidad de Acer, disponible a continuación. 
+</subtitle><customerinfo><label>
+Permitir que Acer proporcione un mejor servicio de soporte para potenciar la experiencia de uso del dispositivo a través del Programa de mejora de la experiencia del usuario (acepte sus Términos de uso)
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Acceder a registrar este dispositivo con mi AcerID (se creará uno si aún no se ha registrado una dirección de correo electrónico)
+</label></checkbox1><checkbox2><label>
+Aceptar recibir ofertas y actualizaciones de Acer
+</label></checkbox2><checkbox3><label>
+Permitir que Acer comparta mis datos de contacto con McAfee para recibir actualizaciones sobre el software de seguridad preinstalado de este dispositivo
+</label></checkbox3><link1><label>
+NOTA:  Acer no utilizará esta información hasta que nos conceda su permiso en la página siguiente.  Consulte la Política de privacidad de Acer para saber cómo se emplea y protege su información.
+</label></link1><link2><label>
+Consulte los Términos de uso del Programa de mejora de la experiencia del usuario de Acer. Visite www.acer.com/legal para obtener la información normativa actualizada de Acer.
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

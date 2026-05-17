@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<getWOS>
+	<Ret>0</Ret>
+	<WOSs Count="289">
+		<WOS CPU="All" SKU="W81 All" PartNumber="40" Parent_PartNumber="ZZ" ShortName="W81ALL00" SWBOM_Abbreviation="W81ALL" SkuDisplayName="W8 All" />
+		<WOS CPU="All" SKU="W10 All" PartNumber="60" Parent_PartNumber="ZZ" ShortName="W10ALL00" SWBOM_Abbreviation="W10ALL" SkuDisplayName="W10All" />
+		<WOS CPU="All" SKU="WS2011 Small Business All" PartNumber="1X" Parent_PartNumber="ZZ" ShortName="WSSBAll00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="Vista All" PartNumber="00" Parent_PartNumber="ZZ" ShortName="0000" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="Ultimate" PartNumber="0B" Parent_PartNumber="00" ShortName="VUT00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="W8 All" PartNumber="20" Parent_PartNumber="ZZ" ShortName="W8ALL00" SWBOM_Abbreviation="W8ALL" SkuDisplayName="W8 All" />
+		<WOS CPU="All" SKU="WN All" PartNumber="92" Parent_PartNumber="ZZ" ShortName="WNALL00" SWBOM_Abbreviation="WNALL00" SkuDisplayName="" />
+		<WOS CPU="All" SKU="WS2008 Storage All" PartNumber="1P" Parent_PartNumber="ZZ" ShortName="WSS ALL00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="Business" PartNumber="0C" Parent_PartNumber="00" ShortName="VB00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="XP All" PartNumber="PP" Parent_PartNumber="ZZ" ShortName="XPALL00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="HomeBasic" PartNumber="0D" Parent_PartNumber="00" ShortName="VHB00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="W7 All" PartNumber="0G" Parent_PartNumber="ZZ" ShortName="W7ALL00" SWBOM_Abbreviation="W7ALL" SkuDisplayName="" />
+		<WOS CPU="All" SKU="All OS" PartNumber="ZZ" Parent_PartNumber="" ShortName="ALLOS00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="HomePremium" PartNumber="0E" Parent_PartNumber="00" ShortName="VHP00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="WS2008R2 Storage All" PartNumber="1U" Parent_PartNumber="ZZ" ShortName="WSS2008R2All00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="All" SKU="Starter" PartNumber="0F" Parent_PartNumber="00" ShortName="VSTR00" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="ARM" SKU="W81 RT J" PartNumber="35" Parent_PartNumber="50" ShortName="W81RTJARM" SWBOM_Abbreviation="W81RTJ" SkuDisplayName="Windows 8.1 RT J Version" />
+		<WOS CPU="ARM" SKU="W81 RT All" PartNumber="50" Parent_PartNumber="Z4,40" ShortName="W81RTALLARM" SWBOM_Abbreviation="W81RTALL" SkuDisplayName="W81 RT All" />
+		<WOS CPU="ARM" SKU="W81 RT" PartNumber="51" Parent_PartNumber="50" ShortName="W81RTARM" SWBOM_Abbreviation="W81RT" SkuDisplayName="" />
+		<WOS CPU="ARM" SKU="W8 RT J" PartNumber="2A" Parent_PartNumber="30" ShortName="W8RTJARM" SWBOM_Abbreviation="W8RTJ" SkuDisplayName="Windows 8 RT J Version" />
+		<WOS CPU="ARM" SKU="W8 RT All" PartNumber="30" Parent_PartNumber="Z4,20" ShortName="W8RTALLARM" SWBOM_Abbreviation="W8RTALL" SkuDisplayName="W8 RT All" />
+		<WOS CPU="ARM" SKU="W8 RT" PartNumber="31" Parent_PartNumber="30" ShortName="W8RTARM" SWBOM_Abbreviation="W8RT" SkuDisplayName="Windows 8 RT" />
+		<WOS CPU="ARM" SKU="All OS" PartNumber="Z4" Parent_PartNumber="ZZ" ShortName="ALLOSARM" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="ARM64" SKU="W10 Single Language S" PartNumber="8B" Parent_PartNumber="87" ShortName="W10SHSLA64" SWBOM_Abbreviation="W10SHMSL64" SkuDisplayName="Windows 10 Home Single Language in S mode" />
+		<WOS CPU="ARM64" SKU="WN Home Single Language Version" PartNumber="9L" Parent_PartNumber="9A" ShortName="WN-HSLA64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="ARM64" SKU="WN OS Pack in S" PartNumber="9V" Parent_PartNumber="9A" ShortName="WNSOPA64" SWBOM_Abbreviation="WNSOPA64" SkuDisplayName="Microsoft Windows OS Pack in S mode" />
+		<WOS CPU="ARM64" SKU="W10 All" PartNumber="81" Parent_PartNumber="60,Z5" ShortName="W10ALLA64" SWBOM_Abbreviation="W10ALLARM64" SkuDisplayName="" />
+		<WOS CPU="ARM64" SKU="WN Home Single Language" PartNumber="9M" Parent_PartNumber="9L" ShortName="WNHSLA64" SWBOM_Abbreviation="WNHCASL64" SkuDisplayName="Microsoft Windows Home Single Language Edition" />
+		<WOS CPU="ARM64" SKU="W10 Home" PartNumber="84" Parent_PartNumber="81" ShortName="W10HMLA64" SWBOM_Abbreviation="W10HMML64" SkuDisplayName="Windows 10 Home" />
+		<WOS CPU="ARM64" SKU="W10 Professional Version" PartNumber="82" Parent_PartNumber="81" ShortName="W10-PRA64" SWBOM_Abbreviation="W10-PRM64" SkuDisplayName="" />
+		<WOS CPU="ARM64" SKU="WN All" PartNumber="9A" Parent_PartNumber="92,Z5" ShortName="WNALLA64" SWBOM_Abbreviation="WNALLA64" SkuDisplayName="" />
+		<WOS CPU="ARM64" SKU="W10 Professional" PartNumber="83" Parent_PartNumber="82" ShortName="W10PRA64" SWBOM_Abbreviation="W10PRM64" SkuDisplayName="Windows 10 Professional" />
+		<WOS CPU="ARM64" SKU="WN Home Version" PartNumber="9J" Parent_PartNumber="9A" ShortName="WN-HMLA64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="ARM64" SKU="W10 OS Pack in S mode" PartNumber="8D" Parent_PartNumber="81" ShortName="W10SOPA64" SWBOM_Abbreviation="W10SOPA64" SkuDisplayName="Windows 10 OS Pack in S mode" />
+		<WOS CPU="ARM64" SKU="W10 Home S" PartNumber="85" Parent_PartNumber="81" ShortName="W10SHMLA64" SWBOM_Abbreviation="W10SHMML64" SkuDisplayName="Windows 10 Home in S mode" />
+		<WOS CPU="ARM64" SKU="W10 OS Pack in NB" PartNumber="8C" Parent_PartNumber="81" ShortName="W10NOPA64" SWBOM_Abbreviation="W10NOPA64" SkuDisplayName="Windows 10 OS Pack" />
+		<WOS CPU="ARM64" SKU="WN Home S" PartNumber="9P" Parent_PartNumber="9J" ShortName="WNSHMLA64" SWBOM_Abbreviation="WNSHCAML64" SkuDisplayName="Microsoft Windows Home in S mode Edition" />
+		<WOS CPU="ARM64" SKU="WN Home" PartNumber="9K" Parent_PartNumber="9J" ShortName="WNHMLA64" SWBOM_Abbreviation="WNHCAML64" SkuDisplayName="Microsoft Windows Home Edition" />
+		<WOS CPU="ARM64" SKU="W10 Single Language Version" PartNumber="87" Parent_PartNumber="81" ShortName="W10-SLA64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="ARM64" SKU="WN Home Single Language S" PartNumber="9Q" Parent_PartNumber="9L" ShortName="WNSHSLA64" SWBOM_Abbreviation="WNSHCASL64" SkuDisplayName="Microsoft Windows Home Single Language in S mode Edition" />
+		<WOS CPU="ARM64" SKU="W10 Pro S" PartNumber="88" Parent_PartNumber="82" ShortName="W10SPRA64" SWBOM_Abbreviation="W10SPRM64" SkuDisplayName="Windows 10 Professional in S mode" />
+		<WOS CPU="ARM64" SKU="WN Professional Version" PartNumber="9N" Parent_PartNumber="9A" ShortName="WN-PRA64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="ARM64" SKU="W10 Single Language" PartNumber="8A" Parent_PartNumber="87" ShortName="W10HSLA64" SWBOM_Abbreviation="W10HMSL64" SkuDisplayName="Windows 10 Single Language" />
+		<WOS CPU="ARM64" SKU="WN OS Pack in NB" PartNumber="9U" Parent_PartNumber="9A" ShortName="WNNOPA64" SWBOM_Abbreviation="WNNOPA64" SkuDisplayName="Microsoft Windows OS Pack" />
+		<WOS CPU="ARM64" SKU="WN Professional" PartNumber="9O" Parent_PartNumber="9N" ShortName="WNPRA64" SWBOM_Abbreviation="WNPRCA64" SkuDisplayName="Microsoft Windows Professional Edition" />
+		<WOS CPU="ARM64" SKU="All OS" PartNumber="Z5" Parent_PartNumber="ZZ" ShortName="ALLOSA64" SWBOM_Abbreviation="ALLOSA64" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="Starter" PartNumber="0A" Parent_PartNumber="64,0F" ShortName="VSTR64" SWBOM_Abbreviation="VSTR64" SkuDisplayName="Windows Vista Starter" />
+		<WOS CPU="X64" SKU="W81 Single Language" PartNumber="3C" Parent_PartNumber="38" ShortName="W81SL64" SWBOM_Abbreviation="W81SL64" SkuDisplayName="Windows 8.1 Single Language" />
+		<WOS CPU="X64" SKU="WS2008 Storage Workgroup" PartNumber="13" Parent_PartNumber="11" ShortName="WSSW200864" SWBOM_Abbreviation="WSSW2008 64" SkuDisplayName="Windows Storage Server 2008 Workgroup Edition" />
+		<WOS CPU="X64" SKU="W7 K Version" PartNumber="0X" Parent_PartNumber="0N" ShortName="W7-K64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="WN OS Pack in DT" PartNumber="9S" Parent_PartNumber="93" ShortName="WNDOP64" SWBOM_Abbreviation="WNDOP64" SkuDisplayName="Microsoft Windows OS Pack" />
+		<WOS CPU="X64" SKU="W7 HomePremium K" PartNumber="1G" Parent_PartNumber="0X" ShortName="W7HPK64" SWBOM_Abbreviation="W7HP64K" SkuDisplayName="Windows 7 Home Premium K" />
+		<WOS CPU="X64" SKU="WN Home Single Language Version" PartNumber="98" Parent_PartNumber="93" ShortName="WN-HSL64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Professional Education" PartNumber="6R" Parent_PartNumber="6I" ShortName="W10PREDU64" SWBOM_Abbreviation="W10PR64EDUH" SkuDisplayName="Windows 10 Professional Education" />
+		<WOS CPU="X64" SKU="W8 Enterprise Version" PartNumber="3Q" Parent_PartNumber="21" ShortName="W8-EP64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Home China Version" PartNumber="6D" Parent_PartNumber="61" ShortName="W10-HCN64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 Professional China Version" PartNumber="4P" Parent_PartNumber="41" ShortName="W81-PRCN64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="WN OS Pack in S" PartNumber="9T" Parent_PartNumber="93" ShortName="WNSOP64" SWBOM_Abbreviation="WNSOP64" SkuDisplayName="Microsoft Windows OS Pack in S mode" />
+		<WOS CPU="X64" SKU="W10 Enterprise Government Version" PartNumber="77" Parent_PartNumber="61" ShortName="W10-EPG64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W8 Single Language" PartNumber="2F" Parent_PartNumber="2J" ShortName="W8SL64" SWBOM_Abbreviation="W8SL64" SkuDisplayName="Windows 8 Single Language" />
+		<WOS CPU="X64" SKU="WS2011 Small Business All" PartNumber="1Y" Parent_PartNumber="Z6,1X" ShortName="WSSBAll64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W7 HomePremium" PartNumber="0O" Parent_PartNumber="0N" ShortName="W7HP64" SWBOM_Abbreviation="W7HP64" SkuDisplayName="Windows 7 Home Premium" />
+		<WOS CPU="X64" SKU="W7 Enterprise Version" PartNumber="3R" Parent_PartNumber="0N" ShortName="W7-EP64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 IoT Enterprise SAC" PartNumber="7G" Parent_PartNumber="7F" ShortName="W10TEPS64" SWBOM_Abbreviation="W10TESAC64" SkuDisplayName="Windows 10 IoT Enterprise" />
+		<WOS CPU="X64" SKU="W81 China" PartNumber="39" Parent_PartNumber="36" ShortName="W81CN64" SWBOM_Abbreviation="W81CN64" SkuDisplayName="Windows 8.1 China" />
+		<WOS CPU="X64" SKU="WS2008 Storage Standard" PartNumber="14" Parent_PartNumber="11" ShortName="WSSS200864" SWBOM_Abbreviation="WSSS2008 64" SkuDisplayName="Microsoft Windows Storage Server 2008 Standard Edition" />
+		<WOS CPU="X64" SKU="W81 All" PartNumber="41" Parent_PartNumber="40,Z6" ShortName="W81ALL64" SWBOM_Abbreviation="W81ALL64" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 All" PartNumber="61" Parent_PartNumber="60,Z6" ShortName="W10ALL64" SWBOM_Abbreviation="W10ALL64" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Enterprise Government" PartNumber="78" Parent_PartNumber="77" ShortName="W10EPG64" SWBOM_Abbreviation="W10PREP1CN64" SkuDisplayName="Windows 10 Enterprise for Government" />
+		<WOS CPU="X64" SKU="W7 Professional K X" PartNumber="1A" Parent_PartNumber="0X" ShortName="W7PRKX64" SWBOM_Abbreviation="W7PR64XK" SkuDisplayName="Windows 7 Professional K XP Mode" />
+		<WOS CPU="X64" SKU="WN Home Single Language" PartNumber="99" Parent_PartNumber="98" ShortName="WNHSL64" SWBOM_Abbreviation="WNHCSL64" SkuDisplayName="Microsoft Windows Home Single Language Edition" />
+		<WOS CPU="X64" SKU="W10 Cloud Version" PartNumber="SU" Parent_PartNumber="61" ShortName="W10-SML64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="WS2011 Small Business Essentials" PartNumber="1Z" Parent_PartNumber="1Y" ShortName="WSSBE201164" SWBOM_Abbreviation="WSSB20100E 64" SkuDisplayName="Microsoft Windows Small Business Server 20100 Essentials Edition" />
+		<WOS CPU="X64" SKU="W7 Enterprise" PartNumber="3S" Parent_PartNumber="3R" ShortName="W7EP64" SWBOM_Abbreviation="W7EP64" SkuDisplayName="Windows 7 Enterprise" />
+		<WOS CPU="X64" SKU="W10 Enterprise LTSC Version" PartNumber="7H" Parent_PartNumber="61" ShortName="W10-EPLTSC64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Home China" PartNumber="6F" Parent_PartNumber="6D" ShortName="W10HCN64" SWBOM_Abbreviation="W10HCN64" SkuDisplayName="Windows 10 Home China" />
+		<WOS CPU="X64" SKU="Vista All" PartNumber="64" Parent_PartNumber="00,Z6" ShortName="0064" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 Professional for EDU Version" PartNumber="4R" Parent_PartNumber="41" ShortName="W81-PREDU64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W7 Professional X EDU" PartNumber="29" Parent_PartNumber="0N" ShortName="W7PRXEDU64" SWBOM_Abbreviation="W7PR64XEDU" SkuDisplayName="Windows 7 Professional 64 XP Mode EDU" />
+		<WOS CPU="X64" SKU="WN SE Version" PartNumber="9W" Parent_PartNumber="93" ShortName="WN-EE64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W8 China" PartNumber="2H" Parent_PartNumber="2O" ShortName="W8CN64" SWBOM_Abbreviation="W8CN64" SkuDisplayName="Windows 8 China" />
+		<WOS CPU="X64" SKU="W7 HomeBasic" PartNumber="0P" Parent_PartNumber="0N" ShortName="W7HB64" SWBOM_Abbreviation="W7HB64" SkuDisplayName="Windows 7 Home Basic" />
+		<WOS CPU="X64" SKU="W8" PartNumber="23" Parent_PartNumber="21" ShortName="W8ML64" SWBOM_Abbreviation="W8ML64" SkuDisplayName="Windows 8" />
+		<WOS CPU="X64" SKU="W81 with Bing" PartNumber="45" Parent_PartNumber="4C" ShortName="W81BML64" SWBOM_Abbreviation="W81BML64" SkuDisplayName="Windows 8.1 with Bing" />
+		<WOS CPU="X64" SKU="W10 IoT Enterprise LTSC 2019" PartNumber="7I" Parent_PartNumber="7H" ShortName="W10TVMLV2019Y64" SWBOM_Abbreviation="W10TVML64V2019" SkuDisplayName="Windows 10 IoT Enterprise LTSC" />
+		<WOS CPU="X64" SKU="W10 Home for Gift Card" PartNumber="6H" Parent_PartNumber="61" ShortName="W10HMLGIFT64" SWBOM_Abbreviation="W10HGML64GIFT" SkuDisplayName="Windows 10 Home for Gift Card" />
+		<WOS CPU="X64" SKU="WS2008 Storage Enterprise" PartNumber="15" Parent_PartNumber="11" ShortName="WSSE200864" SWBOM_Abbreviation="WSSE2008 64" SkuDisplayName="Windows Storage Server 2008 Enterprise Edition" />
+		<WOS CPU="X64" SKU="W81 Single Language for Small Screen Touch AFO" PartNumber="4T" Parent_PartNumber="38" ShortName="W81SSTASL64" SWBOM_Abbreviation="W81SSTASL64" SkuDisplayName="Windows 8.1 Single Language for Small Screen Touch AFO" />
+		<WOS CPU="X64" SKU="Ultimate" PartNumber="06" Parent_PartNumber="64,0B" ShortName="VUT64" SWBOM_Abbreviation="VUT64" SkuDisplayName="Windows Vista Ultimate" />
+		<WOS CPU="X64" SKU="WN SE" PartNumber="9X" Parent_PartNumber="9W" ShortName="WNEE64" SWBOM_Abbreviation="WNEE64" SkuDisplayName="Microsoft Windows SE Edition" />
+		<WOS CPU="X64" SKU="W10 Professional Education S" PartNumber="79" Parent_PartNumber="6I" ShortName="W10SPREDU64" SWBOM_Abbreviation="W10SPR64EDUH" SkuDisplayName="Windows 10 Professional Education in S mode" />
+		<WOS CPU="X64" SKU="W7 Professional EDU" PartNumber="1E" Parent_PartNumber="0N" ShortName="W7PREDU64" SWBOM_Abbreviation="W7PR64EDU" SkuDisplayName="Windows 7 Professional EDU" />
+		<WOS CPU="X64" SKU="WN Home China Version" PartNumber="9B" Parent_PartNumber="93" ShortName="WN-HCN64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Cloud" PartNumber="6V" Parent_PartNumber="SU" ShortName="W10SML64" SWBOM_Abbreviation="W10SML64" SkuDisplayName="Windows 10 S" />
+		<WOS CPU="X64" SKU="W7 Ultimate" PartNumber="0Q" Parent_PartNumber="0N" ShortName="W7UT64" SWBOM_Abbreviation="W7UT64" SkuDisplayName="Windows 7 Ultimate" />
+		<WOS CPU="X64" SKU="XP Professional" PartNumber="P3" Parent_PartNumber="P6" ShortName="XPP64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 Single Language Version" PartNumber="38" Parent_PartNumber="41" ShortName="W81-SL64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 TEST Image" PartNumber="4U" Parent_PartNumber="41" ShortName="W81TEST64" SWBOM_Abbreviation="W81TEST64" SkuDisplayName="Windows 8.1 TEST Image" />
+		<WOS CPU="X64" SKU="W7 Professional X GPT EDU" PartNumber="2X" Parent_PartNumber="0N" ShortName="W7PRXGEDU64" SWBOM_Abbreviation="W7PR64XGEDU" SkuDisplayName="Windows 7 Professional XP Mode GPT EDU" />
+		<WOS CPU="X64" SKU="W10 IoT Enterprise LTSC 2021" PartNumber="7J" Parent_PartNumber="7H" ShortName="W10TVMLV2021Y64" SWBOM_Abbreviation="W10TVML64V2021" SkuDisplayName="Windows 10 IoT Enterprise LTSC" />
+		<WOS CPU="X64" SKU="W10 Home" PartNumber="63" Parent_PartNumber="61" ShortName="W10HML64" SWBOM_Abbreviation="W10HML64" SkuDisplayName="Windows 10 Home Edition" />
+		<WOS CPU="X64" SKU="WN Home China" PartNumber="9C" Parent_PartNumber="9B" ShortName="WNHCN64" SWBOM_Abbreviation="WNHPCN64CPPP" SkuDisplayName="Microsoft Windows Home China Edition" />
+		<WOS CPU="X64" SKU="WN Pro Education Version" PartNumber="9D" Parent_PartNumber="93" ShortName="WN-PREDU64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Professional Version" PartNumber="6X" Parent_PartNumber="61" ShortName="W10-PR64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 Single Language with Bing" PartNumber="47" Parent_PartNumber="4N" ShortName="W81BSL64" SWBOM_Abbreviation="W81BSL64" SkuDisplayName="Windows 8.1 Single Language with Bing" />
+		<WOS CPU="X64" SKU="WN All" PartNumber="93" Parent_PartNumber="92,Z6" ShortName="WNALL64" SWBOM_Abbreviation="WNALL64" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Professional Education Version" PartNumber="6I" Parent_PartNumber="61" ShortName="W10-PREDU64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Enterprise Government 2022" PartNumber="8E" Parent_PartNumber="77" ShortName="W10EPG2022Y64" SWBOM_Abbreviation="W10PREP1CN64V2022" SkuDisplayName="Windows 10 Enterprise for Government" />
+		<WOS CPU="X64" SKU="W10 OS Pack" PartNumber="7A" Parent_PartNumber="61" ShortName="W10OP64" SWBOM_Abbreviation="W10OP64" SkuDisplayName="Windows 10 OS Pack" />
+		<WOS CPU="X64" SKU="W8 Single Language Version" PartNumber="2J" Parent_PartNumber="21" ShortName="W8-SL64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W7 Professional K" PartNumber="1I" Parent_PartNumber="0X" ShortName="W7PRK64" SWBOM_Abbreviation="W7PR64K" SkuDisplayName="Windows 7 Professional K" />
+		<WOS CPU="X64" SKU="WN Pro Education" PartNumber="9E" Parent_PartNumber="9D" ShortName="WNPREDU64" SWBOM_Abbreviation="WNPRE64EDU" SkuDisplayName="Microsoft Windows Pro Education Edition" />
+		<WOS CPU="X64" SKU="W8 All" PartNumber="21" Parent_PartNumber="20,Z6" ShortName="W8ALL64" SWBOM_Abbreviation="W8ALL64" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W7 Professional" PartNumber="0R" Parent_PartNumber="0N" ShortName="W7PR64" SWBOM_Abbreviation="W7PR64" SkuDisplayName="Windows 7 Professional" />
+		<WOS CPU="X64" SKU="W10 Professional China Version" PartNumber="6J" Parent_PartNumber="61" ShortName="W10-PRCN64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="XP Home Edition" PartNumber="P4" Parent_PartNumber="P6" ShortName="XPH64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 China Version" PartNumber="36" Parent_PartNumber="41" ShortName="W81-CN64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Professional" PartNumber="65" Parent_PartNumber="6X" ShortName="W10PR64" SWBOM_Abbreviation="W10PR64" SkuDisplayName="Windows 10 Professional" />
+		<WOS CPU="X64" SKU="Business" PartNumber="07" Parent_PartNumber="64,0C" ShortName="VB64" SWBOM_Abbreviation="VB64" SkuDisplayName="Windows Vista Business" />
+		<WOS CPU="X64" SKU="W8 Professional EDU" PartNumber="2Y" Parent_PartNumber="21" ShortName="W8PREDU64" SWBOM_Abbreviation="W8PR64EDU" SkuDisplayName="Windows 8 Professional EDU" />
+		<WOS CPU="X64" SKU="WN Pro for Workstations Version" PartNumber="9F" Parent_PartNumber="93" ShortName="WN-PRW64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 China with Bing" PartNumber="49" Parent_PartNumber="4O" ShortName="W81BCN64" SWBOM_Abbreviation="W81BCN64" SkuDisplayName="Windows 8.1 China with Bing" />
+		<WOS CPU="X64" SKU="WN Home Version" PartNumber="95" Parent_PartNumber="93" ShortName="WN-HML64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Professional China" PartNumber="6K" Parent_PartNumber="6J" ShortName="W10PRCN64" SWBOM_Abbreviation="W10PRCN64" SkuDisplayName="Windows 10 Professional China" />
+		<WOS CPU="X64" SKU="WS2008 Storage All" PartNumber="11" Parent_PartNumber="ZZ,Z6" ShortName="WSS ALL64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 OS Pack in S mode" PartNumber="7B" Parent_PartNumber="61" ShortName="W10SOP64" SWBOM_Abbreviation="W10SOP64" SkuDisplayName="Windows 10 OS Pack in S mode" />
+		<WOS CPU="X64" SKU="W8 China Version" PartNumber="2O" Parent_PartNumber="21" ShortName="W8-CN64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W7 Ultimate K X" PartNumber="1C" Parent_PartNumber="0X" ShortName="W7UTKX64" SWBOM_Abbreviation="W7UT64XK" SkuDisplayName="Windows 7 Ultimate K XP Mode" />
+		<WOS CPU="X64" SKU="WN Pro for Workstations" PartNumber="9G" Parent_PartNumber="9F" ShortName="WNPRW64" SWBOM_Abbreviation="WNPRCW64" SkuDisplayName="Microsoft Windows Pro for Workstations Edition" />
+		<WOS CPU="X64" SKU="W10 Home S" PartNumber="71" Parent_PartNumber="61" ShortName="W10SHML64" SWBOM_Abbreviation="W10SHML64" SkuDisplayName="Windows 10 Home in S mode" />
+		<WOS CPU="X64" SKU="W7 Starter" PartNumber="0S" Parent_PartNumber="0N" ShortName="W7ST64" SWBOM_Abbreviation="W7ST64" SkuDisplayName="Windows 7 Starter" />
+		<WOS CPU="X64" SKU="W10 Enterprise Version" PartNumber="6L" Parent_PartNumber="61" ShortName="W10-EP64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 K Version" PartNumber="37" Parent_PartNumber="41" ShortName="W81-K64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 Professional" PartNumber="2Z" Parent_PartNumber="41" ShortName="W81PR64" SWBOM_Abbreviation="W81PR64" SkuDisplayName="Windows 8.1 Pro" />
+		<WOS CPU="X64" SKU="W81 Professional China" PartNumber="4I" Parent_PartNumber="4P" ShortName="W81PRCN64" SWBOM_Abbreviation="W81PRCN64" SkuDisplayName="Windows 8.1 Pro China" />
+		<WOS CPU="X64" SKU="W10 OS Pack in NB" PartNumber="7E" Parent_PartNumber="61" ShortName="W10NOP64" SWBOM_Abbreviation="W10NOP64" SkuDisplayName="Windows 10 OS Pack" />
+		<WOS CPU="X64" SKU="W8 K Version" PartNumber="2Q" Parent_PartNumber="21" ShortName="W8-K64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W7 Ultimate K" PartNumber="1K" Parent_PartNumber="0X" ShortName="W7UTK64" SWBOM_Abbreviation="W7UT64K" SkuDisplayName="Windows 7 Ultimate K" />
+		<WOS CPU="X64" SKU="WN Home S" PartNumber="9H" Parent_PartNumber="95" ShortName="WNSHML64" SWBOM_Abbreviation="WNSHCML64" SkuDisplayName="Microsoft Windows Home in S mode Edition" />
+		<WOS CPU="X64" SKU="W81 Enterprise" PartNumber="4B" Parent_PartNumber="4A" ShortName="W81EP64" SWBOM_Abbreviation="W81EP64" SkuDisplayName="Windows 81 Enterprise" />
+		<WOS CPU="X64" SKU="WN Home" PartNumber="94" Parent_PartNumber="95" ShortName="WNHML64" SWBOM_Abbreviation="WNHCML64" SkuDisplayName="Microsoft Windows Home Edition" />
+		<WOS CPU="X64" SKU="W10 Enterprise" PartNumber="6M" Parent_PartNumber="6L" ShortName="W10EP64" SWBOM_Abbreviation="W10EP64" SkuDisplayName="Windows 10 Enterprise" />
+		<WOS CPU="X64" SKU="W7 Embedded System Standard" PartNumber="1R" Parent_PartNumber="0N" ShortName="W7ESS64" SWBOM_Abbreviation="W7ESS64" SkuDisplayName="Windows 7 Embedded System Standard" />
+		<WOS CPU="X64" SKU="XP All" PartNumber="P6" Parent_PartNumber="PP,Z6" ShortName="XPALL64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81 Single Language EDUV" PartNumber="3D" Parent_PartNumber="38" ShortName="W81SLEDUV64" SWBOM_Abbreviation="W81SL64EDUV" SkuDisplayName="Windows 8.1 Single Language EDUV" />
+		<WOS CPU="X64" SKU="W10 Single Language Version" PartNumber="69" Parent_PartNumber="61" ShortName="W10-SL64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="HomeBasic" PartNumber="08" Parent_PartNumber="64,0D" ShortName="VHB64" SWBOM_Abbreviation="VHB64" SkuDisplayName="Windows Vista Home Basic" />
+		<WOS CPU="X64" SKU="W8 Single Language EDUV" PartNumber="33" Parent_PartNumber="2J" ShortName="W8SLEDUV64" SWBOM_Abbreviation="W8SL64EDUV" SkuDisplayName="Windows 8 Single Language EDUV" />
+		<WOS CPU="X64" SKU="HomePremium K Version" PartNumber="2U" Parent_PartNumber="09" ShortName="VHPK64" SWBOM_Abbreviation="VHP64K" SkuDisplayName="Windows Vista Home Premium K" />
+		<WOS CPU="X64" SKU="W7 Professional X GPT" PartNumber="2S" Parent_PartNumber="0N" ShortName="W7PRXG64" SWBOM_Abbreviation="W7PR64XG" SkuDisplayName="Windows 7 Professional XP Mode GPT" />
+		<WOS CPU="X64" SKU="W8 Professional" PartNumber="28" Parent_PartNumber="21" ShortName="W8PR64" SWBOM_Abbreviation="W8PR64" SkuDisplayName="Windows 8 Pro" />
+		<WOS CPU="X64" SKU="W10 Enterprise Government 2020" PartNumber="89" Parent_PartNumber="77" ShortName="W10EPG2020Y64" SWBOM_Abbreviation="W10PREP1CN64V2020" SkuDisplayName="Windows 10 Enterprise for Government" />
+		<WOS CPU="X64" SKU="W7 Professional GPT" PartNumber="2V" Parent_PartNumber="0N" ShortName="W7PRG64" SWBOM_Abbreviation="W7PR64G" SkuDisplayName="Windows 7 Professional GPT" />
+		<WOS CPU="X64" SKU="ZZ -- W7 E Version (No Use)" PartNumber="0T" Parent_PartNumber="0N" ShortName="W7-E64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="WN Home Single Language S" PartNumber="9I" Parent_PartNumber="98" ShortName="WNSHSL64" SWBOM_Abbreviation="WNSHCSL64" SkuDisplayName="Microsoft Windows Home Single Language in S mode Edition" />
+		<WOS CPU="X64" SKU="W10 Pro S" PartNumber="73" Parent_PartNumber="6X" ShortName="W10SPR64" SWBOM_Abbreviation="W10SPR64" SkuDisplayName="Windows 10 Professional in S mode" />
+		<WOS CPU="X64" SKU="W7 All" PartNumber="0N" Parent_PartNumber="0G,Z6" ShortName="W7ALL64" SWBOM_Abbreviation="W7ALL64" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="WN Professional Version" PartNumber="96" Parent_PartNumber="93" ShortName="WN-PR64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 IoT Enterprise LTSB Version" PartNumber="6N" Parent_PartNumber="61" ShortName="W10-TEPL64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W7 Professional X" PartNumber="1T" Parent_PartNumber="0N" ShortName="W7PRX64" SWBOM_Abbreviation="W7PR64X" SkuDisplayName="Windows 7 Professional XP Mode" />
+		<WOS CPU="X64" SKU="W81 Professional for EDU" PartNumber="3M" Parent_PartNumber="4R" ShortName="W81PREDU64" SWBOM_Abbreviation="W81PREDU64" SkuDisplayName="Windows 8.1 Professional for EDU" />
+		<WOS CPU="X64" SKU="W81 K" PartNumber="3A" Parent_PartNumber="37" ShortName="W81MLK64" SWBOM_Abbreviation="W81MLK64" SkuDisplayName="Windows 8.1 K" />
+		<WOS CPU="X64" SKU="W7 HomeBasic - Small Notebook" PartNumber="10" Parent_PartNumber="0N" ShortName="SNW7HB64" SWBOM_Abbreviation="SNW7HB64" SkuDisplayName="Windows 7 Home Basic" />
+		<WOS CPU="X64" SKU="W81 Single Language with Bing Version" PartNumber="4N" Parent_PartNumber="41" ShortName="W81-BSL64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Pro for Workstations Version" PartNumber="90" Parent_PartNumber="61" ShortName="W10-PRW64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W8SvrSBS2012" PartNumber="2W" Parent_PartNumber="Z6" ShortName="W8SvrSBS201264" SWBOM_Abbreviation="W8SvrSBS2012" SkuDisplayName="Small Business Essential 2012" />
+		<WOS CPU="X64" SKU="W81 Enterprise Version" PartNumber="4A" Parent_PartNumber="41" ShortName="W81-EP64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W8 K" PartNumber="2B" Parent_PartNumber="2Q" ShortName="W8MLK64" SWBOM_Abbreviation="W8MLK64" SkuDisplayName="Windows 8 K" />
+		<WOS CPU="X64" SKU="WS2008R2 Storage Standard" PartNumber="1W" Parent_PartNumber="1V" ShortName="WSSS2008R264" SWBOM_Abbreviation="WSSS2008R2 64" SkuDisplayName="Microsoft Windows Storage Server 2008 R2 Standard Edition" />
+		<WOS CPU="X64" SKU="All OS" PartNumber="Z6" Parent_PartNumber="ZZ" ShortName="ALLOS64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W8 Single Language EDU" PartNumber="3N" Parent_PartNumber="2J" ShortName="W8SLEDU64" SWBOM_Abbreviation="W8SL64EDU" SkuDisplayName="Windows 8 Single Language EDU" />
+		<WOS CPU="X64" SKU="W10 Single Language" PartNumber="6B" Parent_PartNumber="69" ShortName="W10HSL64" SWBOM_Abbreviation="W10HSL64" SkuDisplayName="Windows 10 Single Language" />
+		<WOS CPU="X64" SKU="HomePremium" PartNumber="09" Parent_PartNumber="64,0E" ShortName="VHP64" SWBOM_Abbreviation="VHP64" SkuDisplayName="Windows Vista Home Premium" />
+		<WOS CPU="X64" SKU="W10 Pro for Workstations" PartNumber="91" Parent_PartNumber="90" ShortName="W10PRW64" SWBOM_Abbreviation="W10PRW64" SkuDisplayName="Windows 10 Pro for Workstations" />
+		<WOS CPU="X64" SKU="W7 N Version" PartNumber="0V" Parent_PartNumber="0N" ShortName="W7-N64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="WN OS Pack in NB" PartNumber="9R" Parent_PartNumber="93" ShortName="WNNOP64" SWBOM_Abbreviation="WNNOP64" SkuDisplayName="Microsoft Windows OS Pack" />
+		<WOS CPU="X64" SKU="ZZ -- W7 HomePremium E (No Use)" PartNumber="18" Parent_PartNumber="0T" ShortName="W7HPE64" SWBOM_Abbreviation="W7HP64E" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="WN Professional" PartNumber="97" Parent_PartNumber="96" ShortName="WNPR64" SWBOM_Abbreviation="WNPRC64" SkuDisplayName="Microsoft Windows Professional Edition" />
+		<WOS CPU="X64" SKU="W10 IoT Enterprise LTSB" PartNumber="6O" Parent_PartNumber="6N" ShortName="W10TEPL64" SWBOM_Abbreviation="W10TVML64" SkuDisplayName="Windows 10 IoT Enterprise LTSB Edition" />
+		<WOS CPU="X64" SKU="W8 Professional China" PartNumber="3O" Parent_PartNumber="2O" ShortName="W8PRCN64" SWBOM_Abbreviation="W8PRCN64" SkuDisplayName="Windows 8 Pro China" />
+		<WOS CPU="X64" SKU="W81 Professional K" PartNumber="3B" Parent_PartNumber="37" ShortName="W81PRK64" SWBOM_Abbreviation="W81PRK64" SkuDisplayName="Windows 8.1 Pro K" />
+		<WOS CPU="X64" SKU="WS2008 Storage Basic" PartNumber="12" Parent_PartNumber="11" ShortName="WSSB200864" SWBOM_Abbreviation="WSSB2008 64" SkuDisplayName="Windows Storage Server 2008 Basic Edition" />
+		<WOS CPU="X64" SKU="W81 China with Bing Version" PartNumber="4O" Parent_PartNumber="41" ShortName="W81-BCN64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 IoT Enterprise SAC Version" PartNumber="7F" Parent_PartNumber="61" ShortName="W10-TEPS64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W81" PartNumber="43" Parent_PartNumber="41" ShortName="W81ML64" SWBOM_Abbreviation="W81ML64" SkuDisplayName="Windows 8.1" />
+		<WOS CPU="X64" SKU="W81 with Bing Version" PartNumber="4C" Parent_PartNumber="41" ShortName="W81-Bing64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W10 Single Language S" PartNumber="75" Parent_PartNumber="69" ShortName="W10SHSL64" SWBOM_Abbreviation="W10SHSL64" SkuDisplayName="Windows 10 Home Single Language in S mode" />
+		<WOS CPU="X64" SKU="W8 Professional K" PartNumber="2C" Parent_PartNumber="2Q" ShortName="W8PRK64" SWBOM_Abbreviation="W8PRK64" SkuDisplayName="Windows 8 Pro K" />
+		<WOS CPU="X64" SKU="WS2008R2 Storage All" PartNumber="1V" Parent_PartNumber="Z6,1U" ShortName="WSS2008R2All64" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X64" SKU="W8 Enterprise" PartNumber="3P" Parent_PartNumber="3Q" ShortName="W8EP64" SWBOM_Abbreviation="W8EP64" SkuDisplayName="Windows 8 Enterprise" />
+		<WOS CPU="X64" SKU="W7 Professional D GPT" PartNumber="3T" Parent_PartNumber="0N" ShortName="W7PRGD64" SWBOM_Abbreviation="W7PR64GD" SkuDisplayName="Windows 7 Professional GPT for Downgrade" />
+		<WOS CPU="X86" SKU="W10 Home China Version" PartNumber="6E" Parent_PartNumber="62" ShortName="W10-HCN32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W81 Professional China Version" PartNumber="4Q" Parent_PartNumber="42" ShortName="W81-PRCN32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W8 Single Language" PartNumber="2G" Parent_PartNumber="2K" ShortName="W8SL32" SWBOM_Abbreviation="W8SL86" SkuDisplayName="Windows 8 Single Language" />
+		<WOS CPU="X86" SKU="W7 HomePremium" PartNumber="0I" Parent_PartNumber="0H" ShortName="W7HP32" SWBOM_Abbreviation="W7HP32" SkuDisplayName="Windows 7 Home Premium" />
+		<WOS CPU="X86" SKU="W81 China" PartNumber="3G" Parent_PartNumber="3F" ShortName="W81CN32" SWBOM_Abbreviation="W81CN32" SkuDisplayName="Windows 8.1 China" />
+		<WOS CPU="X86" SKU="WS2008 Storage Standard" PartNumber="1N" Parent_PartNumber="16" ShortName="WSSS200832" SWBOM_Abbreviation="WSSS2008 32" SkuDisplayName="Windows Storage Server 2008 Standard Edition" />
+		<WOS CPU="X86" SKU="W81 All" PartNumber="42" Parent_PartNumber="40,Z8" ShortName="W81ALL32" SWBOM_Abbreviation="W81ALL32" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 Starter - Small Notebook" PartNumber="26" Parent_PartNumber="0H" ShortName="SNW7ST32" SWBOM_Abbreviation="SNW7ST32" SkuDisplayName="Windows 7 Starter" />
+		<WOS CPU="X86" SKU="W10 All" PartNumber="62" Parent_PartNumber="60,Z8" ShortName="W10ALL32" SWBOM_Abbreviation="W10ALL32" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 Professional K X" PartNumber="19" Parent_PartNumber="0Y" ShortName="W7PRKX32" SWBOM_Abbreviation="W7PR32XK" SkuDisplayName="Windows 7 Professional K XP Mode" />
+		<WOS CPU="X86" SKU="W10 Cloud Version" PartNumber="6U" Parent_PartNumber="62" ShortName="W10-SML32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 Home China" PartNumber="6G" Parent_PartNumber="6E" ShortName="W10HCN32" SWBOM_Abbreviation="W10HCN32" SkuDisplayName="Windows 10 Home China" />
+		<WOS CPU="X86" SKU="Vista All" PartNumber="86" Parent_PartNumber="00,Z8" ShortName="0032" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W81 Professional for EDU Version" PartNumber="4S" Parent_PartNumber="42" ShortName="W81-PREDU32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 Professional X EDU" PartNumber="25" Parent_PartNumber="0H" ShortName="W7PRXEDU32" SWBOM_Abbreviation="W7PR32XEDU" SkuDisplayName="Windows 7 Professional 32 XP Mode EDU" />
+		<WOS CPU="X86" SKU="W8 China" PartNumber="2I" Parent_PartNumber="2P" ShortName="W8CN32" SWBOM_Abbreviation="W8CN32" SkuDisplayName="Windows 8 China" />
+		<WOS CPU="X86" SKU="W7 HomeBasic" PartNumber="0J" Parent_PartNumber="0H" ShortName="W7HB32" SWBOM_Abbreviation="W7HB32" SkuDisplayName="Windows 7 Home Basic" />
+		<WOS CPU="X86" SKU="WS2008 Storage Enterprise" PartNumber="1O" Parent_PartNumber="16" ShortName="WSSE200832" SWBOM_Abbreviation="WSSE2008 32" SkuDisplayName="Windows Storage Server 2008 Enterprise Edition" />
+		<WOS CPU="X86" SKU="Ultimate" PartNumber="01" Parent_PartNumber="86,0B" ShortName="VUT32" SWBOM_Abbreviation="VUT32" SkuDisplayName="Windows Vista Ultimate" />
+		<WOS CPU="X86" SKU="W10 Professional Education S" PartNumber="80" Parent_PartNumber="6S" ShortName="W10SPREDU32" SWBOM_Abbreviation="W10SPR32EDUN" SkuDisplayName="Windows 10 Professional Education in S mode" />
+		<WOS CPU="X86" SKU="W7 Professional EDU" PartNumber="1D" Parent_PartNumber="0H" ShortName="W7PREDU32" SWBOM_Abbreviation="W7PR32EDU" SkuDisplayName="Windows 7 Professional EDU" />
+		<WOS CPU="X86" SKU="W10 Cloud" PartNumber="6W" Parent_PartNumber="6U" ShortName="W10SML32" SWBOM_Abbreviation="W10SML32" SkuDisplayName="Windows 10 S" />
+		<WOS CPU="X86" SKU="W8" PartNumber="24" Parent_PartNumber="22" ShortName="W8ML32" SWBOM_Abbreviation="W8ML32" SkuDisplayName="Windows 8" />
+		<WOS CPU="X86" SKU="W81 with Bing" PartNumber="46" Parent_PartNumber="4D" ShortName="W81BML32" SWBOM_Abbreviation="W81BML32" SkuDisplayName="Windows 8.1 with Bing" />
+		<WOS CPU="X86" SKU="W7 Ultimate" PartNumber="0K" Parent_PartNumber="0H" ShortName="W7UT32" SWBOM_Abbreviation="W7UT32" SkuDisplayName="Windows 7 Ultimate" />
+		<WOS CPU="X86" SKU="XP Professional" PartNumber="P1" Parent_PartNumber="P8" ShortName="XPP32" SWBOM_Abbreviation="XPP" SkuDisplayName="Windows XP Professional" />
+		<WOS CPU="X86" SKU="W81 Single Language Version" PartNumber="3K" Parent_PartNumber="42" ShortName="W81-SL32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="ZZ -- W7 Starter E - Small Notebook (No Use)" PartNumber="2L" Parent_PartNumber="0U" ShortName="SNW7STE32" SWBOM_Abbreviation="SNW7ST32E" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 Home" PartNumber="68" Parent_PartNumber="62" ShortName="W10HML32" SWBOM_Abbreviation="W10HML32" SkuDisplayName="Windows 10 Home Edition" />
+		<WOS CPU="X86" SKU="W10 Professional Version" PartNumber="6Y" Parent_PartNumber="62" ShortName="W10-PR32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W81 Single Language with Bing" PartNumber="48" Parent_PartNumber="4L" ShortName="W81BSL32" SWBOM_Abbreviation="W81BSL32" SkuDisplayName="Windows 8.1 Single Language with Bing" />
+		<WOS CPU="X86" SKU="W10 Professional Education Version" PartNumber="6S" Parent_PartNumber="62" ShortName="W10-PREDU32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 Starter N - Small Notebook" PartNumber="2M" Parent_PartNumber="0W" ShortName="SNW7STN32" SWBOM_Abbreviation="SNW7ST32N" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 OS Pack" PartNumber="7C" Parent_PartNumber="62" ShortName="W10OP32" SWBOM_Abbreviation="W10OP32" SkuDisplayName="Windows 10 OS Pack" />
+		<WOS CPU="X86" SKU="W8 Single Language Version" PartNumber="2K" Parent_PartNumber="22" ShortName="W8-SL32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 Professional K" PartNumber="1H" Parent_PartNumber="0Y" ShortName="W7PRK32" SWBOM_Abbreviation="W7PR32K" SkuDisplayName="Windows 7 Professional K" />
+		<WOS CPU="X86" SKU="W8 All" PartNumber="22" Parent_PartNumber="20,Z8" ShortName="W8ALL32" SWBOM_Abbreviation="W8ALL32" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 Professional" PartNumber="0L" Parent_PartNumber="0H" ShortName="W7PR32" SWBOM_Abbreviation="W7PR32" SkuDisplayName="Windows 7 Professional" />
+		<WOS CPU="X86" SKU="XP Home Edition" PartNumber="P2" Parent_PartNumber="P8" ShortName="XPH32" SWBOM_Abbreviation="XPH" SkuDisplayName="Windows XP Home Edition" />
+		<WOS CPU="X86" SKU="W81 China Version" PartNumber="3F" Parent_PartNumber="42" ShortName="W81-CN32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 Professional" PartNumber="66" Parent_PartNumber="6Y" ShortName="W10PR32" SWBOM_Abbreviation="W10PR32" SkuDisplayName="Windows 10 Professional" />
+		<WOS CPU="X86" SKU="Business" PartNumber="02" Parent_PartNumber="86,0C" ShortName="VB32" SWBOM_Abbreviation="VB32" SkuDisplayName="Windows Vista Business" />
+		<WOS CPU="X86" SKU="W8 Professional EDU" PartNumber="34" Parent_PartNumber="22" ShortName="W8PREDU32" SWBOM_Abbreviation="W8PR32EDU" SkuDisplayName="Windows 8 Professional EDU" />
+		<WOS CPU="X86" SKU="W7 Starter K - Small Notebook" PartNumber="2N" Parent_PartNumber="0Y" ShortName="SNW7STK32" SWBOM_Abbreviation="SNW7ST32K" SkuDisplayName="Windows 7 Starter K" />
+		<WOS CPU="X86" SKU="W81 China with Bing" PartNumber="52" Parent_PartNumber="4M" ShortName="W81BCN32" SWBOM_Abbreviation="W81BCN32" SkuDisplayName="Windows 8.1 China with Bing" />
+		<WOS CPU="X86" SKU="WS2008 Storage All" PartNumber="16" Parent_PartNumber="ZZ,Z8" ShortName="WSS ALL32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="XP Home Edition - Aspire One" PartNumber="P5" Parent_PartNumber="P2" ShortName="AOXPH32" SWBOM_Abbreviation="AOXPH" SkuDisplayName="Windows XP Home Edition" />
+		<WOS CPU="X86" SKU="W81 with Bing for Small Tablet AFO" PartNumber="4G" Parent_PartNumber="4D" ShortName="W81BSTAML32" SWBOM_Abbreviation="W81BSTAML32" SkuDisplayName="Windows 8.1 with Bing for Small Tablet AFO" />
+		<WOS CPU="X86" SKU="W10 OS Pack in S mode" PartNumber="7D" Parent_PartNumber="62" ShortName="W10SOP32" SWBOM_Abbreviation="W10SOP32" SkuDisplayName="Windows 10 OS Pack in S mode" />
+		<WOS CPU="X86" SKU="W8 China Version" PartNumber="2P" Parent_PartNumber="22" ShortName="W8-CN32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 Ultimate K X" PartNumber="1B" Parent_PartNumber="0Y" ShortName="W7UTKX32" SWBOM_Abbreviation="W7UT32XK" SkuDisplayName="Windows 7 Ultimate K XP Mode" />
+		<WOS CPU="X86" SKU="W10 Home S" PartNumber="72" Parent_PartNumber="62" ShortName="W10SHML32" SWBOM_Abbreviation="W10SHML32" SkuDisplayName="Windows 10 Home in S mode" />
+		<WOS CPU="X86" SKU="W7 Starter" PartNumber="0M" Parent_PartNumber="0H" ShortName="W7ST32" SWBOM_Abbreviation="W7ST32" SkuDisplayName="Windows 7 Starter" />
+		<WOS CPU="X86" SKU="W81 K Version" PartNumber="3H" Parent_PartNumber="42" ShortName="W81-K32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W81 Professional" PartNumber="32" Parent_PartNumber="42" ShortName="W81PR32" SWBOM_Abbreviation="W81PR32" SkuDisplayName="Windows 8.1 Pro" />
+		<WOS CPU="X86" SKU="XP Home Edition - Aspire One (G)" PartNumber="P7" Parent_PartNumber="P2" ShortName="AOXPHG32" SWBOM_Abbreviation="AOXPHG" SkuDisplayName="Windows XP Home Edition" />
+		<WOS CPU="X86" SKU="W81 Single Language with Bing for Small Tablet AFO" PartNumber="4H" Parent_PartNumber="4L" ShortName="W81BSTASL32" SWBOM_Abbreviation="W81BSTASL32" SkuDisplayName="Windows 8.1 Single Language with Bing for Small Tablet AFO" />
+		<WOS CPU="X86" SKU="W7 Ultimate K" PartNumber="1J" Parent_PartNumber="0Y" ShortName="W7UTK32" SWBOM_Abbreviation="W7UT32K" SkuDisplayName="Windows 7 Ultimate K" />
+		<WOS CPU="X86" SKU="W81 Enterprise" PartNumber="4F" Parent_PartNumber="4E" ShortName="W81EP32" SWBOM_Abbreviation="W81EP32" SkuDisplayName="Windows 8.1 Enterprise" />
+		<WOS CPU="X86" SKU="W7 Embedded System Standard" PartNumber="1Q" Parent_PartNumber="0H" ShortName="W7ESS32" SWBOM_Abbreviation="W7ESS32" SkuDisplayName="Windows 7 Embedded System Standard" />
+		<WOS CPU="X86" SKU="XP All" PartNumber="P8" Parent_PartNumber="PP,Z8" ShortName="XPALL32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 Single Language Version" PartNumber="6A" Parent_PartNumber="62" ShortName="W10-SL32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="HomeBasic" PartNumber="03" Parent_PartNumber="86,0D" ShortName="VHB32" SWBOM_Abbreviation="VHB32" SkuDisplayName="Windows Vista Home Basic" />
+		<WOS CPU="X86" SKU="HomePremium K Version" PartNumber="2T" Parent_PartNumber="04" ShortName="VHPK32" SWBOM_Abbreviation="VHP32K" SkuDisplayName="Windows Vista Home Premium K" />
+		<WOS CPU="X86" SKU="W8 K Version" PartNumber="2R" Parent_PartNumber="22" ShortName="W8-K32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W81 with Bing for Tablet AFO" PartNumber="4J" Parent_PartNumber="4D" ShortName="W81BTAML32" SWBOM_Abbreviation="W81BTAML32" SkuDisplayName="Windows 8.1 with Bing for Tablet AFO" />
+		<WOS CPU="X86" SKU="W8 Professional" PartNumber="27" Parent_PartNumber="22" ShortName="W8PR32" SWBOM_Abbreviation="W8PR32" SkuDisplayName="Windows 8 Pro" />
+		<WOS CPU="X86" SKU="W81 Single Language with Bing for Tablet AFO" PartNumber="4K" Parent_PartNumber="4L" ShortName="W81BTASL32" SWBOM_Abbreviation="W81BTASL32" SkuDisplayName="Windows 8.1 Single Language with Bing for Tablet AFO" />
+		<WOS CPU="X86" SKU="ZZ -- W7 E Version (No Use)" PartNumber="0U" Parent_PartNumber="0H" ShortName="W7-E32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 Pro S" PartNumber="74" Parent_PartNumber="6Y" ShortName="W10SPR32" SWBOM_Abbreviation="W10SPR32" SkuDisplayName="Windows 10 Professional in S mode" />
+		<WOS CPU="X86" SKU="W7 All" PartNumber="0H" Parent_PartNumber="0G,Z8" ShortName="W7ALL32" SWBOM_Abbreviation="W7ALL32" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 IoT Enterprise LTSB Version" PartNumber="6P" Parent_PartNumber="62" ShortName="W10-TEPL32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 Professional X" PartNumber="1S" Parent_PartNumber="0H" ShortName="W7PRX32" SWBOM_Abbreviation="W7PR32X" SkuDisplayName="Windows 7 Professional XP Mode" />
+		<WOS CPU="X86" SKU="W81 Professional for EDU" PartNumber="3E" Parent_PartNumber="42" ShortName="W81PREDU32" SWBOM_Abbreviation="W81PREDU32" SkuDisplayName="Windows 8.1 Professional for EDU" />
+		<WOS CPU="X86" SKU="W81 K" PartNumber="3I" Parent_PartNumber="3H" ShortName="W81MLK32" SWBOM_Abbreviation="W81MLK32" SkuDisplayName="Windows 8.1 K" />
+		<WOS CPU="X86" SKU="W7 HomeBasic - Small Notebook" PartNumber="0Z" Parent_PartNumber="0H" ShortName="SNW7HB32" SWBOM_Abbreviation="SNW7HB32" SkuDisplayName="Windows 7 Home Basic" />
+		<WOS CPU="X86" SKU="W81 Single Language with Bing Version" PartNumber="4L" Parent_PartNumber="42" ShortName="W81-BSL32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W81 Enterprise Version" PartNumber="4E" Parent_PartNumber="42" ShortName="W81-EP32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W8 K" PartNumber="2D" Parent_PartNumber="2R" ShortName="W8MLK32" SWBOM_Abbreviation="W8MLK32" SkuDisplayName="Windows 8 K" />
+		<WOS CPU="X86" SKU="All OS" PartNumber="Z8" Parent_PartNumber="ZZ" ShortName="ALLOS32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 Single Language" PartNumber="6C" Parent_PartNumber="6A" ShortName="W10HSL32" SWBOM_Abbreviation="W10HSL32" SkuDisplayName="Windows 10 Single Language" />
+		<WOS CPU="X86" SKU="HomePremium" PartNumber="04" Parent_PartNumber="86,0E" ShortName="VHP32" SWBOM_Abbreviation="VHP32" SkuDisplayName="Windows Vista Home Premium" />
+		<WOS CPU="X86" SKU="W7 N Version" PartNumber="0W" Parent_PartNumber="0H" ShortName="W7-N32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="ZZ -- W7 HomePremium E (No Use)" PartNumber="17" Parent_PartNumber="0U" ShortName="W7HPE32" SWBOM_Abbreviation="W7HP32E" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 IoT Enterprise LTSB" PartNumber="6Q" Parent_PartNumber="6P" ShortName="W10TEPL32" SWBOM_Abbreviation="W10TVML32" SkuDisplayName="Windows 10 IoT Enterprise LTSB Edition" />
+		<WOS CPU="X86" SKU="W81 Professional K" PartNumber="3J" Parent_PartNumber="3H" ShortName="W81PRK32" SWBOM_Abbreviation="W81PRK32" SkuDisplayName="Windows 8.1 Pro K" />
+		<WOS CPU="X86" SKU="WS2008 Storage Basic" PartNumber="1L" Parent_PartNumber="16" ShortName="WSSB200832" SWBOM_Abbreviation="WSSB2008 32" SkuDisplayName="Windows Storage Server 2008 Basic Edition" />
+		<WOS CPU="X86" SKU="W81 China with Bing Version" PartNumber="4M" Parent_PartNumber="42" ShortName="W81-BCN32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W81" PartNumber="44" Parent_PartNumber="42" ShortName="W81ML32" SWBOM_Abbreviation="W81ML32" SkuDisplayName="Windows 8.1" />
+		<WOS CPU="X86" SKU="W81 with Bing Version" PartNumber="4D" Parent_PartNumber="42" ShortName="W81-Bing32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W10 Single Language S" PartNumber="76" Parent_PartNumber="6A" ShortName="W10SHSL32" SWBOM_Abbreviation="W10SHSL32" SkuDisplayName="Windows 10 Home Single Language in S mode" />
+		<WOS CPU="X86" SKU="W8 Professional K" PartNumber="2E" Parent_PartNumber="2R" ShortName="W8PRK32" SWBOM_Abbreviation="W8PRK32" SkuDisplayName="Windows 8 Pro K" />
+		<WOS CPU="X86" SKU="Starter" PartNumber="05" Parent_PartNumber="86,0F" ShortName="VSTR32" SWBOM_Abbreviation="VSTR32" SkuDisplayName="Windows Vista Starter" />
+		<WOS CPU="X86" SKU="W81 Single Language" PartNumber="3L" Parent_PartNumber="3K" ShortName="W81SL32" SWBOM_Abbreviation="W81SL32" SkuDisplayName="Windows 8.1 Single Language" />
+		<WOS CPU="X86" SKU="WS2008 Storage Workgroup" PartNumber="1M" Parent_PartNumber="16" ShortName="WSSW200832" SWBOM_Abbreviation="WSSW2008 32" SkuDisplayName="Windows Storage Server 2008 Workgroup Edition" />
+		<WOS CPU="X86" SKU="W7 K Version" PartNumber="0Y" Parent_PartNumber="0H" ShortName="W7-K32" SWBOM_Abbreviation="" SkuDisplayName="" />
+		<WOS CPU="X86" SKU="W7 HomePremium K" PartNumber="1F" Parent_PartNumber="0Y" ShortName="W7HPK32" SWBOM_Abbreviation="W7HP32K" SkuDisplayName="Windows 7 Home Premium K" />
+		<WOS CPU="X86" SKU="W10 Professional Education" PartNumber="6T" Parent_PartNumber="6S" ShortName="W10PREDU32" SWBOM_Abbreviation="W10PR32EDUH" SkuDisplayName="Windows 10 Professional Education" />
+	</WOSs>
+	<Des>Function success</Des>
+</getWOS>

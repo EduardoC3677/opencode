@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Protégez votre appareil
+</title><subtitle>
+Avec votre consentement, Acer enregistrera cet appareil sous votre identifiant Acer avec les renseignements que vous avez partagés avec Microsoft ou que vous avez fournis ici (facultatif). Vous pouvez également sauter l’inscription en laissant les champs de renseignements vides. Veuillez lire la politique de confidentialité d’Acer ci-dessous. 
+</subtitle><customerinfo><label>
+Je permets à Acer d’offrir un soutien amélioré et de perfectionner l’expérience d’utilisation de l’appareil grâce au Programme d’amélioration de l’expérience utilisateur, et j’accepte ses conditions d’utilisation
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+J’accepte d’enregistrer cet appareil sous mon identifiant AcerID (un identifiant sera créé si l’adresse courriel n’est pas déjà inscrite)
+</label></checkbox1><checkbox2><label>
+J’accepte de recevoir des offres et des mises à jour de la part d’Acer
+</label></checkbox2><checkbox3><label>
+Permettre à Acer de communiquer mes coordonnées à McAfee pour recevoir des mises à jour à propos du logiciel de sécurité préinstallé de cet appareil.
+</label></checkbox3><link1><label>
+REMARQUE :  Acer n’utilisera pas ces renseignements à moins que vous nous donniez votre autorisation à la page suivante.  Veuillez consulter la politique de confidentialité d’Acer pour obtenir plus d’information sur la façon dont Acer utilise et protège vos renseignements.
+</label></link1><link2><label>
+Lisez les conditions d’utilisation du Programme d’amélioration de l’expérience utilisateur d’Acer. Visitez le site www.acer.com/legal pour obtenir de l’information juridique à jour sur Acer.
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

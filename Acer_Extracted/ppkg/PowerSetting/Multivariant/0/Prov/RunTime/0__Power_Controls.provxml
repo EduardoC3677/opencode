@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<wap-provisioningdoc>
+  <characteristic type="MCSF">
+    <characteristic type="Power">
+      <characteristic type="Controls">
+        <parm name="DefaultOverlayDcPowerScheme" value="961cc777-2547-4f9d-8174-7d86181b8a7a" datatype="string" />
+      </characteristic>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>

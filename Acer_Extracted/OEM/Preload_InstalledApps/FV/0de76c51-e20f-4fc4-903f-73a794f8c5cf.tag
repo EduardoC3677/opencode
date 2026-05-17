@@ -1,0 +1,1 @@
+<ItemFavIconFile>C:\oem\preload\Weblinks\_icons\booking.ico</ItemFavIconFile><ItemKey>BookingComFavorite</ItemKey><ItemName>Booking.com</ItemName><ItemUrl>https://s3.amazonaws.com/amundsen/redirect/19q2/booking.html?utm_source=win32&amp;utm_medium=favorite</ItemUrl>

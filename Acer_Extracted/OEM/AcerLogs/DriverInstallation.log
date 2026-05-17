@@ -1,0 +1,540 @@
+
+29/01/2026  1:27:00.82[Log START]  ============ C:\Users\ralva\Downloads\HID event filter_Intel_2.2.1.386_W11x64_A\HID event filter_Intel_2.2.1.386_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:27:00.82[Log TRACE]  pnputil /add-driver "HidEventFilter.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  HidEventFilter.inf
+El paquete de controladores se agregó correctamente. (ya existe en el sistema)
+Nombre publicado:         oem15.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\INTC1070\2&daba3ff&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:27:00.82[Log TRACE]  pnputil -i -a "HidEventFilter.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            HidEventFilter.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:27:08.15[Log Leave]  ============ C:\Users\ralva\Downloads\HID event filter_Intel_2.2.1.386_W11x64_A\HID event filter_Intel_2.2.1.386_W11x64\Setup_Driver.cmd ============ 
+
+
+29/01/2026  1:28:58.45[Log START]  ============ C:\Users\ralva\Downloads\IO Drivers_Intel_30.100.2148.1_W11x64_A\IO Drivers_Intel_30.100.2148.1_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:28:58.47[Log TRACE]  pnputil /add-driver "iaLPSS2_GPIO2_ADL.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  iaLPSS2_GPIO2_ADL.inf
+El paquete de controladores se agregó correctamente. (ya existe en el sistema)
+Nombre publicado:         oem16.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\INTC1055\2&daba3ff&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:28:58.47[Log TRACE]  pnputil -i -a "iaLPSS2_GPIO2_ADL.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            iaLPSS2_GPIO2_ADL.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:28:58.47[Log TRACE]  pnputil /add-driver "iaLPSS2_I2C_ADL.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  iaLPSS2_I2C_ADL.inf
+El paquete de controladores se agregó correctamente. (ya existe en el sistema)
+Nombre publicado:         oem20.inf
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_51E9&SUBSYS_161D1025&REV_01\3&11583659&0&A9
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_51C6&SUBSYS_161D1025&REV_01\3&11583659&0&C9
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_51E8&SUBSYS_161D1025&REV_01\3&11583659&0&A8
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_51C5&SUBSYS_161D1025&REV_01\3&11583659&0&C8
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:28:58.47[Log TRACE]  pnputil -i -a "iaLPSS2_I2C_ADL.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            iaLPSS2_I2C_ADL.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:28:58.47[Log TRACE]  pnputil /add-driver "iaLPSS2_SPI_ADL.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  iaLPSS2_SPI_ADL.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem91.inf
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  1
+29/01/2026  1:28:58.47[Log TRACE]  pnputil -i -a "iaLPSS2_SPI_ADL.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            iaLPSS2_SPI_ADL.inf
+El controlador se instaló correctamente.
+El paquete de controladores se agregó correctamente.
+Nombre publicado:            oem91.inf
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 1
+
+
+29/01/2026  1:28:58.47[Log TRACE]  pnputil /add-driver "iaLPSS2_UART2_ADL.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  iaLPSS2_UART2_ADL.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem96.inf
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  1
+29/01/2026  1:28:58.47[Log TRACE]  pnputil -i -a "iaLPSS2_UART2_ADL.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            iaLPSS2_UART2_ADL.inf
+El controlador se instaló correctamente.
+El paquete de controladores se agregó correctamente.
+Nombre publicado:            oem96.inf
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 1
+
+
+29/01/2026  1:29:43.08[Log Leave]  ============ C:\Users\ralva\Downloads\IO Drivers_Intel_30.100.2148.1_W11x64_A\IO Drivers_Intel_30.100.2148.1_W11x64\Setup_Driver.cmd ============ 
+
+
+29/01/2026  1:30:42.22[Log START]  ============ C:\Users\ralva\Downloads\DES Driver_Acer_1.0.0.3016_W11x64_A\DES Driver_Acer_1.0.0.3016_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:30:42.25[Log TRACE]  pnputil /add-driver "AcerDeviceEnablingServiceComponent.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  AcerDeviceEnablingServiceComponent.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem85.inf
+El paquete de controladores está actualizado en el dispositivo: SWD\DRIVERENUM\{3ee9160b-3129-4a9f-a380-8b41a40ac489}#AcerDeviceEnablingServiceComponent&4&356a12e8&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:30:42.65[Log TRACE]  pnputil -i -a "AcerDeviceEnablingServiceComponent.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            AcerDeviceEnablingServiceComponent.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:30:42.77[Log TRACE]  pnputil /add-driver "AcerDeviceEnablingServiceExtension.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  AcerDeviceEnablingServiceExtension.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem97.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\1025165F\3&11583659&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:30:42.99[Log TRACE]  pnputil -i -a "AcerDeviceEnablingServiceExtension.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            AcerDeviceEnablingServiceExtension.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:30:55.11[Log Leave]  ============ C:\Users\ralva\Downloads\DES Driver_Acer_1.0.0.3016_W11x64_A\DES Driver_Acer_1.0.0.3016_W11x64\Setup_Driver.cmd ============ 
+
+
+29/01/2026  1:31:18.28[Log START]  ============ C:\Users\ralva\Downloads\Intel GNA_Intel_3.0.0.1400_W11x64_A\Intel GNA_Intel_3.0.0.1400_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:31:18.30[Log TRACE]  pnputil /add-driver "gna.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  gna.inf
+El paquete de controladores se agregó correctamente. (ya existe en el sistema)
+Nombre publicado:         oem56.inf
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_464F&SUBSYS_161D1025&REV_04\3&11583659&0&40
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:31:18.30[Log TRACE]  pnputil -i -a "gna.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            gna.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:31:54.61[Log Leave]  ============ C:\Users\ralva\Downloads\Intel GNA_Intel_3.0.0.1400_W11x64_A\Intel GNA_Intel_3.0.0.1400_W11x64\Setup_Driver.cmd ============ 
+
+
+29/01/2026  1:31:59.27[Log START]  ============ C:\Users\ralva\Downloads\Intel GNA_Intel_3.0.0.1400_W11x64_A\Intel GNA_Intel_3.0.0.1400_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:31:59.29[Log TRACE]  pnputil /add-driver "gna.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  gna.inf
+El paquete de controladores se agregó correctamente. (ya existe en el sistema)
+Nombre publicado:         oem56.inf
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_464F&SUBSYS_161D1025&REV_04\3&11583659&0&40
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:31:59.29[Log TRACE]  pnputil -i -a "gna.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            gna.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+
+29/01/2026  1:32:08.79[Log START]  ============ C:\Users\ralva\Downloads\DPTF_Intel_1.0.10703.25423_W11x64_A\DPTF_Intel_1.0.10703.25423_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:32:08.80[Log TRACE]  pnputil /add-driver "drivers\drivers\x64\dtt_ext.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  dtt_ext.inf
+El paquete de controladores se agregó correctamente. (ya existe en el sistema)
+Nombre publicado:         oem98.inf
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_461D&SUBSYS_161D1025&REV_04\3&11583659&0&20
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:32:08.80[Log TRACE]  pnputil -i -a "drivers\drivers\x64\dtt_ext.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            dtt_ext.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:32:08.80[Log TRACE]  pnputil /add-driver "drivers\drivers\x64\dtt_sw.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  dtt_sw.inf
+El paquete de controladores se agregó correctamente. (ya existe en el sistema)
+Nombre publicado:         oem99.inf
+El paquete de controladores está actualizado en el dispositivo: SWD\DRIVERENUM\{bc7814a1-a80e-44b3-87c6-652eac676387}#DttExtComponent&4&18de6867&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:32:08.80[Log TRACE]  pnputil -i -a "drivers\drivers\x64\dtt_sw.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            dtt_sw.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:32:08.80[Log TRACE]  pnputil /add-driver "ipf\drivers\x64\ipf_acpi.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  ipf_acpi.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem100.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\INTC1046\SEN2
+El paquete de controladores está actualizado en el dispositivo: ACPI\INTC1046\SEN3
+El paquete de controladores está actualizado en el dispositivo: ACPI\INTC1041\IETM
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:32:08.80[Log TRACE]  pnputil -i -a "ipf\drivers\x64\ipf_acpi.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            ipf_acpi.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:32:08.80[Log TRACE]  pnputil /add-driver "ipf\drivers\x64\ipf_cpu.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  ipf_cpu.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem101.inf
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_461D&SUBSYS_161D1025&REV_04\3&11583659&0&20
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:32:08.80[Log TRACE]  pnputil -i -a "ipf\drivers\x64\ipf_cpu.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            ipf_cpu.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:32:11.04[Log Leave]  ============ C:\Users\ralva\Downloads\Intel GNA_Intel_3.0.0.1400_W11x64_A\Intel GNA_Intel_3.0.0.1400_W11x64\Setup_Driver.cmd ============ 
+
+29/01/2026  1:32:22.93[Log Leave]  ============ C:\Users\ralva\Downloads\DPTF_Intel_1.0.10703.25423_W11x64_A\DPTF_Intel_1.0.10703.25423_W11x64\Setup_Driver.cmd ============ 
+
+
+29/01/2026  1:32:26.22[Log START]  ============ C:\Users\ralva\Downloads\MgmtEngine_Intel_2433.6.3.0_W11x64_A\MgmtEngine_Intel_2433.6.3.0_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:32:26.26[Log TRACE]  pnputil /add-driver "heci.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  heci.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem102.inf
+Paquete de controladores instalado en el dispositivo: PCI\VEN_8086&DEV_51E0&SUBSYS_161D1025&REV_01\3&11583659&0&B0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  1
+29/01/2026  1:32:26.90[Log TRACE]  pnputil -i -a "heci.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            heci.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:33:10.98[Log Leave]  ============ C:\Users\ralva\Downloads\MgmtEngine_Intel_2433.6.3.0_W11x64_A\MgmtEngine_Intel_2433.6.3.0_W11x64\Setup_Driver.cmd ============ 
+
+
+29/01/2026  1:35:03.43[Log START]  ============ C:\Users\ralva\Downloads\APP Base Driver_Acer_1.0.0.4_W11x64_A\APP Base Driver_Acer_1.0.0.4_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:35:03.47[Log TRACE]  pnputil /add-driver "AcerApplicationBaseDriver.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  AcerApplicationBaseDriver.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem107.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\1025165F\3&11583659&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:35:03.83[Log TRACE]  pnputil -i -a "AcerApplicationBaseDriver.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            AcerApplicationBaseDriver.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:35:16.29[Log Leave]  ============ C:\Users\ralva\Downloads\APP Base Driver_Acer_1.0.0.4_W11x64_A\APP Base Driver_Acer_1.0.0.4_W11x64\Setup_Driver.cmd ============ 
+
+
+29/01/2026  1:35:32.56[Log START]  ============ C:\Users\ralva\Downloads\Airplane Mode_Acer_1.0.0.10_W11x64_A\Airplane Mode_Acer_1.0.0.10_W11x64\Setup_Driver.cmd ============ 
+29/01/2026  1:35:32.58[Log TRACE]  pnputil /add-driver "AcerAirplaneModeController.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  AcerAirplaneModeController.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem108.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\10251229\0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+29/01/2026  1:35:32.58[Log TRACE]  pnputil -i -a "AcerAirplaneModeController.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            AcerAirplaneModeController.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+29/01/2026  1:35:42.36[Log Leave]  ============ C:\Users\ralva\Downloads\Airplane Mode_Acer_1.0.0.10_W11x64_A\Airplane Mode_Acer_1.0.0.10_W11x64\Setup_Driver.cmd ============ 
+
+
+09/05/2026 23:02:54.23[Log START]  ============ C:\Users\ralva\Downloads\APP Base Driver_Acer_1.0.0.4_W11x64_A (1)\APP Base Driver_Acer_1.0.0.4_W11x64\Setup_Driver.cmd ============ 
+09/05/2026 23:02:54.27[Log TRACE]  pnputil /add-driver "AcerApplicationBaseDriver.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  AcerApplicationBaseDriver.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem123.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\1025165F\3&11583659&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+09/05/2026 23:02:54.86[Log TRACE]  pnputil -i -a "AcerApplicationBaseDriver.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            AcerApplicationBaseDriver.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+09/05/2026 23:03:09.93[Log Leave]  ============ C:\Users\ralva\Downloads\APP Base Driver_Acer_1.0.0.4_W11x64_A (1)\APP Base Driver_Acer_1.0.0.4_W11x64\Setup_Driver.cmd ============ 
+
+
+09/05/2026 23:03:17.04[Log START]  ============ C:\Users\ralva\Downloads\DES Driver_Acer_1.0.0.3016_W11x64_A (1)\DES Driver_Acer_1.0.0.3016_W11x64\Setup_Driver.cmd ============ 
+09/05/2026 23:03:17.07[Log TRACE]  pnputil /add-driver "AcerDeviceEnablingServiceComponent.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  AcerDeviceEnablingServiceComponent.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem124.inf
+El paquete de controladores está actualizado en el dispositivo: SWD\DRIVERENUM\{3ee9160b-3129-4a9f-a380-8b41a40ac489}#AcerDeviceEnablingServiceComponent&4&356a12e8&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+09/05/2026 23:03:17.65[Log TRACE]  pnputil -i -a "AcerDeviceEnablingServiceComponent.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            AcerDeviceEnablingServiceComponent.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+09/05/2026 23:03:17.83[Log TRACE]  pnputil /add-driver "AcerDeviceEnablingServiceExtension.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  AcerDeviceEnablingServiceExtension.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem126.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\1025165F\3&11583659&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+09/05/2026 23:03:18.29[Log TRACE]  pnputil -i -a "AcerDeviceEnablingServiceExtension.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            AcerDeviceEnablingServiceExtension.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+09/05/2026 23:04:11.91[Log Leave]  ============ C:\Users\ralva\Downloads\DES Driver_Acer_1.0.0.3016_W11x64_A (1)\DES Driver_Acer_1.0.0.3016_W11x64\Setup_Driver.cmd ============ 
+
+
+09/05/2026 23:04:37.66[Log START]  ============ C:\Users\ralva\Downloads\DPTF_Intel_1.0.10703.25423_W11x64_A (1)\DPTF_Intel_1.0.10703.25423_W11x64\Setup_Driver.cmd ============ 
+09/05/2026 23:04:37.67[Log TRACE]  pnputil /add-driver "drivers\drivers\x64\dtt_ext.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  dtt_ext.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem130.inf
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_461D&SUBSYS_161D1025&REV_04\3&11583659&0&20
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+09/05/2026 23:04:37.67[Log TRACE]  pnputil -i -a "drivers\drivers\x64\dtt_ext.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            dtt_ext.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+09/05/2026 23:04:37.67[Log TRACE]  pnputil /add-driver "drivers\drivers\x64\dtt_sw.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  dtt_sw.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem131.inf
+El paquete de controladores está actualizado en el dispositivo: SWD\DRIVERENUM\{bc7814a1-a80e-44b3-87c6-652eac676387}#DttExtComponent&4&18de6867&0
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+09/05/2026 23:04:37.67[Log TRACE]  pnputil -i -a "drivers\drivers\x64\dtt_sw.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            dtt_sw.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+09/05/2026 23:04:37.67[Log TRACE]  pnputil /add-driver "ipf\drivers\x64\ipf_acpi.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  ipf_acpi.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem132.inf
+El paquete de controladores está actualizado en el dispositivo: ACPI\INTC1046\SEN2
+El paquete de controladores está actualizado en el dispositivo: ACPI\INTC1046\SEN3
+El paquete de controladores está actualizado en el dispositivo: ACPI\INTC1041\IETM
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+09/05/2026 23:04:37.67[Log TRACE]  pnputil -i -a "ipf\drivers\x64\ipf_acpi.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            ipf_acpi.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+09/05/2026 23:04:37.67[Log TRACE]  pnputil /add-driver "ipf\drivers\x64\ipf_cpu.inf" /install 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  ipf_cpu.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem133.inf
+El paquete de controladores está actualizado en el dispositivo: PCI\VEN_8086&DEV_461D&SUBSYS_161D1025&REV_04\3&11583659&0&20
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  0
+09/05/2026 23:04:37.67[Log TRACE]  pnputil -i -a "ipf\drivers\x64\ipf_cpu.inf" 
+Utilidad PnP de Microsoft
+
+Procesando la información:            ipf_cpu.inf
+No se pudo instalar el controlador: No se dispone de más datos.
+
+
+Número total de intentos:              1
+Número de importaciones correctas: 0
+
+
+09/05/2026 23:05:04.45[Log Leave]  ============ C:\Users\ralva\Downloads\DPTF_Intel_1.0.10703.25423_W11x64_A (1)\DPTF_Intel_1.0.10703.25423_W11x64\Setup_Driver.cmd ============ 
+
