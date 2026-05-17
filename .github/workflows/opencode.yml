@@ -49,17 +49,17 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="${1:-qwen3-32b}"
+            local input="${1:-FW-DeepSeek-V4-Pro}"
 
             case "$input" in
-              qwen3-32b)
-                echo "azure/qwen3-32b"
+              FW-DeepSeek-V4-Pro)
+                echo "deepseek/FW-DeepSeek-V4-Pro"
                 ;;
-              azure/*)
+              deepseek/*)
                 echo "$input"
                 ;;
               *)
-                echo "azure/qwen3-32b"
+                echo "deepseek/FW-DeepSeek-V4-Pro"
                 ;;
             esac
           }
@@ -71,7 +71,7 @@ jobs:
           SHOULD_RUN="false"
           RUN_KIND="none"
 
-          FULL_MODEL="$(resolve_model "qwen3-32b")"
+          FULL_MODEL="$(resolve_model "FW-DeepSeek-V4-Pro")"
 
           if [[ "$EVENT_NAME" == "pull_request" ]]; then
             SHOULD_RUN="true"
@@ -83,7 +83,7 @@ jobs:
 
               SELECTED_MODEL="$(echo "$COMMENT_BODY" | grep -oiP 'model=\K\S+' | head -1 || true)"
 
-              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-qwen3-32b}")"
+              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-FW-DeepSeek-V4-Pro}")"
 
               if [[ "$HAS_PR" == "true" ]]; then
                 SHOULD_RUN="true"
@@ -223,7 +223,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
-          share: false
           prompt: ${{ steps.compose.outputs.prompt }}
 
       - name: Report failure
