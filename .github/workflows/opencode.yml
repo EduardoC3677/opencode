@@ -49,17 +49,17 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="${1:-deepseek-v4-pro}"
+            local input="${1:-gpt-5.4-pro}"
 
             case "$input" in
-              deepseek-v4-pro)
-                echo "deepseek/deepseek-v4-pro"
+              gpt-5.4-pro)
+                echo "azure/gpt-5.4-pro"
                 ;;
-              deepseek/*)
+              azure/*)
                 echo "$input"
                 ;;
               *)
-                echo "deepseek/deepseek-v4-pro"
+                echo "azure/gpt-5.4-pro"
                 ;;
             esac
           }
@@ -71,7 +71,7 @@ jobs:
           SHOULD_RUN="false"
           RUN_KIND="none"
 
-          FULL_MODEL="$(resolve_model "deepseek-v4-pro")"
+          FULL_MODEL="$(resolve_model "gpt-5.4-pro")"
 
           if [[ "$EVENT_NAME" == "pull_request" ]]; then
             SHOULD_RUN="true"
@@ -83,7 +83,7 @@ jobs:
 
               SELECTED_MODEL="$(echo "$COMMENT_BODY" | grep -oiP 'model=\K\S+' | head -1 || true)"
 
-              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-deepseek-v4-pro}")"
+              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.4-pro}")"
 
               if [[ "$HAS_PR" == "true" ]]; then
                 SHOULD_RUN="true"
@@ -199,8 +199,6 @@ jobs:
           curl -fsSL https://ocx.kdco.dev/install.sh | sh
 
           mkdir -p ~/.config
-
-          
         
       - name: Export vars
         run: |
