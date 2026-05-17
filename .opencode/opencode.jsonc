@@ -2,30 +2,29 @@
   "$schema": "https://opencode.ai/config.json",
   "provider": {
     "azure": {
-      "npm": "@ai-sdk/openai",
+      "npm": "@ai-sdk/openai-compatible",
       "options": {
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
         "apiKey": "{env:AZURE_OPENAI_API_KEY}"
       },
       "models": {
-        "gpt-5.4-pro": {
-          "limit": {
-            "context": 1048576,
-            "output": 32768,
-          },
+        "qwen3-32b": {
           "options": {
-            "reasoningEffort": "high",
-            "max_completion_tokens": 32768,
+            "temperature": 0.3,
+            "max_tokens": 8096,
+            "top_p": 0.1,
+            "presence_penalty" : 0,
+            "frequency_penalty" : 0
           }
         }
       }
     }
   },
-  "model": "azure/gpt-5.4-pro",
-  "small_model": "azure/gpt-5.4-pro",
+  "model": "azure/qwen3-32b",
+  "small_model": "azure/qwen3-32b",
   "agent": {
     "plan": {
-      "model": "azure/gpt-5.4-pro",
+      "model": "azure/qwen3-32b",
       "permission": {
         "edit": "deny",
         "write": "deny",
@@ -37,7 +36,7 @@
       }
     },
     "build": {
-      "model": "azure/gpt-5.4-pro",
+      "model": "azure/qwen3-32b",
       "prompt": "You are a **build orchestrator**. You coordinate implementation through delegation - you do NOT implement directly.\\\\\\\\n\\\\\\\\n## Your Role\\\\\\\\n- Delegate implementation to `coder`\\\\\\\\n- Delegate documentation to `scribe`\\\\\\\\n- Delegate codebase analysis to `explore`\\\\\\\\n- Delegate external research to `researcher`\\\\\\\\n- Interpret results and decide next steps\\\\\\\\n\\\\\\\\n## Critical Constraint\\\\\\\\nYou CANNOT edit files or run commands directly. For ALL implementation and verification, delegate to `coder`.",
       "permission": {
         "edit": "deny",
@@ -50,7 +49,7 @@
       }
     },
     "coder": {
-      "model": "azure/gpt-5.4-pro",
+      "model": "azure/qwen3-32b",
       "permission": {
         "context7_*": "deny",
         "exa_*": "deny",
@@ -66,7 +65,7 @@
       }
     },
     "explore": {
-      "model": "azure/gpt-5.4-pro",
+      "model": "azure/qwen3-32b",
       "permission": {
         "edit": "deny",
         "write": "deny",
@@ -102,7 +101,7 @@
       }
     },
     "researcher": {
-      "model": "azure/gpt-5.4-pro",
+      "model": "azure/qwen3-32b",
       "permission": {
         "context7_*": "allow",
         "exa_*": "allow",
@@ -156,7 +155,7 @@
       }
     },
     "scribe": {
-      "model": "azure/gpt-5.4-pro",
+      "model": "azure/qwen3-32b",
       "permission": {
         "bash": {
           "*": "deny"
@@ -170,7 +169,7 @@
       }
     },
     "reviewer": {
-      "model": "azure/gpt-5.4-pro",
+      "model": "azure/qwen3-32b",
       "permission": {
         "edit": "deny",
         "write": "deny",
