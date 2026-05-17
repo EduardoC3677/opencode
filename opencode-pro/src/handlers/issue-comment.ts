@@ -4,11 +4,16 @@ import { formatTaskResponse } from "../github/comments.js";
 import { runOpenCodeTask } from "../opencode/runner.js";
 import { loadConfig } from "../config.js";
 import type { SlashCommand, TriggerKind } from "../types.js";
+import { COMMAND_AGENT_MAP } from "../types.js";
 
 const config = loadConfig();
 const BOT_NAME = "opencode-pro";
 
-const SLASH_COMMANDS: SlashCommand[] = ["/review", "/fix", "/explain", "/test"];
+const SLASH_COMMANDS: SlashCommand[] = [
+  "/review", "/fix", "/explain", "/test",
+  "/plan", "/build", "/refactor", "/docs",
+  "/optimize", "/security", "/summarize", "/suggest",
+];
 
 /**
  * Handle issue_comment events.
@@ -59,6 +64,9 @@ export function setupIssueCommentHandler(app: Probot): void {
 
     if (!trigger) return;
 
+    // Look up the best agent for slash commands
+    const agent = command ? COMMAND_AGENT_MAP[command] : undefined;
+
     // Add a reaction to show we're working
     try {
       await context.octokit.reactions.createForIssueComment({
@@ -76,19 +84,52 @@ export function setupIssueCommentHandler(app: Probot): void {
     );
 
     // Run the OpenCode task
-    const result = await runOpenCodeTask({
-      githubContext: context as any,
-      trigger,
-      command,
-      commentBody: body,
-      issueNumber,
-      isPullRequest: isPR,
-      owner,
-      repo,
-      model: config.model,
-    });
+    let result;
+    try {
+      result = await runOpenCodeTask({
+        githubContext: context as any,
+        trigger,
+        command,
+        commentBody: body,
+        issueNumber,
+        isPullRequest: isPR,
+        owner,
+        repo,
+        model: config.model,
+        agent,
+      });
+    } catch (err) {
+      context.log.error(`OpenCode task threw synchronously: ${err}`);
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: issueNumber,
+          body: `🤖 **opencode-pro** encontró un error inesperado.\n\n\`\`\`\n${String(err).slice(0, 1000)}\n\`\`\``,
+        });
+      } catch {
+        // Best-effort error notification
+      }
+      return;
+    }
 
-    // Post the result as a comment
+    if (!result.success) {
+      // Report the failure
+      const responseBody = formatTaskResponse(result, "encontró un error.");
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: issueNumber,
+          body: responseBody,
+        });
+      } catch (postErr) {
+        context.log.error(`Failed to post error comment: ${postErr}`);
+      }
+      return;
+    }
+
+    // Success path
     const responseBody = formatTaskResponse(result, "completó la tarea.");
 
     try {
@@ -98,8 +139,8 @@ export function setupIssueCommentHandler(app: Probot): void {
         issue_number: issueNumber,
         body: responseBody,
       });
-    } catch (err) {
-      context.log.error(`Failed to post response comment: ${err}`);
+    } catch (postErr) {
+      context.log.error(`Failed to post success comment: ${postErr}`);
     }
   });
 }

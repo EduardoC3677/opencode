@@ -4,7 +4,6 @@ import { formatTaskResponse } from "../github/comments.js";
 import { runOpenCodeTask } from "../opencode/runner.js";
 import { loadConfig } from "../config.js";
 
-const config = loadConfig();
 const BOT_LOGIN = "opencode-pro[bot]";
 
 /**
@@ -14,6 +13,7 @@ const BOT_LOGIN = "opencode-pro[bot]";
 export function setupPullRequestHandler(app: Probot): void {
   // Auto-review when PR is opened
   app.on("pull_request.opened", async (context) => {
+    const config = loadConfig();
     const { pull_request, repository } = context.payload;
     const owner = repository.owner.login;
     const repo = repository.name;
@@ -45,15 +45,46 @@ export function setupPullRequestHandler(app: Probot): void {
       // Ignore
     }
 
-    const result = await runOpenCodeTask({
-      githubContext: context as any,
-      trigger: "pr_opened",
-      issueNumber: pull_request.number,
-      isPullRequest: true,
-      owner,
-      repo,
-      model: config.model,
-    });
+    let result;
+    try {
+      result = await runOpenCodeTask({
+        githubContext: context as any,
+        trigger: "pr_opened",
+        issueNumber: pull_request.number,
+        isPullRequest: true,
+        owner,
+        repo,
+        model: config.model,
+      });
+    } catch (err) {
+      context.log.error(`OpenCode task threw synchronously: ${err}`);
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: pull_request.number,
+          body: `🤖 **opencode-pro** encontró un error inesperado.\n\n\`\`\`\n${String(err).slice(0, 1000)}\n\`\`\``,
+        });
+      } catch {
+        // Best-effort error notification
+      }
+      return;
+    }
+
+    if (!result.success) {
+      const responseBody = formatTaskResponse(result, "encontró un error.");
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: pull_request.number,
+          body: responseBody,
+        });
+      } catch (postErr) {
+        context.log.error(`Failed to post error comment: ${postErr}`);
+      }
+      return;
+    }
 
     const responseBody = formatTaskResponse(result, "completó la revisión automática.");
 
@@ -64,13 +95,14 @@ export function setupPullRequestHandler(app: Probot): void {
         issue_number: pull_request.number,
         body: responseBody,
       });
-    } catch (err) {
-      context.log.error(`Failed to post review: ${err}`);
+    } catch (postErr) {
+      context.log.error(`Failed to post success comment: ${postErr}`);
     }
   });
 
   // When PR is synchronized (new commits pushed)
   app.on("pull_request.synchronize", async (context) => {
+    const config = loadConfig();
     const { pull_request, repository } = context.payload;
     const owner = repository.owner.login;
     const repo = repository.name;
@@ -87,15 +119,46 @@ export function setupPullRequestHandler(app: Probot): void {
       `Re-reviewing updated PR ${owner}/${repo}#${pull_request.number}`,
     );
 
-    const result = await runOpenCodeTask({
-      githubContext: context as any,
-      trigger: "pr_synchronize",
-      issueNumber: pull_request.number,
-      isPullRequest: true,
-      owner,
-      repo,
-      model: config.model,
-    });
+    let result;
+    try {
+      result = await runOpenCodeTask({
+        githubContext: context as any,
+        trigger: "pr_synchronize",
+        issueNumber: pull_request.number,
+        isPullRequest: true,
+        owner,
+        repo,
+        model: config.model,
+      });
+    } catch (err) {
+      context.log.error(`OpenCode task threw synchronously: ${err}`);
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: pull_request.number,
+          body: `🤖 **opencode-pro** encontró un error inesperado.\n\n\`\`\`\n${String(err).slice(0, 1000)}\n\`\`\``,
+        });
+      } catch {
+        // Best-effort error notification
+      }
+      return;
+    }
+
+    if (!result.success) {
+      const responseBody = formatTaskResponse(result, "encontró un error.");
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: pull_request.number,
+          body: responseBody,
+        });
+      } catch (postErr) {
+        context.log.error(`Failed to post error comment: ${postErr}`);
+      }
+      return;
+    }
 
     const responseBody = formatTaskResponse(result, "completó la re-revisión.");
 
@@ -106,13 +169,14 @@ export function setupPullRequestHandler(app: Probot): void {
         issue_number: pull_request.number,
         body: responseBody,
       });
-    } catch (err) {
-      context.log.error(`Failed to post re-review: ${err}`);
+    } catch (postErr) {
+      context.log.error(`Failed to post success comment: ${postErr}`);
     }
   });
 
   // When bot is assigned to a PR
   app.on("pull_request.assigned", async (context) => {
+    const config = loadConfig();
     const { pull_request, assignee, repository } = context.payload;
     const owner = repository.owner.login;
     const repo = repository.name;
@@ -134,15 +198,46 @@ export function setupPullRequestHandler(app: Probot): void {
       `Bot assigned to PR ${owner}/${repo}#${pull_request.number}`,
     );
 
-    const result = await runOpenCodeTask({
-      githubContext: context as any,
-      trigger: "assigned",
-      issueNumber: pull_request.number,
-      isPullRequest: true,
-      owner,
-      repo,
-      model: config.model,
-    });
+    let result;
+    try {
+      result = await runOpenCodeTask({
+        githubContext: context as any,
+        trigger: "assigned",
+        issueNumber: pull_request.number,
+        isPullRequest: true,
+        owner,
+        repo,
+        model: config.model,
+      });
+    } catch (err) {
+      context.log.error(`OpenCode task threw synchronously: ${err}`);
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: pull_request.number,
+          body: `🤖 **opencode-pro** encontró un error inesperado.\n\n\`\`\`\n${String(err).slice(0, 1000)}\n\`\`\``,
+        });
+      } catch {
+        // Best-effort error notification
+      }
+      return;
+    }
+
+    if (!result.success) {
+      const responseBody = formatTaskResponse(result, "encontró un error.");
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: pull_request.number,
+          body: responseBody,
+        });
+      } catch (postErr) {
+        context.log.error(`Failed to post error comment: ${postErr}`);
+      }
+      return;
+    }
 
     const responseBody = formatTaskResponse(result, "ha sido asignado y completó la revisión.");
 
@@ -153,8 +248,8 @@ export function setupPullRequestHandler(app: Probot): void {
         issue_number: pull_request.number,
         body: responseBody,
       });
-    } catch (err) {
-      context.log.error(`Failed to post response: ${err}`);
+    } catch (postErr) {
+      context.log.error(`Failed to post success comment: ${postErr}`);
     }
   });
 }

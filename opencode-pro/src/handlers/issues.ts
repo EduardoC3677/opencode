@@ -4,7 +4,6 @@ import { formatTaskResponse } from "../github/comments.js";
 import { runOpenCodeTask } from "../opencode/runner.js";
 import { loadConfig } from "../config.js";
 
-const config = loadConfig();
 const BOT_LOGIN = "opencode-pro[bot]";
 
 /**
@@ -14,6 +13,7 @@ const BOT_LOGIN = "opencode-pro[bot]";
 export function setupIssuesHandler(app: Probot): void {
   // When an issue is opened
   app.on("issues.opened", async (context) => {
+    const config = loadConfig();
     const { issue, repository } = context.payload;
     const owner = repository.owner.login;
     const repo = repository.name;
@@ -39,15 +39,46 @@ export function setupIssuesHandler(app: Probot): void {
       `Bot assigned to new issue ${owner}/${repo}#${issue.number}`,
     );
 
-    const result = await runOpenCodeTask({
-      githubContext: context as any,
-      trigger: "assigned",
-      issueNumber: issue.number,
-      isPullRequest: false,
-      owner,
-      repo,
-      model: config.model,
-    });
+    let result;
+    try {
+      result = await runOpenCodeTask({
+        githubContext: context as any,
+        trigger: "assigned",
+        issueNumber: issue.number,
+        isPullRequest: false,
+        owner,
+        repo,
+        model: config.model,
+      });
+    } catch (err) {
+      context.log.error(`OpenCode task threw synchronously: ${err}`);
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: issue.number,
+          body: `🤖 **opencode-pro** encontró un error inesperado.\n\n\`\`\`\n${String(err).slice(0, 1000)}\n\`\`\``,
+        });
+      } catch {
+        // Best-effort error notification
+      }
+      return;
+    }
+
+    if (!result.success) {
+      const responseBody = formatTaskResponse(result, "encontró un error.");
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: issue.number,
+          body: responseBody,
+        });
+      } catch (postErr) {
+        context.log.error(`Failed to post error comment: ${postErr}`);
+      }
+      return;
+    }
 
     const responseBody = formatTaskResponse(result, "completó la tarea asignada.");
 
@@ -58,13 +89,14 @@ export function setupIssuesHandler(app: Probot): void {
         issue_number: issue.number,
         body: responseBody,
       });
-    } catch (err) {
-      context.log.error(`Failed to post response: ${err}`);
+    } catch (postErr) {
+      context.log.error(`Failed to post success comment: ${postErr}`);
     }
   });
 
   // When an issue is assigned (someone assigns the bot)
   app.on("issues.assigned", async (context) => {
+    const config = loadConfig();
     const { issue, assignee, repository } = context.payload;
     const owner = repository.owner.login;
     const repo = repository.name;
@@ -90,15 +122,46 @@ export function setupIssuesHandler(app: Probot): void {
       `Bot assigned to ${owner}/${repo}#${issue.number}`,
     );
 
-    const result = await runOpenCodeTask({
-      githubContext: context as any,
-      trigger: "assigned",
-      issueNumber: issue.number,
-      isPullRequest: false,
-      owner,
-      repo,
-      model: config.model,
-    });
+    let result;
+    try {
+      result = await runOpenCodeTask({
+        githubContext: context as any,
+        trigger: "assigned",
+        issueNumber: issue.number,
+        isPullRequest: false,
+        owner,
+        repo,
+        model: config.model,
+      });
+    } catch (err) {
+      context.log.error(`OpenCode task threw synchronously: ${err}`);
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: issue.number,
+          body: `🤖 **opencode-pro** encontró un error inesperado.\n\n\`\`\`\n${String(err).slice(0, 1000)}\n\`\`\``,
+        });
+      } catch {
+        // Best-effort error notification
+      }
+      return;
+    }
+
+    if (!result.success) {
+      const responseBody = formatTaskResponse(result, "encontró un error.");
+      try {
+        await context.octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: issue.number,
+          body: responseBody,
+        });
+      } catch (postErr) {
+        context.log.error(`Failed to post error comment: ${postErr}`);
+      }
+      return;
+    }
 
     const responseBody = formatTaskResponse(result, "ha sido asignado y completó la tarea.");
 
@@ -109,8 +172,8 @@ export function setupIssuesHandler(app: Probot): void {
         issue_number: issue.number,
         body: responseBody,
       });
-    } catch (err) {
-      context.log.error(`Failed to post response: ${err}`);
+    } catch (postErr) {
+      context.log.error(`Failed to post success comment: ${postErr}`);
     }
   });
 }

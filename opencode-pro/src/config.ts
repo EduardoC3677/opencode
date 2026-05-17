@@ -29,12 +29,12 @@ export function loadConfig(): BotConfig {
     throw new Error("APP_ID must be a valid number");
   }
 
-  const port = Number(process.env.PORT) || 3000;
+  const port = process.env.PORT !== undefined ? Number(process.env.PORT) : 3000;
   if (Number.isNaN(port)) {
     throw new Error("PORT must be a valid number");
   }
 
-  const taskTimeout = Number(process.env.TASK_TIMEOUT) || 900;
+  const taskTimeout = process.env.TASK_TIMEOUT !== undefined ? Number(process.env.TASK_TIMEOUT) : 900;
   if (Number.isNaN(taskTimeout)) {
     throw new Error("TASK_TIMEOUT must be a valid number");
   }

@@ -64,6 +64,12 @@ export async function runOpenCodeTask(ctx: TaskContext): Promise<TaskResult> {
       stderr += data.toString();
     });
 
+    child.on("exit", (code, signal) => {
+      if (signal === "SIGTERM") {
+        stderr = stderr || `Task timed out after ${config.taskTimeout}s`;
+      }
+    });
+
     child.on("close", (code) => {
       if (settled) return;
       settled = true;
@@ -85,7 +91,8 @@ export async function runOpenCodeTask(ctx: TaskContext): Promise<TaskResult> {
         });
       }
 
-      cleanup();
+      // Fire-and-forget but don't block resolution
+      cleanup().catch(() => {});
     });
 
     child.on("error", (err) => {
@@ -99,7 +106,7 @@ export async function runOpenCodeTask(ctx: TaskContext): Promise<TaskResult> {
         durationMs,
       });
 
-      cleanup();
+      cleanup().catch(() => {});
     });
   });
 }

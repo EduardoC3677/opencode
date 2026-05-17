@@ -9,7 +9,38 @@ export type TriggerKind =
   | "pr_synchronize";   // PR was updated with new commits
 
 /** Supported slash commands */
-export type SlashCommand = "/review" | "/fix" | "/explain" | "/test";
+export type SlashCommand =
+  | "/review"
+  | "/fix"
+  | "/explain"
+  | "/test"
+  | "/plan"
+  | "/build"
+  | "/refactor"
+  | "/docs"
+  | "/optimize"
+  | "/security"
+  | "/summarize"
+  | "/suggest";
+
+/** Agents available in opencode.jsonc */
+export type AgentName = "plan" | "build" | "coder" | "explore" | "researcher" | "scribe" | "reviewer";
+
+/** Maps slash commands to the most appropriate agent */
+export const COMMAND_AGENT_MAP: Record<SlashCommand, AgentName> = {
+  "/review": "reviewer",
+  "/fix": "coder",
+  "/explain": "scribe",
+  "/test": "coder",
+  "/plan": "plan",
+  "/build": "build",
+  "/refactor": "coder",
+  "/docs": "scribe",
+  "/optimize": "coder",
+  "/security": "reviewer",
+  "/summarize": "scribe",
+  "/suggest": "reviewer",
+};
 
 /** Context passed to the OpenCode runner */
 export interface TaskContext {
@@ -39,6 +70,8 @@ export interface TaskContext {
   title?: string;
   /** Issue/PR body */
   body?: string;
+  /** Agent to route the task to */
+  agent?: AgentName;
 }
 
 /** Result from running an OpenCode task */

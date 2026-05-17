@@ -17,38 +17,40 @@ export function setupInstallationHandler(app: Probot): void {
           : " (all repositories)"),
     );
 
-    // Post a welcome message if there's a specific repo
+    // Post a welcome message on the first non-archived/disbaled repository
     if (repositories && repositories.length > 0) {
-      const repo = repositories[0];
-      try {
-        await context.octokit.issues.create({
-          owner: installation.account?.login ?? repo.full_name.split("/")[0],
-          repo: repo.name,
-          title: "🤖 opencode-pro is now active!",
-          body: [
-            "## 🎉 opencode-pro has been installed!",
-            "",
-            "I'm your AI-powered code assistant. Here's how to use me:",
-            "",
-            "### 📝 Issues & Pull Requests",
-            "- **@mention me** — Just write `@opencode-pro` in any comment and I'll respond",
-            "- **Assign me** — Assign me to an issue or PR and I'll work on it automatically",
-            "",
-            "### 🔧 Slash Commands (in PR comments)",
-            "- `/review` — I'll review the code and provide feedback",
-            "- `/fix` — I'll analyze and fix issues in the code",
-            "- `/explain` — I'll explain what the PR does",
-            "- `/test` — I'll write tests for the changes",
-            "",
-            "### ⚡ Auto-Review",
-            "- I automatically review new PRs and updates",
-            "",
-            "---",
-            "Powered by [OpenCode](https://github.com/anomalyco/opencode) 🚀",
-          ].join("\n"),
-        });
-      } catch (err) {
-        context.log.error(`Failed to post welcome message: ${err}`);
+      for (const repo of repositories) {
+        try {
+          await context.octokit.issues.create({
+            owner: installation.account?.login ?? repo.full_name.split("/")[0],
+            repo: repo.name,
+            title: "🤖 opencode-pro is now active!",
+            body: [
+              "## 🎉 opencode-pro has been installed!",
+              "",
+              "I'm your AI-powered code assistant. Here's how to use me:",
+              "",
+              "### 📝 Issues & Pull Requests",
+              "- **@mention me** — Just write `@opencode-pro` in any comment and I'll respond",
+              "- **Assign me** — Assign me to an issue or PR and I'll work on it automatically",
+              "",
+              "### 🔧 Slash Commands (in PR comments)",
+              "- `/review` — I'll review the code and provide feedback",
+              "- `/fix` — I'll analyze and fix issues in the code",
+              "- `/explain` — I'll explain what the PR does",
+              "- `/test` — I'll write tests for the changes",
+              "",
+              "### ⚡ Auto-Review",
+              "- I automatically review new PRs and updates",
+              "",
+              "---",
+              "Powered by [OpenCode](https://github.com/anomalyco/opencode) 🚀",
+            ].join("\n"),
+          });
+          break;
+        } catch (err) {
+          context.log.warn(`Failed to post welcome to ${repo.full_name}: ${err}`);
+        }
       }
     }
   });

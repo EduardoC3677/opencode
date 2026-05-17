@@ -1,9 +1,17 @@
-import type { TaskContext, SlashCommand } from "../types.js";
+import type { TaskContext, SlashCommand, AgentName } from "../types.js";
 
 /**
  * Compose the prompt that will be sent to OpenCode.
  * This mirrors the prompt composition from the existing opencode.yml workflow.
  */
+
+/**
+ * Sanitize a value to a trimmed string, defaulting to empty string for non-strings.
+ */
+function safe(val: unknown): string {
+  if (typeof val !== "string") return "";
+  return val.trim();
+}
 
 const SLASH_COMMAND_PROMPTS: Record<SlashCommand, string> = {
   "/review":
@@ -26,6 +34,47 @@ const SLASH_COMMAND_PROMPTS: Record<SlashCommand, string> = {
     "Analiza este Pull Request y escribe pruebas unitarias y de integración para los cambios. " +
     "Asegúrate de cubrir casos edge, errores y flujos principales. " +
     "Implementa las pruebas en los archivos apropiados.",
+
+  "/plan":
+    "Crea un plan de implementación detallado para este Issue o Pull Request. " +
+    "Divide el trabajo en fases, estima el esfuerzo, identifica dependencias y riesgos. " +
+    "NO implementes cambios, solo planifica.",
+
+  "/build":
+    "Implementa los cambios solicitados en este Issue o Pull Request. " +
+    "Escribe el código necesario, asegurando que compile y pase las pruebas. " +
+    "Coordina la implementación delegando a sub-agentes cuando sea necesario.",
+
+  "/refactor":
+    "Refactoriza el código de este Pull Request para mejorar su estructura, " +
+    "legibilidad y mantenibilidad sin cambiar su comportamiento externo. " +
+    "Aplica patrones de diseño apropiados y elimina código duplicado.",
+
+  "/docs":
+    "Genera o actualiza la documentación para los cambios en este Pull Request. " +
+    "Incluye documentación de API, comentarios en el código, README y guías de uso. " +
+    "NO modifiques el código funcional, solo documentación.",
+
+  "/optimize":
+    "Optimiza el rendimiento del código en este Pull Request. " +
+    "Identifica cuellos de botella, reduce complejidad algorítmica, " +
+    "mejora uso de memoria y caching. Proporciona benchmarks si es posible.",
+
+  "/security":
+    "Realiza una auditoría de seguridad del código en este Pull Request. " +
+    "Busca vulnerabilidades comunes (OWASP Top 10), problemas de autenticación, " +
+    "inyección, exposición de datos, y malas prácticas de seguridad. " +
+    "NO implementes cambios, solo reporta hallazgos con severidad y recomendaciones.",
+
+  "/summarize":
+    "Genera un resumen conciso de este Pull Request. " +
+    "Incluye: qué cambia, por qué cambia, impacto, riesgos, y plan de pruebas. " +
+    "Formatea el resumen en markdown para facilitar la revisión.",
+
+  "/suggest":
+    "Analiza este Pull Request y sugiere mejoras. " +
+    "Considera calidad de código, DX, rendimiento, seguridad, testing y documentación. " +
+    "Proporciona sugerencias accionables y priorizadas. NO implementes cambios.",
 };
 
 export function composePrompt(ctx: TaskContext): string {
@@ -42,31 +91,31 @@ export function composePrompt(ctx: TaskContext): string {
   // Issue/PR title and body
   if (ctx.title) {
     parts.push("=== TÍTULO ===");
-    parts.push(ctx.title);
+    parts.push(safe(ctx.title));
     parts.push("");
   }
 
   if (ctx.body) {
     parts.push("=== DESCRIPCIÓN ===");
-    parts.push(ctx.body);
+    parts.push(safe(ctx.body));
     parts.push("");
   }
 
   // PR diff and files for code review
   if (ctx.prFiles) {
     parts.push("=== ARCHIVOS MODIFICADOS ===");
-    parts.push(ctx.prFiles);
+    parts.push(safe(ctx.prFiles));
     parts.push("");
   }
 
   if (ctx.prDiff) {
     parts.push("=== DIFF DEL PR ===");
-    parts.push(ctx.prDiff);
+    parts.push(safe(ctx.prDiff));
     parts.push("");
   }
 
   // Slash command takes priority
-  if (ctx.trigger === "slash_command" && ctx.command) {
+  if (ctx.trigger === "slash_command" && ctx.command && SLASH_COMMAND_PROMPTS[ctx.command]) {
     parts.push("=== COMANDO ===");
     parts.push(ctx.command);
     parts.push("");
@@ -77,7 +126,7 @@ export function composePrompt(ctx: TaskContext): string {
   // Comment body
   if (ctx.commentBody) {
     parts.push("=== COMENTARIO ===");
-    parts.push(ctx.commentBody);
+    parts.push(safe(ctx.commentBody));
     parts.push("");
   }
 
@@ -110,6 +159,29 @@ export function composePrompt(ctx: TaskContext): string {
       "Realiza una revisión automática de este Pull Request. " +
         "Analiza el código, proporciona feedback constructivo y sugiere mejoras.",
     );
+    parts.push("");
+  }
+
+  // Agent-specific routing instructions
+  if (ctx.agent) {
+    const agentInstructions: Record<AgentName, string> = {
+      "plan":
+        "Eres el agente plan. Solo planifica — NO implementes. Delega implementación a coder.",
+      "build":
+        "Eres el agente build. Coordina la implementación delegando a coder, scribe, explore y researcher. NO implementes directamente.",
+      "coder":
+        "Eres el agente coder. Implementa cambios en el código, ejecuta pruebas y verifica.",
+      "explore":
+        "Eres el agente explore. Analiza el código base y reporta hallazgos. NO modifiques archivos.",
+      "researcher":
+        "Eres el agente researcher. Investiga usando herramientas externas y reporta hallazgos. NO modifiques archivos.",
+      "scribe":
+        "Eres el agente scribe. Crea documentación y contenido. Enfócate en claridad y precisión.",
+      "reviewer":
+        "Eres el agente reviewer. Revisa código, identifica issues y sugiere mejoras. NO implementes cambios.",
+    };
+    parts.push("=== AGENTE ===");
+    parts.push(agentInstructions[ctx.agent]);
     parts.push("");
   }
 

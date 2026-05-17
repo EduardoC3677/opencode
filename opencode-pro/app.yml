@@ -19,6 +19,7 @@ default_permissions:
   pull_requests: write
   contents: read
   metadata: read
+  pull_request_review: write
 
 default_events:
   - issues
@@ -28,3 +29,4 @@ default_events:
   - pull_request_review
   - installation
   - installation_repositories
+  - reaction
