@@ -49,17 +49,17 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="${1:-gpt-5.4-pro}"
+            local input="${1:-qwen3-32b}"
 
             case "$input" in
-              gpt-5.4-pro)
-                echo "azure/gpt-5.4-pro"
+              qwen3-32b)
+                echo "azure/qwen3-32b"
                 ;;
               azure/*)
                 echo "$input"
                 ;;
               *)
-                echo "azure/gpt-5.4-pro"
+                echo "azure/qwen3-32b"
                 ;;
             esac
           }
@@ -71,7 +71,7 @@ jobs:
           SHOULD_RUN="false"
           RUN_KIND="none"
 
-          FULL_MODEL="$(resolve_model "gpt-5.4-pro")"
+          FULL_MODEL="$(resolve_model "qwen3-32b")"
 
           if [[ "$EVENT_NAME" == "pull_request" ]]; then
             SHOULD_RUN="true"
@@ -83,7 +83,7 @@ jobs:
 
               SELECTED_MODEL="$(echo "$COMMENT_BODY" | grep -oiP 'model=\K\S+' | head -1 || true)"
 
-              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.4-pro}")"
+              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-qwen3-32b}")"
 
               if [[ "$HAS_PR" == "true" ]]; then
                 SHOULD_RUN="true"
@@ -224,7 +224,6 @@ jobs:
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           share: false
-          agent: build
           prompt: ${{ steps.compose.outputs.prompt }}
 
       - name: Report failure
