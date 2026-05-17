@@ -181,15 +181,11 @@ def decode_jsfuck_in_python(js_expr):
     
     # For the specific pattern used at this site, we compute the value
     # using node.js which has proper JS evaluation
-    import subprocess
+    from py_mini_racer import MiniRacer
     
     js_code = f"console.log({js_expr});"
-    result = subprocess.run(
-        ["node", "-e", js_code],
-        capture_output=True,
-        text=True,
-        timeout=10
-    )
+    racer = MiniRacer()
+result = racer.execute(js_code)
     return result.stdout.strip()
 
 
@@ -291,8 +287,9 @@ def analyze_site_structure(cookies):
     if hashsalt_match:
         h_expr = "(" + hashsalt_match.group(1) + ")"
         try:
-            import subprocess
-            result = subprocess.run(
+from py_mini_racer import MiniRacer
+racer = MiniRacer()
+result = racer.execute(
                 ["node", "-e", f"console.log({h_expr});"],
                 capture_output=True, text=True, timeout=10
             )

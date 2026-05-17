@@ -55,7 +55,11 @@ def main():
             rel = p.relative_to(src)
             target = part_dir / rel
             ensure_dir(target.parent)
+            try:
             shutil.move(str(p), str(target))
+        except (FileNotFoundError, PermissionError, shutil.Error) as e:
+            print(f"Error moving {p}: {e}")
+            continue
 
     # limpiar directorios vacíos del src
     for d in sorted([p for p in src.rglob("*") if p.is_dir()], reverse=True):

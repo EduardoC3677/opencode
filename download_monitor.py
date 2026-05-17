@@ -136,7 +136,7 @@ def main():
                 sock = socket.create_connection((TARGET, 443), timeout=30)
                 ctx = ssl.create_default_context()
                 ctx.check_hostname = False
-                ctx.verify_mode = ssl.CERT_NONE
+ctx.verify_mode = ssl.CERT_REQUIRED
                 ssock = ctx.wrap_socket(sock, server_hostname=TARGET)
                 
                 headers = f"GET {f['path']} HTTP/1.1\r\nHost: {TARGET}\r\nUser-Agent: Mozilla/5.0\r\nAccept-Language: zh-CN\r\n"
@@ -152,9 +152,11 @@ def main():
                 ssock.close()
                 
                 # Save file
-                filename = f['path'].split("/")[-1] or "downloaded_file"
+                filename = os.path.basename(f['path']) or "downloaded_file"
                 outfile = f"/tmp/opencode/{filename}"
-                with open(outfile, "wb") as fh:
+                try:
+            os.makedirs(os.path.dirname(outfile), exist_ok=True)
+            with open(outfile, "wb") as fh:
                     # Strip HTTP headers
                     header_end = file_data.find(b"\r\n\r\n")
                     if header_end != -1:
@@ -164,6 +166,7 @@ def main():
                 print(f"    Guardado en: {outfile}")
             except Exception as e:
                 print(f"    Error descargando: {e}")
+                continue
     else:
         print("\nNo se encontraron archivos de descarga directa publicos.")
         print("Todos los archivos (.ZIP, .RAR, .ISO, .7Z, .TAR, .PDF)")
