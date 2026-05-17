@@ -222,6 +222,7 @@ jobs:
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
           OPENCODE_CONFIG: ${{ env.OPENCODE_CONFIG }}
           OPENCODE_CONFIG_DIR: ${{ env.OPENCODE_CONFIG_DIR }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
           prompt: ${{ steps.compose.outputs.prompt }}
