@@ -1,22 +1,22 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "provider": {
-    "deepseek": {
+    "azure": {
       "options": {
-        "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1",
-        "apiKey": "{env:AZURE_OPENAI_API_KEY}"
+        "apiKey": "{env:AZURE_OPENAI_API_KEY}",
+        "resourceName": "openslab-resource"
       },
       "models": {
-        "FW-DeepSeek-V4-Pro": {
+        "Codestral-2501": {
         }
       }
     }
   },
-  "model": "deepseek/FW-DeepSeek-V4-Pro",
-  "small_model": "deepseek/FW-DeepSeek-V4-Pro",
+  "model": "azure/Codestral-2501",
+  "small_model": "azure/Codestral-2501",
   "agent": {
     "plan": {
-      "model": "deepseek/FW-DeepSeek-V4-Pro",
+      "model": "azure/Codestral-2501",
       "temperature": 0.3,
       "reasoningEffort": "high",
 			"textVerbosity": "low",
@@ -31,7 +31,7 @@
 			}
     },
     "build": {
-      "model": "deepseek/FW-DeepSeek-V4-Pro",
+      "model": "azure/Codestral-2501",
       "temperature": 0.3,
       "reasoningEffort": "high",
 			"textVerbosity": "low",
@@ -47,7 +47,7 @@
 			}
     },
     "coder": {
-      "model": "deepseek/FW-DeepSeek-V4-Pro",
+      "model": "azure/Codestral-2501",
       "temperature": 0.2,
       "reasoningEffort": "high",
 			"textVerbosity": "low",
@@ -66,7 +66,7 @@
 			}
     },
     "explore": {
-      "model": "deepseek/FW-DeepSeek-V4-Pro",
+      "model": "azure/Codestral-2501",
       "temperature": 0.2,
       "reasoningEffort": "low",
 			"textVerbosity": "low",
@@ -105,7 +105,7 @@
 			}
     },
     "researcher": {
-      "model": "deepseek/FW-DeepSeek-V4-Pro",
+      "model": "azure/Codestral-2501",
       "temperature": 0.4,
       "reasoningEffort": "high",
 			"textVerbosity": "medium",
@@ -162,7 +162,7 @@
 			}
     },
     "scribe": {
-      "model": "deepseek/FW-DeepSeek-V4-Pro",
+      "model": "azure/Codestral-2501",
       "temperature": 1,
       "reasoningEffort": "low",
 			"textVerbosity": "high",
@@ -179,7 +179,7 @@
 			}
     },
     "reviewer": {
-      "model": "deepseek/FW-DeepSeek-V4-Pro",
+      "model": "azure/Codestral-2501",
       "temperature": 0.1,
       "reasoningEffort": "high",
 			"textVerbosity": "medium",
