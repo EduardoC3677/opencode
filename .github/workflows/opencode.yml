@@ -31,6 +31,10 @@ jobs:
       issue_number: ${{ steps.check.outputs.issue_number }}
       model: ${{ steps.check.outputs.model }}
       provider: ${{ steps.check.outputs.provider }}
+      agent: ${{ steps.check.outputs.agent }}
+      variant: ${{ steps.check.outputs.variant }}
+      share: ${{ steps.check.outputs.share }}
+      session_metadata: ${{ steps.check.outputs.session_metadata }}
 
     steps:
       - id: check
@@ -38,6 +42,11 @@ jobs:
         env:
           EVENT_NAME: ${{ github.event_name }}
           COMMENT_BODY: ${{ github.event.comment.body || '' }}
+          COMMENT_AUTHOR_ASSOCIATION: ${{ github.event.comment.author_association || '' }}
+
+          TRUSTED_AUTHOR_ASSOCIATIONS: OWNER,MEMBER,COLLABORATOR
+          ALLOWED_AGENT_OVERRIDES: build,plan,reviewer
+          ALLOWED_VARIANT_OVERRIDES: default
 
           PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number || '' }}
           ISSUE_NUMBER: ${{ github.event.issue.number || '' }}
@@ -68,10 +77,122 @@ jobs:
             echo "${1%%/*}"
           }
 
+          extract_flag() {
+            local key="$1"
+            echo "$COMMENT_BODY" | grep -oiP "${key}=\K\S+" | head -1 || true
+          }
+
+          has_flag() {
+            local key="$1"
+            echo "$COMMENT_BODY" | grep -qiE "(^|[[:space:]])${key}="
+          }
+
+          csv_contains() {
+            local csv_list="$1"
+            local probe="$2"
+            local normalized_probe="${probe//[[:space:]]/}"
+            local candidate=""
+
+            normalized_probe="${normalized_probe,,}"
+
+            IFS=',' read -r -a _items <<< "$csv_list"
+            for candidate in "${_items[@]}"; do
+              candidate="${candidate//[[:space:]]/}"
+              candidate="${candidate,,}"
+              if [[ "$candidate" == "$normalized_probe" ]]; then
+                return 0
+              fi
+            done
+
+            return 1
+          }
+
+          is_trusted_comment_author() {
+            local association="${COMMENT_AUTHOR_ASSOCIATION^^}"
+            csv_contains "$TRUSTED_AUTHOR_ASSOCIATIONS" "$association"
+          }
+
+          fail_invalid_flag() {
+            local key="$1"
+            local reason="$2"
+            echo "::error::Invalid /oc flag '${key}=': ${reason}"
+            exit 1
+          }
+
+          require_non_empty_flag_value() {
+            local key="$1"
+            local value="$2"
+
+            if [[ -z "$value" ]]; then
+              fail_invalid_flag "$key" "missing value"
+            fi
+          }
+
+          validate_agent() {
+            local input="${1:-}"
+            local normalized="${input,,}"
+
+            if [[ ! "$normalized" =~ ^[a-z0-9][a-z0-9_-]{0,63}$ ]]; then
+              fail_invalid_flag "agent" "value '$input' has invalid format"
+            fi
+
+            if ! is_trusted_comment_author; then
+              fail_invalid_flag "agent" "override requires trusted author association (${TRUSTED_AUTHOR_ASSOCIATIONS}), got '${COMMENT_AUTHOR_ASSOCIATION:-NONE}'"
+            fi
+
+            if ! csv_contains "$ALLOWED_AGENT_OVERRIDES" "$normalized"; then
+              fail_invalid_flag "agent" "value '$input' is not allowlisted for this repo (allowed: ${ALLOWED_AGENT_OVERRIDES})"
+            fi
+
+            echo "$normalized"
+          }
+
+          validate_variant() {
+            local input="${1:-}"
+            local normalized="${input,,}"
+
+            # Repo policy: variant overrides are explicit-allowlist only.
+            # Keep ALLOWED_VARIANT_OVERRIDES in sync with supported variants.
+            if ! csv_contains "$ALLOWED_VARIANT_OVERRIDES" "$normalized"; then
+              fail_invalid_flag "variant" "value '$input' is not allowlisted (allowed: ${ALLOWED_VARIANT_OVERRIDES})"
+            fi
+
+            echo "$normalized"
+          }
+
+          validate_share() {
+            local input="${1:-}"
+            local normalized="${input,,}"
+
+            case "$normalized" in
+              auto|manual|disabled)
+                echo "$normalized"
+                ;;
+              *)
+                fail_invalid_flag "share" "value '$input' must be one of: auto, manual, disabled"
+                ;;
+            esac
+          }
+
+          validate_session() {
+            local input="${1:-}"
+            local normalized="$input"
+
+            if [[ ! "$normalized" =~ ^[A-Za-z0-9][A-Za-z0-9._:-]{0,63}$ ]]; then
+              fail_invalid_flag "session" "value '$input' has invalid format"
+            fi
+
+            echo "$normalized"
+          }
+
           SHOULD_RUN="false"
           RUN_KIND="none"
 
           FULL_MODEL="$(resolve_model "gpt-5.3-codex")"
+          SELECTED_AGENT=""
+          SELECTED_VARIANT=""
+          SELECTED_SHARE=""
+          SESSION_METADATA=""
 
           if [[ "$EVENT_NAME" == "pull_request" ]]; then
             SHOULD_RUN="true"
@@ -81,9 +202,33 @@ jobs:
 
             if echo "$COMMENT_BODY" | grep -qiE '(^|[[:space:]])/(oc|opencode)\b'; then
 
-              SELECTED_MODEL="$(echo "$COMMENT_BODY" | grep -oiP 'model=\K\S+' | head -1 || true)"
-
+              SELECTED_MODEL="$(extract_flag "model")"
               FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.3-codex}")"
+
+              if has_flag "agent"; then
+                RAW_AGENT="$(extract_flag "agent")"
+                require_non_empty_flag_value "agent" "$RAW_AGENT"
+                SELECTED_AGENT="$(validate_agent "$RAW_AGENT")"
+              fi
+
+              if has_flag "variant"; then
+                RAW_VARIANT="$(extract_flag "variant")"
+                require_non_empty_flag_value "variant" "$RAW_VARIANT"
+                SELECTED_VARIANT="$(validate_variant "$RAW_VARIANT")"
+              fi
+
+              if has_flag "share"; then
+                RAW_SHARE="$(extract_flag "share")"
+                require_non_empty_flag_value "share" "$RAW_SHARE"
+                SELECTED_SHARE="$(validate_share "$RAW_SHARE")"
+              fi
+
+              if has_flag "session"; then
+                RAW_SESSION="$(extract_flag "session")"
+                require_non_empty_flag_value "session" "$RAW_SESSION"
+                VALID_SESSION="$(validate_session "$RAW_SESSION")"
+                SESSION_METADATA="session=$VALID_SESSION"
+              fi
 
               if [[ "$HAS_PR" == "true" ]]; then
                 SHOULD_RUN="true"
@@ -102,6 +247,10 @@ jobs:
             echo "issue_number=$ISSUE_NUMBER"
             echo "model=$FULL_MODEL"
             echo "provider=$(extract_provider "$FULL_MODEL")"
+            echo "agent=$SELECTED_AGENT"
+            echo "variant=$SELECTED_VARIANT"
+            echo "share=$SELECTED_SHARE"
+            echo "session_metadata=$SESSION_METADATA"
           } >> "$GITHUB_OUTPUT"
 
   opencode:
@@ -144,6 +293,7 @@ jobs:
         shell: bash
         env:
           EVENT_NAME: ${{ github.event_name }}
+          EXECUTION_METADATA: ${{ needs.detect-trigger.outputs.session_metadata }}
 
           COMMENT_BODY: ${{ github.event.comment.body || '' }}
 
@@ -164,6 +314,11 @@ jobs:
             echo "CONTEXTO:"
             echo "event_name=${EVENT_NAME}"
             echo ""
+
+            if [[ -n "${EXECUTION_METADATA:-}" ]]; then
+              echo "execution_metadata: ${EXECUTION_METADATA}"
+              echo ""
+            fi
 
             if [[ -n "$COMMENT_BODY" ]]; then
               echo "=== COMENTARIO ==="
@@ -223,6 +378,9 @@ jobs:
           AZURE_RESOURCE_NAME: "openslab-resource"
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
+          agent: ${{ needs.detect-trigger.outputs.agent != '' && needs.detect-trigger.outputs.agent || null }}
+          variant: ${{ needs.detect-trigger.outputs.variant != '' && needs.detect-trigger.outputs.variant || null }}
+          share: ${{ needs.detect-trigger.outputs.share != '' && needs.detect-trigger.outputs.share || null }}
           prompt: ${{ steps.compose.outputs.prompt }}
 
       - name: Report failure

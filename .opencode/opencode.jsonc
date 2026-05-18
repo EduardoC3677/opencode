@@ -11,7 +11,7 @@
         "gpt-5.3-codex": {
           "name": "GPT 5.3-codex (Azure)",
           "options": {
-            "reasoningEffort": "low",
+            "reasoningEffort": "medium",
             "textVerbosity": "low",
             "parallelToolCalls": true
           }
@@ -25,13 +25,16 @@
     "plan": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.3,
-      "reasoningEffort": "low",
+      "reasoningEffort": "medium",
 			"permission": {
 				"edit": "deny",
 				"write": "deny",
 				"bash": {
 					"*": "deny"
 				},
+				"delegate": "allow",
+				"delegation_read": "allow",
+				"delegation_list": "allow",
 				"task": "allow",
 				"worktree_*": "allow"
 			}
@@ -39,7 +42,7 @@
     "build": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.3,
-      "reasoningEffort": "low",
+      "reasoningEffort": "medium",
 			"prompt": "You are a **build orchestrator**. You coordinate implementation through delegation - you do NOT implement directly.\\\\\\\\n\\\\\\\\n## Your Role\\\\\\\\n- Delegate implementation to `coder`\\\\\\\\n- Delegate documentation to `scribe`\\\\\\\\n- Delegate codebase analysis to `explore`\\\\\\\\n- Delegate external research to `researcher`\\\\\\\\n- Interpret results and decide next steps\\\\\\\\n\\\\\\\\n## Critical Constraint\\\\\\\\nYou CANNOT edit files or run commands directly. For ALL implementation and verification, delegate to `coder`.",
 			"permission": {
 				"edit": "deny",
@@ -47,6 +50,9 @@
 				"bash": {
 					"*": "deny"
 				},
+				"delegate": "allow",
+				"delegation_read": "allow",
+				"delegation_list": "allow",
 				"task": "allow",
 				"worktree_*": "allow"
 			}
@@ -231,6 +237,8 @@
 	],
 	"plugin": [
 		"@tarquinen/opencode-dcp@3.1.3",
-		"@franlol/opencode-md-table-formatter@0.0.6"
+		"@franlol/opencode-md-table-formatter@0.0.6",
+		"./plugins/background-agents.ts",
+		"./plugins/workspace-plugin.ts"
 	]
 }
