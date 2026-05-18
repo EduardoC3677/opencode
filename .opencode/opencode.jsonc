@@ -4,7 +4,8 @@
     "azure": {
       "options": {
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
-        "resourceName": "openslab-resource"
+        "resourceName": "openslab-resource",
+        "apiVersion": "2"
       },
       "models": {
         "Codestral-2501": {
