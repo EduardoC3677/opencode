@@ -49,17 +49,15 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="${1:-gpt-5.3-codex}"
+            local input="${1:-gpt-5.4-pro}"
 
             case "$input" in
-              gpt-5.3-codex)
-                echo "azure-foundry/gpt-5.3-codex"
-                ;;
-              azure-foundry/*)
-                echo "$input"
+              gpt-5.4-pro|opencode/gpt-5.4-pro)
+                echo "opencode/gpt-5.4-pro"
                 ;;
               *)
-                echo "azure-foundry/gpt-5.3-codex"
+                echo "Unsupported model '$input'; using default opencode/gpt-5.4-pro" >&2
+                echo "opencode/gpt-5.4-pro"
                 ;;
             esac
           }
@@ -71,7 +69,7 @@ jobs:
           SHOULD_RUN="false"
           RUN_KIND="none"
 
-          FULL_MODEL="$(resolve_model "gpt-5.3-codex")"
+          FULL_MODEL="$(resolve_model "gpt-5.4-pro")"
 
           if [[ "$EVENT_NAME" == "pull_request" ]]; then
             SHOULD_RUN="true"
@@ -83,7 +81,7 @@ jobs:
 
               SELECTED_MODEL="$(echo "$COMMENT_BODY" | grep -oiP 'model=\K\S+' | head -1 || true)"
 
-              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.3-codex}")"
+              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.4-pro}")"
 
               if [[ "$HAS_PR" == "true" ]]; then
                 SHOULD_RUN="true"
@@ -135,9 +133,24 @@ jobs:
         shell: bash
         run: |
           {
-            echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_API_KEY }}"
-            echo "AZURE_API_KEY=${{ secrets.AZURE_API_KEY }}"
+            echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY || secrets.AZURE_API_KEY }}"
+            echo "AZURE_API_KEY=${{ secrets.AZURE_API_KEY || secrets.AZURE_OPENAI_API_KEY }}"
           } >> "$GITHUB_ENV"
+
+      - name: Validate Azure OpenAI API key
+        shell: bash
+        env:
+          AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
+          AZURE_API_KEY: ${{ env.AZURE_API_KEY }}
+        run: |
+          set -euo pipefail
+
+          EFFECTIVE_API_KEY="${AZURE_OPENAI_API_KEY:-${AZURE_API_KEY:-}}"
+
+          if [[ -z "${EFFECTIVE_API_KEY//[[:space:]]/}" ]]; then
+            echo "::error::Missing Azure OpenAI API key. Set AZURE_OPENAI_API_KEY or AZURE_API_KEY secret."
+            exit 1
+          fi
 
       - name: Compose OpenCode prompt
         id: compose
