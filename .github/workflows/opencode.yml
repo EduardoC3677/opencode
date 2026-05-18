@@ -53,13 +53,13 @@ jobs:
 
             case "$input" in
               Codestral-2501)
-                echo "azure/Codestral-2501"
+                echo "azure-foundry/Codestral-2501"
                 ;;
-              azure/*)
+              azure-foundry/*)
                 echo "$input"
                 ;;
               *)
-                echo "azure/Codestral-2501"
+                echo "azure-foundry/Codestral-2501"
                 ;;
             esac
           }
