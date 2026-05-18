@@ -13,6 +13,7 @@ function parseReposList(value: string | undefined): string[] {
 
 export function loadConfig(): BotConfig {
   const privateKey = process.env.PRIVATE_KEY?.replace(/\\n/g, "\n") ?? "";
+  const azureOpenaiApiKey = process.env.AZURE_OPENAI_API_KEY ?? process.env.AZURE_API_KEY ?? "";
 
   if (!process.env.APP_ID) {
     throw new Error("Missing required env var: APP_ID");
@@ -46,7 +47,7 @@ export function loadConfig(): BotConfig {
     clientId: process.env.CLIENT_ID ?? "",
     clientSecret: process.env.CLIENT_SECRET ?? "",
     opencodeConfigDir: process.env.OPENCODE_CONFIG_DIR ?? ".opencode",
-    azureOpenaiApiKey: process.env.AZURE_OPENAI_API_KEY ?? "",
+    azureOpenaiApiKey,
     model: process.env.OPENCODE_MODEL ?? "deepseek/deepseek-v4-pro",
     port,
     logLevel: process.env.LOG_LEVEL ?? "info",

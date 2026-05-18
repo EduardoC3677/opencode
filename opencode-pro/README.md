@@ -16,9 +16,10 @@
 | 🗣️ **@Mentions** | Invoca al bot mencionando `@opencode-pro` en cualquier comentario |
 | 📋 **Asignación** | Asigna el bot a issues o PRs y se ejecuta automáticamente |
 | 🔧 **Slash Commands** | `/review`, `/fix`, `/explain`, `/test` en Pull Requests |
+| 🪄 **Prefijos `/oc` y `/opencode`** | Ejecuta tareas personalizadas en issues/PRs (ej: `/oc mejora el bot`) |
 | 🔍 **Auto-Review** | Revisa automáticamente nuevos PRs y actualizaciones |
 | 🧠 **OpenCode AI** | Usa el motor de IA de OpenCode para todas las tareas |
-| ⚡ **Sin /oc** | No necesitas prefijos — solo menciona al bot o usa comandos |
+| ⚡ **Flexible** | Puedes usar menciones, slash commands o prefijos `/oc` y `/opencode` |
 
 ---
 
@@ -36,6 +37,8 @@
 | Comando | Acción | Dónde usarlo |
 |---------|--------|-------------|
 | `@opencode-pro <mensaje>` | El bot responde a tu mensaje | Issues y PRs |
+| `/oc <tarea>` o `/opencode <tarea>` | Ejecuta una tarea personalizada | Issues y PRs |
+| `/oc review ...` o `/oc /review ...` | Usa subcomando explícito (review/fix/etc.) | Issues y PRs |
 | `/review` | Revisa el código del PR | Solo en PRs |
 | `/fix` | Analiza y corrige problemas | Solo en PRs |
 | `/explain` | Explica qué hace el PR | Solo en PRs |

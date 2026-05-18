@@ -15,6 +15,65 @@ const SLASH_COMMANDS: SlashCommand[] = [
   "/optimize", "/security", "/summarize", "/suggest",
 ];
 
+const OC_PREFIX_PATTERN = /^\/(oc|opencode)\b/i;
+
+function extractSlashCommandToken(body: string): SlashCommand | undefined {
+  const firstContentLine = body
+    .split("\n")
+    .map((line) => line.trim())
+    .find((line) => line.length > 0);
+
+  if (!firstContentLine) {
+    return undefined;
+  }
+
+  const firstToken = firstContentLine.split(/\s+/)[0];
+  if (!firstToken) {
+    return undefined;
+  }
+
+  return (SLASH_COMMANDS as string[]).includes(firstToken)
+    ? (firstToken as SlashCommand)
+    : undefined;
+}
+
+function extractPrefixedCommand(
+  body: string,
+): { command?: SlashCommand; taskText: string } | null {
+  const lines = body.split("\n");
+  const firstContentLineIndex = lines.findIndex((line) => line.trim().length > 0);
+  if (firstContentLineIndex < 0) {
+    return null;
+  }
+
+  const firstContentLine = lines[firstContentLineIndex]?.trim() ?? "";
+
+  if (!firstContentLine || !OC_PREFIX_PATTERN.test(firstContentLine)) {
+    return null;
+  }
+
+  const remainder = firstContentLine.replace(OC_PREFIX_PATTERN, "").trim();
+  if (!remainder) {
+    const trailingText = lines.slice(firstContentLineIndex + 1).join("\n").trim();
+    return { taskText: trailingText };
+  }
+
+  const [firstToken, ...restTokens] = remainder.split(/\s+/);
+  const normalizedToken = firstToken.startsWith("/") ? firstToken.toLowerCase() : `/${firstToken.toLowerCase()}`;
+  const trailingText = lines.slice(firstContentLineIndex + 1).join("\n").trim();
+
+  if ((SLASH_COMMANDS as string[]).includes(normalizedToken)) {
+    const commandTask = [restTokens.join(" ").trim(), trailingText].filter(Boolean).join("\n\n");
+    return {
+      command: normalizedToken as SlashCommand,
+      taskText: commandTask,
+    };
+  }
+
+  const customTask = [remainder, trailingText].filter(Boolean).join("\n\n");
+  return { taskText: customTask };
+}
+
 /**
  * Handle issue_comment events.
  * Detects @opencode-pro mentions and slash commands.
@@ -44,6 +103,7 @@ export function setupIssueCommentHandler(app: Probot): void {
 
     let trigger: TriggerKind | null = null;
     let command: SlashCommand | undefined;
+    let commentBodyForPrompt = body;
 
     // Check for @opencode-pro mention
     const mentionPattern = new RegExp(`@${BOT_NAME}\\b`, "i");
@@ -53,12 +113,25 @@ export function setupIssueCommentHandler(app: Probot): void {
 
     // Check for slash commands (only in PRs)
     if (isPR) {
-      for (const cmd of SLASH_COMMANDS) {
-        if (body.trim().startsWith(cmd)) {
-          trigger = "slash_command";
-          command = cmd;
-          break;
-        }
+      const slashCommand = extractSlashCommandToken(body);
+      if (slashCommand) {
+        trigger = "slash_command";
+        command = slashCommand;
+      }
+    }
+
+    // Check for /oc and /opencode prefixed commands/tasks
+    const prefixedCommand = extractPrefixedCommand(body);
+    if (prefixedCommand) {
+      trigger = "slash_command";
+      command = prefixedCommand.command;
+      commentBodyForPrompt = prefixedCommand.taskText;
+
+      if (!prefixedCommand.command && !prefixedCommand.taskText) {
+        context.log.info(
+          `Ignoring empty /oc command on ${owner}/${repo}#${issueNumber}`,
+        );
+        return;
       }
     }
 
@@ -75,8 +148,10 @@ export function setupIssueCommentHandler(app: Probot): void {
         comment_id: comment.id,
         content: "eyes",
       });
-    } catch {
-      // Ignore reaction errors
+    } catch (reactionErr) {
+      context.log.warn(
+        `Failed to add eyes reaction on ${owner}/${repo}#${issueNumber}: ${String(reactionErr)}`,
+      );
     }
 
     context.log.info(
@@ -90,7 +165,7 @@ export function setupIssueCommentHandler(app: Probot): void {
         githubContext: context as any,
         trigger,
         command,
-        commentBody: body,
+        commentBody: commentBodyForPrompt,
         issueNumber,
         isPullRequest: isPR,
         owner,
@@ -107,8 +182,8 @@ export function setupIssueCommentHandler(app: Probot): void {
           issue_number: issueNumber,
           body: `🤖 **opencode-pro** encontró un error inesperado.\n\n\`\`\`\n${String(err).slice(0, 1000)}\n\`\`\``,
         });
-      } catch {
-        // Best-effort error notification
+      } catch (notifyErr) {
+        context.log.error(`Failed to post unexpected-error comment: ${String(notifyErr)}`);
       }
       return;
     }

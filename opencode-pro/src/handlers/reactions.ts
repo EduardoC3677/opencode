@@ -5,6 +5,8 @@ import type { Probot } from "probot";
  * Users can react to bot comments to approve, dismiss, or retry.
  */
 export function setupReactionHandler(app: Probot): void {
+  const BOT_LOGIN = "opencode-pro[bot]";
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   app.on("reaction.created" as any, async (context: any) => {
     const { reaction, comment, repository } = context.payload;
@@ -14,14 +16,13 @@ export function setupReactionHandler(app: Probot): void {
     // Only react to reactions on the bot's own comments
     const commentUser = comment?.user;
     if (!commentUser || commentUser.type !== "Bot") return;
-    // Check if the comment is from our bot
-    if (!commentUser.login?.includes("opencode-pro")) return;
+    if (commentUser.login !== BOT_LOGIN) return;
 
     const reactionUser = reaction.user?.login;
     if (!reactionUser) return;
 
     // Skip if the reactor is the bot itself
-    if (reactionUser.includes("opencode-pro")) return;
+    if (reactionUser === BOT_LOGIN) return;
 
     const reactionName = reaction.content;
 
@@ -39,8 +40,8 @@ export function setupReactionHandler(app: Probot): void {
             comment_id: comment.id,
             content: "heart",
           });
-        } catch {
-          // Best effort
+        } catch (reactionErr) {
+          context.log.warn(`Failed to add heart reaction: ${String(reactionErr)}`);
         }
         break;
 
@@ -53,8 +54,8 @@ export function setupReactionHandler(app: Probot): void {
             comment_id: comment.id,
             content: "confused",
           });
-        } catch {
-          // Best effort
+        } catch (reactionErr) {
+          context.log.warn(`Failed to add confused reaction: ${String(reactionErr)}`);
         }
         break;
 

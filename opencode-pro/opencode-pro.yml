@@ -57,9 +57,19 @@ jobs:
       - name: Set Azure OpenAI env vars
         shell: bash
         run: |
+          API_KEY="${{ secrets.AZURE_OPENAI_API_KEY }}"
+          if [[ -z "$API_KEY" ]]; then
+            API_KEY="${{ secrets.AZURE_API_KEY }}"
+          fi
+
+          if [[ -z "$API_KEY" ]]; then
+            echo "Missing Azure key secret. Configure AZURE_OPENAI_API_KEY or AZURE_API_KEY"
+            exit 1
+          fi
+
           {
-            echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}"
-            echo "AZURE_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}"
+            echo "AZURE_OPENAI_API_KEY=$API_KEY"
+            echo "AZURE_API_KEY=$API_KEY"
           } >> "$GITHUB_ENV"
 
           CLIENT_MODEL="${{ github.event.client_payload.model || '' }}"

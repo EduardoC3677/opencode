@@ -12,10 +12,6 @@ on:
     types:
       - created
 
-  pull_request_review_comment:
-    types:
-      - created
-
 concurrency:
   group: opencode-review-${{ github.event.pull_request.number || github.event.issue.number || github.run_id }}
   cancel-in-progress: true
@@ -77,11 +73,16 @@ jobs:
             SHOULD_RUN="true"
             RUN_KIND="auto_pr_review"
 
-          elif [[ "$EVENT_NAME" == "issue_comment" || "$EVENT_NAME" == "pull_request_review_comment" ]]; then
+          elif [[ "$EVENT_NAME" == "issue_comment" ]]; then
+            COMMENT_TRIMMED="$(printf '%s' "$COMMENT_BODY" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')"
+            COMMENT_TRIMMED_LOWER="${COMMENT_TRIMMED,,}"
 
-            if echo "$COMMENT_BODY" | grep -qiE '(^|[[:space:]])/(oc|opencode)\b'; then
-
-              SELECTED_MODEL="$(echo "$COMMENT_BODY" | grep -oiP 'model=\K\S+' | head -1 || true)"
+            if [[ "$COMMENT_TRIMMED_LOWER" =~ ^/(oc|opencode)\b ]]; then
+              if [[ "$COMMENT_TRIMMED" =~ (^|[[:space:]])model=([^[:space:]]+) ]]; then
+                SELECTED_MODEL="${BASH_REMATCH[2]}"
+              else
+                SELECTED_MODEL=""
+              fi
 
               FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-deepseek-v4-pro}")"
 
@@ -134,9 +135,19 @@ jobs:
       - name: Set Azure OpenAI env vars
         shell: bash
         run: |
+          API_KEY="${{ secrets.AZURE_OPENAI_API_KEY }}"
+          if [[ -z "$API_KEY" ]]; then
+            API_KEY="${{ secrets.AZURE_API_KEY }}"
+          fi
+
+          if [[ -z "$API_KEY" ]]; then
+            echo "Missing Azure key secret. Configure AZURE_OPENAI_API_KEY or AZURE_API_KEY."
+            exit 1
+          fi
+
           {
-            echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_API_KEY }}"
-            echo "AZURE_API_KEY=${{ secrets.AZURE_API_KEY }}"
+            echo "AZURE_OPENAI_API_KEY=$API_KEY"
+            echo "AZURE_API_KEY=$API_KEY"
           } >> "$GITHUB_ENV"
 
       - name: Compose OpenCode prompt
@@ -244,6 +255,11 @@ jobs:
               process.env.RUN_KIND === 'issue_task'
                 ? Number(process.env.ISSUE_NUMBER)
                 : Number(process.env.PR_NUMBER);
+
+            if (!Number.isFinite(issueNumber) || issueNumber <= 0) {
+              core.warning(`Skipping failure comment because issue number is invalid for ${process.env.RUN_KIND}`);
+              return;
+            }
 
             const body =
               process.env.RUN_KIND === 'issue_task'
