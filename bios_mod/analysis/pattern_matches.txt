@@ -1,0 +1,34 @@
+SetupUtility: True size 1402112
+A01ODMDxeDriver: /tmp/opencode/acer/abobios.bin.dump/7 1FD0BACE-6F0A-4085-901E-F6210385CB6F/0 20BC8AC9-94D1-4208-AB28-5D673FD73486/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/370 A01ODMDxeDriver/1 PE32 image section/body.bin size 30784
+
+===== SetupUtility (1402112 bytes) =====
+  [Speed AMD check] 0F0F..00..00..000000FFFF000.020F0F..00..00..000000FFFF000.022902018601  ->  0 match(es)
+  [OC Perf Menu / Plat Volt] FFFF00......821206......000F0F  ->  12 match(es)
+    @0xc8d5d: ffff000e100a821206921000000f0f
+    @0xccd8a: ffff00ba130a821206501001000f0f
+    @0xd04c9: ffff0026150a8212064e1001000f0f
+  [OC Feature] 19821408....01000.000591  ->  1 match(es)
+    @0xd02b6: 198214085a10010000000591
+  [XTU/FIVR section] 2902290229020A821206....0.00  ->  13 match(es)
+    @0xc990a: 2902290229020a82120681100000
+    @0xca958: 2902290229020a82120651100000
+    @0xcaa29: 2902290229020a82120671100000
+
+===== A01ODMDxeDriver (30784 bytes) =====
+  [ODM Default] 740C48B80300000000000080  ->  1 match(es)
+    @0x15b2: 740c48b80300000000000080
+  [ODM Combo Setup Hide] 74..4084CD  ->  0 match(es)
+  [ODM Combo Setup Hide 2] 7427488D05  ->  0 match(es)
+  [ODM Combo Setup Hide 3] 4885C078..80  ->  0 match(es)
+  [ODM Combo TravelMate 1] 85C0745E  ->  0 match(es)
+  [ODM Combo TravelMate 2] 85C0744F  ->  0 match(es)
+  [ODM Combo TravelMate 3] 85C0744D  ->  0 match(es)
+  [ODM Single 1] 4184C.74..  ->  2 match(es)
+    @0x5882: 4184c6740d
+    @0x597e: 4184c67416
+  [ODM Single 2] ..84C974..  ->  1 match(es)
+    @0x4048: 4584c9743a
+  [ODM Single 3] A801740.  ->  0 match(es)
+  [ODM Single 4] 403ACD75..  ->  0 match(es)
+  [ODM Single 5] 4584D274..  ->  1 match(es)
+    @0x3cca: 4584d27415
