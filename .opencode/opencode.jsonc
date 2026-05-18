@@ -4,8 +4,7 @@
     "azure-foundry": {
       "options": {
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
-        "resourceName": "openslab-resource",
-        "apiVersion": "2"
+        "resourceName": "openslab-resource"
       },
       "models": {
         "Codestral-2501": {
