@@ -9,7 +9,12 @@
       },
       "models": {
         "gpt-5.3-codex": {
-          "Name": "GPT 5.3-codex (Azure)"
+          "name": "GPT 5.3-codex (Azure)",
+          "options": {
+            "reasoningEffort": "low",
+            "textVerbosity": "low",
+            "parallelToolCalls": true
+          }
         }
       }
     }
@@ -20,7 +25,7 @@
     "plan": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.3,
-      "reasoningEffort": "high",
+      "reasoningEffort": "low",
 			"permission": {
 				"edit": "deny",
 				"write": "deny",
@@ -34,7 +39,7 @@
     "build": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.3,
-      "reasoningEffort": "high",
+      "reasoningEffort": "low",
 			"prompt": "You are a **build orchestrator**. You coordinate implementation through delegation - you do NOT implement directly.\\\\\\\\n\\\\\\\\n## Your Role\\\\\\\\n- Delegate implementation to `coder`\\\\\\\\n- Delegate documentation to `scribe`\\\\\\\\n- Delegate codebase analysis to `explore`\\\\\\\\n- Delegate external research to `researcher`\\\\\\\\n- Interpret results and decide next steps\\\\\\\\n\\\\\\\\n## Critical Constraint\\\\\\\\nYou CANNOT edit files or run commands directly. For ALL implementation and verification, delegate to `coder`.",
 			"permission": {
 				"edit": "deny",
@@ -49,7 +54,7 @@
     "coder": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.2,
-      "reasoningEffort": "high",
+      "reasoningEffort": "low",
 			"permission": {
 				"context7_*": "deny",
 				"exa_*": "deny",
@@ -105,7 +110,7 @@
     "researcher": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.4,
-      "reasoningEffort": "high",
+      "reasoningEffort": "low",
 			"permission": {
 				"context7_*": "allow",
 				"exa_*": "allow",
@@ -177,7 +182,7 @@
     "reviewer": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.1,
-      "reasoningEffort": "high",
+      "reasoningEffort": "low",
 			"permission": {
 				"edit": "deny",
 				"write": "deny",
