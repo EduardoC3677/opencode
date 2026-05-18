@@ -1,0 +1,189 @@
+name: opencode-pro
+
+# This workflow is triggered by the opencode-pro GitHub App via repository_dispatch.
+# It runs the OpenCode AI engine to process tasks.
+#
+# To use this in your repository:
+# 1. Copy this file to .github/workflows/opencode-pro.yml
+# 2. Add your AZURE_OPENAI_API_KEY as a repository secret
+# 3. Install the opencode-pro GitHub App on your repository
+
+on:
+  repository_dispatch:
+    types:
+      - opencode-pro-task
+
+  # Also allow manual triggering for testing
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: 'Task prompt for OpenCode'
+        required: true
+        type: string
+      model:
+        description: 'Model to use'
+        required: false
+        type: string
+        default: 'deepseek/deepseek-v4-pro'
+
+concurrency:
+  group: opencode-pro-${{ github.event.client_payload.issue_number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  opencode:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install repo dependencies
+        run: sudo npm install -g --no-audit --no-fund
+
+      - name: Set Azure OpenAI env vars
+        shell: bash
+        run: |
+          {
+            echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}"
+            echo "AZURE_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}"
+          } >> "$GITHUB_ENV"
+
+          CLIENT_MODEL="${{ github.event.client_payload.model || '' }}"
+          if [[ -n "$CLIENT_MODEL" ]]; then
+            echo "OPENCODE_MODEL=$CLIENT_MODEL" >> "$GITHUB_ENV"
+          fi
+
+      - name: Resolve prompt
+        id: prompt
+        shell: bash
+        env:
+          CLIENT_PROMPT: ${{ github.event.client_payload.prompt || '' }}
+          MANUAL_PROMPT: ${{ github.event.inputs.prompt || '' }}
+        run: |
+          set -euo pipefail
+
+          PROMPT="${CLIENT_PROMPT:-${MANUAL_PROMPT}}"
+          AGENT_MODE="${{ github.event.client_payload.agent || '' }}"
+          SUBAGENT="${{ github.event.client_payload.subagent || '' }}"
+          COMMAND="${{ github.event.client_payload.command || '' }}"
+
+          DELIM="OPCODE_PROMPT_EOF_$(date +%s%N)"
+
+          {
+            echo "prompt<<$DELIM"
+
+            echo "CONTEXTO:"
+            echo "event_name=${{ github.event.client_payload.event_name || 'manual' }}"
+            echo ""
+
+            if [[ -n "$COMMAND" ]]; then
+              echo "=== COMANDO ==="
+              echo "$COMMAND"
+              echo ""
+            fi
+
+            if [[ -n "$AGENT_MODE" ]]; then
+              echo "=== AGENTE ==="
+              echo "agent=$AGENT_MODE"
+              if [[ -n "$SUBAGENT" ]]; then
+                echo "subagent=$SUBAGENT"
+              fi
+              echo "Modo agente activo. Usa el agente '$AGENT_MODE' y sus sub-agentes según corresponda."
+              echo ""
+            fi
+
+            if [[ -n "$PROMPT" ]]; then
+              echo "=== TAREA ==="
+              echo "$PROMPT"
+              echo ""
+            fi
+
+            echo "$DELIM"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Resolve model
+        id: model
+        shell: bash
+        run: |
+          CLIENT_MODEL="${{ github.event.client_payload.model || '' }}"
+          MANUAL_MODEL="${{ github.event.inputs.model || 'deepseek/deepseek-v4-pro' }}"
+          MODEL="${CLIENT_MODEL:-${MANUAL_MODEL}}"
+          echo "model=$MODEL" >> "$GITHUB_OUTPUT"
+
+      - name: Install OCX
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL https://ocx.kdco.dev/install.sh | sh
+          mkdir -p ~/.config
+
+      - name: Export OpenCode config
+        shell: bash
+        run: |
+          CURRENT_DIR="$(pwd)"
+          CONFIG_FILE="$CURRENT_DIR/.opencode/opencode.jsonc"
+
+          if [ ! -f "$CONFIG_FILE" ]; then
+            echo "Config file not found: $CONFIG_FILE"
+            echo "Make sure .opencode/opencode.jsonc exists in your repository"
+            exit 1
+          fi
+
+          echo "OPENCODE_CONFIG=$CONFIG_FILE" >> "$GITHUB_ENV"
+          echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
+
+      - name: Run OpenCode
+        uses: sst/opencode/github@latest
+        env:
+          VERSION: "1.15.0"
+          AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
+          OPENCODE_CONFIG: ${{ env.OPENCODE_CONFIG }}
+          OPENCODE_CONFIG_DIR: ${{ env.OPENCODE_CONFIG_DIR }}
+        with:
+          model: ${{ steps.model.outputs.model }}
+          prompt: ${{ steps.prompt.outputs.prompt }}
+
+      - name: Report failure
+        if: failure()
+        uses: actions/github-script@v7
+        env:
+          ISSUE_NUMBER: ${{ github.event.client_payload.issue_number || '' }}
+          COMMAND: ${{ github.event.client_payload.command || '' }}
+          EVENT_NAME: ${{ github.event.client_payload.event_name || 'unknown' }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = Number(process.env.ISSUE_NUMBER);
+            const command = process.env.COMMAND;
+            const eventName = process.env.EVENT_NAME;
+
+            if (issueNumber) {
+              const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+              const body = [
+                `🤖 **opencode-pro** task failed`,
+                `- **Event:** ${eventName}`,
+                command ? `- **Command:** ${command}` : '',
+                `- **Details:** [View run](${runUrl})`,
+              ].filter(Boolean).join('\n');
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body,
+              });
+            }
