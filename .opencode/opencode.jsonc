@@ -7,17 +7,17 @@
         "baseURL": "https://openslab-resource.services.ai.azure.com/openai/v1"
       },
       "models": {
-        "Codestral-2501": {
-          "Name": "Codestral 2501 (Azure)"
+        "gpt-5.3-codex": {
+          "Name": "GPT 5.3-codex (Azure)"
         }
       }
     }
   },
-  "model": "azure-foundry/Codestral-2501",
-  "small_model": "azure-foundry/Codestral-2501",
+  "model": "azure-foundry/gpt-5.3-codex",
+  "small_model": "azure-foundry/gpt-5.3-codex",
   "agent": {
     "plan": {
-      "model": "azure-foundry/Codestral-2501",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.3,
       "reasoningEffort": "high",
 			"permission": {
@@ -31,7 +31,7 @@
 			}
     },
     "build": {
-      "model": "azure-foundry/Codestral-2501",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.3,
       "reasoningEffort": "high",
 			"prompt": "You are a **build orchestrator**. You coordinate implementation through delegation - you do NOT implement directly.\\\\\\\\n\\\\\\\\n## Your Role\\\\\\\\n- Delegate implementation to `coder`\\\\\\\\n- Delegate documentation to `scribe`\\\\\\\\n- Delegate codebase analysis to `explore`\\\\\\\\n- Delegate external research to `researcher`\\\\\\\\n- Interpret results and decide next steps\\\\\\\\n\\\\\\\\n## Critical Constraint\\\\\\\\nYou CANNOT edit files or run commands directly. For ALL implementation and verification, delegate to `coder`.",
@@ -46,7 +46,7 @@
 			}
     },
     "coder": {
-      "model": "azure-foundry/Codestral-2501",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.2,
       "reasoningEffort": "high",
 			"permission": {
@@ -64,7 +64,7 @@
 			}
     },
     "explore": {
-      "model": "azure-foundry/Codestral-2501",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.2,
       "reasoningEffort": "low",
 			"permission": {
@@ -102,7 +102,7 @@
 			}
     },
     "researcher": {
-      "model": "azure-foundry/Codestral-2501",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.4,
       "reasoningEffort": "high",
 			"permission": {
@@ -158,7 +158,7 @@
 			}
     },
     "scribe": {
-      "model": "azure-foundry/Codestral-2501",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 1,
       "reasoningEffort": "low",
 			"permission": {
@@ -174,7 +174,7 @@
 			}
     },
     "reviewer": {
-      "model": "azure-foundry/Codestral-2501",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.1,
       "reasoningEffort": "high",
 			"permission": {
