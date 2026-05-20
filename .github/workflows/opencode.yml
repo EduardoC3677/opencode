@@ -1,7 +1,7 @@
 name: opencode
 
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
       - synchronize
@@ -43,6 +43,8 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           COMMENT_BODY: ${{ github.event.comment.body || '' }}
           COMMENT_AUTHOR_ASSOCIATION: ${{ github.event.comment.author_association || '' }}
+          PR_IS_FORK: ${{ github.event.pull_request.head.repo.fork || false }}
+          PR_AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association || '' }}
 
           TRUSTED_AUTHOR_ASSOCIATIONS: OWNER,MEMBER,COLLABORATOR
           ALLOWED_AGENT_OVERRIDES: build,plan,reviewer
@@ -109,6 +111,11 @@ jobs:
 
           is_trusted_comment_author() {
             local association="${COMMENT_AUTHOR_ASSOCIATION^^}"
+            csv_contains "$TRUSTED_AUTHOR_ASSOCIATIONS" "$association"
+          }
+
+          is_trusted_pr_author() {
+            local association="${PR_AUTHOR_ASSOCIATION^^}"
             csv_contains "$TRUSTED_AUTHOR_ASSOCIATIONS" "$association"
           }
 
@@ -194,48 +201,55 @@ jobs:
           SELECTED_SHARE=""
           SESSION_METADATA=""
 
-          if [[ "$EVENT_NAME" == "pull_request" ]]; then
-            SHOULD_RUN="true"
-            RUN_KIND="auto_pr_review"
+          if [[ "$EVENT_NAME" == "pull_request_target" ]]; then
+            if [[ "$PR_IS_FORK" == "false" ]] || is_trusted_pr_author; then
+              SHOULD_RUN="true"
+              RUN_KIND="auto_pr_review"
+            fi
 
           elif [[ "$EVENT_NAME" == "issue_comment" || "$EVENT_NAME" == "pull_request_review_comment" ]]; then
 
             if echo "$COMMENT_BODY" | grep -qiE '(^|[[:space:]])/(oc|opencode)\b'; then
 
-              SELECTED_MODEL="$(extract_flag "model")"
-              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.3-codex}")"
-
-              if has_flag "agent"; then
-                RAW_AGENT="$(extract_flag "agent")"
-                require_non_empty_flag_value "agent" "$RAW_AGENT"
-                SELECTED_AGENT="$(validate_agent "$RAW_AGENT")"
-              fi
-
-              if has_flag "variant"; then
-                RAW_VARIANT="$(extract_flag "variant")"
-                require_non_empty_flag_value "variant" "$RAW_VARIANT"
-                SELECTED_VARIANT="$(validate_variant "$RAW_VARIANT")"
-              fi
-
-              if has_flag "share"; then
-                RAW_SHARE="$(extract_flag "share")"
-                require_non_empty_flag_value "share" "$RAW_SHARE"
-                SELECTED_SHARE="$(validate_share "$RAW_SHARE")"
-              fi
-
-              if has_flag "session"; then
-                RAW_SESSION="$(extract_flag "session")"
-                require_non_empty_flag_value "session" "$RAW_SESSION"
-                VALID_SESSION="$(validate_session "$RAW_SESSION")"
-                SESSION_METADATA="session=$VALID_SESSION"
-              fi
-
-              if [[ "$HAS_PR" == "true" ]]; then
-                SHOULD_RUN="true"
-                RUN_KIND="manual_pr_review"
+              if ! is_trusted_comment_author; then
+                echo "::notice::Ignoring /oc command from untrusted author association '${COMMENT_AUTHOR_ASSOCIATION:-NONE}'"
               else
-                SHOULD_RUN="true"
-                RUN_KIND="issue_task"
+
+                SELECTED_MODEL="$(extract_flag "model")"
+                FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.3-codex}")"
+
+                if has_flag "agent"; then
+                  RAW_AGENT="$(extract_flag "agent")"
+                  require_non_empty_flag_value "agent" "$RAW_AGENT"
+                  SELECTED_AGENT="$(validate_agent "$RAW_AGENT")"
+                fi
+
+                if has_flag "variant"; then
+                  RAW_VARIANT="$(extract_flag "variant")"
+                  require_non_empty_flag_value "variant" "$RAW_VARIANT"
+                  SELECTED_VARIANT="$(validate_variant "$RAW_VARIANT")"
+                fi
+
+                if has_flag "share"; then
+                  RAW_SHARE="$(extract_flag "share")"
+                  require_non_empty_flag_value "share" "$RAW_SHARE"
+                  SELECTED_SHARE="$(validate_share "$RAW_SHARE")"
+                fi
+
+                if has_flag "session"; then
+                  RAW_SESSION="$(extract_flag "session")"
+                  require_non_empty_flag_value "session" "$RAW_SESSION"
+                  VALID_SESSION="$(validate_session "$RAW_SESSION")"
+                  SESSION_METADATA="session=$VALID_SESSION"
+                fi
+
+                if [[ "$HAS_PR" == "true" ]]; then
+                  SHOULD_RUN="true"
+                  RUN_KIND="manual_pr_review"
+                else
+                  SHOULD_RUN="true"
+                  RUN_KIND="issue_task"
+                fi
               fi
             fi
           fi
@@ -261,19 +275,18 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: read
       pull-requests: write
       issues: write
-      id-token: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           persist-credentials: false
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: "22"
           
@@ -346,15 +359,6 @@ jobs:
 
           } >> "$GITHUB_OUTPUT"
 
-      - name: Install OCX
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          curl -fsSL https://ocx.kdco.dev/install.sh | sh
-
-          mkdir -p ~/.config
-        
       - name: Export vars
         run: |
           CURRENT_DIR="$(pwd)"
@@ -369,7 +373,7 @@ jobs:
           echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
     
       - name: Run OpenCode Review
-        uses: sst/opencode/github@latest
+        uses: sst/opencode/github@d7a6e1daaf2271bcd0b611fbb27d4956806e475a
         env:
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
           OPENCODE_CONFIG: ${{ env.OPENCODE_CONFIG }}
@@ -386,7 +390,7 @@ jobs:
       - name: Report failure
         if: failure()
 
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
 
         env:
           PR_NUMBER: ${{ needs.detect-trigger.outputs.pr_number }}
