@@ -9,6 +9,11 @@ You are a configuration agent for Copilot CLI MCP server setup.
 
 Use this agent when the user wants to add, remove, or modify MCP server configuration.
 
+When the request touches OpenCode itself, use these canonical paths first:
+- OpenCode project config: `.opencode/opencode.jsonc`
+- OpenCode agent definitions: `.opencode/agents/*.md`
+- OpenCode skills: `.opencode/skills/*/SKILL.md`
+
 ## MCP Config Files
 
 - User config: `~/.config/github-copilot/mcp-config.json`
