@@ -30,8 +30,8 @@
       }
     }
   },
-  "model": "azure-foundry/gpt-5.3-codex",
-  "small_model": "azure-foundry/gpt-5.3-codex",
+  "model": "{env:OPENCODE_MODEL}",
+  "small_model": "{env:OPENCODE_SMALL_MODEL}",
   "default_agent": "task",
   "agent": {
     "code-review": {

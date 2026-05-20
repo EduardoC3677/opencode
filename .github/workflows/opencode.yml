@@ -30,6 +30,7 @@ jobs:
       pr_number: ${{ steps.check.outputs.pr_number }}
       issue_number: ${{ steps.check.outputs.issue_number }}
       model: ${{ steps.check.outputs.model }}
+      models_json: ${{ steps.check.outputs.models_json }}
       provider: ${{ steps.check.outputs.provider }}
       agent: ${{ steps.check.outputs.agent }}
       variant: ${{ steps.check.outputs.variant }}
@@ -47,6 +48,7 @@ jobs:
           TRUSTED_AUTHOR_ASSOCIATIONS: OWNER,MEMBER,COLLABORATOR
           ALLOWED_AGENT_OVERRIDES: build,plan,reviewer
           ALLOWED_VARIANT_OVERRIDES: default
+          ALLOWED_MODEL_OVERRIDES: gpt-5.3-codex,gpt-5.4-pro,FW-DeepSeek-V4-Pro
 
           PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number || '' }}
           ISSUE_NUMBER: ${{ github.event.issue.number || '' }}
@@ -73,6 +75,65 @@ jobs:
             esac
           }
 
+          normalize_model_id() {
+            local input="${1:-}"
+            input="${input##azure-foundry/}"
+            echo "$input"
+          }
+
+          parse_models_json() {
+            local raw_input="${1:-}"
+            local normalized_input=""
+            local token=""
+            local normalized_id=""
+            local full_model=""
+            local json="["
+            local added=0
+
+            if [[ -z "${raw_input//[[:space:],]/}" ]]; then
+              raw_input="gpt-5.3-codex,gpt-5.4-pro"
+            fi
+
+            normalized_input="${raw_input//,/ }"
+
+            # shellcheck disable=SC2206
+            local tokens=( $normalized_input )
+
+            for token in "${tokens[@]}"; do
+              token="${token//[[:space:]]/}"
+              [[ -z "$token" ]] && continue
+
+              normalized_id="$(normalize_model_id "$token")"
+              if [[ -z "$normalized_id" ]]; then
+                fail_invalid_flag "model" "empty model entry in list"
+              fi
+
+              if ! csv_contains "$ALLOWED_MODEL_OVERRIDES" "$normalized_id"; then
+                fail_invalid_flag "model" "value '$token' is not allowlisted (allowed: ${ALLOWED_MODEL_OVERRIDES})"
+              fi
+
+              full_model="azure-foundry/$normalized_id"
+
+              if [[ "$json" == *"\"$full_model\""* ]]; then
+                continue
+              fi
+
+              if [[ $added -gt 0 ]]; then
+                json+="," 
+              fi
+
+              json+="\"$full_model\""
+              added=$((added + 1))
+            done
+
+            if [[ $added -eq 0 ]]; then
+              fail_invalid_flag "model" "missing value"
+            fi
+
+            json+="]"
+            echo "$json"
+          }
+
           extract_provider() {
             echo "${1%%/*}"
           }
@@ -80,6 +141,12 @@ jobs:
           extract_flag() {
             local key="$1"
             echo "$COMMENT_BODY" | grep -oiP "${key}=\K\S+" | head -1 || true
+          }
+
+          extract_model_list_flag() {
+            local body_single_line=""
+            body_single_line="$(printf '%s' "$COMMENT_BODY" | tr '\n' ' ')"
+            printf '%s' "$body_single_line" | grep -oiP '(?:^|[[:space:]])model=\K.*?(?=(?:[[:space:]]+(?:agent|variant|share|session)=)|$)' | head -1 || true
           }
 
           has_flag() {
@@ -189,6 +256,7 @@ jobs:
           RUN_KIND="none"
 
           FULL_MODEL="$(resolve_model "gpt-5.3-codex")"
+          MODELS_JSON='["azure-foundry/gpt-5.3-codex","azure-foundry/gpt-5.4-pro"]'
           SELECTED_AGENT=""
           SELECTED_VARIANT=""
           SELECTED_SHARE=""
@@ -202,8 +270,10 @@ jobs:
 
             if echo "$COMMENT_BODY" | grep -qiE '(^|[[:space:]])/(oc|opencode)\b'; then
 
-              SELECTED_MODEL="$(extract_flag "model")"
-              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.3-codex}")"
+              SELECTED_MODEL="$(extract_model_list_flag)"
+              MODELS_JSON="$(parse_models_json "$SELECTED_MODEL")"
+              FULL_MODEL="${MODELS_JSON#*[\"}"
+              FULL_MODEL="${FULL_MODEL%%\"*}"
 
               if has_flag "agent"; then
                 RAW_AGENT="$(extract_flag "agent")"
@@ -246,6 +316,7 @@ jobs:
             echo "pr_number=$PR_NUMBER"
             echo "issue_number=$ISSUE_NUMBER"
             echo "model=$FULL_MODEL"
+            echo "models_json=$MODELS_JSON"
             echo "provider=$(extract_provider "$FULL_MODEL")"
             echo "agent=$SELECTED_AGENT"
             echo "variant=$SELECTED_VARIANT"
@@ -259,6 +330,11 @@ jobs:
     if: needs.detect-trigger.outputs.should_run == 'true'
 
     runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        model: ${{ fromJSON(needs.detect-trigger.outputs.models_json) }}
 
     permissions:
       contents: write
@@ -367,6 +443,8 @@ jobs:
 
           echo "OPENCODE_CONFIG=$CONFIG_FILE" >> "$GITHUB_ENV"
           echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
+          echo "OPENCODE_MODEL=${{ matrix.model }}" >> "$GITHUB_ENV"
+          echo "OPENCODE_SMALL_MODEL=${{ matrix.model }}" >> "$GITHUB_ENV"
     
       - name: Run OpenCode Review
         uses: sst/opencode/github@latest
@@ -374,10 +452,12 @@ jobs:
           AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
           OPENCODE_CONFIG: ${{ env.OPENCODE_CONFIG }}
           OPENCODE_CONFIG_DIR: ${{ env.OPENCODE_CONFIG_DIR }}
+          OPENCODE_MODEL: ${{ env.OPENCODE_MODEL }}
+          OPENCODE_SMALL_MODEL: ${{ env.OPENCODE_SMALL_MODEL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AZURE_RESOURCE_NAME: "openslab-resource"
         with:
-          model: ${{ needs.detect-trigger.outputs.model }}
+          model: ${{ matrix.model }}
           agent: ${{ needs.detect-trigger.outputs.agent != '' && needs.detect-trigger.outputs.agent || null }}
           variant: ${{ needs.detect-trigger.outputs.variant != '' && needs.detect-trigger.outputs.variant || null }}
           share: ${{ needs.detect-trigger.outputs.share != '' && needs.detect-trigger.outputs.share || null }}
