@@ -37,7 +37,7 @@
     "code-review": {
       "model": "azure-foundry/gpt-5.4-pro",
       "temperature": 0.1,
-      "reasoningEffort": "low",
+      "reasoningEffort": "medium",
       "permission": {
         "read": "allow",
         "glob": "allow",
@@ -68,7 +68,7 @@
     "configure-opencode": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.2,
-      "reasoningEffort": "low",
+      "reasoningEffort": "medium",
       "permission": {
         "read": "allow",
         "glob": "allow",
@@ -90,7 +90,7 @@
     "explore": {
       "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.2,
-      "reasoningEffort": "low",
+      "reasoningEffort": "medium",
       "permission": {
         "edit": "deny",
         "write": "deny",
@@ -162,7 +162,7 @@
     "task": {
       "model": "azure-foundry/gpt-5.4-pro",
       "temperature": 0.1,
-      "reasoningEffort": "low",
+      "reasoningEffort": "medium",
       "permission": {
         "task": "allow",
         "read": "allow",
