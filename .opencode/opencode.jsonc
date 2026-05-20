@@ -27,12 +27,12 @@
       }
     }
   },
-  "model": "azure-foundry/gpt-5.4-pro",
+  "model": "azure-foundry/gpt-5.3-codex",
   "small_model": "azure-foundry/gpt-5.3-codex",
   "default_agent": "task",
   "agent": {
     "code-review": {
-      "model": "azure-foundry/gpt-5.3-codex",
+      "model": "azure-foundry/gpt-5.4-pro",
       "temperature": 0.1,
       "reasoningEffort": "low",
       "permission": {
@@ -63,7 +63,7 @@
       }
     },
     "configure-opencode": {
-      "model": "azure-foundry/gpt-5.4-pro",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.2,
       "reasoningEffort": "low",
       "permission": {
@@ -85,7 +85,7 @@
       }
     },
     "explore": {
-      "model": "azure-foundry/gpt-5.4-pro",
+      "model": "azure-foundry/gpt-5.3-codex",
       "temperature": 0.2,
       "reasoningEffort": "low",
       "permission": {
@@ -123,7 +123,7 @@
       }
     },
     "research": {
-      "model": "azure-foundry/gpt-5.3-codex",
+      "model": "azure-foundry/gpt-5.4-pro",
       "temperature": 0.4,
       "reasoningEffort": "medium",
       "permission": {
@@ -157,7 +157,7 @@
       }
     },
     "task": {
-      "model": "azure-foundry/gpt-5.3-codex",
+      "model": "azure-foundry/gpt-5.4-pro",
       "temperature": 0.1,
       "reasoningEffort": "low",
       "permission": {
