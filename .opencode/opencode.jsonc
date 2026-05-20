@@ -8,10 +8,10 @@
         "baseURL": "https://openslab-resource.openai.azure.com/openai/v1"
       },
       "models": {
-        "gpt-5.3-mini": {
-          "name": "GPT 5.3-mini (Azure)",
+        "gpt-5.4-pro": {
+          "name": "GPT 5.4-pro (Azure)",
           "options": {
-            "reasoningEffort": "low",
+            "reasoningEffort": "high",
             "textVerbosity": "low",
             "parallelToolCalls": true
           }
@@ -27,8 +27,8 @@
       }
     }
   },
-  "model": "azure-foundry/gpt-5.3-codex",
-  "small_model": "azure-foundry/gpt-5.3-mini",
+  "model": "azure-foundry/gpt-5.4-pro",
+  "small_model": "azure-foundry/gpt-5.3-codex",
   "default_agent": "task",
   "agent": {
     "code-review": {
@@ -63,7 +63,7 @@
       }
     },
     "configure-opencode": {
-      "model": "azure-foundry/gpt-5.3-mini",
+      "model": "azure-foundry/gpt-5.4-pro",
       "temperature": 0.2,
       "reasoningEffort": "low",
       "permission": {
@@ -85,7 +85,7 @@
       }
     },
     "explore": {
-      "model": "azure-foundry/gpt-5.3-mini",
+      "model": "azure-foundry/gpt-5.4-pro",
       "temperature": 0.2,
       "reasoningEffort": "low",
       "permission": {
