@@ -60,17 +60,17 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="${1:-gpt-5.3-codex}"
+            local input="${1:-gpt-5.4-pro}"
 
             case "$input" in
-              gpt-5.3-codex)
-                echo "azure-foundry/gpt-5.3-codex"
+              gpt-5.3-codex|gpt-5.4-pro|FW-DeepSeek-V4-Pro)
+                echo "azure-foundry/$input"
                 ;;
               azure-foundry/*)
                 echo "$input"
                 ;;
               *)
-                echo "azure-foundry/gpt-5.3-codex"
+                echo "azure-foundry/gpt-5.4-pro"
                 ;;
             esac
           }
@@ -91,7 +91,7 @@ jobs:
             local added=0
 
             if [[ -z "${raw_input//[[:space:],]/}" ]]; then
-              raw_input="gpt-5.3-codex,gpt-5.4-pro"
+              raw_input="gpt-5.4-pro,gpt-5.3-codex"
             fi
 
             normalized_input="${raw_input//,/ }"
@@ -255,8 +255,8 @@ jobs:
           SHOULD_RUN="false"
           RUN_KIND="none"
 
-          FULL_MODEL="$(resolve_model "gpt-5.3-codex")"
-          MODELS_JSON='["azure-foundry/gpt-5.3-codex","azure-foundry/gpt-5.4-pro"]'
+          FULL_MODEL="$(resolve_model "gpt-5.4-pro")"
+          MODELS_JSON='["azure-foundry/gpt-5.4-pro","azure-foundry/gpt-5.3-codex"]'
           SELECTED_AGENT=""
           SELECTED_VARIANT=""
           SELECTED_SHARE=""
@@ -444,7 +444,7 @@ jobs:
           echo "OPENCODE_CONFIG=$CONFIG_FILE" >> "$GITHUB_ENV"
           echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
           echo "OPENCODE_MODEL=${{ matrix.model }}" >> "$GITHUB_ENV"
-          echo "OPENCODE_SMALL_MODEL=${{ matrix.model }}" >> "$GITHUB_ENV"
+          echo "OPENCODE_SMALL_MODEL=azure-foundry/FW-DeepSeek-V4-Pro" >> "$GITHUB_ENV"
     
       - name: Run OpenCode Review
         uses: sst/opencode/github@latest
