@@ -47,7 +47,7 @@ jobs:
           TRUSTED_AUTHOR_ASSOCIATIONS: OWNER,MEMBER,COLLABORATOR
           ALLOWED_AGENT_OVERRIDES: build,plan,reviewer
           ALLOWED_VARIANT_OVERRIDES: default
-          ALLOWED_MODEL_OVERRIDES: gpt-5.3-codex,gpt-5.4-pro,FW-DeepSeek-V4-Pro
+          ALLOWED_MODEL_OVERRIDES: gpt-5.3-codex,gpt-5.4-pro
 
           PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number || '' }}
           ISSUE_NUMBER: ${{ github.event.issue.number || '' }}
