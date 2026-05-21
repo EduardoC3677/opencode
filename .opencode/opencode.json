@@ -27,8 +27,8 @@
           }
         },
         "FW-DeepSeek-V4-Pro": {
-          "name": "FW-DeepSeek-V4-Pro"
-          "attachment": true,
+          "name": "FW-DeepSeek-V4-Pro",
+          "attachment": true
         }
       }
     }
