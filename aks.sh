@@ -58,7 +58,9 @@ readonly MIN_NODE_VCPUS=2
 readonly MIN_NODE_MEMORY_GB=4
 readonly BASELINE_TOTAL_NODES=2
 readonly PREFERRED_TOTAL_NODES=3
-readonly TARGET_NODE_VCPUS=4
+readonly TARGET_SYSTEM_NODE_VCPUS=2
+readonly TARGET_USER_NODE_VCPUS=4
+readonly PREFERRED_USER_NODES=$(( PREFERRED_TOTAL_NODES - 1 ))
 
 readonly -a TAGS=(
   "managedBy=aks.sh"
@@ -68,12 +70,15 @@ readonly -a TAGS=(
 )
 
 SUBSCRIPTION_ID=""
-SELECTED_FAMILY=""
-SELECTED_VM_SIZE=""
-SELECTED_VM_VCPUS=0
-SELECTED_VM_MEMORY_GB=0
+SYSTEM_POOL_FAMILY=""
+SYSTEM_POOL_VM_SIZE=""
+SYSTEM_POOL_VM_VCPUS=0
+SYSTEM_POOL_VM_MEMORY_GB=0
+USER_POOL_FAMILY=""
+USER_POOL_VM_SIZE=""
+USER_POOL_VM_VCPUS=0
+USER_POOL_VM_MEMORY_GB=0
 REGIONAL_CORES_AVAILABLE=0
-FAMILY_CORES_AVAILABLE=0
 SYSTEM_NODE_COUNT=1
 USER_NODE_MIN_COUNT=1
 USER_NODE_MAX_COUNT=1
@@ -132,6 +137,17 @@ min_int() {
   else
     printf '%s\n' "$right"
   fi
+}
+
+score_vm_candidate() {
+  local vcpus="$1"
+  local memory_gb="$2"
+  local target_vcpus="$3"
+  local preferred_nodes="$4"
+  local distance=0
+
+  distance="$(abs_int $(( vcpus - target_vcpus )))"
+  printf '%s\n' "$(( 1000 - (distance * 100) + (memory_gb * 3) + (preferred_nodes * 25) ))"
 }
 
 azure_cli_logged_in() {
@@ -320,28 +336,48 @@ user_pool_exists() {
 
 collect_compute_plan() {
   declare -A family_available=()
-  declare -A family_best_score=()
-  declare -A family_best_sku=()
-  declare -A family_best_vcpus=()
-  declare -A family_best_memory=()
 
   local usage_lines=()
   local sku_lines=()
+  local candidate_lines=()
   local limit=0
   local current=0
+  local line=""
   local family=""
+  local vm_size=""
   local available=0
-  local score=0
   local vcpus=0
   local memory_raw=""
   local memory_gb=0
-  local family_quota=0
-  local max_nodes_by_quota=0
-  local preferred_nodes=0
-  local distance=0
-  local best_family=""
-  local best_family_quota=-1
-  local best_family_score=-1
+  local system_line=""
+  local user_line=""
+  local system_family=""
+  local system_vm_size=""
+  local system_vcpus=0
+  local system_memory_gb=0
+  local user_family=""
+  local user_vm_size=""
+  local user_vcpus=0
+  local user_memory_gb=0
+  local system_family_remaining=0
+  local user_family_remaining=0
+  local regional_remaining=0
+  local raw_user_max_nodes=0
+  local effective_user_max_nodes=0
+  local preferred_user_nodes=0
+  local system_score=0
+  local user_score=0
+  local pair_score=0
+  local best_pair_score=-1
+  local best_system_family=""
+  local best_system_vm_size=""
+  local best_system_vcpus=0
+  local best_system_memory_gb=0
+  local best_user_family=""
+  local best_user_vm_size=""
+  local best_user_vcpus=0
+  local best_user_memory_gb=0
+  local best_user_max_nodes=0
 
   log "Calculando cuota regional disponible en ${LOCATION}"
   limit="$(az vm list-usage --location "$LOCATION" --query "[?name.value=='cores'] | [0].limit" --output tsv --only-show-errors)"
@@ -384,73 +420,79 @@ collect_compute_plan() {
     [[ "$vcpus" =~ ^[0-9]+$ && "$memory_gb" =~ ^[0-9]+$ ]] || continue
     (( vcpus >= MIN_NODE_VCPUS )) || continue
     (( memory_gb >= MIN_NODE_MEMORY_GB )) || continue
+    (( family_available[$family] >= vcpus )) || continue
+    (( REGIONAL_CORES_AVAILABLE >= vcpus + MIN_NODE_VCPUS )) || continue
 
-    family_quota="${family_available[$family]}"
-    max_nodes_by_quota="$(min_int "$family_quota" "$REGIONAL_CORES_AVAILABLE")"
-    max_nodes_by_quota=$(( max_nodes_by_quota / vcpus ))
-    (( max_nodes_by_quota >= BASELINE_TOTAL_NODES )) || continue
-
-    preferred_nodes="$max_nodes_by_quota"
-    if (( preferred_nodes > PREFERRED_TOTAL_NODES )); then
-      preferred_nodes=$PREFERRED_TOTAL_NODES
-    fi
-
-    distance="$(abs_int $(( vcpus - TARGET_NODE_VCPUS )))"
-    score=$(( 1000 - (distance * 100) + (memory_gb * 3) + (preferred_nodes * 25) ))
-
-    if (( score > ${family_best_score[$family]:--100000} )); then
-      family_best_score["$family"]="$score"
-      family_best_sku["$family"]="$vm_size"
-      family_best_vcpus["$family"]="$vcpus"
-      family_best_memory["$family"]="$memory_gb"
-    fi
+    candidate_lines+=("${family}"$'\t'"${vm_size}"$'\t'"${vcpus}"$'\t'"${memory_gb}")
   done
 
-  for family in "${!family_best_sku[@]}"; do
-    family_quota="${family_available[$family]}"
-    score="${family_best_score[$family]}"
-    if (( family_quota > best_family_quota )); then
-      best_family="$family"
-      best_family_quota="$family_quota"
-      best_family_score="$score"
-      continue
-    fi
+  ((${#candidate_lines[@]} > 0)) || fail "No se encontro ningun SKU de VM elegible en ${LOCATION}."
 
-    if (( family_quota == best_family_quota && score > best_family_score )); then
-      best_family="$family"
-      best_family_quota="$family_quota"
-      best_family_score="$score"
-    fi
+  for system_line in "${candidate_lines[@]}"; do
+    IFS=$'\t' read -r system_family system_vm_size system_vcpus system_memory_gb <<<"$system_line"
+    system_family_remaining=$(( family_available[$system_family] - system_vcpus ))
+    regional_remaining=$(( REGIONAL_CORES_AVAILABLE - system_vcpus ))
+    (( system_family_remaining >= 0 )) || continue
+    (( regional_remaining >= MIN_NODE_VCPUS )) || continue
+
+    for user_line in "${candidate_lines[@]}"; do
+      IFS=$'\t' read -r user_family user_vm_size user_vcpus user_memory_gb <<<"$user_line"
+
+      if [[ "$system_family" == "$user_family" ]]; then
+        user_family_remaining="$system_family_remaining"
+      else
+        user_family_remaining="${family_available[$user_family]}"
+      fi
+
+      (( user_family_remaining >= user_vcpus )) || continue
+      raw_user_max_nodes="$(min_int "$(( user_family_remaining / user_vcpus ))" "$(( regional_remaining / user_vcpus ))")"
+      (( raw_user_max_nodes >= (BASELINE_TOTAL_NODES - 1) )) || continue
+
+      effective_user_max_nodes="$(min_int "$raw_user_max_nodes" "$USER_POOL_MAX_CAP")"
+      preferred_user_nodes="$(min_int "$effective_user_max_nodes" "$PREFERRED_USER_NODES")"
+      system_score="$(score_vm_candidate "$system_vcpus" "$system_memory_gb" "$TARGET_SYSTEM_NODE_VCPUS" "1")"
+      user_score="$(score_vm_candidate "$user_vcpus" "$user_memory_gb" "$TARGET_USER_NODE_VCPUS" "$preferred_user_nodes")"
+      pair_score=$(( (preferred_user_nodes * 1000000) + (effective_user_max_nodes * 10000) + (user_score * 10) + system_score - (system_vcpus * 100) ))
+
+      if (( pair_score > best_pair_score )); then
+        best_pair_score="$pair_score"
+        best_system_family="$system_family"
+        best_system_vm_size="$system_vm_size"
+        best_system_vcpus="$system_vcpus"
+        best_system_memory_gb="$system_memory_gb"
+        best_user_family="$user_family"
+        best_user_vm_size="$user_vm_size"
+        best_user_vcpus="$user_vcpus"
+        best_user_memory_gb="$user_memory_gb"
+        best_user_max_nodes="$effective_user_max_nodes"
+      fi
+    done
   done
 
-  [[ -n "$best_family" ]] || fail "No se encontro una familia/SKU valida que permita al menos 2 nodos en ${LOCATION}."
+  [[ -n "$best_system_vm_size" && -n "$best_user_vm_size" ]] || fail "No se encontro una combinacion valida de familias/SKUs que permita al menos ${BASELINE_TOTAL_NODES} nodos en ${LOCATION}."
 
-  SELECTED_FAMILY="$best_family"
-  FAMILY_CORES_AVAILABLE="${family_available[$best_family]}"
-  SELECTED_VM_SIZE="${family_best_sku[$best_family]}"
-  SELECTED_VM_VCPUS="${family_best_vcpus[$best_family]}"
-  SELECTED_VM_MEMORY_GB="${family_best_memory[$best_family]}"
-
-  max_nodes_by_quota="$(min_int "$FAMILY_CORES_AVAILABLE" "$REGIONAL_CORES_AVAILABLE")"
-  max_nodes_by_quota=$(( max_nodes_by_quota / SELECTED_VM_VCPUS ))
-  (( max_nodes_by_quota >= BASELINE_TOTAL_NODES )) || fail "La seleccion final de compute no soporta el minimo de nodos requerido."
+  SYSTEM_POOL_FAMILY="$best_system_family"
+  SYSTEM_POOL_VM_SIZE="$best_system_vm_size"
+  SYSTEM_POOL_VM_VCPUS="$best_system_vcpus"
+  SYSTEM_POOL_VM_MEMORY_GB="$best_system_memory_gb"
+  USER_POOL_FAMILY="$best_user_family"
+  USER_POOL_VM_SIZE="$best_user_vm_size"
+  USER_POOL_VM_VCPUS="$best_user_vcpus"
+  USER_POOL_VM_MEMORY_GB="$best_user_memory_gb"
 
   SYSTEM_NODE_COUNT=1
   USER_NODE_MIN_COUNT=1
-  if (( max_nodes_by_quota >= 3 )); then
-    USER_NODE_MIN_COUNT=2
+  if (( best_user_max_nodes >= PREFERRED_USER_NODES )); then
+    USER_NODE_MIN_COUNT=$PREFERRED_USER_NODES
   fi
 
-  USER_NODE_MAX_COUNT=$(( max_nodes_by_quota - SYSTEM_NODE_COUNT ))
+  USER_NODE_MAX_COUNT="$best_user_max_nodes"
   if (( USER_NODE_MAX_COUNT < USER_NODE_MIN_COUNT )); then
     USER_NODE_MAX_COUNT=$USER_NODE_MIN_COUNT
   fi
-  if (( USER_NODE_MAX_COUNT > USER_POOL_MAX_CAP )); then
-    USER_NODE_MAX_COUNT=$USER_POOL_MAX_CAP
-  fi
 
-  log "Familia seleccionada por mayor cuota util: ${SELECTED_FAMILY}"
-  log "SKU seleccionado: ${SELECTED_VM_SIZE} (${SELECTED_VM_VCPUS} vCPU / ${SELECTED_VM_MEMORY_GB} GiB)"
+  log "Pool system seleccionado: ${SYSTEM_POOL_VM_SIZE} (${SYSTEM_POOL_FAMILY}, ${SYSTEM_POOL_VM_VCPUS} vCPU / ${SYSTEM_POOL_VM_MEMORY_GB} GiB)"
+  log "Pool user seleccionado: ${USER_POOL_VM_SIZE} (${USER_POOL_FAMILY}, ${USER_POOL_VM_VCPUS} vCPU / ${USER_POOL_VM_MEMORY_GB} GiB)"
   log "Capacidad segura calculada: system=${SYSTEM_NODE_COUNT}, user-min=${USER_NODE_MIN_COUNT}, user-max=${USER_NODE_MAX_COUNT}"
 }
 
@@ -485,7 +527,7 @@ ensure_aks_cluster() {
     --location "$LOCATION" \
     --nodepool-name "$SYSTEM_POOL_NAME" \
     --node-count "$SYSTEM_NODE_COUNT" \
-    --node-vm-size "$SELECTED_VM_SIZE" \
+    --node-vm-size "$SYSTEM_POOL_VM_SIZE" \
     --network-plugin azure \
     --network-plugin-mode overlay \
     --load-balancer-sku standard \
@@ -502,7 +544,7 @@ ensure_user_nodepool() {
 
   if user_pool_exists; then
     existing_vm_size="$(az aks nodepool show --resource-group "$RESOURCE_GROUP" --cluster-name "$CLUSTER_NAME" --name "$USER_POOL_NAME" --query vmSize --output tsv --only-show-errors)"
-    if [[ "$existing_vm_size" != "$SELECTED_VM_SIZE" ]]; then
+    if [[ "$existing_vm_size" != "$USER_POOL_VM_SIZE" ]]; then
       warn "El nodepool ${USER_POOL_NAME} ya existe con vmSize ${existing_vm_size}; no se migrara automaticamente."
     fi
     log "Actualizando autoscaler del nodepool ${USER_POOL_NAME}"
@@ -524,7 +566,7 @@ ensure_user_nodepool() {
     --cluster-name "$CLUSTER_NAME" \
     --name "$USER_POOL_NAME" \
     --mode User \
-    --node-vm-size "$SELECTED_VM_SIZE" \
+    --node-vm-size "$USER_POOL_VM_SIZE" \
     --node-count "$USER_NODE_MIN_COUNT" \
     --enable-cluster-autoscaler \
     --min-count "$USER_NODE_MIN_COUNT" \
@@ -959,8 +1001,8 @@ print_summary() {
   printf ' AKS Cluster:                   %s\n' "$CLUSTER_NAME"
   printf ' Fleet Hub:                     %s\n' "$FLEET_NAME"
   printf ' Region:                        %s\n' "$LOCATION"
-  printf ' Familia seleccionada:          %s\n' "$SELECTED_FAMILY"
-  printf ' VM Size:                       %s\n' "$SELECTED_VM_SIZE"
+  printf ' Pool system:                   %s (%s)\n' "$SYSTEM_POOL_VM_SIZE" "$SYSTEM_POOL_FAMILY"
+  printf ' Pool user:                     %s (%s)\n' "$USER_POOL_VM_SIZE" "$USER_POOL_FAMILY"
   printf ' Capacidad nodos user:          min=%s max=%s\n' "$USER_NODE_MIN_COUNT" "$USER_NODE_MAX_COUNT"
   printf ' Namespace:                     %s\n' "$NAMESPACE"
   if [[ -n "$NPM_ENDPOINT" ]]; then
