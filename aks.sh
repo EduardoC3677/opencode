@@ -380,7 +380,6 @@ create_aks_cluster() {
     --enable-workload-identity \
     --generate-ssh-keys \
     --tier standard \
-    --yes \
     >/dev/null
 
   log "Agregando pool de usuario ${USER_POOL_NAME}..."
