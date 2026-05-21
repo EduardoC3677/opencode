@@ -363,7 +363,7 @@ jobs:
       - name: Export vars
         run: |
           CURRENT_DIR="$(pwd)"
-          CONFIG_FILE="$CURRENT_DIR/.opencode/opencode.jsonc"
+          CONFIG_FILE="$CURRENT_DIR/.opencode/opencode.json"
 
           if [ ! -f "$CONFIG_FILE" ]; then
              echo "Config file not found: $CONFIG_FILE"
