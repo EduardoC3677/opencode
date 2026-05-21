@@ -373,7 +373,7 @@ jobs:
            echo "OPENCODE_CONFIG=$CONFIG_FILE" >> "$GITHUB_ENV"
            echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
            echo "OPENCODE_MODEL=${{ needs.detect-trigger.outputs.model }}" >> "$GITHUB_ENV"
-           echo "OPENCODE_SMALL_MODEL=azure-foundry/FW-DeepSeek-V4-Pro" >> "$GITHUB_ENV"
+           echo "OPENCODE_SMALL_MODEL=azure-foundry/gpt-5.3-codex" >> "$GITHUB_ENV"
     
       - name: Run OpenCode Review
         uses: sst/opencode/github@latest
