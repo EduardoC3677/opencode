@@ -34,7 +34,7 @@
     "azure-foundry": {
       "npm": "@ai-sdk/openai",
       "options": {
-        "apiKey": "{env:AZURE_OPENAI_API_KEY}",
+        "apiKey": "{env:AZURE_OPENAI_API_KEY1}",
         "baseURL": "https://opens6505134568.openai.azure.com/openai/v1/"
       },
       "models": {
