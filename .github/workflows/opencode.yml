@@ -47,7 +47,6 @@ jobs:
           TRUSTED_AUTHOR_ASSOCIATIONS: OWNER,MEMBER,COLLABORATOR
           ALLOWED_AGENT_OVERRIDES: build,plan,reviewer
           ALLOWED_VARIANT_OVERRIDES: default
-          ALLOWED_MODEL_OVERRIDES: gpt-5.3-codex,gpt-5.4-pro
 
           PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number || '' }}
           ISSUE_NUMBER: ${{ github.event.issue.number || '' }}
@@ -59,19 +58,19 @@ jobs:
           set -euo pipefail
 
           resolve_model() {
-            local input="${1:-gpt-5.4-pro}"
-            local normalized=""
+            local input="${1:-gpt-5.4}"
 
-            normalized="${input##azure-foundry/}"
-            if [[ -z "$normalized" ]]; then
-              fail_invalid_flag "model" "missing value"
-            fi
-
-            if ! csv_contains "$ALLOWED_MODEL_OVERRIDES" "$normalized"; then
-              fail_invalid_flag "model" "value '$input' is not allowlisted (allowed: ${ALLOWED_MODEL_OVERRIDES})"
-            fi
-
-            echo "azure-foundry/$normalized"
+            case "$input" in
+              gpt-5.3-codex)
+                echo "azure-foundry/gpt-5.4"
+                ;;
+              azure-foundry/*)
+                echo "$input"
+                ;;
+              *)
+                echo "azure-foundry/gpt-5.4"
+                ;;
+            esac
           }
 
           extract_provider() {
@@ -189,7 +188,7 @@ jobs:
           SHOULD_RUN="false"
           RUN_KIND="none"
 
-          FULL_MODEL="$(resolve_model "gpt-5.4-pro")"
+          FULL_MODEL="$(resolve_model "gpt-5.4")"
           SELECTED_AGENT=""
           SELECTED_VARIANT=""
           SELECTED_SHARE=""
@@ -203,11 +202,8 @@ jobs:
 
             if echo "$COMMENT_BODY" | grep -qiE '(^|[[:space:]])/(oc|opencode)\b'; then
 
-              if has_flag "model"; then
-                RAW_MODEL="$(extract_flag "model")"
-                require_non_empty_flag_value "model" "$RAW_MODEL"
-                FULL_MODEL="$(resolve_model "$RAW_MODEL")"
-              fi
+              SELECTED_MODEL="$(extract_flag "model")"
+              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.4}")"
 
               if has_flag "agent"; then
                 RAW_AGENT="$(extract_flag "agent")"
@@ -266,10 +262,9 @@ jobs:
 
     permissions:
       contents: write
-      id-token: write
-      deployments: write
       pull-requests: write
       issues: write
+      id-token: write
 
     steps:
       - name: Checkout repository
@@ -277,10 +272,19 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
+      - name: Install OCX
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          curl -fsSL https://ocx.kdco.dev/install.sh | sh
+
+          mkdir -p ~/.config
+
+          sudo apt update 
+          sudo apt install ripgrep
+
+          bash ./.opencode/install.sh
           
       - name: Install repo dependencies (optional)
         run: sudo npm install -g --no-audit --no-fund 
@@ -289,7 +293,7 @@ jobs:
         shell: bash
         run: |
           {
-            echo "AZURE_OPENAI_API_KEY=${{ secrets.AZURE_API_KEY }}"
+            echo "AZURE_OPENAI_API_KEY1=${{ secrets.AZURE_OPENAI_API_KEY1 }}"
             echo "AZURE_API_KEY=${{ secrets.AZURE_API_KEY }}"
           } >> "$GITHUB_ENV"
 
@@ -351,14 +355,6 @@ jobs:
 
           } >> "$GITHUB_OUTPUT"
 
-      - name: Install OCX
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          curl -fsSL https://ocx.kdco.dev/install.sh | sh
-
-          mkdir -p ~/.config
         
       - name: Export vars
         run: |
@@ -370,24 +366,20 @@ jobs:
              exit 1
           fi
 
-           echo "OPENCODE_CONFIG=$CONFIG_FILE" >> "$GITHUB_ENV"
-           echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
-           echo "OPENCODE_MODEL=${{ needs.detect-trigger.outputs.model }}" >> "$GITHUB_ENV"
-           echo "OPENCODE_SMALL_MODEL=azure-foundry/gpt-5.3-codex" >> "$GITHUB_ENV"
+          echo "OPENCODE_CONFIG=$CONFIG_FILE" >> "$GITHUB_ENV"
+          echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
     
       - name: Run OpenCode Review
         uses: sst/opencode/github@latest
         env:
-          AZURE_OPENAI_API_KEY: ${{ env.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_API_KEY1: ${{ env.AZURE_OPENAI_API_KEY1 }}
           OPENCODE_CONFIG: ${{ env.OPENCODE_CONFIG }}
           OPENCODE_CONFIG_DIR: ${{ env.OPENCODE_CONFIG_DIR }}
-          OPENCODE_MODEL: ${{ env.OPENCODE_MODEL }}
-          OPENCODE_SMALL_MODEL: ${{ env.OPENCODE_SMALL_MODEL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AZURE_RESOURCE_NAME: "openslab-resource"
+          AZURE_RESOURCE_NAME: "opens6505134568"
         with:
           model: ${{ needs.detect-trigger.outputs.model }}
-          agent: ${{ needs.detect-trigger.outputs.agent != '' && needs.detect-trigger.outputs.agent || null }}
+          agent: task
           variant: ${{ needs.detect-trigger.outputs.variant != '' && needs.detect-trigger.outputs.variant || null }}
           share: ${{ needs.detect-trigger.outputs.share != '' && needs.detect-trigger.outputs.share || null }}
           prompt: ${{ steps.compose.outputs.prompt }}
