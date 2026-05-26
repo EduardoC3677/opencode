@@ -1,11 +1,41 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "theme": "opencode",
+  "model": "azure-foundry/gpt-5.4",
+  "autoupdate": true,
+  "lsp": {
+    "typescript": {
+      "command": ["typescript-language-server", "--stdio"],
+      "extensions": ["ts", "tsx", "js", "jsx", "mjs", "cjs"]
+    },
+    "python": {
+      "command": ["pyright-langserver", "--stdio"],
+      "extensions": ["py", "pyi"]
+    },
+    "bash": {
+      "command": ["bash-language-server", "start"],
+      "extensions": ["sh", "bash", "zsh"]
+    }
+  },
+  "experimental": {
+    "primary_tools": ["lsp"]
+  },
+  "formatter": {
+    "ruff": {
+      "command": ["ruff", "format", "$FILE"],
+      "extensions": ["py", "pyi"]
+    },
+    "prettier": {
+      "command": ["prettier", "--write", "$FILE"],
+      "extensions": ["js", "jsx", "ts", "tsx", "json", "md", "html", "css", "yaml"]
+    }
+  },
   "provider": {
     "azure-foundry": {
       "npm": "@ai-sdk/openai",
       "options": {
         "apiKey": "{env:AZURE_OPENAI_API_KEY}",
-        "baseURL": "https://openslab-resource.openai.azure.com/openai/v1"
+        "baseURL": "https://opens6505134568.openai.azure.com/openai/v1/"
       },
       "models": {
         "gpt-5.4-pro": {
@@ -17,11 +47,11 @@
             "parallelToolCalls": true
           }
         },
-        "gpt-5.3-codex": {
-          "name": "GPT 5.3-codex (Azure)",
+        "gpt-5.4": {
+          "name": "GPT 5.4 (Azure)",
           "attachment": true,
           "options": {
-            "reasoningEffort": "medium",
+            "reasoningEffort": "high",
             "textVerbosity": "low",
             "parallelToolCalls": true
           }
@@ -33,12 +63,28 @@
       }
     }
   },
-  "model": "{env:OPENCODE_MODEL}",
-  "small_model": "{env:OPENCODE_SMALL_MODEL}",
-  "default_agent": "task",
+  "permission": {
+    "bash": "allow",
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "edit": "allow",
+    "write": "allow",
+    "bash": "allow",
+    "patch": "allow",
+    "lsp": "allow",
+    "question": "deny",
+    "task": "deny",
+    "context7_*": "deny",
+    "exa_*": "deny",
+    "gh_grep_*": "deny",
+    "kagi_*": "deny",
+    "webfetch": "deny",
+    "worktree_*": "deny"
+  },
   "agent": {
     "code-review": {
-      "model": "azure-foundry/gpt-5.4-pro",
+      "model": "azure-foundry/gpt-5.4",
       "temperature": 0.3,
       "attachment": true,
       "reasoningEffort": "medium",
@@ -46,10 +92,9 @@
         "read": "allow",
         "glob": "allow",
         "grep": "allow",
-        "edit": "deny",
-        "write": "deny",
+        "edit": "allow",
+        "write": "allow",
         "bash": {
-          "*": "deny",
           "git --no-pager status*": "allow",
           "git --no-pager diff*": "allow",
           "git --no-pager log*": "allow",
@@ -65,12 +110,22 @@
           "cat *": "allow",
           "head *": "allow",
           "tail *": "allow",
-          "wc *": "allow"
+          "wc *": "allow",
+          "npm *": "allow",
+          "aws *": "allow",
+          "npx *": "allow",
+          "node *": "allow",
+          "python3 *": "allow",
+          "pip3 *": "allow",
+          "python *": "allow",
+          "pip *": "allow",
+          "docker *": "allow",
+          "*": "allow"
         }
       }
     },
     "configure-opencode": {
-      "model": "azure-foundry/gpt-5.3-codex",
+      "model": "azure-foundry/gpt-5.4",
       "temperature": 0.3,
       "attachment": true,
       "reasoningEffort": "medium",
@@ -81,29 +136,41 @@
         "edit": "allow",
         "write": "allow",
         "bash": {
-          "*": "deny",
           "opencode mcp list*": "allow",
           "opencode mcp show*": "allow",
           "opencode mcp validate*": "allow",
           "opencode mcp reload*": "allow",
           "opencode mcp status*": "allow",
           "jq *": "allow",
-          "python -m json.tool *": "allow"
+          "python -m json.tool *": "allow",
+          "npm *": "allow",
+          "aws *": "allow",
+          "npx *": "allow",
+          "node *": "allow",
+          "python3 *": "allow",
+          "pip3 *": "allow",
+          "python *": "allow",
+          "pip *": "allow",
+          "docker *": "allow",
+          "*": "allow"
         }
       }
     },
     "explore": {
-      "model": "azure-foundry/gpt-5.3-codex",
+      "model": "azure-foundry/gpt-5.4",
       "temperature": 0.3,
       "attachment": true,
       "reasoningEffort": "medium",
       "permission": {
-        "edit": "deny",
-        "write": "deny",
+        "edit": "allow",
+        "write": "allow",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
         "plan_read": "deny",
         "todoread": "deny",
         "bash": {
-          "*": "deny",
+          "*": "allow",
           "ls *": "allow",
           "tree *": "allow",
           "pwd": "allow",
@@ -127,12 +194,22 @@
           "hostname": "allow",
           "whoami": "allow",
           "which *": "allow",
-          "realpath *": "allow"
+          "realpath *": "allow",
+          "npm *": "allow",
+          "aws *": "allow",
+          "npx *": "allow",
+          "node *": "allow",
+          "python3 *": "allow",
+          "pip3 *": "allow",
+          "python *": "allow",
+          "pip *": "allow",
+          "docker *": "allow",
+          "*": "allow"
         }
       }
     },
     "research": {
-      "model": "azure-foundry/gpt-5.4-pro",
+      "model": "azure-foundry/gpt-5.4",
       "temperature": 0.3,
       "reasoningEffort": "medium",
       "attachment": true,
@@ -144,10 +221,9 @@
         "read": "allow",
         "glob": "allow",
         "grep": "allow",
-        "edit": "deny",
-        "write": "deny",
+        "edit": "allow",
+        "write": "allow",
         "bash": {
-          "*": "deny",
           "gh repo view*": "allow",
           "gh pr view*": "allow",
           "gh pr list*": "allow",
@@ -162,12 +238,22 @@
           "gh api --method GET *": "allow",
           "npm view*": "allow",
           "npm info*": "allow",
-          "npm show*": "allow"
+          "npm show*": "allow",
+          "npm *": "allow",
+          "aws *": "allow",
+          "npx *": "allow",
+          "node *": "allow",
+          "python3 *": "allow",
+          "pip3 *": "allow",
+          "python *": "allow",
+          "pip *": "allow",
+          "docker *": "allow",
+          "*": "allow"
         }
       }
     },
     "task": {
-      "model": "azure-foundry/gpt-5.4-pro",
+      "model": "azure-foundry/gpt-5.4",
       "temperature": 0.3,
       "reasoningEffort": "medium",
       "attachment": true,
@@ -179,7 +265,6 @@
         "edit": "deny",
         "write": "deny",
         "bash": {
-          "*": "deny",
           "pwd": "allow",
           "ls": "allow",
           "ls *": "allow",
@@ -231,7 +316,17 @@
           "ruff *": "allow",
           "eslint *": "allow",
           "prettier *": "allow",
-          "tsc *": "allow"
+          "tsc *": "allow",
+          "npm *": "allow",
+          "aws *": "allow",
+          "npx *": "allow",
+          "node *": "allow",
+          "python3 *": "allow",
+          "pip3 *": "allow",
+          "python *": "allow",
+          "pip *": "allow",
+          "docker *": "allow",
+          "*": "allow"
         }
       }
     }
@@ -261,27 +356,8 @@
       }
     }
   },
-  "permission": {
-    "task": "deny",
-    "context7_*": "deny",
-    "exa_*": "deny",
-    "gh_grep_*": "deny",
-    "kagi_*": "deny",
-    "webfetch": "deny",
-    "worktree_*": "deny"
-  },
-  "instructions": [
-    "./tools/philosophy.md"
-  ],
-  "autoupdate": true,
   "plugin": [
-    "opencode-agent-skills",
-    "opencode-synced",
-    "opencode-sessions",
-    "@gotgenes/opencode-agent-identity",
     "@tarquinen/opencode-dcp@3.1.3",
-    "@franlol/opencode-md-table-formatter@0.0.6",
-    "./plugins/background-agents.ts",
-    "./plugins/workspace-plugin.ts"
+    "@franlol/opencode-md-table-formatter@0.0.6"
   ]
 }
