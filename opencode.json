@@ -71,7 +71,7 @@
     },
     "webfetch": "allow",
     "websearch": "allow",
-    "task": "allow",
+    "task": "deny",
     "todowrite": "allow",
     "repo_overview": "allow",
     "repo_clone": "allow",
@@ -162,15 +162,72 @@
   "agent": {
     "build": {
       "mode": "primary",
-      "model": "azure-foundry/gpt-5.4"
+      "model": "azure-foundry/gpt-5.4",
+      "permission": {
+        "question": "deny",
+        "task": "deny",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "list": "allow",
+        "edit": "allow",
+        "external_directory": "allow",
+        "webfetch": "allow",
+        "websearch": "allow",
+        "context7_*": "allow",
+        "github_*": "allow",
+        "playwright_*": "allow",
+        "bash": {
+          "*": "allow",
+          "rm -rf *": "deny"
+        }
+      }
     },
     "implementer": {
       "mode": "primary",
-      "model": "azure-foundry/gpt-5.4"
+      "model": "azure-foundry/gpt-5.4",
+      "permission": {
+        "question": "deny",
+        "task": "deny",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "list": "allow",
+        "edit": "allow",
+        "external_directory": "allow",
+        "webfetch": "allow",
+        "websearch": "allow",
+        "context7_*": "allow",
+        "github_*": "allow",
+        "playwright_*": "allow",
+        "bash": {
+          "*": "allow",
+          "rm -rf *": "deny"
+        }
+      }
     },
     "reviewer": {
       "mode": "primary",
-      "model": "azure-foundry/gpt-5.4"
+      "model": "azure-foundry/gpt-5.4",
+      "permission": {
+        "question": "deny",
+        "task": "deny",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "list": "allow",
+        "edit": "deny",
+        "external_directory": "allow",
+        "webfetch": "allow",
+        "websearch": "allow",
+        "context7_*": "allow",
+        "github_*": "allow",
+        "playwright_*": "allow",
+        "bash": {
+          "*": "allow",
+          "rm -rf *": "deny"
+        }
+      }
     },
     "plan": {
       "mode": "primary",
@@ -183,22 +240,71 @@
     },
     "general": {
       "mode": "subagent",
-      "model": "azure-foundry/gpt-5.4"
+      "model": "azure-foundry/gpt-5.4",
+      "permission": {
+        "question": "deny",
+        "task": "deny",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "list": "allow",
+        "edit": "allow",
+        "external_directory": "allow",
+        "webfetch": "allow",
+        "websearch": "allow",
+        "context7_*": "allow",
+        "github_*": "allow",
+        "playwright_*": "allow",
+        "bash": {
+          "*": "allow",
+          "rm -rf *": "deny"
+        }
+      }
     },
     "explore": {
       "mode": "subagent",
       "model": "azure-foundry/gpt-5.4",
       "permission": {
+        "question": "deny",
+        "task": "deny",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "list": "allow",
         "edit": "deny",
-        "bash": "deny"
+        "external_directory": "allow",
+        "webfetch": "allow",
+        "websearch": "allow",
+        "context7_*": "allow",
+        "github_*": "allow",
+        "playwright_*": "allow",
+        "bash": {
+          "*": "allow",
+          "rm -rf *": "deny"
+        }
       }
     },
     "scout": {
       "mode": "subagent",
       "model": "azure-foundry/gpt-5.4",
       "permission": {
+        "question": "deny",
+        "task": "deny",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "list": "allow",
         "edit": "deny",
-        "bash": "deny"
+        "external_directory": "allow",
+        "webfetch": "allow",
+        "websearch": "allow",
+        "context7_*": "allow",
+        "github_*": "allow",
+        "playwright_*": "allow",
+        "bash": {
+          "*": "allow",
+          "rm -rf *": "deny"
+        }
       }
     }
   }

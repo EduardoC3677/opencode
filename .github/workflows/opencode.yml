@@ -189,7 +189,7 @@ jobs:
           sudo apt-get install -y ripgrep tmux openjdk-21-jdk-headless
           npx -y playwright@latest install --with-deps chromium
           npm install -g bash-language-server pyright typescript typescript-language-server opentmux opencode-swarm-plugin @playwright/mcp
-          curl -fsSL https://opencode.ai/install | bash -s -- --no-modify-path
+          curl -fsSL https://opencode.ai/install | bash -s -- --version 1.15.11 --no-modify-path
           echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
 
       - name: Install project-local OpenCode plugin dependencies
@@ -496,7 +496,7 @@ jobs:
           AZURE_OPENAI_API_KEY1: ${{ secrets.AZURE_OPENAI_API_KEY1 }}
           OPENCODE_CONFIG: ${{ github.workspace }}/opencode.json
           OPENCODE_PERMISSION: >-
-            {"*":"allow","question":"deny","read":"allow","glob":"allow","grep":"allow","list":"allow","lsp":"allow","skill":{"*":"allow"},"webfetch":"allow","websearch":"allow","task":"allow","todowrite":"allow","repo_overview":"allow","repo_clone":"allow","external_directory":"allow","edit":"allow","github_*":"allow","context7_*":"allow","playwright_*":"allow","bash":{"*":"allow","rm -rf *":"deny"}}
+            {"*":"allow","question":"deny","read":"allow","glob":"allow","grep":"allow","list":"allow","lsp":"allow","skill":{"*":"allow"},"webfetch":"allow","websearch":"allow","task":"deny","todowrite":"allow","repo_overview":"allow","repo_clone":"allow","external_directory":"allow","edit":"allow","github_*":"allow","context7_*":"allow","playwright_*":"allow","bash":{"*":"allow","rm -rf *":"deny"}}
           OPENCODE_PROMPT: ${{ steps.prompt.outputs.prompt }}
         run: |
           set -euo pipefail

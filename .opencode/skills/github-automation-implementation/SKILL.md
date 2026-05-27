@@ -1,58 +1,51 @@
 ---
 name: github-automation-implementation
-description: Deterministic OpenCode GitHub automation for issue implementation, PR branch commits, PR creation, and incremental PR review
-compatibility: opencode
+description: Deterministic repository automation for issue implementation, branch commits, pull-request creation, and incremental review
 ---
-Use this skill when editing the repository's OpenCode GitHub automation for issues, pull requests, and `/oc` comments.
+Use this skill when editing the repository's GitHub automation for issues, pull requests, and implementation comments.
 
 ## Goals
-- Run GitHub Actions automation by installing Node.js, Bun, ripgrep, and the OpenCode CLI, then invoking `opencode run` directly instead of the hosted GitHub Action wrapper.
-- Route issue implementation to a dedicated `implementer` agent instead of the built-in `build` agent.
-- Ensure opened issues and `/oc` issue comments create or reuse a dedicated non-default branch.
+- Run repository automation by installing the required toolchain and invoking the repository CLI directly.
+- Route issue implementation to a dedicated implementation agent instead of the default general-purpose agent.
+- Ensure opened issues and implementation comments create or reuse a dedicated non-default branch.
 - Require implementation runs to commit the resulting changes and open or update a pull request back to the default branch when code changes are required.
-- Require automation-created PRs to include a concrete description with summary, validation, and linked issue context.
-- Ensure `/oc` comments on PRs commit on the PR head branch when write access exists.
-- Ensure PR synchronize review focuses first on the newly pushed commits or incremental diff.
-- If the PR comes from a fork without write access, require a clear limitation message plus a concrete patch or next step.
+- Require automation-created pull requests to include a concrete description with summary, validation, linked issue context, and included commits.
+- Ensure implementation comments on pull requests commit on the pull-request head branch when write access exists.
+- Ensure incremental review focuses first on newly pushed commits or the narrowest relevant diff.
+- If the branch is not writable, require a clear limitation message plus a concrete patch or next step.
 
 ## Recommended branch rule
 - Use a deterministic issue branch name such as `automation/issue-<number>-<slug>`.
-- Reuse that same branch for the original issue-open run and later `/oc` issue comments so automation does not fan out into multiple competing branches.
+- Reuse that same branch for the original issue run and later implementation comments so automation does not fan out into multiple competing branches.
 
 ## Prompt requirements
-For issue implementation prompts:
+For implementation prompts:
 1. State that the run is non-interactive.
-2. State that the issue title/body and trigger comment are the source of truth.
-3. Require branch creation or reuse, validation, commit, push, and PR creation/update.
-4. Require the PR to target the repository default branch, never the default branch itself as the working branch.
-5. Require a concrete PR body with summary, validation, and linked issue context.
+2. State that the issue title, issue body, and trigger comment are the source of truth.
+3. Require branch creation or reuse, validation, commit, push, and pull-request creation or update.
+4. Require a concrete pull-request body with summary, validation, linked issue context, and included commits.
+5. Require the agent to understand the relevant code path before editing and to install dependencies when needed.
 
-For PR `/oc` prompts:
-1. State that the run is non-interactive.
-2. Require work on the checked-out PR head branch.
-3. Require committing the resulting changes on that branch when write access exists.
-4. If write access does not exist, require an explicit limitation notice plus a patch or next step.
-5. Note that the subsequent PR synchronize review should evaluate the newly pushed commits.
-
-For PR review prompts:
+For review prompts:
 1. Review high-signal issues only.
-2. If a previous PR head SHA is available, inspect the incremental range first.
-3. Expand to the full PR diff only when necessary.
+2. Inspect the incremental range first when a previous head SHA is available.
+3. Expand to the full pull-request diff only when necessary.
 4. Keep comments concrete and evidence-based.
 
 ## Files to update together
-- `AGENTS.md`
-- `opencode.json`
-- `.opencode/instructions/*.md`
-- `.opencode/agents/*.md`
-- `.opencode/commands/*.md`
-- `.github/workflows/opencode.yml`
+- root rules file
+- root configuration file
+- checked-in instruction documents
+- checked-in agents
+- checked-in commands
+- the checked-in automation definition under `.github/`
 
-## Workflow runtime requirements
-When editing `.github/workflows/opencode.yml` for this repository:
-1. Set up Node.js before running OpenCode.
-2. Set up Bun before running OpenCode.
+## Runtime requirements
+When editing repository automation for this repository:
+1. Set up Node.js before running the repository CLI.
+2. Set up Bun before running the repository CLI.
 3. Install `ripgrep` in the runner image.
-4. Install the OpenCode CLI in the runner and put its bin directory on `PATH`.
-5. Invoke `opencode run --model ... --agent ...` directly with the generated prompt.
-6. Keep `OPENCODE_CONFIG` pointed at the repository-root `opencode.json`.
+4. Install browser prerequisites and MCP-related dependencies required by the configured agents.
+5. Install the repository CLI at the pinned version and put its bin directory on `PATH`.
+6. Run `swarm setup` and `swarm doctor` before the main automation step.
+7. Keep the root configuration file selected explicitly when reproducibility matters.
