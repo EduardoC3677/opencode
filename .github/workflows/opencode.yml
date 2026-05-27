@@ -2,415 +2,465 @@ name: opencode
 
 on:
   pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
-      - ready_for_review
-
+    types: [opened, synchronize, reopened, ready_for_review]
+  issues:
+    types: [opened]
   issue_comment:
-    types:
-      - created
-
+    types: [created]
   pull_request_review_comment:
-    types:
-      - created
+    types: [created]
 
 concurrency:
-  group: opencode-review-${{ github.event.pull_request.number || github.event.issue.number || github.run_id }}
+  group: opencode-${{ github.event.pull_request.number || github.event.issue.number || github.run_id }}
   cancel-in-progress: true
 
 jobs:
-  detect-trigger:
-    runs-on: ubuntu-latest
-
-    outputs:
-      should_run: ${{ steps.check.outputs.should_run }}
-      run_kind: ${{ steps.check.outputs.run_kind }}
-      pr_number: ${{ steps.check.outputs.pr_number }}
-      issue_number: ${{ steps.check.outputs.issue_number }}
-      model: ${{ steps.check.outputs.model }}
-      provider: ${{ steps.check.outputs.provider }}
-      agent: ${{ steps.check.outputs.agent }}
-      variant: ${{ steps.check.outputs.variant }}
-      share: ${{ steps.check.outputs.share }}
-      session_metadata: ${{ steps.check.outputs.session_metadata }}
-
-    steps:
-      - id: check
-        shell: bash
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-          COMMENT_BODY: ${{ github.event.comment.body || '' }}
-          COMMENT_AUTHOR_ASSOCIATION: ${{ github.event.comment.author_association || '' }}
-
-          TRUSTED_AUTHOR_ASSOCIATIONS: OWNER,MEMBER,COLLABORATOR
-          ALLOWED_AGENT_OVERRIDES: build,plan,reviewer
-          ALLOWED_VARIANT_OVERRIDES: default
-
-          PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number || '' }}
-          ISSUE_NUMBER: ${{ github.event.issue.number || '' }}
-
-          HAS_PR:
-            ${{ github.event.pull_request.number != null || github.event.issue.pull_request != null }}
-
-        run: |
-          set -euo pipefail
-
-          resolve_model() {
-            local input="${1:-gpt-5.4}"
-
-            case "$input" in
-              gpt-5.3-codex)
-                echo "azure-foundry/gpt-5.4"
-                ;;
-              azure-foundry/*)
-                echo "$input"
-                ;;
-              *)
-                echo "azure-foundry/gpt-5.4"
-                ;;
-            esac
-          }
-
-          extract_provider() {
-            echo "${1%%/*}"
-          }
-
-          extract_flag() {
-            local key="$1"
-            echo "$COMMENT_BODY" | grep -oiP "${key}=\K\S+" | head -1 || true
-          }
-
-          has_flag() {
-            local key="$1"
-            echo "$COMMENT_BODY" | grep -qiE "(^|[[:space:]])${key}="
-          }
-
-          csv_contains() {
-            local csv_list="$1"
-            local probe="$2"
-            local normalized_probe="${probe//[[:space:]]/}"
-            local candidate=""
-
-            normalized_probe="${normalized_probe,,}"
-
-            IFS=',' read -r -a _items <<< "$csv_list"
-            for candidate in "${_items[@]}"; do
-              candidate="${candidate//[[:space:]]/}"
-              candidate="${candidate,,}"
-              if [[ "$candidate" == "$normalized_probe" ]]; then
-                return 0
-              fi
-            done
-
-            return 1
-          }
-
-          is_trusted_comment_author() {
-            local association="${COMMENT_AUTHOR_ASSOCIATION^^}"
-            csv_contains "$TRUSTED_AUTHOR_ASSOCIATIONS" "$association"
-          }
-
-          fail_invalid_flag() {
-            local key="$1"
-            local reason="$2"
-            echo "::error::Invalid /oc flag '${key}=': ${reason}"
-            exit 1
-          }
-
-          require_non_empty_flag_value() {
-            local key="$1"
-            local value="$2"
-
-            if [[ -z "$value" ]]; then
-              fail_invalid_flag "$key" "missing value"
-            fi
-          }
-
-          validate_agent() {
-            local input="${1:-}"
-            local normalized="${input,,}"
-
-            if [[ ! "$normalized" =~ ^[a-z0-9][a-z0-9_-]{0,63}$ ]]; then
-              fail_invalid_flag "agent" "value '$input' has invalid format"
-            fi
-
-            if ! is_trusted_comment_author; then
-              fail_invalid_flag "agent" "override requires trusted author association (${TRUSTED_AUTHOR_ASSOCIATIONS}), got '${COMMENT_AUTHOR_ASSOCIATION:-NONE}'"
-            fi
-
-            if ! csv_contains "$ALLOWED_AGENT_OVERRIDES" "$normalized"; then
-              fail_invalid_flag "agent" "value '$input' is not allowlisted for this repo (allowed: ${ALLOWED_AGENT_OVERRIDES})"
-            fi
-
-            echo "$normalized"
-          }
-
-          validate_variant() {
-            local input="${1:-}"
-            local normalized="${input,,}"
-
-            # Repo policy: variant overrides are explicit-allowlist only.
-            # Keep ALLOWED_VARIANT_OVERRIDES in sync with supported variants.
-            if ! csv_contains "$ALLOWED_VARIANT_OVERRIDES" "$normalized"; then
-              fail_invalid_flag "variant" "value '$input' is not allowlisted (allowed: ${ALLOWED_VARIANT_OVERRIDES})"
-            fi
-
-            echo "$normalized"
-          }
-
-          validate_share() {
-            local input="${1:-}"
-            local normalized="${input,,}"
-
-            case "$normalized" in
-              auto|manual|disabled)
-                echo "$normalized"
-                ;;
-              *)
-                fail_invalid_flag "share" "value '$input' must be one of: auto, manual, disabled"
-                ;;
-            esac
-          }
-
-          validate_session() {
-            local input="${1:-}"
-            local normalized="$input"
-
-            if [[ ! "$normalized" =~ ^[A-Za-z0-9][A-Za-z0-9._:-]{0,63}$ ]]; then
-              fail_invalid_flag "session" "value '$input' has invalid format"
-            fi
-
-            echo "$normalized"
-          }
-
-          SHOULD_RUN="false"
-          RUN_KIND="none"
-
-          FULL_MODEL="$(resolve_model "gpt-5.4")"
-          SELECTED_AGENT=""
-          SELECTED_VARIANT=""
-          SELECTED_SHARE=""
-          SESSION_METADATA=""
-
-          if [[ "$EVENT_NAME" == "pull_request" ]]; then
-            SHOULD_RUN="true"
-            RUN_KIND="auto_pr_review"
-
-          elif [[ "$EVENT_NAME" == "issue_comment" || "$EVENT_NAME" == "pull_request_review_comment" ]]; then
-
-            if echo "$COMMENT_BODY" | grep -qiE '(^|[[:space:]])/(oc|opencode)\b'; then
-
-              SELECTED_MODEL="$(extract_flag "model")"
-              FULL_MODEL="$(resolve_model "${SELECTED_MODEL:-gpt-5.4}")"
-
-              if has_flag "agent"; then
-                RAW_AGENT="$(extract_flag "agent")"
-                require_non_empty_flag_value "agent" "$RAW_AGENT"
-                SELECTED_AGENT="$(validate_agent "$RAW_AGENT")"
-              fi
-
-              if has_flag "variant"; then
-                RAW_VARIANT="$(extract_flag "variant")"
-                require_non_empty_flag_value "variant" "$RAW_VARIANT"
-                SELECTED_VARIANT="$(validate_variant "$RAW_VARIANT")"
-              fi
-
-              if has_flag "share"; then
-                RAW_SHARE="$(extract_flag "share")"
-                require_non_empty_flag_value "share" "$RAW_SHARE"
-                SELECTED_SHARE="$(validate_share "$RAW_SHARE")"
-              fi
-
-              if has_flag "session"; then
-                RAW_SESSION="$(extract_flag "session")"
-                require_non_empty_flag_value "session" "$RAW_SESSION"
-                VALID_SESSION="$(validate_session "$RAW_SESSION")"
-                SESSION_METADATA="session=$VALID_SESSION"
-              fi
-
-              if [[ "$HAS_PR" == "true" ]]; then
-                SHOULD_RUN="true"
-                RUN_KIND="manual_pr_review"
-              else
-                SHOULD_RUN="true"
-                RUN_KIND="issue_task"
-              fi
-            fi
-          fi
-
-          {
-            echo "should_run=$SHOULD_RUN"
-            echo "run_kind=$RUN_KIND"
-            echo "pr_number=$PR_NUMBER"
-            echo "issue_number=$ISSUE_NUMBER"
-            echo "model=$FULL_MODEL"
-            echo "provider=$(extract_provider "$FULL_MODEL")"
-            echo "agent=$SELECTED_AGENT"
-            echo "variant=$SELECTED_VARIANT"
-            echo "share=$SELECTED_SHARE"
-            echo "session_metadata=$SESSION_METADATA"
-          } >> "$GITHUB_OUTPUT"
-
   opencode:
-    needs: detect-trigger
-
-    if: needs.detect-trigger.outputs.should_run == 'true'
-
+    if: >-
+      github.actor != 'opencode-agent[bot]' &&
+      github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
       pull-requests: write
       issues: write
-      id-token: write
+      checks: write
+      statuses: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
-      - name: Install OCX
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          curl -fsSL https://ocx.kdco.dev/install.sh | sh
-
-          mkdir -p ~/.config
-
-          sudo apt update 
-          sudo apt install ripgrep
-
-          bash ./.opencode/install.sh
-          
-      - name: Install repo dependencies (optional)
-        run: sudo npm install -g --no-audit --no-fund 
-
-      - name: Set Azure OpenAI env vars
-        shell: bash
-        run: |
-          {
-            echo "AZURE_OPENAI_API_KEY1=${{ secrets.AZURE_OPENAI_API_KEY1 }}"
-            echo "AZURE_API_KEY=${{ secrets.AZURE_API_KEY }}"
-          } >> "$GITHUB_ENV"
-
-      - name: Compose OpenCode prompt
-        id: compose
-        shell: bash
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-          EXECUTION_METADATA: ${{ needs.detect-trigger.outputs.session_metadata }}
-
-          COMMENT_BODY: ${{ github.event.comment.body || '' }}
-
-          ISSUE_TITLE: ${{ github.event.issue.title || '' }}
-          ISSUE_BODY: ${{ github.event.issue.body || '' }}
-
-          PR_TITLE: ${{ github.event.pull_request.title || '' }}
-          PR_BODY: ${{ github.event.pull_request.body || '' }}
-
-        run: |
-          set -euo pipefail
-
-          DELIM="OPENCODE_PROMPT_EOF_$(date +%s%N)"
-
-          {
-            echo "prompt<<$DELIM"
-
-            echo "CONTEXTO:"
-            echo "event_name=${EVENT_NAME}"
-            echo ""
-
-            if [[ -n "${EXECUTION_METADATA:-}" ]]; then
-              echo "execution_metadata: ${EXECUTION_METADATA}"
-              echo ""
-            fi
-
-            if [[ -n "$COMMENT_BODY" ]]; then
-              echo "=== COMENTARIO ==="
-              echo "$COMMENT_BODY"
-              echo ""
-            fi
-
-            if [[ -n "$ISSUE_TITLE" || -n "$ISSUE_BODY" ]]; then
-              echo "=== ISSUE ==="
-              echo "title: $ISSUE_TITLE"
-              echo "body:"
-              echo "$ISSUE_BODY"
-              echo ""
-            fi
-
-            if [[ -n "$PR_TITLE" || -n "$PR_BODY" ]]; then
-              echo "=== PULL REQUEST ==="
-              echo "title: $PR_TITLE"
-              echo "body:"
-              echo "$PR_BODY"
-              echo ""
-            fi
-
-            echo "$DELIM"
-
-          } >> "$GITHUB_OUTPUT"
-
-        
-      - name: Export vars
-        run: |
-          CURRENT_DIR="$(pwd)"
-          CONFIG_FILE="$CURRENT_DIR/.opencode/opencode.json"
-
-          if [ ! -f "$CONFIG_FILE" ]; then
-             echo "Config file not found: $CONFIG_FILE"
-             exit 1
-          fi
-
-          echo "OPENCODE_CONFIG=$CONFIG_FILE" >> "$GITHUB_ENV"
-          echo "OPENCODE_CONFIG_DIR=$CURRENT_DIR/.opencode" >> "$GITHUB_ENV"
-    
-      - name: Run OpenCode Review
-        uses: sst/opencode/github@latest
-        env:
-          AZURE_OPENAI_API_KEY1: ${{ env.AZURE_OPENAI_API_KEY1 }}
-          OPENCODE_CONFIG: ${{ env.OPENCODE_CONFIG }}
-          OPENCODE_CONFIG_DIR: ${{ env.OPENCODE_CONFIG_DIR }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AZURE_RESOURCE_NAME: "opens6505134568"
-        with:
-          model: ${{ needs.detect-trigger.outputs.model }}
-          agent: task
-          variant: ${{ needs.detect-trigger.outputs.variant != '' && needs.detect-trigger.outputs.variant || null }}
-          share: ${{ needs.detect-trigger.outputs.share != '' && needs.detect-trigger.outputs.share || null }}
-          prompt: ${{ steps.compose.outputs.prompt }}
-
-      - name: Report failure
-        if: failure()
-
+      - name: Resolve automation route
+        id: route
         uses: actions/github-script@v7
-
-        env:
-          PR_NUMBER: ${{ needs.detect-trigger.outputs.pr_number }}
-          ISSUE_NUMBER: ${{ needs.detect-trigger.outputs.issue_number }}
-          RUN_KIND: ${{ needs.detect-trigger.outputs.run_kind }}
-
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
           script: |
-            const issueNumber =
-              process.env.RUN_KIND === 'issue_task'
-                ? Number(process.env.ISSUE_NUMBER)
-                : Number(process.env.PR_NUMBER);
+            const eventName = context.eventName;
+            const payload = context.payload;
+            const repository = payload.repository;
+            const defaultBranch = repository?.default_branch || 'main';
+            const commentBody = payload.comment?.body || '';
+            const hasCommand = /(^|\s)\/(oc|opencode)\b/i.test(commentBody);
+            const sameRepoFullName = `${context.repo.owner}/${context.repo.repo}`;
 
-            const body =
-              process.env.RUN_KIND === 'issue_task'
-                ? `🤖 Task failed.\n${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
-                : `🤖 Review failed.\n${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            function slugify(value) {
+              return String(value || '')
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-+|-+$/g, '')
+                .slice(0, 40) || 'work';
+            }
 
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issueNumber,
-              body,
-            });
+            function issueBranch(issueNumber, title) {
+              return `automation/issue-${issueNumber}-${slugify(title)}`;
+            }
+
+            const outputs = {
+              should_run: 'false',
+              run_kind: '',
+              agent: '',
+              issue_number: '',
+              pr_number: '',
+              title: '',
+              body: '',
+              comment_body: commentBody,
+              default_branch: defaultBranch,
+              base_ref: '',
+              head_ref: '',
+              head_sha: '',
+              previous_head_sha: '',
+              checkout_repository: sameRepoFullName,
+              checkout_ref: defaultBranch,
+              is_pr_context: 'false',
+              head_repo_full_name: '',
+              same_repo_pr: 'false',
+              working_branch: '',
+            };
+
+            async function loadPr(prNumber) {
+              const { data: pr } = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+              });
+              outputs.pr_number = String(pr.number);
+              outputs.issue_number = String(pr.number);
+              outputs.title = pr.title || '';
+              outputs.body = pr.body || '';
+              outputs.base_ref = pr.base.ref || defaultBranch;
+              outputs.head_ref = pr.head.ref || '';
+              outputs.head_sha = pr.head.sha || '';
+              outputs.checkout_repository = pr.head.repo?.full_name || sameRepoFullName;
+              outputs.head_repo_full_name = pr.head.repo?.full_name || '';
+              outputs.same_repo_pr = String((pr.head.repo?.full_name || sameRepoFullName) === sameRepoFullName);
+              outputs.is_pr_context = 'true';
+            }
+
+            if (eventName === 'pull_request') {
+              const pr = payload.pull_request;
+              if (pr && pr.draft !== true) {
+                outputs.should_run = 'true';
+                outputs.run_kind = 'pr_review';
+                outputs.agent = 'reviewer';
+                outputs.pr_number = String(pr.number);
+                outputs.issue_number = String(pr.number);
+                outputs.title = pr.title || '';
+                outputs.body = pr.body || '';
+                outputs.base_ref = pr.base?.ref || defaultBranch;
+                outputs.head_ref = pr.head?.ref || '';
+                outputs.head_sha = pr.head?.sha || '';
+                outputs.previous_head_sha = payload.before || '';
+                outputs.checkout_repository = pr.head?.repo?.full_name || sameRepoFullName;
+                outputs.head_repo_full_name = pr.head?.repo?.full_name || '';
+                outputs.same_repo_pr = String((pr.head?.repo?.full_name || sameRepoFullName) === sameRepoFullName);
+                outputs.is_pr_context = 'true';
+              }
+            } else if (eventName === 'issues') {
+              const issue = payload.issue;
+              if (issue && !issue.pull_request) {
+                outputs.should_run = 'true';
+                outputs.run_kind = 'issue_open';
+                outputs.agent = 'implementer';
+                outputs.issue_number = String(issue.number);
+                outputs.title = issue.title || '';
+                outputs.body = issue.body || '';
+                outputs.working_branch = issueBranch(issue.number, issue.title);
+              }
+            } else if (eventName === 'issue_comment' && hasCommand) {
+              const issue = payload.issue;
+              if (issue?.pull_request) {
+                await loadPr(issue.number);
+                outputs.should_run = 'true';
+                outputs.run_kind = 'pr_comment_implement';
+                outputs.agent = 'implementer';
+              } else if (issue) {
+                outputs.should_run = 'true';
+                outputs.run_kind = 'issue_comment_implement';
+                outputs.agent = 'implementer';
+                outputs.issue_number = String(issue.number);
+                outputs.title = issue.title || '';
+                outputs.body = issue.body || '';
+                outputs.working_branch = issueBranch(issue.number, issue.title);
+              }
+            } else if (eventName === 'pull_request_review_comment' && hasCommand) {
+              const prNumber = payload.pull_request?.number;
+              if (prNumber) {
+                await loadPr(prNumber);
+                outputs.should_run = 'true';
+                outputs.run_kind = 'pr_review_comment_implement';
+                outputs.agent = 'implementer';
+              }
+            }
+
+            if (outputs.should_run === 'true' && outputs.is_pr_context === 'true') {
+              outputs.checkout_ref = outputs.head_ref || `refs/pull/${outputs.pr_number}/head`;
+            }
+
+            for (const [key, value] of Object.entries(outputs)) {
+              core.setOutput(key, value);
+            }
+
+      - name: Checkout repository
+        if: steps.route.outputs.should_run == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ steps.route.outputs.checkout_repository }}
+          ref: ${{ steps.route.outputs.checkout_ref }}
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Node.js
+        if: steps.route.outputs.should_run == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Set up Bun
+        if: steps.route.outputs.should_run == 'true'
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install runtime dependencies
+        if: steps.route.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ripgrep tmux openjdk-21-jdk-headless
+          npm install -g bash-language-server pyright typescript typescript-language-server opentmux opencode-swarm-plugin
+          curl -fsSL https://opencode.ai/install | bash -s -- --no-modify-path
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+
+      - name: Install project-local OpenCode plugin dependencies
+        if: steps.route.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -f .opencode/package.json ]]; then
+            bun install --cwd .opencode
+          fi
+
+      - name: Preinstall npm OpenCode plugins
+        if: steps.route.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.cache/opencode"
+          python3 - <<'PY'
+          import json
+          import pathlib
+
+          path = pathlib.Path.home() / '.cache' / 'opencode' / 'package.json'
+          path.write_text(json.dumps({
+              'name': 'opencode-plugin-cache',
+              'private': True,
+              'dependencies': {
+                  '@zenobius/opencode-background': '0.1.0-alpha.2',
+                  'opencode-agent-skills': '0.7.0',
+                  'opencode-agent-memory': '0.2.0',
+                  '@spoons-and-mirrors/subtask2': '0.3.5',
+                  'opentmux': '1.5.7',
+                  '@tarquinen/opencode-dcp': '3.1.12',
+                  'opencode-swarm-plugin': '0.63.2'
+              }
+          }, indent=2) + '\n', encoding='utf-8')
+          PY
+          bun install --cwd "$HOME/.cache/opencode"
+
+      - name: Verify OpenCode toolchain
+        if: steps.route.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          export PATH="$HOME/.opencode/bin:$PATH"
+          node --version
+          npm --version
+          bun --version
+          java --version
+          tmux -V
+          rg --version
+          bash-language-server --version
+          pyright --version
+          typescript-language-server --version
+          opencode --version
+          swarm --version
+          opentmux --version
+
+      - name: Configure git author
+        if: steps.route.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'opencode-agent[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Compose OpenCode prompt
+        if: steps.route.outputs.should_run == 'true'
+        id: prompt
+        shell: bash
+        env:
+          REPOSITORY: ${{ github.repository }}
+          RUN_KIND: ${{ steps.route.outputs.run_kind }}
+          ISSUE_NUMBER: ${{ steps.route.outputs.issue_number }}
+          PR_NUMBER: ${{ steps.route.outputs.pr_number }}
+          DEFAULT_BRANCH: ${{ steps.route.outputs.default_branch }}
+          WORKING_BRANCH: ${{ steps.route.outputs.working_branch }}
+          BASE_REF: ${{ steps.route.outputs.base_ref }}
+          HEAD_REF: ${{ steps.route.outputs.head_ref }}
+          HEAD_SHA: ${{ steps.route.outputs.head_sha }}
+          PREVIOUS_HEAD_SHA: ${{ steps.route.outputs.previous_head_sha }}
+          TITLE: ${{ steps.route.outputs.title }}
+          BODY: ${{ steps.route.outputs.body }}
+          COMMENT_BODY: ${{ steps.route.outputs.comment_body }}
+          HEAD_REPO_FULL_NAME: ${{ steps.route.outputs.head_repo_full_name }}
+          SAME_REPO_PR: ${{ steps.route.outputs.same_repo_pr }}
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          import os
+          import time
+
+          run_kind = os.environ['RUN_KIND']
+          repository = os.environ['REPOSITORY']
+          issue_number = os.environ.get('ISSUE_NUMBER', '')
+          pr_number = os.environ.get('PR_NUMBER', '')
+          default_branch = os.environ.get('DEFAULT_BRANCH', '')
+          working_branch = os.environ.get('WORKING_BRANCH', '')
+          base_ref = os.environ.get('BASE_REF', '')
+          head_ref = os.environ.get('HEAD_REF', '')
+          head_sha = os.environ.get('HEAD_SHA', '')
+          previous_head_sha = os.environ.get('PREVIOUS_HEAD_SHA', '')
+          title = os.environ.get('TITLE', '')
+          body = os.environ.get('BODY', '')
+          comment_body = os.environ.get('COMMENT_BODY', '')
+          head_repo_full_name = os.environ.get('HEAD_REPO_FULL_NAME', '')
+          same_repo_pr = os.environ.get('SAME_REPO_PR', '')
+
+          def block(*lines):
+              return "\n".join(lines).rstrip() + "\n"
+
+          def review_context_lines():
+              lines = []
+              if previous_head_sha:
+                  lines.extend([
+                      'This run was triggered by newly pushed commits on an existing PR. Review the incremental range first before broadening scope.',
+                      f'Previous PR head SHA: {previous_head_sha}',
+                      f'Incremental commit range: {previous_head_sha}..{head_sha}',
+                      f'Incremental diff command: git --no-pager diff {previous_head_sha}..{head_sha}',
+                      '',
+                  ])
+              return lines
+
+          prompts = {
+              'pr_review': block(
+                  'You are running inside a non-interactive GitHub Actions pull-request review workflow.',
+                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'Never ask the user, PR author, client, or workflow operator for clarification, approval, or permission.',
+                  'Use the checked-in OpenCode configuration from the repository-root opencode.json plus the agents, commands, skills, and instructions under .opencode/.',
+                  'Review the code on the checked-out PR branch and leave high-signal review feedback only.',
+                  'Do not modify repository files during this run.',
+                  f'In detached CI checkouts, do not assume a local main branch exists. Prefer git diff origin/{base_ref}...HEAD when you need the branch diff.',
+                  *review_context_lines(),
+                  'If there are no significant issues, output exactly: No significant issues found in the reviewed changes.',
+                  '',
+                  f'Repository: {repository}',
+                  f'Pull request: #{pr_number}',
+                  f'Base branch: {base_ref}',
+                  f'Head branch: {head_ref}',
+                  f'Head SHA: {head_sha}',
+                  '',
+                  'PR title:',
+                  title,
+                  '',
+                  'PR description:',
+                  body,
+              ),
+              'issue_open': block(
+                  'You are running inside a non-interactive GitHub Actions issue implementation workflow.',
+                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'Never ask the user, reporter, client, or workflow operator for clarification, approval, or permission.',
+                  'Treat the issue as an implementation request: write code, build the requested feature or app, run relevant validation, and report the outcome.',
+                  f'Do not commit directly to the default branch {default_branch}. Create or update the dedicated working branch {working_branch} from {default_branch}, commit the resulting changes there, and open or update a pull request back to {default_branch} when code changes are required.',
+                  'The pull request must come from that non-default working branch and must include a concrete description with summary, validation, and linked issue context.',
+                  'Use the issue title and body as the source of truth. If something is ambiguous, choose the safest reasonable interpretation and continue.',
+                  '',
+                  f'Repository: {repository}',
+                  f'Issue: #{issue_number}',
+                  f'Default branch: {default_branch}',
+                  f'Working branch: {working_branch}',
+                  '',
+                  'Issue title:',
+                  title,
+                  '',
+                  'Issue description:',
+                  body,
+              ),
+              'issue_comment_implement': block(
+                  'You are running inside a non-interactive GitHub Actions issue-comment implementation workflow.',
+                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'Never ask the user, reporter, client, or workflow operator for clarification, approval, or permission.',
+                  'Treat the /oc comment as a request to implement the described change, not just to explain it.',
+                  f'Do not commit directly to the default branch {default_branch}. Create or update the dedicated working branch {working_branch} from {default_branch}, commit the resulting changes there, and open or update a pull request back to {default_branch} when code changes are required.',
+                  'The pull request must come from that non-default working branch and must include a concrete description with summary, validation, and linked issue context.',
+                  'Use the original issue plus the trigger comment together as the specification. If there is conflict, the trigger comment takes priority.',
+                  '',
+                  f'Repository: {repository}',
+                  f'Issue: #{issue_number}',
+                  f'Default branch: {default_branch}',
+                  f'Working branch: {working_branch}',
+                  '',
+                  'Issue title:',
+                  title,
+                  '',
+                  'Issue description:',
+                  body,
+                  '',
+                  'Trigger comment:',
+                  comment_body,
+              ),
+              'pr_comment_implement': block(
+                  'You are running inside a non-interactive GitHub Actions pull-request comment implementation workflow.',
+                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'Never ask the user, PR author, client, or workflow operator for clarification, approval, or permission.',
+                  'Treat the /oc comment as a request to implement the described changes directly on the current pull-request branch.',
+                  f'Work on the checked-out PR head branch {head_ref}. Commit the requested changes directly on that PR branch when write access exists, run relevant validation, and inspect the exact new commits or diff you introduced before finishing.',
+                  'After a successful push, the follow-up pull_request synchronize run will review the new commits. Keep the implementation commit focused and reviewable.',
+                  'If this PR comes from a fork and write access is unavailable, explain the limitation clearly and provide the concrete patch or next step instead of blocking.',
+                  '',
+                  f'Repository: {repository}',
+                  f'Pull request: #{pr_number}',
+                  f'Base branch: {base_ref}',
+                  f'Head branch: {head_ref}',
+                  f'Head SHA at start: {head_sha}',
+                  f'Head repository: {head_repo_full_name}',
+                  f'Same-repo PR: {same_repo_pr}',
+                  '',
+                  'PR title:',
+                  title,
+                  '',
+                  'PR description:',
+                  body,
+                  '',
+                  'Trigger comment:',
+                  comment_body,
+              ),
+              'pr_review_comment_implement': block(
+                  'You are running inside a non-interactive GitHub Actions pull-request review-comment implementation workflow.',
+                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'Never ask the user, PR author, client, or workflow operator for clarification, approval, or permission.',
+                  'Treat the /oc inline review comment as a request to implement the described change directly on the current pull-request branch.',
+                  f'Work on the checked-out PR head branch {head_ref}. Commit the requested changes directly on that PR branch when write access exists, run relevant validation, and inspect the exact new commits or diff you introduced before finishing.',
+                  'After a successful push, the follow-up pull_request synchronize run will review the new commits. Keep the implementation commit focused and reviewable.',
+                  'If this PR comes from a fork and write access is unavailable, explain the limitation clearly and provide the concrete patch or next step instead of blocking.',
+                  '',
+                  f'Repository: {repository}',
+                  f'Pull request: #{pr_number}',
+                  f'Base branch: {base_ref}',
+                  f'Head branch: {head_ref}',
+                  f'Head SHA at start: {head_sha}',
+                  f'Head repository: {head_repo_full_name}',
+                  f'Same-repo PR: {same_repo_pr}',
+                  '',
+                  'PR title:',
+                  title,
+                  '',
+                  'PR description:',
+                  body,
+                  '',
+                  'Trigger review comment:',
+                  comment_body,
+              ),
+          }
+
+          if run_kind not in prompts:
+              raise SystemExit(f'Unsupported run kind: {run_kind}')
+
+          delim = f'OPENCODE_PROMPT_{time.time_ns()}'
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as fh:
+              fh.write(f'prompt<<{delim}\n{prompts[run_kind]}\n{delim}\n')
+          PY
+
+      - name: Run OpenCode automation
+        if: steps.route.outputs.should_run == 'true'
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AZURE_OPENAI_API_KEY1: ${{ secrets.AZURE_OPENAI_API_KEY1 }}
+          OPENCODE_CONFIG: ${{ github.workspace }}/opencode.json
+          OPENCODE_PERMISSION: >-
+            {"*":"allow","question":"deny","read":"allow","glob":"allow","grep":"allow","list":"allow","lsp":"allow","skill":{"*":"allow"},"webfetch":"allow","websearch":"allow","task":"allow","todowrite":"allow","repo_overview":"allow","repo_clone":"allow","external_directory":"allow","edit":"allow","github_*":"allow","context7_*":"allow","bash":{"*":"allow","rm -rf *":"deny"}}
+          OPENCODE_PROMPT: ${{ steps.prompt.outputs.prompt }}
+        run: |
+          set -euo pipefail
+          export PATH="$HOME/.opencode/bin:$PATH"
+
+          prompt_file="$RUNNER_TEMP/opencode-prompt.txt"
+          printf '%s\n' "$OPENCODE_PROMPT" > "$prompt_file"
+
+          opencode run \
+            --model azure-foundry/gpt-5.4 \
+            --agent "${{ steps.route.outputs.agent }}" \
+            --print-logs \
+            "$(cat "$prompt_file")"

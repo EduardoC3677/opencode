@@ -299,9 +299,9 @@ async function parseAgentMode(
 ): Promise<{ isSubAgent: boolean }> {
 	try {
 		const result = await client.app.agents({})
-		const agents = (result.data ?? []) as { name: string; mode?: string | string[] }[]
+		const agents = (result.data ?? []) as { name: string; mode?: string }[]
 		const agent = agents.find((a) => a.name === agentName)
-		return { isSubAgent: hasAgentMode(agent?.mode, "subagent") }
+		return { isSubAgent: agent?.mode === "subagent" }
 	} catch (error) {
 		// Fail-safe: Agent list errors shouldn't block task calls
 		// Fail-loud: Log for observability
@@ -310,26 +310,6 @@ async function parseAgentMode(
 		)
 		return { isSubAgent: false }
 	}
-}
-
-function parseAgentModes(mode: string | string[] | undefined): string[] {
-	const modeValues = Array.isArray(mode) ? mode : [mode]
-
-	return modeValues
-		.filter((value): value is string => typeof value === "string")
-		.flatMap((value) => value.split(/[\s,]+/))
-		.map((value) => value.trim().toLowerCase())
-		.filter((value) => value.length > 0)
-}
-
-function hasAgentMode(mode: string | string[] | undefined, expectedMode: string): boolean {
-	return parseAgentModes(mode).includes(expectedMode.toLowerCase())
-}
-
-function allowsDelegationMode(mode: string | string[] | undefined): boolean {
-	if (mode === undefined) return true
-	if (Array.isArray(mode) && mode.length === 0) return true
-	return hasAgentMode(mode, "subagent") || hasAgentMode(mode, "all")
 }
 
 /**
@@ -1026,13 +1006,13 @@ class DelegationManager {
 		const agents = (agentsResult.data ?? []) as {
 			name: string
 			description?: string
-			mode?: string | string[]
+			mode?: string
 		}[]
 		const validAgent = agents.find((a) => a.name === input.agent)
 
 		if (!validAgent) {
 			const available = agents
-				.filter((a) => allowsDelegationMode(a.mode))
+				.filter((a) => a.mode === "subagent" || a.mode === "all" || !a.mode)
 				.map((a) => `• ${a.name}${a.description ? ` - ${a.description}` : ""}`)
 				.join("\n")
 

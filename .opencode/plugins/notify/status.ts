@@ -1,83 +1,80 @@
-type CmuxSessionLogicalState = "animated-busy" | "needs-input" | "error" | "idle"
+type LogicalState = "idle" | "animated-busy" | "busy" | "error" | "question" | "permission"
 
-export type CmuxSessionStatusTransition = {
-	readonly sessionID: string
-	readonly logicalState: CmuxSessionLogicalState
+export interface CmuxSessionStatusTransition {
+  sessionID: string
+  logicalState: LogicalState
 }
 
-function toNonEmptyString(value: unknown): string | null {
-	if (typeof value !== "string") return null
-
-	const normalized = value.trim()
-	if (!normalized) return null
-
-	return normalized
+function normalizeSessionID(value: unknown): string | null {
+  return typeof value === "string" && value.trim() ? value.trim() : null
 }
 
-function toStatusType(properties: Record<string, unknown>): string | null {
-	const status = properties.status
-	if (!status || typeof status !== "object") return null
-
-	const statusType = toNonEmptyString((status as Record<string, unknown>).type)
-	if (!statusType) return null
-
-	return statusType.toLowerCase()
+function normalizeState(value: unknown): string | null {
+  return typeof value === "string" && value.trim() ? value.trim().toLowerCase() : null
 }
 
-export function buildCmuxSessionStatusTransitionForEvent(
-	eventType: string,
-	properties: Record<string, unknown>,
-): CmuxSessionStatusTransition | null {
-	const sessionID = toNonEmptyString(properties.sessionID)
-	if (!sessionID) return null
+function toLogicalState(state: string | null): LogicalState {
+  switch (state) {
+    case "idle":
+    case "complete":
+    case "completed":
+    case "ready":
+      return "idle"
+    case "error":
+    case "failed":
+      return "error"
+    case "question":
+    case "awaiting_question":
+      return "question"
+    case "permission":
+    case "awaiting_permission":
+      return "permission"
+    default:
+      return "animated-busy"
+  }
+}
 
-	if (
-		eventType === "question.asked" ||
-		eventType === "permission.asked" ||
-		eventType === "permission.updated"
-	) {
-		return { sessionID, logicalState: "needs-input" }
-	}
-
-	if (eventType === "session.idle") {
-		return { sessionID, logicalState: "idle" }
-	}
-
-	if (eventType === "session.error") {
-		return { sessionID, logicalState: "error" }
-	}
-
-	if (eventType !== "session.status") {
-		return null
-	}
-
-	const statusType = toStatusType(properties)
-	if (statusType === "idle") {
-		return { sessionID, logicalState: "idle" }
-	}
-
-	if (statusType === "busy" || statusType === "retry" || statusType === "running") {
-		return { sessionID, logicalState: "animated-busy" }
-	}
-
-	return null
+export function getCmuxSessionStatusText(state: Exclude<LogicalState, "animated-busy">): string {
+  switch (state) {
+    case "idle":
+      return "Ready"
+    case "busy":
+      return "Working"
+    case "error":
+      return "Error"
+    case "question":
+      return "Question"
+    case "permission":
+      return "Permission"
+  }
 }
 
 export function buildCmuxSessionStatusTransitionForQuestionTool(
-	sessionID: unknown,
-): CmuxSessionStatusTransition | null {
-	const normalizedSessionID = toNonEmptyString(sessionID)
-	if (!normalizedSessionID) return null
-
-	return {
-		sessionID: normalizedSessionID,
-		logicalState: "needs-input",
-	}
+  sessionID: string,
+): CmuxSessionStatusTransition {
+  return { sessionID, logicalState: "question" }
 }
 
-export function getCmuxSessionStatusText(
-	logicalState: Exclude<CmuxSessionLogicalState, "idle" | "animated-busy">,
-): string {
-	if (logicalState === "needs-input") return "Needs input"
-	return "Error"
+export function buildCmuxSessionStatusTransitionForEvent(
+  eventType: string,
+  properties: Record<string, unknown> | undefined,
+): CmuxSessionStatusTransition | null {
+  const sessionID = normalizeSessionID(properties?.sessionID)
+  if (!sessionID) return null
+
+  switch (eventType) {
+    case "session.idle":
+      return { sessionID, logicalState: "idle" }
+    case "session.error":
+      return { sessionID, logicalState: "error" }
+    case "permission.updated":
+    case "permission.asked":
+      return { sessionID, logicalState: "permission" }
+    case "question.asked":
+      return { sessionID, logicalState: "question" }
+    case "session.status":
+      return { sessionID, logicalState: toLogicalState(normalizeState(properties?.status ?? properties?.state)) }
+    default:
+      return null
+  }
 }

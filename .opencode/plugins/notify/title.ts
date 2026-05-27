@@ -1,80 +1,25 @@
 export interface OscTitleContext {
-	readonly mayWriteOscTitle: boolean
-	readonly baseTitle: string
+  mayWriteOscTitle: boolean
+  baseTitle: string
 }
 
-const OCX_TITLE_CONTEXT_ENV_KEY = "OCX_TITLE_CONTEXT"
-const OSC_TITLE_CONTROL_CHARACTERS = /[\u0000-\u001f\u007f-\u009f]/g
-
-function toNonEmptyString(value: unknown): string | null {
-	if (typeof value !== "string") {
-		return null
-	}
-
-	const normalized = value.trim()
-	if (!normalized) {
-		return null
-	}
-
-	return normalized
+function sanitizeTitle(title: string): string {
+  return title.replace(/[\u0007\u001b]/g, " ").trim()
 }
 
-function isRecord(value: unknown): value is Record<string, unknown> {
-	return typeof value === "object" && value !== null && !Array.isArray(value)
+export function parseOscTitleContext(): OscTitleContext {
+  const baseTitle = sanitizeTitle(process.env.TERM_PROGRAM || process.title || "OpenCode") || "OpenCode"
+  return {
+    mayWriteOscTitle: Boolean(process.stdout?.isTTY),
+    baseTitle,
+  }
 }
 
-export function parseOscTitleContext(
-	env: Record<string, string | undefined> = process.env,
-): OscTitleContext | null {
-	const rawContext = toNonEmptyString(env[OCX_TITLE_CONTEXT_ENV_KEY])
-	if (!rawContext) {
-		return null
-	}
-
-	let parsedContext: unknown
-	try {
-		parsedContext = JSON.parse(rawContext)
-	} catch {
-		return null
-	}
-
-	if (!isRecord(parsedContext)) {
-		return null
-	}
-
-	if (typeof parsedContext.mayWriteOscTitle !== "boolean") {
-		return null
-	}
-
-	const baseTitle = toNonEmptyString(parsedContext.baseTitle)
-	if (!baseTitle) {
-		return null
-	}
-
-	return {
-		mayWriteOscTitle: parsedContext.mayWriteOscTitle,
-		baseTitle,
-	}
-}
-
-export function sanitizeOscTitleText(title: string): string {
-	return title.replace(OSC_TITLE_CONTROL_CHARACTERS, " ").trim()
-}
-
-export function writeOscTitleBestEffort(
-	title: string,
-	writer: Pick<NodeJS.WriteStream, "write"> = process.stdout,
-): void {
-	const sanitizedTitle = sanitizeOscTitleText(title)
-	if (!sanitizedTitle) {
-		return
-	}
-
-	queueMicrotask(() => {
-		try {
-			writer.write(`\u001B]0;${sanitizedTitle}\u0007`)
-		} catch {
-			// Best-effort: title ownership belongs to launcher cleanup semantics.
-		}
-	})
+export function writeOscTitleBestEffort(title: string): void {
+  try {
+    if (!process.stdout?.isTTY) return
+    process.stdout.write(`\u001b]0;${sanitizeTitle(title)}\u0007`)
+  } catch {
+    // best effort
+  }
 }

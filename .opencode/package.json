@@ -1,0 +1,13 @@
+{
+  "name": "opencode-workspace-local-plugins",
+  "private": true,
+  "dependencies": {
+    "@opencode-ai/plugin": "1.15.11",
+    "@opencode-ai/sdk": "1.15.11",
+    "detect-terminal": "3.0.0",
+    "jsonc-parser": "3.3.1",
+    "node-notifier": "10.0.1",
+    "unique-names-generator": "4.7.1",
+    "zod": "4.4.3"
+  }
+}

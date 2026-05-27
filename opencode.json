@@ -1,0 +1,192 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "azure-foundry/gpt-5.4",
+  "small_model": "azure-foundry/gpt-5.4",
+  "default_agent": "build",
+  "instructions": [
+    ".opencode/instructions/project-rules.md",
+    ".opencode/instructions/runtime-instructions.md",
+    ".opencode/instructions/customization-surfaces.md",
+    ".opencode/instructions/shell-strategy.md"
+  ],
+  "plugin": [
+    "@zenobius/opencode-background@0.1.0-alpha.2",
+    "opencode-agent-skills@0.7.0",
+    "opencode-agent-memory@0.2.0",
+    "@spoons-and-mirrors/subtask2@0.3.5",
+    "opentmux@1.5.7",
+    "@tarquinen/opencode-dcp@3.1.12",
+    "opencode-swarm-plugin@0.63.2"
+  ],
+  "lsp": {
+    "bash": {
+      "command": [
+        "bash-language-server",
+        "start"
+      ],
+      "extensions": [
+        ".sh",
+        ".bash",
+        ".zsh",
+        ".ksh"
+      ]
+    },
+    "pyright": {
+      "command": [
+        "pyright-langserver",
+        "--stdio"
+      ],
+      "extensions": [
+        ".py",
+        ".pyi"
+      ]
+    },
+    "typescript": {
+      "command": [
+        "typescript-language-server",
+        "--stdio"
+      ],
+      "extensions": [
+        ".ts",
+        ".tsx",
+        ".js",
+        ".jsx",
+        ".mjs",
+        ".cjs",
+        ".mts",
+        ".cts"
+      ]
+    },
+    "jdtls": {}
+  },
+  "permission": {
+    "*": "allow",
+    "question": "deny",
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "list": "allow",
+    "lsp": "allow",
+    "skill": {
+      "*": "allow"
+    },
+    "webfetch": "allow",
+    "websearch": "allow",
+    "task": "allow",
+    "todowrite": "allow",
+    "repo_overview": "allow",
+    "repo_clone": "allow",
+    "external_directory": "allow",
+    "edit": "allow",
+    "context7_*": "allow",
+    "github_*": "allow",
+    "bash": {
+      "*": "allow",
+      "rm -rf *": "deny"
+    }
+  },
+  "provider": {
+    "azure-foundry": {
+      "npm": "@ai-sdk/openai",
+      "name": "Azure AI Foundry",
+      "env": [
+        "AZURE_OPENAI_API_KEY1"
+      ],
+      "options": {
+        "apiKey": "{env:AZURE_OPENAI_API_KEY1}",
+        "baseURL": "https://opens6505134568.openai.azure.com/openai/v1/"
+      },
+      "models": {
+        "gpt-5.4": {
+          "name": "GPT-5.4",
+          "reasoning": true,
+          "temperature": true,
+          "tool_call": true,
+          "limit": {
+            "context": 272000,
+            "output": 128000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "status": "active"
+        }
+      }
+    }
+  },
+  "mcp": {
+    "context7": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "enabled": true,
+      "timeout": 30000
+    },
+    "github": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "enabled": true,
+      "timeout": 30000,
+      "environment": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_TOKEN}"
+      }
+    }
+  },
+  "agent": {
+    "build": {
+      "mode": "primary",
+      "model": "azure-foundry/gpt-5.4"
+    },
+    "implementer": {
+      "mode": "primary",
+      "model": "azure-foundry/gpt-5.4"
+    },
+    "reviewer": {
+      "mode": "primary",
+      "model": "azure-foundry/gpt-5.4"
+    },
+    "plan": {
+      "mode": "primary",
+      "temperature": 0.1,
+      "model": "azure-foundry/gpt-5.4",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny"
+      }
+    },
+    "general": {
+      "mode": "subagent",
+      "model": "azure-foundry/gpt-5.4"
+    },
+    "explore": {
+      "mode": "subagent",
+      "model": "azure-foundry/gpt-5.4",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny"
+      }
+    },
+    "scout": {
+      "mode": "subagent",
+      "model": "azure-foundry/gpt-5.4",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny"
+      }
+    }
+  }
+}

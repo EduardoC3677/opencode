@@ -2,40 +2,38 @@ export type ResolveExecutable = (command: string) => string | null | undefined
 export type CmuxEnvironment = Record<string, string | undefined>
 
 export interface CmuxContext {
-	workspaceID?: string
-	surfaceID?: string
-	socketPath?: string
-	socketMode?: string
+  socketPath: string | null
+  clientId: string | null
+  paneId: string | null
+  workspace: string | null
 }
 
-function normalizeCmuxValue(value?: string): string | undefined {
-	const trimmed = value?.trim()
-	return trimmed ? trimmed : undefined
+function defaultResolveExecutable(command: string): string | null | undefined {
+  try {
+    return Bun.which(command)
+  } catch {
+    return undefined
+  }
 }
 
 export function detectCmuxContext(env: CmuxEnvironment = process.env): CmuxContext {
-	return {
-		workspaceID: normalizeCmuxValue(env.CMUX_WORKSPACE_ID),
-		surfaceID: normalizeCmuxValue(env.CMUX_SURFACE_ID),
-		socketPath: normalizeCmuxValue(env.CMUX_SOCKET_PATH),
-		socketMode: normalizeCmuxValue(env.CMUX_SOCKET_MODE),
-	}
+  const tmux = env.TMUX?.trim()
+  const [socketPath, clientId] = tmux ? tmux.split(",", 2) : [undefined, undefined]
+
+  return {
+    socketPath: socketPath || null,
+    clientId: clientId || null,
+    paneId: env.TMUX_PANE?.trim() || null,
+    workspace: env.CMUX_WORKSPACE?.trim() || null,
+  }
 }
 
 export function canUseCmuxWorkflow(
-	env: CmuxEnvironment = process.env,
-	resolveExecutable: ResolveExecutable = (command) => Bun.which(command),
-	cmuxExecutable: string = "cmux",
+  env: CmuxEnvironment = process.env,
+  resolveExecutable: ResolveExecutable = defaultResolveExecutable,
+  cmuxCommand = "cmux",
 ): boolean {
-	if (!resolveExecutable(cmuxExecutable)) {
-		return false
-	}
-
-	const context = detectCmuxContext(env)
-	if (context.workspaceID) {
-		return true
-	}
-
-	const socketModeAllowsExternalControl = context.socketMode?.toLowerCase() === "allowall"
-	return Boolean(context.socketPath && socketModeAllowsExternalControl)
+  const hasTmuxContext = Boolean(env.TMUX || env.TMUX_PANE)
+  const resolved = resolveExecutable(cmuxCommand)
+  return hasTmuxContext && Boolean(resolved)
 }
