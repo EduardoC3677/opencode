@@ -22,7 +22,7 @@ Active project-local OpenCode assets under `.opencode/`:
 - The dedicated automation agents `implementer` and `reviewer` are pinned to `azure-foundry/gpt-5.4`
 - Custom agents and commands are also pinned to `azure-foundry/gpt-5.4`
 - GitHub review automation must use the root `opencode.json` plus the `.opencode/` customization surfaces
-- GitHub automation runs install Node.js, Bun, ripgrep, and the OpenCode CLI, then execute `opencode run` directly from the repository root
+- GitHub automation runs install Node.js, Bun, ripgrep, Playwright MCP/browser prerequisites, and the OpenCode CLI, then execute `opencode run` directly from the repository root
 
 ## Azure AI Foundry provider config
 
@@ -41,6 +41,7 @@ If your deployment endpoint differs, set `AZURE_FOUNDRY_BASE_URL` to the exact c
 
 - `context7` — enabled by default via `npx -y @upstash/context7-mcp`
 - `github` — enabled and authenticated from `GITHUB_TOKEN` via `GITHUB_PERSONAL_ACCESS_TOKEN`
+- `playwright` — enabled for browser automation and UI verification in CI-capable environments
 
 Additional runtime instructions are loaded through `opencode.json.instructions`:
 - `.opencode/instructions/project-rules.md`
@@ -52,7 +53,11 @@ Additional runtime instructions are loaded through `opencode.json.instructions`:
 - GitHub Actions issue implementation runs and PR review runs are unattended. Do not ask the PR author, issue author, user, or client for clarification, approval, or permission.
 - Route opened issues and `/oc` issue comments to the dedicated `implementer` agent.
 - Issue implementation must work from a dedicated non-default branch, commit the resulting changes there, and open or update a pull request back to the default branch when code changes are required.
-- Pull requests created from issue automation must include a concrete description with summary, validation, and linked issue context.
+- Pull requests created from issue automation must include a concrete description with summary, validation, linked issue context, and the commits included in the branch.
+- Implementation runs must behave like senior full-stack engineering work: understand the relevant code path first, then actually modify the code instead of ending at analysis.
+- Implementation runs should install or refresh project dependencies when needed to implement or validate correctly.
+- Validation should include a real build, compile, test, typecheck, or browser verification step for the changed surface whenever feasible.
+- Use the configured GitHub and Playwright MCP servers when they materially improve repository context or browser/UI validation.
 - Route opened or updated PRs to code review.
 - On PR synchronize events, code review should focus first on the newly pushed commits or incremental diff before falling back to the full PR diff.
 - Route `/oc` comments on PR threads or PR review comments to implementation work on the PR branch when possible, and commit the resulting changes on that branch.

@@ -187,7 +187,8 @@ jobs:
           set -euo pipefail
           sudo apt-get update
           sudo apt-get install -y ripgrep tmux openjdk-21-jdk-headless
-          npm install -g bash-language-server pyright typescript typescript-language-server opentmux opencode-swarm-plugin
+          npx -y playwright@latest install --with-deps chromium
+          npm install -g bash-language-server pyright typescript typescript-language-server opentmux opencode-swarm-plugin @playwright/mcp
           curl -fsSL https://opencode.ai/install | bash -s -- --no-modify-path
           echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
 
@@ -227,6 +228,22 @@ jobs:
           PY
           bun install --cwd "$HOME/.cache/opencode"
 
+      - name: Configure OpenCode integration
+        if: steps.route.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          export PATH="$HOME/.opencode/bin:$PATH"
+          swarm setup
+
+      - name: Check dependencies
+        if: steps.route.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          export PATH="$HOME/.opencode/bin:$PATH"
+          swarm doctor
+
       - name: Verify OpenCode toolchain
         if: steps.route.outputs.should_run == 'true'
         shell: bash
@@ -242,7 +259,9 @@ jobs:
           bash-language-server --version
           pyright --version
           typescript-language-server --version
+          npx -y @playwright/mcp@latest --help >/dev/null
           opencode --version
+          opencode mcp list || true
           swarm --version
           opentmux --version
 
@@ -253,6 +272,23 @@ jobs:
           set -euo pipefail
           git config user.name 'opencode-agent[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Prepare implementation branch
+        if: >-
+          steps.route.outputs.should_run == 'true' &&
+          (steps.route.outputs.run_kind == 'issue_open' || steps.route.outputs.run_kind == 'issue_comment_implement')
+        shell: bash
+        env:
+          DEFAULT_BRANCH: ${{ steps.route.outputs.default_branch }}
+          WORKING_BRANCH: ${{ steps.route.outputs.working_branch }}
+        run: |
+          set -euo pipefail
+          git fetch origin "$DEFAULT_BRANCH" "$WORKING_BRANCH" || git fetch origin "$DEFAULT_BRANCH"
+          if git show-ref --verify --quiet "refs/remotes/origin/$WORKING_BRANCH"; then
+            git checkout -B "$WORKING_BRANCH" "origin/$WORKING_BRANCH"
+          else
+            git checkout -B "$WORKING_BRANCH" "origin/$DEFAULT_BRANCH"
+          fi
 
       - name: Compose OpenCode prompt
         if: steps.route.outputs.should_run == 'true'
@@ -315,9 +351,10 @@ jobs:
           prompts = {
               'pr_review': block(
                   'You are running inside a non-interactive GitHub Actions pull-request review workflow.',
-                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'This workflow installed Node.js, Bun, ripgrep, Playwright MCP/browser prerequisites, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
                   'Never ask the user, PR author, client, or workflow operator for clarification, approval, or permission.',
                   'Use the checked-in OpenCode configuration from the repository-root opencode.json plus the agents, commands, skills, and instructions under .opencode/.',
+                  'Use the configured GitHub and Playwright MCP servers when they materially improve repository context or browser/UI validation.',
                   'Review the code on the checked-out PR branch and leave high-signal review feedback only.',
                   'Do not modify repository files during this run.',
                   f'In detached CI checkouts, do not assume a local main branch exists. Prefer git diff origin/{base_ref}...HEAD when you need the branch diff.',
@@ -338,11 +375,13 @@ jobs:
               ),
               'issue_open': block(
                   'You are running inside a non-interactive GitHub Actions issue implementation workflow.',
-                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'This workflow installed Node.js, Bun, ripgrep, Playwright MCP/browser prerequisites, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
                   'Never ask the user, reporter, client, or workflow operator for clarification, approval, or permission.',
-                  'Treat the issue as an implementation request: write code, build the requested feature or app, run relevant validation, and report the outcome.',
+                  'Act like a senior full-stack engineer: understand the relevant code path before editing, then implement the requested change instead of stopping at analysis.',
+                  'Treat the issue as an implementation request: inspect the code, install or refresh project dependencies when needed, write code, build or compile the requested change, run relevant validation, and report the outcome.',
                   f'Do not commit directly to the default branch {default_branch}. Create or update the dedicated working branch {working_branch} from {default_branch}, commit the resulting changes there, and open or update a pull request back to {default_branch} when code changes are required.',
-                  'The pull request must come from that non-default working branch and must include a concrete description with summary, validation, and linked issue context.',
+                  'The pull request must come from that non-default working branch and must include a concrete description with summary, validation, linked issue context, and the commits included in the branch.',
+                  'Use the configured GitHub and Playwright MCP servers when they materially improve repository context or browser/UI validation.',
                   'Use the issue title and body as the source of truth. If something is ambiguous, choose the safest reasonable interpretation and continue.',
                   '',
                   f'Repository: {repository}',
@@ -358,11 +397,13 @@ jobs:
               ),
               'issue_comment_implement': block(
                   'You are running inside a non-interactive GitHub Actions issue-comment implementation workflow.',
-                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'This workflow installed Node.js, Bun, ripgrep, Playwright MCP/browser prerequisites, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
                   'Never ask the user, reporter, client, or workflow operator for clarification, approval, or permission.',
-                  'Treat the /oc comment as a request to implement the described change, not just to explain it.',
+                  'Act like a senior full-stack engineer: understand the relevant code path before editing, then implement the requested change instead of stopping at analysis.',
+                  'Treat the /oc comment as a request to implement the described change, not just to explain it. Install or refresh project dependencies when needed and run a real build, compile, test, or equivalent validation step when feasible.',
                   f'Do not commit directly to the default branch {default_branch}. Create or update the dedicated working branch {working_branch} from {default_branch}, commit the resulting changes there, and open or update a pull request back to {default_branch} when code changes are required.',
-                  'The pull request must come from that non-default working branch and must include a concrete description with summary, validation, and linked issue context.',
+                  'The pull request must come from that non-default working branch and must include a concrete description with summary, validation, linked issue context, and the commits included in the branch.',
+                  'Use the configured GitHub and Playwright MCP servers when they materially improve repository context or browser/UI validation.',
                   'Use the original issue plus the trigger comment together as the specification. If there is conflict, the trigger comment takes priority.',
                   '',
                   f'Repository: {repository}',
@@ -381,12 +422,14 @@ jobs:
               ),
               'pr_comment_implement': block(
                   'You are running inside a non-interactive GitHub Actions pull-request comment implementation workflow.',
-                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'This workflow installed Node.js, Bun, ripgrep, Playwright MCP/browser prerequisites, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
                   'Never ask the user, PR author, client, or workflow operator for clarification, approval, or permission.',
-                  'Treat the /oc comment as a request to implement the described changes directly on the current pull-request branch.',
+                  'Act like a senior full-stack engineer: understand the relevant code path before editing, then implement the requested change instead of stopping at analysis.',
+                  'Treat the /oc comment as a request to implement the described changes directly on the current pull-request branch. Install or refresh project dependencies when needed and run a real build, compile, test, or equivalent validation step when feasible.',
                   f'Work on the checked-out PR head branch {head_ref}. Commit the requested changes directly on that PR branch when write access exists, run relevant validation, and inspect the exact new commits or diff you introduced before finishing.',
                   'After a successful push, the follow-up pull_request synchronize run will review the new commits. Keep the implementation commit focused and reviewable.',
                   'If this PR comes from a fork and write access is unavailable, explain the limitation clearly and provide the concrete patch or next step instead of blocking.',
+                  'Use the configured GitHub and Playwright MCP servers when they materially improve repository context or browser/UI validation.',
                   '',
                   f'Repository: {repository}',
                   f'Pull request: #{pr_number}',
@@ -407,12 +450,14 @@ jobs:
               ),
               'pr_review_comment_implement': block(
                   'You are running inside a non-interactive GitHub Actions pull-request review-comment implementation workflow.',
-                  'This workflow installed Node.js, Bun, ripgrep, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
+                  'This workflow installed Node.js, Bun, ripgrep, Playwright MCP/browser prerequisites, and the OpenCode CLI, then invoked `opencode run` directly from the repository root.',
                   'Never ask the user, PR author, client, or workflow operator for clarification, approval, or permission.',
-                  'Treat the /oc inline review comment as a request to implement the described change directly on the current pull-request branch.',
+                  'Act like a senior full-stack engineer: understand the relevant code path before editing, then implement the requested change instead of stopping at analysis.',
+                  'Treat the /oc inline review comment as a request to implement the described change directly on the current pull-request branch. Install or refresh project dependencies when needed and run a real build, compile, test, or equivalent validation step when feasible.',
                   f'Work on the checked-out PR head branch {head_ref}. Commit the requested changes directly on that PR branch when write access exists, run relevant validation, and inspect the exact new commits or diff you introduced before finishing.',
                   'After a successful push, the follow-up pull_request synchronize run will review the new commits. Keep the implementation commit focused and reviewable.',
                   'If this PR comes from a fork and write access is unavailable, explain the limitation clearly and provide the concrete patch or next step instead of blocking.',
+                  'Use the configured GitHub and Playwright MCP servers when they materially improve repository context or browser/UI validation.',
                   '',
                   f'Repository: {repository}',
                   f'Pull request: #{pr_number}',
@@ -443,6 +488,7 @@ jobs:
 
       - name: Run OpenCode automation
         if: steps.route.outputs.should_run == 'true'
+        id: opencode_run
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -450,17 +496,144 @@ jobs:
           AZURE_OPENAI_API_KEY1: ${{ secrets.AZURE_OPENAI_API_KEY1 }}
           OPENCODE_CONFIG: ${{ github.workspace }}/opencode.json
           OPENCODE_PERMISSION: >-
-            {"*":"allow","question":"deny","read":"allow","glob":"allow","grep":"allow","list":"allow","lsp":"allow","skill":{"*":"allow"},"webfetch":"allow","websearch":"allow","task":"allow","todowrite":"allow","repo_overview":"allow","repo_clone":"allow","external_directory":"allow","edit":"allow","github_*":"allow","context7_*":"allow","bash":{"*":"allow","rm -rf *":"deny"}}
+            {"*":"allow","question":"deny","read":"allow","glob":"allow","grep":"allow","list":"allow","lsp":"allow","skill":{"*":"allow"},"webfetch":"allow","websearch":"allow","task":"allow","todowrite":"allow","repo_overview":"allow","repo_clone":"allow","external_directory":"allow","edit":"allow","github_*":"allow","context7_*":"allow","playwright_*":"allow","bash":{"*":"allow","rm -rf *":"deny"}}
           OPENCODE_PROMPT: ${{ steps.prompt.outputs.prompt }}
         run: |
           set -euo pipefail
           export PATH="$HOME/.opencode/bin:$PATH"
 
           prompt_file="$RUNNER_TEMP/opencode-prompt.txt"
+          log_file="$RUNNER_TEMP/opencode-run.log"
           printf '%s\n' "$OPENCODE_PROMPT" > "$prompt_file"
 
+          echo "::group::OpenCode automation"
+          set +e
           opencode run \
             --model azure-foundry/gpt-5.4 \
             --agent "${{ steps.route.outputs.agent }}" \
-            --print-logs \
-            "$(cat "$prompt_file")"
+            "$(cat "$prompt_file")" \
+            2>&1 | sed -u 's/^/[opencode] /' | tee "$log_file"
+          opencode_exit=${PIPESTATUS[0]}
+          set -e
+          echo "::endgroup::"
+          echo "exit_code=$opencode_exit" >> "$GITHUB_OUTPUT"
+
+          if [[ "$opencode_exit" != "0" ]]; then
+            echo "OpenCode exited with status $opencode_exit; post-run finalization will still execute if applicable."
+          fi
+
+      - name: Finalize issue implementation branch and pull request
+        if: >-
+          always() &&
+          steps.route.outputs.should_run == 'true' &&
+          (steps.route.outputs.run_kind == 'issue_open' || steps.route.outputs.run_kind == 'issue_comment_implement')
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ steps.route.outputs.issue_number }}
+          ISSUE_TITLE: ${{ steps.route.outputs.title }}
+          DEFAULT_BRANCH: ${{ steps.route.outputs.default_branch }}
+          WORKING_BRANCH: ${{ steps.route.outputs.working_branch }}
+        run: |
+          set -euo pipefail
+
+          git fetch origin "$DEFAULT_BRANCH" "$WORKING_BRANCH" || git fetch origin "$DEFAULT_BRANCH"
+
+          current_branch="$(git branch --show-current)"
+          if [[ "$current_branch" != "$WORKING_BRANCH" ]]; then
+            git checkout -B "$WORKING_BRANCH"
+          fi
+
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "chore(automation): apply issue #$ISSUE_NUMBER updates"
+          fi
+
+          ahead_count="$(git rev-list --count "origin/$DEFAULT_BRANCH..HEAD")"
+          if [[ "$ahead_count" == "0" ]]; then
+            echo "No commits ahead of origin/$DEFAULT_BRANCH; skipping PR sync."
+            exit 0
+          fi
+
+          git push --set-upstream origin "$WORKING_BRANCH"
+
+          commit_list="$(git log --reverse --pretty=format:'- %h %s' "origin/$DEFAULT_BRANCH..HEAD")"
+          if [[ -z "$commit_list" ]]; then
+            commit_list='- No additional commits recorded.'
+          fi
+
+          pr_title="$ISSUE_TITLE"
+          pr_body_file="$RUNNER_TEMP/opencode-pr-body.md"
+          ISSUE_NUMBER="$ISSUE_NUMBER" ISSUE_TITLE="$ISSUE_TITLE" COMMIT_LIST="$commit_list" PR_BODY_FILE="$pr_body_file" python3 - <<'PY'
+          import os
+          from pathlib import Path
+
+          issue_number = os.environ['ISSUE_NUMBER']
+          issue_title = os.environ['ISSUE_TITLE']
+          commit_list = os.environ.get('COMMIT_LIST', '').strip() or '- No additional commits recorded.'
+
+          body = "\n".join([
+              '## Summary',
+              f'- Automated implementation for issue #{issue_number}.',
+              f'- Source issue title: {issue_title}',
+              '',
+              '## Validation',
+              '- Executed the OpenCode GitHub Actions automation workflow for this issue.',
+              '- Review this workflow run for the complete agent log and any command output.',
+              '',
+              '## Commits',
+              commit_list,
+              '',
+              '## Linked issue',
+              f'Closes #{issue_number}',
+              '',
+          ])
+          Path(os.environ['PR_BODY_FILE']).write_text(body, encoding='utf-8')
+          PY
+
+          existing_pr_number="$(gh pr list --head "$WORKING_BRANCH" --base "$DEFAULT_BRANCH" --state open --json number --jq '.[0].number // empty')"
+
+          if [[ -n "$existing_pr_number" ]]; then
+            gh pr edit "$existing_pr_number" --title "$pr_title" --body-file "$pr_body_file"
+            echo "Updated PR #$existing_pr_number for $WORKING_BRANCH"
+          else
+            gh pr create --base "$DEFAULT_BRANCH" --head "$WORKING_BRANCH" --title "$pr_title" --body-file "$pr_body_file"
+          fi
+
+      - name: Finalize PR branch after implementation comments
+        if: >-
+          always() &&
+          steps.route.outputs.should_run == 'true' &&
+          (steps.route.outputs.run_kind == 'pr_comment_implement' || steps.route.outputs.run_kind == 'pr_review_comment_implement') &&
+          steps.route.outputs.same_repo_pr == 'true'
+        shell: bash
+        env:
+          HEAD_REF: ${{ steps.route.outputs.head_ref }}
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$HEAD_REF" ]]; then
+            echo "PR head branch is unavailable; skipping PR branch finalization."
+            exit 0
+          fi
+
+          git fetch origin "$HEAD_REF"
+
+          current_branch="$(git branch --show-current)"
+          if [[ "$current_branch" != "$HEAD_REF" ]]; then
+            git checkout -B "$HEAD_REF" "origin/$HEAD_REF"
+          fi
+
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "chore(automation): apply PR feedback updates"
+          fi
+
+          ahead_count="$(git rev-list --count "origin/$HEAD_REF..HEAD")"
+          if [[ "$ahead_count" == "0" ]]; then
+            echo "No commits ahead of origin/$HEAD_REF; skipping PR branch push."
+            exit 0
+          fi
+
+          git push --set-upstream origin "$HEAD_REF"

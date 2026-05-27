@@ -2,7 +2,7 @@
   "name": "opencode-workspace-local-plugins",
   "private": true,
   "dependencies": {
-    "@opencode-ai/plugin": "1.15.11",
+    "@opencode-ai/plugin": "1.15.10",
     "@opencode-ai/sdk": "1.15.11",
     "detect-terminal": "3.0.0",
     "jsonc-parser": "3.3.1",

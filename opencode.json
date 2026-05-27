@@ -56,8 +56,7 @@
         ".mts",
         ".cts"
       ]
-    },
-    "jdtls": {}
+    }
   },
   "permission": {
     "*": "allow",
@@ -80,6 +79,7 @@
     "edit": "allow",
     "context7_*": "allow",
     "github_*": "allow",
+    "playwright_*": "allow",
     "bash": {
       "*": "allow",
       "rm -rf *": "deny"
@@ -144,6 +144,19 @@
       "environment": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_TOKEN}"
       }
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@playwright/mcp@latest",
+        "--headless",
+        "--browser",
+        "chromium"
+      ],
+      "enabled": true,
+      "timeout": 30000
     }
   },
   "agent": {
