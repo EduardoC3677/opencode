@@ -1,0 +1,300 @@
+0x1404b8a58: SMI_CheckConditionalData
+0x1404b8b90: BIOS return not support
+0x1404b8c70: SMI_CheckEcVersion
+0x1404b8c98: Check EC version failed
+0x1404b8cc8: Ihisi_48h
+0x1404b8f28: SMI_IsSecurePlatform
+0x1404b9050: SMI_PassCapsuleBlock
+0x1404b9118: SMI_SecureCapsuleFlash_New
+0x1404b9268: Failed
+0x1404b9278: SMI_SecureCapsuleFlash_Old
+0x1404b93e0: Ihisi_4Dh
+0x1404b94f8: SMI_SpecificCheckByBios
+0x1404b95a8: Not allow flash
+0x1404b95c8: Allow flash
+0x1404b95e0: BIOS requested size is bigger than 64KB
+0x1404b9630: Invalid address
+0x1404b9690: Invalid offset
+0x1404b96b0: Incorrect IHISI return code
+0x1404b96e8: Ihisi_80h
+0x1404b9700: SMI_GetIhisiAuthStatus
+0x1404b97b0: Ihisi_81h
+0x1404b97c8: SMI_IhisiAuthLock
+0x1404b97f0: Ihisi_82h
+0x1404b9808: SMI_IhisiAuthUnlock
+0x1404b9830: Ihisi_83h
+0x1404b9848: FuncGetBiosReservedMemoryInfo
+0x1404b9a00: SMI_GetBiosReservedMemoryInfo
+0x1404b9a40: Ihisi_84h
+0x1404b9a58: SMI_IhisiAuth
+0x1404b9a80: Input buffer is NULL but size not zero
+0x1404b9ad0: Input buffer is not NULL but size zero
+0x1404b9b90: InsydeFlash-F93936B2-EFE2-4dd8-8479-FC9356C8921F
+0x1404b9c08: -extrfd
+0x1404b9c18: -pq
+0x1404b9c20: -priv
+0x1404b9c30: -pr
+0x1404b9c38: -pi
+0x1404b9c40: -pw
+0x1404b9c48: -iv
+0x1404b9c50: -ecver:
+0x1404b9c60: -noconfirm
+0x1404b9c78: -ini:
+0x1404b9c90: -mfg
+0x1404b9cb0: -all
+0x1404b9cc0: -ft:
+0x1404b9cd0: -edt
+0x1404b9ce0: -extec:
+0x1404b9cf0: -pbi:
+0x1404b9d00: -dfAC:
+0x1404b9d10: -ecp
+0x1404b9d20: -logoupdate:
+0x1404b9d40: -forcetype
+0x1404b9d58: -forceit
+0x1404b9d70: -nopause
+0x1404b9d88: -p=
+0x1404b9d90: -dumpwriterom
+0x1404b9db0: -qatest
+0x1404b9dc0: -noini
+0x1404b9dd0: -sfx7z
+0x1404b9de0: -OemCus
+0x1404b9df0: CUS
+0x1404b9e28: ParseEdtCommand
+0x1404b9e88: dw:
+0x1404b9e90: -base:
+0x1404b9ea0: -size:
+0x1404b9eb0: ProcessOemParameter
+0x1404b9f00: -l=
+0x1404b9f50: Show help
+0x1404ba0d0: Silent mode
+0x1404ba1e8: File not found
+0x1404ba208: Invalid parameter
+0x1404ba230: ProcessArgument
+0x1404ba250: No parameter
+0x1404ba270: -noini
+0x1404ba2a8: -dbg
+0x1404ba2b8: -dbgndt
+0x1404ba2c8: -sdbg
+0x1404ba2d8: -db
+0x1404ba2e0: -secondlogo
+0x1404ba330: OEM commmand
+0x1404ba350: -alp
+0x1404ba360: -unvs
+0x1404ba398:  -extrfd for package mode only
+0x1404ba438: -ppriv
+0x1404ba4b0: Show IHISI version
+0x1404ba578: -OemCus commmand parse failed
+0x1404ba5d8: -pwd:
+0x1404ba630: -edt command parse failed
+0x1404ba690: Update device firmware only
+0x1404ba6f8: Update external EC
+0x1404ba750: Query external EC version
+0x1404ba7a8: -ecp command parse failed
+0x1404ba7e0: Update EC with progress
+0x1404ba810: -ec_crisis
+0x1404ba860: -ec_crisis command parse failed
+0x1404ba8a0: Flash EC protect block
+0x1404ba908: Update logo capsule
+0x1404ba970: BIOS file not found
+0x1404ba998: Invalid argument
+0x1404ba9e8: execApp
+0x1404baa20: -edt##:
+0x1404baa30: -base
+0x1404baa40: -size
+0x1404baa50: CheckArgumentWithCommandFilter
+0x1404bab30: Input command not support on current platform
+0x1404bab90: CheckIniWithCommandFilter
+0x1404babf8: *.fd
+0x1404bac08: AutoSearchRomFile
+0x1404bac30: No FD file in directory
+0x1404bac60: FindProcessFd
+0x1404bac80: Found FD in argument
+0x1404bacb0: No need FD for console mode
+0x1404bacf0: Found FD in ini Multi FD section
+0x1404bad38: Found FD in ini FDFile section
+0x1404bad78: Process capsule audit failed
+0x1404badc0: Found FD in ini CapsuleAudit section
+0x1404bae10: isflash.bin
+0x1404bae30: Found secure FD in current folder
+0x1404bae78: Found FD in current folder
+0x1404baeb0: No match FD found
+0x1404baed8: UpdateBinaryCapsuleWithoutBios
+0x1404baf18: Not secure image, by pass
+0x1404baf50: Capsule contains BIOS binary, by pass go normal flow
+0x1404bafc0: External EC not allow to update
+0x1404bb000: Non-share EC not allow to update
+0x1404bb048: LoadProtectAreaOnlyFile
+0x1404bb080: Flash protect area file load failed
+0x1404bb0d0: Flash protect area file load success
+0x1404bb120: LoadFile
+0x1404bb180: The utility process has not be completed.
+0x1404bb1d8: Flash Module cannot be found.
+0x1404bb218: No BIOS file found
+0x1404bb310: Update binary capsule without BIOS failed
+0x1404bb368: Get FD size failed
+0x1404bb3d0: Check input image failed
+0x1404bb408: Get external region MAP failed
+0x1404bb448: External region not valid
+0x1404bb4d0: BvdtProtectRomMap
+0x1404bb4f8: BVDT MAP signature not found
+0x1404bb538: Read memory buffer failed
+0x1404bb570: Signature not found
+0x1404bb598: GetBvdtInfoFromBuffer
+0x1404bb5c8: BVDT not found
+0x1404bb5e8: BVDT not found (End Signature)
+0x1404bb628: BVDT Table Size not current
+0x1404bb9a8: BVDT table not found
+0x1404bb9d8: ProcessPrivateRegionMovement
+0x1404bbc50: *.bin
+0x1404bbcd8: DeleteEspTargetFile
+0x1404bbd00: EFI\Insyde
+0x1404bbd18: %c:\%s\%s
+0x1404bbe38: DeleteEspLogFile
+0x1404bbe60: %c:\*.log
+0x1404bbe78: Finding file failed
+0x1404bbea8: %c:\%s
+0x1404bbf20: AssureEspDirExists
+0x1404bbf48: %c:\EFI
+0x1404bbf58: Create dir failed
+0x1404bbfc0: Delete exist file failed
+0x1404bbff8: CopyFileToEsp
+0x1404bc0e8: Write file to ESP failed
+0x1404bc160: Read source file failed
+0x1404bc1e8: Copy failed
+0x1404bc330: IsSpaceEnough
+0x1404bc350: %c:
+0x1404bc358: Get capsule file size failed
+0x1404bc398: Get Disk free space failed
+0x1404bc4c0: Disk space NOT enough
+0x1404bc4f0: PreCopyFileToEsp
+0x1404bc518: Mount ESP failed
+0x1404bc588: PostCopyFileToEsp
+0x1404bc5b0: DoCopySecureCapsuleToEsp
+0x1404bc5f0: Pre process of copy file to ESP failed
+0x1404bc640: ESP disk space not enough
+0x1404bc680: Post process of copy file to ESP failed
+0x1404bc8c0: -db
+0x1404bc8d0: -dbg
+0x1404bc8e0: -dbgndt
+0x1404bc8f8: -qatest
+0x1404bc970: ProcessIniConfig
+0x1404bc998: Get ini value table failed
+0x1404bc9d0: Get secure fd failed
+0x1404bcc78: SetCommandOverrideVariable
+0x1404bccf0: FlashCommand
+0x1404bd0a6: #TAG_MSG_ROM_INFO#
+0x1404bd0d0: #TAG_MSG_ROM_INFO#
+0x1404bd0f8: #TAG_MSG_CUSTOMIZE#
+0x1404bd120: <N/A>
+0x1404bd148: IsAttachConsole
+0x1404bd178: InitConsoleProcess
+0x1404bd1a0: Create console failed
+0x1404bd1d0: Attach console failed
+0x1404bd214:     
+0x1404bd226:     
+0x1404bd230: Console not exist
+0x1404bd258: DoConsolePrint
+0x1404bd278: ExitConsoleProcess
+0x1404bd408: RunConsoleModeQueryCommand
+0x1404bd440: Not query command
+0x1404bd468: RunConsoleModeUpdateCommand
+0x1404bd5b0: UpdateAllCustomizeData
+0x1404bd5e0: Input structure failed
+0x1404bd610: Read file failed
+0x1404bd638: Update failed
+0x1404bd658: DecryptFileW
+0x1404bd6c8: Read public key failed
+0x1404bd730: Decrypt file failed
+0x1404bd758: UpdateDeviceFirmware
+0x1404bd790: Get device firmware information failed
+0x1404bd7e0: Convert device firmware failed
+0x1404bd820: Skip this device firmware
+0x1404bd858: UpdateAllDeviceFirmware
+0x1404bd888: UpdateDeviceFirmwareInConsole
+0x1404bd8c8: %d%%
+0x1404bd8d8: %d%% elapse:%2dsec
+0x1404bd900: CompareEc
+0x1404bd918: Input image is NULL
+0x1404bd940: Memory allocate failed
+0x1404bd970: Query EC actual size failed
+0x1404bda10: Actual EC size larger than EC file size
+0x1404bda60: Read EC failed
+0x1404bda80: EC mismatch
+0x1404bdaa8: Hook point return error status
+0x1404bdae8: ConsoleFlashEcWithPrograssBar
+0x1404bdb28: UpdateExternalEcMain
+0x1404bdbb0: Write ROM failed
+0x1404bdbd8: UpdateExternalEc
+0x1404bdc00: IsNonShareEcAllowToUpdate
+0x1404bdc60: EC image not match with EC region
+0x1404bdca8: EC image larger than EC region
+0x1404bdce8: EC file size too small
+0x1404bdd28: IsEcAllowToUpdate
+0x1404bddf8: UpdateNonShareEcInConsole
+0x1404bde30: Invalid filename
+0x1404bde58: Load file failed
+0x1404bde80: EC not allow to update
+0x1404bdeb0: Update external EC failed
+0x1404bdee8: UpdateExternalEcInConsole
+0x1404bdf20: Get Intel region map failed
+0x1404bdf58: LoadEcBinary
+0x1404be070: QueryExternalEcVersion
+0x1404be198: main.ini
+0x1404be1b0: res.ini
+0x1404be1c0: InitialToolEnvironment
+0x1404be1f0: Another instance is running
+0x1404be228: Exe or dll auth check failed
+0x1404be268: SMI locked
+0x1404be280: Load driver failed
+0x1404be2a8: Initial log file failed
+0x1404be310: UninitialToolEnvironment
+0x1404be350: Tool environment not initialized or already unnitialed
+0x1404be3c0: platforms.ini
+0x1404be570: DoAdaptabilityCheck
+0x1404be598: Some check not passed
+0x1404be628: IdentifyFvVersion
+0x1404be650: IsSpecifiedFfs
+0x1404be670: Not a firmware volume
+0x1404be6a0: FV GUID not found
+0x1404be6c8: FindSpecifyFv
+0x1404be6e8: Found in FV ext header
+0x1404be718: Found in FFS
+0x1404be738: FindDxeFv
+0x1404be7b8: DXE FV not found
+0x1404be7e0: GetUncompressedData
+0x1404be808: ParseDxeInfoFromImage
+0x1404be838: DXE firmware volume not found
+0x1404be978: Flow_Initialization
+0x1404be9a0: Onboard BIOS must support to report whole ROM region MAP
+0x1404bea18: Get platform ROM MAP failed
+0x1404bea50: Get flash part information failed
+0x1404bea98: Check ATp status failed
+0x1404bead0: Get platform information failed
+0x1404beb78: ODM not allow flash
+0x1404beba0: Power check failed
+0x1404bec30: BIOS not allow to flash.
+0x1404bec68: messagestringA01
+0x1404bec90: Not allow secure flash on normal platform
+0x1404becf0: Process private region movement failed
+0x1404bed40: Private map not found in BVDT
+0x1404bed80: IsNewBiosVersionAllowToFlash
+0x1404bedc0: Error occur in SMI_CheckConditionalData, still continue flash
+0x1404bee40: Not allow to flash
+0x1404bee68: platform.ini
+0x1404bee90: %d,%d
+0x1404beea0: %s,"%s"
+0x1404beeb8: PrepareIniPassingData
+0x1404beee8: [55AA]
+0x1404bef38: InitialIniPath
+0x1404bef58: package.bin
+0x1404bef98: ProcessConfig
+0x1404befb8: ProcessMultiFdIniOverwrite
+0x1404beff0: f709f8c9-97d7-4fb8-9666-ece4af775ee6.ini
+0x1404bf048: FDFile
+0x1404bf058: BackupROM
+0x1404bf070: UpdateBlock
+0x1404bf088: FlashSecureBIOSOverride
+0x1404bf0b8: Option
+0x1404bf0c8: ReturnErrorCode
+0x1404bf0e8: UpdateExtraData
+0x1404bf108: ReturnCodeDefinition
