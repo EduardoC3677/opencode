@@ -234,7 +234,7 @@ jobs:
         run: |
           set -euo pipefail
           export PATH="$HOME/.opencode/bin:$PATH"
-          swarm setup
+          
 
       - name: Check dependencies
         if: steps.route.outputs.should_run == 'true'
@@ -495,8 +495,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AZURE_OPENAI_API_KEY1: ${{ secrets.AZURE_OPENAI_API_KEY1 }}
           OPENCODE_CONFIG: ${{ github.workspace }}/opencode.json
-          OPENCODE_PERMISSION: >-
-            {"*":"allow","question":"deny","read":"allow","glob":"allow","grep":"allow","list":"allow","lsp":"allow","skill":{"*":"allow"},"webfetch":"allow","websearch":"allow","task":"deny","todowrite":"allow","repo_overview":"allow","repo_clone":"allow","external_directory":"allow","edit":"allow","github_*":"allow","context7_*":"allow","playwright_*":"allow","bash":{"*":"allow","rm -rf *":"deny"}}
           OPENCODE_PROMPT: ${{ steps.prompt.outputs.prompt }}
         run: |
           set -euo pipefail
@@ -509,7 +507,7 @@ jobs:
           echo "::group::OpenCode automation"
           set +e
           opencode run \
-            --model azure-foundry/gpt-5.4 \
+            --model azure-foundry/claude-opus-4-8 \
             --agent "${{ steps.route.outputs.agent }}" \
             "$(cat "$prompt_file")" \
             2>&1 | sed -u 's/^/[opencode] /' | tee "$log_file"
