@@ -115,6 +115,10 @@ jobs:
             cp package.json "$TARGET/package.json"
             echo "Copied package.json"
           fi
+          if [ -f opencode.json ]; then
+            cp opencode.json "$TARGET/opencode.json"
+            echo "Copied opencode.json"
+          fi
 
       - name: Commit and push to target repo
         run: |
