@@ -1,0 +1,599 @@
+Tue 04/16/2024 17:55:26.87[Log TRACE]  Call NAPP4P_Finalize_LogBackup.cmd 
+Tue 04/16/2024 17:55:26.87[Log TRACE]  Find /i "CPU=X64" C:\OEM\PRELOAD\command\POP*.ini
+
+---------- C:\OEM\PRELOAD\COMMAND\POP01S0E99X00C01.INI
+CPU=X64
+Tue 04/16/2024 17:55:26.89[Log TRACE]  Find /i "CPU=ARM64" C:\OEM\PRELOAD\command\POP*.ini
+
+---------- C:\OEM\PRELOAD\COMMAND\POP01S0E99X00C01.INI
+
+
+Tue 04/16/2024 17:55:26.89[Log Start]  Start to create PreloadBackup.zip 
+Tue 04/16/2024 17:55:26.89[Log Trace]  =================================================================
+Tue 04/16/2024 17:55:26.89[Log TRACE]  XCOPY C:\OEM\NAPP\*.* C:\OEM\PreloadBackup\OEM\NAPP\*.* /vesyf 
+C:\OEM\NAPP\CheckFreeSpaceTag.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\CheckFreeSpaceTag.cmd
+C:\OEM\NAPP\CompactOff.tag -> C:\OEM\PreloadBackup\OEM\NAPP\CompactOff.tag
+C:\OEM\NAPP\FindValidDriveLetter.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\FindValidDriveLetter.cmd
+C:\OEM\NAPP\GetDiskPartIndex.vbs -> C:\OEM\PreloadBackup\OEM\NAPP\GetDiskPartIndex.vbs
+C:\OEM\NAPP\GoToNAPP.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\GoToNAPP.cmd
+C:\OEM\NAPP\GoToNAPP.log -> C:\OEM\PreloadBackup\OEM\NAPP\GoToNAPP.log
+C:\OEM\NAPP\LogBackup_CleanLogFolder.ps1 -> C:\OEM\PreloadBackup\OEM\NAPP\LogBackup_CleanLogFolder.ps1
+C:\OEM\NAPP\LogBackup_SystemInfo.ps1 -> C:\OEM\PreloadBackup\OEM\NAPP\LogBackup_SystemInfo.ps1
+C:\OEM\NAPP\LPCD.dat -> C:\OEM\PreloadBackup\OEM\NAPP\LPCD.dat
+C:\OEM\NAPP\MountPartition.exe -> C:\OEM\PreloadBackup\OEM\NAPP\MountPartition.exe
+C:\OEM\NAPP\MountPartition_arm64.exe -> C:\OEM\PreloadBackup\OEM\NAPP\MountPartition_arm64.exe
+C:\OEM\NAPP\NAPP.dat -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP.dat
+C:\OEM\NAPP\NAPP.log -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP.log
+C:\OEM\NAPP\NAPP.tag -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP.tag
+C:\OEM\NAPP\NAPP1P_Finalize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP1P_Finalize.cmd
+C:\OEM\NAPP\NAPP2P_ApplyImageToOSdrive.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP2P_ApplyImageToOSdrive.cmd
+C:\OEM\NAPP\NAPP2P_DismApplyOSImage.log -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP2P_DismApplyOSImage.log
+C:\OEM\NAPP\NAPP2P_Finalize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP2P_Finalize.cmd
+C:\OEM\NAPP\NAPP2P_Finalize_Checkflow.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP2P_Finalize_Checkflow.cmd
+C:\OEM\NAPP\NAPP2P_Finalize_ManufacturingMode.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP2P_Finalize_ManufacturingMode.cmd
+C:\OEM\NAPP\NAPP2P_Finalize_TPMNoAutoProvision.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP2P_Finalize_TPMNoAutoProvision.cmd
+C:\OEM\NAPP\NAPP2P_Initialize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP2P_Initialize.cmd
+C:\OEM\NAPP\NAPP3PStateDetection.ps1 -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP3PStateDetection.ps1
+C:\OEM\NAPP\NAPP3P_Finalize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP3P_Finalize.cmd
+C:\OEM\NAPP\NAPP3P_Initialize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP3P_Initialize.cmd
+C:\OEM\NAPP\NAPP4P_Finalize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP4P_Finalize.cmd
+C:\OEM\NAPP\NAPP4P_Finalize_Cleanup.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP4P_Finalize_Cleanup.cmd
+C:\OEM\NAPP\NAPP4P_Finalize_LogBackup.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP4P_Finalize_LogBackup.cmd
+C:\OEM\NAPP\NAPP4P_Finalize_Main.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP4P_Finalize_Main.cmd
+C:\OEM\NAPP\NAPP4P_Initialize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP4P_Initialize.cmd
+C:\OEM\NAPP\NappFlag.xml -> C:\OEM\PreloadBackup\OEM\NAPP\NappFlag.xml
+C:\OEM\NAPP\NAPP_SLP.tag -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP_SLP.tag
+C:\OEM\NAPP\OSLRCD.dat -> C:\OEM\PreloadBackup\OEM\NAPP\OSLRCD.dat
+C:\OEM\NAPP\RCD.dat -> C:\OEM\PreloadBackup\OEM\NAPP\RCD.dat
+C:\OEM\NAPP\SetBootFromNAPP.log -> C:\OEM\PreloadBackup\OEM\NAPP\SetBootFromNAPP.log
+C:\OEM\NAPP\ShowErrMsg.vbs -> C:\OEM\PreloadBackup\OEM\NAPP\ShowErrMsg.vbs
+C:\OEM\NAPP\SystemCD.dat -> C:\OEM\PreloadBackup\OEM\NAPP\SystemCD.dat
+C:\OEM\NAPP\UserAlaunch1st_Finalize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\UserAlaunch1st_Finalize.cmd
+C:\OEM\NAPP\UserAlaunch1st_Initialize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\UserAlaunch1st_Initialize.cmd
+C:\OEM\NAPP\UserAlaunch2nd_Finalize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\UserAlaunch2nd_Finalize.cmd
+C:\OEM\NAPP\UserAlaunch2nd_Initialize.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\UserAlaunch2nd_Initialize.cmd
+C:\OEM\NAPP\vols.log -> C:\OEM\PreloadBackup\OEM\NAPP\vols.log
+C:\OEM\NAPP\_CheckingOSDriveFreeSpace.vbs -> C:\OEM\PreloadBackup\OEM\NAPP\_CheckingOSDriveFreeSpace.vbs
+C:\OEM\NAPP\_CheckingOSDriveFreeSpaceNoMsg.vbs -> C:\OEM\PreloadBackup\OEM\NAPP\_CheckingOSDriveFreeSpaceNoMsg.vbs
+C:\OEM\NAPP\_CreateSmallStorageTag.vbs -> C:\OEM\PreloadBackup\OEM\NAPP\_CreateSmallStorageTag.vbs
+C:\OEM\NAPP\_listUsingDriveLetters.vbs -> C:\OEM\PreloadBackup\OEM\NAPP\_listUsingDriveLetters.vbs
+C:\OEM\NAPP\NAPP4P_Patch\ClearDefaultPassword.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP4P_Patch\ClearDefaultPassword.cmd
+C:\OEM\NAPP\NAPP4P_Patch\MOD01S00JW00600001.enc -> C:\OEM\PreloadBackup\OEM\NAPP\NAPP4P_Patch\MOD01S00JW00600001.enc
+C:\OEM\NAPP\OBRSetTool\CopyEFI_byOEM.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\OBRSetTool\CopyEFI_byOEM.cmd
+C:\OEM\NAPP\OBRSetTool\Lang.XML -> C:\OEM\PreloadBackup\OEM\NAPP\OBRSetTool\Lang.XML
+C:\OEM\NAPP\OBRSetTool\modifybcdtoPBR.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\OBRSetTool\modifybcdtoPBR.cmd
+C:\OEM\NAPP\OBRSetTool\modifybcdtoWinRE.cmd -> C:\OEM\PreloadBackup\OEM\NAPP\OBRSetTool\modifybcdtoWinRE.cmd
+C:\OEM\NAPP\OBRSetTool\OBRSetTool_amd64.exe -> C:\OEM\PreloadBackup\OEM\NAPP\OBRSetTool\OBRSetTool_amd64.exe
+C:\OEM\NAPP\OBRSetTool\OBRSetTool_x86.exe -> C:\OEM\PreloadBackup\OEM\NAPP\OBRSetTool\OBRSetTool_x86.exe
+C:\OEM\NAPP\OBRSetTool\Log\modifybcdLog.log -> C:\OEM\PreloadBackup\OEM\NAPP\OBRSetTool\Log\modifybcdLog.log
+C:\OEM\NAPP\OBRSetTool\Log\OBRSetTool.log -> C:\OEM\PreloadBackup\OEM\NAPP\OBRSetTool\Log\OBRSetTool.log
+56 File(s) copied
+Tue 04/16/2024 17:55:26.94[Log TRACE]  XCOPY C:\OEM\Preload\DPOP\Sysprep\*.* C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\*.* /vesyf 
+C:\OEM\Preload\DPOP\Sysprep\Acer_sysprep.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\Acer_sysprep.cmd
+C:\OEM\Preload\DPOP\Sysprep\Acer_sysprep_ChangeWallpaper.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\Acer_sysprep_ChangeWallpaper.cmd
+C:\OEM\Preload\DPOP\Sysprep\Acer_sysprep_Numlock.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\Acer_sysprep_Numlock.cmd
+C:\OEM\Preload\DPOP\Sysprep\Acer_sysprep_SetEdgeFavoriteBar.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\Acer_sysprep_SetEdgeFavoriteBar.cmd
+C:\OEM\Preload\DPOP\Sysprep\Acer_sysprep_SetNotificationICON.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\Acer_sysprep_SetNotificationICON.cmd
+C:\OEM\Preload\DPOP\Sysprep\DetectFirmwareInterface_AMD64.exe -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\DetectFirmwareInterface_AMD64.exe
+C:\OEM\Preload\DPOP\Sysprep\DetectFirmwareInterface_X86.exe -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\DetectFirmwareInterface_X86.exe
+C:\OEM\Preload\DPOP\Sysprep\MOD01OPK0100920008.enc -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\MOD01OPK0100920008.enc
+C:\OEM\Preload\DPOP\Sysprep\MOD01OPK0F0092000D.enc -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\MOD01OPK0F0092000D.enc
+C:\OEM\Preload\DPOP\Sysprep\NumLock.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\NumLock.vbs
+C:\OEM\Preload\DPOP\Sysprep\Offline_Unattend.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\Offline_Unattend.cmd
+C:\OEM\Preload\DPOP\Sysprep\RUN.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\RUN.cmd
+C:\OEM\Preload\DPOP\Sysprep\SetP2Active.txt -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SetP2Active.txt
+C:\OEM\Preload\DPOP\Sysprep\_AddSysprepXmlDisableAntiSpyware.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_AddSysprepXmlDisableAntiSpyware.vbs
+C:\OEM\Preload\DPOP\Sysprep\_BackupFile.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_BackupFile.vbs
+C:\OEM\Preload\DPOP\Sysprep\_ChangeWPAsConceptD.ps1 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_ChangeWPAsConceptD.ps1
+C:\OEM\Preload\DPOP\Sysprep\_GetAV.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_GetAV.vbs
+C:\OEM\Preload\DPOP\Sysprep\_MergeNewGCMMRDandSysprepXML.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_MergeNewGCMMRDandSysprepXML.vbs
+C:\OEM\Preload\DPOP\Sysprep\_RemoveUnnecessarySysprepItem.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_RemoveUnnecessarySysprepItem.vbs
+C:\OEM\Preload\DPOP\Sysprep\_RemoveXMLUnwantNS.ps1 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_RemoveXMLUnwantNS.ps1
+C:\OEM\Preload\DPOP\Sysprep\_SetPersistAllDeviceInstalls.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_SetPersistAllDeviceInstalls.vbs
+C:\OEM\Preload\DPOP\Sysprep\_UpdateSysprepXmlNotificationIcon.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\_UpdateSysprepXmlNotificationIcon.vbs
+C:\OEM\Preload\DPOP\Sysprep\factory\AcerReboot.exe -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\AcerReboot.exe
+C:\OEM\Preload\DPOP\Sysprep\factory\AddTaskbarLayoutPath.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\AddTaskbarLayoutPath.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\AddTaskbarLayoutPath2.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\AddTaskbarLayoutPath2.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\FactorySysprep_FirstRunTask.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\FactorySysprep_FirstRunTask.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\FactorySysprep_LayoutModification.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\FactorySysprep_LayoutModification.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\FactorySysprep_SFC.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\FactorySysprep_SFC.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\FactorySysprep_TBLayoutModification.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\FactorySysprep_TBLayoutModification.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\Factory_sysprep.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\Factory_sysprep.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\Factory_sysprep_Vars.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\Factory_sysprep_Vars.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\FirstRunTask.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\FirstRunTask.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\GenerateFirstRunTask.ps1 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\GenerateFirstRunTask.ps1
+C:\OEM\Preload\DPOP\Sysprep\factory\GenerateLayoutModification.ps1 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\GenerateLayoutModification.ps1
+C:\OEM\Preload\DPOP\Sysprep\factory\LayoutModification_T.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\LayoutModification_T.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\RestoreAppAssoc.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\RestoreAppAssoc.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\RestoreUnattend.ps1 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\RestoreUnattend.ps1
+C:\OEM\Preload\DPOP\Sysprep\factory\RestoreUnattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\RestoreUnattend.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SUB_AddTaskbarLayoutPath.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SUB_AddTaskbarLayoutPath.cmd
+C:\OEM\Preload\DPOP\Sysprep\factory\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\Sysprep.xml.2024Y04M16DH17M53S09R74 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\Sysprep.xml.2024Y04M16DH17M53S09R74
+C:\OEM\Preload\DPOP\Sysprep\factory\TaskbarLayoutPath.reg -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\TaskbarLayoutPath.reg
+C:\OEM\Preload\DPOP\Sysprep\factory\TaskbarLayoutPath_Online.reg -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\TaskbarLayoutPath_Online.reg
+C:\OEM\Preload\DPOP\Sysprep\factory\ToUTF8.ps1 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\ToUTF8.ps1
+C:\OEM\Preload\DPOP\Sysprep\factory\_AddOOBEHideWirelessToSysprepxml.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\_AddOOBEHideWirelessToSysprepxml.vbs
+C:\OEM\Preload\DPOP\Sysprep\factory\_AddPromoteOEMTilesToSysprepxml.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\_AddPromoteOEMTilesToSysprepxml.vbs
+C:\OEM\Preload\DPOP\Sysprep\factory\__MRD_MergeWithSysprepXML.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\__MRD_MergeWithSysprepXML.vbs
+C:\OEM\Preload\DPOP\Sysprep\factory\FirstRunTask\AUMID_AcerRegistration.txt -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\FirstRunTask\AUMID_AcerRegistration.txt
+C:\OEM\Preload\DPOP\Sysprep\factory\HVCI_VBS\HVCI_VBS.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\HVCI_VBS\HVCI_VBS.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Acer\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Acer\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Altos\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Altos\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Founder\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Founder\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Gateway\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Gateway\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Packard\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\amd64\Packard\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\ARM64\Acer\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\ARM64\Acer\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\x86\Acer\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\x86\Acer\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\x86\Founder\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\x86\Founder\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\x86\Gateway\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\x86\Gateway\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\x86\Packard\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\factory\SysprepXml\x86\Packard\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\GenerateFVXML\FVMRDFoot.txt -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\GenerateFVXML\FVMRDFoot.txt
+C:\OEM\Preload\DPOP\Sysprep\GenerateFVXML\FVMRDHead.txt -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\GenerateFVXML\FVMRDHead.txt
+C:\OEM\Preload\DPOP\Sysprep\GenerateFVXML\GenerateFVXML.cmd -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\GenerateFVXML\GenerateFVXML.cmd
+C:\OEM\Preload\DPOP\Sysprep\GenerateFVXML\GetFVListFormGCMXML.vbs -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\GenerateFVXML\GetFVListFormGCMXML.vbs
+C:\OEM\Preload\DPOP\Sysprep\GenerateFVXML\NodeFoot.txt -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\GenerateFVXML\NodeFoot.txt
+C:\OEM\Preload\DPOP\Sysprep\GenerateFVXML\NodeHead.txt -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\GenerateFVXML\NodeHead.txt
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml.2024Y04M16DH17M53S10R97 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml.2024Y04M16DH17M53S10R97
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml.2024Y04M16DH18M10S49R44 -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml.2024Y04M16DH18M10S49R44
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml.2024Y4M16D17H53M9S -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml.2024Y4M16D17H53M9S
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml.2024Y4M16D18H10M47S -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Acer\Unattend.xml.2024Y4M16D18H10M47S
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Altos\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Altos\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Founder\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Founder\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Gateway\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Gateway\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Packard\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\amd64\Packard\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\ARM64\Acer\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\ARM64\Acer\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\x86\Acer\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\x86\Acer\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\x86\Founder\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\x86\Founder\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\x86\Gateway\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\x86\Gateway\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\OfflineRCD\x86\Packard\Unattend.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\OfflineRCD\x86\Packard\Unattend.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\Acer\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\Acer\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\ALTOS\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\ALTOS\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\Founder\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\Founder\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\Gateway\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\Gateway\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\Packard\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\amd64\Packard\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\x86\Acer\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\x86\Acer\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\x86\Founder\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\x86\Founder\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\x86\Gateway\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\x86\Gateway\Sysprep.xml
+C:\OEM\Preload\DPOP\Sysprep\SysprepXml\x86\Packard\Sysprep.xml -> C:\OEM\PreloadBackup\OEM\Preload\DPOP\Sysprep\SysprepXml\x86\Packard\Sysprep.xml
+88 File(s) copied
+Tue 04/16/2024 17:55:27.01[Log TRACE]  XCOPY C:\OEM\Preload\utility\GCM\*.xml C:\OEM\PreloadBackup\OEM\Preload\utility\GCM\*.* /vesyf 
+C:\OEM\Preload\utility\GCM\FVMRD.xml -> C:\OEM\PreloadBackup\OEM\Preload\utility\GCM\FVMRD.xml
+C:\OEM\Preload\utility\GCM\TBMRD.xml -> C:\OEM\PreloadBackup\OEM\Preload\utility\GCM\TBMRD.xml
+2 File(s) copied
+Tue 04/16/2024 17:55:27.03[Log TRACE]  XCOPY C:\OEM\Preload\utility\GCM\*.json C:\OEM\PreloadBackup\OEM\Preload\utility\GCM\*.* /vesyf 
+C:\OEM\Preload\utility\GCM\SMRMMRD.json -> C:\OEM\PreloadBackup\OEM\Preload\utility\GCM\SMRMMRD.json
+C:\OEM\Preload\utility\GCM\SMRMMRD_utf8.json -> C:\OEM\PreloadBackup\OEM\Preload\utility\GCM\SMRMMRD_utf8.json
+2 File(s) copied
+Tue 04/16/2024 17:55:27.04[Log TRACE]  XCOPY C:\OEM\Preload\utility\*.log C:\OEM\PreloadBackup\OEM\Preload\utility\*.* /vesyf 
+C:\OEM\Preload\utility\PreloadSystemInfo_2024_04_16_17_29_46_219.log -> C:\OEM\PreloadBackup\OEM\Preload\utility\PreloadSystemInfo_2024_04_16_17_29_46_219.log
+C:\OEM\Preload\utility\PreloadSystemInfo_2024_04_16_17_29_46_266.log -> C:\OEM\PreloadBackup\OEM\Preload\utility\PreloadSystemInfo_2024_04_16_17_29_46_266.log
+C:\OEM\Preload\utility\PreloadSystemInfo_2024_04_16_17_29_46_392.log -> C:\OEM\PreloadBackup\OEM\Preload\utility\PreloadSystemInfo_2024_04_16_17_29_46_392.log
+C:\OEM\Preload\utility\PreloadSystemInfo_2024_04_16_17_29_46_439.log -> C:\OEM\PreloadBackup\OEM\Preload\utility\PreloadSystemInfo_2024_04_16_17_29_46_439.log
+C:\OEM\Preload\utility\vols.log -> C:\OEM\PreloadBackup\OEM\Preload\utility\vols.log
+C:\OEM\Preload\utility\GCM\GCMT_V.log -> C:\OEM\PreloadBackup\OEM\Preload\utility\GCM\GCMT_V.log
+6 File(s) copied
+Tue 04/16/2024 17:55:27.08[Log TRACE]  XCOPY C:\OEM\Preload\SCL\*.* C:\OEM\PreloadBackup\OEM\Preload\SCL\*.* /vesyf 
+C:\OEM\Preload\SCL\PCD000000006BF.dat -> C:\OEM\PreloadBackup\OEM\Preload\SCL\PCD000000006BF.dat
+C:\OEM\Preload\SCL\PCD000000006BL.dat -> C:\OEM\PreloadBackup\OEM\Preload\SCL\PCD000000006BL.dat
+C:\OEM\Preload\SCL\RCD_.dat -> C:\OEM\PreloadBackup\OEM\Preload\SCL\RCD_.dat
+C:\OEM\Preload\SCL\SCD_RV02RC.dat -> C:\OEM\PreloadBackup\OEM\Preload\SCL\SCD_RV02RC.dat
+4 File(s) copied
+Tue 04/16/2024 17:55:27.09[Log TRACE]  XCOPY C:\OEM\AcerLogs\*.* C:\OEM\PreloadBackup\OEM\AcerLogs\*.* /vesyf 
+C:\OEM\AcerLogs\AcerOA30.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AcerOA30.log
+C:\OEM\AcerLogs\BeforeOOBE.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\BeforeOOBE.log
+C:\OEM\AcerLogs\DismCleanupImage.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DismCleanupImage.log
+C:\OEM\AcerLogs\DismCleanupImage_2024-04-16-23-46-06.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DismCleanupImage_2024-04-16-23-46-06.log
+C:\OEM\AcerLogs\DISM_ApplyLPWiM.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_ApplyLPWiM.log
+C:\OEM\AcerLogs\DISM_EnableVMP.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_EnableVMP.log
+C:\OEM\AcerLogs\DISM_GDR.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_GDR.log
+C:\OEM\AcerLogs\DISM_GDR_2023-06-07-13-18-54.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_GDR_2023-06-07-13-18-54.log
+C:\OEM\AcerLogs\DISM_GDR_2024-04-17-01-51-56.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_GDR_2024-04-17-01-51-56.log
+C:\OEM\AcerLogs\DISM_NetFX3.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_NetFX3.log
+C:\OEM\AcerLogs\DISM_WinRE.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_WinRE.log
+C:\OEM\AcerLogs\DISM_WinRE_2024-04-17-02-10-44.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_WinRE_2024-04-17-02-10-44.log
+C:\OEM\AcerLogs\DriverInstallation.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverInstallation.log
+C:\OEM\AcerLogs\eRecovery_tool.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\eRecovery_tool.log
+C:\OEM\AcerLogs\FactoryDeviceStatus.txt -> C:\OEM\PreloadBackup\OEM\AcerLogs\FactoryDeviceStatus.txt
+C:\OEM\AcerLogs\GCMAPP_Check.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\GCMAPP_Check.log
+C:\OEM\AcerLogs\InstallAppx.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\InstallAppx.log
+C:\OEM\AcerLogs\LanguageInjection.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\LanguageInjection.log
+C:\OEM\AcerLogs\MigLog.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\MigLog.xml
+C:\OEM\AcerLogs\NAPP2P.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\NAPP2P.log
+C:\OEM\AcerLogs\NAPP4P.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\NAPP4P.log
+C:\OEM\AcerLogs\OLEDmonitor_check.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\OLEDmonitor_check.log
+C:\OEM\AcerLogs\Patch.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\Patch.log
+C:\OEM\AcerLogs\Pending_GenerateOOBE.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\Pending_GenerateOOBE.log
+C:\OEM\AcerLogs\PowerManagementSetting.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\PowerManagementSetting.log
+C:\OEM\AcerLogs\PrepareForPBR.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\PrepareForPBR.log
+C:\OEM\AcerLogs\ScanState.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\ScanState.log
+C:\OEM\AcerLogs\SCD_WinPE.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\SCD_WinPE.log
+C:\OEM\AcerLogs\Useralaunch.Log -> C:\OEM\PreloadBackup\OEM\AcerLogs\Useralaunch.Log
+C:\OEM\AcerLogs\WatchDog_AlaunchX.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\WatchDog_AlaunchX.log
+C:\OEM\AcerLogs\WinPE.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\WinPE.log
+C:\OEM\AcerLogs\WinPEREDrivers.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\WinPEREDrivers.log
+C:\OEM\AcerLogs\WorkaroundForFirstBoot.Log -> C:\OEM\PreloadBackup\OEM\AcerLogs\WorkaroundForFirstBoot.Log
+C:\OEM\AcerLogs\WorkaroundForFirstBoot_WN.Log -> C:\OEM\PreloadBackup\OEM\AcerLogs\WorkaroundForFirstBoot_WN.Log
+C:\OEM\AcerLogs\__AlaunchXLogChecker.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\__AlaunchXLogChecker.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_BeforeOOBE_2024-04-16 17-13-25-301.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_BeforeOOBE_2024-04-16 17-13-25-301.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-14-12-374.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-14-12-374.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-17-08-389.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-17-08-389.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-20-37-687.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-20-37-687.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-29-45-575.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-29-45-575.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-30-36-921.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-30-36-921.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-31-26-918.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-31-26-918.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-35-57-626.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-35-57-626.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-38-01-056.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-38-01-056.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-41-15-886.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-41-15-886.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-43-04-792.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-43-04-792.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-45-09-689.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-45-09-689.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-47-54-087.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-47-54-087.log
+C:\OEM\AcerLogs\Backup\FIVT_2024_04_16_17_44_08_076.zip -> C:\OEM\PreloadBackup\OEM\AcerLogs\Backup\FIVT_2024_04_16_17_44_08_076.zip
+C:\OEM\AcerLogs\DISM_SCDWinPE\dism\dism.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\DISM_SCDWinPE\dism\dism.log
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D00DG009300AL.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D00DG009300AL.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D00E400930022.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D00E400930022.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D00FL0093002C.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D00FL0093002C.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D00MJ0093001R.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D00MJ0093001R.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D013Y00930025.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D013Y00930025.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D014N00Z6000B.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D014N00Z6000B.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D016I0093000Y.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D016I0093000Y.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D017C00930034.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D017C00930034.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D019000930018.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D019000930018.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D019T00930016.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D019T00930016.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01CH00Z60009.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01CH00Z60009.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01DA00930005.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01DA00930005.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01DC0093000L.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01DC0093000L.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01DD0093001W.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01DD0093001W.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01DE0093000T.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01DE0093000T.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01EE00Z60003.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01EE00Z60003.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01EY00Z6000M.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01EY00Z6000M.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01FN00Z60001.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01FN00Z60001.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01G700Z60001.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01G700Z60001.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01G800Z60001.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01G800Z60001.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01GR0093000C.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01GR0093000C.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01GT0093002N.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01GT0093002N.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01HO00Z60004.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01HO00Z60004.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01I30093000F.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01I30093000F.xml
+C:\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01I40093000F.xml -> C:\OEM\PreloadBackup\OEM\AcerLogs\DriverSourceController\OutputENC\MOD01D01I40093000F.xml
+C:\OEM\AcerLogs\ManagerXLogs\ManagerX2023-05-29 18-51-43-901.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\ManagerXLogs\ManagerX2023-05-29 18-51-43-901.log
+C:\OEM\AcerLogs\ManagerXLogs\ModuleX2023-05-24 13-35-20-823.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\ManagerXLogs\ModuleX2023-05-24 13-35-20-823.log
+C:\OEM\AcerLogs\ManagerXLogs\ModuleX2023-05-25 13-52-43-561.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\ManagerXLogs\ModuleX2023-05-25 13-52-43-561.log
+C:\OEM\AcerLogs\MRDCreaterX\MRDCreaterX2024-04-16 17-53-06-648.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\MRDCreaterX\MRDCreaterX2024-04-16 17-53-06-648.log
+C:\OEM\AcerLogs\MRDCreaterX\MRDCreaterX2024-04-16 17-53-06-692.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\MRDCreaterX\MRDCreaterX2024-04-16 17-53-06-692.log
+C:\OEM\AcerLogs\MRDCreaterX\MRDCreaterX2024-04-16 18-10-46-998.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\MRDCreaterX\MRDCreaterX2024-04-16 18-10-46-998.log
+C:\OEM\AcerLogs\OfficeInstaller\RebootBeforeInstallation.tag -> C:\OEM\PreloadBackup\OEM\AcerLogs\OfficeInstaller\RebootBeforeInstallation.tag
+C:\OEM\AcerLogs\PatchCDLog\PCD000000006BF.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\PatchCDLog\PCD000000006BF.log
+C:\OEM\AcerLogs\PatchCDLog\PCD000000006BL.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\PatchCDLog\PCD000000006BL.log
+C:\OEM\AcerLogs\PatchCDLog\PCD000000006CS.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\PatchCDLog\PCD000000006CS.log
+C:\OEM\AcerLogs\PatchCDLog\PCD000000006CS_001.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\PatchCDLog\PCD000000006CS_001.log
+C:\OEM\AcerLogs\PreloadXLogs\PAP010ZT99X04C21.csv -> C:\OEM\PreloadBackup\OEM\AcerLogs\PreloadXLogs\PAP010ZT99X04C21.csv
+C:\OEM\AcerLogs\PreloadXLogs\PAT0100093000137.csv -> C:\OEM\PreloadBackup\OEM\AcerLogs\PreloadXLogs\PAT0100093000137.csv
+C:\OEM\AcerLogs\PreloadXLogs\PAT010009300013D.csv -> C:\OEM\PreloadBackup\OEM\AcerLogs\PreloadXLogs\PAT010009300013D.csv
+C:\OEM\AcerLogs\PreloadXLogs\PAT010009300014I.csv -> C:\OEM\PreloadBackup\OEM\AcerLogs\PreloadXLogs\PAT010009300014I.csv
+C:\OEM\AcerLogs\PreloadXLogs\PreInstallFromLPCD.csv -> C:\OEM\PreloadBackup\OEM\AcerLogs\PreloadXLogs\PreInstallFromLPCD.csv
+C:\OEM\AcerLogs\PreloadXLogs\PreloadX2023-05-30 10-03-50-471.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\PreloadXLogs\PreloadX2023-05-30 10-03-50-471.log
+C:\OEM\AcerLogs\PreloadXLogs\PreloadX_Patch2024-04-16 17-46-23-256.log -> C:\OEM\PreloadBackup\OEM\AcerLogs\PreloadXLogs\PreloadX_Patch2024-04-16 17-46-23-256.log
+93 File(s) copied
+Tue 04/16/2024 17:55:27.47[Log TRACE]  robocopy C:\OEM\AcerLogs C:\OEM\PreloadBackup\OEM\AcerLogs /e /a-:R /NP
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tuesday, April 16, 2024 5:55:27 PM
+   Source : C:\OEM\AcerLogs\
+     Dest : C:\OEM\PreloadBackup\OEM\AcerLogs\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /NP /A-:R /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  35	C:\OEM\AcerLogs\
+	                  13	C:\OEM\AcerLogs\AlaunchXLogs\
+	                   1	C:\OEM\AcerLogs\Backup\
+	                   0	C:\OEM\AcerLogs\DISM_SCDWinPE\
+	                   1	C:\OEM\AcerLogs\DISM_SCDWinPE\dism\
+	                   0	C:\OEM\AcerLogs\DriverSourceController\
+	                  25	C:\OEM\AcerLogs\DriverSourceController\OutputENC\
+	                   3	C:\OEM\AcerLogs\ManagerXLogs\
+	                   3	C:\OEM\AcerLogs\MRDCreaterX\
+	                   1	C:\OEM\AcerLogs\OfficeInstaller\
+	                   4	C:\OEM\AcerLogs\PatchCDLog\
+	                   7	C:\OEM\AcerLogs\PreloadXLogs\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        12         0        12         0         0         0
+   Files :        93         0        93         0         0         0
+   Bytes :  483.86 m         0  483.86 m         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Tuesday, April 16, 2024 5:55:27 PM
+
+Tue 04/16/2024 17:55:27.48[Log TRACE]  C:\OEM\Preload\utility\7za\amd64\7za.exe a C:\OEM\PreloadBackup.zip c:\oem\PreloadBackup
+
+7-Zip (a) 18.06 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2018-12-30
+
+Scanning the drive:
+117 folders, 251 files, 512531699 bytes (489 MiB)
+
+Creating archive: C:\OEM\PreloadBackup.zip
+
+Add new data to archive: 117 folders, 251 files, 512531699 bytes (489 MiB)
+
+
+Files read from disk: 251
+Archive size: 90234937 bytes (87 MiB)
+Everything is Ok
+Tue 04/16/2024 17:55:35.75[Log TRACE]  PreloadBackup.zip is ready
+Tue 04/16/2024 17:55:35.75[Log Leave]  =================================================================
+
+
+
+
+
+
+Tue 04/16/2024 17:55:35.75[Log Start]  Start to create LAS.zip 
+Tue 04/16/2024 17:55:35.75[Log TRACE]  =================================================================
+Tue 04/16/2024 17:55:35.75[Log TRACE]  MD C:\OEM\DeployLog\OEM\AcerLogs\AlaunchXLogs
+Tue 04/16/2024 17:55:35.75[Log TRACE]  COPY C:\OEM\AcerLogs\AlaunchXLogs\*.log C:\OEM\DeployLog\OEM\AcerLogs\AlaunchXLogs\
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_BeforeOOBE_2024-04-16 17-13-25-301.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-14-12-374.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-17-08-389.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-20-37-687.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-29-45-575.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-30-36-921.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-31-26-918.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-35-57-626.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-38-01-056.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-41-15-886.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-43-04-792.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-45-09-689.log
+C:\OEM\AcerLogs\AlaunchXLogs\AlaunchX_UserAlaunch_2024-04-16 17-47-54-087.log
+       13 file(s) copied.
+Tue 04/16/2024 17:55:35.76[Log TRACE]  COPY C:\OEM\AcerLogs\SCD_WinPE.log C:\OEM\DeployLog\OEM\AcerLogs\
+        1 file(s) copied.
+Tue 04/16/2024 17:55:35.76[Log TRACE]  COPY C:\OEM\AcerLogs\DriverInstallation.log C:\OEM\DeployLog\OEM\AcerLogs\
+        1 file(s) copied.
+Tue 04/16/2024 17:55:35.76[Log TRACE]  COPY C:\OEM\AcerLogs\NAPP2P.log C:\OEM\DeployLog\OEM\AcerLogs\
+        1 file(s) copied.
+Tue 04/16/2024 17:55:35.76[Log TRACE]  COPY C:\OEM\AcerLogs\NAPP4P.log C:\OEM\DeployLog\OEM\AcerLogs\
+        1 file(s) copied.
+Tue 04/16/2024 17:55:35.76[Log TRACE]  MD C:\OEM\DeployLog\OEM\NAPP
+Tue 04/16/2024 17:55:35.76[Log TRACE]  COPY C:\OEM\NAPP\LPCD*.dat C:\OEM\DeployLog\OEM\NAPP
+C:\OEM\NAPP\LPCD.dat
+        1 file(s) copied.
+Tue 04/16/2024 17:55:35.76[Log TRACE]  COPY C:\OEM\NAPP\NAPP.log C:\OEM\DeployLog\OEM\NAPP
+        1 file(s) copied.
+Tue 04/16/2024 17:55:35.76[Log TRACE]  MD C:\OEM\DeployLog\OEM\PRELOAD\command\alaunchx
+Tue 04/16/2024 17:55:35.76[Log TRACE]  COPY C:\OEM\PRELOAD\command\alaunchx\UserAlaunchX.ini C:\OEM\DeployLog\OEM\PRELOAD\command\alaunchx
+        1 file(s) copied.
+Tue 04/16/2024 17:55:35.78[Log TRACE]  COPY C:\OEM\PRELOAD\command\alaunchx\BeforeOOBE.ini C:\OEM\DeployLog\OEM\PRELOAD\command\alaunchx
+        1 file(s) copied.
+
+
+Create SystemInfo.ini
+**************************************************
+Tue 04/16/2024 17:55:35.78[Log TRACE]  Powershell -ExecutionPolicy byPass -command .\LogBackup_SystemInfo.ps1
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         4/16/2024   5:55 PM                ENC                                                                  
+4/16/2024 5:55:39 PM [Log Trace][PS][SystemInfo] Start to backup ProductInfo.enc file
+4/16/2024 5:55:39 PM [Log Trace][PS][SystemInfo] Found 'C:\OEM\Preload\Command\AlaunchX\ProductInfo.enc'
+4/16/2024 5:55:39 PM [Log Trace][PS][SystemInfo] Backup [ProductInfo.enc] to C:\OEM\DeployLog\OEM\ENC\
+4/16/2024 5:55:39 PM [Log Trace][PS][SystemInfo] Start to get System Info
+4/16/2024 5:55:39 PM [Log Trace][PS][SystemInfo] [Main]
+4/16/2024 5:55:39 PM [Log Trace][PS][SystemInfo] Project=Callisto_ADU
+4/16/2024 5:55:42 PM [Log Trace][PS][SystemInfo] OSType=CoreSingleLanguage
+4/16/2024 5:55:44 PM [Log Trace][PS][SystemInfo] OSBuild=10.0.22621.2215
+4/16/2024 5:55:45 PM [Log Trace][PS][SystemInfo] CPU=12th Gen Intel(R) Core(TM) i7-1255U
+4/16/2024 5:55:46 PM [Log Trace][PS][SystemInfo] Memory=16GB
+4/16/2024 5:55:46 PM [Log Trace][PS][SystemInfo] BIOSVersion=V1.27
+4/16/2024 5:55:46 PM [Log Trace][PS][SystemInfo] SerialNum=NXK6TAL019416025803400
+4/16/2024 5:55:46 PM [Log Trace][PS][SystemInfo] ModelName=Aspire A315-59
+4/16/2024 5:55:48 PM [Log Trace][PS][SystemInfo] OSDiskName=NVMe Micron_2450_MTFDKBA1T0TFK
+4/16/2024 5:55:48 PM [Log Trace][PS][SystemInfo] OSDiskSize=953.87GB
+
+
+**************************************************
+
+
+Tue 04/16/2024 17:55:51.00[Log TRACE]  C:\OEM\Preload\utility\7za\amd64\7za.exe a C:\OEM\NXK6TAL019416025803400.zip c:\oem\DeployLog\*
+
+7-Zip (a) 18.06 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2018-12-30
+
+Scanning the drive:
+8 folders, 23 files, 1344404 bytes (1313 KiB)
+
+Creating archive: C:\OEM\NXK6TAL019416025803400.zip
+
+Add new data to archive: 8 folders, 23 files, 1344404 bytes (1313 KiB)
+
+
+Files read from disk: 23
+Archive size: 149935 bytes (147 KiB)
+Everything is Ok
+Tue 04/16/2024 17:55:51.09[Log TRACE]  LAS [NXK6TAL019416025803400.zip] is ready
+Tue 04/16/2024 17:55:51.09[Log Leave]  =================================================================
+
+
+
+
+
+
+Tue 04/16/2024 17:55:51.10[Log Start]  Clean Folders [C:\OEM\Acerlogs]
+Tue 04/16/2024 17:55:51.10[Log Start]  =================================================================
+Tue 04/16/2024 17:55:51.10[Log TRACE]  Powershell -ExecutionPolicy byPass -command .\LogBackup_CleanLogFolder.ps1
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Remove-Item -LiteralPath C:\OEM\PreloadBackup -Force -Recurse
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Remove-Item -LiteralPath C:\OEM\DeployLog -Force -Recurse
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Remove-Item -LiteralPath C:\OEM\AcerLogs -Force -Recurse
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] ReCreate Folder C:\OEM\AcerLogs
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         4/16/2024   5:55 PM                AcerLogs                                                             
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Search [C:\OEM\NAPP\*]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Get-ChildItem -Path C:\OEM\NAPP\* -Recurse
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\CheckFreeSpaceTag.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\CompactOff.tag]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\FindValidDriveLetter.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\GetDiskPartIndex.vbs] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\GoToNAPP.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\GoToNAPP.log] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\LogBackup_CleanLogFolder.ps1] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\LogBackup_SystemInfo.ps1] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\LPCD.dat]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\MountPartition.exe] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\MountPartition_arm64.exe] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\NAPP.dat]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP.log] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\NAPP.tag]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP1P_Finalize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP2P_ApplyImageToOSdrive.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP2P_DismApplyOSImage.log] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP2P_Finalize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP2P_Finalize_Checkflow.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP2P_Finalize_ManufacturingMode.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP2P_Finalize_TPMNoAutoProvision.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP2P_Initialize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP3PStateDetection.ps1] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP3P_Finalize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP3P_Initialize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\NAPP4P_Finalize.cmd]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP4P_Finalize_Cleanup.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP4P_Finalize_LogBackup.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP4P_Finalize_Main.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP4P_Initialize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NappFlag.xml] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\NAPP_SLP.tag]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\OSLRCD.dat]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\RCD.dat]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\SetBootFromNAPP.log] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\ShowErrMsg.vbs] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Keep [C:\OEM\NAPP\SystemCD.dat]
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\UserAlaunch1st_Finalize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\UserAlaunch1st_Initialize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\UserAlaunch2nd_Finalize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\UserAlaunch2nd_Initialize.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\vols.log] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\_CheckingOSDriveFreeSpace.vbs] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\_CheckingOSDriveFreeSpaceNoMsg.vbs] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\_CreateSmallStorageTag.vbs] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\_listUsingDriveLetters.vbs] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP4P_Patch\ClearDefaultPassword.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\NAPP4P_Patch\MOD01S00JW00600001.enc] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\OBRSetTool\CopyEFI_byOEM.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\OBRSetTool\Lang.XML] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\OBRSetTool\modifybcdtoPBR.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\OBRSetTool\modifybcdtoWinRE.cmd] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\OBRSetTool\OBRSetTool_amd64.exe] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\OBRSetTool\OBRSetTool_x86.exe] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\OBRSetTool\Log\modifybcdLog.log] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+4/16/2024 5:55:53 PM [Log Trace][PS][CleanFolder] Add-Content [C:\OEM\NAPP\OBRSetTool\Log\OBRSetTool.log] to C:\OEM\Preload\DPOP\ClEANUP\DeleteFileList.txt
+
+
+Tue 04/16/2024 17:55:53.84[Log Leave]  =================================================================
+
+
+
+
+
+
+Tue 04/16/2024 17:55:53.85[Log TRACE]  move /y C:\OEM\NXK6TAL019416025803400.zip C:\Recovery\OEM\ 
+        1 file(s) moved.
+Tue 04/16/2024 17:55:53.85[Log TRACE]  move /y C:\OEM\PreloadBackup.zip C:\Recovery\OEM\ 
+        1 file(s) moved.
+Tue 04/16/2024 17:55:53.85[Log LEAVE]  ============ [SUB]C:\OEM\NAPP\NAPP4P_Finalize_Main.cmd ============ 
+
+Tue 04/16/2024 17:55:53.85[Log TRACE]  call NAPP4P_Finalize_Cleanup.cmd 
+
+Tue 04/16/2024 17:55:53.85[Log START]  ============ [SUB]C:\OEM\NAPP\NAPP4P_Finalize_Cleanup.cmd ============
+Tue 04/16/2024 17:55:53.85[Log TRACE]  RD /S /Q C:\OEM\Preload\utility\7za
+Tue 04/16/2024 17:55:53.85[Log TRACE]  RD /S /Q C:\OEM\Preload\utility\DISM
+Tue 04/16/2024 17:55:53.89[Log TRACE]  RD /S /Q C:\OEM\Preload\utility\AlaunchXWatchDog
+Tue 04/16/2024 17:55:53.90[Log TRACE]  RD /S /Q C:\OEM\Preload\utility\RebootWatchDog
+The system cannot find the file specified.
+Tue 04/16/2024 17:55:53.90[Log TRACE]  del /f /q C:\OEM\Preload\utility\devcon*.exe
+Tue 04/16/2024 17:55:53.90[Log TRACE]  del /f /q C:\OEM\Preload\utility\Preload*.exe
+Tue 04/16/2024 17:55:53.90[Log TRACE]  del /f /q C:\OEM\Preload\utility\Message*.exe
+Tue 04/16/2024 17:55:53.90[Log TRACE]  This is not S mode or WinSE image, Delete C:\OEM\NAPP\*.cmd in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\NAPP\*.ps1 in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\NAPP\*.exe in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\NAPP\*.vbs in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\NAPP\*.txt in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\NAPP\*.log in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\Preload\DPOP\OEMCustomize\*.reg in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\Preload\utility\*.exe in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\Preload\utility\*.vbs in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  Delete C:\OEM\Preload\utility\*.cmd in C:\OEM\Preload\DPOP\CLEANUP\DeleteFileList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  RD C:\OEM\NAPP\NAPP4P_Patch in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  RD C:\OEM\NAPP\NAPP2PInitCMD in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  RD C:\OEM\NAPP\OBRSetTool in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  RD c:\OEM\preload\DPOP\GCMReadiness in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+Tue 04/16/2024 17:55:53.90[Log TRACE]  RD C:\OEM\Preload\DPOP\Sysprep in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+Tue 04/16/2024 17:55:53.92[Log TRACE]  RD C:\OEM\Preload\utility\GCM in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+Tue 04/16/2024 17:55:53.92[Log TRACE]  RD C:\OEM\Preload\utility\ReaderX in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+Tue 04/16/2024 17:55:53.92[Log TRACE]  RD C:\OEM\Preload\SCL in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+Tue 04/16/2024 17:55:53.92[Log TRACE]  This is not S mode or WinSE image, keep Cleanup original process.
+Tue 04/16/2024 17:55:53.92[Log LEAVE]  ============ [SUB]C:\OEM\NAPP\NAPP4P_Finalize_Cleanup.cmd ============
+
+Tue 04/16/2024 17:55:53.92[Log TRACE]  del /f /q NAPP4P_Finalize_Cleanup.cmd 
+Tue 04/16/2024 17:55:53.92[Log TRACE]  Exist C:\OEM\Factory\Factory.cmd, call C:\OEM\Factory\Factory.cmd. 
+
+---------- C:\WINDOWS\SETUP\STATE\STATE.INI
+ImageState=IMAGE_STATE_SPECIALIZE_RESEAL_TO_OOBE
+The operation completed successfully.
+    SetupType    REG_DWORD    0x2
+The operation completed successfully.
+    ImageState    REG_SZ    IMAGE_STATE_SPECIALIZE_RESEAL_TO_OOBE
+The operation completed successfully.
+    AuditBoot    REG_DWORD    0x0
+The operation completed successfully.
+-------------- Begin Send_Hash -------------
+---------- Process Is Completed ------------
+===================================================================
+ Compal Electronics, INC.2.0.0.4 0000
+ Author : STD SID TEAM.
+ Utility: [WinPE] wmRwEEPROMx64.exe
+ WARNING: THIS PROGRAM IS FOR INTERNAL USE ONLY.                  
+ Copyright (C) 2016 Compal Electronics, INC. All rights reserved. 
+===================================================================
+Write 0x31 into EEPROM offset 0x16 Pass.
+Read from EEPROM offset 0x16 Pass.
+Write EEPROM address(0x16) = 0x31 (1 ) successfully.
+Write EEPROM with check OK!
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+===================================================================
+ Compal Electronics, INC.2.0.0.4 0000
+ Author : STD SID TEAM.
+ Utility: [WinPE] wmRwEEPROMx64.exe
+ WARNING: THIS PROGRAM IS FOR INTERNAL USE ONLY.                  
+ Copyright (C) 2016 Compal Electronics, INC. All rights reserved. 
+===================================================================
+Write 0x04 into EEPROM offset 0xF4 Pass.
+Read from EEPROM offset 0xF4 Pass.
+Write EEPROM address(0xF4) = 0x04 ( ) successfully.
+Write EEPROM with check OK!
+
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

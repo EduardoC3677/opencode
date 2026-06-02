@@ -1,0 +1,101 @@
+pSettings
+PreviewPages
+KERNEL32
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoDrives
+RestrictRun
+NoNetConnectDisconnect
+NoRecentDocsHistory
+NoClose
+Software\Microsoft\Windows\CurrentVersion\Policies\Network
+NoEntireNetwork
+Software\Microsoft\Windows\CurrentVersion\Policies\Comdlg32
+NoPlacesBar
+NoBackButton
+NoFileMru
+ntdll.dll
+Control Panel\Desktop\ResourceLocale
+kernel32.dll
+%s%s.dll
+%s (%s:%d)
+%s (%s:%d)
+user32.dll
+comctl32.dll
+comdlg32.dll
+software
+Software\
+AfxWnd80su
+AfxControlBar80su
+AfxMDIFrame80su
+AfxFrameOrView80su
+AfxOleControl80su
+AfxOldWndProc423
+USER32
+YaccParent
+accChildCount
+accChild
+accName
+accValue
+accDescription
+accRole
+accState
+accHelp
+accHelpTopic
+accKeyboardShortcut
+accFocus
+accSelection
+accDefaultAction
+accSelect
+accLocation
+accNavigate
+accHitTest
+accDoDefaultAction
+#32768
+commctrl_DragListMsg
+E(null)
+         (((((                  H
+         h((((                  H
+                                 H
+;T^h<U_i=V`j>Wak?Xbl@YcmAZdnB[eoC\fpD]gq
+Delete
+NoRemove
+ForceRemove
+%c:\%s\Preload\Command\AlaunchX\AlaunchX.exe
+The error message: %s
+: MFC 
+%s%s\Preload\RunCmdLog\
+RunCmd.log
+Para 1: %s
+Para 2: %s
+GetDir fail with %s
+There is not file in the path.
+No file
+command: %s
+Execute the command file fail.
+command fail
+command success
+%COMMON_PROGRAMS%
+%s%02d-%02d-%02d %02d-%02d-%02d.log
+%02d-%02d-%02d %02d:%02d:%02d	[%6X]	%s	%s -	
+ENTER: %s
+EXIT: %s
+RunCmd
+VS_VERSION_INFO
+StringFileInfo
+040404b0
+FileDescription
+RunCmd 
+FileVersion
+1, 0, 0, 3
+InternalName
+RunCmd
+LegalCopyright
+Copyright (C) 2009
+OriginalFilename
+RunCmd.exe
+ProductName
+RunCmd 
+ProductVersion
+1, 0, 0, 3
+VarFileInfo
+Translation

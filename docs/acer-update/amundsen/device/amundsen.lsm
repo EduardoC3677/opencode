@@ -1,0 +1,24 @@
+{
+  "data": {
+    "firstRun": "2025-09-24T18:20:56",
+    "lastRun": "2026-05-06T05:47:36"
+  },
+  "states": [
+    {
+      "state": 100,
+      "status": 0,
+      "data": {
+        "interval": "21600",
+        "term": "1296000"
+      }
+    },
+    {
+      "state": 500,
+      "status": 0,
+      "data": {
+        "interval": "864000"
+      }
+    }
+  ],
+  "index": 1
+}

@@ -1,0 +1,947 @@
+ITERATOR LIST CORRUPTED!
+c:\program files\microsoft visual studio 8\vc\include\xutility
+c:\program files\microsoft visual studio 8\vc\include\ostream
+c:\program files\microsoft visual studio 8\vc\atlmfc\include\atlsimpstr.h
+__atl_condVal
+c:\program files\microsoft visual studio 8\vc\include\xstring
+"out of range"
+std::_Vector_const_iterator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >::operator *
+("Standard C++ Libraries Out of Range", 0)
+vector iterator not dereferencable
+c:\program files\microsoft visual studio 8\vc\include\vector
+"invalid argument"
+std::_Vector_const_iterator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >::_Vector_const_iterator
+("_Pvector == NULL || (((_Myvec *)_Pvector)->_Myfirst <= _Ptr && _Ptr <= ((_Myvec *)_Pvector)->_Mylast)", 0)
+("_Myptr < ((_Myvec *)(this->_Mycont))->_Mylast", 0)
+std::_Vector_const_iterator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >::operator ++
+("this->_Mycont != NULL", 0)
+std::_Vector_const_iterator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >::_Compat
+("Standard C++ Libraries Invalid Argument", 0)
+vector iterators incompatible
+std::_String_const_iterator<char,struct std::char_traits<char>,class std::allocator<char> >::operator *
+string iterator not dereferencable
+std::_String_const_iterator<char,struct std::char_traits<char>,class std::allocator<char> >::_String_const_iterator
+("_Pstring == NULL || _Ptr != NULL && ((_Mystring *)_Pstring)->_Myptr() <= _Ptr && _Ptr <= (((_Mystring *)_Pstring)->_Myptr() + ((_Mystring *)_Pstring)->_Mysize)", 0)
+nNewLength >= 0
+nLength <= GetData()->nAllocLength
+nLength >= 0
+pOldData->nAllocLength < nLength
+invalid null pointer
+c:\program files\microsoft visual studio 8\vc\include\xlocale
+std::ctype<char>::_Do_widen_s
+("_Dest_size >= (size_t)(_Last - _First)", 0)
+std::ctype<char>::_Do_narrow_s
+c:\program files\microsoft visual studio 8\vc\atlmfc\include\cstringt.h
+AtlIsValidString( pszFormat )
+c:\program files\microsoft visual studio 8\vc\include\xlocnum
+std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator []
+string subscript out of range
+invalid iterator range
+nRefs != 0
+lstrlen(szFilename)
+d:\working\projects\gaia\code\checkfiles\checkfiles\crc32sum.cpp
+szFilename
+("_Pos < size()", 0)
+std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >::operator []
+vector subscript out of range
+vector erase iterator outside range
+vector insert iterator outside range
+("_Myptr + _Off <= ((_Myvec *)(this->_Mycont))->_Mylast && _Myptr + _Off >= ((_Myvec *)(this->_Mycont))->_Myfirst", 0)
+std::_Vector_const_iterator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >::operator +=
+c:\program files\microsoft visual studio 8\vc\include\memory
+c:\program files\microsoft visual studio 8\vc\atlmfc\include\atlalloc.h
+lpa != 0
+c:\program files\microsoft visual studio 8\vc\atlmfc\include\atlconv.h
+lpw != 0
+m_p == 0
+pp != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+pThis->m_pCurrentMsg == &msg
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == hWnd
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_begin == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pp != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+pThis->m_pCurrentMsg == &msg
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == hWnd
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_begin == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlexcept.h
+pModule != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+pProcess != 0
+pModule != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+__atl_condVal
+__atl_condVal
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+__atl_condVal
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+%S(%d) : 
+__atl_condVal
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+__atl_condVal
+__atl_condVal
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+pProcessInfo != 0
+pProcess != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+pAllocator->m_bSnapshot
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+__atl_condVal
+pModuleInfo != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+pAllocator->m_bSnapshot
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+__atl_condVal
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+pCategoryInfo != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+pAllocator->m_bSnapshot
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+ppCategory && pfnCrtDbgReport
+pProcess
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+pModule != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atldebugapi.cpp
+pp != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+pThis->m_pCurrentMsg == &msg
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == hWnd
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_begin == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlsimpcoll.h
+nIndex >= 0 && nIndex < m_nSize
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlconv.h
+pp != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+pThis->m_pCurrentMsg == &msg
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == hWnd
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_begin == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlmem.h
+hHeap != 0
+bSuccess
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlsimpstr.h
+pStringMgr == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlstr.h
+pData->pStringMgr == this
+nRefs > 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atlbase.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atlbase.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atlbase.cpp
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atlbase.cpp
+pp != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+pThis->m_pCurrentMsg == &msg
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == hWnd
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_begin == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.h
+m_bLocked
+!m_bLocked
+!m_hMap && !m_pBufferStart
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+bSuccess
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+iModule < modcnt
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+(iCategory < m_pProcess->CategoryCount()) || (iCategory == -1)
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+pModule != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+m_pProcess
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+pProcess
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+pModule != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+pProcess
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+pCategory != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\allocate.cpp
+pp != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+pThis->m_pCurrentMsg == &msg
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == hWnd
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_begin == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+f:\sp\vctools\vc7libs\ship\atlmfc\src\atl\atls\atltracemodulemanager.h
+nCookie != 0
+pp != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+pThis->m_pCurrentMsg == &msg
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == hWnd
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_begin == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+ppStream != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+ppUnk != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+pComModule != 0
+pEntries!= 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+pComModule != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+pComModule != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+pEntries->pFunc == ((ATL::_ATL_CREATORARGFUNC*)1)
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+!bBlind
+pThis->m_pCurrentMsg == &msg
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+pData != 0 && pObject != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlbase.inl
+pp != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+pThis != 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_hWnd == hWnd
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlwin.h
+m_begin == 0
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcom.h
+f:\sp\vctools\vc7libs\ship\atlmfc\include\atlcomcli.h
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\xstring
+_get_osplatform(&osplatform)
+std::_Xfsopen
+fiopen.cpp
+xmbtowc.c
+___mb_cur_max_l_func(locale) == 1 || ___mb_cur_max_l_func(locale) == 2
+dbgdel.cpp
+_BLOCK_TYPE_IS_VALID(pHead->nBlockUse)
+fwrite
+fwrite.c
+(stream != NULL)
+("Inconsistent Stream Count. Flush between consecutive read and write", stream->_cnt >= 0)
+num <= (SIZE_MAX / size)
+(buffer != NULL)
+_fwrite_nolock
+( (_Stream->_flag & _IOSTRG) || ( (_textmode_safe(_fileno(_Stream)) == __IOINFO_TM_ANSI) && !_tm_unicode_safe(_fileno(_Stream))))
+fputc.c
+(str != NULL)
+ungetc
+ungetc.c
+_ungetc_nolock
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\ungetc_nolock.inl
+sizeInBytes >= count
+src != NULL
+memcpy_s
+memcpy_s.c
+dst != NULL
+fgetc.c
+(pos != NULL)
+fgetpos
+fgetpos.c
+((whence == SEEK_SET) || (whence == SEEK_CUR) || (whence == SEEK_END))
+fseek.c
+fsetpos
+fsetpos.c
+((2 <= size) && (size <= INT_MAX))
+(type == _IONBF) || (type == _IOFBF) || (type == _IOLBF)
+setvbuf
+setvbuf.c
+Assertion Failed
+Warning
+("The hook function is not in the list!",0)
+pfnNewHook != NULL
+_CrtSetReportHookW2
+f:\sp\vctools\crt_bld\self_x86\crt\src\dbgrpt.c
+mode == _CRT_RPTHOOK_INSTALL || mode == _CRT_RPTHOOK_REMOVE
+strcpy_s(szaFormat, 4096, "_CrtDbgReport: String too long or Invalid characters in String")
+wcstombs_s(0, szaFormat, 4096, szFormat, ((size_t)-1))
+strcpy_s(szaModule, 4096, "Expression cannot be displayed on Win9x")
+wcstombs_s(0, szaModule, 4096, szModule, ((size_t)-1))
+strcpy_s(szaFile, 4096, "Expression cannot be displayed on Win9x")
+.strcat_s(szaFile, 4096, "...")
+wcstombs_s(0, szaFile, 4096, szFile, ((size_t)-1))
+_CrtDbgReportWV
+Microsoft Visual C++ Debug Library
+_CrtDbgReport: String too long or IO Error
+wcscpy_s(szOutMessage, 4096, L"_CrtDbgReport: String too long or IO Error")
+(*_errno())
+Debug %s!
+Program: %s%s%s%s%s%s%s%s%s%s%s%s
+(Press Retry to debug the application)
+Module: 
+File: 
+Line: 
+Expression: 
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts.
+wcsncpy_s(szShortProgName, 260 - (szShortProgName - szExeName), dotdotdot, 3)
+<program name unknown>
+wcscpy_s(szExeName, 260, L"<program name unknown>")
+__crtMessageWindowW
+fclose
+fclose.c
+_fclose_nolock
+memmove_s
+memmove_s.c
+dbgheap.c
+_CrtCheckMemory()
+_calloc_dbg
+(_HEAP_MAXREQ / nNum) >= nSize
+_pFirstBlock == pOldBlock
+_pLastBlock == pOldBlock
+fRealloc || (!fRealloc && pNewBlock == pOldBlock)
+pOldBlock->nLine == IGNORE_LINE && pOldBlock->lRequest == IGNORE_REQ
+_CrtIsValidHeapPointer(pUserData)
+_recalloc_dbg
+(_HEAP_MAXREQ / count) >= size
+_expand_dbg
+pUserData != NULL
+_pFirstBlock == pHead
+_pLastBlock == pHead
+pHead->nBlockUse == nBlockUse
+pHead->nLine == IGNORE_LINE && pHead->lRequest == IGNORE_REQ
+_msize_dbg
+_CrtSetDbgFlag
+(fNewBits==_CRTDBG_REPORT_FLAG) || ((fNewBits & 0x0ffff & ~(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_DELAY_FREE_MEM_DF | _CRTDBG_CHECK_ALWAYS_DF | _CRTDBG_CHECK_CRT_DF | _CRTDBG_LEAK_CHECK_DF) ) == 0)
+_CrtDoForAllClientObjects
+pfn != NULL
+_get_osver(&osver)
+_CrtIsValidHeapPointer
+_CrtMemCheckpoint
+state != NULL
+newState != NULL
+oldState != NULL
+_CrtMemDifference
+_printMemBlockData
+_CrtMemDumpStatistics
+offset == 0 || offset < size
+_aligned_offset_malloc_dbg
+IS_2_POW_N(align)
+_aligned_offset_realloc_dbg
+_aligned_offset_recalloc_dbg
+_aligned_msize_dbg
+memblock != NULL
+(string != NULL)
+_vsprintf_l
+vsprintf.c
+(format != NULL)
+_vscprintf_helper
+(count == 0) || (string != NULL)
+_vsnprintf_helper
+f:\sp\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+("Buffer too small", 0)
+string != NULL && sizeInBytes > 0
+_vsprintf_s_l
+format != NULL
+_vsnprintf_s_l
+sprintf
+sprintf.c
+_chdir
+chdir.c
+(path != NULL)
+(maxlen > 0)
+_getdcwd_lk_dbg
+getcwd.c
+("Invalid Drive",0)
+strcpy_s(pfd->name, (sizeof(pfd->name) / sizeof(pfd->name[0])), wfd.cFileName)
+(szWild != NULL)
+(sizeof(pfd->name) <= sizeof(wfd.cFileName))
+_findfirst32
+findfile.c
+(pfd != NULL)
+_findnext32
+((HANDLE)hFile != INVALID_HANDLE_VALUE)
+_findfirst64i32
+f:\sp\vctools\crt_bld\self_x86\crt\src\findf64.c
+_findnext64i32
+s2 != NULL
+_mbscmp_l
+mbscmp.c
+s1 != NULL
+(L"Invalid parameter", 0)
+_splitpath_helper
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\tsplitpath_s.inl
+(((_Path))) != NULL
+_resetstkoflw
+resetstk.c
+(L"Buffer is too small" && 0)
+Buffer is too small
+(((_Src))) != NULL
+wcscpy_s
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\tcscpy_s.inl
+((_Dst)) != NULL && ((_SizeInWords)) > 0
+_get_errno
+dosmap.c
+pValue != NULL
+_get_doserrno
+_CrtSetReportHook2
+dbgrpt.c
+strcpy_s(szOutMessage, 4096, "_CrtDbgReport: String too long or IO Error")
+_mbsnbcpy_s(szShortProgName, 260 - (szShortProgName - szExeName), dotdotdot, 3)
+strcpy_s(szExeName, 260, "<program name unknown>")
+__crtMessageWindowA
+_vswprintf_helper
+f:\sp\vctools\crt_bld\self_x86\crt\src\vswprint.c
+string != NULL && sizeInWords > 0
+_vswprintf_s_l
+_vsnwprintf_s_l
+_swprintf
+swprintf.c
+wcsncpy_s
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\tcsncpy_s.inl
+strcpy_s
+((_Dst)) != NULL && ((_SizeInBytes)) > 0
+_wcsicmp_l
+wcsicmp.c
+_wcsicmp
+fputs.c
+n <= INT_MAX
+_mbstowcs_l_helper
+mbstowcs.c
+s != NULL
+retsize <= sizeInWords
+_mbstowcs_s_l
+(pwcs == NULL && sizeInWords == 0) || (pwcs != NULL && sizeInWords > 0)
+(*mode != _T('\0'))
+(mode != NULL)
+_fsopen
+fopen.c
+(file != NULL)
+fopen_s
+(pfile != NULL)
+_wcstombs_l_helper
+wcstombs.c
+pwcs != NULL
+sizeInBytes > retsize
+_wcstombs_s_l
+(dst != NULL && sizeInBytes > 0) || (dst == NULL && sizeInBytes == 0)
+_wfsopen
+f:\sp\vctools\crt_bld\self_x86\crt\src\fopen.c
+_wfopen_s
+_osplatform!=0
+_get_osplatform
+crt0dat.c
+_get_osver
+_get_winver
+_get_winmajor
+_get_winminor
+_wpgmptr != NULL
+_get_wpgmptr
+_pgmptr != NULL
+_get_pgmptr
+setlocal.c
+((ptloci->lc_category[category].wlocale != NULL) && (ptloci->lc_category[category].wrefcount != NULL)) || ((ptloci->lc_category[category].wlocale == NULL) && (ptloci->lc_category[category].wrefcount == NULL))
+_configthreadlocale
+("Invalid parameter for _configthreadlocale",0)
+setlocale
+LC_MIN <= _category && _category <= LC_MAX
+strncpy_s(lctemp, (sizeof(lctemp) / sizeof(lctemp[0])), s, len)
+_setlocale_nolock
+strcpy_s(pch + sizeof(int), cch - sizeof(int), lctemp)
+_setlocale_set_cat
+strcat_s(pch, cch, ";")
+_setlocale_get_all
+strcpy_s(output, sizeInChars, cacheout)
+strncpy_s(cachein, cacheinSize, source, charactersInSource + 1)
+strcpy_s(output, sizeInChars, "C")
+_expandlocale
+strcat_s(outstr, sizeInBytes, ( *(char * *)((substr += ( (sizeof(char *) + sizeof(int) - 1) & ~(sizeof(int) - 1) )) - ( (sizeof(char *) + sizeof(int) - 1) & ~(sizeof(int) - 1) )) ))
+_strcats
+strncpy_s(names->szCodePage, (sizeof(names->szCodePage) / sizeof(names->szCodePage[0])), locale, len)
+strncpy_s(names->szCountry, (sizeof(names->szCountry) / sizeof(names->szCountry[0])), locale, len)
+strncpy_s(names->szLanguage, (sizeof(names->szLanguage) / sizeof(names->szLanguage[0])), locale, len)
+,strncpy_s(names->szCodePage, (sizeof(names->szCodePage) / sizeof(names->szCodePage[0])), &locale[1], 16-1)
+__lc_strtolc
+strcpy_s(locale, sizeInBytes, (char *)names->szLanguage)
+__lc_lctostr
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\malloc.h
+("Corrupted pointer passed to _freea", 0)
+         (((((                  H
+         h((((                  H
+                                 H
+ploci->ctype1_refcount > 0
+initctyp.c
+length < sizeInTChars
+2 <= radix && radix <= 36
+sizeInTChars > (size_t)(is_neg ? 2 : 1)
+sizeInTChars > 0
+xtoa_s
+f:\sp\vctools\crt_bld\self_x86\crt\src\xtoa.c
+buf != NULL
+x64toa_s
+Run-Time Check Failure #%d - %s
+Runtime Check Error.
+ Unable to display RTC Message.
+typname.cpp
+pNode->next != NULL
+strcpy_s ((char *)((type_info *)_This)->_m_data, len+2, (char *)pTmpUndName)
+type_info::_Name_base
+type_info::_Name_base_internal
+("inconsistent IOB fields", stream->_ptr - stream->_base >= 0)
+_flsbuf.c
+str != NULL
+("Invalid file descriptor. File possibly closed by a different thread",0)
+(_osfile(fh) & FOPEN)
+_write
+write.c
+(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+((cnt & 1) == 0)
+_write_nolock
+(buf != NULL)
+_fileno
+fileno.c
+_getbuf.c
+_filbuf
+_filbuf.c
+ftelli64.c
+stream != NULL
+_lseek
+lseek.c
+("Invalid file descriptor",0)
+ftell.c
+_ftell_nolock
+fseeki64.c
+_freebuf.c
+(_osfile(filedes) & FOPEN)
+_commit
+commit.c
+(filedes >= 0 && (unsigned)filedes < (unsigned)_nhandle)
+fMode == _CRTDBG_REPORT_MODE || (fMode & ~(_CRTDBG_MODE_FILE | _CRTDBG_MODE_DEBUG | _CRTDBG_MODE_WNDW)) == 0
+_CrtSetReportMode
+dbgrptt.c
+nRptType >= 0 && nRptType < _CRT_ERRCNT
+_CrtSetReportFile
+_CrtDbgReport: String too long or Invalid characters in String
+wcscpy_s(szOutMessage2, 4096, L"_CrtDbgReport: String too long or Invalid characters in String")
+e = mbstowcs_s(&ret, szOutMessage2, 4096, szOutMessage, ((size_t)-1))
+strcpy_s(szOutMessage, 4096, szLineMessage)
+strcat_s(szLineMessage, 4096, "\n")
+strcat_s(szLineMessage, 4096, "\r")
+strcat_s(szLineMessage, 4096, szUserMessage)
+strcpy_s(szLineMessage, 4096, szFormat ? "Assertion failed: " : "Assertion failed!")
+strcpy_s(szUserMessage, 4096, "_CrtDbgReport: String too long or IO Error")
+_itoa_s(nLine, szLineMessage, 4096, 10)
+_VCrtDbgReportA
+wcstombs_s(&ret, szaOutMessage, 4096, szOutMessage, ((size_t)-1))
+strcpy_s(szOutMessage2, 4096, "_CrtDbgReport: String too long or Invalid characters in String")
+wcstombs_s(((void *)0), szOutMessage2, 4096, szOutMessage, ((size_t)-1))
+wcscpy_s(szOutMessage, 4096, szLineMessage)
+%s(%d) : %s
+wcscat_s(szLineMessage, 4096, L"\n")
+wcscat_s(szLineMessage, 4096, L"\r")
+wcscat_s(szLineMessage, 4096, szUserMessage)
+wcscpy_s(szLineMessage, 4096, szFormat ? L"Assertion failed: " : L"Assertion failed!")
+Assertion failed!
+Assertion failed: 
+wcscpy_s(szUserMessage, 4096, L"_CrtDbgReport: String too long or IO Error")
+, Line 
+<file unknown>
+Second Chance Assertion Failed: File 
+_itow_s(nLine, szLineMessage, 4096, 10)
+_VCrtDbgReportW
+(L"String is not null terminated" && 0)
+String is not null terminated
+strcat_s
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\tcscat_s.inl
+signal
+winsig.c
+("Invalid signal or error", 0)
+_get_winmajor(&winmajor)
+__crtMessageBoxW
+f:\sp\vctools\crt_bld\self_x86\crt\src\crtmbox.c
+USER32.DLL
+_close
+close.c
+handler.cpp
+pnh == 0
+_expand_base
+expand.c
+pBlock != NULL
+_recalloc_base
+realloc.c
+__heap_select
+heapinit.c
+_crtheap
+sbheap.c
+(threshold <= MAX_ALLOC_DATA_SIZE) && __sbh_heap_init(threshold)
+_set_sbh_threshold
+threshold <= MAX_ALLOC_DATA_SIZE
+_set_amblksiz
+0 < size && size <= UINT_MAX
+_get_amblksiz
+pSize != NULL
+isctype.c
+(unsigned)(c + 1) <= 256
+(null)
+("'n' format specifier disabled", 0)
+(ch != _T('\0'))
+_output_l
+output.c
+("Missing position in the format string", 0)
+((state == ST_NORMAL) || (state == ST_TYPE))
+_tvalidate_param_reuse(&pos_value[type_pos], e_long_long_arg, ch, flags)
+_tvalidate_param_reuse(&pos_value[type_pos], e_int64_arg, ch, flags)
+pass == FORMAT_OUTPUT_PASS
+_tvalidate_param_reuse(&pos_value[type_pos], e_double_arg, ch, flags)
+_tvalidate_param_reuse(&pos_value[type_pos], e_ptr_arg, ch, flags)
+_tvalidate_param_reuse(&pos_value[type_pos], e_int_arg, ch, flags)
+_tvalidate_param_reuse(&pos_value[type_pos], e_short_arg, ch, flags)
+((type_pos>=0) && (type_pos<_ARGMAX))
+_tvalidate_param_reuse(&pos_value[precis_pos], e_int_arg, ch, flags)
+((precis_pos >= 0) && (*end_pos == POSITION_CHAR) && (type_pos < _ARGMAX))
+_tvalidate_param_reuse(&pos_value[width_pos], e_int_arg, ch, flags)
+((width_pos >= 0) && (*end_pos == POSITION_CHAR) && (type_pos < _ARGMAX))
+("Incorrect format specifier", 0)
+((type_pos >= 0) && (*end_pos == POSITION_CHAR) && (type_pos < _ARGMAX))
+_output_p_l
+f:\sp\vctools\crt_bld\self_x86\crt\src\output.c
+_output_s_l
+_controlfp_s(((void *)0), 0x00010000, 0x00030000)
+_setdefaultprecision
+intel\fp8.c
+sizeInBytes > 0
+_cftoe_l
+strcpy_s(p, (sizeInBytes == (size_t)-1 ? sizeInBytes : sizeInBytes - (p - buf)), "e+000")
+sizeInBytes > (size_t)(3 + (ndec > 0 ? ndec : 0) + 5 + 1)
+_cftoe2_l
+sizeInBytes > (size_t)(1 + 4 + ndec + 6)
+_cftoa_l
+_cftof_l
+_cftof2_l
+_cftog_l
+_chdrive
+drive.c
+("Invalid Drive Index",0)
+_get_timezone(&timezone)
+_get_dstbias(&dstbias)
+_get_daylight(&daylight)
+__loctotime32_t
+dtoxtime.c
+__loctotime64_t
+dtoxtm64.c
+strcpy_s(*env, cchars, p)
+_setenvp
+stdenvp.c
+strcat_s(outmsg, (sizeof(outmsg) / sizeof(outmsg[0])), rterrs[tblindx].rterrtxt)
+strcat_s(outmsg, (sizeof(outmsg) / sizeof(outmsg[0])), "\n\n")
+strncpy_s(pch, progname_size - (pch - progname), "...", 3)
+strcpy_s(progname, progname_size, "<program name unknown>")
+strcpy_s(outmsg, (sizeof(outmsg) / sizeof(outmsg[0])), "Runtime Error!\n\nProgram: ")
+_NMSG_WRITE
+crt0msg.c
+__crtMessageBoxA
+crtmbox.c
+_woutput_l
+_woutput_s_l
+_woutput_p_l
+_vswprintf_l
+vswprint.c
+_vscwprintf_helper
+_sftbuf.c
+flag == 0 || flag == 1
+(*mode == _T('\0'))
+_openfile
+("Invalid file open mode",0)
+mode != NULL
+_open.c
+filename != NULL
+UTF-16LE
+UNICODE
+_wopenfile
+f:\sp\vctools\crt_bld\self_x86\crt\src\_open.c
+("rand_s is not available on this platform", 0)
+rand_s
+rand_s.c
+_RandomValue != NULL
+strncpy_s(*straddress, outsize, pcbuffer, outsize - 1)
+__getlocaleinfo
+inithelp.c
+__crtInitCritSecAndSpinCount
+initcrit.c
+inittime.c
+ploci->lc_time_curr->refcount > 0
+initnum.c
+ploci->lconv_num_refcount > 0
+initmon.c
+ploci->lconv_mon_refcount > 0
+nstrcpy_s(s, (len + 1) - (s - p), pt->wday[n])
+strcpy_s(s, (len + 1) - (s - p), pt->wday_abbr[n])
+_Getdays_l
+strftime.c
+strcpy_s(s, (len + 1) - (s - p), pt->month[n])
+strcpy_s(s, (len + 1) - (s - p), pt->month_abbr[n])
+_Getmonths_l
+strcpy_s(s, len - (s - p), pt->ww_timefmt)
+strcpy_s(s, len - (s - p), pt->ww_ldatefmt)
+strcpy_s(s, len - (s - p), pt->ww_sdatefmt)
+strcpy_s(s, len - (s - p), pt->ampm[1])
+strcpy_s(s, len - (s - p), pt->ampm[0])
+strcpy_s(s, len - (s - p), pt->month[n])
+strcpy_s(s, len - (s - p), pt->month_abbr[n])
+strcpy_s(s, len - (s - p), pt->wday[n])
+strcpy_s(s, len - (s - p), pt->wday_abbr[n])
+_Gettnames_l
+("Invalid MBCS character sequence passed to strftime",0)
+timeptr!=0
+( format != NULL )
+( maxsize != 0 )
+_Strftime_l
+( string != NULL )
+( "Invalid format directive" , 0 )
+( timeptr->tm_year >= -1900 ) && ( timeptr->tm_year <= 8099 )
+( timeptr->tm_year >=0 )
+( ( timeptr->tm_sec >=0 ) && ( timeptr->tm_sec <= 59 ) )
+( ( timeptr->tm_min >=0 ) && ( timeptr->tm_min <= 59 ) )
+( ( timeptr->tm_yday >=0 ) && ( timeptr->tm_yday <= 365 ) )
+( ( timeptr->tm_hour >=0 ) && ( timeptr->tm_hour <= 23 ) )
+( ( timeptr->tm_mday >=1 ) && ( timeptr->tm_mday <= 31 ) )
+( ( timeptr->tm_mon >=0 ) && ( timeptr->tm_mon <= 11 ) )
+_expandtime
+( ( timeptr->tm_wday >=0 ) && ( timeptr->tm_wday <= 6 ) )
+("Invalid MBCS character sequence passed into strftime",0)
+("Invalid MBCS character sequence found in locale AMPM string",0)
+strncpy_s
+strcpy_s(lpOutStr->szLanguage, (sizeof(lpOutStr->szLanguage) / sizeof(lpOutStr->szLanguage[0])), "Norwegian-Nynorsk")
+__get_qualified_locale
+getqloc.c
+_lseeki64
+lseeki64.c
+_isatty
+isatty.c
+_get_osfhandle
+osfinfo.c
+_cputws
+putwch.c
+mbtowc.c
+_loc_update.GetLocaleT()->locinfo->mb_cur_max == 1 || _loc_update.GetLocaleT()->locinfo->mb_cur_max == 2
+(cnt <= INT_MAX)
+read.c
+(inputbuf != NULL)
+_read_nolock
+wcscat_s
+xtow_s
+x64tow_s
+printf
+printf.c
+_wctomb_s_l
+wctomb.c
+sizeInBytes <= INT_MAX
+ibase == 0 || (2 <= ibase && ibase <= 36)
+strtoxl
+strtol.c
+nptr != NULL
+_controlfp_s
+contrlfp.c
+("Invalid input value", 0)
+pflt != NULL
+sizeInBytes > (size_t)((digits > 0 ? digits : 0) + 1)
+_fptostr
+_fptostr.c
+strcpy_s(resultstr, resultsize, autofos.man)
+_fltout2
+cfout.c
+_set_output_format
+outputformat.c
+(options & ~_TWO_DIGIT_EXPONENT) == 0
+strncpy_s(tzname[1], 64, TZ, 3)
+strncpy_s(tzname[0], 64, TZ, 3)
+strcpy_s(lastTZ, strlen(TZ) + 1, TZ)
+_tzset_nolock
+tzset.c
+_isindst_nolock
+cvtdate
+_get_daylight
+timeset.c
+(_Daylight != NULL)
+_get_dstbias
+(_Daylight_savings_bias != NULL)
+_get_timezone
+(_Timezone != NULL)
+_Index == 0 || _Index == 1
+_ReturnValue != NULL
+_get_tzname
+(_Buffer != NULL && _SizeInBytes > 0) || (_Buffer == NULL && _SizeInBytes == 0)
+_mbsnbcpy_s_l
+F:\SP\vctools\crt_bld\SELF_X86\crt\src\mbsncpy_s.inl
+_set_error_mode
+errmode.c
+("Invalid error_mode", 0)
+fputwc
+fputwc.c
+wcstoxl
+wcstol.c
+strncpy_s( (char *)lpDestStr, cchDest, (char *)outbuffer, cchDest <= outbuff_size ? cchDest - 1 : outbuff_size )
+__crtLCMapStringW_stat
+w_map.c
+open.c
+((pmode & (~(_S_IREAD | _S_IWRITE))) == 0)
+_sopen_helper
+(pfh != NULL)
+0 && "Only UTF-16 little endian & UTF-8 is supported for reads"
+0 && "Internal Error"
+(oflag & (_O_TEXT | _O_WTEXT | _O_U16TEXT | _O_U8TEXT) ) != 0
+( "Invalid sharing flag" , 0 )
+( "Invalid open flag" , 0 )
+_get_fmode(&fmode)
+_tsopen_nolock
+_mbsicmp_l
+mbsicmp.c
+_mbsnbcmp_l
+mbsnbcmp.c
+_wopen
+f:\sp\vctools\crt_bld\self_x86\crt\src\open.c
+_wsopen_helper
+_stricmp_l
+stricmp.c
+_stricmp
+count <= INT_MAX
+_strnicmp_l
+strnicmp.c
+_strnicmp
+vprintf_helper
+vprintf.c
+_controlfp_s(((void *)0), newctrl, mask & ~0x00080000)
+_set_controlfp
+i386\ieee87.c
+__strgtold12_l
+../include\strgtold12.inl
+_Locale != NULL
+strcpy_s(fos->man, 21+1, "1#QNAN")
+strcpy_s(fos->man, 21+1, "1#INF")
+strcpy_s(fos->man, 21+1, "1#IND")
+strcpy_s(fos->man, 21+1, "1#SNAN")
+$I10_OUTPUT
+x10fout.c
+(_tcsnlen(option, _MAX_ENV) < _MAX_ENV)
+getenv
+getenv.c
+(option != NULL)
+_tcsnlen(*search + length + 1, _MAX_ENV) < _MAX_ENV
+strcpy_s(buffer, sizeInTChars, str)
+(buffer != NULL && sizeInTChars > 0) || (buffer == NULL && sizeInTChars == 0)
+_getenv_s_helper
+pReturnValue != NULL
+strcpy_s(*pBuffer, size, str)
+varname != NULL
+_dupenv_s_helper
+pBuffer != NULL
+f:\sp\vctools\crt_bld\self_x86\crt\src\_flsbuf.c
+(size >= 0)
+_chsize_s
+chsize.c
+_setmode
+setmode.c
+((mode == _O_TEXT) || (mode == _O_BINARY) || (mode == _O_WTEXT) || (mode == _O_U8TEXT) || (mode == _O_U16TEXT))
+_set_fmode
+((mode == _O_TEXT) || (mode == _O_BINARY) || (mode == _O_WTEXT))
+_get_fmode
+(pMode != NULL)
+strtoxq
+strtoq.c
+_mbsnbicoll_l
+mbsnbico.c
+a_cmp.c
+cchCount1==0 && cchCount2==1 || cchCount1==1 && cchCount2==0
+_string2 != NULL
+_strnicoll_l
+strnicol.c
+_string1 != NULL
+strcpy_s(name, strlen(option) + 2, option)
+("CRT Logic error during setenv",0)
+_tcsnlen(equal + 1, _MAX_ENV) < _MAX_ENV
+equal - option < _MAX_ENV
+__crtsetenv
+setenv.c
+poption != NULL
+strcpy_s(*newenvptr, envptrSize, *oldenvptr)
+copy_environ
+_mbschr_l
+mbschr.c
+string != NULL
+iE&xit
+h&About ...
+System
+CheckFiles Version 1.0
+Copyright (C) 2006
+VS_VERSION_INFO
+StringFileInfo
+040404b0
+CompanyName
+Acer Inc.
+FileDescription
+CheckFiles Application
+FileVersion
+1, 0, 0, 1
+InternalName
+CheckFilles
+LegalCopyright
+ (c) Acer Inc.  All rights reserved.
+OriginalFilename
+CheckFiles.exe
+ProductName
+ CheckFiles
+ProductVersion
+1, 0, 0, 1
+VarFileInfo
+Translation
+CheckFiles
+CHECKFILES
+<<<Obsolete>>
+CrossC

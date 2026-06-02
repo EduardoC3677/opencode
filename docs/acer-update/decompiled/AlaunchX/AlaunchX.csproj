@@ -1,0 +1,147 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>AlaunchX</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="stringresources/stringresources.tr.baml" />
+    <None Remove="pictures/acer/backgrounds/background1920x1080.jpg" />
+    <None Remove="stringresources/stringresources.hu.baml" />
+    <None Remove="window_main.baml" />
+    <None Remove="stringresources/stringresources.hr.baml" />
+    <None Remove="stringresources/stringresources.it.baml" />
+    <None Remove="stringresources/stringresources.cs.baml" />
+    <None Remove="stringresources/stringresources.ro.baml" />
+    <None Remove="pictures/acer/backgrounds/background1366x768.jpg" />
+    <None Remove="pictures/acer/backgrounds/background1440x900.jpg" />
+    <None Remove="stringresources/stringresources.fi.baml" />
+    <None Remove="stringresources/stringresources.pt.baml" />
+    <None Remove="stringresources/stringresources.fr.baml" />
+    <None Remove="pictures/cd.gif" />
+    <None Remove="pictures/acer/backgrounds/background1360x768.jpg" />
+    <None Remove="stringresources/stringresources.bg.baml" />
+    <None Remove="stringresources/stringresources.ko.baml" />
+    <None Remove="pictures/acer/backgrounds/background1600x900.jpg" />
+    <None Remove="stringresources/stringresources.da.baml" />
+    <None Remove="stringresources/stringresources.de.baml" />
+    <None Remove="stringresources/stringresources.pl.baml" />
+    <None Remove="pictures/acer/main.png" />
+    <None Remove="pictures/acer/backgrounds/background1680x945.jpg" />
+    <None Remove="pictures/acer/backgrounds/background1280x960.jpg" />
+    <None Remove="stringresources/stringresources.no.baml" />
+    <None Remove="usercontrol_barmode.baml" />
+    <None Remove="pictures/acer/backgrounds/background800x600.jpg" />
+    <None Remove="stringresources/stringresources.nl.baml" />
+    <None Remove="pictures/backgroundimageg.bmp" />
+    <None Remove="window_hidden.baml" />
+    <None Remove="stringresources/stringresources.el.baml" />
+    <None Remove="stringresources/stringresources.en.baml" />
+    <None Remove="stringresources/stringresources.es.baml" />
+    <None Remove="pictures/acer/backgrounds/backgrounddefault.jpg" />
+    <None Remove="pictures/acer/backgrounds/background1920x1200.jpg" />
+    <None Remove="stringresources/stringresources.et.baml" />
+    <None Remove="stringresources/stringresources.zh-cht.baml" />
+    <None Remove="stringresources/stringresources.zh-chs.baml" />
+    <None Remove="usercontrol_mainarea.baml" />
+    <None Remove="stringresources/stringresources.sv.baml" />
+    <None Remove="pictures/icon-201.ico" />
+    <None Remove="stringresources/stringresources.ja.baml" />
+    <None Remove="window_barmode.baml" />
+    <None Remove="pictures/acer/backgrounds/background1280x768.jpg" />
+    <None Remove="pictures/acer/backgrounds/background1280x1024.jpg" />
+    <None Remove="pictures/acer/backgrounds/background1280x720.jpg" />
+    <None Remove="pictures/acer/installationicon.png" />
+    <None Remove="pictures/acer/backgrounds/background1024x600.jpg" />
+    <None Remove="stringresources/stringresources.sk.baml" />
+    <None Remove="stringresources/stringresources.sl.baml" />
+    <None Remove="window_fullscreen.baml" />
+    <None Remove="stringresources/stringresources.lt.baml" />
+    <None Remove="stringresources/stringresources.ru.baml" />
+    <None Remove="icon-201.ico" />
+    <None Remove="stringresources/stringresources.lv.baml" />
+    <None Remove="pictures/backgroundimage.bmp" />
+    <EmbeddedResource Include="stringresources/stringresources.tr.baml" LogicalName="stringresources/stringresources.tr.baml" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1920x1080.jpg" LogicalName="pictures/acer/backgrounds/background1920x1080.jpg" />
+    <EmbeddedResource Include="stringresources/stringresources.hu.baml" LogicalName="stringresources/stringresources.hu.baml" />
+    <EmbeddedResource Include="window_main.baml" LogicalName="window_main.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.hr.baml" LogicalName="stringresources/stringresources.hr.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.it.baml" LogicalName="stringresources/stringresources.it.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.cs.baml" LogicalName="stringresources/stringresources.cs.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.ro.baml" LogicalName="stringresources/stringresources.ro.baml" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1366x768.jpg" LogicalName="pictures/acer/backgrounds/background1366x768.jpg" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1440x900.jpg" LogicalName="pictures/acer/backgrounds/background1440x900.jpg" />
+    <EmbeddedResource Include="stringresources/stringresources.fi.baml" LogicalName="stringresources/stringresources.fi.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.pt.baml" LogicalName="stringresources/stringresources.pt.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.fr.baml" LogicalName="stringresources/stringresources.fr.baml" />
+    <EmbeddedResource Include="pictures/cd.gif" LogicalName="pictures/cd.gif" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1360x768.jpg" LogicalName="pictures/acer/backgrounds/background1360x768.jpg" />
+    <EmbeddedResource Include="stringresources/stringresources.bg.baml" LogicalName="stringresources/stringresources.bg.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.ko.baml" LogicalName="stringresources/stringresources.ko.baml" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1600x900.jpg" LogicalName="pictures/acer/backgrounds/background1600x900.jpg" />
+    <EmbeddedResource Include="stringresources/stringresources.da.baml" LogicalName="stringresources/stringresources.da.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.de.baml" LogicalName="stringresources/stringresources.de.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.pl.baml" LogicalName="stringresources/stringresources.pl.baml" />
+    <EmbeddedResource Include="pictures/acer/main.png" LogicalName="pictures/acer/main.png" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1680x945.jpg" LogicalName="pictures/acer/backgrounds/background1680x945.jpg" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1280x960.jpg" LogicalName="pictures/acer/backgrounds/background1280x960.jpg" />
+    <EmbeddedResource Include="stringresources/stringresources.no.baml" LogicalName="stringresources/stringresources.no.baml" />
+    <EmbeddedResource Include="usercontrol_barmode.baml" LogicalName="usercontrol_barmode.baml" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background800x600.jpg" LogicalName="pictures/acer/backgrounds/background800x600.jpg" />
+    <EmbeddedResource Include="stringresources/stringresources.nl.baml" LogicalName="stringresources/stringresources.nl.baml" />
+    <EmbeddedResource Include="pictures/backgroundimageg.bmp" LogicalName="pictures/backgroundimageg.bmp" />
+    <EmbeddedResource Include="window_hidden.baml" LogicalName="window_hidden.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.el.baml" LogicalName="stringresources/stringresources.el.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.en.baml" LogicalName="stringresources/stringresources.en.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.es.baml" LogicalName="stringresources/stringresources.es.baml" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/backgrounddefault.jpg" LogicalName="pictures/acer/backgrounds/backgrounddefault.jpg" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1920x1200.jpg" LogicalName="pictures/acer/backgrounds/background1920x1200.jpg" />
+    <EmbeddedResource Include="stringresources/stringresources.et.baml" LogicalName="stringresources/stringresources.et.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.zh-cht.baml" LogicalName="stringresources/stringresources.zh-cht.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.zh-chs.baml" LogicalName="stringresources/stringresources.zh-chs.baml" />
+    <EmbeddedResource Include="usercontrol_mainarea.baml" LogicalName="usercontrol_mainarea.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.sv.baml" LogicalName="stringresources/stringresources.sv.baml" />
+    <EmbeddedResource Include="pictures/icon-201.ico" LogicalName="pictures/icon%201.ico" />
+    <EmbeddedResource Include="stringresources/stringresources.ja.baml" LogicalName="stringresources/stringresources.ja.baml" />
+    <EmbeddedResource Include="window_barmode.baml" LogicalName="window_barmode.baml" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1280x768.jpg" LogicalName="pictures/acer/backgrounds/background1280x768.jpg" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1280x1024.jpg" LogicalName="pictures/acer/backgrounds/background1280x1024.jpg" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1280x720.jpg" LogicalName="pictures/acer/backgrounds/background1280x720.jpg" />
+    <EmbeddedResource Include="pictures/acer/installationicon.png" LogicalName="pictures/acer/installationicon.png" />
+    <EmbeddedResource Include="pictures/acer/backgrounds/background1024x600.jpg" LogicalName="pictures/acer/backgrounds/background1024x600.jpg" />
+    <EmbeddedResource Include="stringresources/stringresources.sk.baml" LogicalName="stringresources/stringresources.sk.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.sl.baml" LogicalName="stringresources/stringresources.sl.baml" />
+    <EmbeddedResource Include="window_fullscreen.baml" LogicalName="window_fullscreen.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.lt.baml" LogicalName="stringresources/stringresources.lt.baml" />
+    <EmbeddedResource Include="stringresources/stringresources.ru.baml" LogicalName="stringresources/stringresources.ru.baml" />
+    <EmbeddedResource Include="icon-201.ico" LogicalName="icon%201.ico" />
+    <EmbeddedResource Include="stringresources/stringresources.lv.baml" LogicalName="stringresources/stringresources.lv.baml" />
+    <EmbeddedResource Include="pictures/backgroundimage.bmp" LogicalName="pictures/backgroundimage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WindowsBase">
+      <HintPath>../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.5/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Xml">
+      <HintPath>../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.5/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Core">
+      <HintPath>../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.5/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

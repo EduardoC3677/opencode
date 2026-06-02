@@ -1,0 +1,198 @@
+!This program cannot be run in DOS mode.
+`.rsrc
+@.reloc
+v4.0.30319
+#Strings
+<Module>
+mscorlib
+GuidAttribute
+DebuggableAttribute
+ComVisibleAttribute
+AssemblyTitleAttribute
+AssemblyTrademarkAttribute
+TargetFrameworkAttribute
+AssemblyFileVersionAttribute
+AssemblyConfigurationAttribute
+AssemblyDescriptionAttribute
+CompilationRelaxationsAttribute
+AssemblyProductAttribute
+AssemblyCopyrightAttribute
+AssemblyCompanyAttribute
+RuntimeCompatibilityAttribute
+AppInRun.exe
+System.Runtime.Versioning
+Program
+System
+System.Reflection
+AppInRun
+System.Diagnostics
+System.Runtime.InteropServices
+System.Runtime.CompilerServices
+DebuggingModes
+Object
+WrapNonExceptionThrows
+AppInRun
+#AppInRun developed by Acer Preload.
+	Acer Inc.
+Acer GAIA AppInRun
+1Copyright (C) 2022 Acer Inc. All rights reserved.
+$5ea3d235-218e-4689-9dc5-bcf56ed40e13
+1.0.0.0
+.NETFramework,Version=v4.7.2
+FrameworkDisplayName
+.NET Framework 4.7.2
+D:\GitLab\GAIAUtility\AppInRun\obj\Release\AppInRun.pdb
+_CorExeMain
+mscoree.dll
+<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <assemblyIdentity version="1.0.0.0" name="MyApplication.app"/>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+    <security>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+  <!-- Indicates that the application is DPI-aware and will not be automatically scaled by Windows at higher
+       DPIs. Windows Presentation Foundation (WPF) applications are automatically DPI-aware and do not need 
+       to opt in. Windows Forms applications targeting .NET Framework 4.6 that opt into this setting, should 
+       also set the 'EnableWindowsFormsHighDpiAutoResizing' setting to 'true' in their app.config. 
+       
+       Makes the application long-path aware. See https://docs.microsoft.com/windows/win32/fileio/maximum-file-path-limitation -->
+  <!--
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+      <longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware>
+    </windowsSettings>
+  </application>
+  <!-- Enable themes for Windows common controls and dialogs (Windows XP and later) -->
+  <!--
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+          type="win32"
+          name="Microsoft.Windows.Common-Controls"
+          version="6.0.0.0"
+          processorArchitecture="*"
+          publicKeyToken="6595b64144ccf1df"
+          language="*"
+        />
+    </dependentAssembly>
+  </dependency>
+</assembly>
+ 7klQN
+GlobalSign nv-sa1
+Root CA1
+GlobalSign Root CA0
+180919000000Z
+280128120000Z0L1 0
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+!http://ocsp.globalsign.com/rootr103
+"http://crl.globalsign.com/root.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign Root CA - R31
+GlobalSign1
+GlobalSign0
+200728000000Z
+290318000000Z0S1
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+p\$x %
+!http://ocsp.globalsign.com/rootr30;
+/http://secure.globalsign.com/cacert/root-r3.crt06
+%http://crl.globalsign.com/root-r3.crl0G
+&https://www.globalsign.com/repository/0
+GlobalSign nv-sa1)0'
+ GlobalSign Code Signing Root R450
+200728000000Z
+300728000000Z0\1
+GlobalSign nv-sa1200
+)GlobalSign GCC R45 EV CodeSigning CA 20200
+-http://ocsp.globalsign.com/codesigningrootr450F
+:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+0http://crl.globalsign.com/codesigningrootr45.crl0U
+&https://www.globalsign.com/repository/0
+wF*=#}(s
+New Jersey1
+Jersey City1
+The USERTRUST Network1.0,
+%USERTrust RSA Certification Authority0
+190502000000Z
+380118235959Z0}1
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA0
+?http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl0v
+3http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt0%
+http://ocsp.usertrust.com0
+rRj;B7|
+[C]e=P
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA0
+201023000000Z
+320122235959Z0
+Greater Manchester1
+Salford1
+Sectigo Limited1,0*
+#Sectigo RSA Time Stamping Signer #20
+#_T	8*b
+https://sectigo.com/CPS0D
+3http://crl.sectigo.com/SectigoRSATimeStampingCA.crl0t
+3http://crt.sectigo.com/SectigoRSATimeStampingCA.crt0#
+http://ocsp.sectigo.com0
+GlobalSign nv-sa1200
+)GlobalSign GCC R45 EV CodeSigning CA 20200
+220218103523Z
+231225074619Z0
+Private Organization1
+208283931
+Taipei1
+Taipei1B0@
+97F.-5, No. 369, Fuxing N. Rd., Minfu Vil., Songshan Dist.1
+Acer Incorporated1
+Acer Incorporated0
+@http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+&https://www.globalsign.com/repository/0
+6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+GlobalSign nv-sa1200
+)GlobalSign GCC R45 EV CodeSigning CA 2020
+Greater Manchester1
+Salford1
+Sectigo Limited1%0#
+Sectigo RSA Time Stamping CA
+220422042543Z0?

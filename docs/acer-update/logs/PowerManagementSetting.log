@@ -1,0 +1,67 @@
+
+
+24/09/2025 19:00:30.01[Log TRACE]  call [c:\OEM\Preload\APP\PowerSettings\PowerManagement.cmd FirstBoot] start 
+
+24/09/2025 19:00:30.01[Log START]  ============ c:\OEM\Preload\APP\PowerSettings\PowerManagement.cmd ============ 
+24/09/2025 19:00:30.02[Log TRACE]  FindingPath is [C:\OEM\Preload\Command\PAP\PAP*.INI] 
+24/09/2025 19:00:30.02[Log TRACE]  find /i "Product=NB" C:\OEM\Preload\Command\PAP\PAP*.INI 
+
+---------- C:\OEM\PRELOAD\COMMAND\PAP\PAP010ZT99X04C21.INI
+Product=NB
+24/09/2025 19:00:30.03[Log TRACE]  find /i "Model Type Name=Veriton" C:\OEM\Preload\Command\PAP\PAP*.INI 
+
+---------- C:\OEM\PRELOAD\COMMAND\PAP\PAP010ZT99X04C21.INI
+24/09/2025 19:00:30.04[Log TRACE]  find /i "Model Type Name=Extensa" C:\OEM\Preload\Command\PAP\PAP*.INI 
+
+---------- C:\OEM\PRELOAD\COMMAND\PAP\PAP010ZT99X04C21.INI
+24/09/2025 19:00:30.05[Log TRACE]  find /i "Model Type Name=Wenxiang" C:\OEM\Preload\Command\PAP\PAP*.INI 
+
+---------- C:\OEM\PRELOAD\COMMAND\PAP\PAP010ZT99X04C21.INI
+24/09/2025 19:00:30.06[Log TRACE]  find /i "Model Type Name=SQ" C:\OEM\Preload\Command\PAP\PAP*.INI 
+
+---------- C:\OEM\PRELOAD\COMMAND\PAP\PAP010ZT99X04C21.INI
+24/09/2025 19:00:30.07[Log TRACE]  find /i "Brand=Founder" C:\OEM\Preload\Command\PAP\PAP*.INI 
+
+---------- C:\OEM\PRELOAD\COMMAND\PAP\PAP010ZT99X04C21.INI
+24/09/2025 19:00:30.08[Log TRACE]  PowerPlan=[Customized Balance] 
+24/09/2025 19:00:30.08[Log TRACE]  call :FirstBoot 
+24/09/2025 19:00:30.08[Log TRACE]  call Sub_DisableS3_LidCloseNoAction.cmd Restore
+
+24/09/2025 19:00:30.09[Log START]  ============ [SUB]c:\OEM\Preload\APP\PowerSettings\Sub_DisableS3_LidCloseNoAction.cmd ============ 
+24/09/2025 19:00:30.09[Log TRACE]  Getting [Customized Balance] GUID... 
+24/09/2025 19:00:30.09[Log TRACE]  Type "Customized Balance.txt" 
+ 32c25055-f8c6-4aa1-9ee2-442e43232a8a  (Equilibrado) 
+24/09/2025 19:00:30.10[Log TRACE]  TargetGUID=[32c25055-f8c6-4aa1-9ee2-442e43232a8a] 
+24/09/2025 19:00:30.10[Log TRACE]  call :Restore 
+24/09/2025 19:00:30.81[Log TRACE]  find /i "Product=NB" C:\OEM\Preload\Command\PAP\PAP*.INI 
+
+---------- C:\OEM\PRELOAD\COMMAND\PAP\PAP010ZT99X04C21.INI
+Product=NB
+24/09/2025 19:00:30.82[Log TRACE]  Powercfg.exe -setACvalueindex Lid Close Action - Sleep 
+24/09/2025 19:00:30.84[Log TRACE]  Powercfg.exe -setDCvalueindex Lid Close Action - Sleep 
+24/09/2025 19:00:30.85[Log TRACE]  type ACSleepIndex.txt 
+600
+24/09/2025 19:00:30.85[Log TRACE]  Powercfg.exe -setACvalueindex 32c25055-f8c6-4aa1-9ee2-442e43232a8a 238c9fa8-0aad-41ed-83f4-97be242c8f20 29f6c1db-86da-48c5-9fdb-f2b67b1f44da 600 
+24/09/2025 19:00:30.87[Log TRACE]  type DCSleepIndex.txt 
+600
+24/09/2025 19:00:30.87[Log TRACE]  Powercfg.exe -setDCvalueindex 32c25055-f8c6-4aa1-9ee2-442e43232a8a 238c9fa8-0aad-41ed-83f4-97be242c8f20 29f6c1db-86da-48c5-9fdb-f2b67b1f44da 600 
+24/09/2025 19:00:31.63[Log TRACE]  POWERCFG /l 
+
+Combinaciones de energ¡a existentes (* activas)
+------------------------------------------------
+GUID de plan de energ¡a: 32c25055-f8c6-4aa1-9ee2-442e43232a8a  (Acer) *
+GUID de plan de energ¡a: 381b4222-f694-41f0-9685-ff5bb260df2e  (Equilibrado)
+24/09/2025 19:00:31.84[Log TRACE]  call Sub_ActivePowerPlan.cmd 
+
+24/09/2025 19:00:31.84[Log START]  ============ [SUB]c:\OEM\Preload\APP\PowerSettings\Sub_ActivePowerPlan.cmd ============ 
+24/09/2025 19:00:31.85[Log TRACE]  Active Customized Balance 
+24/09/2025 19:00:31.86[Log TRACE]  POWERCFG -SETACTIVE 32c25055-f8c6-4aa1-9ee2-442e43232a8a 
+24/09/2025 19:00:31.89[Log LEAVE]  ============ [SUB]c:\OEM\Preload\APP\PowerSettings\Sub_ActivePowerPlan.cmd ============ 
+
+24/09/2025 19:00:31.90[Log LEAVE]  ============ [SUB]c:\OEM\Preload\APP\PowerSettings\Sub_DisableS3_LidCloseNoAction.cmd ============ 
+24/09/2025 19:00:31.90[Log LEAVE]  ============ c:\OEM\Preload\APP\PowerSettings\PowerManagement.cmd ============ 
+
+24/09/2025 19:00:31.91[Log TRACE]  rd c:\OEM\Preload\APP\PowerSettings in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt
+24/09/2025 19:00:31.93[Log TRACE]  call [c:\OEM\Preload\APP\PowerSettings\PowerManagement.cmd FirstBoot] finish 
+
+

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "priority": "500",
+    "ended": "1",
+    "logged": "2050-0"
+  },
+  "states": [
+    {
+      "state": 2000,
+      "status": 0,
+      "data": {}
+    },
+    {
+      "state": 2010,
+      "status": 0,
+      "data": {
+        "countdown": "5"
+      }
+    },
+    {
+      "state": 2020,
+      "status": 0,
+      "data": {
+        "countdown": "3"
+      }
+    },
+    {
+      "state": 2030,
+      "status": 0,
+      "data": {
+        "countdown": "5"
+      }
+    },
+    {
+      "state": 2040,
+      "status": 0,
+      "data": {
+        "countdown": "3"
+      }
+    },
+    {
+      "state": 2050,
+      "status": 0,
+      "data": {
+        "countdown": "2"
+      }
+    }
+  ],
+  "index": 5
+}
