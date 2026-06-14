@@ -1,0 +1,20 @@
+
+
+24/09/2025 19:00:29.91[Log TRACE]  call C:\OEM\Preload\APP\UEIPFramework\5.00.3018\DetectUserChoices_WN.cmd start
+ 
+24/09/2025 19:00:29.92[Log START]  ============ C:\OEM\Preload\APP\UEIPFramework\5.00.3018\DetectUserChoices_WN.cmd ============ 
+24/09/2025 19:00:29.92[Log TRACE]  Cscript.exe /nologo DetectUserChoices_WN.vbs 
+Got the userChoice text =[true]
+Checkbox is true, Create C:\ProgramData\OEM\User Experience Improvement Program\Config\EnabledUEIP.dat
+24/09/2025 19:00:29.95[Log TRACE]  copy /y c:\windows\system32\oobe\INFO\userchoices.xml c:\Recovery\OEM\RestoreOEMCustomize\OOBE\Info 
+        1 archivo(s) copiado(s).
+24/09/2025 19:00:29.95[Log TRACE]  EnabledUEIP.dat found, schtasks /CHANGE /TN "UbtFrameworkService" /ENABLE 
+Correcto: se han cambiado los par metros de Tareas programadas "UbtFrameworkService".
+24/09/2025 19:00:29.98[Log TRACE]  EnabledUEIP.dat found, reg import JoinUEIP.REG 
+La operaci¢n se complet¢ correctamente.
+24/09/2025 19:00:29.99[Log LEAVE]  ============ C:\OEM\Preload\APP\UEIPFramework\5.00.3018\DetectUserChoices_WN.cmd ============ 
+ 
+24/09/2025 19:00:29.99[Log TRACE]  rd /s /q C:\OEM\Preload\APP\UEIPFramework in C:\OEM\Preload\DPOP\CLEANUP\DeleteFolderList.txt 
+24/09/2025 19:00:30.00[Log TRACE]  call C:\OEM\Preload\APP\UEIPFramework\5.00.3018\DetectUserChoices_WN.cmd finish
+
+

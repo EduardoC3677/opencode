@@ -1,0 +1,5 @@
+2026-04-23 10:51:45.990 [00014104] [T] LiveUpdateChecker.App::App()
+2026-04-23 10:51:46.052 [00014104] [T] LiveUpdateChecker.App::LoadResource()
+2026-04-23 10:51:46.753 [00014104] [T] LiveUpdateChecker.App::IsSingleInstance()
+2026-04-23 10:51:46.757 [00014104] [T] LiveUpdateChecker.SingleInstance::SingleInstance()
+2026-04-23 10:51:47.279 [00014104] [T] LiveUpdateChecker.MainWindow::MainWindow()

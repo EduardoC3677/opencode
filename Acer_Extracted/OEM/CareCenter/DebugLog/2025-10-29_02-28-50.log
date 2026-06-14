@@ -1,0 +1,9 @@
+2025-10-29 02:28:50.263 [00014624] [T] LiveUpdateChecker.App::App()
+2025-10-29 02:28:50.269 [00014624] [T] LiveUpdateChecker.App::LoadResource()
+2025-10-29 02:28:50.303 [00014624] [T] LiveUpdateChecker.App::IsSingleInstance()
+2025-10-29 02:28:50.305 [00014624] [T] LiveUpdateChecker.SingleInstance::SingleInstance()
+2025-10-29 02:28:50.377 [00014624] [D] LiveUpdateChecker.App::App(): The network is disconnected.
+2025-10-29 02:28:50.388 [00016032] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex()
+2025-10-29 02:28:50.400 [00016032] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex(), Exception: System.ApplicationException: El método de sincronización del objeto se ha llamado desde un bloque de códigos sin sincronizar.
+   en System.Threading.Mutex.ReleaseMutex()
+   en Acer.CareCenter.LiveUpdateChecker.SingleInstance.ReleaseMutex()

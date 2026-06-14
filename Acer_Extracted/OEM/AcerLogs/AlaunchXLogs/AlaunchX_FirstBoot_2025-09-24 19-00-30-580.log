@@ -1,0 +1,45 @@
+2025-09-24 19:00:30.586	[Info]	[App.Application_Startup()]	AlaunchX v11.0.0.1 starts
+2025-09-24 19:00:30.587	[Info]	[App.Application_Startup()]	Current phase: FirstBoot
+2025-09-24 19:00:30.588	[Info]	[App.Application_Startup()]	Delete c:\OEM\preload\command\alaunchx\Shutdown.tag
+2025-09-24 19:00:30.617	[Trace]	[CommandLine..ctor()]		Command: del /q /f "c:\OEM\preload\command\alaunchx\Shutdown.tag"
+2025-09-24 19:00:30.639	[Trace]	[CommandLine.OutputDataHandler()]		Output: Microsoft Windows [Versi¢n 10.0.22631.5909]
+2025-09-24 19:00:30.640	[Trace]	[CommandLine.OutputDataHandler()]		Output: (c) Microsoft Corporation. Todos los derechos reservados.
+2025-09-24 19:00:30.641	[Trace]	[CommandLine.OutputDataHandler()]		Output: 
+2025-09-24 19:00:30.642	[Trace]	[CommandLine.OutputDataHandler()]		Output: C:\OEM\Preload\DPOP\OEMCustomize>del /q /f "c:\OEM\preload\command\alaunchx\Shutdown.tag"
+2025-09-24 19:00:30.642	[Trace]	[CommandLine.OutputDataHandler()]		Output: 
+2025-09-24 19:00:30.643	[Trace]	[CommandLine.OutputDataHandler()]		Output: C:\OEM\Preload\DPOP\OEMCustomize>exit
+2025-09-24 19:00:30.644	[Trace]	[CommandLine..ctor()]		CommandLine ExitCode=0
+2025-09-24 19:00:30.644	[Info]	[App.Application_Startup()]	Load c:\OEM\preload\command\alaunchx\WOSList.xml
+2025-09-24 19:00:30.822	[Info]	[App.Application_Startup()]	Load c:\OEM\preload\command\alaunchx\Lang.xml
+2025-09-24 19:00:30.834	[Info]	[App.Application_Startup()]	Load C:\OEM\Preload\Command\APBundlePolicy.xml
+2025-09-24 19:00:30.869	[Info]	[Utility.IsAfterOOBE()]	Image state is: IMAGE_STATE_COMPLETE
+2025-09-24 19:00:30.869	[Info]	[App.Application_Startup()]	IsAfterOOBE: True
+2025-09-24 19:00:30.871	[Info]	[Utility.GetArchitecture()]	processMachine: 0x14C, nativeMachine: 0x8664
+2025-09-24 19:00:30.871	[Info]	[App.Application_Startup()]	Process architecture: x86, OS architecture: AMD64
+2025-09-24 19:00:35.361	[Info]	[Window_Hidden.Loaded_Window_Hidden()]	Window style: Hidden
+2025-09-24 19:00:35.376	[Info]	[Utility.ProcessModulesInstallation()]	Read answer file: c:\OEM\preload\command\alaunchx\FirstBoot.ini
+2025-09-24 19:00:35.460	[Info]	[Utility.ProcessModulesInstallation()]	---------------------------------------------------------------------------
+2025-09-24 19:00:35.461	[Info]	[Utility.ProcessModulesInstallation()]	Now processing [Action1]
+2025-09-24 19:00:35.483	[Info]	[Utility.InstallSingleModule()]	Module PN: MOD01S008P00920002
+2025-09-24 19:00:35.485	[Info]	[Utility.InstallSingleModule()]	Module path: C:\OEM\Preload\DPOP\DiskSettings
+2025-09-24 19:00:35.486	[Info]	[Utility.InstallSingleModule()]	Set Result=-1 before installation
+2025-09-24 19:00:35.563	[Info]	[Utility.InstallSingleModule()]	Read C:\OEM\Preload\DPOP\DiskSettings\MOD01S008P00920002.enc successfully
+2025-09-24 19:00:35.566	[Info]	[Utility.InstallSingleModule()]	Module name: [DPOP] Disk Settings
+2025-09-24 19:00:35.568	[Info]	[Utility.InstallSingleModule()]	===== Now handling process 1 =====
+2025-09-24 19:00:35.569	[Info]	[Utility.InstallSingleModule()]	Pass. Process install period is match(FirstBoot)
+2025-09-24 19:00:35.572	[Info]	[Utility.RunCmdWithoutOutputRedirection()]	*** Execute "C:\OEM\Preload\DPOP\DiskSettings\DiskSettings.cmd" FirstBoot
+2025-09-24 19:00:35.621	[Info]	[Utility.InstallSingleModule()]	ExitCode is: 0
+2025-09-24 19:00:35.622	[Info]	[Utility.InstallSingleModule()]	===== Now handling process 2 =====
+2025-09-24 19:00:35.623	[Info]	[Utility.InstallSingleModule()]	Skip. Process install period is not match(UserAlaunch)
+2025-09-24 19:00:35.639	[Info]	[Utility.ProcessModulesInstallation()]	Delete C:\OEM\Preload\DPOP\DiskSettings for Delete=True
+2025-09-24 19:00:35.647	[Trace]	[CommandLine..ctor()]		Command: rd /q /s "C:\OEM\Preload\DPOP\DiskSettings" || rem
+2025-09-24 19:00:35.666	[Trace]	[CommandLine.OutputDataHandler()]		Output: Microsoft Windows [Versi¢n 10.0.22631.5909]
+2025-09-24 19:00:35.667	[Trace]	[CommandLine.OutputDataHandler()]		Output: (c) Microsoft Corporation. Todos los derechos reservados.
+2025-09-24 19:00:35.668	[Trace]	[CommandLine.OutputDataHandler()]		Output: 
+2025-09-24 19:00:35.669	[Trace]	[CommandLine.OutputDataHandler()]		Output: c:\OEM\Preload\Command\AlaunchX>rd /q /s "C:\OEM\Preload\DPOP\DiskSettings" || rem
+2025-09-24 19:00:35.669	[Trace]	[CommandLine.OutputDataHandler()]		Output: 
+2025-09-24 19:00:35.670	[Trace]	[CommandLine.OutputDataHandler()]		Output: c:\OEM\Preload\Command\AlaunchX>exit
+2025-09-24 19:00:35.672	[Trace]	[CommandLine..ctor()]		CommandLine ExitCode=0
+2025-09-24 19:00:35.673	[Info]	[Utility.ProcessModulesInstallation()]	Delete C:\OEM\Preload\DPOP\DiskSettings successfully
+2025-09-24 19:00:35.674	[Info]	[Utility.ProcessModulesInstallation()]	Write Done=1 into c:\OEM\preload\command\alaunchx\FirstBoot.ini
+2025-09-24 19:00:35.683	[Info]	[Utility.ProcessModulesInstallation()]	All modules are processed

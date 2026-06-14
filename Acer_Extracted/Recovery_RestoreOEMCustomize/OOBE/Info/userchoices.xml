@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<oobe>
+	<oemdata>
+		<checkbox1>
+			<label>Acceder a registrar este dispositivo con mi AcerID (se creará uno si aún no se ha registrado una dirección de correo electrónico)</label>
+			<value>false</value>
+		</checkbox1>
+		<checkbox2>
+			<label>Aceptar recibir ofertas y actualizaciones de Acer</label>
+			<value>false</value>
+		</checkbox2>
+		<checkbox3>
+			<label>Permitir que Acer comparta mis datos de contacto con McAfee para recibir actualizaciones sobre el software de seguridad preinstalado de este dispositivo</label>
+			<value>false</value>
+		</checkbox3>
+		<customerinfo>
+			<label>Permitir que Acer proporcione un mejor servicio de soporte para potenciar la experiencia de uso del dispositivo a través del Programa de mejora de la experiencia del usuario (acepte sus Términos de uso)</label>
+			<value>true</value>
+		</customerinfo>
+	</oemdata>
+</oobe>

@@ -1,0 +1,9 @@
+C:\OEM
+c:\intel
+c:\sources
+c:\efi
+C:\TempHidden
+c:\Perflogs
+c:\logs
+c:\amd
+c:\Recovery

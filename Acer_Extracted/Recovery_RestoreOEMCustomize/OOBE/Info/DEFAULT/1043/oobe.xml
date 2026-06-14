@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Bescherm je apparaat
+</title><subtitle>
+Met jouw toestemming registreert Acer dit apparaat onder je Acer ID met de informatie die je met Microsoft hebt gedeeld of hier hebt verstrekt (optioneel). Je kunt de registratie ook overslaan door de informatievelden leeg te laten. Lees het privacybeleid van Acer, dat hieronder beschikbaar is. 
+</subtitle><customerinfo><label>
+Ik accepteer de gebruiksvoorwaarden voor het User Experience Improvement Program en help zo Acer betere ondersteuning te bieden en de gebruikservaring van apparaten te verbeteren
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Ik ga ermee akkoord dit apparaat te registreren onder mijn Acer ID (deze wordt gemaakt als het e-mailadres nog niet is geregistreerd)
+</label></checkbox1><checkbox2><label>
+Ik stem in met de ontvangst van aanbiedingen en updates van Acer
+</label></checkbox2><checkbox3><label>
+Acer toestemming geven mijn contactgegevens te delen met McAfee om updates te ontvangen over de voorgeïnstalleerde beveiligingssoftware van dit apparaat
+</label></checkbox3><link1><label>
+OPMERKING:  Acer gebruikt deze informatie pas nadat je ons hiervoor toestemming hebt gegeven op de volgende pagina.  Raadpleeg het privacybeleid van Acer voor informatie over hoe Acer je gegevens gebruikt en beschermt.
+</label></link1><link2><label>
+Lees de gebruiksvoorwaarden voor het Acer User Experience Improvement Program. Ga naar www.acer.com/legal voor actuele juridische informatie van Acer
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

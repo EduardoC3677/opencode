@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+Aizsargājiet savu ierīci
+</title><subtitle>
+Ar jūsu piekrišanu Acer reģistrēs šo ierīci jūsu Acer ID kontā, izmantojot informāciju, ko kopīgojat ar Microsoft, vai sniedzat šeit (pēc izvēles). Varat arī izlaist reģistrāciju, informācijas laukus atstājot tukšus. Lūdzu, izlasiet Acer konfidencialitātes politiku, kas pieejama tālāk. 
+</subtitle><customerinfo><label>
+Ļaujiet Acer sniegt paplašinātu atbalstu un uzlabot ierīces lietošanas pieredzi, izmantojot Lietotāju pieredzes uzlabošanas programmu, un piekrītiet lietošanas noteikumiem
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+Piekrītu reģistrēt šo ierīci manā Acer ID kontā (tas tiks izveidots, ja e-pasta adrese vēl nav reģistrēta)
+</label></checkbox1><checkbox2><label>
+Piekrītu saņemt piedāvājumus un atjauninājumus no Acer
+</label></checkbox2><checkbox3><label>
+Atļaut Acer kopīgot manu kontaktinformāciju ar McAfee, lai saņemtu jaunumus par šīs ierīces pirminstalētās drošības programmatūru
+</label></checkbox3><link1><label>
+PIEZĪME  Acer neizmantos šo informāciju, kamēr nebūsit sniedzis atļauju nākamajā lapā.  Lūdzu, skatiet Acer konfidencialitātes politiku par to, kā Acer izmanto un aizsargā jūsu informāciju.
+</label></link1><link2><label>
+Lasīt Acer Lietotāju pieredzes uzlabošanas programmas lietošanas noteikumus. Apmeklējiet vietni www.acer.com/legal, lai skatītu pašreizējo Acer juridisko informāciju
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>

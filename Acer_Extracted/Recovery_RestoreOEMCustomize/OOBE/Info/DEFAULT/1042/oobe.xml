@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FirstExperience><oobe><oem><registration><title>
+사용자 장치 보호
+</title><subtitle>
+귀하의 동의에 따라, Acer는 귀하가 Microsoft에 공유했거나 여기에 제공하는 정보를 사용하여 귀하의 Acer ID에 이 장치를 등록합니다(선택 사항). 정보 입력창을 비워 두고 등록을 건너뛸 수도 있습니다. 아래에서 Acer의 개인정보 보호정책을 확인하세요. 
+</subtitle><customerinfo><label>
+Acer가 사용자 경험 개선 프로그램을 통해 향상된 지원을 제공하고 장치 사용 경험을 개선하도록 허용하며 이용 약관에 동의합니다.
+</label><showPhoneNumber>True</showPhoneNumber></customerinfo><checkbox1><label>
+내 AcerID에 이 장치를 등록하는 데 동의합니다(등록된 이메일 주소가 없는 경우 AcerID가 생성됨)
+</label></checkbox1><checkbox2><label>
+Acer에서 제공하는 혜택 및 업데이트를 받는 데 동의합니다
+</label></checkbox2><checkbox3><label>
+이 기기에 사전 설치된 보안 소프트웨어의 업데이트를 받기 위해, Acer가 본인의 연락처 정보를 McAfee과 공유하는 것을 허용합니다.
+</label></checkbox3><link1><label>
+참고:  Acer는 귀하가 다음 페이지에서 승인하기 전까지 이 정보를 사용하지 않습니다.  Acer가 귀하의 정보를 어떻게 사용하고 보호하는지에 관해서는 Acer의 개인정보 보호정책을 참조하세요.
+</label></link1><link2><label>
+Acer 사용자 경험 개선 프로그램의 이용 약관을 읽어 보세요. Acer의 최신 법적 정보를 보려면 www.acer.com/legal에 방문하세요.
+</label></link2></registration><eulafilename>agreement.rtf</eulafilename></oem><defaults>
+			<moveRegionalSettingsAfterLanguage>True</moveRegionalSettingsAfterLanguage>
+			<timezone>Central Standard Time (Mexico)</timezone>
+			<location>166</location>
+			<locale>2058</locale>
+			<keyboard>080A:0000080A</keyboard>
+			<adjustForDST>True</adjustForDST>
+			<hideTimeAndDate>false</hideTimeAndDate>
+		</defaults>
+	</oobe></FirstExperience>
